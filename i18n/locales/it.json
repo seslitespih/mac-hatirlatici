@@ -1,0 +1,66 @@
+{
+  "tabs": {
+    "matches": "Partite",
+    "teams": "Le Mie Squadre",
+    "settings": "Impostazioni"
+  },
+  "matches": {
+    "title": "Programma Partite",
+    "today": "Oggi",
+    "tomorrow": "Domani",
+    "noMatches": "Nessuna partita oggi",
+    "noFavoriteMatches": "Nessuna partita per le tue squadre preferite",
+    "allMatches": "Tutte le Partite",
+    "favoriteMatches": "Le Mie Squadre",
+    "live": "IN DIRETTA",
+    "channel": "Canale",
+    "startsIn": "minuti all'inizio"
+  },
+  "teams": {
+    "title": "Seleziona Squadre",
+    "search": "Cerca squadre...",
+    "selected": "selezionato",
+    "noTeams": "Nessuna squadra trovata",
+    "infoText": "Riceverai una notifica 15 minuti prima delle partite delle squadre selezionate.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Champions League",
+      "national": "Nazionali"
+    }
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "language": "Lingua",
+    "notifications": "Notifiche",
+    "notificationsDesc": "Ricevi una notifica 15 minuti prima dell'inizio della partita",
+    "theme": "Tema",
+    "dark": "Scuro",
+    "light": "Chiaro",
+    "about": "Informazioni",
+    "version": "Versione",
+    "selectLanguage": "Seleziona Lingua",
+    "notificationEnabled": "Notifiche Attivate",
+    "notificationDisabled": "Notifiche Disattivate",
+    "permissionWarning": "Permesso notifiche negato. Abilitalo nelle impostazioni dell'app.",
+    "country": "Paese / Regione di Trasmissione",
+    "countryDesc": "I canali mostrati per ogni partita dipendono dal tuo paese selezionato.",
+    "selectCountry": "Seleziona Paese"
+  },
+  "notification": {
+    "title": "⚽ Promemoria Partita",
+    "body": "{{home}} - {{away}} inizia tra 15 minuti su {{channel}}!",
+    "bodyNoChannel": "{{home}} - {{away}} inizia tra 15 minuti!"
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Si è verificato un errore",
+    "retry": "Riprova",
+    "save": "Salva",
+    "cancel": "Annulla"
+  }
+}

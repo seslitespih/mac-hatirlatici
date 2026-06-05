@@ -1,0 +1,66 @@
+{
+  "tabs": {
+    "matches": "المباريات",
+    "teams": "فرقي",
+    "settings": "الإعدادات"
+  },
+  "matches": {
+    "title": "جدول المباريات",
+    "today": "اليوم",
+    "tomorrow": "غداً",
+    "noMatches": "لا توجد مباريات اليوم",
+    "noFavoriteMatches": "لا توجد مباريات لفرقك المفضلة",
+    "allMatches": "جميع المباريات",
+    "favoriteMatches": "فرقي",
+    "live": "مباشر",
+    "channel": "القناة",
+    "startsIn": "دقيقة على البداية"
+  },
+  "teams": {
+    "title": "اختر الفرق",
+    "search": "ابحث عن الفرق...",
+    "selected": "محدد",
+    "noTeams": "لم يتم العثور على فرق",
+    "infoText": "ستتلقى إشعاراً قبل 15 دقيقة من مباريات الفرق المختارة.",
+    "leagues": {
+      "superlig": "الدوري التركي",
+      "premier": "الدوري الإنجليزي",
+      "laliga": "الدوري الإسباني",
+      "bundesliga": "الدوري الألماني",
+      "seriea": "الدوري الإيطالي",
+      "ligue1": "الدوري الفرنسي",
+      "champions": "دوري أبطال أوروبا",
+      "national": "المنتخبات الوطنية"
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "notifications": "الإشعارات",
+    "notificationsDesc": "تلقي إشعار قبل 15 دقيقة من بدء المباراة",
+    "theme": "المظهر",
+    "dark": "داكن",
+    "light": "فاتح",
+    "about": "حول",
+    "version": "الإصدار",
+    "selectLanguage": "اختر اللغة",
+    "notificationEnabled": "الإشعارات مفعّلة",
+    "notificationDisabled": "الإشعارات معطّلة",
+    "permissionWarning": "تم رفض إذن الإشعارات. يرجى تفعيله من إعدادات التطبيق.",
+    "country": "الدولة / منطقة البث",
+    "countryDesc": "تُعرض القنوات لكل مباراة بحسب الدولة التي اخترتها.",
+    "selectCountry": "اختر الدولة"
+  },
+  "notification": {
+    "title": "⚽ تذكير بالمباراة",
+    "body": "{{home}} - {{away}} تبدأ بعد 15 دقيقة على {{channel}}!",
+    "bodyNoChannel": "{{home}} - {{away}} تبدأ بعد 15 دقيقة!"
+  },
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ",
+    "retry": "إعادة المحاولة",
+    "save": "حفظ",
+    "cancel": "إلغاء"
+  }
+}

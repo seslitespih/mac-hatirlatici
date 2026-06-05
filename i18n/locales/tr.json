@@ -1,0 +1,66 @@
+{
+  "tabs": {
+    "matches": "Maçlar",
+    "teams": "Takımlarım",
+    "settings": "Ayarlar"
+  },
+  "matches": {
+    "title": "Maç Programı",
+    "today": "Bugün",
+    "tomorrow": "Yarın",
+    "noMatches": "Bu gün için maç yok",
+    "noFavoriteMatches": "Favori takımlarınızın maçı yok",
+    "allMatches": "Tüm Maçlar",
+    "favoriteMatches": "Takımlarım",
+    "live": "CANLI",
+    "channel": "Kanal",
+    "startsIn": "dakika sonra başlıyor"
+  },
+  "teams": {
+    "title": "Takım Seç",
+    "search": "Takım ara...",
+    "selected": "seçili",
+    "noTeams": "Takım bulunamadı",
+    "infoText": "Seçtiğiniz takımların maçından 15 dakika önce bildirim alacaksınız.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Şampiyonlar Ligi",
+      "national": "Milli Takımlar"
+    }
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "language": "Dil",
+    "notifications": "Bildirimler",
+    "notificationsDesc": "Maç başlamadan 15 dakika önce bildirim al",
+    "theme": "Tema",
+    "dark": "Karanlık",
+    "light": "Aydınlık",
+    "about": "Hakkında",
+    "version": "Versiyon",
+    "selectLanguage": "Dil Seç",
+    "notificationEnabled": "Bildirimler Açık",
+    "notificationDisabled": "Bildirimler Kapalı",
+    "permissionWarning": "Bildirim izni verilmedi. Lütfen uygulama ayarlarından izin verin.",
+    "country": "Ülke / Yayın Bölgesi",
+    "countryDesc": "Maçların hangi kanalda yayınlandığı ülkenize göre gösterilir.",
+    "selectCountry": "Ülke Seç"
+  },
+  "notification": {
+    "title": "⚽ Maç Hatırlatıcısı",
+    "body": "{{home}} - {{away}} maçı 15 dakika sonra {{channel}}'da başlıyor!",
+    "bodyNoChannel": "{{home}} - {{away}} maçı 15 dakika sonra başlıyor!"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar Dene",
+    "save": "Kaydet",
+    "cancel": "İptal"
+  }
+}

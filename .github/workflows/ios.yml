@@ -1,0 +1,152 @@
+name: iOS App Store Build
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select Xcode version
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Expo prebuild (iOS native proje oluştur)
+        run: npx expo prebuild --platform ios --clean
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
+      - name: CocoaPods install
+        run: |
+          cd ios
+          pod install --repo-update
+
+      - name: Set up App Store Connect API key
+        env:
+          ASC_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.appstoreconnect/private_keys
+          printf '%s' "$ASC_PRIVATE_KEY" > \
+            ~/.appstoreconnect/private_keys/AuthKey_A89KB92H94.p8
+          chmod 600 ~/.appstoreconnect/private_keys/AuthKey_A89KB92H94.p8
+
+      - name: Install certificate and setup provisioning profile
+        env:
+          CERTIFICATE_BASE64: ${{ secrets.APP_STORE_CERTIFICATE_BASE64 }}
+          CERTIFICATE_PASSWORD: ${{ secrets.APP_STORE_CERTIFICATE_PASSWORD }}
+          KEYCHAIN_PASSWORD: ${{ github.run_id }}-kc
+          APP_STORE_CONNECT_KEY_IDENTIFIER: A89KB92H94
+          APP_STORE_CONNECT_ISSUER_ID: c62db938-88be-40a4-94d5-0542ba1512ff
+          APP_STORE_CONNECT_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
+        run: |
+          pip install codemagic-cli-tools cryptography -q
+
+          CERT_PATH=$RUNNER_TEMP/cert.p12
+          KEYCHAIN_PATH=$RUNNER_TEMP/app-signing.keychain-db
+
+          echo -n "$CERTIFICATE_BASE64" | base64 --decode -o $CERT_PATH
+
+          security create-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
+          security set-keychain-settings -lut 21600 $KEYCHAIN_PATH
+          security unlock-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
+          security list-keychains -d user -s $KEYCHAIN_PATH \
+            $(security list-keychains -d user | tr -d '"')
+          security import $CERT_PATH -k $KEYCHAIN_PATH \
+            -P "$CERTIFICATE_PASSWORD" -T /usr/bin/codesign
+          security set-key-partition-list \
+            -S apple-tool:,apple:,codesign: -s -k "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
+
+          # P12'den temiz RSA key çek (Bag Attributes olmadan)
+          openssl pkcs12 -in $CERT_PATH -nocerts -nodes \
+            -legacy -passin "pass:$CERTIFICATE_PASSWORD" 2>/dev/null | \
+            openssl rsa -out /tmp/cert_key.pem 2>/dev/null || \
+          openssl pkcs12 -in $CERT_PATH -nocerts -nodes \
+            -passin "pass:$CERTIFICATE_PASSWORD" 2>/dev/null | \
+            openssl rsa -out /tmp/cert_key.pem 2>/dev/null
+
+          CERT_KEY=$(cat /tmp/cert_key.pem)
+          rm $CERT_PATH /tmp/cert_key.pem
+
+          export CERTIFICATE_PRIVATE_KEY="$CERT_KEY"
+          keychain initialize
+          app-store-connect fetch-signing-files com.machatirlatici.app \
+            --type IOS_APP_STORE \
+            --create
+          keychain add-certificates
+          xcode-project use-profiles
+
+      - name: Detect Xcode workspace & scheme
+        run: |
+          WS=$(find ios -name "*.xcworkspace" -maxdepth 2 | grep -v "Pods" | head -1)
+          SCHEME=$(basename "$WS" .xcworkspace)
+          echo "WORKSPACE=$WS"  >> $GITHUB_ENV
+          echo "SCHEME=$SCHEME" >> $GITHUB_ENV
+          echo "Workspace: $WS — Scheme: $SCHEME"
+
+      - name: Xcode archive
+        run: |
+          xcodebuild archive \
+            -workspace "$WORKSPACE" \
+            -scheme "$SCHEME" \
+            -configuration Release \
+            -archivePath "$RUNNER_TEMP/HangiKanalda.xcarchive" \
+            -sdk iphoneos \
+            -destination "generic/platform=iOS" \
+            | xcpretty --simple
+
+      - name: Export & sign IPA
+        run: |
+          PROFILE_NAME=$(security cms -D -i \
+            "$RUNNER_TEMP/HangiKanalda.xcarchive/Products/Applications/$SCHEME.app/embedded.mobileprovision" \
+            2>/dev/null | plutil -extract Name raw - 2>/dev/null || echo "")
+
+          printf '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">\n<plist version="1.0"><dict><key>method</key><string>app-store-connect</string><key>teamID</key><string>HJ55A5P4J8</string><key>signingStyle</key><string>manual</string><key>provisioningProfiles</key><dict><key>com.machatirlatici.app</key><string>%s</string></dict></dict></plist>\n' \
+            "$PROFILE_NAME" > /tmp/ExportOptions.plist
+
+          xcodebuild -exportArchive \
+            -archivePath "$RUNNER_TEMP/HangiKanalda.xcarchive" \
+            -exportPath "$RUNNER_TEMP/ipa" \
+            -exportOptionsPlist /tmp/ExportOptions.plist \
+            | xcpretty --simple
+
+      - name: Upload to App Store Connect
+        run: |
+          xcrun altool --upload-app \
+            --type ios \
+            --file "$(find "$RUNNER_TEMP/ipa" -name '*.ipa' | head -1)" \
+            --apiKey "A89KB92H94" \
+            --apiIssuer "c62db938-88be-40a4-94d5-0542ba1512ff" \
+            --apiPrivateKeyFile \
+              "$HOME/.appstoreconnect/private_keys/AuthKey_A89KB92H94.p8"
+
+      - name: Upload IPA as artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HangiKanalda-${{ github.run_number }}.ipa
+          path: ${{ runner.temp }}/ipa/*.ipa
+          retention-days: 14
+
+      - name: Clean up
+        if: always()
+        run: |
+          security delete-keychain $RUNNER_TEMP/app-signing.keychain-db 2>/dev/null || true
+          keychain delete 2>/dev/null || true
+          rm -rf ~/.appstoreconnect /tmp/ExportOptions.plist 2>/dev/null || true

@@ -1,0 +1,66 @@
+{
+  "tabs": {
+    "matches": "Jogos",
+    "teams": "Meus Times",
+    "settings": "Configurações"
+  },
+  "matches": {
+    "title": "Programação de Jogos",
+    "today": "Hoje",
+    "tomorrow": "Amanhã",
+    "noMatches": "Sem jogos hoje",
+    "noFavoriteMatches": "Sem jogos dos seus times favoritos",
+    "allMatches": "Todos os Jogos",
+    "favoriteMatches": "Meus Times",
+    "live": "AO VIVO",
+    "channel": "Canal",
+    "startsIn": "minutos para o início"
+  },
+  "teams": {
+    "title": "Selecionar Times",
+    "search": "Buscar times...",
+    "selected": "selecionado",
+    "noTeams": "Nenhum time encontrado",
+    "infoText": "Você receberá uma notificação 15 minutos antes dos jogos dos times selecionados.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Liga dos Campeões",
+      "national": "Seleções Nacionais"
+    }
+  },
+  "settings": {
+    "title": "Configurações",
+    "language": "Idioma",
+    "notifications": "Notificações",
+    "notificationsDesc": "Receba notificações 15 minutos antes do jogo",
+    "theme": "Tema",
+    "dark": "Escuro",
+    "light": "Claro",
+    "about": "Sobre",
+    "version": "Versão",
+    "selectLanguage": "Selecionar Idioma",
+    "notificationEnabled": "Notificações Ativadas",
+    "notificationDisabled": "Notificações Desativadas",
+    "permissionWarning": "Permissão de notificação negada. Ative nas configurações do app.",
+    "country": "País / Região de Transmissão",
+    "countryDesc": "Os canais de cada jogo são exibidos conforme o seu país selecionado.",
+    "selectCountry": "Selecionar País"
+  },
+  "notification": {
+    "title": "⚽ Lembrete de Jogo",
+    "body": "{{home}} - {{away}} começa em 15 minutos na {{channel}}!",
+    "bodyNoChannel": "{{home}} - {{away}} começa em 15 minutos!"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Ocorreu um erro",
+    "retry": "Tentar novamente",
+    "save": "Salvar",
+    "cancel": "Cancelar"
+  }
+}

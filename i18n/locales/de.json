@@ -1,0 +1,66 @@
+{
+  "tabs": {
+    "matches": "Spiele",
+    "teams": "Meine Teams",
+    "settings": "Einstellungen"
+  },
+  "matches": {
+    "title": "Spielplan",
+    "today": "Heute",
+    "tomorrow": "Morgen",
+    "noMatches": "Keine Spiele heute",
+    "noFavoriteMatches": "Keine Spiele deiner Lieblingsmannschaften",
+    "allMatches": "Alle Spiele",
+    "favoriteMatches": "Meine Teams",
+    "live": "LIVE",
+    "channel": "Sender",
+    "startsIn": "Minuten bis Anpfiff"
+  },
+  "teams": {
+    "title": "Teams auswählen",
+    "search": "Teams suchen...",
+    "selected": "ausgewählt",
+    "noTeams": "Keine Teams gefunden",
+    "infoText": "Du erhältst 15 Minuten vor den Spielen deiner ausgewählten Teams eine Benachrichtigung.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Champions League",
+      "national": "Nationalmannschaften"
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "language": "Sprache",
+    "notifications": "Benachrichtigungen",
+    "notificationsDesc": "Benachrichtigung 15 Minuten vor Spielbeginn erhalten",
+    "theme": "Thema",
+    "dark": "Dunkel",
+    "light": "Hell",
+    "about": "Über",
+    "version": "Version",
+    "selectLanguage": "Sprache auswählen",
+    "notificationEnabled": "Benachrichtigungen An",
+    "notificationDisabled": "Benachrichtigungen Aus",
+    "permissionWarning": "Benachrichtigungsberechtigung verweigert. Bitte in den App-Einstellungen aktivieren.",
+    "country": "Land / Sendegebiet",
+    "countryDesc": "Die angezeigten Sender pro Spiel richten sich nach deinem gewählten Land.",
+    "selectCountry": "Land auswählen"
+  },
+  "notification": {
+    "title": "⚽ Spielerinnerung",
+    "body": "{{home}} - {{away}} beginnt in 15 Minuten auf {{channel}}!",
+    "bodyNoChannel": "{{home}} - {{away}} beginnt in 15 Minuten!"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut versuchen",
+    "save": "Speichern",
+    "cancel": "Abbrechen"
+  }
+}

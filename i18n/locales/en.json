@@ -1,0 +1,66 @@
+{
+  "tabs": {
+    "matches": "Matches",
+    "teams": "My Teams",
+    "settings": "Settings"
+  },
+  "matches": {
+    "title": "Match Schedule",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "noMatches": "No matches for today",
+    "noFavoriteMatches": "No matches for your favorite teams",
+    "allMatches": "All Matches",
+    "favoriteMatches": "My Teams",
+    "live": "LIVE",
+    "channel": "Channel",
+    "startsIn": "minutes to kickoff"
+  },
+  "teams": {
+    "title": "Select Teams",
+    "search": "Search teams...",
+    "selected": "selected",
+    "noTeams": "No teams found",
+    "infoText": "You will receive a notification 15 minutes before your selected teams' matches.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Champions League",
+      "national": "National Teams"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "notifications": "Notifications",
+    "notificationsDesc": "Get notified 15 minutes before match start",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "about": "About",
+    "version": "Version",
+    "selectLanguage": "Select Language",
+    "notificationEnabled": "Notifications On",
+    "notificationDisabled": "Notifications Off",
+    "permissionWarning": "Notification permission denied. Please allow it in app settings.",
+    "country": "Country / Broadcast Region",
+    "countryDesc": "Channels shown for each match depend on your selected country.",
+    "selectCountry": "Select Country"
+  },
+  "notification": {
+    "title": "⚽ Match Reminder",
+    "body": "{{home}} - {{away}} kicks off in 15 minutes on {{channel}}!",
+    "bodyNoChannel": "{{home}} - {{away}} kicks off in 15 minutes!"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel"
+  }
+}

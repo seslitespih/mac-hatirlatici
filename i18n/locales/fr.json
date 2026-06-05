@@ -1,0 +1,66 @@
+{
+  "tabs": {
+    "matches": "Matchs",
+    "teams": "Mes Équipes",
+    "settings": "Paramètres"
+  },
+  "matches": {
+    "title": "Programme des Matchs",
+    "today": "Aujourd'hui",
+    "tomorrow": "Demain",
+    "noMatches": "Pas de matchs aujourd'hui",
+    "noFavoriteMatches": "Pas de matchs pour vos équipes favorites",
+    "allMatches": "Tous les Matchs",
+    "favoriteMatches": "Mes Équipes",
+    "live": "EN DIRECT",
+    "channel": "Chaîne",
+    "startsIn": "minutes avant le début"
+  },
+  "teams": {
+    "title": "Sélectionner des Équipes",
+    "search": "Rechercher des équipes...",
+    "selected": "sélectionné",
+    "noTeams": "Aucune équipe trouvée",
+    "infoText": "Vous recevrez une notification 15 minutes avant les matchs de vos équipes sélectionnées.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Ligue des Champions",
+      "national": "Équipes Nationales"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "notifications": "Notifications",
+    "notificationsDesc": "Recevoir une notification 15 minutes avant le match",
+    "theme": "Thème",
+    "dark": "Sombre",
+    "light": "Clair",
+    "about": "À propos",
+    "version": "Version",
+    "selectLanguage": "Sélectionner la Langue",
+    "notificationEnabled": "Notifications Activées",
+    "notificationDisabled": "Notifications Désactivées",
+    "permissionWarning": "Permission de notification refusée. Activez-la dans les paramètres de l'app.",
+    "country": "Pays / Région de Diffusion",
+    "countryDesc": "Les chaînes affichées pour chaque match dépendent de votre pays sélectionné.",
+    "selectCountry": "Sélectionner un Pays"
+  },
+  "notification": {
+    "title": "⚽ Rappel de Match",
+    "body": "{{home}} - {{away}} commence dans 15 minutes sur {{channel}} !",
+    "bodyNoChannel": "{{home}} - {{away}} commence dans 15 minutes !"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "save": "Enregistrer",
+    "cancel": "Annuler"
+  }
+}

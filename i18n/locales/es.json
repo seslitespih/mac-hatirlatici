@@ -1,0 +1,66 @@
+{
+  "tabs": {
+    "matches": "Partidos",
+    "teams": "Mis Equipos",
+    "settings": "Ajustes"
+  },
+  "matches": {
+    "title": "Programa de Partidos",
+    "today": "Hoy",
+    "tomorrow": "Mañana",
+    "noMatches": "No hay partidos hoy",
+    "noFavoriteMatches": "No hay partidos de tus equipos favoritos",
+    "allMatches": "Todos los Partidos",
+    "favoriteMatches": "Mis Equipos",
+    "live": "EN VIVO",
+    "channel": "Canal",
+    "startsIn": "minutos para el inicio"
+  },
+  "teams": {
+    "title": "Seleccionar Equipos",
+    "search": "Buscar equipos...",
+    "selected": "seleccionado",
+    "noTeams": "No se encontraron equipos",
+    "infoText": "Recibirás una notificación 15 minutos antes de los partidos de tus equipos seleccionados.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Liga de Campeones",
+      "national": "Selecciones Nacionales"
+    }
+  },
+  "settings": {
+    "title": "Ajustes",
+    "language": "Idioma",
+    "notifications": "Notificaciones",
+    "notificationsDesc": "Recibe notificaciones 15 minutos antes del partido",
+    "theme": "Tema",
+    "dark": "Oscuro",
+    "light": "Claro",
+    "about": "Acerca de",
+    "version": "Versión",
+    "selectLanguage": "Seleccionar Idioma",
+    "notificationEnabled": "Notificaciones Activadas",
+    "notificationDisabled": "Notificaciones Desactivadas",
+    "permissionWarning": "Permiso de notificación denegado. Actívalo en los ajustes de la app.",
+    "country": "País / Región de Emisión",
+    "countryDesc": "Los canales de cada partido se muestran según tu país seleccionado.",
+    "selectCountry": "Seleccionar País"
+  },
+  "notification": {
+    "title": "⚽ Recordatorio de Partido",
+    "body": "¡{{home}} - {{away}} empieza en 15 minutos en {{channel}}!",
+    "bodyNoChannel": "¡{{home}} - {{away}} empieza en 15 minutos!"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Se produjo un error",
+    "retry": "Reintentar",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  }
+}
