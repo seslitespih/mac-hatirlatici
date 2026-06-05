@@ -4,37 +4,38 @@ import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import * as Font from 'expo-font';
 import { StatusBar } from 'expo-status-bar';
-import { initI18n, COUNTRY_STORAGE_KEY } from '../i18n';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { I18nextProvider } from 'react-i18next';
+import { initI18n, COUNTRY_STORAGE_KEY } from '../i18n';
+import i18n from '../i18n';
 import { requestNotificationPermissions, configureNotifications } from '../services/notificationService';
 import { fetchMatchesFromGroq, registerDailyFetch } from '../services/groqService';
-import { I18nextProvider } from 'react-i18next';
-import i18n from '../i18n';
 import { saveCountry } from '../services/storageService';
+import { initPurchases, needsPaywall } from '../services/subscriptionService';
+import PaywallScreen from '../components/PaywallScreen';
 
 SplashScreen.preventAutoHideAsync();
 
-// Kayıtlı ülke kodunu oku (varsayılan TR)
 async function getSavedCountry(): Promise<string> {
-  try {
-    return (await AsyncStorage.getItem(COUNTRY_STORAGE_KEY)) ?? 'TR';
-  } catch {
-    return 'TR';
-  }
+  try { return (await AsyncStorage.getItem(COUNTRY_STORAGE_KEY)) ?? 'TR'; }
+  catch { return 'TR'; }
 }
 
 export default function RootLayout() {
-  const [appReady, setAppReady] = useState(false);
-  const appState    = useRef<AppStateStatus>(AppState.currentState);
-  const countryRef  = useRef<string>('TR');   // hazır olmadan önce de erişilebilir
+  const [appReady,    setAppReady]    = useState(false);
+  const [showPaywall, setShowPaywall] = useState(false);
+  const appState   = useRef<AppStateStatus>(AppState.currentState);
+  const countryRef = useRef<string>('TR');
 
-  // ── Ön plana gelince Groq cache kontrol et ────────────────────────────────
+  // Ön plana gelince Groq cache kontrol
   useEffect(() => {
-    const sub = AppState.addEventListener('change', (nextState) => {
-      if (appState.current.match(/inactive|background/) && nextState === 'active') {
+    const sub = AppState.addEventListener('change', (next) => {
+      if (appState.current.match(/inactive|background/) && next === 'active') {
         fetchMatchesFromGroq(countryRef.current).catch(() => {});
+        // Abonelik durumunu yeniden kontrol et
+        needsPaywall().then(setShowPaywall).catch(() => {});
       }
-      appState.current = nextState;
+      appState.current = next;
     });
     return () => sub.remove();
   }, []);
@@ -43,31 +44,33 @@ export default function RootLayout() {
     async function prepare() {
       try {
         await Font.loadAsync({});
-
-        // 1. i18n başlat — cihaz dilini tespit eder, ilk açılışta ülkeyi de döner
         const { detectedCountry } = await initI18n();
 
-        // 2. Ülke belirle: tespit edilen > kayıtlı > varsayılan TR
+        // Ülke belirle
         let countryCode: string;
         if (detectedCountry) {
-          // İlk açılış: cihazdan tespit edildi, kaydet
           countryCode = detectedCountry;
           await saveCountry(countryCode);
         } else {
-          // Sonraki açılışlar: kayıtlıyı oku
           countryCode = await getSavedCountry();
         }
         countryRef.current = countryCode;
 
-        // 3. Bildirim izni & yapılandırma
+        // Bildirim
         configureNotifications();
         requestNotificationPermissions().catch(() => {});
 
-        // 4. Bugünkü maçları çek (cache varsa anında döner, yoksa Groq'a sor)
-        fetchMatchesFromGroq(countryCode).catch(() => {});
+        // RevenueCat başlat
+        initPurchases();
 
-        // 5. Arka plan task'ı kaydet (Android uyku modunda da günceller)
+        // Abonelik kontrolü
+        const paywallNeeded = await needsPaywall();
+        setShowPaywall(paywallNeeded);
+
+        // Maç verisi prefetch (arka planda)
+        fetchMatchesFromGroq(countryCode).catch(() => {});
         registerDailyFetch().catch(() => {});
+
       } catch (e) {
         console.warn('App init error:', e);
       } finally {
@@ -75,17 +78,26 @@ export default function RootLayout() {
         await SplashScreen.hideAsync();
       }
     }
-
     prepare();
   }, []);
 
   if (!appReady) {
-    return <View style={{ flex: 1, backgroundColor: '#0f0f1a' }} />;
+    return <View style={{ flex: 1, backgroundColor: '#060C1A' }} />;
+  }
+
+  // Abonelik yoksa paywall göster — arka planı tamamen engelle
+  if (showPaywall) {
+    return (
+      <I18nextProvider i18n={i18n}>
+        <StatusBar style="light" backgroundColor="#060C1A" />
+        <PaywallScreen onSubscribed={() => setShowPaywall(false)} />
+      </I18nextProvider>
+    );
   }
 
   return (
     <I18nextProvider i18n={i18n}>
-      <StatusBar style="light" backgroundColor="#0f0f1a" />
+      <StatusBar style="light" backgroundColor="#060C1A" />
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />

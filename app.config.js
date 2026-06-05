@@ -81,7 +81,9 @@ module.exports = {
     extra: {
       footballDataToken: process.env.FOOTBALL_DATA_TOKEN ?? '',
       rapidApiKey:       process.env.RAPID_API_KEY ?? '',
-      groqApiKey:        process.env.GROQ_API_KEY ?? '',   // Groq AI key
+      groqApiKey:        process.env.GROQ_API_KEY ?? '',
+      rcApiKeyIos:       process.env.REVENUECAT_IOS_KEY ?? '',
+      rcApiKeyAndroid:   process.env.REVENUECAT_ANDROID_KEY ?? '',
       eas: {
         projectId: process.env.EAS_PROJECT_ID ?? '',
       },
