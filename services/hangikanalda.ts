@@ -114,8 +114,9 @@ function parseHKData(data: HKData): Match[] {
         if (!m.home || !m.time) continue;
 
         const date   = trTimeToDate(m.time);
-        const homeId = m.home.toLowerCase().replace(/\s+/g, '').replace(/[^a-z0-9ğüşıöçğüşıöç]/gi, '').slice(0, 24);
-        const awayId = (m.away ?? '').toLowerCase().replace(/\s+/g, '').replace(/[^a-z0-9]/g, '').slice(0, 24);
+        const normalize = (s: string) => s.toLowerCase().replace(/\s+/g, '').replace(/[^a-z0-9ğüşıöç]/gi, '').slice(0, 24);
+        const homeId = normalize(m.home);
+        const awayId = normalize(m.away ?? '');
 
         matches.push({
           id:             `hk_${sportKey}_${idx++}_${homeId}`,

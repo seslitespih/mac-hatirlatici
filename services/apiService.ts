@@ -120,7 +120,7 @@ async function fetchESPNLeague(league: ESPNLeague, countryCode: string): Promise
         timeZone: 'Europe/Istanbul',
         hour: '2-digit', minute: '2-digit', hour12: false,
       }).format(eventDate);
-      const [h, m] = trTime.split(':');
+      const [h = '00', m = '00'] = trTime.split(':');
 
       matches.push({
         id: `espn_${event.id}`,
@@ -169,7 +169,7 @@ async function fetchESPNNBA(countryCode: string): Promise<Match[]> {
         timeZone: 'Europe/Istanbul',
         hour: '2-digit', minute: '2-digit', hour12: false,
       }).format(eventDate);
-      const [h, m] = trTimeNba.split(':');
+      const [h = '00', m = '00'] = trTimeNba.split(':');
 
       matches.push({
         id: `espn_nba_${event.id}`,
@@ -198,21 +198,21 @@ async function fetchESPNNBA(countryCode: string): Promise<Match[]> {
 }
 
 // ─── Statik: Trendyol 1. Lig (ESPN desteklemiyor) ───────────────────────────
-// Nisan 2026 fikstürü — haftaya bir güncelle
+// Haziran 2026 fikstürü — haftaya bir güncelle
 
 function getTr1LigStatic(countryCode: string): Match[] {
   const fixtures: Array<[string, string, string, string, string, string]> = [
-    // [date, time, homeId, homeName, awayId, awayName]
-    ['2026-04-03', '14:30', 'adanademirspor', 'Adana Demirspor', 'manisafk', 'Manisa FK'],
-    ['2026-04-03', '17:00', 'pendikspor',     'Pendikspor',     'hatayspor', 'Hatayspor'],
-    ['2026-04-03', '20:00', 'bodrumspor',     'Bodrumspor',     'umraniyespor', 'Ümraniyespor'],
-    ['2026-04-03', '20:00', 'corumfk',        'Çorum FK',       'bandirmaspor', 'Bandırmaspor'],
-    ['2026-04-07', '19:00', 'eyupspor',       'Eyüpspor',       'adanademirspor', 'Adana Demirspor'],
-    ['2026-04-07', '19:00', 'hatayspor',      'Hatayspor',      'boluspor', 'Boluspor'],
-    ['2026-04-07', '19:00', 'manisafk',       'Manisa FK',      'bodrumspor', 'Bodrumspor'],
-    ['2026-04-07', '21:00', 'pendikspor',     'Pendikspor',     'altay', 'Altay'],
-    ['2026-04-08', '19:00', 'umraniyespor',   'Ümraniyespor',   'corumfk', 'Çorum FK'],
-    ['2026-04-08', '21:00', 'bandirmaspor',   'Bandırmaspor',   'sakaryaspor', 'Sakaryaspor'],
+    // [date, time+03:00 = Istanbul, homeId, homeName, awayId, awayName]
+    ['2026-06-07', '14:30', 'adanademirspor', 'Adana Demirspor', 'manisafk',    'Manisa FK'],
+    ['2026-06-07', '17:00', 'pendikspor',     'Pendikspor',      'hatayspor',   'Hatayspor'],
+    ['2026-06-07', '20:00', 'bodrumspor',     'Bodrumspor',      'umraniyespor','Ümraniyespor'],
+    ['2026-06-07', '20:00', 'corumfk',        'Çorum FK',        'bandirmaspor','Bandırmaspor'],
+    ['2026-06-11', '19:00', 'eyupspor',       'Eyüpspor',        'adanademirspor','Adana Demirspor'],
+    ['2026-06-11', '19:00', 'hatayspor',      'Hatayspor',       'boluspor',    'Boluspor'],
+    ['2026-06-11', '19:00', 'manisafk',       'Manisa FK',       'bodrumspor',  'Bodrumspor'],
+    ['2026-06-11', '21:00', 'pendikspor',     'Pendikspor',      'altay',       'Altay'],
+    ['2026-06-12', '19:00', 'umraniyespor',   'Ümraniyespor',    'corumfk',     'Çorum FK'],
+    ['2026-06-12', '21:00', 'bandirmaspor',   'Bandırmaspor',    'sakaryaspor', 'Sakaryaspor'],
   ];
 
   const now = new Date();
@@ -220,7 +220,7 @@ function getTr1LigStatic(countryCode: string): Match[] {
 
   return fixtures
     .map(([date, time, homeId, homeName, awayId, awayName]) => {
-      const d = new Date(`${date}T${time}:00`);
+      const d = istDate(date, time);
       return {
         id: `tr1_${date}_${homeId}`,
         sport: 'football' as SportType,
@@ -241,16 +241,13 @@ function getTr1LigStatic(countryCode: string): Match[] {
 
 function getBasketballStatic(countryCode: string): Match[] {
   const fixtures: Array<[string, string, string, string, string, string, string, string]> = [
-    // [date, time, homeId, homeName, awayId, awayName, league, leagueId]
-    ['2026-04-03', '21:00', 'asvelvilleurbanne', 'Asvel Villeurbanne', 'olympiakos',   'Olympiakos',     'EuroLeague', 'euroleague'],
-    ['2026-04-03', '21:30', 'baskonia',          'Baskonia',           'realmadrid_bb','Real Madrid',    'EuroLeague', 'euroleague'],
-    ['2026-04-03', '21:30', 'virtusbologna',     'Virtus Bologna',     'valenciabasket','Valencia Basket','EuroLeague', 'euroleague'],
-    ['2026-04-03', '19:00', 'bahcesehirklj',     'Bahçeşehir Klj',     'besiktasgain', 'Beşiktaş GAIN',  'EuroCup Yarı Final', 'eurocup'],
-    ['2026-04-03', '20:00', 'turktelekom',       'Türk Telekom',       'jlbourg',      'JL Bourg',       'EuroCup Yarı Final', 'eurocup'],
-    ['2026-04-03', '20:00', 'finalspor',         'Final Spor',         'goztepe_bb',   'Göztepe',        'Basketbol 1. Ligi',  'bsl'],
-    ['2026-04-08', '20:00', 'anadoluefes',       'Anadolu Efes',       'fenerbahcebeko','Fenerbahçe Beko','EuroLeague', 'euroleague'],
-    ['2026-04-10', '20:00', 'bahcesehirklj',     'Bahçeşehir Klj',     'besiktasgain', 'Beşiktaş GAIN',  'EuroCup Yarı Final', 'eurocup'],
-    ['2026-04-10', '21:00', 'turktelekom',       'Türk Telekom',       'jlbourg',      'JL Bourg',       'EuroCup Yarı Final', 'eurocup'],
+    // [date, time Istanbul, homeId, homeName, awayId, awayName, league, leagueId]
+    ['2026-06-07', '21:00', 'asvelvilleurbanne', 'Asvel Villeurbanne', 'olympiakos',    'Olympiakos',      'EuroLeague Finals', 'euroleague'],
+    ['2026-06-07', '21:30', 'baskonia',          'Baskonia',           'realmadrid_bb', 'Real Madrid',     'EuroLeague Finals', 'euroleague'],
+    ['2026-06-09', '20:00', 'anadoluefes',       'Anadolu Efes',       'fenerbahcebeko','Fenerbahçe Beko', 'BSL Playoff',       'bsl'],
+    ['2026-06-09', '20:00', 'galatasaray_bb',    'Galatasaray',        'besiktasgain',  'Beşiktaş GAIN',   'BSL Playoff',       'bsl'],
+    ['2026-06-11', '20:00', 'anadoluefes',       'Anadolu Efes',       'fenerbahcebeko','Fenerbahçe Beko', 'BSL Playoff',       'bsl'],
+    ['2026-06-14', '21:00', 'virtusbologna',     'Virtus Bologna',     'valenciabasket','Valencia Basket', 'EuroLeague Finals', 'euroleague'],
   ];
 
   const now = new Date();
@@ -258,7 +255,7 @@ function getBasketballStatic(countryCode: string): Match[] {
 
   return fixtures
     .map(([date, time, homeId, homeName, awayId, awayName, league, leagueId]) => {
-      const d = new Date(`${date}T${time}:00`);
+      const d = istDate(date, time);
       return {
         id: `bb_${date}_${homeId}`,
         sport: 'basketball' as SportType,
@@ -279,13 +276,8 @@ function getBasketballStatic(countryCode: string): Match[] {
 
 function getVolleyballStatic(countryCode: string): Match[] {
   const fixtures: Array<[string, string, string, string, string, string, string, string]> = [
-    ['2026-04-03', '16:00', 'afyonbld',     'Afyon Bld.',      'ptt',         'PTT',          'TVF Kadınlar 1. Lig Final', 'tvfkadin'],
-    ['2026-04-03', '19:00', 'sakaryavb',    'Sakarya Voleybol','manisabb',    'Manisa BB',    'TVF Kadınlar 1. Lig Final', 'tvfkadin'],
-    ['2026-04-05', '19:00', 'halkbank',     'Halkbank',        'arkas',       'Arkas',        'Efeler Ligi', 'efeler'],
-    ['2026-04-06', '17:00', 'ziraatbankkart','Ziraat Bankkart','galatasarayvb','Galatasaray',  'Efeler Ligi', 'efeler'],
-    ['2026-04-06', '16:00', 'vakifbank',    'VakıfBank',       'eczacibasi',  'Eczacıbaşı',   'Sultansliga', 'sultansliga'],
-    ['2026-04-08', '20:00', 'fenerbahcevb', 'Fenerbahçe',      'halkbank',    'Halkbank',     'Efeler Ligi', 'efeler'],
-    ['2026-04-08', '16:00', 'fenerbahcew',  'Fenerbahçe (K)',  'vakifbank',   'VakıfBank',    'Sultansliga', 'sultansliga'],
+    // Voleybol sezonu Mayıs sonu biter — Haziran'da maç yoktur, Groq AI ile doldurulur
+    // Eylül'de güncelle: ['2026-09-XX', ...]
   ];
 
   const now = new Date();
@@ -293,7 +285,7 @@ function getVolleyballStatic(countryCode: string): Match[] {
 
   return fixtures
     .map(([date, time, homeId, homeName, awayId, awayName, league, leagueId]) => {
-      const d = new Date(`${date}T${time}:00`);
+      const d = istDate(date, time);
       return {
         id: `vb_${date}_${homeId}`,
         sport: 'volleyball' as SportType,
@@ -342,7 +334,7 @@ function buildF1Matches(countryCode: string): Match[] {
 
   return F1_2026
     .map((race) => {
-      const date = new Date(`${race.date}T${race.time}:00`);
+      const date = istDate(race.date, race.time);
       return {
         id: `f1_${race.date.replace(/-/g, '')}`,
         sport: 'motorsport' as SportType,
@@ -357,6 +349,12 @@ function buildF1Matches(countryCode: string): Match[] {
       };
     })
     .filter((m) => m.date >= now && m.date <= weekLater);
+}
+
+// ─── Yardımcı: Istanbul timezone'unda tarih oluştur ─────────────────────────
+// new Date('2026-06-07T20:00:00') cihaz timezone'unu alır — bu UTC+3 zorlar
+function istDate(date: string, time: string): Date {
+  return new Date(`${date}T${time}:00+03:00`);
 }
 
 // ─── Ana export ─────────────────────────────────────────────────────────────

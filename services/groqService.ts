@@ -368,7 +368,9 @@ export async function clearDailyCache(countryCode?: string): Promise<void> {
 }
 
 // Geriye dönük uyumluluk
-export const enrichWithGroqChannels = async (matches: Match[], cc: string) =>
-  (await fetchDailyMatches(cc)).length > 0 ? fetchDailyMatches(cc) : matches;
+export const enrichWithGroqChannels = async (matches: Match[], cc: string): Promise<Match[]> => {
+  const groqMatches = await fetchDailyMatches(cc);
+  return groqMatches.length > 0 ? groqMatches : matches;
+};
 
 export const fetchMatchesFromGroq = (cc = 'TR') => fetchDailyMatches(cc);
