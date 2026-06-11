@@ -90,8 +90,13 @@ jobs:
             --create
           keychain add-certificates
           xcode-project use-profiles
-          echo "=== Installed profiles ==="
-          ls ~/Library/MobileDevice/Provisioning\ Profiles/ 2>/dev/null || echo "No profiles dir"
+          echo "=== Installed profiles (Xcode UserData) ==="
+          ls ~/Library/Developer/Xcode/UserData/Provisioning\ Profiles/ 2>/dev/null || echo "No Xcode UserData profiles"
+          echo "=== Copying profiles to MobileDevice dir ==="
+          mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
+          cp ~/Library/Developer/Xcode/UserData/Provisioning\ Profiles/*.mobileprovision \
+             ~/Library/MobileDevice/Provisioning\ Profiles/ 2>/dev/null || true
+          ls ~/Library/MobileDevice/Provisioning\ Profiles/ 2>/dev/null || echo "No profiles in MobileDevice dir"
 
       - name: Detect Xcode workspace & scheme
         run: |
@@ -104,7 +109,7 @@ jobs:
       - name: Xcode archive
         run: |
           set -o pipefail
-          PROFILE_PATH=$(ls ~/Library/MobileDevice/Provisioning\ Profiles/*.mobileprovision 2>/dev/null | head -1)
+          PROFILE_PATH=$(find ~/Library/MobileDevice/Provisioning\ Profiles -name "*.mobileprovision" 2>/dev/null | head -1)
           if [ -n "$PROFILE_PATH" ]; then
             PROFILE_UUID=$(security cms -D -i "$PROFILE_PATH" 2>/dev/null | plutil -extract UUID raw - 2>/dev/null)
             echo "Profile UUID: $PROFILE_UUID"
