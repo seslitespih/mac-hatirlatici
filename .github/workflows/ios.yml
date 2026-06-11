@@ -76,51 +76,13 @@ jobs:
 
       - name: Install certificate and setup provisioning profile
         env:
-          CERTIFICATE_BASE64: ${{ secrets.APP_STORE_CERTIFICATE_BASE64 }}
-          CERTIFICATE_PASSWORD: ${{ secrets.APP_STORE_CERTIFICATE_PASSWORD }}
-          KEYCHAIN_PASSWORD: ${{ github.run_id }}-kc
           APP_STORE_CONNECT_KEY_IDENTIFIER: 4V8WB44R99
           APP_STORE_CONNECT_ISSUER_ID: c62db938-88be-40a4-94d5-0542ba1512ff
           APP_STORE_CONNECT_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
+          CERTIFICATE_PRIVATE_KEY: ${{ secrets.IOS_DIST_KEY }}
         run: |
-          pip3 install codemagic-cli-tools cryptography -q --break-system-packages || \
-          pip3 install codemagic-cli-tools cryptography -q --user
-
-          CERT_PATH=$RUNNER_TEMP/cert.p12
-          KEYCHAIN_PATH=$RUNNER_TEMP/app-signing.keychain-db
-
-          echo -n "$CERTIFICATE_BASE64" | base64 --decode -o $CERT_PATH
-
-          security create-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
-          security set-keychain-settings -lut 21600 $KEYCHAIN_PATH
-          security unlock-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
-          security list-keychains -d user -s $KEYCHAIN_PATH \
-            $(security list-keychains -d user | tr -d '"')
-          security import $CERT_PATH -k $KEYCHAIN_PATH \
-            -P "$CERTIFICATE_PASSWORD" -T /usr/bin/codesign
-          security set-key-partition-list \
-            -S apple-tool:,apple:,codesign: -s -k "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
-
-          # P12'den private key çek (RSA veya EC)
-          openssl pkcs12 -in $CERT_PATH -nocerts -nodes \
-            -legacy -passin "pass:$CERTIFICATE_PASSWORD" 2>/dev/null \
-            > /tmp/cert_key.pem || \
-          openssl pkcs12 -in $CERT_PATH -nocerts -nodes \
-            -passin "pass:$CERTIFICATE_PASSWORD" 2>/dev/null \
-            > /tmp/cert_key.pem
-
-          # RSA veya EC key normalize et
-          if grep -q "RSA" /tmp/cert_key.pem 2>/dev/null; then
-            openssl rsa -in /tmp/cert_key.pem -out /tmp/clean_key.pem 2>/dev/null
-          else
-            openssl ec -in /tmp/cert_key.pem -out /tmp/clean_key.pem 2>/dev/null || \
-            cp /tmp/cert_key.pem /tmp/clean_key.pem
-          fi
-
-          CERT_KEY=$(cat /tmp/clean_key.pem)
-          rm -f $CERT_PATH /tmp/cert_key.pem /tmp/clean_key.pem
-
-          export CERTIFICATE_PRIVATE_KEY="$CERT_KEY"
+          pip3 install codemagic-cli-tools -q --break-system-packages || \
+          pip3 install codemagic-cli-tools -q --user
           keychain initialize
           app-store-connect fetch-signing-files com.machatirlatici.app \
             --type IOS_APP_STORE \
