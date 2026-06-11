@@ -51,11 +51,7 @@ jobs:
       - name: Patch Podfile
         run: |
           sed -i '' '/:privacy_file_aggregation_enabled/d' ios/Podfile
-          python3 -c "
-content = open('ios/Podfile').read()
-content = content.replace('platform :ios', 'use_frameworks! :linkage => :static\nplatform :ios', 1)
-open('ios/Podfile', 'w').write(content)
-"
+          python3 -c "c=open('ios/Podfile').read();c=c.replace('platform :ios','use_frameworks! :linkage => :static\nplatform :ios',1);open('ios/Podfile','w').write(c)"
           echo "=== Podfile first 15 lines ==="
           head -15 ios/Podfile
 
