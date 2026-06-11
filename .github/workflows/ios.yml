@@ -108,7 +108,8 @@ jobs:
             -archivePath "$RUNNER_TEMP/HangiKanalda.xcarchive" \
             -sdk iphoneos \
             -destination "generic/platform=iOS" \
-            | xcpretty --simple
+            2>&1 | tee /tmp/xcodebuild.log | xcpretty --simple || \
+          (echo "=== XCODEBUILD ERRORS ===" && grep -E "error:|❌" /tmp/xcodebuild.log | tail -40 && exit 1)
 
       - name: Export & sign IPA
         run: |
