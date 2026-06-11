@@ -28,33 +28,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Patch expo-localization Swift (add @unknown default to calendar switch)
+      - name: Patch expo-localization Swift (add default case to calendar switch)
         run: |
           python3 -c "
-          import os
+          import os, re
           path = 'node_modules/expo-localization/ios/LocalizationModule.swift'
           if not os.path.exists(path): exit(0)
-          lines = open(path).readlines()
-          if any('@unknown default' in l for l in lines):
-              print('Already patched'); exit(0)
-          out = []; i = 0
-          while i < len(lines):
-              line = lines[i]
-              if 'switch calendar.identifier {' in line:
-                  sw = len(line) - len(line.lstrip())
-                  out.append(line); i += 1
-                  while i < len(lines):
-                      l = lines[i]
-                      lstripped = l.lstrip()
-                      lindent = len(l) - len(lstripped)
-                      if lstripped.startswith('}') and lindent == sw:
-                          out.append(' ' * (sw+4) + '@unknown default: return ""\n')
-                          out.append(l); i += 1; break
-                      out.append(l); i += 1
-              else:
-                  out.append(line); i += 1
-          open(path, 'w').writelines(out)
-          print('Patched expo-localization LocalizationModule.swift')
+          c = open(path).read()
+          if 'default:' in c: print('Already patched'); exit(0)
+          c2 = re.sub(r'(    switch calendar\.identifier \{.*?)(    \})', lambda m: m.group(1) + '    default:\n      return \"\"\n    }', c, flags=re.DOTALL)
+          open(path, 'w').write(c2)
+          print('Patched' if c2 != c else 'No change made')
           "
 
       - name: Create .env
