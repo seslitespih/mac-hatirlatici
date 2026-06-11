@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-14
+    runs-on: macos-latest
     timeout-minutes: 90
 
     steps:
@@ -17,7 +17,7 @@ jobs:
       - name: Select Xcode version
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: '15.4'
+          xcode-version: latest-stable
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -27,6 +27,35 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Patch expo-localization Swift (add @unknown default to calendar switch)
+        run: |
+          python3 -c "
+          import os
+          path = 'node_modules/expo-localization/ios/LocalizationModule.swift'
+          if not os.path.exists(path): exit(0)
+          lines = open(path).readlines()
+          if any('@unknown default' in l for l in lines):
+              print('Already patched'); exit(0)
+          out = []; i = 0
+          while i < len(lines):
+              line = lines[i]
+              if 'switch calendar.identifier {' in line:
+                  sw = len(line) - len(line.lstrip())
+                  out.append(line); i += 1
+                  while i < len(lines):
+                      l = lines[i]
+                      lstripped = l.lstrip()
+                      lindent = len(l) - len(lstripped)
+                      if lstripped.startswith('}') and lindent == sw:
+                          out.append(' ' * (sw+4) + '@unknown default: break\n')
+                          out.append(l); i += 1; break
+                      out.append(l); i += 1
+              else:
+                  out.append(line); i += 1
+          open(path, 'w').writelines(out)
+          print('Patched expo-localization LocalizationModule.swift')
+          "
 
       - name: Create .env
         run: |
