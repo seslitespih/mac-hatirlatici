@@ -92,7 +92,7 @@ jobs:
 
       - name: Detect Xcode workspace & scheme
         run: |
-          WS=$(find ios -name "*.xcworkspace" -maxdepth 2 | grep -v "Pods" | head -1)
+          WS=$(find ios -maxdepth 1 -name "*.xcworkspace" | grep -v "Pods" | head -1)
           SCHEME=$(basename "$WS" .xcworkspace)
           echo "WORKSPACE=$WS"  >> $GITHUB_ENV
           echo "SCHEME=$SCHEME" >> $GITHUB_ENV
