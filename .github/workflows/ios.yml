@@ -83,12 +83,15 @@ jobs:
         run: |
           pip3 install codemagic-cli-tools -q --break-system-packages || \
           pip3 install codemagic-cli-tools -q --user
+          mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
           keychain initialize
           app-store-connect fetch-signing-files com.machatirlatici.app \
             --type IOS_APP_STORE \
             --create
           keychain add-certificates
           xcode-project use-profiles
+          echo "=== Installed profiles ==="
+          ls ~/Library/MobileDevice/Provisioning\ Profiles/ 2>/dev/null || echo "No profiles dir"
 
       - name: Detect Xcode workspace & scheme
         run: |
@@ -101,6 +104,14 @@ jobs:
       - name: Xcode archive
         run: |
           set -o pipefail
+          PROFILE_PATH=$(ls ~/Library/MobileDevice/Provisioning\ Profiles/*.mobileprovision 2>/dev/null | head -1)
+          if [ -n "$PROFILE_PATH" ]; then
+            PROFILE_UUID=$(security cms -D -i "$PROFILE_PATH" 2>/dev/null | plutil -extract UUID raw - 2>/dev/null)
+            echo "Profile UUID: $PROFILE_UUID"
+          else
+            echo "WARNING: No provisioning profile found, archive will fail signing"
+            PROFILE_UUID=""
+          fi
           xcodebuild archive \
             -workspace "$WORKSPACE" \
             -scheme "$SCHEME" \
@@ -108,6 +119,9 @@ jobs:
             -archivePath "$RUNNER_TEMP/HangiKanalda.xcarchive" \
             -sdk iphoneos \
             -destination "generic/platform=iOS" \
+            CODE_SIGN_STYLE=Manual \
+            CODE_SIGN_IDENTITY="iPhone Distribution" \
+            ${PROFILE_UUID:+PROVISIONING_PROFILE="$PROFILE_UUID"} \
             2>&1 | tee /tmp/xcodebuild.log | xcpretty --simple || \
           (echo "=== XCODEBUILD ERRORS ===" && grep -E "error:|❌" /tmp/xcodebuild.log | tail -40 && exit 1)
 
