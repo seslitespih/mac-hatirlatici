@@ -48,7 +48,7 @@ jobs:
                       lstripped = l.lstrip()
                       lindent = len(l) - len(lstripped)
                       if lstripped.startswith('}') and lindent == sw:
-                          out.append(' ' * (sw+4) + '@unknown default: break\n')
+                          out.append(' ' * (sw+4) + '@unknown default: return ""\n')
                           out.append(l); i += 1; break
                       out.append(l); i += 1
               else:
