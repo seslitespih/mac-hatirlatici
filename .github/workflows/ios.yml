@@ -28,17 +28,35 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Patch expo-localization Swift (add default case to calendar switch)
+      - name: Patch node_modules Swift files for Xcode 26 compatibility
         run: |
           python3 -c "
           import os, re
-          path = 'node_modules/expo-localization/ios/LocalizationModule.swift'
-          if not os.path.exists(path): exit(0)
-          c = open(path).read()
-          if 'default:' in c: print('Already patched'); exit(0)
-          c2 = re.sub(r'(    switch calendar\.identifier \{.*?)(    \})', lambda m: m.group(1) + '    default:\n      return \"\"\n    }', c, flags=re.DOTALL)
-          open(path, 'w').write(c2)
-          print('Patched' if c2 != c else 'No change made')
+
+          # 1) expo-localization: add default case to Calendar.Identifier switch
+          p1 = 'node_modules/expo-localization/ios/LocalizationModule.swift'
+          if os.path.exists(p1):
+              c = open(p1).read()
+              if 'default:' not in c:
+                  c2 = re.sub(r'(    switch calendar\.identifier \{.*?)(    \})', lambda m: m.group(1) + '    default:\n      return \"\"\n    }', c, flags=re.DOTALL)
+                  open(p1, 'w').write(c2)
+                  print('Patched expo-localization' if c2 != c else 'expo-localization: no change')
+              else:
+                  print('expo-localization: already patched')
+
+          # 2) expo-device: replace TARGET_OS_SIMULATOR (C macro not available in Swift/Xcode26)
+          p2 = 'node_modules/expo-device/ios/UIDevice.swift'
+          if os.path.exists(p2):
+              c = open(p2).read()
+              if 'TARGET_OS_SIMULATOR' in c:
+                  c2 = c.replace(
+                      'return TARGET_OS_SIMULATOR != 0',
+                      '#if targetEnvironment(simulator)\n    return true\n    #else\n    return false\n    #endif'
+                  )
+                  open(p2, 'w').write(c2)
+                  print('Patched expo-device' if c2 != c else 'expo-device: no change')
+              else:
+                  print('expo-device: already patched')
           "
 
       - name: Create .env
