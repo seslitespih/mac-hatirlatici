@@ -47,15 +47,16 @@ jobs:
           EXPO_NO_COCOAPODS_INSTALL: 1
         run: npx expo prebuild --platform ios --clean
 
-      # Podfile'daki eski CocoaPods ile uyumsuz satırı temizle
-      # use_frameworks! :linkage => :static ekle (react-native-purchases Swift pod için gerekli)
+      # Podfile uyumluluk yamaları
       - name: Patch Podfile
         run: |
           sed -i '' '/:privacy_file_aggregation_enabled/d' ios/Podfile
-          sed -i '' '/^platform :ios/i\
-use_frameworks! :linkage => :static
-' ios/Podfile
-          echo "=== Podfile ilk 15 satır ==="
+          python3 -c "
+content = open('ios/Podfile').read()
+content = content.replace('platform :ios', 'use_frameworks! :linkage => :static\nplatform :ios', 1)
+open('ios/Podfile', 'w').write(content)
+"
+          echo "=== Podfile first 15 lines ==="
           head -15 ios/Podfile
 
       - name: CocoaPods install
