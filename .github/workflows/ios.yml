@@ -48,11 +48,15 @@ jobs:
         run: npx expo prebuild --platform ios --clean
 
       # Podfile'daki eski CocoaPods ile uyumsuz satırı temizle
+      # use_frameworks! :linkage => :static ekle (react-native-purchases Swift pod için gerekli)
       - name: Patch Podfile
         run: |
           sed -i '' '/:privacy_file_aggregation_enabled/d' ios/Podfile
-          echo "Patched Podfile:"
-          grep -n "privacy_file" ios/Podfile || echo "  (no privacy_file lines — patch successful)"
+          sed -i '' '/^platform :ios/i\
+use_frameworks! :linkage => :static
+' ios/Podfile
+          echo "=== Podfile ilk 15 satır ==="
+          head -15 ios/Podfile
 
       - name: CocoaPods install
         env:
