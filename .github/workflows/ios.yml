@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: macos-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
 
     steps:
       - name: Checkout
@@ -35,18 +35,34 @@ jobs:
             "${{ secrets.REVENUECAT_IOS_KEY }}" \
             "${{ secrets.REVENUECAT_ANDROID_KEY }}" > .env
 
-      - name: Expo prebuild (iOS native proje oluştur)
-        run: npx expo prebuild --platform ios --clean
-
-      - name: Update CocoaPods
+      # CocoaPods'u prebuild'den ÖNCE güncelle, expo'nun kendi içindeki pod install için
+      - name: Install CocoaPods 1.16
         run: |
-          brew upgrade cocoapods || brew install cocoapods
+          brew install cocoapods || brew upgrade cocoapods || true
           pod --version
 
+      - name: Expo prebuild (iOS native proje oluştur)
+        env:
+          NODE_BINARY: /opt/homebrew/opt/node@22/bin/node
+          EXPO_NO_COCOAPODS_INSTALL: 1
+        run: npx expo prebuild --platform ios --clean
+
+      # Podfile'daki eski CocoaPods ile uyumsuz satırı temizle
+      - name: Patch Podfile
+        run: |
+          sed -i '' '/:privacy_file_aggregation_enabled/d' ios/Podfile
+          echo "Patched Podfile:"
+          grep -n "privacy_file" ios/Podfile || echo "  (no privacy_file lines — patch successful)"
+
       - name: CocoaPods install
+        env:
+          NODE_BINARY: $(which node)
         run: |
           cd ios
           pod install --repo-update
+
+      - name: Install xcpretty
+        run: gem install xcpretty --no-document
 
       - name: Set up App Store Connect API key
         env:
@@ -66,7 +82,7 @@ jobs:
           APP_STORE_CONNECT_ISSUER_ID: c62db938-88be-40a4-94d5-0542ba1512ff
           APP_STORE_CONNECT_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
         run: |
-          pip install codemagic-cli-tools cryptography -q
+          pip3 install codemagic-cli-tools cryptography -q
 
           CERT_PATH=$RUNNER_TEMP/cert.p12
           KEYCHAIN_PATH=$RUNNER_TEMP/app-signing.keychain-db
@@ -83,16 +99,24 @@ jobs:
           security set-key-partition-list \
             -S apple-tool:,apple:,codesign: -s -k "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
 
-          # P12'den temiz RSA key çek (Bag Attributes olmadan)
+          # P12'den private key çek (RSA veya EC)
           openssl pkcs12 -in $CERT_PATH -nocerts -nodes \
-            -legacy -passin "pass:$CERTIFICATE_PASSWORD" 2>/dev/null | \
-            openssl rsa -out /tmp/cert_key.pem 2>/dev/null || \
+            -legacy -passin "pass:$CERTIFICATE_PASSWORD" 2>/dev/null \
+            > /tmp/cert_key.pem || \
           openssl pkcs12 -in $CERT_PATH -nocerts -nodes \
-            -passin "pass:$CERTIFICATE_PASSWORD" 2>/dev/null | \
-            openssl rsa -out /tmp/cert_key.pem 2>/dev/null
+            -passin "pass:$CERTIFICATE_PASSWORD" 2>/dev/null \
+            > /tmp/cert_key.pem
 
-          CERT_KEY=$(cat /tmp/cert_key.pem)
-          rm $CERT_PATH /tmp/cert_key.pem
+          # RSA veya EC key normalize et
+          if grep -q "RSA" /tmp/cert_key.pem 2>/dev/null; then
+            openssl rsa -in /tmp/cert_key.pem -out /tmp/clean_key.pem 2>/dev/null
+          else
+            openssl ec -in /tmp/cert_key.pem -out /tmp/clean_key.pem 2>/dev/null || \
+            cp /tmp/cert_key.pem /tmp/clean_key.pem
+          fi
+
+          CERT_KEY=$(cat /tmp/clean_key.pem)
+          rm -f $CERT_PATH /tmp/cert_key.pem /tmp/clean_key.pem
 
           export CERTIFICATE_PRIVATE_KEY="$CERT_KEY"
           keychain initialize
@@ -112,6 +136,7 @@ jobs:
 
       - name: Xcode archive
         run: |
+          set -o pipefail
           xcodebuild archive \
             -workspace "$WORKSPACE" \
             -scheme "$SCHEME" \
@@ -123,6 +148,7 @@ jobs:
 
       - name: Export & sign IPA
         run: |
+          set -o pipefail
           PROFILE_NAME=$(security cms -D -i \
             "$RUNNER_TEMP/HangiKanalda.xcarchive/Products/Applications/$SCHEME.app/embedded.mobileprovision" \
             2>/dev/null | plutil -extract Name raw - 2>/dev/null || echo "")
