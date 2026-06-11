@@ -28,10 +28,18 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Create .env
+        run: |
+          printf 'GROQ_API_KEY=%s\nREVENUECAT_IOS_KEY=%s\nREVENUECAT_ANDROID_KEY=%s\n' \
+            "${{ secrets.GROQ_API_KEY }}" \
+            "${{ secrets.REVENUECAT_IOS_KEY }}" \
+            "${{ secrets.REVENUECAT_ANDROID_KEY }}" > .env
+
       - name: Expo prebuild (iOS native proje oluştur)
         run: npx expo prebuild --platform ios --clean
-        env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
+      - name: Update CocoaPods
+        run: sudo gem install cocoapods --no-document
 
       - name: CocoaPods install
         run: |
@@ -44,15 +52,15 @@ jobs:
         run: |
           mkdir -p ~/.appstoreconnect/private_keys
           printf '%s' "$ASC_PRIVATE_KEY" > \
-            ~/.appstoreconnect/private_keys/AuthKey_A89KB92H94.p8
-          chmod 600 ~/.appstoreconnect/private_keys/AuthKey_A89KB92H94.p8
+            ~/.appstoreconnect/private_keys/AuthKey_4V8WB44R99.p8
+          chmod 600 ~/.appstoreconnect/private_keys/AuthKey_4V8WB44R99.p8
 
       - name: Install certificate and setup provisioning profile
         env:
           CERTIFICATE_BASE64: ${{ secrets.APP_STORE_CERTIFICATE_BASE64 }}
           CERTIFICATE_PASSWORD: ${{ secrets.APP_STORE_CERTIFICATE_PASSWORD }}
           KEYCHAIN_PASSWORD: ${{ github.run_id }}-kc
-          APP_STORE_CONNECT_KEY_IDENTIFIER: A89KB92H94
+          APP_STORE_CONNECT_KEY_IDENTIFIER: 4V8WB44R99
           APP_STORE_CONNECT_ISSUER_ID: c62db938-88be-40a4-94d5-0542ba1512ff
           APP_STORE_CONNECT_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
         run: |
@@ -131,10 +139,10 @@ jobs:
           xcrun altool --upload-app \
             --type ios \
             --file "$(find "$RUNNER_TEMP/ipa" -name '*.ipa' | head -1)" \
-            --apiKey "A89KB92H94" \
+            --apiKey "4V8WB44R99" \
             --apiIssuer "c62db938-88be-40a4-94d5-0542ba1512ff" \
             --apiPrivateKeyFile \
-              "$HOME/.appstoreconnect/private_keys/AuthKey_A89KB92H94.p8"
+              "$HOME/.appstoreconnect/private_keys/AuthKey_4V8WB44R99.p8"
 
       - name: Upload IPA as artifact
         uses: actions/upload-artifact@v4
