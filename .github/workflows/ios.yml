@@ -83,7 +83,8 @@ jobs:
           APP_STORE_CONNECT_ISSUER_ID: c62db938-88be-40a4-94d5-0542ba1512ff
           APP_STORE_CONNECT_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
         run: |
-          pip3 install codemagic-cli-tools cryptography -q
+          pip3 install codemagic-cli-tools cryptography -q --break-system-packages || \
+          pip3 install codemagic-cli-tools cryptography -q --user
 
           CERT_PATH=$RUNNER_TEMP/cert.p12
           KEYCHAIN_PATH=$RUNNER_TEMP/app-signing.keychain-db
