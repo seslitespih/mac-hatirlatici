@@ -39,7 +39,9 @@ jobs:
         run: npx expo prebuild --platform ios --clean
 
       - name: Update CocoaPods
-        run: sudo gem install cocoapods --no-document
+        run: |
+          brew upgrade cocoapods || brew install cocoapods
+          pod --version
 
       - name: CocoaPods install
         run: |
