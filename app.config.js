@@ -40,6 +40,9 @@ module.exports = {
     ios: {
       supportsTablet: true,
       bundleIdentifier: 'com.machatirlatici.app',
+      infoPlist: {
+        ITSAppUsesNonExemptEncryption: false,
+      },
     },
 
     web: {
