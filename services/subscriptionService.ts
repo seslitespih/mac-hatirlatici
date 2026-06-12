@@ -15,6 +15,7 @@ import Purchases, {
 } from 'react-native-purchases';
 import { Platform } from 'react-native';
 import Constants from 'expo-constants';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // ─── RevenueCat API Key'leri ─────────────────────────────────────────────────
 // app.config.js → extra.rcApiKeyIos / extra.rcApiKeyAndroid
@@ -31,6 +32,29 @@ function getApiKey(): string {
 
 export const ENTITLEMENT_ID  = 'premium';
 export const PRODUCT_ID      = 'monthly_premium_299';  // App Store & Play Store'daki ID
+
+// ─── Ücretsiz deneme (yerel, 30 gün) ─────────────────────────────────────────
+
+const FIRST_LAUNCH_KEY = '@first_launch_date';
+const FREE_TRIAL_DAYS  = 30;
+
+async function getFirstLaunchDate(): Promise<number> {
+  try {
+    const stored = await AsyncStorage.getItem(FIRST_LAUNCH_KEY);
+    if (stored) return parseInt(stored, 10);
+    const now = Date.now();
+    await AsyncStorage.setItem(FIRST_LAUNCH_KEY, String(now));
+    return now;
+  } catch {
+    return Date.now();
+  }
+}
+
+async function isInFreeTrial(): Promise<boolean> {
+  const firstLaunch = await getFirstLaunchDate();
+  const days = (Date.now() - firstLaunch) / 86_400_000;
+  return days < FREE_TRIAL_DAYS;
+}
 
 // ─── Başlatma ─────────────────────────────────────────────────────────────────
 
@@ -50,27 +74,29 @@ export async function getCustomerInfo(): Promise<CustomerInfo> {
 
 /**
  * Kullanıcının aktif aboneliği var mı?
- * Trial süresi içindeyse de true döner.
+ * 30 günlük ücretsiz deneme süresi içindeyse de true döner.
  */
 export async function isSubscribed(): Promise<boolean> {
   try {
     const info = await Purchases.getCustomerInfo();
-    return info.entitlements.active[ENTITLEMENT_ID] !== undefined;
+    if (info.entitlements.active[ENTITLEMENT_ID] !== undefined) return true;
+    return isInFreeTrial();
   } catch {
-    return false;
+    return true; // hata → erişime izin ver
   }
 }
 
 /**
- * Trial süresi bitti mi, ücretli abonelik gerekli mi?
- * false → hâlâ ücretsiz (trial veya aktif abonelik)
- * true  → paywall göster
+ * Paywall gösterilmeli mi?
+ * false → 30 günlük ücretsiz deneme süreci veya aktif abonelik var
+ * true  → deneme bitti, abonelik yok → paywall göster
  */
 export async function needsPaywall(): Promise<boolean> {
   try {
     const info = await Purchases.getCustomerInfo();
-    const entitlement = info.entitlements.active[ENTITLEMENT_ID];
-    return entitlement === undefined;
+    if (info.entitlements.active[ENTITLEMENT_ID] !== undefined) return false;
+    const inTrial = await isInFreeTrial();
+    return !inTrial;
   } catch {
     return false; // hata durumunda erişime izin ver
   }
