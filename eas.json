@@ -21,7 +21,8 @@
       "autoIncrement": true,
       "credentialsSource": "local",
       "ios": {
-        "distribution": "store"
+        "distribution": "store",
+        "image": "latest"
       },
       "android": {
         "buildType": "app-bundle"
