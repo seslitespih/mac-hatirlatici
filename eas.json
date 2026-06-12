@@ -15,20 +15,16 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
-      },
-      "ios": {
-        "buildType": "release",
-        "distribution": "internal"
       }
     },
     "production": {
       "autoIncrement": true,
+      "credentialsSource": "local",
+      "ios": {
+        "distribution": "store"
+      },
       "android": {
         "buildType": "app-bundle"
-      },
-      "ios": {
-        "buildType": "release",
-        "distribution": "store"
       }
     }
   },
@@ -36,8 +32,8 @@
     "production": {
       "ios": {
         "appleId": "ssaglamess@gmail.com",
-        "ascAppId": "",
-        "appleTeamId": ""
+        "ascAppId": "6779112504",
+        "appleTeamId": "HJ55A5P4J8"
       }
     }
   }

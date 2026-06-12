@@ -68,13 +68,17 @@ module.exports = {
         'expo-build-properties',
         {
           android: {
-            usesCleartextTraffic: false,         // HTTPS zorunlu (güvenlik)
+            usesCleartextTraffic: false,
             compileSdkVersion: 35,
             targetSdkVersion: 35,
-            minSdkVersion: 26,                   // Android 8.0+
+            minSdkVersion: 26,
+          },
+          ios: {
+            useFrameworks: 'static',
           },
         },
       ],
+      './plugins/withPodfilePatches',
     ],
 
     experiments: {
@@ -89,7 +93,7 @@ module.exports = {
       rcApiKeyIos:       process.env.REVENUECAT_IOS_KEY ?? '',
       rcApiKeyAndroid:   process.env.REVENUECAT_ANDROID_KEY ?? '',
       eas: {
-        projectId: process.env.EAS_PROJECT_ID ?? '',
+        projectId: '1df49d90-6cfa-49a4-9815-bbab3db6e612',
       },
     },
   },
