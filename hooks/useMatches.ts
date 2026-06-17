@@ -5,9 +5,9 @@ import {
   groupMatchesByDay,
   MatchGroup,
 } from '../services/matchService';
-import { fetchSportsDbMatches, clearSportsDbCache, COUNTRY_TZ } from '../services/sportsDbService';
+import { fetchSportsDbMatches, clearSportsDbCache } from '../services/sportsDbService';
 import { fetchTRMatches, clearTRCache }             from '../services/hangikanalda';
-import { getMatchWindow } from '../utils/timezone';
+import { getMatchWindow, getDeviceTimezone } from '../utils/timezone';
 import { scheduleAllNotifications }            from '../services/notificationService';
 import { useTranslation } from 'react-i18next';
 
@@ -103,7 +103,7 @@ export function useMatches(
   const refresh = useCallback(() => loadMatches(true, true), [loadMatches]);
 
   const sportFiltered = useMemo(() => {
-    const tz  = COUNTRY_TZ[countryCode] ?? 'UTC';
+    const tz  = getDeviceTimezone();
     const { end } = getMatchWindow(tz);
     const now = new Date();
 

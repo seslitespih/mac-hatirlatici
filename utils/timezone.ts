@@ -1,9 +1,25 @@
 /**
  * timezone.ts
  * Tüm timezone hesaplamaları bu dosyada.
- * Cihaz timezone'u hiçbir zaman kullanılmaz.
- * Kullanıcının seçtiği ülke TZ'si kullanılır.
+ *
+ * Temel kural:
+ *  - Saat GÖSTERİMİ → her zaman cihazın gerçek IANA timezone'u (getDeviceTimezone)
+ *  - Ülke seçimi → sadece hangi maçların ve hangi kanalların gösterileceğini etkiler
+ *  - Dil seçimi → saat dilimiyle tamamen bağımsız
  */
+
+/**
+ * Cihazın gerçek IANA timezone'unu döner.
+ * Örn: "Europe/Istanbul", "Europe/London", "America/New_York"
+ * DST değişimlerini otomatik yönetir, hardcode offset kullanmaz.
+ */
+export function getDeviceTimezone(): string {
+  try {
+    return Intl.DateTimeFormat().resolvedOptions().timeZone ?? 'UTC';
+  } catch {
+    return 'UTC';
+  }
+}
 
 // "YYYY-MM-DD" olarak yerel tarihi verir
 export function localDateOf(date: Date, tz: string): string {

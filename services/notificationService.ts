@@ -8,6 +8,7 @@
 import * as Notifications from 'expo-notifications';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Match } from '../constants/matches';
+import { formatLocalTime, getDeviceTimezone } from '../utils/timezone';
 
 const REMINDERS_KEY         = 'match_reminders';
 const REMIND_BEFORE_MINUTES = 15;
@@ -87,8 +88,9 @@ function buildNotificationContent(match: Match, lang = 'tr') {
     ? `📺 ${s.on ? s.on + ' ' : ''}${match.channel}`
     : '';
 
+  const localTime = formatLocalTime(new Date(match.date), getDeviceTimezone());
   const body = [
-    `🕐 ${match.time} | ${match.league}`,
+    `🕐 ${localTime} | ${match.league}`,
     channelLine,
     s.note,
   ].filter(Boolean).join('\n');

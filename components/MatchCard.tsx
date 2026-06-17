@@ -12,6 +12,7 @@ import { useTheme } from '../contexts/ThemeContext';
 import { Match } from '../constants/matches';
 import { toggleReminder, isReminderSet } from '../services/notificationService';
 import { translateTeamName } from '../constants/teamTranslations';
+import { formatLocalTime, getDeviceTimezone } from '../utils/timezone';
 
 // ─── Props ────────────────────────────────────────────────────────────────────
 
@@ -47,8 +48,8 @@ export default function MatchCard({ match, onPress }: Props) {
   const showSoon  = diffMin > 0 && diffMin <= 60;
   const isPast    = diffMin < -10;
 
-  // Use pre-formatted local time string from the API (match.date is UTC, only for countdown)
-  const displayTime = match.time;
+  // Cihazın gerçek timezone'una göre saat göster (dil seçimi ≠ saat dilimi)
+  const displayTime = formatLocalTime(new Date(match.date), getDeviceTimezone());
 
   const [reminderActive, setReminderActive] = useState(false);
   const pulseAnim = useRef(new Animated.Value(1)).current;
@@ -156,9 +157,9 @@ export default function MatchCard({ match, onPress }: Props) {
       )}
 
       {/* Channel pill(s) */}
-      {(match.channels && match.channels.length > 0) || match.channel ? (
-        <View style={styles.channelRow}>
-          {(match.channels && match.channels.length > 0
+      <View style={styles.channelRow}>
+        {(match.channels && match.channels.length > 0) || match.channel ? (
+          (match.channels && match.channels.length > 0
             ? match.channels
             : [match.channel]
           ).map((ch, i) => (
@@ -166,9 +167,14 @@ export default function MatchCard({ match, onPress }: Props) {
               {i === 0 && <Text style={styles.channelIcon}>📺</Text>}
               <Text style={[styles.channelTxt, { color: colors.textSub }]} numberOfLines={1}>{ch}</Text>
             </View>
-          ))}
-        </View>
-      ) : null}
+          ))
+        ) : (
+          <View style={[styles.channelPill, { backgroundColor: colors.bg3, borderColor: colors.border }]}>
+            <Text style={styles.channelIcon}>📺</Text>
+            <Text style={[styles.channelTxt, { color: colors.textMuted }]}>{t('matches.noChannel')}</Text>
+          </View>
+        )}
+      </View>
 
       {/* Reminder active note */}
       {reminderActive && (
