@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { AppState, AppStateStatus, View } from 'react-native';
 import { Stack } from 'expo-router';
-import * as SplashScreen from 'expo-splash-screen';
 import * as Font from 'expo-font';
 import { StatusBar } from 'expo-status-bar';
 import { I18nextProvider } from 'react-i18next';
@@ -14,8 +13,6 @@ import { initPurchases, needsPaywall } from '../services/subscriptionService';
 import PaywallScreen from '../components/PaywallScreen';
 import { ThemeProvider } from '../contexts/ThemeContext';
 import { CountryProvider } from '../contexts/CountryContext';
-
-SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const [appReady,    setAppReady]    = useState(false);
@@ -34,9 +31,6 @@ export default function RootLayout() {
   }, []);
 
   useEffect(() => {
-    // Splash'i HEMEN kaldır — prepare() crash/hang etse bile sonsuza takılmasın.
-    SplashScreen.hideAsync().catch(() => {});
-
     async function prepare() {
       try {
         await Font.loadAsync({});
