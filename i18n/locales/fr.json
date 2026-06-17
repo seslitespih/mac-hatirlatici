@@ -6,6 +6,8 @@
   },
   "matches": {
     "title": "Programme des Matchs",
+    "appTitle": "Sur Quelle Chaîne ?",
+    "lastUpdated": "Mis à jour : {{time}}",
     "today": "Aujourd'hui",
     "tomorrow": "Demain",
     "noMatches": "Pas de matchs aujourd'hui",
@@ -14,7 +16,18 @@
     "favoriteMatches": "Mes Équipes",
     "live": "EN DIRECT",
     "channel": "Chaîne",
-    "startsIn": "minutes avant le début"
+    "startsIn": "minutes avant le début",
+    "sports": {
+      "all": "Tout",
+      "football": "Football",
+      "basketball": "Basket",
+      "volleyball": "Volley",
+      "motorsport": "Moto"
+    },
+    "worldcupBanner": "Coupe du Monde FIFA 2026",
+    "worldcupSubtitle": "Chaînes de diffusion et horaires de tous les matchs",
+    "reminder15min": "Rappel activé — 15 min avant le match",
+    "reminderNoGoal": "(Heure du match uniquement — pas d'alerte but)"
   },
   "teams": {
     "title": "Sélectionner des Équipes",
@@ -38,6 +51,7 @@
     "language": "Langue",
     "notifications": "Notifications",
     "notificationsDesc": "Recevoir une notification 15 minutes avant le match",
+    "noGoalDisclaimer": "Nous n'envoyons pas de notifications de but intentionnellement — nous ne voulons pas gâcher votre expérience. Seuls des rappels 15 minutes avant le match sont envoyés.",
     "theme": "Thème",
     "dark": "Sombre",
     "light": "Clair",
@@ -49,7 +63,9 @@
     "permissionWarning": "Permission de notification refusée. Activez-la dans les paramètres de l'app.",
     "country": "Pays / Région de Diffusion",
     "countryDesc": "Les chaînes affichées pour chaque match dépendent de votre pays sélectionné.",
-    "selectCountry": "Sélectionner un Pays"
+    "selectCountry": "Sélectionner un Pays",
+    "appName": "Sur Quelle Chaîne ?",
+    "appDesc": "Suivez les matchs sur la bonne chaîne au bon moment."
   },
   "notification": {
     "title": "⚽ Rappel de Match",
@@ -62,5 +78,24 @@
     "retry": "Réessayer",
     "save": "Enregistrer",
     "cancel": "Annuler"
+  },
+  "paywall": {
+    "subtitle": "Guide TV Sport",
+    "trial": "1 MOIS GRATUIT",
+    "feature0": "Tous les matchs d'aujourd'hui — heure et chaîne corrects",
+    "feature1": "Rappel 15 minutes avant le match",
+    "feature2": "Programme TV dans 15 pays",
+    "feature3": "Mises à jour automatiques quotidiennes",
+    "pricePerMonth": "/mois",
+    "priceNote": "Après l'essai, facturation de {{price}}/mois. Annulez à tout moment.",
+    "startFree": "Commencer 1 mois gratuit",
+    "restore": "Restaurer les achats",
+    "legalIos": "Débité sur votre compte iTunes. L'abonnement se renouvelle automatiquement sauf annulation au moins 24h avant la fin de la période en cours.",
+    "legalAndroid": "Débité sur votre compte Google Play. Annulez à tout moment via Google Play.",
+    "errorTitle": "Erreur",
+    "errorPurchase": "L'achat n'a pas pu être finalisé. Veuillez réessayer.",
+    "notFoundTitle": "Introuvable",
+    "errorNoSub": "Aucun abonnement actif trouvé pour ce compte.",
+    "errorRestore": "Impossible de restaurer les achats."
   }
 }

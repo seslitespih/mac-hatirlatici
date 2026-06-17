@@ -6,6 +6,8 @@
   },
   "matches": {
     "title": "Match Schedule",
+    "appTitle": "Which Channel?",
+    "lastUpdated": "Updated: {{time}}",
     "today": "Today",
     "tomorrow": "Tomorrow",
     "noMatches": "No matches for today",
@@ -14,7 +16,18 @@
     "favoriteMatches": "My Teams",
     "live": "LIVE",
     "channel": "Channel",
-    "startsIn": "minutes to kickoff"
+    "startsIn": "minutes to kickoff",
+    "sports": {
+      "all": "All",
+      "football": "Football",
+      "basketball": "Basketball",
+      "volleyball": "Volleyball",
+      "motorsport": "Motorsport"
+    },
+    "worldcupBanner": "FIFA World Cup 2026",
+    "worldcupSubtitle": "Live broadcast channels & match times for every game",
+    "reminder15min": "Reminder set — 15 min before kickoff",
+    "reminderNoGoal": "(Match time only — no goal alerts)"
   },
   "teams": {
     "title": "Select Teams",
@@ -38,6 +51,7 @@
     "language": "Language",
     "notifications": "Notifications",
     "notificationsDesc": "Get notified 15 minutes before match start",
+    "noGoalDisclaimer": "We intentionally do not send goal notifications — we don't want to spoil your match-watching experience. Only 15-minute pre-match reminders are sent.",
     "theme": "Theme",
     "dark": "Dark",
     "light": "Light",
@@ -49,7 +63,9 @@
     "permissionWarning": "Notification permission denied. Please allow it in app settings.",
     "country": "Country / Broadcast Region",
     "countryDesc": "Channels shown for each match depend on your selected country.",
-    "selectCountry": "Select Country"
+    "selectCountry": "Select Country",
+    "appName": "Which Channel?",
+    "appDesc": "Follow matches on the right channel at the right time."
   },
   "notification": {
     "title": "⚽ Match Reminder",
@@ -62,5 +78,24 @@
     "retry": "Retry",
     "save": "Save",
     "cancel": "Cancel"
+  },
+  "paywall": {
+    "subtitle": "Sports TV Guide",
+    "trial": "1 MONTH FREE TRIAL",
+    "feature0": "Today's matches — correct time & channel",
+    "feature1": "15-minute pre-match reminder",
+    "feature2": "TV schedule for 15 countries",
+    "feature3": "Daily automatic updates",
+    "pricePerMonth": "/month",
+    "priceNote": "After the free trial, billed at {{price}}/month. Cancel anytime.",
+    "startFree": "Start 1 Month Free",
+    "restore": "Restore Purchases",
+    "legalIos": "Charged to your iTunes account. Subscription automatically renews unless cancelled at least 24 hours before the end of the current period.",
+    "legalAndroid": "Charged to your Google Play account. Cancel anytime through Google Play.",
+    "errorTitle": "Error",
+    "errorPurchase": "Purchase could not be completed. Please try again.",
+    "notFoundTitle": "Not Found",
+    "errorNoSub": "No active subscription found for this account.",
+    "errorRestore": "Could not restore purchases."
   }
 }

@@ -5,24 +5,25 @@ const IS_PROD = process.env.APP_ENV === 'production';
 
 module.exports = {
   expo: {
-    name: 'Hangi Kanalda?',
+    name: 'Match Reminder',
     slug: 'hangi-kanalda',
     version: '1.0.0',
     orientation: 'portrait',
     icon: './assets/icon.png',
-    userInterfaceStyle: 'automatic',
+    userInterfaceStyle: 'light',
+    backgroundColor: '#F0F5FF',
     scheme: 'mac-hatirlatici',
 
     splash: {
       image: './assets/splash.png',
       resizeMode: 'contain',
-      backgroundColor: '#0f0f1a',
+      backgroundColor: '#F0F5FF',
     },
 
     android: {
       adaptiveIcon: {
         foregroundImage: './assets/adaptive-icon.png',
-        backgroundColor: '#0f0f1a',
+        backgroundColor: '#F0F5FF',
       },
       package: 'com.machatirlatici.app',
       versionCode: 1,
@@ -90,8 +91,8 @@ module.exports = {
       footballDataToken: process.env.FOOTBALL_DATA_TOKEN ?? '',
       rapidApiKey:       process.env.RAPID_API_KEY ?? '',
       groqApiKey:        process.env.GROQ_API_KEY ?? '',
-      rcApiKeyIos:       process.env.REVENUECAT_IOS_KEY ?? '',
-      rcApiKeyAndroid:   process.env.REVENUECAT_ANDROID_KEY ?? '',
+      rcApiKeyIos:       process.env.REVENUECAT_IOS_KEY || 'appl_DBXnXzCViacQTaNmOobAfGHuYGf',
+      rcApiKeyAndroid:   process.env.REVENUECAT_ANDROID_KEY || 'test_NqygAOqsFNqMYsloduJSHFAjsRa',
       eas: {
         projectId: '1df49d90-6cfa-49a4-9815-bbab3db6e612',
       },

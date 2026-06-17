@@ -1,14 +1,13 @@
-import { useState, useEffect, useCallback, useMemo } from 'react';
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
+import { AppState, AppStateStatus } from 'react-native';
 import { Match, SportType } from '../constants/matches';
 import {
   groupMatchesByDay,
-  applyCountryChannels,
-  getWeeklyMatches,
   MatchGroup,
 } from '../services/matchService';
-import { fetchDailyMatches } from '../services/groqService';
-import { fetchTRMatches }     from '../services/hangikanalda';
-import { scheduleAllNotifications } from '../services/notificationService';
+import { fetchSportsDbMatches, clearSportsDbCache } from '../services/sportsDbService';
+import { fetchTRMatches, clearTRCache }             from '../services/hangikanalda';
+import { scheduleAllNotifications }            from '../services/notificationService';
 import { useTranslation } from 'react-i18next';
 
 export type MatchFilter = 'all' | 'favorites';
@@ -17,49 +16,82 @@ export function useMatches(
   selectedTeamIds: string[],
   countryCode: string = 'TR',
   sport: SportType | 'all' = 'all',
+  countryReady: boolean = true,   // CountryContext yüklenene kadar TR default'uyla yükleme yapma
 ) {
   const { t, i18n } = useTranslation();
-  const [filter,      setFilter]      = useState<MatchFilter>('all');
-  const [allMatches,  setAllMatches]  = useState<Match[]>(() =>
-    applyCountryChannels(getWeeklyMatches(), countryCode),
-  );
+  const appState    = useRef<AppStateStatus>(AppState.currentState);
+  const prevCountry = useRef<string | null>(null);
+
+  const [filter,       setFilter]      = useState<MatchFilter>('all');
+  const [allMatches,   setAllMatches]  = useState<Match[]>([]);
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [lastUpdated,  setLastUpdated]  = useState<Date | null>(null);
 
-  const loadMatches = useCallback(async (showRefresh = true) => {
+  const loadMatches = useCallback(async (showRefresh = true, force = false) => {
     if (showRefresh) setIsRefreshing(true);
     try {
       let matches: Match[];
 
       if (countryCode === 'TR') {
-        // Türkiye → hangikanalda.app (en doğru kaynak)
-        matches = await fetchTRMatches();
+        // TR: hangikanalda (Türk ligleri) + TheSportsDB (WC + uluslararası)
+        if (force) {
+          await Promise.all([clearTRCache(), clearSportsDbCache('TR')]);
+        }
+        const [trMatches, intlMatches] = await Promise.all([
+          fetchTRMatches(),
+          fetchSportsDbMatches('TR'),
+        ]);
+        // Merge: hangikanalda önce (Türk kanalları doğru), sonra sadece TheSportsDB'ye özgün maçlar
+        const trKeys = new Set(trMatches.map(m => `${m.homeTeam}|${m.awayTeam}`));
+        const extras = intlMatches.filter(m => !trKeys.has(`${m.homeTeam}|${m.awayTeam}`));
+        matches = [...trMatches, ...extras];
       } else {
-        // Diğer ülkeler → Groq günde 1 kez web araması (ülke saatiyle)
-        matches = await fetchDailyMatches(countryCode);
+        if (force) await clearSportsDbCache(countryCode);
+        matches = await fetchSportsDbMatches(countryCode);
       }
 
       if (matches.length > 0) {
         setAllMatches(matches);
         setLastUpdated(new Date());
         scheduleAllNotifications(selectedTeamIds, matches, i18n.language).catch(() => {});
+      } else if (force) {
+        setAllMatches([]);
       }
     } catch {
-      // Son çare: statik fallback
-      setAllMatches(applyCountryChannels(getWeeklyMatches(), countryCode));
+      if (force) setAllMatches([]);
     } finally {
       setIsRefreshing(false);
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [countryCode, selectedTeamIds, i18n.language]);
 
-  // Uygulama açılışında ve ülke değişiminde yükle
+  // CountryContext hazır olduğunda yükle; ülke değişince stale veriyi temizle
   useEffect(() => {
+    // Ülke context henüz yüklenmedi — TR default'uyla yanlış veri çekme
+    if (!countryReady) return;
+
+    // Ülke değişince eski ülkenin verisini HEMEN temizle (yanlış veri görünmesin)
+    if (prevCountry.current !== null && prevCountry.current !== countryCode) {
+      setAllMatches([]);
+    }
+    prevCountry.current = countryCode;
+
     loadMatches(true);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [countryCode]);
+  }, [countryCode, countryReady]);
 
-  // Seçili takımlar değişince bildirimleri yeniden zamanla
+  // Uygulama ön plana gelince sessizce kontrol et
+  useEffect(() => {
+    const sub = AppState.addEventListener('change', (next) => {
+      if (appState.current.match(/inactive|background/) && next === 'active' && countryReady) {
+        loadMatches(false);
+      }
+      appState.current = next;
+    });
+    return () => sub.remove();
+  }, [loadMatches, countryReady]);
+
+  // Seçili takımlar değişince bildirimleri güncelle
   useEffect(() => {
     if (selectedTeamIds.length > 0 && allMatches.length > 0) {
       scheduleAllNotifications(selectedTeamIds, allMatches, i18n.language).catch(() => {});
@@ -67,12 +99,19 @@ export function useMatches(
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedTeamIds]);
 
-  const refresh = useCallback(() => loadMatches(true), [loadMatches]);
+  const refresh = useCallback(() => loadMatches(true, true), [loadMatches]);
 
-  const sportFiltered = useMemo(
-    () => sport === 'all' ? allMatches : allMatches.filter(m => m.sport === sport),
-    [allMatches, sport],
-  );
+  const sportFiltered = useMemo(() => {
+    const now = new Date();
+    // Bitmiş veya 130 dk+ geçmiş maçları gizle (canlı maçlar hariç)
+    const active = allMatches.filter(m => {
+      if (m.status === 'finished') return false;
+      if (m.status === 'live') return true;
+      const endTime = new Date(new Date(m.date).getTime() + 130 * 60 * 1000);
+      return endTime > now;
+    });
+    return sport === 'all' ? active : active.filter(m => m.sport === sport);
+  }, [allMatches, sport]);
 
   const favoriteMatches = useMemo(
     () => sportFiltered.filter(

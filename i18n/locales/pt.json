@@ -5,23 +5,36 @@
     "settings": "Configurações"
   },
   "matches": {
-    "title": "Programação de Jogos",
+    "title": "Agenda de Jogos",
+    "appTitle": "Qual Canal?",
+    "lastUpdated": "Atualizado: {{time}}",
     "today": "Hoje",
     "tomorrow": "Amanhã",
-    "noMatches": "Sem jogos hoje",
-    "noFavoriteMatches": "Sem jogos dos seus times favoritos",
+    "noMatches": "Nenhum jogo hoje",
+    "noFavoriteMatches": "Nenhum jogo dos seus times favoritos",
     "allMatches": "Todos os Jogos",
     "favoriteMatches": "Meus Times",
     "live": "AO VIVO",
     "channel": "Canal",
-    "startsIn": "minutos para o início"
+    "startsIn": "minutos para o início",
+    "sports": {
+      "all": "Todos",
+      "football": "Futebol",
+      "basketball": "Basquete",
+      "volleyball": "Vôlei",
+      "motorsport": "Motor"
+    },
+    "worldcupBanner": "Copa do Mundo FIFA 2026",
+    "worldcupSubtitle": "Canais de transmissão e horários de todos os jogos",
+    "reminder15min": "Lembrete ativado — 15 min antes do jogo",
+    "reminderNoGoal": "(Apenas horário do jogo — sem alertas de gol)"
   },
   "teams": {
     "title": "Selecionar Times",
     "search": "Buscar times...",
     "selected": "selecionado",
     "noTeams": "Nenhum time encontrado",
-    "infoText": "Você receberá uma notificação 15 minutos antes dos jogos dos times selecionados.",
+    "infoText": "Você receberá uma notificação 15 minutos antes dos jogos dos seus times selecionados.",
     "leagues": {
       "superlig": "Süper Lig",
       "premier": "Premier League",
@@ -38,18 +51,21 @@
     "language": "Idioma",
     "notifications": "Notificações",
     "notificationsDesc": "Receba notificações 15 minutos antes do jogo",
+    "noGoalDisclaimer": "Não enviamos notificações de gol intencionalmente — não queremos estragar sua experiência. Apenas lembretes 15 minutos antes do jogo são enviados.",
     "theme": "Tema",
     "dark": "Escuro",
     "light": "Claro",
     "about": "Sobre",
     "version": "Versão",
     "selectLanguage": "Selecionar Idioma",
-    "notificationEnabled": "Notificações Ativadas",
+    "notificationEnabled": "Notificações Ativas",
     "notificationDisabled": "Notificações Desativadas",
     "permissionWarning": "Permissão de notificação negada. Ative nas configurações do app.",
     "country": "País / Região de Transmissão",
-    "countryDesc": "Os canais de cada jogo são exibidos conforme o seu país selecionado.",
-    "selectCountry": "Selecionar País"
+    "countryDesc": "Os canais de cada jogo são exibidos de acordo com o seu país selecionado.",
+    "selectCountry": "Selecionar País",
+    "appName": "Qual Canal?",
+    "appDesc": "Acompanhe os jogos no canal certo na hora certa."
   },
   "notification": {
     "title": "⚽ Lembrete de Jogo",
@@ -62,5 +78,24 @@
     "retry": "Tentar novamente",
     "save": "Salvar",
     "cancel": "Cancelar"
+  },
+  "paywall": {
+    "subtitle": "Guia de TV Esportiva",
+    "trial": "1 MÊS GRÁTIS",
+    "feature0": "Todos os jogos de hoje — horário e canal corretos",
+    "feature1": "Lembrete 15 minutos antes do jogo",
+    "feature2": "Programação de TV em 15 países",
+    "feature3": "Atualizações automáticas diárias",
+    "pricePerMonth": "/mês",
+    "priceNote": "Após o período de teste, cobrado a {{price}}/mês. Cancele quando quiser.",
+    "startFree": "Começar 1 mês grátis",
+    "restore": "Restaurar compras",
+    "legalIos": "Cobrado na sua conta do iTunes. A assinatura é renovada automaticamente se não for cancelada pelo menos 24 horas antes do término do período atual.",
+    "legalAndroid": "Cobrado na sua conta do Google Play. Cancele quando quiser pelo Google Play.",
+    "errorTitle": "Erro",
+    "errorPurchase": "Não foi possível concluir a compra. Tente novamente.",
+    "notFoundTitle": "Não encontrado",
+    "errorNoSub": "Nenhuma assinatura ativa encontrada para esta conta.",
+    "errorRestore": "Não foi possível restaurar as compras."
   }
 }

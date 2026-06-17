@@ -6,22 +6,35 @@
   },
   "matches": {
     "title": "Programma Partite",
+    "appTitle": "Su Quale Canale?",
+    "lastUpdated": "Aggiornato: {{time}}",
     "today": "Oggi",
     "tomorrow": "Domani",
     "noMatches": "Nessuna partita oggi",
-    "noFavoriteMatches": "Nessuna partita per le tue squadre preferite",
+    "noFavoriteMatches": "Nessuna partita delle tue squadre preferite",
     "allMatches": "Tutte le Partite",
     "favoriteMatches": "Le Mie Squadre",
     "live": "IN DIRETTA",
     "channel": "Canale",
-    "startsIn": "minuti all'inizio"
+    "startsIn": "minuti al calcio d'inizio",
+    "sports": {
+      "all": "Tutti",
+      "football": "Calcio",
+      "basketball": "Basket",
+      "volleyball": "Pallavolo",
+      "motorsport": "Motorsport"
+    },
+    "worldcupBanner": "Coppa del Mondo FIFA 2026",
+    "worldcupSubtitle": "Canali di trasmissione e orari di tutte le partite",
+    "reminder15min": "Promemoria attivato — 15 min prima del calcio d'inizio",
+    "reminderNoGoal": "(Solo orario partita — nessun avviso gol)"
   },
   "teams": {
     "title": "Seleziona Squadre",
     "search": "Cerca squadre...",
     "selected": "selezionato",
     "noTeams": "Nessuna squadra trovata",
-    "infoText": "Riceverai una notifica 15 minuti prima delle partite delle squadre selezionate.",
+    "infoText": "Riceverai una notifica 15 minuti prima delle partite delle tue squadre selezionate.",
     "leagues": {
       "superlig": "Süper Lig",
       "premier": "Premier League",
@@ -37,19 +50,22 @@
     "title": "Impostazioni",
     "language": "Lingua",
     "notifications": "Notifiche",
-    "notificationsDesc": "Ricevi una notifica 15 minuti prima dell'inizio della partita",
+    "notificationsDesc": "Ricevi notifiche 15 minuti prima dell'inizio della partita",
+    "noGoalDisclaimer": "Non inviamo notifiche di gol intenzionalmente — non vogliamo rovinare la tua esperienza. Vengono inviati solo promemoria 15 minuti prima della partita.",
     "theme": "Tema",
     "dark": "Scuro",
     "light": "Chiaro",
     "about": "Informazioni",
     "version": "Versione",
     "selectLanguage": "Seleziona Lingua",
-    "notificationEnabled": "Notifiche Attivate",
-    "notificationDisabled": "Notifiche Disattivate",
-    "permissionWarning": "Permesso notifiche negato. Abilitalo nelle impostazioni dell'app.",
+    "notificationEnabled": "Notifiche Attive",
+    "notificationDisabled": "Notifiche Disattive",
+    "permissionWarning": "Autorizzazione notifiche negata. Abilitala nelle impostazioni dell'app.",
     "country": "Paese / Regione di Trasmissione",
     "countryDesc": "I canali mostrati per ogni partita dipendono dal tuo paese selezionato.",
-    "selectCountry": "Seleziona Paese"
+    "selectCountry": "Seleziona Paese",
+    "appName": "Su Quale Canale?",
+    "appDesc": "Segui le partite sul canale giusto all'orario giusto."
   },
   "notification": {
     "title": "⚽ Promemoria Partita",
@@ -62,5 +78,24 @@
     "retry": "Riprova",
     "save": "Salva",
     "cancel": "Annulla"
+  },
+  "paywall": {
+    "subtitle": "Guida Sport TV",
+    "trial": "1 MESE GRATUITO",
+    "feature0": "Tutte le partite di oggi — ora e canale corretti",
+    "feature1": "Promemoria 15 minuti prima della partita",
+    "feature2": "Programma TV in 15 paesi",
+    "feature3": "Aggiornamenti automatici giornalieri",
+    "pricePerMonth": "/mese",
+    "priceNote": "Dopo il periodo di prova, fatturato a {{price}}/mese. Cancella quando vuoi.",
+    "startFree": "Inizia 1 mese gratis",
+    "restore": "Ripristina acquisti",
+    "legalIos": "Addebitato al tuo account iTunes. L'abbonamento si rinnova automaticamente se non viene cancellato almeno 24 ore prima della fine del periodo corrente.",
+    "legalAndroid": "Addebitato al tuo account Google Play. Cancella quando vuoi tramite Google Play.",
+    "errorTitle": "Errore",
+    "errorPurchase": "Impossibile completare l'acquisto. Riprova.",
+    "notFoundTitle": "Non trovato",
+    "errorNoSub": "Nessun abbonamento attivo trovato per questo account.",
+    "errorRestore": "Impossibile ripristinare gli acquisti."
   }
 }

@@ -1,43 +1,16 @@
 import React, { useEffect, useRef, useState } from 'react';
 import {
   Animated,
+  Linking,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
+import { useTheme } from '../contexts/ThemeContext';
 import { Match } from '../constants/matches';
 import { toggleReminder, isReminderSet } from '../services/notificationService';
-
-// ─── Color palette ────────────────────────────────────────────────────────────
-
-const C = {
-  bg0: '#060C1A',
-  bg1: '#0A1628',
-  bg2: '#0F2040',
-  bg3: '#152B52',
-  accent: '#4F8EF7',
-  accentGlow: 'rgba(79,142,247,0.18)',
-  purple: '#8B5CF6',
-  live: '#EF4444',
-  liveGlow: 'rgba(239,68,68,0.15)',
-  text: '#F0F4FF',
-  textSub: '#7B9CC4',
-  textMuted: '#3D5A80',
-  border: '#1A3560',
-  sportFootball:   '#10B981',
-  sportBasketball: '#F59E0B',
-  sportVolleyball: '#4F8EF7',
-  sportMotor:      '#EF4444',
-};
-
-const SPORT_BORDER: Record<string, string> = {
-  football:   C.sportFootball,
-  basketball: C.sportBasketball,
-  volleyball: C.sportVolleyball,
-  motorsport: C.sportMotor,
-};
 
 // ─── Props ────────────────────────────────────────────────────────────────────
 
@@ -49,17 +22,29 @@ interface Props {
 // ─── Component ───────────────────────────────────────────────────────────────
 
 export default function MatchCard({ match, onPress }: Props) {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { colors } = useTheme();
 
   const isLive  = match.status === 'live';
   const isF1    = match.sport === 'motorsport';
-  const accent  = SPORT_BORDER[match.sport] ?? C.sportFootball;
+
+  const SPORT_BORDER: Record<string, string> = {
+    football:   colors.sportFootball,
+    basketball: colors.sportBasketball,
+    volleyball: colors.sportVolleyball,
+    motorsport: colors.sportMotor,
+  };
+
+  const accent = SPORT_BORDER[match.sport] ?? colors.sportFootball;
 
   const now       = new Date();
   const matchDate = new Date(match.date);
   const diffMin   = Math.floor((matchDate.getTime() - now.getTime()) / 60000);
   const showSoon  = diffMin > 0 && diffMin <= 60;
   const isPast    = diffMin < -10;
+
+  // Use pre-formatted local time string from the API (match.date is UTC, only for countdown)
+  const displayTime = match.time;
 
   const [reminderActive, setReminderActive] = useState(false);
   const pulseAnim = useRef(new Animated.Value(1)).current;
@@ -68,7 +53,6 @@ export default function MatchCard({ match, onPress }: Props) {
     isReminderSet(match.id).then(setReminderActive);
   }, [match.id]);
 
-  // Pulsing dot animation for LIVE badge
   useEffect(() => {
     if (!isLive) return;
     const loop = Animated.loop(
@@ -88,20 +72,22 @@ export default function MatchCard({ match, onPress }: Props) {
       setReminderActive(true);
     } else if (result === 'cancelled') {
       setReminderActive(false);
+    } else if (result === 'failed') {
+      // İzin yoksa iOS Ayarları'nı aç
+      Linking.openSettings();
     }
-    // 'failed' — silent, user can try again
   }
 
-  const cardBg = isLive ? C.liveGlow : reminderActive ? C.accentGlow : 'transparent';
-  const borderColor = isLive ? C.live : accent;
+  const cardBg     = isLive ? colors.liveGlow : reminderActive ? colors.accentGlow : 'transparent';
+  const borderColor = isLive ? colors.live : accent;
 
   return (
     <TouchableOpacity
       style={[
         styles.card,
-        { borderLeftColor: borderColor, backgroundColor: C.bg1 },
+        { borderLeftColor: borderColor, backgroundColor: colors.bg1 },
         (isLive || reminderActive) && {
-          shadowColor: isLive ? C.live : C.accent,
+          shadowColor: isLive ? colors.live : colors.accent,
           shadowOpacity: 0.25,
           shadowRadius: 12,
           elevation: 6,
@@ -110,17 +96,18 @@ export default function MatchCard({ match, onPress }: Props) {
       onPress={() => onPress?.(match)}
       activeOpacity={0.8}
     >
-      {/* Colored top-left glow strip */}
       <View style={[styles.glowStrip, { backgroundColor: cardBg }]} />
 
       {/* Top row: league + LIVE / soon badge + bell */}
       <View style={styles.topRow}>
-        <Text style={styles.league} numberOfLines={1}>{match.league}</Text>
+        <Text style={[styles.league, { color: colors.textMuted }]} numberOfLines={1}>
+          {match.league}
+        </Text>
         <View style={styles.badges}>
           {isLive && (
-            <View style={styles.liveBadge}>
-              <Animated.View style={[styles.liveDot, { opacity: pulseAnim }]} />
-              <Text style={styles.liveTxt}>LIVE</Text>
+            <View style={[styles.liveBadge, { backgroundColor: colors.liveGlow, borderColor: 'rgba(239,68,68,0.3)' }]}>
+              <Animated.View style={[styles.liveDot, { opacity: pulseAnim, backgroundColor: colors.live }]} />
+              <Text style={[styles.liveTxt, { color: colors.live }]}>LIVE</Text>
             </View>
           )}
           {showSoon && !isLive && (
@@ -132,7 +119,8 @@ export default function MatchCard({ match, onPress }: Props) {
             <TouchableOpacity
               style={[
                 styles.bellBtn,
-                reminderActive && { backgroundColor: C.accentGlow, borderColor: C.accent },
+                { borderColor: 'transparent' },
+                reminderActive && { backgroundColor: colors.accentGlow, borderColor: colors.accent },
               ]}
               onPress={handleReminder}
               hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
@@ -146,33 +134,33 @@ export default function MatchCard({ match, onPress }: Props) {
       {/* Teams row / F1 race */}
       {isF1 ? (
         <View style={styles.f1Block}>
-          <Text style={styles.f1Race}    numberOfLines={1}>{match.homeTeamName}</Text>
-          <Text style={styles.f1Circuit} numberOfLines={1}>{match.awayTeamName}</Text>
+          <Text style={[styles.f1Race,    { color: colors.text    }]} numberOfLines={1}>{match.homeTeamName}</Text>
+          <Text style={[styles.f1Circuit, { color: colors.textSub }]} numberOfLines={1}>{match.awayTeamName}</Text>
         </View>
       ) : (
         <View style={styles.teamsRow}>
-          <Text style={styles.team} numberOfLines={2}>{match.homeTeamName}</Text>
-          <View style={styles.timeContainer}>
-            <Text style={[styles.time, { color: isLive ? C.live : C.accent }]}>
-              {match.time}
+          <Text style={[styles.team, { color: colors.text }]} numberOfLines={2}>{match.homeTeamName}</Text>
+          <View style={[styles.timeContainer, { backgroundColor: colors.bg3 }]}>
+            <Text style={[styles.time, { color: isLive ? colors.live : colors.accent }]}>
+              {displayTime}
             </Text>
           </View>
-          <Text style={[styles.team, styles.teamRight]} numberOfLines={2}>
+          <Text style={[styles.team, styles.teamRight, { color: colors.text }]} numberOfLines={2}>
             {match.awayTeamName}
           </Text>
         </View>
       )}
 
-      {/* Channel pill(s) — hangikanalda.app birden fazla kanal verebilir */}
+      {/* Channel pill(s) */}
       {(match.channels && match.channels.length > 0) || match.channel ? (
         <View style={styles.channelRow}>
           {(match.channels && match.channels.length > 0
             ? match.channels
             : [match.channel]
           ).map((ch, i) => (
-            <View key={i} style={styles.channelPill}>
+            <View key={i} style={[styles.channelPill, { backgroundColor: colors.bg3, borderColor: colors.border }]}>
               {i === 0 && <Text style={styles.channelIcon}>📺</Text>}
-              <Text style={styles.channelTxt} numberOfLines={1}>{ch}</Text>
+              <Text style={[styles.channelTxt, { color: colors.textSub }]} numberOfLines={1}>{ch}</Text>
             </View>
           ))}
         </View>
@@ -180,9 +168,11 @@ export default function MatchCard({ match, onPress }: Props) {
 
       {/* Reminder active note */}
       {reminderActive && (
-        <Text style={styles.reminderNote}>
-          🔔 {match.time} — 15 dk önce hatırlatılacak{' '}
-          <Text style={styles.reminderDisc}>(Sadece maç saati — gol bildirimi verilmez)</Text>
+        <Text style={[styles.reminderNote, { color: colors.accent }]}>
+          🔔 {displayTime} — {t('matches.reminder15min')}{' '}
+          <Text style={[styles.reminderDisc, { color: colors.textMuted }]}>
+            {t('matches.reminderNoGoal')}
+          </Text>
         </Text>
       )}
     </TouchableOpacity>
@@ -223,7 +213,6 @@ const styles = StyleSheet.create({
   league: {
     fontSize: 10,
     fontWeight: '700',
-    color: C.textMuted,
     letterSpacing: 0.9,
     textTransform: 'uppercase',
     flex: 1,
@@ -237,22 +226,18 @@ const styles = StyleSheet.create({
   liveBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: C.liveGlow,
     borderRadius: 6,
     paddingHorizontal: 8,
     paddingVertical: 3,
     borderWidth: 1,
-    borderColor: 'rgba(239,68,68,0.3)',
     gap: 5,
   },
   liveDot: {
     width: 7,
     height: 7,
     borderRadius: 3.5,
-    backgroundColor: C.live,
   },
   liveTxt: {
-    color: C.live,
     fontSize: 9,
     fontWeight: '800',
     letterSpacing: 0.8,
@@ -273,7 +258,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 5,
     paddingVertical: 3,
     borderWidth: 1,
-    borderColor: 'transparent',
   },
   bellIcon: {
     fontSize: 15,
@@ -286,7 +270,6 @@ const styles = StyleSheet.create({
   },
   team: {
     flex: 2,
-    color: C.text,
     fontSize: 14,
     fontWeight: '700',
     textAlign: 'left',
@@ -301,7 +284,6 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
     paddingHorizontal: 6,
     borderRadius: 8,
-    backgroundColor: C.bg3,
   },
   time: {
     fontSize: 18,
@@ -314,12 +296,10 @@ const styles = StyleSheet.create({
     marginBottom: 2,
   },
   f1Race: {
-    color: C.text,
     fontSize: 15,
     fontWeight: '700',
   },
   f1Circuit: {
-    color: C.textSub,
     fontSize: 12,
     fontWeight: '500',
   },
@@ -332,13 +312,11 @@ const styles = StyleSheet.create({
   channelPill: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: C.bg3,
     borderRadius: 20,
     paddingHorizontal: 10,
     paddingVertical: 4,
     alignSelf: 'flex-start',
     borderWidth: 1,
-    borderColor: C.border,
     gap: 5,
   },
   channelIcon: {
@@ -346,18 +324,15 @@ const styles = StyleSheet.create({
   },
   channelTxt: {
     fontSize: 11,
-    color: C.textSub,
     fontWeight: '600',
   },
   reminderNote: {
     marginTop: 8,
     fontSize: 10,
-    color: C.accent,
     fontStyle: 'italic',
     lineHeight: 15,
   },
   reminderDisc: {
-    color: C.textMuted,
     fontSize: 10,
   },
 });

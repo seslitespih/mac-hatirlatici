@@ -1,29 +1,28 @@
 export interface CountryInfo {
   code: string;
-  name: string;
+  name: string;       // native name (shown when app language matches country language)
+  englishName: string; // always shown for international users
   flag: string;
   timezone: string;
   language: string;   // i18n dil kodu
 }
 
 export const SUPPORTED_COUNTRIES: CountryInfo[] = [
-  // Mevcut
-  { code: 'TR', name: 'Türkiye',        flag: '🇹🇷', timezone: 'Europe/Istanbul', language: 'tr' },
-  { code: 'GB', name: 'United Kingdom', flag: '🇬🇧', timezone: 'Europe/London',   language: 'en' },
-  { code: 'ES', name: 'España',         flag: '🇪🇸', timezone: 'Europe/Madrid',   language: 'es' },
-  { code: 'PT', name: 'Portugal',       flag: '🇵🇹', timezone: 'Europe/Lisbon',   language: 'pt' },
-  { code: 'FR', name: 'France',         flag: '🇫🇷', timezone: 'Europe/Paris',    language: 'fr' },
-  { code: 'DE', name: 'Deutschland',    flag: '🇩🇪', timezone: 'Europe/Berlin',   language: 'de' },
-  { code: 'IT', name: 'Italia',         flag: '🇮🇹', timezone: 'Europe/Rome',     language: 'it' },
-  { code: 'SA', name: 'العربية',        flag: '🇸🇦', timezone: 'Asia/Riyadh',     language: 'ar' },
-  // Yeni
-  { code: 'BR', name: 'Brasil',         flag: '🇧🇷', timezone: 'America/Sao_Paulo',      language: 'pt' },
-  { code: 'AR', name: 'Argentina',      flag: '🇦🇷', timezone: 'America/Argentina/Buenos_Aires', language: 'es' },
-  { code: 'MX', name: 'México',         flag: '🇲🇽', timezone: 'America/Mexico_City',    language: 'es' },
-  { code: 'EG', name: 'مصر',            flag: '🇪🇬', timezone: 'Africa/Cairo',            language: 'ar' },
-  { code: 'NG', name: 'Nigeria',        flag: '🇳🇬', timezone: 'Africa/Lagos',            language: 'en' },
-  { code: 'MA', name: 'المغرب',         flag: '🇲🇦', timezone: 'Africa/Casablanca',       language: 'ar' },
-  { code: 'SN', name: 'Sénégal',        flag: '🇸🇳', timezone: 'Africa/Dakar',            language: 'fr' },
+  { code: 'TR', name: 'Türkiye',        englishName: 'Turkey',         flag: '🇹🇷', timezone: 'Europe/Istanbul', language: 'tr' },
+  { code: 'GB', name: 'United Kingdom', englishName: 'United Kingdom', flag: '🇬🇧', timezone: 'Europe/London',   language: 'en' },
+  { code: 'ES', name: 'España',         englishName: 'Spain',          flag: '🇪🇸', timezone: 'Europe/Madrid',   language: 'es' },
+  { code: 'PT', name: 'Portugal',       englishName: 'Portugal',       flag: '🇵🇹', timezone: 'Europe/Lisbon',   language: 'pt' },
+  { code: 'FR', name: 'France',         englishName: 'France',         flag: '🇫🇷', timezone: 'Europe/Paris',    language: 'fr' },
+  { code: 'DE', name: 'Deutschland',    englishName: 'Germany',        flag: '🇩🇪', timezone: 'Europe/Berlin',   language: 'de' },
+  { code: 'IT', name: 'Italia',         englishName: 'Italy',          flag: '🇮🇹', timezone: 'Europe/Rome',     language: 'it' },
+  { code: 'SA', name: 'العربية',        englishName: 'Saudi Arabia',   flag: '🇸🇦', timezone: 'Asia/Riyadh',     language: 'ar' },
+  { code: 'BR', name: 'Brasil',         englishName: 'Brazil',         flag: '🇧🇷', timezone: 'America/Sao_Paulo',      language: 'pt' },
+  { code: 'AR', name: 'Argentina',      englishName: 'Argentina',      flag: '🇦🇷', timezone: 'America/Argentina/Buenos_Aires', language: 'es' },
+  { code: 'MX', name: 'México',         englishName: 'Mexico',         flag: '🇲🇽', timezone: 'America/Mexico_City',    language: 'es' },
+  { code: 'EG', name: 'مصر',            englishName: 'Egypt',          flag: '🇪🇬', timezone: 'Africa/Cairo',            language: 'ar' },
+  { code: 'NG', name: 'Nigeria',        englishName: 'Nigeria',        flag: '🇳🇬', timezone: 'Africa/Lagos',            language: 'en' },
+  { code: 'MA', name: 'المغرب',         englishName: 'Morocco',        flag: '🇲🇦', timezone: 'Africa/Casablanca',       language: 'ar' },
+  { code: 'SN', name: 'Sénégal',        englishName: 'Senegal',        flag: '🇸🇳', timezone: 'Africa/Dakar',            language: 'fr' },
 ];
 
 export const COUNTRY_CHANNEL_MAP: Record<string, Record<string, string[]>> = {
@@ -438,7 +437,7 @@ export function guessCountryFromLanguage(langCode: string): string {
     tr: 'TR',
     en: 'GB',
     es: 'ES',
-    pt: 'PT',
+    pt: 'BR',   // Português listede 🇧🇷 ile gösteriliyor
     fr: 'FR',
     de: 'DE',
     it: 'IT',

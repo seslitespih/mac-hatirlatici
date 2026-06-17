@@ -6,6 +6,8 @@
   },
   "matches": {
     "title": "Programa de Partidos",
+    "appTitle": "¿En Qué Canal?",
+    "lastUpdated": "Actualizado: {{time}}",
     "today": "Hoy",
     "tomorrow": "Mañana",
     "noMatches": "No hay partidos hoy",
@@ -14,7 +16,18 @@
     "favoriteMatches": "Mis Equipos",
     "live": "EN VIVO",
     "channel": "Canal",
-    "startsIn": "minutos para el inicio"
+    "startsIn": "minutos para el inicio",
+    "sports": {
+      "all": "Todo",
+      "football": "Fútbol",
+      "basketball": "Basket",
+      "volleyball": "Voleibol",
+      "motorsport": "Motor"
+    },
+    "worldcupBanner": "Copa Mundial FIFA 2026",
+    "worldcupSubtitle": "Canales de emisión y horarios de todos los partidos",
+    "reminder15min": "Recordatorio activado — 15 min antes del partido",
+    "reminderNoGoal": "(Solo hora del partido — sin alertas de gol)"
   },
   "teams": {
     "title": "Seleccionar Equipos",
@@ -38,6 +51,7 @@
     "language": "Idioma",
     "notifications": "Notificaciones",
     "notificationsDesc": "Recibe notificaciones 15 minutos antes del partido",
+    "noGoalDisclaimer": "No enviamos notificaciones de gol intencionalmente — no queremos arruinar tu experiencia. Solo se envían recordatorios 15 minutos antes del partido.",
     "theme": "Tema",
     "dark": "Oscuro",
     "light": "Claro",
@@ -49,7 +63,9 @@
     "permissionWarning": "Permiso de notificación denegado. Actívalo en los ajustes de la app.",
     "country": "País / Región de Emisión",
     "countryDesc": "Los canales de cada partido se muestran según tu país seleccionado.",
-    "selectCountry": "Seleccionar País"
+    "selectCountry": "Seleccionar País",
+    "appName": "¿En Qué Canal?",
+    "appDesc": "Sigue los partidos en el canal correcto a la hora correcta."
   },
   "notification": {
     "title": "⚽ Recordatorio de Partido",
@@ -62,5 +78,24 @@
     "retry": "Reintentar",
     "save": "Guardar",
     "cancel": "Cancelar"
+  },
+  "paywall": {
+    "subtitle": "Guía de TV Deportiva",
+    "trial": "1 MES GRATIS",
+    "feature0": "Todos los partidos de hoy — hora y canal correctos",
+    "feature1": "Recordatorio 15 minutos antes del partido",
+    "feature2": "Programación TV en 15 países",
+    "feature3": "Actualizaciones automáticas diarias",
+    "pricePerMonth": "/mes",
+    "priceNote": "Tras el período de prueba, se factura {{price}}/mes. Cancela cuando quieras.",
+    "startFree": "Comenzar 1 mes gratis",
+    "restore": "Restaurar compras",
+    "legalIos": "Se cobra a tu cuenta de iTunes. La suscripción se renueva automáticamente si no se cancela al menos 24 horas antes del final del período actual.",
+    "legalAndroid": "Se cobra a tu cuenta de Google Play. Cancela cuando quieras desde Google Play.",
+    "errorTitle": "Error",
+    "errorPurchase": "No se pudo completar la compra. Inténtalo de nuevo.",
+    "notFoundTitle": "No encontrado",
+    "errorNoSub": "No se encontró ninguna suscripción activa para esta cuenta.",
+    "errorRestore": "No se pudieron restaurar las compras."
   }
 }

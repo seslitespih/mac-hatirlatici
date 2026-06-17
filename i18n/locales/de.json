@@ -6,22 +6,35 @@
   },
   "matches": {
     "title": "Spielplan",
+    "appTitle": "Auf welchem Kanal?",
+    "lastUpdated": "Aktualisiert: {{time}}",
     "today": "Heute",
     "tomorrow": "Morgen",
-    "noMatches": "Keine Spiele heute",
+    "noMatches": "Heute keine Spiele",
     "noFavoriteMatches": "Keine Spiele deiner Lieblingsmannschaften",
     "allMatches": "Alle Spiele",
     "favoriteMatches": "Meine Teams",
     "live": "LIVE",
-    "channel": "Sender",
-    "startsIn": "Minuten bis Anpfiff"
+    "channel": "Kanal",
+    "startsIn": "Minuten bis zum Anstoß",
+    "sports": {
+      "all": "Alle",
+      "football": "Fußball",
+      "basketball": "Basketball",
+      "volleyball": "Volleyball",
+      "motorsport": "Motorsport"
+    },
+    "worldcupBanner": "FIFA Weltmeisterschaft 2026",
+    "worldcupSubtitle": "Übertragungskanäle und Spielzeiten für alle Spiele",
+    "reminder15min": "Erinnerung aktiviert — 15 Min vor Anstoß",
+    "reminderNoGoal": "(Nur Spielzeit — keine Torbenachrichtigungen)"
   },
   "teams": {
     "title": "Teams auswählen",
     "search": "Teams suchen...",
     "selected": "ausgewählt",
     "noTeams": "Keine Teams gefunden",
-    "infoText": "Du erhältst 15 Minuten vor den Spielen deiner ausgewählten Teams eine Benachrichtigung.",
+    "infoText": "Du erhältst eine Benachrichtigung 15 Minuten vor den Spielen deiner ausgewählten Teams.",
     "leagues": {
       "superlig": "Süper Lig",
       "premier": "Premier League",
@@ -37,19 +50,22 @@
     "title": "Einstellungen",
     "language": "Sprache",
     "notifications": "Benachrichtigungen",
-    "notificationsDesc": "Benachrichtigung 15 Minuten vor Spielbeginn erhalten",
-    "theme": "Thema",
+    "notificationsDesc": "15 Minuten vor Spielbeginn benachrichtigt werden",
+    "noGoalDisclaimer": "Wir senden absichtlich keine Tor-Benachrichtigungen — wir wollen dein Spielerlebnis nicht ruinieren. Es werden nur 15-Minuten-Vorspiel-Erinnerungen gesendet.",
+    "theme": "Design",
     "dark": "Dunkel",
     "light": "Hell",
     "about": "Über",
     "version": "Version",
     "selectLanguage": "Sprache auswählen",
-    "notificationEnabled": "Benachrichtigungen An",
+    "notificationEnabled": "Benachrichtigungen Ein",
     "notificationDisabled": "Benachrichtigungen Aus",
     "permissionWarning": "Benachrichtigungsberechtigung verweigert. Bitte in den App-Einstellungen aktivieren.",
-    "country": "Land / Sendegebiet",
-    "countryDesc": "Die angezeigten Sender pro Spiel richten sich nach deinem gewählten Land.",
-    "selectCountry": "Land auswählen"
+    "country": "Land / Übertragungsregion",
+    "countryDesc": "Die angezeigten Kanäle für jedes Spiel hängen von deinem ausgewählten Land ab.",
+    "selectCountry": "Land auswählen",
+    "appName": "Auf welchem Kanal?",
+    "appDesc": "Verfolge Spiele auf dem richtigen Kanal zur richtigen Zeit."
   },
   "notification": {
     "title": "⚽ Spielerinnerung",
@@ -57,10 +73,29 @@
     "bodyNoChannel": "{{home}} - {{away}} beginnt in 15 Minuten!"
   },
   "common": {
-    "loading": "Laden...",
+    "loading": "Lädt...",
     "error": "Ein Fehler ist aufgetreten",
     "retry": "Erneut versuchen",
     "save": "Speichern",
     "cancel": "Abbrechen"
+  },
+  "paywall": {
+    "subtitle": "Sport TV-Programm",
+    "trial": "1 MONAT KOSTENLOS",
+    "feature0": "Alle heutigen Spiele — richtige Zeit und Sender",
+    "feature1": "Erinnerung 15 Minuten vor dem Spiel",
+    "feature2": "TV-Programm für 15 Länder",
+    "feature3": "Automatische tägliche Updates",
+    "pricePerMonth": "/Monat",
+    "priceNote": "Nach der Testphase {{price}}/Monat. Jederzeit kündbar.",
+    "startFree": "1 Monat kostenlos starten",
+    "restore": "Käufe wiederherstellen",
+    "legalIos": "Wird deinem iTunes-Konto belastet. Das Abo verlängert sich automatisch, wenn es nicht mindestens 24 Stunden vor Ende der Laufzeit gekündigt wird.",
+    "legalAndroid": "Wird deinem Google Play-Konto belastet. Jederzeit über Google Play kündbar.",
+    "errorTitle": "Fehler",
+    "errorPurchase": "Kauf konnte nicht abgeschlossen werden. Bitte versuche es erneut.",
+    "notFoundTitle": "Nicht gefunden",
+    "errorNoSub": "Für dieses Konto wurde kein aktives Abonnement gefunden.",
+    "errorRestore": "Käufe konnten nicht wiederhergestellt werden."
   }
 }

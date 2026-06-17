@@ -12,23 +12,23 @@ export interface Team {
 
 export const LEAGUES = [
   // Futbol
-  { id: 'superlig',   name: 'Süper Lig',           emoji: '🇹🇷',  country: 'Turkey',  sport: 'football' },
-  { id: 'premier',    name: 'Premier League',       emoji: '🏴󠁧󠁢󠁥󠁮󠁧󠁿', country: 'England', sport: 'football' },
-  { id: 'laliga',     name: 'La Liga',              emoji: '🇪🇸',  country: 'Spain',   sport: 'football' },
-  { id: 'bundesliga', name: 'Bundesliga',           emoji: '🇩🇪',  country: 'Germany', sport: 'football' },
-  { id: 'seriea',     name: 'Serie A',              emoji: '🇮🇹',  country: 'Italy',   sport: 'football' },
-  { id: 'ligue1',     name: 'Ligue 1',              emoji: '🇫🇷',  country: 'France',  sport: 'football' },
-  { id: 'champions',  name: 'Şampiyonlar Ligi',     emoji: '🏆',  country: 'Europe',  sport: 'football' },
-  { id: 'national',   name: 'Milli Takımlar',       emoji: '🌍',  country: 'World',   sport: 'football' },
+  { id: 'superlig',   name: 'Süper Lig',           emoji: '🇹🇷',  country: 'Turkey',  countryCode: 'TR', sport: 'football' },
+  { id: 'premier',    name: 'Premier League',       emoji: '🏴󠁧󠁢󠁥󠁮󠁧󠁿', country: 'England', countryCode: 'GB', sport: 'football' },
+  { id: 'laliga',     name: 'La Liga',              emoji: '🇪🇸',  country: 'Spain',   countryCode: 'ES', sport: 'football' },
+  { id: 'bundesliga', name: 'Bundesliga',           emoji: '🇩🇪',  country: 'Germany', countryCode: 'DE', sport: 'football' },
+  { id: 'seriea',     name: 'Serie A',              emoji: '🇮🇹',  country: 'Italy',   countryCode: 'IT', sport: 'football' },
+  { id: 'ligue1',     name: 'Ligue 1',              emoji: '🇫🇷',  country: 'France',  countryCode: 'FR', sport: 'football' },
+  { id: 'champions',  name: 'Şampiyonlar Ligi',     emoji: '🏆',  country: 'Europe',  countryCode: null, sport: 'football' },
+  { id: 'national',   name: 'Milli Takımlar',       emoji: '🌍',  country: 'World',   countryCode: null, sport: 'football' },
   // Basketbol
-  { id: 'nba',        name: 'NBA',                  emoji: '🏀',  country: 'USA',     sport: 'basketball' },
-  { id: 'euroleague', name: 'EuroLeague',           emoji: '🏀',  country: 'Europe',  sport: 'basketball' },
-  { id: 'bsl',        name: 'BSL (Basketbol)',       emoji: '🏀',  country: 'Turkey',  sport: 'basketball' },
+  { id: 'nba',        name: 'NBA',                  emoji: '🏀',  country: 'USA',     countryCode: 'US', sport: 'basketball' },
+  { id: 'euroleague', name: 'EuroLeague',           emoji: '🏀',  country: 'Europe',  countryCode: null, sport: 'basketball' },
+  { id: 'bsl',        name: 'BSL (Basketbol)',       emoji: '🏀',  country: 'Turkey',  countryCode: 'TR', sport: 'basketball' },
   // Voleybol
-  { id: 'efeler',       name: 'Efeler Ligi (E)',    emoji: '🏐',  country: 'Turkey',  sport: 'volleyball' },
-  { id: 'sultansliga',  name: 'Sultansliga (K)',     emoji: '🏐',  country: 'Turkey',  sport: 'volleyball' },
+  { id: 'efeler',       name: 'Efeler Ligi (E)',    emoji: '🏐',  country: 'Turkey',  countryCode: 'TR', sport: 'volleyball' },
+  { id: 'sultansliga',  name: 'Sultansliga (K)',     emoji: '🏐',  country: 'Turkey',  countryCode: 'TR', sport: 'volleyball' },
   // Motor sporları
-  { id: 'f1',         name: 'Formula 1',            emoji: '🏎️',  country: 'World',   sport: 'motorsport' },
+  { id: 'f1',         name: 'Formula 1',            emoji: '🏎️',  country: 'World',   countryCode: null, sport: 'motorsport' },
 ];
 
 export const TEAMS: Team[] = [
@@ -626,7 +626,7 @@ export const TEAMS: Team[] = [
 
   // ===================== MİLLİ TAKIMLAR =====================
   {
-    id: 'turkiye',
+    id: 'turkey',
     name: 'Türkiye',
     nameLocal: { tr: 'Türkiye', en: 'Turkey', es: 'Turquía', pt: 'Turquia', fr: 'Turquie', de: 'Türkei', ar: 'تركيا', it: 'Turchia' },
     league: 'Milli Takımlar',
@@ -636,7 +636,7 @@ export const TEAMS: Team[] = [
     color: '#E30A17',
   },
   {
-    id: 'almanya',
+    id: 'germany',
     name: 'Almanya',
     nameLocal: { tr: 'Almanya', en: 'Germany', es: 'Alemania', pt: 'Alemanha', fr: 'Allemagne', de: 'Deutschland', ar: 'ألمانيا', it: 'Germania' },
     league: 'Milli Takımlar',
@@ -646,7 +646,7 @@ export const TEAMS: Team[] = [
     color: '#000000',
   },
   {
-    id: 'ispanya',
+    id: 'spain',
     name: 'İspanya',
     nameLocal: { tr: 'İspanya', en: 'Spain', es: 'España', pt: 'Espanha', fr: 'Espagne', de: 'Spanien', ar: 'إسبانيا', it: 'Spagna' },
     league: 'Milli Takımlar',
@@ -656,7 +656,7 @@ export const TEAMS: Team[] = [
     color: '#C60B1E',
   },
   {
-    id: 'fransa',
+    id: 'france',
     name: 'Fransa',
     nameLocal: { tr: 'Fransa', en: 'France', es: 'Francia', pt: 'França', fr: 'France', de: 'Frankreich', ar: 'فرنسا', it: 'Francia' },
     league: 'Milli Takımlar',
@@ -666,7 +666,7 @@ export const TEAMS: Team[] = [
     color: '#002395',
   },
   {
-    id: 'ingiltere',
+    id: 'england',
     name: 'İngiltere',
     nameLocal: { tr: 'İngiltere', en: 'England', es: 'Inglaterra', pt: 'Inglaterra', fr: 'Angleterre', de: 'England', ar: 'إنجلترا', it: 'Inghilterra' },
     league: 'Milli Takımlar',
@@ -676,7 +676,7 @@ export const TEAMS: Team[] = [
     color: '#CF091F',
   },
   {
-    id: 'brezilya',
+    id: 'brazil',
     name: 'Brezilya',
     nameLocal: { tr: 'Brezilya', en: 'Brazil', es: 'Brasil', pt: 'Brasil', fr: 'Brésil', de: 'Brasilien', ar: 'البرازيل', it: 'Brasile' },
     league: 'Milli Takımlar',
@@ -686,7 +686,7 @@ export const TEAMS: Team[] = [
     color: '#009C3B',
   },
   {
-    id: 'arjantin',
+    id: 'argentina',
     name: 'Arjantin',
     nameLocal: { tr: 'Arjantin', en: 'Argentina', es: 'Argentina', pt: 'Argentina', fr: 'Argentine', de: 'Argentinien', ar: 'الأرجنتين', it: 'Argentina' },
     league: 'Milli Takımlar',
@@ -696,7 +696,7 @@ export const TEAMS: Team[] = [
     color: '#74ACDF',
   },
   {
-    id: 'portekiz',
+    id: 'portugal',
     name: 'Portekiz',
     nameLocal: { tr: 'Portekiz', en: 'Portugal', es: 'Portugal', pt: 'Portugal', fr: 'Portugal', de: 'Portugal', ar: 'البرتغال', it: 'Portogallo' },
     league: 'Milli Takımlar',
@@ -705,6 +705,55 @@ export const TEAMS: Team[] = [
     emoji: '🇵🇹',
     color: '#006600',
   },
+
+  // ===================== FIFA DÜNYA KUPASI 2026 — TÜM TAKIMLAR =====================
+  // Avrupa (UEFA)
+  { id: 'belgium',       name: 'Belçika',        nameLocal: { tr: 'Belçika',        en: 'Belgium',       es: 'Bélgica',          pt: 'Bélgica',          fr: 'Belgique',          de: 'Belgien',        ar: 'بلجيكا',                    it: 'Belgio'              }, league: 'Milli Takımlar', leagueId: 'national', country: 'Belgium',        emoji: '🇧🇪', color: '#EF0000' },
+  { id: 'netherlands',   name: 'Hollanda',        nameLocal: { tr: 'Hollanda',        en: 'Netherlands',   es: 'Países Bajos',     pt: 'Países Baixos',    fr: 'Pays-Bas',          de: 'Niederlande',    ar: 'هولندا',                    it: 'Paesi Bassi'         }, league: 'Milli Takımlar', leagueId: 'national', country: 'Netherlands',    emoji: '🇳🇱', color: '#FF6700' },
+  { id: 'italy',         name: 'İtalya',          nameLocal: { tr: 'İtalya',          en: 'Italy',         es: 'Italia',           pt: 'Itália',           fr: 'Italie',            de: 'Italien',        ar: 'إيطاليا',                   it: 'Italia'              }, league: 'Milli Takımlar', leagueId: 'national', country: 'Italy',          emoji: '🇮🇹', color: '#009246' },
+  { id: 'switzerland',   name: 'İsviçre',         nameLocal: { tr: 'İsviçre',         en: 'Switzerland',   es: 'Suiza',            pt: 'Suíça',            fr: 'Suisse',            de: 'Schweiz',        ar: 'سويسرا',                    it: 'Svizzera'            }, league: 'Milli Takımlar', leagueId: 'national', country: 'Switzerland',    emoji: '🇨🇭', color: '#FF0000' },
+  { id: 'croatia',       name: 'Hırvatistan',     nameLocal: { tr: 'Hırvatistan',     en: 'Croatia',       es: 'Croacia',          pt: 'Croácia',          fr: 'Croatie',           de: 'Kroatien',       ar: 'كرواتيا',                   it: 'Croazia'             }, league: 'Milli Takımlar', leagueId: 'national', country: 'Croatia',        emoji: '🇭🇷', color: '#FF0000' },
+  { id: 'norway',        name: 'Norveç',          nameLocal: { tr: 'Norveç',          en: 'Norway',        es: 'Noruega',          pt: 'Noruega',          fr: 'Norvège',           de: 'Norwegen',       ar: 'النرويج',                   it: 'Norvegia'            }, league: 'Milli Takımlar', leagueId: 'national', country: 'Norway',         emoji: '🇳🇴', color: '#EF2B2D' },
+  { id: 'austria',       name: 'Avusturya',       nameLocal: { tr: 'Avusturya',       en: 'Austria',       es: 'Austria',          pt: 'Áustria',          fr: 'Autriche',          de: 'Österreich',     ar: 'النمسا',                    it: 'Austria'             }, league: 'Milli Takımlar', leagueId: 'national', country: 'Austria',        emoji: '🇦🇹', color: '#ED2939' },
+  { id: 'scotland',      name: 'İskoçya',         nameLocal: { tr: 'İskoçya',         en: 'Scotland',      es: 'Escocia',          pt: 'Escócia',          fr: 'Écosse',            de: 'Schottland',     ar: 'اسكتلندا',                  it: 'Scozia'              }, league: 'Milli Takımlar', leagueId: 'national', country: 'Scotland',       emoji: '🏴󠁧󠁢󠁳󠁣󠁴󠁿', color: '#003087' },
+  { id: 'czechrepublic', name: 'Çek Cumhuriyeti', nameLocal: { tr: 'Çek Cumhuriyeti', en: 'Czech Republic',es: 'República Checa',  pt: 'República Checa',  fr: 'République tchèque',de: 'Tschechien',     ar: 'جمهورية التشيك',            it: 'Repubblica Ceca'     }, league: 'Milli Takımlar', leagueId: 'national', country: 'Czech Republic', emoji: '🇨🇿', color: '#D7141A' },
+  { id: 'bosniaherzegovina', name: 'Bosna-Hersek',  nameLocal: { tr: 'Bosna-Hersek',    en: 'Bosnia-Herzegovina', es: 'Bosnia-Herzegovina', pt: 'Bósnia-Herzegovina', fr: 'Bosnie-Herzégovine', de: 'Bosnien und Herzegowina', ar: 'البوسنة والهرسك', it: 'Bosnia ed Erzegovina' }, league: 'Milli Takımlar', leagueId: 'national', country: 'Bosnia', emoji: '🇧🇦', color: '#002395' },
+
+  // Güney Amerika (CONMEBOL)
+  { id: 'colombia',      name: 'Kolombiya',       nameLocal: { tr: 'Kolombiya',       en: 'Colombia',      es: 'Colombia',         pt: 'Colômbia',         fr: 'Colombie',          de: 'Kolumbien',      ar: 'كولومبيا',                  it: 'Colombia'            }, league: 'Milli Takımlar', leagueId: 'national', country: 'Colombia',       emoji: '🇨🇴', color: '#FCD116' },
+  { id: 'ecuador',       name: 'Ekvador',         nameLocal: { tr: 'Ekvador',         en: 'Ecuador',       es: 'Ecuador',          pt: 'Equador',          fr: 'Équateur',          de: 'Ecuador',        ar: 'الإكوادور',                 it: 'Ecuador'             }, league: 'Milli Takımlar', leagueId: 'national', country: 'Ecuador',        emoji: '🇪🇨', color: '#FFD100' },
+  { id: 'uruguay',       name: 'Uruguay',         nameLocal: { tr: 'Uruguay',         en: 'Uruguay',       es: 'Uruguay',          pt: 'Uruguai',          fr: 'Uruguay',           de: 'Uruguay',        ar: 'الأوروغواي',                it: 'Uruguay'             }, league: 'Milli Takımlar', leagueId: 'national', country: 'Uruguay',        emoji: '🇺🇾', color: '#75AADB' },
+  { id: 'paraguay',      name: 'Paraguay',        nameLocal: { tr: 'Paraguay',        en: 'Paraguay',      es: 'Paraguay',         pt: 'Paraguai',         fr: 'Paraguay',          de: 'Paraguay',       ar: 'باراغواي',                  it: 'Paraguay'            }, league: 'Milli Takımlar', leagueId: 'national', country: 'Paraguay',       emoji: '🇵🇾', color: '#D52B1E' },
+
+  // Kuzey/Orta Amerika (CONCACAF)
+  { id: 'mexico',        name: 'Meksika',         nameLocal: { tr: 'Meksika',         en: 'Mexico',        es: 'México',           pt: 'México',           fr: 'Mexique',           de: 'Mexiko',         ar: 'المكسيك',                   it: 'Messico'             }, league: 'Milli Takımlar', leagueId: 'national', country: 'Mexico',         emoji: '🇲🇽', color: '#006847' },
+  { id: 'canada',        name: 'Kanada',          nameLocal: { tr: 'Kanada',          en: 'Canada',        es: 'Canadá',           pt: 'Canadá',           fr: 'Canada',            de: 'Kanada',         ar: 'كندا',                      it: 'Canada'              }, league: 'Milli Takımlar', leagueId: 'national', country: 'Canada',         emoji: '🇨🇦', color: '#FF0000' },
+  { id: 'usa',           name: 'ABD',             nameLocal: { tr: 'ABD',             en: 'USA',           es: 'Estados Unidos',   pt: 'Estados Unidos',   fr: 'États-Unis',        de: 'USA',            ar: 'الولايات المتحدة',          it: 'USA'                 }, league: 'Milli Takımlar', leagueId: 'national', country: 'USA',            emoji: '🇺🇸', color: '#002868' },
+  { id: 'haiti',         name: 'Haiti',           nameLocal: { tr: 'Haiti',           en: 'Haiti',         es: 'Haití',            pt: 'Haiti',            fr: 'Haïti',             de: 'Haiti',          ar: 'هايتي',                     it: 'Haiti'               }, league: 'Milli Takımlar', leagueId: 'national', country: 'Haiti',          emoji: '🇭🇹', color: '#00209F' },
+  { id: 'curaao',        name: 'Curaçao',         nameLocal: { tr: 'Curaçao',         en: 'Curaçao',       es: 'Curazao',          pt: 'Curaçao',          fr: 'Curaçao',           de: 'Curaçao',        ar: 'كوراساو',                   it: 'Curaçao'             }, league: 'Milli Takımlar', leagueId: 'national', country: 'Curaçao',        emoji: '🇨🇼', color: '#002B7F' },
+
+  // Afrika (CAF)
+  { id: 'morocco',       name: 'Fas',             nameLocal: { tr: 'Fas',             en: 'Morocco',       es: 'Marruecos',        pt: 'Marrocos',         fr: 'Maroc',             de: 'Marokko',        ar: 'المغرب',                    it: 'Marocco'             }, league: 'Milli Takımlar', leagueId: 'national', country: 'Morocco',        emoji: '🇲🇦', color: '#C1272D' },
+  { id: 'senegal',       name: 'Senegal',         nameLocal: { tr: 'Senegal',         en: 'Senegal',       es: 'Senegal',          pt: 'Senegal',          fr: 'Sénégal',           de: 'Senegal',        ar: 'السنغال',                   it: 'Senegal'             }, league: 'Milli Takımlar', leagueId: 'national', country: 'Senegal',        emoji: '🇸🇳', color: '#00853F' },
+  { id: 'ivorycoast',    name: 'Fildişi Sahili',  nameLocal: { tr: 'Fildişi Sahili',  en: 'Ivory Coast',   es: 'Costa de Marfil',  pt: 'Costa do Marfim',  fr: "Côte d'Ivoire",    de: 'Elfenbeinküste', ar: 'ساحل العاج',                it: "Costa d'Avorio"     }, league: 'Milli Takımlar', leagueId: 'national', country: 'Ivory Coast',    emoji: '🇨🇮', color: '#F77F00' },
+  { id: 'algeria',       name: 'Cezayir',         nameLocal: { tr: 'Cezayir',         en: 'Algeria',       es: 'Argelia',          pt: 'Argélia',          fr: 'Algérie',           de: 'Algerien',       ar: 'الجزائر',                   it: 'Algeria'             }, league: 'Milli Takımlar', leagueId: 'national', country: 'Algeria',        emoji: '🇩🇿', color: '#006233' },
+  { id: 'southafrica',   name: 'Güney Afrika',    nameLocal: { tr: 'Güney Afrika',    en: 'South Africa',  es: 'Sudáfrica',        pt: 'África do Sul',    fr: 'Afrique du Sud',    de: 'Südafrika',      ar: 'جنوب أفريقيا',              it: 'Sudafrica'           }, league: 'Milli Takımlar', leagueId: 'national', country: 'South Africa',   emoji: '🇿🇦', color: '#007A4D' },
+  { id: 'tunisia',       name: 'Tunus',           nameLocal: { tr: 'Tunus',           en: 'Tunisia',       es: 'Túnez',            pt: 'Tunísia',          fr: 'Tunisie',           de: 'Tunesien',       ar: 'تونس',                      it: 'Tunisia'             }, league: 'Milli Takımlar', leagueId: 'national', country: 'Tunisia',        emoji: '🇹🇳', color: '#E70013' },
+  { id: 'ghana',         name: 'Gana',            nameLocal: { tr: 'Gana',            en: 'Ghana',         es: 'Ghana',            pt: 'Gana',             fr: 'Ghana',             de: 'Ghana',          ar: 'غانا',                      it: 'Ghana'               }, league: 'Milli Takımlar', leagueId: 'national', country: 'Ghana',          emoji: '🇬🇭', color: '#006B3F' },
+  { id: 'nigeria',       name: 'Nijerya',         nameLocal: { tr: 'Nijerya',         en: 'Nigeria',       es: 'Nigeria',          pt: 'Nigéria',          fr: 'Nigéria',           de: 'Nigeria',        ar: 'نيجيريا',                   it: 'Nigeria'             }, league: 'Milli Takımlar', leagueId: 'national', country: 'Nigeria',        emoji: '🇳🇬', color: '#008751' },
+  { id: 'egypt',         name: 'Mısır',           nameLocal: { tr: 'Mısır',           en: 'Egypt',         es: 'Egipto',           pt: 'Egito',            fr: 'Égypte',            de: 'Ägypten',        ar: 'مصر',                       it: 'Egitto'              }, league: 'Milli Takımlar', leagueId: 'national', country: 'Egypt',          emoji: '🇪🇬', color: '#C8102E' },
+  { id: 'capeverde',     name: 'Yeşil Burun Adaları', nameLocal: { tr: 'Yeşil Burun Adaları', en: 'Cape Verde', es: 'Cabo Verde', pt: 'Cabo Verde', fr: 'Cap-Vert', de: 'Kap Verde', ar: 'الرأس الأخضر', it: 'Capo Verde' }, league: 'Milli Takımlar', leagueId: 'national', country: 'Cape Verde', emoji: '🇨🇻', color: '#003893' },
+
+  // Asya/Okyanusya (AFC + OFC)
+  { id: 'japan',         name: 'Japonya',         nameLocal: { tr: 'Japonya',         en: 'Japan',         es: 'Japón',            pt: 'Japão',            fr: 'Japon',             de: 'Japan',          ar: 'اليابان',                   it: 'Giappone'            }, league: 'Milli Takımlar', leagueId: 'national', country: 'Japan',          emoji: '🇯🇵', color: '#BC002D' },
+  { id: 'southkorea',    name: 'Güney Kore',      nameLocal: { tr: 'Güney Kore',      en: 'South Korea',   es: 'Corea del Sur',    pt: 'Coreia do Sul',    fr: 'Corée du Sud',      de: 'Südkorea',       ar: 'كوريا الجنوبية',            it: 'Corea del Sud'       }, league: 'Milli Takımlar', leagueId: 'national', country: 'South Korea',    emoji: '🇰🇷', color: '#003478' },
+  { id: 'australia',     name: 'Avustralya',      nameLocal: { tr: 'Avustralya',      en: 'Australia',     es: 'Australia',        pt: 'Austrália',        fr: 'Australie',         de: 'Australien',     ar: 'أستراليا',                  it: 'Australia'           }, league: 'Milli Takımlar', leagueId: 'national', country: 'Australia',      emoji: '🇦🇺', color: '#00843D' },
+  { id: 'iran',          name: 'İran',            nameLocal: { tr: 'İran',            en: 'Iran',          es: 'Irán',             pt: 'Irã',              fr: 'Iran',              de: 'Iran',           ar: 'إيران',                     it: 'Iran'                }, league: 'Milli Takımlar', leagueId: 'national', country: 'Iran',           emoji: '🇮🇷', color: '#239F40' },
+  { id: 'uzbekistan',    name: 'Özbekistan',      nameLocal: { tr: 'Özbekistan',      en: 'Uzbekistan',    es: 'Uzbekistán',       pt: 'Uzbequistão',      fr: 'Ouzbékistan',       de: 'Usbekistan',     ar: 'أوزبكستان',                 it: 'Uzbekistan'          }, league: 'Milli Takımlar', leagueId: 'national', country: 'Uzbekistan',     emoji: '🇺🇿', color: '#1EB53A' },
+  { id: 'jordan',        name: 'Ürdün',           nameLocal: { tr: 'Ürdün',           en: 'Jordan',        es: 'Jordania',         pt: 'Jordânia',         fr: 'Jordanie',          de: 'Jordanien',      ar: 'الأردن',                    it: 'Giordania'           }, league: 'Milli Takımlar', leagueId: 'national', country: 'Jordan',         emoji: '🇯🇴', color: '#007A3D' },
+  { id: 'qatar',         name: 'Katar',           nameLocal: { tr: 'Katar',           en: 'Qatar',         es: 'Catar',            pt: 'Catar',            fr: 'Qatar',             de: 'Katar',          ar: 'قطر',                       it: 'Qatar'               }, league: 'Milli Takımlar', leagueId: 'national', country: 'Qatar',          emoji: '🇶🇦', color: '#8D1B3D' },
+  { id: 'saudiarabia',   name: 'Suudi Arabistan', nameLocal: { tr: 'Suudi Arabistan', en: 'Saudi Arabia',  es: 'Arabia Saudita',   pt: 'Arábia Saudita',   fr: 'Arabie saoudite',   de: 'Saudi-Arabien',  ar: 'المملكة العربية السعودية',  it: 'Arabia Saudita'      }, league: 'Milli Takımlar', leagueId: 'national', country: 'Saudi Arabia',   emoji: '🇸🇦', color: '#006C35' },
+  { id: 'newzealand',    name: 'Yeni Zelanda',    nameLocal: { tr: 'Yeni Zelanda',    en: 'New Zealand',   es: 'Nueva Zelanda',    pt: 'Nova Zelândia',    fr: 'Nouvelle-Zélande',  de: 'Neuseeland',     ar: 'نيوزيلندا',                 it: 'Nuova Zelanda'       }, league: 'Milli Takımlar', leagueId: 'national', country: 'New Zealand',    emoji: '🇳🇿', color: '#00247D' },
 
   // ===================== NBA =====================
   { id: 'lakers',     name: 'LA Lakers',          nameLocal: { tr: 'LA Lakers', en: 'LA Lakers', es: 'LA Lakers', pt: 'LA Lakers', fr: 'LA Lakers', de: 'LA Lakers', ar: 'لوس أنجلوس ليكرز', it: 'LA Lakers' }, league: 'NBA', leagueId: 'nba', country: 'USA', emoji: '🟣', color: '#552583', sport: 'basketball' },

@@ -6,6 +6,8 @@
   },
   "matches": {
     "title": "Maç Programı",
+    "appTitle": "Hangi Kanalda?",
+    "lastUpdated": "Son güncelleme: {{time}}",
     "today": "Bugün",
     "tomorrow": "Yarın",
     "noMatches": "Bu gün için maç yok",
@@ -14,7 +16,18 @@
     "favoriteMatches": "Takımlarım",
     "live": "CANLI",
     "channel": "Kanal",
-    "startsIn": "dakika sonra başlıyor"
+    "startsIn": "dakika sonra başlıyor",
+    "sports": {
+      "all": "Tümü",
+      "football": "Futbol",
+      "basketball": "Basket",
+      "volleyball": "Voley",
+      "motorsport": "Motor"
+    },
+    "worldcupBanner": "FIFA Dünya Kupası 2026",
+    "worldcupSubtitle": "Her maçın yayın kanalı ve saati burada",
+    "reminder15min": "Hatırlatıcı kuruldu — maçtan 15 dk önce",
+    "reminderNoGoal": "(Sadece maç saati — gol bildirimi verilmez)"
   },
   "teams": {
     "title": "Takım Seç",
@@ -38,6 +51,7 @@
     "language": "Dil",
     "notifications": "Bildirimler",
     "notificationsDesc": "Maç başlamadan 15 dakika önce bildirim al",
+    "noGoalDisclaimer": "Gol bildirimi bilerek gönderilmez — maç izleme zevkinizi bozmak istemeyiz. Sadece maçtan 15 dakika önce hatırlatıcı bildirim gönderilir.",
     "theme": "Tema",
     "dark": "Karanlık",
     "light": "Aydınlık",
@@ -49,7 +63,9 @@
     "permissionWarning": "Bildirim izni verilmedi. Lütfen uygulama ayarlarından izin verin.",
     "country": "Ülke / Yayın Bölgesi",
     "countryDesc": "Maçların hangi kanalda yayınlandığı ülkenize göre gösterilir.",
-    "selectCountry": "Ülke Seç"
+    "selectCountry": "Ülke Seç",
+    "appName": "Hangi Kanalda?",
+    "appDesc": "Maçları doğru kanal ve saatle takip et."
   },
   "notification": {
     "title": "⚽ Maç Hatırlatıcısı",
@@ -62,5 +78,24 @@
     "retry": "Tekrar Dene",
     "save": "Kaydet",
     "cancel": "İptal"
+  },
+  "paywall": {
+    "subtitle": "Spor TV Rehberi",
+    "trial": "1 AY ÜCRETSİZ DENEME",
+    "feature0": "Bugünkü tüm maçlar, doğru saat ve kanalıyla",
+    "feature1": "Maçtan 15 dakika önce hatırlatıcı",
+    "feature2": "15 ülkede TV yayın programı",
+    "feature3": "Günlük otomatik güncelleme",
+    "pricePerMonth": "/ay",
+    "priceNote": "Deneme süresi bittikten sonra {{price}}/ay faturalandırılır. İstediğiniz zaman iptal edebilirsiniz.",
+    "startFree": "1 Ay Ücretsiz Başla",
+    "restore": "Satın Almaları Geri Yükle",
+    "legalIos": "iTunes hesabınızdan ücret alınır. Mevcut dönem bitmeden en az 24 saat önce iptal edilmezse abonelik otomatik yenilenir.",
+    "legalAndroid": "Google Play hesabınızdan ücret alınır. Google Play üzerinden istediğiniz zaman iptal edebilirsiniz.",
+    "errorTitle": "Hata",
+    "errorPurchase": "Satın alma tamamlanamadı. Lütfen tekrar deneyin.",
+    "notFoundTitle": "Bulunamadı",
+    "errorNoSub": "Bu hesaba bağlı aktif abonelik bulunamadı.",
+    "errorRestore": "Satın almalar geri yüklenemedi."
   }
 }

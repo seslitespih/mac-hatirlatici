@@ -1,4 +1,5 @@
 import React, { useCallback, useState } from 'react';
+import { useFocusEffect } from 'expo-router';
 import {
   View,
   Text,
@@ -12,51 +13,34 @@ import {
   RefreshControl,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
+import { useTheme } from '../../contexts/ThemeContext';
 import { useTeams } from '../../hooks/useTeams';
 import { useMatches } from '../../hooks/useMatches';
-import { useCountry } from '../../hooks/useCountry';
+import { useCountry } from '../../contexts/CountryContext';
 import MatchCard from '../../components/MatchCard';
 import EmptyState from '../../components/EmptyState';
 import { Match, SportType } from '../../constants/matches';
 import { MatchGroup } from '../../services/matchService';
 
-// ─── Color palette ────────────────────────────────────────────────────────────
-
-const C = {
-  bg0: '#060C1A',
-  bg1: '#0A1628',
-  bg2: '#0F2040',
-  bg3: '#152B52',
-  accent: '#4F8EF7',
-  accentGlow: 'rgba(79,142,247,0.18)',
-  text: '#F0F4FF',
-  textSub: '#7B9CC4',
-  textMuted: '#3D5A80',
-  border: '#1A3560',
-  sportFootball:   '#10B981',
-  sportBasketball: '#F59E0B',
-  sportVolleyball: '#4F8EF7',
-  sportMotor:      '#EF4444',
-};
-
-// ─── Sport tabs ───────────────────────────────────────────────────────────────
+// World Cup 2026: June 11 – July 19, 2026
+const WC_START = new Date('2026-06-11T00:00:00Z');
+const WC_END   = new Date('2026-07-20T00:00:00Z');
+const IS_WORLD_CUP_SEASON = new Date() >= WC_START && new Date() <= WC_END;
 
 type SportTab = { id: SportType | 'all'; label: string; color: string };
 
-const SPORT_TABS: SportTab[] = [
-  { id: 'all',         label: 'Tümü',     color: C.text },
-  { id: 'football',   label: '⚽ Futbol',  color: C.sportFootball },
-  { id: 'basketball', label: '🏀 Basket', color: C.sportBasketball },
-  { id: 'volleyball', label: '🏐 Voley',  color: C.sportVolleyball },
-  { id: 'motorsport', label: '🏎️ F1',      color: C.sportMotor },
-];
-
-// ─── Screen ───────────────────────────────────────────────────────────────────
-
 export default function MatchesScreen() {
   const { t } = useTranslation();
-  const { selectedTeamIds } = useTeams();
-  const { countryCode } = useCountry();
+  const { colors } = useTheme();
+  const { selectedTeamIds, reloadSelectedTeams } = useTeams();
+
+  // Matches tabına her geçişte favori takımları yeniden yükle (Teams tab'da yapılan değişiklikleri yakala)
+  useFocusEffect(
+    useCallback(() => {
+      reloadSelectedTeams();
+    }, [reloadSelectedTeams]),
+  );
+  const { countryCode, isLoading: countryLoading } = useCountry();
   const [activeSport, setActiveSport] = useState<SportType | 'all'>('all');
 
   const {
@@ -67,7 +51,15 @@ export default function MatchesScreen() {
     isRefreshing,
     lastUpdated,
     refresh,
-  } = useMatches(selectedTeamIds, countryCode, activeSport);
+  } = useMatches(selectedTeamIds, countryCode, activeSport, !countryLoading);
+
+  const sportTabs: SportTab[] = [
+    { id: 'all',         label: t('matches.sports.all'),                         color: colors.text },
+    { id: 'football',   label: `⚽ ${t('matches.sports.football')}`,              color: colors.sportFootball },
+    { id: 'basketball', label: `🏀 ${t('matches.sports.basketball')}`,            color: colors.sportBasketball },
+    { id: 'volleyball', label: `🏐 ${t('matches.sports.volleyball')}`,            color: colors.sportVolleyball },
+    { id: 'motorsport', label: `🏎️ ${t('matches.sports.motorsport')}`,             color: colors.sportMotor },
+  ];
 
   const renderMatchItem = useCallback(
     ({ item }: { item: Match }) => <MatchCard match={item} />,
@@ -76,15 +68,15 @@ export default function MatchesScreen() {
 
   const renderSectionHeader = useCallback(
     ({ section }: { section: MatchGroup & { data: Match[] } }) => (
-      <View style={styles.sectionHeader}>
-        <Text style={styles.sectionTitle}>{section.title}</Text>
-        <View style={styles.sectionLine} />
-        <View style={styles.matchCountBadge}>
-          <Text style={styles.matchCount}>{section.matches.length}</Text>
+      <View style={[styles.sectionHeader, { backgroundColor: colors.bg0 }]}>
+        <Text style={[styles.sectionTitle, { color: colors.textMuted }]}>{section.title}</Text>
+        <View style={[styles.sectionLine, { backgroundColor: colors.border }]} />
+        <View style={[styles.matchCountBadge, { backgroundColor: colors.bg3, borderColor: colors.border }]}>
+          <Text style={[styles.matchCount, { color: colors.textSub }]}>{section.matches.length}</Text>
         </View>
       </View>
     ),
-    [],
+    [colors],
   );
 
   const keyExtractor = useCallback((item: Match) => item.id, []);
@@ -95,20 +87,24 @@ export default function MatchesScreen() {
     : null;
 
   return (
-    <SafeAreaView style={styles.safe}>
-      <StatusBar barStyle="light-content" backgroundColor={C.bg0} />
+    <SafeAreaView style={[styles.safe, { backgroundColor: colors.bg0 }]}>
+      <StatusBar barStyle={colors.statusBar} backgroundColor={colors.bg0} />
 
-      {/* Header — deep navy */}
-      <View style={styles.header}>
+      {/* Header */}
+      <View style={[styles.header, { backgroundColor: colors.bg1, borderBottomColor: colors.border }]}>
         <View style={styles.headerContent}>
           <View>
-            <Text style={styles.headerTitle}>Hangi Kanalda?</Text>
+            <Text style={[styles.headerTitle, { color: colors.text }]}>
+              Match Reminder
+            </Text>
             {lastUpdateStr && (
-              <Text style={styles.headerSub}>Son güncelleme: {lastUpdateStr}</Text>
+              <Text style={[styles.headerSub, { color: colors.textMuted }]}>
+                {t('matches.lastUpdated', { time: lastUpdateStr })}
+              </Text>
             )}
           </View>
           {isRefreshing && (
-            <ActivityIndicator size="small" color={C.accent} style={styles.spinner} />
+            <ActivityIndicator size="small" color={colors.accent} style={styles.spinner} />
           )}
         </View>
 
@@ -119,13 +115,14 @@ export default function MatchesScreen() {
           contentContainerStyle={styles.pillsContainer}
           style={styles.pillsScroll}
         >
-          {SPORT_TABS.map((tab) => {
+          {sportTabs.map((tab) => {
             const isActive = activeSport === tab.id;
             return (
               <TouchableOpacity
                 key={tab.id}
                 style={[
                   styles.pill,
+                  { borderColor: colors.border },
                   isActive && { backgroundColor: tab.color + '22', borderColor: tab.color },
                 ]}
                 onPress={() => setActiveSport(tab.id)}
@@ -133,6 +130,7 @@ export default function MatchesScreen() {
               >
                 <Text style={[
                   styles.pillText,
+                  { color: colors.textMuted },
                   isActive && { color: tab.color, fontWeight: '700' },
                 ]}>
                   {tab.label}
@@ -143,35 +141,32 @@ export default function MatchesScreen() {
         </ScrollView>
 
         {/* All / Favorites toggle */}
-        <View style={styles.toggleRow}>
+        <View style={[styles.toggleRow, { backgroundColor: colors.bg3, borderColor: colors.border }]}>
           <Toggle
             label={t('matches.allMatches')}
             active={filter === 'all'}
             onPress={() => setFilter('all')}
-            color={C.accent}
+            color={colors.accent}
+            inactiveColor={colors.textMuted}
           />
           <Toggle
             label={t('matches.favoriteMatches')}
             active={filter === 'favorites'}
             onPress={() => setFilter('favorites')}
-            color={C.accent}
+            color={colors.accent}
+            inactiveColor={colors.textMuted}
           />
         </View>
       </View>
 
       {/* Content */}
       {!hasMatches ? (
-        <View style={styles.emptyWrapper}>
+        <View style={[styles.emptyWrapper, { backgroundColor: colors.bg0 }]}>
+          {IS_WORLD_CUP_SEASON && <WorldCupBanner t={t} />}
           <EmptyState
             emoji={filter === 'favorites' ? '❤️' : '📅'}
-            title={
-              filter === 'favorites'
-                ? t('matches.noFavoriteMatches')
-                : t('matches.noMatches')
-            }
-            subtitle={
-              filter === 'favorites' ? t('teams.infoText') : undefined
-            }
+            title={filter === 'favorites' ? t('matches.noFavoriteMatches') : t('matches.noMatches')}
+            subtitle={filter === 'favorites' ? t('teams.infoText') : undefined}
           />
         </View>
       ) : (
@@ -180,16 +175,17 @@ export default function MatchesScreen() {
           keyExtractor={keyExtractor}
           renderItem={renderMatchItem}
           renderSectionHeader={renderSectionHeader}
-          contentContainerStyle={styles.list}
+          contentContainerStyle={[styles.list, { backgroundColor: colors.bg0 }]}
           showsVerticalScrollIndicator={false}
           stickySectionHeadersEnabled
+          ListHeaderComponent={IS_WORLD_CUP_SEASON ? <WorldCupBanner t={t} /> : null}
           refreshControl={
             <RefreshControl
               refreshing={isRefreshing}
               onRefresh={refresh}
-              tintColor={C.accent}
-              colors={[C.accent]}
-              progressBackgroundColor={C.bg1}
+              tintColor={colors.accent}
+              colors={[colors.accent]}
+              progressBackgroundColor={colors.bg1}
             />
           }
         />
@@ -198,29 +194,127 @@ export default function MatchesScreen() {
   );
 }
 
+// ─── World Cup Banner ─────────────────────────────────────────────────────────
+
+const WC_FLAGS = ['🇦🇷', '🇧🇷', '🇫🇷', '🇩🇪', '🇪🇸', '🇵🇹', '🇬🇧', '🇺🇸', '🇲🇽', '🇯🇵', '🇰🇷', '🇲🇦'];
+
+function WorldCupBanner({ t }: { t: (key: string) => string }) {
+  return (
+    <View style={wcStyles.banner}>
+      <View style={wcStyles.inner}>
+        <View style={wcStyles.topRow}>
+          <Text style={wcStyles.trophy}>🏆</Text>
+          <View style={{ flex: 1 }}>
+            <Text style={wcStyles.title}>{t('matches.worldcupBanner')}</Text>
+            <Text style={wcStyles.subtitle}>{t('matches.worldcupSubtitle')}</Text>
+          </View>
+          <View style={wcStyles.livePill}>
+            <View style={wcStyles.liveDot} />
+            <Text style={wcStyles.liveTxt}>LIVE</Text>
+          </View>
+        </View>
+        <View style={wcStyles.flags}>
+          {WC_FLAGS.map((f, i) => (
+            <Text key={i} style={wcStyles.flag}>{f}</Text>
+          ))}
+        </View>
+      </View>
+    </View>
+  );
+}
+
+const wcStyles = StyleSheet.create({
+  banner: {
+    marginHorizontal: 14,
+    marginTop: 12,
+    marginBottom: 4,
+    borderRadius: 16,
+    borderWidth: 1.5,
+    borderColor: '#F59E0B',
+    overflow: 'hidden',
+  },
+  inner: {
+    backgroundColor: 'rgba(245,158,11,0.10)',
+    padding: 14,
+  },
+  topRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    marginBottom: 10,
+  },
+  trophy: {
+    fontSize: 32,
+  },
+  title: {
+    color: '#F59E0B',
+    fontSize: 16,
+    fontWeight: '800',
+    letterSpacing: -0.3,
+  },
+  subtitle: {
+    color: '#D97706',
+    fontSize: 11,
+    marginTop: 2,
+    fontWeight: '500',
+  },
+  livePill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: 'rgba(239,68,68,0.15)',
+    borderRadius: 6,
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    gap: 5,
+    borderWidth: 1,
+    borderColor: 'rgba(239,68,68,0.3)',
+  },
+  liveDot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+    backgroundColor: '#EF4444',
+  },
+  liveTxt: {
+    color: '#EF4444',
+    fontSize: 9,
+    fontWeight: '800',
+    letterSpacing: 0.8,
+  },
+  flags: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 4,
+  },
+  flag: {
+    fontSize: 20,
+  },
+});
+
 // ─── Toggle button ────────────────────────────────────────────────────────────
 
 function Toggle({
-  label,
-  active,
-  onPress,
-  color,
+  label, active, onPress, color, inactiveColor,
 }: {
   label: string;
   active: boolean;
   onPress: () => void;
   color: string;
+  inactiveColor: string;
 }) {
   return (
     <TouchableOpacity
       style={[
         styles.toggleBtn,
+        { borderColor: 'transparent' },
         active && { backgroundColor: color + '1A', borderColor: color },
       ]}
       onPress={onPress}
       activeOpacity={0.8}
     >
-      <Text style={[styles.toggleBtnText, active && { color }]}>{label}</Text>
+      <Text style={[styles.toggleBtnText, { color: inactiveColor }, active && { color }]}>
+        {label}
+      </Text>
     </TouchableOpacity>
   );
 }
@@ -228,16 +322,11 @@ function Toggle({
 // ─── Styles ───────────────────────────────────────────────────────────────────
 
 const styles = StyleSheet.create({
-  safe: {
-    flex: 1,
-    backgroundColor: C.bg0,
-  },
+  safe: { flex: 1 },
   header: {
     paddingTop: 16,
     paddingBottom: 12,
     borderBottomWidth: 1,
-    borderBottomColor: C.border,
-    backgroundColor: C.bg1,
   },
   headerContent: {
     flexDirection: 'row',
@@ -247,22 +336,16 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   headerTitle: {
-    color: C.text,
     fontSize: 22,
     fontWeight: '800',
     letterSpacing: -0.5,
   },
   headerSub: {
-    color: C.textMuted,
     fontSize: 11,
     marginTop: 2,
   },
-  spinner: {
-    marginLeft: 8,
-  },
-  pillsScroll: {
-    maxHeight: 44,
-  },
+  spinner: { marginLeft: 8 },
+  pillsScroll: { maxHeight: 44 },
   pillsContainer: {
     paddingHorizontal: 14,
     gap: 8,
@@ -273,10 +356,8 @@ const styles = StyleSheet.create({
     paddingVertical: 7,
     borderRadius: 20,
     borderWidth: 1,
-    borderColor: C.border,
   },
   pillText: {
-    color: C.textMuted,
     fontSize: 13,
     fontWeight: '600',
   },
@@ -284,11 +365,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     marginHorizontal: 14,
     marginTop: 10,
-    backgroundColor: C.bg3,
     borderRadius: 10,
     padding: 3,
     borderWidth: 1,
-    borderColor: C.border,
   },
   toggleBtn: {
     flex: 1,
@@ -296,10 +375,8 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     alignItems: 'center',
     borderWidth: 1,
-    borderColor: 'transparent',
   },
   toggleBtnText: {
-    color: C.textMuted,
     fontSize: 13,
     fontWeight: '600',
   },
@@ -310,10 +387,8 @@ const styles = StyleSheet.create({
     paddingTop: 20,
     paddingBottom: 8,
     gap: 10,
-    backgroundColor: C.bg0,
   },
   sectionTitle: {
-    color: C.textMuted,
     fontSize: 10,
     fontWeight: '700',
     textTransform: 'uppercase',
@@ -322,26 +397,17 @@ const styles = StyleSheet.create({
   sectionLine: {
     flex: 1,
     height: 1,
-    backgroundColor: C.border,
   },
   matchCountBadge: {
-    backgroundColor: C.bg3,
     borderRadius: 10,
     paddingHorizontal: 7,
     paddingVertical: 2,
     borderWidth: 1,
-    borderColor: C.border,
   },
   matchCount: {
-    color: C.textSub,
     fontSize: 10,
     fontWeight: '700',
   },
-  list: {
-    paddingBottom: 32,
-  },
-  emptyWrapper: {
-    flex: 1,
-    backgroundColor: C.bg0,
-  },
+  list: { paddingBottom: 32 },
+  emptyWrapper: { flex: 1 },
 });

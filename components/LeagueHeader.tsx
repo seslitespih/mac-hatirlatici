@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
+import { useTheme } from '../contexts/ThemeContext';
 
 interface Props {
   leagueId: string;
@@ -17,26 +18,27 @@ export default function LeagueHeader({
 }: Props) {
   const [expanded, setExpanded] = useState(true);
   const { t } = useTranslation();
+  const { colors } = useTheme();
   const localName = t(`teams.leagues.${leagueId}`, { defaultValue: leagueName });
 
   return (
     <View style={styles.container}>
       <TouchableOpacity
-        style={styles.header}
+        style={[styles.header, { backgroundColor: colors.bg2, borderBottomColor: colors.border }]}
         onPress={() => setExpanded(!expanded)}
         activeOpacity={0.8}
       >
         <View style={styles.left}>
-          <Text style={styles.name}>{localName}</Text>
+          <Text style={[styles.name, { color: colors.textMuted }]}>{localName}</Text>
           {selectedCount > 0 && (
-            <View style={styles.badge}>
+            <View style={[styles.badge, { backgroundColor: colors.success }]}>
               <Text style={styles.badgeText}>{selectedCount}</Text>
             </View>
           )}
         </View>
         <View style={styles.right}>
-          <Text style={styles.count}>{teamCount}</Text>
-          <Ionicons name={expanded ? 'chevron-up' : 'chevron-down'} size={14} color="#333" />
+          <Text style={[styles.count, { color: colors.textMuted }]}>{teamCount}</Text>
+          <Ionicons name={expanded ? 'chevron-up' : 'chevron-down'} size={14} color={colors.textMuted} />
         </View>
       </TouchableOpacity>
       {expanded && <View>{children}</View>}
@@ -45,18 +47,14 @@ export default function LeagueHeader({
 }
 
 const styles = StyleSheet.create({
-  container: {
-    marginBottom: 2,
-  },
+  container: { marginBottom: 2 },
   header: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingHorizontal: 16,
     paddingVertical: 12,
-    backgroundColor: '#0f0f0f',
     borderBottomWidth: 1,
-    borderBottomColor: '#181818',
   },
   left: {
     flexDirection: 'row',
@@ -65,14 +63,12 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   name: {
-    color: '#3a3a3a',
     fontSize: 10,
     fontWeight: '700',
     textTransform: 'uppercase',
     letterSpacing: 1,
   },
   badge: {
-    backgroundColor: '#4ade80',
     borderRadius: 8,
     minWidth: 18,
     height: 18,
@@ -90,8 +86,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 6,
   },
-  count: {
-    color: '#2a2a2a',
-    fontSize: 11,
-  },
+  count: { fontSize: 11 },
 });

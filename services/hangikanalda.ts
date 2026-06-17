@@ -114,7 +114,11 @@ function parseHKData(data: HKData): Match[] {
         if (!m.home || !m.time) continue;
 
         const date   = trTimeToDate(m.time);
-        const normalize = (s: string) => s.toLowerCase().replace(/\s+/g, '').replace(/[^a-z0-9ğüşıöç]/gi, '').slice(0, 24);
+        const normalize = (s: string) => s
+          .toLowerCase()
+          .replace(/ğ/g, 'g').replace(/ü/g, 'u').replace(/ş/g, 's')
+          .replace(/ı/g, 'i').replace(/ö/g, 'o').replace(/ç/g, 'c')
+          .replace(/\s+/g, '').replace(/[^a-z0-9]/g, '').slice(0, 24);
         const homeId = normalize(m.home);
         const awayId = normalize(m.away ?? '');
 

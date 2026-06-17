@@ -12,6 +12,34 @@ export type AppTheme = 'dark' | 'light';
 
 // ─── Selected Teams ────────────────────────────────────────────────────────────
 
+// Build 16: milli takım ID'leri Türkçe'den İngilizce'ye geçirildi (TheSportsDB uyumu)
+const TEAM_ID_MIGRATION: Record<string, string> = {
+  turkiye:  'turkey',
+  almanya:  'germany',
+  ispanya:  'spain',
+  fransa:   'france',
+  ingiltere:'england',
+  brezilya: 'brazil',
+  arjantin: 'argentina',
+  portekiz: 'portugal',
+};
+const MIGRATION_KEY = '@teams_migrated_v16';
+
+export async function migrateTeamIds(): Promise<void> {
+  try {
+    if (await AsyncStorage.getItem(MIGRATION_KEY)) return;
+    const raw = await AsyncStorage.getItem(KEYS.SELECTED_TEAMS);
+    if (raw) {
+      const ids = JSON.parse(raw) as string[];
+      const migrated = ids.map(id => TEAM_ID_MIGRATION[id] ?? id);
+      if (JSON.stringify(migrated) !== JSON.stringify(ids)) {
+        await AsyncStorage.setItem(KEYS.SELECTED_TEAMS, JSON.stringify(migrated));
+      }
+    }
+    await AsyncStorage.setItem(MIGRATION_KEY, '1');
+  } catch { /* */ }
+}
+
 export async function getSelectedTeams(): Promise<string[]> {
   try {
     const raw = await AsyncStorage.getItem(KEYS.SELECTED_TEAMS);

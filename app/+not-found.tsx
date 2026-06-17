@@ -1,17 +1,19 @@
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Link, Stack } from 'expo-router';
+import { useTheme } from '../contexts/ThemeContext';
 
 export default function NotFound() {
+  const { colors } = useTheme();
   return (
     <>
       <Stack.Screen options={{ title: 'Oops!', headerShown: true }} />
-      <View style={styles.container}>
+      <View style={[styles.container, { backgroundColor: colors.bg0 }]}>
         <Text style={styles.emoji}>⚽</Text>
-        <Text style={styles.title}>Sayfa Bulunamadı</Text>
-        <Text style={styles.subtitle}>Bu sayfa mevcut değil.</Text>
+        <Text style={[styles.title, { color: colors.text }]}>Page Not Found</Text>
+        <Text style={[styles.subtitle, { color: colors.textSub }]}>This page does not exist.</Text>
         <Link href="/" asChild>
-          <TouchableOpacity style={styles.button}>
-            <Text style={styles.buttonText}>Ana Sayfaya Dön</Text>
+          <TouchableOpacity style={[styles.button, { backgroundColor: colors.accent }]}>
+            <Text style={styles.buttonText}>Go to Home</Text>
           </TouchableOpacity>
         </Link>
       </View>
@@ -20,38 +22,10 @@ export default function NotFound() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#0f0f1a',
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 32,
-  },
-  emoji: {
-    fontSize: 72,
-    marginBottom: 16,
-  },
-  title: {
-    color: '#ffffff',
-    fontSize: 24,
-    fontWeight: '800',
-    marginBottom: 8,
-  },
-  subtitle: {
-    color: '#a0aec0',
-    fontSize: 16,
-    marginBottom: 32,
-    textAlign: 'center',
-  },
-  button: {
-    backgroundColor: '#e94560',
-    borderRadius: 12,
-    paddingHorizontal: 24,
-    paddingVertical: 14,
-  },
-  buttonText: {
-    color: '#ffffff',
-    fontSize: 15,
-    fontWeight: '700',
-  },
+  container: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: 32 },
+  emoji:     { fontSize: 72, marginBottom: 16 },
+  title:     { fontSize: 24, fontWeight: '800', marginBottom: 8 },
+  subtitle:  { fontSize: 16, marginBottom: 32, textAlign: 'center' },
+  button:    { borderRadius: 12, paddingHorizontal: 24, paddingVertical: 14 },
+  buttonText:{ color: '#ffffff', fontSize: 15, fontWeight: '700' },
 });

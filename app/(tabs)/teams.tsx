@@ -11,9 +11,11 @@ import TeamCard from '../../components/TeamCard';
 import LeagueHeader from '../../components/LeagueHeader';
 import EmptyState from '../../components/EmptyState';
 import { Team } from '../../constants/teams';
+import { useTheme } from '../../contexts/ThemeContext';
 
 export default function TeamsScreen() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { colors } = useTheme();
   const {
     selectedTeamIds, selectedTeams, searchQuery, setSearchQuery,
     isLoading, toggleTeam, isSelected, teamsByLeague,
@@ -30,43 +32,43 @@ export default function TeamsScreen() {
 
   if (isLoading) {
     return (
-      <View style={styles.loading}>
-        <ActivityIndicator size="large" color="#4ade80" />
+      <View style={[styles.loading, { backgroundColor: colors.bg0 }]}>
+        <ActivityIndicator size="large" color={colors.success} />
       </View>
     );
   }
 
   return (
-    <SafeAreaView style={styles.safe}>
-      <StatusBar barStyle="light-content" backgroundColor="#0a0a0a" />
+    <SafeAreaView style={[styles.safe, { backgroundColor: colors.bg0 }]}>
+      <StatusBar barStyle={colors.statusBar} backgroundColor={colors.bg0} />
 
       {/* Header */}
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>{t('teams.title')}</Text>
+        <Text style={[styles.headerTitle, { color: colors.text }]}>{t('teams.title')}</Text>
         {selectedTeamIds.length > 0 && (
-          <View style={styles.badge}>
+          <View style={[styles.badge, { backgroundColor: colors.success }]}>
             <Text style={styles.badgeText}>{selectedTeamIds.length}</Text>
           </View>
         )}
       </View>
 
       {/* Search */}
-      <View style={styles.searchBox}>
-        <Ionicons name="search" size={16} color="#333" />
+      <View style={[styles.searchBox, { backgroundColor: colors.bg2, borderColor: colors.border }]}>
+        <Ionicons name="search" size={16} color={colors.textMuted} />
         <TextInput
-          style={styles.searchInput}
+          style={[styles.searchInput, { color: colors.text }]}
           placeholder={t('teams.search')}
-          placeholderTextColor="#333"
+          placeholderTextColor={colors.textMuted}
           value={searchQuery}
           onChangeText={setSearchQuery}
           returnKeyType="search"
         />
         {searchQuery.length > 0 && (
-          <Ionicons name="close-circle" size={16} color="#333" onPress={() => setSearchQuery('')} />
+          <Ionicons name="close-circle" size={16} color={colors.textMuted} onPress={() => setSearchQuery('')} />
         )}
       </View>
 
-      {/* Seçili takımlar */}
+      {/* Selected teams chips */}
       {selectedTeams.length > 0 && !searchQuery && (
         <ScrollView
           horizontal
@@ -75,14 +77,16 @@ export default function TeamsScreen() {
           style={styles.chipsScroll}
         >
           {selectedTeams.map((team) => (
-            <View key={team.id} style={styles.chip}>
-              <Text style={styles.chipText}>{team.name}</Text>
+            <View key={team.id} style={[styles.chip, { backgroundColor: colors.bg2, borderColor: colors.success }]}>
+              <Text style={[styles.chipText, { color: colors.success }]}>
+                {team.nameLocal[i18n.language] ?? team.name}
+              </Text>
             </View>
           ))}
         </ScrollView>
       )}
 
-      {/* Liste */}
+      {/* List */}
       <ScrollView style={styles.list} showsVerticalScrollIndicator={false}>
         {teamsByLeague.length === 0 ? (
           <EmptyState emoji="🔍" title={t('teams.noTeams')} />
@@ -114,8 +118,8 @@ export default function TeamsScreen() {
 }
 
 const styles = StyleSheet.create({
-  safe:    { flex: 1, backgroundColor: '#0a0a0a' },
-  loading: { flex: 1, backgroundColor: '#0a0a0a', alignItems: 'center', justifyContent: 'center' },
+  safe:    { flex: 1 },
+  loading: { flex: 1, alignItems: 'center', justifyContent: 'center' },
   header: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -124,9 +128,8 @@ const styles = StyleSheet.create({
     paddingTop: 16,
     paddingBottom: 14,
   },
-  headerTitle: { color: '#f0f0f0', fontSize: 21, fontWeight: '800', letterSpacing: -0.5 },
+  headerTitle: { fontSize: 21, fontWeight: '800', letterSpacing: -0.5 },
   badge: {
-    backgroundColor: '#4ade80',
     borderRadius: 10,
     minWidth: 26,
     height: 26,
@@ -140,25 +143,21 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginHorizontal: 14,
     marginBottom: 10,
-    backgroundColor: '#111',
     borderRadius: 10,
     paddingHorizontal: 14,
     paddingVertical: 11,
     gap: 10,
     borderWidth: 1,
-    borderColor: '#1a1a1a',
   },
-  searchInput: { flex: 1, color: '#e8e8e8', fontSize: 14, padding: 0 },
+  searchInput: { flex: 1, fontSize: 14, padding: 0 },
   chipsScroll: { maxHeight: 42, marginBottom: 6 },
   chips: { paddingHorizontal: 14, gap: 8, alignItems: 'center' },
   chip: {
-    backgroundColor: '#141414',
     borderRadius: 16,
     paddingHorizontal: 12,
     paddingVertical: 6,
     borderWidth: 1,
-    borderColor: '#4ade80',
   },
-  chipText: { color: '#4ade80', fontSize: 12, fontWeight: '600' },
+  chipText: { fontSize: 12, fontWeight: '600' },
   list: { flex: 1 },
 });
