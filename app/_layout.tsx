@@ -22,15 +22,10 @@ export default function RootLayout() {
   const [showPaywall, setShowPaywall] = useState(false);
   const appState = useRef<AppStateStatus>(AppState.currentState);
 
-  // Splash'i appReady olduktan SONRA kaldır.
-  // İki requestAnimationFrame: JS render + native commit'in tamamlanmasını bekle
+  // Splash'i appReady olduktan sonra kaldır (backup — asıl hide finally'da yapılıyor)
   useEffect(() => {
     if (appReady) {
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          SplashScreen.hideAsync().catch(() => {});
-        });
-      });
+      SplashScreen.hideAsync().catch(() => {});
     }
   }, [appReady]);
 
@@ -74,7 +69,7 @@ export default function RootLayout() {
         console.warn('App init error:', e);
       } finally {
         setAppReady(true);
-        // SplashScreen.hideAsync() artık burada değil — useEffect[appReady] handle ediyor
+        SplashScreen.hideAsync().catch(() => {});
       }
     }
     prepare();
