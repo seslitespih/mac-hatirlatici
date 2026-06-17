@@ -25,6 +25,12 @@ interface CountryCfg {
 }
 
 const COUNTRY_CFG: Record<string, CountryCfg> = {
+  TR: {
+    tz: 'Europe/Istanbul',
+    tzLabel: 'UTC+3 (İstanbul)',
+    lang: 'Turkish',
+    channels: 'beIN Sports, TRT Spor, S Sport, TV8, A Spor',
+  },
   GB: {
     tz: 'Europe/London',
     tzLabel: 'UTC+1 (London)',
@@ -109,6 +115,108 @@ const COUNTRY_CFG: Record<string, CountryCfg> = {
     lang: 'French',
     channels: 'Canal+ Afrique, RTS 1, TFM',
   },
+  US: {
+    tz: 'America/New_York',
+    tzLabel: 'UTC-4 (New York)',
+    lang: 'English',
+    channels: 'Fox Sports, FS1, Telemundo, Peacock, Paramount+, ESPN+',
+  },
+  CA: {
+    tz: 'America/Toronto',
+    tzLabel: 'UTC-4 (Toronto)',
+    lang: 'English',
+    channels: 'CTV, TSN, RDS, DAZN, Sportsnet',
+  },
+  AU: {
+    tz: 'Australia/Sydney',
+    tzLabel: 'UTC+10 (Sydney)',
+    lang: 'English',
+    channels: 'SBS, Optus Sport, Paramount+, Stan Sport, Fox Sports',
+  },
+  NZ: {
+    tz: 'Pacific/Auckland',
+    tzLabel: 'UTC+12 (Auckland)',
+    lang: 'English',
+    channels: 'Sky Sport, TVNZ, Spark Sport',
+  },
+  ZA: {
+    tz: 'Africa/Johannesburg',
+    tzLabel: 'UTC+2 (Johannesburg)',
+    lang: 'English',
+    channels: 'SuperSport, DSTV, SABC Sport',
+  },
+  GH: {
+    tz: 'Africa/Accra',
+    tzLabel: 'UTC+0 (Accra)',
+    lang: 'English',
+    channels: 'SuperSport, GTV Sports+, DSTV',
+  },
+  AT: {
+    tz: 'Europe/Vienna',
+    tzLabel: 'UTC+2 (Vienna)',
+    lang: 'German',
+    channels: 'ORF 1, ServusTV, Sky Austria, DAZN, MagentaSport',
+  },
+  CH: {
+    tz: 'Europe/Zurich',
+    tzLabel: 'UTC+2 (Zurich)',
+    lang: 'German',
+    channels: 'SRF 1, RTS 1, RSI La 1, Blue Sport, DAZN',
+  },
+  BE: {
+    tz: 'Europe/Brussels',
+    tzLabel: 'UTC+2 (Brussels)',
+    lang: 'French',
+    channels: 'RTBF La Une, VRT 1, RTL TVI, Play Sports',
+  },
+  QA: {
+    tz: 'Asia/Qatar',
+    tzLabel: 'UTC+3 (Doha)',
+    lang: 'Arabic',
+    channels: 'beIN Sports, Al Kass TV, Qatar TV',
+  },
+  AE: {
+    tz: 'Asia/Dubai',
+    tzLabel: 'UTC+4 (Dubai)',
+    lang: 'Arabic',
+    channels: 'beIN Sports, AD Sports, Dubai TV',
+  },
+  DZ: {
+    tz: 'Africa/Algiers',
+    tzLabel: 'UTC+1 (Algiers)',
+    lang: 'Arabic',
+    channels: 'ENTV, A3 Sport, beIN Sports Arabia, Canal Algérie',
+  },
+  TN: {
+    tz: 'Africa/Tunis',
+    tzLabel: 'UTC+1 (Tunis)',
+    lang: 'Arabic',
+    channels: 'Watania 1, Hannibal TV, beIN Sports Arabia',
+  },
+  CO: {
+    tz: 'America/Bogota',
+    tzLabel: 'UTC-5 (Bogotá)',
+    lang: 'Spanish',
+    channels: 'Caracol TV, RCN, Win Sports, DirecTV Sports, ESPN',
+  },
+  CL: {
+    tz: 'America/Santiago',
+    tzLabel: 'UTC-3 (Santiago)',
+    lang: 'Spanish',
+    channels: 'Canal 13, TVN, CHV, DirecTV Sports, ESPN',
+  },
+  UY: {
+    tz: 'America/Montevideo',
+    tzLabel: 'UTC-3 (Montevideo)',
+    lang: 'Spanish',
+    channels: 'Canal 10, TyC Sports, DirecTV Sports, ESPN',
+  },
+  PE: {
+    tz: 'America/Lima',
+    tzLabel: 'UTC-5 (Lima)',
+    lang: 'Spanish',
+    channels: 'América TV, ATV, Latina, DirecTV Sports, Movistar Deportes',
+  },
 };
 
 // ─── Timezone yardımcıları ────────────────────────────────────────────────────
@@ -150,7 +258,6 @@ export const DAILY_FETCH_TASK = 'groq-daily-match-fetch';
 TaskManager.defineTask(DAILY_FETCH_TASK, async () => {
   try {
     const cc = (await AsyncStorage.getItem(COUNTRY_STORAGE_KEY)) ?? 'TR';
-    if (cc === 'TR') return BackgroundFetch.BackgroundFetchResult.NoData;
     const matches = await fetchDailyMatches(cc);
     return matches.length > 0
       ? BackgroundFetch.BackgroundFetchResult.NewData
@@ -191,6 +298,8 @@ function buildPrompt(cc: string, dateStr: string): string {
 List ALL football/soccer matches scheduled today for viewers in ${cc} (${cfg.lang}).
 Include FIFA World Cup 2026 matches + any other major football today.
 Times in local time (${cfg.tzLabel}). Use these TV channels: ${cfg.channels}.
+
+IMPORTANT: Write ALL team names and country names in ${cfg.lang}. For example in Turkish: "Fransa", "Almanya", "Brezilya", "Arjantin". In Spanish: "Francia", "Alemania", "Brasil". Use the native language name, not English.
 
 Return ONLY valid JSON (no extra text):
 {"matches":[{"home":"TeamA","away":"TeamB","time":"HH:MM","channel":"Channel","league":"League Name","sport":"football"}]}`;

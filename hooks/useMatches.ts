@@ -5,8 +5,9 @@ import {
   groupMatchesByDay,
   MatchGroup,
 } from '../services/matchService';
-import { fetchSportsDbMatches, clearSportsDbCache } from '../services/sportsDbService';
+import { fetchSportsDbMatches, clearSportsDbCache, COUNTRY_TZ } from '../services/sportsDbService';
 import { fetchTRMatches, clearTRCache }             from '../services/hangikanalda';
+import { getMatchWindow } from '../utils/timezone';
 import { scheduleAllNotifications }            from '../services/notificationService';
 import { useTranslation } from 'react-i18next';
 
@@ -102,16 +103,20 @@ export function useMatches(
   const refresh = useCallback(() => loadMatches(true, true), [loadMatches]);
 
   const sportFiltered = useMemo(() => {
+    const tz  = COUNTRY_TZ[countryCode] ?? 'UTC';
+    const { end } = getMatchWindow(tz);
     const now = new Date();
-    // Bitmiş veya 130 dk+ geçmiş maçları gizle (canlı maçlar hariç)
+
     const active = allMatches.filter(m => {
       if (m.status === 'finished') return false;
       if (m.status === 'live') return true;
-      const endTime = new Date(new Date(m.date).getTime() + 130 * 60 * 1000);
-      return endTime > now;
+      const d = new Date(m.date);
+      if (d > end) return false;                                      // pencere sonu dışı
+      const matchEnd = new Date(d.getTime() + 130 * 60 * 1000);
+      return matchEnd > now;                                          // geçmiş maçları gizle
     });
     return sport === 'all' ? active : active.filter(m => m.sport === sport);
-  }, [allMatches, sport]);
+  }, [allMatches, sport, countryCode]);
 
   const favoriteMatches = useMemo(
     () => sportFiltered.filter(

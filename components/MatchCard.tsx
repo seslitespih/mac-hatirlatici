@@ -11,6 +11,7 @@ import { useTranslation } from 'react-i18next';
 import { useTheme } from '../contexts/ThemeContext';
 import { Match } from '../constants/matches';
 import { toggleReminder, isReminderSet } from '../services/notificationService';
+import { translateTeamName } from '../constants/teamTranslations';
 
 // ─── Props ────────────────────────────────────────────────────────────────────
 
@@ -27,6 +28,9 @@ export default function MatchCard({ match, onPress }: Props) {
 
   const isLive  = match.status === 'live';
   const isF1    = match.sport === 'motorsport';
+  const lang    = i18n.language;
+  const homeName = translateTeamName(match.homeTeamName, lang);
+  const awayName = translateTeamName(match.awayTeamName, lang);
 
   const SPORT_BORDER: Record<string, string> = {
     football:   colors.sportFootball,
@@ -134,19 +138,19 @@ export default function MatchCard({ match, onPress }: Props) {
       {/* Teams row / F1 race */}
       {isF1 ? (
         <View style={styles.f1Block}>
-          <Text style={[styles.f1Race,    { color: colors.text    }]} numberOfLines={1}>{match.homeTeamName}</Text>
-          <Text style={[styles.f1Circuit, { color: colors.textSub }]} numberOfLines={1}>{match.awayTeamName}</Text>
+          <Text style={[styles.f1Race,    { color: colors.text    }]} numberOfLines={1}>{homeName}</Text>
+          <Text style={[styles.f1Circuit, { color: colors.textSub }]} numberOfLines={1}>{awayName}</Text>
         </View>
       ) : (
         <View style={styles.teamsRow}>
-          <Text style={[styles.team, { color: colors.text }]} numberOfLines={2}>{match.homeTeamName}</Text>
+          <Text style={[styles.team, { color: colors.text }]} numberOfLines={2}>{homeName}</Text>
           <View style={[styles.timeContainer, { backgroundColor: colors.bg3 }]}>
             <Text style={[styles.time, { color: isLive ? colors.live : colors.accent }]}>
               {displayTime}
             </Text>
           </View>
           <Text style={[styles.team, styles.teamRight, { color: colors.text }]} numberOfLines={2}>
-            {match.awayTeamName}
+            {awayName}
           </Text>
         </View>
       )}
