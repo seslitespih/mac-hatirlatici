@@ -22,13 +22,6 @@ export default function RootLayout() {
   const [showPaywall, setShowPaywall] = useState(false);
   const appState = useRef<AppStateStatus>(AppState.currentState);
 
-  // Splash'i appReady olduktan sonra kaldır (backup — asıl hide finally'da yapılıyor)
-  useEffect(() => {
-    if (appReady) {
-      SplashScreen.hideAsync().catch(() => {});
-    }
-  }, [appReady]);
-
   // Ön plana gelince abonelik kontrolü
   useEffect(() => {
     const sub = AppState.addEventListener('change', (next) => {
@@ -41,6 +34,9 @@ export default function RootLayout() {
   }, []);
 
   useEffect(() => {
+    // Splash'i HEMEN kaldır — prepare() crash/hang etse bile sonsuza takılmasın.
+    SplashScreen.hideAsync().catch(() => {});
+
     async function prepare() {
       try {
         await Font.loadAsync({});
@@ -69,14 +65,13 @@ export default function RootLayout() {
         console.warn('App init error:', e);
       } finally {
         setAppReady(true);
-        SplashScreen.hideAsync().catch(() => {});
       }
     }
     prepare();
   }, []);
 
   if (!appReady) {
-    return <View style={{ flex: 1, backgroundColor: '#F0F5FF' }} />;
+    return <View style={{ flex: 1, backgroundColor: '#1a1a2e' }} />;
   }
 
   if (showPaywall) {
