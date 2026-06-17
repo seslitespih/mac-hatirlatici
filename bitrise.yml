@@ -1,0 +1,153 @@
+format_version: "13"
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+project_type: react-native
+
+app:
+  envs:
+  - BITRISE_DISTRIBUTION_METHOD: app-store
+    opts:
+      is_expand: false
+  - ASC_KEY_ID: "4V8WB44R99"
+    opts:
+      is_expand: false
+  - ASC_ISSUER_ID: "c62db938-88be-40a4-94d5-0542ba1512ff"
+    opts:
+      is_expand: false
+  - ASC_APP_ID: "6779112504"
+    opts:
+      is_expand: false
+
+workflows:
+  primary:
+    description: Expo iOS build -> TestFlight
+    steps:
+    - activate-ssh-key@4:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+
+    - git-clone@8: {}
+
+    - restore-npm-cache@1: {}
+
+    - yarn@0:
+        title: yarn install
+        inputs:
+        - command: install
+
+    - script@1:
+        title: Expo Prebuild iOS
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            set -ex
+            cd "$BITRISE_SOURCE_DIR"
+            npx expo prebuild --platform ios --no-install --clean
+
+            # Workspace bul
+            WS=$(ls ios/*.xcworkspace 2>/dev/null | head -1)
+            if [ -z "$WS" ]; then
+              echo "ERROR: xcworkspace bulunamadi"
+              exit 1
+            fi
+            WS_NAME=$(basename "$WS")
+            envman add --key BITRISE_PROJECT_PATH --value "$BITRISE_SOURCE_DIR/$WS"
+
+            # Scheme bul
+            SCHEME=$(xcodebuild -list -workspace "ios/$WS_NAME" 2>/dev/null \
+              | awk '/Schemes:/,0' \
+              | grep -v 'Schemes:' \
+              | sed 's/^[[:space:]]*//' \
+              | grep -v '^$' \
+              | head -1)
+            echo "Scheme: [$SCHEME]"
+            envman add --key BITRISE_SCHEME --value "$SCHEME"
+
+    - cocoapods-install@2:
+        inputs:
+        - podfile_path: "$BITRISE_SOURCE_DIR/ios/Podfile"
+        - verbose: "false"
+
+    - script@1:
+        title: Set Build Number
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            set -ex
+            BUILD_NUM=$((20 + BITRISE_BUILD_NUMBER))
+            echo "Build number: $BUILD_NUM"
+            find "$BITRISE_SOURCE_DIR/ios" -name "Info.plist" -not -path "*/Pods/*" | while read p; do
+              /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $BUILD_NUM" "$p" 2>/dev/null || true
+            done
+
+    - script@1:
+        title: Install Certificate and Provisioning Profile
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            set -ex
+            KC_PASS="bitriseTemp999"
+
+            security create-keychain -p "$KC_PASS" build.keychain
+            security set-keychain-settings -lut 21600 build.keychain
+            security unlock-keychain -p "$KC_PASS" build.keychain
+            EXISTING=$(security list-keychains -d user | tr -d '"' | xargs)
+            security list-keychains -d user -s build.keychain $EXISTING
+            security default-keychain -s build.keychain
+
+            security import "$BITRISE_SOURCE_DIR/certs/distribution.p12" \
+              -k build.keychain \
+              -P "MacHatirlatici2024!" \
+              -T /usr/bin/codesign \
+              -T /usr/bin/xcodebuild
+            security set-key-partition-list \
+              -S apple-tool:,apple:,codesign: \
+              -s -k "$KC_PASS" build.keychain
+
+            PP_UUID=$(security cms -D -i "$BITRISE_SOURCE_DIR/certs/profile.mobileprovision" \
+              | plutil -extract UUID raw -)
+            TEAM_ID=$(security cms -D -i "$BITRISE_SOURCE_DIR/certs/profile.mobileprovision" \
+              | plutil -extract TeamIdentifier.0 raw - 2>/dev/null || echo "")
+            PROFILES_DIR="$HOME/Library/MobileDevice/Provisioning Profiles"
+            mkdir -p "$PROFILES_DIR"
+            cp "$BITRISE_SOURCE_DIR/certs/profile.mobileprovision" \
+              "$PROFILES_DIR/${PP_UUID}.mobileprovision"
+            echo "Profile: $PP_UUID  Team: $TEAM_ID"
+            envman add --key APPLE_TEAM_ID --value "$TEAM_ID"
+
+    - xcode-archive@5:
+        inputs:
+        - project_path: "$BITRISE_PROJECT_PATH"
+        - scheme: "$BITRISE_SCHEME"
+        - distribution_method: "$BITRISE_DISTRIBUTION_METHOD"
+        - automatic_code_signing: "off"
+        - configuration: Release
+        - team_id: "$APPLE_TEAM_ID"
+        - export_code_sign_identity: "Apple Distribution"
+
+    - script@1:
+        title: Upload to TestFlight
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            set -ex
+
+            echo "$ASC_API_KEY_CONTENT" > /tmp/AuthKey.p8
+            chmod 600 /tmp/AuthKey.p8
+
+            IPA_PATH=$(find "$BITRISE_DEPLOY_DIR" -name "*.ipa" | head -1)
+            echo "IPA: $IPA_PATH"
+
+            # fastlane pilot ile TestFlight'a yukle
+            gem list fastlane | grep fastlane || gem install fastlane --no-document
+
+            fastlane pilot upload \
+              --api_key_path /tmp/AuthKey.p8 \
+              --api_key_id "$ASC_KEY_ID" \
+              --api_issuer_id "$ASC_ISSUER_ID" \
+              --ipa "$IPA_PATH" \
+              --skip_waiting_for_build_processing true
+
+            rm -f /tmp/AuthKey.p8
+
+    - save-npm-cache@1: {}
+
+    - deploy-to-bitrise-io@2: {}
