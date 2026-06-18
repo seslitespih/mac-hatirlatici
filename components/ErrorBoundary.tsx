@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { lastStep } from '../utils/crashDiag';
 
 interface Props {
   children: React.ReactNode;
@@ -66,9 +67,14 @@ export default class ErrorBoundary extends React.Component<Props, State> {
           <Text style={styles.title}>Crash Detayı</Text>
           <Text style={styles.msg}>{this.state.error}</Text>
 
+          <Text style={styles.sectionLabel}>Son Adim (hangi hook crasthi):</Text>
+          <View style={[styles.stack, { borderWidth: 1, borderColor: '#F59E0B' }]}>
+            <Text style={[styles.stackTxt, { color: '#FCD34D', fontSize: 12 }]}>{lastStep}</Text>
+          </View>
+
           <Text style={styles.sectionLabel}>JS Stack (bu crash):</Text>
           <View style={styles.stack}>
-            <Text style={styles.stackTxt}>{jsLines || '(yok)'}</Text>
+            <Text style={styles.stackTxt}>{jsLines || '(yok - Hermes production)'}</Text>
           </View>
 
           <Text style={styles.sectionLabel}>Component Stack:</Text>

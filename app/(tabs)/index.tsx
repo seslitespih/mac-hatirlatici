@@ -1,5 +1,4 @@
-import React, { useCallback, useState } from 'react';
-import { useFocusEffect } from 'expo-router';
+import React, { useCallback, useEffect, useState } from 'react';
 import {
   View,
   Text,
@@ -22,11 +21,10 @@ import EmptyState from '../../components/EmptyState';
 import { Match, SportType } from '../../constants/matches';
 import { MatchGroup } from '../../services/matchService';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { markStep } from '../../utils/crashDiag';
 
-// Modül yüklendiğinde tüm import'ların tiplerini AsyncStorage'a kaydet.
-// ErrorBoundary bunu okuyup ekranda gösterir → hangi import undefined diye soruyu cevaplar.
+// Modül seviyesi tanı: import tiplerini kaydet
 void AsyncStorage.setItem('__module_diag', JSON.stringify({
-  useFocusEffect: typeof useFocusEffect,
   useTranslation: typeof useTranslation,
   useTheme: typeof useTheme,
   useTeams: typeof useTeams,
@@ -44,19 +42,17 @@ const IS_WORLD_CUP_SEASON = new Date() >= WC_START && new Date() <= WC_END;
 type SportTab = { id: SportType | 'all'; label: string; color: string };
 
 export default function MatchesScreen() {
+  markStep('1_useTranslation');
   const { t } = useTranslation();
+  markStep('2_useTheme');
   const { colors } = useTheme();
+  markStep('3_useTeams');
   const { selectedTeamIds, reloadSelectedTeams } = useTeams();
-
-  // Matches tabına her geçişte favori takımları yeniden yükle (Teams tab'da yapılan değişiklikleri yakala)
-  useFocusEffect(
-    useCallback(() => {
-      reloadSelectedTeams();
-    }, [reloadSelectedTeams]),
-  );
+  markStep('4_useCountry');
   const { countryCode, isLoading: countryLoading } = useCountry();
+  markStep('5_useState');
   const [activeSport, setActiveSport] = useState<SportType | 'all'>('all');
-
+  markStep('6_useMatches');
   const {
     filter,
     setFilter,
@@ -66,6 +62,15 @@ export default function MatchesScreen() {
     lastUpdated,
     refresh,
   } = useMatches(selectedTeamIds, countryCode, activeSport, !countryLoading);
+  markStep('7_useEffect_reload');
+
+  // useFocusEffect yerine useEffect: expo-router'ın navigation state'ine bağımlılığı kaldırır.
+  // Takımlar mount'ta ve selectedTeamIds değişince yeniden yüklenir.
+  useEffect(() => {
+    reloadSelectedTeams();
+  }, [reloadSelectedTeams]);
+
+  markStep('8_render_hooks_done');
 
   const sportTabs: SportTab[] = [
     { id: 'all',         label: t('matches.sports.all'),                         color: colors.text },
