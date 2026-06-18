@@ -63,11 +63,11 @@ const SPORT_MAP: Record<string, SportType> = {
 const TR_TZ = 'Europe/Istanbul';
 
 function getTodayIst(): { year: number; month: number; day: number } {
-  const parts = new Intl.DateTimeFormat('en-US', {
-    timeZone: TR_TZ, year: 'numeric', month: '2-digit', day: '2-digit',
-  }).formatToParts(new Date());
-  const g = (t: string) => parseInt(parts.find(p => p.type === t)?.value ?? '0');
-  return { year: g('year'), month: g('month') - 1, day: g('day') };
+  // toLocaleString('sv-SE') → "YYYY-MM-DD HH:MM:SS" (formatToParts Hermes'te yok)
+  const localStr = new Date().toLocaleString('sv-SE', { timeZone: TR_TZ });
+  const [datePart] = localStr.split(' ');
+  const [year, month, day] = datePart.split('-').map(Number);
+  return { year, month: month - 1, day };  // month 0-indexed (Date.UTC için)
 }
 
 function trTimeToDate(timeStr: string): Date {

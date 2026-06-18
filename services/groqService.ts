@@ -222,26 +222,25 @@ const COUNTRY_CFG: Record<string, CountryCfg> = {
 // ─── Timezone yardımcıları ────────────────────────────────────────────────────
 
 function getTzOffsetMin(tz: string): number {
+  // toLocaleString('sv-SE') → "YYYY-MM-DD HH:MM:SS" (formatToParts Hermes'te yok)
   const now = new Date();
-  const p = (zone: string) => {
-    const pts = new Intl.DateTimeFormat('en-US', {
-      timeZone: zone, year: 'numeric', month: '2-digit', day: '2-digit',
-      hour: '2-digit', minute: '2-digit', hour12: false,
-    }).formatToParts(now);
-    const g = (t: string) => parseInt(pts.find(x => x.type === t)?.value ?? '0');
-    return Date.UTC(g('year'), g('month') - 1, g('day'), g('hour'), g('minute'));
+  const parse = (zone: string) => {
+    const s = now.toLocaleString('sv-SE', { timeZone: zone });
+    const [datePart, timePart] = s.split(' ');
+    const [y, mo, d] = datePart.split('-').map(Number);
+    const [h, mi] = timePart.split(':').map(Number);
+    return Date.UTC(y, mo - 1, d, h, mi);
   };
-  return (p(tz) - p('UTC')) / 60000;
+  return (parse(tz) - parse('UTC')) / 60000;
 }
 
 function localTimeToDate(timeStr: string, tz: string): Date {
   const [h, m] = (timeStr || '00:00').split(':').map(Number);
   const off = getTzOffsetMin(tz);
-  const pts = new Intl.DateTimeFormat('en-US', {
-    timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit',
-  }).formatToParts(new Date());
-  const g = (t: string) => parseInt(pts.find(p => p.type === t)?.value ?? '0');
-  const midnight = Date.UTC(g('year'), g('month') - 1, g('day')) - off * 60000;
+  const localStr = new Date().toLocaleString('sv-SE', { timeZone: tz });
+  const [datePart] = localStr.split(' ');
+  const [year, month, day] = datePart.split('-').map(Number);
+  const midnight = Date.UTC(year, month - 1, day) - off * 60000;
   return new Date(midnight + (h * 60 + m) * 60000);
 }
 
