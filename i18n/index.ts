@@ -3,6 +3,10 @@ import { initReactI18next } from 'react-i18next';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Localization from 'expo-localization';
 
+// initReactI18next'i MODÜL YÜKLENDIĞINDE kaydet — initI18n() çağrılmadan önce bile
+// useTranslation() çalışabilsin. (5 saniyelik fallback timer ile race condition'ı önler.)
+i18n.use(initReactI18next);
+
 import tr from './locales/tr.json';
 import en from './locales/en.json';
 import es from './locales/es.json';
@@ -120,7 +124,7 @@ export async function initI18n(): Promise<{ detectedCountry: string | null }> {
     savedLanguage = 'en';
   }
 
-  await i18n.use(initReactI18next).init({
+  await i18n.init({
     resources,
     lng: savedLanguage ?? 'en',
     fallbackLng: 'en',

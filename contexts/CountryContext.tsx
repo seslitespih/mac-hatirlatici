@@ -23,7 +23,10 @@ const CountryContext = createContext<CountryCtx>({
 });
 
 export function CountryProvider({ children }: { children: React.ReactNode }) {
-  const { i18n } = useTranslation();
+  // useSuspense:false → CountryProvider'ın i18n henüz hazır değilse Suspend etmesini önler.
+  // CountryProvider herhangi bir Suspense boundary'nin üstünde olduğundan Suspend atarsa
+  // React "no Suspense ancestor" hatasına düşer.
+  const { i18n } = useTranslation(undefined, { useSuspense: false });
   const [countryCode, setCountryCode] = useState<string>('TR');
   const [isLoading, setIsLoading] = useState(true);
 

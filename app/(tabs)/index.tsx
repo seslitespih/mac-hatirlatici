@@ -21,6 +21,20 @@ import MatchCard from '../../components/MatchCard';
 import EmptyState from '../../components/EmptyState';
 import { Match, SportType } from '../../constants/matches';
 import { MatchGroup } from '../../services/matchService';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+// Modül yüklendiğinde tüm import'ların tiplerini AsyncStorage'a kaydet.
+// ErrorBoundary bunu okuyup ekranda gösterir → hangi import undefined diye soruyu cevaplar.
+void AsyncStorage.setItem('__module_diag', JSON.stringify({
+  useFocusEffect: typeof useFocusEffect,
+  useTranslation: typeof useTranslation,
+  useTheme: typeof useTheme,
+  useTeams: typeof useTeams,
+  useMatches: typeof useMatches,
+  useCountry: typeof useCountry,
+  MatchCard: typeof MatchCard,
+  EmptyState: typeof EmptyState,
+}));
 
 // World Cup 2026: June 11 – July 19, 2026
 const WC_START = new Date('2026-06-11T00:00:00Z');
