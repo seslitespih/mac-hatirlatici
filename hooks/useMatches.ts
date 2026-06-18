@@ -127,10 +127,15 @@ export function useMatches(
 
   const displayedMatches = filter === 'all' ? sportFiltered : favoriteMatches;
 
-  const matchGroups = useMemo<MatchGroup[]>(
-    () => groupMatchesByDay(displayedMatches, i18n.language, t),
-    [displayedMatches, i18n.language, t],
-  );
+  const matchGroups = useMemo<MatchGroup[]>(() => {
+    try {
+      return typeof groupMatchesByDay === 'function'
+        ? groupMatchesByDay(displayedMatches, i18n.language, t)
+        : [];
+    } catch {
+      return [];
+    }
+  }, [displayedMatches, i18n.language, t]);
 
   const liveMatches = useMemo<Match[]>(() => {
     const now = new Date();

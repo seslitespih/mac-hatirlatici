@@ -255,25 +255,35 @@ function getLocalDate(tz: string): string {
 
 export const DAILY_FETCH_TASK = 'groq-daily-match-fetch';
 
-TaskManager.defineTask(DAILY_FETCH_TASK, async () => {
-  try {
-    const cc = (await AsyncStorage.getItem(COUNTRY_STORAGE_KEY)) ?? 'TR';
-    const matches = await fetchDailyMatches(cc);
-    return matches.length > 0
-      ? BackgroundFetch.BackgroundFetchResult.NewData
-      : BackgroundFetch.BackgroundFetchResult.NoData;
-  } catch {
-    return BackgroundFetch.BackgroundFetchResult.Failed;
-  }
-});
+// expo-task-manager bazı iOS sürümlerinde module level'da crash atabilir —
+// try-catch ile sararak modülün yüklenmesini garanti altına alıyoruz.
+try {
+  TaskManager.defineTask(DAILY_FETCH_TASK, async () => {
+    try {
+      const cc = (await AsyncStorage.getItem(COUNTRY_STORAGE_KEY)) ?? 'TR';
+      const matches = await fetchDailyMatches(cc);
+      return matches.length > 0
+        ? BackgroundFetch.BackgroundFetchResult.NewData
+        : BackgroundFetch.BackgroundFetchResult.NoData;
+    } catch {
+      return BackgroundFetch.BackgroundFetchResult.Failed;
+    }
+  });
+} catch (e) {
+  console.warn('TaskManager.defineTask failed:', e);
+}
 
 export async function registerDailyFetch(): Promise<void> {
-  if (await TaskManager.isTaskRegisteredAsync(DAILY_FETCH_TASK)) return;
-  await BackgroundFetch.registerTaskAsync(DAILY_FETCH_TASK, {
-    minimumInterval: 60 * 60 * 6,
-    stopOnTerminate: false,
-    startOnBoot: true,
-  });
+  try {
+    if (await TaskManager.isTaskRegisteredAsync(DAILY_FETCH_TASK)) return;
+    await BackgroundFetch.registerTaskAsync(DAILY_FETCH_TASK, {
+      minimumInterval: 60 * 60 * 6,
+      stopOnTerminate: false,
+      startOnBoot: true,
+    });
+  } catch (e) {
+    console.warn('registerDailyFetch failed:', e);
+  }
 }
 
 // ─── Groq API ─────────────────────────────────────────────────────────────────
