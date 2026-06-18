@@ -59,11 +59,14 @@ async function isInFreeTrial(): Promise<boolean> {
 // ─── Başlatma ─────────────────────────────────────────────────────────────────
 
 export function initPurchases(): void {
-  const key = getApiKey();
-  if (!key) return;
-
-  Purchases.setLogLevel(LOG_LEVEL.ERROR);
-  Purchases.configure({ apiKey: key });
+  try {
+    const key = getApiKey();
+    if (!key) return;
+    Purchases.setLogLevel(LOG_LEVEL.ERROR);
+    Purchases.configure({ apiKey: key });
+  } catch (e) {
+    console.warn('RevenueCat init failed:', e);
+  }
 }
 
 // ─── Abonelik durumu ──────────────────────────────────────────────────────────

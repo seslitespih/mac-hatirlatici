@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
-import { AppState, AppStateStatus, View } from 'react-native';
+import { AppState, AppStateStatus } from 'react-native';
 import { Stack } from 'expo-router';
+import * as SplashScreen from 'expo-splash-screen';
 import * as Font from 'expo-font';
 import { StatusBar } from 'expo-status-bar';
 import { I18nextProvider } from 'react-i18next';
@@ -13,9 +14,12 @@ import { initPurchases, needsPaywall } from '../services/subscriptionService';
 import PaywallScreen from '../components/PaywallScreen';
 import { ThemeProvider } from '../contexts/ThemeContext';
 import { CountryProvider } from '../contexts/CountryContext';
+import ErrorBoundary from '../components/ErrorBoundary';
+
+SplashScreen.preventAutoHideAsync().catch(() => {});
 
 export default function RootLayout() {
-  const [appReady,    setAppReady]    = useState(false);
+  const [appReady, setAppReady] = useState(false);
   const [showPaywall, setShowPaywall] = useState(false);
   const appState = useRef<AppStateStatus>(AppState.currentState);
 
@@ -30,66 +34,74 @@ export default function RootLayout() {
     return () => sub.remove();
   }, []);
 
+  // RevenueCat + background fetch: app göründükten SONRA başlat
+  // (startup sırasında native crash riski varsa app hiç açılmasın diye)
   useEffect(() => {
+    if (!appReady) return;
+    try {
+      initPurchases();
+    } catch {}
+    needsPaywall().then(setShowPaywall).catch(() => {});
+    registerDailyFetch().catch(() => {});
+  }, [appReady]);
+
+  useEffect(() => {
+    // Güvenlik ağı: 5sn içinde açılmazsa zorla aç
+    const forceTimer = setTimeout(() => {
+      setAppReady(true);
+      SplashScreen.hideAsync().catch(() => {});
+    }, 5000);
+
     async function prepare() {
       try {
         await Font.loadAsync({});
         await migrateTeamIds();
         const { detectedCountry } = await initI18n();
-
-        if (detectedCountry) {
-          await saveCountry(detectedCountry);
-        }
-
+        if (detectedCountry) await saveCountry(detectedCountry);
         configureNotifications();
         requestNotificationPermissions().catch(() => {});
-
-        initPurchases();
-
-        // Paywall kontrolü — 3 sn timeout (RevenueCat takılırsa geçilsin)
-        const paywallNeeded = await Promise.race([
-          needsPaywall(),
-          new Promise<boolean>((resolve) => setTimeout(() => resolve(false), 3000)),
-        ]);
-        setShowPaywall(paywallNeeded);
-
-        registerDailyFetch().catch(() => {});
-
       } catch (e) {
         console.warn('App init error:', e);
       } finally {
+        clearTimeout(forceTimer);
         setAppReady(true);
+        SplashScreen.hideAsync().catch(() => {});
       }
     }
     prepare();
+
+    return () => clearTimeout(forceTimer);
   }, []);
 
-  if (!appReady) {
-    return <View style={{ flex: 1, backgroundColor: '#1a1a2e' }} />;
-  }
+  // null döndürürken expo-router native splash'ı canlı tutar
+  if (!appReady) return null;
 
   if (showPaywall) {
     return (
-      <ThemeProvider>
-        <I18nextProvider i18n={i18n}>
-          <StatusBar style="dark" backgroundColor="#F0F5FF" />
-          <PaywallScreen onSubscribed={() => setShowPaywall(false)} />
-        </I18nextProvider>
-      </ThemeProvider>
+      <ErrorBoundary>
+        <ThemeProvider>
+          <I18nextProvider i18n={i18n}>
+            <StatusBar style="dark" backgroundColor="#F0F5FF" />
+            <PaywallScreen onSubscribed={() => setShowPaywall(false)} />
+          </I18nextProvider>
+        </ThemeProvider>
+      </ErrorBoundary>
     );
   }
 
   return (
-    <ThemeProvider>
-      <I18nextProvider i18n={i18n}>
-        <CountryProvider>
-          <StatusBar style="dark" backgroundColor="transparent" translucent />
-          <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: '#F0F5FF' } }}>
-            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-            <Stack.Screen name="+not-found" />
-          </Stack>
-        </CountryProvider>
-      </I18nextProvider>
-    </ThemeProvider>
+    <ErrorBoundary>
+      <ThemeProvider>
+        <I18nextProvider i18n={i18n}>
+          <CountryProvider>
+            <StatusBar style="dark" backgroundColor="transparent" translucent />
+            <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: '#F0F5FF' } }}>
+              <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+              <Stack.Screen name="+not-found" />
+            </Stack>
+          </CountryProvider>
+        </I18nextProvider>
+      </ThemeProvider>
+    </ErrorBoundary>
   );
 }
