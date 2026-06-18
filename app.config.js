@@ -41,7 +41,7 @@ module.exports = {
     ios: {
       supportsTablet: true,
       bundleIdentifier: 'com.machatirlatici.app',
-      buildNumber: process.env.BUILD_NUMBER ?? '1',
+      buildNumber: process.env.BUILD_NUMBER ?? '50',
       infoPlist: {
         ITSAppUsesNonExemptEncryption: false,
       },
