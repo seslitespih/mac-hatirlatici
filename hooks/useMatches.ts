@@ -7,6 +7,7 @@ import {
 } from '../services/matchService';
 import { fetchSportsDbMatches, clearSportsDbCache } from '../services/sportsDbService';
 import { fetchTRMatches, clearTRCache }             from '../services/hangikanalda';
+import { fetchMotorsportMatches, clearMotorsportCache } from '../services/motorsportService';
 import { getMatchWindow, getDeviceTimezone } from '../utils/timezone';
 import { scheduleAllNotifications }            from '../services/notificationService';
 import { useTranslation } from 'react-i18next';
@@ -47,8 +48,17 @@ export function useMatches(
         const extras = intlMatches.filter(m => !trKeys.has(`${m.homeTeam}|${m.awayTeam}`));
         matches = [...trMatches, ...extras];
       } else {
-        if (force) await clearSportsDbCache(countryCode);
-        matches = await fetchSportsDbMatches(countryCode);
+        if (force) {
+          await Promise.all([
+            clearSportsDbCache(countryCode),
+            clearMotorsportCache(countryCode),
+          ]);
+        }
+        const [sportsMatches, motorMatches] = await Promise.all([
+          fetchSportsDbMatches(countryCode),
+          fetchMotorsportMatches(countryCode),
+        ]);
+        matches = [...sportsMatches, ...motorMatches];
       }
 
       if (matches.length > 0) {

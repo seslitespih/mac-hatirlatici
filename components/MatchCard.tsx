@@ -94,7 +94,12 @@ export default function MatchCard({ match, onPress }: Props) {
       {/* Teams row / F1 race */}
       {isF1 ? (
         <View style={styles.f1Block}>
-          <Text style={[styles.f1Race,    { color: colors.text    }]} numberOfLines={1}>{homeName}</Text>
+          <View style={styles.f1Header}>
+            <Text style={[styles.f1Race, { color: colors.text, flex: 1 }]} numberOfLines={2}>{homeName}</Text>
+            <View style={[styles.timeContainer, { backgroundColor: colors.bg3 }]}>
+              <Text style={[styles.time, { color: isLive ? colors.live : colors.accent }]}>{displayTime}</Text>
+            </View>
+          </View>
           <Text style={[styles.f1Circuit, { color: colors.textSub }]} numberOfLines={1}>{awayName}</Text>
         </View>
       ) : (
@@ -230,8 +235,13 @@ const styles = StyleSheet.create({
     gap: 4,
     marginBottom: 2,
   },
+  f1Header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
   f1Race: {
-    fontSize: 15,
+    fontSize: 14,
     fontWeight: '700',
   },
   f1Circuit: {
