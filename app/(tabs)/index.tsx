@@ -20,20 +20,6 @@ import MatchCard from '../../components/MatchCard';
 import EmptyState from '../../components/EmptyState';
 import { Match, SportType } from '../../constants/matches';
 import { MatchGroup } from '../../services/matchService';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { markStep } from '../../utils/crashDiag';
-
-// Modül seviyesi tanı: import tiplerini kaydet
-void AsyncStorage.setItem('__module_diag', JSON.stringify({
-  useTranslation: typeof useTranslation,
-  useTheme: typeof useTheme,
-  useTeams: typeof useTeams,
-  useMatches: typeof useMatches,
-  useCountry: typeof useCountry,
-  MatchCard: typeof MatchCard,
-  EmptyState: typeof EmptyState,
-}));
-
 // World Cup 2026: June 11 – July 19, 2026
 const WC_START = new Date('2026-06-11T00:00:00Z');
 const WC_END   = new Date('2026-07-20T00:00:00Z');
@@ -42,17 +28,11 @@ const IS_WORLD_CUP_SEASON = new Date() >= WC_START && new Date() <= WC_END;
 type SportTab = { id: SportType | 'all'; label: string; color: string };
 
 export default function MatchesScreen() {
-  markStep('1_useTranslation');
   const { t } = useTranslation();
-  markStep('2_useTheme');
   const { colors } = useTheme();
-  markStep('3_useTeams');
   const { selectedTeamIds, reloadSelectedTeams } = useTeams();
-  markStep('4_useCountry');
   const { countryCode, isLoading: countryLoading } = useCountry();
-  markStep('5_useState');
-  const [activeSport, setActiveSport] = useState<SportType | 'all'>('all');
-  markStep('6_useMatches');
+  const [activeSport, setActiveSport] = useState<SportType | 'all'>('football');
   const {
     filter,
     setFilter,
@@ -62,15 +42,12 @@ export default function MatchesScreen() {
     lastUpdated,
     refresh,
   } = useMatches(selectedTeamIds, countryCode, activeSport, !countryLoading);
-  markStep('7_useEffect_reload');
 
   // useFocusEffect yerine useEffect: expo-router'ın navigation state'ine bağımlılığı kaldırır.
   // Takımlar mount'ta ve selectedTeamIds değişince yeniden yüklenir.
   useEffect(() => {
     reloadSelectedTeams();
   }, [reloadSelectedTeams]);
-
-  markStep('8_render_hooks_done');
 
   const sportTabs: SportTab[] = [
     { id: 'all',         label: t('matches.sports.all'),                         color: colors.text },

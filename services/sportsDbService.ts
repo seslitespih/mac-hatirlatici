@@ -58,7 +58,7 @@ export const COUNTRY_TZ: Record<string, string> = {
   AE: 'Asia/Dubai',
 };
 
-// ─── TheSportsDB lig filtresi ─────────────────────────────────────────────────
+// ─── TheSportsDB lig filtreleri ──────────────────────────────────────────────
 
 const ALLOWED_LEAGUES = new Set([
   '4429',  // FIFA World Cup
@@ -72,6 +72,14 @@ const ALLOWED_LEAGUES = new Set([
   '4444',  // Copa America
   '4399',  // UEFA Euro
   '4481',  // UEFA Nations League
+]);
+
+// Küçük/bölgesel basketbol ligleri engelleniyor; büyükler (NBA, EuroLeague, FIBA WC) geçer
+const BLOCKED_BASKETBALL_LEAGUES = new Set([
+  '4516',  // WNBA
+  '5066',  // New Zealand NBL
+  '5266',  // Canadian Elite Basketball League
+  '5671',  // NBL1 South (Avustralya bölgesel)
 ]);
 
 // TheSportsDB lig ID → kanal servisindeki leagueId eşlemesi
@@ -156,9 +164,9 @@ function buildMatch(
 
 const CACHE_TTL_MS = 60 * 60 * 1000;   // 60 dakika
 
-const CK   = (cc: string) => `tsdb_v4_${cc}`;
-const CDK  = (cc: string) => `tsdb_v4_date_${cc}`;
-const CTK  = (cc: string) => `tsdb_v4_time_${cc}`;
+const CK   = (cc: string) => `tsdb_v5_${cc}`;
+const CDK  = (cc: string) => `tsdb_v5_date_${cc}`;
+const CTK  = (cc: string) => `tsdb_v5_time_${cc}`;
 
 async function readCache(localDate: string, cc: string): Promise<Match[] | null> {
   try {
@@ -241,8 +249,13 @@ export async function fetchSportsDbMatches(countryCode: string): Promise<Match[]
     if (e._sport === 'football') {
       // Futbol: sadece izin verilen ligler (WC 2026 = 4429 dahil)
       if (ALLOWED_LEAGUES.has(e.idLeague)) merged.push(e);
+    } else if (e._sport === 'basketball') {
+      // Basketbol: küçük/bölgesel ligleri engelle; NBA, EuroLeague, FIBA WC geçer
+      if (!BLOCKED_BASKETBALL_LEAGUES.has(e.idLeague) && e.strHomeTeam && e.strAwayTeam && e.strHomeTeam !== 'None') {
+        merged.push(e);
+      }
     } else {
-      // Basketbol / voleybol: takım adı boşsa atla
+      // Voleybol: takım adı geçerliyse göster
       if (e.strHomeTeam && e.strAwayTeam && e.strHomeTeam !== 'None') {
         merged.push(e);
       }
