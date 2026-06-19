@@ -156,9 +156,9 @@ function buildMatch(
 
 const CACHE_TTL_MS = 60 * 60 * 1000;   // 60 dakika
 
-const CK   = (cc: string) => `tsdb_v3_${cc}`;
-const CDK  = (cc: string) => `tsdb_v3_date_${cc}`;
-const CTK  = (cc: string) => `tsdb_v3_time_${cc}`;
+const CK   = (cc: string) => `tsdb_v4_${cc}`;
+const CDK  = (cc: string) => `tsdb_v4_date_${cc}`;
+const CTK  = (cc: string) => `tsdb_v4_time_${cc}`;
 
 async function readCache(localDate: string, cc: string): Promise<Match[] | null> {
   try {
@@ -184,45 +184,14 @@ async function writeCache(matches: Match[], localDate: string, cc: string): Prom
   } catch { /* depolama dolu */ }
 }
 
-// ─── WC 2026 sezon cache (12 saat) ───────────────────────────────────────────
-
-const WC_KEY      = 'tsdb_wc2026_v2';
-const WC_TIME_KEY = 'tsdb_wc2026_time_v2';
-const WC_TTL      = 12 * 60 * 60 * 1000;
-
-async function fetchWCSeason(): Promise<TSDBEvent[]> {
-  try {
-    const timeRaw = await AsyncStorage.getItem(WC_TIME_KEY);
-    if (timeRaw && Date.now() - parseInt(timeRaw, 10) < WC_TTL) {
-      const raw = await AsyncStorage.getItem(WC_KEY);
-      if (raw) return JSON.parse(raw) as TSDBEvent[];
-    }
-
-    const res = await fetch(
-      'https://www.thesportsdb.com/api/v1/json/3/eventsseason.php?id=4429&s=2026',
-      { headers: { Accept: 'application/json' } },
-    );
-    if (!res.ok) return [];
-    const data   = await res.json();
-    const events = (data.events ?? []) as TSDBEvent[];
-    if (events.length > 0) {
-      await AsyncStorage.multiSet([
-        [WC_KEY,      JSON.stringify(events)],
-        [WC_TIME_KEY, Date.now().toString()],
-      ]);
-    }
-    return events;
-  } catch { return []; }
-}
-
 // ─── Günlük endpoint ──────────────────────────────────────────────────────────
 
-async function fetchDayEvents(dateStr: string, sport: string = 'Soccer'): Promise<TSDBEvent[]> {
+async function fetchDayEvents(dateStr: string, sport?: string, leagueId?: string): Promise<TSDBEvent[]> {
   try {
-    const res = await fetch(
-      `https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=${dateStr}&s=${sport}`,
-      { headers: { Accept: 'application/json' } },
-    );
+    let url = `https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=${dateStr}`;
+    if (sport)    url += `&s=${sport}`;
+    if (leagueId) url += `&l=${leagueId}`;
+    const res = await fetch(url, { headers: { Accept: 'application/json' } });
     if (!res.ok) return [];
     const data = await res.json();
     return (data.events ?? []) as TSDBEvent[];
@@ -251,34 +220,29 @@ export async function fetchSportsDbMatches(countryCode: string): Promise<Match[]
   const tag = (sport: SportType) => (evs: TSDBEvent[]) =>
     evs.map(e => ({ ...e, _sport: sport }));
 
-  const [wcEvents, ...dayEventsArr] = await Promise.all([
-    fetchWCSeason(),
-    ...utcDates.flatMap(d => [
+  // WC günlük endpoint (l=4429) tüm maçları döndürür; s=Soccer bazen eksik bırakır
+  const dayEventsArr = await Promise.all(
+    utcDates.flatMap(d => [
       fetchDayEvents(d, 'Soccer').then(tag('football')),
+      fetchDayEvents(d, undefined, '4429').then(tag('football')),  // WC 2026 tam liste
       fetchDayEvents(d, 'Basketball').then(tag('basketball')),
       fetchDayEvents(d, 'Volleyball').then(tag('volleyball')),
     ]),
-  ]);
+  );
 
   // 4. Deduplicate
   const seen   = new Set<string>();
   const merged: TSDBEvent[] = [];
-  const wcIds  = new Set(wcEvents.map(e => e.idEvent));
 
-  for (const e of [
-    ...wcEvents.map(ev => ({ ...ev, _sport: 'football' as SportType })),
-    ...dayEventsArr.flat(),
-  ]) {
+  for (const e of dayEventsArr.flat()) {
     if (!e.idEvent || seen.has(e.idEvent)) continue;
     seen.add(e.idEvent);
 
     if (e._sport === 'football') {
-      // Futbol: sadece izin verilen ligler veya WC
-      if (wcIds.has(e.idEvent) || ALLOWED_LEAGUES.has(e.idLeague)) {
-        merged.push(e);
-      }
+      // Futbol: sadece izin verilen ligler (WC 2026 = 4429 dahil)
+      if (ALLOWED_LEAGUES.has(e.idLeague)) merged.push(e);
     } else {
-      // Basketbol / voleybol: takım adı boşsa atla (TheSportsDB bazı motorspor kayıtları None döner)
+      // Basketbol / voleybol: takım adı boşsa atla
       if (e.strHomeTeam && e.strAwayTeam && e.strHomeTeam !== 'None') {
         merged.push(e);
       }
