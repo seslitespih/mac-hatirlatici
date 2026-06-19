@@ -54,9 +54,9 @@ const F1_YEAR_KEY = 'motor_f1_year_v1';
 const F1_TTL      = 12 * 60 * 60 * 1000;  // 12 saat (sezon verisi sık değişmez)
 
 const CACHE_TTL = 60 * 60 * 1000;  // 60 dakika
-const MCK  = (cc: string) => `motor_v1_${cc}`;
-const MCDK = (cc: string) => `motor_v1_date_${cc}`;
-const MCTK = (cc: string) => `motor_v1_time_${cc}`;
+const MCK  = (cc: string) => `motor_v2_${cc}`;
+const MCDK = (cc: string) => `motor_v2_date_${cc}`;
+const MCTK = (cc: string) => `motor_v2_time_${cc}`;
 
 // ─── F1 sezon verisi (Jolpica) ────────────────────────────────────────────────
 
@@ -92,12 +92,14 @@ async function fetchF1Season(year: number): Promise<JolpiRace[]> {
   } catch { return []; }
 }
 
-// ─── TheSportsDB günlük motorsport (MotoGP dahil) ────────────────────────────
+// ─── TheSportsDB MotoGP günlük (sadece lig 4407) ─────────────────────────────
+// s=Motorsport tüm motorsport liglerini döndürür ama çoğunun saat verisi yanlış (T00:00:00).
+// Sadece MotoGP (idLeague=4407) gerçek UTC saatler veriyor.
 
 async function fetchTSDBMotorDay(dateStr: string): Promise<TSDBMotorEvent[]> {
   try {
     const res = await fetch(
-      `https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=${dateStr}&s=Motorsport`,
+      `https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=${dateStr}&l=4407`,
       { headers: { Accept: 'application/json' } },
     );
     if (!res.ok) return [];
@@ -185,9 +187,11 @@ export async function fetchMotorsportMatches(countryCode: string): Promise<Match
     });
   }
 
-  // TheSportsDB motorsport (MotoGP, NASCAR, DTM, vb.)
+  // TheSportsDB MotoGP (sadece lig 4407 — doğru UTC saatler veriyor)
   for (const e of motorDayArrays.flat()) {
     if (!e.idEvent || !e.strTimestamp || !e.strEvent) continue;
+    // T00:00:00 = saat bilinmiyor, gösterme
+    if (e.strTimestamp.endsWith('T00:00:00')) continue;
     if (seen.has(e.idEvent)) continue;
     seen.add(e.idEvent);
     const date = parseUTC(e.strTimestamp);
@@ -236,7 +240,7 @@ export async function clearMotorsportCache(countryCode?: string): Promise<void> 
       ]);
     } else {
       const allKeys = await AsyncStorage.getAllKeys();
-      await AsyncStorage.multiRemove(allKeys.filter(k => k.startsWith('motor_v1_')));
+      await AsyncStorage.multiRemove(allKeys.filter(k => k.startsWith('motor_v2_')));
     }
   } catch { /* */ }
 }
