@@ -99,6 +99,7 @@ interface TSDBEvent {
   strLeague:    string;
   idLeague:     string;
   strStatus:    string;
+  _sport?:      SportType; // fetch sırasında tag'lenir
 }
 
 // ─── Yardımcılar ─────────────────────────────────────────────────────────────
@@ -131,7 +132,7 @@ function buildMatch(
 
   return {
     id:            `tsdb_${cc}_${e.idEvent}`,
-    sport:         'football' as SportType,
+    sport:         e._sport ?? 'football',
     homeTeam:      norm(e.strHomeTeam),
     awayTeam:      norm(e.strAwayTeam),
     homeTeamName:  e.strHomeTeam,
@@ -155,9 +156,9 @@ function buildMatch(
 
 const CACHE_TTL_MS = 60 * 60 * 1000;   // 60 dakika
 
-const CK   = (cc: string) => `tsdb_v2_${cc}`;
-const CDK  = (cc: string) => `tsdb_v2_date_${cc}`;
-const CTK  = (cc: string) => `tsdb_v2_time_${cc}`;
+const CK   = (cc: string) => `tsdb_v3_${cc}`;
+const CDK  = (cc: string) => `tsdb_v3_date_${cc}`;
+const CTK  = (cc: string) => `tsdb_v3_time_${cc}`;
 
 async function readCache(localDate: string, cc: string): Promise<Match[] | null> {
   try {
@@ -216,10 +217,10 @@ async function fetchWCSeason(): Promise<TSDBEvent[]> {
 
 // ─── Günlük endpoint ──────────────────────────────────────────────────────────
 
-async function fetchDayEvents(dateStr: string): Promise<TSDBEvent[]> {
+async function fetchDayEvents(dateStr: string, sport: string = 'Soccer'): Promise<TSDBEvent[]> {
   try {
     const res = await fetch(
-      `https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=${dateStr}&s=Soccer`,
+      `https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=${dateStr}&s=${sport}`,
       { headers: { Accept: 'application/json' } },
     );
     if (!res.ok) return [];
@@ -246,10 +247,17 @@ export async function fetchSportsDbMatches(countryCode: string): Promise<Match[]
   // 2. Pencere için gereken UTC günlerini belirle (1-3 gün)
   const utcDates = getUTCDatesForWindow(start, end);
 
-  // 3. Paralel fetch
+  // 3. Paralel fetch — futbol + basketbol + voleybol
+  const tag = (sport: SportType) => (evs: TSDBEvent[]) =>
+    evs.map(e => ({ ...e, _sport: sport }));
+
   const [wcEvents, ...dayEventsArr] = await Promise.all([
     fetchWCSeason(),
-    ...utcDates.map(d => fetchDayEvents(d)),
+    ...utcDates.flatMap(d => [
+      fetchDayEvents(d, 'Soccer').then(tag('football')),
+      fetchDayEvents(d, 'Basketball').then(tag('basketball')),
+      fetchDayEvents(d, 'Volleyball').then(tag('volleyball')),
+    ]),
   ]);
 
   // 4. Deduplicate
@@ -257,12 +265,23 @@ export async function fetchSportsDbMatches(countryCode: string): Promise<Match[]
   const merged: TSDBEvent[] = [];
   const wcIds  = new Set(wcEvents.map(e => e.idEvent));
 
-  for (const e of [...wcEvents, ...dayEventsArr.flat()]) {
+  for (const e of [
+    ...wcEvents.map(ev => ({ ...ev, _sport: 'football' as SportType })),
+    ...dayEventsArr.flat(),
+  ]) {
     if (!e.idEvent || seen.has(e.idEvent)) continue;
     seen.add(e.idEvent);
-    // WC maçları her zaman geçer; diğerleri lig filtresine bakır
-    if (wcIds.has(e.idEvent) || ALLOWED_LEAGUES.has(e.idLeague)) {
-      merged.push(e);
+
+    if (e._sport === 'football') {
+      // Futbol: sadece izin verilen ligler veya WC
+      if (wcIds.has(e.idEvent) || ALLOWED_LEAGUES.has(e.idLeague)) {
+        merged.push(e);
+      }
+    } else {
+      // Basketbol / voleybol: takım adı boşsa atla (TheSportsDB bazı motorspor kayıtları None döner)
+      if (e.strHomeTeam && e.strAwayTeam && e.strHomeTeam !== 'None') {
+        merged.push(e);
+      }
     }
   }
 

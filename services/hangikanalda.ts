@@ -75,7 +75,9 @@ function trTimeToDate(timeStr: string): Date {
   const { year, month, day } = getTodayIst();
   // Istanbul midnight UTC = bugün 00:00 IST = UTC-3h
   const midnightUTC = Date.UTC(year, month, day, 0, 0, 0) - 3 * 60 * 60 * 1000;
-  return new Date(midnightUTC + (h * 60 + m) * 60 * 1000);
+  // TV rehberi "günü" 09:00→ertesi 08:59 arası: gece yarısı sonrası saatler (00-08) ertesi sabaha ait
+  const nextDayOffset = h < 9 ? 24 * 60 * 60 * 1000 : 0;
+  return new Date(midnightUTC + nextDayOffset + (h * 60 + m) * 60 * 1000);
 }
 
 // ─── Status eşlemesi ─────────────────────────────────────────────────────────
