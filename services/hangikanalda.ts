@@ -127,6 +127,9 @@ function parseHKData(data: HKData): Match[] {
     const sport: SportType = SPORT_MAP[sportKey] ?? 'football';
 
     for (const league of sportData.leagues ?? []) {
+      // Ampute futbol, bocce, satranç gibi ana ekranda istenmeyen sporları atla
+      if (/amput/i.test(league.name)) continue;
+
       for (const m of league.matches ?? []) {
         if (!m.home || !m.time) continue;
 
