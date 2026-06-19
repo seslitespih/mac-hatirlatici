@@ -54,9 +54,9 @@ const F1_YEAR_KEY = 'motor_f1_year_v1';
 const F1_TTL      = 12 * 60 * 60 * 1000;  // 12 saat (sezon verisi sık değişmez)
 
 const CACHE_TTL = 60 * 60 * 1000;  // 60 dakika
-const MCK  = (cc: string) => `motor_v2_${cc}`;
-const MCDK = (cc: string) => `motor_v2_date_${cc}`;
-const MCTK = (cc: string) => `motor_v2_time_${cc}`;
+const MCK  = (cc: string) => `motor_v3_${cc}`;
+const MCDK = (cc: string) => `motor_v3_date_${cc}`;
+const MCTK = (cc: string) => `motor_v3_time_${cc}`;
 
 // ─── F1 sezon verisi (Jolpica) ────────────────────────────────────────────────
 
@@ -240,7 +240,7 @@ export async function clearMotorsportCache(countryCode?: string): Promise<void> 
       ]);
     } else {
       const allKeys = await AsyncStorage.getAllKeys();
-      await AsyncStorage.multiRemove(allKeys.filter(k => k.startsWith('motor_v2_')));
+      await AsyncStorage.multiRemove(allKeys.filter(k => k.startsWith('motor_v3_')));
     }
   } catch { /* */ }
 }

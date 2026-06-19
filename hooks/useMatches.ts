@@ -43,10 +43,26 @@ export function useMatches(
           fetchTRMatches(),
           fetchSportsDbMatches('TR'),
         ]);
+
+        // TheSportsDB'de FT (bitmiş) olan maçların IST saatlerini topla.
+        // Hangikanalda bazen dün gece oynanan maçları (01:00, 04:00 gibi h<9) bugünkü
+        // listesinde bırakır; trTimeToDate bunları yarına atar → yanlış görünür.
+        // Bu saatlerde TheSportsDB FT varsa hangikanalda maçını gizle.
+        const finishedIST = new Set(
+          intlMatches
+            .filter(m => m.status === 'finished')
+            .map(m => m.time),
+        );
+        const cleanedTR = trMatches.filter(m => {
+          if (m.status !== 'scheduled') return true;
+          const h = parseInt((m.time ?? '09').split(':')[0], 10);
+          return h >= 9 || !finishedIST.has(m.time);
+        });
+
         // Merge: hangikanalda önce (Türk kanalları doğru), sonra sadece TheSportsDB'ye özgün maçlar
-        const trKeys = new Set(trMatches.map(m => `${m.homeTeam}|${m.awayTeam}`));
+        const trKeys = new Set(cleanedTR.map(m => `${m.homeTeam}|${m.awayTeam}`));
         const extras = intlMatches.filter(m => !trKeys.has(`${m.homeTeam}|${m.awayTeam}`));
-        matches = [...trMatches, ...extras];
+        matches = [...cleanedTR, ...extras];
       } else {
         if (force) {
           await Promise.all([

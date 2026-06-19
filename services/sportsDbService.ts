@@ -164,9 +164,9 @@ function buildMatch(
 
 const CACHE_TTL_MS = 60 * 60 * 1000;   // 60 dakika
 
-const CK   = (cc: string) => `tsdb_v5_${cc}`;
-const CDK  = (cc: string) => `tsdb_v5_date_${cc}`;
-const CTK  = (cc: string) => `tsdb_v5_time_${cc}`;
+const CK   = (cc: string) => `tsdb_v6_${cc}`;
+const CDK  = (cc: string) => `tsdb_v6_date_${cc}`;
+const CTK  = (cc: string) => `tsdb_v6_time_${cc}`;
 
 async function readCache(localDate: string, cc: string): Promise<Match[] | null> {
   try {

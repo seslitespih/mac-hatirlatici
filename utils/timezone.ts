@@ -65,8 +65,8 @@ export function getMatchWindow(tz: string): { start: Date; end: Date } {
     const todayLocal  = localDateOf(now, tz);               // "YYYY-MM-DD"
     const [y, mo, d]  = todayLocal.split('-').map(Number);
 
-    const start = new Date(localToUTCMs(y, mo, d,     0, 0, tz));  // bugün 00:00
-    const end   = new Date(localToUTCMs(y, mo, d + 1, 9, 0, tz));  // ertesi 09:00 (JS overflow-safe)
+    const start = new Date(localToUTCMs(y, mo, d,      0,  0, tz));  // bugün 00:00
+    const end   = new Date(localToUTCMs(y, mo, d + 1, 23, 59, tz));  // ertesi 23:59 — yarınki maçlar da görünsün
 
     return { start, end };
   } catch {

@@ -13,10 +13,10 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Match, MatchStatus, SportType } from '../constants/matches';
 
 const BASE_URL         = 'https://hangikanalda.app';
-const CACHE_KEY        = 'hk_matches_cache';
-const CACHE_TIME_KEY   = 'hk_last_update';
-const CACHE_FETCH_KEY  = 'hk_fetch_time';
-const CACHE_DATE_KEY   = 'hk_cache_date';
+const CACHE_KEY        = 'hk_v2_cache';
+const CACHE_TIME_KEY   = 'hk_v2_update';
+const CACHE_FETCH_KEY  = 'hk_v2_fetch';
+const CACHE_DATE_KEY   = 'hk_v2_date';
 const CACHE_TTL_MS     = 60 * 60 * 1000;  // 60 dakika
 
 // ─── API tipleri ─────────────────────────────────────────────────────────────
@@ -127,8 +127,8 @@ function parseHKData(data: HKData): Match[] {
     const sport: SportType = SPORT_MAP[sportKey] ?? 'football';
 
     for (const league of sportData.leagues ?? []) {
-      // Ampute futbol, bocce, satranç gibi ana ekranda istenmeyen sporları atla
-      if (/amput/i.test(league.name)) continue;
+      // Ampute futbol, WNBA ve benzeri ana ekranda istenmeyen ligleri atla
+      if (/amput|wnba/i.test(league.name)) continue;
 
       for (const m of league.matches ?? []) {
         if (!m.home || !m.time) continue;
