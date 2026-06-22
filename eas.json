@@ -18,12 +18,13 @@
       }
     },
     "production": {
-      "credentialsSource": "local",
       "ios": {
+        "credentialsSource": "local",
         "distribution": "store",
         "image": "latest"
       },
       "android": {
+        "credentialsSource": "remote",
         "buildType": "app-bundle"
       }
     }

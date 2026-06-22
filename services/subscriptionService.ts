@@ -33,10 +33,10 @@ function getApiKey(): string {
 export const ENTITLEMENT_ID  = 'premium';
 export const PRODUCT_ID      = 'monthly_premium_299';  // App Store & Play Store'daki ID
 
-// ─── Ücretsiz deneme (yerel, 30 gün) ─────────────────────────────────────────
+// ─── Ücretsiz deneme (yerel, 10 gün) ─────────────────────────────────────────
 
 const FIRST_LAUNCH_KEY = '@first_launch_date';
-const FREE_TRIAL_DAYS  = 30;
+const FREE_TRIAL_DAYS  = 10;
 
 async function getFirstLaunchDate(): Promise<number> {
   try {

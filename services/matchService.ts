@@ -13,12 +13,15 @@ function isApiMatch(m: Match): boolean {
 }
 
 export function applyCountryChannels(matches: Match[], countryCode: string): Match[] {
-  return matches.map((m) => ({
-    ...m,
-    channel: isApiMatch(m)
-      ? (m.channel || getChannelForCountry(countryCode, m.leagueId, m.homeTeam))
-      : getChannelForCountry(countryCode, m.leagueId, m.homeTeam),
-  }));
+  return matches.map((m) => {
+    const mapped = getChannelForCountry(countryCode, m.leagueId, m.homeTeam);
+    // API matches (static): prefer existing channel, fall back to map
+    // Groq/other matches: prefer map; if map has no entry, keep Groq's own channel
+    const channel = isApiMatch(m)
+      ? (m.channel || mapped)
+      : (mapped || m.channel);
+    return { ...m, channel };
+  });
 }
 
 export async function getMatchesHybrid(countryCode: string = 'TR'): Promise<Match[]> {

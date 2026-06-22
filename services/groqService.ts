@@ -65,7 +65,7 @@ const COUNTRY_CFG: Record<string, CountryCfg> = {
     tz: 'Europe/Rome',
     tzLabel: 'UTC+2 (Rome)',
     lang: 'Italian',
-    channels: 'RAI 1, Canale 5, Sky Sport, DAZN',
+    channels: 'DAZN, Sky Sport, Canale 5, RAI 1',
   },
   SA: {
     tz: 'Asia/Riyadh',
@@ -395,6 +395,17 @@ const SPORT_MAP: Record<string, SportType> = {
   motor: 'motorsport',
 };
 
+const WC_LEAGUE_PATTERNS = [
+  /world.?cup/i, /fifa.*2026/i, /dünya.?kupa/i, /mundial/i,
+  /mondiale/i, /coupe.?du.?monde/i, /copa.?del.?mundo/i,
+  /weltmeisterschaft/i, /wk.?2026/i, /wm.?2026/i,
+];
+
+function normalizeLeagueId(league: string): string {
+  if (WC_LEAGUE_PATTERNS.some((p) => p.test(league))) return 'wc2026';
+  return league.toLowerCase().replace(/\s+/g, '_').slice(0, 20);
+}
+
 function toMatch(r: RawMatch, idx: number, cc: string, tz: string, today: string): Match | null {
   if (!r.home || !r.time) return null;
 
@@ -416,7 +427,7 @@ function toMatch(r: RawMatch, idx: number, cc: string, tz: string, today: string
     date,
     time:          r.time,
     league:        r.league,
-    leagueId:      r.league.toLowerCase().replace(/\s+/g, '_').slice(0, 20),
+    leagueId:      normalizeLeagueId(r.league),
     leagueEmoji:   '',
     channel:       r.channel,
     channels:      r.channel ? [r.channel] : [],

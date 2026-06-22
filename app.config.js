@@ -92,7 +92,7 @@ module.exports = {
       rapidApiKey:       process.env.RAPID_API_KEY ?? '',
       groqApiKey:        process.env.GROQ_API_KEY ?? '',
       rcApiKeyIos:       process.env.REVENUECAT_IOS_KEY || 'appl_DBXnXzCViacQTaNmOobAfGHuYGf',
-      rcApiKeyAndroid:   process.env.REVENUECAT_ANDROID_KEY || 'test_NqygAOqsFNqMYsloduJSHFAjsRa',
+      rcApiKeyAndroid:   process.env.REVENUECAT_ANDROID_KEY || 'goog_kKIpmpVTfhMJaJjQjzOIcFrZsGR',
       eas: {
         projectId: '1df49d90-6cfa-49a4-9815-bbab3db6e612',
       },

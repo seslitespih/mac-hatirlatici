@@ -11,7 +11,7 @@
 import axios from 'axios';
 import { fetchMatchesFromGroq } from './groqService';
 import { Match, MatchStatus, SportType } from '../constants/matches';
-import { getChannelForCountry } from '../constants/countryChannels';
+import { getChannelForCountry, getTimezoneForCountry } from '../constants/countryChannels';
 
 // ─── ESPN API istemcisi ──────────────────────────────────────────────────────
 
@@ -263,7 +263,7 @@ function getBasketballStatic(countryCode: string): Match[] {
         homeTeamName: homeName, awayTeamName: awayName,
         homeTeamColor: '#888', awayTeamColor: '#888',
         homeTeamEmoji: '', awayTeamEmoji: '',
-        date: d, time,
+        date: d, time: toLocalTime(d, countryCode),
         league, leagueId, leagueEmoji: '',
         channel: getChannelForCountry(countryCode, leagueId),
         status: 'scheduled' as MatchStatus,
@@ -342,7 +342,7 @@ function buildF1Matches(countryCode: string): Match[] {
         homeTeamName: race.name, awayTeamName: race.circuit,
         homeTeamColor: '#e10600', awayTeamColor: '#e10600',
         homeTeamEmoji: '', awayTeamEmoji: '',
-        date, time: race.time,
+        date, time: toLocalTime(date, countryCode),
         league: 'Formula 1', leagueId: 'f1', leagueEmoji: '',
         channel: getChannelForCountry(countryCode, 'f1'),
         status: 'scheduled' as MatchStatus,
@@ -355,6 +355,15 @@ function buildF1Matches(countryCode: string): Match[] {
 // new Date('2026-06-07T20:00:00') cihaz timezone'unu alır — bu UTC+3 zorlar
 function istDate(date: string, time: string): Date {
   return new Date(`${date}T${time}:00+03:00`);
+}
+
+// Verilen UTC Date'i ülkenin yerel saatine çevirir → "HH:MM"
+function toLocalTime(date: Date, countryCode: string): string {
+  const tz = getTimezoneForCountry(countryCode) || 'Europe/Istanbul';
+  const fmt = new Intl.DateTimeFormat('en-GB', {
+    timeZone: tz, hour: '2-digit', minute: '2-digit', hour12: false,
+  });
+  return fmt.format(date).replace('24:', '00:');
 }
 
 // ─── Ana export ─────────────────────────────────────────────────────────────
