@@ -23,7 +23,7 @@ module.exports = {
     android: {
       adaptiveIcon: {
         foregroundImage: './assets/adaptive-icon.png',
-        backgroundColor: '#F0F5FF',
+        backgroundColor: '#0A1831',
       },
       package: 'com.machatirlatici.app',
       versionCode: 1,
