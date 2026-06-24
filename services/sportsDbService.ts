@@ -61,7 +61,7 @@ export const COUNTRY_TZ: Record<string, string> = {
 // ─── TheSportsDB lig filtreleri ──────────────────────────────────────────────
 
 const ALLOWED_LEAGUES = new Set([
-  '4429',  // FIFA World Cup
+  '4429',  // World Cup
   '4480',  // UEFA Champions League
   '4328',  // English Premier League
   '4335',  // La Liga

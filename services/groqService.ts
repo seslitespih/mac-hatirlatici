@@ -302,10 +302,10 @@ function getGroqKey(): string {
 
 function buildPrompt(cc: string, dateStr: string): string {
   const cfg = COUNTRY_CFG[cc] ?? COUNTRY_CFG['GB'];
-  return `Today is ${dateStr}. FIFA World Cup 2026 is ongoing (June 11–July 19 2026, hosted in USA/Canada/Mexico).
+  return `Today is ${dateStr}. World Cup 2026 is ongoing (June 11–July 19 2026, hosted in USA/Canada/Mexico).
 
 List ALL football/soccer matches scheduled today for viewers in ${cc} (${cfg.lang}).
-Include FIFA World Cup 2026 matches + any other major football today.
+Include World Cup 2026 matches + any other major football today.
 Times in local time (${cfg.tzLabel}). Use these TV channels: ${cfg.channels}.
 
 IMPORTANT: Write ALL team names and country names in ${cfg.lang}. For example in Turkish: "Fransa", "Almanya", "Brezilya", "Arjantin". In Spanish: "Francia", "Alemania", "Brasil". Use the native language name, not English.
