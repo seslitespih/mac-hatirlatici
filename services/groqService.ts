@@ -396,7 +396,7 @@ const SPORT_MAP: Record<string, SportType> = {
 };
 
 const WC_LEAGUE_PATTERNS = [
-  /world.?cup/i, /fifa.*2026/i, /dünya.?kupa/i, /mundial/i,
+  /world.?cup/i, /soccer.*2026/i, /dünya.?kupa/i, /mundial/i,
   /mondiale/i, /coupe.?du.?monde/i, /copa.?del.?mundo/i,
   /weltmeisterschaft/i, /wk.?2026/i, /wm.?2026/i,
 ];
