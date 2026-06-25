@@ -118,8 +118,8 @@ export async function getOfferings(): Promise<PurchasesPackage | null> {
 
 export async function purchaseSubscription(pkg: PurchasesPackage): Promise<boolean> {
   try {
-    const result = await Purchases.purchasePackage(pkg);
-    return result.customerInfo.entitlements.active[ENTITLEMENT_ID] !== undefined;
+    await Purchases.purchasePackage(pkg);
+    return true;
   } catch (e: unknown) {
     // Kullanıcı iptal etti — hata değil
     if ((e as { userCancelled?: boolean })?.userCancelled) return false;

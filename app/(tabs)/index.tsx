@@ -158,7 +158,6 @@ export default function MatchesScreen() {
       {/* Content */}
       {!hasMatches ? (
         <View style={[styles.emptyWrapper, { backgroundColor: colors.bg0 }]}>
-          {IS_WORLD_CUP_SEASON && <WorldCupBanner t={t} />}
           <EmptyState
             emoji={filter === 'favorites' ? '❤️' : '📅'}
             title={filter === 'favorites' ? t('matches.noFavoriteMatches') : t('matches.noMatches')}
@@ -174,7 +173,7 @@ export default function MatchesScreen() {
           contentContainerStyle={[styles.list, { backgroundColor: colors.bg0 }]}
           showsVerticalScrollIndicator={false}
           stickySectionHeadersEnabled
-          ListHeaderComponent={IS_WORLD_CUP_SEASON ? <WorldCupBanner t={t} /> : null}
+          ListHeaderComponent={null}
           refreshControl={
             <RefreshControl
               refreshing={isRefreshing}
