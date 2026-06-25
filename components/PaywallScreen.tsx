@@ -10,7 +10,7 @@ import {
 } from '../services/subscriptionService';
 import { useTheme } from '../contexts/ThemeContext';
 
-const PRIVACY_URL = 'https://seslitespih.github.io/mac-hatirlatici/';
+const PRIVACY_URL = 'https://seslitespih.github.io/mac-hatirlatici/privacy.html';
 const EULA_URL    = 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/';
 
 interface Props {
