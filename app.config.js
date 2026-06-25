@@ -7,7 +7,7 @@ module.exports = {
   expo: {
     name: 'Match Reminder',
     slug: 'hangi-kanalda',
-    version: '1.0.0',
+    version: '1.1.0',
     orientation: 'portrait',
     icon: './assets/icon.png',
     userInterfaceStyle: 'light',
@@ -41,7 +41,7 @@ module.exports = {
     ios: {
       supportsTablet: true,
       bundleIdentifier: 'com.machatirlatici.app',
-      buildNumber: process.env.BUILD_NUMBER ?? '50',
+      buildNumber: process.env.BUILD_NUMBER ?? '63',
       infoPlist: {
         ITSAppUsesNonExemptEncryption: false,
       },
