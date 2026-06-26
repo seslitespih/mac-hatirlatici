@@ -127,8 +127,16 @@ function parseHKData(data: HKData): Match[] {
     const sport: SportType = SPORT_MAP[sportKey] ?? 'football';
 
     for (const league of sportData.leagues ?? []) {
-      // Ampute futbol, WNBA ve benzeri ana ekranda istenmeyen ligleri atla
+      // Küçük/gereksiz ligleri atla
       if (/amput|wnba/i.test(league.name)) continue;
+      // İngiltere alt ligleri (Championship'in altı) — 3. lig ve aşağısı
+      if (/efl\s*(league\s*(one|two|1|2)|trophy|cup)|league\s*(one|two)\b|national\s*league/i.test(league.name)) continue;
+      // İskoçya/İrlanda küçük ligler
+      if (/scottish\s*(championship|league\s*(one|two))|nifl|irish\s*(first|premier.*b)/i.test(league.name)) continue;
+      // Suudi Arabistan, BAE, Katar iç ligleri
+      if (/saudi\s*(pro|premier|first)|uae\s*(pro\s*league|division)|qatar\s*(stars|first)/i.test(league.name)) continue;
+      // Türkçe adlandırmayla küçük ligler
+      if (/suudi.*pro|katar.*lig|b\.a\.e\.|bae\s*pro|hazırlık\s*maçı/i.test(league.name)) continue;
 
       for (const m of league.matches ?? []) {
         if (!m.home || !m.time) continue;
