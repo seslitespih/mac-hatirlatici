@@ -1,0 +1,42 @@
+name: Update WC 2026 Channel Assignments
+
+on:
+  schedule:
+    # Her gün saat 07:00 UTC (Türkiye 10:00) — maç programı günlük güncellenir
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    # Manuel tetikleme: GitHub Actions → Run workflow
+
+jobs:
+  update-channels:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run update script
+        run: node scripts/update-wc-channels.js
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if git diff --quiet assets/channels.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push if changed
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "wc-channel-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add assets/channels.json
+          git commit -m "auto: update WC 2026 GB channel assignments [skip ci]"
+          git push
