@@ -88,8 +88,8 @@ export const COUNTRY_CHANNEL_MAP: Record<string, Record<string, string[]>> = {
     ligue1:      ['Sky Sports Football'],
     saudi:       ['Sky Sports'],
     liganos:     ['Premier Sports'],
-    national:    ['ITV', 'BBC One'],
-    wc2026:      ['ITV', 'BBC One'],
+    national:    ['ITV1', 'BBC One'],
+    wc2026:      ['ITV1', 'BBC One'],
     euroleague:  ['TNT Sports'],
     eurocup:     ['TNT Sports'],
     bsl:         [],
@@ -885,6 +885,9 @@ export const COUNTRY_CHANNEL_MAP: Record<string, Record<string, string[]>> = {
   },
 };
 
+// Yayın hakkı birden fazla kanala bölünmüş ligler — tüm seçenekleri göster
+const SPLIT_BROADCAST_LEAGUES = new Set(['wc2026', 'national', 'champions', 'europa']);
+
 export function getChannelForCountry(
   countryCode: string,
   leagueId: string,
@@ -900,6 +903,11 @@ export function getChannelForCountry(
     const freeTeams = ['adanademirspor', 'gaziantepfk', 'eyupspor', 'rizespor',
                        'sivasspor', 'kayserispor', 'ankaragucu'];
     if (homeTeamId && freeTeams.includes(homeTeamId)) return 'TV8';
+  }
+
+  // Yayın hakkı bölünmüş liglerde tüm kanalları göster (maça göre değişebilir)
+  if (SPLIT_BROADCAST_LEAGUES.has(leagueId) && channels.length > 1) {
+    return channels.join(' / ');
   }
 
   return channels[0] ?? '';

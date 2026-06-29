@@ -132,23 +132,6 @@ export default function MatchesScreen() {
           })}
         </ScrollView>
 
-        {/* All / Favorites toggle */}
-        <View style={[styles.toggleRow, { backgroundColor: colors.bg3, borderColor: colors.border }]}>
-          <Toggle
-            label={t('matches.allMatches')}
-            active={filter === 'all'}
-            onPress={() => setFilter('all')}
-            color={colors.accent}
-            inactiveColor={colors.textMuted}
-          />
-          <Toggle
-            label={t('matches.favoriteMatches')}
-            active={filter === 'favorites'}
-            onPress={() => setFilter('favorites')}
-            color={colors.accent}
-            inactiveColor={colors.textMuted}
-          />
-        </View>
       </View>
 
       {/* Content */}

@@ -35,7 +35,7 @@ export const PRODUCT_ID      = 'monthly_premium_299';  // App Store & Play Store
 
 // ─── Ücretsiz deneme (yerel, 10 gün) ─────────────────────────────────────────
 
-const FIRST_LAUNCH_KEY = '@first_launch_date';
+const FIRST_LAUNCH_KEY = '@first_launch_v1_0';  // version-specific: TestFlight verisini devralma
 const FREE_TRIAL_DAYS  = 10;
 
 async function getFirstLaunchDate(): Promise<number> {

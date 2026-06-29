@@ -61,7 +61,17 @@ export function useMatches(
 
         // Merge: hangikanalda önce (Türk kanalları doğru), sonra sadece TheSportsDB'ye özgün maçlar
         const trKeys = new Set(cleanedTR.map(m => `${m.homeTeam}|${m.awayTeam}`));
-        const extras = intlMatches.filter(m => !trKeys.has(`${m.homeTeam}|${m.awayTeam}`));
+        // İkincil dedup: away takım adı + 5-dakika zaman dilimi (TR vs EN takım adı farkını kapatır)
+        // Örn: "almanya|paraguay" ≠ "germany|paraguay" ama her ikisinde away="paraguay" + aynı saat
+        const trAwaySlot = new Set(
+          cleanedTR.map(m => `${m.awayTeam}|${Math.floor(new Date(m.date).getTime() / (5 * 60 * 1000))}`)
+        );
+        const extras = intlMatches.filter(m => {
+          if (trKeys.has(`${m.homeTeam}|${m.awayTeam}`)) return false;
+          const slot = Math.floor(new Date(m.date).getTime() / (5 * 60 * 1000));
+          if (trAwaySlot.has(`${m.awayTeam}|${slot}`)) return false;
+          return true;
+        });
         matches = [...cleanedTR, ...extras];
       } else {
         if (force) {
