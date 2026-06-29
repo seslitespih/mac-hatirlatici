@@ -1,9 +1,12 @@
 name: iOS App Store Build
 
 on:
-  push:
-    branches: [main, master]
   workflow_dispatch:
+    inputs:
+      build_number:
+        description: 'iOS build number (must be > 71)'
+        required: true
+        default: '72'
 
 jobs:
   build:
@@ -76,7 +79,7 @@ jobs:
         env:
           NODE_BINARY: /opt/homebrew/opt/node@22/bin/node
           EXPO_NO_COCOAPODS_INSTALL: 1
-          BUILD_NUMBER: ${{ github.run_number }}
+          BUILD_NUMBER: ${{ github.event.inputs.build_number }}
         run: npx expo prebuild --platform ios --clean
 
       # Podfile uyumluluk yamaları
