@@ -136,7 +136,7 @@ function buildMatch(
   const date    = parseUTC(e.strTimestamp);
   const timeStr = formatLocalTime(date, tz);
   const leagueId = LEAGUE_ID_MAP[e.idLeague] ?? e.strLeague.toLowerCase().replace(/[^a-z0-9]/g, '_').slice(0, 20);
-  const channel  = getFirstChannel(channelMap, cc, leagueId);
+  const channel  = getFirstChannel(channelMap, cc, leagueId, norm(e.strHomeTeam));
 
   return {
     id:            `tsdb_${cc}_${e.idEvent}`,

@@ -72,7 +72,12 @@ export function getChannelsSync(map: ChannelMap, cc: string, leagueId: string): 
   return map[cc]?.[leagueId] ?? map['TR']?.[leagueId] ?? [];
 }
 
-export function getFirstChannel(map: ChannelMap, cc: string, leagueId: string): string {
+export function getFirstChannel(map: ChannelMap, cc: string, leagueId: string, homeTeamId?: string): string {
+  // Takım bazlı özel kanal (ör. GB'de WC maçları ITV/BBC arası bölünmüş)
+  if (homeTeamId) {
+    const specific = map[cc]?.[`${leagueId}_${homeTeamId}`]?.[0];
+    if (specific) return specific;
+  }
   return getChannelsSync(map, cc, leagueId)[0] ?? '';
 }
 
