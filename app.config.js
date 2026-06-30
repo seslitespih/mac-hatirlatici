@@ -73,7 +73,7 @@ module.exports = {
             compileSdkVersion: 35,
             targetSdkVersion: 35,
             minSdkVersion: 26,
-            ndkVersion: '27.2.12479018',
+            ndkVersion: '28.2.13676358',
           },
           ios: {
             useFrameworks: 'static',
