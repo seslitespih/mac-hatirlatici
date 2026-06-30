@@ -1,33 +1,30 @@
 /**
  * channelService.ts
  *
- * Kanal verisi öncelik sırası:
- *  1. GitHub'daki assets/channels.json  (uygulama güncellemesi gerekmeden değiştirilebilir)
- *  2. Yerel AsyncStorage cache (24 saat)
- *  3. countryChannels.ts (bundle içi fallback)
- *
- * Yayın hakları değiştiğinde sadece channels.json güncellenir.
+ * Kanal verisi öncelik sırası (her maç için):
+ *  1. channels-daily.json — scraper'dan gelen maç-bazlı veri (2h cache)
+ *  2. channels.json       — lig-bazlı statik veri (24h cache)
+ *  3. countryChannels.ts  — bundle içi fallback
  */
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { COUNTRY_CHANNEL_MAP } from '../constants/countryChannels';
 
-const REMOTE_URL    = 'https://raw.githubusercontent.com/seslitespih/mac-hatirlatici/main/assets/channels.json';
-const CACHE_KEY     = 'channel_remote_v2';
+// ─── Static channel map ───────────────────────────────────────────────────────
+
+const REMOTE_URL     = 'https://raw.githubusercontent.com/seslitespih/mac-hatirlatici/main/assets/channels.json';
+const CACHE_KEY      = 'channel_remote_v2';
 const CACHE_TIME_KEY = 'channel_remote_time_v2';
-const TTL_MS        = 24 * 60 * 60 * 1000; // 24 saat
+const TTL_MS         = 24 * 60 * 60 * 1000;
 
 type ChannelMap = Record<string, Record<string, string[]>>;
 
-// Bellek içi cache — uygulama açık kaldığı sürece yeniden fetch yok
 let _mem: ChannelMap | null = null;
 let _memTime = 0;
 
 export async function getChannelMap(): Promise<ChannelMap> {
-  // 1. Bellek cache
   if (_mem && Date.now() - _memTime < TTL_MS) return _mem;
 
-  // 2. AsyncStorage cache
   try {
     const [timeRaw, dataRaw] = await Promise.all([
       AsyncStorage.getItem(CACHE_TIME_KEY),
@@ -41,7 +38,6 @@ export async function getChannelMap(): Promise<ChannelMap> {
     }
   } catch { /* ignore */ }
 
-  // 3. Remote fetch
   try {
     const res = await fetch(REMOTE_URL, {
       headers: { Accept: 'application/json' },
@@ -60,25 +56,24 @@ export async function getChannelMap(): Promise<ChannelMap> {
     }
   } catch { /* ağ hatası → local fallback */ }
 
-  // 4. Bundle içi fallback
   return COUNTRY_CHANNEL_MAP as ChannelMap;
 }
 
-/**
- * Belirli bir ülke + lig kombinasyonu için kanal listesi döner.
- * Sync erişim için önce getChannelMap() çağrılmış olmalı.
- */
 export function getChannelsSync(map: ChannelMap, cc: string, leagueId: string): string[] {
   return map[cc]?.[leagueId] ?? map['TR']?.[leagueId] ?? [];
 }
 
-export function getFirstChannel(map: ChannelMap, cc: string, leagueId: string, homeTeamId?: string, awayTeamId?: string): string {
-  // Ev sahibi takım bazlı özel kanal (ör. ES'de Spain→La 1, GB'de ITV/BBC)
+export function getFirstChannel(
+  map: ChannelMap,
+  cc: string,
+  leagueId: string,
+  homeTeamId?: string,
+  awayTeamId?: string,
+): string {
   if (homeTeamId) {
     const specific = map[cc]?.[`${leagueId}_${homeTeamId}`]?.[0];
     if (specific) return specific;
   }
-  // Deplasman takım bazlı özel kanal (ör. ES'de Spain away→La 1)
   if (awayTeamId) {
     const specific = map[cc]?.[`${leagueId}_${awayTeamId}`]?.[0];
     if (specific) return specific;
@@ -86,7 +81,114 @@ export function getFirstChannel(map: ChannelMap, cc: string, leagueId: string, h
   return getChannelsSync(map, cc, leagueId)[0] ?? '';
 }
 
-// Uygulama açılışında arka planda yükle (opsiyonel — ana akışı bloklamaz)
 export function prefetchChannels(): void {
   getChannelMap().catch(() => {});
+}
+
+// ─── Daily per-match channel data ────────────────────────────────────────────
+
+const DAILY_URL      = 'https://raw.githubusercontent.com/seslitespih/mac-hatirlatici/main/assets/channels-daily.json';
+const DAILY_CACHE    = 'channel_daily_v1';
+const DAILY_TIME     = 'channel_daily_time_v1';
+const DAILY_TTL_MS   = 2 * 60 * 60 * 1000; // 2 saat
+
+export type DailyMatch = {
+  home: string;
+  away: string;
+  channels: string[];
+  time: string;
+};
+
+export type DailyData = {
+  generated_at: string;
+  data: Record<string, Record<string, DailyMatch[]>>;
+};
+
+let _daily: DailyData | null = null;
+let _dailyTime = 0;
+
+export async function getDailyChannelData(): Promise<DailyData | null> {
+  if (_daily && Date.now() - _dailyTime < DAILY_TTL_MS) return _daily;
+
+  try {
+    const [timeRaw, dataRaw] = await Promise.all([
+      AsyncStorage.getItem(DAILY_TIME),
+      AsyncStorage.getItem(DAILY_CACHE),
+    ]);
+    if (timeRaw && dataRaw && Date.now() - parseInt(timeRaw, 10) < DAILY_TTL_MS) {
+      _daily     = JSON.parse(dataRaw) as DailyData;
+      _dailyTime = parseInt(timeRaw, 10);
+      return _daily;
+    }
+  } catch { /* ignore */ }
+
+  try {
+    const res = await fetch(DAILY_URL, {
+      headers: { Accept: 'application/json' },
+      signal: AbortSignal.timeout?.(8000),
+    } as RequestInit);
+    if (res.ok) {
+      const data = await res.json() as DailyData;
+      const now = Date.now();
+      await AsyncStorage.multiSet([
+        [DAILY_CACHE, JSON.stringify(data)],
+        [DAILY_TIME,  now.toString()],
+      ]).catch(() => {});
+      _daily     = data;
+      _dailyTime = now;
+      return data;
+    }
+  } catch { /* ağ hatası */ }
+
+  return null;
+}
+
+export function prefetchDailyChannels(): void {
+  getDailyChannelData().catch(() => {});
+}
+
+// ─── Team name fuzzy matching ─────────────────────────────────────────────────
+
+function normalizeTeam(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/\b(fc|sc|ac|cd|af|cf|bk|sk|afc|fk)\b/g, '')
+    .replace(/[^a-z0-9 ]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function teamsMatch(a: string, b: string): boolean {
+  if (!a || !b) return false;
+  const na = normalizeTeam(a);
+  const nb = normalizeTeam(b);
+  if (na === nb) return true;
+  // Containment: "brazil" ⊂ "brasil" → false, but "man united" ⊂ "manchester united" via prefix
+  if (na.length >= 4 && nb.length >= 4 && (na.includes(nb) || nb.includes(na))) return true;
+  // First word match: "Manchester" = "Manchester"
+  const wa = na.split(' ')[0];
+  const wb = nb.split(' ')[0];
+  if (wa.length >= 4 && wa === wb) return true;
+  return false;
+}
+
+/**
+ * Look up channels for a specific match from the daily scraped data.
+ * Returns empty array if not found (caller falls back to static map).
+ */
+export function getChannelsFromDaily(
+  daily: DailyData,
+  cc: string,
+  dateStr: string,    // 'YYYY-MM-DD'
+  homeTeam: string,
+  awayTeam: string,
+): string[] {
+  const dayData = daily.data?.[cc]?.[dateStr];
+  if (!dayData?.length) return [];
+
+  const match = dayData.find(m =>
+    (teamsMatch(m.home, homeTeam) && teamsMatch(m.away, awayTeam)) ||
+    (teamsMatch(m.home, awayTeam) && teamsMatch(m.away, homeTeam))
+  );
+  return match?.channels ?? [];
 }

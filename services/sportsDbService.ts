@@ -13,7 +13,12 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Match, MatchStatus, SportType } from '../constants/matches';
 import { getMatchWindow, getUTCDatesForWindow, localDateOf, formatLocalTime } from '../utils/timezone';
-import { getChannelMap, getFirstChannel } from './channelService';
+import {
+  getChannelMap,
+  getFirstChannel,
+  getDailyChannelData,
+  getChannelsFromDaily,
+} from './channelService';
 
 // ─── Ülke → IANA Timezone ────────────────────────────────────────────────────
 
@@ -131,12 +136,21 @@ function buildMatch(
   cc: string,
   tz: string,
   channelMap: Awaited<ReturnType<typeof getChannelMap>>,
+  dailyChannels?: string[],
 ): Match | null {
   if (!e.strTimestamp || !e.strHomeTeam || !e.strAwayTeam) return null;
   const date    = parseUTC(e.strTimestamp);
   const timeStr = formatLocalTime(date, tz);
   const leagueId = LEAGUE_ID_MAP[e.idLeague] ?? e.strLeague.toLowerCase().replace(/[^a-z0-9]/g, '_').slice(0, 20);
-  const channel  = getFirstChannel(channelMap, cc, leagueId, norm(e.strHomeTeam), norm(e.strAwayTeam));
+
+  // Daily scraped data takes priority; fall back to static map
+  const channels = dailyChannels?.length
+    ? dailyChannels
+    : (() => {
+        const ch = getFirstChannel(channelMap, cc, leagueId, norm(e.strHomeTeam), norm(e.strAwayTeam));
+        return ch ? [ch] : [];
+      })();
+  const channel = channels[0] ?? '';
 
   return {
     id:            `tsdb_${cc}_${e.idEvent}`,
@@ -155,7 +169,7 @@ function buildMatch(
     leagueId,
     leagueEmoji:   '',
     channel,
-    channels:      channel ? [channel] : [],
+    channels,
     status:        mapStatus(e.strStatus),
   };
 }
@@ -262,13 +276,21 @@ export async function fetchSportsDbMatches(countryCode: string): Promise<Match[]
     }
   }
 
-  // 5. Kanal verisini yükle
-  const channelMap = await getChannelMap();
+  // 5. Kanal verilerini paralel yükle (statik map + günlük scrape)
+  const [channelMap, dailyData] = await Promise.all([
+    getChannelMap(),
+    getDailyChannelData(),
+  ]);
 
   // 6. Pencere filtresi + Match dönüşümü
   const matches: Match[] = [];
   for (const e of merged) {
-    const m = buildMatch(e, cc, tz, channelMap);
+    // Önce günlük scrape verisine bak, yoksa statik map'e düş
+    const dateStr = e.strTimestamp?.split('T')[0] ?? '';
+    const dailyChannels = dailyData && dateStr
+      ? getChannelsFromDaily(dailyData, cc, dateStr, e.strHomeTeam, e.strAwayTeam)
+      : [];
+    const m = buildMatch(e, cc, tz, channelMap, dailyChannels);
     if (!m) continue;
     if (m.date < start || m.date > end) continue;   // pencere dışı → atla
     matches.push(m);
