@@ -6,7 +6,7 @@ on:
       version_code:
         description: 'Android versionCode (must be > 5)'
         required: true
-        default: '6'
+        default: '52'
 
 jobs:
   build:
@@ -28,6 +28,14 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          accept-android-sdk-licenses: true
+
+      - name: Install NDK 27 (16KB page-size support)
+        run: sdkmanager "ndk;27.2.12479018"
 
       - name: Install dependencies
         run: npm ci
