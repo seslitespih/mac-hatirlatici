@@ -1,0 +1,100 @@
+name: Build Android AAB
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Patch expo-modules-core (AGP 8.6 compatibility fix)
+        run: |
+          python3 - << 'EOF'
+          path = 'node_modules/expo-modules-core/android/ExpoModulesCorePlugin.gradle'
+          with open(path) as f:
+              content = f.read()
+          if 'from components.release' in content:
+              old = '      publishing {\n        publications {\n          release(MavenPublication) {\n            from components.release\n          }\n        }\n        repositories {\n          maven {\n            url = mavenLocal().url\n          }\n        }\n      }'
+              new = '      def releaseComponent = components.findByName(\'release\')\n      if (releaseComponent != null) {\n        publishing {\n          publications {\n            release(MavenPublication) {\n              from releaseComponent\n            }\n          }\n          repositories {\n            maven {\n              url = mavenLocal().url\n            }\n          }\n        }\n      }'
+              result = content.replace(old, new)
+              if result == content:
+                  print('Pattern not found with exact match, trying flexible approach')
+                  import re
+                  result = re.sub(
+                      r'(project\.afterEvaluate\s*\{)\s*publishing\s*\{[^}]*publications\s*\{[^}]*release\s*\(MavenPublication\)\s*\{[^}]*from\s+components\.release[^}]*\}[^}]*\}[^}]*repositories\s*\{[^}]*maven\s*\{[^}]*url\s*=\s*mavenLocal\(\)\.url[^}]*\}[^}]*\}[^}]*\}',
+                      r'''\1
+              def releaseComponent = components.findByName('release')
+              if (releaseComponent != null) {
+                publishing {
+                  publications {
+                    release(MavenPublication) {
+                      from releaseComponent
+                    }
+                  }
+                  repositories {
+                    maven {
+                      url = mavenLocal().url
+                    }
+                  }
+                }
+              }''',
+                      result
+                  )
+              with open(path, 'w') as f:
+                  f.write(result)
+              print('Patch applied successfully')
+          else:
+              print('Already patched or pattern not found - skipping')
+          EOF
+
+      - name: Setup JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          accept-android-sdk-licenses: true
+
+      - name: Install NDK and CMake
+        run: |
+          sdkmanager "ndk;26.1.10909125" "cmake;3.22.1"
+
+      - name: Create local.properties
+        run: echo "sdk.dir=$ANDROID_HOME" > android/local.properties
+
+      - name: Decode keystore
+        run: echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/mac-hatirlatici.keystore
+
+      - name: Build release AAB
+        run: cd android && chmod +x ./gradlew && ./gradlew bundleRelease --no-daemon
+        env:
+          KEYSTORE_FILE: mac-hatirlatici.keystore
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          NODE_ENV: production
+          GRADLE_OPTS: "-Dorg.gradle.daemon=false -Xmx4g"
+
+      - name: Upload AAB
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-v1.2.0-${{ github.run_number }}
+          path: android/app/build/outputs/bundle/release/app-release.aab
+          retention-days: 14

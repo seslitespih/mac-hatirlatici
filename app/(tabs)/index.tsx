@@ -1,5 +1,4 @@
-import React, { useCallback, useState } from 'react';
-import { useFocusEffect } from 'expo-router';
+import React, { useCallback, useEffect, useState } from 'react';
 import {
   View,
   Text,
@@ -22,27 +21,14 @@ import EmptyState from '../../components/EmptyState';
 import { Match, SportType } from '../../constants/matches';
 import { MatchGroup } from '../../services/matchService';
 
-// World Cup 2026: June 11 – July 19, 2026
-const WC_START = new Date('2026-06-11T00:00:00Z');
-const WC_END   = new Date('2026-07-20T00:00:00Z');
-const IS_WORLD_CUP_SEASON = new Date() >= WC_START && new Date() <= WC_END;
-
 type SportTab = { id: SportType | 'all'; label: string; color: string };
 
 export default function MatchesScreen() {
   const { t } = useTranslation();
   const { colors } = useTheme();
   const { selectedTeamIds, reloadSelectedTeams } = useTeams();
-
-  // Matches tabına her geçişte favori takımları yeniden yükle (Teams tab'da yapılan değişiklikleri yakala)
-  useFocusEffect(
-    useCallback(() => {
-      reloadSelectedTeams();
-    }, [reloadSelectedTeams]),
-  );
   const { countryCode, isLoading: countryLoading } = useCountry();
-  const [activeSport, setActiveSport] = useState<SportType | 'all'>('all');
-
+  const [activeSport, setActiveSport] = useState<SportType | 'all'>('football');
   const {
     filter,
     setFilter,
@@ -52,6 +38,12 @@ export default function MatchesScreen() {
     lastUpdated,
     refresh,
   } = useMatches(selectedTeamIds, countryCode, activeSport, !countryLoading);
+
+  // useFocusEffect yerine useEffect: expo-router'ın navigation state'ine bağımlılığı kaldırır.
+  // Takımlar mount'ta ve selectedTeamIds değişince yeniden yüklenir.
+  useEffect(() => {
+    reloadSelectedTeams();
+  }, [reloadSelectedTeams]);
 
   const sportTabs: SportTab[] = [
     { id: 'all',         label: t('matches.sports.all'),                         color: colors.text },
@@ -140,29 +132,11 @@ export default function MatchesScreen() {
           })}
         </ScrollView>
 
-        {/* All / Favorites toggle */}
-        <View style={[styles.toggleRow, { backgroundColor: colors.bg3, borderColor: colors.border }]}>
-          <Toggle
-            label={t('matches.allMatches')}
-            active={filter === 'all'}
-            onPress={() => setFilter('all')}
-            color={colors.accent}
-            inactiveColor={colors.textMuted}
-          />
-          <Toggle
-            label={t('matches.favoriteMatches')}
-            active={filter === 'favorites'}
-            onPress={() => setFilter('favorites')}
-            color={colors.accent}
-            inactiveColor={colors.textMuted}
-          />
-        </View>
       </View>
 
       {/* Content */}
       {!hasMatches ? (
         <View style={[styles.emptyWrapper, { backgroundColor: colors.bg0 }]}>
-          {IS_WORLD_CUP_SEASON && <WorldCupBanner t={t} />}
           <EmptyState
             emoji={filter === 'favorites' ? '❤️' : '📅'}
             title={filter === 'favorites' ? t('matches.noFavoriteMatches') : t('matches.noMatches')}
@@ -178,7 +152,7 @@ export default function MatchesScreen() {
           contentContainerStyle={[styles.list, { backgroundColor: colors.bg0 }]}
           showsVerticalScrollIndicator={false}
           stickySectionHeadersEnabled
-          ListHeaderComponent={IS_WORLD_CUP_SEASON ? <WorldCupBanner t={t} /> : null}
+          ListHeaderComponent={null}
           refreshControl={
             <RefreshControl
               refreshing={isRefreshing}
@@ -193,103 +167,6 @@ export default function MatchesScreen() {
     </SafeAreaView>
   );
 }
-
-// ─── World Cup Banner ─────────────────────────────────────────────────────────
-
-const WC_FLAGS = ['🇦🇷', '🇧🇷', '🇫🇷', '🇩🇪', '🇪🇸', '🇵🇹', '🇬🇧', '🇺🇸', '🇲🇽', '🇯🇵', '🇰🇷', '🇲🇦'];
-
-function WorldCupBanner({ t }: { t: (key: string) => string }) {
-  return (
-    <View style={wcStyles.banner}>
-      <View style={wcStyles.inner}>
-        <View style={wcStyles.topRow}>
-          <Text style={wcStyles.trophy}>🏆</Text>
-          <View style={{ flex: 1 }}>
-            <Text style={wcStyles.title}>{t('matches.worldcupBanner')}</Text>
-            <Text style={wcStyles.subtitle}>{t('matches.worldcupSubtitle')}</Text>
-          </View>
-          <View style={wcStyles.livePill}>
-            <View style={wcStyles.liveDot} />
-            <Text style={wcStyles.liveTxt}>LIVE</Text>
-          </View>
-        </View>
-        <View style={wcStyles.flags}>
-          {WC_FLAGS.map((f, i) => (
-            <Text key={i} style={wcStyles.flag}>{f}</Text>
-          ))}
-        </View>
-      </View>
-    </View>
-  );
-}
-
-const wcStyles = StyleSheet.create({
-  banner: {
-    marginHorizontal: 14,
-    marginTop: 12,
-    marginBottom: 4,
-    borderRadius: 16,
-    borderWidth: 1.5,
-    borderColor: '#F59E0B',
-    overflow: 'hidden',
-  },
-  inner: {
-    backgroundColor: 'rgba(245,158,11,0.10)',
-    padding: 14,
-  },
-  topRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 10,
-    marginBottom: 10,
-  },
-  trophy: {
-    fontSize: 32,
-  },
-  title: {
-    color: '#F59E0B',
-    fontSize: 16,
-    fontWeight: '800',
-    letterSpacing: -0.3,
-  },
-  subtitle: {
-    color: '#D97706',
-    fontSize: 11,
-    marginTop: 2,
-    fontWeight: '500',
-  },
-  livePill: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: 'rgba(239,68,68,0.15)',
-    borderRadius: 6,
-    paddingHorizontal: 8,
-    paddingVertical: 4,
-    gap: 5,
-    borderWidth: 1,
-    borderColor: 'rgba(239,68,68,0.3)',
-  },
-  liveDot: {
-    width: 6,
-    height: 6,
-    borderRadius: 3,
-    backgroundColor: '#EF4444',
-  },
-  liveTxt: {
-    color: '#EF4444',
-    fontSize: 9,
-    fontWeight: '800',
-    letterSpacing: 0.8,
-  },
-  flags: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: 4,
-  },
-  flag: {
-    fontSize: 20,
-  },
-});
 
 // ─── Toggle button ────────────────────────────────────────────────────────────
 

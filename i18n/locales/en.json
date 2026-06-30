@@ -24,10 +24,11 @@
       "volleyball": "Volleyball",
       "motorsport": "Motorsport"
     },
-    "worldcupBanner": "FIFA World Cup 2026",
+    "worldcupBanner": "World Cup 2026",
     "worldcupSubtitle": "Live broadcast channels & match times for every game",
     "reminder15min": "Reminder set — 15 min before kickoff",
-    "reminderNoGoal": "(Match time only — no goal alerts)"
+    "reminderNoGoal": "(Match time only — no goal alerts)",
+    "noChannel": "Broadcaster info unavailable"
   },
   "teams": {
     "title": "Select Teams",
@@ -81,14 +82,14 @@
   },
   "paywall": {
     "subtitle": "Sports TV Guide",
-    "trial": "1 MONTH FREE TRIAL",
+    "trial": "10-DAY FREE TRIAL",
     "feature0": "Today's matches — correct time & channel",
     "feature1": "15-minute pre-match reminder",
     "feature2": "TV schedule for 15 countries",
     "feature3": "Daily automatic updates",
     "pricePerMonth": "/month",
-    "priceNote": "After the free trial, billed at {{price}}/month. Cancel anytime.",
-    "startFree": "Start 1 Month Free",
+    "priceNote": "After the 10-day free trial, billed at {{price}}/month. Cancel anytime.",
+    "startFree": "Start Free — 10 Days",
     "restore": "Restore Purchases",
     "legalIos": "Charged to your iTunes account. Subscription automatically renews unless cancelled at least 24 hours before the end of the current period.",
     "legalAndroid": "Charged to your Google Play account. Cancel anytime through Google Play.",
@@ -96,6 +97,9 @@
     "errorPurchase": "Purchase could not be completed. Please try again.",
     "notFoundTitle": "Not Found",
     "errorNoSub": "No active subscription found for this account.",
-    "errorRestore": "Could not restore purchases."
+    "errorRestore": "Could not restore purchases.",
+    "offeringError": "Unable to load subscription options. Please check your internet connection.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use"
   }
 }

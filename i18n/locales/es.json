@@ -24,10 +24,11 @@
       "volleyball": "Voleibol",
       "motorsport": "Motor"
     },
-    "worldcupBanner": "Copa Mundial FIFA 2026",
+    "worldcupBanner": "Copa Mundial 2026",
     "worldcupSubtitle": "Canales de emisión y horarios de todos los partidos",
     "reminder15min": "Recordatorio activado — 15 min antes del partido",
-    "reminderNoGoal": "(Solo hora del partido — sin alertas de gol)"
+    "reminderNoGoal": "(Solo hora del partido — sin alertas de gol)",
+    "noChannel": "Emisora no disponible"
   },
   "teams": {
     "title": "Seleccionar Equipos",
@@ -81,14 +82,14 @@
   },
   "paywall": {
     "subtitle": "Guía de TV Deportiva",
-    "trial": "1 MES GRATIS",
+    "trial": "10 DÍAS GRATIS",
     "feature0": "Todos los partidos de hoy — hora y canal correctos",
     "feature1": "Recordatorio 15 minutos antes del partido",
     "feature2": "Programación TV en 15 países",
     "feature3": "Actualizaciones automáticas diarias",
     "pricePerMonth": "/mes",
-    "priceNote": "Tras el período de prueba, se factura {{price}}/mes. Cancela cuando quieras.",
-    "startFree": "Comenzar 1 mes gratis",
+    "priceNote": "Tras los 10 días de prueba, se factura {{price}}/mes. Cancela cuando quieras.",
+    "startFree": "Empezar gratis — 10 días",
     "restore": "Restaurar compras",
     "legalIos": "Se cobra a tu cuenta de iTunes. La suscripción se renueva automáticamente si no se cancela al menos 24 horas antes del final del período actual.",
     "legalAndroid": "Se cobra a tu cuenta de Google Play. Cancela cuando quieras desde Google Play.",
@@ -96,6 +97,9 @@
     "errorPurchase": "No se pudo completar la compra. Inténtalo de nuevo.",
     "notFoundTitle": "No encontrado",
     "errorNoSub": "No se encontró ninguna suscripción activa para esta cuenta.",
-    "errorRestore": "No se pudieron restaurar las compras."
+    "errorRestore": "No se pudieron restaurar las compras.",
+    "offeringError": "No se pudieron cargar las opciones de suscripción. Comprueba tu conexión a internet.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfUse": "Términos de Uso"
   }
 }

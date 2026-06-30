@@ -6,7 +6,8 @@ import {
   MatchGroup,
 } from '../services/matchService';
 import { fetchSportsDbMatches, clearSportsDbCache } from '../services/sportsDbService';
-import { fetchTRMatches, clearTRCache }             from '../services/hangikanalda';
+import { fetchMotorsportMatches, clearMotorsportCache } from '../services/motorsportService';
+import { getMatchWindow, getDeviceTimezone } from '../utils/timezone';
 import { scheduleAllNotifications }            from '../services/notificationService';
 import { useTranslation } from 'react-i18next';
 
@@ -32,23 +33,17 @@ export function useMatches(
     try {
       let matches: Match[];
 
-      if (countryCode === 'TR') {
-        // TR: hangikanalda (Türk ligleri) + TheSportsDB (WC + uluslararası)
-        if (force) {
-          await Promise.all([clearTRCache(), clearSportsDbCache('TR')]);
-        }
-        const [trMatches, intlMatches] = await Promise.all([
-          fetchTRMatches(),
-          fetchSportsDbMatches('TR'),
+      if (force) {
+        await Promise.all([
+          clearSportsDbCache(countryCode),
+          clearMotorsportCache(countryCode),
         ]);
-        // Merge: hangikanalda önce (Türk kanalları doğru), sonra sadece TheSportsDB'ye özgün maçlar
-        const trKeys = new Set(trMatches.map(m => `${m.homeTeam}|${m.awayTeam}`));
-        const extras = intlMatches.filter(m => !trKeys.has(`${m.homeTeam}|${m.awayTeam}`));
-        matches = [...trMatches, ...extras];
-      } else {
-        if (force) await clearSportsDbCache(countryCode);
-        matches = await fetchSportsDbMatches(countryCode);
       }
+      const [sportsMatches, motorMatches] = await Promise.all([
+        fetchSportsDbMatches(countryCode),
+        fetchMotorsportMatches(countryCode),
+      ]);
+      matches = [...sportsMatches, ...motorMatches];
 
       if (matches.length > 0) {
         setAllMatches(matches);
@@ -102,16 +97,20 @@ export function useMatches(
   const refresh = useCallback(() => loadMatches(true, true), [loadMatches]);
 
   const sportFiltered = useMemo(() => {
+    const tz  = getDeviceTimezone();
+    const { end } = getMatchWindow(tz);
     const now = new Date();
-    // Bitmiş veya 130 dk+ geçmiş maçları gizle (canlı maçlar hariç)
+
     const active = allMatches.filter(m => {
       if (m.status === 'finished') return false;
       if (m.status === 'live') return true;
-      const endTime = new Date(new Date(m.date).getTime() + 130 * 60 * 1000);
-      return endTime > now;
+      const d = new Date(m.date);
+      if (d > end) return false;                                      // pencere sonu dışı
+      const matchEnd = new Date(d.getTime() + 130 * 60 * 1000);
+      return matchEnd > now;                                          // geçmiş maçları gizle
     });
     return sport === 'all' ? active : active.filter(m => m.sport === sport);
-  }, [allMatches, sport]);
+  }, [allMatches, sport, countryCode]);
 
   const favoriteMatches = useMemo(
     () => sportFiltered.filter(
@@ -122,10 +121,15 @@ export function useMatches(
 
   const displayedMatches = filter === 'all' ? sportFiltered : favoriteMatches;
 
-  const matchGroups = useMemo<MatchGroup[]>(
-    () => groupMatchesByDay(displayedMatches, i18n.language, t),
-    [displayedMatches, i18n.language, t],
-  );
+  const matchGroups = useMemo<MatchGroup[]>(() => {
+    try {
+      return typeof groupMatchesByDay === 'function'
+        ? groupMatchesByDay(displayedMatches, i18n.language, t)
+        : [];
+    } catch {
+      return [];
+    }
+  }, [displayedMatches, i18n.language, t]);
 
   const liveMatches = useMemo<Match[]>(() => {
     const now = new Date();

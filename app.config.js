@@ -7,7 +7,7 @@ module.exports = {
   expo: {
     name: 'Match Reminder',
     slug: 'hangi-kanalda',
-    version: '1.0.0',
+    version: '1.2.1',
     orientation: 'portrait',
     icon: './assets/icon.png',
     userInterfaceStyle: 'light',
@@ -23,10 +23,10 @@ module.exports = {
     android: {
       adaptiveIcon: {
         foregroundImage: './assets/adaptive-icon.png',
-        backgroundColor: '#F0F5FF',
+        backgroundColor: '#0A1831',
       },
       package: 'com.machatirlatici.app',
-      versionCode: 1,
+      versionCode: parseInt(process.env.VERSION_CODE ?? '6'),
       permissions: [
         'android.permission.RECEIVE_BOOT_COMPLETED',
         'android.permission.VIBRATE',
@@ -41,7 +41,7 @@ module.exports = {
     ios: {
       supportsTablet: true,
       bundleIdentifier: 'com.machatirlatici.app',
-      buildNumber: process.env.BUILD_NUMBER ?? '1',
+      buildNumber: process.env.BUILD_NUMBER ?? '73',
       infoPlist: {
         ITSAppUsesNonExemptEncryption: false,
       },
@@ -73,6 +73,7 @@ module.exports = {
             compileSdkVersion: 35,
             targetSdkVersion: 35,
             minSdkVersion: 26,
+            ndkVersion: '28.2.13676358',
           },
           ios: {
             useFrameworks: 'static',
@@ -92,7 +93,7 @@ module.exports = {
       rapidApiKey:       process.env.RAPID_API_KEY ?? '',
       groqApiKey:        process.env.GROQ_API_KEY ?? '',
       rcApiKeyIos:       process.env.REVENUECAT_IOS_KEY || 'appl_DBXnXzCViacQTaNmOobAfGHuYGf',
-      rcApiKeyAndroid:   process.env.REVENUECAT_ANDROID_KEY || 'test_NqygAOqsFNqMYsloduJSHFAjsRa',
+      rcApiKeyAndroid:   process.env.REVENUECAT_ANDROID_KEY || 'goog_kKIpmpVTfhMJaJjQjzOIcFrZsGR',
       eas: {
         projectId: '1df49d90-6cfa-49a4-9815-bbab3db6e612',
       },

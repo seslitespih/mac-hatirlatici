@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import {
   View, Text, StyleSheet, TouchableOpacity,
-  ActivityIndicator, Alert, SafeAreaView, Platform,
+  ActivityIndicator, Alert, SafeAreaView, Platform, Linking,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { PurchasesPackage } from 'react-native-purchases';
@@ -10,6 +10,9 @@ import {
 } from '../services/subscriptionService';
 import { useTheme } from '../contexts/ThemeContext';
 
+const PRIVACY_URL = 'https://seslitespih.github.io/mac-hatirlatici/privacy.html';
+const EULA_URL    = 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/';
+
 interface Props {
   onSubscribed: () => void;
 }
@@ -17,13 +20,22 @@ interface Props {
 export default function PaywallScreen({ onSubscribed }: Props) {
   const { t } = useTranslation();
   const { colors } = useTheme();
-  const [pkg,      setPkg]      = useState<PurchasesPackage | null>(null);
-  const [loading,  setLoading]  = useState(false);
-  const [fetching, setFetching] = useState(true);
+  const [pkg,          setPkg]          = useState<PurchasesPackage | null>(null);
+  const [loading,      setLoading]      = useState(false);
+  const [fetching,     setFetching]     = useState(true);
+  const [offeringErr,  setOfferingErr]  = useState(false);
 
-  useEffect(() => {
-    getOfferings().then((p) => { setPkg(p); setFetching(false); });
+  const loadOffering = useCallback(() => {
+    setFetching(true);
+    setOfferingErr(false);
+    getOfferings().then((p) => {
+      setPkg(p);
+      setOfferingErr(p === null);
+      setFetching(false);
+    });
   }, []);
+
+  useEffect(() => { loadOffering(); }, [loadOffering]);
 
   async function handlePurchase() {
     if (!pkg) return;
@@ -102,6 +114,13 @@ export default function PaywallScreen({ onSubscribed }: Props) {
         {/* Butonlar */}
         {fetching ? (
           <ActivityIndicator color={colors.accent} size="large" style={{ marginTop: 24 }} />
+        ) : offeringErr ? (
+          <View style={s.errorWrap}>
+            <Text style={[s.errorText, { color: colors.textSub }]}>{t('paywall.offeringError')}</Text>
+            <TouchableOpacity style={[s.retryBtn, { borderColor: colors.accent }]} onPress={loadOffering}>
+              <Text style={[s.retryText, { color: colors.accent }]}>{t('common.retry')}</Text>
+            </TouchableOpacity>
+          </View>
         ) : (
           <>
             <TouchableOpacity
@@ -130,6 +149,17 @@ export default function PaywallScreen({ onSubscribed }: Props) {
         <Text style={[s.legal, { color: colors.textMuted }]}>
           {Platform.OS === 'ios' ? t('paywall.legalIos') : t('paywall.legalAndroid')}
         </Text>
+
+        {/* Privacy Policy & EULA — Apple 3.1.2(c) requirement */}
+        <View style={s.legalLinks}>
+          <TouchableOpacity onPress={() => Linking.openURL(PRIVACY_URL)}>
+            <Text style={[s.legalLink, { color: colors.accent }]}>{t('paywall.privacyPolicy')}</Text>
+          </TouchableOpacity>
+          <Text style={[s.legalSep, { color: colors.textMuted }]}> · </Text>
+          <TouchableOpacity onPress={() => Linking.openURL(EULA_URL)}>
+            <Text style={[s.legalLink, { color: colors.accent }]}>{t('paywall.termsOfUse')}</Text>
+          </TouchableOpacity>
+        </View>
       </View>
     </SafeAreaView>
   );
@@ -158,4 +188,11 @@ const s = StyleSheet.create({
   restoreBtn:   { marginTop: 14, paddingVertical: 8 },
   restoreText:  { fontSize: 13, textDecorationLine: 'underline' },
   legal:        { fontSize: 10, textAlign: 'center', marginTop: 16, lineHeight: 15, opacity: 0.7 },
+  legalLinks:   { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: 8 },
+  legalLink:    { fontSize: 11, textDecorationLine: 'underline' },
+  legalSep:     { fontSize: 11 },
+  errorWrap:    { alignItems: 'center', marginTop: 24, gap: 12 },
+  errorText:    { fontSize: 13, textAlign: 'center' },
+  retryBtn:     { borderWidth: 1, borderRadius: 10, paddingHorizontal: 24, paddingVertical: 10 },
+  retryText:    { fontSize: 14, fontWeight: '600' },
 });

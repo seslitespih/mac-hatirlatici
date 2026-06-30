@@ -1,9 +1,6 @@
 import { MATCHES, Match, getMatchesByDate, getMatchesByTeam, SportType } from '../constants/matches';
 import { fetchAllSports } from './apiService';
 import { getChannelForCountry } from '../constants/countryChannels';
-import { format, isToday, isTomorrow, addDays, startOfDay } from 'date-fns';
-import { type Locale } from 'date-fns';
-import { tr, enUS, es, pt, fr, de, ar, it } from 'date-fns/locale';
 
 let _cachedMatches: Match[] | null = null;
 let _cacheTime = 0;
@@ -16,12 +13,15 @@ function isApiMatch(m: Match): boolean {
 }
 
 export function applyCountryChannels(matches: Match[], countryCode: string): Match[] {
-  return matches.map((m) => ({
-    ...m,
-    channel: isApiMatch(m)
-      ? (m.channel || getChannelForCountry(countryCode, m.leagueId, m.homeTeam))
-      : getChannelForCountry(countryCode, m.leagueId, m.homeTeam),
-  }));
+  return matches.map((m) => {
+    const mapped = getChannelForCountry(countryCode, m.leagueId, m.homeTeam);
+    // API matches (static): prefer existing channel, fall back to map
+    // Groq/other matches: prefer map; if map has no entry, keep Groq's own channel
+    const channel = isApiMatch(m)
+      ? (m.channel || mapped)
+      : (mapped || m.channel);
+    return { ...m, channel };
+  });
 }
 
 export async function getMatchesHybrid(countryCode: string = 'TR'): Promise<Match[]> {
@@ -55,15 +55,26 @@ export interface MatchGroup {
   matches: Match[];
 }
 
-const LOCALE_MAP: Record<string, Locale> = {
-  tr, en: enUS, es, pt, fr, de, ar, it,
-};
+function toDateKey(date: Date): string {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+}
+
+function sameDay(a: Date, b: Date): boolean {
+  return a.getFullYear() === b.getFullYear()
+    && a.getMonth() === b.getMonth()
+    && a.getDate() === b.getDate();
+}
 
 function getDayTitle(date: Date, language: string, t: (key: string) => string): string {
-  if (isToday(date)) return t('matches.today');
-  if (isTomorrow(date)) return t('matches.tomorrow');
-  const locale = LOCALE_MAP[language] || enUS;
-  return format(date, 'EEEE, d MMMM', { locale });
+  const now = new Date();
+  if (sameDay(date, now)) return t('matches.today');
+  const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+  if (sameDay(date, tomorrow)) return t('matches.tomorrow');
+  try {
+    return date.toLocaleDateString(language, { weekday: 'long', day: 'numeric', month: 'long' });
+  } catch {
+    return date.toLocaleDateString('en', { weekday: 'long', day: 'numeric', month: 'long' });
+  }
 }
 
 export function groupMatchesByDay(
@@ -78,12 +89,13 @@ export function groupMatchesByDay(
 
   for (const match of sorted) {
     const date = new Date(match.date);
-    const key = format(date, 'yyyy-MM-dd');
+    const key = toDateKey(date);
+    const dayStart = new Date(date.getFullYear(), date.getMonth(), date.getDate());
     if (!groups.has(key)) {
       groups.set(key, {
-        title: getDayTitle(startOfDay(date), language, t),
+        title: getDayTitle(dayStart, language, t),
         dateKey: key,
-        date: startOfDay(date),
+        date: dayStart,
         matches: [],
       });
     }
@@ -95,7 +107,7 @@ export function groupMatchesByDay(
 
 export function getWeeklyMatches(): Match[] {
   const now = new Date();
-  const weekEnd = addDays(now, 7);
+  const weekEnd = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
   return MATCHES.filter((m) => {
     const d = new Date(m.date);
     return d >= now && d <= weekEnd;

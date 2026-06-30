@@ -33,10 +33,10 @@ function getApiKey(): string {
 export const ENTITLEMENT_ID  = 'premium';
 export const PRODUCT_ID      = 'monthly_premium_299';  // App Store & Play Store'daki ID
 
-// ─── Ücretsiz deneme (yerel, 30 gün) ─────────────────────────────────────────
+// ─── Ücretsiz deneme (yerel, 10 gün) ─────────────────────────────────────────
 
-const FIRST_LAUNCH_KEY = '@first_launch_date';
-const FREE_TRIAL_DAYS  = 30;
+const FIRST_LAUNCH_KEY = '@first_launch_v1_0';  // version-specific: TestFlight verisini devralma
+const FREE_TRIAL_DAYS  = 10;
 
 async function getFirstLaunchDate(): Promise<number> {
   try {
@@ -59,11 +59,14 @@ async function isInFreeTrial(): Promise<boolean> {
 // ─── Başlatma ─────────────────────────────────────────────────────────────────
 
 export function initPurchases(): void {
-  const key = getApiKey();
-  if (!key) return;
-
-  Purchases.setLogLevel(LOG_LEVEL.ERROR);
-  Purchases.configure({ apiKey: key });
+  try {
+    const key = getApiKey();
+    if (!key) return;
+    Purchases.setLogLevel(LOG_LEVEL.ERROR);
+    Purchases.configure({ apiKey: key });
+  } catch (e) {
+    console.warn('RevenueCat init failed:', e);
+  }
 }
 
 // ─── Abonelik durumu ──────────────────────────────────────────────────────────
@@ -115,8 +118,8 @@ export async function getOfferings(): Promise<PurchasesPackage | null> {
 
 export async function purchaseSubscription(pkg: PurchasesPackage): Promise<boolean> {
   try {
-    const result = await Purchases.purchasePackage(pkg);
-    return result.customerInfo.entitlements.active[ENTITLEMENT_ID] !== undefined;
+    await Purchases.purchasePackage(pkg);
+    return true;
   } catch (e: unknown) {
     // Kullanıcı iptal etti — hata değil
     if ((e as { userCancelled?: boolean })?.userCancelled) return false;

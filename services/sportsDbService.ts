@@ -1,20 +1,28 @@
 /**
  * sportsDbService.ts
  *
- * İki kaynak birleştirir:
- *   1. TheSportsDB WC 2026 sezon endpoint → tüm 104 WC maçı (12 saat cache)
- *   2. TheSportsDB günlük endpoint (dün+bugün+yarın UTC) → diğer ligler
+ * Veri kaynakları:
+ *   1. TheSportsDB WC 2026 sezon endpoint  → tüm 104 WC maçı (12h cache)
+ *   2. TheSportsDB günlük endpoint          → diğer büyük ligler
+ *   3. channelService                       → kanal bilgisi (remote JSON + local fallback)
  *
- * Tüm ülkeler için çalışır (TR dahil — hangikanalda ile merge edilir).
+ * Gösterim penceresi: bugün 00:00 → ertesi gün 09:00 (user timezone)
+ * Cache: 60dk TTL + gün değişimi kontrolü
  */
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Match, MatchStatus, SportType } from '../constants/matches';
+import { getMatchWindow, getUTCDatesForWindow, localDateOf, formatLocalTime } from '../utils/timezone';
+import {
+  getChannelMap,
+  getFirstChannel,
+  getDailyChannelData,
+  getChannelsFromDaily,
+} from './channelService';
 
-// ─── Ülke → Timezone ─────────────────────────────────────────────────────────
+// ─── Ülke → IANA Timezone ────────────────────────────────────────────────────
 
-const COUNTRY_TZ: Record<string, string> = {
-  // Avrupa
+export const COUNTRY_TZ: Record<string, string> = {
   TR: 'Europe/Istanbul',
   GB: 'Europe/London',
   ES: 'Europe/Madrid',
@@ -29,28 +37,19 @@ const COUNTRY_TZ: Record<string, string> = {
   NO: 'Europe/Oslo',
   AT: 'Europe/Vienna',
   CZ: 'Europe/Prague',
-  BA: 'Europe/Sarajevo',
-  // Amerika
   BR: 'America/Sao_Paulo',
   AR: 'America/Argentina/Buenos_Aires',
   MX: 'America/Mexico_City',
   US: 'America/New_York',
   CO: 'America/Bogota',
-  EC: 'America/Guayaquil',
-  UY: 'America/Montevideo',
-  PY: 'America/Asuncion',
   CA: 'America/Toronto',
-  // Asya / Orta Doğu
   SA: 'Asia/Riyadh',
   QA: 'Asia/Qatar',
-  JO: 'Asia/Amman',
   IR: 'Asia/Tehran',
-  UZ: 'Asia/Tashkent',
   JP: 'Asia/Tokyo',
   KR: 'Asia/Seoul',
   AU: 'Australia/Sydney',
   NZ: 'Pacific/Auckland',
-  // Afrika
   EG: 'Africa/Cairo',
   NG: 'Africa/Lagos',
   MA: 'Africa/Casablanca',
@@ -59,71 +58,15 @@ const COUNTRY_TZ: Record<string, string> = {
   DZ: 'Africa/Algiers',
   TN: 'Africa/Tunis',
   GH: 'Africa/Accra',
-  CI: 'Africa/Abidjan',
-  CV: 'Atlantic/Cape_Verde',
+  CL: 'America/Santiago',
+  PE: 'America/Lima',
+  AE: 'Asia/Dubai',
 };
 
-// ─── WC yayın kanalları ülke başına ──────────────────────────────────────────
+// ─── TheSportsDB lig filtreleri ──────────────────────────────────────────────
 
-const WC_CHANNELS: Record<string, string> = {
-  TR: 'TRT 1 / EXXEN',
-  GB: 'BBC / ITV',
-  FR: 'TF1 / M6',
-  DE: 'ARD / ZDF',
-  ES: 'La 1',
-  IT: 'RAI 1',
-  PT: 'RTP 1',
-  BE: 'RTBF / VRT',
-  NL: 'NOS',
-  CH: 'SRF / RTS',
-  HR: 'HRT',
-  NO: 'NRK / TV2',
-  AT: 'ORF',
-  CZ: 'ČT Sport',
-  BA: 'BHRT / Federalna TV',
-  BR: 'TV Globo / SporTV',
-  AR: 'TyC Sports / TV Pública',
-  MX: 'TUDN / Azteca',
-  US: 'FOX / Telemundo',
-  CO: 'RCN / Caracol',
-  EC: 'TC / Teleamazonas',
-  UY: 'Canal 10 / VTV',
-  PY: 'Tigo Sports / RPC',
-  CA: 'CTV / TSN',
-  SA: 'SSC Sport',
-  QA: 'beIN Sports',
-  JO: 'Jordan TV',
-  IR: 'IRIB / Varzesh',
-  UZ: 'Uzbekistan TV',
-  JP: 'NHK / Fuji TV',
-  KR: 'KBS / MBC',
-  AU: 'SBS / Optus Sport',
-  NZ: 'Sky Sport NZ',
-  EG: 'beIN Sports Arabia',
-  NG: 'SuperSport',
-  MA: '2M / Arryadia',
-  SN: 'Canal+ Afrique',
-  ZA: 'SuperSport',
-  DZ: 'ENTV / beIN Sports Arabia',
-  TN: 'Watania 1',
-  GH: 'GTV / SuperSport',
-  CI: 'RTI / Canal+ Afrique',
-  CV: 'RTC',
-};
-
-// Büyük ligler için ülke bazlı kanallar
-const LEAGUE_CHANNELS: Record<string, Record<string, string>> = {
-  '4480': { GB: 'TNT Sports', DE: 'DAZN', ES: 'Movistar+', FR: 'Canal+', IT: 'Sky Sport', BR: 'SporTV', AR: 'ESPN', TR: 'beIN Sports' },
-  '4328': { GB: 'Sky Sports / TNT Sports', DE: 'Sky Sport', ES: 'DAZN', FR: 'Canal+', IT: 'Sky Sport', TR: 'beIN Sports' },
-  '4335': { ES: 'DAZN / Movistar+', GB: 'LaLigaTV', DE: 'DAZN', TR: 'beIN Sports' },
-  '4331': { DE: 'Sky Sport / DAZN', GB: 'Sky Sport', TR: 'beIN Sports' },
-  '4332': { IT: 'DAZN / Sky Sport', GB: 'Sky Sport', TR: 'beIN Sports' },
-  '4334': { FR: 'DAZN / Canal+', GB: 'Sky Sport', TR: 'beIN Sports' },
-};
-
-// Günlük endpoint için filtre — WC maçları sezon endpoint'ten zaten geliyor
-const DAILY_ALLOWED_LEAGUES = new Set([
-  '4429',  // FIFA World Cup (hem günlük hem sezon endpoint'ten gelir)
+const ALLOWED_LEAGUES = new Set([
+  '4429',  // World Cup
   '4480',  // UEFA Champions League
   '4328',  // English Premier League
   '4335',  // La Liga
@@ -132,11 +75,34 @@ const DAILY_ALLOWED_LEAGUES = new Set([
   '4334',  // Ligue 1
   '4346',  // Copa Libertadores
   '4444',  // Copa America
-  '4480',  // UEFA Nations League
   '4399',  // UEFA Euro
+  '4481',  // UEFA Nations League
 ]);
 
-// ─── TheSportsDB tipi ─────────────────────────────────────────────────────────
+// Küçük/bölgesel basketbol ligleri engelleniyor; büyükler (NBA, EuroLeague, FIBA WC) geçer
+const BLOCKED_BASKETBALL_LEAGUES = new Set([
+  '4516',  // WNBA
+  '5066',  // New Zealand NBL
+  '5266',  // Canadian Elite Basketball League
+  '5671',  // NBL1 South (Avustralya bölgesel)
+]);
+
+// TheSportsDB lig ID → kanal servisindeki leagueId eşlemesi
+const LEAGUE_ID_MAP: Record<string, string> = {
+  '4429': 'wc2026',
+  '4480': 'champions',
+  '4328': 'premier',
+  '4335': 'laliga',
+  '4331': 'bundesliga',
+  '4332': 'seriea',
+  '4334': 'ligue1',
+  '4346': 'copalibertadores',
+  '4444': 'copaamaerica',
+  '4399': 'euro',
+  '4481': 'nations',
+};
+
+// ─── TheSportsDB tip tanımı ───────────────────────────────────────────────────
 
 interface TSDBEvent {
   idEvent:      string;
@@ -146,41 +112,49 @@ interface TSDBEvent {
   strLeague:    string;
   idLeague:     string;
   strStatus:    string;
+  _sport?:      SportType; // fetch sırasında tag'lenir
 }
 
-// ─── Yardımcı ─────────────────────────────────────────────────────────────────
+// ─── Yardımcılar ─────────────────────────────────────────────────────────────
 
 export const norm = (s: string) =>
   s.toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 22);
 
-function utcToLocal(utcStr: string, tz: string): { date: Date; timeStr: string } {
-  // TheSportsDB timestamp bazen 'Z' içermez — her zaman UTC olarak işle
-  const dateStr = utcStr.endsWith('Z') ? utcStr : utcStr + 'Z';
-  const date = new Date(dateStr);
-  const timeStr = date.toLocaleTimeString('en-GB', {
-    timeZone: tz, hour: '2-digit', minute: '2-digit', hour12: false,
-  });
-  return { date, timeStr };
+function mapStatus(s: string): MatchStatus {
+  const l = s?.toLowerCase() ?? '';
+  if (l === 'inprogress' || l === 'ht') return 'live';
+  if (l === 'ft' || l === 'aet' || l === 'pen') return 'finished';
+  return 'scheduled';
 }
 
-function localDateOf(date: Date, tz: string): string {
-  return new Intl.DateTimeFormat('sv-SE', {
-    timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit',
-  }).format(date);
+function parseUTC(ts: string): Date {
+  return new Date(ts.endsWith('Z') ? ts : ts + 'Z');
 }
 
-function getChannel(idLeague: string, cc: string): string {
-  if (idLeague === '4429') return WC_CHANNELS[cc] ?? 'TV';
-  return LEAGUE_CHANNELS[idLeague]?.[cc] ?? WC_CHANNELS[cc] ?? 'TV';
-}
-
-function eventToMatch(e: TSDBEvent, cc: string, tz: string, cacheDate: string): Match | null {
+function buildMatch(
+  e: TSDBEvent,
+  cc: string,
+  tz: string,
+  channelMap: Awaited<ReturnType<typeof getChannelMap>>,
+  dailyChannels?: string[],
+): Match | null {
   if (!e.strTimestamp || !e.strHomeTeam || !e.strAwayTeam) return null;
-  const { date, timeStr } = utcToLocal(e.strTimestamp, tz);
-  const channel = getChannel(e.idLeague, cc);
+  const date    = parseUTC(e.strTimestamp);
+  const timeStr = formatLocalTime(date, tz);
+  const leagueId = LEAGUE_ID_MAP[e.idLeague] ?? e.strLeague.toLowerCase().replace(/[^a-z0-9]/g, '_').slice(0, 20);
+
+  // Daily scraped data takes priority; fall back to static map
+  const channels = dailyChannels?.length
+    ? dailyChannels
+    : (() => {
+        const ch = getFirstChannel(channelMap, cc, leagueId, norm(e.strHomeTeam), norm(e.strAwayTeam));
+        return ch ? [ch] : [];
+      })();
+  const channel = channels[0] ?? '';
+
   return {
-    id:            `tsdb_${cc}_${cacheDate}_${e.idEvent}`,
-    sport:         'football' as SportType,
+    id:            `tsdb_${cc}_${e.idEvent}`,
+    sport:         e._sport ?? 'football',
     homeTeam:      norm(e.strHomeTeam),
     awayTeam:      norm(e.strAwayTeam),
     homeTeamName:  e.strHomeTeam,
@@ -192,77 +166,54 @@ function eventToMatch(e: TSDBEvent, cc: string, tz: string, cacheDate: string): 
     date,
     time:          timeStr,
     league:        e.strLeague,
-    leagueId:      e.strLeague.toLowerCase().replace(/[^a-z0-9]/g, '_').slice(0, 20),
+    leagueId,
     leagueEmoji:   '',
     channel,
-    channels:      [channel],
-    status:        'scheduled' as MatchStatus,
+    channels,
+    status:        mapStatus(e.strStatus),
   };
 }
 
-// ─── Günlük cache ─────────────────────────────────────────────────────────────
+// ─── Cache (60dk TTL + gün kontrolü) ─────────────────────────────────────────
 
-const CK  = (cc: string) => `tsdb_daily_${cc}`;
-const CDK = (cc: string) => `tsdb_daily_date_${cc}`;
+const CACHE_TTL_MS = 60 * 60 * 1000;   // 60 dakika
 
-async function readDailyCache(today: string, cc: string): Promise<Match[] | null> {
+const CK   = (cc: string) => `tsdb_v6_${cc}`;
+const CDK  = (cc: string) => `tsdb_v6_date_${cc}`;
+const CTK  = (cc: string) => `tsdb_v6_time_${cc}`;
+
+async function readCache(localDate: string, cc: string): Promise<Match[] | null> {
   try {
-    if (await AsyncStorage.getItem(CDK(cc)) !== today) return null;
-    const raw = await AsyncStorage.getItem(CK(cc));
-    if (!raw) return null;
-    return (JSON.parse(raw) as Match[]).map(m => ({ ...m, date: new Date(m.date) }));
+    const [dateRaw, timeRaw, dataRaw] = await Promise.all([
+      AsyncStorage.getItem(CDK(cc)),
+      AsyncStorage.getItem(CTK(cc)),
+      AsyncStorage.getItem(CK(cc)),
+    ]);
+    if (dateRaw !== localDate) return null;                                    // gün değişmiş
+    if (!timeRaw || Date.now() - parseInt(timeRaw, 10) > CACHE_TTL_MS) return null; // 60dk geçmiş
+    if (!dataRaw) return null;
+    return (JSON.parse(dataRaw) as Match[]).map(m => ({ ...m, date: new Date(m.date) }));
   } catch { return null; }
 }
 
-async function writeDailyCache(matches: Match[], today: string, cc: string): Promise<void> {
+async function writeCache(matches: Match[], localDate: string, cc: string): Promise<void> {
   try {
     await AsyncStorage.multiSet([
       [CK(cc),  JSON.stringify(matches)],
-      [CDK(cc), today],
+      [CDK(cc), localDate],
+      [CTK(cc), Date.now().toString()],
     ]);
   } catch { /* depolama dolu */ }
 }
 
-// ─── WC 2026 Sezon cache (12 saat) ───────────────────────────────────────────
-
-const WC_SEASON_KEY      = 'tsdb_wc2026_events';
-const WC_SEASON_TIME_KEY = 'tsdb_wc2026_time';
-const WC_SEASON_TTL      = 12 * 60 * 60 * 1000;  // 12 saat
-
-async function fetchWC2026Season(): Promise<TSDBEvent[]> {
-  try {
-    const cachedTime = await AsyncStorage.getItem(WC_SEASON_TIME_KEY);
-    if (cachedTime && Date.now() - parseInt(cachedTime, 10) < WC_SEASON_TTL) {
-      const raw = await AsyncStorage.getItem(WC_SEASON_KEY);
-      if (raw) return JSON.parse(raw) as TSDBEvent[];
-    }
-
-    const res = await fetch(
-      'https://www.thesportsdb.com/api/v1/json/3/eventsseason.php?id=4429&s=2026',
-      { headers: { Accept: 'application/json' } },
-    );
-    if (!res.ok) return [];
-    const data = await res.json();
-    const events = (data.events ?? []) as TSDBEvent[];
-
-    if (events.length > 0) {
-      await AsyncStorage.multiSet([
-        [WC_SEASON_KEY,      JSON.stringify(events)],
-        [WC_SEASON_TIME_KEY, Date.now().toString()],
-      ]);
-    }
-    return events;
-  } catch { return []; }
-}
-
 // ─── Günlük endpoint ──────────────────────────────────────────────────────────
 
-async function fetchDayEvents(dateStr: string): Promise<TSDBEvent[]> {
+async function fetchDayEvents(dateStr: string, sport?: string, leagueId?: string): Promise<TSDBEvent[]> {
   try {
-    const res = await fetch(
-      `https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=${dateStr}&s=Soccer`,
-      { headers: { Accept: 'application/json' } },
-    );
+    let url = `https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=${dateStr}`;
+    if (sport)    url += `&s=${sport}`;
+    if (leagueId) url += `&l=${leagueId}`;
+    const res = await fetch(url, { headers: { Accept: 'application/json' } });
     if (!res.ok) return [];
     const data = await res.json();
     return (data.events ?? []) as TSDBEvent[];
@@ -274,77 +225,92 @@ async function fetchDayEvents(dateStr: string): Promise<TSDBEvent[]> {
 export async function fetchSportsDbMatches(countryCode: string): Promise<Match[]> {
   const cc  = countryCode;
   const tz  = COUNTRY_TZ[cc] ?? 'UTC';
-  const today = new Date().toISOString().split('T')[0];  // UTC tarihi
+  const now = new Date();
 
-  // 1. Günlük cache geçerliyse kullan
-  const cached = await readDailyCache(today, cc);
-  if (cached && cached.length > 0) return cached;
+  // Gösterim penceresi: bugün 00:00 → ertesi gün 09:00 (user TZ)
+  const { start, end }  = getMatchWindow(tz);
+  const localDate       = localDateOf(now, tz);   // cache anahtarı için
 
-  // 2. Paralel çek: WC sezon + dün/bugün/yarın günlük
-  const yesterday = new Date(Date.now() - 86_400_000).toISOString().split('T')[0];
-  const tomorrow  = new Date(Date.now() + 86_400_000).toISOString().split('T')[0];
+  // 1. Cache geçerli mi?
+  const cached = await readCache(localDate, cc);
+  if (cached !== null) return cached;
 
-  const [wcEvents, yEvents, tEvents, tmEvents] = await Promise.all([
-    fetchWC2026Season(),
-    fetchDayEvents(yesterday),
-    fetchDayEvents(today),
-    fetchDayEvents(tomorrow),
+  // 2. Pencere için gereken UTC günlerini belirle (1-3 gün)
+  const utcDates = getUTCDatesForWindow(start, end);
+
+  // 3. Paralel fetch — futbol + basketbol + voleybol
+  const tag = (sport: SportType) => (evs: TSDBEvent[]) =>
+    evs.map(e => ({ ...e, _sport: sport }));
+
+  // WC günlük endpoint (l=4429) tüm maçları döndürür; s=Soccer bazen eksik bırakır
+  const dayEventsArr = await Promise.all(
+    utcDates.flatMap(d => [
+      fetchDayEvents(d, 'Soccer').then(tag('football')),
+      fetchDayEvents(d, undefined, '4429').then(tag('football')),  // WC 2026 tam liste
+      fetchDayEvents(d, 'Basketball').then(tag('basketball')),
+      fetchDayEvents(d, 'Volleyball').then(tag('volleyball')),
+    ]),
+  );
+
+  // 4. Deduplicate
+  const seen   = new Set<string>();
+  const merged: TSDBEvent[] = [];
+
+  for (const e of dayEventsArr.flat()) {
+    if (!e.idEvent || seen.has(e.idEvent)) continue;
+    seen.add(e.idEvent);
+
+    if (e._sport === 'football') {
+      // Futbol: sadece izin verilen ligler (WC 2026 = 4429 dahil)
+      if (ALLOWED_LEAGUES.has(e.idLeague)) merged.push(e);
+    } else if (e._sport === 'basketball') {
+      // Basketbol: küçük/bölgesel ligleri engelle; NBA, EuroLeague, FIBA WC geçer
+      if (!BLOCKED_BASKETBALL_LEAGUES.has(e.idLeague) && e.strHomeTeam && e.strAwayTeam && e.strHomeTeam !== 'None') {
+        merged.push(e);
+      }
+    } else {
+      // Voleybol: takım adı geçerliyse göster
+      if (e.strHomeTeam && e.strAwayTeam && e.strHomeTeam !== 'None') {
+        merged.push(e);
+      }
+    }
+  }
+
+  // 5. Kanal verilerini paralel yükle (statik map + günlük scrape)
+  const [channelMap, dailyData] = await Promise.all([
+    getChannelMap(),
+    getDailyChannelData(),
   ]);
 
-  // 3. Birleştir + idEvent bazlı deduplicate
-  const seen = new Set<string>();
-  const merged: TSDBEvent[] = [];
-  for (const e of [...wcEvents, ...yEvents, ...tEvents, ...tmEvents]) {
-    if (e.idEvent && !seen.has(e.idEvent)) {
-      seen.add(e.idEvent);
-      merged.push(e);
-    }
+  // 6. Pencere filtresi + Match dönüşümü
+  const matches: Match[] = [];
+  for (const e of merged) {
+    // Önce günlük scrape verisine bak, yoksa statik map'e düş
+    const dateStr = e.strTimestamp?.split('T')[0] ?? '';
+    const dailyChannels = dailyData && dateStr
+      ? getChannelsFromDaily(dailyData, cc, dateStr, e.strHomeTeam, e.strAwayTeam)
+      : [];
+    const m = buildMatch(e, cc, tz, channelMap, dailyChannels);
+    if (!m) continue;
+    if (m.date < start || m.date > end) continue;   // pencere dışı → atla
+    matches.push(m);
   }
 
-  // 4. Günlük endpoint sonuçları için lig filtresi uygula.
-  //    WC sezon eventi (4429) her durumda geçer; günlük diğer eventi DAILY_ALLOWED_LEAGUES'e bakır.
-  const wcSeasonIds = new Set(wcEvents.map(e => e.idEvent));
-  const filtered = merged.filter(e =>
-    wcSeasonIds.has(e.idEvent) || DAILY_ALLOWED_LEAGUES.has(e.idLeague),
-  );
+  const sorted = matches.sort((a, b) => a.date.getTime() - b.date.getTime());
 
-  // 5. Yerel tarihe göre filtrele (bugün yerel = localToday)
-  const localToday = localDateOf(new Date(), tz);
-
-  const dayMatches: Match[] = [];
-  for (const e of filtered) {
-    if (!e.strTimestamp) continue;
-    const { date, timeStr } = utcToLocal(e.strTimestamp, tz);
-    if (localDateOf(date, tz) !== localToday) continue;  // Yerelde bugün değil → atla
-
-    const m = eventToMatch(e, cc, tz, today);
-    if (m) {
-      m.time = timeStr;   // eventToMatch içinde de ayarlanıyor ama güvence için
-      dayMatches.push(m);
-    }
-  }
-
-  const sorted = dayMatches.sort(
-    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime(),
-  );
-
-  // 6. Cache'e kaydet
-  if (sorted.length > 0) await writeDailyCache(sorted, today, cc);
+  // 7. Cache'e kaydet
+  if (sorted.length > 0) await writeCache(sorted, localDate, cc);
   return sorted;
 }
 
 export async function clearSportsDbCache(countryCode?: string): Promise<void> {
   try {
     if (countryCode) {
-      await AsyncStorage.multiRemove([CK(countryCode), CDK(countryCode)]);
+      await AsyncStorage.multiRemove([CK(countryCode), CDK(countryCode), CTK(countryCode)]);
     } else {
       const allKeys = await AsyncStorage.getAllKeys();
-      const daily   = allKeys.filter(k => k.startsWith('tsdb_daily_'));
-      await AsyncStorage.multiRemove([
-        ...daily,
-        WC_SEASON_KEY,
-        WC_SEASON_TIME_KEY,
-      ]);
+      const toRemove = allKeys.filter(k => k.startsWith('tsdb_'));
+      await AsyncStorage.multiRemove(toRemove);
     }
   } catch { /* */ }
 }

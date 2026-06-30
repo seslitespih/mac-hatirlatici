@@ -24,10 +24,11 @@
       "volleyball": "Pallavolo",
       "motorsport": "Motorsport"
     },
-    "worldcupBanner": "Coppa del Mondo FIFA 2026",
+    "worldcupBanner": "Coppa del Mondo 2026",
     "worldcupSubtitle": "Canali di trasmissione e orari di tutte le partite",
     "reminder15min": "Promemoria attivato — 15 min prima del calcio d'inizio",
-    "reminderNoGoal": "(Solo orario partita — nessun avviso gol)"
+    "reminderNoGoal": "(Solo orario partita — nessun avviso gol)",
+    "noChannel": "Info trasmittente non disponibile"
   },
   "teams": {
     "title": "Seleziona Squadre",
@@ -81,14 +82,14 @@
   },
   "paywall": {
     "subtitle": "Guida Sport TV",
-    "trial": "1 MESE GRATUITO",
+    "trial": "10 GIORNI GRATUITI",
     "feature0": "Tutte le partite di oggi — ora e canale corretti",
     "feature1": "Promemoria 15 minuti prima della partita",
     "feature2": "Programma TV in 15 paesi",
     "feature3": "Aggiornamenti automatici giornalieri",
     "pricePerMonth": "/mese",
-    "priceNote": "Dopo il periodo di prova, fatturato a {{price}}/mese. Cancella quando vuoi.",
-    "startFree": "Inizia 1 mese gratis",
+    "priceNote": "Dopo i 10 giorni di prova, fatturato a {{price}}/mese. Cancella quando vuoi.",
+    "startFree": "Inizia gratis — 10 giorni",
     "restore": "Ripristina acquisti",
     "legalIos": "Addebitato al tuo account iTunes. L'abbonamento si rinnova automaticamente se non viene cancellato almeno 24 ore prima della fine del periodo corrente.",
     "legalAndroid": "Addebitato al tuo account Google Play. Cancella quando vuoi tramite Google Play.",
@@ -96,6 +97,9 @@
     "errorPurchase": "Impossibile completare l'acquisto. Riprova.",
     "notFoundTitle": "Non trovato",
     "errorNoSub": "Nessun abbonamento attivo trovato per questo account.",
-    "errorRestore": "Impossibile ripristinare gli acquisti."
+    "errorRestore": "Impossibile ripristinare gli acquisti.",
+    "offeringError": "Impossibile caricare le opzioni di abbonamento. Controlla la tua connessione internet.",
+    "privacyPolicy": "Informativa sulla privacy",
+    "termsOfUse": "Termini di utilizzo"
   }
 }

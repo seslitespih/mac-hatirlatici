@@ -13,6 +13,7 @@ import { useNotifications } from '../../hooks/useNotifications';
 import { useCountry } from '../../contexts/CountryContext';
 import { SUPPORTED_COUNTRIES } from '../../constants/countryChannels';
 import { useTheme } from '../../contexts/ThemeContext';
+import PaywallScreen from '../../components/PaywallScreen';
 
 export default function SettingsScreen() {
   const { t, i18n } = useTranslation();
@@ -24,6 +25,7 @@ export default function SettingsScreen() {
 
   const [langModal,    setLangModal]    = useState(false);
   const [countryModal, setCountryModal] = useState(false);
+  const [paywallModal, setPaywallModal] = useState(false);
 
   const handleLang    = async (code: string) => {
     await changeLanguage(code);
@@ -119,6 +121,18 @@ export default function SettingsScreen() {
           </View>
         </Card>
 
+        {/* ── Premium ── */}
+        <Label text="PREMIUM" color={colors.textMuted} />
+        <TouchableOpacity
+          style={[s.premiumBtn, { backgroundColor: colors.accent }]}
+          onPress={() => setPaywallModal(true)}
+          activeOpacity={0.82}
+        >
+          <Ionicons name="star" size={18} color="#fff" />
+          <Text style={s.premiumTxt}>Get Premium — 10-Day Free Trial</Text>
+          <Ionicons name="chevron-forward" size={16} color="#fff" />
+        </TouchableOpacity>
+
         {/* ── About ── */}
         <Label text={t('settings.about')} color={colors.textMuted} />
         <Card bg={colors.bg2} border={colors.border}>
@@ -134,6 +148,17 @@ export default function SettingsScreen() {
           </View>
         </Card>
       </ScrollView>
+
+      {/* Paywall Modal */}
+      <Modal visible={paywallModal} animationType="slide" onRequestClose={() => setPaywallModal(false)}>
+        <PaywallScreen onSubscribed={() => setPaywallModal(false)} />
+        <TouchableOpacity
+          style={[s.closePaywall, { backgroundColor: colors.bg2, borderColor: colors.border }]}
+          onPress={() => setPaywallModal(false)}
+        >
+          <Ionicons name="close" size={20} color={colors.text} />
+        </TouchableOpacity>
+      </Modal>
 
       {/* Language Modal */}
       <BottomModal
@@ -325,6 +350,19 @@ const s = StyleSheet.create({
   appName: { fontSize: 16, fontWeight: '800', marginBottom: 2 },
   appVer:  { fontSize: 12, fontWeight: '600', marginBottom: 4 },
   appDesc: { fontSize: 12 },
+
+  premiumBtn: {
+    flexDirection: 'row', alignItems: 'center', gap: 10,
+    marginHorizontal: 16, borderRadius: 16,
+    paddingHorizontal: 18, paddingVertical: 16,
+  },
+  premiumTxt: { flex: 1, color: '#fff', fontSize: 15, fontWeight: '700' },
+
+  closePaywall: {
+    position: 'absolute', top: 52, right: 16,
+    width: 36, height: 36, borderRadius: 18,
+    alignItems: 'center', justifyContent: 'center', borderWidth: 1,
+  },
 
   overlay:  { flex: 1, backgroundColor: 'rgba(0,0,0,0.7)', justifyContent: 'flex-end' },
   modalBox: {

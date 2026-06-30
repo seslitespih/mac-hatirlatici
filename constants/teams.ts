@@ -706,7 +706,7 @@ export const TEAMS: Team[] = [
     color: '#006600',
   },
 
-  // ===================== FIFA DÜNYA KUPASI 2026 — TÜM TAKIMLAR =====================
+  // ===================== DÜNYA KUPASI 2026 — TÜM TAKIMLAR =====================
   // Avrupa (UEFA)
   { id: 'belgium',       name: 'Belçika',        nameLocal: { tr: 'Belçika',        en: 'Belgium',       es: 'Bélgica',          pt: 'Bélgica',          fr: 'Belgique',          de: 'Belgien',        ar: 'بلجيكا',                    it: 'Belgio'              }, league: 'Milli Takımlar', leagueId: 'national', country: 'Belgium',        emoji: '🇧🇪', color: '#EF0000' },
   { id: 'netherlands',   name: 'Hollanda',        nameLocal: { tr: 'Hollanda',        en: 'Netherlands',   es: 'Países Bajos',     pt: 'Países Baixos',    fr: 'Pays-Bas',          de: 'Niederlande',    ar: 'هولندا',                    it: 'Paesi Bassi'         }, league: 'Milli Takımlar', leagueId: 'national', country: 'Netherlands',    emoji: '🇳🇱', color: '#FF6700' },

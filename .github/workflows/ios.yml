@@ -1,9 +1,12 @@
 name: iOS App Store Build
 
 on:
-  push:
-    branches: [main, master]
   workflow_dispatch:
+    inputs:
+      build_number:
+        description: 'iOS build number (must be > 71)'
+        required: true
+        default: '74'
 
 jobs:
   build:
@@ -76,7 +79,7 @@ jobs:
         env:
           NODE_BINARY: /opt/homebrew/opt/node@22/bin/node
           EXPO_NO_COCOAPODS_INSTALL: 1
-          BUILD_NUMBER: ${{ github.run_number }}
+          BUILD_NUMBER: ${{ github.event.inputs.build_number || '74' }}
         run: npx expo prebuild --platform ios --clean
 
       # Podfile uyumluluk yamaları
@@ -84,6 +87,21 @@ jobs:
         run: |
           sed -i '' '/:privacy_file_aggregation_enabled/d' ios/Podfile
           python3 -c "c=open('ios/Podfile').read();c=c.replace('platform :ios','use_frameworks! :linkage => :static\nplatform :ios',1);open('ios/Podfile','w').write(c)"
+          # fmt/Xcode 26 consteval fix: patch fmt pod build flags
+          cat >> ios/Podfile << 'RUBY'
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    next unless target.name == 'fmt'
+    target.build_configurations.each do |config|
+      flags = config.build_settings['OTHER_CPLUSPLUSFLAGS'] || ['$(inherited)']
+      flags = [flags] unless flags.is_a?(Array)
+      flags << '-DFMT_CONSTEVAL=constexpr' unless flags.include?('-DFMT_CONSTEVAL=constexpr')
+      config.build_settings['OTHER_CPLUSPLUSFLAGS'] = flags
+    end
+  end
+end
+RUBY
           echo "=== Podfile first 15 lines ==="
           head -15 ios/Podfile
 

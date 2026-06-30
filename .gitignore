@@ -8,7 +8,10 @@ web-build/
 expo-env.d.ts
 
 # Build output
-android/
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
 ios/
 *.apk
 *.aab
