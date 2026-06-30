@@ -91,7 +91,7 @@ android {
         applicationId 'com.machatirlatici.app'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 52
+        versionCode 53
         versionName "1.2.1"
     }
     signingConfigs {
