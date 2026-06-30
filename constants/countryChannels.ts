@@ -115,7 +115,8 @@ export const COUNTRY_CHANNEL_MAP: Record<string, Record<string, string[]>> = {
     saudi:       ['DAZN'],
     liganos:     ['DAZN'],
     national:    ['La 1 (RTVE)', 'Telecinco'],
-    wc2026:      ['La 1 (RTVE)', 'Telecinco'],
+    wc2026:          ['DAZN'],
+    wc2026_spain:    ['La 1 (RTVE)', 'Cuatro', 'DAZN'],
     euroleague:  ['DAZN'],
     eurocup:     ['DAZN'],
     bsl:         [],
@@ -167,7 +168,9 @@ export const COUNTRY_CHANNEL_MAP: Record<string, Record<string, string[]>> = {
     saudi:       ['beIN Sports'],
     liganos:     ['Canal+'],
     national:    ['TF1', 'France 2'],
-    wc2026:      ['TF1', 'M6', 'France 2', 'Canal+'],
+    wc2026:             ['beIN Sports', 'M6', 'TF1'],
+    wc2026_france:      ['M6', 'beIN Sports'],
+    wc2026_cotedivoire: ['beIN Sports'],
     euroleague:  ['beIN Sports'],
     eurocup:     ['beIN Sports'],
     bsl:         [],
@@ -889,6 +892,7 @@ export function getChannelForCountry(
   countryCode: string,
   leagueId: string,
   homeTeamId?: string,
+  awayTeamId?: string,
 ): string {
   const countryMap = COUNTRY_CHANNEL_MAP[countryCode] ?? COUNTRY_CHANNEL_MAP['TR'];
   const channels = countryMap[leagueId] ?? [];
@@ -902,9 +906,15 @@ export function getChannelForCountry(
     if (homeTeamId && freeTeams.includes(homeTeamId)) return 'TV8';
   }
 
-  // Takım bazlı özel kanal (ör. GB'de WC maçları ITV/BBC arası bölünmüş)
+  // Ev sahibi takım bazlı özel kanal (ör. GB'de WC maçları ITV/BBC arası bölünmüş, ES'de Spain→La 1)
   if (homeTeamId) {
     const specific = countryMap[`${leagueId}_${homeTeamId}`]?.[0];
+    if (specific) return specific;
+  }
+
+  // Deplasman takım bazlı özel kanal (ör. ES'de Spain away→La 1)
+  if (awayTeamId) {
+    const specific = countryMap[`${leagueId}_${awayTeamId}`]?.[0];
     if (specific) return specific;
   }
 

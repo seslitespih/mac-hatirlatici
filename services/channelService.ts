@@ -13,8 +13,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { COUNTRY_CHANNEL_MAP } from '../constants/countryChannels';
 
 const REMOTE_URL    = 'https://raw.githubusercontent.com/seslitespih/mac-hatirlatici/main/assets/channels.json';
-const CACHE_KEY     = 'channel_remote_v1';
-const CACHE_TIME_KEY = 'channel_remote_time_v1';
+const CACHE_KEY     = 'channel_remote_v2';
+const CACHE_TIME_KEY = 'channel_remote_time_v2';
 const TTL_MS        = 24 * 60 * 60 * 1000; // 24 saat
 
 type ChannelMap = Record<string, Record<string, string[]>>;
@@ -72,10 +72,15 @@ export function getChannelsSync(map: ChannelMap, cc: string, leagueId: string): 
   return map[cc]?.[leagueId] ?? map['TR']?.[leagueId] ?? [];
 }
 
-export function getFirstChannel(map: ChannelMap, cc: string, leagueId: string, homeTeamId?: string): string {
-  // Takım bazlı özel kanal (ör. GB'de WC maçları ITV/BBC arası bölünmüş)
+export function getFirstChannel(map: ChannelMap, cc: string, leagueId: string, homeTeamId?: string, awayTeamId?: string): string {
+  // Ev sahibi takım bazlı özel kanal (ör. ES'de Spain→La 1, GB'de ITV/BBC)
   if (homeTeamId) {
     const specific = map[cc]?.[`${leagueId}_${homeTeamId}`]?.[0];
+    if (specific) return specific;
+  }
+  // Deplasman takım bazlı özel kanal (ör. ES'de Spain away→La 1)
+  if (awayTeamId) {
+    const specific = map[cc]?.[`${leagueId}_${awayTeamId}`]?.[0];
     if (specific) return specific;
   }
   return getChannelsSync(map, cc, leagueId)[0] ?? '';

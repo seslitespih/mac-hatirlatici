@@ -6,7 +6,6 @@ import {
   MatchGroup,
 } from '../services/matchService';
 import { fetchSportsDbMatches, clearSportsDbCache } from '../services/sportsDbService';
-import { fetchTRMatches, clearTRCache }             from '../services/hangikanalda';
 import { fetchMotorsportMatches, clearMotorsportCache } from '../services/motorsportService';
 import { getMatchWindow, getDeviceTimezone } from '../utils/timezone';
 import { scheduleAllNotifications }            from '../services/notificationService';
@@ -34,58 +33,17 @@ export function useMatches(
     try {
       let matches: Match[];
 
-      if (countryCode === 'TR') {
-        // TR: hangikanalda (Türk ligleri) + TheSportsDB (WC + uluslararası)
-        if (force) {
-          await Promise.all([clearTRCache(), clearSportsDbCache('TR')]);
-        }
-        const [trMatches, intlMatches] = await Promise.all([
-          fetchTRMatches(),
-          fetchSportsDbMatches('TR'),
+      if (force) {
+        await Promise.all([
+          clearSportsDbCache(countryCode),
+          clearMotorsportCache(countryCode),
         ]);
-
-        // TheSportsDB'de FT (bitmiş) olan maçların IST saatlerini topla.
-        // Hangikanalda bazen dün gece oynanan maçları (01:00, 04:00 gibi h<9) bugünkü
-        // listesinde bırakır; trTimeToDate bunları yarına atar → yanlış görünür.
-        // Bu saatlerde TheSportsDB FT varsa hangikanalda maçını gizle.
-        const finishedIST = new Set(
-          intlMatches
-            .filter(m => m.status === 'finished')
-            .map(m => m.time),
-        );
-        const cleanedTR = trMatches.filter(m => {
-          if (m.status !== 'scheduled') return true;
-          const h = parseInt((m.time ?? '09').split(':')[0], 10);
-          return h >= 9 || !finishedIST.has(m.time);
-        });
-
-        // Merge: hangikanalda önce (Türk kanalları doğru), sonra sadece TheSportsDB'ye özgün maçlar
-        const trKeys = new Set(cleanedTR.map(m => `${m.homeTeam}|${m.awayTeam}`));
-        // İkincil dedup: away takım adı + 5-dakika zaman dilimi (TR vs EN takım adı farkını kapatır)
-        // Örn: "almanya|paraguay" ≠ "germany|paraguay" ama her ikisinde away="paraguay" + aynı saat
-        const trAwaySlot = new Set(
-          cleanedTR.map(m => `${m.awayTeam}|${Math.floor(new Date(m.date).getTime() / (5 * 60 * 1000))}`)
-        );
-        const extras = intlMatches.filter(m => {
-          if (trKeys.has(`${m.homeTeam}|${m.awayTeam}`)) return false;
-          const slot = Math.floor(new Date(m.date).getTime() / (5 * 60 * 1000));
-          if (trAwaySlot.has(`${m.awayTeam}|${slot}`)) return false;
-          return true;
-        });
-        matches = [...cleanedTR, ...extras];
-      } else {
-        if (force) {
-          await Promise.all([
-            clearSportsDbCache(countryCode),
-            clearMotorsportCache(countryCode),
-          ]);
-        }
-        const [sportsMatches, motorMatches] = await Promise.all([
-          fetchSportsDbMatches(countryCode),
-          fetchMotorsportMatches(countryCode),
-        ]);
-        matches = [...sportsMatches, ...motorMatches];
       }
+      const [sportsMatches, motorMatches] = await Promise.all([
+        fetchSportsDbMatches(countryCode),
+        fetchMotorsportMatches(countryCode),
+      ]);
+      matches = [...sportsMatches, ...motorMatches];
 
       if (matches.length > 0) {
         setAllMatches(matches);
