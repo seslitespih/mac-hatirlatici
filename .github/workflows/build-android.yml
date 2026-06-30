@@ -74,27 +74,20 @@ jobs:
 
       - name: Install NDK and CMake
         run: |
-          sdkmanager "ndk;26.1.10909125" "cmake;3.22.1"
+          sdkmanager "ndk;28.2.13676358" "cmake;3.22.1"
 
       - name: Create local.properties
         run: echo "sdk.dir=$ANDROID_HOME" > android/local.properties
 
-      - name: Decode keystore
-        run: echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/mac-hatirlatici.keystore
-
       - name: Build release AAB
         run: cd android && chmod +x ./gradlew && ./gradlew bundleRelease --no-daemon
         env:
-          KEYSTORE_FILE: mac-hatirlatici.keystore
-          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
-          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
           NODE_ENV: production
           GRADLE_OPTS: "-Dorg.gradle.daemon=false -Xmx4g"
 
       - name: Upload AAB
         uses: actions/upload-artifact@v4
         with:
-          name: app-release-v1.2.0-${{ github.run_number }}
+          name: HangiKanalda-v53.aab
           path: android/app/build/outputs/bundle/release/app-release.aab
           retention-days: 14
