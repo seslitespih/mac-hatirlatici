@@ -89,23 +89,15 @@ jobs:
       - name: Create local.properties
         run: echo "sdk.dir=$ANDROID_HOME" > android/local.properties
 
-      - name: Block sonatype snapshot repo (avoids 504 timeouts)
+      - name: Patch react-native gradle plugin (sonatype snapshotsOnly fix)
         run: |
-          mkdir -p ~/.gradle/init.d
-          cat > ~/.gradle/init.d/block-sonatype.gradle << 'GRADLE'
-          allprojects {
-            afterEvaluate { project ->
-              project.repositories.removeAll { repo ->
-                repo instanceof MavenArtifactRepository &&
-                repo.url.toString().contains('sonatype.org')
-              }
-              project.buildscript.repositories.removeAll { repo ->
-                repo instanceof MavenArtifactRepository &&
-                repo.url.toString().contains('sonatype.org')
-              }
-            }
-          }
-          GRADLE
+          FILE="node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/src/main/kotlin/com/facebook/react/utils/DependencyUtils.kt"
+          # Add snapshotsOnly() so release artifacts are NOT fetched from sonatype (avoids 504)
+          sed -i 's|mavenRepoFromUrl("https://oss.sonatype.org/content/repositories/snapshots/") { repo ->$|mavenRepoFromUrl("https://oss.sonatype.org/content/repositories/snapshots/") { repo ->\n          repo.mavenContent { it.snapshotsOnly() }|' "$FILE"
+          echo "Patched DependencyUtils.kt:"
+          grep -A3 "sonatype" "$FILE"
+          # Remove compiled cache so plugin is recompiled with the fix
+          rm -rf node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/build/classes
 
       - name: Install patchelf 0.18 (16KB page size support)
         run: |
