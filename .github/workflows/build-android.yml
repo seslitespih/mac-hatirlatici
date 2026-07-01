@@ -103,7 +103,7 @@ jobs:
           NODE_ENV: production
           GRADLE_OPTS: "-Dorg.gradle.daemon=false -Xmx4g"
 
-      - name: Fix 16KB ELF alignment (Python ELF patcher + re-sign)
+      - name: Fix 16KB ELF alignment + re-sign
         run: |
           python3 << 'PYEOF'
           import struct, os, zipfile, shutil, subprocess
@@ -112,8 +112,7 @@ jobs:
 
           def fix_elf_alignment(data):
               """Insert padding between PT_LOAD segments so that
-              p_offset mod 16384 == p_vaddr mod 16384 for every LOAD segment.
-              Returns new bytearray, or None if already aligned / not ELF."""
+              p_offset mod 16384 == p_vaddr mod 16384 for every LOAD segment."""
               if data[:4] != b'\x7fELF' or data[4] != 2 or data[5] != 1:
                   return None
               PT_LOAD = 1
@@ -126,11 +125,9 @@ jobs:
               segs = []
               for i in range(e_phnum):
                   b = e_phoff + i * e_phentsize
-                  segs.append({
-                      'hdr_off': b, 'p_type': ru4(b),
-                      'p_offset': ru8(b+8), 'p_vaddr': ru8(b+0x10),
-                      'p_align': ru8(b+0x30),
-                  })
+                  segs.append({'hdr_off': b, 'p_type': ru4(b),
+                               'p_offset': ru8(b+8), 'p_vaddr': ru8(b+0x10),
+                               'p_align': ru8(b+0x30)})
               loads = sorted([s for s in segs if s['p_type']==PT_LOAD],
                              key=lambda s: s['p_offset'])
               def bad(s):
@@ -138,34 +135,27 @@ jobs:
                           (s['p_offset'] % TARGET_ALIGN) != (s['p_vaddr'] % TARGET_ALIGN))
               if not any(bad(s) for s in loads):
                   return None
-              # Calculate insertions in ORIGINAL coordinate space
               insertions = []; cum = 0
               for seg in loads[1:]:
                   cur = seg['p_offset'] + cum
                   req = seg['p_vaddr'] % TARGET_ALIGN
                   rem = cur % TARGET_ALIGN
-                  if rem == req:
-                      continue
+                  if rem == req: continue
                   pad = (req - rem) if req > rem else (TARGET_ALIGN - rem + req)
                   insertions.append((seg['p_offset'], pad))
                   cum += pad
               if not insertions:
                   return None
-              # Build new file data
               new = bytearray(); prev = 0
               for pos, pad in insertions:
-                  new += data[prev:pos]
-                  new += b'\x00' * pad
-                  prev = pos
+                  new += data[prev:pos]; new += b'\x00' * pad; prev = pos
               new += data[prev:]
-              # Offset shift helper (all positions in ORIGINAL coordinates)
               def shift(o):
                   a = 0
                   for pos, pad in insertions:
                       if o >= pos: a += pad
                   return o + a
               def wu8(buf, o, v): struct.pack_into('<Q', buf, o, v)
-              # Update program headers
               for seg in segs:
                   h = shift(seg['hdr_off'])
                   if seg['p_type'] == PT_LOAD:
@@ -173,77 +163,76 @@ jobs:
                       wu8(new, h+0x30, max(seg['p_align'], TARGET_ALIGN))
                   elif seg['p_offset'] > 0:
                       wu8(new, h+8, shift(seg['p_offset']))
-              # Update section headers
               for i in range(e_shnum):
                   sh = e_shoff + i * e_shentsize
                   nsh = shift(sh)
                   sht = struct.unpack_from('<I', data, sh+4)[0]
                   if sht not in (0, 8):
-                      wu8(new, nsh+0x18, shift(struct.unpack_from('<Q', data, sh+0x18)[0]))
+                      wu8(new, nsh+0x18,
+                          shift(struct.unpack_from('<Q', data, sh+0x18)[0]))
               wu8(new, 0x28, shift(e_shoff))
               return new
 
           WORKSPACE = os.environ['GITHUB_WORKSPACE']
           AAB      = WORKSPACE + '/android/app/build/outputs/bundle/release/app-release.aab'
           KEYSTORE = WORKSPACE + '/android/app/mac-hatirlatici.keystore'
-          WORK     = '/tmp/aab_16kb'
-          CONTENTS = WORK + '/contents'
-          UNSIGNED = WORK + '/unsigned.aab'
-
-          if os.path.exists(WORK): shutil.rmtree(WORK)
-          os.makedirs(CONTENTS)
-
-          print("Extracting AAB...")
-          with zipfile.ZipFile(AAB) as z:
-              z.extractall(CONTENTS)
-
-          # Remove old signature so we can re-sign cleanly
-          metainf = os.path.join(CONTENTS, 'META-INF')
-          if os.path.exists(metainf):
-              shutil.rmtree(metainf)
+          UNSIGNED = '/tmp/aab_patched_unsigned.aab'
 
           patched = skipped = 0
-          for root, _, files in os.walk(CONTENTS):
-              for fname in files:
-                  if not fname.endswith('.so'):
-                      continue
-                  path = os.path.join(root, fname)
-                  with open(path, 'rb') as f:
-                      orig = bytearray(f.read())
-                  fixed = fix_elf_alignment(orig)
-                  if fixed:
-                      with open(path, 'wb') as f:
-                          f.write(fixed)
-                      print(f'Patched: {fname} (+{len(fixed)-len(orig)} bytes)')
-                      patched += 1
-                  else:
-                      skipped += 1
-          print(f'ELF fix complete: {patched} patched, {skipped} already-OK/skipped')
 
-          print("Re-zipping...")
-          os.chdir(CONTENTS)
-          subprocess.run(['zip', '-r', UNSIGNED, '.'], check=True, capture_output=True)
-          os.chdir(WORKSPACE)
+          # Directly copy from original ZIP to new ZIP — preserves entry names,
+          # compression types, and metadata without extraction to disk.
+          # (Extracting + zip -r adds unwanted "./" prefix to entry names.)
+          with zipfile.ZipFile(AAB, 'r') as src:
+              with zipfile.ZipFile(UNSIGNED, 'w', allowZip64=True) as dst:
+                  for info in src.infolist():
+                      if info.filename.startswith('META-INF/'):
+                          continue  # drop old signing so jarsigner can re-sign
+                      data = src.read(info.filename)
+                      if info.filename.endswith('.so'):
+                          fixed = fix_elf_alignment(bytearray(data))
+                          if fixed:
+                              data = bytes(fixed)
+                              print(f'Patched: {info.filename.split("/")[-1]} (+{len(data)-info.file_size}B)')
+                              patched += 1
+                          else:
+                              skipped += 1
+                      dst.writestr(info, data)
 
-          print("Re-signing with jarsigner...")
-          subprocess.run([
+          print(f'ELF fix: {patched} patched, {skipped} already-OK/non-ELF')
+
+          # Sign with jarsigner (v1 JAR signing — required for Play Store AAB upload)
+          result = subprocess.run([
               'jarsigner',
-              '-keystore', KEYSTORE,
-              '-storepass', 'MacHatirlatici2024!',
-              '-keypass',   'MacHatirlatici2024!',
-              '-sigalg',    'SHA256withRSA',
-              '-digestalg', 'SHA-256',
+              '-keystore',   KEYSTORE,
+              '-storepass',  'MacHatirlatici2024!',
+              '-keypass',    'MacHatirlatici2024!',
+              '-sigalg',     'SHA256withRSA',
+              '-digestalg',  'SHA-256',
               UNSIGNED,
               'mac-hatirlatici',
-          ], check=True)
+          ], capture_output=True, text=True)
+          print(result.stdout.strip())
+          if result.returncode != 0:
+              print('jarsigner FAILED:', result.stderr)
+              exit(1)
+
+          # Quick verify
+          v = subprocess.run(['jarsigner', '-verify', UNSIGNED],
+                             capture_output=True, text=True)
+          first_line = v.stdout.strip().split('\n')[0]
+          print(f'Verify: {first_line}')
+          if 'jar verified' not in v.stdout:
+              print('Verify FAILED:', v.stdout, v.stderr)
+              exit(1)
 
           shutil.copy2(UNSIGNED, AAB)
-          print('Done — 16KB ELF alignment fixed and AAB re-signed')
+          print('Done — 16KB-aligned + re-signed AAB ready')
           PYEOF
 
       - name: Upload AAB
         uses: actions/upload-artifact@v4
         with:
-          name: HangiKanalda-v56.aab
+          name: HangiKanalda-v57.aab
           path: android/app/build/outputs/bundle/release/app-release.aab
           retention-days: 14

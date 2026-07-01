@@ -26,7 +26,7 @@ module.exports = {
         backgroundColor: '#0A1831',
       },
       package: 'com.machatirlatici.app',
-      versionCode: parseInt(process.env.VERSION_CODE ?? '56'),
+      versionCode: parseInt(process.env.VERSION_CODE ?? '57'),
       permissions: [
         'android.permission.RECEIVE_BOOT_COMPLETED',
         'android.permission.VIBRATE',
