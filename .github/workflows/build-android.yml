@@ -81,9 +81,10 @@ jobs:
 
       - name: Install patchelf 0.18 (16KB page size support)
         run: |
+          mkdir -p /tmp/patchelf_extract
           wget -q https://github.com/NixOS/patchelf/releases/download/0.18.0/patchelf-0.18.0-x86_64.tar.gz -O /tmp/patchelf.tar.gz
-          tar -xzf /tmp/patchelf.tar.gz -C /tmp
-          sudo cp /tmp/bin/patchelf /usr/local/bin/patchelf
+          tar -xzf /tmp/patchelf.tar.gz -C /tmp/patchelf_extract
+          sudo cp /tmp/patchelf_extract/bin/patchelf /usr/local/bin/patchelf
           patchelf --version
 
       - name: Build release AAB
