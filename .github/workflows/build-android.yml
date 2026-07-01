@@ -92,20 +92,10 @@ jobs:
       - name: Patch react-native gradle plugin (sonatype snapshotsOnly fix)
         run: |
           FILE="node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/src/main/kotlin/com/facebook/react/utils/DependencyUtils.kt"
-          # Add snapshotsOnly() so release artifacts are NOT fetched from sonatype (avoids 504)
           sed -i 's|mavenRepoFromUrl("https://oss.sonatype.org/content/repositories/snapshots/") { repo ->$|mavenRepoFromUrl("https://oss.sonatype.org/content/repositories/snapshots/") { repo ->\n          repo.mavenContent { it.snapshotsOnly() }|' "$FILE"
           echo "Patched DependencyUtils.kt:"
           grep -A3 "sonatype" "$FILE"
-          # Remove compiled cache so plugin is recompiled with the fix
           rm -rf node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/build/classes
-
-      - name: Install patchelf 0.18 (16KB page size support)
-        run: |
-          mkdir -p /tmp/patchelf_extract
-          wget -q https://github.com/NixOS/patchelf/releases/download/0.18.0/patchelf-0.18.0-x86_64.tar.gz -O /tmp/patchelf.tar.gz
-          tar -xzf /tmp/patchelf.tar.gz -C /tmp/patchelf_extract
-          sudo cp /tmp/patchelf_extract/bin/patchelf /usr/local/bin/patchelf
-          patchelf --version
 
       - name: Build release AAB
         run: cd android && chmod +x ./gradlew && ./gradlew bundleRelease --no-daemon
@@ -113,45 +103,147 @@ jobs:
           NODE_ENV: production
           GRADLE_OPTS: "-Dorg.gradle.daemon=false -Xmx4g"
 
-      - name: Fix 16KB ELF alignment (post-build patchelf + re-sign)
+      - name: Fix 16KB ELF alignment (Python ELF patcher + re-sign)
         run: |
-          AAB="android/app/build/outputs/bundle/release/app-release.aab"
-          WORK="/tmp/aab_16kb"
-          mkdir -p "$WORK/contents"
+          python3 << 'PYEOF'
+          import struct, os, zipfile, shutil, subprocess
 
-          # Extract AAB
-          cd "$WORK/contents" && unzip -q "$GITHUB_WORKSPACE/$AAB"
+          TARGET_ALIGN = 0x4000  # 16 KB
 
-          # Patch all .so files to 16KB ELF alignment
-          find . -name "*.so" | while read f; do
-            patchelf --page-size 16384 "$f" 2>/dev/null \
-              && echo "Patched: $(basename $f)" \
-              || echo "Skipped: $(basename $f)"
-          done
+          def fix_elf_alignment(data):
+              """Insert padding between PT_LOAD segments so that
+              p_offset mod 16384 == p_vaddr mod 16384 for every LOAD segment.
+              Returns new bytearray, or None if already aligned / not ELF."""
+              if data[:4] != b'\x7fELF' or data[4] != 2 or data[5] != 1:
+                  return None
+              PT_LOAD = 1
+              def ru8(o): return struct.unpack_from('<Q', data, o)[0]
+              def ru2(o): return struct.unpack_from('<H', data, o)[0]
+              def ru4(o): return struct.unpack_from('<I', data, o)[0]
+              e_phoff     = ru8(0x20); e_shoff = ru8(0x28)
+              e_phentsize = ru2(0x36); e_phnum = ru2(0x38)
+              e_shentsize = ru2(0x3a); e_shnum = ru2(0x3c)
+              segs = []
+              for i in range(e_phnum):
+                  b = e_phoff + i * e_phentsize
+                  segs.append({
+                      'hdr_off': b, 'p_type': ru4(b),
+                      'p_offset': ru8(b+8), 'p_vaddr': ru8(b+0x10),
+                      'p_align': ru8(b+0x30),
+                  })
+              loads = sorted([s for s in segs if s['p_type']==PT_LOAD],
+                             key=lambda s: s['p_offset'])
+              def bad(s):
+                  return (s['p_align'] < TARGET_ALIGN or
+                          (s['p_offset'] % TARGET_ALIGN) != (s['p_vaddr'] % TARGET_ALIGN))
+              if not any(bad(s) for s in loads):
+                  return None
+              # Calculate insertions in ORIGINAL coordinate space
+              insertions = []; cum = 0
+              for seg in loads[1:]:
+                  cur = seg['p_offset'] + cum
+                  req = seg['p_vaddr'] % TARGET_ALIGN
+                  rem = cur % TARGET_ALIGN
+                  if rem == req:
+                      continue
+                  pad = (req - rem) if req > rem else (TARGET_ALIGN - rem + req)
+                  insertions.append((seg['p_offset'], pad))
+                  cum += pad
+              if not insertions:
+                  return None
+              # Build new file data
+              new = bytearray(); prev = 0
+              for pos, pad in insertions:
+                  new += data[prev:pos]
+                  new += b'\x00' * pad
+                  prev = pos
+              new += data[prev:]
+              # Offset shift helper (all positions in ORIGINAL coordinates)
+              def shift(o):
+                  a = 0
+                  for pos, pad in insertions:
+                      if o >= pos: a += pad
+                  return o + a
+              def wu8(buf, o, v): struct.pack_into('<Q', buf, o, v)
+              # Update program headers
+              for seg in segs:
+                  h = shift(seg['hdr_off'])
+                  if seg['p_type'] == PT_LOAD:
+                      wu8(new, h+8,    shift(seg['p_offset']))
+                      wu8(new, h+0x30, max(seg['p_align'], TARGET_ALIGN))
+                  elif seg['p_offset'] > 0:
+                      wu8(new, h+8, shift(seg['p_offset']))
+              # Update section headers
+              for i in range(e_shnum):
+                  sh = e_shoff + i * e_shentsize
+                  nsh = shift(sh)
+                  sht = struct.unpack_from('<I', data, sh+4)[0]
+                  if sht not in (0, 8):
+                      wu8(new, nsh+0x18, shift(struct.unpack_from('<Q', data, sh+0x18)[0]))
+              wu8(new, 0x28, shift(e_shoff))
+              return new
 
-          # Remove old signing metadata
-          rm -rf META-INF
+          WORKSPACE = os.environ['GITHUB_WORKSPACE']
+          AAB      = WORKSPACE + '/android/app/build/outputs/bundle/release/app-release.aab'
+          KEYSTORE = WORKSPACE + '/android/app/mac-hatirlatici.keystore'
+          WORK     = '/tmp/aab_16kb'
+          CONTENTS = WORK + '/contents'
+          UNSIGNED = WORK + '/unsigned.aab'
 
-          # Re-zip
-          zip -r "$WORK/unsigned.aab" . >/dev/null
+          if os.path.exists(WORK): shutil.rmtree(WORK)
+          os.makedirs(CONTENTS)
 
-          # Re-sign with upload keystore
-          jarsigner \
-            -keystore "$GITHUB_WORKSPACE/android/app/mac-hatirlatici.keystore" \
-            -storepass 'MacHatirlatici2024!' \
-            -keypass 'MacHatirlatici2024!' \
-            -sigalg SHA256withRSA \
-            -digestalg SHA-256 \
-            "$WORK/unsigned.aab" \
-            mac-hatirlatici
+          print("Extracting AAB...")
+          with zipfile.ZipFile(AAB) as z:
+              z.extractall(CONTENTS)
 
-          # Replace original
-          cp "$WORK/unsigned.aab" "$GITHUB_WORKSPACE/$AAB"
-          echo "Done — 16KB ELF alignment applied and AAB re-signed"
+          # Remove old signature so we can re-sign cleanly
+          metainf = os.path.join(CONTENTS, 'META-INF')
+          if os.path.exists(metainf):
+              shutil.rmtree(metainf)
+
+          patched = skipped = 0
+          for root, _, files in os.walk(CONTENTS):
+              for fname in files:
+                  if not fname.endswith('.so'):
+                      continue
+                  path = os.path.join(root, fname)
+                  with open(path, 'rb') as f:
+                      orig = bytearray(f.read())
+                  fixed = fix_elf_alignment(orig)
+                  if fixed:
+                      with open(path, 'wb') as f:
+                          f.write(fixed)
+                      print(f'Patched: {fname} (+{len(fixed)-len(orig)} bytes)')
+                      patched += 1
+                  else:
+                      skipped += 1
+          print(f'ELF fix complete: {patched} patched, {skipped} already-OK/skipped')
+
+          print("Re-zipping...")
+          os.chdir(CONTENTS)
+          subprocess.run(['zip', '-r', UNSIGNED, '.'], check=True, capture_output=True)
+          os.chdir(WORKSPACE)
+
+          print("Re-signing with jarsigner...")
+          subprocess.run([
+              'jarsigner',
+              '-keystore', KEYSTORE,
+              '-storepass', 'MacHatirlatici2024!',
+              '-keypass',   'MacHatirlatici2024!',
+              '-sigalg',    'SHA256withRSA',
+              '-digestalg', 'SHA-256',
+              UNSIGNED,
+              'mac-hatirlatici',
+          ], check=True)
+
+          shutil.copy2(UNSIGNED, AAB)
+          print('Done — 16KB ELF alignment fixed and AAB re-signed')
+          PYEOF
 
       - name: Upload AAB
         uses: actions/upload-artifact@v4
         with:
-          name: HangiKanalda-v55.aab
+          name: HangiKanalda-v56.aab
           path: android/app/build/outputs/bundle/release/app-release.aab
           retention-days: 14
