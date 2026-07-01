@@ -24,6 +24,13 @@ buildscript {
 apply plugin: "com.facebook.react.rootproject"
 
 allprojects {
+    // Block release artifacts from being resolved via sonatype snapshots (avoids 504 timeouts)
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            // no-op: just ensures configuration is eagerly evaluated
+        }
+    }
+
     repositories {
         maven {
             // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
@@ -37,5 +44,11 @@ allprojects {
         google()
         mavenCentral()
         maven { url 'https://www.jitpack.io' }
+
+        // Sonatype: only for actual -SNAPSHOT versions, avoids 504 timeouts on release lookups
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots/'
+            mavenContent { snapshotsOnly() }
+        }
     }
 }
