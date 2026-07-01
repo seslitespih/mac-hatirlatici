@@ -79,6 +79,13 @@ jobs:
       - name: Create local.properties
         run: echo "sdk.dir=$ANDROID_HOME" > android/local.properties
 
+      - name: Install patchelf 0.18 (16KB page size support)
+        run: |
+          wget -q https://github.com/NixOS/patchelf/releases/download/0.18.0/patchelf-0.18.0-x86_64.tar.gz -O /tmp/patchelf.tar.gz
+          tar -xzf /tmp/patchelf.tar.gz -C /tmp
+          sudo cp /tmp/bin/patchelf /usr/local/bin/patchelf
+          patchelf --version
+
       - name: Build release AAB
         run: cd android && chmod +x ./gradlew && ./gradlew bundleRelease --no-daemon
         env:
@@ -88,6 +95,6 @@ jobs:
       - name: Upload AAB
         uses: actions/upload-artifact@v4
         with:
-          name: HangiKanalda-v53.aab
+          name: HangiKanalda-v54.aab
           path: android/app/build/outputs/bundle/release/app-release.aab
           retention-days: 14
