@@ -113,9 +113,45 @@ jobs:
           NODE_ENV: production
           GRADLE_OPTS: "-Dorg.gradle.daemon=false -Xmx4g"
 
+      - name: Fix 16KB ELF alignment (post-build patchelf + re-sign)
+        run: |
+          AAB="android/app/build/outputs/bundle/release/app-release.aab"
+          WORK="/tmp/aab_16kb"
+          mkdir -p "$WORK/contents"
+
+          # Extract AAB
+          cd "$WORK/contents" && unzip -q "$GITHUB_WORKSPACE/$AAB"
+
+          # Patch all .so files to 16KB ELF alignment
+          find . -name "*.so" | while read f; do
+            patchelf --page-size 16384 "$f" 2>/dev/null \
+              && echo "Patched: $(basename $f)" \
+              || echo "Skipped: $(basename $f)"
+          done
+
+          # Remove old signing metadata
+          rm -rf META-INF
+
+          # Re-zip
+          zip -r "$WORK/unsigned.aab" . >/dev/null
+
+          # Re-sign with upload keystore
+          jarsigner \
+            -keystore "$GITHUB_WORKSPACE/android/app/mac-hatirlatici.keystore" \
+            -storepass 'MacHatirlatici2024!' \
+            -keypass 'MacHatirlatici2024!' \
+            -sigalg SHA256withRSA \
+            -digestalg SHA-256 \
+            "$WORK/unsigned.aab" \
+            mac-hatirlatici
+
+          # Replace original
+          cp "$WORK/unsigned.aab" "$GITHUB_WORKSPACE/$AAB"
+          echo "Done — 16KB ELF alignment applied and AAB re-signed"
+
       - name: Upload AAB
         uses: actions/upload-artifact@v4
         with:
-          name: HangiKanalda-v54.aab
+          name: HangiKanalda-v55.aab
           path: android/app/build/outputs/bundle/release/app-release.aab
           retention-days: 14

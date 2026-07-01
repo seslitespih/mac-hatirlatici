@@ -91,7 +91,7 @@ android {
         applicationId 'com.machatirlatici.app'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 54
+        versionCode 55
         versionName "1.2.1"
     }
     signingConfigs {
@@ -150,22 +150,6 @@ android {
     }
 }
 
-// Patch prebuilt .so files to 16KB page size alignment (required by Google Play since Nov 2025)
-tasks.configureEach { task ->
-    if (task.name == 'stripReleaseDebugSymbols') {
-        task.doLast {
-            def strippedLibsDir = new File("${buildDir}/intermediates/stripped_native_libs")
-            if (strippedLibsDir.exists()) {
-                fileTree(strippedLibsDir).include('**/*.so').each { soFile ->
-                    exec {
-                        commandLine 'patchelf', '--page-size', '16384', soFile.absolutePath
-                        ignoreExitValue = true
-                    }
-                }
-            }
-        }
-    }
-}
 
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
