@@ -94,15 +94,15 @@ jobs:
           mkdir -p ~/.gradle/init.d
           cat > ~/.gradle/init.d/block-sonatype.gradle << 'GRADLE'
           allprojects {
-            buildscript {
-              repositories.removeAll { repo ->
+            afterEvaluate { project ->
+              project.repositories.removeAll { repo ->
                 repo instanceof MavenArtifactRepository &&
                 repo.url.toString().contains('sonatype.org')
               }
-            }
-            repositories.removeAll { repo ->
-              repo instanceof MavenArtifactRepository &&
-              repo.url.toString().contains('sonatype.org')
+              project.buildscript.repositories.removeAll { repo ->
+                repo instanceof MavenArtifactRepository &&
+                repo.url.toString().contains('sonatype.org')
+              }
             }
           }
           GRADLE
