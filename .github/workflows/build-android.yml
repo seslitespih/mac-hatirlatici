@@ -89,6 +89,24 @@ jobs:
       - name: Create local.properties
         run: echo "sdk.dir=$ANDROID_HOME" > android/local.properties
 
+      - name: Block sonatype snapshot repo (avoids 504 timeouts)
+        run: |
+          mkdir -p ~/.gradle/init.d
+          cat > ~/.gradle/init.d/block-sonatype.gradle << 'GRADLE'
+          allprojects {
+            buildscript {
+              repositories.removeAll { repo ->
+                repo instanceof MavenArtifactRepository &&
+                repo.url.toString().contains('sonatype.org')
+              }
+            }
+            repositories.removeAll { repo ->
+              repo instanceof MavenArtifactRepository &&
+              repo.url.toString().contains('sonatype.org')
+            }
+          }
+          GRADLE
+
       - name: Install patchelf 0.18 (16KB page size support)
         run: |
           mkdir -p /tmp/patchelf_extract
