@@ -7,7 +7,7 @@ module.exports = {
   expo: {
     name: 'Match Reminder',
     slug: 'hangi-kanalda',
-    version: '1.2.1',
+    version: '1.4.0',
     orientation: 'portrait',
     icon: './assets/icon.png',
     userInterfaceStyle: 'light',
