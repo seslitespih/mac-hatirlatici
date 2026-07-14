@@ -1,66 +1,63 @@
 {
-  "generated_at": "2026-07-13T08:21:06Z",
+  "generated_at": "2026-07-14T07:14:21Z",
   "data": {
     "ES": {
-      "2026-07-13": [
+      "2026-07-14": [
         {
-          "home": "Breidablik UBK",
-          "away": "Keflavík IK",
+          "home": "Francia",
+          "away": "España",
+          "channels": [
+            "BarTV Mundial (M300)",
+            "La 2 Cat",
+            "La 1 TVE",
+            "Teledeporte",
+            "RTVE Play"
+          ],
+          "time": "21:00"
+        },
+        {
+          "home": "Inter Club d'Escaldes",
+          "away": "Lincoln Red Imps",
           "channels": [
             "OneFootball PPV"
           ],
-          "time": "21:15"
+          "time": "18:00"
         },
         {
-          "home": "Emelec",
-          "away": "Barcelona SC",
+          "home": "Cerro Largo",
+          "away": "Defensor Sporting",
           "channels": [
-            "Zapping Internacional"
-          ],
-          "time": "01:10"
-        },
-        {
-          "home": "FC Cincinnati 2",
-          "away": "Orlando City B",
-          "channels": [
-            "OneFootball"
+            "Antel TV Internacional"
           ],
           "time": "00:00"
         },
         {
-          "home": "Denver Summit FC",
-          "away": "Houston Dash",
+          "home": "Macará",
+          "away": "Mushuc Runa",
           "channels": [
-            "NWSL+"
+            "Zapping Internacional"
           ],
-          "time": "01:00"
+          "time": "23:30"
         },
         {
-          "home": "La Luz FC",
-          "away": "Tacuarembó",
-          "channels": [
-            "Antel TV Internacional"
-          ],
-          "time": "20:00"
-        },
-        {
-          "home": "Ferro Carril Oeste Reserva",
-          "away": "Lanús Reserva",
+          "home": "CA Atlanta",
+          "away": "Colegiales",
           "channels": [
             "LPF Play"
           ],
-          "time": "15:00"
+          "time": "02:00"
         }
       ]
     },
     "PT": {
-      "2026-07-13": [
+      "2026-07-14": [
         {
           "home": "Sporting",
           "away": "Celtic Pré Época, T. Algarve",
           "channels": [
             "TVI",
-            "dazn"
+            "dazn",
+            "Betano"
           ],
           "time": "17:30"
         },
@@ -69,7 +66,9 @@
           "away": "Espanha Mundial FIFA 2026, MF",
           "channels": [
             "SIC",
-            "Sport.Tv1"
+            "Sport.Tv1",
+            "LiveModeTv",
+            "Betano"
           ],
           "time": "20:00"
         },
@@ -77,9 +76,18 @@
           "home": "Inglaterra",
           "away": "Argentina Mundial FIFA 2026, MF",
           "channels": [
-            "Sport.Tv1"
+            "Sport.Tv1",
+            "LiveModeTv"
           ],
           "time": "20:00"
+        },
+        {
+          "home": "Botafogo",
+          "away": "Santos Brasileirão 2026",
+          "channels": [
+            "Canal 11"
+          ],
+          "time": "23:30"
         },
         {
           "home": "Benfica",
@@ -91,10 +99,27 @@
           "time": "19:45"
         },
         {
+          "home": "Mirassol",
+          "away": "Grêmio Brasileirão 2026",
+          "channels": [
+            "Canal 11"
+          ],
+          "time": "00:00"
+        },
+        {
+          "home": "Vários",
+          "away": "Jogos Fut. PRAIA, Elite",
+          "channels": [
+            "Canal 11"
+          ],
+          "time": "15:10"
+        },
+        {
           "home": "Jogo",
           "away": "3º/4º Lugar Mundial FIFA 2026",
           "channels": [
-            "Sport.Tv5"
+            "Sport.Tv5",
+            "LiveModeTv"
           ],
           "time": "22:00"
         },
@@ -103,7 +128,8 @@
           "away": "FINAL Mundial FIFA 2026",
           "channels": [
             "RTP 1",
-            "Sport.Tv5"
+            "Sport.Tv5",
+            "LiveModeTv"
           ],
           "time": "20:00"
         },
@@ -152,17 +178,9 @@
       ]
     },
     "IT": {
-      "2026-07-13": [
+      "2026-07-14": [
         {
-          "home": "Francia-Marocco (Mondiali)",
-          "away": "",
-          "channels": [
-            "DAZN"
-          ],
-          "time": "22:00"
-        },
-        {
-          "home": "Spagna-Belgio (Mondiali)",
+          "home": "Francia-Spagna (Semifinale Mondiali)",
           "away": "",
           "channels": [
             "DAZN"
@@ -170,17 +188,17 @@
           "time": "21:00"
         },
         {
-          "home": "Norvegia-Inghilterra (Mondiali)",
+          "home": "Inghilterra-Argentina (Semifinale Mondiali)",
           "away": "",
           "channels": [
             "DAZN"
           ],
-          "time": "23:00"
+          "time": "21:00"
         }
       ]
     },
     "US": {
-      "2026-07-13": [
+      "2026-07-14": [
         {
           "home": "ETO FC",
           "away": "Vikingur(UEFA Champions League)",
@@ -200,6 +218,63 @@
             "Sling Blue",
             "Hulu + Live TV",
             "Peacock Premium"
+          ],
+          "time": ""
+        },
+        {
+          "home": "Argentina",
+          "away": "England(FIFA World Cup)",
+          "channels": [
+            "FOX",
+            "Telemundo",
+            "Fubo",
+            "DirecTV Stream",
+            "Sling Blue",
+            "Hulu + Live TV",
+            "Peacock Premium"
+          ],
+          "time": ""
+        },
+        {
+          "home": "One Knoxville SC",
+          "away": "Fort Wayne FC(USL League One)",
+          "channels": [
+            "ESPN+"
+          ],
+          "time": ""
+        },
+        {
+          "home": "Chattanooga Red Wolves",
+          "away": "AV Alta FC(USL League One)",
+          "channels": [
+            "ESPN+"
+          ],
+          "time": ""
+        },
+        {
+          "home": "Miami FC",
+          "away": "Indy Eleven(USL Championship)",
+          "channels": [
+            "ESPN+"
+          ],
+          "time": ""
+        },
+        {
+          "home": "Lexington SC",
+          "away": "New Mexico United(USL Championship)",
+          "channels": [
+            "ESPN+"
+          ],
+          "time": ""
+        },
+        {
+          "home": "Sporting Club Jacksonville",
+          "away": "Pittsburgh Riverhounds SC(USL Championship)",
+          "channels": [
+            "CBS Sports Network",
+            "Fubo",
+            "DirecTV Stream",
+            "Hulu + Live TV"
           ],
           "time": ""
         },
