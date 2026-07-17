@@ -2,19 +2,19 @@
 
 ---
 
-## NOME DELL'APP (max. 50 caratteri)
+## NOME DELL'APP (max. 30 caratteri)
 
 ```
-Promemoria Partite - Notifica Calcio
+Promemoria Partite - Calcio
 ```
-_(37 caratteri)_
+_(27 caratteri)_
 
 ---
 
 ## DESCRIZIONE BREVE (max. 80 caratteri)
 
 ```
-Notifica calcio 15 min prima del fischio. Non perdere mai una partita o il canale!
+Notifica calcio 15 min prima. Non perdere mai partita o canale TV!
 ```
 _(82 caratteri — versione alternativa 80 char:)_
 

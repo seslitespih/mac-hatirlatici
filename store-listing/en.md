@@ -2,12 +2,12 @@
 
 ---
 
-## APP TITLE (50 characters max)
+## APP TITLE (30 characters max)
 
 ```
-Match Reminder - Football Notification
+Match Reminder: Football Alert
 ```
-_(39 characters)_
+_(30 characters)_
 
 ---
 

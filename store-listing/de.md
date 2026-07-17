@@ -2,12 +2,12 @@
 
 ---
 
-## APP-NAME (max. 50 Zeichen)
+## APP-NAME (max. 30 Zeichen)
 
 ```
-Spiel Erinnerung - Fußball Benachrichtigung
+Spiel Erinnerung - Fußball
 ```
-_(44 Zeichen)_
+_(26 Zeichen)_
 
 ---
 

@@ -2,12 +2,12 @@
 
 ---
 
-## NOMBRE DE LA APP (máx. 50 caracteres)
+## NOMBRE DE LA APP (máx. 30 caracteres)
 
 ```
-Recordatorio de Partidos - Fútbol
+Recordatorio Partidos: Fútbol
 ```
-_(34 caracteres)_
+_(29 caracteres)_
 
 ---
 

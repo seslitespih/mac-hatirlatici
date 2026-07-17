@@ -2,21 +2,21 @@
 
 ---
 
-## UYGULAMA ADI (50 karakter maks)
+## UYGULAMA ADI (30 karakter maks)
 
 ```
-Maç Hatırlatıcı - Futbol Bildirim
+Maç Hatırlatıcı: Hangi Kanalda
 ```
-_(34 karakter)_
+_(30 karakter)_
 
 ---
 
 ## KISA AÇIKLAMA (80 karakter maks)
 
 ```
-Favori takımının maçından 15 dk önce bildirim al, kanalı kaçırma!
+Maç saati hatırlatıcı: maçtan 15 dk önce bildirim al, hangi kanalda öğren!
 ```
-_(67 karakter)_
+_(74 karakter)_
 
 ---
 

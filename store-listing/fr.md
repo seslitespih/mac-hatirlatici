@@ -2,12 +2,12 @@
 
 ---
 
-## NOM DE L'APPLICATION (50 caractères max)
+## NOM DE L'APPLICATION (30 caractères max)
 
 ```
-Rappel Match - Notification Football
+Rappel Match - Alerte Foot
 ```
-_(37 caractères)_
+_(26 caractères)_
 
 ---
 

@@ -2,12 +2,12 @@
 
 ---
 
-## NOME DO APLICATIVO (máx. 50 caracteres)
+## NOME DO APLICATIVO (máx. 30 caracteres)
 
 ```
-Lembrete de Jogo - Notificação Futebol
+Lembrete de Jogo - Futebol
 ```
-_(39 caracteres)_
+_(26 caracteres)_
 
 ---
 
