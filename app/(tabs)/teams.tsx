@@ -1,8 +1,9 @@
 import React, { useCallback } from 'react';
 import {
   View, Text, StyleSheet, TextInput, FlatList,
-  ScrollView, SafeAreaView, StatusBar, ActivityIndicator,
+  ScrollView, StatusBar, ActivityIndicator,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useTranslation } from 'react-i18next';
 import { Ionicons } from '@expo/vector-icons';
 import { useTeams } from '../../hooks/useTeams';
@@ -39,7 +40,7 @@ export default function TeamsScreen() {
   }
 
   return (
-    <SafeAreaView style={[styles.safe, { backgroundColor: colors.bg0 }]}>
+    <SafeAreaView edges={['top', 'left', 'right']} style={[styles.safe, { backgroundColor: colors.bg0 }]}>
       <StatusBar barStyle={colors.statusBar} backgroundColor={colors.bg0} />
 
       {/* Header */}

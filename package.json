@@ -8,7 +8,7 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "build:android": "eas build --platform android",
-    "postinstall": "node scripts/patch-swift.js"
+    "postinstall": "node scripts/patch-swift.js && node scripts/patch-android.js"
   },
   "dependencies": {
     "@expo/vector-icons": "~14.0.4",

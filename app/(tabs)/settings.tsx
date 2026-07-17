@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import {
   View, Text, StyleSheet, TouchableOpacity, ScrollView,
-  Switch, Modal, SafeAreaView, StatusBar, FlatList,
+  Switch, Modal, StatusBar, FlatList,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useTranslation } from 'react-i18next';
 import { Ionicons } from '@expo/vector-icons';
 import Constants from 'expo-constants';
@@ -39,7 +40,7 @@ export default function SettingsScreen() {
   const appVersion  = Constants.expoConfig?.version ?? '1.0.0';
 
   return (
-    <SafeAreaView style={[s.safe, { backgroundColor: colors.bg0 }]}>
+    <SafeAreaView edges={['top', 'left', 'right']} style={[s.safe, { backgroundColor: colors.bg0 }]}>
       <StatusBar barStyle={colors.statusBar} backgroundColor={colors.bg0} />
 
       <ScrollView

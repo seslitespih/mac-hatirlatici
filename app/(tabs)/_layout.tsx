@@ -2,11 +2,14 @@ import { Tabs } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { Ionicons } from '@expo/vector-icons';
 import { Platform } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useTheme } from '../../contexts/ThemeContext';
 
 export default function TabsLayout() {
   const { t } = useTranslation();
   const { colors } = useTheme();
+  const insets = useSafeAreaInsets();
+  const androidBottomPad = Math.max(insets.bottom, 10);
 
   return (
     <Tabs
@@ -16,8 +19,8 @@ export default function TabsLayout() {
           backgroundColor: colors.bg1,
           borderTopColor: colors.border,
           borderTopWidth: 1,
-          height: Platform.OS === 'ios' ? 85 : 65,
-          paddingBottom: Platform.OS === 'ios' ? 25 : 10,
+          height: Platform.OS === 'ios' ? 85 : 55 + androidBottomPad,
+          paddingBottom: Platform.OS === 'ios' ? 25 : androidBottomPad,
           paddingTop: 8,
         },
         tabBarActiveTintColor: colors.accent,
