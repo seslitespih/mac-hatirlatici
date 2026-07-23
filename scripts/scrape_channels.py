@@ -363,26 +363,32 @@ def scrape_MA(today: str):
             add("MA", today, time_m.group(), match_text, channels)
 
 
-# ─── TURKEY: hangikanalda.app ─────────────────────────────────────────────────
-
-TR_CHANNEL_KEYWORDS = ["TRT", "beIN", "Exxen", "S Sport", "Tivibu", "TV8", "A Spor"]
+# ─── TURKEY: hangikanalda.app JSON API ────────────────────────────────────────
+# Not: hangikanalda.app'in ana sayfa HTML'i degisti, eski CSS-selector tabanli
+# scrape her gun 0 mac buluyordu (bkz. GH Actions loglari, 18-22 Tem 2026).
+# Site zaten yapisal veriyi /api/proxy/matches ile sunuyor — dogrudan onu kullan.
+# Tum sporlari kapsar (futbol, basketbol, voleybol, motor), lig bazli filtre yok.
 
 def scrape_TR(today: str):
-    soup = get_soup("https://hangikanalda.app/")
-    if not soup:
+    try:
+        r = requests.get("https://hangikanalda.app/api/proxy/matches",
+                          headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+    except Exception as e:
+        print(f"  [ERR] hangikanalda.app API: {e}")
         return
-    for item in soup.select("[class*='match'], [class*='mac'], [class*='card'], article, li"):
-        text = item.get_text(" ", strip=True)
-        time_m = re.search(r"\b(\d{2}:\d{2})\b", text)
-        if not time_m:
-            continue
-        channels = []
-        for el in item.select("[class*='channel'], [class*='kanal'], [class*='tv'], span, a"):
-            t = el.get_text(strip=True)
-            if t and any(k in t for k in TR_CHANNEL_KEYWORDS):
-                channels.append(t)
-        if channels:
-            add("TR", today, time_m.group(1), text[:60], channels)
+
+    for sport_data in data.values():
+        for league in sport_data.get("leagues", []):
+            for m in league.get("matches", []):
+                home = (m.get("home") or "").strip()
+                away = (m.get("away") or "").strip()
+                channels = m.get("channels") or []
+                time_str = m.get("time") or ""
+                if not home or not channels:
+                    continue
+                add("TR", today, time_str, f"{home} - {away}", channels)
 
 
 # ─── Runner ───────────────────────────────────────────────────────────────────
