@@ -368,6 +368,49 @@ def scrape_MA(today: str):
 # scrape her gun 0 mac buluyordu (bkz. GH Actions loglari, 18-22 Tem 2026).
 # Site zaten yapisal veriyi /api/proxy/matches ile sunuyor — dogrudan onu kullan.
 # Tum sporlari kapsar (futbol, basketbol, voleybol, motor), lig bazli filtre yok.
+#
+# Milli takim adlari Turkce geliyor ("Turkiye", "ABD", "Cin") ama app'in asil mac
+# listesi TheSportsDB'den Ingilizce isimlerle geliyor ("Turkey Volleyball Women").
+# Uygulamadaki eslestirici (channelService.ts / teamsMatch) diyakritikleri silip
+# substring/ilk-kelime kiyaslamasi yapiyor — bu yuzden "Turkiye" ile "Turkey" hic
+# eslesmiyor. Bu tabloyla ulke adlarini TheSportsDB'nin kullandigi Ingilizce
+# forma ceviriyoruz (yalnizca TAM eslesen milli takim adlari; kulup adlarina
+# dokunulmaz). 3 harfli kisaltmalar (ABD/USA gibi) app'in 4-karakter esigini
+# hala gecemiyor — bu az sayida durum icin bilinen bir sinirlama.
+
+TR_COUNTRY_EN = {
+    "türkiye": "Turkey", "abd": "USA", "i̇ngiltere": "England", "ingiltere": "England",
+    "almanya": "Germany", "fransa": "France", "i̇talya": "Italy", "italya": "Italy",
+    "i̇spanya": "Spain", "ispanya": "Spain", "hollanda": "Netherlands", "portekiz": "Portugal",
+    "belçika": "Belgium", "belcika": "Belgium", "i̇sviçre": "Switzerland", "isvicre": "Switzerland",
+    "avusturya": "Austria", "polonya": "Poland", "çekya": "Czechia", "cekya": "Czechia",
+    "yunanistan": "Greece", "hırvatistan": "Croatia", "hirvatistan": "Croatia",
+    "sırbistan": "Serbia", "sirbistan": "Serbia", "karadağ": "Montenegro", "karadag": "Montenegro",
+    "slovenya": "Slovenia", "slovakya": "Slovakia", "romanya": "Romania", "bulgaristan": "Bulgaria",
+    "macaristan": "Hungary", "ukrayna": "Ukraine", "rusya": "Russia", "i̇sveç": "Sweden",
+    "isvec": "Sweden", "norveç": "Norway", "norvec": "Norway", "danimarka": "Denmark",
+    "finlandiya": "Finland", "i̇zlanda": "Iceland", "izlanda": "Iceland", "i̇rlanda": "Ireland",
+    "irlanda": "Ireland", "i̇skoçya": "Scotland", "iskocya": "Scotland", "galler": "Wales",
+    "kanada": "Canada", "meksika": "Mexico", "brezilya": "Brazil", "arjantin": "Argentina",
+    "şili": "Chile", "sili": "Chile", "kolombiya": "Colombia", "peru": "Peru", "uruguay": "Uruguay",
+    "ekvador": "Ecuador", "venezuela": "Venezuela", "paraguay": "Paraguay", "bolivya": "Bolivia",
+    "çin": "China", "cin": "China", "japonya": "Japan", "güney kore": "South Korea",
+    "guney kore": "South Korea", "hindistan": "India", "endonezya": "Indonesia",
+    "avustralya": "Australia", "yeni zelanda": "New Zealand", "fas": "Morocco", "mısır": "Egypt",
+    "misir": "Egypt", "nijerya": "Nigeria", "senegal": "Senegal", "cezayir": "Algeria",
+    "tunus": "Tunisia", "gana": "Ghana", "kamerun": "Cameroon", "i̇svicre": "Switzerland",
+    "katar": "Qatar", "suudi arabistan": "Saudi Arabia", "i̇ran": "Iran", "iran": "Iran",
+    "i̇srail": "Israel", "israil": "Israel", "azerbaycan": "Azerbaijan", "gürcistan": "Georgia",
+    "gurcistan": "Georgia", "kosova": "Kosovo", "kuzey makedonya": "North Macedonia",
+    "bosna hersek": "Bosnia and Herzegovina", "beyaz rusya": "Belarus", "belarus": "Belarus",
+    "letonya": "Latvia", "litvanya": "Lithuania", "estonya": "Estonia",
+}
+
+
+def _translate_country(name: str) -> str:
+    key = name.strip().lower()
+    return TR_COUNTRY_EN.get(key, name)
+
 
 def scrape_TR(today: str):
     try:
@@ -382,8 +425,8 @@ def scrape_TR(today: str):
     for sport_data in data.values():
         for league in sport_data.get("leagues", []):
             for m in league.get("matches", []):
-                home = (m.get("home") or "").strip()
-                away = (m.get("away") or "").strip()
+                home = _translate_country((m.get("home") or "").strip())
+                away = _translate_country((m.get("away") or "").strip())
                 channels = m.get("channels") or []
                 time_str = m.get("time") or ""
                 if not home or not channels:
