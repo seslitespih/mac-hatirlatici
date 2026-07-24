@@ -5,8 +5,22 @@ const IS_PROD = process.env.APP_ENV === 'production';
 
 module.exports = {
   expo: {
-    name: 'Match Reminder',
+    name: 'Football TV',
     slug: 'hangi-kanalda',
+
+    // Ana ekrandaki simge adi dile gore degisir (prebuild bunlardan
+    // ios/Runner/<lang>.lproj/InfoPlist.strings uretir).
+    // Android tarafi: android/app/src/main/res/values-<lang>/strings.xml
+    locales: {
+      en: './locales/en.json',
+      tr: './locales/tr.json',
+      es: './locales/es.json',
+      de: './locales/de.json',
+      fr: './locales/fr.json',
+      it: './locales/it.json',
+      pt: './locales/pt.json',
+      ar: './locales/ar.json',
+    },
     version: '1.4.1',
     orientation: 'portrait',
     icon: './assets/icon.png',
