@@ -5,7 +5,7 @@ const IS_PROD = process.env.APP_ENV === 'production';
 
 module.exports = {
   expo: {
-    name: 'Football TV',
+    name: 'Sports on TV',
     slug: 'hangi-kanalda',
 
     // Ana ekrandaki simge adi dile gore degisir (prebuild bunlardan

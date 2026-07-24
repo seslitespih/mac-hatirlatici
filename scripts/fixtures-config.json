@@ -1,0 +1,94 @@
+{
+  "_comment": "Günlük maç içeriği üreticisinin yapılandırması. Buradaki listeleri düzenlemek yeterli — kod değişikliği gerekmez.",
+
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "it": "Italiano",
+    "pt": "Português",
+    "ar": "العربية"
+  },
+
+  "countries": {
+    "TR": { "tz": "Europe/Istanbul",              "lang": "tr", "name": "Türkiye" },
+    "GB": { "tz": "Europe/London",                "lang": "en", "name": "United Kingdom" },
+    "US": { "tz": "America/New_York",             "lang": "en", "name": "United States" },
+    "DE": { "tz": "Europe/Berlin",                "lang": "de", "name": "Germany" },
+    "ES": { "tz": "Europe/Madrid",                "lang": "es", "name": "Spain" },
+    "FR": { "tz": "Europe/Paris",                 "lang": "fr", "name": "France" },
+    "IT": { "tz": "Europe/Rome",                  "lang": "it", "name": "Italy" },
+    "PT": { "tz": "Europe/Lisbon",                "lang": "pt", "name": "Portugal" },
+    "NL": { "tz": "Europe/Amsterdam",             "lang": "en", "name": "Netherlands" },
+    "BE": { "tz": "Europe/Brussels",              "lang": "fr", "name": "Belgium" },
+    "CH": { "tz": "Europe/Zurich",                "lang": "de", "name": "Switzerland" },
+    "AT": { "tz": "Europe/Vienna",                "lang": "de", "name": "Austria" },
+    "CZ": { "tz": "Europe/Prague",                "lang": "en", "name": "Czechia" },
+    "HR": { "tz": "Europe/Zagreb",                "lang": "en", "name": "Croatia" },
+    "NO": { "tz": "Europe/Oslo",                  "lang": "en", "name": "Norway" },
+    "BR": { "tz": "America/Sao_Paulo",            "lang": "pt", "name": "Brazil" },
+    "AR": { "tz": "America/Argentina/Buenos_Aires","lang": "es", "name": "Argentina" },
+    "MX": { "tz": "America/Mexico_City",          "lang": "es", "name": "Mexico" },
+    "CO": { "tz": "America/Bogota",               "lang": "es", "name": "Colombia" },
+    "CL": { "tz": "America/Santiago",             "lang": "es", "name": "Chile" },
+    "PE": { "tz": "America/Lima",                 "lang": "es", "name": "Peru" },
+    "CA": { "tz": "America/Toronto",              "lang": "en", "name": "Canada" },
+    "SA": { "tz": "Asia/Riyadh",                  "lang": "ar", "name": "Saudi Arabia" },
+    "QA": { "tz": "Asia/Qatar",                   "lang": "ar", "name": "Qatar" },
+    "AE": { "tz": "Asia/Dubai",                   "lang": "ar", "name": "United Arab Emirates" },
+    "EG": { "tz": "Africa/Cairo",                 "lang": "ar", "name": "Egypt" },
+    "MA": { "tz": "Africa/Casablanca",            "lang": "ar", "name": "Morocco" },
+    "DZ": { "tz": "Africa/Algiers",               "lang": "ar", "name": "Algeria" },
+    "TN": { "tz": "Africa/Tunis",                 "lang": "ar", "name": "Tunisia" },
+    "IR": { "tz": "Asia/Tehran",                  "lang": "en", "name": "Iran" },
+    "JP": { "tz": "Asia/Tokyo",                   "lang": "en", "name": "Japan" },
+    "KR": { "tz": "Asia/Seoul",                   "lang": "en", "name": "South Korea" },
+    "AU": { "tz": "Australia/Sydney",             "lang": "en", "name": "Australia" },
+    "NZ": { "tz": "Pacific/Auckland",             "lang": "en", "name": "New Zealand" },
+    "NG": { "tz": "Africa/Lagos",                 "lang": "en", "name": "Nigeria" },
+    "SN": { "tz": "Africa/Dakar",                 "lang": "fr", "name": "Senegal" },
+    "ZA": { "tz": "Africa/Johannesburg",          "lang": "en", "name": "South Africa" },
+    "GH": { "tz": "Africa/Accra",                 "lang": "en", "name": "Ghana" }
+  },
+
+  "sports": ["football", "basketball", "volleyball", "motorsport"],
+
+  "coverage": {
+    "football": [
+      "FIFA Dünya Kupası ve tüm kıtasal ön elemeleri (UEFA, CONMEBOL, CAF, AFC, CONCACAF, OFC)",
+      "UEFA Şampiyonlar Ligi, Avrupa Ligi, Konferans Ligi (ön eleme turları dahil)",
+      "UEFA Uluslar Ligi, EURO ve EURO elemeleri",
+      "Türkiye Süper Lig, Türkiye Kupası, 1. Lig",
+      "Premier League, La Liga, Bundesliga, Serie A, Ligue 1, Primeira Liga, Eredivisie",
+      "Copa Libertadores, Copa Sudamericana, Copa America",
+      "Suudi Pro Lig, MLS, Brasileirão, Liga MX",
+      "Kadın milli takım ve büyük kadın ligleri maçları",
+      "Hazırlık maçları — yalnızca A milli takımlar veya büyük kulüpler"
+    ],
+    "basketball": [
+      "NBA, EuroLeague, EuroCup, Basketbol Şampiyonlar Ligi",
+      "FIBA Dünya Kupası, EuroBasket ve elemeleri",
+      "Türkiye Basketbol Süper Ligi, Türkiye Kupası",
+      "Liga ACB, Lega Basket Serie A, Basketball Bundesliga"
+    ],
+    "volleyball": [
+      "FIVB Milletler Ligi (VNL) kadın ve erkek",
+      "CEV Şampiyonlar Ligi, CEV Kupası, Avrupa Şampiyonası ve elemeleri",
+      "FIVB Dünya Şampiyonası, Olimpiyat elemeleri",
+      "Türkiye Sultanlar Ligi ve Efeler Ligi",
+      "Türkiye A Milli kadın ve erkek voleybol maçları — mutlaka dahil et"
+    ],
+    "motorsport": [
+      "Formula 1 (antrenman, sıralama, yarış — hepsi ayrı kayıt)",
+      "MotoGP, Formula 2, Formula E",
+      "WRC, NASCAR (yalnızca ana yarış)"
+    ]
+  },
+
+  "notes": [
+    "Kadın müsabakalarını yarışma adında açıkça belirt (örn. 'FIFA Kadınlar Dünya Kupası').",
+    "Motorsporlarında 'home' alanına etkinlik adını, 'away' alanına oturum türünü yaz (örn. home: 'Monza GP', away: 'Sıralama')."
+  ]
+}

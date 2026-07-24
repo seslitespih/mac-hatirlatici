@@ -7,6 +7,11 @@ import {
 } from '../services/matchService';
 import { fetchSportsDbMatches, clearSportsDbCache } from '../services/sportsDbService';
 import { fetchMotorsportMatches, clearMotorsportCache } from '../services/motorsportService';
+import {
+  fetchDailyMatches,
+  clearDailyMatchCache,
+  mergeMatchSources,
+} from '../services/dailyMatchService';
 import { getMatchWindow, getDeviceTimezone } from '../utils/timezone';
 import { scheduleAllNotifications }            from '../services/notificationService';
 import { useTranslation } from 'react-i18next';
@@ -37,13 +42,17 @@ export function useMatches(
         await Promise.all([
           clearSportsDbCache(countryCode),
           clearMotorsportCache(countryCode),
+          clearDailyMatchCache(),
         ]);
       }
-      const [sportsMatches, motorMatches] = await Promise.all([
+      // Günlük uzak kaynak (Claude üretimi) + TheSportsDB + motorspor.
+      // Uzak kaynak çekilemezse [] döner ve eski davranış aynen sürer.
+      const [dailyMatches, sportsMatches, motorMatches] = await Promise.all([
+        fetchDailyMatches(countryCode, i18n.language),
         fetchSportsDbMatches(countryCode),
         fetchMotorsportMatches(countryCode),
       ]);
-      matches = [...sportsMatches, ...motorMatches];
+      matches = mergeMatchSources(dailyMatches, [...sportsMatches, ...motorMatches]);
 
       if (matches.length > 0) {
         setAllMatches(matches);
