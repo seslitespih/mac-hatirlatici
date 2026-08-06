@@ -176,12 +176,17 @@ const pairKey = (m: Match) =>
 /**
  * Uzak kaynağı TheSportsDB sonuçlarıyla birleştirir.
  *
- * Aynı maç iki kaynakta da varsa uzak kayıt kazanır (kanal bilgisi ve yerelleşmiş
- * turnuva adı orada daha zengin), ancak TheSportsDB'nin canlı skor durumu
- * (`live` / `finished`) korunur — uzak dosya gece üretildiği için hep
- * `scheduled` der.
+ * Curated dosya o gün için maç içeriyorsa O yetkili kaynaktır (editöryal
+ * kontrol): TheSportsDB yalnızca eşleşen maçların canlı skor durumunu
+ * (`live` / `finished`) ve — curated'da yoksa — kanalını devralır; kendi
+ * maçlarını listeye EKLEMEZ. Aksi halde alakasız yerel karşılaşmalar
+ * (örn. Vietnam basketbol ligi maçları) uygulamaya sızıyordu.
+ *
+ * Curated boşsa (gece üretimi kaçmış olabilir) uygulama boş kalmasın diye
+ * eskisi gibi tam TheSportsDB listesine düşülür.
  */
 export function mergeMatchSources(daily: Match[], sportsDb: Match[]): Match[] {
+  const curatedAuthoritative = daily.length > 0;
   const dailyByPair = new Map<string, Match>();
   for (const m of daily) dailyByPair.set(pairKey(m), m);
 
@@ -207,7 +212,8 @@ export function mergeMatchSources(daily: Match[], sportsDb: Match[]): Match[] {
       continue;
     }
 
-    merged.push(s);
+    // Curated yetkiliyken TheSportsDB'nin kendi maçları eklenmez.
+    if (!curatedAuthoritative) merged.push(s);
   }
 
   return merged.sort((a, b) => a.date.getTime() - b.date.getTime());
