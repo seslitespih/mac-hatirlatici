@@ -1,296 +1,20 @@
 {
- "generated_at": "2026-08-06T00:00:00.000Z",
- "date": "2026-08-06",
+ "generated_at": "2026-08-11T00:00:00.000Z",
+ "date": "2026-08-11",
  "provider": "manual",
  "model": "user-provided",
  "stats": {
-  "total": 11,
-  "withChannel": 8,
+  "total": 2,
+  "withChannel": 1,
   "bySport": {
-   "football": 8,
-   "basketball": 3
+   "football": 2
   },
   "warnings": 0,
   "searches": 0
  },
  "matches": [
   {
-   "id": "football-20260806-boca-juniors-estudiantes",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Ligi",
-    "en": "Argentine Primera División",
-    "de": "Argentinische Liga",
-    "es": "Liga Profesional Argentina",
-    "fr": "Championnat d'Argentine",
-    "it": "Campionato Argentino",
-    "pt": "Campeonato Argentino",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Boca Juniors",
-   "away": "Estudiantes",
-   "kickoffUtc": "2026-08-05T22:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "Sportdigital FUSSBALL"
-    ],
-    "GB": [
-     "Premier Sports 2",
-     "Fanatiz International"
-    ],
-    "IT": [
-     "Sportitalia"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260806-fc-tulsa-sacramento-republic",
-   "sport": "football",
-   "competitionId": "usl_champ",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "es": "USL Championship",
-    "pt": "USL Championship"
-   },
-   "home": "FC Tulsa",
-   "away": "Sacramento Republic",
-   "kickoffUtc": "2026-08-06T00:30:00Z",
-   "broadcasts": {
-    "DE": [
-     "USL Championship (YouTube)"
-    ],
-    "GB": [
-     "USL Championship (YouTube)"
-    ],
-    "ES": [
-     "USL Championship (YouTube)"
-    ],
-    "FR": [
-     "USL Championship (YouTube)"
-    ],
-    "IT": [
-     "USL Championship (YouTube)"
-    ],
-    "PT": [
-     "USL Championship (YouTube)"
-    ],
-    "BR": [
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "USL Championship (YouTube)"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260806-el-paso-locomotive-monterey-bay",
-   "sport": "football",
-   "competitionId": "usl_champ",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "es": "USL Championship",
-    "pt": "USL Championship"
-   },
-   "home": "El Paso Locomotive",
-   "away": "Monterey Bay",
-   "kickoffUtc": "2026-08-06T01:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "USL Championship (YouTube)"
-    ],
-    "GB": [
-     "USL Championship (YouTube)"
-    ],
-    "ES": [
-     "USL Championship (YouTube)"
-    ],
-    "FR": [
-     "USL Championship (YouTube)"
-    ],
-    "IT": [
-     "USL Championship (YouTube)"
-    ],
-    "PT": [
-     "USL Championship (YouTube)"
-    ],
-    "BR": [
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "USL Championship (YouTube)"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260806-las-vegas-lights-oakland-roots",
-   "sport": "football",
-   "competitionId": "usl_champ",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "es": "USL Championship",
-    "pt": "USL Championship"
-   },
-   "home": "Las Vegas Lights",
-   "away": "Oakland Roots",
-   "kickoffUtc": "2026-08-06T02:30:00Z",
-   "broadcasts": {
-    "DE": [
-     "USL Championship (YouTube)"
-    ],
-    "GB": [
-     "USL Championship (YouTube)"
-    ],
-    "ES": [
-     "USL Championship (YouTube)"
-    ],
-    "FR": [
-     "USL Championship (YouTube)"
-    ],
-    "IT": [
-     "USL Championship (YouTube)"
-    ],
-    "PT": [
-     "USL Championship (YouTube)"
-    ],
-    "BR": [
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "USL Championship (YouTube)"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20260806-basketbol-süper-ligi-kura-çekimi",
-   "sport": "basketball",
-   "competitionId": "bsl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Basketbol Süper Ligi",
-    "en": "Turkish Basketball Super League"
-   },
-   "home": "Basketbol Süper Ligi",
-   "away": "Kura Çekimi",
-   "kickoffUtc": "2026-08-06T08:00:00Z",
-   "broadcasts": {},
-   "sources": []
-  },
-  {
-   "id": "basketball-20260806-basketbol-1-ligi-kura-çekimi",
-   "sport": "basketball",
-   "competitionId": "tbl_1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Basketbol 1. Ligi",
-    "en": "Turkish Basketball First League"
-   },
-   "home": "Basketbol 1. Ligi",
-   "away": "Kura Çekimi",
-   "kickoffUtc": "2026-08-06T11:00:00Z",
-   "broadcasts": {},
-   "sources": []
-  },
-  {
-   "id": "basketball-20260806-turkey-belgium",
-   "sport": "basketball",
-   "competitionId": "fiba_natl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Basketbol Millî Takım",
-    "en": "Basketball National Team",
-    "de": "Basketball-Nationalmannschaft",
-    "es": "Selección de Baloncesto",
-    "fr": "Équipe Nationale de Basket",
-    "it": "Nazionale di Basket",
-    "pt": "Seleção de Basquete",
-    "ar": "منتخب كرة السلة"
-   },
-   "home": "Turkey",
-   "away": "Belgium",
-   "kickoffUtc": "2026-08-06T13:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "TBF TV (YouTube)"
-    ],
-    "GB": [
-     "TBF TV (YouTube)"
-    ],
-    "ES": [
-     "TBF TV (YouTube)"
-    ],
-    "FR": [
-     "TBF TV (YouTube)"
-    ],
-    "IT": [
-     "TBF TV (YouTube)"
-    ],
-    "PT": [
-     "TBF TV (YouTube)"
-    ],
-    "BR": [
-     "TBF TV (YouTube)"
-    ],
-    "SA": [
-     "TBF TV (YouTube)"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Türkiye",
-    "en": "Turkey",
-    "de": "Türkei",
-    "es": "Turquía",
-    "fr": "Turquie",
-    "it": "Turchia",
-    "pt": "Turquia",
-    "ar": "تركيا"
-   },
-   "awayNames": {
-    "tr": "Belçika",
-    "en": "Belgium",
-    "de": "Belgien",
-    "es": "Bélgica",
-    "fr": "Belgique",
-    "it": "Belgio",
-    "pt": "Bélgica",
-    "ar": "بلجيكا"
-   }
-  },
-  {
-   "id": "football-20260806-dinamo-kiev-karabağ",
-   "sport": "football",
-   "competitionId": "ucl_q",
-   "tier": "global",
-   "competition": {
-    "tr": "Şampiyonlar Ligi Elemeleri",
-    "en": "Champions League Qualifying",
-    "de": "Champions-League-Qualifikation",
-    "es": "Clasificación Champions League",
-    "fr": "Qualifications Ligue des Champions",
-    "it": "Qualificazioni Champions League",
-    "pt": "Qualificação da Liga dos Campeões",
-    "ar": "تصفيات دوري أبطال أوروبا"
-   },
-   "home": "Dinamo Kiev",
-   "away": "Karabağ",
-   "kickoffUtc": "2026-08-06T17:00:00Z",
-   "broadcasts": {},
-   "sources": []
-  },
-  {
-   "id": "football-20260806-hradec-králové-beşiktaş",
+   "id": "football-20260811-sabah-baku-aarhus",
    "sport": "football",
    "competitionId": "uecl_q",
    "tier": "global",
@@ -304,172 +28,37 @@
     "pt": "Qualificação da Liga Conferência",
     "ar": "تصفيات دوري المؤتمر"
    },
-   "home": "Hradec Králové",
-   "away": "Beşiktaş",
-   "kickoffUtc": "2026-08-06T17:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "Sportdigital FUSSBALL"
-    ],
-    "GB": [
-     "OneFootball"
-    ],
-    "ES": [
-     "OneFootball"
-    ],
-    "FR": [
-     "OneFootball"
-    ],
-    "IT": [
-     "OneFootball"
-    ],
-    "PT": [
-     "OneFootball"
-    ],
-    "BR": [
-     "OneFootball"
-    ],
-    "SA": [
-     "OneFootball"
-    ]
-   },
+   "home": "Sabah Baku",
+   "away": "Aarhus",
+   "kickoffUtc": "2026-08-11T16:00:00Z",
+   "broadcasts": {},
    "sources": []
   },
   {
-   "id": "football-20260806-cape-verde-cameroon",
+   "id": "football-20260811-sturm-graz-fenerbahçe",
    "sport": "football",
-   "competitionId": "caf_natl",
-   "tier": "regional",
+   "competitionId": "ucl_q",
+   "tier": "global",
    "competition": {
-    "tr": "Afrika Millî Maçları",
-    "en": "African National Teams",
-    "de": "Afrikanische Nationalmannschaften",
-    "es": "Selecciones Africanas",
-    "fr": "Sélections Africaines",
-    "it": "Nazionali Africane",
-    "pt": "Seleções Africanas",
-    "ar": "منتخبات أفريقية"
+    "tr": "Şampiyonlar Ligi Elemeleri",
+    "en": "Champions League Qualifying",
+    "de": "Champions-League-Qualifikation",
+    "es": "Clasificación Champions League",
+    "fr": "Qualifications Ligue des Champions",
+    "it": "Qualificazioni Champions League",
+    "pt": "Qualificação da Liga dos Campeões",
+    "ar": "تصفيات دوري أبطال أوروبا"
    },
-   "home": "Cape Verde",
-   "away": "Cameroon",
-   "kickoffUtc": "2026-08-06T20:00:00Z",
+   "home": "Sturm Graz",
+   "away": "Fenerbahçe",
+   "kickoffUtc": "2026-08-11T18:30:00Z",
    "broadcasts": {
-    "DE": [
-     "DAZN"
-    ],
-    "GB": [
-     "CAF TV (YouTube)"
-    ],
-    "ES": [
-     "CAF TV (YouTube)"
-    ],
-    "FR": [
-     "beIN Sports"
-    ],
-    "IT": [
-     "CAF TV (YouTube)"
-    ],
-    "PT": [
-     "CAF TV (YouTube)"
-    ],
-    "BR": [
-     "CAF TV (YouTube)"
-    ],
-    "SA": [
-     "beIN Sports HD 4",
-     "beIN Connect",
-     "TOD"
+    "TR": [
+     "TV100",
+     "S Sport Plus"
     ]
    },
-   "sources": [],
-   "homeNames": {
-    "tr": "Yeşil Burun Adaları",
-    "en": "Cape Verde",
-    "de": "Kap Verde",
-    "es": "Cabo Verde",
-    "fr": "Cap-Vert",
-    "it": "Capo Verde",
-    "pt": "Cabo Verde",
-    "ar": "الرأس الأخضر"
-   },
-   "awayNames": {
-    "tr": "Kamerun",
-    "en": "Cameroon",
-    "de": "Kamerun",
-    "es": "Camerún",
-    "fr": "Cameroun",
-    "it": "Camerun",
-    "pt": "Camarões",
-    "ar": "الكاميرون"
-   }
-  },
-  {
-   "id": "football-20260806-mali-ghana",
-   "sport": "football",
-   "competitionId": "caf_natl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Millî Maçları",
-    "en": "African National Teams",
-    "de": "Afrikanische Nationalmannschaften",
-    "es": "Selecciones Africanas",
-    "fr": "Sélections Africaines",
-    "it": "Nazionali Africane",
-    "pt": "Seleções Africanas",
-    "ar": "منتخبات أفريقية"
-   },
-   "home": "Mali",
-   "away": "Ghana",
-   "kickoffUtc": "2026-08-06T20:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN"
-    ],
-    "GB": [
-     "CAF TV (YouTube)"
-    ],
-    "ES": [
-     "CAF TV (YouTube)"
-    ],
-    "FR": [
-     "beIN Sports"
-    ],
-    "IT": [
-     "CAF TV (YouTube)"
-    ],
-    "PT": [
-     "CAF TV (YouTube)"
-    ],
-    "BR": [
-     "CAF TV (YouTube)"
-    ],
-    "SA": [
-     "beIN Sports",
-     "beIN Connect",
-     "TOD"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Mali",
-    "en": "Mali",
-    "de": "Mali",
-    "es": "Malí",
-    "fr": "Mali",
-    "it": "Mali",
-    "pt": "Mali",
-    "ar": "مالي"
-   },
-   "awayNames": {
-    "tr": "Gana",
-    "en": "Ghana",
-    "de": "Ghana",
-    "es": "Ghana",
-    "fr": "Ghana",
-    "it": "Ghana",
-    "pt": "Gana",
-    "ar": "غانا"
-   }
+   "sources": []
   }
  ]
 }
