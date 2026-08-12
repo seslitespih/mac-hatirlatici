@@ -1,61 +1,119 @@
 {
- "generated_at": "2026-08-11T00:00:00.000Z",
- "date": "2026-08-11",
+ "generated_at": "2026-08-12T00:00:00.000Z",
+ "date": "2026-08-12",
  "provider": "manual",
  "model": "user-provided",
  "stats": {
-  "total": 2,
-  "withChannel": 1,
+  "total": 3,
+  "withChannel": 3,
   "bySport": {
-   "football": 2
+   "football": 3
   },
   "warnings": 0,
   "searches": 0
  },
  "matches": [
   {
-   "id": "football-20260811-sabah-baku-aarhus",
+   "id": "football-20260812-newcastle-united-everton",
    "sport": "football",
-   "competitionId": "uecl_q",
+   "competitionId": "friendly",
    "tier": "global",
    "competition": {
-    "tr": "Konferans Ligi Elemeleri",
-    "en": "Conference League Qualifying",
-    "de": "Conference-League-Qualifikation",
-    "es": "Clasificación Conference League",
-    "fr": "Qualifications Ligue Conférence",
-    "it": "Qualificazioni Conference League",
-    "pt": "Qualificação da Liga Conferência",
-    "ar": "تصفيات دوري المؤتمر"
+    "tr": "Hazırlık Maçı",
+    "en": "Pre-season Friendly",
+    "de": "Testspiel",
+    "es": "Amistoso",
+    "fr": "Match amical",
+    "it": "Amichevole",
+    "pt": "Amistoso",
+    "ar": "مباراة ودية"
    },
-   "home": "Sabah Baku",
-   "away": "Aarhus",
-   "kickoffUtc": "2026-08-11T16:00:00Z",
-   "broadcasts": {},
+   "home": "Newcastle United",
+   "away": "Everton",
+   "kickoffUtc": "2026-08-12T16:15:00Z",
+   "broadcasts": {
+    "GB": [
+     "EvertonTV"
+    ]
+   },
    "sources": []
   },
   {
-   "id": "football-20260811-sturm-graz-fenerbahçe",
+   "id": "football-20260812-leeds-united-manchester-united",
    "sport": "football",
-   "competitionId": "ucl_q",
+   "competitionId": "friendly",
    "tier": "global",
    "competition": {
-    "tr": "Şampiyonlar Ligi Elemeleri",
-    "en": "Champions League Qualifying",
-    "de": "Champions-League-Qualifikation",
-    "es": "Clasificación Champions League",
-    "fr": "Qualifications Ligue des Champions",
-    "it": "Qualificazioni Champions League",
-    "pt": "Qualificação da Liga dos Campeões",
-    "ar": "تصفيات دوري أبطال أوروبا"
+    "tr": "Hazırlık Maçı",
+    "en": "Pre-season Friendly",
+    "de": "Testspiel",
+    "es": "Amistoso",
+    "fr": "Match amical",
+    "it": "Amichevole",
+    "pt": "Amistoso",
+    "ar": "مباراة ودية"
    },
-   "home": "Sturm Graz",
-   "away": "Fenerbahçe",
-   "kickoffUtc": "2026-08-11T18:30:00Z",
+   "home": "Leeds United",
+   "away": "Manchester United",
+   "kickoffUtc": "2026-08-12T18:30:00Z",
    "broadcasts": {
-    "TR": [
-     "TV100",
-     "S Sport Plus"
+    "GB": [
+     "MUTV",
+     "ITV1",
+     "ITVX"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260812-paris-saint-germain-aston-villa",
+   "sport": "football",
+   "competitionId": "uefa_supercup",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Süper Kupa",
+    "en": "UEFA Super Cup",
+    "de": "UEFA Super Cup",
+    "es": "Supercopa de Europa",
+    "fr": "Supercoupe de l'UEFA",
+    "it": "Supercoppa UEFA",
+    "pt": "Supertaça Europeia",
+    "ar": "كأس السوبر الأوروبي"
+   },
+   "home": "Paris Saint-Germain",
+   "away": "Aston Villa",
+   "kickoffUtc": "2026-08-12T19:00:00Z",
+   "broadcasts": {
+    "DE": [
+     "DAZN"
+    ],
+    "GB": [
+     "TNT Sports 1",
+     "TNT Sports Ultimate",
+     "HBO Max"
+    ],
+    "ES": [
+     "M+ Liga de Campeones (Movistar)"
+    ],
+    "FR": [
+     "CANAL+"
+    ],
+    "IT": [
+     "Sky Sport",
+     "NOW"
+    ],
+    "PT": [
+     "Sport TV",
+     "DAZN"
+    ],
+    "BR": [
+     "TNT Sports",
+     "HBO Max",
+     "SBT"
+    ],
+    "SA": [
+     "beIN Sports",
+     "TOD"
     ]
    },
    "sources": []
