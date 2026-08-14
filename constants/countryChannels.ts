@@ -23,11 +23,14 @@ export const SUPPORTED_COUNTRIES: CountryInfo[] = [
   { code: 'NG', name: 'Nigeria',        englishName: 'Nigeria',        flag: '🇳🇬', timezone: 'Africa/Lagos',            language: 'en' },
   { code: 'MA', name: 'المغرب',         englishName: 'Morocco',        flag: '🇲🇦', timezone: 'Africa/Casablanca',       language: 'ar' },
   { code: 'SN', name: 'Sénégal',        englishName: 'Senegal',        flag: '🇸🇳', timezone: 'Africa/Dakar',            language: 'fr' },
+  { code: 'CI', name: "Côte d'Ivoire", englishName: 'Ivory Coast',    flag: '🇨🇮', timezone: 'Africa/Abidjan',          language: 'fr' },
+  { code: 'ML', name: 'Mali',           englishName: 'Mali',           flag: '🇲🇱', timezone: 'Africa/Bamako',           language: 'fr' },
   // English
   { code: 'US', name: 'United States',  englishName: 'United States',  flag: '🇺🇸', timezone: 'America/New_York',         language: 'en' },
   { code: 'CA', name: 'Canada',         englishName: 'Canada',         flag: '🇨🇦', timezone: 'America/Toronto',          language: 'en' },
   { code: 'AU', name: 'Australia',      englishName: 'Australia',      flag: '🇦🇺', timezone: 'Australia/Sydney',         language: 'en' },
   { code: 'NZ', name: 'New Zealand',    englishName: 'New Zealand',    flag: '🇳🇿', timezone: 'Pacific/Auckland',         language: 'en' },
+  { code: 'GR', name: 'Ελλάδα',         englishName: 'Greece',         flag: '🇬🇷', timezone: 'Europe/Athens',           language: 'en' },
   { code: 'ZA', name: 'South Africa',   englishName: 'South Africa',   flag: '🇿🇦', timezone: 'Africa/Johannesburg',      language: 'en' },
   { code: 'GH', name: 'Ghana',          englishName: 'Ghana',          flag: '🇬🇭', timezone: 'Africa/Accra',             language: 'en' },
   // German
@@ -40,12 +43,15 @@ export const SUPPORTED_COUNTRIES: CountryInfo[] = [
   { code: 'AE', name: 'الإمارات',       englishName: 'UAE',            flag: '🇦🇪', timezone: 'Asia/Dubai',              language: 'ar' },
   { code: 'DZ', name: 'الجزائر',        englishName: 'Algeria',        flag: '🇩🇿', timezone: 'Africa/Algiers',          language: 'ar' },
   { code: 'TN', name: 'تونس',           englishName: 'Tunisia',        flag: '🇹🇳', timezone: 'Africa/Tunis',            language: 'ar' },
+  { code: 'IQ', name: 'العراق',        englishName: 'Iraq',           flag: '🇮🇶', timezone: 'Asia/Baghdad',            language: 'ar' },
+  { code: 'LY', name: 'ليبيا',          englishName: 'Libya',          flag: '🇱🇾', timezone: 'Africa/Tripoli',          language: 'ar' },
   // Spanish
   { code: 'CO', name: 'Colombia',       englishName: 'Colombia',       flag: '🇨🇴', timezone: 'America/Bogota',          language: 'es' },
   { code: 'CL', name: 'Chile',          englishName: 'Chile',          flag: '🇨🇱', timezone: 'America/Santiago',        language: 'es' },
   { code: 'UY', name: 'Uruguay',        englishName: 'Uruguay',        flag: '🇺🇾', timezone: 'America/Montevideo',      language: 'es' },
   { code: 'PE', name: 'Perú',           englishName: 'Peru',           flag: '🇵🇪', timezone: 'America/Lima',            language: 'es' },
   { code: 'GT', name: 'Guatemala',      englishName: 'Guatemala',      flag: '🇬🇹', timezone: 'America/Guatemala',       language: 'es' },
+  { code: 'EC', name: 'Ecuador',        englishName: 'Ecuador',        flag: '🇪🇨', timezone: 'America/Guayaquil',       language: 'es' },
 ];
 
 export const COUNTRY_CHANNEL_MAP: Record<string, Record<string, string[]>> = {
