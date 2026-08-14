@@ -45,6 +45,7 @@ export const SUPPORTED_COUNTRIES: CountryInfo[] = [
   { code: 'CL', name: 'Chile',          englishName: 'Chile',          flag: '🇨🇱', timezone: 'America/Santiago',        language: 'es' },
   { code: 'UY', name: 'Uruguay',        englishName: 'Uruguay',        flag: '🇺🇾', timezone: 'America/Montevideo',      language: 'es' },
   { code: 'PE', name: 'Perú',           englishName: 'Peru',           flag: '🇵🇪', timezone: 'America/Lima',            language: 'es' },
+  { code: 'GT', name: 'Guatemala',      englishName: 'Guatemala',      flag: '🇬🇹', timezone: 'America/Guatemala',       language: 'es' },
 ];
 
 export const COUNTRY_CHANNEL_MAP: Record<string, Record<string, string[]>> = {
