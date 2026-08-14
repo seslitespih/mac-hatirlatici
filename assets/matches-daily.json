@@ -1,70 +1,194 @@
 {
- "generated_at": "2026-08-13T00:00:00.000Z",
- "date": "2026-08-13",
+ "generated_at": "2026-08-14T00:00:00.000Z",
+ "date": "2026-08-14",
  "provider": "manual",
  "model": "user-provided",
  "stats": {
-  "total": 3,
-  "withChannel": 3,
+  "total": 11,
+  "withChannel": 11,
   "bySport": {
-   "football": 3
+   "basketball": 3,
+   "football": 8
   },
   "warnings": 0,
   "searches": 0
  },
  "matches": [
   {
-   "id": "football-20260813-karabag-dinamo-kiev",
-   "sport": "football",
-   "competitionId": "uecl_q",
+   "id": "basketball-20260814-new-york-liberty-los-angeles-sparks",
+   "sport": "basketball",
+   "competitionId": "wnba",
    "tier": "global",
    "competition": {
-    "tr": "Konferans Ligi Elemeleri",
-    "en": "Conference League Qualifying",
-    "de": "Conference-League-Qualifikation",
-    "es": "Clasificación Conference League",
-    "fr": "Qualifications Ligue Conférence",
-    "it": "Qualificazioni Conference League",
-    "pt": "Qualificação da Liga Conferência",
-    "ar": "تصفيات دوري المؤتمر"
+    "tr": "WNBA",
+    "en": "WNBA"
    },
-   "home": "Karabağ",
-   "away": "Dinamo Kiev",
-   "kickoffUtc": "2026-08-13T16:00:00Z",
+   "home": "New York Liberty",
+   "away": "Los Angeles Sparks",
+   "kickoffUtc": "2026-08-14T00:00:00Z",
    "broadcasts": {
     "TR": [
-     "CBC Sport"
+     "Prime Video"
+    ],
+    "GB": [
+     "Prime Video"
+    ],
+    "DE": [
+     "Prime Video"
+    ],
+    "ES": [
+     "Prime Video"
+    ],
+    "FR": [
+     "Prime Video"
+    ],
+    "IT": [
+     "Prime Video"
+    ],
+    "PT": [
+     "Prime Video"
+    ],
+    "BR": [
+     "Prime Video"
+    ],
+    "SA": [
+     "Prime Video"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260813-besiktas-hradec-králové",
-   "sport": "football",
-   "competitionId": "uel_q",
+   "id": "basketball-20260814-las-vegas-aces-washington-mystics",
+   "sport": "basketball",
+   "competitionId": "wnba",
    "tier": "global",
    "competition": {
-    "tr": "Avrupa Ligi Elemeleri",
-    "en": "Europa League Qualifying",
-    "de": "Europa-League-Qualifikation",
-    "es": "Clasificación Europa League",
-    "fr": "Qualifications Ligue Europa",
-    "it": "Qualificazioni Europa League",
-    "pt": "Qualificação da Liga Europa",
-    "ar": "تصفيات الدوري الأوروبي"
+    "tr": "WNBA",
+    "en": "WNBA"
    },
-   "home": "Beşiktaş",
-   "away": "Hradec Králové",
-   "kickoffUtc": "2026-08-13T17:00:00Z",
+   "home": "Las Vegas Aces",
+   "away": "Washington Mystics",
+   "kickoffUtc": "2026-08-14T02:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Prime Video"
+    ],
+    "GB": [
+     "Prime Video"
+    ],
+    "DE": [
+     "Prime Video"
+    ],
+    "ES": [
+     "Prime Video"
+    ],
+    "FR": [
+     "Prime Video"
+    ],
+    "IT": [
+     "Prime Video"
+    ],
+    "PT": [
+     "Prime Video"
+    ],
+    "BR": [
+     "Prime Video"
+    ],
+    "SA": [
+     "Prime Video"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260814-turan-qabala",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Ligi",
+    "en": "Azerbaijan Premier League"
+   },
+   "home": "Turan",
+   "away": "Qabala",
+   "kickoffUtc": "2026-08-14T15:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260814-turkey-portugal",
+   "sport": "basketball",
+   "competitionId": "wbb_nt",
+   "tier": "global",
+   "competition": {
+    "tr": "Kadınlar Basketbol Millî Maçı",
+    "en": "Women's Basketball — National Team",
+    "de": "Basketball Frauen-Nationalmannschaft",
+    "es": "Baloncesto Femenino — Selección",
+    "fr": "Basket féminin — Équipe nationale",
+    "it": "Basket femminile — Nazionale",
+    "pt": "Basquete Feminino — Seleção",
+    "ar": "كرة السلة للسيدات — المنتخب"
+   },
+   "home": "Turkey",
+   "away": "Portugal",
+   "kickoffUtc": "2026-08-14T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "HT Spor"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Türkiye",
+    "en": "Turkey",
+    "de": "Türkei",
+    "es": "Turquía",
+    "fr": "Turquie",
+    "it": "Turchia",
+    "pt": "Turquia",
+    "ar": "تركيا"
+   },
+   "awayNames": {
+    "tr": "Portekiz",
+    "en": "Portugal",
+    "de": "Portugal",
+    "es": "Portugal",
+    "fr": "Portugal",
+    "it": "Portogallo",
+    "pt": "Portugal",
+    "ar": "البرتغال"
+   }
+  },
+  {
+   "id": "football-20260814-holstein-kiel-st-pauli",
+   "sport": "football",
+   "competitionId": "bl2",
+   "tier": "regional",
+   "competition": {
+    "tr": "2. Bundesliga",
+    "en": "2. Bundesliga",
+    "de": "2. Bundesliga"
+   },
+   "home": "Holstein Kiel",
+   "away": "St. Pauli",
+   "kickoffUtc": "2026-08-14T16:30:00Z",
    "broadcasts": {
     "TR": [
      "S Sport Plus"
+    ],
+    "DE": [
+     "Sky Sport"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260813-al-diriyah-al-ahli",
+   "id": "football-20260814-al-hilal-al-faysaly",
    "sport": "football",
    "competitionId": "saudi_pl",
    "tier": "regional",
@@ -78,9 +202,9 @@
     "pt": "Liga Saudita",
     "ar": "دوري روشن السعودي"
    },
-   "home": "Al Diriyah",
-   "away": "Al Ahli",
-   "kickoffUtc": "2026-08-13T18:00:00Z",
+   "home": "Al Hilal",
+   "away": "Al Faysaly",
+   "kickoffUtc": "2026-08-14T18:00:00Z",
    "broadcasts": {
     "TR": [
      "HT Spor",
@@ -94,6 +218,141 @@
     ],
     "SA": [
      "Thmanyah"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260814-galatasaray-corum-fk",
+   "sport": "football",
+   "competitionId": "superlig",
+   "tier": "regional",
+   "competition": {
+    "tr": "Süper Lig",
+    "en": "Süper Lig (Turkey)",
+    "de": "Süper Lig",
+    "es": "Superliga de Turquía",
+    "fr": "Süper Lig",
+    "it": "Süper Lig",
+    "pt": "Süper Lig",
+    "ar": "الدوري التركي"
+   },
+   "home": "Galatasaray",
+   "away": "Çorum FK",
+   "kickoffUtc": "2026-08-14T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 1"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260814-esenler-erokspor-sariyer",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "1. Lig",
+    "en": "TFF First League",
+    "de": "Türkische 1. Liga",
+    "es": "Primera de Turquía",
+    "fr": "1. Lig (Turquie)",
+    "it": "1. Lig",
+    "pt": "1. Lig",
+    "ar": "الدرجة الأولى التركية"
+   },
+   "home": "Esenler Erokspor",
+   "away": "Sarıyer",
+   "kickoffUtc": "2026-08-14T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor",
+     "beIN Sports 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260814-saint-étienne-clermont",
+   "sport": "football",
+   "competitionId": "ligue2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Ligue 2",
+    "en": "Ligue 2",
+    "fr": "Ligue 2",
+    "de": "Ligue 2",
+    "es": "Ligue 2",
+    "it": "Ligue 2",
+    "pt": "Ligue 2",
+    "ar": "الدوري الفرنسي الدرجة الثانية"
+   },
+   "home": "Saint-Étienne",
+   "away": "Clermont",
+   "kickoffUtc": "2026-08-14T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 4"
+    ],
+    "FR": [
+     "beIN Sports 1"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260814-reims-dunkerque",
+   "sport": "football",
+   "competitionId": "ligue2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Ligue 2",
+    "en": "Ligue 2",
+    "fr": "Ligue 2",
+    "de": "Ligue 2",
+    "es": "Ligue 2",
+    "it": "Ligue 2",
+    "pt": "Ligue 2",
+    "ar": "الدوري الفرنسي الدرجة الثانية"
+   },
+   "home": "Reims",
+   "away": "Dunkerque",
+   "kickoffUtc": "2026-08-14T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 5"
+    ],
+    "FR": [
+     "beIN Sports"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260814-sporting-guimarães",
+   "sport": "football",
+   "competitionId": "primeira",
+   "tier": "regional",
+   "competition": {
+    "tr": "Portekiz Ligi",
+    "en": "Primeira Liga",
+    "pt": "Primeira Liga",
+    "de": "Primeira Liga",
+    "es": "Primeira Liga",
+    "fr": "Primeira Liga",
+    "it": "Primeira Liga",
+    "ar": "الدوري البرتغالي"
+   },
+   "home": "Sporting",
+   "away": "Guimarães",
+   "kickoffUtc": "2026-08-14T19:15:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 3"
+    ],
+    "PT": [
+     "Sport TV 1"
     ]
    },
    "sources": []
