@@ -4,10 +4,10 @@
  "provider": "manual",
  "model": "user-provided",
  "stats": {
-  "total": 11,
-  "withChannel": 11,
+  "total": 13,
+  "withChannel": 13,
   "bySport": {
-   "basketball": 3,
+   "basketball": 5,
    "football": 8
   },
   "warnings": 0,
@@ -112,7 +112,7 @@
    "competitionId": "aze_pl",
    "tier": "regional",
    "competition": {
-    "tr": "Azerbaycan Ligi",
+    "tr": "Azerbaycan Premier Ligi",
     "en": "Azerbaijan Premier League"
    },
    "home": "Turan",
@@ -131,14 +131,14 @@
    "competitionId": "wbb_nt",
    "tier": "global",
    "competition": {
-    "tr": "Kadınlar Basketbol Millî Maçı",
-    "en": "Women's Basketball — National Team",
-    "de": "Basketball Frauen-Nationalmannschaft",
-    "es": "Baloncesto Femenino — Selección",
-    "fr": "Basket féminin — Équipe nationale",
-    "it": "Basket femminile — Nazionale",
-    "pt": "Basquete Feminino — Seleção",
-    "ar": "كرة السلة للسيدات — المنتخب"
+    "tr": "Kadın Basketbol Hazırlık Maçı",
+    "en": "Women's Basketball Friendly",
+    "de": "Basketball Frauen — Testspiel",
+    "es": "Baloncesto Femenino — Amistoso",
+    "fr": "Basket féminin — Amical",
+    "it": "Basket femminile — Amichevole",
+    "pt": "Basquete Feminino — Amistoso",
+    "ar": "كرة السلة للسيدات — ودية"
    },
    "home": "Turkey",
    "away": "Portugal",
@@ -234,7 +234,7 @@
    "competitionId": "superlig",
    "tier": "regional",
    "competition": {
-    "tr": "Süper Lig",
+    "tr": "Trendyol Süper Lig",
     "en": "Süper Lig (Turkey)",
     "de": "Süper Lig",
     "es": "Superliga de Turquía",
@@ -259,7 +259,7 @@
    "competitionId": "tff1",
    "tier": "regional",
    "competition": {
-    "tr": "1. Lig",
+    "tr": "Trendyol 1. Lig",
     "en": "TFF First League",
     "de": "Türkische 1. Liga",
     "es": "Primera de Turquía",
@@ -341,13 +341,13 @@
    "competitionId": "primeira",
    "tier": "regional",
    "competition": {
-    "tr": "Portekiz Ligi",
-    "en": "Primeira Liga",
-    "pt": "Primeira Liga",
-    "de": "Primeira Liga",
-    "es": "Primeira Liga",
-    "fr": "Primeira Liga",
-    "it": "Primeira Liga",
+    "tr": "Liga Portugal",
+    "en": "Liga Portugal",
+    "pt": "Liga Portugal",
+    "de": "Liga Portugal",
+    "es": "Liga Portugal",
+    "fr": "Liga Portugal",
+    "it": "Liga Portugal",
     "ar": "الدوري البرتغالي"
    },
    "home": "Sporting",
@@ -359,6 +359,44 @@
     ],
     "PT": [
      "Sport TV 1"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260814-indiana-fever-dallas-wings",
+   "sport": "basketball",
+   "competitionId": "wnba",
+   "tier": "global",
+   "competition": {
+    "tr": "WNBA",
+    "en": "WNBA"
+   },
+   "home": "Indiana Fever",
+   "away": "Dallas Wings",
+   "kickoffUtc": "2026-08-14T23:30:00Z",
+   "broadcasts": {
+    "US": [
+     "ION"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260814-seattle-storm-portland-fire",
+   "sport": "basketball",
+   "competitionId": "wnba",
+   "tier": "global",
+   "competition": {
+    "tr": "WNBA",
+    "en": "WNBA"
+   },
+   "home": "Seattle Storm",
+   "away": "Portland Fire",
+   "kickoffUtc": "2026-08-15T02:00:00Z",
+   "broadcasts": {
+    "US": [
+     "ION"
     ]
    },
    "sources": []
