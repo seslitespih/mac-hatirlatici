@@ -1,96 +1,439 @@
 {
- "generated_at": "2026-08-15T09:19:22.353Z",
- "date": "2026-08-15",
+ "generated_at": "2026-08-15T21:27:07.418Z",
+ "date": "2026-08-16",
  "model": "user-provided",
  "stats": {
-  "total": 42,
-  "withChannel": 42,
+  "total": 39,
+  "withChannel": 39,
   "bySport": {
-   "volleyball": 2,
    "football": 33,
-   "motorsport": 7
+   "motorsport": 6
   },
   "warnings": 0,
-  "searches": 10
+  "searches": 3
  },
  "matches": [
   {
-   "id": "volleyball-20260815-kort-1-tvf-pro-beach-tour",
-   "sport": "volleyball",
-   "competitionId": "tvf_beach",
-   "tier": "regional",
-   "competition": {
-    "tr": "TVF Pro Beach Tour",
-    "en": "TVF Pro Beach Tour",
-    "de": "TVF Pro Beach Tour",
-    "es": "TVF Pro Beach Tour",
-    "fr": "TVF Pro Beach Tour",
-    "it": "TVF Pro Beach Tour",
-    "pt": "TVF Pro Beach Tour",
-    "ar": "جولة TVF للكرة الشاطئية"
-   },
-   "home": "Kort 1",
-   "away": "TVF Pro Beach Tour",
-   "kickoffUtc": "2026-08-15T07:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "TVF Voleybol TV YouTube"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "volleyball-20260815-kort-2-tvf-pro-beach-tour",
-   "sport": "volleyball",
-   "competitionId": "tvf_beach",
-   "tier": "regional",
-   "competition": {
-    "tr": "TVF Pro Beach Tour",
-    "en": "TVF Pro Beach Tour",
-    "de": "TVF Pro Beach Tour",
-    "es": "TVF Pro Beach Tour",
-    "fr": "TVF Pro Beach Tour",
-    "it": "TVF Pro Beach Tour",
-    "pt": "TVF Pro Beach Tour",
-    "ar": "جولة TVF للكرة الشاطئية"
-   },
-   "home": "Kort 2",
-   "away": "TVF Pro Beach Tour",
-   "kickoffUtc": "2026-08-15T07:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "TVF Voleybol TV YouTube"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-kashima-antlers-nagoya",
+   "id": "football-20260816-detroit-city-loudoun-united",
    "sport": "football",
-   "competitionId": "j_league",
+   "competitionId": "usl",
    "tier": "regional",
    "competition": {
-    "tr": "Japonya J.League",
-    "en": "J.League",
-    "de": "J.League",
-    "es": "J.League",
-    "fr": "J.League",
-    "it": "J.League",
-    "pt": "J.League",
-    "ar": "الدوري الياباني"
+    "tr": "ABD USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL"
    },
-   "home": "Kashima Antlers",
-   "away": "Nagoya",
-   "kickoffUtc": "2026-08-15T09:00:00Z",
+   "home": "Detroit City",
+   "away": "Loudoun United",
+   "kickoffUtc": "2026-08-15T23:00:00Z",
    "broadcasts": {
     "TR": [
-     "J.League YouTube"
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+"
     ]
    },
    "sources": []
   },
   {
-   "id": "motorsport-20260815-porsche-carrera-kupasi-yaris-1",
+   "id": "football-20260816-hartford-athletic-miami-fc",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "ABD USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL"
+   },
+   "home": "Hartford Athletic",
+   "away": "Miami FC",
+   "kickoffUtc": "2026-08-15T23:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-pittsburgh-riverhounds-charleston-battery",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "ABD USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL"
+   },
+   "home": "Pittsburgh Riverhounds",
+   "away": "Charleston Battery",
+   "kickoffUtc": "2026-08-15T23:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-sporting-jax-indy-eleven",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "ABD USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL"
+   },
+   "home": "Sporting JAX",
+   "away": "Indy Eleven",
+   "kickoffUtc": "2026-08-15T23:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "motorsport-20260816-cook-out-400-nascar-cup-series",
+   "sport": "motorsport",
+   "competitionId": "nascar",
+   "tier": "regional",
+   "competition": {
+    "tr": "NASCAR",
+    "en": "NASCAR",
+    "de": "NASCAR",
+    "es": "NASCAR",
+    "fr": "NASCAR",
+    "it": "NASCAR",
+    "pt": "NASCAR",
+    "ar": "ناسكار"
+   },
+   "home": "Cook Out 400",
+   "away": "NASCAR Cup Series",
+   "kickoffUtc": "2026-08-15T23:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-tampa-bay-rowdies-rhode-island-fc",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "ABD USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL"
+   },
+   "home": "Tampa Bay Rowdies",
+   "away": "Rhode Island FC",
+   "kickoffUtc": "2026-08-15T23:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-sao-paulo-coritiba",
+   "sport": "football",
+   "competitionId": "bra_seriea",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie A",
+    "en": "Brasileirão Série A",
+    "de": "Brasileirão",
+    "es": "Brasileirão Serie A",
+    "fr": "Brasileirão Série A",
+    "it": "Brasileirão Serie A",
+    "pt": "Brasileirão Série A",
+    "ar": "الدوري البرازيلي"
+   },
+   "home": "São Paulo",
+   "away": "Coritiba",
+   "kickoffUtc": "2026-08-16T00:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart 2",
+     "Smart Spor 2"
+    ],
+    "BR": [
+     "Premiere"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-ca-platense-boca-juniors",
+   "sport": "football",
+   "competitionId": "copa_arg",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Kupası",
+    "en": "Copa Argentina",
+    "de": "Copa Argentina",
+    "es": "Copa Argentina",
+    "fr": "Coupe d'Argentine",
+    "it": "Coppa Argentina",
+    "pt": "Copa Argentina",
+    "ar": "كأس الأرجنتين"
+   },
+   "home": "CA Platense",
+   "away": "Boca Juniors",
+   "kickoffUtc": "2026-08-16T00:15:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart",
+     "Smart Spor HD"
+    ],
+    "AR": [
+     "TyC Sports"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-colorado-springs-switchbacks-birmingham-legion",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "ABD USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL"
+   },
+   "home": "Colorado Springs Switchbacks",
+   "away": "Birmingham Legion",
+   "kickoffUtc": "2026-08-16T01:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-san-antonio-fc-el-paso-locomotive",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "ABD USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL"
+   },
+   "home": "San Antonio FC",
+   "away": "El Paso Locomotive",
+   "kickoffUtc": "2026-08-16T01:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-new-mexico-united-fc-tulsa",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "ABD USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL"
+   },
+   "home": "New Mexico United",
+   "away": "FC Tulsa",
+   "kickoffUtc": "2026-08-16T01:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-oakland-roots-monterey-bay",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "ABD USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL"
+   },
+   "home": "Oakland Roots",
+   "away": "Monterey Bay",
+   "kickoffUtc": "2026-08-16T02:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-orange-county-sc-louisville-city",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "ABD USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL"
+   },
+   "home": "Orange County SC",
+   "away": "Louisville City",
+   "kickoffUtc": "2026-08-16T02:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-las-vegas-lights-brooklyn-fc",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "ABD USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL"
+   },
+   "home": "Las Vegas Lights",
+   "away": "Brooklyn FC",
+   "kickoffUtc": "2026-08-16T02:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-sacramento-republic-lexington-sc",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "ABD USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL"
+   },
+   "home": "Sacramento Republic",
+   "away": "Lexington SC",
+   "kickoffUtc": "2026-08-16T03:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "motorsport-20260816-porsche-carrera-kupasi-yaris-2",
    "sport": "motorsport",
    "competitionId": "porsche",
    "tier": "regional",
@@ -105,8 +448,8 @@
     "ar": "كأس بورشه كاريرا"
    },
    "home": "Porsche Carrera Kupası",
-   "away": "Yarış 1",
-   "kickoffUtc": "2026-08-15T09:15:00Z",
+   "away": "Yarış 2",
+   "kickoffUtc": "2026-08-16T09:05:00Z",
    "broadcasts": {
     "TR": [
      "beIN Sports Max 1"
@@ -115,7 +458,7 @@
    "sources": []
   },
   {
-   "id": "football-20260815-hertha-berlin-heidenheim",
+   "id": "football-20260816-hannover-96-wolfsburg",
    "sport": "football",
    "competitionId": "bl2",
    "tier": "regional",
@@ -129,9 +472,9 @@
     "pt": "2. Bundesliga",
     "ar": "الدرجة الثانية الألمانية"
    },
-   "home": "Hertha Berlin",
-   "away": "Heidenheim",
-   "kickoffUtc": "2026-08-15T11:00:00Z",
+   "home": "Hannover 96",
+   "away": "Wolfsburg",
+   "kickoffUtc": "2026-08-16T11:30:00Z",
    "broadcasts": {
     "TR": [
      "S Sport Plus"
@@ -143,7 +486,7 @@
    "sources": []
   },
   {
-   "id": "motorsport-20260815-dtm-yaris-1",
+   "id": "motorsport-20260816-dtm-yaris-2",
    "sport": "motorsport",
    "competitionId": "dtm",
    "tier": "regional",
@@ -155,11 +498,11 @@
     "fr": "DTM",
     "it": "DTM",
     "pt": "DTM",
-    "ar": "بطولة DTM"
+    "ar": "DTM"
    },
    "home": "DTM",
-   "away": "Yarış 1",
-   "kickoffUtc": "2026-08-15T11:30:00Z",
+   "away": "Yarış 2",
+   "kickoffUtc": "2026-08-16T11:30:00Z",
    "broadcasts": {
     "TR": [
      "beIN Sports Max 1"
@@ -171,108 +514,32 @@
    "sources": []
   },
   {
-   "id": "motorsport-20260815-almanya-gun-2-red-bull-european-drift-masters",
-   "sport": "motorsport",
-   "competitionId": "drift",
+   "id": "football-20260816-feyenoord-go-ahead-eagles",
+   "sport": "football",
+   "competitionId": "eredivisie",
    "tier": "regional",
    "competition": {
-    "tr": "Red Bull European Drift Masters",
-    "en": "Red Bull European Drift Masters",
-    "de": "Red Bull European Drift Masters",
-    "es": "Red Bull European Drift Masters",
-    "fr": "Red Bull European Drift Masters",
-    "it": "Red Bull European Drift Masters",
-    "pt": "Red Bull European Drift Masters",
-    "ar": "Red Bull European Drift Masters"
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي"
    },
-   "home": "Almanya Gün 2",
-   "away": "Red Bull European Drift Masters",
-   "kickoffUtc": "2026-08-15T12:45:00Z",
+   "home": "Feyenoord",
+   "away": "Go Ahead Eagles",
+   "kickoffUtc": "2026-08-16T12:30:00Z",
    "broadcasts": {
     "TR": [
-     "Red Bull TV"
-    ],
-    "GB": [
-     "Red Bull TV"
-    ],
-    "DE": [
-     "Red Bull TV"
-    ],
-    "ES": [
-     "Red Bull TV"
-    ],
-    "FR": [
-     "Red Bull TV"
-    ],
-    "IT": [
-     "Red Bull TV"
-    ],
-    "PT": [
-     "Red Bull TV"
-    ],
-    "BR": [
-     "Red Bull TV"
-    ],
-    "AR": [
-     "Red Bull TV"
-    ],
-    "MX": [
-     "Red Bull TV"
-    ],
-    "CO": [
-     "Red Bull TV"
-    ],
-    "CL": [
-     "Red Bull TV"
-    ],
-    "UY": [
-     "Red Bull TV"
-    ],
-    "GT": [
-     "Red Bull TV"
-    ],
-    "US": [
-     "Red Bull TV"
-    ],
-    "SA": [
-     "Red Bull TV"
-    ],
-    "CA": [
-     "Red Bull TV"
-    ],
-    "DZ": [
-     "Red Bull TV"
+     "S Sport Plus"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260815-ca-cerro-albion-fc",
-   "sport": "football",
-   "competitionId": "liga_auf",
-   "tier": "regional",
-   "competition": {
-    "tr": "Uruguay Ligi",
-    "en": "Liga AUF Uruguaya",
-    "de": "Liga AUF Uruguaya",
-    "es": "Liga AUF Uruguaya",
-    "fr": "Liga AUF Uruguaya",
-    "it": "Liga AUF Uruguaya",
-    "pt": "Campeonato Uruguaio",
-    "ar": "الدوري الأوروغوياني"
-   },
-   "home": "CA Cerro",
-   "away": "Albion FC",
-   "kickoffUtc": "2026-08-15T13:00:00Z",
-   "broadcasts": {
-    "UY": [
-     "VTV+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "motorsport-20260815-adac-gt4-masters-yaris-1",
+   "id": "motorsport-20260816-adac-gt4-masters-yaris-2",
    "sport": "motorsport",
    "competitionId": "adac_gt4",
    "tier": "regional",
@@ -287,8 +554,8 @@
     "ar": "ADAC GT4 Masters"
    },
    "home": "ADAC GT4 Masters",
-   "away": "Yarış 1",
-   "kickoffUtc": "2026-08-15T13:10:00Z",
+   "away": "Yarış 2",
+   "kickoffUtc": "2026-08-16T13:10:00Z",
    "broadcasts": {
     "TR": [
      "beIN Sports Max 1"
@@ -301,186 +568,76 @@
    "sources": []
   },
   {
-   "id": "motorsport-20260815-manufacturers-cup-gran-turismo-world-series",
-   "sport": "motorsport",
-   "competitionId": "gt_series",
+   "id": "football-20260816-arsenal-manchester-city",
+   "sport": "football",
+   "competitionId": "shield",
    "tier": "global",
    "competition": {
-    "tr": "Gran Turismo World Series",
-    "en": "Gran Turismo World Series",
-    "de": "Gran Turismo World Series",
-    "es": "Gran Turismo World Series",
-    "fr": "Gran Turismo World Series",
-    "it": "Gran Turismo World Series",
-    "pt": "Gran Turismo World Series",
-    "ar": "Gran Turismo World Series"
+    "tr": "FA Community Shield",
+    "en": "FA Community Shield",
+    "de": "FA Community Shield",
+    "es": "Community Shield",
+    "fr": "Community Shield",
+    "it": "Community Shield",
+    "pt": "Supertaça de Inglaterra",
+    "ar": "درع المجتمع الإنجليزي"
    },
-   "home": "Manufacturers Cup",
-   "away": "Gran Turismo World Series",
-   "kickoffUtc": "2026-08-15T13:20:00Z",
+   "home": "Arsenal",
+   "away": "Manchester City",
+   "kickoffUtc": "2026-08-16T14:00:00Z",
    "broadcasts": {
     "TR": [
-     "beIN Sports",
-     "beIN Connect",
-     "Gran Turismo YouTube"
+     "tabii Spor"
     ],
     "GB": [
-     "Gran Turismo YouTube"
-    ],
-    "DE": [
-     "Gran Turismo YouTube"
-    ],
-    "ES": [
-     "Gran Turismo YouTube"
-    ],
-    "FR": [
-     "Gran Turismo YouTube"
-    ],
-    "IT": [
-     "Gran Turismo YouTube"
-    ],
-    "PT": [
-     "Gran Turismo YouTube"
-    ],
-    "BR": [
-     "Gran Turismo YouTube"
-    ],
-    "AR": [
-     "Gran Turismo YouTube"
-    ],
-    "MX": [
-     "Gran Turismo YouTube"
-    ],
-    "CO": [
-     "Gran Turismo YouTube"
-    ],
-    "CL": [
-     "Gran Turismo YouTube"
-    ],
-    "UY": [
-     "Gran Turismo YouTube"
-    ],
-    "GT": [
-     "Gran Turismo YouTube"
+     "TNT Sports 1"
     ],
     "US": [
-     "Gran Turismo YouTube"
-    ],
-    "SA": [
-     "Gran Turismo YouTube"
+     "ESPN",
+     "ESPN Deportes"
     ],
     "CA": [
-     "Gran Turismo YouTube"
-    ],
-    "DZ": [
-     "Gran Turismo YouTube"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-bayern-munih-leipzig",
-   "sport": "football",
-   "competitionId": "friendly",
-   "tier": "global",
-   "competition": {
-    "tr": "Hazırlık Maçı",
-    "en": "Friendly",
-    "de": "Testspiel",
-    "es": "Amistoso",
-    "fr": "Match amical",
-    "it": "Amichevole",
-    "pt": "Amistoso",
-    "ar": "مباراة ودية"
-   },
-   "home": "Bayern Münih",
-   "away": "Leipzig",
-   "kickoffUtc": "2026-08-15T13:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "FC Bayern TV PLUS"
-    ],
-    "GB": [
-     "FC Bayern TV PLUS"
+     "Sportsnet"
     ],
     "DE": [
-     "FC Bayern TV PLUS"
-    ],
-    "ES": [
-     "FC Bayern TV PLUS"
-    ],
-    "FR": [
-     "FC Bayern TV PLUS"
-    ],
-    "IT": [
-     "FC Bayern TV PLUS"
-    ],
-    "PT": [
-     "FC Bayern TV PLUS"
-    ],
-    "BR": [
-     "FC Bayern TV PLUS"
-    ],
-    "AR": [
-     "FC Bayern TV PLUS"
-    ],
-    "MX": [
-     "FC Bayern TV PLUS"
-    ],
-    "CO": [
-     "FC Bayern TV PLUS"
-    ],
-    "CL": [
-     "FC Bayern TV PLUS"
-    ],
-    "UY": [
-     "FC Bayern TV PLUS"
-    ],
-    "GT": [
-     "FC Bayern TV PLUS"
-    ],
-    "US": [
-     "FC Bayern TV PLUS"
+     "DAZN"
     ],
     "SA": [
-     "FC Bayern TV PLUS"
-    ],
-    "CA": [
-     "FC Bayern TV PLUS"
+     "beIN Sports"
     ],
     "DZ": [
-     "FC Bayern TV PLUS"
+     "beIN Sports"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260815-hull-city-nice",
+   "id": "football-20260816-ajax-heerenveen",
    "sport": "football",
-   "competitionId": "friendly",
-   "tier": "global",
+   "competitionId": "eredivisie",
+   "tier": "regional",
    "competition": {
-    "tr": "Hazırlık Maçı",
-    "en": "Friendly",
-    "de": "Testspiel",
-    "es": "Amistoso",
-    "fr": "Match amical",
-    "it": "Amichevole",
-    "pt": "Amistoso",
-    "ar": "مباراة ودية"
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي"
    },
-   "home": "Hull City",
-   "away": "Nice",
-   "kickoffUtc": "2026-08-15T14:00:00Z",
+   "home": "Ajax",
+   "away": "Heerenveen",
+   "kickoffUtc": "2026-08-16T14:45:00Z",
    "broadcasts": {
     "TR": [
-     "TV 8 Buçuk"
+     "S Sport Plus"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260815-araz-imisli",
+   "id": "football-20260816-sumqayit-neftci-baku",
    "sport": "football",
    "competitionId": "aze_pl",
    "tier": "regional",
@@ -494,9 +651,9 @@
     "pt": "Liga Premier do Azerbaijão",
     "ar": "الدوري الأذربيجاني الممتاز"
    },
-   "home": "Araz",
-   "away": "Imisli",
-   "kickoffUtc": "2026-08-15T14:30:00Z",
+   "home": "Sumqayıt",
+   "away": "Neftçi Bakü",
+   "kickoffUtc": "2026-08-16T15:00:00Z",
    "broadcasts": {
     "TR": [
      "CBC Sport"
@@ -505,237 +662,7 @@
    "sources": []
   },
   {
-   "id": "motorsport-20260815-nations-cup-gran-turismo-world-series",
-   "sport": "motorsport",
-   "competitionId": "gt_series",
-   "tier": "global",
-   "competition": {
-    "tr": "Gran Turismo World Series",
-    "en": "Gran Turismo World Series",
-    "de": "Gran Turismo World Series",
-    "es": "Gran Turismo World Series",
-    "fr": "Gran Turismo World Series",
-    "it": "Gran Turismo World Series",
-    "pt": "Gran Turismo World Series",
-    "ar": "Gran Turismo World Series"
-   },
-   "home": "Nations Cup",
-   "away": "Gran Turismo World Series",
-   "kickoffUtc": "2026-08-15T15:20:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports",
-     "beIN Connect",
-     "Gran Turismo YouTube"
-    ],
-    "GB": [
-     "Gran Turismo YouTube"
-    ],
-    "DE": [
-     "Gran Turismo YouTube"
-    ],
-    "ES": [
-     "Gran Turismo YouTube"
-    ],
-    "FR": [
-     "Gran Turismo YouTube"
-    ],
-    "IT": [
-     "Gran Turismo YouTube"
-    ],
-    "PT": [
-     "Gran Turismo YouTube"
-    ],
-    "BR": [
-     "Gran Turismo YouTube"
-    ],
-    "AR": [
-     "Gran Turismo YouTube"
-    ],
-    "MX": [
-     "Gran Turismo YouTube"
-    ],
-    "CO": [
-     "Gran Turismo YouTube"
-    ],
-    "CL": [
-     "Gran Turismo YouTube"
-    ],
-    "UY": [
-     "Gran Turismo YouTube"
-    ],
-    "GT": [
-     "Gran Turismo YouTube"
-    ],
-    "US": [
-     "Gran Turismo YouTube"
-    ],
-    "SA": [
-     "Gran Turismo YouTube"
-    ],
-    "CA": [
-     "Gran Turismo YouTube"
-    ],
-    "DZ": [
-     "Gran Turismo YouTube"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-kasimpasa-trabzonspor",
-   "sport": "football",
-   "competitionId": "superlig",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol Süper Lig",
-    "en": "Süper Lig",
-    "de": "Süper Lig",
-    "es": "Süper Lig",
-    "fr": "Süper Lig",
-    "it": "Süper Lig",
-    "pt": "Süper Lig",
-    "ar": "الدوري التركي الممتاز"
-   },
-   "home": "Kasımpaşa",
-   "away": "Trabzonspor",
-   "kickoffUtc": "2026-08-15T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 1"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-konyaspor-c-rizespor",
-   "sport": "football",
-   "competitionId": "superlig",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol Süper Lig",
-    "en": "Süper Lig",
-    "de": "Süper Lig",
-    "es": "Süper Lig",
-    "fr": "Süper Lig",
-    "it": "Süper Lig",
-    "pt": "Süper Lig",
-    "ar": "الدوري التركي الممتاز"
-   },
-   "home": "Konyaspor",
-   "away": "Ç. Rizespor",
-   "kickoffUtc": "2026-08-15T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 2"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-i-stanbulspor-bodrumspor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Liga",
-    "es": "Primera División de Turquía",
-    "fr": "TFF 1re Ligue",
-    "it": "TFF Prima Lega",
-    "pt": "TFF Primeira Liga",
-    "ar": "الدرجة الأولى التركية"
-   },
-   "home": "İstanbulspor",
-   "away": "Bodrumspor",
-   "kickoffUtc": "2026-08-15T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor",
-     "beIN Sports Haber"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-karagumruk-umraniyespor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Liga",
-    "es": "Primera División de Turquía",
-    "fr": "TFF 1re Ligue",
-    "it": "TFF Prima Lega",
-    "pt": "TFF Primeira Liga",
-    "ar": "الدرجة الأولى التركية"
-   },
-   "home": "Karagümrük",
-   "away": "Ümraniyespor",
-   "kickoffUtc": "2026-08-15T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports Max 1",
-     "tabii Spor 6"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-juventud-de-las-piedras-montevideo-city-torque",
-   "sport": "football",
-   "competitionId": "liga_auf",
-   "tier": "regional",
-   "competition": {
-    "tr": "Uruguay Ligi",
-    "en": "Liga AUF Uruguaya",
-    "de": "Liga AUF Uruguaya",
-    "es": "Liga AUF Uruguaya",
-    "fr": "Liga AUF Uruguaya",
-    "it": "Liga AUF Uruguaya",
-    "pt": "Campeonato Uruguaio",
-    "ar": "الدوري الأوروغوياني"
-   },
-   "home": "Juventud de Las Piedras",
-   "away": "Montevideo City Torque",
-   "kickoffUtc": "2026-08-15T16:00:00Z",
-   "broadcasts": {
-    "UY": [
-     "VTV+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-sabah-baku-kapaz",
-   "sport": "football",
-   "competitionId": "aze_pl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Azerbaycan Premier Ligi",
-    "en": "Azerbaijan Premier League",
-    "de": "Aserbaidschan Premier League",
-    "es": "Liga Premier de Azerbaiyán",
-    "fr": "Premier League azerbaïdjanaise",
-    "it": "Premier League azera",
-    "pt": "Liga Premier do Azerbaijão",
-    "ar": "الدوري الأذربيجاني الممتاز"
-   },
-   "home": "Sabah Bakü",
-   "away": "Kapaz",
-   "kickoffUtc": "2026-08-15T16:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "CBC Sport"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-dundee-united-celtic",
+   "id": "football-20260816-glasgow-rangers-st-mirren",
    "sport": "football",
    "competitionId": "sco_lc",
    "tier": "regional",
@@ -749,18 +676,21 @@
     "pt": "Taça da Liga Escocesa",
     "ar": "كأس الرابطة الاسكتلندية"
    },
-   "home": "Dundee United",
-   "away": "Celtic",
-   "kickoffUtc": "2026-08-15T16:45:00Z",
+   "home": "Glasgow Rangers",
+   "away": "St. Mirren",
+   "kickoffUtc": "2026-08-16T15:00:00Z",
    "broadcasts": {
     "TR": [
      "S Sport Plus"
+    ],
+    "GB": [
+     "Premier Sports"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260815-alaves-getafe",
+   "id": "football-20260816-racing-santander-villarreal",
    "sport": "football",
    "competitionId": "laliga",
    "tier": "global",
@@ -774,17 +704,17 @@
     "pt": "LaLiga",
     "ar": "الدوري الإسباني"
    },
-   "home": "Alavés",
-   "away": "Getafe",
-   "kickoffUtc": "2026-08-15T17:30:00Z",
+   "home": "Racing Santander",
+   "away": "Villarreal",
+   "kickoffUtc": "2026-08-16T15:00:00Z",
    "broadcasts": {
     "TR": [
      "S Sport",
-     "Idman TV",
      "S Sport Plus"
     ],
     "ES": [
-     "DAZN"
+     "DAZN LaLiga",
+     "Movistar+"
     ],
     "GB": [
      "Premier Sports"
@@ -820,124 +750,85 @@
    "sources": []
   },
   {
-   "id": "football-20260815-al-nassr-al-fateh",
-   "sport": "football",
-   "competitionId": "saudi_pl",
+   "id": "motorsport-20260816-monterey-rolex-monterey-motorsports-reunion",
+   "sport": "motorsport",
+   "competitionId": "rolex",
    "tier": "regional",
    "competition": {
-    "tr": "Suudi Arabistan Pro Lig",
-    "en": "Saudi Pro League",
-    "de": "Saudi Pro League",
-    "es": "Liga Profesional Saudí",
-    "fr": "Saudi Pro League",
-    "it": "Saudi Pro League",
-    "pt": "Liga Profissional Saudita",
-    "ar": "دوري روشن السعودي"
+    "tr": "Rolex Monterey Motorsports Reunion",
+    "en": "Rolex Monterey Motorsports Reunion",
+    "de": "Rolex Monterey Motorsports Reunion",
+    "es": "Rolex Monterey Motorsports Reunion",
+    "fr": "Rolex Monterey Motorsports Reunion",
+    "it": "Rolex Monterey Motorsports Reunion",
+    "pt": "Rolex Monterey Motorsports Reunion",
+    "ar": "Rolex Monterey Motorsports Reunion"
    },
-   "home": "Al Nassr",
-   "away": "Al Fateh",
-   "kickoffUtc": "2026-08-15T18:00:00Z",
+   "home": "Monterey",
+   "away": "Rolex Monterey Motorsports Reunion",
+   "kickoffUtc": "2026-08-16T15:00:00Z",
    "broadcasts": {
     "TR": [
-     "HT Spor",
-     "S Sport Plus"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "FR": [
-     "DAZN"
-    ],
-    "SA": [
-     "Thmanyah"
-    ],
-    "US": [
-     "Fox Sports"
+     "beIN Sports",
+     "beIN Connect"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260815-excelsior-psv",
+   "id": "football-20260816-kayserispor-sivasspor",
    "sport": "football",
-   "competitionId": "eredivisie",
+   "competitionId": "tff1",
    "tier": "regional",
    "competition": {
-    "tr": "Hollanda Eredivisie",
-    "en": "Eredivisie",
-    "de": "Eredivisie",
-    "es": "Eredivisie",
-    "fr": "Eredivisie",
-    "it": "Eredivisie",
-    "pt": "Eredivisie",
-    "ar": "الدوري الهولندي"
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Liga",
+    "es": "Primera División de Turquía",
+    "fr": "TFF 1re Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "الدرجة الأولى التركية"
    },
-   "home": "Excelsior",
-   "away": "PSV",
-   "kickoffUtc": "2026-08-15T18:00:00Z",
+   "home": "Kayserispor",
+   "away": "Sivasspor",
+   "kickoffUtc": "2026-08-16T16:00:00Z",
    "broadcasts": {
     "TR": [
-     "S Sport Plus"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-kaiserslautern-karlsruhe",
-   "sport": "football",
-   "competitionId": "bl2",
-   "tier": "regional",
-   "competition": {
-    "tr": "Almanya 2. Bundesliga",
-    "en": "2. Bundesliga",
-    "de": "2. Bundesliga",
-    "es": "2. Bundesliga",
-    "fr": "2. Bundesliga",
-    "it": "2. Bundesliga",
-    "pt": "2. Bundesliga",
-    "ar": "الدرجة الثانية الألمانية"
-   },
-   "home": "Kaiserslautern",
-   "away": "Karlsruhe",
-   "kickoffUtc": "2026-08-15T18:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "DE": [
-     "Sky Sport",
-     "RTL+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-gaziantep-fk-alanyaspor",
-   "sport": "football",
-   "competitionId": "superlig",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol Süper Lig",
-    "en": "Süper Lig",
-    "de": "Süper Lig",
-    "es": "Süper Lig",
-    "fr": "Süper Lig",
-    "it": "Süper Lig",
-    "pt": "Süper Lig",
-    "ar": "الدوري التركي الممتاز"
-   },
-   "home": "Gaziantep FK",
-   "away": "Alanyaspor",
-   "kickoffUtc": "2026-08-15T18:30:00Z",
-   "broadcasts": {
-    "TR": [
+     "TRT Spor",
      "beIN Sports 2"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260815-genclerbirligi-fenerbahce",
+   "id": "football-20260816-keciorengucu-pendikspor",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Liga",
+    "es": "Primera División de Turquía",
+    "fr": "TFF 1re Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "الدرجة الأولى التركية"
+   },
+   "home": "Keçiörengücü",
+   "away": "Pendikspor",
+   "kickoffUtc": "2026-08-16T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Avaz",
+     "beIN Sports Max 1"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-i-stanbul-basaksehir-kocaelispor",
    "sport": "football",
    "competitionId": "superlig",
    "tier": "regional",
@@ -951,9 +842,9 @@
     "pt": "Süper Lig",
     "ar": "الدوري التركي الممتاز"
    },
-   "home": "Gençlerbirliği",
-   "away": "Fenerbahçe",
-   "kickoffUtc": "2026-08-15T18:30:00Z",
+   "home": "İstanbul Başakşehir",
+   "away": "Kocaelispor",
+   "kickoffUtc": "2026-08-16T16:00:00Z",
    "broadcasts": {
     "TR": [
      "beIN Sports 1"
@@ -962,188 +853,57 @@
    "sources": []
   },
   {
-   "id": "football-20260815-manisa-fk-vanspor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Liga",
-    "es": "Primera División de Turquía",
-    "fr": "TFF 1re Ligue",
-    "it": "TFF Prima Lega",
-    "pt": "TFF Primeira Liga",
-    "ar": "الدرجة الأولى التركية"
-   },
-   "home": "Manisa FK",
-   "away": "Vanspor",
-   "kickoffUtc": "2026-08-15T18:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Türk",
-     "beIN Sports Max 2"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-bursaspor-igdirspor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Liga",
-    "es": "Primera División de Turquía",
-    "fr": "TFF 1re Ligue",
-    "it": "TFF Prima Lega",
-    "pt": "TFF Primeira Liga",
-    "ar": "الدرجة الأولى التركية"
-   },
-   "home": "Bursaspor",
-   "away": "Iğdırspor",
-   "kickoffUtc": "2026-08-15T18:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor",
-     "beIN Sports Max 1"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "motorsport-20260815-almanya-gun-2-2-yayin-red-bull-european-drift-masters",
+   "id": "motorsport-20260816-ontario-honda-dealers-indy-indycar",
    "sport": "motorsport",
-   "competitionId": "drift",
+   "competitionId": "indycar",
    "tier": "regional",
    "competition": {
-    "tr": "Red Bull European Drift Masters",
-    "en": "Red Bull European Drift Masters",
-    "de": "Red Bull European Drift Masters",
-    "es": "Red Bull European Drift Masters",
-    "fr": "Red Bull European Drift Masters",
-    "it": "Red Bull European Drift Masters",
-    "pt": "Red Bull European Drift Masters",
-    "ar": "Red Bull European Drift Masters"
+    "tr": "IndyCar",
+    "en": "IndyCar",
+    "de": "IndyCar",
+    "es": "IndyCar",
+    "fr": "IndyCar",
+    "it": "IndyCar",
+    "pt": "IndyCar",
+    "ar": "IndyCar"
    },
-   "home": "Almanya Gün 2 — 2. Yayın",
-   "away": "Red Bull European Drift Masters",
-   "kickoffUtc": "2026-08-15T18:50:00Z",
+   "home": "Ontario Honda Dealers Indy",
+   "away": "IndyCar",
+   "kickoffUtc": "2026-08-16T16:00:00Z",
    "broadcasts": {
     "TR": [
-     "Red Bull TV"
-    ],
-    "GB": [
-     "Red Bull TV"
-    ],
-    "DE": [
-     "Red Bull TV"
-    ],
-    "ES": [
-     "Red Bull TV"
-    ],
-    "FR": [
-     "Red Bull TV"
-    ],
-    "IT": [
-     "Red Bull TV"
-    ],
-    "PT": [
-     "Red Bull TV"
-    ],
-    "BR": [
-     "Red Bull TV"
-    ],
-    "AR": [
-     "Red Bull TV"
-    ],
-    "MX": [
-     "Red Bull TV"
-    ],
-    "CO": [
-     "Red Bull TV"
-    ],
-    "CL": [
-     "Red Bull TV"
-    ],
-    "UY": [
-     "Red Bull TV"
-    ],
-    "GT": [
-     "Red Bull TV"
-    ],
-    "US": [
-     "Red Bull TV"
-    ],
-    "SA": [
-     "Red Bull TV"
-    ],
-    "CA": [
-     "Red Bull TV"
-    ],
-    "DZ": [
-     "Red Bull TV"
+     "S Sport Plus"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260815-coban-imperial-csd-mixco",
+   "id": "football-20260816-zira-safa-baku",
    "sport": "football",
-   "competitionId": "liga_bantrab",
+   "competitionId": "aze_pl",
    "tier": "regional",
    "competition": {
-    "tr": "Guatemala Ligi",
-    "en": "Liga Bantrab",
-    "de": "Liga Bantrab",
-    "es": "Liga Bantrab",
-    "fr": "Liga Bantrab",
-    "it": "Liga Bantrab",
-    "pt": "Liga Bantrab",
-    "ar": "الدوري الغواتيمالي"
+    "tr": "Azerbaycan Premier Ligi",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschan Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Liga Premier do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
    },
-   "home": "Cobán Imperial",
-   "away": "CSD Mixco",
-   "kickoffUtc": "2026-08-15T19:00:00Z",
-   "broadcasts": {
-    "GT": [
-     "FOX"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-torino-carrarese",
-   "sport": "football",
-   "competitionId": "coppa",
-   "tier": "regional",
-   "competition": {
-    "tr": "İtalya Kupası",
-    "en": "Coppa Italia",
-    "de": "Coppa Italia",
-    "es": "Copa de Italia",
-    "fr": "Coupe d'Italie",
-    "it": "Coppa Italia",
-    "pt": "Taça de Itália",
-    "ar": "كأس إيطاليا"
-   },
-   "home": "Torino",
-   "away": "Carrarese",
-   "kickoffUtc": "2026-08-15T19:15:00Z",
+   "home": "Zira",
+   "away": "Safa Bakü",
+   "kickoffUtc": "2026-08-16T17:00:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor"
-    ],
-    "IT": [
-     "Mediaset"
+     "CBC Sport"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260815-sevilla-rayo-vallecano",
+   "id": "football-20260816-espanyol-levante",
    "sport": "football",
    "competitionId": "laliga",
    "tier": "global",
@@ -1157,13 +917,12 @@
     "pt": "LaLiga",
     "ar": "الدوري الإسباني"
    },
-   "home": "Sevilla",
-   "away": "Rayo Vallecano",
-   "kickoffUtc": "2026-08-15T19:30:00Z",
+   "home": "Espanyol",
+   "away": "Levante",
+   "kickoffUtc": "2026-08-16T17:00:00Z",
    "broadcasts": {
     "TR": [
      "S Sport",
-     "Idman TV",
      "S Sport Plus"
     ],
     "ES": [
@@ -1203,252 +962,185 @@
    "sources": []
   },
   {
-   "id": "football-20260815-estudiantes-gimnasia-la-plata",
+   "id": "football-20260816-girona-leganes",
    "sport": "football",
-   "competitionId": "arg_pd",
+   "competitionId": "laliga2",
    "tier": "regional",
    "competition": {
-    "tr": "Arjantin Primera División",
-    "en": "Argentine Primera División",
-    "de": "Primera División (Argentinien)",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
+    "tr": "İspanya La Liga 2",
+    "en": "LaLiga Hypermotion",
+    "de": "LaLiga Hypermotion",
+    "es": "LaLiga Hypermotion",
+    "fr": "LaLiga Hypermotion",
+    "it": "LaLiga Hypermotion",
+    "pt": "LaLiga Hypermotion",
+    "ar": "الدرجة الثانية الإسبانية"
    },
-   "home": "Estudiantes",
-   "away": "Gimnasia La Plata",
-   "kickoffUtc": "2026-08-15T19:30:00Z",
+   "home": "Girona",
+   "away": "Leganés",
+   "kickoffUtc": "2026-08-16T17:00:00Z",
    "broadcasts": {
     "TR": [
-     "Spor Smart",
-     "Smart Spor HD"
+     "S Sport 2",
+     "S Sport Plus"
     ],
-    "AR": [
-     "TNT Sports",
-     "ESPN Premium"
-    ],
-    "GB": [
-     "Fanatiz"
-    ],
-    "US": [
-     "Fanatiz"
-    ],
-    "CA": [
-     "Fanatiz"
+    "ES": [
+     "Movistar+"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260815-rio-ave-porto",
+   "id": "football-20260816-mardin-1969-antalyaspor",
    "sport": "football",
-   "competitionId": "primeira",
+   "competitionId": "tff1",
    "tier": "regional",
    "competition": {
-    "tr": "Portekiz Liga Portugal",
-    "en": "Liga Portugal",
-    "de": "Liga Portugal",
-    "es": "Liga Portugal",
-    "fr": "Liga Portugal",
-    "it": "Liga Portugal",
-    "pt": "Liga Portugal",
-    "ar": "الدوري البرتغالي"
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Liga",
+    "es": "Primera División de Turquía",
+    "fr": "TFF 1re Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "الدرجة الأولى التركية"
    },
-   "home": "Rio Ave",
-   "away": "Porto",
-   "kickoffUtc": "2026-08-15T19:30:00Z",
+   "home": "Mardin 1969",
+   "away": "Antalyaspor",
+   "kickoffUtc": "2026-08-16T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor",
+     "beIN Sports Max 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-muglaspor-bandirmaspor",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Liga",
+    "es": "Primera División de Turquía",
+    "fr": "TFF 1re Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "الدرجة الأولى التركية"
+   },
+   "home": "Muğlaspor",
+   "away": "Bandırmaspor",
+   "kickoffUtc": "2026-08-16T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports Max 1",
+     "tabii Spor 6"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-amedspor-erzurumspor",
+   "sport": "football",
+   "competitionId": "superlig",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol Süper Lig",
+    "en": "Süper Lig",
+    "de": "Süper Lig",
+    "es": "Süper Lig",
+    "fr": "Süper Lig",
+    "it": "Süper Lig",
+    "pt": "Süper Lig",
+    "ar": "الدوري التركي الممتاز"
+   },
+   "home": "Amedspor",
+   "away": "Erzurumspor",
+   "kickoffUtc": "2026-08-16T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-besiktas-eyupspor",
+   "sport": "football",
+   "competitionId": "superlig",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol Süper Lig",
+    "en": "Süper Lig",
+    "de": "Süper Lig",
+    "es": "Süper Lig",
+    "fr": "Süper Lig",
+    "it": "Süper Lig",
+    "pt": "Süper Lig",
+    "ar": "الدوري التركي الممتاز"
+   },
+   "home": "Beşiktaş",
+   "away": "Eyüpspor",
+   "kickoffUtc": "2026-08-16T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 1"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260816-lens-psg",
+   "sport": "football",
+   "competitionId": "fra_sc",
+   "tier": "regional",
+   "competition": {
+    "tr": "Fransa Süper Kupası",
+    "en": "Trophée des Champions",
+    "de": "Trophée des Champions",
+    "es": "Supercopa de Francia",
+    "fr": "Trophée des Champions",
+    "it": "Supercoppa di Francia",
+    "pt": "Supertaça de França",
+    "ar": "كأس السوبر الفرنسي"
+   },
+   "home": "Lens",
+   "away": "PSG",
+   "kickoffUtc": "2026-08-16T18:45:00Z",
    "broadcasts": {
     "TR": [
      "beIN Sports 3"
-    ],
-    "PT": [
-     "Sport TV"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260815-fluminense-palmeiras",
+   "id": "football-20260816-lazio-mantova",
    "sport": "football",
-   "competitionId": "bra_seriea",
+   "competitionId": "coppa",
    "tier": "regional",
    "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
+    "tr": "İtalya Kupası",
+    "en": "Coppa Italia",
+    "de": "Coppa Italia",
+    "es": "Copa de Italia",
+    "fr": "Coupe d'Italie",
+    "it": "Coppa Italia",
+    "pt": "Taça de Itália",
+    "ar": "كأس إيطاليا"
    },
-   "home": "Fluminense",
-   "away": "Palmeiras",
-   "kickoffUtc": "2026-08-15T19:30:00Z",
+   "home": "Lazio",
+   "away": "Mantova",
+   "kickoffUtc": "2026-08-16T19:15:00Z",
    "broadcasts": {
     "TR": [
-     "Spor Smart 2",
-     "Smart Spor 2"
+     "tabii Spor"
     ],
-    "BR": [
-     "Premiere"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-racing-club-de-montevideo-nacional",
-   "sport": "football",
-   "competitionId": "liga_auf",
-   "tier": "regional",
-   "competition": {
-    "tr": "Uruguay Ligi",
-    "en": "Liga AUF Uruguaya",
-    "de": "Liga AUF Uruguaya",
-    "es": "Liga AUF Uruguaya",
-    "fr": "Liga AUF Uruguaya",
-    "it": "Liga AUF Uruguaya",
-    "pt": "Campeonato Uruguaio",
-    "ar": "الدوري الأوروغوياني"
-   },
-   "home": "Racing Club de Montevideo",
-   "away": "Nacional",
-   "kickoffUtc": "2026-08-15T19:30:00Z",
-   "broadcasts": {
-    "UY": [
-     "VTV+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-atlante-toluca",
-   "sport": "football",
-   "competitionId": "liga_mx",
-   "tier": "regional",
-   "competition": {
-    "tr": "Meksika Liga MX",
-    "en": "Liga MX",
-    "de": "Liga MX",
-    "es": "Liga MX",
-    "fr": "Liga MX",
-    "it": "Liga MX",
-    "pt": "Liga MX",
-    "ar": "الدوري المكسيكي"
-   },
-   "home": "Atlante",
-   "away": "Toluca",
-   "kickoffUtc": "2026-08-15T23:00:00Z",
-   "broadcasts": {
-    "MX": [
-     "TUDN",
-     "ViX"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-atletico-nacional-independiente-santa-fe",
-   "sport": "football",
-   "competitionId": "liga_dimayor",
-   "tier": "regional",
-   "competition": {
-    "tr": "Kolombiya Liga BetPlay",
-    "en": "Liga BetPlay DIMAYOR",
-    "de": "Liga BetPlay DIMAYOR",
-    "es": "Liga BetPlay DIMAYOR",
-    "fr": "Liga BetPlay DIMAYOR",
-    "it": "Liga BetPlay DIMAYOR",
-    "pt": "Liga BetPlay DIMAYOR",
-    "ar": "الدوري الكولومبي"
-   },
-   "home": "Atlético Nacional",
-   "away": "Independiente Santa Fe",
-   "kickoffUtc": "2026-08-15T23:05:00Z",
-   "broadcasts": {
-    "CO": [
-     "Win Sports"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-monterrey-juarez",
-   "sport": "football",
-   "competitionId": "liga_mx",
-   "tier": "regional",
-   "competition": {
-    "tr": "Meksika Liga MX",
-    "en": "Liga MX",
-    "de": "Liga MX",
-    "es": "Liga MX",
-    "fr": "Liga MX",
-    "it": "Liga MX",
-    "pt": "Liga MX",
-    "ar": "الدوري المكسيكي"
-   },
-   "home": "Monterrey",
-   "away": "Juárez",
-   "kickoffUtc": "2026-08-16T01:10:00Z",
-   "broadcasts": {
-    "MX": [
-     "Canal 5",
-     "TUDN",
-     "ViX"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-boyaca-chico-junior",
-   "sport": "football",
-   "competitionId": "liga_dimayor",
-   "tier": "regional",
-   "competition": {
-    "tr": "Kolombiya Liga BetPlay",
-    "en": "Liga BetPlay DIMAYOR",
-    "de": "Liga BetPlay DIMAYOR",
-    "es": "Liga BetPlay DIMAYOR",
-    "fr": "Liga BetPlay DIMAYOR",
-    "it": "Liga BetPlay DIMAYOR",
-    "pt": "Liga BetPlay DIMAYOR",
-    "ar": "الدوري الكولومبي"
-   },
-   "home": "Boyacá Chicó",
-   "away": "Junior",
-   "kickoffUtc": "2026-08-16T01:10:00Z",
-   "broadcasts": {
-    "CO": [
-     "Win Sports"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260815-atlas-tigres",
-   "sport": "football",
-   "competitionId": "liga_mx",
-   "tier": "regional",
-   "competition": {
-    "tr": "Meksika Liga MX",
-    "en": "Liga MX",
-    "de": "Liga MX",
-    "es": "Liga MX",
-    "fr": "Liga MX",
-    "it": "Liga MX",
-    "pt": "Liga MX",
-    "ar": "الدوري المكسيكي"
-   },
-   "home": "Atlas",
-   "away": "Tigres",
-   "kickoffUtc": "2026-08-16T03:10:00Z",
-   "broadcasts": {
-    "MX": [
-     "Canal 5",
-     "TUDN",
-     "ViX"
+    "IT": [
+     "Mediaset"
     ]
    },
    "sources": []
