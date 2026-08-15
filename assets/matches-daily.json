@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-08-15T09:18:10.708Z",
+ "generated_at": "2026-08-15T09:19:22.353Z",
  "date": "2026-08-15",
  "model": "user-provided",
  "stats": {
-  "total": 38,
-  "withChannel": 38,
+  "total": 42,
+  "withChannel": 42,
   "bySport": {
    "volleyball": 2,
-   "football": 29,
+   "football": 33,
    "motorsport": 7
   },
   "warnings": 0,
-  "searches": 8
+  "searches": 10
  },
  "matches": [
   {
@@ -242,6 +242,31 @@
     ],
     "DZ": [
      "Red Bull TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260815-ca-cerro-albion-fc",
+   "sport": "football",
+   "competitionId": "liga_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Ligi",
+    "en": "Liga AUF Uruguaya",
+    "de": "Liga AUF Uruguaya",
+    "es": "Liga AUF Uruguaya",
+    "fr": "Liga AUF Uruguaya",
+    "it": "Liga AUF Uruguaya",
+    "pt": "Campeonato Uruguaio",
+    "ar": "الدوري الأوروغوياني"
+   },
+   "home": "CA Cerro",
+   "away": "Albion FC",
+   "kickoffUtc": "2026-08-15T13:00:00Z",
+   "broadcasts": {
+    "UY": [
+     "VTV+"
     ]
    },
    "sources": []
@@ -660,6 +685,31 @@
    "sources": []
   },
   {
+   "id": "football-20260815-juventud-de-las-piedras-montevideo-city-torque",
+   "sport": "football",
+   "competitionId": "liga_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Ligi",
+    "en": "Liga AUF Uruguaya",
+    "de": "Liga AUF Uruguaya",
+    "es": "Liga AUF Uruguaya",
+    "fr": "Liga AUF Uruguaya",
+    "it": "Liga AUF Uruguaya",
+    "pt": "Campeonato Uruguaio",
+    "ar": "الدوري الأوروغوياني"
+   },
+   "home": "Juventud de Las Piedras",
+   "away": "Montevideo City Torque",
+   "kickoffUtc": "2026-08-15T16:00:00Z",
+   "broadcasts": {
+    "UY": [
+     "VTV+"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260815-sabah-baku-kapaz",
    "sport": "football",
    "competitionId": "aze_pl",
@@ -1040,6 +1090,31 @@
    "sources": []
   },
   {
+   "id": "football-20260815-coban-imperial-csd-mixco",
+   "sport": "football",
+   "competitionId": "liga_bantrab",
+   "tier": "regional",
+   "competition": {
+    "tr": "Guatemala Ligi",
+    "en": "Liga Bantrab",
+    "de": "Liga Bantrab",
+    "es": "Liga Bantrab",
+    "fr": "Liga Bantrab",
+    "it": "Liga Bantrab",
+    "pt": "Liga Bantrab",
+    "ar": "الدوري الغواتيمالي"
+   },
+   "home": "Cobán Imperial",
+   "away": "CSD Mixco",
+   "kickoffUtc": "2026-08-15T19:00:00Z",
+   "broadcasts": {
+    "GT": [
+     "FOX"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260815-torino-carrarese",
    "sport": "football",
    "competitionId": "coppa",
@@ -1219,6 +1294,31 @@
     ],
     "BR": [
      "Premiere"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260815-racing-club-de-montevideo-nacional",
+   "sport": "football",
+   "competitionId": "liga_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Ligi",
+    "en": "Liga AUF Uruguaya",
+    "de": "Liga AUF Uruguaya",
+    "es": "Liga AUF Uruguaya",
+    "fr": "Liga AUF Uruguaya",
+    "it": "Liga AUF Uruguaya",
+    "pt": "Campeonato Uruguaio",
+    "ar": "الدوري الأوروغوياني"
+   },
+   "home": "Racing Club de Montevideo",
+   "away": "Nacional",
+   "kickoffUtc": "2026-08-15T19:30:00Z",
+   "broadcasts": {
+    "UY": [
+     "VTV+"
     ]
    },
    "sources": []
