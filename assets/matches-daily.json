@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-08-15T08:51:03.606Z",
+ "generated_at": "2026-08-15T08:55:59.978Z",
  "date": "2026-08-15",
  "model": "user-provided",
  "stats": {
-  "total": 33,
-  "withChannel": 33,
+  "total": 36,
+  "withChannel": 35,
   "bySport": {
    "volleyball": 2,
-   "football": 24,
+   "football": 27,
    "motorsport": 7
   },
   "warnings": 0,
-  "searches": 2
+  "searches": 5
  },
  "matches": [
   {
@@ -1123,6 +1123,62 @@
     ],
     "BR": [
      "Premiere"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260815-atlante-toluca",
+   "sport": "football",
+   "competitionId": "liga_mx",
+   "tier": "regional",
+   "competition": {
+    "tr": "Meksika Liga MX",
+    "en": "Liga MX"
+   },
+   "home": "Atlante",
+   "away": "Toluca",
+   "kickoffUtc": "2026-08-15T23:00:00Z",
+   "broadcasts": {
+    "MX": [
+     "TUDN",
+     "ViX"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260815-monterrey-juarez",
+   "sport": "football",
+   "competitionId": "liga_mx",
+   "tier": "regional",
+   "competition": {
+    "tr": "Meksika Liga MX",
+    "en": "Liga MX"
+   },
+   "home": "Monterrey",
+   "away": "Juárez",
+   "kickoffUtc": "2026-08-16T01:10:00Z",
+   "broadcasts": {},
+   "sources": []
+  },
+  {
+   "id": "football-20260815-atlas-tigres",
+   "sport": "football",
+   "competitionId": "liga_mx",
+   "tier": "regional",
+   "competition": {
+    "tr": "Meksika Liga MX",
+    "en": "Liga MX"
+   },
+   "home": "Atlas",
+   "away": "Tigres",
+   "kickoffUtc": "2026-08-16T03:10:00Z",
+   "broadcasts": {
+    "MX": [
+     "Canal 5",
+     "TUDN",
+     "ViX"
     ]
    },
    "sources": []
