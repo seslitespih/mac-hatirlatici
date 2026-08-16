@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-16T22:17:18.511Z",
+ "generated_at": "2026-08-16T22:18:28.180Z",
  "date": "2026-08-17",
  "model": "user-provided",
  "stats": {
-  "total": 8,
-  "withChannel": 8,
+  "total": 12,
+  "withChannel": 12,
   "bySport": {
-   "football": 8
+   "football": 12
   },
   "warnings": 0,
   "searches": 0
@@ -38,6 +38,106 @@
     "AR": [
      "TNT Sports",
      "ESPN Premium"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260817-deportivo-san-pedro-aurora",
+   "sport": "football",
+   "competitionId": "liga_bantrab",
+   "tier": "regional",
+   "competition": {
+    "tr": "Guatemala Ligi",
+    "en": "Liga Bantrab",
+    "de": "Liga Bantrab",
+    "es": "Liga Bantrab",
+    "fr": "Liga Bantrab",
+    "it": "Liga Bantrab",
+    "pt": "Liga Bantrab",
+    "ar": "الدوري الغواتيمالي"
+   },
+   "home": "Deportivo San Pedro",
+   "away": "Aurora",
+   "kickoffUtc": "2026-08-16T21:00:00Z",
+   "broadcasts": {
+    "GT": [
+     "FOX"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260817-colo-colo-ohiggins",
+   "sport": "football",
+   "competitionId": "liga_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Şili Ligi",
+    "en": "Liga de Primera",
+    "de": "Liga de Primera",
+    "es": "Liga de Primera",
+    "fr": "Liga de Primera",
+    "it": "Liga de Primera",
+    "pt": "Liga de Primera",
+    "ar": "الدوري التشيلي"
+   },
+   "home": "Colo-Colo",
+   "away": "O'Higgins",
+   "kickoffUtc": "2026-08-16T21:30:00Z",
+   "broadcasts": {
+    "CL": [
+     "TNT Sports"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260817-penarol-central-espanol",
+   "sport": "football",
+   "competitionId": "liga_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Ligi",
+    "en": "Liga AUF Uruguaya",
+    "de": "Liga AUF Uruguaya",
+    "es": "Liga AUF Uruguaya",
+    "fr": "Liga AUF Uruguaya",
+    "it": "Liga AUF Uruguaya",
+    "pt": "Liga AUF Uruguaya",
+    "ar": "الدوري الأوروغوياني"
+   },
+   "home": "Peñarol",
+   "away": "Central Español",
+   "kickoffUtc": "2026-08-16T21:30:00Z",
+   "broadcasts": {
+    "UY": [
+     "VTV+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260817-cd-suchitepequez-deportivo-marquense",
+   "sport": "football",
+   "competitionId": "liga_bantrab",
+   "tier": "regional",
+   "competition": {
+    "tr": "Guatemala Ligi",
+    "en": "Liga Bantrab",
+    "de": "Liga Bantrab",
+    "es": "Liga Bantrab",
+    "fr": "Liga Bantrab",
+    "it": "Liga Bantrab",
+    "pt": "Liga Bantrab",
+    "ar": "الدوري الغواتيمالي"
+   },
+   "home": "CD Suchitepéquez",
+   "away": "Deportivo Marquense",
+   "kickoffUtc": "2026-08-16T23:00:00Z",
+   "broadcasts": {
+    "GT": [
+     "FOX"
     ]
    },
    "sources": []
