@@ -44,6 +44,7 @@ export const SUPPORTED_COUNTRIES: CountryInfo[] = [
   { code: 'DZ', name: 'الجزائر',        englishName: 'Algeria',        flag: '🇩🇿', timezone: 'Africa/Algiers',          language: 'ar' },
   { code: 'TN', name: 'تونس',           englishName: 'Tunisia',        flag: '🇹🇳', timezone: 'Africa/Tunis',            language: 'ar' },
   { code: 'IQ', name: 'العراق',        englishName: 'Iraq',           flag: '🇮🇶', timezone: 'Asia/Baghdad',            language: 'ar' },
+  { code: 'JO', name: 'الأردن',         englishName: 'Jordan',         flag: '🇯🇴', timezone: 'Asia/Amman',              language: 'ar' },
   { code: 'LY', name: 'ليبيا',          englishName: 'Libya',          flag: '🇱🇾', timezone: 'Africa/Tripoli',          language: 'ar' },
   // Spanish
   { code: 'CO', name: 'Colombia',       englishName: 'Colombia',       flag: '🇨🇴', timezone: 'America/Bogota',          language: 'es' },
