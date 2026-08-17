@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-17T12:31:37.598Z",
+ "generated_at": "2026-08-17T13:04:41.012Z",
  "date": "2026-08-17",
  "model": "user-provided",
  "stats": {
-  "total": 12,
-  "withChannel": 12,
+  "total": 18,
+  "withChannel": 18,
   "bySport": {
-   "football": 12
+   "football": 18
   },
   "warnings": 0,
   "searches": 0
@@ -197,6 +197,131 @@
    "sources": []
   },
   {
+   "id": "football-20260817-al-anwar-al-ahli",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Suudi Arabistan Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Saudi Pro League",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al Anwar",
+   "away": "Al Ahli",
+   "kickoffUtc": "2026-08-17T16:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "Thmanyah"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260817-al-taee-al-qadsiah",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Suudi Arabistan Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Saudi Pro League",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al Taee",
+   "away": "Al Qadsiah",
+   "kickoffUtc": "2026-08-17T16:15:00Z",
+   "broadcasts": {
+    "SA": [
+     "Thmanyah"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260817-al-zulfi-al-riyadh",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Suudi Arabistan Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Saudi Pro League",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al Zulfi",
+   "away": "Al Riyadh",
+   "kickoffUtc": "2026-08-17T16:15:00Z",
+   "broadcasts": {
+    "SA": [
+     "Thmanyah"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260817-al-adalah-al-fayha",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Suudi Arabistan Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Saudi Pro League",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al Adalah",
+   "away": "Al Fayha",
+   "kickoffUtc": "2026-08-17T18:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "Thmanyah"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260817-al-raed-al-hilal",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Suudi Arabistan Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Saudi Pro League",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al Raed",
+   "away": "Al Hilal",
+   "kickoffUtc": "2026-08-17T18:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "Thmanyah"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260817-samsunspor-goztepe",
    "sport": "football",
    "competitionId": "superlig",
@@ -359,6 +484,36 @@
     ],
     "PT": [
      "Sport TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260817-lanus-independiente-rivadavia",
+   "sport": "football",
+   "competitionId": "arg_pd",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Primera División",
+    "en": "Argentine Primera División",
+    "de": "Argentine Primera División",
+    "es": "Primera División de Argentina",
+    "fr": "Argentine Primera División",
+    "it": "Argentine Primera División",
+    "pt": "Argentine Primera División",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Lanús",
+   "away": "Independiente Rivadavia",
+   "kickoffUtc": "2026-08-17T20:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart",
+     "Smart Spor HD"
+    ],
+    "AR": [
+     "TNT Sports",
+     "ESPN Premium"
     ]
    },
    "sources": []
