@@ -1,519 +1,281 @@
 {
- "generated_at": "2026-08-17T13:04:41.012Z",
- "date": "2026-08-17",
+ "generated_at": "2026-08-18T04:52:08.689Z",
+ "date": "2026-08-18",
  "model": "user-provided",
  "stats": {
-  "total": 18,
-  "withChannel": 18,
+  "total": 3,
+  "withChannel": 3,
   "bySport": {
-   "football": 18
+   "football": 3
   },
   "warnings": 0,
-  "searches": 0
+  "searches": 2
  },
  "matches": [
   {
-   "id": "football-20260817-river-plate-argentinos-juniors",
+   "id": "football-20260818-fenerbahce-lyon",
    "sport": "football",
-   "competitionId": "arg_pd",
-   "tier": "regional",
+   "competitionId": "champions",
+   "tier": "global",
    "competition": {
-    "tr": "Arjantin Primera División",
-    "en": "Argentine Primera División",
-    "de": "Primera División (Argentinien)",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
+    "tr": "UEFA Şampiyonlar Ligi Play-Off",
+    "en": "UEFA Champions League Play-off",
+    "de": "UEFA Champions League Playoff",
+    "es": "Play-off de la Champions League",
+    "fr": "Barrages de la Ligue des champions",
+    "it": "Playoff di Champions League",
+    "pt": "Play-off da Liga dos Campeões",
+    "ar": "ملحق دوري أبطال أوروبا"
    },
-   "home": "River Plate",
-   "away": "Argentinos Juniors",
-   "kickoffUtc": "2026-08-16T21:00:00Z",
+   "home": "Fenerbahçe",
+   "away": "Lyon",
+   "kickoffUtc": "2026-08-18T19:00:00Z",
    "broadcasts": {
     "TR": [
-     "Spor Smart",
-     "Smart Spor HD"
-    ],
-    "AR": [
-     "TNT Sports",
-     "ESPN Premium"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-deportivo-san-pedro-aurora",
-   "sport": "football",
-   "competitionId": "liga_bantrab",
-   "tier": "regional",
-   "competition": {
-    "tr": "Guatemala Ligi",
-    "en": "Liga Bantrab",
-    "de": "Liga Bantrab",
-    "es": "Liga Bantrab",
-    "fr": "Liga Bantrab",
-    "it": "Liga Bantrab",
-    "pt": "Liga Bantrab",
-    "ar": "الدوري الغواتيمالي"
-   },
-   "home": "Deportivo San Pedro",
-   "away": "Aurora",
-   "kickoffUtc": "2026-08-16T21:00:00Z",
-   "broadcasts": {
-    "GT": [
-     "FOX"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-colo-colo-ohiggins",
-   "sport": "football",
-   "competitionId": "liga_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Şili Ligi",
-    "en": "Liga de Primera",
-    "de": "Liga de Primera",
-    "es": "Liga de Primera",
-    "fr": "Liga de Primera",
-    "it": "Liga de Primera",
-    "pt": "Liga de Primera",
-    "ar": "الدوري التشيلي"
-   },
-   "home": "Colo-Colo",
-   "away": "O'Higgins",
-   "kickoffUtc": "2026-08-16T21:30:00Z",
-   "broadcasts": {
-    "CL": [
-     "TNT Sports"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-penarol-central-espanol",
-   "sport": "football",
-   "competitionId": "liga_auf",
-   "tier": "regional",
-   "competition": {
-    "tr": "Uruguay Ligi",
-    "en": "Liga AUF Uruguaya",
-    "de": "Liga AUF Uruguaya",
-    "es": "Liga AUF Uruguaya",
-    "fr": "Liga AUF Uruguaya",
-    "it": "Liga AUF Uruguaya",
-    "pt": "Liga AUF Uruguaya",
-    "ar": "الدوري الأوروغوياني"
-   },
-   "home": "Peñarol",
-   "away": "Central Español",
-   "kickoffUtc": "2026-08-16T21:30:00Z",
-   "broadcasts": {
-    "UY": [
-     "VTV+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-cd-suchitepequez-deportivo-marquense",
-   "sport": "football",
-   "competitionId": "liga_bantrab",
-   "tier": "regional",
-   "competition": {
-    "tr": "Guatemala Ligi",
-    "en": "Liga Bantrab",
-    "de": "Liga Bantrab",
-    "es": "Liga Bantrab",
-    "fr": "Liga Bantrab",
-    "it": "Liga Bantrab",
-    "pt": "Liga Bantrab",
-    "ar": "الدوري الغواتيمالي"
-   },
-   "home": "CD Suchitepéquez",
-   "away": "Deportivo Marquense",
-   "kickoffUtc": "2026-08-16T23:00:00Z",
-   "broadcasts": {
-    "GT": [
-     "FOX"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-mirassol-flamengo",
-   "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
-   },
-   "home": "Mirassol",
-   "away": "Flamengo",
-   "kickoffUtc": "2026-08-17T00:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "Spor Smart 2",
-     "Smart Spor 2"
-    ],
-    "BR": [
-     "Premiere"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-qarabag-shamakhi",
-   "sport": "football",
-   "competitionId": "aze_pl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Azerbaycan Premier Ligi",
-    "en": "Azerbaijan Premier League",
-    "de": "Aserbaidschan Premier League",
-    "es": "Liga Premier de Azerbaiyán",
-    "fr": "Premier League azerbaïdjanaise",
-    "it": "Premier League azera",
-    "pt": "Liga Premier do Azerbaijão",
-    "ar": "الدوري الأذربيجاني الممتاز"
-   },
-   "home": "Qarabağ",
-   "away": "Shamakhi",
-   "kickoffUtc": "2026-08-17T15:30:00Z",
-   "broadcasts": {
-    "TR": [
+     "TRT 1",
      "CBC Sport"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-al-anwar-al-ahli",
-   "sport": "football",
-   "competitionId": "saudi_pl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Suudi Arabistan Pro Lig",
-    "en": "Saudi Pro League",
-    "de": "Saudi Pro League",
-    "es": "Liga Profesional Saudí",
-    "fr": "Saudi Pro League",
-    "it": "Saudi Pro League",
-    "pt": "Saudi Pro League",
-    "ar": "دوري روشن السعودي"
-   },
-   "home": "Al Anwar",
-   "away": "Al Ahli",
-   "kickoffUtc": "2026-08-17T16:00:00Z",
-   "broadcasts": {
-    "SA": [
-     "Thmanyah"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-al-taee-al-qadsiah",
-   "sport": "football",
-   "competitionId": "saudi_pl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Suudi Arabistan Pro Lig",
-    "en": "Saudi Pro League",
-    "de": "Saudi Pro League",
-    "es": "Liga Profesional Saudí",
-    "fr": "Saudi Pro League",
-    "it": "Saudi Pro League",
-    "pt": "Saudi Pro League",
-    "ar": "دوري روشن السعودي"
-   },
-   "home": "Al Taee",
-   "away": "Al Qadsiah",
-   "kickoffUtc": "2026-08-17T16:15:00Z",
-   "broadcasts": {
-    "SA": [
-     "Thmanyah"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-al-zulfi-al-riyadh",
-   "sport": "football",
-   "competitionId": "saudi_pl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Suudi Arabistan Pro Lig",
-    "en": "Saudi Pro League",
-    "de": "Saudi Pro League",
-    "es": "Liga Profesional Saudí",
-    "fr": "Saudi Pro League",
-    "it": "Saudi Pro League",
-    "pt": "Saudi Pro League",
-    "ar": "دوري روشن السعودي"
-   },
-   "home": "Al Zulfi",
-   "away": "Al Riyadh",
-   "kickoffUtc": "2026-08-17T16:15:00Z",
-   "broadcasts": {
-    "SA": [
-     "Thmanyah"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-al-adalah-al-fayha",
-   "sport": "football",
-   "competitionId": "saudi_pl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Suudi Arabistan Pro Lig",
-    "en": "Saudi Pro League",
-    "de": "Saudi Pro League",
-    "es": "Liga Profesional Saudí",
-    "fr": "Saudi Pro League",
-    "it": "Saudi Pro League",
-    "pt": "Saudi Pro League",
-    "ar": "دوري روشن السعودي"
-   },
-   "home": "Al Adalah",
-   "away": "Al Fayha",
-   "kickoffUtc": "2026-08-17T18:00:00Z",
-   "broadcasts": {
-    "SA": [
-     "Thmanyah"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-al-raed-al-hilal",
-   "sport": "football",
-   "competitionId": "saudi_pl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Suudi Arabistan Pro Lig",
-    "en": "Saudi Pro League",
-    "de": "Saudi Pro League",
-    "es": "Liga Profesional Saudí",
-    "fr": "Saudi Pro League",
-    "it": "Saudi Pro League",
-    "pt": "Saudi Pro League",
-    "ar": "دوري روشن السعودي"
-   },
-   "home": "Al Raed",
-   "away": "Al Hilal",
-   "kickoffUtc": "2026-08-17T18:00:00Z",
-   "broadcasts": {
-    "SA": [
-     "Thmanyah"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-samsunspor-goztepe",
-   "sport": "football",
-   "competitionId": "superlig",
-   "tier": "global",
-   "competition": {
-    "tr": "Trendyol Süper Lig",
-    "en": "Süper Lig",
-    "de": "Süper Lig",
-    "es": "Süper Lig",
-    "fr": "Süper Lig",
-    "it": "Süper Lig",
-    "pt": "Süper Lig",
-    "ar": "الدوري التركي الممتاز"
-   },
-   "home": "Samsunspor",
-   "away": "Göztepe",
-   "kickoffUtc": "2026-08-17T18:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 1"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-batman-petrolspor-boluspor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Liga",
-    "es": "Primera División de Turquía",
-    "fr": "TFF 1re Ligue",
-    "it": "TFF Prima Lega",
-    "pt": "TFF Primeira Liga",
-    "ar": "الدرجة الأولى التركية"
-   },
-   "home": "Batman Petrolspor",
-   "away": "Boluspor",
-   "kickoffUtc": "2026-08-17T18:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor",
-     "beIN Sports 2"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-cremonese-sampdoria",
-   "sport": "football",
-   "competitionId": "coppa",
-   "tier": "global",
-   "competition": {
-    "tr": "İtalya Kupası",
-    "en": "Coppa Italia",
-    "de": "Coppa Italia",
-    "es": "Copa de Italia",
-    "fr": "Coupe d'Italie",
-    "it": "Coppa Italia",
-    "pt": "Taça de Itália",
-    "ar": "كأس إيطاليا"
-   },
-   "home": "Cremonese",
-   "away": "Sampdoria",
-   "kickoffUtc": "2026-08-17T18:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor"
-    ],
-    "IT": [
-     "Mediaset"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260817-deportivo-la-coruna-elche",
-   "sport": "football",
-   "competitionId": "laliga",
-   "tier": "global",
-   "competition": {
-    "tr": "İspanya La Liga",
-    "en": "LaLiga",
-    "de": "LaLiga",
-    "es": "LaLiga",
-    "fr": "LaLiga",
-    "it": "LaLiga",
-    "pt": "LaLiga",
-    "ar": "الدوري الإسباني"
-   },
-   "home": "Deportivo La Coruña",
-   "away": "Elche",
-   "kickoffUtc": "2026-08-17T19:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport",
-     "Idman TV",
-     "S Sport Plus"
-    ],
-    "ES": [
-     "Movistar+"
     ],
     "GB": [
-     "Premier Sports"
+     "TNT Sports"
     ],
     "DE": [
      "DAZN"
     ],
-    "IT": [
-     "DAZN"
-    ],
-    "PT": [
-     "DAZN"
+    "ES": [
+     "Movistar+"
     ],
     "FR": [
-     "beIN Sports"
+     "CANAL+"
     ],
-    "BR": [
-     "CazéTV"
+    "IT": [
+     "Sky Sport"
     ],
-    "MX": [
-     "Sky Sports"
+    "PT": [
+     "tabii",
+     "DAZN"
     ],
     "US": [
-     "ESPN"
+     "Paramount+"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "BR": [
+     "Disney+"
+    ],
+    "AR": [
+     "Disney+"
+    ],
+    "MX": [
+     "Disney+"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "GT": [
+     "Disney+"
     ],
     "SA": [
      "beIN Sports"
     ],
     "DZ": [
      "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260817-casa-pia-benfica",
+   "id": "football-20260818-levski-sofya-aek",
    "sport": "football",
-   "competitionId": "primeira",
+   "competitionId": "champions",
    "tier": "global",
    "competition": {
-    "tr": "Portekiz Liga Portugal",
-    "en": "Liga Portugal",
-    "de": "Liga Portugal",
-    "es": "Liga Portugal",
-    "fr": "Liga Portugal",
-    "it": "Liga Portugal",
-    "pt": "Liga Portugal",
-    "ar": "الدوري البرتغالي"
+    "tr": "UEFA Şampiyonlar Ligi Play-Off",
+    "en": "UEFA Champions League Play-off",
+    "de": "UEFA Champions League Playoff",
+    "es": "Play-off de la Champions League",
+    "fr": "Barrages de la Ligue des champions",
+    "it": "Playoff di Champions League",
+    "pt": "Play-off da Liga dos Campeões",
+    "ar": "ملحق دوري أبطال أوروبا"
    },
-   "home": "Casa Pia",
-   "away": "Benfica",
-   "kickoffUtc": "2026-08-17T19:15:00Z",
+   "home": "Levski Sofya",
+   "away": "AEK",
+   "kickoffUtc": "2026-08-18T19:00:00Z",
    "broadcasts": {
     "TR": [
-     "beIN Sports 3"
+     "tabii Spor"
+    ],
+    "GB": [
+     "TNT Sports"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "Movistar+"
+    ],
+    "FR": [
+     "CANAL+"
+    ],
+    "IT": [
+     "Sky Sport"
     ],
     "PT": [
-     "Sport TV"
+     "tabii",
+     "DAZN"
+    ],
+    "US": [
+     "Paramount+"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "BR": [
+     "Disney+"
+    ],
+    "AR": [
+     "Disney+"
+    ],
+    "MX": [
+     "Disney+"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "GT": [
+     "Disney+"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260817-lanus-independiente-rivadavia",
+   "id": "football-20260818-dinamo-zagreb-viking",
    "sport": "football",
-   "competitionId": "arg_pd",
-   "tier": "regional",
+   "competitionId": "champions",
+   "tier": "global",
    "competition": {
-    "tr": "Arjantin Primera División",
-    "en": "Argentine Primera División",
-    "de": "Argentine Primera División",
-    "es": "Primera División de Argentina",
-    "fr": "Argentine Primera División",
-    "it": "Argentine Primera División",
-    "pt": "Argentine Primera División",
-    "ar": "الدوري الأرجنتيني"
+    "tr": "UEFA Şampiyonlar Ligi Play-Off",
+    "en": "UEFA Champions League Play-off",
+    "de": "UEFA Champions League Playoff",
+    "es": "Play-off de la Champions League",
+    "fr": "Barrages de la Ligue des champions",
+    "it": "Playoff di Champions League",
+    "pt": "Play-off da Liga dos Campeões",
+    "ar": "ملحق دوري أبطال أوروبا"
    },
-   "home": "Lanús",
-   "away": "Independiente Rivadavia",
-   "kickoffUtc": "2026-08-17T20:00:00Z",
+   "home": "Dinamo Zagreb",
+   "away": "Viking",
+   "kickoffUtc": "2026-08-18T19:00:00Z",
    "broadcasts": {
     "TR": [
-     "Spor Smart",
-     "Smart Spor HD"
+     "tabii Spor 1"
+    ],
+    "GB": [
+     "TNT Sports"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "Movistar+"
+    ],
+    "FR": [
+     "CANAL+"
+    ],
+    "IT": [
+     "Sky Sport"
+    ],
+    "PT": [
+     "tabii",
+     "DAZN"
+    ],
+    "US": [
+     "Paramount+"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "BR": [
+     "Disney+"
     ],
     "AR": [
-     "TNT Sports",
-     "ESPN Premium"
+     "Disney+"
+    ],
+    "MX": [
+     "Disney+"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "GT": [
+     "Disney+"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
     ]
    },
    "sources": []
