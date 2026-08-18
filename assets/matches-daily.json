@@ -1,17 +1,42 @@
 {
- "generated_at": "2026-08-18T04:58:01.102Z",
+ "generated_at": "2026-08-18T04:58:29.061Z",
  "date": "2026-08-18",
  "model": "user-provided",
  "stats": {
-  "total": 7,
-  "withChannel": 7,
+  "total": 8,
+  "withChannel": 8,
   "bySport": {
-   "football": 7
+   "football": 8
   },
   "warnings": 0,
   "searches": 2
  },
  "matches": [
+  {
+   "id": "football-20260818-al-diriyah-al-nassr",
+   "sport": "football",
+   "competitionId": "ksa_kings_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "Suudi Kral Kupası",
+    "en": "King's Cup",
+    "de": "King's Cup",
+    "es": "Copa del Rey de Arabia Saudí",
+    "fr": "Coupe du Roi",
+    "it": "Coppa del Re Saudita",
+    "pt": "Taça do Rei Saudita",
+    "ar": "كأس الملك"
+   },
+   "home": "Al-Diriyah",
+   "away": "Al-Nassr",
+   "kickoffUtc": "2026-08-18T18:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "Thmanyah"
+    ]
+   },
+   "sources": []
+  },
   {
    "id": "football-20260818-fenerbahce-lyon",
    "sport": "football",
