@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-18T04:54:59.250Z",
+ "generated_at": "2026-08-18T04:58:01.102Z",
  "date": "2026-08-18",
  "model": "user-provided",
  "stats": {
-  "total": 3,
-  "withChannel": 3,
+  "total": 7,
+  "withChannel": 7,
   "bySport": {
-   "football": 3
+   "football": 7
   },
   "warnings": 0,
   "searches": 2
@@ -276,6 +276,109 @@
     ],
     "OM": [
      "beIN Sports"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260818-internacional-remo",
+   "sport": "football",
+   "competitionId": "bra_seriea",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie A",
+    "en": "Brasileirão Série A",
+    "de": "Brasileirão Série A",
+    "es": "Brasileirão Serie A",
+    "fr": "Brasileirão Série A",
+    "it": "Brasileirão Série A",
+    "pt": "Brasileirão Série A",
+    "ar": "الدوري البرازيلي"
+   },
+   "home": "Internacional",
+   "away": "Remo",
+   "kickoffUtc": "2026-08-18T23:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "SporTV",
+     "Premiere",
+     "Globoplay"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260818-gimnasia-mendoza-talleres",
+   "sport": "football",
+   "competitionId": "copa_arg",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Kupası",
+    "en": "Copa Argentina",
+    "de": "Copa Argentina",
+    "es": "Copa Argentina",
+    "fr": "Copa Argentina",
+    "it": "Copa Argentina",
+    "pt": "Copa Argentina",
+    "ar": "كأس الأرجنتين"
+   },
+   "home": "Gimnasia Mendoza",
+   "away": "Talleres",
+   "kickoffUtc": "2026-08-19T00:30:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN Premium"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260818-palestino-huachipato",
+   "sport": "football",
+   "competitionId": "liga_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Şili Ligi",
+    "en": "Liga de Primera",
+    "de": "Liga de Primera",
+    "es": "Liga de Primera",
+    "fr": "Liga de Primera",
+    "it": "Liga de Primera",
+    "pt": "Liga de Primera",
+    "ar": "الدوري التشيلي"
+   },
+   "home": "Palestino",
+   "away": "Huachipato",
+   "kickoffUtc": "2026-08-19T00:30:00Z",
+   "broadcasts": {
+    "CL": [
+     "TNT Sports Premium",
+     "HBO Max"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260818-pachuca-puebla",
+   "sport": "football",
+   "competitionId": "liga_mx",
+   "tier": "regional",
+   "competition": {
+    "tr": "Meksika Liga MX",
+    "en": "Liga MX",
+    "de": "Liga MX",
+    "es": "Liga MX",
+    "fr": "Liga MX",
+    "it": "Liga MX",
+    "pt": "Liga MX",
+    "ar": "الدوري المكسيكي"
+   },
+   "home": "Pachuca",
+   "away": "Puebla",
+   "kickoffUtc": "2026-08-19T03:00:00Z",
+   "broadcasts": {
+    "MX": [
+     "FOX One"
     ]
    },
    "sources": []
