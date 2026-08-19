@@ -28,7 +28,6 @@
       "EC"
     ],
     "LATAM": [
-      "BR",
       "AR",
       "MX",
       "CO",
@@ -38,7 +37,8 @@
       "GT",
       "PE",
       "EC"
-    ]
+    ],
+    "_not_BR": "BREZILYA HICBIR KISAYOLA DAHIL DEGIL. Ayri yayinci ekosistemi var, neredeyse her turnuvada LATAM'in geri kalanindan farkli. Her turnuvada BR'yi ACIKCA yaz."
   },
   "turnuvalar": {
     "champions": {
@@ -206,6 +206,15 @@
           "kural": "Movistar+ tum maclari tasir; bir kismi ayrica DAZN LaLiga kanalinda (Movistar kanal 55 uzerinden de erisilir). Mac bazinda hangisinin ana yayinci oldugunu dogrula.",
           "alternatif": [
             "DAZN LaLiga"
+          ]
+        },
+        {
+          "ulke": "@MENA",
+          "kural": "beIN Sports MENA tek bolgesel operasyon: kanal numaralari SA/DZ/IQ/JO/EG/OM'da AYNI. Taban 'beIN Sports'; kesin numara (beIN Sports 1 HD, 2 HD...) kullanicinin gunluk SA listesinden gelir, geldiginde onu yaz.",
+          "alternatif": [
+            "beIN Sports 1 HD",
+            "beIN Sports 2 HD",
+            "beIN Sports 3 HD"
           ]
         }
       ],
@@ -957,5 +966,17 @@
         "19 Agu 2026: Sudamericana BR = ESPN/Paramount+ yazilmisti. Dogrusu ESPN/Disney+."
       ]
     }
+  },
+  "suudi_ozel": {
+    "_comment": "Kullanicinin gunluk SA yayin listesi. MENA kanallari icin OTORITE.",
+    "saat_dilimi": {
+      "tz": "Asia/Riyadh",
+      "utc": "+3",
+      "yaz_saati": "yok",
+      "cevrim": "UTC = liste saati - 3"
+    },
+    "format": "12 saatlik Arapca: 'م' = PM (ogleden sonra), 'ص' = AM (gece/sabah). '10:00 م' = 22:00, '01:00 ص' = ertesi gun 01:00.",
+    "kural": "Kanal yazmayan satir = SA'da yayinci yok demek DEGIL, liste kismi olabilir. Kanal eksikse tabloyu koru, silme.",
+    "kapsam": "beIN Sports MENA tek feed; SA'dan gelen kanal numarasi DZ/IQ/JO/EG/OM icin de gecerlidir."
   }
 }
