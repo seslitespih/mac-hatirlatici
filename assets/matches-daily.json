@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-19T10:52:48.845Z",
+ "generated_at": "2026-08-19T15:44:50.000Z",
  "date": "2026-08-19",
  "model": "user-provided",
  "stats": {
-  "total": 12,
-  "withChannel": 12,
+  "total": 17,
+  "withChannel": 17,
   "bySport": {
-   "football": 12
+   "football": 17
   },
   "warnings": 0,
   "searches": 0
@@ -212,7 +212,97 @@
      "DAZN"
     ],
     "BR": [
+     "Max",
+     "Space"
+    ],
+    "AR": [
      "Disney+"
+    ],
+    "MX": [
+     "Disney+"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "GT": [
+     "Disney+"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-hapoel-beer-sheva-sabah-baku",
+   "sport": "football",
+   "competitionId": "champions",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Şampiyonlar Ligi Play-Off",
+    "en": "UEFA Champions League Play-off",
+    "de": "UEFA Champions League Playoff",
+    "es": "Play-off de la Champions League",
+    "fr": "Barrages de la Ligue des champions",
+    "it": "Playoff di Champions League",
+    "pt": "Play-off da Liga dos Campeões",
+    "ar": "ملحق دوري أبطال أوروبا"
+   },
+   "home": "Hapoel Beer Sheva",
+   "away": "Sabah Bakü",
+   "kickoffUtc": "2026-08-19T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "İçtimai TV"
+    ],
+    "GB": [
+     "TNT Sports"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "Movistar+"
+    ],
+    "FR": [
+     "CANAL+"
+    ],
+    "IT": [
+     "Sky Sport"
+    ],
+    "PT": [
+     "tabii",
+     "DAZN"
+    ],
+    "US": [
+     "Paramount+"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "BR": [
+     "Max"
     ],
     "AR": [
      "Disney+"
@@ -302,96 +392,8 @@
      "DAZN"
     ],
     "BR": [
-     "Disney+"
-    ],
-    "AR": [
-     "Disney+"
-    ],
-    "MX": [
-     "Disney+"
-    ],
-    "CO": [
-     "Disney+"
-    ],
-    "CL": [
-     "Disney+"
-    ],
-    "UY": [
-     "Disney+"
-    ],
-    "GT": [
-     "Disney+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260819-hapoel-beer-sheva-sabah-baku",
-   "sport": "football",
-   "competitionId": "champions",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Şampiyonlar Ligi Play-Off",
-    "en": "UEFA Champions League Play-off",
-    "de": "UEFA Champions League Playoff",
-    "es": "Play-off de la Champions League",
-    "fr": "Barrages de la Ligue des champions",
-    "it": "Playoff di Champions League",
-    "pt": "Play-off da Liga dos Campeões",
-    "ar": "ملحق دوري أبطال أوروبا"
-   },
-   "home": "Hapoel Beer Sheva",
-   "away": "Sabah Bakü",
-   "kickoffUtc": "2026-08-19T19:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "İçtimai TV"
-    ],
-    "GB": [
-     "TNT Sports"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "Movistar+"
-    ],
-    "FR": [
-     "CANAL+"
-    ],
-    "IT": [
-     "Sky Sport"
-    ],
-    "PT": [
-     "tabii",
-     "DAZN"
-    ],
-    "US": [
-     "Paramount+"
-    ],
-    "CA": [
-     "DAZN"
-    ],
-    "BR": [
-     "Disney+"
+     "Max",
+     "TNT"
     ],
     "AR": [
      "Disney+"
@@ -480,7 +482,7 @@
      "DAZN"
     ],
     "BR": [
-     "Disney+"
+     "Max"
     ],
     "AR": [
      "Disney+"
@@ -517,6 +519,40 @@
     ],
     "OM": [
      "beIN Sports"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-atletico-mg-rb-bragantino",
+   "sport": "football",
+   "competitionId": "sudamericana",
+   "tier": "regional",
+   "competition": {
+    "tr": "Copa Sudamericana",
+    "en": "Copa Sudamericana",
+    "de": "Copa Sudamericana",
+    "es": "Copa Sudamericana",
+    "fr": "Copa Sudamericana",
+    "it": "Copa Sudamericana",
+    "pt": "Copa Sudamericana",
+    "ar": "كوبا سودأمريكانا"
+   },
+   "home": "Atlético-MG",
+   "away": "RB Bragantino",
+   "kickoffUtc": "2026-08-19T22:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "ESPN",
+     "Disney+"
+    ],
+    "AR": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+"
     ]
    },
    "sources": []
@@ -587,6 +623,111 @@
     "UY": [
      "ESPN",
      "Disney+"
+    ],
+    "BR": [
+     "Paramount+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-avai-sport-recife",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B bresilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Brasileirao Serie B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Avaí",
+   "away": "Sport Recife",
+   "kickoffUtc": "2026-08-19T22:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-fortaleza-sao-bernardo",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B bresilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Brasileirao Serie B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Fortaleza",
+   "away": "São Bernardo",
+   "kickoffUtc": "2026-08-19T22:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "XSports",
+     "ESPN 4",
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-cuiaba-operario-pr",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B bresilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Brasileirao Serie B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Cuiabá",
+   "away": "Operário-PR",
+   "kickoffUtc": "2026-08-19T23:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-vila-nova-ponte-preta",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B bresilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Brasileirao Serie B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Vila Nova",
+   "away": "Ponte Preta",
+   "kickoffUtc": "2026-08-19T23:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
     ]
    },
    "sources": []
@@ -654,6 +795,10 @@
      "Disney+"
     ],
     "UY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "BR": [
      "ESPN",
      "Disney+"
     ]

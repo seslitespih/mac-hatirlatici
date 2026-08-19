@@ -83,6 +83,11 @@
         ],
         "@MENA": [
           "beIN Sports"
+        ],
+        "BR": [
+          "Max",
+          "TNT",
+          "Space"
         ]
       },
       "bolunmeler": [
@@ -106,9 +111,18 @@
           "alternatif": [
             "DAZN"
           ]
+        },
+        {
+          "ulke": "BR",
+          "kural": "Max (HBO Max) 204 macin TAMAMINI yayinlar - BR icin her zaman guvenli varsayilan. TNT ve Space secili maclari alir, mac bazinda degisir. 2026-27'de TNT Sports ayrica 31 maci YouTube'da UCRETSIZ yayinlar.",
+          "alternatif": [
+            "TNT",
+            "Space",
+            "TNT Sports YouTube"
+          ]
         }
       ],
-      "notlar": "Almanya'da final ZDF'de de yayinlanir. Ispanya'da final RTVE'de (2026-27 sonuna kadar). Fransa'da M6 finali serbest yayinlar."
+      "notlar": "Almanya'da final ZDF'de de yayinlanir. Ispanya'da final RTVE'de (2026-27 sonuna kadar). Fransa'da M6 finali serbest yayinlar. BREZILYA @LATAM KISAYOLUNA DAHIL DEGIL: Disney+ degil TNT Sports/Max. Haklar 2031'e kadar TNT Sports'ta."
     },
     "europa": {
       "ad": "UEFA Avrupa Ligi",
@@ -495,11 +509,11 @@
     "sudamericana": {
       "ad": "Copa Sudamericana",
       "sezon": "2023-2026 dongusu",
-      "durum": "tahmin",
+      "durum": "dogrulandi",
       "ulkeler": {
         "BR": [
           "ESPN",
-          "Paramount+"
+          "Disney+"
         ],
         "AR": [
           "ESPN",
@@ -531,7 +545,7 @@
         ]
       },
       "bolunmeler": [],
-      "notlar": "Libertadores ile ayni paket."
+      "notlar": "Libertadores ile ayni paket DEGIL: Brezilya'da Sudamericana ESPN/Disney+, Libertadores ise Globo/Paramount+. 19 Agu 2026'da BR yayin listesinden dogrulandi."
     },
     "bra_seriea": {
       "ad": "Brasileirao Serie A",
@@ -734,6 +748,38 @@
       },
       "bolunmeler": [],
       "notlar": "DAZN Japonya'da uzun donemli munhasir haklara sahip."
+    },
+    "bra_serieb": {
+      "ad": "Brezilya Serie B",
+      "sezon": "2026",
+      "durum": "dogrulandi",
+      "tier": "regional",
+      "ulkeler": {
+        "BR": [
+          "Disney+",
+          "ESPN",
+          "XSports",
+          "Amazon Prime Video",
+          "CazeTV",
+          "Record",
+          "Premiere"
+        ]
+      },
+      "bolunmeler": [
+        {
+          "ulke": "BR",
+          "kural": "Disney+ turun BUYUK COGUNLUGUNU alir - varsayilan bu. ESPN lineer kanal (ESPN 4 dahil) secili maclari alir. XSports acik/ucretsiz kanal, tur basina birkac mac. Mac bazinda dogrula, blok yazma.",
+          "alternatif": [
+            "ESPN 4",
+            "XSports",
+            "Amazon Prime Video",
+            "CazeTV",
+            "Record",
+            "Premiere"
+          ]
+        }
+      ],
+      "notlar": "Serie B yalniz Brezilya'da gosterilir (tier: regional). Alti farkli yayinci var, tek kanal yazma."
     }
   },
   "kaynaklar": {
@@ -901,6 +947,15 @@
         "ESPN Brasil"
       ],
       "not": "Tum 380 mac ESPN'de (2026-27 sonuna kadar). SportyNet 2026-27'de 76 mac yayinliyor."
+    },
+    "dogrulama": {
+      "kural": "Kullanici Brezilya icin gunluk yayin listesi gonderiyor (yeni bulunan BR kaynagi). Bu liste Brezilya kanallari icin OTORITEDIR, tablodaki tabani ezer.",
+      "isaretler": "'$' on eki = ucretli/abonelikli yayin. On eki olmayan (ge tv, Globo, XSports, Record, CazeTV) = acik/ucretsiz.",
+      "saat": "Liste her zaman Brasilia saatiyle (UTC-3). UTC = liste saati + 3. Yaz saati YOK (2019'da kaldirildi).",
+      "duzeltmeler": [
+        "19 Agu 2026: Sampiyonlar Ligi BR = Disney+ yazilmisti, YANLIS. Dogrusu Max/TNT/Space. @LATAM kisayolu Brezilya'yi kapsamamali.",
+        "19 Agu 2026: Sudamericana BR = ESPN/Paramount+ yazilmisti. Dogrusu ESPN/Disney+."
+      ]
     }
   }
 }
