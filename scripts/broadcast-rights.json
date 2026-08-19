@@ -2,373 +2,905 @@
   "_comment": "Turnuva x ulke yayin haklari. Gunluk fikstur uretiminde TABAN olarak kullanilir; her gun sifirdan aranmaz. 'durum' alani: dogrulandi = web aramasiyla teyit edildi, tahmin = sektor bilgisi ama kaynakla teyit edilmedi. Sezon basinda ve 'su kanal yanlis' geri bildiriminde guncellenir.",
   "_guncelleme": "2026-08-19",
   "_kullanim": "Once buradaki tabani uygula, sonra 'bolunmeler' kurallarini kontrol et, en son o maca ozel arama yap. Bolunme kurali olan ulkelerde (DE, IT, ES, GB) MUTLAKA mac bazinda dogrula.",
-
   "bolgeler": {
-    "MENA": ["SA", "DZ", "IQ", "JO", "EG", "OM", "QA", "AE", "MA", "TN", "LY"],
-    "LATAM_ES": ["AR", "MX", "CO", "CL", "UY", "PY", "GT", "PE", "EC"],
-    "LATAM": ["BR", "AR", "MX", "CO", "CL", "UY", "PY", "GT", "PE", "EC"]
+    "MENA": [
+      "SA",
+      "DZ",
+      "IQ",
+      "JO",
+      "EG",
+      "OM",
+      "QA",
+      "AE",
+      "MA",
+      "TN",
+      "LY"
+    ],
+    "LATAM_ES": [
+      "AR",
+      "MX",
+      "CO",
+      "CL",
+      "UY",
+      "PY",
+      "GT",
+      "PE",
+      "EC"
+    ],
+    "LATAM": [
+      "BR",
+      "AR",
+      "MX",
+      "CO",
+      "CL",
+      "UY",
+      "PY",
+      "GT",
+      "PE",
+      "EC"
+    ]
   },
-
   "turnuvalar": {
     "champions": {
       "ad": "UEFA Sampiyonlar Ligi",
       "sezon": "2026-27",
       "durum": "dogrulandi",
       "ulkeler": {
-        "TR": ["TRT 1", "tabii Spor"],
-        "GB": ["TNT Sports"],
-        "DE": ["DAZN"],
-        "ES": ["Movistar+"],
-        "FR": ["CANAL+"],
-        "IT": ["Sky Sport"],
-        "PT": ["tabii", "DAZN"],
-        "NL": ["Ziggo Sport"],
-        "US": ["Paramount+"],
-        "CA": ["DAZN"],
-        "@LATAM": ["Disney+"],
-        "@MENA": ["beIN Sports"]
+        "TR": [
+          "TRT 1",
+          "tabii Spor"
+        ],
+        "GB": [
+          "TNT Sports"
+        ],
+        "DE": [
+          "DAZN"
+        ],
+        "ES": [
+          "Movistar+"
+        ],
+        "FR": [
+          "CANAL+"
+        ],
+        "IT": [
+          "Sky Sport"
+        ],
+        "PT": [
+          "tabii",
+          "DAZN"
+        ],
+        "NL": [
+          "Ziggo Sport"
+        ],
+        "US": [
+          "Paramount+"
+        ],
+        "CA": [
+          "DAZN"
+        ],
+        "@LATAM": [
+          "Disney+"
+        ],
+        "@MENA": [
+          "beIN Sports"
+        ]
       },
       "bolunmeler": [
-        { "ulke": "DE", "kural": "SALI gunu oynanan maclardan birini Amazon Prime Video secer; kalanlar DAZN. Play-off turunda DAZN 14 macin 12'sini aldi.", "alternatif": ["Amazon Prime Video"] },
-        { "ulke": "IT", "kural": "CARSAMBA gununun en iyi macini Amazon Prime Video alir; kalan 185 mac Sky Sport.", "alternatif": ["Amazon Prime Video"] },
-        { "ulke": "PT", "kural": "tabii ana yayinci, DAZN munhasir olmayan dijital haklara sahip.", "alternatif": ["DAZN"] }
+        {
+          "ulke": "DE",
+          "kural": "SALI gunu oynanan maclardan birini Amazon Prime Video secer; kalanlar DAZN. Play-off turunda DAZN 14 macin 12'sini aldi.",
+          "alternatif": [
+            "Amazon Prime Video"
+          ]
+        },
+        {
+          "ulke": "IT",
+          "kural": "CARSAMBA gununun en iyi macini Amazon Prime Video alir; kalan 185 mac Sky Sport.",
+          "alternatif": [
+            "Amazon Prime Video"
+          ]
+        },
+        {
+          "ulke": "PT",
+          "kural": "tabii ana yayinci, DAZN munhasir olmayan dijital haklara sahip.",
+          "alternatif": [
+            "DAZN"
+          ]
+        }
       ],
       "notlar": "Almanya'da final ZDF'de de yayinlanir. Ispanya'da final RTVE'de (2026-27 sonuna kadar). Fransa'da M6 finali serbest yayinlar."
     },
-
     "europa": {
       "ad": "UEFA Avrupa Ligi",
       "sezon": "2026-27",
       "durum": "tahmin",
       "ulkeler": {
-        "TR": ["tabii Spor"],
-        "GB": ["TNT Sports"],
-        "DE": ["RTL", "DAZN"],
-        "ES": ["Movistar+"],
-        "FR": ["CANAL+"],
-        "IT": ["Sky Sport", "TV8"],
-        "US": ["Paramount+"],
-        "@MENA": ["beIN Sports"]
+        "TR": [
+          "tabii Spor"
+        ],
+        "GB": [
+          "TNT Sports"
+        ],
+        "DE": [
+          "RTL",
+          "DAZN"
+        ],
+        "ES": [
+          "Movistar+"
+        ],
+        "FR": [
+          "CANAL+"
+        ],
+        "IT": [
+          "Sky Sport",
+          "TV8"
+        ],
+        "US": [
+          "Paramount+"
+        ],
+        "@MENA": [
+          "beIN Sports"
+        ]
       },
       "bolunmeler": [],
       "notlar": "Sampiyonlar Ligi ile ayni paket icinde satildigi icin cogu pazarda ayni yayinci. Mac bazinda dogrula."
     },
-
     "laliga": {
       "ad": "LaLiga",
       "sezon": "2026-27",
       "durum": "dogrulandi",
       "ulkeler": {
-        "TR": ["S Sport", "S Sport Plus", "Idman TV"],
-        "ES": ["Movistar+"],
-        "GB": ["Premier Sports"],
-        "DE": ["DAZN"],
-        "IT": ["DAZN"],
-        "PT": ["DAZN"],
-        "FR": ["beIN Sports"],
-        "BR": ["CazéTV"],
-        "MX": ["Sky Sports"],
-        "US": ["ESPN"],
-        "@MENA": ["beIN Sports"]
+        "TR": [
+          "S Sport",
+          "S Sport Plus",
+          "Idman TV"
+        ],
+        "ES": [
+          "Movistar+"
+        ],
+        "GB": [
+          "Premier Sports"
+        ],
+        "DE": [
+          "DAZN"
+        ],
+        "IT": [
+          "DAZN"
+        ],
+        "PT": [
+          "DAZN"
+        ],
+        "FR": [
+          "beIN Sports"
+        ],
+        "BR": [
+          "CazéTV"
+        ],
+        "MX": [
+          "Sky Sports"
+        ],
+        "US": [
+          "ESPN"
+        ],
+        "@MENA": [
+          "beIN Sports"
+        ]
       },
       "bolunmeler": [
-        { "ulke": "ES", "kural": "Movistar+ tum maclari tasir; bir kismi ayrica DAZN LaLiga kanalinda (Movistar kanal 55 uzerinden de erisilir). Mac bazinda hangisinin ana yayinci oldugunu dogrula.", "alternatif": ["DAZN LaLiga"] }
+        {
+          "ulke": "ES",
+          "kural": "Movistar+ tum maclari tasir; bir kismi ayrica DAZN LaLiga kanalinda (Movistar kanal 55 uzerinden de erisilir). Mac bazinda hangisinin ana yayinci oldugunu dogrula.",
+          "alternatif": [
+            "DAZN LaLiga"
+          ]
+        }
       ],
       "notlar": "BR: 2026-27'den itibaren CazeTV, Disney'in yerini aldi (2031-32'ye kadar). US: ESPN munhasir, 2028-29'a kadar."
     },
-
     "premier": {
       "ad": "Premier League",
       "sezon": "2025-26 → 2027-28",
       "durum": "dogrulandi",
       "ulkeler": {
-        "TR": ["beIN Sports 1", "beIN Sports 4"],
-        "GB": ["Sky Sports", "TNT Sports"],
-        "US": ["NBC", "USA Network", "Peacock", "Telemundo"],
-        "@MENA": ["beIN Sports"]
+        "TR": [
+          "beIN Sports 1",
+          "beIN Sports 4"
+        ],
+        "GB": [
+          "Sky Sports",
+          "TNT Sports"
+        ],
+        "US": [
+          "NBC",
+          "USA Network",
+          "Peacock",
+          "Telemundo"
+        ],
+        "@MENA": [
+          "beIN Sports"
+        ]
       },
       "bolunmeler": [
-        { "ulke": "GB", "kural": "Sky Sports sezonda en az 215 mac; TNT Sports Cumartesi 12:30 dilimi ve bazi hafta ici turlar (52 mac).", "alternatif": ["TNT Sports"] },
-        { "ulke": "US", "kural": "Peacock maclarin yaklasik yarisini yayinlar; en buyuk hafta sonu maci NBC'de; genis bir kisim USA Network'te. Ispanyolca Telemundo ve Universo.", "alternatif": ["NBC", "USA Network", "Peacock"] }
+        {
+          "ulke": "GB",
+          "kural": "Sky Sports sezonda en az 215 mac; TNT Sports Cumartesi 12:30 dilimi ve bazi hafta ici turlar (52 mac).",
+          "alternatif": [
+            "TNT Sports"
+          ]
+        },
+        {
+          "ulke": "US",
+          "kural": "Peacock maclarin yaklasik yarisini yayinlar; en buyuk hafta sonu maci NBC'de; genis bir kisim USA Network'te. Ispanyolca Telemundo ve Universo.",
+          "alternatif": [
+            "NBC",
+            "USA Network",
+            "Peacock"
+          ]
+        }
       ],
       "notlar": "ABD haklari NBCUniversal'da 2026-27 sonuna kadar."
     },
-
     "seriea": {
       "ad": "Serie A",
       "sezon": "2026-27",
       "durum": "dogrulandi",
       "ulkeler": {
-        "TR": ["beIN Sports 2", "beIN Sports 3"],
-        "IT": ["DAZN", "Sky Sport"],
-        "US": ["CBS", "Paramount+"],
-        "BR": ["ESPN", "Disney+"],
-        "@LATAM_ES": ["ESPN", "Disney+"],
-        "@MENA": ["beIN Sports"]
+        "TR": [
+          "beIN Sports 2",
+          "beIN Sports 3"
+        ],
+        "IT": [
+          "DAZN",
+          "Sky Sport"
+        ],
+        "US": [
+          "CBS",
+          "Paramount+"
+        ],
+        "BR": [
+          "ESPN",
+          "Disney+"
+        ],
+        "@LATAM_ES": [
+          "ESPN",
+          "Disney+"
+        ],
+        "@MENA": [
+          "beIN Sports"
+        ]
       },
       "bolunmeler": [
-        { "ulke": "IT", "kural": "DAZN tum 380 maci; Sky Sport bunlarin 3'te 1'ini es zamanli.", "alternatif": ["Sky Sport"] },
-        { "ulke": "BR", "kural": "ESPN tum 380 maci (ESPN, ESPN 2/3, ESPN Brasil, Disney+). SportyNet 2026-27'de 76 mac yayinlar.", "alternatif": ["SportyNet"] }
+        {
+          "ulke": "IT",
+          "kural": "DAZN tum 380 maci; Sky Sport bunlarin 3'te 1'ini es zamanli.",
+          "alternatif": [
+            "Sky Sport"
+          ]
+        },
+        {
+          "ulke": "BR",
+          "kural": "ESPN tum 380 maci (ESPN, ESPN 2/3, ESPN Brasil, Disney+). SportyNet 2026-27'de 76 mac yayinlar.",
+          "alternatif": [
+            "SportyNet"
+          ]
+        }
       ],
       "notlar": "CBS ile ABD anlasmasi 2026-27 icin uzatildi."
     },
-
     "bundesliga": {
       "ad": "Bundesliga",
       "sezon": "2026-27",
       "durum": "tahmin",
       "ulkeler": {
-        "TR": ["S Sport", "S Sport 2"],
-        "DE": ["Sky Sport", "DAZN"],
-        "@MENA": ["beIN Sports"]
+        "TR": [
+          "S Sport",
+          "S Sport 2"
+        ],
+        "DE": [
+          "Sky Sport",
+          "DAZN"
+        ],
+        "@MENA": [
+          "beIN Sports"
+        ]
       },
       "bolunmeler": [
-        { "ulke": "DE", "kural": "Sky Sport Cumartesi maclari ve konferans; DAZN Cuma, Pazar ve bazi Cumartesi maclari.", "alternatif": ["DAZN"] }
+        {
+          "ulke": "DE",
+          "kural": "Sky Sport Cumartesi maclari ve konferans; DAZN Cuma, Pazar ve bazi Cumartesi maclari.",
+          "alternatif": [
+            "DAZN"
+          ]
+        }
       ],
       "notlar": "ABD haklari ESPN ile bitti (6 yillik anlasma sona erdi), yeni yayinci HENUZ BELIRSIZ — ABD icin mac bazinda ara."
     },
-
     "ligue1": {
       "ad": "Ligue 1",
       "sezon": "2026-27",
       "durum": "dogrulandi",
       "ulkeler": {
-        "TR": ["beIN Sports 3"],
-        "FR": ["Ligue 1+"],
-        "@MENA": ["beIN Sports"]
+        "TR": [
+          "beIN Sports 3"
+        ],
+        "FR": [
+          "Ligue 1+"
+        ],
+        "@MENA": [
+          "beIN Sports"
+        ]
       },
       "bolunmeler": [],
       "notlar": "ONEMLI DEGISIKLIK: Ligue 1 artik LFP'nin kendi kanalinda (Ligue 1+), her haftanin 9 macinin tamami. DAZN 2025 yazinda, beIN Sports 2025 sonunda cekildi. Eski haritalarda beIN/DAZN yaziyorsa YANLIS."
     },
-
     "primeira": {
       "ad": "Liga Portugal",
       "sezon": "2026-27",
       "durum": "tahmin",
       "ulkeler": {
-        "TR": ["beIN Sports 3", "Tivibu Spor 1"],
-        "PT": ["Sport TV"],
-        "@MENA": ["beIN Sports"]
+        "TR": [
+          "beIN Sports 3",
+          "Tivibu Spor 1"
+        ],
+        "PT": [
+          "Sport TV"
+        ],
+        "@MENA": [
+          "beIN Sports"
+        ]
       },
       "bolunmeler": [
-        { "ulke": "PT", "kural": "Sport TV ana yayinci; bazi maclar Benfica TV / Porto Canal gibi kulup kanallarinda.", "alternatif": ["Benfica TV", "Porto Canal"] }
+        {
+          "ulke": "PT",
+          "kural": "Sport TV ana yayinci; bazi maclar Benfica TV / Porto Canal gibi kulup kanallarinda.",
+          "alternatif": [
+            "Benfica TV",
+            "Porto Canal"
+          ]
+        }
       ],
       "notlar": "Kanal numarasi (Sport TV 1/2/3) mac bazinda degisir, teyit etmeden numara yazma."
     },
-
     "superlig": {
       "ad": "Trendyol Super Lig",
       "sezon": "2026-27",
       "durum": "dogrulandi",
       "ulkeler": {
-        "TR": ["beIN Sports 1", "beIN Sports 2"]
+        "TR": [
+          "beIN Sports 1",
+          "beIN Sports 2"
+        ]
       },
       "bolunmeler": [],
       "notlar": "tier:global — yayincisi bilinmeyen ulkelerde de gorunur. Yurt disi haklari dagitik, ulke ulke arama gerekir."
     },
-
     "saudi_pl": {
       "ad": "Suudi Pro Lig",
       "sezon": "2026-27",
       "durum": "dogrulandi",
       "ulkeler": {
-        "TR": ["HT Spor", "S Sport Plus"],
-        "SA": ["Thmanyah", "STC TV"],
-        "DE": ["DAZN"],
-        "AT": ["DAZN"],
-        "CH": ["DAZN"],
-        "FR": ["DAZN"],
-        "US": ["Fox Sports"]
+        "TR": [
+          "HT Spor",
+          "S Sport Plus"
+        ],
+        "SA": [
+          "Thmanyah",
+          "STC TV"
+        ],
+        "DE": [
+          "DAZN"
+        ],
+        "AT": [
+          "DAZN"
+        ],
+        "CH": [
+          "DAZN"
+        ],
+        "FR": [
+          "DAZN"
+        ],
+        "US": [
+          "Fox Sports"
+        ]
       },
       "bolunmeler": [],
       "notlar": "Thmanyah tum Suudi futbol haklarini 2031'e kadar munhasir tutuyor (Kral Kupasi dahil). DAZN dunya capinda ucretsiz ozet yayinlar."
     },
-
     "ksa_kings_cup": {
       "ad": "Suudi Kral Kupasi",
       "sezon": "2026-27",
       "durum": "dogrulandi",
-      "ulkeler": { "SA": ["Thmanyah", "STC TV"] },
+      "ulkeler": {
+        "SA": [
+          "Thmanyah",
+          "STC TV"
+        ]
+      },
       "bolunmeler": [],
       "notlar": "tier:global (kullanici karari 19 Agu 2026) — Al-Nassr maclari dunya capinda ilgi goruyor."
     },
-
     "libertadores": {
       "ad": "Copa Libertadores",
       "sezon": "2023-2026 dongusu",
       "durum": "dogrulandi",
       "ulkeler": {
-        "TR": ["Spor Smart"],
-        "BR": ["Globo", "Paramount+", "SporTV"],
-        "AR": ["ESPN", "Disney+", "Telefe"],
-        "CL": ["ESPN", "Disney+", "Chilevisión"],
-        "CO": ["ESPN", "Disney+"],
-        "UY": ["ESPN", "Disney+"],
-        "PY": ["ESPN", "Disney+", "Paramount+"],
-        "PE": ["ESPN", "Disney+"],
-        "EC": ["ESPN", "Disney+"]
+        "TR": [
+          "Spor Smart"
+        ],
+        "BR": [
+          "Globo",
+          "Paramount+",
+          "SporTV"
+        ],
+        "AR": [
+          "ESPN",
+          "Disney+",
+          "Telefe"
+        ],
+        "CL": [
+          "ESPN",
+          "Disney+",
+          "Chilevisión"
+        ],
+        "CO": [
+          "ESPN",
+          "Disney+"
+        ],
+        "UY": [
+          "ESPN",
+          "Disney+"
+        ],
+        "PY": [
+          "ESPN",
+          "Disney+",
+          "Paramount+"
+        ],
+        "PE": [
+          "ESPN",
+          "Disney+"
+        ],
+        "EC": [
+          "ESPN",
+          "Disney+"
+        ]
       },
       "bolunmeler": [
-        { "ulke": "AR", "kural": "Disney duzenleyici kisit nedeniyle Pay TV'de yayinlayamiyor; Fox Sports'a alt lisans veriyor. Acik TV Telefe veya Pluto TV.", "alternatif": ["Fox Sports", "Telefe", "Pluto TV"] },
-        { "ulke": "CL", "kural": "Ayni kisit; Fox Sports uzerinden. Acik TV Chilevisión.", "alternatif": ["Fox Sports", "Chilevisión"] },
-        { "ulke": "BR", "kural": "Acik TV Globo; kapali ESPN/Paramount+.", "alternatif": ["Paramount+"] }
+        {
+          "ulke": "AR",
+          "kural": "Disney duzenleyici kisit nedeniyle Pay TV'de yayinlayamiyor; Fox Sports'a alt lisans veriyor. Acik TV Telefe veya Pluto TV.",
+          "alternatif": [
+            "Fox Sports",
+            "Telefe",
+            "Pluto TV"
+          ]
+        },
+        {
+          "ulke": "CL",
+          "kural": "Ayni kisit; Fox Sports uzerinden. Acik TV Chilevisión.",
+          "alternatif": [
+            "Fox Sports",
+            "Chilevisión"
+          ]
+        },
+        {
+          "ulke": "BR",
+          "kural": "Acik TV Globo; kapali ESPN/Paramount+.",
+          "alternatif": [
+            "Paramount+"
+          ]
+        }
       ],
       "notlar": "CONMEBOL haklari Disney + Paramount + Globo arasinda paylastirildi. 2027'den itibaren yeni dongü — sezon basinda yeniden dogrula."
     },
-
     "sudamericana": {
       "ad": "Copa Sudamericana",
       "sezon": "2023-2026 dongusu",
       "durum": "tahmin",
       "ulkeler": {
-        "BR": ["ESPN", "Paramount+"],
-        "AR": ["ESPN", "Disney+"],
-        "CO": ["ESPN", "Disney+"],
-        "CL": ["ESPN", "Disney+"],
-        "UY": ["ESPN", "Disney+"],
-        "PY": ["ESPN", "Disney+"],
-        "PE": ["ESPN", "Disney+"],
-        "EC": ["ESPN", "Disney+"]
+        "BR": [
+          "ESPN",
+          "Paramount+"
+        ],
+        "AR": [
+          "ESPN",
+          "Disney+"
+        ],
+        "CO": [
+          "ESPN",
+          "Disney+"
+        ],
+        "CL": [
+          "ESPN",
+          "Disney+"
+        ],
+        "UY": [
+          "ESPN",
+          "Disney+"
+        ],
+        "PY": [
+          "ESPN",
+          "Disney+"
+        ],
+        "PE": [
+          "ESPN",
+          "Disney+"
+        ],
+        "EC": [
+          "ESPN",
+          "Disney+"
+        ]
       },
       "bolunmeler": [],
       "notlar": "Libertadores ile ayni paket."
     },
-
     "bra_seriea": {
       "ad": "Brasileirao Serie A",
       "sezon": "2026",
       "durum": "dogrulandi",
       "ulkeler": {
-        "TR": ["Spor Smart 2", "Smart Spor 2"],
-        "BR": ["Globo", "Premiere", "SporTV", "Globoplay"]
+        "TR": [
+          "Spor Smart 2",
+          "Smart Spor 2"
+        ],
+        "BR": [
+          "Globo",
+          "Premiere",
+          "SporTV",
+          "Globoplay"
+        ]
       },
       "bolunmeler": [
-        { "ulke": "BR", "kural": "Globo acik TV; Premiere pay-per-view; SporTV kapali; Globoplay streaming. Mac bazinda hangisi oldugunu dogrula.", "alternatif": ["Premiere", "SporTV", "Globoplay", "CazéTV"] }
+        {
+          "ulke": "BR",
+          "kural": "Haklar KULUP BLOGUNA gore: LFU kulupleri (Athletico-PR, Botafogo, Chapecoense, Corinthians, Coritiba, Cruzeiro, Fluminense, Internacional, Mirassol, Vasco) -> Amazon Prime (1 munhasir mac/hafta) veya Record+CazeTV+Premiere. Digerleri (LIBRA) -> Globo/SporTV/Premiere/GE TV. Detay: brezilya_ozel blogu.",
+          "alternatif": [
+            "Amazon Prime Video",
+            "CazéTV",
+            "Record",
+            "Globo",
+            "SporTV",
+            "Premiere",
+            "GE TV"
+          ]
+        }
       ],
       "notlar": "Kuzey Amerika haklari Creator Sports Network'e gecti."
     },
-
     "liga_mx": {
       "ad": "Liga MX",
       "sezon": "2026-27 Apertura",
       "durum": "dogrulandi",
       "ulkeler": {
-        "MX": ["TUDN", "Canal 5", "ViX", "FOX One", "TV Azteca"],
-        "US": ["ViX", "TUDN"]
+        "MX": [
+          "TUDN",
+          "Canal 5",
+          "ViX",
+          "FOX One",
+          "TV Azteca"
+        ],
+        "US": [
+          "ViX",
+          "TUDN"
+        ]
       },
       "bolunmeler": [
-        { "ulke": "MX", "kural": "Haklar kulup bazinda dagilir: Televisa kulupleri TUDN/Canal 5/ViX, digerleri FOX One veya TV Azteca. HER MAC ICIN AYRI DOGRULA.", "alternatif": ["FOX One", "TV Azteca", "Caliente TV"] }
+        {
+          "ulke": "MX",
+          "kural": "Haklar kulup bazinda dagilir: Televisa kulupleri TUDN/Canal 5/ViX, digerleri FOX One veya TV Azteca. HER MAC ICIN AYRI DOGRULA.",
+          "alternatif": [
+            "FOX One",
+            "TV Azteca",
+            "Caliente TV"
+          ]
+        }
       ],
       "notlar": "Meksika'da kulup bazli haklar en karmasik sistemlerden biri — blok harita asla uygulanamaz."
     },
-
     "liga_dimayor": {
       "ad": "Liga BetPlay DIMAYOR",
       "sezon": "2026",
       "durum": "dogrulandi",
-      "ulkeler": { "CO": ["Win Sports", "Win Sports+"] },
+      "ulkeler": {
+        "CO": [
+          "Win Sports",
+          "Win Sports+"
+        ]
+      },
       "bolunmeler": [
-        { "ulke": "CO", "kural": "Win Sports acik, Win Sports+ premium. Mac bazinda degisir.", "alternatif": ["Win Sports+"] }
+        {
+          "ulke": "CO",
+          "kural": "Win Sports acik, Win Sports+ premium. Mac bazinda degisir.",
+          "alternatif": [
+            "Win Sports+"
+          ]
+        }
       ],
       "notlar": ""
     },
-
     "liga_primera": {
       "ad": "Liga de Primera (Sili)",
       "sezon": "2026",
       "durum": "dogrulandi",
-      "ulkeler": { "CL": ["TNT Sports", "TNT Sports Premium", "HBO Max", "ESPN", "Disney+"] },
+      "ulkeler": {
+        "CL": [
+          "TNT Sports",
+          "TNT Sports Premium",
+          "HBO Max",
+          "ESPN",
+          "Disney+"
+        ]
+      },
       "bolunmeler": [
-        { "ulke": "CL", "kural": "TNT Sports ana yayinci (HBO Max uzerinden streaming); bazi maclar ESPN/Disney+.", "alternatif": ["ESPN", "Disney+"] }
+        {
+          "ulke": "CL",
+          "kural": "TNT Sports ana yayinci (HBO Max uzerinden streaming); bazi maclar ESPN/Disney+.",
+          "alternatif": [
+            "ESPN",
+            "Disney+"
+          ]
+        }
       ],
       "notlar": ""
     },
-
     "liga_auf": {
       "ad": "Liga AUF Uruguaya",
       "sezon": "2026-2029",
       "durum": "tahmin",
-      "ulkeler": { "UY": ["VTV+", "Disney+"] },
+      "ulkeler": {
+        "UY": [
+          "VTV+",
+          "Disney+"
+        ]
+      },
       "bolunmeler": [],
       "notlar": "2026-2029 doneminde odemeli TV haklari DirecTV-Torneos konsorsiyumunda, streaming Tenfield uzerinden Disney+'ta. Fiilen yayinladigi dogrulanan kanal VTV+."
     },
-
     "liga_bantrab": {
       "ad": "Liga Bantrab (Guatemala)",
       "sezon": "2026-27",
       "durum": "dogrulandi",
-      "ulkeler": { "GT": ["FOX", "Canal 7", "Claro Sports"] },
+      "ulkeler": {
+        "GT": [
+          "FOX",
+          "Canal 7",
+          "Claro Sports"
+        ]
+      },
       "bolunmeler": [
-        { "ulke": "GT", "kural": "Haklar kulup bazinda: bazi takimlar FOX (eski Tigo Sports), bazilari Albavision/Canal 7 veya Claro Sports.", "alternatif": ["Canal 7", "Claro Sports"] }
+        {
+          "ulke": "GT",
+          "kural": "Haklar kulup bazinda: bazi takimlar FOX (eski Tigo Sports), bazilari Albavision/Canal 7 veya Claro Sports.",
+          "alternatif": [
+            "Canal 7",
+            "Claro Sports"
+          ]
+        }
       ],
       "notlar": "Dunya Kupasi 2026 sonrasi Tigo Sports sinyalleri Guatemala, El Salvador, Honduras, Nikaragua ve Panama'da FOX'a gecti."
     },
-
     "usl": {
       "ad": "USL Championship",
       "sezon": "2026",
       "durum": "tahmin",
-      "ulkeler": { "US": ["ESPN+"], "TR": ["USL Championship YouTube"] },
+      "ulkeler": {
+        "US": [
+          "ESPN+"
+        ],
+        "TR": [
+          "USL Championship YouTube"
+        ]
+      },
       "bolunmeler": [],
       "notlar": "Uluslararasi YouTube yayini ABD'de geo-blokludur."
     },
-
     "mls": {
       "ad": "MLS",
       "sezon": "2026",
       "durum": "dogrulandi",
-      "ulkeler": { "US": ["MLS Season Pass (Apple TV)"], "CA": ["MLS Season Pass (Apple TV)"] },
+      "ulkeler": {
+        "US": [
+          "MLS Season Pass (Apple TV)"
+        ],
+        "CA": [
+          "MLS Season Pass (Apple TV)"
+        ]
+      },
       "bolunmeler": [],
       "notlar": "Apple ile 10 yillik kuresel anlasma — dunyanin her yerinde ayni platform."
     },
-
     "aze_pl": {
       "ad": "Azerbaycan Premier Ligi",
       "sezon": "2026-27",
       "durum": "dogrulandi",
-      "ulkeler": { "TR": ["CBC Sport"] },
+      "ulkeler": {
+        "TR": [
+          "CBC Sport"
+        ]
+      },
       "bolunmeler": [],
       "notlar": "tier:regional"
     },
-
     "j_league": {
       "ad": "J1 League",
       "sezon": "2026",
       "durum": "tahmin",
-      "ulkeler": { "JP": ["DAZN"], "TR": ["J.League YouTube"] },
+      "ulkeler": {
+        "JP": [
+          "DAZN"
+        ],
+        "TR": [
+          "J.League YouTube"
+        ]
+      },
       "bolunmeler": [],
       "notlar": "DAZN Japonya'da uzun donemli munhasir haklara sahip."
     }
   },
-
   "kaynaklar": {
     "_comment": "Kucuk pazarlarda arama motoru fikstur vermiyor. Bu sayfalar dogrudan cekilir.",
     "genel": [
-      { "ad": "LiveSoccerTV", "url": "https://www.livesoccertv.com/", "kapsam": "Ulke bazli yayinci — en genis kaynak. /competitions/<lig>/watch/<ulke>/ yolunu kullan." },
-      { "ad": "Futbol en Vivo (ulke ekleri)", "url": "https://www.futbolenvivochile.com/", "kapsam": "Sili, Kolombiya, Uruguay, Meksika icin ayri alan adlari var" }
+      {
+        "ad": "LiveSoccerTV",
+        "url": "https://www.livesoccertv.com/",
+        "kapsam": "Ulke bazli yayinci — en genis kaynak. /competitions/<lig>/watch/<ulke>/ yolunu kullan."
+      },
+      {
+        "ad": "Futbol en Vivo (ulke ekleri)",
+        "url": "https://www.futbolenvivochile.com/",
+        "kapsam": "Sili, Kolombiya, Uruguay, Meksika icin ayri alan adlari var"
+      }
     ],
     "ulkeler": {
-      "MX": ["https://ligamx.net/", "https://www.mediotiempo.com/futbol/liga-mx/calendario", "https://www.futbolenvivomexico.com/"],
-      "CO": ["https://dimayor.com.co/liga-betplay-dimayor/", "https://www.winsports.co/", "https://www.futbolenvivocolombia.com/"],
-      "CL": ["https://www.futbolenvivochile.com/", "https://redgol.cl/resultados/futbol/competencias/liga-de-primera"],
-      "UY": ["https://www.auf.org.uy/", "https://www.futbolenvivouruguay.com/", "https://www.auf.tv/"],
-      "PY": ["https://www.apf.org.py/"],
-      "AR": ["https://www.promiedos.com.ar/", "https://www.ligaprofesional.ar/"],
-      "BR": ["https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a"],
-      "PE": ["https://ligafutprofesional.pe/"],
-      "EC": ["https://ligapro.ec/"],
-      "GT": ["https://ligagt.org/", "https://footballguatemala.com/"],
-      "SA": ["https://www.spl.com.sa/", "https://www.kooora.com/"],
-      "EG": ["https://www.filgoal.com/", "https://www.yallakora.com/matches-center"],
-      "MA": ["https://www.frmf.ma/", "https://www.botola.com/"],
-      "DZ": ["https://www.lfp.dz/"],
-      "IQ": ["https://www.iraqfa.com/", "https://www.kooora.com/"],
-      "JO": ["https://www.jfa.jo/", "https://www.kooora.com/"],
-      "OM": ["https://www.ofa.om/", "https://www.kooora.com/"],
-      "TN": ["https://www.ftf.org.tn/"],
-      "QA": ["https://www.qsl.qa/"],
-      "AE": ["https://www.uaeproleague.ae/"]
+      "MX": [
+        "https://ligamx.net/",
+        "https://www.mediotiempo.com/futbol/liga-mx/calendario",
+        "https://www.futbolenvivomexico.com/"
+      ],
+      "CO": [
+        "https://dimayor.com.co/liga-betplay-dimayor/",
+        "https://www.winsports.co/",
+        "https://www.futbolenvivocolombia.com/"
+      ],
+      "CL": [
+        "https://www.futbolenvivochile.com/",
+        "https://redgol.cl/resultados/futbol/competencias/liga-de-primera"
+      ],
+      "UY": [
+        "https://www.auf.org.uy/",
+        "https://www.futbolenvivouruguay.com/",
+        "https://www.auf.tv/"
+      ],
+      "PY": [
+        "https://www.apf.org.py/"
+      ],
+      "AR": [
+        "https://www.promiedos.com.ar/",
+        "https://www.ligaprofesional.ar/"
+      ],
+      "BR": [
+        "https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a"
+      ],
+      "PE": [
+        "https://ligafutprofesional.pe/"
+      ],
+      "EC": [
+        "https://ligapro.ec/"
+      ],
+      "GT": [
+        "https://ligagt.org/",
+        "https://footballguatemala.com/"
+      ],
+      "SA": [
+        "https://www.spl.com.sa/",
+        "https://www.kooora.com/"
+      ],
+      "EG": [
+        "https://www.filgoal.com/",
+        "https://www.yallakora.com/matches-center"
+      ],
+      "MA": [
+        "https://www.frmf.ma/",
+        "https://www.botola.com/"
+      ],
+      "DZ": [
+        "https://www.lfp.dz/"
+      ],
+      "IQ": [
+        "https://www.iraqfa.com/",
+        "https://www.kooora.com/"
+      ],
+      "JO": [
+        "https://www.jfa.jo/",
+        "https://www.kooora.com/"
+      ],
+      "OM": [
+        "https://www.ofa.om/",
+        "https://www.kooora.com/"
+      ],
+      "TN": [
+        "https://www.ftf.org.tn/"
+      ],
+      "QA": [
+        "https://www.qsl.qa/"
+      ],
+      "AE": [
+        "https://www.uaeproleague.ae/"
+      ]
     },
     "_not": "Arapca pazarlarda kooora.com ve yallakora.com gunluk 'mac programi + naklen kanallar' sayfasi yayinliyor — Irak, Urdun, Umman, Misir icin en pratik tek kaynak."
+  },
+  "brezilya_ozel": {
+    "_comment": "BREZILYA EN BUYUK PAZAR (25 gunde 29 iOS indirme). Haklar KULUP BLOGUNA gore bolunuyor — blok harita asla uygulanamaz, her mac icin ev sahibi/deplasman hangi blokta bakilir.",
+    "sezon": "2026",
+    "durum": "dogrulandi",
+    "saat_dilimi": {
+      "kural": "Brezilya listeleri HER ZAMAN 'horario de Brasilia' verir → UTC-3. Bunu kullan.",
+      "yaz_saati": "YOK — Brezilya 2019'da kaldirdi. Kaynak yaz saati eklerse 1 saat kayar, DIKKAT.",
+      "istisna": "Manaus ve Cuiaba UTC-4, Fernando de Noronha UTC-2, Acre UTC-5. Ama yayin listeleri yine de Brasilia saatiyle yazilir."
+    },
+    "brasileirao_serie_a": {
+      "kural": "Kuluplerin bagli oldugu BLOK belirler.",
+      "LFU_kulupleri": [
+        "Athletico Paranaense",
+        "Botafogo",
+        "Chapecoense",
+        "Corinthians",
+        "Coritiba",
+        "Cruzeiro",
+        "Fluminense",
+        "Internacional",
+        "Mirassol",
+        "Vasco"
+      ],
+      "LFU_yayin": "Hafta basina 1 mac MUNHASIR Amazon Prime Video'da (baska hicbir yerde yok). Baska 1 mac es zamanli Record + CazeTV + Premiere.",
+      "LIBRA_kulupleri": "Yukaridaki 10 kulup DISINDAKI herkes (Flamengo, Palmeiras, Sao Paulo, Santos, Gremio, Atletico-MG, Bahia, Fortaleza vb.)",
+      "LIBRA_yayin": "Grupo Globo munhasir: TV Globo (acik), SporTV (kapali), Premiere (PPV), GE TV (ucretsiz streaming).",
+      "dikkat": "Iki LFU kulubu karsilasirsa Amazon veya Record/CazeTV; LIBRA-LIBRA ise Globo grubu. Karma maclarda EV SAHIBININ blogu belirleyicidir — yine de mac bazinda dogrula."
+    },
+    "brasileirao_serie_b": {
+      "kural": "2026'da ALTI ayri kanal yayinliyor — mac bazinda dogrulama zorunlu.",
+      "kanallar": [
+        "ESPN",
+        "Disney+",
+        "Amazon Prime Video",
+        "CazeTV",
+        "Record",
+        "Premiere"
+      ]
+    },
+    "copa_do_brasil": {
+      "kural": "Globo munhasir (2023-2026 dongusu).",
+      "kanallar": [
+        "TV Globo",
+        "SporTV",
+        "Premiere"
+      ],
+      "istisna": "Globo sezon basina 54 maci Amazon Prime Video'ya alt lisansliyor; bunlarin 40'i Amazon'da MUNHASIR."
+    },
+    "libertadores_br": {
+      "acik_tv": [
+        "Globo"
+      ],
+      "kapali_streaming": [
+        "Paramount+",
+        "ESPN",
+        "Disney+"
+      ],
+      "not": "CONMEBOL haklari Disney + Paramount + Globo arasinda paylastirilmis."
+    },
+    "laliga_br": {
+      "kanallar": [
+        "CazéTV"
+      ],
+      "not": "2026-27'den itibaren MUNHASIR CazeTV (YouTube), 2031-32'ye kadar. Disney'in yerini aldi — eski haritalarda ESPN Brasil yaziyorsa YANLIS."
+    },
+    "seriea_br": {
+      "kanallar": [
+        "ESPN",
+        "Disney+",
+        "ESPN Brasil"
+      ],
+      "not": "Tum 380 mac ESPN'de (2026-27 sonuna kadar). SportyNet 2026-27'de 76 mac yayinliyor."
+    }
   }
 }
