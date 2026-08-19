@@ -1,45 +1,121 @@
 {
- "generated_at": "2026-08-18T04:58:39.769Z",
- "date": "2026-08-18",
+ "generated_at": "2026-08-19T06:39:40.087Z",
+ "date": "2026-08-19",
  "model": "user-provided",
  "stats": {
-  "total": 8,
-  "withChannel": 8,
+  "total": 6,
+  "withChannel": 6,
   "bySport": {
-   "football": 8
+   "football": 6
   },
   "warnings": 0,
-  "searches": 2
+  "searches": 0
  },
  "matches": [
   {
-   "id": "football-20260818-al-diriyah-al-nassr",
+   "id": "football-20260819-vincenzo-italiano-besiktas",
    "sport": "football",
-   "competitionId": "ksa_kings_cup",
+   "competitionId": "presser",
    "tier": "regional",
    "competition": {
-    "tr": "Suudi Kral Kupası",
-    "en": "King's Cup",
-    "de": "King's Cup",
-    "es": "Copa del Rey de Arabia Saudí",
-    "fr": "Coupe du Roi",
-    "it": "Coppa del Re Saudita",
-    "pt": "Taça do Rei Saudita",
-    "ar": "كأس الملك"
+    "tr": "Basın Toplantısı",
+    "en": "Press Conference",
+    "de": "Pressekonferenz",
+    "es": "Rueda de prensa",
+    "fr": "Conférence de presse",
+    "it": "Conferenza stampa",
+    "pt": "Conferência de imprensa",
+    "ar": "مؤتمر صحفي"
    },
-   "home": "Al-Diriyah",
-   "away": "Al-Nassr",
-   "kickoffUtc": "2026-08-18T18:00:00Z",
+   "home": "Vincenzo Italiano",
+   "away": "Beşiktaş",
+   "kickoffUtc": "2026-08-19T11:30:00Z",
    "broadcasts": {
-    "SA": [
-     "Thmanyah",
-     "STC TV"
+    "TR": [
+     "HT Spor",
+     "A Spor",
+     "TRT Spor",
+     "Tivibu Spor",
+     "beIN Sports Haber",
+     "Beşiktaş YouTube"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260818-fenerbahce-lyon",
+   "id": "football-20260819-atletico-madrid-malaga",
+   "sport": "football",
+   "competitionId": "laliga",
+   "tier": "global",
+   "competition": {
+    "tr": "İspanya La Liga",
+    "en": "LaLiga",
+    "de": "LaLiga",
+    "es": "LaLiga",
+    "fr": "LaLiga",
+    "it": "LaLiga",
+    "pt": "LaLiga",
+    "ar": "الدوري الإسباني"
+   },
+   "home": "Atlético Madrid",
+   "away": "Málaga",
+   "kickoffUtc": "2026-08-19T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport",
+     "Idman TV",
+     "S Sport Plus"
+    ],
+    "ES": [
+     "Movistar+"
+    ],
+    "GB": [
+     "Premier Sports"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "IT": [
+     "DAZN"
+    ],
+    "PT": [
+     "DAZN"
+    ],
+    "FR": [
+     "beIN Sports"
+    ],
+    "BR": [
+     "CazéTV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "US": [
+     "ESPN"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-celtic-lask",
    "sport": "football",
    "competitionId": "champions",
    "tier": "global",
@@ -53,13 +129,12 @@
     "pt": "Play-off da Liga dos Campeões",
     "ar": "ملحق دوري أبطال أوروبا"
    },
-   "home": "Fenerbahçe",
-   "away": "Lyon",
-   "kickoffUtc": "2026-08-18T19:00:00Z",
+   "home": "Celtic",
+   "away": "LASK",
+   "kickoffUtc": "2026-08-19T19:00:00Z",
    "broadcasts": {
     "TR": [
-     "TRT 1",
-     "CBC Sport"
+     "tabii Spor 1"
     ],
     "GB": [
      "TNT Sports"
@@ -129,7 +204,7 @@
    "sources": []
   },
   {
-   "id": "football-20260818-levski-sofya-aek",
+   "id": "football-20260819-nec-nijmegen-bodo-glimt",
    "sport": "football",
    "competitionId": "champions",
    "tier": "global",
@@ -143,11 +218,12 @@
     "pt": "Play-off da Liga dos Campeões",
     "ar": "ملحق دوري أبطال أوروبا"
    },
-   "home": "Levski Sofya",
-   "away": "AEK",
-   "kickoffUtc": "2026-08-18T19:00:00Z",
+   "home": "NEC Nijmegen",
+   "away": "Bodø/Glimt",
+   "kickoffUtc": "2026-08-19T19:00:00Z",
    "broadcasts": {
     "TR": [
+     "CBC Sport",
      "tabii Spor"
     ],
     "GB": [
@@ -218,7 +294,7 @@
    "sources": []
   },
   {
-   "id": "football-20260818-dinamo-zagreb-viking",
+   "id": "football-20260819-hapoel-beer-sheva-sabah-baku",
    "sport": "football",
    "competitionId": "champions",
    "tier": "global",
@@ -232,18 +308,18 @@
     "pt": "Play-off da Liga dos Campeões",
     "ar": "ملحق دوري أبطال أوروبا"
    },
-   "home": "Dinamo Zagreb",
-   "away": "Viking",
-   "kickoffUtc": "2026-08-18T19:00:00Z",
+   "home": "Hapoel Beer Sheva",
+   "away": "Sabah Bakü",
+   "kickoffUtc": "2026-08-19T19:00:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor 1"
+     "İçtimai TV"
     ],
     "GB": [
      "TNT Sports"
     ],
     "DE": [
-     "Amazon Prime Video"
+     "DAZN"
     ],
     "ES": [
      "Movistar+"
@@ -307,104 +383,90 @@
    "sources": []
   },
   {
-   "id": "football-20260818-internacional-remo",
+   "id": "football-20260819-slovan-bratislava-nk-celje",
    "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "regional",
+   "competitionId": "champions",
+   "tier": "global",
    "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Série A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
+    "tr": "UEFA Şampiyonlar Ligi Play-Off",
+    "en": "UEFA Champions League Play-off",
+    "de": "UEFA Champions League Playoff",
+    "es": "Play-off de la Champions League",
+    "fr": "Barrages de la Ligue des champions",
+    "it": "Playoff di Champions League",
+    "pt": "Play-off da Liga dos Campeões",
+    "ar": "ملحق دوري أبطال أوروبا"
    },
-   "home": "Internacional",
-   "away": "Remo",
-   "kickoffUtc": "2026-08-18T23:00:00Z",
+   "home": "Slovan Bratislava",
+   "away": "NK Celje",
+   "kickoffUtc": "2026-08-19T19:00:00Z",
    "broadcasts": {
+    "TR": [
+     "tabii Spor 2"
+    ],
+    "GB": [
+     "TNT Sports"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "Movistar+"
+    ],
+    "FR": [
+     "CANAL+"
+    ],
+    "IT": [
+     "Sky Sport"
+    ],
+    "PT": [
+     "tabii",
+     "DAZN"
+    ],
+    "US": [
+     "Paramount+"
+    ],
+    "CA": [
+     "DAZN"
+    ],
     "BR": [
-     "SporTV",
-     "Premiere",
-     "Globoplay"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260818-gimnasia-mendoza-talleres",
-   "sport": "football",
-   "competitionId": "copa_arg",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Kupası",
-    "en": "Copa Argentina",
-    "de": "Copa Argentina",
-    "es": "Copa Argentina",
-    "fr": "Copa Argentina",
-    "it": "Copa Argentina",
-    "pt": "Copa Argentina",
-    "ar": "كأس الأرجنتين"
-   },
-   "home": "Gimnasia Mendoza",
-   "away": "Talleres",
-   "kickoffUtc": "2026-08-19T00:30:00Z",
-   "broadcasts": {
+     "Disney+"
+    ],
     "AR": [
-     "ESPN Premium"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260818-palestino-huachipato",
-   "sport": "football",
-   "competitionId": "liga_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Şili Ligi",
-    "en": "Liga de Primera",
-    "de": "Liga de Primera",
-    "es": "Liga de Primera",
-    "fr": "Liga de Primera",
-    "it": "Liga de Primera",
-    "pt": "Liga de Primera",
-    "ar": "الدوري التشيلي"
-   },
-   "home": "Palestino",
-   "away": "Huachipato",
-   "kickoffUtc": "2026-08-19T00:30:00Z",
-   "broadcasts": {
-    "CL": [
-     "TNT Sports Premium",
-     "HBO Max"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260818-pachuca-puebla",
-   "sport": "football",
-   "competitionId": "liga_mx",
-   "tier": "regional",
-   "competition": {
-    "tr": "Meksika Liga MX",
-    "en": "Liga MX",
-    "de": "Liga MX",
-    "es": "Liga MX",
-    "fr": "Liga MX",
-    "it": "Liga MX",
-    "pt": "Liga MX",
-    "ar": "الدوري المكسيكي"
-   },
-   "home": "Pachuca",
-   "away": "Puebla",
-   "kickoffUtc": "2026-08-19T03:00:00Z",
-   "broadcasts": {
+     "Disney+"
+    ],
     "MX": [
-     "FOX One"
+     "Disney+"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "GT": [
+     "Disney+"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
     ]
    },
    "sources": []
