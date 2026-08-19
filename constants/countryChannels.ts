@@ -50,6 +50,7 @@ export const SUPPORTED_COUNTRIES: CountryInfo[] = [
   { code: 'CO', name: 'Colombia',       englishName: 'Colombia',       flag: '🇨🇴', timezone: 'America/Bogota',          language: 'es' },
   { code: 'CL', name: 'Chile',          englishName: 'Chile',          flag: '🇨🇱', timezone: 'America/Santiago',        language: 'es' },
   { code: 'UY', name: 'Uruguay',        englishName: 'Uruguay',        flag: '🇺🇾', timezone: 'America/Montevideo',      language: 'es' },
+  { code: 'PY', name: 'Paraguay',       englishName: 'Paraguay',       flag: '🇵🇾', timezone: 'America/Asuncion',        language: 'es' },
   { code: 'PE', name: 'Perú',           englishName: 'Peru',           flag: '🇵🇪', timezone: 'America/Lima',            language: 'es' },
   { code: 'GT', name: 'Guatemala',      englishName: 'Guatemala',      flag: '🇬🇹', timezone: 'America/Guatemala',       language: 'es' },
   { code: 'EC', name: 'Ecuador',        englishName: 'Ecuador',        flag: '🇪🇨', timezone: 'America/Guayaquil',       language: 'es' },

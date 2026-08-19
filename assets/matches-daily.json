@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-19T06:39:40.087Z",
+ "generated_at": "2026-08-19T07:43:41.283Z",
  "date": "2026-08-19",
  "model": "user-provided",
  "stats": {
-  "total": 6,
-  "withChannel": 6,
+  "total": 12,
+  "withChannel": 12,
   "bySport": {
-   "football": 6
+   "football": 12
   },
   "warnings": 0,
   "searches": 0
@@ -38,6 +38,56 @@
      "Tivibu Spor",
      "beIN Sports Haber",
      "Beşiktaş YouTube"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-al-ula-al-fateh",
+   "sport": "football",
+   "competitionId": "ksa_kings_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "Suudi Kral Kupası",
+    "en": "King's Cup",
+    "de": "King's Cup",
+    "es": "Copa del Rey de Arabia Saudí",
+    "fr": "King's Cup",
+    "it": "King's Cup",
+    "pt": "King's Cup",
+    "ar": "كأس الملك"
+   },
+   "home": "Al-Ula",
+   "away": "Al-Fateh",
+   "kickoffUtc": "2026-08-19T15:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "Thmanyah"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-damac-al-taawoun",
+   "sport": "football",
+   "competitionId": "ksa_kings_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "Suudi Kral Kupası",
+    "en": "King's Cup",
+    "de": "King's Cup",
+    "es": "Copa del Rey de Arabia Saudí",
+    "fr": "King's Cup",
+    "it": "King's Cup",
+    "pt": "King's Cup",
+    "ar": "كأس الملك"
+   },
+   "home": "Damac",
+   "away": "Al-Taawoun",
+   "kickoffUtc": "2026-08-19T18:15:00Z",
+   "broadcasts": {
+    "SA": [
+     "Thmanyah"
     ]
    },
    "sources": []
@@ -467,6 +517,145 @@
     ],
     "OM": [
      "beIN Sports"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-cerro-porteno-palmeiras",
+   "sport": "football",
+   "competitionId": "libertadores",
+   "tier": "regional",
+   "competition": {
+    "tr": "Copa Libertadores",
+    "en": "Copa Libertadores",
+    "de": "Copa Libertadores",
+    "es": "Copa Libertadores",
+    "fr": "Copa Libertadores",
+    "it": "Copa Libertadores",
+    "pt": "Copa Libertadores",
+    "ar": "كوبا ليبرتادوريس"
+   },
+   "home": "Cerro Porteño",
+   "away": "Palmeiras",
+   "kickoffUtc": "2026-08-19T22:00:00Z",
+   "broadcasts": {
+    "PY": [
+     "Paramount+"
+    ],
+    "BR": [
+     "Paramount+"
+    ],
+    "AR": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-coquimbo-unido-platense",
+   "sport": "football",
+   "competitionId": "libertadores",
+   "tier": "regional",
+   "competition": {
+    "tr": "Copa Libertadores",
+    "en": "Copa Libertadores",
+    "de": "Copa Libertadores",
+    "es": "Copa Libertadores",
+    "fr": "Copa Libertadores",
+    "it": "Copa Libertadores",
+    "pt": "Copa Libertadores",
+    "ar": "كوبا ليبرتادوريس"
+   },
+   "home": "Coquimbo Unido",
+   "away": "Platense",
+   "kickoffUtc": "2026-08-19T22:00:00Z",
+   "broadcasts": {
+    "CL": [
+     "ESPN 5",
+     "Disney+ Premium"
+    ],
+    "AR": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-flamengo-cruzeiro",
+   "sport": "football",
+   "competitionId": "libertadores",
+   "tier": "regional",
+   "competition": {
+    "tr": "Copa Libertadores",
+    "en": "Copa Libertadores",
+    "de": "Copa Libertadores",
+    "es": "Copa Libertadores",
+    "fr": "Copa Libertadores",
+    "it": "Copa Libertadores",
+    "pt": "Copa Libertadores",
+    "ar": "كوبا ليبرتادوريس"
+   },
+   "home": "Flamengo",
+   "away": "Cruzeiro",
+   "kickoffUtc": "2026-08-20T00:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Globo",
+     "GeTV",
+     "Paramount+"
+    ],
+    "AR": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260819-santa-fe-river-plate",
+   "sport": "football",
+   "competitionId": "sudamericana",
+   "tier": "regional",
+   "competition": {
+    "tr": "Copa Sudamericana",
+    "en": "Copa Sudamericana",
+    "de": "Copa Sudamericana",
+    "es": "Copa Sudamericana",
+    "fr": "Copa Sudamericana",
+    "it": "Copa Sudamericana",
+    "pt": "Copa Sudamericana",
+    "ar": "كوبا سودأمريكانا"
+   },
+   "home": "Santa Fe",
+   "away": "River Plate",
+   "kickoffUtc": "2026-08-20T00:30:00Z",
+   "broadcasts": {
+    "CO": [
+     "ESPN",
+     "Disney+"
+    ],
+    "AR": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+"
     ]
    },
    "sources": []
