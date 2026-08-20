@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-20T10:45:04.440Z",
+  "generated_at": "2026-08-20T10:49:12.577Z",
   "date": "2026-08-20",
   "model": "user-provided",
   "stats": {
-    "total": 29,
-    "withChannel": 29,
+    "total": 31,
+    "withChannel": 31,
     "bySport": {
-      "football": 28,
+      "football": 30,
       "volleyball": 1
     },
     "warnings": 0,
-    "searches": 2
+    "searches": 4
   },
   "matches": [
     {
@@ -71,6 +71,35 @@
       "sources": [
         "kullanıcı TR listesi",
         "kullanıcı ABD listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-kairat-almaty-anderlecht",
+      "sport": "football",
+      "competitionId": "europa",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Ligi Play-Off",
+        "en": "UEFA Europa League Play-off",
+        "de": "UEFA Europa League Playoff",
+        "es": "Play-off de la Europa League",
+        "fr": "Barrages de la Ligue Europa",
+        "it": "Playoff di Europa League",
+        "pt": "Play-off da Liga Europa",
+        "ar": "ملحق الدوري الأوروبي"
+      },
+      "home": "Kairat Almaty",
+      "away": "Anderlecht",
+      "kickoffUtc": "2026-08-20T15:00:00Z",
+      "broadcasts": {
+        "BE": [
+          "VTM2",
+          "RTL"
+        ]
+      },
+      "sources": [
+        "kullanıcı listesi",
+        "web doğrulaması"
       ]
     },
     {
@@ -747,6 +776,35 @@
       },
       "sources": [
         "kullanıcı GB listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-benfica-aarhus",
+      "sport": "football",
+      "competitionId": "europa",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Ligi Play-Off",
+        "en": "UEFA Europa League Play-off",
+        "de": "UEFA Europa League Playoff",
+        "es": "Play-off de la Europa League",
+        "fr": "Barrages de la Ligue Europa",
+        "it": "Playoff di Europa League",
+        "pt": "Play-off da Liga Europa",
+        "ar": "ملحق الدوري الأوروبي"
+      },
+      "home": "Benfica",
+      "away": "Aarhus",
+      "kickoffUtc": "2026-08-20T19:00:00Z",
+      "broadcasts": {
+        "PT": [
+          "SIC",
+          "BTV"
+        ]
+      },
+      "sources": [
+        "kullanıcı listesi",
+        "web doğrulaması"
       ]
     },
     {
