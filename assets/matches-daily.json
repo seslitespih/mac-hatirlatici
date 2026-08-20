@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-20T05:11:17.414Z",
+  "generated_at": "2026-08-20T05:15:58.457Z",
   "date": "2026-08-20",
   "model": "user-provided",
   "stats": {
-    "total": 11,
-    "withChannel": 11,
+    "total": 23,
+    "withChannel": 23,
     "bySport": {
-      "football": 10,
+      "football": 22,
       "volleyball": 1
     },
     "warnings": 0,
@@ -305,6 +305,307 @@
       ]
     },
     {
+      "id": "football-20260820-gornik-zabrze-as-monaco",
+      "sport": "football",
+      "competitionId": "conference",
+      "tier": "global",
+      "competition": {
+        "tr": "UEFA Avrupa Konferans Ligi Play-Off",
+        "en": "UEFA Conference League Play-off",
+        "de": "UEFA Conference League Playoff",
+        "es": "Play-off de la Conference League",
+        "fr": "Barrages de la Ligue Conférence",
+        "it": "Playoff di Conference League",
+        "pt": "Play-off da Liga Conferência",
+        "ar": "ملحق دوري المؤتمر الأوروبي"
+      },
+      "home": "Górnik Zabrze",
+      "away": "AS Monaco",
+      "kickoffUtc": "2026-08-20T18:00:00Z",
+      "broadcasts": {
+        "FR": [
+          "CANAL+"
+        ],
+        "TR": [
+          "tabii Spor"
+        ],
+        "GB": [
+          "TNT Sports"
+        ],
+        "DE": [
+          "RTL+",
+          "RTL"
+        ],
+        "US": [
+          "Paramount+"
+        ],
+        "SA": [
+          "beIN Sports"
+        ],
+        "DZ": [
+          "beIN Sports"
+        ],
+        "IQ": [
+          "beIN Sports"
+        ],
+        "JO": [
+          "beIN Sports"
+        ],
+        "EG": [
+          "beIN Sports"
+        ],
+        "OM": [
+          "beIN Sports"
+        ]
+      },
+      "sources": [
+        "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
+      "id": "football-20260820-concarneau-villefranche",
+      "sport": "football",
+      "competitionId": "ligue3",
+      "tier": "regional",
+      "competition": {
+        "tr": "Fransa Ligue 3",
+        "en": "Ligue 3",
+        "de": "Ligue 3",
+        "es": "Ligue 3",
+        "fr": "Ligue 3",
+        "it": "Ligue 3",
+        "pt": "Ligue 3",
+        "ar": "الدوري الفرنسي الدرجة الثالثة"
+      },
+      "home": "Concarneau",
+      "away": "Villefranche",
+      "kickoffUtc": "2026-08-20T18:45:00Z",
+      "broadcasts": {
+        "FR": [
+          "Ligue 1+ 2"
+        ]
+      },
+      "sources": [
+        "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
+      "id": "football-20260820-rouen-quevilly-rouen",
+      "sport": "football",
+      "competitionId": "ligue3",
+      "tier": "regional",
+      "competition": {
+        "tr": "Fransa Ligue 3",
+        "en": "Ligue 3",
+        "de": "Ligue 3",
+        "es": "Ligue 3",
+        "fr": "Ligue 3",
+        "it": "Ligue 3",
+        "pt": "Ligue 3",
+        "ar": "الدوري الفرنسي الدرجة الثالثة"
+      },
+      "home": "Rouen",
+      "away": "Quevilly-Rouen",
+      "kickoffUtc": "2026-08-20T18:45:00Z",
+      "broadcasts": {
+        "FR": [
+          "Ligue 1+ 3"
+        ]
+      },
+      "sources": [
+        "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
+      "id": "football-20260820-bastia-versailles",
+      "sport": "football",
+      "competitionId": "ligue3",
+      "tier": "regional",
+      "competition": {
+        "tr": "Fransa Ligue 3",
+        "en": "Ligue 3",
+        "de": "Ligue 3",
+        "es": "Ligue 3",
+        "fr": "Ligue 3",
+        "it": "Ligue 3",
+        "pt": "Ligue 3",
+        "ar": "الدوري الفرنسي الدرجة الثالثة"
+      },
+      "home": "Bastia",
+      "away": "Versailles",
+      "kickoffUtc": "2026-08-20T18:45:00Z",
+      "broadcasts": {
+        "FR": [
+          "Ligue 1+ 4"
+        ]
+      },
+      "sources": [
+        "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
+      "id": "football-20260820-caen-aubagne-air-bel",
+      "sport": "football",
+      "competitionId": "ligue3",
+      "tier": "regional",
+      "competition": {
+        "tr": "Fransa Ligue 3",
+        "en": "Ligue 3",
+        "de": "Ligue 3",
+        "es": "Ligue 3",
+        "fr": "Ligue 3",
+        "it": "Ligue 3",
+        "pt": "Ligue 3",
+        "ar": "الدوري الفرنسي الدرجة الثالثة"
+      },
+      "home": "Caen",
+      "away": "Aubagne Air Bel",
+      "kickoffUtc": "2026-08-20T18:45:00Z",
+      "broadcasts": {
+        "FR": [
+          "Ligue 1+ 5"
+        ]
+      },
+      "sources": [
+        "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
+      "id": "football-20260820-la-roche-sur-yon-vf-cannes",
+      "sport": "football",
+      "competitionId": "ligue3",
+      "tier": "regional",
+      "competition": {
+        "tr": "Fransa Ligue 3",
+        "en": "Ligue 3",
+        "de": "Ligue 3",
+        "es": "Ligue 3",
+        "fr": "Ligue 3",
+        "it": "Ligue 3",
+        "pt": "Ligue 3",
+        "ar": "الدوري الفرنسي الدرجة الثالثة"
+      },
+      "home": "La Roche sur Yon VF",
+      "away": "Cannes",
+      "kickoffUtc": "2026-08-20T18:45:00Z",
+      "broadcasts": {
+        "FR": [
+          "Ligue 1+ 6"
+        ]
+      },
+      "sources": [
+        "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
+      "id": "football-20260820-paris-13-atletico-valenciennes",
+      "sport": "football",
+      "competitionId": "ligue3",
+      "tier": "regional",
+      "competition": {
+        "tr": "Fransa Ligue 3",
+        "en": "Ligue 3",
+        "de": "Ligue 3",
+        "es": "Ligue 3",
+        "fr": "Ligue 3",
+        "it": "Ligue 3",
+        "pt": "Ligue 3",
+        "ar": "الدوري الفرنسي الدرجة الثالثة"
+      },
+      "home": "Paris 13 Atletico",
+      "away": "Valenciennes",
+      "kickoffUtc": "2026-08-20T18:45:00Z",
+      "broadcasts": {
+        "FR": [
+          "Ligue 1+ 7"
+        ]
+      },
+      "sources": [
+        "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
+      "id": "football-20260820-le-puy-amiens-sc",
+      "sport": "football",
+      "competitionId": "ligue3",
+      "tier": "regional",
+      "competition": {
+        "tr": "Fransa Ligue 3",
+        "en": "Ligue 3",
+        "de": "Ligue 3",
+        "es": "Ligue 3",
+        "fr": "Ligue 3",
+        "it": "Ligue 3",
+        "pt": "Ligue 3",
+        "ar": "الدوري الفرنسي الدرجة الثالثة"
+      },
+      "home": "Le Puy",
+      "away": "Amiens SC",
+      "kickoffUtc": "2026-08-20T18:45:00Z",
+      "broadcasts": {
+        "FR": [
+          "Ligue 1+ 8"
+        ]
+      },
+      "sources": [
+        "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
+      "id": "football-20260820-fleury-merogis-orleans",
+      "sport": "football",
+      "competitionId": "ligue3",
+      "tier": "regional",
+      "competition": {
+        "tr": "Fransa Ligue 3",
+        "en": "Ligue 3",
+        "de": "Ligue 3",
+        "es": "Ligue 3",
+        "fr": "Ligue 3",
+        "it": "Ligue 3",
+        "pt": "Ligue 3",
+        "ar": "الدوري الفرنسي الدرجة الثالثة"
+      },
+      "home": "Fleury-Mérogis",
+      "away": "Orléans",
+      "kickoffUtc": "2026-08-20T18:45:00Z",
+      "broadcasts": {
+        "FR": [
+          "Ligue 1+ 9"
+        ]
+      },
+      "sources": [
+        "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
+      "id": "football-20260820-bourg-en-bresse-p-thionville-lusitanos",
+      "sport": "football",
+      "competitionId": "ligue3",
+      "tier": "regional",
+      "competition": {
+        "tr": "Fransa Ligue 3",
+        "en": "Ligue 3",
+        "de": "Ligue 3",
+        "es": "Ligue 3",
+        "fr": "Ligue 3",
+        "it": "Ligue 3",
+        "pt": "Ligue 3",
+        "ar": "الدوري الفرنسي الدرجة الثالثة"
+      },
+      "home": "Bourg-en-Bresse P.",
+      "away": "Thionville Lusitanos",
+      "kickoffUtc": "2026-08-20T18:45:00Z",
+      "broadcasts": {
+        "FR": [
+          "Ligue 1+ 10"
+        ]
+      },
+      "sources": [
+        "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
       "id": "football-20260820-rayo-vallecano-alaves",
       "sport": "football",
       "competitionId": "laliga",
@@ -438,8 +739,7 @@
           "Paramount+"
         ],
         "AR": [
-          "Fox Sports",
-          "ESPN"
+          "Fox Sports"
         ],
         "UY": [
           "ESPN",
@@ -529,8 +829,7 @@
           "Disney+"
         ],
         "AR": [
-          "ESPN",
-          "DSports"
+          "ESPN"
         ],
         "US": [
           "beIN SPORTS",
@@ -540,6 +839,81 @@
       "sources": [
         "kullanıcı TR listesi",
         "kullanıcı ABD listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-corinthians-rosario-central",
+      "sport": "football",
+      "competitionId": "libertadores",
+      "tier": "regional",
+      "competition": {
+        "tr": "Copa Libertadores",
+        "en": "Copa Libertadores",
+        "de": "Copa Libertadores",
+        "es": "Copa Libertadores",
+        "fr": "Copa Libertadores",
+        "it": "Copa Libertadores",
+        "pt": "Copa Libertadores",
+        "ar": "كوبا ليبرتادوريس"
+      },
+      "home": "Corinthians",
+      "away": "Rosario Central",
+      "kickoffUtc": "2026-08-21T00:30:00Z",
+      "broadcasts": {
+        "AR": [
+          "ESPN",
+          "Fox Sports"
+        ],
+        "BR": [
+          "Paramount+"
+        ],
+        "US": [
+          "beIN SPORTS Connect",
+          "Fanatiz"
+        ]
+      },
+      "sources": [
+        "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
+      "id": "football-20260820-botafogo-cienciano",
+      "sport": "football",
+      "competitionId": "sudamericana",
+      "tier": "regional",
+      "competition": {
+        "tr": "Copa Sudamericana",
+        "en": "Copa Sudamericana",
+        "de": "Copa Sudamericana",
+        "es": "Copa Sudamericana",
+        "fr": "Copa Sudamericana",
+        "it": "Copa Sudamericana",
+        "pt": "Copa Sudamericana",
+        "ar": "كوبا سودأمريكانا"
+      },
+      "home": "Botafogo",
+      "away": "Cienciano",
+      "kickoffUtc": "2026-08-21T00:30:00Z",
+      "broadcasts": {
+        "AR": [
+          "ESPN",
+          "DSports"
+        ],
+        "BR": [
+          "ESPN",
+          "Disney+"
+        ],
+        "PE": [
+          "ESPN",
+          "Disney+"
+        ],
+        "US": [
+          "beIN SPORTS",
+          "Fanatiz"
+        ]
+      },
+      "sources": [
+        "kullanıcı AR/US/FR listeleri"
       ]
     }
   ]
