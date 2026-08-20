@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-20T05:33:22.536Z",
+  "generated_at": "2026-08-20T10:45:04.440Z",
   "date": "2026-08-20",
   "model": "user-provided",
   "stats": {
-    "total": 23,
-    "withChannel": 23,
+    "total": 29,
+    "withChannel": 29,
     "bySport": {
-      "football": 22,
+      "football": 28,
       "volleyball": 1
     },
     "warnings": 0,
@@ -77,7 +77,7 @@
       "id": "football-20260820-trabzonspor-ferencvaros",
       "sport": "football",
       "competitionId": "europa",
-      "tier": "global",
+      "tier": "regional",
       "competition": {
         "tr": "UEFA Avrupa Ligi Play-Off",
         "en": "UEFA Europa League Play-off",
@@ -94,44 +94,6 @@
       "broadcasts": {
         "TR": [
           "ATV"
-        ],
-        "GB": [
-          "TNT Sports"
-        ],
-        "DE": [
-          "RTL+",
-          "RTL"
-        ],
-        "ES": [
-          "Movistar+"
-        ],
-        "FR": [
-          "CANAL+"
-        ],
-        "IT": [
-          "Sky Sport",
-          "TV8"
-        ],
-        "US": [
-          "Paramount+"
-        ],
-        "SA": [
-          "beIN Sports"
-        ],
-        "DZ": [
-          "beIN Sports"
-        ],
-        "IQ": [
-          "beIN Sports"
-        ],
-        "JO": [
-          "beIN Sports"
-        ],
-        "EG": [
-          "beIN Sports"
-        ],
-        "OM": [
-          "beIN Sports"
         ]
       },
       "sources": [
@@ -143,7 +105,7 @@
       "id": "football-20260820-besiktas-kauno-zalgiris",
       "sport": "football",
       "competitionId": "europa",
-      "tier": "global",
+      "tier": "regional",
       "competition": {
         "tr": "UEFA Avrupa Ligi Play-Off",
         "en": "UEFA Europa League Play-off",
@@ -160,49 +122,38 @@
       "broadcasts": {
         "TR": [
           "S Sport Plus"
-        ],
-        "GB": [
-          "TNT Sports"
-        ],
-        "DE": [
-          "RTL+",
-          "RTL"
-        ],
-        "ES": [
-          "Movistar+"
-        ],
-        "FR": [
-          "CANAL+"
-        ],
-        "IT": [
-          "Sky Sport",
-          "TV8"
-        ],
-        "US": [
-          "Paramount+"
-        ],
-        "SA": [
-          "beIN Sports"
-        ],
-        "DZ": [
-          "beIN Sports"
-        ],
-        "IQ": [
-          "beIN Sports"
-        ],
-        "JO": [
-          "beIN Sports"
-        ],
-        "EG": [
-          "beIN Sports"
-        ],
-        "OM": [
-          "beIN Sports"
         ]
       },
       "sources": [
         "kullanıcı TR listesi",
         "kullanıcı ABD listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-troms-brighton-hove-albion",
+      "sport": "football",
+      "competitionId": "conference",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Konferans Ligi Play-Off",
+        "en": "UEFA Conference League Play-off",
+        "de": "UEFA Conference League Playoff",
+        "es": "Play-off de la Conference League",
+        "fr": "Barrages de la Ligue Conférence",
+        "it": "Playoff di Conference League",
+        "pt": "Play-off da Liga Conferência",
+        "ar": "ملحق دوري المؤتمر الأوروبي"
+      },
+      "home": "Tromsø",
+      "away": "Brighton & Hove Albion",
+      "kickoffUtc": "2026-08-20T17:00:00Z",
+      "broadcasts": {
+        "GB": [
+          "SolidSport"
+        ]
+      },
+      "sources": [
+        "kullanıcı GB listesi"
       ]
     },
     {
@@ -252,7 +203,7 @@
       "id": "football-20260820-twente-karabag",
       "sport": "football",
       "competitionId": "conference",
-      "tier": "global",
+      "tier": "regional",
       "competition": {
         "tr": "UEFA Avrupa Konferans Ligi Play-Off",
         "en": "UEFA Conference League Play-off",
@@ -269,34 +220,6 @@
       "broadcasts": {
         "TR": [
           "CBC Sport"
-        ],
-        "GB": [
-          "TNT Sports"
-        ],
-        "DE": [
-          "RTL+",
-          "RTL"
-        ],
-        "US": [
-          "Paramount+"
-        ],
-        "SA": [
-          "beIN Sports"
-        ],
-        "DZ": [
-          "beIN Sports"
-        ],
-        "IQ": [
-          "beIN Sports"
-        ],
-        "JO": [
-          "beIN Sports"
-        ],
-        "EG": [
-          "beIN Sports"
-        ],
-        "OM": [
-          "beIN Sports"
         ]
       },
       "sources": [
@@ -308,7 +231,7 @@
       "id": "football-20260820-gornik-zabrze-as-monaco",
       "sport": "football",
       "competitionId": "conference",
-      "tier": "global",
+      "tier": "regional",
       "competition": {
         "tr": "UEFA Avrupa Konferans Ligi Play-Off",
         "en": "UEFA Conference League Play-off",
@@ -325,41 +248,64 @@
       "broadcasts": {
         "FR": [
           "CANAL+"
-        ],
-        "TR": [
-          "tabii Spor"
-        ],
-        "GB": [
-          "TNT Sports"
-        ],
-        "DE": [
-          "RTL+",
-          "RTL"
-        ],
-        "US": [
-          "Paramount+"
-        ],
-        "SA": [
-          "beIN Sports"
-        ],
-        "DZ": [
-          "beIN Sports"
-        ],
-        "IQ": [
-          "beIN Sports"
-        ],
-        "JO": [
-          "beIN Sports"
-        ],
-        "EG": [
-          "beIN Sports"
-        ],
-        "OM": [
-          "beIN Sports"
         ]
       },
       "sources": [
         "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
+      "id": "football-20260820-kaa-gent-hibernian",
+      "sport": "football",
+      "competitionId": "conference",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Konferans Ligi Play-Off",
+        "en": "UEFA Conference League Play-off",
+        "de": "UEFA Conference League Playoff",
+        "es": "Play-off de la Conference League",
+        "fr": "Barrages de la Ligue Conférence",
+        "it": "Playoff di Conference League",
+        "pt": "Play-off da Liga Conferência",
+        "ar": "ملحق دوري المؤتمر الأوروبي"
+      },
+      "home": "KAA Gent",
+      "away": "Hibernian",
+      "kickoffUtc": "2026-08-20T18:30:00Z",
+      "broadcasts": {
+        "GB": [
+          "SolidSport"
+        ]
+      },
+      "sources": [
+        "kullanıcı GB listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-motherwell-sc-freiburg",
+      "sport": "football",
+      "competitionId": "conference",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Konferans Ligi Play-Off",
+        "en": "UEFA Conference League Play-off",
+        "de": "UEFA Conference League Playoff",
+        "es": "Play-off de la Conference League",
+        "fr": "Barrages de la Ligue Conférence",
+        "it": "Playoff di Conference League",
+        "pt": "Play-off da Liga Conferência",
+        "ar": "ملحق دوري المؤتمر الأوروبي"
+      },
+      "home": "Motherwell",
+      "away": "SC Freiburg",
+      "kickoffUtc": "2026-08-20T18:30:00Z",
+      "broadcasts": {
+        "GB": [
+          "SolidSport"
+        ]
+      },
+      "sources": [
+        "kullanıcı GB listesi"
       ]
     },
     {
@@ -606,6 +552,60 @@
       ]
     },
     {
+      "id": "football-20260820-hearts-rapid-viyana",
+      "sport": "football",
+      "competitionId": "conference",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Konferans Ligi Play-Off",
+        "en": "UEFA Conference League Play-off",
+        "de": "UEFA Conference League Playoff",
+        "es": "Play-off de la Conference League",
+        "fr": "Barrages de la Ligue Conférence",
+        "it": "Playoff di Conference League",
+        "pt": "Play-off da Liga Conferência",
+        "ar": "ملحق دوري المؤتمر الأوروبي"
+      },
+      "home": "Hearts",
+      "away": "Rapid Viyana",
+      "kickoffUtc": "2026-08-20T18:45:00Z",
+      "broadcasts": {
+        "GB": [
+          "Hearts TV"
+        ]
+      },
+      "sources": [
+        "kullanıcı GB listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-rangers-fk-jablonec",
+      "sport": "football",
+      "competitionId": "conference",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Konferans Ligi Play-Off",
+        "en": "UEFA Conference League Play-off",
+        "de": "UEFA Conference League Playoff",
+        "es": "Play-off de la Conference League",
+        "fr": "Barrages de la Ligue Conférence",
+        "it": "Playoff di Conference League",
+        "pt": "Play-off da Liga Conferência",
+        "ar": "ملحق دوري المؤتمر الأوروبي"
+      },
+      "home": "Rangers",
+      "away": "FK Jablonec",
+      "kickoffUtc": "2026-08-20T18:45:00Z",
+      "broadcasts": {
+        "GB": [
+          "RangersTV"
+        ]
+      },
+      "sources": [
+        "kullanıcı GB listesi"
+      ]
+    },
+    {
       "id": "football-20260820-rayo-vallecano-alaves",
       "sport": "football",
       "competitionId": "laliga",
@@ -633,7 +633,7 @@
           "Movistar+"
         ],
         "GB": [
-          "Premier Sports"
+          "Premier Sports 1"
         ],
         "DE": [
           "DAZN"
@@ -711,11 +711,42 @@
           "CBS Sports Golazo Network",
           "Paramount+",
           "Amazon Prime Video"
+        ],
+        "GB": [
+          "Sky Sports Main Event",
+          "Sky Sports Football"
         ]
       },
       "sources": [
         "kullanıcı TR listesi",
         "kullanıcı ABD listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-shamrock-rovers-kups",
+      "sport": "football",
+      "competitionId": "conference",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Konferans Ligi Play-Off",
+        "en": "UEFA Conference League Play-off",
+        "de": "UEFA Conference League Playoff",
+        "es": "Play-off de la Conference League",
+        "fr": "Barrages de la Ligue Conférence",
+        "it": "Playoff di Conference League",
+        "pt": "Play-off da Liga Conferência",
+        "ar": "ملحق دوري المؤتمر الأوروبي"
+      },
+      "home": "Shamrock Rovers",
+      "away": "KuPS",
+      "kickoffUtc": "2026-08-20T19:00:00Z",
+      "broadcasts": {
+        "GB": [
+          "LOITV"
+        ]
+      },
+      "sources": [
+        "kullanıcı GB listesi"
       ]
     },
     {
