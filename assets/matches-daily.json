@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-20T10:49:12.577Z",
+  "generated_at": "2026-08-20T11:02:13.394Z",
   "date": "2026-08-20",
   "model": "user-provided",
   "stats": {
-    "total": 31,
-    "withChannel": 31,
+    "total": 37,
+    "withChannel": 37,
     "bySport": {
-      "football": 30,
+      "football": 36,
       "volleyball": 1
     },
     "warnings": 0,
@@ -103,6 +103,35 @@
       ]
     },
     {
+      "id": "football-20260820-mjallby-salzburg",
+      "sport": "football",
+      "competitionId": "europa",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Ligi Play-Off",
+        "en": "UEFA Europa League Play-off",
+        "de": "UEFA Europa League Playoff",
+        "es": "Play-off de la Europa League",
+        "fr": "Barrages de la Ligue Europa",
+        "it": "Playoff di Europa League",
+        "pt": "Play-off da Liga Europa",
+        "ar": "ملحق الدوري الأوروبي"
+      },
+      "home": "Mjällby",
+      "away": "Salzburg",
+      "kickoffUtc": "2026-08-20T16:00:00Z",
+      "broadcasts": {
+        "AT": [
+          "ServusTV",
+          "ServusTV On",
+          "Sky Sport Austria"
+        ]
+      },
+      "sources": [
+        "kullanıcı yayıncı listesi"
+      ]
+    },
+    {
       "id": "football-20260820-trabzonspor-ferencvaros",
       "sport": "football",
       "competitionId": "europa",
@@ -183,6 +212,63 @@
       },
       "sources": [
         "kullanıcı GB listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-egnatia-lillestr-m",
+      "sport": "football",
+      "competitionId": "europa",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Ligi Play-Off",
+        "en": "UEFA Europa League Play-off",
+        "de": "UEFA Europa League Playoff",
+        "es": "Play-off de la Europa League",
+        "fr": "Barrages de la Ligue Europa",
+        "it": "Playoff di Europa League",
+        "pt": "Play-off da Liga Europa",
+        "ar": "ملحق الدوري الأوروبي"
+      },
+      "home": "Egnatia",
+      "away": "Lillestrøm",
+      "kickoffUtc": "2026-08-20T17:00:00Z",
+      "broadcasts": {
+        "NO": [
+          "VG+",
+          "VGTV"
+        ]
+      },
+      "sources": [
+        "kullanıcı yayıncı listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-lech-poznan-thun",
+      "sport": "football",
+      "competitionId": "europa",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Ligi Play-Off",
+        "en": "UEFA Europa League Play-off",
+        "de": "UEFA Europa League Playoff",
+        "es": "Play-off de la Europa League",
+        "fr": "Barrages de la Ligue Europa",
+        "it": "Playoff di Europa League",
+        "pt": "Play-off da Liga Europa",
+        "ar": "ملحق الدوري الأوروبي"
+      },
+      "home": "Lech Poznań",
+      "away": "Thun",
+      "kickoffUtc": "2026-08-20T17:00:00Z",
+      "broadcasts": {
+        "CH": [
+          "blue Sport",
+          "SRF zwei",
+          "RTS Sport"
+        ]
+      },
+      "sources": [
+        "kullanıcı yayıncı listesi"
       ]
     },
     {
@@ -281,6 +367,87 @@
       },
       "sources": [
         "kullanıcı AR/US/FR listeleri"
+      ]
+    },
+    {
+      "id": "football-20260820-sint-truiden-omonia",
+      "sport": "football",
+      "competitionId": "europa",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Ligi Play-Off",
+        "en": "UEFA Europa League Play-off",
+        "de": "UEFA Europa League Playoff",
+        "es": "Play-off de la Europa League",
+        "fr": "Barrages de la Ligue Europa",
+        "it": "Playoff di Europa League",
+        "pt": "Play-off da Liga Europa",
+        "ar": "ملحق الدوري الأوروبي"
+      },
+      "home": "Sint-Truiden",
+      "away": "Omonia",
+      "kickoffUtc": "2026-08-20T18:00:00Z",
+      "broadcasts": {
+        "BE": [
+          "DAZN"
+        ]
+      },
+      "sources": [
+        "kullanıcı yayıncı listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-crvena-zvezda-viktoria-plzen",
+      "sport": "football",
+      "competitionId": "europa",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Ligi Play-Off",
+        "en": "UEFA Europa League Play-off",
+        "de": "UEFA Europa League Playoff",
+        "es": "Play-off de la Europa League",
+        "fr": "Barrages de la Ligue Europa",
+        "it": "Playoff di Europa League",
+        "pt": "Play-off da Liga Europa",
+        "ar": "ملحق الدوري الأوروبي"
+      },
+      "home": "Crvena Zvezda",
+      "away": "Viktoria Plzeň",
+      "kickoffUtc": "2026-08-20T18:00:00Z",
+      "broadcasts": {
+        "CZ": [
+          "Nova Sport 5"
+        ]
+      },
+      "sources": [
+        "kullanıcı yayıncı listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-ofi-crete-cska-sofya",
+      "sport": "football",
+      "competitionId": "europa",
+      "tier": "regional",
+      "competition": {
+        "tr": "UEFA Avrupa Ligi Play-Off",
+        "en": "UEFA Europa League Play-off",
+        "de": "UEFA Europa League Playoff",
+        "es": "Play-off de la Europa League",
+        "fr": "Barrages de la Ligue Europa",
+        "it": "Playoff di Europa League",
+        "pt": "Play-off da Liga Europa",
+        "ar": "ملحق الدوري الأوروبي"
+      },
+      "home": "OFI Crete",
+      "away": "CSKA Sofya",
+      "kickoffUtc": "2026-08-20T18:00:00Z",
+      "broadcasts": {
+        "GR": [
+          "COSMOTE Sport 1 HD"
+        ]
+      },
+      "sources": [
+        "kullanıcı yayıncı listesi"
       ]
     },
     {
