@@ -1,99 +1,311 @@
 {
-  "generated_at": "2026-08-19T15:57:07.610Z",
-  "date": "2026-08-19",
+  "generated_at": "2026-08-20T05:11:17.414Z",
+  "date": "2026-08-20",
   "model": "user-provided",
   "stats": {
-    "total": 40,
-    "withChannel": 40,
+    "total": 11,
+    "withChannel": 11,
     "bySport": {
-      "football": 40
+      "football": 10,
+      "volleyball": 1
     },
     "warnings": 0,
-    "searches": 1
+    "searches": 2
   },
   "matches": [
     {
-      "id": "football-20260819-vincenzo-italiano-besiktas",
+      "id": "football-20260820-phoenix-rising-colorado-springs-switchbacks",
       "sport": "football",
-      "competitionId": "presser",
+      "competitionId": "usl_championship",
       "tier": "regional",
       "competition": {
-        "tr": "Basın Toplantısı",
-        "en": "Press Conference",
-        "de": "Pressekonferenz",
-        "es": "Rueda de prensa",
-        "fr": "Conférence de presse",
-        "it": "Conferenza stampa",
-        "pt": "Conferência de imprensa",
-        "ar": "مؤتمر صحفي"
+        "tr": "USL Championship",
+        "en": "USL Championship",
+        "de": "USL Championship",
+        "es": "USL Championship",
+        "fr": "USL Championship",
+        "it": "USL Championship",
+        "pt": "USL Championship",
+        "ar": "بطولة USL"
       },
-      "home": "Vincenzo Italiano",
-      "away": "Beşiktaş",
-      "kickoffUtc": "2026-08-19T11:30:00Z",
+      "home": "Phoenix Rising",
+      "away": "Colorado Springs Switchbacks",
+      "kickoffUtc": "2026-08-20T02:00:00Z",
+      "broadcasts": {
+        "TR": [
+          "USL Championship YouTube"
+        ],
+        "US": [
+          "CBS Sports Network",
+          "TUDN"
+        ]
+      },
+      "sources": [
+        "kullanıcı TR listesi",
+        "kullanıcı ABD listesi"
+      ]
+    },
+    {
+      "id": "volleyball-20260820-kuzey-makedonya-turkiye",
+      "sport": "volleyball",
+      "competitionId": "akdeniz_oyunlari",
+      "tier": "regional",
+      "competition": {
+        "tr": "Akdeniz Oyunları",
+        "en": "Mediterranean Games",
+        "de": "Mittelmeerspiele",
+        "es": "Juegos Mediterráneos",
+        "fr": "Jeux méditerranéens",
+        "it": "Giochi del Mediterraneo",
+        "pt": "Jogos do Mediterrâneo",
+        "ar": "ألعاب البحر الأبيض المتوسط"
+      },
+      "home": "Kuzey Makedonya",
+      "away": "Türkiye",
+      "kickoffUtc": "2026-08-20T15:00:00Z",
+      "broadcasts": {
+        "TR": [
+          "TRT Spor Yıldız"
+        ]
+      },
+      "sources": [
+        "kullanıcı TR listesi",
+        "kullanıcı ABD listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-trabzonspor-ferencvaros",
+      "sport": "football",
+      "competitionId": "europa",
+      "tier": "global",
+      "competition": {
+        "tr": "UEFA Avrupa Ligi Play-Off",
+        "en": "UEFA Europa League Play-off",
+        "de": "UEFA Europa League Playoff",
+        "es": "Play-off de la Europa League",
+        "fr": "Barrages de la Ligue Europa",
+        "it": "Playoff di Europa League",
+        "pt": "Play-off da Liga Europa",
+        "ar": "ملحق الدوري الأوروبي"
+      },
+      "home": "Trabzonspor",
+      "away": "Ferencváros",
+      "kickoffUtc": "2026-08-20T17:00:00Z",
+      "broadcasts": {
+        "TR": [
+          "ATV"
+        ],
+        "GB": [
+          "TNT Sports"
+        ],
+        "DE": [
+          "RTL+",
+          "RTL"
+        ],
+        "ES": [
+          "Movistar+"
+        ],
+        "FR": [
+          "CANAL+"
+        ],
+        "IT": [
+          "Sky Sport",
+          "TV8"
+        ],
+        "US": [
+          "Paramount+"
+        ],
+        "SA": [
+          "beIN Sports"
+        ],
+        "DZ": [
+          "beIN Sports"
+        ],
+        "IQ": [
+          "beIN Sports"
+        ],
+        "JO": [
+          "beIN Sports"
+        ],
+        "EG": [
+          "beIN Sports"
+        ],
+        "OM": [
+          "beIN Sports"
+        ]
+      },
+      "sources": [
+        "kullanıcı TR listesi",
+        "kullanıcı ABD listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-besiktas-kauno-zalgiris",
+      "sport": "football",
+      "competitionId": "europa",
+      "tier": "global",
+      "competition": {
+        "tr": "UEFA Avrupa Ligi Play-Off",
+        "en": "UEFA Europa League Play-off",
+        "de": "UEFA Europa League Playoff",
+        "es": "Play-off de la Europa League",
+        "fr": "Barrages de la Ligue Europa",
+        "it": "Playoff di Europa League",
+        "pt": "Play-off da Liga Europa",
+        "ar": "ملحق الدوري الأوروبي"
+      },
+      "home": "Beşiktaş",
+      "away": "Kauno Žalgiris",
+      "kickoffUtc": "2026-08-20T17:00:00Z",
+      "broadcasts": {
+        "TR": [
+          "S Sport Plus"
+        ],
+        "GB": [
+          "TNT Sports"
+        ],
+        "DE": [
+          "RTL+",
+          "RTL"
+        ],
+        "ES": [
+          "Movistar+"
+        ],
+        "FR": [
+          "CANAL+"
+        ],
+        "IT": [
+          "Sky Sport",
+          "TV8"
+        ],
+        "US": [
+          "Paramount+"
+        ],
+        "SA": [
+          "beIN Sports"
+        ],
+        "DZ": [
+          "beIN Sports"
+        ],
+        "IQ": [
+          "beIN Sports"
+        ],
+        "JO": [
+          "beIN Sports"
+        ],
+        "EG": [
+          "beIN Sports"
+        ],
+        "OM": [
+          "beIN Sports"
+        ]
+      },
+      "sources": [
+        "kullanıcı TR listesi",
+        "kullanıcı ABD listesi"
+      ]
+    },
+    {
+      "id": "football-20260820-al-fayha-al-hilal",
+      "sport": "football",
+      "competitionId": "saudi_pl",
+      "tier": "global",
+      "competition": {
+        "tr": "Suudi Arabistan Pro Lig",
+        "en": "Saudi Pro League",
+        "de": "Saudi Pro League",
+        "es": "Liga Profesional Saudí",
+        "fr": "Saudi Pro League",
+        "it": "Saudi Pro League",
+        "pt": "Liga Profissional Saudita",
+        "ar": "دوري روشن السعودي"
+      },
+      "home": "Al Fayha",
+      "away": "Al Hilal",
+      "kickoffUtc": "2026-08-20T18:00:00Z",
       "broadcasts": {
         "TR": [
           "HT Spor",
-          "A Spor",
-          "TRT Spor",
-          "Tivibu Spor",
-          "beIN Sports Haber",
-          "Beşiktaş YouTube"
-        ]
-      },
-      "sources": []
-    },
-    {
-      "id": "football-20260819-al-ula-al-fateh",
-      "sport": "football",
-      "competitionId": "ksa_kings_cup",
-      "tier": "regional",
-      "competition": {
-        "tr": "Suudi Kral Kupası",
-        "en": "King's Cup",
-        "de": "King's Cup",
-        "es": "Copa del Rey de Arabia Saudí",
-        "fr": "King's Cup",
-        "it": "King's Cup",
-        "pt": "King's Cup",
-        "ar": "كأس الملك"
-      },
-      "home": "Al-Ula",
-      "away": "Al-Fateh",
-      "kickoffUtc": "2026-08-19T15:00:00Z",
-      "broadcasts": {
+          "S Sport Plus"
+        ],
         "SA": [
-          "Thmanyah"
+          "Thmanyah",
+          "STC TV"
+        ],
+        "DE": [
+          "DAZN"
+        ],
+        "FR": [
+          "DAZN"
+        ],
+        "US": [
+          "FOX Soccer Plus",
+          "FOX Deportes"
         ]
       },
-      "sources": []
+      "sources": [
+        "kullanıcı TR listesi",
+        "kullanıcı ABD listesi"
+      ]
     },
     {
-      "id": "football-20260819-damac-al-taawoun",
+      "id": "football-20260820-twente-karabag",
       "sport": "football",
-      "competitionId": "ksa_kings_cup",
-      "tier": "regional",
+      "competitionId": "conference",
+      "tier": "global",
       "competition": {
-        "tr": "Suudi Kral Kupası",
-        "en": "King's Cup",
-        "de": "King's Cup",
-        "es": "Copa del Rey de Arabia Saudí",
-        "fr": "King's Cup",
-        "it": "King's Cup",
-        "pt": "King's Cup",
-        "ar": "كأس الملك"
+        "tr": "UEFA Avrupa Konferans Ligi Play-Off",
+        "en": "UEFA Conference League Play-off",
+        "de": "UEFA Conference League Playoff",
+        "es": "Play-off de la Conference League",
+        "fr": "Barrages de la Ligue Conférence",
+        "it": "Playoff di Conference League",
+        "pt": "Play-off da Liga Conferência",
+        "ar": "ملحق دوري المؤتمر الأوروبي"
       },
-      "home": "Damac",
-      "away": "Al-Taawoun",
-      "kickoffUtc": "2026-08-19T18:15:00Z",
+      "home": "Twente",
+      "away": "Karabağ",
+      "kickoffUtc": "2026-08-20T18:00:00Z",
       "broadcasts": {
+        "TR": [
+          "CBC Sport"
+        ],
+        "GB": [
+          "TNT Sports"
+        ],
+        "DE": [
+          "RTL+",
+          "RTL"
+        ],
+        "US": [
+          "Paramount+"
+        ],
         "SA": [
-          "Thmanyah"
+          "beIN Sports"
+        ],
+        "DZ": [
+          "beIN Sports"
+        ],
+        "IQ": [
+          "beIN Sports"
+        ],
+        "JO": [
+          "beIN Sports"
+        ],
+        "EG": [
+          "beIN Sports"
+        ],
+        "OM": [
+          "beIN Sports"
         ]
       },
-      "sources": []
+      "sources": [
+        "kullanıcı TR listesi",
+        "kullanıcı ABD listesi"
+      ]
     },
     {
-      "id": "football-20260819-atletico-madrid-malaga",
+      "id": "football-20260820-rayo-vallecano-alaves",
       "sport": "football",
       "competitionId": "laliga",
       "tier": "global",
@@ -107,9 +319,9 @@
         "pt": "LaLiga",
         "ar": "الدوري الإسباني"
       },
-      "home": "Atlético Madrid",
-      "away": "Málaga",
-      "kickoffUtc": "2026-08-19T19:00:00Z",
+      "home": "Rayo Vallecano",
+      "away": "Alavés",
+      "kickoffUtc": "2026-08-20T19:00:00Z",
       "broadcasts": {
         "TR": [
           "S Sport",
@@ -146,398 +358,105 @@
           "ESPN Deportes"
         ],
         "SA": [
-          "beIN Sports 1 HD",
-          "beIN Sports 2 HD"
+          "beIN Sports"
         ],
         "DZ": [
-          "beIN Sports 1 HD",
-          "beIN Sports 2 HD"
+          "beIN Sports"
         ],
         "IQ": [
-          "beIN Sports 1 HD",
-          "beIN Sports 2 HD"
+          "beIN Sports"
         ],
         "JO": [
-          "beIN Sports 1 HD",
-          "beIN Sports 2 HD"
+          "beIN Sports"
         ],
         "EG": [
-          "beIN Sports 1 HD",
-          "beIN Sports 2 HD"
+          "beIN Sports"
         ],
         "OM": [
-          "beIN Sports 1 HD",
-          "beIN Sports 2 HD"
+          "beIN Sports"
         ]
       },
-      "sources": []
+      "sources": [
+        "kullanıcı TR listesi",
+        "kullanıcı ABD listesi"
+      ]
     },
     {
-      "id": "football-20260819-celtic-lask",
+      "id": "football-20260820-sheffield-wednesday-bradford-city",
       "sport": "football",
-      "competitionId": "champions",
-      "tier": "global",
+      "competitionId": "eng_league_one",
+      "tier": "regional",
       "competition": {
-        "tr": "UEFA Şampiyonlar Ligi Play-Off",
-        "en": "UEFA Champions League Play-off",
-        "de": "UEFA Champions League Playoff",
-        "es": "Play-off de la Champions League",
-        "fr": "Barrages de la Ligue des champions",
-        "it": "Playoff di Champions League",
-        "pt": "Play-off da Liga dos Campeões",
-        "ar": "ملحق دوري أبطال أوروبا"
+        "tr": "İngiltere League One",
+        "en": "English League One",
+        "de": "English League One",
+        "es": "League One de Inglaterra",
+        "fr": "League One anglaise",
+        "it": "League One inglese",
+        "pt": "League One da Inglaterra",
+        "ar": "دوري الدرجة الأولى الإنجليزي"
       },
-      "home": "Celtic",
-      "away": "LASK",
-      "kickoffUtc": "2026-08-19T19:00:00Z",
+      "home": "Sheffield Wednesday",
+      "away": "Bradford City",
+      "kickoffUtc": "2026-08-20T19:00:00Z",
       "broadcasts": {
-        "TR": [
-          "tabii Spor 1"
-        ],
-        "GB": [
-          "TNT Sports"
-        ],
-        "DE": [
-          "OneFootball"
-        ],
-        "ES": [
-          "Movistar+"
-        ],
-        "FR": [
-          "CANAL+"
-        ],
-        "IT": [
-          "Sky Sport"
-        ],
-        "PT": [
-          "tabii",
-          "DAZN"
-        ],
         "US": [
           "CBS Sports Golazo Network",
           "Paramount+",
-          "ViX"
-        ],
-        "CA": [
-          "DAZN"
-        ],
-        "BR": [
-          "Max",
-          "Space"
-        ],
-        "AR": [
-          "Disney+"
-        ],
-        "MX": [
-          "Disney+"
-        ],
-        "CO": [
-          "Disney+"
-        ],
-        "CL": [
-          "Disney+"
-        ],
-        "UY": [
-          "Disney+"
-        ],
-        "GT": [
-          "Disney+"
-        ],
-        "SA": [
-          "beIN Sports"
-        ],
-        "DZ": [
-          "beIN Sports"
-        ],
-        "IQ": [
-          "beIN Sports"
-        ],
-        "JO": [
-          "beIN Sports"
-        ],
-        "EG": [
-          "beIN Sports"
-        ],
-        "OM": [
-          "beIN Sports"
+          "Amazon Prime Video"
         ]
       },
-      "sources": []
+      "sources": [
+        "kullanıcı TR listesi",
+        "kullanıcı ABD listesi"
+      ]
     },
     {
-      "id": "football-20260819-hapoel-beer-sheva-sabah-baku",
+      "id": "football-20260820-ldu-quito-mirassol",
       "sport": "football",
-      "competitionId": "champions",
-      "tier": "global",
+      "competitionId": "libertadores",
+      "tier": "regional",
       "competition": {
-        "tr": "UEFA Şampiyonlar Ligi Play-Off",
-        "en": "UEFA Champions League Play-off",
-        "de": "UEFA Champions League Playoff",
-        "es": "Play-off de la Champions League",
-        "fr": "Barrages de la Ligue des champions",
-        "it": "Playoff di Champions League",
-        "pt": "Play-off da Liga dos Campeões",
-        "ar": "ملحق دوري أبطال أوروبا"
+        "tr": "Copa Libertadores",
+        "en": "Copa Libertadores",
+        "de": "Copa Libertadores",
+        "es": "Copa Libertadores",
+        "fr": "Copa Libertadores",
+        "it": "Copa Libertadores",
+        "pt": "Copa Libertadores",
+        "ar": "كوبا ليبرتادوريس"
       },
-      "home": "Hapoel Beer Sheva",
-      "away": "Sabah Bakü",
-      "kickoffUtc": "2026-08-19T19:00:00Z",
+      "home": "LDU Quito",
+      "away": "Mirassol",
+      "kickoffUtc": "2026-08-20T22:00:00Z",
       "broadcasts": {
-        "TR": [
-          "İçtimai TV"
+        "EC": [
+          "ESPN",
+          "Disney+"
         ],
-        "GB": [
-          "TNT Sports"
+        "BR": [
+          "Paramount+"
         ],
-        "DE": [
-          "OneFootball"
+        "AR": [
+          "Fox Sports",
+          "ESPN"
         ],
-        "ES": [
-          "Movistar+"
-        ],
-        "FR": [
-          "CANAL+"
-        ],
-        "IT": [
-          "Sky Sport"
-        ],
-        "PT": [
-          "tabii",
-          "DAZN"
+        "UY": [
+          "ESPN",
+          "Disney+"
         ],
         "US": [
-          "Paramount+",
-          "ViX"
-        ],
-        "CA": [
-          "DAZN"
-        ],
-        "BR": [
-          "Max"
-        ],
-        "AR": [
-          "Disney+"
-        ],
-        "MX": [
-          "Disney+"
-        ],
-        "CO": [
-          "Disney+"
-        ],
-        "CL": [
-          "Disney+"
-        ],
-        "UY": [
-          "Disney+"
-        ],
-        "GT": [
-          "Disney+"
-        ],
-        "SA": [
-          "beIN Sports"
-        ],
-        "DZ": [
-          "beIN Sports"
-        ],
-        "IQ": [
-          "beIN Sports"
-        ],
-        "JO": [
-          "beIN Sports"
-        ],
-        "EG": [
-          "beIN Sports"
-        ],
-        "OM": [
-          "beIN Sports"
+          "beIN SPORTS Connect",
+          "Fanatiz"
         ]
       },
-      "sources": []
+      "sources": [
+        "kullanıcı TR listesi",
+        "kullanıcı ABD listesi"
+      ]
     },
     {
-      "id": "football-20260819-nec-nijmegen-bodo-glimt",
-      "sport": "football",
-      "competitionId": "champions",
-      "tier": "global",
-      "competition": {
-        "tr": "UEFA Şampiyonlar Ligi Play-Off",
-        "en": "UEFA Champions League Play-off",
-        "de": "UEFA Champions League Playoff",
-        "es": "Play-off de la Champions League",
-        "fr": "Barrages de la Ligue des champions",
-        "it": "Playoff di Champions League",
-        "pt": "Play-off da Liga dos Campeões",
-        "ar": "ملحق دوري أبطال أوروبا"
-      },
-      "home": "NEC Nijmegen",
-      "away": "Bodø/Glimt",
-      "kickoffUtc": "2026-08-19T19:00:00Z",
-      "broadcasts": {
-        "TR": [
-          "CBC Sport",
-          "tabii Spor"
-        ],
-        "GB": [
-          "TNT Sports"
-        ],
-        "DE": [
-          "OneFootball"
-        ],
-        "ES": [
-          "Movistar+"
-        ],
-        "FR": [
-          "CANAL+"
-        ],
-        "IT": [
-          "Sky Sport"
-        ],
-        "PT": [
-          "tabii",
-          "DAZN"
-        ],
-        "US": [
-          "Paramount+",
-          "DAZN"
-        ],
-        "CA": [
-          "DAZN"
-        ],
-        "BR": [
-          "Max",
-          "TNT"
-        ],
-        "AR": [
-          "Disney+"
-        ],
-        "MX": [
-          "Disney+"
-        ],
-        "CO": [
-          "Disney+"
-        ],
-        "CL": [
-          "Disney+"
-        ],
-        "UY": [
-          "Disney+"
-        ],
-        "GT": [
-          "Disney+"
-        ],
-        "SA": [
-          "beIN Sports"
-        ],
-        "DZ": [
-          "beIN Sports"
-        ],
-        "IQ": [
-          "beIN Sports"
-        ],
-        "JO": [
-          "beIN Sports"
-        ],
-        "EG": [
-          "beIN Sports"
-        ],
-        "OM": [
-          "beIN Sports"
-        ]
-      },
-      "sources": []
-    },
-    {
-      "id": "football-20260819-slovan-bratislava-nk-celje",
-      "sport": "football",
-      "competitionId": "champions",
-      "tier": "global",
-      "competition": {
-        "tr": "UEFA Şampiyonlar Ligi Play-Off",
-        "en": "UEFA Champions League Play-off",
-        "de": "UEFA Champions League Playoff",
-        "es": "Play-off de la Champions League",
-        "fr": "Barrages de la Ligue des champions",
-        "it": "Playoff di Champions League",
-        "pt": "Play-off da Liga dos Campeões",
-        "ar": "ملحق دوري أبطال أوروبا"
-      },
-      "home": "Slovan Bratislava",
-      "away": "NK Celje",
-      "kickoffUtc": "2026-08-19T19:00:00Z",
-      "broadcasts": {
-        "TR": [
-          "tabii Spor 2"
-        ],
-        "GB": [
-          "TNT Sports"
-        ],
-        "DE": [
-          "OneFootball"
-        ],
-        "ES": [
-          "Movistar+"
-        ],
-        "FR": [
-          "CANAL+"
-        ],
-        "IT": [
-          "Sky Sport"
-        ],
-        "PT": [
-          "tabii",
-          "DAZN"
-        ],
-        "US": [
-          "Paramount+",
-          "ViX"
-        ],
-        "CA": [
-          "DAZN"
-        ],
-        "BR": [
-          "Max"
-        ],
-        "AR": [
-          "Disney+"
-        ],
-        "MX": [
-          "Disney+"
-        ],
-        "CO": [
-          "Disney+"
-        ],
-        "CL": [
-          "Disney+"
-        ],
-        "UY": [
-          "Disney+"
-        ],
-        "GT": [
-          "Disney+"
-        ],
-        "SA": [
-          "beIN Sports"
-        ],
-        "DZ": [
-          "beIN Sports"
-        ],
-        "IQ": [
-          "beIN Sports"
-        ],
-        "JO": [
-          "beIN Sports"
-        ],
-        "EG": [
-          "beIN Sports"
-        ],
-        "OM": [
-          "beIN Sports"
-        ]
-      },
-      "sources": []
-    },
-    {
-      "id": "football-20260819-atletico-mg-rb-bragantino",
+      "id": "football-20260820-olimpia-vasco-da-gama",
       "sport": "football",
       "competitionId": "sudamericana",
       "tier": "regional",
@@ -551,10 +470,14 @@
         "pt": "Copa Sudamericana",
         "ar": "كوبا سودأمريكانا"
       },
-      "home": "Atlético-MG",
-      "away": "RB Bragantino",
-      "kickoffUtc": "2026-08-19T22:00:00Z",
+      "home": "Olimpia",
+      "away": "Vasco da Gama",
+      "kickoffUtc": "2026-08-20T22:00:00Z",
       "broadcasts": {
+        "PY": [
+          "ESPN",
+          "Disney+"
+        ],
         "BR": [
           "ESPN",
           "Disney+"
@@ -566,613 +489,20 @@
         "UY": [
           "ESPN",
           "Disney+"
-        ],
-        "US": [
-          "beIN SPORTS Connect",
-          "Fanatiz"
-        ]
-      },
-      "sources": []
-    },
-    {
-      "id": "football-20260819-cerro-porteno-palmeiras",
-      "sport": "football",
-      "competitionId": "libertadores",
-      "tier": "regional",
-      "competition": {
-        "tr": "Copa Libertadores",
-        "en": "Copa Libertadores",
-        "de": "Copa Libertadores",
-        "es": "Copa Libertadores",
-        "fr": "Copa Libertadores",
-        "it": "Copa Libertadores",
-        "pt": "Copa Libertadores",
-        "ar": "كوبا ليبرتادوريس"
-      },
-      "home": "Cerro Porteño",
-      "away": "Palmeiras",
-      "kickoffUtc": "2026-08-19T22:00:00Z",
-      "broadcasts": {
-        "PY": [
-          "Paramount+"
-        ],
-        "BR": [
-          "Paramount+"
-        ],
-        "AR": [
-          "Fox Sports"
-        ],
-        "UY": [
-          "ESPN",
-          "Disney+"
-        ],
-        "US": [
-          "beIN SPORTS",
-          "Fanatiz"
-        ]
-      },
-      "sources": []
-    },
-    {
-      "id": "football-20260819-coquimbo-unido-platense",
-      "sport": "football",
-      "competitionId": "libertadores",
-      "tier": "regional",
-      "competition": {
-        "tr": "Copa Libertadores",
-        "en": "Copa Libertadores",
-        "de": "Copa Libertadores",
-        "es": "Copa Libertadores",
-        "fr": "Copa Libertadores",
-        "it": "Copa Libertadores",
-        "pt": "Copa Libertadores",
-        "ar": "كوبا ليبرتادوريس"
-      },
-      "home": "Coquimbo Unido",
-      "away": "Platense",
-      "kickoffUtc": "2026-08-19T22:00:00Z",
-      "broadcasts": {
-        "CL": [
-          "ESPN 5",
-          "Disney+ Premium"
-        ],
-        "AR": [
-          "Fox Sports"
-        ],
-        "UY": [
-          "ESPN",
-          "Disney+"
-        ],
-        "BR": [
-          "Paramount+"
         ],
         "US": [
           "beIN SPORTS XTRA",
-          "Fanatiz"
-        ]
-      },
-      "sources": []
-    },
-    {
-      "id": "football-20260819-racing-belgrano",
-      "sport": "football",
-      "competitionId": "copa_argentina",
-      "tier": "regional",
-      "competition": {
-        "tr": "Arjantin Kupası",
-        "en": "Copa Argentina",
-        "de": "Copa Argentina",
-        "es": "Copa Argentina",
-        "fr": "Coupe d'Argentine",
-        "it": "Coppa d'Argentina",
-        "pt": "Copa da Argentina",
-        "ar": "كأس الأرجنتين"
-      },
-      "home": "Racing",
-      "away": "Belgrano",
-      "kickoffUtc": "2026-08-19T22:15:00Z",
-      "broadcasts": {
-        "AR": [
-          "TyC Sports"
+          "Fanatiz",
+          "ViX"
         ]
       },
       "sources": [
-        "kullanıcı listesi (US/AR)"
+        "kullanıcı TR listesi",
+        "kullanıcı ABD listesi"
       ]
     },
     {
-      "id": "football-20260819-avai-sport-recife",
-      "sport": "football",
-      "competitionId": "bra_serieb",
-      "tier": "regional",
-      "competition": {
-        "tr": "Brezilya Serie B",
-        "en": "Brazilian Serie B",
-        "de": "Brasilianische Serie B",
-        "es": "Serie B de Brasil",
-        "fr": "Serie B bresilienne",
-        "it": "Serie B brasiliana",
-        "pt": "Brasileirao Serie B",
-        "ar": "الدوري البرازيلي الدرجة الثانية"
-      },
-      "home": "Avaí",
-      "away": "Sport Recife",
-      "kickoffUtc": "2026-08-19T22:30:00Z",
-      "broadcasts": {
-        "BR": [
-          "Disney+"
-        ]
-      },
-      "sources": []
-    },
-    {
-      "id": "football-20260819-fortaleza-sao-bernardo",
-      "sport": "football",
-      "competitionId": "bra_serieb",
-      "tier": "regional",
-      "competition": {
-        "tr": "Brezilya Serie B",
-        "en": "Brazilian Serie B",
-        "de": "Brasilianische Serie B",
-        "es": "Serie B de Brasil",
-        "fr": "Serie B bresilienne",
-        "it": "Serie B brasiliana",
-        "pt": "Brasileirao Serie B",
-        "ar": "الدوري البرازيلي الدرجة الثانية"
-      },
-      "home": "Fortaleza",
-      "away": "São Bernardo",
-      "kickoffUtc": "2026-08-19T22:30:00Z",
-      "broadcasts": {
-        "BR": [
-          "XSports",
-          "ESPN 4",
-          "Disney+"
-        ]
-      },
-      "sources": []
-    },
-    {
-      "id": "football-20260819-one-knoxville-portland-hearts-of-pine",
-      "sport": "football",
-      "competitionId": "usl_league_one",
-      "tier": "regional",
-      "competition": {
-        "tr": "USL League One",
-        "en": "USL League One",
-        "de": "USL League One",
-        "es": "USL League One",
-        "fr": "USL League One",
-        "it": "USL League One",
-        "pt": "USL League One",
-        "ar": "دوري USL الأول"
-      },
-      "home": "One Knoxville",
-      "away": "Portland Hearts of Pine",
-      "kickoffUtc": "2026-08-19T23:00:00Z",
-      "broadcasts": {
-        "US": [
-          "ESPN+"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-atletico-ottawa-vancouver-fc",
-      "sport": "football",
-      "competitionId": "canadian_premier",
-      "tier": "regional",
-      "competition": {
-        "tr": "Kanada Premier Ligi",
-        "en": "Canadian Premier League",
-        "de": "Canadian Premier League",
-        "es": "Liga Premier Canadiense",
-        "fr": "Première ligue canadienne",
-        "it": "Canadian Premier League",
-        "pt": "Liga Premier Canadense",
-        "ar": "الدوري الكندي الممتاز"
-      },
-      "home": "Atlético Ottawa",
-      "away": "Vancouver FC",
-      "kickoffUtc": "2026-08-19T23:00:00Z",
-      "broadcasts": {
-        "US": [
-          "FOX Soccer Plus"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-forge-fc-supra-du-quebec",
-      "sport": "football",
-      "competitionId": "canadian_premier",
-      "tier": "regional",
-      "competition": {
-        "tr": "Kanada Premier Ligi",
-        "en": "Canadian Premier League",
-        "de": "Canadian Premier League",
-        "es": "Liga Premier Canadiense",
-        "fr": "Première ligue canadienne",
-        "it": "Canadian Premier League",
-        "pt": "Liga Premier Canadense",
-        "ar": "الدوري الكندي الممتاز"
-      },
-      "home": "Forge FC",
-      "away": "Supra du Québec",
-      "kickoffUtc": "2026-08-19T23:00:00Z",
-      "broadcasts": {
-        "US": [
-          "FS2"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-cuiaba-operario-pr",
-      "sport": "football",
-      "competitionId": "bra_serieb",
-      "tier": "regional",
-      "competition": {
-        "tr": "Brezilya Serie B",
-        "en": "Brazilian Serie B",
-        "de": "Brasilianische Serie B",
-        "es": "Serie B de Brasil",
-        "fr": "Serie B bresilienne",
-        "it": "Serie B brasiliana",
-        "pt": "Brasileirao Serie B",
-        "ar": "الدوري البرازيلي الدرجة الثانية"
-      },
-      "home": "Cuiabá",
-      "away": "Operário-PR",
-      "kickoffUtc": "2026-08-19T23:30:00Z",
-      "broadcasts": {
-        "BR": [
-          "Disney+"
-        ]
-      },
-      "sources": []
-    },
-    {
-      "id": "football-20260819-vila-nova-ponte-preta",
-      "sport": "football",
-      "competitionId": "bra_serieb",
-      "tier": "regional",
-      "competition": {
-        "tr": "Brezilya Serie B",
-        "en": "Brazilian Serie B",
-        "de": "Brasilianische Serie B",
-        "es": "Serie B de Brasil",
-        "fr": "Serie B bresilienne",
-        "it": "Serie B brasiliana",
-        "pt": "Brasileirao Serie B",
-        "ar": "الدوري البرازيلي الدرجة الثانية"
-      },
-      "home": "Vila Nova",
-      "away": "Ponte Preta",
-      "kickoffUtc": "2026-08-19T23:30:00Z",
-      "broadcasts": {
-        "BR": [
-          "Disney+"
-        ]
-      },
-      "sources": []
-    },
-    {
-      "id": "football-20260819-philadelphia-union-inter-miami",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "Philadelphia Union",
-      "away": "Inter Miami",
-      "kickoffUtc": "2026-08-19T23:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-orlando-city-chicago-fire",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "Orlando City",
-      "away": "Chicago Fire",
-      "kickoffUtc": "2026-08-19T23:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-toronto-fc-charlotte-fc",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "Toronto FC",
-      "away": "Charlotte FC",
-      "kickoffUtc": "2026-08-19T23:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-d-c-united-new-england-revolution",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "D.C. United",
-      "away": "New England Revolution",
-      "kickoffUtc": "2026-08-19T23:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-new-york-red-bulls-nashville-sc",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "New York Red Bulls",
-      "away": "Nashville SC",
-      "kickoffUtc": "2026-08-19T23:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-columbus-crew-cf-montreal",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "Columbus Crew",
-      "away": "CF Montréal",
-      "kickoffUtc": "2026-08-19T23:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-fc-cincinnati-new-york-city-fc",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "FC Cincinnati",
-      "away": "New York City FC",
-      "kickoffUtc": "2026-08-19T23:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-sarasota-paradise-chattanooga-red-wolves",
-      "sport": "football",
-      "competitionId": "usl_league_one",
-      "tier": "regional",
-      "competition": {
-        "tr": "USL League One",
-        "en": "USL League One",
-        "de": "USL League One",
-        "es": "USL League One",
-        "fr": "USL League One",
-        "it": "USL League One",
-        "pt": "USL League One",
-        "ar": "دوري USL الأول"
-      },
-      "home": "Sarasota Paradise",
-      "away": "Chattanooga Red Wolves",
-      "kickoffUtc": "2026-08-19T23:30:00Z",
-      "broadcasts": {
-        "US": [
-          "ESPN+"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-sporting-kansas-city-st-louis-city",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "Sporting Kansas City",
-      "away": "St. Louis City",
-      "kickoffUtc": "2026-08-20T00:00:00Z",
-      "broadcasts": {
-        "US": [
-          "FS1",
-          "FOX Deportes",
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-flamengo-cruzeiro",
-      "sport": "football",
-      "competitionId": "libertadores",
-      "tier": "regional",
-      "competition": {
-        "tr": "Copa Libertadores",
-        "en": "Copa Libertadores",
-        "de": "Copa Libertadores",
-        "es": "Copa Libertadores",
-        "fr": "Copa Libertadores",
-        "it": "Copa Libertadores",
-        "pt": "Copa Libertadores",
-        "ar": "كوبا ليبرتادوريس"
-      },
-      "home": "Flamengo",
-      "away": "Cruzeiro",
-      "kickoffUtc": "2026-08-20T00:30:00Z",
-      "broadcasts": {
-        "BR": [
-          "Globo",
-          "GeTV",
-          "Paramount+"
-        ],
-        "AR": [
-          "ESPN",
-          "Fox Sports"
-        ],
-        "UY": [
-          "ESPN",
-          "Disney+"
-        ],
-        "US": [
-          "beIN SPORTS Connect",
-          "Fanatiz"
-        ]
-      },
-      "sources": []
-    },
-    {
-      "id": "football-20260819-santa-fe-river-plate",
+      "id": "football-20260820-macara-santos",
       "sport": "football",
       "competitionId": "sudamericana",
       "tier": "regional",
@@ -1186,334 +516,30 @@
         "pt": "Copa Sudamericana",
         "ar": "كوبا سودأمريكانا"
       },
-      "home": "Santa Fe",
-      "away": "River Plate",
-      "kickoffUtc": "2026-08-20T00:30:00Z",
+      "home": "Macará",
+      "away": "Santos",
+      "kickoffUtc": "2026-08-20T22:00:00Z",
       "broadcasts": {
-        "CO": [
-          "ESPN",
-          "Disney+"
-        ],
-        "AR": [
-          "ESPN",
-          "DSports"
-        ],
-        "UY": [
+        "EC": [
           "ESPN",
           "Disney+"
         ],
         "BR": [
           "ESPN",
           "Disney+"
+        ],
+        "AR": [
+          "ESPN",
+          "DSports"
         ],
         "US": [
           "beIN SPORTS",
           "Fanatiz"
         ]
       },
-      "sources": []
-    },
-    {
-      "id": "football-20260819-montevideo-city-torque-tigre",
-      "sport": "football",
-      "competitionId": "sudamericana",
-      "tier": "regional",
-      "competition": {
-        "tr": "Copa Sudamericana",
-        "en": "Copa Sudamericana",
-        "de": "Copa Sudamericana",
-        "es": "Copa Sudamericana",
-        "fr": "Copa Sudamericana",
-        "it": "Copa Sudamericana",
-        "pt": "Copa Sudamericana",
-        "ar": "كوبا سودأمريكانا"
-      },
-      "home": "Montevideo City Torque",
-      "away": "Tigre",
-      "kickoffUtc": "2026-08-20T00:30:00Z",
-      "broadcasts": {
-        "UY": [
-          "ESPN",
-          "Disney+"
-        ],
-        "AR": [
-          "ESPN",
-          "DSports"
-        ],
-        "US": [
-          "beIN SPORTS Connect",
-          "Fanatiz"
-        ]
-      },
       "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-minnesota-united-atlanta-united",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "Minnesota United",
-      "away": "Atlanta United",
-      "kickoffUtc": "2026-08-20T00:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-corpus-christi-fc-new-york-cosmos",
-      "sport": "football",
-      "competitionId": "usl_league_one",
-      "tier": "regional",
-      "competition": {
-        "tr": "USL League One",
-        "en": "USL League One",
-        "de": "USL League One",
-        "es": "USL League One",
-        "fr": "USL League One",
-        "it": "USL League One",
-        "pt": "USL League One",
-        "ar": "دوري USL الأول"
-      },
-      "home": "Corpus Christi FC",
-      "away": "New York Cosmos",
-      "kickoffUtc": "2026-08-20T00:30:00Z",
-      "broadcasts": {
-        "US": [
-          "ESPN+"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-real-salt-lake-fc-dallas",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "Real Salt Lake",
-      "away": "FC Dallas",
-      "kickoffUtc": "2026-08-20T01:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-colorado-rapids-lafc",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "Colorado Rapids",
-      "away": "LAFC",
-      "kickoffUtc": "2026-08-20T01:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-seattle-sounders-austin-fc",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "Seattle Sounders",
-      "away": "Austin FC",
-      "kickoffUtc": "2026-08-20T01:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-phoenix-rising-colorado-springs-switchbacks",
-      "sport": "football",
-      "competitionId": "usl_championship",
-      "tier": "regional",
-      "competition": {
-        "tr": "USL Championship",
-        "en": "USL Championship",
-        "de": "USL Championship",
-        "es": "USL Championship",
-        "fr": "USL Championship",
-        "it": "USL Championship",
-        "pt": "USL Championship",
-        "ar": "بطولة USL"
-      },
-      "home": "Phoenix Rising",
-      "away": "Colorado Springs Switchbacks",
-      "kickoffUtc": "2026-08-20T02:00:00Z",
-      "broadcasts": {
-        "US": [
-          "CBS Sports Network",
-          "TUDN"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-vancouver-whitecaps-houston-dynamo",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "Vancouver Whitecaps",
-      "away": "Houston Dynamo",
-      "kickoffUtc": "2026-08-20T02:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-la-galaxy-san-jose-earthquakes",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "LA Galaxy",
-      "away": "San Jose Earthquakes",
-      "kickoffUtc": "2026-08-20T02:30:00Z",
-      "broadcasts": {
-        "US": [
-          "FS1",
-          "FOX Deportes",
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
-      ]
-    },
-    {
-      "id": "football-20260819-portland-timbers-san-diego-fc",
-      "sport": "football",
-      "competitionId": "mls",
-      "tier": "regional",
-      "competition": {
-        "tr": "MLS",
-        "en": "MLS",
-        "de": "MLS",
-        "es": "MLS",
-        "fr": "MLS",
-        "it": "MLS",
-        "pt": "MLS",
-        "ar": "الدوري الأمريكي للمحترفين"
-      },
-      "home": "Portland Timbers",
-      "away": "San Diego FC",
-      "kickoffUtc": "2026-08-20T02:30:00Z",
-      "broadcasts": {
-        "US": [
-          "Apple TV"
-        ],
-        "CA": [
-          "Apple TV"
-        ]
-      },
-      "sources": [
-        "kullanıcı listesi (US/AR)"
+        "kullanıcı TR listesi",
+        "kullanıcı ABD listesi"
       ]
     }
   ]

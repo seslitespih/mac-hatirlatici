@@ -1,6 +1,6 @@
 {
   "_comment": "Turnuva x ulke yayin haklari. Gunluk fikstur uretiminde TABAN olarak kullanilir; her gun sifirdan aranmaz. 'durum' alani: dogrulandi = web aramasiyla teyit edildi, tahmin = sektor bilgisi ama kaynakla teyit edilmedi. Sezon basinda ve 'su kanal yanlis' geri bildiriminde guncellenir.",
-  "_guncelleme": "2026-08-19",
+  "_guncelleme": "2026-08-20",
   "_kullanim": "Once buradaki tabani uygula, sonra 'bolunmeler' kurallarini kontrol et, en son o maca ozel arama yap. Bolunme kurali olan ulkelerde (DE, IT, ES, GB) MUTLAKA mac bazinda dogrula.",
   "bolgeler": {
     "MENA": [
@@ -127,7 +127,7 @@
     "europa": {
       "ad": "UEFA Avrupa Ligi",
       "sezon": "2026-27",
-      "durum": "tahmin",
+      "durum": "dogrulandi",
       "ulkeler": {
         "TR": [
           "tabii Spor"
@@ -136,8 +136,8 @@
           "TNT Sports"
         ],
         "DE": [
-          "RTL",
-          "DAZN"
+          "RTL+",
+          "RTL"
         ],
         "ES": [
           "Movistar+"
@@ -185,7 +185,8 @@
           "DAZN"
         ],
         "FR": [
-          "beIN Sports"
+          "DAZN",
+          "Disney+"
         ],
         "BR": [
           "CazéTV"
@@ -194,7 +195,8 @@
           "Sky Sports"
         ],
         "US": [
-          "ESPN"
+          "ESPN+",
+          "ESPN Deportes"
         ],
         "@MENA": [
           "beIN Sports"
@@ -456,9 +458,8 @@
           "SporTV"
         ],
         "AR": [
-          "ESPN",
-          "Disney+",
-          "Telefe"
+          "Fox Sports",
+          "ESPN"
         ],
         "CL": [
           "ESPN",
@@ -526,7 +527,7 @@
         ],
         "AR": [
           "ESPN",
-          "Disney+"
+          "DSports"
         ],
         "CO": [
           "ESPN",
@@ -789,6 +790,28 @@
         }
       ],
       "notlar": "Serie B yalniz Brezilya'da gosterilir (tier: regional). Alti farkli yayinci var, tek kanal yazma."
+    },
+    "conference": {
+      "ad": "UEFA Konferans Ligi",
+      "sezon": "2026-27",
+      "durum": "dogrulandi",
+      "ulkeler": {
+        "TR": [
+          "tabii Spor"
+        ],
+        "GB": [
+          "TNT Sports"
+        ],
+        "DE": [
+          "RTL+",
+          "RTL"
+        ],
+        "US": [
+          "Paramount+"
+        ]
+      },
+      "bolunmeler": [],
+      "notlar": "RTL Almanya'da hem Avrupa Ligi hem Konferans Ligi haklarını tutuyor; 2027/28'de DAZN'a geçecek."
     }
   },
   "kaynaklar": {
