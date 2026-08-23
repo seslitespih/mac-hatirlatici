@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T08:36:00.998Z",
+  "generated_at": "2026-08-23T08:37:32.348Z",
   "date": "2026-08-23",
   "model": "user-provided",
   "stats": {
-    "total": 74,
-    "withChannel": 74,
+    "total": 77,
+    "withChannel": 77,
     "bySport": {
       "motorsport": 7,
-      "football": 59,
+      "football": 62,
       "volleyball": 8
     },
     "warnings": 0,
@@ -96,6 +96,36 @@
       "sources": [
         "TR listesi",
         "DE/ES/CA/AR/US kaynaklari"
+      ]
+    },
+    {
+      "id": "football-20260823-j1-machida-zelvia-urawa-red-diamonds",
+      "sport": "football",
+      "competitionId": "j1",
+      "tier": "regional",
+      "competition": {
+        "tr": "Japonya J1 Ligi",
+        "en": "J1 League",
+        "de": "J1 League",
+        "es": "J1 League",
+        "fr": "J1 League",
+        "it": "J1 League",
+        "pt": "J1 League",
+        "ar": "الدوري الياباني"
+      },
+      "home": "Machida Zelvia",
+      "away": "Urawa Red Diamonds",
+      "kickoffUtc": "2026-08-23T10:30:00Z",
+      "broadcasts": {
+        "FR": [
+          "YouTube"
+        ],
+        "ES": [
+          "J.LEAGUE International YouTube"
+        ]
+      },
+      "sources": [
+        "footao (FR)"
       ]
     },
     {
@@ -256,6 +286,9 @@
         ],
         "IT": [
           "COMO TV"
+        ],
+        "FR": [
+          "beIN SPORTS MAX 4"
         ]
       },
       "sources": [
@@ -320,6 +353,9 @@
         ],
         "IT": [
           "COMO TV"
+        ],
+        "FR": [
+          "DAZN"
         ]
       },
       "sources": [
@@ -1074,6 +1110,9 @@
         ],
         "IT": [
           "COMO TV"
+        ],
+        "FR": [
+          "DAZN"
         ]
       },
       "sources": [
@@ -1509,6 +1548,9 @@
         "US": [
           "beIN SPORTS XTRA",
           "ViX"
+        ],
+        "FR": [
+          "beIN SPORTS 1"
         ]
       },
       "sources": [
@@ -1816,6 +1858,39 @@
       ]
     },
     {
+      "id": "football-20260823-jupiler-club-brugge-cercle-brugge",
+      "sport": "football",
+      "competitionId": "jupiler",
+      "tier": "regional",
+      "competition": {
+        "tr": "Belçika Pro Lig",
+        "en": "Belgian Pro League",
+        "de": "Jupiler Pro League",
+        "es": "Jupiler Pro League",
+        "fr": "Jupiler Pro League",
+        "it": "Campionato belga",
+        "pt": "Liga Belga",
+        "ar": "الدوري البلجيكي"
+      },
+      "home": "Club Brugge",
+      "away": "Cercle Brugge",
+      "kickoffUtc": "2026-08-23T16:30:00Z",
+      "broadcasts": {
+        "FR": [
+          "DAZN"
+        ],
+        "IT": [
+          "DAZN"
+        ],
+        "ES": [
+          "DAZN"
+        ]
+      },
+      "sources": [
+        "footao (FR)"
+      ]
+    },
+    {
       "id": "football-20260823-aze_pl-neftci-baku-araz",
       "sport": "football",
       "competitionId": "aze_pl",
@@ -1935,6 +2010,33 @@
       "sources": [
         "TR listesi",
         "DE/ES/CA/AR/US kaynaklari"
+      ]
+    },
+    {
+      "id": "football-20260823-primeira-santa-clara-famalicao",
+      "sport": "football",
+      "competitionId": "primeira",
+      "tier": "regional",
+      "competition": {
+        "tr": "Portekiz Ligi",
+        "en": "Primeira Liga",
+        "de": "Primeira Liga",
+        "es": "Liga Portuguesa",
+        "fr": "Liga Portugal",
+        "it": "Campionato portoghese",
+        "pt": "Liga Portugal",
+        "ar": "الدوري البرتغالي"
+      },
+      "home": "Santa Clara",
+      "away": "Famalicão",
+      "kickoffUtc": "2026-08-23T17:00:00Z",
+      "broadcasts": {
+        "FR": [
+          "beIN SPORTS 3"
+        ]
+      },
+      "sources": [
+        "footao (FR)"
       ]
     },
     {
@@ -2210,6 +2312,9 @@
         ],
         "US": [
           "beIN SPORTS Connect"
+        ],
+        "FR": [
+          "beIN SPORTS 2"
         ]
       },
       "sources": [
@@ -2794,6 +2899,7 @@
           "beIN SPORTS Connect"
         ],
         "FR": [
+          "beIN SPORTS 1",
           "beIN SPORTS MAX 4"
         ],
         "IT": [
