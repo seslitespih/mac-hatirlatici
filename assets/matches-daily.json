@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T07:43:55.801Z",
+  "generated_at": "2026-08-23T08:32:59.319Z",
   "date": "2026-08-23",
   "model": "user-provided",
   "stats": {
-    "total": 60,
-    "withChannel": 60,
+    "total": 69,
+    "withChannel": 69,
     "bySport": {
       "motorsport": 7,
-      "football": 45,
+      "football": 54,
       "volleyball": 8
     },
     "warnings": 0,
@@ -381,6 +381,10 @@
         ],
         "CA": [
           "Fubo"
+        ],
+        "US": [
+          "NBCSN",
+          "Peacock Premium"
         ]
       },
       "sources": [
@@ -556,6 +560,9 @@
         ],
         "ES": [
           "OneFootball PPV"
+        ],
+        "US": [
+          "DFB Play"
         ]
       },
       "sources": [
@@ -587,6 +594,9 @@
         ],
         "ES": [
           "OneFootball PPV"
+        ],
+        "US": [
+          "DFB Play"
         ]
       },
       "sources": [
@@ -618,6 +628,9 @@
         ],
         "ES": [
           "OneFootball PPV"
+        ],
+        "US": [
+          "DFB Play"
         ]
       },
       "sources": [
@@ -680,6 +693,9 @@
         ],
         "ES": [
           "OneFootball PPV"
+        ],
+        "US": [
+          "DFB Play"
         ]
       },
       "sources": [
@@ -855,6 +871,9 @@
         ],
         "ES": [
           "DAZN"
+        ],
+        "US": [
+          "ESPN+"
         ]
       },
       "sources": [
@@ -895,11 +914,46 @@
         ],
         "CA": [
           "TSN+"
+        ],
+        "US": [
+          "ESPN2",
+          "ESPN Deportes"
         ]
       },
       "sources": [
         "TR listesi",
         "DE/ES/CA/AR/US kaynaklari"
+      ]
+    },
+    {
+      "id": "football-20260823-laliga_hyper-eibar-real-valladolid",
+      "sport": "football",
+      "competitionId": "laliga_hyper",
+      "tier": "regional",
+      "competition": {
+        "tr": "LaLiga Hypermotion",
+        "en": "Spanish Segunda División",
+        "de": "LaLiga Hypermotion",
+        "es": "LaLiga Hypermotion",
+        "fr": "LaLiga Hypermotion",
+        "it": "LaLiga Hypermotion",
+        "pt": "LaLiga Hypermotion",
+        "ar": "لاليغا هايبرموشن"
+      },
+      "home": "Eibar",
+      "away": "Real Valladolid",
+      "kickoffUtc": "2026-08-23T15:00:00Z",
+      "broadcasts": {
+        "US": [
+          "ESPN+"
+        ],
+        "ES": [
+          "LALIGA TV Hypermotion",
+          "DAZN"
+        ]
+      },
+      "sources": [
+        "kullanici ABD listesi"
       ]
     },
     {
@@ -929,6 +983,10 @@
         ],
         "CA": [
           "Fubo"
+        ],
+        "US": [
+          "beIN SPORTS",
+          "beIN SPORTS en Español"
         ]
       },
       "sources": [
@@ -968,11 +1026,42 @@
         ],
         "CA": [
           "Fubo"
+        ],
+        "US": [
+          "USA Network",
+          "Telemundo"
         ]
       },
       "sources": [
         "TR listesi",
         "DE/ES/CA/AR/US kaynaklari"
+      ]
+    },
+    {
+      "id": "football-20260823-ekstraklasa-gks-katowice-wis-a-p-ock",
+      "sport": "football",
+      "competitionId": "ekstraklasa",
+      "tier": "regional",
+      "competition": {
+        "tr": "Polonya Ekstraklasa",
+        "en": "Polish Ekstraklasa",
+        "de": "Ekstraklasa",
+        "es": "Ekstraklasa polaca",
+        "fr": "Ekstraklasa",
+        "it": "Ekstraklasa",
+        "pt": "Ekstraklasa",
+        "ar": "الدوري البولندي"
+      },
+      "home": "GKS Katowice",
+      "away": "Wisła Płock",
+      "kickoffUtc": "2026-08-23T15:30:00Z",
+      "broadcasts": {
+        "US": [
+          "beIN SPORTS Connect"
+        ]
+      },
+      "sources": [
+        "kullanici ABD listesi"
       ]
     },
     {
@@ -1003,6 +1092,9 @@
         "ES": [
           "OneFootball PPV",
           "GOL"
+        ],
+        "US": [
+          "DFB Play"
         ]
       },
       "sources": [
@@ -1060,6 +1152,10 @@
       "broadcasts": {
         "TR": [
           "beIN Sports 1"
+        ],
+        "US": [
+          "beIN SPORTS XTRA",
+          "ViX"
         ]
       },
       "sources": [
@@ -1152,6 +1248,39 @@
       ]
     },
     {
+      "id": "football-20260823-dfb_pokal-rot-weiss-essen-st-pauli",
+      "sport": "football",
+      "competitionId": "dfb_pokal",
+      "tier": "regional",
+      "competition": {
+        "tr": "Almanya Kupası",
+        "en": "DFB-Pokal",
+        "de": "DFB-Pokal",
+        "es": "Copa de Alemania",
+        "fr": "Coupe d'Allemagne",
+        "it": "Coppa di Germania",
+        "pt": "Taça da Alemanha",
+        "ar": "كأس ألمانيا"
+      },
+      "home": "Rot-Weiss Essen",
+      "away": "St. Pauli",
+      "kickoffUtc": "2026-08-23T16:00:00Z",
+      "broadcasts": {
+        "US": [
+          "DFB Play"
+        ],
+        "DE": [
+          "Sky"
+        ],
+        "ES": [
+          "OneFootball PPV"
+        ]
+      },
+      "sources": [
+        "kullanici ABD listesi"
+      ]
+    },
+    {
       "id": "football-20260823-seriea-frosinone-juventus",
       "sport": "football",
       "competitionId": "seriea",
@@ -1179,6 +1308,11 @@
         ],
         "CA": [
           "Fubo"
+        ],
+        "US": [
+          "CBS Sports Golazo Network",
+          "Universo",
+          "Paramount+"
         ]
       },
       "sources": [
@@ -1213,6 +1347,10 @@
         ],
         "CA": [
           "Fubo"
+        ],
+        "US": [
+          "Paramount+",
+          "Peacock Premium"
         ]
       },
       "sources": [
@@ -1300,6 +1438,9 @@
         ],
         "ES": [
           "OneFootball PPV"
+        ],
+        "US": [
+          "FOX Soccer Plus"
         ]
       },
       "sources": [
@@ -1369,6 +1510,10 @@
         ],
         "CA": [
           "TSN+"
+        ],
+        "US": [
+          "ESPN+",
+          "ESPN Deportes"
         ]
       },
       "sources": [
@@ -1437,6 +1582,37 @@
       "sources": [
         "TR listesi",
         "DE/ES/CA/AR/US kaynaklari"
+      ]
+    },
+    {
+      "id": "football-20260823-ekstraklasa-pogon-szczecin-wis-a-krakow",
+      "sport": "football",
+      "competitionId": "ekstraklasa",
+      "tier": "regional",
+      "competition": {
+        "tr": "Polonya Ekstraklasa",
+        "en": "Polish Ekstraklasa",
+        "de": "Ekstraklasa",
+        "es": "Ekstraklasa polaca",
+        "fr": "Ekstraklasa",
+        "it": "Ekstraklasa",
+        "pt": "Ekstraklasa",
+        "ar": "الدوري البولندي"
+      },
+      "home": "Pogoń Szczecin",
+      "away": "Wisła Kraków",
+      "kickoffUtc": "2026-08-23T18:15:00Z",
+      "broadcasts": {
+        "US": [
+          "beIN SPORTS Connect",
+          "ViX"
+        ],
+        "ES": [
+          "GOL"
+        ]
+      },
+      "sources": [
+        "kullanici ABD listesi"
       ]
     },
     {
@@ -1519,6 +1695,9 @@
       "broadcasts": {
         "TR": [
           "beIN Sports 1"
+        ],
+        "US": [
+          "beIN SPORTS Connect"
         ]
       },
       "sources": [
@@ -1584,6 +1763,10 @@
         ],
         "CA": [
           "Fubo"
+        ],
+        "US": [
+          "beIN SPORTS",
+          "beIN SPORTS en Español"
         ]
       },
       "sources": [
@@ -1618,6 +1801,10 @@
         ],
         "CA": [
           "Fubo"
+        ],
+        "US": [
+          "CBS Sports Golazo Network",
+          "Paramount+"
         ]
       },
       "sources": [
@@ -1653,6 +1840,10 @@
         ],
         "CA": [
           "Fubo"
+        ],
+        "US": [
+          "Paramount+",
+          "Telemundo"
         ]
       },
       "sources": [
@@ -1745,6 +1936,9 @@
         ],
         "ES": [
           "OneFootball PPV"
+        ],
+        "US": [
+          "FOX Soccer Plus"
         ]
       },
       "sources": [
@@ -1786,6 +1980,10 @@
         ],
         "CA": [
           "TSN+"
+        ],
+        "US": [
+          "ABC",
+          "ESPN Deportes"
         ]
       },
       "sources": [
@@ -1817,11 +2015,45 @@
         ],
         "ES": [
           "DAZN"
+        ],
+        "US": [
+          "beIN SPORTS Connect"
         ]
       },
       "sources": [
         "TR listesi",
         "DE/ES/CA/AR/US kaynaklari"
+      ]
+    },
+    {
+      "id": "football-20260823-laliga_hyper-cd-tenerife-ud-almeria",
+      "sport": "football",
+      "competitionId": "laliga_hyper",
+      "tier": "regional",
+      "competition": {
+        "tr": "LaLiga Hypermotion",
+        "en": "Spanish Segunda División",
+        "de": "LaLiga Hypermotion",
+        "es": "LaLiga Hypermotion",
+        "fr": "LaLiga Hypermotion",
+        "it": "LaLiga Hypermotion",
+        "pt": "LaLiga Hypermotion",
+        "ar": "لاليغا هايبرموشن"
+      },
+      "home": "CD Tenerife",
+      "away": "UD Almería",
+      "kickoffUtc": "2026-08-23T19:30:00Z",
+      "broadcasts": {
+        "US": [
+          "ESPN+"
+        ],
+        "ES": [
+          "LALIGA TV Hypermotion",
+          "DAZN"
+        ]
+      },
+      "sources": [
+        "kullanici ABD listesi"
       ]
     },
     {
@@ -1854,6 +2086,36 @@
       "sources": [
         "TR listesi",
         "DE/ES/CA/AR/US kaynaklari"
+      ]
+    },
+    {
+      "id": "football-20260823-mls-new-england-revolution-new-york-city-fc",
+      "sport": "football",
+      "competitionId": "mls",
+      "tier": "regional",
+      "competition": {
+        "tr": "MLS",
+        "en": "MLS",
+        "de": "MLS",
+        "es": "MLS",
+        "fr": "MLS",
+        "it": "MLS",
+        "pt": "MLS",
+        "ar": "الدوري الأمريكي للمحترفين"
+      },
+      "home": "New England Revolution",
+      "away": "New York City FC",
+      "kickoffUtc": "2026-08-23T20:30:00Z",
+      "broadcasts": {
+        "US": [
+          "Apple TV"
+        ],
+        "CA": [
+          "Apple TV"
+        ]
+      },
+      "sources": [
+        "kullanici ABD listesi"
       ]
     },
     {
@@ -1890,6 +2152,63 @@
       ]
     },
     {
+      "id": "football-20260823-mls-atlanta-united-sporting-kansas-city",
+      "sport": "football",
+      "competitionId": "mls",
+      "tier": "regional",
+      "competition": {
+        "tr": "MLS",
+        "en": "MLS",
+        "de": "MLS",
+        "es": "MLS",
+        "fr": "MLS",
+        "it": "MLS",
+        "pt": "MLS",
+        "ar": "الدوري الأمريكي للمحترفين"
+      },
+      "home": "Atlanta United",
+      "away": "Sporting Kansas City",
+      "kickoffUtc": "2026-08-23T23:00:00Z",
+      "broadcasts": {
+        "US": [
+          "Apple TV"
+        ],
+        "CA": [
+          "Apple TV"
+        ]
+      },
+      "sources": [
+        "kullanici ABD listesi"
+      ]
+    },
+    {
+      "id": "football-20260823-liga_mx-atletico-san-luis-pachuca",
+      "sport": "football",
+      "competitionId": "liga_mx",
+      "tier": "regional",
+      "competition": {
+        "tr": "Meksika Liga MX",
+        "en": "Liga MX",
+        "de": "Liga MX",
+        "es": "Liga MX",
+        "fr": "Liga MX",
+        "it": "Liga MX",
+        "pt": "Liga MX",
+        "ar": "الدوري المكسيكي"
+      },
+      "home": "Atlético San Luis",
+      "away": "Pachuca",
+      "kickoffUtc": "2026-08-23T23:00:00Z",
+      "broadcasts": {
+        "US": [
+          "ViX"
+        ]
+      },
+      "sources": [
+        "kullanici ABD listesi"
+      ]
+    },
+    {
       "id": "football-20260823-arg_primera-racing-club-boca-juniors",
       "sport": "football",
       "competitionId": "arg_primera",
@@ -1919,6 +2238,34 @@
       "sources": [
         "TR listesi",
         "DE/ES/CA/AR/US kaynaklari"
+      ]
+    },
+    {
+      "id": "football-20260823-liga_mx-pumas-unam-necaxa",
+      "sport": "football",
+      "competitionId": "liga_mx",
+      "tier": "regional",
+      "competition": {
+        "tr": "Meksika Liga MX",
+        "en": "Liga MX",
+        "de": "Liga MX",
+        "es": "Liga MX",
+        "fr": "Liga MX",
+        "it": "Liga MX",
+        "pt": "Liga MX",
+        "ar": "الدوري المكسيكي"
+      },
+      "home": "Pumas UNAM",
+      "away": "Necaxa",
+      "kickoffUtc": "2026-08-24T01:00:00Z",
+      "broadcasts": {
+        "US": [
+          "TUDN",
+          "ViX"
+        ]
+      },
+      "sources": [
+        "kullanici ABD listesi"
       ]
     }
   ]
