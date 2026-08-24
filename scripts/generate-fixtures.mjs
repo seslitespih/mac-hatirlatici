@@ -26,6 +26,7 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(HERE, '..');
 const CONFIG_PATH = path.join(HERE, 'fixtures-config.json');
 const PROMPT_PATH = path.join(HERE, 'fixtures-prompt.md');
+const RIGHTS_PATH = path.join(HERE, 'broadcast-rights.json');
 const OUT_PATH = path.join(ROOT, 'assets', 'matches-daily.json');
 
 const MODEL = 'claude-opus-4-8';
@@ -147,11 +148,19 @@ function buildPrompt(config, date) {
 
   const notes = (config.notes ?? []).map((n) => `- ${n}`).join('\n');
 
+  // Yayın hakları tabanı istemin içine gömülür — modelin her gün sıfırdan
+  // aramasına gerek kalmasın diye. Dosya yoksa istem yine de çalışır.
+  let rights = '(yayın hakları tablosu bulunamadı — her kanalı aramayla doğrula)';
+  try {
+    rights = '```json\n' + fs.readFileSync(RIGHTS_PATH, 'utf8').trim() + '\n```';
+  } catch { /* tablo yoksa istem tablosuz devam eder */ }
+
   return template
     .replace(/\{\{DATE\}\}/g, date)
     .replace(/\{\{COVERAGE\}\}/g, coverage)
     .replace(/\{\{COUNTRIES\}\}/g, countries)
     .replace(/\{\{LANGUAGES\}\}/g, languages)
+    .replace(/\{\{HAKLAR\}\}/g, rights)
     .replace(/\{\{NOTES\}\}/g, notes || '- (yok)');
 }
 

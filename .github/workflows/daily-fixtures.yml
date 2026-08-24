@@ -2,9 +2,12 @@ name: Daily Fixtures (Claude)
 
 on:
   schedule:
-    # 22:00 UTC = Türkiye saatiyle ertesi gün 01:00.
+    # 6 saatte bir: 22:00 / 04:00 / 10:00 / 16:00 UTC
+    # = Türkiye saatiyle 01:00 / 07:00 / 13:00 / 19:00.
     # Türkiye kalıcı olarak UTC+3'tür (yaz saati uygulaması yok), kayma olmaz.
-    - cron: '0 22 * * *'
+    # 01:00 çalışması günü sıfırdan kurar; sonrakiler kanal/saat değişikliklerini
+    # ve biten maçları yakalar.
+    - cron: '0 22,4,10,16 * * *'
   workflow_dispatch:
     inputs:
       date:
