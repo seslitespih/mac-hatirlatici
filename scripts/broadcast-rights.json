@@ -1059,6 +1059,25 @@
     },
     "format": "12 saatlik Arapca: 'م' = PM (ogleden sonra), 'ص' = AM (gece/sabah). '10:00 م' = 22:00, '01:00 ص' = ertesi gun 01:00.",
     "kural": "Kanal yazmayan satir = SA'da yayinci yok demek DEGIL, liste kismi olabilir. Kanal eksikse tabloyu koru, silme.",
-    "kapsam": "beIN Sports MENA tek feed; SA'dan gelen kanal numarasi DZ/IQ/JO/EG/OM icin de gecerlidir."
+    "kapsam": "beIN Sports MENA tek feed; SA'dan gelen kanal numarasi DZ/IQ/JO/EG/OM icin de gecerlidir.",
+    "sporsat_haritasi": {
+      "_comment": "Sporsat'tan cikarilan turnuva -> beIN kanal katmani. Sporsat SIK SIK DUNUN listesini gosteriyor, mac verisi icin kullanma; bu esleme ise turnuva duzeyinde sabit.",
+      "beIN SPORTS 1 HD + 2 HD": [
+        "Premier League",
+        "LaLiga",
+        "Serie A",
+        "Ligue 1"
+      ],
+      "beIN SPORTS 3 HD": [
+        "Ingiltere Championship"
+      ],
+      "MENA_YAYINCISI_YOK": [
+        "Eredivisie",
+        "Liga Portugal (Primeira)",
+        "Brasileirao",
+        "Frauen-Bundesliga"
+      ],
+      "kural": "MENA_YAYINCISI_YOK listesindeki turnuvalara beIN YAZMA - Sporsat bu maclarda kanal sutununu bos birakiyor, yani MENA hakki yok. Ayrica Sporsat her maca ayni anda '1 HD + 2 HD' yaziyor: alt kanal numarasi maca ozel degil, katman gostergesi."
+    }
   }
 }
