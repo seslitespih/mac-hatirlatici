@@ -850,7 +850,10 @@
           "S Sport Plus"
         ],
         "DE": [
-          "Sky"
+          "RTL",
+          "RTL+",
+          "Sky Sport",
+          "WOW"
         ],
         "ES": [
           "OneFootball PPV"
@@ -862,7 +865,7 @@
       "bolunmeler": [
         {
           "ulke": "DE",
-          "kural": "Sky tum maclari verir. Tur basina SECILI maclar ayrica ACIK TV'de: ARD (Das Erste) veya ZDF. 24 Agu'da Hallescher-Schalke Das Erste'deydi, digeri uc mac yalniz Sky.",
+          "kural": "RTL/RTL+ acik TV haklarina sahip; Sky Sport/WOW da yayinlar. Tur basina secili mac ayrica ARD (Das Erste) veya ZDF'de. 24 Agu: Wurzburger-Koln RTL, Hallescher-Schalke Das Erste. Mac bazinda fotmob.com/de/tv-guide/de'den dogrula.",
           "alternatif": [
             "Das Erste",
             "ZDF"
@@ -985,6 +988,17 @@
       ],
       "US": [
         "https://worldsoccertalk.com/upcoming-matches/"
+      ],
+      "TR": [
+        "https://hangikanalda.app/api/proxy/matches (JSON API - sayfa degil, bunu cek)",
+        "https://hangikanalda.app/"
+      ],
+      "DE": [
+        "https://www.fotmob.com/de/tv-guide/de",
+        "https://tvfussball.de/ (KULLANMA - bot'a eski sayfa veriyor)"
+      ],
+      "CA": [
+        "https://www.goal.com/en-ca/sports-events/soccer"
       ]
     },
     "_not": "Arapca pazarlarda kooora.com ve yallakora.com gunluk 'mac programi + naklen kanallar' sayfasi yayinliyor — Irak, Urdun, Umman, Misir icin en pratik tek kaynak.",
@@ -998,20 +1012,20 @@
         "AR": "tvenvivo.com.ar",
         "BR": "futebolnatv.com.br",
         "MENA": "sporsat.com/ar (saatler UTC gelir)",
-        "US": "worldsoccertalk.com/upcoming-matches (ET saati; sayfa ONCE DUNU listeler)"
+        "US": "worldsoccertalk.com/upcoming-matches (ET saati; sayfa ONCE DUNU listeler)",
+        "TR": "hangikanalda.app/api/proxy/matches — JSON API, curl ile cek",
+        "DE": "fotmob.com/de/tv-guide/de (saatler UTC gelir)"
       },
       "calismiyor": {
-        "TR": "hangikanalda.com - ECONNRESET",
-        "DE": "tvfussball.de - bayat onbellek doner",
         "BR_ESKI": "jogostv.com.br - SITENIN KENDISI bir gun geride, kullanma",
-        "CA": "goal.com/en-ca/sports-events/soccer - DNS cozulmuyor"
+        "CA": "goal.com/en-ca/sports-events/soccer - DNS cozulmuyor",
+        "DE_ESKI": "tvfussball.de - bot'a 09.08 sayfasini veriyor, 24.08 sadece takvim linki. KULLANMA."
       },
       "kullanicidan_istenecek": [
-        "TR (hangikanalda.com - ECONNRESET)",
-        "DE (tvfussball.de - bayat onbellek)",
-        "CA (goal.com/en-ca/sports-events/soccer - DNS cozulmuyor)"
+        "CA (goal.com/en-ca/sports-events/soccer - DNS cozulmuyor; Kanada kanallari dar: Fubo / TSN+)"
       ],
-      "_prompt_notu": "WorldSoccerTalk sayfasi ONCE dunun bolumunu gosteriyor; ozetleyici orada takiliyor. Istekte 'dunu atla, sadece <bugunun tarihi> basligi altindakileri listele' de."
+      "_prompt_notu": "WorldSoccerTalk sayfasi ONCE dunun bolumunu gosteriyor; ozetleyici orada takiliyor. Istekte 'dunu atla, sadece <bugunun tarihi> basligi altindakileri listele' de.",
+      "_tr_api_notu": "hangikanalda.app/api/proxy/matches -> {futbol:{leagues:[{matches:[{home,away,time,league,channels}]}]}, voleybol:{...}}. time = Istanbul (UTC+3). Kanal adlari OZENSIZ ('Bein Sports', 'CEV Youtube') - marka yazimina cevir: beIN Sports, CEV YouTube."
     }
   },
   "brezilya_ozel": {
