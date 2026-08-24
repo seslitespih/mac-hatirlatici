@@ -1,13 +1,15 @@
 name: Daily Fixtures (Claude)
 
+# ⚠️ ZAMANLAMA KAPALI (24 Ağu 2026).
+# Bu iş Anthropic API'sini kullanır ve hesapta kredi yok — 16 Ağu'dan beri her gece
+# sessizce başarısız oluyordu. Zamanlama kapatıldı ki boşuna çalışıp hata üretmesin.
+# Fikstür şimdilik Claude Code oturumundan üretiliyor (Pro üyeliği, API kredisi gerekmez);
+# yöntem: scripts/FIKSTUR-TALIMAT.md.
+#
+# Krediye geçilirse aşağıdaki iki satırın yorumunu kaldırmak yeterli:
+#   schedule:
+#     - cron: '0 22,4,10,16 * * *'   # 01:00 / 07:00 / 13:00 / 19:00 TR
 on:
-  schedule:
-    # 6 saatte bir: 22:00 / 04:00 / 10:00 / 16:00 UTC
-    # = Türkiye saatiyle 01:00 / 07:00 / 13:00 / 19:00.
-    # Türkiye kalıcı olarak UTC+3'tür (yaz saati uygulaması yok), kayma olmaz.
-    # 01:00 çalışması günü sıfırdan kurar; sonrakiler kanal/saat değişikliklerini
-    # ve biten maçları yakalar.
-    - cron: '0 22,4,10,16 * * *'
   workflow_dispatch:
     inputs:
       date:
