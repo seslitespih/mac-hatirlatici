@@ -218,6 +218,14 @@
             "beIN Sports 2 HD",
             "beIN Sports 3 HD"
           ]
+        },
+        {
+          "ulke": "BR",
+          "kural": "CazeTV taban ama tek degil: 24 Agu'da Malaga-Deportivo SportyNet + CazeTV + YouTube'daydi, Osasuna-Levante yalniz CazeTV. Mac bazinda futebolnatv'den dogrula.",
+          "alternatif": [
+            "SportyNet",
+            "YouTube"
+          ]
         }
       ],
       "notlar": "BR: 2026-27'den itibaren CazeTV, Disney'in yerini aldi (2031-32'ye kadar). US: ESPN munhasir, 2028-29'a kadar. FR: 15 Agu 2026'dan itibaren DAZN + Disney+; 14 sezonluk beIN Sports donemi bitti. Iki platform da her hafta 10 macin TAMAMINI veriyor, mac bazinda bolunme YOK. 2028-29'a kadar. (24 Agu 2026 dogrulandi.)"
@@ -609,7 +617,8 @@
           ]
         }
       ],
-      "notlar": "Kuzey Amerika haklari Creator Sports Network'e gecti."
+      "notlar": "Kuzey Amerika haklari Creator Sports Network'e gecti.",
+      "tier": "global"
     },
     "liga_mx": {
       "ad": "Liga MX",
@@ -911,10 +920,12 @@
         "https://www.apf.org.py/"
       ],
       "AR": [
+        "https://www.tvenvivo.com.ar/",
         "https://www.promiedos.com.ar/",
         "https://www.ligaprofesional.ar/"
       ],
       "BR": [
+        "https://www.futebolnatv.com.br/",
         "https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a"
       ],
       "PE": [
@@ -965,10 +976,38 @@
       ],
       "GB": [
         "https://www.live-footballontv.com/"
+      ],
+      "ES": [
+        "https://www.futbolenlatv.es/"
+      ],
+      "FR": [
+        "https://www.programmefoot.com/"
       ]
     },
     "_not": "Arapca pazarlarda kooora.com ve yallakora.com gunluk 'mac programi + naklen kanallar' sayfasi yayinliyor — Irak, Urdun, Umman, Misir icin en pratik tek kaynak.",
-    "_not_GB": "GB kaynagi 24 Agu 2026'da eklendi. Saatler BST (UTC+1). Onemli: LaLiga'nin HER maci Ingiltere'de yayinlanmiyor - 24 Agu'da Osasuna-Levante Premier Sports 1'deydi ama Malaga-Deportivo hic yoktu. Tablodaki 'Premier Sports' tabanini blok uygulama, mac bazinda bu kaynaktan dogrula. Premier Lig icin Sky Sports alt kanallari (Main Event / Premier League / Ultra HDR) bu kaynaktan gelir."
+    "_not_GB": "GB kaynagi 24 Agu 2026'da eklendi. Saatler BST (UTC+1). Onemli: LaLiga'nin HER maci Ingiltere'de yayinlanmiyor - 24 Agu'da Osasuna-Levante Premier Sports 1'deydi ama Malaga-Deportivo hic yoktu. Tablodaki 'Premier Sports' tabanini blok uygulama, mac bazinda bu kaynaktan dogrula. Premier Lig icin Sky Sports alt kanallari (Main Event / Premier League / Ultra HDR) bu kaynaktan gelir.",
+    "_cekilebilir": {
+      "_comment": "WebFetch ile HER GUN kendim cekebildigim kaynaklar - kullanicidan istemeye gerek yok. 24 Agu 2026'da test edildi.",
+      "calisiyor": {
+        "ES": "futbolenlatv.es",
+        "FR": "programmefoot.com",
+        "GB": "live-footballontv.com",
+        "AR": "tvenvivo.com.ar",
+        "BR": "futebolnatv.com.br"
+      },
+      "calismiyor": {
+        "TR": "hangikanalda.com - ECONNRESET",
+        "DE": "tvfussball.de - bayat onbellek doner",
+        "BR_ESKI": "jogostv.com.br - SITENIN KENDISI bir gun geride, kullanma",
+        "US": "worldsoccertalk.com/tv-schedules - 404, dogru yol bulunmali"
+      },
+      "kullanicidan_istenecek": [
+        "TR (hangikanalda)",
+        "DE (tvfussball)",
+        "MENA (Sporsat - dogru link bilinmiyor)",
+        "CA (Goal.com - test edilmedi)"
+      ]
+    }
   },
   "brezilya_ozel": {
     "_comment": "BREZILYA EN BUYUK PAZAR (25 gunde 29 iOS indirme). Haklar KULUP BLOGUNA gore bolunuyor — blok harita asla uygulanamaz, her mac icin ev sahibi/deplasman hangi blokta bakilir.",

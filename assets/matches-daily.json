@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-24T07:18:05.000Z",
+ "generated_at": "2026-08-24T07:48:34.000Z",
  "date": "2026-08-24",
  "model": "user-provided",
  "stats": {
-  "total": 35,
-  "withChannel": 35,
+  "total": 39,
+  "withChannel": 39,
   "bySport": {
-   "football": 24,
+   "football": 28,
    "volleyball": 10,
    "basketball": 1
   },
@@ -550,6 +550,9 @@
     ],
     "CH": [
      "DAZN"
+    ],
+    "BR": [
+     "OneFootball"
     ]
    },
    "sources": [
@@ -1112,8 +1115,8 @@
      "beIN Sports"
     ],
     "BR": [
-     "Disney+",
-     "ESPN"
+     "ESPN",
+     "Disney+"
     ],
     "GB": [
      "Sky Sports Main Event",
@@ -1184,6 +1187,38 @@
     "ES/FR/US/IT/AR kaynaklari",
     "TR listesi (voleybol/basketbol)"
    ]
+  },
+  {
+   "id": "football-20260824-gil-vicente-casa-pia",
+   "sport": "football",
+   "competitionId": "primeira",
+   "tier": "global",
+   "competition": {
+    "tr": "Portekiz Ligi",
+    "en": "Liga Portugal",
+    "de": "Liga Portugal",
+    "es": "Liga Portugal",
+    "fr": "Liga Portugal",
+    "it": "Liga Portugal",
+    "pt": "Liga Portugal Betclic",
+    "ar": "الدوري البرتغالي"
+   },
+   "home": "Gil Vicente",
+   "away": "Casa Pia",
+   "kickoffUtc": "2026-08-24T19:15:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
+    ],
+    "PT": [
+     "Sport TV"
+    ],
+    "TR": [
+     "beIN Sports 3",
+     "Tivibu Spor 1"
+    ]
+   },
+   "sources": []
   },
   {
    "id": "football-20260824-laliga_hyper-granada-mallorca",
@@ -1293,7 +1328,9 @@
      "beIN Sports"
     ],
     "BR": [
-     "CazéTV"
+     "SportyNet",
+     "CazéTV",
+     "YouTube"
     ]
    },
    "sources": [
@@ -1329,6 +1366,89 @@
     "ES/FR/US/IT/AR kaynaklari",
     "TR listesi (voleybol/basketbol)"
    ]
+  },
+  {
+   "id": "football-20260824-athletic-club-novorizontino",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B bresilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Athletic Club",
+   "away": "Novorizontino",
+   "kickoffUtc": "2026-08-24T22:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260824-sport-recife-america-mg",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B bresilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Sport Recife",
+   "away": "América-MG",
+   "kickoffUtc": "2026-08-24T22:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260824-botafogo-athletico-pr",
+   "sport": "football",
+   "competitionId": "bra_seriea",
+   "tier": "global",
+   "competition": {
+    "tr": "Brezilya Serie A",
+    "en": "Brazilian Série A",
+    "de": "Brasilianische Série A",
+    "es": "Brasileirão Serie A",
+    "fr": "Championnat du Brésil",
+    "it": "Serie A brasiliana",
+    "pt": "Brasileirão Série A",
+    "ar": "الدوري البرازيلي"
+   },
+   "home": "Botafogo",
+   "away": "Athletico-PR",
+   "kickoffUtc": "2026-08-24T23:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "SporTV",
+     "Premiere"
+    ],
+    "ES": [
+     "Fanatiz"
+    ],
+    "TR": [
+     "Spor Smart 2",
+     "Smart Spor 2"
+    ]
+   },
+   "sources": []
   },
   {
    "id": "football-20260824-charleston-battery-miami-fc",
