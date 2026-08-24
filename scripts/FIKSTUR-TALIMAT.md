@@ -20,11 +20,11 @@ Hepsi doğrudan çekilebilir. `broadcast-rights.json` → `kaynaklar.ulkeler` da
 | ES | `https://www.futbolenlatv.es/` | Madrid UTC+2 (yaz) | |
 | FR | `https://www.programmefoot.com/` | Paris UTC+2 (yaz) | |
 | GB | `https://www.live-footballontv.com/` | Londra UTC+1 (yaz) | |
-| AR | `https://www.tvenvivo.com.ar/` | UTC−3 | |
+| AR | `https://tvenvivo.com.ar/` | UTC−3 | |
 | BR | `https://www.futebolnatv.com.br/` | Brasília UTC−3 | Yaz saati YOK (2019'da kalktı) |
 | MENA | `https://sporsat.com/ar` | **UTC** (bota) | Arapça: `م`=PM, `ص`=AM |
 | US | `https://worldsoccertalk.com/upcoming-matches/` | ET UTC−4 (yaz) | **Sayfa ÖNCE dünü listeler** — istekte "dünü atla, sadece \<bugün\> başlığını listele" de |
-| CA | `https://www.goal.com/en-ca/sports-events/soccer` | ziyaretçinin dilimi | DNS çözülmüyor, atlanabilir. Kanalları dar: Fubo / TSN+ |
+| CA | `https://www.goal.com/en-ca/sports-events/soccer` | ziyaretçinin dilimi | **`curl` ile çek** — WebFetch DNS hatası verir, curl sorunsuz. Kanallar dar: Fubo / TSN+ |
 
 ### KULLANILMAYACAK kaynaklar
 
@@ -44,7 +44,7 @@ karşılaştır, tutuyorsa dilim doğrudur.
 
 ## 2. Akış
 
-1. **Dokuz kaynağı çek.** Her birinin tarihini doğrula — beklenen günü göstermiyorsa O KAYNAĞI KULLANMA
+1. **On kaynağı çek.** Her birinin tarihini doğrula — beklenen günü göstermiyorsa O KAYNAĞI KULLANMA
    ve raporda belirt.
 2. **Maç kümesini birleştir.** Aynı maç birden çok kaynakta çıkar; ev/deplasman adlarına göre eşleştir.
 3. **Saatleri UTC'ye çevir.** Bir maç iki kaynakta farklı saat veriyorsa DURDUR ve raporda yaz — girme.
@@ -135,7 +135,7 @@ Bunlardan biri bile başarısızsa **dosyayı yazma**, durumu raporla:
 4. **Gerileme kontrolü:** yeni maç sayısı, aynı güne ait mevcut dosyanın maç sayısının
    **%70'inden az** mı, ya da kapsanan ülke sayısı azaldı mı? Öyleyse muhtemelen kaynak(lar)
    çekilememiştir — **mevcut dosyayı EZME**, raporla.
-5. Dokuz kaynaktan **en az altısı** başarıyla çekildi mi.
+5. On kaynaktan **en az yedisi** başarıyla çekildi mi.
 
 Aynı gün içinde tekrar çalışırken mevcut dosya **zenginleştirilir, sıfırdan yazılmaz**:
 mevcut kanalları koru, yalnız eksikleri doldur ve biten maçları çıkar.

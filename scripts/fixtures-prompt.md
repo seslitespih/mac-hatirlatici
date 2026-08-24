@@ -14,7 +14,7 @@ daha kötüdür**.
 
 ## Doğrulanmış kaynaklar — önce bunlara bak
 
-Bu dokuz kaynak elle test edildi (24 Ağu 2026). Kör arama yapmadan **önce** bunları kullan.
+Bu on kaynak elle test edildi (24 Ağu 2026). Kör arama yapmadan **önce** bunları kullan.
 Ayrıntılı sürüm: `scripts/FIKSTUR-TALIMAT.md`.
 
 | Ülke | Adres | Saat dilimi |
@@ -24,10 +24,11 @@ Ayrıntılı sürüm: `scripts/FIKSTUR-TALIMAT.md`.
 | ES | `https://www.futbolenlatv.es/` | Madrid |
 | FR | `https://www.programmefoot.com/` | Paris |
 | GB | `https://www.live-footballontv.com/` | Londra |
-| AR | `https://www.tvenvivo.com.ar/` | UTC−3 |
+| AR | `https://tvenvivo.com.ar/` | UTC−3 |
 | BR | `https://www.futebolnatv.com.br/` | Brasília UTC−3, yaz saati YOK |
 | MENA | `https://sporsat.com/ar` | UTC (bota) |
 | US | `https://worldsoccertalk.com/upcoming-matches/` — sayfa **önce dünü** listeler | ET |
+| CA | `https://www.goal.com/en-ca/sports-events/soccer` — **curl ile çek**, WebFetch DNS hatası verir | ziyaretçinin dilimi |
 
 🚫 **Kullanma:** `jogostv.com.br` (site bir gün geride) · `tvfussball.de` (bota eski sayfa verir,
 ayrıca Premier Lig'e yanlışlıkla "beIN Sports" yazar) · `hangikanalda.com` (yanlış alan adı).
