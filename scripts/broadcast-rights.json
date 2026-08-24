@@ -1,6 +1,6 @@
 {
   "_comment": "Turnuva x ulke yayin haklari. Gunluk fikstur uretiminde TABAN olarak kullanilir; her gun sifirdan aranmaz. 'durum' alani: dogrulandi = web aramasiyla teyit edildi, tahmin = sektor bilgisi ama kaynakla teyit edilmedi. Sezon basinda ve 'su kanal yanlis' geri bildiriminde guncellenir.",
-  "_guncelleme": "2026-08-20",
+  "_guncelleme": "2026-08-24",
   "_kullanim": "Once buradaki tabani uygula, sonra 'bolunmeler' kurallarini kontrol et, en son o maca ozel arama yap. Bolunme kurali olan ulkelerde (DE, IT, ES, GB) MUTLAKA mac bazinda dogrula.",
   "bolgeler": {
     "MENA": [
@@ -220,7 +220,7 @@
           ]
         }
       ],
-      "notlar": "BR: 2026-27'den itibaren CazeTV, Disney'in yerini aldi (2031-32'ye kadar). US: ESPN munhasir, 2028-29'a kadar."
+      "notlar": "BR: 2026-27'den itibaren CazeTV, Disney'in yerini aldi (2031-32'ye kadar). US: ESPN munhasir, 2028-29'a kadar. FR: 15 Agu 2026'dan itibaren DAZN + Disney+; 14 sezonluk beIN Sports donemi bitti. Iki platform da her hafta 10 macin TAMAMINI veriyor, mac bazinda bolunme YOK. 2028-29'a kadar. (24 Agu 2026 dogrulandi.)"
     },
     "premier": {
       "ad": "Premier League",
@@ -243,6 +243,13 @@
         ],
         "@MENA": [
           "beIN Sports"
+        ],
+        "DE": [
+          "Sky"
+        ],
+        "BR": [
+          "Disney+",
+          "ESPN"
         ]
       },
       "bolunmeler": [
@@ -261,9 +268,23 @@
             "USA Network",
             "Peacock"
           ]
+        },
+        {
+          "ulke": "DE",
+          "kural": "Sky MUNHASIR, 380 macin tamami, 2030/31 sonuna kadar. DAZN ihaleyi kaybetti. UYARI: tvfussball.de bazi PL maclarina 'beIN Sports' yaziyor - YANLIS, Almanya'da beIN yok. O siteden PL alirken Sky'a cevir.",
+          "alternatif": [
+            "Sky Sport"
+          ]
+        },
+        {
+          "ulke": "BR",
+          "kural": "Taban Disney+/ESPN. Tur basina secili maclar UCRETSIZ CazeTV'de olur - hangisi oldugu maca gore degisir, BR gunluk listesinden dogrula.",
+          "alternatif": [
+            "CazeTV"
+          ]
         }
       ],
-      "notlar": "ABD haklari NBCUniversal'da 2026-27 sonuna kadar."
+      "notlar": "ABD haklari NBCUniversal'da 2026-27 sonuna kadar. DE: Sky munhasir 2030/31'e kadar (24 Agu 2026 web aramasiyla dogrulandi)."
     },
     "seriea": {
       "ad": "Serie A",
@@ -812,6 +833,44 @@
       },
       "bolunmeler": [],
       "notlar": "RTL Almanya'da hem Avrupa Ligi hem Konferans Ligi haklarını tutuyor; 2027/28'de DAZN'a geçecek."
+    },
+    "dfb_pokal": {
+      "ad": "Almanya Kupasi (DFB-Pokal)",
+      "sezon": "2026-27",
+      "durum": "dogrulandi",
+      "tier": "global",
+      "ulkeler": {
+        "TR": [
+          "S Sport Plus"
+        ],
+        "DE": [
+          "Sky"
+        ],
+        "ES": [
+          "OneFootball PPV"
+        ],
+        "US": [
+          "DFB Play"
+        ]
+      },
+      "bolunmeler": [
+        {
+          "ulke": "DE",
+          "kural": "Sky tum maclari verir. Tur basina SECILI maclar ayrica ACIK TV'de: ARD (Das Erste) veya ZDF. 24 Agu'da Hallescher-Schalke Das Erste'deydi, digeri uc mac yalniz Sky.",
+          "alternatif": [
+            "Das Erste",
+            "ZDF"
+          ]
+        },
+        {
+          "ulke": "ES",
+          "kural": "OneFootball PPV taban; buyuk maclar ayrica GOL'de acik yayinlanabilir.",
+          "alternatif": [
+            "GOL"
+          ]
+        }
+      ],
+      "notlar": "1. Runde'de kucuk kulupler oynar ama Schalke/HSV/Wolfsburg/Koln gibi buyukler sahada oldugu icin global."
     }
   },
   "kaynaklar": {
