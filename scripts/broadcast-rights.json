@@ -982,6 +982,9 @@
       ],
       "MENA": [
         "https://sporsat.com/ar"
+      ],
+      "US": [
+        "https://worldsoccertalk.com/upcoming-matches/"
       ]
     },
     "_not": "Arapca pazarlarda kooora.com ve yallakora.com gunluk 'mac programi + naklen kanallar' sayfasi yayinliyor — Irak, Urdun, Umman, Misir icin en pratik tek kaynak.",
@@ -994,21 +997,21 @@
         "GB": "live-footballontv.com",
         "AR": "tvenvivo.com.ar",
         "BR": "futebolnatv.com.br",
-        "MENA": "sporsat.com/ar (saatler UTC gelir)"
+        "MENA": "sporsat.com/ar (saatler UTC gelir)",
+        "US": "worldsoccertalk.com/upcoming-matches (ET saati; sayfa ONCE DUNU listeler)"
       },
       "calismiyor": {
         "TR": "hangikanalda.com - ECONNRESET",
         "DE": "tvfussball.de - bayat onbellek doner",
         "BR_ESKI": "jogostv.com.br - SITENIN KENDISI bir gun geride, kullanma",
-        "US": "worldsoccertalk.com/tv-schedules - 404, dogru yol bulunmali",
         "CA": "goal.com/en-ca/sports-events/soccer - DNS cozulmuyor"
       },
       "kullanicidan_istenecek": [
-        "TR (hangikanalda)",
-        "DE (tvfussball)",
-        "MENA (Sporsat - dogru link bilinmiyor)",
-        "CA (Goal.com - test edilmedi)"
-      ]
+        "TR (hangikanalda.com - ECONNRESET)",
+        "DE (tvfussball.de - bayat onbellek)",
+        "CA (goal.com/en-ca/sports-events/soccer - DNS cozulmuyor)"
+      ],
+      "_prompt_notu": "WorldSoccerTalk sayfasi ONCE dunun bolumunu gosteriyor; ozetleyici orada takiliyor. Istekte 'dunu atla, sadece <bugunun tarihi> basligi altindakileri listele' de."
     }
   },
   "brezilya_ozel": {
