@@ -398,9 +398,6 @@
         ],
         "PT": [
           "Sport TV"
-        ],
-        "@MENA": [
-          "beIN Sports"
         ]
       },
       "bolunmeler": [
@@ -413,7 +410,7 @@
           ]
         }
       ],
-      "notlar": "Kanal numarasi (Sport TV 1/2/3) mac bazinda degisir, teyit etmeden numara yazma."
+      "notlar": "Kanal numarasi (Sport TV 1/2/3) mac bazinda degisir, teyit etmeden numara yazma. MENA yayincisi YOK: Sporsat 23 ve 24 Agu'da Liga Portugal maclarinda kanal sutununu bos birakti. Onceki '@MENA: beIN Sports' kaydi tahmindi, kaldirildi."
     },
     "superlig": {
       "ad": "Trendyol Super Lig",
@@ -982,6 +979,9 @@
       ],
       "FR": [
         "https://www.programmefoot.com/"
+      ],
+      "MENA": [
+        "https://sporsat.com/ar"
       ]
     },
     "_not": "Arapca pazarlarda kooora.com ve yallakora.com gunluk 'mac programi + naklen kanallar' sayfasi yayinliyor — Irak, Urdun, Umman, Misir icin en pratik tek kaynak.",
@@ -993,13 +993,15 @@
         "FR": "programmefoot.com",
         "GB": "live-footballontv.com",
         "AR": "tvenvivo.com.ar",
-        "BR": "futebolnatv.com.br"
+        "BR": "futebolnatv.com.br",
+        "MENA": "sporsat.com/ar (saatler UTC gelir)"
       },
       "calismiyor": {
         "TR": "hangikanalda.com - ECONNRESET",
         "DE": "tvfussball.de - bayat onbellek doner",
         "BR_ESKI": "jogostv.com.br - SITENIN KENDISI bir gun geride, kullanma",
-        "US": "worldsoccertalk.com/tv-schedules - 404, dogru yol bulunmali"
+        "US": "worldsoccertalk.com/tv-schedules - 404, dogru yol bulunmali",
+        "CA": "goal.com/en-ca/sports-events/soccer - DNS cozulmuyor"
       },
       "kullanicidan_istenecek": [
         "TR (hangikanalda)",
@@ -1121,6 +1123,7 @@
         "Frauen-Bundesliga"
       ],
       "kural": "MENA_YAYINCISI_YOK listesindeki turnuvalara beIN YAZMA - Sporsat bu maclarda kanal sutununu bos birakiyor, yani MENA hakki yok. Ayrica Sporsat her maca ayni anda '1 HD + 2 HD' yaziyor: alt kanal numarasi maca ozel degil, katman gostergesi."
-    }
+    },
+    "sporsat_saat_tuzagi": "KRITIK: Sporsat saatleri ZIYARETCININ diliminde gosteriyor ('بتوقيتك'). Ben WebFetch ile cekince tarayici dilimi olmadigi icin **UTC** geliyor - dogrudan kullanilabilir. Kullanici kendi tarayicisindan yapistirinca **Istanbul (UTC+3)** geliyor. Hangi yoldan geldigine gore cevir."
   }
 }
