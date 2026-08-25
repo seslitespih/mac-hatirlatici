@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-08-24T22:17:32.000Z",
+ "generated_at": "2026-08-25T05:14:09.000Z",
  "date": "2026-08-25",
  "model": "user-provided",
  "stats": {
-  "total": 21,
-  "withChannel": 21,
+  "total": 25,
+  "withChannel": 25,
   "bySport": {
    "volleyball": 9,
-   "football": 12
+   "football": 16
   },
   "warnings": 0,
   "searches": 0
@@ -95,33 +95,6 @@
    ]
   },
   {
-   "id": "volleyball-20260825-i-talya-slovakya",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "İtalya",
-   "away": "Slovakya",
-   "kickoffUtc": "2026-08-25T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda (voleybol)"
-   ]
-  },
-  {
    "id": "volleyball-20260825-yunanistan-avusturya",
    "sport": "volleyball",
    "competitionId": "cev_women",
@@ -138,6 +111,33 @@
    },
    "home": "Yunanistan",
    "away": "Avusturya",
+   "kickoffUtc": "2026-08-25T14:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": [
+    "TR hangikanalda (voleybol)"
+   ]
+  },
+  {
+   "id": "volleyball-20260825-i-talya-slovakya",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato Europeo Femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "İtalya",
+   "away": "Slovakya",
    "kickoffUtc": "2026-08-25T14:00:00Z",
    "broadcasts": {
     "TR": [
@@ -1019,6 +1019,132 @@
     "GB live-footballontv",
     "US worldsoccertalk"
    ]
+  },
+  {
+   "id": "football-20260825-atletico-go-botafogo-sp",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B bresilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Atlético-GO",
+   "away": "Botafogo-SP",
+   "kickoffUtc": "2026-08-25T22:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260825-juventude-crb",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B bresilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Juventude",
+   "away": "CRB",
+   "kickoffUtc": "2026-08-25T22:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "XSports",
+     "SportyNet",
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260825-cruzeiro-atletico-mg",
+   "sport": "football",
+   "competitionId": "copa_do_brasil",
+   "tier": "global",
+   "competition": {
+    "tr": "Brezilya Kupası",
+    "en": "Copa do Brasil",
+    "de": "Copa do Brasil",
+    "es": "Copa de Brasil",
+    "fr": "Coupe du Brésil",
+    "it": "Coppa del Brasile",
+    "pt": "Copa do Brasil",
+    "ar": "كأس البرازيل"
+   },
+   "home": "Cruzeiro",
+   "away": "Atlético-MG",
+   "kickoffUtc": "2026-08-26T00:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "SporTV",
+     "Premiere",
+     "Premiere 2",
+     "Premiere FC"
+    ],
+    "ES": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260825-independiente-del-valle-deportes-tolima",
+   "sport": "football",
+   "competitionId": "libertadores",
+   "tier": "regional",
+   "competition": {
+    "tr": "Copa Libertadores",
+    "en": "Copa Libertadores",
+    "de": "Copa Libertadores",
+    "es": "Copa Libertadores",
+    "fr": "Copa Libertadores",
+    "it": "Copa Libertadores",
+    "pt": "Copa Libertadores",
+    "ar": "كوبا ليبرتادوريس"
+   },
+   "home": "Independiente del Valle",
+   "away": "Deportes Tolima",
+   "kickoffUtc": "2026-08-26T00:30:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN",
+     "Fox Sports",
+     "Disney+",
+     "Telefe"
+    ],
+    "BR": [
+     "Paramount+"
+    ],
+    "EC": [
+     "ESPN",
+     "Disney+"
+    ],
+    "CO": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": []
   }
  ]
 }
