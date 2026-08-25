@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T05:14:09.000Z",
+ "generated_at": "2026-08-25T05:21:00.000Z",
  "date": "2026-08-25",
  "model": "user-provided",
  "stats": {
@@ -910,7 +910,12 @@
    "kickoffUtc": "2026-08-25T19:00:00Z",
    "broadcasts": {
     "GB": [
-     "Sky Sports+"
+     "ITV1",
+     "STV",
+     "ITVX",
+     "STV Player",
+     "Sky Sports Main Event",
+     "Sky Sports Football"
     ],
     "US": [
      "Paramount+"
@@ -1043,7 +1048,9 @@
      "Disney+"
     ]
    },
-   "sources": []
+   "sources": [
+    "BR futebolnatv"
+   ]
   },
   {
    "id": "football-20260825-juventude-crb",
@@ -1070,7 +1077,9 @@
      "Disney+"
     ]
    },
-   "sources": []
+   "sources": [
+    "BR futebolnatv"
+   ]
   },
   {
    "id": "football-20260825-cruzeiro-atletico-mg",
@@ -1101,7 +1110,9 @@
      "OneFootball PPV"
     ]
    },
-   "sources": []
+   "sources": [
+    "BR futebolnatv"
+   ]
   },
   {
    "id": "football-20260825-independiente-del-valle-deportes-tolima",
@@ -1142,9 +1153,19 @@
     "UY": [
      "ESPN",
      "Disney+"
+    ],
+    "US": [
+     "beIN Sports",
+     "beIN Sports en Español",
+     "Fubo",
+     "Fanatiz"
     ]
    },
-   "sources": []
+   "sources": [
+    "AR tvenvivo",
+    "BR futebolnatv",
+    "US worldsoccertalk"
+   ]
   }
  ]
 }
