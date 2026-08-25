@@ -33,6 +33,16 @@ Hepsi doğrudan çekilebilir. `broadcast-rights.json` → `kaynaklar.ulkeler` da
   (Almanya'da beIN yok, PL 2030/31'e kadar Sky'da münhasır). Yerine FotMob.
 - `hangikanalda.com` — yanlış alan adı, doğrusu `.app`.
 
+### ⏰ Gece çalışmasında geç dönen kaynaklar
+
+**AR (tvenvivo), BR (futebolnatv) ve MENA (sporsat) günlerini geç çeviriyor.**
+25 Ağu 01:07 çalışmasında üçü de hâlâ 24 Ağustos'u gösteriyordu; sabah 08:00'de üçü de
+güncelydi. Sonuç: gece çalışması Güney Amerika maçlarını komple kaçırdı
+(Libertadores çeyrek finali, Copa do Brasil, iki Série B maçı).
+
+**Kural:** gece 01:07 çalışmasında bu üçü eski tarih gösteriyorsa kullanma —
+ama **07:07 ve 13:07 çalışmalarında mutlaka tekrar dene.** O saatlerde güncel olurlar.
+
 ### Saat dilimi kuralı
 
 **Dilimi sitenin ülkesinden değil, veriyi nasıl aldığından çıkar.** Sporsat ve FotMob
