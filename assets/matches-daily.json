@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-25T10:18:34.000Z",
+ "generated_at": "2026-08-25T16:15:00.000Z",
  "date": "2026-08-25",
  "model": "user-provided",
  "stats": {
-  "total": 38,
-  "withChannel": 38,
+  "total": 33,
+  "withChannel": 33,
   "bySport": {
-   "volleyball": 9,
+   "volleyball": 4,
    "football": 29
   },
   "warnings": 0,
@@ -17,141 +17,6 @@
   ]
  },
  "matches": [
-  {
-   "id": "volleyball-20260825-romanya-belcika",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Romanya",
-   "away": "Belçika",
-   "kickoffUtc": "2026-08-25T11:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda (voleybol)"
-   ]
-  },
-  {
-   "id": "volleyball-20260825-turkiye-kosova",
-   "sport": "volleyball",
-   "competitionId": "akdeniz",
-   "tier": "regional",
-   "competition": {
-    "tr": "Akdeniz Oyunları",
-    "en": "Mediterranean Games",
-    "de": "Mittelmeerspiele",
-    "es": "Juegos Mediterráneos",
-    "fr": "Jeux méditerranéens",
-    "it": "Giochi del Mediterraneo",
-    "pt": "Jogos do Mediterrâneo",
-    "ar": "ألعاب البحر الأبيض المتوسط"
-   },
-   "home": "Türkiye",
-   "away": "Kosova",
-   "kickoffUtc": "2026-08-25T12:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor 3"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda (voleybol)"
-   ]
-  },
-  {
-   "id": "volleyball-20260825-macaristan-almanya",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Macaristan",
-   "away": "Almanya",
-   "kickoffUtc": "2026-08-25T13:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor 5"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda (voleybol)"
-   ]
-  },
-  {
-   "id": "volleyball-20260825-yunanistan-avusturya",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Yunanistan",
-   "away": "Avusturya",
-   "kickoffUtc": "2026-08-25T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda (voleybol)"
-   ]
-  },
-  {
-   "id": "volleyball-20260825-i-talya-slovakya",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "İtalya",
-   "away": "Slovakya",
-   "kickoffUtc": "2026-08-25T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda (voleybol)"
-   ]
-  },
   {
    "id": "volleyball-20260825-hollanda-i-spanya",
    "sport": "volleyball",
@@ -172,6 +37,7 @@
    "kickoffUtc": "2026-08-25T14:30:00Z",
    "broadcasts": {
     "TR": [
+     "CBC Sport",
      "CEV YouTube"
     ]
    },
@@ -404,6 +270,7 @@
    "kickoffUtc": "2026-08-25T17:00:00Z",
    "broadcasts": {
     "TR": [
+     "CBC Sport",
      "CEV YouTube"
     ]
    },
@@ -701,7 +568,9 @@
     "BR": [
      "Max",
      "TNT",
-     "Space"
+     "Space",
+     "SBT",
+     "YouTube"
     ],
     "AR": [
      "Disney+"
@@ -766,7 +635,8 @@
     "DE fotmob",
     "ES futbolenlatv",
     "GB live-footballontv",
-    "US worldsoccertalk"
+    "US worldsoccertalk",
+    "BR futebolnatv"
    ]
   },
   {
@@ -984,7 +854,8 @@
      "TSN+"
     ],
     "BR": [
-     "CazéTV"
+     "CazéTV",
+     "YouTube"
     ],
     "MX": [
      "Sky Sports"
@@ -1037,7 +908,8 @@
     "FR programmefoot",
     "GB live-footballontv",
     "US worldsoccertalk",
-    "MENA sporsat"
+    "MENA sporsat",
+    "BR futebolnatv"
    ]
   },
   {
@@ -1151,10 +1023,14 @@
     ],
     "ES": [
      "OneFootball PPV"
+    ],
+    "GB": [
+     "Premier Sports 2"
     ]
    },
    "sources": [
-    "BR futebolnatv"
+    "BR futebolnatv",
+    "GB live-footballontv"
    ]
   },
   {
