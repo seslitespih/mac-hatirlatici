@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-08-25T05:45:52.000Z",
+ "generated_at": "2026-08-25T10:18:34.000Z",
  "date": "2026-08-25",
  "model": "user-provided",
  "stats": {
-  "total": 37,
-  "withChannel": 37,
+  "total": 38,
+  "withChannel": 38,
   "bySport": {
    "volleyball": 9,
-   "football": 28
+   "football": 29
   },
   "warnings": 0,
   "searches": 0,
@@ -990,34 +990,44 @@
      "Sky Sports"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports 1 HD",
+     "beIN Sports 2 HD"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports 1 HD",
+     "beIN Sports 2 HD"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports 1 HD",
+     "beIN Sports 2 HD"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports 1 HD",
+     "beIN Sports 2 HD"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports 1 HD",
+     "beIN Sports 2 HD"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports 1 HD",
+     "beIN Sports 2 HD"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports 1 HD",
+     "beIN Sports 2 HD"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports 1 HD",
+     "beIN Sports 2 HD"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports 1 HD",
+     "beIN Sports 2 HD"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports 1 HD",
+     "beIN Sports 2 HD"
     ]
    },
    "sources": [
@@ -1026,7 +1036,36 @@
     "ES futbolenlatv",
     "FR programmefoot",
     "GB live-footballontv",
-    "US worldsoccertalk"
+    "US worldsoccertalk",
+    "MENA sporsat"
+   ]
+  },
+  {
+   "id": "football-20260825-talleres-cordoba-rosario-central",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Ligi",
+    "en": "Argentine Primera División",
+    "de": "Argentinische Primera División",
+    "es": "Primera División de Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primeira Divisão Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Talleres Córdoba",
+   "away": "Rosario Central",
+   "kickoffUtc": "2026-08-25T22:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart",
+     "Smart Spor HD"
+    ]
+   },
+   "sources": [
+    "TR hangikanalda"
    ]
   },
   {
@@ -1200,7 +1239,11 @@
      "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "US worldsoccertalk",
+    "BR futebolnatv",
+    "GB live-footballontv"
+   ]
   },
   {
    "id": "football-20260826-leon-real-salt-lake",
@@ -1231,7 +1274,11 @@
      "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "US worldsoccertalk",
+    "BR futebolnatv",
+    "GB live-footballontv"
+   ]
   },
   {
    "id": "football-20260826-vietnam-tayland",
@@ -1254,9 +1301,14 @@
    "broadcasts": {
     "ES": [
      "OneFootball PPV"
+    ],
+    "DE": [
+     "OneFootball"
     ]
    },
-   "sources": []
+   "sources": [
+    "DE fotmob"
+   ]
   },
   {
    "id": "football-20260826-bradford-city-burnley",
@@ -1279,9 +1331,15 @@
    "broadcasts": {
     "GB": [
      "Sky Sports+"
+    ],
+    "US": [
+     "Paramount+"
     ]
    },
-   "sources": []
+   "sources": [
+    "GB live-footballontv",
+    "US worldsoccertalk"
+   ]
   },
   {
    "id": "football-20260826-newcastle-united-west-brom",
@@ -1304,9 +1362,22 @@
    "broadcasts": {
     "GB": [
      "Sky Sports+"
+    ],
+    "US": [
+     "Paramount+",
+     "Amazon Prime Video",
+     "CBS Sports Golazo Network"
+    ],
+    "DE": [
+     "Sky Sport",
+     "WOW"
     ]
    },
-   "sources": []
+   "sources": [
+    "GB live-footballontv",
+    "US worldsoccertalk",
+    "DE fotmob"
+   ]
   },
   {
    "id": "football-20260826-tottenham-charlton-athletic",
@@ -1329,9 +1400,15 @@
    "broadcasts": {
     "GB": [
      "Sky Sports+"
+    ],
+    "US": [
+     "Paramount+"
     ]
    },
-   "sources": []
+   "sources": [
+    "GB live-footballontv",
+    "US worldsoccertalk"
+   ]
   },
   {
    "id": "football-20260826-aek-atina-levski-sofya",
@@ -1358,9 +1435,105 @@
     "GB": [
      "TNT Sports 4",
      "HBO Max"
+    ],
+    "TR": [
+     "tabii Spor"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "FR": [
+     "CANAL+"
+    ],
+    "IT": [
+     "Sky Sport"
+    ],
+    "PT": [
+     "tabii",
+     "DAZN"
+    ],
+    "NL": [
+     "Ziggo Sport"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "BR": [
+     "Max",
+     "TNT",
+     "Space"
+    ],
+    "AR": [
+     "Disney+"
+    ],
+    "MX": [
+     "Disney+"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "PY": [
+     "Disney+"
+    ],
+    "GT": [
+     "Disney+"
+    ],
+    "PE": [
+     "Disney+"
+    ],
+    "EC": [
+     "Disney+"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "US": [
+     "Paramount+",
+     "TUDN",
+     "DirecTV Stream",
+     "Hulu + Live TV",
+     "ViX"
     ]
    },
-   "sources": []
+   "sources": [
+    "GB live-footballontv",
+    "ES futbolenlatv",
+    "US worldsoccertalk",
+    "DE fotmob"
+   ]
   },
   {
    "id": "football-20260826-nk-celje-slovan-bratislava",
@@ -1387,9 +1560,102 @@
     "GB": [
      "TNT Sports 5",
      "HBO Max"
+    ],
+    "TR": [
+     "tabii Spor"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "FR": [
+     "CANAL+"
+    ],
+    "IT": [
+     "Sky Sport"
+    ],
+    "PT": [
+     "tabii",
+     "DAZN"
+    ],
+    "NL": [
+     "Ziggo Sport"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "BR": [
+     "Max",
+     "TNT",
+     "Space"
+    ],
+    "AR": [
+     "Disney+"
+    ],
+    "MX": [
+     "Disney+"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "PY": [
+     "Disney+"
+    ],
+    "GT": [
+     "Disney+"
+    ],
+    "PE": [
+     "Disney+"
+    ],
+    "EC": [
+     "Disney+"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "US": [
+     "Paramount+",
+     "ViX"
     ]
    },
-   "sources": []
+   "sources": [
+    "GB live-footballontv",
+    "ES futbolenlatv",
+    "US worldsoccertalk",
+    "DE fotmob"
+   ]
   },
   {
    "id": "football-20260826-lyon-fenerbahce",
@@ -1419,9 +1685,100 @@
     ],
     "FR": [
      "CANAL+"
+    ],
+    "TR": [
+     "tabii Spor"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "IT": [
+     "Sky Sport"
+    ],
+    "PT": [
+     "tabii",
+     "DAZN"
+    ],
+    "NL": [
+     "Ziggo Sport"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "BR": [
+     "Max",
+     "TNT",
+     "Space"
+    ],
+    "AR": [
+     "Disney+"
+    ],
+    "MX": [
+     "Disney+"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "PY": [
+     "Disney+"
+    ],
+    "GT": [
+     "Disney+"
+    ],
+    "PE": [
+     "Disney+"
+    ],
+    "EC": [
+     "Disney+"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "US": [
+     "Paramount+",
+     "DAZN"
     ]
    },
-   "sources": []
+   "sources": [
+    "GB live-footballontv",
+    "ES futbolenlatv",
+    "FR programmefoot",
+    "US worldsoccertalk",
+    "DE fotmob"
+   ]
   },
   {
    "id": "football-20260826-preston-north-end-everton",
@@ -1446,9 +1803,15 @@
      "Sky Sports Main Event",
      "Sky Sports Football",
      "Sky Sports Ultra HDR"
+    ],
+    "US": [
+     "Paramount+"
     ]
    },
-   "sources": []
+   "sources": [
+    "GB live-footballontv",
+    "US worldsoccertalk"
+   ]
   },
   {
    "id": "football-20260826-real-madrid-real-sociedad",
@@ -1476,9 +1839,77 @@
     ],
     "GB": [
      "Premier Sports 2"
+    ],
+    "TR": [
+     "S Sport",
+     "S Sport Plus"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "IT": [
+     "DAZN"
+    ],
+    "PT": [
+     "DAZN"
+    ],
+    "FR": [
+     "DAZN",
+     "Disney+"
+    ],
+    "BR": [
+     "CazéTV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CA": [
+     "TSN+"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "US": [
+     "ESPN+",
+     "ESPN Deportes",
+     "Fubo",
+     "DirecTV Stream"
     ]
    },
-   "sources": []
+   "sources": [
+    "ES futbolenlatv",
+    "GB live-footballontv",
+    "FR programmefoot",
+    "US worldsoccertalk",
+    "DE fotmob"
+   ]
   },
   {
    "id": "football-20260826-viking-dinamo-zagreb",
@@ -1505,9 +1936,102 @@
     "GB": [
      "TNT Sports 2",
      "HBO Max"
+    ],
+    "TR": [
+     "tabii Spor"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "FR": [
+     "CANAL+"
+    ],
+    "IT": [
+     "Sky Sport"
+    ],
+    "PT": [
+     "tabii",
+     "DAZN"
+    ],
+    "NL": [
+     "Ziggo Sport"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "BR": [
+     "Max",
+     "TNT",
+     "Space"
+    ],
+    "AR": [
+     "Disney+"
+    ],
+    "MX": [
+     "Disney+"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "PY": [
+     "Disney+"
+    ],
+    "GT": [
+     "Disney+"
+    ],
+    "PE": [
+     "Disney+"
+    ],
+    "EC": [
+     "Disney+"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "US": [
+     "Paramount+",
+     "ViX"
     ]
    },
-   "sources": []
+   "sources": [
+    "GB live-footballontv",
+    "ES futbolenlatv",
+    "US worldsoccertalk",
+    "DE fotmob"
+   ]
   }
  ]
 }
