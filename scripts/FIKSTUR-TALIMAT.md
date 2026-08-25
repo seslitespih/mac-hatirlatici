@@ -67,6 +67,25 @@ karşılaştır, tutuyorsa dilim doğrudur.
 
 ---
 
+## 2b. 🔴 İKİ GÜN ÜRET — bu kural her şeyi belirler
+
+**Dosya BUGÜN + YARIN maçlarını birlikte içerir.** Yalnız bugünü üretme.
+
+Sebebi: kullanıcı dizüstünü akşam **fişe takmadan** uykuya alıyor, o yüzden gece
+çalışması yapılamıyor (görev pilde çalışmaz). Dosya iki gün içerirse gece hiçbir şeyin
+çalışmasına gerek kalmaz — sabah kullanıcılar zaten doğru veriyi görür.
+
+Bu çalışır çünkü **uygulama `date` alanına hiç bakmıyor**: `getMatchWindow()` bugün 00:00
+ile yarın 23:59 arasını gösteriyor (`utils/timezone.ts`). Site de gün sınırına bakmaz,
+yalnız bitmiş maçları eler.
+
+- `date` alanına **bugünün** tarihini yaz (dosyanın hangi gün üretildiğini gösterir).
+- `matches` dizisine **iki günün** maçlarını koy, `kickoffUtc`'ye göre sırala.
+- `id` içindeki tarih her maçın **kendi** gününü taşısın
+  (`football-20260826-cruzeiro-atletico-mg` gibi).
+- Yarının verisi eksikse sorun değil — bulabildiğin kadarını koy, ama **bugünü asla eksiltme**.
+- Gerileme kontrolünü iki günün toplamı üzerinden yap.
+
 ## 3. Hangi maçlar girer
 
 **Girer:** büyük Avrupa ligleri ve kupaları · UEFA turnuvaları · Türkiye Süper Lig / 1. Lig / Türkiye Kupası ·
