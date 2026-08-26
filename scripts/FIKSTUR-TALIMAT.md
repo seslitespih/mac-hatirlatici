@@ -67,24 +67,28 @@ karşılaştır, tutuyorsa dilim doğrudur.
 
 ---
 
-## 2b. 🔴 İKİ GÜN ÜRET — bu kural her şeyi belirler
+## 2b. 🔴 GÜN SINIRI — bu kural her şeyi belirler
 
-**Dosya BUGÜN + YARIN maçlarını birlikte içerir.** Yalnız bugünü üretme.
+**`matches-daily.json` yalnızca BUGÜNÜ ve BU GECEYİ içerir.** Yarının programını KOYMA.
 
-Sebebi: kullanıcı dizüstünü akşam **fişe takmadan** uykuya alıyor, o yüzden gece
-çalışması yapılamıyor (görev pilde çalışmaz). Dosya iki gün içerirse gece hiçbir şeyin
-çalışmasına gerek kalmaz — sabah kullanıcılar zaten doğru veriyi görür.
+Kesme noktası: **yarın 03:00 UTC** (= İstanbul 06:00). Bundan öncesi girer, sonrası girmez.
+Böylece gece yarısını aşan maçlar (Güney Amerika 00:30–02:45 UTC) kalır — takvimde yarına
+düşseler de izleyici için bu gecedir — ama yarının akşam programı görünmez.
 
-Bu çalışır çünkü **uygulama `date` alanına hiç bakmıyor**: `getMatchWindow()` bugün 00:00
-ile yarın 23:59 arasını gösteriyor (`utils/timezone.ts`). Site de gün sınırına bakmaz,
-yalnız bitmiş maçları eler.
+Sebebi: yayındaki iOS/Android sürümü (1.4.3) **yarın 23:59'a kadar** olan pencereyi
+gösteriyor (`utils/timezone.ts`). Kullanıcı uygulamada yarının maçlarını görmek istemiyor
+ve bu ancak dosya tarafından çözülebilir — kod değişikliği build gerektirir.
+(Kodda pencere ertesi sabah 06:00'a çekildi ama **henüz yayınlanmadı**.)
 
-- `date` alanına **bugünün** tarihini yaz (dosyanın hangi gün üretildiğini gösterir).
-- `matches` dizisine **iki günün** maçlarını koy, `kickoffUtc`'ye göre sırala.
-- `id` içindeki tarih her maçın **kendi** gününü taşısın
-  (`football-20260826-cruzeiro-atletico-mg` gibi).
-- Yarının verisi eksikse sorun değil — bulabildiğin kadarını koy, ama **bugünü asla eksiltme**.
-- Gerileme kontrolünü iki günün toplamı üzerinden yap.
+### Yarının verisi çöpe gitmez: `assets/matches-next.json`
+
+Yarın için toplanan maçlar bu ayrı dosyaya yazılır. **Uygulama ve site bu dosyayı OKUMAZ.**
+Ertesi gün ilk çalışmada içeriği `matches-daily.json`'a taşı, sonra `matches` dizisini boşalt.
+Gece üretim yapılamazsa (dizüstü fişsiz, pil bitmiş) sabah bu dosya hazır veri sağlar.
+
+- `date` alanına **bugünün** tarihini yaz.
+- `id` içindeki tarih her maçın **kendi** gününü taşısın.
+- Gerileme kontrolünü yalnız `matches-daily.json` üzerinden yap.
 
 ## 3. Hangi maçlar girer
 
