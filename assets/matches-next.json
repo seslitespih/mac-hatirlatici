@@ -1,6 +1,6 @@
 {
  "_comment": "YARININ maclari. Uygulama ve site BU DOSYAYI OKUMAZ — yalnizca matches-daily.json'i okur. Burasi bir depo: gece uretim yapilamazsa sabahki calisma bu dosyadan hizlica cekip matches-daily.json'a tasir. Tasidiktan sonra bu dosyayi bosalt.",
- "generated_at": "2026-08-26T11:10:37.000Z",
+ "generated_at": "2026-08-26T12:01:06.000Z",
  "date": "2026-08-27",
  "matches": [
   {
@@ -19,7 +19,7 @@
     "ar": "دوري المؤتمر الأوروبي"
    },
    "home": "AS Monaco",
-   "away": "Górnik Zabrze",
+   "away": "Gornik Zabrze",
    "kickoffUtc": "2026-08-27T16:45:00Z",
    "broadcasts": {
     "ES": [
@@ -45,7 +45,17 @@
      "Sky Sport"
     ]
    },
-   "sources": []
+   "sources": [],
+   "awayNames": {
+    "tr": "Górnik Zabrze",
+    "en": "Górnik Zabrze",
+    "de": "Górnik Zabrze",
+    "es": "Górnik Zabrze",
+    "fr": "Górnik Zabrze",
+    "it": "Górnik Zabrze",
+    "pt": "Górnik Zabrze",
+    "ar": "Górnik Zabrze"
+   }
   },
   {
    "id": "football-20260827-freiburg-motherwell",
@@ -107,8 +117,8 @@
     "pt": "Liga Europa",
     "ar": "الدوري الأوروبي"
    },
-   "home": "Beşiktaş",
-   "away": "Kauno Žalgiris",
+   "home": "Besiktas",
+   "away": "Kauno Zalgiris",
    "kickoffUtc": "2026-08-27T17:00:00Z",
    "broadcasts": {
     "TR": [
@@ -168,7 +178,27 @@
    },
    "sources": [
     "DE fotmob"
-   ]
+   ],
+   "homeNames": {
+    "tr": "Beşiktaş",
+    "en": "Beşiktaş",
+    "de": "Beşiktaş",
+    "es": "Beşiktaş",
+    "fr": "Beşiktaş",
+    "it": "Beşiktaş",
+    "pt": "Beşiktaş",
+    "ar": "Beşiktaş"
+   },
+   "awayNames": {
+    "tr": "Kauno Žalgiris",
+    "en": "Kauno Žalgiris",
+    "de": "Kauno Žalgiris",
+    "es": "Kauno Žalgiris",
+    "fr": "Kauno Žalgiris",
+    "it": "Kauno Žalgiris",
+    "pt": "Kauno Žalgiris",
+    "ar": "Kauno Žalgiris"
+   }
   },
   {
    "id": "football-20260827-celta-vigo-osasuna",

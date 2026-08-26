@@ -151,6 +151,26 @@ ya maçı hiç ekleme. Aynı şekilde `global` + çok az ülke = çoğu kullanı
 - Maçları `kickoffUtc`'ye göre sırala.
 - Dosyayı **1 boşluk girintiyle** ve `ensure_ascii=False` ile yaz (mevcut biçim böyle).
 
+### 🔴 Takım adları: `home`/`away` ASCII, gösterim `homeNames`/`awayNames`
+
+Uygulamadaki `norm()` fonksiyonu favori eşleşmesini `home`/`away` üzerinden yapar ve
+yayındaki 1.4.3 sürümünde **aksanlı harfleri siliyor** (`[^a-z0-9]`):
+
+| Yazarsan | `norm()` üretir | Takım kimliği | Sonuç |
+|---|---|---|---|
+| `Fenerbahçe` | `fenerbahe` | `fenerbahce` | ❌ favorilerde çıkmaz |
+| `Fenerbahce` | `fenerbahce` | `fenerbahce` | ✅ |
+
+**Kural:** `home` ve `away` alanlarına **aksansız ASCII** yaz (Fenerbahce, Besiktas,
+Atletico-MG, Sao Paulo, Gornik Zabrze). Görünen adı `homeNames`/`awayNames` içine
+sekiz dilde koy — uygulama gösterimde onu kullanır, eşleşmede tabanı.
+
+Türkçe karşılıklar: `ç→c  ş→s  ğ→g  ı→i  ö→o  ü→u`. Diğerleri: `á→a é→e í→i ó→o ú→u
+ñ→n ã→a õ→o â→a ê→e ô→o å→a ø→o ż→z`.
+
+(Koddaki `norm()` 26 Ağu'da düzeltildi ama **henüz yayınlanmadı**; build gelene kadar
+bu kural şart, sonrasında da zararsız.)
+
 ### Kanal adı yazımı
 
 Kaynaklar özensiz yazıyor. Marka yazımına çevir:

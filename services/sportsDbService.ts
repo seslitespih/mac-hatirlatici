@@ -117,8 +117,26 @@ interface TSDBEvent {
 
 // ─── Yardımcılar ─────────────────────────────────────────────────────────────
 
+/**
+ * Takım adını favori eşleşmesi için sadeleştirir.
+ *
+ * ⚠️ Aksanlı harfler SİLİNMEZ, karşılığına ÇEVRİLİR. Eskiden `[^a-z0-9]` ile
+ * atılıyordu ve "Fenerbahçe" → "fenerbahe" oluyordu; takım kimliği "fenerbahce"
+ * olduğu için favori filtresi Türkçe takımlarda hiç tutmuyordu (Beşiktaş →
+ * "beikta" vs "besiktas"). 26 Ağu 2026'da bulundu.
+ */
+const HARF: Record<string, string> = {
+  ç:'c', ş:'s', ğ:'g', ı:'i', ö:'o', ü:'u', ø:'o', å:'a', æ:'ae', ß:'ss', đ:'d', ł:'l',
+};
+
 export const norm = (s: string) =>
-  s.toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 22);
+  s
+    .toLowerCase()
+    .replace(/[çşğıöüøåæßđł]/g, (c) => HARF[c] ?? c)
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')   // kalan aksan işaretlerini at (é→e, ó→o)
+    .replace(/[^a-z0-9]/g, '')
+    .slice(0, 22);
 
 function mapStatus(s: string): MatchStatus {
   const l = s?.toLowerCase() ?? '';
