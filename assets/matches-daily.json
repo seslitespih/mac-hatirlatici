@@ -1,1001 +1,22 @@
 {
- "generated_at": "2026-08-25T16:15:00.000Z",
- "date": "2026-08-25",
+ "generated_at": "2026-08-26T01:21:56.000Z",
+ "date": "2026-08-26",
  "model": "user-provided",
  "stats": {
-  "total": 33,
-  "withChannel": 33,
+  "total": 31,
+  "withChannel": 31,
   "bySport": {
-   "volleyball": 4,
-   "football": 29
+   "football": 22,
+   "volleyball": 9
   },
   "warnings": 0,
   "searches": 0,
   "days": [
-   "2026-08-25",
-   "2026-08-26"
+   "2026-08-26",
+   "2026-08-27"
   ]
  },
  "matches": [
-  {
-   "id": "volleyball-20260825-hollanda-i-spanya",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Hollanda",
-   "away": "İspanya",
-   "kickoffUtc": "2026-08-25T14:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "CBC Sport",
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda (voleybol)"
-   ]
-  },
-  {
-   "id": "volleyball-20260825-polonya-slovenya",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Polonya",
-   "away": "Slovenya",
-   "kickoffUtc": "2026-08-25T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor 5"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda (voleybol)"
-   ]
-  },
-  {
-   "id": "football-20260825-abha-al-khaleej",
-   "sport": "football",
-   "competitionId": "saudi_pl",
-   "tier": "global",
-   "competition": {
-    "tr": "Suudi Arabistan Pro Lig",
-    "en": "Saudi Pro League",
-    "de": "Saudi Pro League",
-    "es": "Liga Profesional Saudí",
-    "fr": "Saudi Pro League",
-    "it": "Saudi Pro League",
-    "pt": "Liga Profissional Saudita",
-    "ar": "دوري روشن السعودي"
-   },
-   "home": "Abha",
-   "away": "Al Khaleej",
-   "kickoffUtc": "2026-08-25T16:05:00Z",
-   "broadcasts": {
-    "TR": [
-     "HT Spor",
-     "S Sport Plus"
-    ],
-    "SA": [
-     "Thmanyah",
-     "STC TV"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "FR": [
-     "DAZN"
-    ],
-    "US": [
-     "FS2",
-     "FOX Deportes",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV"
-    ]
-   },
-   "sources": [
-    "DE fotmob",
-    "US worldsoccertalk",
-    "broadcast-rights (saudi_pl)"
-   ]
-  },
-  {
-   "id": "football-20260825-sabah-fk-hapoel-beer-sheva",
-   "sport": "football",
-   "competitionId": "champions",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Şampiyonlar Ligi",
-    "en": "UEFA Champions League",
-    "de": "UEFA Champions League",
-    "es": "Liga de Campeones",
-    "fr": "Ligue des Champions",
-    "it": "UEFA Champions League",
-    "pt": "Liga dos Campeões",
-    "ar": "دوري أبطال أوروبا"
-   },
-   "home": "Sabah FK",
-   "away": "Hapoel Beer Sheva",
-   "kickoffUtc": "2026-08-25T16:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "İçtimai TV"
-    ],
-    "GB": [
-     "TNT Sports 1",
-     "TNT Sports 2",
-     "HBO Max"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "M+ Liga de Campeones 2",
-     "M+ Liga de Campeones 3"
-    ],
-    "FR": [
-     "CANAL+"
-    ],
-    "IT": [
-     "Sky Sport"
-    ],
-    "PT": [
-     "tabii",
-     "DAZN"
-    ],
-    "NL": [
-     "Ziggo Sport"
-    ],
-    "US": [
-     "Paramount+",
-     "ViX"
-    ],
-    "CA": [
-     "DAZN"
-    ],
-    "BR": [
-     "Max",
-     "TNT",
-     "Space"
-    ],
-    "AR": [
-     "Disney+"
-    ],
-    "MX": [
-     "Disney+"
-    ],
-    "CO": [
-     "Disney+"
-    ],
-    "CL": [
-     "Disney+"
-    ],
-    "UY": [
-     "Disney+"
-    ],
-    "PY": [
-     "Disney+"
-    ],
-    "GT": [
-     "Disney+"
-    ],
-    "PE": [
-     "Disney+"
-    ],
-    "EC": [
-     "Disney+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda",
-    "DE fotmob",
-    "ES futbolenlatv",
-    "GB live-footballontv",
-    "US worldsoccertalk"
-   ]
-  },
-  {
-   "id": "volleyball-20260825-cekya-ukrayna",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Çekya",
-   "away": "Ukrayna",
-   "kickoffUtc": "2026-08-25T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CBC Sport",
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda (voleybol)"
-   ]
-  },
-  {
-   "id": "volleyball-20260825-i-svec-hirvatistan",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "İsveç",
-   "away": "Hırvatistan",
-   "kickoffUtc": "2026-08-25T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda (voleybol)"
-   ]
-  },
-  {
-   "id": "football-20260825-al-ettifaq-al-nassr",
-   "sport": "football",
-   "competitionId": "saudi_pl",
-   "tier": "global",
-   "competition": {
-    "tr": "Suudi Arabistan Pro Lig",
-    "en": "Saudi Pro League",
-    "de": "Saudi Pro League",
-    "es": "Liga Profesional Saudí",
-    "fr": "Saudi Pro League",
-    "it": "Saudi Pro League",
-    "pt": "Liga Profissional Saudita",
-    "ar": "دوري روشن السعودي"
-   },
-   "home": "Al Ettifaq",
-   "away": "Al Nassr",
-   "kickoffUtc": "2026-08-25T18:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "SA": [
-     "Thmanyah",
-     "STC TV"
-    ],
-    "DE": [
-     "DAZN",
-     "Sportdigital FUSSBALL",
-     "Sportdigital+"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "FR": [
-     "DAZN"
-    ],
-    "US": [
-     "FS2",
-     "FOX Deportes",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda",
-    "DE fotmob",
-    "US worldsoccertalk"
-   ]
-  },
-  {
-   "id": "football-20260825-cardiff-city-norwich-city",
-   "sport": "football",
-   "competitionId": "efl_cup",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Lig Kupası",
-    "en": "EFL Cup",
-    "de": "EFL Cup (Ligapokal)",
-    "es": "Copa de la Liga (EFL Cup)",
-    "fr": "Coupe de la Ligue anglaise",
-    "it": "Coppa di Lega inglese",
-    "pt": "Copa da Liga Inglesa",
-    "ar": "كأس الرابطة الإنجليزية"
-   },
-   "home": "Cardiff City",
-   "away": "Norwich City",
-   "kickoffUtc": "2026-08-25T18:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "Sky Sports+"
-    ],
-    "US": [
-     "Paramount+"
-    ]
-   },
-   "sources": [
-    "GB live-footballontv",
-    "US worldsoccertalk"
-   ]
-  },
-  {
-   "id": "football-20260825-doncaster-rovers-middlesbrough",
-   "sport": "football",
-   "competitionId": "efl_cup",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Lig Kupası",
-    "en": "EFL Cup",
-    "de": "EFL Cup (Ligapokal)",
-    "es": "Copa de la Liga (EFL Cup)",
-    "fr": "Coupe de la Ligue anglaise",
-    "it": "Coppa di Lega inglese",
-    "pt": "Copa da Liga Inglesa",
-    "ar": "كأس الرابطة الإنجليزية"
-   },
-   "home": "Doncaster Rovers",
-   "away": "Middlesbrough",
-   "kickoffUtc": "2026-08-25T18:30:00Z",
-   "broadcasts": {
-    "GB": [
-     "Sky Sports+"
-    ],
-    "US": [
-     "Paramount+"
-    ]
-   },
-   "sources": [
-    "GB live-footballontv"
-   ]
-  },
-  {
-   "id": "football-20260825-ipswich-town-leicester-city",
-   "sport": "football",
-   "competitionId": "efl_cup",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Lig Kupası",
-    "en": "EFL Cup",
-    "de": "EFL Cup (Ligapokal)",
-    "es": "Copa de la Liga (EFL Cup)",
-    "fr": "Coupe de la Ligue anglaise",
-    "it": "Coppa di Lega inglese",
-    "pt": "Copa da Liga Inglesa",
-    "ar": "كأس الرابطة الإنجليزية"
-   },
-   "home": "Ipswich Town",
-   "away": "Leicester City",
-   "kickoffUtc": "2026-08-25T18:45:00Z",
-   "broadcasts": {
-    "GB": [
-     "Sky Sports+"
-    ],
-    "US": [
-     "Paramount+"
-    ]
-   },
-   "sources": [
-    "GB live-footballontv",
-    "US worldsoccertalk"
-   ]
-  },
-  {
-   "id": "football-20260825-southampton-west-ham-united",
-   "sport": "football",
-   "competitionId": "efl_cup",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Lig Kupası",
-    "en": "EFL Cup",
-    "de": "EFL Cup (Ligapokal)",
-    "es": "Copa de la Liga (EFL Cup)",
-    "fr": "Coupe de la Ligue anglaise",
-    "it": "Coppa di Lega inglese",
-    "pt": "Copa da Liga Inglesa",
-    "ar": "كأس الرابطة الإنجليزية"
-   },
-   "home": "Southampton",
-   "away": "West Ham United",
-   "kickoffUtc": "2026-08-25T18:45:00Z",
-   "broadcasts": {
-    "GB": [
-     "Sky Sports+"
-    ],
-    "US": [
-     "Paramount+"
-    ]
-   },
-   "sources": [
-    "GB live-footballontv",
-    "US worldsoccertalk"
-   ]
-  },
-  {
-   "id": "football-20260825-birmingham-city-brentford",
-   "sport": "football",
-   "competitionId": "efl_cup",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Lig Kupası",
-    "en": "EFL Cup",
-    "de": "EFL Cup (Ligapokal)",
-    "es": "Copa de la Liga (EFL Cup)",
-    "fr": "Coupe de la Ligue anglaise",
-    "it": "Coppa di Lega inglese",
-    "pt": "Copa da Liga Inglesa",
-    "ar": "كأس الرابطة الإنجليزية"
-   },
-   "home": "Birmingham City",
-   "away": "Brentford",
-   "kickoffUtc": "2026-08-25T19:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "Sky Sports+"
-    ],
-    "US": [
-     "Paramount+"
-    ]
-   },
-   "sources": [
-    "US worldsoccertalk",
-    "GB live-footballontv"
-   ]
-  },
-  {
-   "id": "football-20260825-bod-glimt-nec-nijmegen",
-   "sport": "football",
-   "competitionId": "champions",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Şampiyonlar Ligi",
-    "en": "UEFA Champions League",
-    "de": "UEFA Champions League",
-    "es": "Liga de Campeones",
-    "fr": "Ligue des Champions",
-    "it": "UEFA Champions League",
-    "pt": "Liga dos Campeões",
-    "ar": "دوري أبطال أوروبا"
-   },
-   "home": "Bodø/Glimt",
-   "away": "NEC Nijmegen",
-   "kickoffUtc": "2026-08-25T19:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "M+ Liga de Campeones 2"
-    ],
-    "FR": [
-     "CANAL+"
-    ],
-    "IT": [
-     "Sky Sport"
-    ],
-    "PT": [
-     "tabii",
-     "DAZN"
-    ],
-    "NL": [
-     "Ziggo Sport"
-    ],
-    "GB": [
-     "TNT Sports 1",
-     "HBO Max"
-    ],
-    "US": [
-     "Paramount+",
-     "DAZN"
-    ],
-    "CA": [
-     "DAZN"
-    ],
-    "BR": [
-     "Max",
-     "TNT",
-     "Space",
-     "SBT",
-     "YouTube"
-    ],
-    "AR": [
-     "Disney+"
-    ],
-    "MX": [
-     "Disney+"
-    ],
-    "CO": [
-     "Disney+"
-    ],
-    "CL": [
-     "Disney+"
-    ],
-    "UY": [
-     "Disney+"
-    ],
-    "PY": [
-     "Disney+"
-    ],
-    "GT": [
-     "Disney+"
-    ],
-    "PE": [
-     "Disney+"
-    ],
-    "EC": [
-     "Disney+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda",
-    "DE fotmob",
-    "ES futbolenlatv",
-    "GB live-footballontv",
-    "US worldsoccertalk",
-    "BR futebolnatv"
-   ]
-  },
-  {
-   "id": "football-20260825-lask-celtic",
-   "sport": "football",
-   "competitionId": "champions",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Şampiyonlar Ligi",
-    "en": "UEFA Champions League",
-    "de": "UEFA Champions League",
-    "es": "Liga de Campeones",
-    "fr": "Ligue des Champions",
-    "it": "UEFA Champions League",
-    "pt": "Liga dos Campeões",
-    "ar": "دوري أبطال أوروبا"
-   },
-   "home": "LASK",
-   "away": "Celtic",
-   "kickoffUtc": "2026-08-25T19:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CBC Sport",
-     "tabii Spor 1"
-    ],
-    "GB": [
-     "Amazon Prime Video"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "M+ Liga de Campeones"
-    ],
-    "FR": [
-     "CANAL+"
-    ],
-    "IT": [
-     "Sky Sport"
-    ],
-    "PT": [
-     "tabii",
-     "DAZN"
-    ],
-    "NL": [
-     "Ziggo Sport"
-    ],
-    "US": [
-     "Paramount+",
-     "TUDN",
-     "DirecTV Stream",
-     "Hulu + Live TV",
-     "ViX"
-    ],
-    "CA": [
-     "DAZN"
-    ],
-    "BR": [
-     "Max",
-     "TNT",
-     "Space"
-    ],
-    "AR": [
-     "Disney+"
-    ],
-    "MX": [
-     "Disney+"
-    ],
-    "CO": [
-     "Disney+"
-    ],
-    "CL": [
-     "Disney+"
-    ],
-    "UY": [
-     "Disney+"
-    ],
-    "PY": [
-     "Disney+"
-    ],
-    "GT": [
-     "Disney+"
-    ],
-    "PE": [
-     "Disney+"
-    ],
-    "EC": [
-     "Disney+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda",
-    "ES futbolenlatv",
-    "GB live-footballontv",
-    "US worldsoccertalk"
-   ]
-  },
-  {
-   "id": "football-20260825-nottingham-forest-leeds-united",
-   "sport": "football",
-   "competitionId": "efl_cup",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Lig Kupası",
-    "en": "EFL Cup",
-    "de": "EFL Cup (Ligapokal)",
-    "es": "Copa de la Liga (EFL Cup)",
-    "fr": "Coupe de la Ligue anglaise",
-    "it": "Coppa di Lega inglese",
-    "pt": "Copa da Liga Inglesa",
-    "ar": "كأس الرابطة الإنجليزية"
-   },
-   "home": "Nottingham Forest",
-   "away": "Leeds United",
-   "kickoffUtc": "2026-08-25T19:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "ITV1",
-     "STV",
-     "ITVX",
-     "STV Player",
-     "Sky Sports Main Event",
-     "Sky Sports Football"
-    ],
-    "US": [
-     "Paramount+"
-    ]
-   },
-   "sources": [
-    "US worldsoccertalk",
-    "GB live-footballontv"
-   ]
-  },
-  {
-   "id": "football-20260825-valencia-real-betis",
-   "sport": "football",
-   "competitionId": "laliga",
-   "tier": "global",
-   "competition": {
-    "tr": "İspanya La Liga",
-    "en": "LaLiga",
-    "de": "LaLiga",
-    "es": "LaLiga",
-    "fr": "LaLiga",
-    "it": "LaLiga",
-    "pt": "LaLiga",
-    "ar": "الدوري الإسباني"
-   },
-   "home": "Valencia",
-   "away": "Real Betis",
-   "kickoffUtc": "2026-08-25T19:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport",
-     "S Sport Plus"
-    ],
-    "ES": [
-     "DAZN LaLiga",
-     "DAZN",
-     "LaLiga TV Bar"
-    ],
-    "FR": [
-     "DAZN",
-     "Disney+"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "PT": [
-     "DAZN"
-    ],
-    "GB": [
-     "Premier Sports 2"
-    ],
-    "US": [
-     "ESPN+",
-     "ESPN Deportes",
-     "Fubo",
-     "DirecTV Stream"
-    ],
-    "CA": [
-     "TSN+"
-    ],
-    "BR": [
-     "CazéTV",
-     "YouTube"
-    ],
-    "MX": [
-     "Sky Sports"
-    ],
-    "SA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "DZ": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "IQ": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "JO": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "EG": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "OM": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "QA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "AE": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "MA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "TN": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda",
-    "DE fotmob",
-    "ES futbolenlatv",
-    "FR programmefoot",
-    "GB live-footballontv",
-    "US worldsoccertalk",
-    "MENA sporsat",
-    "BR futebolnatv"
-   ]
-  },
-  {
-   "id": "football-20260825-talleres-cordoba-rosario-central",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Ligi",
-    "en": "Argentine Primera División",
-    "de": "Argentinische Primera División",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Talleres Córdoba",
-   "away": "Rosario Central",
-   "kickoffUtc": "2026-08-25T22:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "Spor Smart",
-     "Smart Spor HD"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda"
-   ]
-  },
-  {
-   "id": "football-20260825-atletico-go-botafogo-sp",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Serie B",
-    "de": "Brasilianische Serie B",
-    "es": "Serie B de Brasil",
-    "fr": "Serie B bresilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Atlético-GO",
-   "away": "Botafogo-SP",
-   "kickoffUtc": "2026-08-25T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "Disney+"
-    ]
-   },
-   "sources": [
-    "BR futebolnatv"
-   ]
-  },
-  {
-   "id": "football-20260825-juventude-crb",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Serie B",
-    "de": "Brasilianische Serie B",
-    "es": "Serie B de Brasil",
-    "fr": "Serie B bresilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Juventude",
-   "away": "CRB",
-   "kickoffUtc": "2026-08-25T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "XSports",
-     "SportyNet",
-     "Disney+"
-    ]
-   },
-   "sources": [
-    "BR futebolnatv"
-   ]
-  },
   {
    "id": "football-20260825-cruzeiro-atletico-mg",
    "sport": "football",
@@ -1157,6 +178,87 @@
    ]
   },
   {
+   "id": "volleyball-20260826-ispanya-portekiz",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato Europeo Femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "İspanya",
+   "away": "Portekiz",
+   "kickoffUtc": "2026-08-26T11:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ],
+    "ES": [
+     "CEV YouTube"
+    ],
+    "PT": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "volleyball-20260826-turkiye-kosova",
+   "sport": "volleyball",
+   "competitionId": "akdeniz",
+   "tier": "regional",
+   "competition": {
+    "tr": "Akdeniz Oyunları",
+    "en": "Mediterranean Games",
+    "de": "Mittelmeerspiele",
+    "es": "Juegos Mediterráneos",
+    "fr": "Jeux méditerranéens",
+    "it": "Giochi del Mediterraneo",
+    "pt": "Jogos do Mediterrâneo",
+    "ar": "ألعاب البحر الأبيض المتوسط"
+   },
+   "home": "Türkiye",
+   "away": "Kosova",
+   "kickoffUtc": "2026-08-26T12:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "volleyball-20260826-slovenya-letonya",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato Europeo Femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "Slovenya",
+   "away": "Letonya",
+   "kickoffUtc": "2026-08-26T13:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260826-vietnam-tayland",
    "sport": "football",
    "competitionId": "asean_cup",
@@ -1185,6 +287,174 @@
    "sources": [
     "DE fotmob"
    ]
+  },
+  {
+   "id": "volleyball-20260826-avusturya-bulgaristan",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato Europeo Femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "Avusturya",
+   "away": "Bulgaristan",
+   "kickoffUtc": "2026-08-26T14:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ],
+    "AT": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "volleyball-20260826-fransa-italya",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato Europeo Femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "Fransa",
+   "away": "İtalya",
+   "kickoffUtc": "2026-08-26T14:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ],
+    "FR": [
+     "CEV YouTube"
+    ],
+    "IT": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "volleyball-20260826-belcika-azerbaycan",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato Europeo Femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "Belçika",
+   "away": "Azerbaycan",
+   "kickoffUtc": "2026-08-26T14:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ],
+    "BE": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "volleyball-20260826-almanya-turkiye",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato Europeo Femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "Almanya",
+   "away": "Türkiye",
+   "kickoffUtc": "2026-08-26T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT 1"
+    ],
+    "DE": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "volleyball-20260826-slovakya-karadag",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato Europeo Femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "Slovakya",
+   "away": "Karadağ",
+   "kickoffUtc": "2026-08-26T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "volleyball-20260826-srbistan-yunanistan",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato Europeo Femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "Sırbistan",
+   "away": "Yunanistan",
+   "kickoffUtc": "2026-08-26T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ],
+    "GR": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": []
   },
   {
    "id": "football-20260826-bradford-city-burnley",
@@ -1563,7 +833,8 @@
      "CANAL+"
     ],
     "TR": [
-     "tabii Spor"
+     "TRT 1",
+     "CBC Sport"
     ],
     "DE": [
      "DAZN"
@@ -1718,7 +989,8 @@
     ],
     "TR": [
      "S Sport",
-     "S Sport Plus"
+     "S Sport Plus",
+     "Idman TV"
     ],
     "DE": [
      "DAZN"
@@ -1908,6 +1180,226 @@
     "US worldsoccertalk",
     "DE fotmob"
    ]
+  },
+  {
+   "id": "football-20260826-aldosivi-independiente-rivadavia",
+   "sport": "football",
+   "competitionId": "copa_argentina",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Kupası",
+    "en": "Copa Argentina",
+    "de": "Copa Argentina",
+    "es": "Copa Argentina",
+    "fr": "Coupe d'Argentine",
+    "it": "Coppa d'Argentina",
+    "pt": "Copa Argentina",
+    "ar": "كأس الأرجنتين"
+   },
+   "home": "Aldosivi",
+   "away": "Independiente Rivadavia",
+   "kickoffUtc": "2026-08-26T22:15:00Z",
+   "broadcasts": {
+    "AR": [
+     "TyC Sports"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260826-river-plate-independiente-santa-fe",
+   "sport": "football",
+   "competitionId": "sudamericana",
+   "tier": "regional",
+   "competition": {
+    "tr": "Copa Sudamericana",
+    "en": "Copa Sudamericana",
+    "de": "Copa Sudamericana",
+    "es": "Copa Sudamericana",
+    "fr": "Copa Sudamericana",
+    "it": "Copa Sudamericana",
+    "pt": "Copa Sudamericana",
+    "ar": "كوبا سودأمريكانا"
+   },
+   "home": "River Plate",
+   "away": "Independiente Santa Fe",
+   "kickoffUtc": "2026-08-27T00:30:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN",
+     "DSports"
+    ],
+    "CO": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260827-monaco-gornik-zabrze",
+   "sport": "football",
+   "competitionId": "conference",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Konferans Ligi",
+    "en": "UEFA Conference League",
+    "de": "UEFA Conference League",
+    "es": "UEFA Conference League",
+    "fr": "UEFA Conference League",
+    "it": "UEFA Conference League",
+    "pt": "Liga Conferência da UEFA",
+    "ar": "دوري المؤتمر الأوروبي"
+   },
+   "home": "AS Monaco",
+   "away": "Górnik Zabrze",
+   "kickoffUtc": "2026-08-27T16:45:00Z",
+   "broadcasts": {
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "FR": [
+     "CANAL+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260827-celta-vigo-osasuna",
+   "sport": "football",
+   "competitionId": "laliga",
+   "tier": "global",
+   "competition": {
+    "tr": "İspanya La Liga",
+    "en": "LaLiga",
+    "de": "LaLiga",
+    "es": "LaLiga",
+    "fr": "LaLiga",
+    "it": "LaLiga",
+    "pt": "LaLiga",
+    "ar": "الدوري الإسباني"
+   },
+   "home": "Celta Vigo",
+   "away": "Osasuna",
+   "kickoffUtc": "2026-08-27T18:30:00Z",
+   "broadcasts": {
+    "ES": [
+     "M+ LALIGA",
+     "M+ LALIGA HDR",
+     "LaLiga TV M2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260827-chelsea-luton-town",
+   "sport": "football",
+   "competitionId": "efl_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Lig Kupası",
+    "en": "EFL Cup",
+    "de": "EFL Cup (Ligapokal)",
+    "es": "Copa de la Liga (EFL Cup)",
+    "fr": "Coupe de la Ligue anglaise",
+    "it": "Coppa di Lega inglese",
+    "pt": "Copa da Liga Inglesa",
+    "ar": "كأس الرابطة الإنجليزية"
+   },
+   "home": "Chelsea",
+   "away": "Luton Town",
+   "kickoffUtc": "2026-08-27T18:30:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260827-barcelona-athletic-bilbao",
+   "sport": "football",
+   "competitionId": "laliga",
+   "tier": "global",
+   "competition": {
+    "tr": "İspanya La Liga",
+    "en": "LaLiga",
+    "de": "LaLiga",
+    "es": "LaLiga",
+    "fr": "LaLiga",
+    "it": "LaLiga",
+    "pt": "LaLiga",
+    "ar": "الدوري الإسباني"
+   },
+   "home": "FC Barcelona",
+   "away": "Athletic Bilbao",
+   "kickoffUtc": "2026-08-27T19:00:00Z",
+   "broadcasts": {
+    "ES": [
+     "DAZN LaLiga",
+     "DAZN",
+     "LaLiga TV Bar"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260827-fulham-afc-wimbledon",
+   "sport": "football",
+   "competitionId": "efl_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Lig Kupası",
+    "en": "EFL Cup",
+    "de": "EFL Cup (Ligapokal)",
+    "es": "Copa de la Liga (EFL Cup)",
+    "fr": "Coupe de la Ligue anglaise",
+    "it": "Coppa di Lega inglese",
+    "pt": "Copa da Liga Inglesa",
+    "ar": "كأس الرابطة الإنجليزية"
+   },
+   "home": "Fulham",
+   "away": "AFC Wimbledon",
+   "kickoffUtc": "2026-08-27T19:00:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260827-partizan-getafe",
+   "sport": "football",
+   "competitionId": "conference",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Konferans Ligi",
+    "en": "UEFA Conference League",
+    "de": "UEFA Conference League",
+    "es": "UEFA Conference League",
+    "fr": "UEFA Conference League",
+    "it": "UEFA Conference League",
+    "pt": "Liga Conferência da UEFA",
+    "ar": "دوري المؤتمر الأوروبي"
+   },
+   "home": "Partizan Belgrad",
+   "away": "Getafe",
+   "kickoffUtc": "2026-08-27T19:00:00Z",
+   "broadcasts": {
+    "ES": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": []
   }
  ]
 }
