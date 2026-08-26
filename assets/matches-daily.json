@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-08-26T04:17:00.000Z",
+ "generated_at": "2026-08-26T10:12:00.000Z",
  "date": "2026-08-26",
  "model": "user-provided",
  "stats": {
-  "total": 35,
-  "withChannel": 35,
+  "total": 36,
+  "withChannel": 36,
   "bySport": {
    "volleyball": 9,
-   "football": 26
+   "football": 27
   },
   "warnings": 0,
   "searches": 0,
@@ -68,7 +68,7 @@
    "kickoffUtc": "2026-08-26T12:00:00Z",
    "broadcasts": {
     "TR": [
-     "TRT Spor"
+     "tabii Spor 7"
     ]
    },
    "sources": []
@@ -93,7 +93,7 @@
    "kickoffUtc": "2026-08-26T13:00:00Z",
    "broadcasts": {
     "TR": [
-     "CEV YouTube"
+     "tabii Spor 5"
     ]
    },
    "sources": []
@@ -244,6 +244,37 @@
    "sources": []
   },
   {
+   "id": "football-20260826-rapid-wien-hearts",
+   "sport": "football",
+   "competitionId": "conference",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Konferans Ligi",
+    "en": "UEFA Conference League",
+    "de": "UEFA Conference League",
+    "es": "UEFA Conference League",
+    "fr": "UEFA Conference League",
+    "it": "UEFA Conference League",
+    "pt": "Liga Conferência da UEFA",
+    "ar": "دوري المؤتمر الأوروبي"
+   },
+   "home": "Rapid Wien",
+   "away": "Hearts",
+   "kickoffUtc": "2026-08-26T16:45:00Z",
+   "broadcasts": {
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "GB": [
+     "Hearts TV"
+    ]
+   },
+   "sources": [
+    "ES futbolenlatv",
+    "GB live-footballontv"
+   ]
+  },
+  {
    "id": "volleyball-20260826-slovakya-karadag",
    "sport": "volleyball",
    "competitionId": "cev_women",
@@ -320,6 +351,9 @@
     ],
     "US": [
      "Paramount+"
+    ],
+    "BR": [
+     "Disney+"
     ]
    },
    "sources": [
@@ -360,6 +394,9 @@
     ],
     "FR": [
      "beIN Sports 2"
+    ],
+    "BR": [
+     "Disney+"
     ]
    },
    "sources": [
@@ -396,6 +433,10 @@
     ],
     "FR": [
      "beIN Sports 1"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+"
     ]
    },
    "sources": [
@@ -804,6 +845,9 @@
     ],
     "FR": [
      "beIN Sports Max 4"
+    ],
+    "BR": [
+     "Disney+"
     ]
    },
    "sources": [
@@ -1102,6 +1146,7 @@
     "US": [
      "beIN Sports",
      "beIN Sports en Español",
+     "beIN Sports Connect",
      "Fubo",
      "Fanatiz"
     ]
@@ -1179,6 +1224,9 @@
     ],
     "GB": [
      "Apple TV"
+    ],
+    "BR": [
+     "Apple TV"
     ]
    },
    "sources": [
@@ -1252,6 +1300,9 @@
      "Apple TV"
     ],
     "GB": [
+     "Apple TV"
+    ],
+    "BR": [
      "Apple TV"
     ]
    },
