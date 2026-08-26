@@ -57,7 +57,15 @@ function localToUTCMs(y: number, mo: number, d: number, hh: number, mm: number, 
 }
 
 /**
- * Gösterim penceresi: bugünün 00:00'ından ertesi gün 09:00'a kadar (user TZ)
+ * Gösterim penceresi: bugünün 00:00'ından ertesi sabah 06:00'a kadar (user TZ).
+ *
+ * Kaynak dosya (matches-daily.json) BUGÜN + YARIN maçlarını birlikte taşır — gece
+ * üretim yapılamadığında sabah listenin boş kalmaması için. Ama uygulamada yarının
+ * PROGRAMI görünmemeli; kullanıcı "bugün hangi maç var" diye bakıyor.
+ *
+ * Pencere ertesi sabah 06:00'da biter: gece yarısını aşan maçlar (Arjantin/Brezilya
+ * 00:30 gibi) takvimde yarına düşse de izleyici için BU GECEdir, onlar kalır.
+ * Site de (sportsontv/assets/app.js) aynı kuralı uygular.
  */
 export function getMatchWindow(tz: string): { start: Date; end: Date } {
   try {
@@ -66,14 +74,14 @@ export function getMatchWindow(tz: string): { start: Date; end: Date } {
     const [y, mo, d]  = todayLocal.split('-').map(Number);
 
     const start = new Date(localToUTCMs(y, mo, d,      0,  0, tz));  // bugün 00:00
-    const end   = new Date(localToUTCMs(y, mo, d + 1, 23, 59, tz));  // ertesi 23:59 — yarınki maçlar da görünsün
+    const end   = new Date(localToUTCMs(y, mo, d + 1,  6,  0, tz));  // ertesi 06:00 — bu gecenin geç maçları
 
     return { start, end };
   } catch {
     // Herhangi bir Intl hatası olursa ±1 günlük geniş pencere kullan
     const now = new Date();
     const start = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 0, 0, 0);
-    const end   = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 9, 0, 0);
+    const end   = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 6, 0, 0);
     return { start, end };
   }
 }
