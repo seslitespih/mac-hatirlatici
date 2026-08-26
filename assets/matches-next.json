@@ -1,324 +1,214 @@
 {
  "_comment": "YARININ maclari. Uygulama ve site BU DOSYAYI OKUMAZ — yalnizca matches-daily.json'i okur. Burasi bir depo: gece uretim yapilamazsa sabahki calisma bu dosyadan hizlica cekip matches-daily.json'a tasir. Tasidiktan sonra bu dosyayi bosalt.",
- "generated_at": "2026-08-26T12:01:06.000Z",
- "date": "2026-08-27",
+ "generated_at": "2026-08-26T22:18:04.000Z",
+ "date": "2026-08-28",
  "matches": [
   {
-   "id": "football-20260827-monaco-gornik-zabrze",
+   "id": "football-20260828-al-nassr-al-taawoun",
    "sport": "football",
-   "competitionId": "conference",
+   "competitionId": "saudi_pl",
    "tier": "global",
    "competition": {
-    "tr": "UEFA Konferans Ligi",
-    "en": "UEFA Conference League",
-    "de": "UEFA Conference League",
-    "es": "UEFA Conference League",
-    "fr": "UEFA Conference League",
-    "it": "UEFA Conference League",
-    "pt": "Liga Conferência da UEFA",
-    "ar": "دوري المؤتمر الأوروبي"
+    "tr": "Suudi Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Liga Saudita",
+    "ar": "دوري روشن السعودي"
    },
-   "home": "AS Monaco",
-   "away": "Gornik Zabrze",
-   "kickoffUtc": "2026-08-27T16:45:00Z",
-   "broadcasts": {
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "FR": [
-     "CANAL+"
-    ],
-    "TR": [
-     "tabii Spor"
-    ],
-    "GB": [
-     "TNT Sports"
-    ],
-    "DE": [
-     "RTL+",
-     "RTL"
-    ],
-    "US": [
-     "Paramount+"
-    ],
-    "IT": [
-     "Sky Sport"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Górnik Zabrze",
-    "en": "Górnik Zabrze",
-    "de": "Górnik Zabrze",
-    "es": "Górnik Zabrze",
-    "fr": "Górnik Zabrze",
-    "it": "Górnik Zabrze",
-    "pt": "Górnik Zabrze",
-    "ar": "Górnik Zabrze"
-   }
-  },
-  {
-   "id": "football-20260827-freiburg-motherwell",
-   "sport": "football",
-   "competitionId": "conference",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Konferans Ligi",
-    "en": "UEFA Conference League",
-    "de": "UEFA Conference League",
-    "es": "UEFA Conference League",
-    "fr": "UEFA Conference League",
-    "it": "UEFA Conference League",
-    "pt": "Liga Conferência da UEFA",
-    "ar": "دوري المؤتمر الأوروبي"
-   },
-   "home": "SC Freiburg",
-   "away": "Motherwell",
-   "kickoffUtc": "2026-08-27T16:45:00Z",
+   "home": "Al Nassr",
+   "away": "Al Taawoun",
+   "kickoffUtc": "2026-08-28T18:00:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor"
-    ],
-    "GB": [
-     "Premier Sports 1"
-    ],
-    "DE": [
-     "Sportschau.de",
-     "ARD Mediathek",
-     "SWR"
-    ],
-    "US": [
-     "Paramount+"
-    ],
-    "FR": [
-     "CANAL+"
-    ],
-    "IT": [
-     "Sky Sport"
-    ]
-   },
-   "sources": [
-    "GB live-footballontv",
-    "DE fotmob"
-   ]
-  },
-  {
-   "id": "football-20260827-besiktas-kauno-zalgiris",
-   "sport": "football",
-   "competitionId": "europa",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Avrupa Ligi",
-    "en": "UEFA Europa League",
-    "de": "UEFA Europa League",
-    "es": "UEFA Europa League",
-    "fr": "Ligue Europa",
-    "it": "UEFA Europa League",
-    "pt": "Liga Europa",
-    "ar": "الدوري الأوروبي"
-   },
-   "home": "Besiktas",
-   "away": "Kauno Zalgiris",
-   "kickoffUtc": "2026-08-27T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor"
-    ],
-    "DE": [
-     "DAZN",
-     "Sportdigital FUSSBALL",
-     "Sportdigital+"
-    ],
-    "GB": [
-     "TNT Sports"
-    ],
-    "ES": [
-     "Movistar+"
-    ],
-    "FR": [
-     "CANAL+"
-    ],
-    "IT": [
-     "Sky Sport",
-     "TV8"
-    ],
-    "US": [
-     "Paramount+"
+     "HT Spor",
+     "S Sport Plus"
     ],
     "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [
-    "DE fotmob"
-   ],
-   "homeNames": {
-    "tr": "Beşiktaş",
-    "en": "Beşiktaş",
-    "de": "Beşiktaş",
-    "es": "Beşiktaş",
-    "fr": "Beşiktaş",
-    "it": "Beşiktaş",
-    "pt": "Beşiktaş",
-    "ar": "Beşiktaş"
-   },
-   "awayNames": {
-    "tr": "Kauno Žalgiris",
-    "en": "Kauno Žalgiris",
-    "de": "Kauno Žalgiris",
-    "es": "Kauno Žalgiris",
-    "fr": "Kauno Žalgiris",
-    "it": "Kauno Žalgiris",
-    "pt": "Kauno Žalgiris",
-    "ar": "Kauno Žalgiris"
-   }
-  },
-  {
-   "id": "football-20260827-celta-vigo-osasuna",
-   "sport": "football",
-   "competitionId": "laliga",
-   "tier": "global",
-   "competition": {
-    "tr": "İspanya La Liga",
-    "en": "LaLiga",
-    "de": "LaLiga",
-    "es": "LaLiga",
-    "fr": "LaLiga",
-    "it": "LaLiga",
-    "pt": "LaLiga",
-    "ar": "الدوري الإسباني"
-   },
-   "home": "Celta Vigo",
-   "away": "Osasuna",
-   "kickoffUtc": "2026-08-27T18:30:00Z",
-   "broadcasts": {
-    "ES": [
-     "M+ LALIGA",
-     "M+ LALIGA HDR",
-     "LaLiga TV M2"
+     "Thmanyah",
+     "STC TV"
     ],
     "DE": [
      "DAZN"
     ],
     "FR": [
-     "DAZN",
-     "Disney+"
+     "DAZN"
     ],
-    "CA": [
-     "TSN+"
+    "US": [
+     "Fox Sports"
+    ]
+   },
+   "sources": [
+    "FR programmefoot"
+   ]
+  },
+  {
+   "id": "football-20260828-al-khaleej-al-hilal",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "global",
+   "competition": {
+    "tr": "Suudi Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Liga Saudita",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al Khaleej",
+   "away": "Al Hilal",
+   "kickoffUtc": "2026-08-28T18:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "HT Spor",
+     "S Sport Plus"
     ],
+    "SA": [
+     "Thmanyah",
+     "STC TV"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "FR": [
+     "DAZN"
+    ],
+    "US": [
+     "Fox Sports"
+    ]
+   },
+   "sources": [
+    "FR programmefoot"
+   ]
+  },
+  {
+   "id": "football-20260828-bayern-munich-stuttgart",
+   "sport": "football",
+   "competitionId": "bundesliga",
+   "tier": "global",
+   "competition": {
+    "tr": "Almanya Bundesliga",
+    "en": "Bundesliga",
+    "de": "Bundesliga",
+    "es": "Bundesliga",
+    "fr": "Bundesliga",
+    "it": "Bundesliga",
+    "pt": "Bundesliga",
+    "ar": "الدوري الألماني"
+   },
+   "home": "Bayern Munich",
+   "away": "Stuttgart",
+   "kickoffUtc": "2026-08-28T18:30:00Z",
+   "broadcasts": {
     "TR": [
      "S Sport",
-     "S Sport Plus",
-     "Idman TV"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "PT": [
-     "DAZN"
-    ],
-    "BR": [
-     "CazéTV"
-    ],
-    "MX": [
-     "Sky Sports"
-    ],
-    "US": [
-     "ESPN+",
-     "ESPN Deportes"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [
-    "FR programmefoot",
-    "CA goal.com"
-   ]
-  },
-  {
-   "id": "football-20260827-chelsea-luton-town",
-   "sport": "football",
-   "competitionId": "efl_cup",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Lig Kupası",
-    "en": "EFL Cup",
-    "de": "EFL Cup (Ligapokal)",
-    "es": "Copa de la Liga (EFL Cup)",
-    "fr": "Coupe de la Ligue anglaise",
-    "it": "Coppa di Lega inglese",
-    "pt": "Copa da Liga Inglesa",
-    "ar": "كأس الرابطة الإنجليزية"
-   },
-   "home": "Chelsea",
-   "away": "Luton Town",
-   "kickoffUtc": "2026-08-27T18:30:00Z",
-   "broadcasts": {
-    "GB": [
-     "Sky Sports+"
+     "S Sport 2"
     ],
     "DE": [
      "Sky Sport",
-     "WOW"
+     "DAZN"
+    ],
+    "GB": [
+     "BBC iPlayer",
+     "BBC Sport"
     ],
     "FR": [
      "beIN Sports 2"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ]
+   },
+   "sources": [
+    "FR programmefoot",
+    "GB live-footballontv"
+   ]
+  },
+  {
+   "id": "football-20260828-lille-psg",
+   "sport": "football",
+   "competitionId": "ligue1",
+   "tier": "global",
+   "competition": {
+    "tr": "Fransa Ligue 1",
+    "en": "Ligue 1",
+    "de": "Ligue 1",
+    "es": "Ligue 1",
+    "fr": "Ligue 1",
+    "it": "Ligue 1",
+    "pt": "Ligue 1",
+    "ar": "الدوري الفرنسي"
+   },
+   "home": "Lille",
+   "away": "Paris Saint-Germain",
+   "kickoffUtc": "2026-08-28T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 3"
+    ],
+    "FR": [
+     "Ligue 1+"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
     ]
    },
    "sources": [
@@ -326,7 +216,193 @@
    ]
   },
   {
-   "id": "football-20260827-barcelona-athletic-bilbao",
+   "id": "football-20260828-ac-milan-venezia",
+   "sport": "football",
+   "competitionId": "seriea",
+   "tier": "global",
+   "competition": {
+    "tr": "İtalya Serie A",
+    "en": "Serie A",
+    "de": "Serie A",
+    "es": "Serie A",
+    "fr": "Serie A",
+    "it": "Serie A",
+    "pt": "Serie A",
+    "ar": "الدوري الإيطالي"
+   },
+   "home": "AC Milan",
+   "away": "Venezia",
+   "kickoffUtc": "2026-08-28T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 2",
+     "beIN Sports 3"
+    ],
+    "IT": [
+     "DAZN",
+     "Sky Sport"
+    ],
+    "US": [
+     "CBS",
+     "Paramount+"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+"
+    ],
+    "FR": [
+     "DAZN"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ]
+   },
+   "sources": [
+    "FR programmefoot"
+   ]
+  },
+  {
+   "id": "football-20260828-crystal-palace-manchester-city",
+   "sport": "football",
+   "competitionId": "premier",
+   "tier": "global",
+   "competition": {
+    "tr": "İngiltere Premier Lig",
+    "en": "Premier League",
+    "de": "Premier League",
+    "es": "Premier League",
+    "fr": "Premier League",
+    "it": "Premier League",
+    "pt": "Premier League",
+    "ar": "الدوري الإنجليزي الممتاز"
+   },
+   "home": "Crystal Palace",
+   "away": "Manchester City",
+   "kickoffUtc": "2026-08-28T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 1",
+     "beIN Sports 4"
+    ],
+    "GB": [
+     "Sky Sports Main Event",
+     "Sky Sports Premier League"
+    ],
+    "US": [
+     "NBC",
+     "USA Network",
+     "Peacock",
+     "Telemundo"
+    ],
+    "DE": [
+     "Sky"
+    ],
+    "BR": [
+     "Disney+",
+     "ESPN"
+    ],
+    "FR": [
+     "CANAL+ Foot"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ]
+   },
+   "sources": [
+    "FR programmefoot",
+    "GB live-footballontv"
+   ]
+  },
+  {
+   "id": "football-20260828-rio-ave-sporting-cp",
+   "sport": "football",
+   "competitionId": "primeira",
+   "tier": "global",
+   "competition": {
+    "tr": "Portekiz Ligi",
+    "en": "Liga Portugal",
+    "de": "Liga Portugal",
+    "es": "Liga Portugal",
+    "fr": "Liga Portugal",
+    "it": "Liga Portugal",
+    "pt": "Liga Portugal",
+    "ar": "الدوري البرتغالي"
+   },
+   "home": "Rio Ave",
+   "away": "Sporting CP",
+   "kickoffUtc": "2026-08-28T19:15:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 3",
+     "Tivibu Spor 1"
+    ],
+    "PT": [
+     "Sport TV"
+    ],
+    "FR": [
+     "beIN Sports Max 9"
+    ]
+   },
+   "sources": [
+    "FR programmefoot"
+   ]
+  },
+  {
+   "id": "football-20260828-alaves-villarreal",
    "sport": "football",
    "competitionId": "laliga",
    "tier": "global",
@@ -340,35 +416,33 @@
     "pt": "LaLiga",
     "ar": "الدوري الإسباني"
    },
-   "home": "FC Barcelona",
-   "away": "Athletic Bilbao",
-   "kickoffUtc": "2026-08-27T19:00:00Z",
+   "home": "Alaves",
+   "away": "Villarreal",
+   "kickoffUtc": "2026-08-28T19:30:00Z",
    "broadcasts": {
-    "ES": [
-     "DAZN LaLiga",
-     "DAZN",
-     "LaLiga TV Bar"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "FR": [
-     "DAZN",
-     "Disney+"
-    ],
-    "CA": [
-     "TSN+"
-    ],
     "TR": [
      "S Sport",
      "S Sport Plus",
      "Idman TV"
+    ],
+    "ES": [
+     "M+ LALIGA"
+    ],
+    "GB": [
+     "Premier Sports"
+    ],
+    "DE": [
+     "DAZN"
     ],
     "IT": [
      "DAZN"
     ],
     "PT": [
      "DAZN"
+    ],
+    "FR": [
+     "DAZN",
+     "Disney+"
     ],
     "BR": [
      "CazéTV"
@@ -386,7 +460,16 @@
     "DZ": [
      "beIN Sports"
     ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
     "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
      "beIN Sports"
     ],
     "QA": [
@@ -400,149 +483,21 @@
     ],
     "TN": [
      "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [
-    "FR programmefoot",
-    "CA goal.com"
-   ]
-  },
-  {
-   "id": "football-20260827-fulham-afc-wimbledon",
-   "sport": "football",
-   "competitionId": "efl_cup",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Lig Kupası",
-    "en": "EFL Cup",
-    "de": "EFL Cup (Ligapokal)",
-    "es": "Copa de la Liga (EFL Cup)",
-    "fr": "Coupe de la Ligue anglaise",
-    "it": "Coppa di Lega inglese",
-    "pt": "Copa da Liga Inglesa",
-    "ar": "كأس الرابطة الإنجليزية"
-   },
-   "home": "Fulham",
-   "away": "AFC Wimbledon",
-   "kickoffUtc": "2026-08-27T19:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "Sky Sports+"
-    ],
-    "FR": [
-     "beIN Sports Max 5"
     ]
    },
    "sources": [
     "FR programmefoot"
-   ]
-  },
-  {
-   "id": "football-20260827-partizan-getafe",
-   "sport": "football",
-   "competitionId": "conference",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Konferans Ligi",
-    "en": "UEFA Conference League",
-    "de": "UEFA Conference League",
-    "es": "UEFA Conference League",
-    "fr": "UEFA Conference League",
-    "it": "UEFA Conference League",
-    "pt": "Liga Conferência da UEFA",
-    "ar": "دوري المؤتمر الأوروبي"
-   },
-   "home": "Partizan Belgrad",
-   "away": "Getafe",
-   "kickoffUtc": "2026-08-27T19:00:00Z",
-   "broadcasts": {
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "TR": [
-     "tabii Spor"
-    ],
-    "GB": [
-     "TNT Sports"
-    ],
-    "DE": [
-     "RTL+",
-     "RTL"
-    ],
-    "US": [
-     "Paramount+"
-    ],
-    "FR": [
-     "CANAL+"
-    ],
-    "IT": [
-     "Sky Sport"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260827-estudiantes-barracas-central",
-   "sport": "football",
-   "competitionId": "copa_argentina",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Kupası",
-    "en": "Copa Argentina",
-    "de": "Copa Argentina",
-    "es": "Copa Argentina",
-    "fr": "Coupe d'Argentine",
-    "it": "Coppa d'Argentina",
-    "pt": "Copa Argentina",
-    "ar": "كأس الأرجنتين"
-   },
-   "home": "Estudiantes",
-   "away": "Barracas Central",
-   "kickoffUtc": "2026-08-27T22:00:00Z",
-   "broadcasts": {
-    "AR": [
-     "TyC Sports"
-    ]
-   },
-   "sources": [
-    "AR tvenvivo"
-   ]
-  },
-  {
-   "id": "football-20260827-platense-instituto",
-   "sport": "football",
-   "competitionId": "copa_argentina",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Kupası",
-    "en": "Copa Argentina",
-    "de": "Copa Argentina",
-    "es": "Copa Argentina",
-    "fr": "Coupe d'Argentine",
-    "it": "Coppa d'Argentina",
-    "pt": "Copa Argentina",
-    "ar": "كأس الأرجنتين"
-   },
-   "home": "Platense",
-   "away": "Instituto",
-   "kickoffUtc": "2026-08-28T00:15:00Z",
-   "broadcasts": {
-    "AR": [
-     "TyC Sports"
-    ]
-   },
-   "sources": [
-    "AR tvenvivo"
-   ]
+   ],
+   "homeNames": {
+    "tr": "Alavés",
+    "en": "Alavés",
+    "de": "Alavés",
+    "es": "Alavés",
+    "fr": "Alavés",
+    "it": "Alavés",
+    "pt": "Alavés",
+    "ar": "Alavés"
+   }
   }
  ]
 }
