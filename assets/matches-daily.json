@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-26T01:21:56.000Z",
+ "generated_at": "2026-08-26T01:32:00.000Z",
  "date": "2026-08-26",
  "model": "user-provided",
  "stats": {
-  "total": 31,
-  "withChannel": 31,
+  "total": 36,
+  "withChannel": 36,
   "bySport": {
-   "football": 22,
+   "football": 27,
    "volleyball": 9
   },
   "warnings": 0,
@@ -1245,6 +1245,40 @@
    "sources": []
   },
   {
+   "id": "football-20260826-palmeiras-santos",
+   "sport": "football",
+   "competitionId": "copa_do_brasil",
+   "tier": "global",
+   "competition": {
+    "tr": "Brezilya Kupası",
+    "en": "Copa do Brasil",
+    "de": "Copa do Brasil",
+    "es": "Copa de Brasil",
+    "fr": "Coupe du Brésil",
+    "it": "Coppa del Brasile",
+    "pt": "Copa do Brasil",
+    "ar": "كأس البرازيل"
+   },
+   "home": "Palmeiras",
+   "away": "Santos",
+   "kickoffUtc": "2026-08-27T00:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "SporTV",
+     "Premiere"
+    ],
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "GB": [
+     "Premier Sports 2"
+    ]
+   },
+   "sources": [
+    "GB live-footballontv"
+   ]
+  },
+  {
    "id": "football-20260827-monaco-gornik-zabrze",
    "sport": "football",
    "competitionId": "conference",
@@ -1273,6 +1307,74 @@
    "sources": []
   },
   {
+   "id": "football-20260827-freiburg-motherwell",
+   "sport": "football",
+   "competitionId": "conference",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Konferans Ligi",
+    "en": "UEFA Conference League",
+    "de": "UEFA Conference League",
+    "es": "UEFA Conference League",
+    "fr": "UEFA Conference League",
+    "it": "UEFA Conference League",
+    "pt": "Liga Conferência da UEFA",
+    "ar": "دوري المؤتمر الأوروبي"
+   },
+   "home": "SC Freiburg",
+   "away": "Motherwell",
+   "kickoffUtc": "2026-08-27T16:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor"
+    ],
+    "GB": [
+     "Premier Sports 1"
+    ],
+    "DE": [
+     "Sportschau.de",
+     "ARD Mediathek",
+     "SWR"
+    ]
+   },
+   "sources": [
+    "GB live-footballontv",
+    "DE fotmob"
+   ]
+  },
+  {
+   "id": "football-20260827-besiktas-kauno-zalgiris",
+   "sport": "football",
+   "competitionId": "europa",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Avrupa Ligi",
+    "en": "UEFA Europa League",
+    "de": "UEFA Europa League",
+    "es": "UEFA Europa League",
+    "fr": "Ligue Europa",
+    "it": "UEFA Europa League",
+    "pt": "Liga Europa",
+    "ar": "الدوري الأوروبي"
+   },
+   "home": "Beşiktaş",
+   "away": "Kauno Žalgiris",
+   "kickoffUtc": "2026-08-27T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor"
+    ],
+    "DE": [
+     "DAZN",
+     "Sportdigital FUSSBALL",
+     "Sportdigital+"
+    ]
+   },
+   "sources": [
+    "DE fotmob"
+   ]
+  },
+  {
    "id": "football-20260827-celta-vigo-osasuna",
    "sport": "football",
    "competitionId": "laliga",
@@ -1295,6 +1397,9 @@
      "M+ LALIGA",
      "M+ LALIGA HDR",
      "LaLiga TV M2"
+    ],
+    "DE": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -1320,6 +1425,10 @@
    "broadcasts": {
     "GB": [
      "Sky Sports+"
+    ],
+    "DE": [
+     "Sky Sport",
+     "WOW"
     ]
    },
    "sources": []
@@ -1347,6 +1456,9 @@
      "DAZN LaLiga",
      "DAZN",
      "LaLiga TV Bar"
+    ],
+    "DE": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -1400,6 +1512,60 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "football-20260827-estudiantes-barracas-central",
+   "sport": "football",
+   "competitionId": "copa_argentina",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Kupası",
+    "en": "Copa Argentina",
+    "de": "Copa Argentina",
+    "es": "Copa Argentina",
+    "fr": "Coupe d'Argentine",
+    "it": "Coppa d'Argentina",
+    "pt": "Copa Argentina",
+    "ar": "كأس الأرجنتين"
+   },
+   "home": "Estudiantes",
+   "away": "Barracas Central",
+   "kickoffUtc": "2026-08-27T22:00:00Z",
+   "broadcasts": {
+    "AR": [
+     "TyC Sports"
+    ]
+   },
+   "sources": [
+    "AR tvenvivo"
+   ]
+  },
+  {
+   "id": "football-20260827-platense-instituto",
+   "sport": "football",
+   "competitionId": "copa_argentina",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Kupası",
+    "en": "Copa Argentina",
+    "de": "Copa Argentina",
+    "es": "Copa Argentina",
+    "fr": "Coupe d'Argentine",
+    "it": "Coppa d'Argentina",
+    "pt": "Copa Argentina",
+    "ar": "كأس الأرجنتين"
+   },
+   "home": "Platense",
+   "away": "Instituto",
+   "kickoffUtc": "2026-08-28T00:15:00Z",
+   "broadcasts": {
+    "AR": [
+     "TyC Sports"
+    ]
+   },
+   "sources": [
+    "AR tvenvivo"
+   ]
   }
  ]
 }
