@@ -1,6 +1,6 @@
 {
   "_comment": "Turnuva x ulke yayin haklari. Gunluk fikstur uretiminde TABAN olarak kullanilir; her gun sifirdan aranmaz. 'durum' alani: dogrulandi = web aramasiyla teyit edildi, tahmin = sektor bilgisi ama kaynakla teyit edilmedi. Sezon basinda ve 'su kanal yanlis' geri bildiriminde guncellenir.",
-  "_guncelleme": "2026-08-24",
+  "_guncelleme": "2026-08-26",
   "_kullanim": "Once buradaki tabani uygula, sonra 'bolunmeler' kurallarini kontrol et, en son o maca ozel arama yap. Bolunme kurali olan ulkelerde (DE, IT, ES, GB) MUTLAKA mac bazinda dogrula.",
   "bolgeler": {
     "MENA": [
@@ -156,7 +156,18 @@
           "beIN Sports"
         ]
       },
-      "bolunmeler": [],
+      "bolunmeler": [
+        {
+          "ulke": "BR",
+          "kural": "CazeTV 2025-26'da munhasirdi; 2026-27'de paket Warner/Disney+ ve Canal Gol Brasil arasinda bolundu. Mac bazinda dogrula.",
+          "alternatif": [
+            "CazeTV",
+            "Max",
+            "Disney+",
+            "Canal Gol Brasil"
+          ]
+        }
+      ],
       "notlar": "Sampiyonlar Ligi ile ayni paket icinde satildigi icin cogu pazarda ayni yayinci. Mac bazinda dogrula."
     },
     "laliga": {
@@ -835,10 +846,28 @@
         ],
         "US": [
           "Paramount+"
+        ],
+        "FR": [
+          "CANAL+"
+        ],
+        "IT": [
+          "Sky Sport"
         ]
       },
-      "bolunmeler": [],
-      "notlar": "RTL Almanya'da hem Avrupa Ligi hem Konferans Ligi haklarını tutuyor; 2027/28'de DAZN'a geçecek."
+      "bolunmeler": [
+        {
+          "ulke": "BR",
+          "kural": "2026-27'de UEFA kulup turnuvalari Brezilya'da Warner (Max/TNT/Space) + Disney+ arasinda; ayrica Canal Gol Brasil on eleme/play-off turlarindan 32 mac aldi (uc turnuva birlikte). Hangi macin kimde oldugu mac bazinda degisiyor - BR gunluk kaynagindan dogrula, tahmin yazma.",
+          "alternatif": [
+            "Max",
+            "TNT",
+            "Space",
+            "Disney+",
+            "Canal Gol Brasil"
+          ]
+        }
+      ],
+      "notlar": "RTL Almanya'da hem Avrupa Ligi hem Konferans Ligi haklarını tutuyor; 2027/28'de DAZN'a geçecek. FR: CANAL+ tum UEFA kulup turnuvalarinin haklarina sahip. IT: Sky Sport, Europa+Conference'in tamami. (26 Agu 2026 dogrulandi.)"
     },
     "dfb_pokal": {
       "ad": "Almanya Kupasi (DFB-Pokal)",
