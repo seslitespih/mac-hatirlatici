@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-08-26T01:32:00.000Z",
+ "generated_at": "2026-08-26T04:17:00.000Z",
  "date": "2026-08-26",
  "model": "user-provided",
  "stats": {
-  "total": 36,
-  "withChannel": 36,
+  "total": 35,
+  "withChannel": 35,
   "bySport": {
-   "football": 27,
-   "volleyball": 9
+   "volleyball": 9,
+   "football": 26
   },
   "warnings": 0,
   "searches": 0,
@@ -17,166 +17,6 @@
   ]
  },
  "matches": [
-  {
-   "id": "football-20260825-cruzeiro-atletico-mg",
-   "sport": "football",
-   "competitionId": "copa_do_brasil",
-   "tier": "global",
-   "competition": {
-    "tr": "Brezilya Kupası",
-    "en": "Copa do Brasil",
-    "de": "Copa do Brasil",
-    "es": "Copa de Brasil",
-    "fr": "Coupe du Brésil",
-    "it": "Coppa del Brasile",
-    "pt": "Copa do Brasil",
-    "ar": "كأس البرازيل"
-   },
-   "home": "Cruzeiro",
-   "away": "Atlético-MG",
-   "kickoffUtc": "2026-08-26T00:00:00Z",
-   "broadcasts": {
-    "BR": [
-     "SporTV",
-     "Premiere",
-     "Premiere 2",
-     "Premiere FC"
-    ],
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "GB": [
-     "Premier Sports 2"
-    ]
-   },
-   "sources": [
-    "BR futebolnatv",
-    "GB live-footballontv"
-   ]
-  },
-  {
-   "id": "football-20260825-independiente-del-valle-deportes-tolima",
-   "sport": "football",
-   "competitionId": "libertadores",
-   "tier": "regional",
-   "competition": {
-    "tr": "Copa Libertadores",
-    "en": "Copa Libertadores",
-    "de": "Copa Libertadores",
-    "es": "Copa Libertadores",
-    "fr": "Copa Libertadores",
-    "it": "Copa Libertadores",
-    "pt": "Copa Libertadores",
-    "ar": "كوبا ليبرتادوريس"
-   },
-   "home": "Independiente del Valle",
-   "away": "Deportes Tolima",
-   "kickoffUtc": "2026-08-26T00:30:00Z",
-   "broadcasts": {
-    "AR": [
-     "ESPN",
-     "Fox Sports",
-     "Disney+",
-     "Telefe"
-    ],
-    "BR": [
-     "Paramount+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "US": [
-     "beIN Sports",
-     "beIN Sports en Español",
-     "Fubo",
-     "Fanatiz"
-    ]
-   },
-   "sources": [
-    "AR tvenvivo",
-    "BR futebolnatv",
-    "US worldsoccertalk"
-   ]
-  },
-  {
-   "id": "football-20260826-monterrey-chicago-fire",
-   "sport": "football",
-   "competitionId": "leagues_cup",
-   "tier": "regional",
-   "competition": {
-    "tr": "Leagues Cup",
-    "en": "Leagues Cup",
-    "de": "Leagues Cup",
-    "es": "Leagues Cup",
-    "fr": "Leagues Cup",
-    "it": "Leagues Cup",
-    "pt": "Leagues Cup",
-    "ar": "كأس الدوريات"
-   },
-   "home": "Monterrey",
-   "away": "Chicago Fire",
-   "kickoffUtc": "2026-08-26T00:30:00Z",
-   "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV"
-    ],
-    "MX": [
-     "Apple TV"
-    ]
-   },
-   "sources": [
-    "US worldsoccertalk",
-    "BR futebolnatv",
-    "GB live-footballontv"
-   ]
-  },
-  {
-   "id": "football-20260826-leon-real-salt-lake",
-   "sport": "football",
-   "competitionId": "leagues_cup",
-   "tier": "regional",
-   "competition": {
-    "tr": "Leagues Cup",
-    "en": "Leagues Cup",
-    "de": "Leagues Cup",
-    "es": "Leagues Cup",
-    "fr": "Leagues Cup",
-    "it": "Leagues Cup",
-    "pt": "Leagues Cup",
-    "ar": "كأس الدوريات"
-   },
-   "home": "León",
-   "away": "Real Salt Lake",
-   "kickoffUtc": "2026-08-26T02:30:00Z",
-   "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV"
-    ],
-    "MX": [
-     "Apple TV"
-    ]
-   },
-   "sources": [
-    "US worldsoccertalk",
-    "BR futebolnatv",
-    "GB live-footballontv"
-   ]
-  },
   {
    "id": "volleyball-20260826-ispanya-portekiz",
    "sport": "volleyball",
@@ -517,12 +357,16 @@
     "DE": [
      "Sky Sport",
      "WOW"
+    ],
+    "FR": [
+     "beIN Sports 2"
     ]
    },
    "sources": [
     "GB live-footballontv",
     "US worldsoccertalk",
-    "DE fotmob"
+    "DE fotmob",
+    "FR programmefoot"
    ]
   },
   {
@@ -549,11 +393,15 @@
     ],
     "US": [
      "Paramount+"
+    ],
+    "FR": [
+     "beIN Sports 1"
     ]
    },
    "sources": [
     "GB live-footballontv",
-    "US worldsoccertalk"
+    "US worldsoccertalk",
+    "FR programmefoot"
    ]
   },
   {
@@ -953,11 +801,15 @@
     ],
     "US": [
      "Paramount+"
+    ],
+    "FR": [
+     "beIN Sports Max 4"
     ]
    },
    "sources": [
     "GB live-footballontv",
-    "US worldsoccertalk"
+    "US worldsoccertalk",
+    "FR programmefoot"
    ]
   },
   {
@@ -1202,9 +1054,15 @@
    "broadcasts": {
     "AR": [
      "TyC Sports"
+    ],
+    "BR": [
+     "XSports"
     ]
    },
-   "sources": []
+   "sources": [
+    "BR futebolnatv",
+    "AR tvenvivo"
+   ]
   },
   {
    "id": "football-20260826-river-plate-independiente-santa-fe",
@@ -1240,9 +1098,17 @@
     "BR": [
      "ESPN",
      "Disney+"
+    ],
+    "US": [
+     "beIN Sports",
+     "beIN Sports en Español",
+     "Fubo",
+     "Fanatiz"
     ]
    },
-   "sources": []
+   "sources": [
+    "US worldsoccertalk"
+   ]
   },
   {
    "id": "football-20260826-palmeiras-santos",
@@ -1264,8 +1130,10 @@
    "kickoffUtc": "2026-08-27T00:30:00Z",
    "broadcasts": {
     "BR": [
+     "Globo",
      "SporTV",
-     "Premiere"
+     "Premiere",
+     "Amazon Prime Video"
     ],
     "ES": [
      "OneFootball PPV"
@@ -1275,7 +1143,123 @@
     ]
    },
    "sources": [
-    "GB live-footballontv"
+    "GB live-footballontv",
+    "BR futebolnatv"
+   ]
+  },
+  {
+   "id": "football-20260826-toluca-austin-fc",
+   "sport": "football",
+   "competitionId": "leagues_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "Leagues Cup",
+    "en": "Leagues Cup",
+    "de": "Leagues Cup",
+    "es": "Leagues Cup",
+    "fr": "Leagues Cup",
+    "it": "Leagues Cup",
+    "pt": "Leagues Cup",
+    "ar": "كأس الدوريات"
+   },
+   "home": "Toluca",
+   "away": "Austin FC",
+   "kickoffUtc": "2026-08-27T00:30:00Z",
+   "broadcasts": {
+    "US": [
+     "FS1",
+     "UniMás",
+     "TUDN",
+     "Apple TV",
+     "Fubo",
+     "DirecTV Stream"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ]
+   },
+   "sources": [
+    "US worldsoccertalk",
+    "BR futebolnatv",
+    "GB live-footballontv",
+    "DE fotmob"
+   ]
+  },
+  {
+   "id": "football-20260826-vasco-vitoria",
+   "sport": "football",
+   "competitionId": "copa_do_brasil",
+   "tier": "global",
+   "competition": {
+    "tr": "Brezilya Kupası",
+    "en": "Copa do Brasil",
+    "de": "Copa do Brasil",
+    "es": "Copa de Brasil",
+    "fr": "Coupe du Brésil",
+    "it": "Coppa del Brasile",
+    "pt": "Copa do Brasil",
+    "ar": "كأس البرازيل"
+   },
+   "home": "Vasco da Gama",
+   "away": "Vitória",
+   "kickoffUtc": "2026-08-27T00:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Globo",
+     "SporTV",
+     "Premiere FC",
+     "Amazon Prime Video"
+    ],
+    "ES": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": [
+    "BR futebolnatv"
+   ]
+  },
+  {
+   "id": "football-20260826-club-america-columbus-crew",
+   "sport": "football",
+   "competitionId": "leagues_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "Leagues Cup",
+    "en": "Leagues Cup",
+    "de": "Leagues Cup",
+    "es": "Leagues Cup",
+    "fr": "Leagues Cup",
+    "it": "Leagues Cup",
+    "pt": "Leagues Cup",
+    "ar": "كأس الدوريات"
+   },
+   "home": "Club América",
+   "away": "Columbus Crew",
+   "kickoffUtc": "2026-08-27T02:45:00Z",
+   "broadcasts": {
+    "US": [
+     "FS1",
+     "UniMás",
+     "TUDN",
+     "Apple TV",
+     "Fubo",
+     "DirecTV Stream"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ]
+   },
+   "sources": [
+    "US worldsoccertalk",
+    "BR futebolnatv",
+    "GB live-footballontv",
+    "DE fotmob"
    ]
   },
   {
@@ -1400,9 +1384,19 @@
     ],
     "DE": [
      "DAZN"
+    ],
+    "FR": [
+     "DAZN",
+     "Disney+"
+    ],
+    "CA": [
+     "TSN+"
     ]
    },
-   "sources": []
+   "sources": [
+    "FR programmefoot",
+    "CA goal.com"
+   ]
   },
   {
    "id": "football-20260827-chelsea-luton-town",
@@ -1429,9 +1423,14 @@
     "DE": [
      "Sky Sport",
      "WOW"
+    ],
+    "FR": [
+     "beIN Sports 2"
     ]
    },
-   "sources": []
+   "sources": [
+    "FR programmefoot"
+   ]
   },
   {
    "id": "football-20260827-barcelona-athletic-bilbao",
@@ -1459,9 +1458,19 @@
     ],
     "DE": [
      "DAZN"
+    ],
+    "FR": [
+     "DAZN",
+     "Disney+"
+    ],
+    "CA": [
+     "TSN+"
     ]
    },
-   "sources": []
+   "sources": [
+    "FR programmefoot",
+    "CA goal.com"
+   ]
   },
   {
    "id": "football-20260827-fulham-afc-wimbledon",
@@ -1484,9 +1493,14 @@
    "broadcasts": {
     "GB": [
      "Sky Sports+"
+    ],
+    "FR": [
+     "beIN Sports Max 5"
     ]
    },
-   "sources": []
+   "sources": [
+    "FR programmefoot"
+   ]
   },
   {
    "id": "football-20260827-partizan-getafe",
