@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-27T10:12:37.000Z",
+ "generated_at": "2026-08-27T16:13:39.000Z",
  "date": "2026-08-27",
  "model": "user-provided",
  "stats": {
-  "total": 47,
-  "withChannel": 47,
+  "total": 43,
+  "withChannel": 43,
   "bySport": {
-   "volleyball": 10,
+   "volleyball": 6,
    "basketball": 2,
    "football": 35
   },
@@ -18,178 +18,6 @@
   ]
  },
  "matches": [
-  {
-   "id": "volleyball-20260827-hollanda-belcika",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Hollanda",
-   "away": "Belcika",
-   "kickoffUtc": "2026-08-27T11:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ],
-    "NL": [
-     "CEV YouTube"
-    ],
-    "BE": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda"
-   ],
-   "awayNames": {
-    "tr": "Belçika",
-    "en": "Belçika",
-    "de": "Belçika",
-    "es": "Belçika",
-    "fr": "Belçika",
-    "it": "Belçika",
-    "pt": "Belçika",
-    "ar": "Belçika"
-   }
-  },
-  {
-   "id": "volleyball-20260827-polonya-almanya",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Polonya",
-   "away": "Almanya",
-   "kickoffUtc": "2026-08-27T13:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor 5"
-    ],
-    "PL": [
-     "CEV YouTube"
-    ],
-    "DE": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda"
-   ]
-  },
-  {
-   "id": "volleyball-20260827-hirvatistan-karadag",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Hirvatistan",
-   "away": "Karadag",
-   "kickoffUtc": "2026-08-27T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ],
-    "HR": [
-     "CEV YouTube"
-    ],
-    "ME": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda"
-   ],
-   "homeNames": {
-    "tr": "Hırvatistan",
-    "en": "Hırvatistan",
-    "de": "Hırvatistan",
-    "es": "Hırvatistan",
-    "fr": "Hırvatistan",
-    "it": "Hırvatistan",
-    "pt": "Hırvatistan",
-    "ar": "Hırvatistan"
-   },
-   "awayNames": {
-    "tr": "Karadağ",
-    "en": "Karadağ",
-    "de": "Karadağ",
-    "es": "Karadağ",
-    "fr": "Karadağ",
-    "it": "Karadağ",
-    "pt": "Karadağ",
-    "ar": "Karadağ"
-   }
-  },
-  {
-   "id": "volleyball-20260827-ukrayna-sirbistan",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Ukrayna",
-   "away": "Sirbistan",
-   "kickoffUtc": "2026-08-27T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ],
-    "UA": [
-     "CEV YouTube"
-    ],
-    "RS": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda"
-   ],
-   "awayNames": {
-    "tr": "Sırbistan",
-    "en": "Sırbistan",
-    "de": "Sırbistan",
-    "es": "Sırbistan",
-    "fr": "Sırbistan",
-    "it": "Sırbistan",
-    "pt": "Sırbistan",
-    "ar": "Sırbistan"
-   }
-  },
   {
    "id": "volleyball-20260827-portekiz-romanya",
    "sport": "volleyball",
