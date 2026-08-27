@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-27T05:06:54.000Z",
+ "generated_at": "2026-08-27T10:12:37.000Z",
  "date": "2026-08-27",
  "model": "user-provided",
  "stats": {
-  "total": 49,
-  "withChannel": 49,
+  "total": 47,
+  "withChannel": 47,
   "bySport": {
-   "volleyball": 12,
+   "volleyball": 10,
    "basketball": 2,
    "football": 35
   },
@@ -148,51 +148,6 @@
    }
   },
   {
-   "id": "volleyball-20260827-hirvatistan-karadag",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Hirvatistan",
-   "away": "Karadag",
-   "kickoffUtc": "2026-08-27T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Hırvatistan",
-    "en": "Hırvatistan",
-    "de": "Hırvatistan",
-    "es": "Hırvatistan",
-    "fr": "Hırvatistan",
-    "it": "Hırvatistan",
-    "pt": "Hırvatistan",
-    "ar": "Hırvatistan"
-   },
-   "awayNames": {
-    "tr": "Karadağ",
-    "en": "Karadağ",
-    "de": "Karadağ",
-    "es": "Karadağ",
-    "fr": "Karadağ",
-    "it": "Karadağ",
-    "pt": "Karadağ",
-    "ar": "Karadağ"
-   }
-  },
-  {
    "id": "volleyball-20260827-ukrayna-sirbistan",
    "sport": "volleyball",
    "competitionId": "cev_women",
@@ -224,51 +179,6 @@
    "sources": [
     "TR hangikanalda"
    ],
-   "awayNames": {
-    "tr": "Sırbistan",
-    "en": "Sırbistan",
-    "de": "Sırbistan",
-    "es": "Sırbistan",
-    "fr": "Sırbistan",
-    "it": "Sırbistan",
-    "pt": "Sırbistan",
-    "ar": "Sırbistan"
-   }
-  },
-  {
-   "id": "volleyball-20260827-ukrayna-sirbistan",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Ukrayna",
-   "away": "Sirbistan",
-   "kickoffUtc": "2026-08-27T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Ukrayna",
-    "en": "Ukrayna",
-    "de": "Ukrayna",
-    "es": "Ukrayna",
-    "fr": "Ukrayna",
-    "it": "Ukrayna",
-    "pt": "Ukrayna",
-    "ar": "Ukrayna"
-   },
    "awayNames": {
     "tr": "Sırbistan",
     "en": "Sırbistan",
@@ -570,6 +480,51 @@
    ]
   },
   {
+   "id": "football-20260827-freiburg-motherwell",
+   "sport": "football",
+   "competitionId": "conference",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Konferans Ligi",
+    "en": "UEFA Conference League",
+    "de": "UEFA Conference League",
+    "es": "UEFA Conference League",
+    "fr": "UEFA Conference League",
+    "it": "UEFA Conference League",
+    "pt": "Liga Conferência da UEFA",
+    "ar": "دوري المؤتمر الأوروبي"
+   },
+   "home": "SC Freiburg",
+   "away": "Motherwell",
+   "kickoffUtc": "2026-08-27T16:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor"
+    ],
+    "GB": [
+     "Premier Sports 1"
+    ],
+    "DE": [
+     "Sportschau.de",
+     "ARD Mediathek",
+     "SWR"
+    ],
+    "US": [
+     "ESPN+"
+    ],
+    "FR": [
+     "CANAL+"
+    ],
+    "IT": [
+     "Sky Sport"
+    ]
+   },
+   "sources": [
+    "GB live-footballontv",
+    "DE fotmob"
+   ]
+  },
+  {
    "id": "football-20260827-monaco-gornik-zabrze",
    "sport": "football",
    "competitionId": "conference",
@@ -621,94 +576,6 @@
     "it": "Górnik Zabrze",
     "pt": "Górnik Zabrze",
     "ar": "Górnik Zabrze"
-   }
-  },
-  {
-   "id": "football-20260827-freiburg-motherwell",
-   "sport": "football",
-   "competitionId": "conference",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Konferans Ligi",
-    "en": "UEFA Conference League",
-    "de": "UEFA Conference League",
-    "es": "UEFA Conference League",
-    "fr": "UEFA Conference League",
-    "it": "UEFA Conference League",
-    "pt": "Liga Conferência da UEFA",
-    "ar": "دوري المؤتمر الأوروبي"
-   },
-   "home": "SC Freiburg",
-   "away": "Motherwell",
-   "kickoffUtc": "2026-08-27T16:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor"
-    ],
-    "GB": [
-     "Premier Sports 1"
-    ],
-    "DE": [
-     "Sportschau.de",
-     "ARD Mediathek",
-     "SWR"
-    ],
-    "US": [
-     "ESPN+"
-    ],
-    "FR": [
-     "CANAL+"
-    ],
-    "IT": [
-     "Sky Sport"
-    ]
-   },
-   "sources": [
-    "GB live-footballontv",
-    "DE fotmob"
-   ]
-  },
-  {
-   "id": "volleyball-20260827-cekya-bulgaristan",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Cekya",
-   "away": "Bulgaristan",
-   "kickoffUtc": "2026-08-27T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ],
-    "CZ": [
-     "CEV YouTube"
-    ],
-    "BG": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda"
-   ],
-   "homeNames": {
-    "tr": "Çekya",
-    "en": "Çekya",
-    "de": "Çekya",
-    "es": "Çekya",
-    "fr": "Çekya",
-    "it": "Çekya",
-    "pt": "Çekya",
-    "ar": "Çekya"
    }
   },
   {
@@ -853,49 +720,6 @@
     "it": "Inter Club d'Escaldes",
     "pt": "Inter Club d'Escaldes",
     "ar": "Inter Club d'Escaldes"
-   }
-  },
-  {
-   "id": "volleyball-20260827-isvec-fransa",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Isvec",
-   "away": "Fransa",
-   "kickoffUtc": "2026-08-27T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ],
-    "SE": [
-     "CEV YouTube"
-    ],
-    "FR": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda"
-   ],
-   "homeNames": {
-    "tr": "İsveç",
-    "en": "İsveç",
-    "de": "İsveç",
-    "es": "İsveç",
-    "fr": "İsveç",
-    "it": "İsveç",
-    "pt": "İsveç",
-    "ar": "İsveç"
    }
   },
   {
@@ -1299,6 +1123,92 @@
    }
   },
   {
+   "id": "volleyball-20260827-cekya-bulgaristan",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato Europeo Femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "Cekya",
+   "away": "Bulgaristan",
+   "kickoffUtc": "2026-08-27T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ],
+    "CZ": [
+     "CEV YouTube"
+    ],
+    "BG": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": [
+    "TR hangikanalda"
+   ],
+   "homeNames": {
+    "tr": "Çekya",
+    "en": "Çekya",
+    "de": "Çekya",
+    "es": "Çekya",
+    "fr": "Çekya",
+    "it": "Çekya",
+    "pt": "Çekya",
+    "ar": "Çekya"
+   }
+  },
+  {
+   "id": "volleyball-20260827-isvec-fransa",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato Europeo Femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "Isvec",
+   "away": "Fransa",
+   "kickoffUtc": "2026-08-27T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ],
+    "SE": [
+     "CEV YouTube"
+    ],
+    "FR": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": [
+    "TR hangikanalda"
+   ],
+   "homeNames": {
+    "tr": "İsveç",
+    "en": "İsveç",
+    "de": "İsveç",
+    "es": "İsveç",
+    "fr": "İsveç",
+    "it": "İsveç",
+    "pt": "İsveç",
+    "ar": "İsveç"
+   }
+  },
+  {
    "id": "football-20260827-aarhus-benfica",
    "sport": "football",
    "competitionId": "europa",
@@ -1626,6 +1536,33 @@
     "pt": "Türkiye",
     "ar": "Türkiye"
    }
+  },
+  {
+   "id": "basketball-20260827-fransa-slovenya",
+   "sport": "basketball",
+   "competitionId": "fiba_wc_q",
+   "tier": "regional",
+   "competition": {
+    "tr": "FIBA Dünya Kupası Elemeleri",
+    "en": "FIBA World Cup Qualifiers",
+    "de": "FIBA-WM-Qualifikation",
+    "es": "Clasificación Copa del Mundo FIBA",
+    "fr": "Qualifications Coupe du monde FIBA",
+    "it": "Qualificazioni Coppa del Mondo FIBA",
+    "pt": "Qualificatórias da Copa do Mundo FIBA",
+    "ar": "تصفيات كأس العالم لكرة السلة"
+   },
+   "home": "Fransa",
+   "away": "Slovenya",
+   "kickoffUtc": "2026-08-27T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": [
+    "TR hangikanalda"
+   ]
   },
   {
    "id": "football-20260827-anderlecht-kairat",
@@ -2069,33 +2006,6 @@
     "pt": "Ferencváros",
     "ar": "Ferencváros"
    }
-  },
-  {
-   "id": "basketball-20260827-fransa-slovenya",
-   "sport": "basketball",
-   "competitionId": "fiba_wc_q",
-   "tier": "regional",
-   "competition": {
-    "tr": "FIBA Dünya Kupası Elemeleri",
-    "en": "FIBA World Cup Qualifiers",
-    "de": "FIBA-WM-Qualifikation",
-    "es": "Clasificación Copa del Mundo FIBA",
-    "fr": "Qualifications Coupe du monde FIBA",
-    "it": "Qualificazioni Coppa del Mondo FIBA",
-    "pt": "Qualificatórias da Copa do Mundo FIBA",
-    "ar": "تصفيات كأس العالم لكرة السلة"
-   },
-   "home": "Fransa",
-   "away": "Slovenya",
-   "kickoffUtc": "2026-08-27T18:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda"
-   ]
   },
   {
    "id": "football-20260827-rijeka-midtjylland",
