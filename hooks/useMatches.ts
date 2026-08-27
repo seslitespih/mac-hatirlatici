@@ -95,13 +95,27 @@ export function useMatches(
     return () => sub.remove();
   }, [loadMatches, countryReady]);
 
-  // Seçili takımlar değişince bildirimleri güncelle
+  // Bildirimleri seçili takımlar VEYA maç listesi değişince yeniden kur.
+  //
+  // ⚠️ Eskiden bağımlılık yalnız [selectedTeamIds] idi. Uygulama açılışında
+  // favoriler depodan maçlardan ÖNCE geliyor; etki o anda `allMatches` boş
+  // olduğu için hiçbir şey kurmuyor, maçlar yüklenince de tekrar çalışmıyordu.
+  // Sonuç: kullanıcı favorilerine dokunmadıkça bildirim kurulmuyordu ve her
+  // günün yeni maçları için hiç kurulmuyordu. 27 Ağu 2026'da bulundu.
+  //
+  // scheduleAllNotifications kendi içinde önce hepsini iptal ediyor, yani
+  // tekrar çağrılması güvenli.
+  const macImzasi = useMemo(
+    () => allMatches.map(m => m.id).join('|'),
+    [allMatches],
+  );
+
   useEffect(() => {
     if (selectedTeamIds.length > 0 && allMatches.length > 0) {
       scheduleAllNotifications(selectedTeamIds, allMatches, i18n.language).catch(() => {});
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedTeamIds]);
+  }, [selectedTeamIds, macImzasi, i18n.language]);
 
   const refresh = useCallback(() => loadMatches(true, true), [loadMatches]);
 
