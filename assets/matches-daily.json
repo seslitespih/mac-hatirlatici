@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-08-28T05:30:32.000Z",
+ "generated_at": "2026-08-28T05:38:20.000Z",
  "date": "2026-08-28",
  "model": "user-provided",
  "stats": {
-  "total": 29,
-  "withChannel": 29,
+  "total": 30,
+  "withChannel": 30,
   "bySport": {
-   "football": 21,
    "volleyball": 5,
+   "football": 22,
    "basketball": 3
   },
   "warnings": 0,
@@ -18,137 +18,6 @@
   ]
  },
  "matches": [
-  {
-   "id": "football-20260827-estudiantes-barracas-central",
-   "sport": "football",
-   "competitionId": "copa_argentina",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Kupası",
-    "en": "Copa Argentina",
-    "de": "Copa Argentina",
-    "es": "Copa Argentina",
-    "fr": "Coupe d'Argentine",
-    "it": "Coppa d'Argentina",
-    "pt": "Copa Argentina",
-    "ar": "كأس الأرجنتين"
-   },
-   "home": "Estudiantes",
-   "away": "Barracas Central",
-   "kickoffUtc": "2026-08-27T22:00:00Z",
-   "broadcasts": {
-    "AR": [
-     "TyC Sports"
-    ],
-    "BR": [
-     "XSports"
-    ]
-   },
-   "sources": [
-    "AR tvenvivo"
-   ]
-  },
-  {
-   "id": "football-20260827-internacional-gremio",
-   "sport": "football",
-   "competitionId": "copa_do_brasil",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Kupası",
-    "en": "Copa do Brasil",
-    "de": "Copa do Brasil",
-    "es": "Copa de Brasil",
-    "fr": "Coupe du Brésil",
-    "it": "Coppa del Brasile",
-    "pt": "Copa do Brasil",
-    "ar": "كأس البرازيل"
-   },
-   "home": "Internacional",
-   "away": "Gremio",
-   "kickoffUtc": "2026-08-27T23:00:00Z",
-   "broadcasts": {
-    "BR": [
-     "Amazon Prime Video"
-    ]
-   },
-   "sources": [
-    "BR futebolnatv"
-   ],
-   "awayNames": {
-    "tr": "Grêmio",
-    "en": "Grêmio",
-    "de": "Grêmio",
-    "es": "Grêmio",
-    "fr": "Grêmio",
-    "it": "Grêmio",
-    "pt": "Grêmio",
-    "ar": "Grêmio"
-   }
-  },
-  {
-   "id": "football-20260827-platense-instituto",
-   "sport": "football",
-   "competitionId": "copa_argentina",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Kupası",
-    "en": "Copa Argentina",
-    "de": "Copa Argentina",
-    "es": "Copa Argentina",
-    "fr": "Coupe d'Argentine",
-    "it": "Coppa d'Argentina",
-    "pt": "Copa Argentina",
-    "ar": "كأس الأرجنتين"
-   },
-   "home": "Platense",
-   "away": "Instituto",
-   "kickoffUtc": "2026-08-28T00:15:00Z",
-   "broadcasts": {
-    "AR": [
-     "TyC Sports"
-    ]
-   },
-   "sources": [
-    "AR tvenvivo"
-   ]
-  },
-  {
-   "id": "football-20260828-necaxa-cruz-azul",
-   "sport": "football",
-   "competitionId": "liga_mx",
-   "tier": "regional",
-   "competition": {
-    "tr": "Meksika Ligi",
-    "en": "Liga MX",
-    "de": "Liga MX",
-    "es": "Liga MX",
-    "fr": "Liga MX",
-    "it": "Liga MX",
-    "pt": "Liga MX",
-    "ar": "الدوري المكسيكي"
-   },
-   "home": "Necaxa",
-   "away": "Cruz Azul",
-   "kickoffUtc": "2026-08-28T01:00:00Z",
-   "broadcasts": {
-    "US": [
-     "FOX Deportes",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV"
-    ],
-    "MX": [
-     "TUDN",
-     "Canal 5",
-     "ViX",
-     "FOX One",
-     "TV Azteca"
-    ]
-   },
-   "sources": [
-    "US worldsoccertalk"
-   ]
-  },
   {
    "id": "volleyball-20260828-ispanya-romanya",
    "sport": "volleyball",
@@ -620,6 +489,10 @@
     ],
     "CH": [
      "DAZN"
+    ],
+    "BR": [
+     "XSports",
+     "SporTV 2"
     ]
    },
    "sources": [
@@ -668,6 +541,9 @@
     ],
     "CH": [
      "DAZN"
+    ],
+    "BR": [
+     "BandSports"
     ]
    },
    "sources": [
@@ -1471,6 +1347,9 @@
     "US": [
      "beIN Sports Connect",
      "Fanatiz"
+    ],
+    "BR": [
+     "Disney+"
     ]
    },
    "sources": [
@@ -1599,6 +1478,212 @@
     "it": "Alavés",
     "pt": "Alavés",
     "ar": "Alavés"
+   }
+  },
+  {
+   "id": "football-20260828-union-sarmiento",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Ligi",
+    "en": "Argentine Primera División",
+    "de": "Argentinische Primera División",
+    "es": "Primera División de Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primeira Divisão Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Union",
+   "away": "Sarmiento",
+   "kickoffUtc": "2026-08-28T22:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart",
+     "Smart Spor HD"
+    ],
+    "AR": [
+     "ESPN Premium",
+     "TNT Sports Premium"
+    ],
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": [
+    "AR tvenvivo",
+    "BR futebolnatv"
+   ],
+   "homeNames": {
+    "tr": "Unión",
+    "en": "Unión",
+    "de": "Unión",
+    "es": "Unión",
+    "fr": "Unión",
+    "it": "Unión",
+    "pt": "Unión",
+    "ar": "Unión"
+   }
+  },
+  {
+   "id": "football-20260828-goias-sao-bernardo",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B bresilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Goias",
+   "away": "Sao Bernardo",
+   "kickoffUtc": "2026-08-28T22:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": [
+    "BR futebolnatv"
+   ],
+   "homeNames": {
+    "tr": "Goiás",
+    "en": "Goiás",
+    "de": "Goiás",
+    "es": "Goiás",
+    "fr": "Goiás",
+    "it": "Goiás",
+    "pt": "Goiás",
+    "ar": "Goiás"
+   },
+   "awayNames": {
+    "tr": "São Bernardo",
+    "en": "São Bernardo",
+    "de": "São Bernardo",
+    "es": "São Bernardo",
+    "fr": "São Bernardo",
+    "it": "São Bernardo",
+    "pt": "São Bernardo",
+    "ar": "São Bernardo"
+   }
+  },
+  {
+   "id": "football-20260828-nautico-athletic-club",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B bresilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Nautico",
+   "away": "Athletic Club",
+   "kickoffUtc": "2026-08-28T23:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "SporTV",
+     "Premiere"
+    ]
+   },
+   "sources": [
+    "BR futebolnatv"
+   ],
+   "homeNames": {
+    "tr": "Náutico",
+    "en": "Náutico",
+    "de": "Náutico",
+    "es": "Náutico",
+    "fr": "Náutico",
+    "it": "Náutico",
+    "pt": "Náutico",
+    "ar": "Náutico"
+   }
+  },
+  {
+   "id": "football-20260828-novorizontino-sport-recife",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B bresilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Novorizontino",
+   "away": "Sport Recife",
+   "kickoffUtc": "2026-08-28T23:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": [
+    "BR futebolnatv"
+   ]
+  },
+  {
+   "id": "football-20260828-boca-juniors-lanus",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Ligi",
+    "en": "Argentine Primera División",
+    "de": "Argentinische Primera División",
+    "es": "Primera División de Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primeira Divisão Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Boca Juniors",
+   "away": "Lanus",
+   "kickoffUtc": "2026-08-29T00:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart",
+     "Smart Spor HD"
+    ],
+    "AR": [
+     "ESPN Premium",
+     "TNT Sports Premium"
+    ],
+    "BR": [
+     "ESPN 4",
+     "Disney+"
+    ]
+   },
+   "sources": [
+    "AR tvenvivo",
+    "BR futebolnatv"
+   ],
+   "awayNames": {
+    "tr": "Lanús",
+    "en": "Lanús",
+    "de": "Lanús",
+    "es": "Lanús",
+    "fr": "Lanús",
+    "it": "Lanús",
+    "pt": "Lanús",
+    "ar": "Lanús"
    }
   }
  ]
