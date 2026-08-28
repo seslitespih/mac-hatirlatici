@@ -1088,6 +1088,9 @@
       ],
       "CA": [
         "https://www.goal.com/en-ca/sports-events/soccer"
+      ],
+      "IT": [
+        "https://www.betscanner.it/news/info/calcio-in-tv-oggi"
       ]
     },
     "_not": "Arapca pazarlarda kooora.com ve yallakora.com gunluk 'mac programi + naklen kanallar' sayfasi yayinliyor — Irak, Urdun, Umman, Misir icin en pratik tek kaynak.",
@@ -1103,19 +1106,22 @@
         "MENA": "sporsat.com/ar (saatler UTC gelir)",
         "US": "worldsoccertalk.com/upcoming-matches (ET saati; sayfa ONCE DUNU listeler)",
         "TR": "hangikanalda.app/api/proxy/matches — JSON API, curl ile cek",
-        "DE": "fotmob.com/de/tv-guide/de (saatler UTC gelir)"
+        "DE": "fotmob.com/de/tv-guide/de (saatler UTC gelir)",
+        "CA": "goal.com/en-ca/sports-events/soccer (WebFetch; saatler ZIYARETCININ diliminde gelir)",
+        "IT": "betscanner.it/news/info/calcio-in-tv-oggi (kullanicidan geldi; GUNU GEC CEVIRIYOR - sabah 08:30'da hala dunu gosteriyordu)"
       },
       "calismiyor": {
         "BR_ESKI": "jogostv.com.br - SITENIN KENDISI bir gun geride, kullanma",
-        "CA": "goal.com/en-ca/sports-events/soccer - DNS cozulmuyor",
         "DE_ESKI": "tvfussball.de - bot'a 09.08 sayfasini veriyor, 24.08 sadece takvim linki. KULLANMA."
       },
       "kullanicidan_istenecek": [
-        "CA (goal.com/en-ca/sports-events/soccer - DNS cozulmuyor; Kanada kanallari dar: Fubo / TSN+)"
+        "PT (Portekiz) icin gunluk kaynak yok — Liga Portugal kanallari yalniz tablodan geliyor",
+        "MX (Meksika) icin gunluk kaynak yok"
       ],
       "_prompt_notu": "WorldSoccerTalk sayfasi ONCE dunun bolumunu gosteriyor; ozetleyici orada takiliyor. Istekte 'dunu atla, sadece <bugunun tarihi> basligi altindakileri listele' de.",
       "_tr_api_notu": "hangikanalda.app/api/proxy/matches -> {futbol:{leagues:[{matches:[{home,away,time,league,channels}]}]}, voleybol:{...}}. time = Istanbul (UTC+3). Kanal adlari OZENSIZ ('Bein Sports', 'CEV Youtube') - marka yazimina cevir: beIN Sports, CEV YouTube."
-    }
+    },
+    "_gec_donen": "Gunu GEC ceviren kaynaklar — sabahin erken saatlerinde hala DUNU gosterirler, o calismada kullanma, 13:07/19:07 calismalarinda tekrar dene: AR (tvenvivo), BR (futebolnatv), MENA (sporsat), IT (betscanner)."
   },
   "brezilya_ozel": {
     "_comment": "BREZILYA EN BUYUK PAZAR (25 gunde 29 iOS indirme). Haklar KULUP BLOGUNA gore bolunuyor — blok harita asla uygulanamaz, her mac icin ev sahibi/deplasman hangi blokta bakilir.",
