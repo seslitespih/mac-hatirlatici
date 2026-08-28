@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-08-28T05:39:00.000Z",
+ "generated_at": "2026-08-28T16:15:00.000Z",
  "date": "2026-08-28",
  "model": "user-provided",
  "stats": {
-  "total": 30,
-  "withChannel": 30,
+  "total": 29,
+  "withChannel": 29,
   "bySport": {
-   "volleyball": 5,
-   "football": 22,
+   "volleyball": 2,
+   "football": 24,
    "basketball": 3
   },
   "warnings": 0,
@@ -18,115 +18,6 @@
   ]
  },
  "matches": [
-  {
-   "id": "volleyball-20260828-ispanya-romanya",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe feminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Ispanya",
-   "away": "Romanya",
-   "kickoffUtc": "2026-08-28T11:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ],
-    "ES": [
-     "CEV YouTube"
-    ],
-    "RO": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda"
-   ],
-   "homeNames": {
-    "tr": "İspanya",
-    "en": "İspanya",
-    "de": "İspanya",
-    "es": "İspanya",
-    "fr": "İspanya",
-    "it": "İspanya",
-    "pt": "İspanya",
-    "ar": "İspanya"
-   }
-  },
-  {
-   "id": "volleyball-20260828-slovenya-macaristan",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe feminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Slovenya",
-   "away": "Macaristan",
-   "kickoffUtc": "2026-08-28T13:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ],
-    "SI": [
-     "CEV YouTube"
-    ],
-    "HU": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda"
-   ]
-  },
-  {
-   "id": "volleyball-20260828-azerbaycan-hollanda",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe feminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Azerbaycan",
-   "away": "Hollanda",
-   "kickoffUtc": "2026-08-28T14:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ],
-    "AZ": [
-     "CEV YouTube"
-    ],
-    "NL": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [
-    "TR hangikanalda"
-   ]
-  },
   {
    "id": "volleyball-20260828-ispanya-turkiye-erkekler",
    "sport": "volleyball",
@@ -194,8 +85,8 @@
    "kickoffUtc": "2026-08-28T16:00:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor",
-     "beIN Connect"
+     "beIN Sports Max 1",
+     "tabii Spor 6"
     ]
    },
    "sources": [
@@ -242,8 +133,8 @@
    "kickoffUtc": "2026-08-28T16:00:00Z",
    "broadcasts": {
     "TR": [
-     "beIN Sports 2",
-     "tabii Spor"
+     "TRT Türk",
+     "beIN Sports 2"
     ]
    },
    "sources": [
@@ -330,6 +221,56 @@
     "TR hangikanalda",
     "GB live-footballontv"
    ]
+  },
+  {
+   "id": "football-20260828-bochum-osnabruck",
+   "sport": "football",
+   "competitionId": "bundesliga2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Almanya 2. Bundesliga",
+    "en": "2. Bundesliga",
+    "de": "2. Bundesliga",
+    "es": "2. Bundesliga",
+    "fr": "2. Bundesliga",
+    "it": "2. Bundesliga",
+    "pt": "2. Bundesliga",
+    "ar": "دوري الدرجة الثانية الألماني"
+   },
+   "home": "Bochum",
+   "away": "Osnabruck",
+   "kickoffUtc": "2026-08-28T16:30:00Z",
+   "broadcasts": {
+    "DE": [
+     "Sky Sport",
+     "WOW"
+    ]
+   },
+   "sources": [
+    "DE fotmob",
+    "GB live-footballontv",
+    "BR futebolnatv"
+   ],
+   "homeNames": {
+    "tr": "VfL Bochum",
+    "en": "VfL Bochum",
+    "de": "VfL Bochum",
+    "es": "VfL Bochum",
+    "fr": "VfL Bochum",
+    "it": "VfL Bochum",
+    "pt": "VfL Bochum",
+    "ar": "VfL Bochum"
+   },
+   "awayNames": {
+    "tr": "VfL Osnabrück",
+    "en": "VfL Osnabrück",
+    "de": "VfL Osnabrück",
+    "es": "VfL Osnabrück",
+    "fr": "VfL Osnabrück",
+    "it": "VfL Osnabrück",
+    "pt": "VfL Osnabrück",
+    "ar": "VfL Osnabrück"
+   }
   },
   {
    "id": "football-20260828-racing-santander-elche",
@@ -699,7 +640,7 @@
     ],
     "DE": [
      "Sky Sport",
-     "DAZN"
+     "SAT.1"
     ],
     "GB": [
      "BBC iPlayer",
@@ -759,6 +700,13 @@
     ],
     "CA": [
      "Fubo"
+    ],
+    "BR": [
+     "SporTV",
+     "SportyNet"
+    ],
+    "IT": [
+     "Sky Sport"
     ]
    },
    "sources": [
@@ -827,8 +775,8 @@
    "kickoffUtc": "2026-08-28T18:30:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor",
-     "beIN Connect"
+     "TRT Türk",
+     "beIN Sports Max 1"
     ]
    },
    "sources": [
@@ -866,6 +814,9 @@
    "broadcasts": {
     "TR": [
      "beIN Sports 1"
+    ],
+    "BR": [
+     "Disney+"
     ]
    },
    "sources": [
@@ -1239,6 +1190,9 @@
     ],
     "CA": [
      "Fubo"
+    ],
+    "IT": [
+     "Sky Sport"
     ]
    },
    "sources": [
@@ -1362,6 +1316,9 @@
     ],
     "BR": [
      "Disney+"
+    ],
+    "IT": [
+     "DAZN"
     ]
    },
    "sources": [
@@ -1700,6 +1657,37 @@
     "pt": "Lanús",
     "ar": "Lanús"
    }
+  },
+  {
+   "id": "football-20260829-necaxa-cruz-azul",
+   "sport": "football",
+   "competitionId": "liga_mx",
+   "tier": "regional",
+   "competition": {
+    "tr": "Meksika Ligi",
+    "en": "Liga MX",
+    "de": "Liga MX",
+    "es": "Liga MX",
+    "fr": "Liga MX",
+    "it": "Liga MX",
+    "pt": "Liga MX",
+    "ar": "الدوري المكسيكي"
+   },
+   "home": "Necaxa",
+   "away": "Cruz Azul",
+   "kickoffUtc": "2026-08-29T01:00:00Z",
+   "broadcasts": {
+    "MX": [
+     "FOX One"
+    ],
+    "US": [
+     "FOX Deportes",
+     "Fubo"
+    ]
+   },
+   "sources": [
+    "US worldsoccertalk"
+   ]
   }
  ]
 }
