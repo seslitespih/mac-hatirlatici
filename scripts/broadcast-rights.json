@@ -1,6 +1,6 @@
 {
   "_comment": "Turnuva x ulke yayin haklari. Gunluk fikstur uretiminde TABAN olarak kullanilir; her gun sifirdan aranmaz. 'durum' alani: dogrulandi = web aramasiyla teyit edildi, tahmin = sektor bilgisi ama kaynakla teyit edilmedi. Sezon basinda ve 'su kanal yanlis' geri bildiriminde guncellenir.",
-  "_guncelleme": "2026-08-26",
+  "_guncelleme": "2026-08-28",
   "_kullanim": "Once buradaki tabani uygula, sonra 'bolunmeler' kurallarini kontrol et, en son o maca ozel arama yap. Bolunme kurali olan ulkelerde (DE, IT, ES, GB) MUTLAKA mac bazinda dogrula.",
   "bolgeler": {
     "MENA": [
@@ -38,7 +38,26 @@
       "PE",
       "EC"
     ],
-    "_not_BR": "BREZILYA HICBIR KISAYOLA DAHIL DEGIL. Ayri yayinci ekosistemi var, neredeyse her turnuvada LATAM'in geri kalanindan farkli. Her turnuvada BR'yi ACIKCA yaz."
+    "_not_BR": "BREZILYA HICBIR KISAYOLA DAHIL DEGIL. Ayri yayinci ekosistemi var, neredeyse her turnuvada LATAM'in geri kalanindan farkli. Her turnuvada BR'yi ACIKCA yaz.",
+    "AFRICA_EN": [
+      "NG",
+      "ZA",
+      "GH"
+    ],
+    "AFRICA_FR": [
+      "SN",
+      "CI",
+      "ML"
+    ],
+    "LATAM_SUR": [
+      "CO",
+      "CL",
+      "UY",
+      "PY",
+      "PE",
+      "EC"
+    ],
+    "_not_bolgeler": "AFRICA_EN = Ingilizce konusan Sahra alti (SuperSport). AFRICA_FR = Fransizca konusan Sahra alti (Canal+ Afrique). LATAM_SUR = Ispanyolca Guney Amerika (ESPN/Disney+). GT ayri: Orta Amerika paketi (FOX/TNT)."
   },
   "turnuvalar": {
     "champions": {
@@ -88,6 +107,9 @@
           "Max",
           "TNT",
           "Space"
+        ],
+        "@AFRICA_FR": [
+          "Canal+"
         ]
       },
       "bolunmeler": [
@@ -122,7 +144,7 @@
           ]
         }
       ],
-      "notlar": "Almanya'da final ZDF'de de yayinlanir. Ispanya'da final RTVE'de (2026-27 sonuna kadar). Fransa'da M6 finali serbest yayinlar. BREZILYA @LATAM KISAYOLUNA DAHIL DEGIL: Disney+ degil TNT Sports/Max. Haklar 2031'e kadar TNT Sports'ta."
+      "notlar": "Almanya'da final ZDF'de de yayinlanir. Ispanya'da final RTVE'de (2026-27 sonuna kadar). Fransa'da M6 finali serbest yayinlar. BREZILYA @LATAM KISAYOLUNA DAHIL DEGIL: Disney+ degil TNT Sports/Max. Haklar 2031'e kadar TNT Sports'ta. Canal+ Afrique Sahra altinda Ligue 1, Premier Lig, LaLiga, Serie A ve Sampiyonlar Ligi'nin tamamini veren tek resmi yayinci. Bundesliga sozlesmesi 2028'e kadar."
     },
     "europa": {
       "ad": "UEFA Avrupa Ligi",
@@ -211,6 +233,12 @@
         ],
         "@MENA": [
           "beIN Sports"
+        ],
+        "@AFRICA_EN": [
+          "SuperSport"
+        ],
+        "@AFRICA_FR": [
+          "Canal+"
         ]
       },
       "bolunmeler": [
@@ -239,7 +267,7 @@
           ]
         }
       ],
-      "notlar": "BR: 2026-27'den itibaren CazeTV, Disney'in yerini aldi (2031-32'ye kadar). US: ESPN munhasir, 2028-29'a kadar. FR: 15 Agu 2026'dan itibaren DAZN + Disney+; 14 sezonluk beIN Sports donemi bitti. Iki platform da her hafta 10 macin TAMAMINI veriyor, mac bazinda bolunme YOK. 2028-29'a kadar. (24 Agu 2026 dogrulandi.)"
+      "notlar": "BR: 2026-27'den itibaren CazeTV, Disney'in yerini aldi (2031-32'ye kadar). US: ESPN munhasir, 2028-29'a kadar. FR: 15 Agu 2026'dan itibaren DAZN + Disney+; 14 sezonluk beIN Sports donemi bitti. Iki platform da her hafta 10 macin TAMAMINI veriyor, mac bazinda bolunme YOK. 2028-29'a kadar. (24 Agu 2026 dogrulandi.) Afrika: Canal+ (Fransizca, 2026-27'ye kadar) ve SuperSport (Sahra alti) munhasir DEGIL, ikisi de yayinlar."
     },
     "premier": {
       "ad": "Premier League",
@@ -269,6 +297,29 @@
         "BR": [
           "Disney+",
           "ESPN"
+        ],
+        "@AFRICA_EN": [
+          "SuperSport"
+        ],
+        "@AFRICA_FR": [
+          "Canal+"
+        ],
+        "@LATAM_SUR": [
+          "ESPN",
+          "Disney+"
+        ],
+        "GT": [
+          "FOX Sports",
+          "TNT Sports"
+        ],
+        "AU": [
+          "Stan Sport"
+        ],
+        "JP": [
+          "U-NEXT"
+        ],
+        "KR": [
+          "Coupang Play"
         ]
       },
       "bolunmeler": [
@@ -303,7 +354,7 @@
           ]
         }
       ],
-      "notlar": "ABD haklari NBCUniversal'da 2026-27 sonuna kadar. DE: Sky munhasir 2030/31'e kadar (24 Agu 2026 web aramasiyla dogrulandi)."
+      "notlar": "ABD haklari NBCUniversal'da 2026-27 sonuna kadar. DE: Sky munhasir 2030/31'e kadar (24 Agu 2026 web aramasiyla dogrulandi). 2026-27 denizasiri: Sahra alti SuperSport + Canal+; Guney Amerika ESPN; Orta Amerika (GT dahil) FOX/TNT; Avustralya Stan Sport (Optus DEGIL, 2025-26'da degisti); Japonya U-NEXT; Kore Coupang Play. 28 Agu 2026 dogrulandi."
     },
     "seriea": {
       "ad": "Serie A",
@@ -332,6 +383,9 @@
         ],
         "@MENA": [
           "beIN Sports"
+        ],
+        "@AFRICA_FR": [
+          "Canal+"
         ]
       },
       "bolunmeler": [
@@ -350,7 +404,7 @@
           ]
         }
       ],
-      "notlar": "CBS ile ABD anlasmasi 2026-27 icin uzatildi."
+      "notlar": "CBS ile ABD anlasmasi 2026-27 icin uzatildi. Canal+ Afrique Sahra altinda Ligue 1, Premier Lig, LaLiga, Serie A ve Sampiyonlar Ligi'nin tamamini veren tek resmi yayinci. Bundesliga sozlesmesi 2028'e kadar."
     },
     "bundesliga": {
       "ad": "Bundesliga",
@@ -367,6 +421,9 @@
         ],
         "@MENA": [
           "beIN Sports"
+        ],
+        "@AFRICA_FR": [
+          "Canal+"
         ]
       },
       "bolunmeler": [
@@ -378,7 +435,7 @@
           ]
         }
       ],
-      "notlar": "ABD haklari ESPN ile bitti (6 yillik anlasma sona erdi), yeni yayinci HENUZ BELIRSIZ — ABD icin mac bazinda ara."
+      "notlar": "ABD haklari ESPN ile bitti (6 yillik anlasma sona erdi), yeni yayinci HENUZ BELIRSIZ — ABD icin mac bazinda ara. Canal+ Afrique Sahra altinda Ligue 1, Premier Lig, LaLiga, Serie A ve Sampiyonlar Ligi'nin tamamini veren tek resmi yayinci. Bundesliga sozlesmesi 2028'e kadar."
     },
     "ligue1": {
       "ad": "Ligue 1",
@@ -393,10 +450,13 @@
         ],
         "@MENA": [
           "beIN Sports"
+        ],
+        "@AFRICA_FR": [
+          "Canal+"
         ]
       },
       "bolunmeler": [],
-      "notlar": "ONEMLI DEGISIKLIK: Ligue 1 artik LFP'nin kendi kanalinda (Ligue 1+), her haftanin 9 macinin tamami. DAZN 2025 yazinda, beIN Sports 2025 sonunda cekildi. Eski haritalarda beIN/DAZN yaziyorsa YANLIS."
+      "notlar": "ONEMLI DEGISIKLIK: Ligue 1 artik LFP'nin kendi kanalinda (Ligue 1+), her haftanin 9 macinin tamami. DAZN 2025 yazinda, beIN Sports 2025 sonunda cekildi. Eski haritalarda beIN/DAZN yaziyorsa YANLIS. Canal+ Afrique Sahra altinda Ligue 1, Premier Lig, LaLiga, Serie A ve Sampiyonlar Ligi'nin tamamini veren tek resmi yayinci. Bundesliga sozlesmesi 2028'e kadar."
     },
     "primeira": {
       "ad": "Liga Portugal",
@@ -1171,5 +1231,6 @@
       "kural": "MENA_YAYINCISI_YOK listesindeki turnuvalara beIN YAZMA - Sporsat bu maclarda kanal sutununu bos birakiyor, yani MENA hakki yok. Ayrica Sporsat her maca ayni anda '1 HD + 2 HD' yaziyor: alt kanal numarasi maca ozel degil, katman gostergesi."
     },
     "sporsat_saat_tuzagi": "KRITIK: Sporsat saatleri ZIYARETCININ diliminde gosteriyor ('بتوقيتك'). Ben WebFetch ile cekince tarayici dilimi olmadigi icin **UTC** geliyor - dogrudan kullanilabilir. Kullanici kendi tarayicisindan yapistirinca **Istanbul (UTC+3)** geliyor. Hangi yoldan geldigine gore cevir."
-  }
+  },
+  "_bilinen_bosluk": "Su ulkeler icin HALA kaynak/taban yok: AT, CH, BE, NO, HR, CZ, GR, IR, LY. Avrupa'nin kucuk pazarlari icin gunluk kaynak da yok. Bir maci bu ulkelerde yayinlandigindan emin degilsen YAZMA."
 }
