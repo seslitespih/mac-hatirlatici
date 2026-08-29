@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-08-29T10:12:24.000Z",
+ "generated_at": "2026-08-29T16:15:00.000Z",
  "date": "2026-08-29",
  "model": "user-provided",
  "stats": {
-  "total": 44,
-  "withChannel": 44,
+  "total": 39,
+  "withChannel": 39,
   "bySport": {
-   "football": 43,
-   "volleyball": 1
+   "volleyball": 1,
+   "football": 38
   },
   "warnings": 0,
   "searches": 0,
@@ -17,773 +17,6 @@
   ]
  },
  "matches": [
-  {
-   "id": "football-20260829-karlsruher-sc-wolfsburg",
-   "sport": "football",
-   "competitionId": "bundesliga2",
-   "tier": "regional",
-   "competition": {
-    "tr": "Almanya 2. Bundesliga",
-    "en": "2. Bundesliga",
-    "de": "2. Bundesliga",
-    "es": "2. Bundesliga",
-    "fr": "2. Bundesliga",
-    "it": "2. Bundesliga",
-    "pt": "2. Bundesliga",
-    "ar": "دوري الدرجة الثانية الألماني"
-   },
-   "home": "Karlsruher SC",
-   "away": "Wolfsburg",
-   "kickoffUtc": "2026-08-29T11:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "DE": [
-     "Sky Sport",
-     "WOW"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260829-liverpool-nottingham-forest",
-   "sport": "football",
-   "competitionId": "premier",
-   "tier": "global",
-   "competition": {
-    "tr": "İngiltere Premier Lig",
-    "en": "Premier League",
-    "de": "Premier League",
-    "es": "Premier League",
-    "fr": "Premier League",
-    "it": "Premier League",
-    "pt": "Premier League",
-    "ar": "الدوري الإنجليزي الممتاز"
-   },
-   "home": "Liverpool",
-   "away": "Nottingham Forest",
-   "kickoffUtc": "2026-08-29T11:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 3",
-     "Idman TV"
-    ],
-    "GB": [
-     "TNT Sports 1",
-     "TNT Sports Ultimate"
-    ],
-    "FR": [
-     "CANAL+"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "US": [
-     "NBC",
-     "Peacock",
-     "USA Network"
-    ],
-    "DE": [
-     "Sky"
-    ],
-    "BR": [
-     "Disney+",
-     "ESPN"
-    ],
-    "IT": [
-     "Sky Sport"
-    ],
-    "GT": [
-     "FOX Sports",
-     "TNT Sports"
-    ],
-    "AU": [
-     "Stan Sport"
-    ],
-    "JP": [
-     "U-NEXT"
-    ],
-    "KR": [
-     "Coupang Play"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ],
-    "NG": [
-     "SuperSport"
-    ],
-    "ZA": [
-     "SuperSport"
-    ],
-    "GH": [
-     "SuperSport"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260829-middlesbrough-west-brom",
-   "sport": "football",
-   "competitionId": "championship",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Championship",
-    "en": "EFL Championship",
-    "de": "EFL Championship",
-    "es": "EFL Championship",
-    "fr": "EFL Championship",
-    "it": "EFL Championship",
-    "pt": "EFL Championship",
-    "ar": "دوري البطولة الإنجليزية"
-   },
-   "home": "Middlesbrough",
-   "away": "West Brom",
-   "kickoffUtc": "2026-08-29T11:30:00Z",
-   "broadcasts": {
-    "GB": [
-     "ITV1",
-     "STV",
-     "Sky Sports Football"
-    ],
-    "FR": [
-     "beIN Sports Max 7"
-    ],
-    "US": [
-     "Paramount+"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "West Bromwich Albion",
-    "en": "West Bromwich Albion",
-    "de": "West Bromwich Albion",
-    "es": "West Bromwich Albion",
-    "fr": "West Bromwich Albion",
-    "it": "West Bromwich Albion",
-    "pt": "West Bromwich Albion",
-    "ar": "West Bromwich Albion"
-   }
-  },
-  {
-   "id": "football-20260829-koln-hoffenheim",
-   "sport": "football",
-   "competitionId": "bundesliga",
-   "tier": "global",
-   "competition": {
-    "tr": "Almanya Bundesliga",
-    "en": "Bundesliga",
-    "de": "Bundesliga",
-    "es": "Bundesliga",
-    "fr": "Bundesliga",
-    "it": "Bundesliga",
-    "pt": "Bundesliga",
-    "ar": "الدوري الألماني"
-   },
-   "home": "Koln",
-   "away": "Hoffenheim",
-   "kickoffUtc": "2026-08-29T13:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "DE": [
-     "Sky Sport",
-     "WOW"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Köln",
-    "en": "Köln",
-    "de": "Köln",
-    "es": "Köln",
-    "fr": "Köln",
-    "it": "Köln",
-    "pt": "Köln",
-    "ar": "Köln"
-   }
-  },
-  {
-   "id": "football-20260829-mainz-paderborn",
-   "sport": "football",
-   "competitionId": "bundesliga",
-   "tier": "global",
-   "competition": {
-    "tr": "Almanya Bundesliga",
-    "en": "Bundesliga",
-    "de": "Bundesliga",
-    "es": "Bundesliga",
-    "fr": "Bundesliga",
-    "it": "Bundesliga",
-    "pt": "Bundesliga",
-    "ar": "الدوري الألماني"
-   },
-   "home": "Mainz",
-   "away": "Paderborn",
-   "kickoffUtc": "2026-08-29T13:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "DE": [
-     "Sky Sport",
-     "WOW"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260829-rb-leipzig-monchengladbach",
-   "sport": "football",
-   "competitionId": "bundesliga",
-   "tier": "global",
-   "competition": {
-    "tr": "Almanya Bundesliga",
-    "en": "Bundesliga",
-    "de": "Bundesliga",
-    "es": "Bundesliga",
-    "fr": "Bundesliga",
-    "it": "Bundesliga",
-    "pt": "Bundesliga",
-    "ar": "الدوري الألماني"
-   },
-   "home": "RB Leipzig",
-   "away": "Monchengladbach",
-   "kickoffUtc": "2026-08-29T13:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "DE": [
-     "Sky Sport",
-     "WOW",
-     "RTL"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Mönchengladbach",
-    "en": "Mönchengladbach",
-    "de": "Mönchengladbach",
-    "es": "Mönchengladbach",
-    "fr": "Mönchengladbach",
-    "it": "Mönchengladbach",
-    "pt": "Mönchengladbach",
-    "ar": "Mönchengladbach"
-   }
-  },
-  {
-   "id": "football-20260829-union-berlin-eintracht-frankfurt",
-   "sport": "football",
-   "competitionId": "bundesliga",
-   "tier": "global",
-   "competition": {
-    "tr": "Almanya Bundesliga",
-    "en": "Bundesliga",
-    "de": "Bundesliga",
-    "es": "Bundesliga",
-    "fr": "Bundesliga",
-    "it": "Bundesliga",
-    "pt": "Bundesliga",
-    "ar": "الدوري الألماني"
-   },
-   "home": "Union Berlin",
-   "away": "Eintracht Frankfurt",
-   "kickoffUtc": "2026-08-29T13:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "Idman TV",
-     "S Sport Plus"
-    ],
-    "DE": [
-     "Sky Sport",
-     "WOW"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260829-elversberg-bayer-leverkusen",
-   "sport": "football",
-   "competitionId": "bundesliga",
-   "tier": "global",
-   "competition": {
-    "tr": "Almanya Bundesliga",
-    "en": "Bundesliga",
-    "de": "Bundesliga",
-    "es": "Bundesliga",
-    "fr": "Bundesliga",
-    "it": "Bundesliga",
-    "pt": "Bundesliga",
-    "ar": "الدوري الألماني"
-   },
-   "home": "Elversberg",
-   "away": "Bayer Leverkusen",
-   "kickoffUtc": "2026-08-29T13:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "DE": [
-     "Sky Sport",
-     "WOW"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260829-bournemouth-everton",
-   "sport": "football",
-   "competitionId": "premier",
-   "tier": "global",
-   "competition": {
-    "tr": "İngiltere Premier Lig",
-    "en": "Premier League",
-    "de": "Premier League",
-    "es": "Premier League",
-    "fr": "Premier League",
-    "it": "Premier League",
-    "pt": "Premier League",
-    "ar": "الدوري الإنجليزي الممتاز"
-   },
-   "home": "Bournemouth",
-   "away": "Everton",
-   "kickoffUtc": "2026-08-29T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 4"
-    ],
-    "FR": [
-     "CANAL+ Foot"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "US": [
-     "USA Network",
-     "Peacock"
-    ],
-    "DE": [
-     "Sky"
-    ],
-    "BR": [
-     "Disney+",
-     "ESPN"
-    ],
-    "IT": [
-     "Sky Sport"
-    ],
-    "GT": [
-     "FOX Sports",
-     "TNT Sports"
-    ],
-    "AU": [
-     "Stan Sport"
-    ],
-    "JP": [
-     "U-NEXT"
-    ],
-    "KR": [
-     "Coupang Play"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ],
-    "NG": [
-     "SuperSport"
-    ],
-    "ZA": [
-     "SuperSport"
-    ],
-    "GH": [
-     "SuperSport"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260829-coventry-city-hull-city",
-   "sport": "football",
-   "competitionId": "championship",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Championship",
-    "en": "EFL Championship",
-    "de": "EFL Championship",
-    "es": "EFL Championship",
-    "fr": "EFL Championship",
-    "it": "EFL Championship",
-    "pt": "EFL Championship",
-    "ar": "دوري البطولة الإنجليزية"
-   },
-   "home": "Coventry City",
-   "away": "Hull City",
-   "kickoffUtc": "2026-08-29T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 3"
-    ],
-    "FR": [
-     "CANAL+ Live 2"
-    ],
-    "US": [
-     "Paramount+"
-    ]
-   },
-   "sources": []
-  },
   {
    "id": "volleyball-20260829-turkiye-kuzey-makedonya",
    "sport": "volleyball",
@@ -2830,6 +2063,106 @@
    }
   },
   {
+   "id": "football-20260829-atletico-mg-vitoria",
+   "sport": "football",
+   "competitionId": "bra_seriea",
+   "tier": "global",
+   "competition": {
+    "tr": "Brezilya Serie A",
+    "en": "Brasileirão Série A",
+    "de": "Brasileirão Série A",
+    "es": "Brasileirão Serie A",
+    "fr": "Brasileirão Série A",
+    "it": "Brasileirão Serie A",
+    "pt": "Brasileirão Série A",
+    "ar": "الدوري البرازيلي"
+   },
+   "home": "Atletico-MG",
+   "away": "Vitoria",
+   "kickoffUtc": "2026-08-29T21:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart 2",
+     "Smart Spor 2"
+    ],
+    "BR": [
+     "Premiere"
+    ]
+   },
+   "sources": [
+    "BR futebolnatv",
+    "MENA sporsat"
+   ],
+   "homeNames": {
+    "tr": "Atlético Mineiro",
+    "en": "Atlético Mineiro",
+    "de": "Atlético Mineiro",
+    "es": "Atlético Mineiro",
+    "fr": "Atlético Mineiro",
+    "it": "Atlético Mineiro",
+    "pt": "Atlético Mineiro",
+    "ar": "Atlético Mineiro"
+   },
+   "awayNames": {
+    "tr": "Vitória",
+    "en": "Vitória",
+    "de": "Vitória",
+    "es": "Vitória",
+    "fr": "Vitória",
+    "it": "Vitória",
+    "pt": "Vitória",
+    "ar": "Vitória"
+   }
+  },
+  {
+   "id": "football-20260829-botafogo-sp-cuiaba",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brasileirão Série B",
+    "de": "Brasileirão Série B",
+    "es": "Brasileirão Serie B",
+    "fr": "Brasileirão Série B",
+    "it": "Brasileirão Serie B",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Botafogo-SP",
+   "away": "Cuiaba",
+   "kickoffUtc": "2026-08-29T21:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": [
+    "BR futebolnatv"
+   ],
+   "homeNames": {
+    "tr": "Botafogo-SP",
+    "en": "Botafogo-SP",
+    "de": "Botafogo-SP",
+    "es": "Botafogo-SP",
+    "fr": "Botafogo-SP",
+    "it": "Botafogo-SP",
+    "pt": "Botafogo-SP",
+    "ar": "Botafogo-SP"
+   },
+   "awayNames": {
+    "tr": "Cuiabá",
+    "en": "Cuiabá",
+    "de": "Cuiabá",
+    "es": "Cuiabá",
+    "fr": "Cuiabá",
+    "it": "Cuiabá",
+    "pt": "Cuiabá",
+    "ar": "Cuiabá"
+   }
+  },
+  {
    "id": "football-20260829-atlas-queretaro",
    "sport": "football",
    "competitionId": "liga_mx",
@@ -2910,6 +2243,59 @@
    }
   },
   {
+   "id": "football-20260829-sao-paulo-rb-bragantino",
+   "sport": "football",
+   "competitionId": "bra_seriea",
+   "tier": "global",
+   "competition": {
+    "tr": "Brezilya Serie A",
+    "en": "Brasileirão Série A",
+    "de": "Brasileirão Série A",
+    "es": "Brasileirão Serie A",
+    "fr": "Brasileirão Série A",
+    "it": "Brasileirão Serie A",
+    "pt": "Brasileirão Série A",
+    "ar": "الدوري البرازيلي"
+   },
+   "home": "Sao Paulo",
+   "away": "RB Bragantino",
+   "kickoffUtc": "2026-08-29T23:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart 2",
+     "Smart Spor 2"
+    ],
+    "BR": [
+     "SporTV",
+     "Premiere"
+    ]
+   },
+   "sources": [
+    "BR futebolnatv",
+    "MENA sporsat"
+   ],
+   "homeNames": {
+    "tr": "São Paulo",
+    "en": "São Paulo",
+    "de": "São Paulo",
+    "es": "São Paulo",
+    "fr": "São Paulo",
+    "it": "São Paulo",
+    "pt": "São Paulo",
+    "ar": "São Paulo"
+   },
+   "awayNames": {
+    "tr": "Red Bull Bragantino",
+    "en": "Red Bull Bragantino",
+    "de": "Red Bull Bragantino",
+    "es": "Red Bull Bragantino",
+    "fr": "Red Bull Bragantino",
+    "it": "Red Bull Bragantino",
+    "pt": "Red Bull Bragantino",
+    "ar": "Red Bull Bragantino"
+   }
+  },
+  {
    "id": "football-20260829-inter-miami-montreal",
    "sport": "football",
    "competitionId": "mls",
@@ -2955,6 +2341,50 @@
     "it": "CF Montréal",
     "pt": "CF Montréal",
     "ar": "CF Montréal"
+   }
+  },
+  {
+   "id": "football-20260829-vasco-cruzeiro",
+   "sport": "football",
+   "competitionId": "bra_seriea",
+   "tier": "global",
+   "competition": {
+    "tr": "Brezilya Serie A",
+    "en": "Brasileirão Série A",
+    "de": "Brasileirão Série A",
+    "es": "Brasileirão Serie A",
+    "fr": "Brasileirão Série A",
+    "it": "Brasileirão Serie A",
+    "pt": "Brasileirão Série A",
+    "ar": "الدوري البرازيلي"
+   },
+   "home": "Vasco",
+   "away": "Cruzeiro",
+   "kickoffUtc": "2026-08-30T00:20:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart 2",
+     "Smart Spor 2"
+    ],
+    "BR": [
+     "Record",
+     "Premiere",
+     "CazéTV"
+    ]
+   },
+   "sources": [
+    "BR futebolnatv",
+    "MENA sporsat"
+   ],
+   "homeNames": {
+    "tr": "Vasco da Gama",
+    "en": "Vasco da Gama",
+    "de": "Vasco da Gama",
+    "es": "Vasco da Gama",
+    "fr": "Vasco da Gama",
+    "it": "Vasco da Gama",
+    "pt": "Vasco da Gama",
+    "ar": "Vasco da Gama"
    }
   },
   {
@@ -3051,6 +2481,50 @@
     "it": "Central Córdoba",
     "pt": "Central Córdoba",
     "ar": "Central Córdoba"
+   }
+  },
+  {
+   "id": "football-20260829-america-puebla",
+   "sport": "football",
+   "competitionId": "liga_mx",
+   "tier": "regional",
+   "competition": {
+    "tr": "Meksika Ligi",
+    "en": "Liga MX",
+    "de": "Liga MX",
+    "es": "Liga MX",
+    "fr": "Liga MX",
+    "it": "Liga MX",
+    "pt": "Liga MX",
+    "ar": "الدوري المكسيكي"
+   },
+   "home": "America",
+   "away": "Puebla",
+   "kickoffUtc": "2026-08-30T01:05:00Z",
+   "broadcasts": {
+    "MX": [
+     "TUDN",
+     "Canal 5",
+     "ViX"
+    ],
+    "US": [
+     "Univision",
+     "TUDN",
+     "ViX"
+    ]
+   },
+   "sources": [
+    "US worldsoccertalk"
+   ],
+   "homeNames": {
+    "tr": "Club América",
+    "en": "Club América",
+    "de": "Club América",
+    "es": "Club América",
+    "fr": "Club América",
+    "it": "Club América",
+    "pt": "Club América",
+    "ar": "Club América"
    }
   }
  ]
