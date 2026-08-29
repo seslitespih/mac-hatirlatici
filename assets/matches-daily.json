@@ -1,290 +1,22 @@
 {
- "generated_at": "2026-08-28T22:20:00.000Z",
+ "generated_at": "2026-08-29T10:12:24.000Z",
  "date": "2026-08-29",
  "model": "user-provided",
  "stats": {
-  "total": 50,
-  "withChannel": 50,
+  "total": 44,
+  "withChannel": 44,
   "bySport": {
-   "football": 49,
+   "football": 43,
    "volleyball": 1
   },
   "warnings": 0,
   "searches": 0,
   "days": [
-   "2026-08-28",
    "2026-08-29",
    "2026-08-30"
   ]
  },
  "matches": [
-  {
-   "id": "football-20260828-union-sarmiento",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Ligi",
-    "en": "Argentine Primera División",
-    "de": "Argentinische Primera División",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Union",
-   "away": "Sarmiento",
-   "kickoffUtc": "2026-08-28T22:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "Spor Smart",
-     "Smart Spor HD"
-    ],
-    "AR": [
-     "ESPN Premium",
-     "TNT Sports Premium"
-    ],
-    "BR": [
-     "Disney+"
-    ]
-   },
-   "sources": [
-    "AR tvenvivo",
-    "BR futebolnatv"
-   ],
-   "homeNames": {
-    "tr": "Unión",
-    "en": "Unión",
-    "de": "Unión",
-    "es": "Unión",
-    "fr": "Unión",
-    "it": "Unión",
-    "pt": "Unión",
-    "ar": "Unión"
-   }
-  },
-  {
-   "id": "football-20260828-goias-sao-bernardo",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Serie B",
-    "de": "Brasilianische Serie B",
-    "es": "Serie B de Brasil",
-    "fr": "Serie B bresilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Goias",
-   "away": "Sao Bernardo",
-   "kickoffUtc": "2026-08-28T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "ESPN",
-     "Disney+"
-    ]
-   },
-   "sources": [
-    "BR futebolnatv"
-   ],
-   "homeNames": {
-    "tr": "Goiás",
-    "en": "Goiás",
-    "de": "Goiás",
-    "es": "Goiás",
-    "fr": "Goiás",
-    "it": "Goiás",
-    "pt": "Goiás",
-    "ar": "Goiás"
-   },
-   "awayNames": {
-    "tr": "São Bernardo",
-    "en": "São Bernardo",
-    "de": "São Bernardo",
-    "es": "São Bernardo",
-    "fr": "São Bernardo",
-    "it": "São Bernardo",
-    "pt": "São Bernardo",
-    "ar": "São Bernardo"
-   }
-  },
-  {
-   "id": "football-20260828-nautico-athletic-club",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Serie B",
-    "de": "Brasilianische Serie B",
-    "es": "Serie B de Brasil",
-    "fr": "Serie B bresilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Nautico",
-   "away": "Athletic Club",
-   "kickoffUtc": "2026-08-28T23:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "SporTV",
-     "Premiere"
-    ]
-   },
-   "sources": [
-    "BR futebolnatv"
-   ],
-   "homeNames": {
-    "tr": "Náutico",
-    "en": "Náutico",
-    "de": "Náutico",
-    "es": "Náutico",
-    "fr": "Náutico",
-    "it": "Náutico",
-    "pt": "Náutico",
-    "ar": "Náutico"
-   }
-  },
-  {
-   "id": "football-20260828-novorizontino-sport-recife",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Serie B",
-    "de": "Brasilianische Serie B",
-    "es": "Serie B de Brasil",
-    "fr": "Serie B bresilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Novorizontino",
-   "away": "Sport Recife",
-   "kickoffUtc": "2026-08-28T23:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "Disney+"
-    ]
-   },
-   "sources": [
-    "BR futebolnatv"
-   ]
-  },
-  {
-   "id": "football-20260828-boca-juniors-lanus",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Ligi",
-    "en": "Argentine Primera División",
-    "de": "Argentinische Primera División",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Boca Juniors",
-   "away": "Lanus",
-   "kickoffUtc": "2026-08-29T00:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "Spor Smart",
-     "Smart Spor HD"
-    ],
-    "AR": [
-     "ESPN Premium",
-     "TNT Sports Premium"
-    ],
-    "BR": [
-     "ESPN 4",
-     "Disney+"
-    ]
-   },
-   "sources": [
-    "AR tvenvivo",
-    "BR futebolnatv"
-   ],
-   "awayNames": {
-    "tr": "Lanús",
-    "en": "Lanús",
-    "de": "Lanús",
-    "es": "Lanús",
-    "fr": "Lanús",
-    "it": "Lanús",
-    "pt": "Lanús",
-    "ar": "Lanús"
-   }
-  },
-  {
-   "id": "football-20260829-necaxa-cruz-azul",
-   "sport": "football",
-   "competitionId": "liga_mx",
-   "tier": "regional",
-   "competition": {
-    "tr": "Meksika Ligi",
-    "en": "Liga MX",
-    "de": "Liga MX",
-    "es": "Liga MX",
-    "fr": "Liga MX",
-    "it": "Liga MX",
-    "pt": "Liga MX",
-    "ar": "الدوري المكسيكي"
-   },
-   "home": "Necaxa",
-   "away": "Cruz Azul",
-   "kickoffUtc": "2026-08-29T01:00:00Z",
-   "broadcasts": {
-    "MX": [
-     "FOX One"
-    ],
-    "US": [
-     "FOX Deportes",
-     "Fubo"
-    ]
-   },
-   "sources": [
-    "US worldsoccertalk"
-   ]
-  },
-  {
-   "id": "football-20260829-tijuana-pumas",
-   "sport": "football",
-   "competitionId": "liga_mx",
-   "tier": "regional",
-   "competition": {
-    "tr": "Meksika Ligi",
-    "en": "Liga MX",
-    "de": "Liga MX",
-    "es": "Liga MX",
-    "fr": "Liga MX",
-    "it": "Liga MX",
-    "pt": "Liga MX",
-    "ar": "الدوري المكسيكي"
-   },
-   "home": "Tijuana",
-   "away": "Pumas UNAM",
-   "kickoffUtc": "2026-08-29T03:10:00Z",
-   "broadcasts": {
-    "MX": [
-     "TUDN"
-    ],
-    "US": [
-     "TUDN"
-    ]
-   },
-   "sources": [
-    "US worldsoccertalk"
-   ]
-  },
   {
    "id": "football-20260829-karlsruher-sc-wolfsburg",
    "sport": "football",
@@ -338,7 +70,8 @@
      "Idman TV"
     ],
     "GB": [
-     "TNT Sports 1"
+     "TNT Sports 1",
+     "TNT Sports Ultimate"
     ],
     "FR": [
      "CANAL+"
@@ -3000,6 +2733,58 @@
     "it": "Atlético Madrid",
     "pt": "Atlético Madrid",
     "ar": "Atlético Madrid"
+   }
+  },
+  {
+   "id": "football-20260829-girona-las-palmas",
+   "sport": "football",
+   "competitionId": "laliga2",
+   "tier": "regional",
+   "competition": {
+    "tr": "İspanya LaLiga 2",
+    "en": "LaLiga Hypermotion",
+    "de": "LaLiga Hypermotion",
+    "es": "LaLiga Hypermotion",
+    "fr": "LaLiga Hypermotion",
+    "it": "LaLiga Hypermotion",
+    "pt": "LaLiga Hypermotion",
+    "ar": "لا ليغا هايبرموشن"
+   },
+   "home": "Girona",
+   "away": "Las Palmas",
+   "kickoffUtc": "2026-08-29T19:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ],
+    "ES": [
+     "LALIGA TV Hypermotion",
+     "DAZN"
+    ]
+   },
+   "sources": [
+    "ES futbolenlatv",
+    "TR hangikanalda"
+   ],
+   "homeNames": {
+    "tr": "Girona",
+    "en": "Girona",
+    "de": "Girona",
+    "es": "Girona",
+    "fr": "Girona",
+    "it": "Girona",
+    "pt": "Girona",
+    "ar": "جيرونا"
+   },
+   "awayNames": {
+    "tr": "Las Palmas",
+    "en": "Las Palmas",
+    "de": "Las Palmas",
+    "es": "UD Las Palmas",
+    "fr": "Las Palmas",
+    "it": "Las Palmas",
+    "pt": "Las Palmas",
+    "ar": "لاس بالماس"
    }
   },
   {
