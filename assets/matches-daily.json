@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-30T21:07:45.000Z",
+ "generated_at": "2026-08-30T22:13:33.000Z",
  "date": "2026-08-31",
  "model": "user-provided",
  "stats": {
-  "total": 26,
-  "withChannel": 26,
+  "total": 25,
+  "withChannel": 25,
   "bySport": {
-   "football": 20,
+   "football": 19,
    "volleyball": 4,
    "basketball": 2
   },
@@ -18,151 +18,6 @@
   ]
  },
  "matches": [
-  {
-   "id": "football-20260830-celta-vigo-athletic-bilbao",
-   "sport": "football",
-   "competitionId": "laliga",
-   "tier": "global",
-   "competition": {
-    "tr": "İspanya La Liga",
-    "en": "LaLiga",
-    "de": "LaLiga",
-    "es": "LaLiga",
-    "fr": "LaLiga",
-    "it": "LaLiga",
-    "pt": "LaLiga",
-    "ar": "الدوري الإسباني"
-   },
-   "home": "Celta Vigo",
-   "away": "Athletic Bilbao",
-   "kickoffUtc": "2026-08-30T19:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport",
-     "Idman TV",
-     "S Sport Plus"
-    ],
-    "ES": [
-     "Movistar Plus+"
-    ],
-    "FR": [
-     "DAZN",
-     "Disney+"
-    ],
-    "GB": [
-     "Premier Sports 1"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "PT": [
-     "DAZN"
-    ],
-    "BR": [
-     "CazéTV"
-    ],
-    "MX": [
-     "Sky Sports"
-    ],
-    "US": [
-     "ESPN+",
-     "ESPN Deportes"
-    ],
-    "CA": [
-     "TSN+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ],
-    "NG": [
-     "SuperSport"
-    ],
-    "ZA": [
-     "SuperSport"
-    ],
-    "GH": [
-     "SuperSport"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260830-argentinos-aldosivi",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Ligi",
-    "en": "Argentine Primera División",
-    "de": "Argentinische Primera División",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Argentinos",
-   "away": "Aldosivi",
-   "kickoffUtc": "2026-08-30T20:00:00Z",
-   "broadcasts": {
-    "AR": [
-     "TNT Sports Premium"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Argentinos Juniors",
-    "en": "Argentinos Juniors",
-    "de": "Argentinos Juniors",
-    "es": "Argentinos Juniors",
-    "fr": "Argentinos Juniors",
-    "it": "Argentinos Juniors",
-    "pt": "Argentinos Juniors",
-    "ar": "Argentinos Juniors"
-   }
-  },
   {
    "id": "football-20260830-columbus-crew-new-england",
    "sport": "football",
@@ -366,6 +221,10 @@
     "AR": [
      "ESPN Premium",
      "TNT Sports Premium"
+    ],
+    "TR": [
+     "Spor Smart",
+     "Smart Spor HD"
     ]
    },
    "sources": [],
@@ -403,6 +262,10 @@
      "Globo",
      "SporTV",
      "Premiere"
+    ],
+    "TR": [
+     "Spor Smart 2",
+     "Smart Spor 2"
     ]
    },
    "sources": []
@@ -467,6 +330,10 @@
     "AR": [
      "ESPN Premium",
      "TNT Sports Premium"
+    ],
+    "TR": [
+     "Spor Smart",
+     "Smart Spor HD"
     ]
    },
    "sources": [],
@@ -501,7 +368,7 @@
    "kickoffUtc": "2026-08-31T13:00:00Z",
    "broadcasts": {
     "TR": [
-     "CEV YouTube"
+     "TRT Spor"
     ],
     "NL": [
      "CEV YouTube"
@@ -778,6 +645,9 @@
     ],
     "GB": [
      "DAZN"
+    ],
+    "FR": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -963,6 +833,9 @@
     "FR": [
      "beIN Sports",
      "beIN Sports Connect"
+    ],
+    "US": [
+     "beIN Sports"
     ]
    },
    "sources": []
@@ -1123,6 +996,9 @@
     ],
     "GB": [
      "DAZN"
+    ],
+    "FR": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -1255,6 +1131,12 @@
     ],
     "KR": [
      "Coupang Play"
+    ],
+    "FR": [
+     "CANAL+"
+    ],
+    "ES": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -1287,9 +1169,67 @@
     "DE": [
      "Sportdigital Fußball",
      "Sportdigital+"
+    ],
+    "FR": [
+     "beIN Sports MAX 4"
+    ],
+    "US": [
+     "beIN Sports"
     ]
    },
    "sources": []
+  },
+  {
+   "id": "football-20260831-braga-vitoria-guimaraes",
+   "sport": "football",
+   "competitionId": "primeira",
+   "tier": "global",
+   "competition": {
+    "tr": "Portekiz Ligi",
+    "en": "Liga Portugal",
+    "de": "Liga Portugal",
+    "es": "Liga Portugal",
+    "fr": "Liga Portugal",
+    "it": "Liga Portugal",
+    "pt": "Liga Portugal Betclic",
+    "ar": "الدوري البرتغالي"
+   },
+   "home": "Braga",
+   "away": "Vitoria Guimaraes",
+   "kickoffUtc": "2026-08-31T19:15:00Z",
+   "broadcasts": {
+    "PT": [
+     "Sport TV"
+    ],
+    "DE": [
+     "Sportdigital Fußball",
+     "Sportdigital+"
+    ],
+    "FR": [
+     "beIN Sports MAX 4"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Sporting Braga",
+    "en": "Sporting Braga",
+    "de": "Sporting Braga",
+    "es": "Sporting Braga",
+    "fr": "Sporting Braga",
+    "it": "Sporting Braga",
+    "pt": "Sporting Braga",
+    "ar": "سبورتينغ براغا"
+   },
+   "awayNames": {
+    "tr": "Vitória Guimarães",
+    "en": "Vitória Guimarães",
+    "de": "Vitória Guimarães",
+    "es": "Vitória Guimarães",
+    "fr": "Vitória Guimarães",
+    "it": "Vitória Guimarães",
+    "pt": "Vitória Guimarães",
+    "ar": "فيتوريا غيماريش"
+   }
   },
   {
    "id": "football-20260831-barcelona-rayo-vallecano",
