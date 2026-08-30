@@ -1,6 +1,6 @@
 {
   "_comment": "Turnuva x ulke yayin haklari. Gunluk fikstur uretiminde TABAN olarak kullanilir; her gun sifirdan aranmaz. 'durum' alani: dogrulandi = web aramasiyla teyit edildi, tahmin = sektor bilgisi ama kaynakla teyit edilmedi. Sezon basinda ve 'su kanal yanlis' geri bildiriminde guncellenir.",
-  "_guncelleme": "2026-08-28",
+  "_guncelleme": "2026-08-31",
   "_kullanim": "Once buradaki tabani uygula, sonra 'bolunmeler' kurallarini kontrol et, en son o maca ozel arama yap. Bolunme kurali olan ulkelerde (DE, IT, ES, GB) MUTLAKA mac bazinda dogrula.",
   "bolgeler": {
     "MENA": [
@@ -461,7 +461,7 @@
     "primeira": {
       "ad": "Liga Portugal",
       "sezon": "2026-27",
-      "durum": "tahmin",
+      "durum": "dogrulandi",
       "ulkeler": {
         "TR": [
           "beIN Sports 3",
@@ -469,6 +469,10 @@
         ],
         "PT": [
           "Sport TV"
+        ],
+        "DE": [
+          "Sportdigital Fußball",
+          "Sportdigital+"
         ]
       },
       "bolunmeler": [
@@ -479,9 +483,16 @@
             "Benfica TV",
             "Porto Canal"
           ]
+        },
+        {
+          "ulke": "ES",
+          "kural": "DAZN tur basina yalnizca 3 mac aliyor - TUM maclari degil. Bir maci ES'ye yazmadan once dogrula.",
+          "alternatif": [
+            "DAZN"
+          ]
         }
       ],
-      "notlar": "Kanal numarasi (Sport TV 1/2/3) mac bazinda degisir, teyit etmeden numara yazma. MENA yayincisi YOK: Sporsat 23 ve 24 Agu'da Liga Portugal maclarinda kanal sutununu bos birakti. Onceki '@MENA: beIN Sports' kaydi tahmindi, kaldirildi."
+      "notlar": "Kanal numarasi (Sport TV 1/2/3) mac bazinda degisir, teyit etmeden numara yazma. MENA yayincisi YOK: Sporsat 23 ve 24 Agu'da Liga Portugal maclarinda kanal sutununu bos birakti. Onceki '@MENA: beIN Sports' kaydi tahmindi, kaldirildi. Almanya: Sportdigital Fussball + Sportdigital+ munhasir, 2028'e kadar. MENA yayincisi YOK (Sporsat iki ayri gunde kanal gostermedi). 31 Agu 2026."
     },
     "superlig": {
       "ad": "Trendyol Super Lig",
@@ -491,10 +502,17 @@
         "TR": [
           "beIN Sports 1",
           "beIN Sports 2"
+        ],
+        "DE": [
+          "Digiturk Euro"
+        ],
+        "FR": [
+          "beIN Sports",
+          "beIN Sports Connect"
         ]
       },
       "bolunmeler": [],
-      "notlar": "tier:global — yayincisi bilinmeyen ulkelerde de gorunur. Yurt disi haklari dagitik, ulke ulke arama gerekir."
+      "notlar": "tier:global — yayincisi bilinmeyen ulkelerde de gorunur. Yurt disi haklari dagitik, ulke ulke arama gerekir. Yurt disi 2026-27: Almanya'da SADECE beIN'in uluslararasi servisi Digiturk Euro (DAZN/Sky/Sportdigital'de YOK, acik kanalda hic yok). Fransa'da beIN Sports 342 macin tamamini veriyor (2026-27 sonuna kadar). Diger ulkeler dogrulanmadi. 31 Agu 2026."
     },
     "saudi_pl": {
       "ad": "Suudi Pro Lig",
