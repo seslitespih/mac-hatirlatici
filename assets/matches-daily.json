@@ -1,25 +1,60 @@
 {
- "generated_at": "2026-08-31T16:20:00.000Z",
- "date": "2026-08-31",
+ "generated_at": "2026-08-31T22:20:00.000Z",
+ "date": "2026-09-01",
  "model": "user-provided",
  "stats": {
-  "total": 23,
-  "withChannel": 23,
+  "total": 11,
+  "withChannel": 11,
   "bySport": {
+   "football": 8,
    "volleyball": 2,
-   "basketball": 4,
-   "football": 17
+   "basketball": 1
   },
   "warnings": 0,
-  "searches": 0,
+  "searches": 2,
   "days": [
-   "2026-08-31",
    "2026-09-01"
   ]
  },
  "matches": [
   {
-   "id": "volleyball-20260831-polonya-portekiz",
+   "id": "football-20260901-bandirmaspor-antalyaspor",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Lig",
+    "es": "Primera División de Turquía",
+    "fr": "TFF Première Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "الدوري التركي الدرجة الأولى"
+   },
+   "home": "Bandirmaspor",
+   "away": "Antalyaspor",
+   "kickoffUtc": "2026-09-01T13:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor",
+     "beIN Connect"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Bandırmaspor",
+    "en": "Bandırmaspor",
+    "de": "Bandırmaspor",
+    "es": "Bandırmaspor",
+    "fr": "Bandırmaspor",
+    "it": "Bandırmaspor",
+    "pt": "Bandırmaspor",
+    "ar": "Bandırmaspor"
+   }
+  },
+  {
+   "id": "volleyball-20260901-belcika-almanya",
    "sport": "volleyball",
    "competitionId": "cev_women",
    "tier": "regional",
@@ -28,59 +63,175 @@
     "en": "CEV Women European Championship",
     "de": "CEV Volleyball-EM der Frauen",
     "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe feminin CEV",
+    "fr": "Championnat d'Europe féminin CEV",
     "it": "Campionato Europeo Femminile CEV",
     "pt": "Campeonato Europeu Feminino CEV",
     "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
    },
-   "home": "Polonya",
-   "away": "Portekiz",
-   "kickoffUtc": "2026-08-31T16:00:00Z",
+   "home": "Belcika",
+   "away": "Almanya",
+   "kickoffUtc": "2026-09-01T13:00:00Z",
    "broadcasts": {
     "TR": [
+     "CEV YouTube"
+    ],
+    "BE": [
+     "CEV YouTube"
+    ],
+    "DE": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Belçika",
+    "en": "Belçika",
+    "de": "Belçika",
+    "es": "Belçika",
+    "fr": "Belçika",
+    "it": "Belçika",
+    "pt": "Belçika",
+    "ar": "Belçika"
+   }
+  },
+  {
+   "id": "football-20260901-umraniyespor-muglaspor",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Lig",
+    "es": "Primera División de Turquía",
+    "fr": "TFF Première Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "الدوري التركي الدرجة الأولى"
+   },
+   "home": "Umraniyespor",
+   "away": "Muglaspor",
+   "kickoffUtc": "2026-09-01T14:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Connect",
      "tabii Spor 6"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Ümraniyespor",
+    "en": "Ümraniyespor",
+    "de": "Ümraniyespor",
+    "es": "Ümraniyespor",
+    "fr": "Ümraniyespor",
+    "it": "Ümraniyespor",
+    "pt": "Ümraniyespor",
+    "ar": "Ümraniyespor"
+   },
+   "awayNames": {
+    "tr": "Muğlaspor",
+    "en": "Muğlaspor",
+    "de": "Muğlaspor",
+    "es": "Muğlaspor",
+    "fr": "Muğlaspor",
+    "it": "Muğlaspor",
+    "pt": "Muğlaspor",
+    "ar": "Muğlaspor"
+   }
+  },
+  {
+   "id": "football-20260901-parma-cremonese",
+   "sport": "football",
+   "competitionId": "coppa_italia",
+   "tier": "global",
+   "competition": {
+    "tr": "İtalya Kupası",
+    "en": "Coppa Italia",
+    "de": "Coppa Italia",
+    "es": "Copa de Italia",
+    "fr": "Coupe d'Italie",
+    "it": "Coppa Italia",
+    "pt": "Copa da Itália",
+    "ar": "كأس إيطاليا"
+   },
+   "home": "Parma",
+   "away": "Cremonese",
+   "kickoffUtc": "2026-09-01T16:00:00Z",
+   "broadcasts": {
+    "IT": [
+     "Italia 1"
     ],
-    "PL": [
-     "CEV YouTube"
+    "GB": [
+     "Premier Sports 1"
     ],
-    "PT": [
-     "CEV YouTube"
+    "US": [
+     "CBS Sports Golazo Network",
+     "Paramount+"
     ]
    },
    "sources": []
   },
   {
-   "id": "basketball-20260831-yunanistan-ispanya",
-   "sport": "basketball",
-   "competitionId": "fiba_wcq",
+   "id": "volleyball-20260901-turkiye-azerbaycan",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
    "tier": "regional",
    "competition": {
-    "tr": "FIBA Dünya Kupası Elemeleri",
-    "en": "FIBA World Cup Qualifiers",
-    "de": "FIBA-WM-Qualifikation",
-    "es": "Clasificación Copa Mundial FIBA",
-    "fr": "Qualifications Coupe du monde FIBA",
-    "it": "Qualificazioni Coppa del Mondo FIBA",
-    "pt": "Qualificatórias da Copa do Mundo FIBA",
-    "ar": "تصفيات كأس العالم لكرة السلة"
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato Europeo Femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
    },
-   "home": "Yunanistan",
-   "away": "Ispanya",
-   "kickoffUtc": "2026-08-31T16:00:00Z",
+   "home": "Turkiye",
+   "away": "Azerbaycan",
+   "kickoffUtc": "2026-09-01T16:00:00Z",
    "broadcasts": {
     "TR": [
-     "S Sport",
-     "S Sport Plus"
-    ],
-    "GR": [
-     "ERT"
-    ],
-    "ES": [
-     "Teledeporte"
+     "TRT 1"
     ]
    },
    "sources": [],
-   "awayNames": {
+   "homeNames": {
+    "tr": "Türkiye",
+    "en": "Türkiye",
+    "de": "Türkiye",
+    "es": "Türkiye",
+    "fr": "Türkiye",
+    "it": "Türkiye",
+    "pt": "Türkiye",
+    "ar": "Türkiye"
+   }
+  },
+  {
+   "id": "basketball-20260901-ispanya-turkiye-3x3",
+   "sport": "basketball",
+   "competitionId": "med_games",
+   "tier": "regional",
+   "competition": {
+    "tr": "Akdeniz Oyunları",
+    "en": "Mediterranean Games",
+    "de": "Mittelmeerspiele",
+    "es": "Juegos Mediterráneos",
+    "fr": "Jeux méditerranéens",
+    "it": "Giochi del Mediterraneo",
+    "pt": "Jogos do Mediterrâneo",
+    "ar": "ألعاب البحر الأبيض المتوسط"
+   },
+   "home": "Ispanya",
+   "away": "Turkiye",
+   "kickoffUtc": "2026-09-01T16:15:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
     "tr": "İspanya",
     "en": "İspanya",
     "de": "İspanya",
@@ -89,264 +240,7 @@
     "it": "İspanya",
     "pt": "İspanya",
     "ar": "İspanya"
-   }
-  },
-  {
-   "id": "football-20260831-sumqayit-karabag",
-   "sport": "football",
-   "competitionId": "aze_pl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Azerbaycan Premier Ligi",
-    "en": "Azerbaijan Premier League",
-    "de": "Aserbaidschanische Premier League",
-    "es": "Liga Premier de Azerbaiyán",
-    "fr": "Premier League azerbaïdjanaise",
-    "it": "Premier League azera",
-    "pt": "Liga Premier do Azerbaijão",
-    "ar": "الدوري الأذربيجاني الممتاز"
    },
-   "home": "Sumqayit",
-   "away": "Karabag",
-   "kickoffUtc": "2026-08-31T16:15:00Z",
-   "broadcasts": {
-    "TR": [
-     "CBC Sport",
-     "Idman TV"
-    ],
-    "AZ": [
-     "CBC Sport",
-     "Idman TV"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Qarabağ",
-    "en": "Qarabağ",
-    "de": "Qarabağ",
-    "es": "Qarabağ",
-    "fr": "Qarabağ",
-    "it": "Qarabağ",
-    "pt": "Qarabağ",
-    "ar": "Qarabağ"
-   }
-  },
-  {
-   "id": "football-20260831-lecce-roma",
-   "sport": "football",
-   "competitionId": "seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "İtalya Serie A",
-    "en": "Serie A",
-    "de": "Serie A",
-    "es": "Serie A",
-    "fr": "Serie A",
-    "it": "Serie A",
-    "pt": "Serie A",
-    "ar": "الدوري الإيطالي"
-   },
-   "home": "Lecce",
-   "away": "Roma",
-   "kickoffUtc": "2026-08-31T16:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport 2",
-     "S Sport Plus"
-    ],
-    "IT": [
-     "DAZN",
-     "Sky Sport Calcio",
-     "Sky Sport 4K",
-     "NOW"
-    ],
-    "US": [
-     "CBS",
-     "Paramount+"
-    ],
-    "BR": [
-     "CazéTV",
-     "Disney+"
-    ],
-    "AR": [
-     "ESPN",
-     "Disney+"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "GT": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
-    ],
-    "SA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "DZ": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "IQ": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "JO": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "EG": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "OM": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "QA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "AE": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "MA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "TN": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "LY": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ],
-    "GB": [
-     "DAZN"
-    ],
-    "FR": [
-     "DAZN"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "DE": [
-     "DAZN"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "volleyball-20260831-cekya-isvec",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe feminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Cekya",
-   "away": "Isvec",
-   "kickoffUtc": "2026-08-31T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ],
-    "CZ": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Çekya",
-    "en": "Çekya",
-    "de": "Çekya",
-    "es": "Çekya",
-    "fr": "Çekya",
-    "it": "Çekya",
-    "pt": "Çekya",
-    "ar": "Çekya"
-   },
-   "awayNames": {
-    "tr": "İsveç",
-    "en": "İsveç",
-    "de": "İsveç",
-    "es": "İsveç",
-    "fr": "İsveç",
-    "it": "İsveç",
-    "pt": "İsveç",
-    "ar": "İsveç"
-   }
-  },
-  {
-   "id": "basketball-20260831-fransa-turkiye-3x3",
-   "sport": "basketball",
-   "competitionId": "med_games",
-   "tier": "regional",
-   "competition": {
-    "tr": "Akdeniz Oyunları",
-    "en": "Mediterranean Games",
-    "de": "Mittelmeerspiele",
-    "es": "Juegos Mediterráneos",
-    "fr": "Jeux méditerranéens",
-    "it": "Giochi del Mediterraneo",
-    "pt": "Jogos do Mediterrâneo",
-    "ar": "ألعاب البحر الأبيض المتوسط"
-   },
-   "home": "Fransa",
-   "away": "Turkiye",
-   "kickoffUtc": "2026-08-31T17:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor"
-    ],
-    "FR": [
-     "tabii Spor"
-    ]
-   },
-   "sources": [],
    "awayNames": {
     "tr": "Türkiye",
     "en": "Türkiye",
@@ -359,1021 +253,193 @@
    }
   },
   {
-   "id": "football-20260831-osasuna-getafe",
+   "id": "football-20260901-sariyer-pendikspor",
    "sport": "football",
-   "competitionId": "laliga",
-   "tier": "global",
-   "competition": {
-    "tr": "İspanya La Liga",
-    "en": "LaLiga",
-    "de": "LaLiga",
-    "es": "LaLiga",
-    "fr": "LaLiga",
-    "it": "LaLiga",
-    "pt": "LaLiga",
-    "ar": "الدوري الإسباني"
-   },
-   "home": "Osasuna",
-   "away": "Getafe",
-   "kickoffUtc": "2026-08-31T17:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "ES": [
-     "M+ LALIGA",
-     "M+ LALIGA HDR",
-     "LaLiga TV Bar"
-    ],
-    "GB": [
-     "Premier Sports 1"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "PT": [
-     "DAZN"
-    ],
-    "FR": [
-     "DAZN",
-     "Disney+"
-    ],
-    "BR": [
-     "CazéTV"
-    ],
-    "MX": [
-     "Sky Sports"
-    ],
-    "US": [
-     "ESPN+",
-     "ESPN Deportes"
-    ],
-    "SA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "DZ": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "IQ": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "JO": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "EG": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "OM": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "QA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "AE": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "MA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "TN": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "LY": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "NG": [
-     "SuperSport"
-    ],
-    "ZA": [
-     "SuperSport"
-    ],
-    "GH": [
-     "SuperSport"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ],
-    "CA": [
-     "TSN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260831-amedspor-trabzonspor",
-   "sport": "football",
-   "competitionId": "superlig",
-   "tier": "global",
-   "competition": {
-    "tr": "Trendyol Süper Lig",
-    "en": "Süper Lig",
-    "de": "Süper Lig",
-    "es": "Süper Lig",
-    "fr": "Süper Lig",
-    "it": "Süper Lig",
-    "pt": "Süper Lig",
-    "ar": "الدوري التركي الممتاز"
-   },
-   "home": "Amedspor",
-   "away": "Trabzonspor",
-   "kickoffUtc": "2026-08-31T18:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 1"
-    ],
-    "DE": [
-     "Digiturk Euro"
-    ],
-    "FR": [
-     "beIN Sports",
-     "beIN Sports Connect"
-    ],
-    "US": [
-     "beIN Sports"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260831-besiktas-corum-fk",
-   "sport": "football",
-   "competitionId": "superlig",
-   "tier": "global",
-   "competition": {
-    "tr": "Trendyol Süper Lig",
-    "en": "Süper Lig",
-    "de": "Süper Lig",
-    "es": "Süper Lig",
-    "fr": "Süper Lig",
-    "it": "Süper Lig",
-    "pt": "Süper Lig",
-    "ar": "الدوري التركي الممتاز"
-   },
-   "home": "Besiktas",
-   "away": "Corum FK",
-   "kickoffUtc": "2026-08-31T18:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 2"
-    ],
-    "DE": [
-     "Digiturk Euro"
-    ],
-    "FR": [
-     "beIN Sports 2"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Beşiktaş",
-    "en": "Beşiktaş",
-    "de": "Beşiktaş",
-    "es": "Beşiktaş",
-    "fr": "Beşiktaş",
-    "it": "Beşiktaş",
-    "pt": "Beşiktaş",
-    "ar": "Beşiktaş"
-   }
-  },
-  {
-   "id": "football-20260831-atalanta-bologna",
-   "sport": "football",
-   "competitionId": "seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "İtalya Serie A",
-    "en": "Serie A",
-    "de": "Serie A",
-    "es": "Serie A",
-    "fr": "Serie A",
-    "it": "Serie A",
-    "pt": "Serie A",
-    "ar": "الدوري الإيطالي"
-   },
-   "home": "Atalanta",
-   "away": "Bologna",
-   "kickoffUtc": "2026-08-31T18:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "IT": [
-     "DAZN",
-     "Sky Sport Calcio",
-     "Sky Sport 4K",
-     "NOW"
-    ],
-    "US": [
-     "CBS",
-     "Paramount+"
-    ],
-    "BR": [
-     "SportyNet",
-     "Disney+",
-     "YouTube"
-    ],
-    "AR": [
-     "ESPN",
-     "Disney+"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "GT": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
-    ],
-    "SA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "DZ": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "IQ": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "JO": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "EG": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "OM": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "QA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "AE": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "MA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "TN": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "LY": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ],
-    "GB": [
-     "DAZN"
-    ],
-    "FR": [
-     "DAZN"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "DE": [
-     "DAZN"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260831-dijon-saint-etienne",
-   "sport": "football",
-   "competitionId": "ligue2",
+   "competitionId": "tff1",
    "tier": "regional",
    "competition": {
-    "tr": "Fransa Ligue 2",
-    "en": "Ligue 2",
-    "de": "Ligue 2",
-    "es": "Ligue 2",
-    "fr": "Ligue 2",
-    "it": "Ligue 2",
-    "pt": "Ligue 2",
-    "ar": "الدوري الفرنسي الدرجة الثانية"
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Lig",
+    "es": "Primera División de Turquía",
+    "fr": "TFF Première Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "الدوري التركي الدرجة الأولى"
    },
-   "home": "Dijon",
-   "away": "Saint-Etienne",
-   "kickoffUtc": "2026-08-31T18:45:00Z",
-   "broadcasts": {
-    "FR": [
-     "beIN Sports 1"
-    ],
-    "US": [
-     "beIN Sports Xtra",
-     "Fanatiz"
-    ],
-    "DE": [
-     "DAZN"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Saint-Étienne",
-    "en": "Saint-Étienne",
-    "de": "Saint-Étienne",
-    "es": "Saint-Étienne",
-    "fr": "Saint-Étienne",
-    "it": "Saint-Étienne",
-    "pt": "Saint-Étienne",
-    "ar": "Saint-Étienne"
-   }
-  },
-  {
-   "id": "football-20260831-aston-villa-arsenal",
-   "sport": "football",
-   "competitionId": "premier",
-   "tier": "global",
-   "competition": {
-    "tr": "İngiltere Premier Lig",
-    "en": "Premier League",
-    "de": "Premier League",
-    "es": "Premier League",
-    "fr": "Premier League",
-    "it": "Premier League",
-    "pt": "Premier League",
-    "ar": "الدوري الإنجليزي الممتاز"
-   },
-   "home": "Aston Villa",
-   "away": "Arsenal",
-   "kickoffUtc": "2026-08-31T19:00:00Z",
+   "home": "Sariyer",
+   "away": "Pendikspor",
+   "kickoffUtc": "2026-09-01T17:00:00Z",
    "broadcasts": {
     "TR": [
-     "beIN Sports 3",
-     "Idman TV",
+     "TRT Spor",
      "beIN Connect"
-    ],
-    "GB": [
-     "Sky Sports Main Event",
-     "Sky Sports Premier League",
-     "Sky Sports Ultra HDR"
-    ],
-    "US": [
-     "NBC",
-     "USA Network",
-     "Peacock",
-     "Telemundo"
-    ],
-    "SA": [
-     "beIN Sports 1 HD"
-    ],
-    "DZ": [
-     "beIN Sports 1 HD"
-    ],
-    "IQ": [
-     "beIN Sports 1 HD"
-    ],
-    "JO": [
-     "beIN Sports 1 HD"
-    ],
-    "EG": [
-     "beIN Sports 1 HD"
-    ],
-    "OM": [
-     "beIN Sports 1 HD"
-    ],
-    "QA": [
-     "beIN Sports 1 HD"
-    ],
-    "AE": [
-     "beIN Sports 1 HD"
-    ],
-    "MA": [
-     "beIN Sports 1 HD"
-    ],
-    "TN": [
-     "beIN Sports 1 HD"
-    ],
-    "LY": [
-     "beIN Sports 1 HD"
-    ],
-    "DE": [
-     "WOW",
-     "Sky Top Event",
-     "Sky Sport Premier League"
-    ],
-    "BR": [
-     "Disney+",
-     "ESPN"
-    ],
-    "NG": [
-     "SuperSport"
-    ],
-    "ZA": [
-     "SuperSport"
-    ],
-    "GH": [
-     "SuperSport"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
-    ],
-    "GT": [
-     "FOX Sports",
-     "TNT Sports"
-    ],
-    "AU": [
-     "Stan Sport"
-    ],
-    "JP": [
-     "U-NEXT"
-    ],
-    "KR": [
-     "Coupang Play"
-    ],
-    "FR": [
-     "CANAL+ FOOT"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN 1"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "IT": [
-     "Sky Sport Arena",
-     "NOW"
     ]
    },
-   "sources": []
+   "sources": [],
+   "homeNames": {
+    "tr": "Sarıyer",
+    "en": "Sarıyer",
+    "de": "Sarıyer",
+    "es": "Sarıyer",
+    "fr": "Sarıyer",
+    "it": "Sarıyer",
+    "pt": "Sarıyer",
+    "ar": "Sarıyer"
+   }
   },
   {
-   "id": "basketball-20260831-turkiye-hirvatistan-3x3",
-   "sport": "basketball",
-   "competitionId": "med_games",
+   "id": "football-20260901-boluspor-keciorengucu",
+   "sport": "football",
+   "competitionId": "tff1",
    "tier": "regional",
    "competition": {
-    "tr": "Akdeniz Oyunları",
-    "en": "Mediterranean Games",
-    "de": "Mittelmeerspiele",
-    "es": "Juegos Mediterráneos",
-    "fr": "Jeux méditerranéens",
-    "it": "Giochi del Mediterraneo",
-    "pt": "Jogos do Mediterrâneo",
-    "ar": "ألعاب البحر الأبيض المتوسط"
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Lig",
+    "es": "Primera División de Turquía",
+    "fr": "TFF Première Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "الدوري التركي الدرجة الأولى"
    },
-   "home": "Turkiye",
-   "away": "Hirvatistan",
-   "kickoffUtc": "2026-08-31T19:00:00Z",
+   "home": "Boluspor",
+   "away": "Keciorengucu",
+   "kickoffUtc": "2026-09-01T17:00:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor 5"
+     "beIN Connect",
+     "tabii Spor 6"
     ]
    },
    "sources": [],
-   "homeNames": {
-    "tr": "Türkiye",
-    "en": "Türkiye",
-    "de": "Türkiye",
-    "es": "Türkiye",
-    "fr": "Türkiye",
-    "it": "Türkiye",
-    "pt": "Türkiye",
-    "ar": "Türkiye"
-   },
    "awayNames": {
-    "tr": "Hırvatistan",
-    "en": "Hırvatistan",
-    "de": "Hırvatistan",
-    "es": "Hırvatistan",
-    "fr": "Hırvatistan",
-    "it": "Hırvatistan",
-    "pt": "Hırvatistan",
-    "ar": "Hırvatistan"
+    "tr": "Keçiörengücü",
+    "en": "Keçiörengücü",
+    "de": "Keçiörengücü",
+    "es": "Keçiörengücü",
+    "fr": "Keçiörengücü",
+    "it": "Keçiörengücü",
+    "pt": "Keçiörengücü",
+    "ar": "Keçiörengücü"
    }
   },
   {
-   "id": "football-20260831-benfica-estoril",
+   "id": "football-20260901-al-hilal-al-ahli",
    "sport": "football",
-   "competitionId": "primeira",
+   "competitionId": "saudi_pl",
    "tier": "global",
    "competition": {
-    "tr": "Portekiz Ligi",
-    "en": "Liga Portugal",
-    "de": "Liga Portugal",
-    "es": "Liga Portugal",
-    "fr": "Liga Portugal",
-    "it": "Liga Portugal",
-    "pt": "Liga Portugal Betclic",
-    "ar": "الدوري البرتغالي"
+    "tr": "Suudi Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Liga Profissional Saudita",
+    "ar": "دوري روشن السعودي"
    },
-   "home": "Benfica",
-   "away": "Estoril",
-   "kickoffUtc": "2026-08-31T19:15:00Z",
+   "home": "Al Hilal",
+   "away": "Al Ahli",
+   "kickoffUtc": "2026-09-01T18:00:00Z",
    "broadcasts": {
     "TR": [
-     "beIN Sports 4"
+     "HT Spor",
+     "S Sport Plus"
     ],
-    "PT": [
-     "Sport TV"
+    "SA": [
+     "Thmanyah",
+     "STC TV"
     ],
     "DE": [
-     "DAZN",
-     "Sportdigital FUSSBALL",
-     "Sportdigital+"
-    ],
-    "FR": [
-     "beIN Sports MAX 4"
-    ],
-    "US": [
-     "beIN Sports"
-    ],
-    "IT": [
      "DAZN"
     ],
-    "BR": [
-     "ESPN 4",
-     "Disney+"
+    "AT": [
+     "DAZN"
+    ],
+    "CH": [
+     "DAZN"
+    ],
+    "FR": [
+     "DAZN"
+    ],
+    "US": [
+     "FS2",
+     "FOX Deportes"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260831-braga-vitoria-guimaraes",
+   "id": "football-20260901-hebc-hamburg-borussia-dortmund",
    "sport": "football",
-   "competitionId": "primeira",
+   "competitionId": "dfb_pokal",
    "tier": "global",
    "competition": {
-    "tr": "Portekiz Ligi",
-    "en": "Liga Portugal",
-    "de": "Liga Portugal",
-    "es": "Liga Portugal",
-    "fr": "Liga Portugal",
-    "it": "Liga Portugal",
-    "pt": "Liga Portugal Betclic",
-    "ar": "الدوري البرتغالي"
+    "tr": "Almanya Kupası",
+    "en": "DFB-Pokal",
+    "de": "DFB-Pokal",
+    "es": "Copa de Alemania",
+    "fr": "Coupe d'Allemagne",
+    "it": "Coppa di Germania",
+    "pt": "Copa da Alemanha",
+    "ar": "كأس ألمانيا"
    },
-   "home": "Braga",
-   "away": "Vitoria Guimaraes",
-   "kickoffUtc": "2026-08-31T19:15:00Z",
-   "broadcasts": {
-    "PT": [
-     "Sport TV"
-    ],
-    "DE": [
-     "OneFootball",
-     "Sportdigital+"
-    ],
-    "FR": [
-     "beIN Sports MAX 4"
-    ],
-    "BR": [
-     "ESPN 4",
-     "Disney+"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Sporting Braga",
-    "en": "Sporting Braga",
-    "de": "Sporting Braga",
-    "es": "Sporting Braga",
-    "fr": "Sporting Braga",
-    "it": "Sporting Braga",
-    "pt": "Sporting Braga",
-    "ar": "سبورتينغ براغا"
-   },
-   "awayNames": {
-    "tr": "Vitória Guimarães",
-    "en": "Vitória Guimarães",
-    "de": "Vitória Guimarães",
-    "es": "Vitória Guimarães",
-    "fr": "Vitória Guimarães",
-    "it": "Vitória Guimarães",
-    "pt": "Vitória Guimarães",
-    "ar": "فيتوريا غيماريش"
-   }
-  },
-  {
-   "id": "football-20260831-barcelona-rayo-vallecano",
-   "sport": "football",
-   "competitionId": "laliga",
-   "tier": "global",
-   "competition": {
-    "tr": "İspanya La Liga",
-    "en": "LaLiga",
-    "de": "LaLiga",
-    "es": "LaLiga",
-    "fr": "LaLiga",
-    "it": "LaLiga",
-    "pt": "LaLiga",
-    "ar": "الدوري الإسباني"
-   },
-   "home": "Barcelona",
-   "away": "Rayo Vallecano",
-   "kickoffUtc": "2026-08-31T19:30:00Z",
+   "home": "HEBC Hamburg",
+   "away": "Borussia Dortmund",
+   "kickoffUtc": "2026-09-01T18:45:00Z",
    "broadcasts": {
     "TR": [
-     "S Sport 2",
-     "S Sport Plus",
-     "AzTV"
+     "S Sport Plus"
+    ],
+    "DE": [
+     "RTL",
+     "RTL+",
+     "Sky Sport",
+     "WOW"
     ],
     "ES": [
-     "DAZN LaLiga",
-     "DAZN",
-     "LaLiga TV Bar"
+     "OneFootball PPV"
+    ],
+    "US": [
+     "DFB Play"
+    ],
+    "GB": [
+     "DFB Play"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260901-torino-monza",
+   "sport": "football",
+   "competitionId": "coppa_italia",
+   "tier": "global",
+   "competition": {
+    "tr": "İtalya Kupası",
+    "en": "Coppa Italia",
+    "de": "Coppa Italia",
+    "es": "Copa de Italia",
+    "fr": "Coupe d'Italie",
+    "it": "Coppa Italia",
+    "pt": "Copa da Itália",
+    "ar": "كأس إيطاليا"
+   },
+   "home": "Torino",
+   "away": "Monza",
+   "kickoffUtc": "2026-09-01T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor"
+    ],
+    "IT": [
+     "Italia 1"
     ],
     "GB": [
      "Premier Sports 1"
     ],
-    "DE": [
-     "DAZN"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "PT": [
-     "DAZN"
-    ],
-    "FR": [
-     "DAZN",
-     "Disney+"
-    ],
-    "BR": [
-     "CazéTV"
-    ],
-    "MX": [
-     "Sky Sports"
-    ],
     "US": [
-     "ESPN+",
-     "ESPN Deportes"
-    ],
-    "SA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "DZ": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "IQ": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "JO": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "EG": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "OM": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "QA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "AE": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "MA": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "TN": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "LY": [
-     "beIN Sports 1 HD",
-     "beIN Sports 2 HD"
-    ],
-    "NG": [
-     "SuperSport"
-    ],
-    "ZA": [
-     "SuperSport"
-    ],
-    "GH": [
-     "SuperSport"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ],
-    "CA": [
-     "TSN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20260831-izlanda-turkiye",
-   "sport": "basketball",
-   "competitionId": "fiba_wcq",
-   "tier": "regional",
-   "competition": {
-    "tr": "FIBA Dünya Kupası Elemeleri",
-    "en": "FIBA World Cup Qualifiers",
-    "de": "FIBA-WM-Qualifikation",
-    "es": "Clasificación Copa Mundial FIBA",
-    "fr": "Qualifications Coupe du monde FIBA",
-    "it": "Qualificazioni Coppa del Mondo FIBA",
-    "pt": "Qualificatórias da Copa do Mundo FIBA",
-    "ar": "تصفيات كأس العالم لكرة السلة"
-   },
-   "home": "Izlanda",
-   "away": "Turkiye",
-   "kickoffUtc": "2026-08-31T19:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT 1",
-     "S Sport",
-     "S Sport Plus"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "İzlanda",
-    "en": "İzlanda",
-    "de": "İzlanda",
-    "es": "İzlanda",
-    "fr": "İzlanda",
-    "it": "İzlanda",
-    "pt": "İzlanda",
-    "ar": "İzlanda"
-   },
-   "awayNames": {
-    "tr": "Türkiye",
-    "en": "Türkiye",
-    "de": "Türkiye",
-    "es": "Türkiye",
-    "fr": "Türkiye",
-    "it": "Türkiye",
-    "pt": "Türkiye",
-    "ar": "Türkiye"
-   }
-  },
-  {
-   "id": "football-20260831-defensa-y-justicia-platense",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Ligi",
-    "en": "Argentine Primera División",
-    "de": "Argentinische Primera División",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Defensa y Justicia",
-   "away": "Platense",
-   "kickoffUtc": "2026-08-31T22:00:00Z",
-   "broadcasts": {
-    "AR": [
-     "ESPN Premium"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260831-estudiantes-newells",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Ligi",
-    "en": "Argentine Primera División",
-    "de": "Argentinische Primera División",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Estudiantes",
-   "away": "Newells",
-   "kickoffUtc": "2026-08-31T22:00:00Z",
-   "broadcasts": {
-    "AR": [
-     "ESPN Premium",
-     "TNT Sports Premium"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Newell's Old Boys",
-    "en": "Newell's Old Boys",
-    "de": "Newell's Old Boys",
-    "es": "Newell's Old Boys",
-    "fr": "Newell's Old Boys",
-    "it": "Newell's Old Boys",
-    "pt": "Newell's Old Boys",
-    "ar": "Newell's Old Boys"
-   }
-  },
-  {
-   "id": "football-20260831-fortaleza-operario-pr",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brasileirão Série B",
-    "de": "Brasileirão Série B",
-    "es": "Brasileirão Serie B",
-    "fr": "Brasileirão Série B",
-    "it": "Brasileirão Serie B",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Fortaleza",
-   "away": "Operario-PR",
-   "kickoffUtc": "2026-08-31T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "ESPN",
-     "Disney+"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Operário-PR",
-    "en": "Operário-PR",
-    "de": "Operário-PR",
-    "es": "Operário-PR",
-    "fr": "Operário-PR",
-    "it": "Operário-PR",
-    "pt": "Operário-PR",
-    "ar": "Operário-PR"
-   }
-  },
-  {
-   "id": "football-20260831-remo-coritiba",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brasileirão Série B",
-    "de": "Brasileirão Série B",
-    "es": "Brasileirão Serie B",
-    "fr": "Brasileirão Série B",
-    "it": "Brasileirão Serie B",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Remo",
-   "away": "Coritiba",
-   "kickoffUtc": "2026-08-31T23:00:00Z",
-   "broadcasts": {
-    "BR": [
-     "Premiere"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-instituto-san-lorenzo",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Ligi",
-    "en": "Argentine Primera División",
-    "de": "Argentinische Primera División",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Instituto",
-   "away": "San Lorenzo",
-   "kickoffUtc": "2026-09-01T00:15:00Z",
-   "broadcasts": {
-    "AR": [
-     "ESPN Premium",
-     "TNT Sports Premium"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-tigre-barracas-central",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Ligi",
-    "en": "Argentine Primera División",
-    "de": "Argentinische Primera División",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Tigre",
-   "away": "Barracas Central",
-   "kickoffUtc": "2026-09-01T00:15:00Z",
-   "broadcasts": {
-    "AR": [
-     "ESPN Premium",
-     "TNT Sports Premium"
+     "Paramount+"
     ]
    },
    "sources": []
