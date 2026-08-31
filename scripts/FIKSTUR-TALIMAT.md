@@ -95,7 +95,9 @@ Gece üretim yapılamazsa (dizüstü fişsiz, pil bitmiş) sabah bu dosya hazır
 
 **Girer:** büyük Avrupa ligleri ve kupaları · UEFA turnuvaları · Türkiye Süper Lig / 1. Lig / Türkiye Kupası ·
 Brasileirão A ve B · Copa do Brasil · Libertadores · Sudamericana · Arjantin Primera División ·
-Suudi Pro Lig · MLS · Liga MX · A milli takım maçları · voleybol ve basketbolda büyük turnuvalar.
+Suudi Pro Lig · MLS · Liga MX · **Azerbaycan Premier Ligi** · A milli takım maçları · voleybol ve basketbolda büyük turnuvalar · **Akdeniz Oyunları (3x3 basketbol dahil)**.
+
+⚠️ **Bir önceki çalışmanın koyduğu maçı, kapsam dışı sandığın için ÇIKARMA.** 31 Ağu'da otomatik çalışma bir önceki çalışmanın eklediği Azerbaycan Premier Ligi maçını düşürdü. Dosyada duran bir maç, kaynakta hâlâ görünüyorsa ve bitmemişse KALIR.
 
 **Girmez:** bitmiş maçlar (`Tamamlandı` / `FIN` / `انتهت`) · rezerv ve altyapı ligleri
 (Torneo Proyección, U21, Primera B/C) · kadın kulüp ligleri (kadın MİLLİ takım turnuvaları girer) ·

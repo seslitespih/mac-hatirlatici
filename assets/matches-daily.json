@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-08-31T04:20:00.000Z",
+ "generated_at": "2026-08-31T06:30:18.000Z",
  "date": "2026-08-31",
  "model": "user-provided",
  "stats": {
-  "total": 23,
-  "withChannel": 23,
+  "total": 25,
+  "withChannel": 25,
   "bySport": {
    "volleyball": 4,
-   "basketball": 2,
+   "basketball": 4,
    "football": 17
   },
   "warnings": 0,
@@ -371,6 +371,44 @@
     "it": "İsveç",
     "pt": "İsveç",
     "ar": "İsveç"
+   }
+  },
+  {
+   "id": "basketball-20260831-fransa-turkiye-3x3",
+   "sport": "basketball",
+   "competitionId": "med_games",
+   "tier": "regional",
+   "competition": {
+    "tr": "Akdeniz Oyunları",
+    "en": "Mediterranean Games",
+    "de": "Mittelmeerspiele",
+    "es": "Juegos Mediterráneos",
+    "fr": "Jeux méditerranéens",
+    "it": "Giochi del Mediterraneo",
+    "pt": "Jogos do Mediterrâneo",
+    "ar": "ألعاب البحر الأبيض المتوسط"
+   },
+   "home": "Fransa",
+   "away": "Turkiye",
+   "kickoffUtc": "2026-08-31T17:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor"
+    ],
+    "FR": [
+     "tabii Spor"
+    ]
+   },
+   "sources": [],
+   "awayNames": {
+    "tr": "Türkiye",
+    "en": "Türkiye",
+    "de": "Türkiye",
+    "es": "Türkiye",
+    "fr": "Türkiye",
+    "it": "Türkiye",
+    "pt": "Türkiye",
+    "ar": "Türkiye"
    }
   },
   {
@@ -861,6 +899,51 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "basketball-20260831-turkiye-hirvatistan-3x3",
+   "sport": "basketball",
+   "competitionId": "med_games",
+   "tier": "regional",
+   "competition": {
+    "tr": "Akdeniz Oyunları",
+    "en": "Mediterranean Games",
+    "de": "Mittelmeerspiele",
+    "es": "Juegos Mediterráneos",
+    "fr": "Jeux méditerranéens",
+    "it": "Giochi del Mediterraneo",
+    "pt": "Jogos do Mediterrâneo",
+    "ar": "ألعاب البحر الأبيض المتوسط"
+   },
+   "home": "Turkiye",
+   "away": "Hirvatistan",
+   "kickoffUtc": "2026-08-31T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Türkiye",
+    "en": "Türkiye",
+    "de": "Türkiye",
+    "es": "Türkiye",
+    "fr": "Türkiye",
+    "it": "Türkiye",
+    "pt": "Türkiye",
+    "ar": "Türkiye"
+   },
+   "awayNames": {
+    "tr": "Hırvatistan",
+    "en": "Hırvatistan",
+    "de": "Hırvatistan",
+    "es": "Hırvatistan",
+    "fr": "Hırvatistan",
+    "it": "Hırvatistan",
+    "pt": "Hırvatistan",
+    "ar": "Hırvatistan"
+   }
   },
   {
    "id": "football-20260831-benfica-estoril",
