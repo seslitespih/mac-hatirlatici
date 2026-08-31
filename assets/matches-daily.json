@@ -1,353 +1,23 @@
 {
- "generated_at": "2026-08-30T22:13:33.000Z",
+ "generated_at": "2026-08-31T04:20:00.000Z",
  "date": "2026-08-31",
  "model": "user-provided",
  "stats": {
-  "total": 25,
-  "withChannel": 25,
+  "total": 23,
+  "withChannel": 23,
   "bySport": {
-   "football": 19,
    "volleyball": 4,
-   "basketball": 2
+   "basketball": 2,
+   "football": 17
   },
   "warnings": 0,
   "searches": 0,
   "days": [
-   "2026-08-30",
-   "2026-08-31"
+   "2026-08-31",
+   "2026-09-01"
   ]
  },
  "matches": [
-  {
-   "id": "football-20260830-columbus-crew-new-england",
-   "sport": "football",
-   "competitionId": "mls",
-   "tier": "regional",
-   "competition": {
-    "tr": "MLS",
-    "en": "MLS",
-    "de": "MLS",
-    "es": "MLS",
-    "fr": "MLS",
-    "it": "MLS",
-    "pt": "MLS",
-    "ar": "الدوري الأمريكي"
-   },
-   "home": "Columbus Crew",
-   "away": "New England",
-   "kickoffUtc": "2026-08-30T20:30:00Z",
-   "broadcasts": {
-    "US": [
-     "MLS Season Pass (Apple TV)"
-    ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "New England Revolution",
-    "en": "New England Revolution",
-    "de": "New England Revolution",
-    "es": "New England Revolution",
-    "fr": "New England Revolution",
-    "it": "New England Revolution",
-    "pt": "New England Revolution",
-    "ar": "New England Revolution"
-   }
-  },
-  {
-   "id": "football-20260830-crb-criciuma",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brasileirão Série B",
-    "de": "Brasileirão Série B",
-    "es": "Brasileirão Serie B",
-    "fr": "Brasileirão Série B",
-    "it": "Brasileirão Serie B",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "CRB",
-   "away": "Criciuma",
-   "kickoffUtc": "2026-08-30T21:00:00Z",
-   "broadcasts": {
-    "BR": [
-     "RedeTV!",
-     "Canal GOAT",
-     "Disney+"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Criciúma",
-    "en": "Criciúma",
-    "de": "Criciúma",
-    "es": "Criciúma",
-    "fr": "Criciúma",
-    "it": "Criciúma",
-    "pt": "Criciúma",
-    "ar": "Criciúma"
-   }
-  },
-  {
-   "id": "football-20260830-gremio-chapecoense",
-   "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
-   },
-   "home": "Gremio",
-   "away": "Chapecoense",
-   "kickoffUtc": "2026-08-30T21:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "Premiere",
-     "SporTV"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Grêmio",
-    "en": "Grêmio",
-    "de": "Grêmio",
-    "es": "Grêmio",
-    "fr": "Grêmio",
-    "it": "Grêmio",
-    "pt": "Grêmio",
-    "ar": "Grêmio"
-   }
-  },
-  {
-   "id": "football-20260830-mirassol-palmeiras",
-   "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
-   },
-   "home": "Mirassol",
-   "away": "Palmeiras",
-   "kickoffUtc": "2026-08-30T21:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "Spor Smart 2",
-     "Smart Spor 2"
-    ],
-    "GB": [
-     "Premier Sports 2"
-    ],
-    "BR": [
-     "Amazon Prime Video"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260830-vila-nova-ceara",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brasileirão Série B",
-    "de": "Brasileirão Série B",
-    "es": "Brasileirão Serie B",
-    "fr": "Brasileirão Série B",
-    "it": "Brasileirão Serie B",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Vila Nova",
-   "away": "Ceara",
-   "kickoffUtc": "2026-08-30T21:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "SportyNet",
-     "ESPN",
-     "XSports",
-     "Disney+"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Ceará",
-    "en": "Ceará",
-    "de": "Ceará",
-    "es": "Ceará",
-    "fr": "Ceará",
-    "it": "Ceará",
-    "pt": "Ceará",
-    "ar": "Ceará"
-   }
-  },
-  {
-   "id": "football-20260830-independiente-gimnasia",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Ligi",
-    "en": "Argentine Primera División",
-    "de": "Argentinische Primera División",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Independiente",
-   "away": "Gimnasia",
-   "kickoffUtc": "2026-08-30T22:15:00Z",
-   "broadcasts": {
-    "AR": [
-     "ESPN Premium",
-     "TNT Sports Premium"
-    ],
-    "TR": [
-     "Spor Smart",
-     "Smart Spor HD"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Gimnasia (Mendoza)",
-    "en": "Gimnasia (Mendoza)",
-    "de": "Gimnasia (Mendoza)",
-    "es": "Gimnasia (Mendoza)",
-    "fr": "Gimnasia (Mendoza)",
-    "it": "Gimnasia (Mendoza)",
-    "pt": "Gimnasia (Mendoza)",
-    "ar": "Gimnasia (Mendoza)"
-   }
-  },
-  {
-   "id": "football-20260830-bahia-internacional",
-   "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
-   },
-   "home": "Bahia",
-   "away": "Internacional",
-   "kickoffUtc": "2026-08-30T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "Globo",
-     "SporTV",
-     "Premiere"
-    ],
-    "TR": [
-     "Spor Smart 2",
-     "Smart Spor 2"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260830-st-louis-city-fc-dallas",
-   "sport": "football",
-   "competitionId": "mls",
-   "tier": "regional",
-   "competition": {
-    "tr": "MLS",
-    "en": "MLS",
-    "de": "MLS",
-    "es": "MLS",
-    "fr": "MLS",
-    "it": "MLS",
-    "pt": "MLS",
-    "ar": "الدوري الأمريكي"
-   },
-   "home": "St Louis City",
-   "away": "FC Dallas",
-   "kickoffUtc": "2026-08-30T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "MLS Season Pass (Apple TV)"
-    ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "St. Louis City SC",
-    "en": "St. Louis City SC",
-    "de": "St. Louis City SC",
-    "es": "St. Louis City SC",
-    "fr": "St. Louis City SC",
-    "it": "St. Louis City SC",
-    "pt": "St. Louis City SC",
-    "ar": "St. Louis City SC"
-   }
-  },
-  {
-   "id": "football-20260831-independiente-rivadavia-racing",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Ligi",
-    "en": "Argentine Primera División",
-    "de": "Argentinische Primera División",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Independiente Rivadavia",
-   "away": "Racing",
-   "kickoffUtc": "2026-08-31T00:30:00Z",
-   "broadcasts": {
-    "AR": [
-     "ESPN Premium",
-     "TNT Sports Premium"
-    ],
-    "TR": [
-     "Spor Smart",
-     "Smart Spor HD"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Racing Club",
-    "en": "Racing Club",
-    "de": "Racing Club",
-    "es": "Racing Club",
-    "fr": "Racing Club",
-    "it": "Racing Club",
-    "pt": "Racing Club",
-    "ar": "Racing Club"
-   }
-  },
   {
    "id": "volleyball-20260831-hollanda-slovenya",
    "sport": "volleyball",
@@ -648,6 +318,9 @@
     ],
     "FR": [
      "DAZN"
+    ],
+    "CA": [
+     "Fubo"
     ]
    },
    "sources": []
@@ -801,6 +474,9 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "CA": [
+     "TSN+"
     ]
    },
    "sources": []
@@ -999,9 +675,51 @@
     ],
     "FR": [
      "DAZN"
+    ],
+    "CA": [
+     "Fubo"
     ]
    },
    "sources": []
+  },
+  {
+   "id": "football-20260831-dijon-saint-etienne",
+   "sport": "football",
+   "competitionId": "ligue2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Fransa Ligue 2",
+    "en": "Ligue 2",
+    "de": "Ligue 2",
+    "es": "Ligue 2",
+    "fr": "Ligue 2",
+    "it": "Ligue 2",
+    "pt": "Ligue 2",
+    "ar": "الدوري الفرنسي الدرجة الثانية"
+   },
+   "home": "Dijon",
+   "away": "Saint-Etienne",
+   "kickoffUtc": "2026-08-31T18:45:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports 1"
+    ],
+    "US": [
+     "beIN Sports Xtra",
+     "Fanatiz"
+    ]
+   },
+   "sources": [],
+   "awayNames": {
+    "tr": "Saint-Étienne",
+    "en": "Saint-Étienne",
+    "de": "Saint-Étienne",
+    "es": "Saint-Étienne",
+    "fr": "Saint-Étienne",
+    "it": "Saint-Étienne",
+    "pt": "Saint-Étienne",
+    "ar": "Saint-Étienne"
+   }
   },
   {
    "id": "football-20260831-aston-villa-arsenal",
@@ -1137,6 +855,9 @@
     ],
     "ES": [
      "DAZN"
+    ],
+    "CA": [
+     "Fubo"
     ]
    },
    "sources": []
@@ -1167,6 +888,7 @@
      "Sport TV"
     ],
     "DE": [
+     "DAZN",
      "Sportdigital Fußball",
      "Sportdigital+"
     ],
@@ -1202,7 +924,7 @@
      "Sport TV"
     ],
     "DE": [
-     "Sportdigital Fußball",
+     "OneFootball",
      "Sportdigital+"
     ],
     "FR": [
@@ -1256,6 +978,7 @@
      "AzTV"
     ],
     "ES": [
+     "DAZN LaLiga",
      "Movistar+"
     ],
     "GB": [
@@ -1334,6 +1057,9 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "CA": [
+     "TSN+"
     ]
    },
    "sources": []
@@ -1384,6 +1110,180 @@
     "pt": "Türkiye",
     "ar": "Türkiye"
    }
+  },
+  {
+   "id": "football-20260831-defensa-y-justicia-platense",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Ligi",
+    "en": "Argentine Primera División",
+    "de": "Argentinische Primera División",
+    "es": "Primera División de Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primeira Divisão Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Defensa y Justicia",
+   "away": "Platense",
+   "kickoffUtc": "2026-08-31T22:00:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN Premium"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260831-estudiantes-newells",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Ligi",
+    "en": "Argentine Primera División",
+    "de": "Argentinische Primera División",
+    "es": "Primera División de Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primeira Divisão Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Estudiantes",
+   "away": "Newells",
+   "kickoffUtc": "2026-08-31T22:00:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN Premium",
+     "TNT Sports Premium"
+    ]
+   },
+   "sources": [],
+   "awayNames": {
+    "tr": "Newell's Old Boys",
+    "en": "Newell's Old Boys",
+    "de": "Newell's Old Boys",
+    "es": "Newell's Old Boys",
+    "fr": "Newell's Old Boys",
+    "it": "Newell's Old Boys",
+    "pt": "Newell's Old Boys",
+    "ar": "Newell's Old Boys"
+   }
+  },
+  {
+   "id": "football-20260831-fortaleza-operario-pr",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brasileirão Série B",
+    "de": "Brasileirão Série B",
+    "es": "Brasileirão Serie B",
+    "fr": "Brasileirão Série B",
+    "it": "Brasileirão Serie B",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Fortaleza",
+   "away": "Operario-PR",
+   "kickoffUtc": "2026-08-31T22:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": [],
+   "awayNames": {
+    "tr": "Operário-PR",
+    "en": "Operário-PR",
+    "de": "Operário-PR",
+    "es": "Operário-PR",
+    "fr": "Operário-PR",
+    "it": "Operário-PR",
+    "pt": "Operário-PR",
+    "ar": "Operário-PR"
+   }
+  },
+  {
+   "id": "football-20260831-remo-coritiba",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brasileirão Série B",
+    "de": "Brasileirão Série B",
+    "es": "Brasileirão Serie B",
+    "fr": "Brasileirão Série B",
+    "it": "Brasileirão Serie B",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Remo",
+   "away": "Coritiba",
+   "kickoffUtc": "2026-08-31T23:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "Premiere"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260901-instituto-san-lorenzo",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Ligi",
+    "en": "Argentine Primera División",
+    "de": "Argentinische Primera División",
+    "es": "Primera División de Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primeira Divisão Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Instituto",
+   "away": "San Lorenzo",
+   "kickoffUtc": "2026-09-01T00:15:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN Premium",
+     "TNT Sports Premium"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260901-tigre-barracas-central",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Ligi",
+    "en": "Argentine Primera División",
+    "de": "Argentinische Primera División",
+    "es": "Primera División de Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primeira Divisão Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Tigre",
+   "away": "Barracas Central",
+   "kickoffUtc": "2026-09-01T00:15:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN Premium",
+     "TNT Sports Premium"
+    ]
+   },
+   "sources": []
   }
  ]
 }
