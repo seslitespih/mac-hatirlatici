@@ -1,1085 +1,22 @@
 {
- "generated_at": "2026-09-01T06:33:30.000Z",
- "date": "2026-09-01",
+ "generated_at": "2026-09-01T22:20:00.000Z",
+ "date": "2026-09-02",
  "model": "user-provided",
  "stats": {
-  "total": 24,
-  "withChannel": 24,
+  "total": 14,
+  "withChannel": 14,
   "bySport": {
-   "football": 19,
-   "volleyball": 2,
-   "basketball": 3
+   "football": 14
   },
   "warnings": 0,
-  "searches": 0,
+  "searches": 1,
   "days": [
-   "2026-09-01"
+   "2026-09-02"
   ]
  },
  "matches": [
   {
-   "id": "football-20260901-bandirmaspor-antalyaspor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Lig",
-    "es": "Primera División de Turquía",
-    "fr": "TFF Première Ligue",
-    "it": "TFF Prima Lega",
-    "pt": "TFF Primeira Liga",
-    "ar": "الدوري التركي الدرجة الأولى"
-   },
-   "home": "Bandirmaspor",
-   "away": "Antalyaspor",
-   "kickoffUtc": "2026-09-01T13:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor",
-     "beIN Connect"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Bandırmaspor",
-    "en": "Bandırmaspor",
-    "de": "Bandırmaspor",
-    "es": "Bandırmaspor",
-    "fr": "Bandırmaspor",
-    "it": "Bandırmaspor",
-    "pt": "Bandırmaspor",
-    "ar": "Bandırmaspor"
-   }
-  },
-  {
-   "id": "volleyball-20260901-belcika-almanya",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Belcika",
-   "away": "Almanya",
-   "kickoffUtc": "2026-09-01T13:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ],
-    "BE": [
-     "CEV YouTube"
-    ],
-    "DE": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Belçika",
-    "en": "Belçika",
-    "de": "Belçika",
-    "es": "Belçika",
-    "fr": "Belçika",
-    "it": "Belçika",
-    "pt": "Belçika",
-    "ar": "Belçika"
-   }
-  },
-  {
-   "id": "basketball-20260901-petkimspor-lokomotiv-kuban",
-   "sport": "basketball",
-   "competitionId": "gloria_cup",
-   "tier": "regional",
-   "competition": {
-    "tr": "Gloria Cup Basketbol",
-    "en": "Gloria Cup Basketball",
-    "de": "Gloria Cup Basketball",
-    "es": "Gloria Cup de Baloncesto",
-    "fr": "Gloria Cup de Basketball",
-    "it": "Gloria Cup di Basket",
-    "pt": "Gloria Cup de Basquete",
-    "ar": "كأس غلوريا لكرة السلة"
-   },
-   "home": "Petkimspor",
-   "away": "Lokomotiv Kuban",
-   "kickoffUtc": "2026-09-01T13:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "HT Spor"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-umraniyespor-muglaspor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Lig",
-    "es": "Primera División de Turquía",
-    "fr": "TFF Première Ligue",
-    "it": "TFF Prima Lega",
-    "pt": "TFF Primeira Liga",
-    "ar": "الدوري التركي الدرجة الأولى"
-   },
-   "home": "Umraniyespor",
-   "away": "Muglaspor",
-   "kickoffUtc": "2026-09-01T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Connect",
-     "tabii Spor 6"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Ümraniyespor",
-    "en": "Ümraniyespor",
-    "de": "Ümraniyespor",
-    "es": "Ümraniyespor",
-    "fr": "Ümraniyespor",
-    "it": "Ümraniyespor",
-    "pt": "Ümraniyespor",
-    "ar": "Ümraniyespor"
-   },
-   "awayNames": {
-    "tr": "Muğlaspor",
-    "en": "Muğlaspor",
-    "de": "Muğlaspor",
-    "es": "Muğlaspor",
-    "fr": "Muğlaspor",
-    "it": "Muğlaspor",
-    "pt": "Muğlaspor",
-    "ar": "Muğlaspor"
-   }
-  },
-  {
-   "id": "football-20260901-parma-cremonese",
-   "sport": "football",
-   "competitionId": "coppa_italia",
-   "tier": "global",
-   "competition": {
-    "tr": "İtalya Kupası",
-    "en": "Coppa Italia",
-    "de": "Coppa Italia",
-    "es": "Copa de Italia",
-    "fr": "Coupe d'Italie",
-    "it": "Coppa Italia",
-    "pt": "Copa da Itália",
-    "ar": "كأس إيطاليا"
-   },
-   "home": "Parma",
-   "away": "Cremonese",
-   "kickoffUtc": "2026-09-01T16:00:00Z",
-   "broadcasts": {
-    "IT": [
-     "Italia 1"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "GB": [
-     "Premier Sports 1"
-    ],
-    "US": [
-     "CBS Sports Golazo Network",
-     "Paramount+",
-     "Amazon Prime Video"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20260901-turk-telekom-cayirova",
-   "sport": "basketball",
-   "competitionId": "gloria_cup",
-   "tier": "regional",
-   "competition": {
-    "tr": "Gloria Cup Basketbol",
-    "en": "Gloria Cup Basketball",
-    "de": "Gloria Cup Basketball",
-    "es": "Gloria Cup de Baloncesto",
-    "fr": "Gloria Cup de Basketball",
-    "it": "Gloria Cup di Basket",
-    "pt": "Gloria Cup de Basquete",
-    "ar": "كأس غلوريا لكرة السلة"
-   },
-   "home": "Turk Telekom",
-   "away": "Cayirova Bld.",
-   "kickoffUtc": "2026-09-01T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "HT Spor"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Türk Telekom",
-    "en": "Türk Telekom",
-    "de": "Türk Telekom",
-    "es": "Türk Telekom",
-    "fr": "Türk Telekom",
-    "it": "Türk Telekom",
-    "pt": "Türk Telekom",
-    "ar": "Türk Telekom"
-   },
-   "awayNames": {
-    "tr": "Çayırova Bld.",
-    "en": "Çayırova Bld.",
-    "de": "Çayırova Bld.",
-    "es": "Çayırova Bld.",
-    "fr": "Çayırova Bld.",
-    "it": "Çayırova Bld.",
-    "pt": "Çayırova Bld.",
-    "ar": "Çayırova Bld."
-   }
-  },
-  {
-   "id": "volleyball-20260901-turkiye-azerbaycan",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato Europeo Femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Turkiye",
-   "away": "Azerbaycan",
-   "kickoffUtc": "2026-09-01T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT 1"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Türkiye",
-    "en": "Türkiye",
-    "de": "Türkiye",
-    "es": "Türkiye",
-    "fr": "Türkiye",
-    "it": "Türkiye",
-    "pt": "Türkiye",
-    "ar": "Türkiye"
-   }
-  },
-  {
-   "id": "basketball-20260901-ispanya-turkiye-3x3",
-   "sport": "basketball",
-   "competitionId": "med_games",
-   "tier": "regional",
-   "competition": {
-    "tr": "Akdeniz Oyunları",
-    "en": "Mediterranean Games",
-    "de": "Mittelmeerspiele",
-    "es": "Juegos Mediterráneos",
-    "fr": "Jeux méditerranéens",
-    "it": "Giochi del Mediterraneo",
-    "pt": "Jogos do Mediterrâneo",
-    "ar": "ألعاب البحر الأبيض المتوسط"
-   },
-   "home": "Ispanya",
-   "away": "Turkiye",
-   "kickoffUtc": "2026-09-01T16:15:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "İspanya",
-    "en": "İspanya",
-    "de": "İspanya",
-    "es": "İspanya",
-    "fr": "İspanya",
-    "it": "İspanya",
-    "pt": "İspanya",
-    "ar": "İspanya"
-   },
-   "awayNames": {
-    "tr": "Türkiye",
-    "en": "Türkiye",
-    "de": "Türkiye",
-    "es": "Türkiye",
-    "fr": "Türkiye",
-    "it": "Türkiye",
-    "pt": "Türkiye",
-    "ar": "Türkiye"
-   }
-  },
-  {
-   "id": "football-20260901-boluspor-keciorengucu",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Lig",
-    "es": "Primera División de Turquía",
-    "fr": "TFF Première Ligue",
-    "it": "TFF Prima Lega",
-    "pt": "TFF Primeira Liga",
-    "ar": "الدوري التركي الدرجة الأولى"
-   },
-   "home": "Boluspor",
-   "away": "Keciorengucu",
-   "kickoffUtc": "2026-09-01T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Connect",
-     "tabii Spor 6"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Keçiörengücü",
-    "en": "Keçiörengücü",
-    "de": "Keçiörengücü",
-    "es": "Keçiörengücü",
-    "fr": "Keçiörengücü",
-    "it": "Keçiörengücü",
-    "pt": "Keçiörengücü",
-    "ar": "Keçiörengücü"
-   }
-  },
-  {
-   "id": "football-20260901-sariyer-pendikspor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Lig",
-    "es": "Primera División de Turquía",
-    "fr": "TFF Première Ligue",
-    "it": "TFF Prima Lega",
-    "pt": "TFF Primeira Liga",
-    "ar": "الدوري التركي الدرجة الأولى"
-   },
-   "home": "Sariyer",
-   "away": "Pendikspor",
-   "kickoffUtc": "2026-09-01T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor",
-     "beIN Connect"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Sarıyer",
-    "en": "Sarıyer",
-    "de": "Sarıyer",
-    "es": "Sarıyer",
-    "fr": "Sarıyer",
-    "it": "Sarıyer",
-    "pt": "Sarıyer",
-    "ar": "Sarıyer"
-   }
-  },
-  {
-   "id": "football-20260901-wolfsberger-lask",
-   "sport": "football",
-   "competitionId": "aut_bundesliga",
-   "tier": "regional",
-   "competition": {
-    "tr": "Avusturya Bundesliga",
-    "en": "Austrian Bundesliga",
-    "de": "Österreichische Bundesliga",
-    "es": "Bundesliga de Austria",
-    "fr": "Bundesliga autrichienne",
-    "it": "Bundesliga austriaca",
-    "pt": "Bundesliga austríaca",
-    "ar": "الدوري النمساوي"
-   },
-   "home": "Wolfsberger AC",
-   "away": "LASK",
-   "kickoffUtc": "2026-09-01T17:30:00Z",
-   "broadcasts": {
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "BR": [
-     "OneFootball PPV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-al-hilal-al-ahli",
-   "sport": "football",
-   "competitionId": "saudi_pl",
-   "tier": "global",
-   "competition": {
-    "tr": "Suudi Pro Lig",
-    "en": "Saudi Pro League",
-    "de": "Saudi Pro League",
-    "es": "Liga Profesional Saudí",
-    "fr": "Saudi Pro League",
-    "it": "Saudi Pro League",
-    "pt": "Liga Profissional Saudita",
-    "ar": "دوري روشن السعودي"
-   },
-   "home": "Al Hilal",
-   "away": "Al Ahli",
-   "kickoffUtc": "2026-09-01T18:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "HT Spor",
-     "S Sport Plus"
-    ],
-    "SA": [
-     "Thmanyah",
-     "STC TV"
-    ],
-    "DE": [
-     "DAZN",
-     "Sportdigital FUSSBALL2",
-     "Sportdigital+"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "FR": [
-     "DAZN"
-    ],
-    "ES": [
-     "M+ Vamos",
-     "M+ Liga de Campeones"
-    ],
-    "US": [
-     "FS2",
-     "FOX Deportes",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV"
-    ],
-    "BR": [
-     "BandSports",
-     "XSports",
-     "OneFootball"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-hebc-hamburg-borussia-dortmund",
-   "sport": "football",
-   "competitionId": "dfb_pokal",
-   "tier": "global",
-   "competition": {
-    "tr": "Almanya Kupası",
-    "en": "DFB-Pokal",
-    "de": "DFB-Pokal",
-    "es": "Copa de Alemania",
-    "fr": "Coupe d'Allemagne",
-    "it": "Coppa di Germania",
-    "pt": "Copa da Alemanha",
-    "ar": "كأس ألمانيا"
-   },
-   "home": "HEBC Hamburg",
-   "away": "Borussia Dortmund",
-   "kickoffUtc": "2026-09-01T18:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "DE": [
-     "RTL",
-     "RTL+",
-     "Sky Top Event",
-     "Sky Sport News",
-     "WOW"
-    ],
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "FR": [
-     "beIN Sports"
-    ],
-    "US": [
-     "DFB Play"
-    ],
-    "GB": [
-     "DFB Play"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-lincoln-city-blackburn-rovers",
-   "sport": "football",
-   "competitionId": "championship",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Championship",
-    "en": "EFL Championship",
-    "de": "EFL Championship",
-    "es": "EFL Championship",
-    "fr": "EFL Championship",
-    "it": "EFL Championship",
-    "pt": "EFL Championship",
-    "ar": "دوري البطولة الإنجليزية"
-   },
-   "home": "Lincoln City",
-   "away": "Blackburn Rovers",
-   "kickoffUtc": "2026-09-01T18:45:00Z",
-   "broadcasts": {
-    "SA": [
-     "beIN Sports 3 HD"
-    ],
-    "DZ": [
-     "beIN Sports 3 HD"
-    ],
-    "EG": [
-     "beIN Sports 3 HD"
-    ],
-    "QA": [
-     "beIN Sports 3 HD"
-    ],
-    "AE": [
-     "beIN Sports 3 HD"
-    ],
-    "MA": [
-     "beIN Sports 3 HD"
-    ],
-    "TN": [
-     "beIN Sports 3 HD"
-    ],
-    "IQ": [
-     "beIN Sports 3 HD"
-    ],
-    "JO": [
-     "beIN Sports 3 HD"
-    ],
-    "OM": [
-     "beIN Sports 3 HD"
-    ],
-    "LY": [
-     "beIN Sports 3 HD"
-    ],
-    "GB": [
-     "Sky Sports+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-portsmouth-derby-county",
-   "sport": "football",
-   "competitionId": "championship",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Championship",
-    "en": "EFL Championship",
-    "de": "EFL Championship",
-    "es": "EFL Championship",
-    "fr": "EFL Championship",
-    "it": "EFL Championship",
-    "pt": "EFL Championship",
-    "ar": "دوري البطولة الإنجليزية"
-   },
-   "home": "Portsmouth",
-   "away": "Derby County",
-   "kickoffUtc": "2026-09-01T18:45:00Z",
-   "broadcasts": {
-    "SA": [
-     "beIN Sports 3 HD"
-    ],
-    "DZ": [
-     "beIN Sports 3 HD"
-    ],
-    "EG": [
-     "beIN Sports 3 HD"
-    ],
-    "QA": [
-     "beIN Sports 3 HD"
-    ],
-    "AE": [
-     "beIN Sports 3 HD"
-    ],
-    "MA": [
-     "beIN Sports 3 HD"
-    ],
-    "TN": [
-     "beIN Sports 3 HD"
-    ],
-    "IQ": [
-     "beIN Sports 3 HD"
-    ],
-    "JO": [
-     "beIN Sports 3 HD"
-    ],
-    "OM": [
-     "beIN Sports 3 HD"
-    ],
-    "LY": [
-     "beIN Sports 3 HD"
-    ],
-    "GB": [
-     "Sky Sports+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-preston-north-end-bristol-city",
-   "sport": "football",
-   "competitionId": "championship",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Championship",
-    "en": "EFL Championship",
-    "de": "EFL Championship",
-    "es": "EFL Championship",
-    "fr": "EFL Championship",
-    "it": "EFL Championship",
-    "pt": "EFL Championship",
-    "ar": "دوري البطولة الإنجليزية"
-   },
-   "home": "Preston North End",
-   "away": "Bristol City",
-   "kickoffUtc": "2026-09-01T18:45:00Z",
-   "broadcasts": {
-    "SA": [
-     "beIN Sports 3 HD"
-    ],
-    "DZ": [
-     "beIN Sports 3 HD"
-    ],
-    "EG": [
-     "beIN Sports 3 HD"
-    ],
-    "QA": [
-     "beIN Sports 3 HD"
-    ],
-    "AE": [
-     "beIN Sports 3 HD"
-    ],
-    "MA": [
-     "beIN Sports 3 HD"
-    ],
-    "TN": [
-     "beIN Sports 3 HD"
-    ],
-    "IQ": [
-     "beIN Sports 3 HD"
-    ],
-    "JO": [
-     "beIN Sports 3 HD"
-    ],
-    "OM": [
-     "beIN Sports 3 HD"
-    ],
-    "LY": [
-     "beIN Sports 3 HD"
-    ],
-    "GB": [
-     "Sky Sports+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-sheffield-united-bolton-wanderers",
-   "sport": "football",
-   "competitionId": "championship",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Championship",
-    "en": "EFL Championship",
-    "de": "EFL Championship",
-    "es": "EFL Championship",
-    "fr": "EFL Championship",
-    "it": "EFL Championship",
-    "pt": "EFL Championship",
-    "ar": "دوري البطولة الإنجليزية"
-   },
-   "home": "Sheffield United",
-   "away": "Bolton Wanderers",
-   "kickoffUtc": "2026-09-01T18:45:00Z",
-   "broadcasts": {
-    "SA": [
-     "beIN Sports 3 HD"
-    ],
-    "DZ": [
-     "beIN Sports 3 HD"
-    ],
-    "EG": [
-     "beIN Sports 3 HD"
-    ],
-    "QA": [
-     "beIN Sports 3 HD"
-    ],
-    "AE": [
-     "beIN Sports 3 HD"
-    ],
-    "MA": [
-     "beIN Sports 3 HD"
-    ],
-    "TN": [
-     "beIN Sports 3 HD"
-    ],
-    "IQ": [
-     "beIN Sports 3 HD"
-    ],
-    "JO": [
-     "beIN Sports 3 HD"
-    ],
-    "OM": [
-     "beIN Sports 3 HD"
-    ],
-    "LY": [
-     "beIN Sports 3 HD"
-    ],
-    "GB": [
-     "Sky Sports+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-swansea-city-watford",
-   "sport": "football",
-   "competitionId": "championship",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Championship",
-    "en": "EFL Championship",
-    "de": "EFL Championship",
-    "es": "EFL Championship",
-    "fr": "EFL Championship",
-    "it": "EFL Championship",
-    "pt": "EFL Championship",
-    "ar": "دوري البطولة الإنجليزية"
-   },
-   "home": "Swansea City",
-   "away": "Watford",
-   "kickoffUtc": "2026-09-01T18:45:00Z",
-   "broadcasts": {
-    "SA": [
-     "beIN Sports 3 HD"
-    ],
-    "DZ": [
-     "beIN Sports 3 HD"
-    ],
-    "EG": [
-     "beIN Sports 3 HD"
-    ],
-    "QA": [
-     "beIN Sports 3 HD"
-    ],
-    "AE": [
-     "beIN Sports 3 HD"
-    ],
-    "MA": [
-     "beIN Sports 3 HD"
-    ],
-    "TN": [
-     "beIN Sports 3 HD"
-    ],
-    "IQ": [
-     "beIN Sports 3 HD"
-    ],
-    "JO": [
-     "beIN Sports 3 HD"
-    ],
-    "OM": [
-     "beIN Sports 3 HD"
-    ],
-    "LY": [
-     "beIN Sports 3 HD"
-    ],
-    "GB": [
-     "Sky Sports+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-west-ham-united-wolves",
-   "sport": "football",
-   "competitionId": "championship",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Championship",
-    "en": "EFL Championship",
-    "de": "EFL Championship",
-    "es": "EFL Championship",
-    "fr": "EFL Championship",
-    "it": "EFL Championship",
-    "pt": "EFL Championship",
-    "ar": "دوري البطولة الإنجليزية"
-   },
-   "home": "West Ham United",
-   "away": "Wolves",
-   "kickoffUtc": "2026-09-01T18:45:00Z",
-   "broadcasts": {
-    "SA": [
-     "beIN Sports 3 HD"
-    ],
-    "DZ": [
-     "beIN Sports 3 HD"
-    ],
-    "EG": [
-     "beIN Sports 3 HD"
-    ],
-    "QA": [
-     "beIN Sports 3 HD"
-    ],
-    "AE": [
-     "beIN Sports 3 HD"
-    ],
-    "MA": [
-     "beIN Sports 3 HD"
-    ],
-    "TN": [
-     "beIN Sports 3 HD"
-    ],
-    "IQ": [
-     "beIN Sports 3 HD"
-    ],
-    "JO": [
-     "beIN Sports 3 HD"
-    ],
-    "OM": [
-     "beIN Sports 3 HD"
-    ],
-    "LY": [
-     "beIN Sports 3 HD"
-    ],
-    "GB": [
-     "Sky Sports+"
-    ],
-    "US": [
-     "CBS Sports Golazo Network",
-     "Paramount+",
-     "Amazon Prime Video"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-birmingham-city-southampton",
-   "sport": "football",
-   "competitionId": "championship",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Championship",
-    "en": "EFL Championship",
-    "de": "EFL Championship",
-    "es": "EFL Championship",
-    "fr": "EFL Championship",
-    "it": "EFL Championship",
-    "pt": "EFL Championship",
-    "ar": "دوري البطولة الإنجليزية"
-   },
-   "home": "Birmingham City",
-   "away": "Southampton",
-   "kickoffUtc": "2026-09-01T19:00:00Z",
-   "broadcasts": {
-    "SA": [
-     "beIN Sports 3 HD"
-    ],
-    "DZ": [
-     "beIN Sports 3 HD"
-    ],
-    "EG": [
-     "beIN Sports 3 HD"
-    ],
-    "QA": [
-     "beIN Sports 3 HD"
-    ],
-    "AE": [
-     "beIN Sports 3 HD"
-    ],
-    "MA": [
-     "beIN Sports 3 HD"
-    ],
-    "TN": [
-     "beIN Sports 3 HD"
-    ],
-    "IQ": [
-     "beIN Sports 3 HD"
-    ],
-    "JO": [
-     "beIN Sports 3 HD"
-    ],
-    "OM": [
-     "beIN Sports 3 HD"
-    ],
-    "LY": [
-     "beIN Sports 3 HD"
-    ],
-    "GB": [
-     "Sky Sports+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-stoke-city-norwich-city",
-   "sport": "football",
-   "competitionId": "championship",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Championship",
-    "en": "EFL Championship",
-    "de": "EFL Championship",
-    "es": "EFL Championship",
-    "fr": "EFL Championship",
-    "it": "EFL Championship",
-    "pt": "EFL Championship",
-    "ar": "دوري البطولة الإنجليزية"
-   },
-   "home": "Stoke City",
-   "away": "Norwich City",
-   "kickoffUtc": "2026-09-01T19:00:00Z",
-   "broadcasts": {
-    "SA": [
-     "beIN Sports 3 HD"
-    ],
-    "DZ": [
-     "beIN Sports 3 HD"
-    ],
-    "EG": [
-     "beIN Sports 3 HD"
-    ],
-    "QA": [
-     "beIN Sports 3 HD"
-    ],
-    "AE": [
-     "beIN Sports 3 HD"
-    ],
-    "MA": [
-     "beIN Sports 3 HD"
-    ],
-    "TN": [
-     "beIN Sports 3 HD"
-    ],
-    "IQ": [
-     "beIN Sports 3 HD"
-    ],
-    "JO": [
-     "beIN Sports 3 HD"
-    ],
-    "OM": [
-     "beIN Sports 3 HD"
-    ],
-    "LY": [
-     "beIN Sports 3 HD"
-    ],
-    "GB": [
-     "Sky Sports Main Event",
-     "Sky Sports Football",
-     "Sky Sports Ultra HDR"
-    ],
-    "BR": [
-     "ESPN 4"
-    ],
-    "US": [
-     "Paramount+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-torino-monza",
-   "sport": "football",
-   "competitionId": "coppa_italia",
-   "tier": "global",
-   "competition": {
-    "tr": "İtalya Kupası",
-    "en": "Coppa Italia",
-    "de": "Coppa Italia",
-    "es": "Copa de Italia",
-    "fr": "Coupe d'Italie",
-    "it": "Coppa Italia",
-    "pt": "Copa da Itália",
-    "ar": "كأس إيطاليا"
-   },
-   "home": "Torino",
-   "away": "Monza",
-   "kickoffUtc": "2026-09-01T19:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor"
-    ],
-    "IT": [
-     "Italia 1"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "FR": [
-     "DAZN"
-    ],
-    "GB": [
-     "Premier Sports 1"
-    ],
-    "US": [
-     "Paramount+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-londrina-juventude",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Série B",
-    "de": "Brasilianische Série B",
-    "es": "Serie B de Brasil",
-    "fr": "Série B brésilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Londrina",
-   "away": "Juventude",
-   "kickoffUtc": "2026-09-01T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260901-atletico-mg-cruzeiro",
+   "id": "football-20260902-atletico-mg-cruzeiro",
    "sport": "football",
    "competitionId": "copa_do_brasil",
    "tier": "regional",
@@ -1101,6 +38,12 @@
      "SporTV",
      "Premiere",
      "OneFootball PPV"
+    ],
+    "GB": [
+     "Premier Sports 2"
+    ],
+    "ES": [
+     "OneFootball PPV"
     ]
    },
    "sources": [],
@@ -1114,6 +57,562 @@
     "pt": "Atlético-MG",
     "ar": "أتلتيكو مينيرو"
    }
+  },
+  {
+   "id": "football-20260902-sassuolo-frosinone",
+   "sport": "football",
+   "competitionId": "coppa_italia",
+   "tier": "global",
+   "competition": {
+    "tr": "İtalya Kupası",
+    "en": "Coppa Italia",
+    "de": "Coppa Italia",
+    "es": "Copa de Italia",
+    "fr": "Coupe d'Italie",
+    "it": "Coppa Italia",
+    "pt": "Copa da Itália",
+    "ar": "كأس إيطاليا"
+   },
+   "home": "Sassuolo",
+   "away": "Frosinone",
+   "kickoffUtc": "2026-09-02T13:00:00Z",
+   "broadcasts": {
+    "IT": [
+     "Italia 1"
+    ],
+    "FR": [
+     "DAZN"
+    ],
+    "GB": [
+     "Premier Sports 1"
+    ],
+    "US": [
+     "Paramount+"
+    ],
+    "CA": [
+     "Fubo"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260902-vanspor-batman-petrol",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Lig",
+    "es": "Primera División de Turquía",
+    "fr": "TFF Première Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "الدوري التركي الدرجة الأولى"
+   },
+   "home": "Vanspor",
+   "away": "Batman Petrol",
+   "kickoffUtc": "2026-09-02T14:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor",
+     "beIN Sports 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260902-udinese-venezia",
+   "sport": "football",
+   "competitionId": "coppa_italia",
+   "tier": "global",
+   "competition": {
+    "tr": "İtalya Kupası",
+    "en": "Coppa Italia",
+    "de": "Coppa Italia",
+    "es": "Copa de Italia",
+    "fr": "Coupe d'Italie",
+    "it": "Coppa Italia",
+    "pt": "Copa da Itália",
+    "ar": "كأس إيطاليا"
+   },
+   "home": "Udinese",
+   "away": "Venezia",
+   "kickoffUtc": "2026-09-02T16:00:00Z",
+   "broadcasts": {
+    "IT": [
+     "Italia 1"
+    ],
+    "FR": [
+     "DAZN"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "GB": [
+     "Premier Sports 1"
+    ],
+    "US": [
+     "CBS Sports Golazo Network",
+     "Paramount+",
+     "Amazon Prime Video"
+    ],
+    "CA": [
+     "Fubo"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260902-austria-wien-wsg-tirol",
+   "sport": "football",
+   "competitionId": "aut_bundesliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Avusturya Bundesliga",
+    "en": "Austrian Bundesliga",
+    "de": "Österreichische Bundesliga",
+    "es": "Bundesliga de Austria",
+    "fr": "Bundesliga autrichienne",
+    "it": "Bundesliga austriaca",
+    "pt": "Bundesliga austríaca",
+    "ar": "الدوري النمساوي"
+   },
+   "home": "Austria Wien",
+   "away": "WSG Tirol",
+   "kickoffUtc": "2026-09-02T16:30:00Z",
+   "broadcasts": {
+    "ES": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260902-karagumruk-kayserispor",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Lig",
+    "es": "Primera División de Turquía",
+    "fr": "TFF Première Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "الدوري التركي الدرجة الأولى"
+   },
+   "home": "Karagumruk",
+   "away": "Kayserispor",
+   "kickoffUtc": "2026-09-02T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 2",
+     "tabii Spor 6"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Karagümrük",
+    "en": "Karagümrük",
+    "de": "Karagümrük",
+    "es": "Karagümrük",
+    "fr": "Karagümrük",
+    "it": "Karagümrük",
+    "pt": "Karagümrük",
+    "ar": "Karagümrük"
+   }
+  },
+  {
+   "id": "football-20260902-sivasspor-mardin-1969",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Lig",
+    "es": "Primera División de Turquía",
+    "fr": "TFF Première Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "الدوري التركي الدرجة الأولى"
+   },
+   "home": "Sivasspor",
+   "away": "Mardin 1969",
+   "kickoffUtc": "2026-09-02T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor",
+     "beIN Sports Max 1"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260902-red-bull-salzburg-rapid-wien",
+   "sport": "football",
+   "competitionId": "aut_bundesliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Avusturya Bundesliga",
+    "en": "Austrian Bundesliga",
+    "de": "Österreichische Bundesliga",
+    "es": "Bundesliga de Austria",
+    "fr": "Bundesliga autrichienne",
+    "it": "Bundesliga austriaca",
+    "pt": "Bundesliga austríaca",
+    "ar": "الدوري النمساوي"
+   },
+   "home": "Red Bull Salzburg",
+   "away": "Rapid Wien",
+   "kickoffUtc": "2026-09-02T18:30:00Z",
+   "broadcasts": {
+    "ES": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260902-osnabruck-bayern-munich",
+   "sport": "football",
+   "competitionId": "dfb_pokal",
+   "tier": "global",
+   "competition": {
+    "tr": "Almanya Kupası",
+    "en": "DFB-Pokal",
+    "de": "DFB-Pokal",
+    "es": "Copa de Alemania",
+    "fr": "Coupe d'Allemagne",
+    "it": "Coppa di Germania",
+    "pt": "Copa da Alemanha",
+    "ar": "كأس ألمانيا"
+   },
+   "home": "Osnabruck",
+   "away": "Bayern Munich",
+   "kickoffUtc": "2026-09-02T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ],
+    "DE": [
+     "Das Erste",
+     "Sky Sport",
+     "WOW"
+    ],
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "FR": [
+     "beIN Sports 1"
+    ],
+    "GB": [
+     "Premier Sports 2",
+     "DFB Play"
+    ],
+    "US": [
+     "DFB Play"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Osnabrück",
+    "en": "Osnabrück",
+    "de": "Osnabrück",
+    "es": "Osnabrück",
+    "fr": "Osnabrück",
+    "it": "Osnabrück",
+    "pt": "Osnabrück",
+    "ar": "Osnabrück"
+   },
+   "awayNames": {
+    "tr": "Bayern Munich",
+    "en": "Bayern Munich",
+    "de": "Bayern München",
+    "es": "Bayern Munich",
+    "fr": "Bayern Munich",
+    "it": "Bayern Munich",
+    "pt": "Bayern Munich",
+    "ar": "Bayern Munich"
+   }
+  },
+  {
+   "id": "football-20260902-millwall-wrexham",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "Millwall",
+   "away": "Wrexham",
+   "kickoffUtc": "2026-09-02T18:45:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports+"
+    ],
+    "US": [
+     "Paramount+"
+    ],
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260902-qpr-cardiff-city",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "QPR",
+   "away": "Cardiff City",
+   "kickoffUtc": "2026-09-02T18:45:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports+"
+    ],
+    "US": [
+     "Paramount+"
+    ],
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260902-west-brom-charlton",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "West Brom",
+   "away": "Charlton",
+   "kickoffUtc": "2026-09-02T18:45:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports+"
+    ],
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260902-burnley-middlesbrough",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "Burnley",
+   "away": "Middlesbrough",
+   "kickoffUtc": "2026-09-02T19:00:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports Main Event",
+     "Sky Sports Ultra HDR"
+    ],
+    "US": [
+     "CBS Sports Golazo Network",
+     "Paramount+",
+     "Amazon Prime Video"
+    ],
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260902-falkirk-rangers",
+   "sport": "football",
+   "competitionId": "scottish_prem",
+   "tier": "regional",
+   "competition": {
+    "tr": "İskoçya Premier Lig",
+    "en": "Scottish Premiership",
+    "de": "Schottische Premiership",
+    "es": "Premiership de Escocia",
+    "fr": "Championnat d'Écosse",
+    "it": "Premiership scozzese",
+    "pt": "Campeonato Escocês",
+    "ar": "الدوري الاسكتلندي الممتاز"
+   },
+   "home": "Falkirk",
+   "away": "Rangers",
+   "kickoffUtc": "2026-09-02T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ],
+    "GB": [
+     "Sky Sports Football",
+     "Sky Sports Ultra HDR"
+    ],
+    "US": [
+     "Paramount+"
+    ]
+   },
+   "sources": []
   }
  ]
 }
