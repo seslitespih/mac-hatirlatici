@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-01T04:10:00.000Z",
+ "generated_at": "2026-09-01T06:28:34.000Z",
  "date": "2026-09-01",
  "model": "user-provided",
  "stats": {
-  "total": 13,
-  "withChannel": 13,
+  "total": 22,
+  "withChannel": 22,
   "bySport": {
-   "football": 10,
+   "football": 19,
    "volleyball": 2,
    "basketball": 1
   },
@@ -260,6 +260,42 @@
    }
   },
   {
+   "id": "football-20260901-boluspor-keciorengucu",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Lig",
+    "es": "Primera División de Turquía",
+    "fr": "TFF Première Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "الدوري التركي الدرجة الأولى"
+   },
+   "home": "Boluspor",
+   "away": "Keciorengucu",
+   "kickoffUtc": "2026-09-01T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Connect",
+     "tabii Spor 6"
+    ]
+   },
+   "sources": [],
+   "awayNames": {
+    "tr": "Keçiörengücü",
+    "en": "Keçiörengücü",
+    "de": "Keçiörengücü",
+    "es": "Keçiörengücü",
+    "fr": "Keçiörengücü",
+    "it": "Keçiörengücü",
+    "pt": "Keçiörengücü",
+    "ar": "Keçiörengücü"
+   }
+  },
+  {
    "id": "football-20260901-sariyer-pendikspor",
    "sport": "football",
    "competitionId": "tff1",
@@ -296,40 +332,32 @@
    }
   },
   {
-   "id": "football-20260901-boluspor-keciorengucu",
+   "id": "football-20260901-wolfsberger-lask",
    "sport": "football",
-   "competitionId": "tff1",
+   "competitionId": "aut_bundesliga",
    "tier": "regional",
    "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Lig",
-    "es": "Primera División de Turquía",
-    "fr": "TFF Première Ligue",
-    "it": "TFF Prima Lega",
-    "pt": "TFF Primeira Liga",
-    "ar": "الدوري التركي الدرجة الأولى"
+    "tr": "Avusturya Bundesliga",
+    "en": "Austrian Bundesliga",
+    "de": "Österreichische Bundesliga",
+    "es": "Bundesliga de Austria",
+    "fr": "Bundesliga autrichienne",
+    "it": "Bundesliga austriaca",
+    "pt": "Bundesliga austríaca",
+    "ar": "الدوري النمساوي"
    },
-   "home": "Boluspor",
-   "away": "Keciorengucu",
-   "kickoffUtc": "2026-09-01T17:00:00Z",
+   "home": "Wolfsberger AC",
+   "away": "LASK",
+   "kickoffUtc": "2026-09-01T17:30:00Z",
    "broadcasts": {
-    "TR": [
-     "beIN Connect",
-     "tabii Spor 6"
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "BR": [
+     "OneFootball PPV"
     ]
    },
-   "sources": [],
-   "awayNames": {
-    "tr": "Keçiörengücü",
-    "en": "Keçiörengücü",
-    "de": "Keçiörengücü",
-    "es": "Keçiörengücü",
-    "fr": "Keçiörengücü",
-    "it": "Keçiörengücü",
-    "pt": "Keçiörengücü",
-    "ar": "Keçiörengücü"
-   }
+   "sources": []
   },
   {
    "id": "football-20260901-al-hilal-al-ahli",
@@ -371,7 +399,8 @@
      "DAZN"
     ],
     "ES": [
-     "M+ Vamos"
+     "M+ Vamos",
+     "M+ Liga de Campeones"
     ],
     "US": [
      "FS2",
@@ -379,7 +408,8 @@
     ],
     "BR": [
      "BandSports",
-     "XSports"
+     "XSports",
+     "OneFootball"
     ]
    },
    "sources": []
@@ -416,13 +446,482 @@
      "OneFootball PPV"
     ],
     "FR": [
-     "beIN Sports 1"
+     "beIN Sports"
     ],
     "US": [
      "DFB Play"
     ],
     "GB": [
      "DFB Play"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260901-lincoln-city-blackburn-rovers",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "Lincoln City",
+   "away": "Blackburn Rovers",
+   "kickoffUtc": "2026-09-01T18:45:00Z",
+   "broadcasts": {
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ],
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260901-portsmouth-derby-county",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "Portsmouth",
+   "away": "Derby County",
+   "kickoffUtc": "2026-09-01T18:45:00Z",
+   "broadcasts": {
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ],
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260901-preston-north-end-bristol-city",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "Preston North End",
+   "away": "Bristol City",
+   "kickoffUtc": "2026-09-01T18:45:00Z",
+   "broadcasts": {
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ],
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260901-sheffield-united-bolton-wanderers",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "Sheffield United",
+   "away": "Bolton Wanderers",
+   "kickoffUtc": "2026-09-01T18:45:00Z",
+   "broadcasts": {
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ],
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260901-swansea-city-watford",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "Swansea City",
+   "away": "Watford",
+   "kickoffUtc": "2026-09-01T18:45:00Z",
+   "broadcasts": {
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ],
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260901-west-ham-united-wolves",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "West Ham United",
+   "away": "Wolves",
+   "kickoffUtc": "2026-09-01T18:45:00Z",
+   "broadcasts": {
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ],
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260901-birmingham-city-southampton",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "Birmingham City",
+   "away": "Southampton",
+   "kickoffUtc": "2026-09-01T19:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ],
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260901-stoke-city-norwich-city",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "Stoke City",
+   "away": "Norwich City",
+   "kickoffUtc": "2026-09-01T19:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ],
+    "GB": [
+     "Sky Sports Main Event",
+     "Sky Sports Football",
+     "Sky Sports Ultra HDR"
+    ],
+    "BR": [
+     "ESPN 4"
     ]
    },
    "sources": []
@@ -516,7 +1015,8 @@
    "broadcasts": {
     "BR": [
      "SporTV",
-     "Premiere"
+     "Premiere",
+     "OneFootball PPV"
     ]
    },
    "sources": [],
