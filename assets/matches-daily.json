@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-01T06:28:34.000Z",
+ "generated_at": "2026-09-01T06:33:30.000Z",
  "date": "2026-09-01",
  "model": "user-provided",
  "stats": {
-  "total": 22,
-  "withChannel": 22,
+  "total": 24,
+  "withChannel": 24,
   "bySport": {
    "football": 19,
    "volleyball": 2,
-   "basketball": 1
+   "basketball": 3
   },
   "warnings": 0,
   "searches": 0,
@@ -95,6 +95,31 @@
    }
   },
   {
+   "id": "basketball-20260901-petkimspor-lokomotiv-kuban",
+   "sport": "basketball",
+   "competitionId": "gloria_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "Gloria Cup Basketbol",
+    "en": "Gloria Cup Basketball",
+    "de": "Gloria Cup Basketball",
+    "es": "Gloria Cup de Baloncesto",
+    "fr": "Gloria Cup de Basketball",
+    "it": "Gloria Cup di Basket",
+    "pt": "Gloria Cup de Basquete",
+    "ar": "كأس غلوريا لكرة السلة"
+   },
+   "home": "Petkimspor",
+   "away": "Lokomotiv Kuban",
+   "kickoffUtc": "2026-09-01T13:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "HT Spor"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260901-umraniyespor-muglaspor",
    "sport": "football",
    "competitionId": "tff1",
@@ -178,6 +203,51 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "basketball-20260901-turk-telekom-cayirova",
+   "sport": "basketball",
+   "competitionId": "gloria_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "Gloria Cup Basketbol",
+    "en": "Gloria Cup Basketball",
+    "de": "Gloria Cup Basketball",
+    "es": "Gloria Cup de Baloncesto",
+    "fr": "Gloria Cup de Basketball",
+    "it": "Gloria Cup di Basket",
+    "pt": "Gloria Cup de Basquete",
+    "ar": "كأس غلوريا لكرة السلة"
+   },
+   "home": "Turk Telekom",
+   "away": "Cayirova Bld.",
+   "kickoffUtc": "2026-09-01T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "HT Spor"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Türk Telekom",
+    "en": "Türk Telekom",
+    "de": "Türk Telekom",
+    "es": "Türk Telekom",
+    "fr": "Türk Telekom",
+    "it": "Türk Telekom",
+    "pt": "Türk Telekom",
+    "ar": "Türk Telekom"
+   },
+   "awayNames": {
+    "tr": "Çayırova Bld.",
+    "en": "Çayırova Bld.",
+    "de": "Çayırova Bld.",
+    "es": "Çayırova Bld.",
+    "fr": "Çayırova Bld.",
+    "it": "Çayırova Bld.",
+    "pt": "Çayırova Bld.",
+    "ar": "Çayırova Bld."
+   }
   },
   {
    "id": "volleyball-20260901-turkiye-azerbaycan",
@@ -387,7 +457,9 @@
      "STC TV"
     ],
     "DE": [
-     "DAZN"
+     "DAZN",
+     "Sportdigital FUSSBALL2",
+     "Sportdigital+"
     ],
     "AT": [
      "DAZN"
@@ -404,7 +476,10 @@
     ],
     "US": [
      "FS2",
-     "FOX Deportes"
+     "FOX Deportes",
+     "Fubo",
+     "DirecTV Stream",
+     "Hulu + Live TV"
     ],
     "BR": [
      "BandSports",
@@ -439,7 +514,8 @@
     "DE": [
      "RTL",
      "RTL+",
-     "Sky Sport",
+     "Sky Top Event",
+     "Sky Sport News",
      "WOW"
     ],
     "ES": [
@@ -801,6 +877,11 @@
     ],
     "GB": [
      "Sky Sports+"
+    ],
+    "US": [
+     "CBS Sports Golazo Network",
+     "Paramount+",
+     "Amazon Prime Video"
     ]
    },
    "sources": []
@@ -922,6 +1003,9 @@
     ],
     "BR": [
      "ESPN 4"
+    ],
+    "US": [
+     "Paramount+"
     ]
    },
    "sources": []

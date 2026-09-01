@@ -55,8 +55,22 @@ karşılaştır, tutuyorsa dilim doğrudur.
 
 ## 2. Akış
 
-1. **On iki kaynağı çek.** Her birinin tarihini doğrula — beklenen günü göstermiyorsa O KAYNAĞI KULLANMA
-   ve raporda belirt.
+1. 🔴 **ON İKİ KAYNAĞIN HEPSİNİ ÇEK — HİÇBİRİNİ ATLAMA.**
+   Kullanıcı bu kaynakları tek tek buldu ve gönderdi; bir ülkeyi atlamak o ülkenin
+   kullanıcılarını kanalsız bırakıyor. "Zaten yeterli veri var" diye erken kesme.
+
+   Her kaynak için raporda **tek tek** yaz: çekildi mi, hangi tarihi gösterdi, kullanıldı mı.
+   Kullanılmadıysa sebebini yaz (eski tarih / erişilemedi / o gün maç yok).
+
+   | Kaynak | Durum | Gösterdiği tarih |
+   |---|---|---|
+   | TR · DE · ES · FR · GB · AR · BR · MENA · US · CA · IT | ✓/✗ | … |
+
+   ⚠️ **"O gün maç yok" ile "kaynağı çekmedim" ayrı şeylerdir.** Kanada ve Arjantin
+   1 Eylül'de gerçekten boştu (*"no events" / "Hoy no hay eventos"*) — bu normaldir,
+   ama çektiğini raporda göstermelisin.
+
+   Beklenen günü göstermeyen kaynağı O ÇALIŞMADA kullanma, ama sonraki çalışmada tekrar dene.
 2. **Maç kümesini birleştir.** Aynı maç birden çok kaynakta çıkar; ev/deplasman adlarına göre eşleştir.
 3. **Saatleri UTC'ye çevir.** Bir maç iki kaynakta farklı saat veriyorsa DURDUR ve raporda yaz — girme.
 4. **Kanalları ülke ülke yaz.** Her ülkenin kanalı KENDİ kaynağından gelir.
