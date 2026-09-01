@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-08-31T22:20:00.000Z",
+ "generated_at": "2026-09-01T04:10:00.000Z",
  "date": "2026-09-01",
  "model": "user-provided",
  "stats": {
-  "total": 11,
-  "withChannel": 11,
+  "total": 13,
+  "withChannel": 13,
   "bySport": {
-   "football": 8,
+   "football": 10,
    "volleyball": 2,
    "basketball": 1
   },
   "warnings": 0,
-  "searches": 2,
+  "searches": 0,
   "days": [
    "2026-09-01"
   ]
@@ -162,12 +162,19 @@
     "IT": [
      "Italia 1"
     ],
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "DAZN"
+    ],
     "GB": [
      "Premier Sports 1"
     ],
     "US": [
      "CBS Sports Golazo Network",
-     "Paramount+"
+     "Paramount+",
+     "Amazon Prime Video"
     ]
    },
    "sources": []
@@ -363,9 +370,16 @@
     "FR": [
      "DAZN"
     ],
+    "ES": [
+     "M+ Vamos"
+    ],
     "US": [
      "FS2",
      "FOX Deportes"
+    ],
+    "BR": [
+     "BandSports",
+     "XSports"
     ]
    },
    "sources": []
@@ -401,6 +415,9 @@
     "ES": [
      "OneFootball PPV"
     ],
+    "FR": [
+     "beIN Sports 1"
+    ],
     "US": [
      "DFB Play"
     ],
@@ -435,6 +452,15 @@
     "IT": [
      "Italia 1"
     ],
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "FR": [
+     "DAZN"
+    ],
     "GB": [
      "Premier Sports 1"
     ],
@@ -443,6 +469,67 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "football-20260901-londrina-juventude",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Série B",
+    "de": "Brasilianische Série B",
+    "es": "Serie B de Brasil",
+    "fr": "Série B brésilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Londrina",
+   "away": "Juventude",
+   "kickoffUtc": "2026-09-01T22:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260901-atletico-mg-cruzeiro",
+   "sport": "football",
+   "competitionId": "copa_do_brasil",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Kupası",
+    "en": "Copa do Brasil",
+    "de": "Copa do Brasil",
+    "es": "Copa de Brasil",
+    "fr": "Coupe du Brésil",
+    "it": "Coppa del Brasile",
+    "pt": "Copa do Brasil",
+    "ar": "كأس البرازيل"
+   },
+   "home": "Atletico-MG",
+   "away": "Cruzeiro",
+   "kickoffUtc": "2026-09-02T00:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "SporTV",
+     "Premiere"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Atlético-MG",
+    "en": "Atlético-MG",
+    "de": "Atlético-MG",
+    "es": "Atlético-MG",
+    "fr": "Atlético-MG",
+    "it": "Atlético-MG",
+    "pt": "Atlético-MG",
+    "ar": "أتلتيكو مينيرو"
+   }
   }
  ]
 }
