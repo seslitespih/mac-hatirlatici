@@ -1,63 +1,21 @@
 {
- "generated_at": "2026-09-01T22:20:00.000Z",
+ "generated_at": "2026-09-02T05:20:00.000Z",
  "date": "2026-09-02",
  "model": "user-provided",
  "stats": {
-  "total": 14,
-  "withChannel": 14,
+  "total": 18,
+  "withChannel": 18,
   "bySport": {
-   "football": 14
+   "football": 18
   },
   "warnings": 0,
   "searches": 1,
   "days": [
-   "2026-09-02"
+   "2026-09-02",
+   "2026-09-03"
   ]
  },
  "matches": [
-  {
-   "id": "football-20260902-atletico-mg-cruzeiro",
-   "sport": "football",
-   "competitionId": "copa_do_brasil",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Kupası",
-    "en": "Copa do Brasil",
-    "de": "Copa do Brasil",
-    "es": "Copa de Brasil",
-    "fr": "Coupe du Brésil",
-    "it": "Coppa del Brasile",
-    "pt": "Copa do Brasil",
-    "ar": "كأس البرازيل"
-   },
-   "home": "Atletico-MG",
-   "away": "Cruzeiro",
-   "kickoffUtc": "2026-09-02T00:00:00Z",
-   "broadcasts": {
-    "BR": [
-     "SporTV",
-     "Premiere",
-     "OneFootball PPV"
-    ],
-    "GB": [
-     "Premier Sports 2"
-    ],
-    "ES": [
-     "OneFootball PPV"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Atlético-MG",
-    "en": "Atlético-MG",
-    "de": "Atlético-MG",
-    "es": "Atlético-MG",
-    "fr": "Atlético-MG",
-    "it": "Atlético-MG",
-    "pt": "Atlético-MG",
-    "ar": "أتلتيكو مينيرو"
-   }
-  },
   {
    "id": "football-20260902-sassuolo-frosinone",
    "sport": "football",
@@ -91,6 +49,9 @@
     ],
     "CA": [
      "Fubo"
+    ],
+    "DE": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -159,6 +120,9 @@
     ],
     "CA": [
      "Fubo"
+    ],
+    "DE": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -300,6 +264,7 @@
     "DE": [
      "Das Erste",
      "Sky Sport",
+     "RTL+",
      "WOW"
     ],
     "ES": [
@@ -610,9 +575,191 @@
     ],
     "US": [
      "Paramount+"
+    ],
+    "DE": [
+     "Sportdigital Fußball",
+     "Sportdigital+"
     ]
    },
    "sources": []
+  },
+  {
+   "id": "football-20260902-flamengo-mirassol",
+   "sport": "football",
+   "competitionId": "bra_seriea",
+   "tier": "global",
+   "competition": {
+    "tr": "Brezilya Serie A",
+    "en": "Brasileirão Série A",
+    "de": "Brasileirão Série A",
+    "es": "Brasileirão Serie A",
+    "fr": "Brasileirão Série A",
+    "it": "Brasileirão Serie A",
+    "pt": "Brasileirão Série A",
+    "ar": "الدوري البرازيلي"
+   },
+   "home": "Flamengo",
+   "away": "Mirassol",
+   "kickoffUtc": "2026-09-02T22:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart 2"
+    ],
+    "BR": [
+     "Premiere"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260903-velez-sarsfield-boca-juniors",
+   "sport": "football",
+   "competitionId": "copa_argentina",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Kupası",
+    "en": "Argentine Cup",
+    "de": "Argentinischer Pokal",
+    "es": "Copa Argentina",
+    "fr": "Coupe d'Argentine",
+    "it": "Coppa d'Argentina",
+    "pt": "Copa da Argentina",
+    "ar": "كأس الأرجنتين"
+   },
+   "home": "Velez Sarsfield",
+   "away": "Boca Juniors",
+   "kickoffUtc": "2026-09-03T00:15:00Z",
+   "broadcasts": {
+    "AR": [
+     "TyC Sports"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Vélez Sarsfield",
+    "en": "Vélez Sarsfield",
+    "de": "Vélez Sarsfield",
+    "es": "Vélez Sarsfield",
+    "fr": "Vélez Sarsfield",
+    "it": "Vélez Sarsfield",
+    "pt": "Vélez Sarsfield",
+    "ar": "فيليز سارسفيلد"
+   }
+  },
+  {
+   "id": "football-20260903-santos-palmeiras",
+   "sport": "football",
+   "competitionId": "copa_do_brasil",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Kupası",
+    "en": "Copa do Brasil",
+    "de": "Copa do Brasil",
+    "es": "Copa de Brasil",
+    "fr": "Coupe du Brésil",
+    "it": "Coppa del Brasile",
+    "pt": "Copa do Brasil",
+    "ar": "كأس البرازيل"
+   },
+   "home": "Santos",
+   "away": "Palmeiras",
+   "kickoffUtc": "2026-09-03T00:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Globo",
+     "SporTV",
+     "Premiere",
+     "GE TV",
+     "Amazon Prime Video"
+    ],
+    "ES": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260903-vitoria-vasco",
+   "sport": "football",
+   "competitionId": "copa_do_brasil",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Kupası",
+    "en": "Copa do Brasil",
+    "de": "Copa do Brasil",
+    "es": "Copa de Brasil",
+    "fr": "Coupe du Brésil",
+    "it": "Coppa del Brasile",
+    "pt": "Copa do Brasil",
+    "ar": "كأس البرازيل"
+   },
+   "home": "Vitoria",
+   "away": "Vasco",
+   "kickoffUtc": "2026-09-03T00:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Globo",
+     "SporTV 2",
+     "Premiere 2",
+     "GE TV",
+     "Amazon Prime Video"
+    ],
+    "ES": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Vitória",
+    "en": "Vitória",
+    "de": "Vitória",
+    "es": "Vitória",
+    "fr": "Vitória",
+    "it": "Vitória",
+    "pt": "Vitória",
+    "ar": "فيتوريا"
+   }
+  },
+  {
+   "id": "football-20260903-toluca-leon",
+   "sport": "football",
+   "competitionId": "leagues_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "Leagues Cup",
+    "en": "Leagues Cup",
+    "de": "Leagues Cup",
+    "es": "Leagues Cup",
+    "fr": "Leagues Cup",
+    "it": "Leagues Cup",
+    "pt": "Leagues Cup",
+    "ar": "كأس الدوريات"
+   },
+   "home": "Toluca",
+   "away": "Leon",
+   "kickoffUtc": "2026-09-03T01:00:00Z",
+   "broadcasts": {
+    "US": [
+     "Apple TV"
+    ],
+    "CA": [
+     "Apple TV"
+    ],
+    "MX": [
+     "Apple TV"
+    ]
+   },
+   "sources": [],
+   "awayNames": {
+    "tr": "León",
+    "en": "León",
+    "de": "León",
+    "es": "León",
+    "fr": "León",
+    "it": "León",
+    "pt": "León",
+    "ar": "ليون"
+   }
   }
  ]
 }
