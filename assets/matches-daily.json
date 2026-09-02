@@ -1,12 +1,13 @@
 {
- "generated_at": "2026-09-02T05:20:00.000Z",
+ "generated_at": "2026-09-02T05:30:39.000Z",
  "date": "2026-09-02",
  "model": "user-provided",
  "stats": {
-  "total": 18,
-  "withChannel": 18,
+  "total": 20,
+  "withChannel": 20,
   "bySport": {
-   "football": 18
+   "football": 18,
+   "volleyball": 2
   },
   "warnings": 0,
   "searches": 1,
@@ -55,6 +56,44 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "volleyball-20260902-sirbistan-yunanistan",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women's European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato europeo femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "Sirbistan",
+   "away": "Yunanistan",
+   "kickoffUtc": "2026-09-02T14:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ],
+    "GR": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Sırbistan",
+    "en": "Sırbistan",
+    "de": "Sırbistan",
+    "es": "Sırbistan",
+    "fr": "Sırbistan",
+    "it": "Sırbistan",
+    "pt": "Sırbistan",
+    "ar": "Sırbistan"
+   }
   },
   {
    "id": "football-20260902-vanspor-batman-petrol",
@@ -123,6 +162,9 @@
     ],
     "DE": [
      "DAZN"
+    ],
+    "TR": [
+     "tabii Spor"
     ]
    },
    "sources": []
@@ -151,6 +193,54 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "volleyball-20260902-italya-isvec",
+   "sport": "volleyball",
+   "competitionId": "cev_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Kadınlar Avrupa Şampiyonası",
+    "en": "CEV Women's European Championship",
+    "de": "CEV Volleyball-EM der Frauen",
+    "es": "Campeonato de Europa Femenino CEV",
+    "fr": "Championnat d'Europe féminin CEV",
+    "it": "Campionato europeo femminile CEV",
+    "pt": "Campeonato Europeu Feminino CEV",
+    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
+   },
+   "home": "Italya",
+   "away": "Isvec",
+   "kickoffUtc": "2026-09-02T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ],
+    "IT": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "İtalya",
+    "en": "İtalya",
+    "de": "İtalya",
+    "es": "İtalya",
+    "fr": "İtalya",
+    "it": "İtalya",
+    "pt": "İtalya",
+    "ar": "İtalya"
+   },
+   "awayNames": {
+    "tr": "İsveç",
+    "en": "İsveç",
+    "de": "İsveç",
+    "es": "İsveç",
+    "fr": "İsveç",
+    "it": "İsveç",
+    "pt": "İsveç",
+    "ar": "İsveç"
+   }
   },
   {
    "id": "football-20260902-karagumruk-kayserispor",
@@ -240,6 +330,67 @@
    "sources": []
   },
   {
+   "id": "football-20260902-millwall-wrexham",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "Millwall",
+   "away": "Wrexham",
+   "kickoffUtc": "2026-09-02T18:45:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports+"
+    ],
+    "US": [
+     "Paramount+"
+    ],
+    "SA": [
+     "beIN Sports 3 HD"
+    ],
+    "DZ": [
+     "beIN Sports 3 HD"
+    ],
+    "IQ": [
+     "beIN Sports 3 HD"
+    ],
+    "JO": [
+     "beIN Sports 3 HD"
+    ],
+    "EG": [
+     "beIN Sports 3 HD"
+    ],
+    "OM": [
+     "beIN Sports 3 HD"
+    ],
+    "QA": [
+     "beIN Sports 3 HD"
+    ],
+    "AE": [
+     "beIN Sports 3 HD"
+    ],
+    "MA": [
+     "beIN Sports 3 HD"
+    ],
+    "TN": [
+     "beIN Sports 3 HD"
+    ],
+    "LY": [
+     "beIN Sports 3 HD"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260902-osnabruck-bayern-munich",
    "sport": "football",
    "competitionId": "dfb_pokal",
@@ -302,67 +453,6 @@
     "pt": "Bayern Munich",
     "ar": "Bayern Munich"
    }
-  },
-  {
-   "id": "football-20260902-millwall-wrexham",
-   "sport": "football",
-   "competitionId": "championship",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Championship",
-    "en": "EFL Championship",
-    "de": "EFL Championship",
-    "es": "EFL Championship",
-    "fr": "EFL Championship",
-    "it": "EFL Championship",
-    "pt": "EFL Championship",
-    "ar": "دوري البطولة الإنجليزية"
-   },
-   "home": "Millwall",
-   "away": "Wrexham",
-   "kickoffUtc": "2026-09-02T18:45:00Z",
-   "broadcasts": {
-    "GB": [
-     "Sky Sports+"
-    ],
-    "US": [
-     "Paramount+"
-    ],
-    "SA": [
-     "beIN Sports 3 HD"
-    ],
-    "DZ": [
-     "beIN Sports 3 HD"
-    ],
-    "IQ": [
-     "beIN Sports 3 HD"
-    ],
-    "JO": [
-     "beIN Sports 3 HD"
-    ],
-    "EG": [
-     "beIN Sports 3 HD"
-    ],
-    "OM": [
-     "beIN Sports 3 HD"
-    ],
-    "QA": [
-     "beIN Sports 3 HD"
-    ],
-    "AE": [
-     "beIN Sports 3 HD"
-    ],
-    "MA": [
-     "beIN Sports 3 HD"
-    ],
-    "TN": [
-     "beIN Sports 3 HD"
-    ],
-    "LY": [
-     "beIN Sports 3 HD"
-    ]
-   },
-   "sources": []
   },
   {
    "id": "football-20260902-qpr-cardiff-city",
