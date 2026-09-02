@@ -22,10 +22,13 @@ Hepsi doğrudan çekilebilir. `broadcast-rights.json` → `kaynaklar.ulkeler` da
 | GB | `https://www.live-footballontv.com/` | Londra UTC+1 (yaz) | |
 | AR | `https://tvenvivo.com.ar/` | UTC−3 | |
 | BR | `https://www.futebolnatv.com.br/` | Brasília UTC−3 | Yaz saati YOK (2019'da kalktı) |
-| MENA | `https://sporsat.com/ar` | **UTC** (bota) | Arapça: `م`=PM, `ص`=AM |
+| MENA | `https://www.kooora.com/كرة-القدم/مباريات-اليوم` | **Riyad UTC+3** | **BİRİNCİL** — günü zamanında çevirir; TOD TV / Abu Dhabi Sports / MBC Shahid |
+| MENA | `https://sporsat.com/ar` | UTC (bota) | yedek · ⏰ bir gün geride kalabiliyor · Arapça: `م`=PM, `ص`=AM |
 | US | `https://worldsoccertalk.com/upcoming-matches/` | ET UTC−4 (yaz) | **Sayfa ÖNCE dünü listeler** — istekte "dünü atla, sadece \<bugün\> başlığını listele" de |
 | CA | `https://www.goal.com/en-ca/sports-events/soccer` | **ziyaretçinin dilimi** | WebFetch ile çalışır (bir kez geçici DNS hatası verdi, tekrar dene). Kanallar: Fubo / TSN+ |
-| IT | `https://www.betscanner.it/news/info/calcio-in-tv-oggi` | Roma | ⏰ **Günü geç çeviriyor** — sabah 08:30'da hâlâ dünü gösteriyordu. 13:07/19:07'de tekrar dene. |
+| IT | `https://sport.virgilio.it/guida-tv/` | Roma UTC+2 | **BİRİNCİL** — günü zamanında çevirir |
+| IT | `https://www.betscanner.it/news/info/calcio-in-tv-oggi` | Roma | yedek · ⏰ bir gün geride kalabiliyor |
+| PT | `https://www.futebolnatv.pt/` | Lizbon UTC+1 | Brezilya kaynağının Portekiz kardeşi; Sport TV / BTV / Canal 11 |
 
 ### KULLANILMAYACAK kaynaklar
 
@@ -205,7 +208,7 @@ Bunlardan biri bile başarısızsa **dosyayı yazma**, durumu raporla:
 4. **Gerileme kontrolü:** yeni maç sayısı, aynı güne ait mevcut dosyanın maç sayısının
    **%70'inden az** mı, ya da kapsanan ülke sayısı azaldı mı? Öyleyse muhtemelen kaynak(lar)
    çekilememiştir — **mevcut dosyayı EZME**, raporla.
-5. On iki kaynaktan **en az sekizi** başarıyla çekildi mi.
+5. On dört kaynaktan **en az dokuzu** başarıyla çekildi mi.
 
 Aynı gün içinde tekrar çalışırken mevcut dosya **zenginleştirilir, sıfırdan yazılmaz**:
 mevcut kanalları koru, yalnız eksikleri doldur ve biten maçları çıkar.

@@ -1,6 +1,6 @@
 {
   "_comment": "Turnuva x ulke yayin haklari. Gunluk fikstur uretiminde TABAN olarak kullanilir; her gun sifirdan aranmaz. 'durum' alani: dogrulandi = web aramasiyla teyit edildi, tahmin = sektor bilgisi ama kaynakla teyit edilmedi. Sezon basinda ve 'su kanal yanlis' geri bildiriminde guncellenir.",
-  "_guncelleme": "2026-08-31",
+  "_guncelleme": "2026-09-02",
   "_kullanim": "Once buradaki tabani uygula, sonra 'bolunmeler' kurallarini kontrol et, en son o maca ozel arama yap. Bolunme kurali olan ulkelerde (DE, IT, ES, GB) MUTLAKA mac bazinda dogrula.",
   "bolgeler": {
     "MENA": [
@@ -1091,6 +1091,7 @@
         "https://www.programmefoot.com/"
       ],
       "MENA": [
+        "https://www.kooora.com/كرة-القدم/مباريات-اليوم",
         "https://sporsat.com/ar"
       ],
       "US": [
@@ -1108,7 +1109,11 @@
         "https://www.goal.com/en-ca/sports-events/soccer"
       ],
       "IT": [
+        "https://sport.virgilio.it/guida-tv/",
         "https://www.betscanner.it/news/info/calcio-in-tv-oggi"
+      ],
+      "PT": [
+        "https://www.futebolnatv.pt/"
       ]
     },
     "_not": "Arapca pazarlarda kooora.com ve yallakora.com gunluk 'mac programi + naklen kanallar' sayfasi yayinliyor — Irak, Urdun, Umman, Misir icin en pratik tek kaynak.",
@@ -1121,12 +1126,13 @@
         "GB": "live-footballontv.com",
         "AR": "tvenvivo.com.ar",
         "BR": "futebolnatv.com.br",
-        "MENA": "sporsat.com/ar (saatler UTC gelir)",
+        "MENA": "kooora.com/كرة-القدم/مباريات-اليوم (BIRINCIL, Riyad UTC+3, kanallar: TOD TV / Abu Dhabi Sports / MBC Shahid) — sporsat YEDEK, gunu gec cevirir",
         "US": "worldsoccertalk.com/upcoming-matches (ET saati; sayfa ONCE DUNU listeler)",
         "TR": "hangikanalda.app/api/proxy/matches — JSON API, curl ile cek",
         "DE": "fotmob.com/de/tv-guide/de (saatler UTC gelir)",
         "CA": "goal.com/en-ca/sports-events/soccer (WebFetch; saatler ZIYARETCININ diliminde gelir)",
-        "IT": "betscanner.it/news/info/calcio-in-tv-oggi (kullanicidan geldi; GUNU GEC CEVIRIYOR - sabah 08:30'da hala dunu gosteriyordu)"
+        "IT": "sport.virgilio.it/guida-tv/ (BIRINCIL, gunu zamaninda cevirir) — betscanner YEDEK, bir gun geride kalabiliyor",
+        "PT": "futebolnatv.pt (Lizbon UTC+1; Brezilya kaynaginin Portekiz kardesi, ayni kalitede)"
       },
       "calismiyor": {
         "BR_ESKI": "jogostv.com.br - SITENIN KENDISI bir gun geride, kullanma",
@@ -1139,7 +1145,7 @@
       "_prompt_notu": "WorldSoccerTalk sayfasi ONCE dunun bolumunu gosteriyor; ozetleyici orada takiliyor. Istekte 'dunu atla, sadece <bugunun tarihi> basligi altindakileri listele' de.",
       "_tr_api_notu": "hangikanalda.app/api/proxy/matches -> {futbol:{leagues:[{matches:[{home,away,time,league,channels}]}]}, voleybol:{...}}. time = Istanbul (UTC+3). Kanal adlari OZENSIZ ('Bein Sports', 'CEV Youtube') - marka yazimina cevir: beIN Sports, CEV YouTube."
     },
-    "_gec_donen": "Gunu GEC ceviren kaynaklar — sabahin erken saatlerinde hala DUNU gosterirler, o calismada kullanma, 13:07/19:07 calismalarinda tekrar dene: AR (tvenvivo), BR (futebolnatv), MENA (sporsat), IT (betscanner)."
+    "_gec_donen": "Gunu GEC ceviren YEDEK kaynaklar — birincilleri kullan: IT birincil sport.virgilio.it (betscanner yedek), MENA birincil kooora (sporsat yedek). AR (tvenvivo) ve BR (futebolnatv.com.br) da gece geç doner, 07:07+ calismalarinda tekrar dene."
   },
   "brezilya_ozel": {
     "_comment": "BREZILYA EN BUYUK PAZAR (25 gunde 29 iOS indirme). Haklar KULUP BLOGUNA gore bolunuyor — blok harita asla uygulanamaz, her mac icin ev sahibi/deplasman hangi blokta bakilir.",
