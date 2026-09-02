@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T10:38:26.000Z",
+ "generated_at": "2026-09-02T16:07:36.000Z",
  "date": "2026-09-02",
  "model": "user-provided",
  "stats": {
@@ -17,83 +17,6 @@
   ]
  },
  "matches": [
-  {
-   "id": "football-20260902-sassuolo-frosinone",
-   "sport": "football",
-   "competitionId": "coppa_italia",
-   "tier": "global",
-   "competition": {
-    "tr": "İtalya Kupası",
-    "en": "Coppa Italia",
-    "de": "Coppa Italia",
-    "es": "Copa de Italia",
-    "fr": "Coupe d'Italie",
-    "it": "Coppa Italia",
-    "pt": "Copa da Itália",
-    "ar": "كأس إيطاليا"
-   },
-   "home": "Sassuolo",
-   "away": "Frosinone",
-   "kickoffUtc": "2026-09-02T13:00:00Z",
-   "broadcasts": {
-    "IT": [
-     "Italia 1",
-     "Mediaset Infinity"
-    ],
-    "FR": [
-     "DAZN"
-    ],
-    "GB": [
-     "Premier Sports 1"
-    ],
-    "US": [
-     "Paramount+"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "PT": [
-     "Sport TV 1"
-    ],
-    "SA": [
-     "MBC Shahid"
-    ],
-    "DZ": [
-     "MBC Shahid"
-    ],
-    "EG": [
-     "MBC Shahid"
-    ],
-    "QA": [
-     "MBC Shahid"
-    ],
-    "AE": [
-     "MBC Shahid"
-    ],
-    "MA": [
-     "MBC Shahid"
-    ],
-    "TN": [
-     "MBC Shahid"
-    ],
-    "IQ": [
-     "MBC Shahid"
-    ],
-    "JO": [
-     "MBC Shahid"
-    ],
-    "OM": [
-     "MBC Shahid"
-    ],
-    "LY": [
-     "MBC Shahid"
-    ]
-   },
-   "sources": []
-  },
   {
    "id": "volleyball-20260902-sirbistan-yunanistan",
    "sport": "volleyball",
@@ -928,6 +851,47 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "football-20260903-atletico-mg-cruzeiro",
+   "sport": "football",
+   "competitionId": "copa_do_brasil",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Kupası",
+    "en": "Copa do Brasil",
+    "de": "Copa do Brasil",
+    "es": "Copa de Brasil",
+    "fr": "Coupe du Brésil",
+    "it": "Coppa del Brasile",
+    "pt": "Copa do Brasil",
+    "ar": "كأس البرازيل"
+   },
+   "home": "Atletico-MG",
+   "away": "Cruzeiro",
+   "kickoffUtc": "2026-09-03T00:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "Globo",
+     "SporTV",
+     "Premiere",
+     "GE TV"
+    ],
+    "ES": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Atlético-MG",
+    "en": "Atlético-MG",
+    "de": "Atlético-MG",
+    "es": "Atlético-MG",
+    "fr": "Atlético-MG",
+    "it": "Atlético-MG",
+    "pt": "Atlético-MG",
+    "ar": "أتلتيكو مينيرو"
+   }
   },
   {
    "id": "football-20260903-velez-sarsfield-boca-juniors",
