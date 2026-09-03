@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-03T11:39:28.000Z",
+ "generated_at": "2026-09-03T16:12:00.000Z",
  "date": "2026-09-03",
  "model": "user-provided",
  "stats": {
-  "total": 23,
-  "withChannel": 23,
+  "total": 25,
+  "withChannel": 25,
   "bySport": {
-   "volleyball": 2,
-   "football": 21
+   "volleyball": 1,
+   "football": 24
   },
   "warnings": 0,
   "searches": 0,
@@ -16,126 +16,6 @@
   ]
  },
  "matches": [
-  {
-   "id": "volleyball-20260903-polonya-hollanda",
-   "sport": "volleyball",
-   "competitionId": "cev_women",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Kadınlar Avrupa Şampiyonası",
-    "en": "CEV Women's European Championship",
-    "de": "CEV Volleyball-EM der Frauen",
-    "es": "Campeonato de Europa Femenino CEV",
-    "fr": "Championnat d'Europe féminin CEV",
-    "it": "Campionato europeo femminile CEV",
-    "pt": "Campeonato Europeu Feminino CEV",
-    "ar": "بطولة أوروبا للسيدات للكرة الطائرة"
-   },
-   "home": "Polonya",
-   "away": "Hollanda",
-   "kickoffUtc": "2026-09-03T13:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor Yıldız"
-    ],
-    "PL": [
-     "CEV YouTube"
-    ],
-    "NL": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Polonya",
-    "en": "Polonya",
-    "de": "Polonya",
-    "es": "Polonya",
-    "fr": "Polonya",
-    "it": "Polonya",
-    "pt": "Polonya",
-    "ar": "Polonya"
-   },
-   "awayNames": {
-    "tr": "Hollanda",
-    "en": "Hollanda",
-    "de": "Hollanda",
-    "es": "Hollanda",
-    "fr": "Hollanda",
-    "it": "Hollanda",
-    "pt": "Hollanda",
-    "ar": "Hollanda"
-   }
-  },
-  {
-   "id": "football-20260903-igdirspor-manisa-fk",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Lig",
-    "es": "Primera División de Turquía",
-    "fr": "TFF Première Ligue",
-    "it": "TFF Prima Lega",
-    "pt": "TFF Primeira Liga",
-    "ar": "الدوري التركي الدرجة الأولى"
-   },
-   "home": "Igdirspor",
-   "away": "Manisa FK",
-   "kickoffUtc": "2026-09-03T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor",
-     "beIN Sports 2"
-    ],
-    "SA": [
-     "TOD TV"
-    ],
-    "DZ": [
-     "TOD TV"
-    ],
-    "IQ": [
-     "TOD TV"
-    ],
-    "JO": [
-     "TOD TV"
-    ],
-    "EG": [
-     "TOD TV"
-    ],
-    "OM": [
-     "TOD TV"
-    ],
-    "QA": [
-     "TOD TV"
-    ],
-    "AE": [
-     "TOD TV"
-    ],
-    "MA": [
-     "TOD TV"
-    ],
-    "TN": [
-     "TOD TV"
-    ],
-    "LY": [
-     "TOD TV"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Iğdırspor",
-    "en": "Iğdırspor",
-    "de": "Iğdırspor",
-    "es": "Iğdırspor",
-    "fr": "Iğdırspor",
-    "it": "Iğdırspor",
-    "pt": "Iğdırspor",
-    "ar": "Iğdırspor"
-   }
-  },
   {
    "id": "volleyball-20260903-almanya-turkiye",
    "sport": "volleyball",
@@ -673,6 +553,9 @@
     ],
     "PE": [
      "Disney+ Premium"
+    ],
+    "GB": [
+     "Ligue 1+"
     ]
    },
    "sources": []
@@ -1039,6 +922,41 @@
    "sources": []
   },
   {
+   "id": "football-20260903-deportivo-recoleta-cerro-porteno",
+   "sport": "football",
+   "competitionId": "primera_py",
+   "tier": "regional",
+   "competition": {
+    "tr": "Paraguay Ligi",
+    "en": "Paraguay Primera División",
+    "de": "Primera División Paraguay",
+    "es": "Primera División de Paraguay",
+    "fr": "Championnat du Paraguay",
+    "it": "Primera División paraguaiana",
+    "pt": "Primeira Divisão do Paraguai",
+    "ar": "الدوري الباراغوياني"
+   },
+   "home": "Deportivo Recoleta",
+   "away": "Cerro Porteno",
+   "kickoffUtc": "2026-09-03T22:30:00Z",
+   "broadcasts": {
+    "PY": [
+     "Tigo Sports"
+    ]
+   },
+   "sources": [],
+   "awayNames": {
+    "tr": "Cerro Porteño",
+    "en": "Cerro Porteño",
+    "de": "Cerro Porteño",
+    "es": "Cerro Porteño",
+    "fr": "Cerro Porteño",
+    "it": "Cerro Porteño",
+    "pt": "Cerro Porteño",
+    "ar": "Cerro Porteño"
+   }
+  },
+  {
    "id": "football-20260903-gremio-internacional",
    "sport": "football",
    "competitionId": "copa_do_brasil",
@@ -1180,6 +1098,127 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "football-20260903-velez-sarsfield-boca-juniors",
+   "sport": "football",
+   "competitionId": "copa_argentina",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Kupası",
+    "en": "Copa Argentina",
+    "de": "Copa Argentina",
+    "es": "Copa Argentina",
+    "fr": "Coupe d'Argentine",
+    "it": "Coppa d'Argentina",
+    "pt": "Copa da Argentina",
+    "ar": "كأس الأرجنتين"
+   },
+   "home": "Velez Sarsfield",
+   "away": "Boca Juniors",
+   "kickoffUtc": "2026-09-04T00:15:00Z",
+   "broadcasts": {
+    "AR": [
+     "TyC Sports",
+     "TyC Sports Play"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Vélez Sarsfield",
+    "en": "Vélez Sarsfield",
+    "de": "Vélez Sarsfield",
+    "es": "Vélez Sarsfield",
+    "fr": "Vélez Sarsfield",
+    "it": "Vélez Sarsfield",
+    "pt": "Vélez Sarsfield",
+    "ar": "Vélez Sarsfield"
+   }
+  },
+  {
+   "id": "football-20260903-santos-palmeiras",
+   "sport": "football",
+   "competitionId": "copa_do_brasil",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Kupası",
+    "en": "Copa do Brasil",
+    "de": "Copa do Brasil",
+    "es": "Copa de Brasil",
+    "fr": "Coupe du Brésil",
+    "it": "Coppa del Brasile",
+    "pt": "Copa do Brasil",
+    "ar": "كأس البرازيل"
+   },
+   "home": "Santos",
+   "away": "Palmeiras",
+   "kickoffUtc": "2026-09-04T00:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "TV Globo",
+     "SporTV",
+     "Premiere"
+    ],
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "PT": [
+     "OneFootball PPV"
+    ],
+    "GB": [
+     "Premier Sports 2"
+    ],
+    "DE": [
+     "OneFootball"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260903-vitoria-vasco-da-gama",
+   "sport": "football",
+   "competitionId": "copa_do_brasil",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Kupası",
+    "en": "Copa do Brasil",
+    "de": "Copa do Brasil",
+    "es": "Copa de Brasil",
+    "fr": "Coupe du Brésil",
+    "it": "Coppa del Brasile",
+    "pt": "Copa do Brasil",
+    "ar": "كأس البرازيل"
+   },
+   "home": "Vitoria",
+   "away": "Vasco da Gama",
+   "kickoffUtc": "2026-09-04T00:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "TV Globo",
+     "SporTV",
+     "Premiere"
+    ],
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "PT": [
+     "OneFootball PPV"
+    ],
+    "DE": [
+     "OneFootball"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Vitória",
+    "en": "Vitória",
+    "de": "Vitória",
+    "es": "Vitória",
+    "fr": "Vitória",
+    "it": "Vitória",
+    "pt": "Vitória",
+    "ar": "Vitória"
+   }
   },
   {
    "id": "football-20260903-deportivo-pereira-medellin",
