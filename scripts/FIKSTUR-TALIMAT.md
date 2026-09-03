@@ -29,6 +29,17 @@ Hepsi doğrudan çekilebilir. `broadcast-rights.json` → `kaynaklar.ulkeler` da
 | IT | `https://sport.virgilio.it/guida-tv/` | Roma UTC+2 | **BİRİNCİL** — günü zamanında çevirir |
 | IT | `https://www.betscanner.it/news/info/calcio-in-tv-oggi` | Roma | yedek · ⏰ bir gün geride kalabiliyor |
 | PT | `https://www.futebolnatv.pt/` | Lizbon UTC+1 | Brezilya kaynağının Portekiz kardeşi; Sport TV / BTV / Canal 11 |
+| MX | `https://www.futbolenvivomexico.com/` | Meksika UTC−6 | SKY Sports / FOX One / TUDN |
+| CO | `https://www.futbolenvivocolombia.com/` | Bogotá UTC−5 | Win Sports / Win Fútbol+ / RCN |
+| CL | `https://www.futbolenvivochile.com/` | Santiago UTC−4 | DSports / DGO |
+| PE | `https://www.futbolenvivoperu.com/` | Lima UTC−5 | DSports / DGO / Disney+ |
+| UY | `https://www.futbolenvivouruguay.com/` | Montevideo UTC−3 | DSports Uruguay / Flow |
+| EC | `https://www.futbolenvivoecuador.com/` | Quito UTC−5 | Zapping Sports |
+| PY | `https://www.futbolenvivoparaguay.com/` | Asunción UTC−4 | (test edilmedi, aile aynı) |
+
+💡 **`futbolenvivo<ülke>.com` ailesi:** yedi ülke için aynı yapıda site. Her biri **o ülkenin**
+kanalını verir ve saatleri **o ülkenin yerel saatiyle** yazar. İspanya'da kullandığımız
+`futbolenlatv.es` de aynı aileden. 3 Eyl 2026'da altısı test edildi, hepsi güncel çıktı.
 
 ### KULLANILMAYACAK kaynaklar
 
@@ -208,7 +219,7 @@ Bunlardan biri bile başarısızsa **dosyayı yazma**, durumu raporla:
 4. **Gerileme kontrolü:** yeni maç sayısı, aynı güne ait mevcut dosyanın maç sayısının
    **%70'inden az** mı, ya da kapsanan ülke sayısı azaldı mı? Öyleyse muhtemelen kaynak(lar)
    çekilememiştir — **mevcut dosyayı EZME**, raporla.
-5. On dört kaynaktan **en az dokuzu** başarıyla çekildi mi.
+5. Yirmi bir kaynaktan **en az on dördü** başarıyla çekildi mi.
 
 Aynı gün içinde tekrar çalışırken mevcut dosya **zenginleştirilir, sıfırdan yazılmaz**:
 mevcut kanalları koru, yalnız eksikleri doldur ve biten maçları çıkar.

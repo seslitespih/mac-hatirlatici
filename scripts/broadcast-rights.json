@@ -1,6 +1,6 @@
 {
   "_comment": "Turnuva x ulke yayin haklari. Gunluk fikstur uretiminde TABAN olarak kullanilir; her gun sifirdan aranmaz. 'durum' alani: dogrulandi = web aramasiyla teyit edildi, tahmin = sektor bilgisi ama kaynakla teyit edilmedi. Sezon basinda ve 'su kanal yanlis' geri bildiriminde guncellenir.",
-  "_guncelleme": "2026-09-02",
+  "_guncelleme": "2026-09-03",
   "_kullanim": "Once buradaki tabani uygula, sonra 'bolunmeler' kurallarini kontrol et, en son o maca ozel arama yap. Bolunme kurali olan ulkelerde (DE, IT, ES, GB) MUTLAKA mac bazinda dogrula.",
   "bolgeler": {
     "MENA": [
@@ -1005,25 +1005,26 @@
     ],
     "ulkeler": {
       "MX": [
+        "https://www.futbolenvivomexico.com/",
         "https://ligamx.net/",
-        "https://www.mediotiempo.com/futbol/liga-mx/calendario",
-        "https://www.futbolenvivomexico.com/"
+        "https://www.mediotiempo.com/futbol/liga-mx/calendario"
       ],
       "CO": [
+        "https://www.futbolenvivocolombia.com/",
         "https://dimayor.com.co/liga-betplay-dimayor/",
-        "https://www.winsports.co/",
-        "https://www.futbolenvivocolombia.com/"
+        "https://www.winsports.co/"
       ],
       "CL": [
         "https://www.futbolenvivochile.com/",
         "https://redgol.cl/resultados/futbol/competencias/liga-de-primera"
       ],
       "UY": [
-        "https://www.auf.org.uy/",
         "https://www.futbolenvivouruguay.com/",
+        "https://www.auf.org.uy/",
         "https://www.auf.tv/"
       ],
       "PY": [
+        "https://www.futbolenvivoparaguay.com/",
         "https://www.apf.org.py/"
       ],
       "AR": [
@@ -1036,9 +1037,11 @@
         "https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a"
       ],
       "PE": [
+        "https://www.futbolenvivoperu.com/",
         "https://ligafutprofesional.pe/"
       ],
       "EC": [
+        "https://www.futbolenvivoecuador.com/",
         "https://ligapro.ec/"
       ],
       "GT": [
@@ -1132,7 +1135,18 @@
         "DE": "fotmob.com/de/tv-guide/de (saatler UTC gelir)",
         "CA": "goal.com/en-ca/sports-events/soccer (WebFetch; saatler ZIYARETCININ diliminde gelir)",
         "IT": "sport.virgilio.it/guida-tv/ (BIRINCIL, gunu zamaninda cevirir) — betscanner YEDEK, bir gun geride kalabiliyor",
-        "PT": "futebolnatv.pt (Lizbon UTC+1; Brezilya kaynaginin Portekiz kardesi, ayni kalitede)"
+        "PT": "futebolnatv.pt (Lizbon UTC+1; Brezilya kaynaginin Portekiz kardesi, ayni kalitede)",
+        "MX": "futbolenvivomexico.com/ (futbolenvivo ailesi — ulkeye ozel kanal verir)",
+        "CO": "futbolenvivocolombia.com/ (futbolenvivo ailesi — ulkeye ozel kanal verir)",
+        "CL": "futbolenvivochile.com/ (futbolenvivo ailesi — ulkeye ozel kanal verir)",
+        "PE": "futbolenvivoperu.com/ (futbolenvivo ailesi — ulkeye ozel kanal verir)",
+        "UY": "futbolenvivouruguay.com/ (futbolenvivo ailesi — ulkeye ozel kanal verir)",
+        "EC": "futbolenvivoecuador.com/ (futbolenvivo ailesi — ulkeye ozel kanal verir)",
+        "PY": "futbolenvivoparaguay.com/ (futbolenvivo ailesi — ulkeye ozel kanal verir)",
+        "kullanicidan_istenecek": [
+          "NL, AT, CH, BE, GR, NO, HR, CZ, IR, NZ icin gunluk kaynak yok",
+          "Afrika (NG, ZA, GH, SN, CI, ML) ve Asya-Pasifik (JP, KR, AU) yalniz haklar tablosundan"
+        ]
       },
       "calismiyor": {
         "BR_ESKI": "jogostv.com.br - SITENIN KENDISI bir gun geride, kullanma",
@@ -1145,7 +1159,8 @@
       "_prompt_notu": "WorldSoccerTalk sayfasi ONCE dunun bolumunu gosteriyor; ozetleyici orada takiliyor. Istekte 'dunu atla, sadece <bugunun tarihi> basligi altindakileri listele' de.",
       "_tr_api_notu": "hangikanalda.app/api/proxy/matches -> {futbol:{leagues:[{matches:[{home,away,time,league,channels}]}]}, voleybol:{...}}. time = Istanbul (UTC+3). Kanal adlari OZENSIZ ('Bein Sports', 'CEV Youtube') - marka yazimina cevir: beIN Sports, CEV YouTube."
     },
-    "_gec_donen": "Gunu GEC ceviren YEDEK kaynaklar — birincilleri kullan: IT birincil sport.virgilio.it (betscanner yedek), MENA birincil kooora (sporsat yedek). AR (tvenvivo) ve BR (futebolnatv.com.br) da gece geç doner, 07:07+ calismalarinda tekrar dene."
+    "_gec_donen": "Gunu GEC ceviren YEDEK kaynaklar — birincilleri kullan: IT birincil sport.virgilio.it (betscanner yedek), MENA birincil kooora (sporsat yedek). AR (tvenvivo) ve BR (futebolnatv.com.br) da gece geç doner, 07:07+ calismalarinda tekrar dene.",
+    "_futbolenvivo_ailesi": "futbolenvivo<ulke>.com — MX, CO, CL, PE, UY, EC, PY icin ayni yapida yedi ayri site. Her biri O ULKENIN kanalini verir (Win Sports/Colombia, DSports/Chile-Peru-Uruguay, Zapping/Ecuador, SKY-FOX/Mexico) ve saatleri O ULKENIN yerel saatiyle yazar. 3 Eyl 2026'da alti tanesi test edildi, hepsi guncel tarihi gosterdi. Ayni aileden futbolenlatv.es (Ispanya) zaten kullaniliyor."
   },
   "brezilya_ozel": {
     "_comment": "BREZILYA EN BUYUK PAZAR (25 gunde 29 iOS indirme). Haklar KULUP BLOGUNA gore bolunuyor — blok harita asla uygulanamaz, her mac icin ev sahibi/deplasman hangi blokta bakilir.",

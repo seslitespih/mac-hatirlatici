@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-03T10:20:00.000Z",
+ "generated_at": "2026-09-03T11:39:28.000Z",
  "date": "2026-09-03",
  "model": "user-provided",
  "stats": {
-  "total": 14,
-  "withChannel": 14,
+  "total": 23,
+  "withChannel": 23,
   "bySport": {
-   "football": 12,
-   "volleyball": 2
+   "volleyball": 2,
+   "football": 21
   },
   "warnings": 0,
   "searches": 0,
@@ -259,6 +259,14 @@
     ],
     "LY": [
      "MBC Shahid"
+    ],
+    "CL": [
+     "DSports 2",
+     "DGO"
+    ],
+    "PE": [
+     "DSports 2",
+     "DGO"
     ]
    },
    "sources": []
@@ -492,6 +500,59 @@
    "sources": []
   },
   {
+   "id": "football-20260903-rentistas-plaza-colonia",
+   "sport": "football",
+   "competitionId": "copa_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Kupası",
+    "en": "Copa AUF Uruguay",
+    "de": "Copa AUF Uruguay",
+    "es": "Copa AUF Uruguay",
+    "fr": "Copa AUF Uruguay",
+    "it": "Copa AUF Uruguay",
+    "pt": "Copa AUF Uruguai",
+    "ar": "كأس أوروغواي"
+   },
+   "home": "Rentistas",
+   "away": "Plaza Colonia",
+   "kickoffUtc": "2026-09-03T18:00:00Z",
+   "broadcasts": {
+    "UY": [
+     "DSports Uruguay Premium",
+     "DGO"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260903-river-plate-montevideo-nacional",
+   "sport": "football",
+   "competitionId": "copa_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Kupası",
+    "en": "Copa AUF Uruguay",
+    "de": "Copa AUF Uruguay",
+    "es": "Copa AUF Uruguay",
+    "fr": "Copa AUF Uruguay",
+    "it": "Copa AUF Uruguay",
+    "pt": "Copa AUF Uruguai",
+    "ar": "كأس أوروغواي"
+   },
+   "home": "River Plate Montevideo",
+   "away": "Nacional",
+   "kickoffUtc": "2026-09-03T18:30:00Z",
+   "broadcasts": {
+    "UY": [
+     "DSports Uruguay + Plus",
+     "DGO",
+     "Flow"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260903-hibernian-hearts",
    "sport": "football",
    "competitionId": "scottish_prem",
@@ -605,6 +666,13 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX+"
+    ],
+    "PE": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -698,6 +766,14 @@
     "LY": [
      "MBC Action",
      "MBC Shahid"
+    ],
+    "CL": [
+     "DSports 2",
+     "DGO"
+    ],
+    "PE": [
+     "DSports 2",
+     "DGO"
     ]
    },
    "sources": []
@@ -759,7 +835,7 @@
      "YouTube"
     ],
     "MX": [
-     "Sky Sports"
+     "SKY Sports"
     ],
     "SA": [
      "beIN Sports 2 HD"
@@ -811,6 +887,153 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "CL": [
+     "DSports",
+     "DGO",
+     "DAZN"
+    ],
+    "PE": [
+     "DSports",
+     "DGO",
+     "DAZN"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260903-universidad-catolica-aucas",
+   "sport": "football",
+   "competitionId": "liga_pro_ec",
+   "tier": "regional",
+   "competition": {
+    "tr": "Ekvador Ligi",
+    "en": "LigaPro Serie A",
+    "de": "LigaPro Serie A",
+    "es": "LigaPro Serie A",
+    "fr": "LigaPro Serie A",
+    "it": "LigaPro Serie A",
+    "pt": "LigaPro Série A",
+    "ar": "الدوري الإكوادوري"
+   },
+   "home": "Universidad Catolica",
+   "away": "Aucas",
+   "kickoffUtc": "2026-09-03T19:00:00Z",
+   "broadcasts": {
+    "EC": [
+     "Zapping Sports + Plus"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "U. Católica",
+    "en": "U. Católica",
+    "de": "U. Católica",
+    "es": "U. Católica",
+    "fr": "U. Católica",
+    "it": "U. Católica",
+    "pt": "U. Católica",
+    "ar": "U. Católica"
+   }
+  },
+  {
+   "id": "football-20260903-america-de-cali-alianza",
+   "sport": "football",
+   "competitionId": "liga_dimayor",
+   "tier": "regional",
+   "competition": {
+    "tr": "Kolombiya Ligi",
+    "en": "Liga BetPlay",
+    "de": "Liga BetPlay",
+    "es": "Liga BetPlay DIMAYOR",
+    "fr": "Liga BetPlay",
+    "it": "Liga BetPlay",
+    "pt": "Liga BetPlay",
+    "ar": "الدوري الكولومبي"
+   },
+   "home": "America de Cali",
+   "away": "Alianza",
+   "kickoffUtc": "2026-09-03T20:00:00Z",
+   "broadcasts": {
+    "CO": [
+     "Win Sports",
+     "Win Fútbol +",
+     "Win Play"
+    ],
+    "MX": [
+     "RCN Nuestra Tele"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "América de Cali",
+    "en": "América de Cali",
+    "de": "América de Cali",
+    "es": "América de Cali",
+    "fr": "América de Cali",
+    "it": "América de Cali",
+    "pt": "América de Cali",
+    "ar": "América de Cali"
+   }
+  },
+  {
+   "id": "football-20260903-albion-progreso",
+   "sport": "football",
+   "competitionId": "copa_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Kupası",
+    "en": "Copa AUF Uruguay",
+    "de": "Copa AUF Uruguay",
+    "es": "Copa AUF Uruguay",
+    "fr": "Copa AUF Uruguay",
+    "it": "Copa AUF Uruguay",
+    "pt": "Copa AUF Uruguai",
+    "ar": "كأس أوروغواي"
+   },
+   "home": "Albion",
+   "away": "Progreso",
+   "kickoffUtc": "2026-09-03T21:15:00Z",
+   "broadcasts": {
+    "UY": [
+     "DSports Uruguay + Plus",
+     "DGO",
+     "Flow"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Albión",
+    "en": "Albión",
+    "de": "Albión",
+    "es": "Albión",
+    "fr": "Albión",
+    "it": "Albión",
+    "pt": "Albión",
+    "ar": "Albión"
+   }
+  },
+  {
+   "id": "football-20260903-leones-del-norte-orense-sc",
+   "sport": "football",
+   "competitionId": "liga_pro_ec",
+   "tier": "regional",
+   "competition": {
+    "tr": "Ekvador Ligi",
+    "en": "LigaPro Serie A",
+    "de": "LigaPro Serie A",
+    "es": "LigaPro Serie A",
+    "fr": "LigaPro Serie A",
+    "it": "LigaPro Serie A",
+    "pt": "LigaPro Série A",
+    "ar": "الدوري الإكوادوري"
+   },
+   "home": "Leones del Norte",
+   "away": "Orense SC",
+   "kickoffUtc": "2026-09-03T21:30:00Z",
+   "broadcasts": {
+    "EC": [
+     "Zapping Sports + Plus"
     ]
    },
    "sources": []
@@ -841,6 +1064,21 @@
      "OneFootball"
     ],
     "ES": [
+     "OneFootball PPV"
+    ],
+    "MX": [
+     "OneFootball PPV",
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "CL": [
+     "DSports",
+     "DGO",
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "DSports",
+     "DGO",
      "OneFootball PPV"
     ]
    },
@@ -890,6 +1128,97 @@
     "it": "Náutico",
     "pt": "Náutico",
     "ar": "Náutico"
+   }
+  },
+  {
+   "id": "football-20260903-oriental-racing-club-montevideo",
+   "sport": "football",
+   "competitionId": "copa_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Kupası",
+    "en": "Copa AUF Uruguay",
+    "de": "Copa AUF Uruguay",
+    "es": "Copa AUF Uruguay",
+    "fr": "Copa AUF Uruguay",
+    "it": "Copa AUF Uruguay",
+    "pt": "Copa AUF Uruguai",
+    "ar": "كأس أوروغواي"
+   },
+   "home": "Oriental",
+   "away": "Racing Club Montevideo",
+   "kickoffUtc": "2026-09-03T23:00:00Z",
+   "broadcasts": {
+    "UY": [
+     "DSports Uruguay Premium",
+     "DGO"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260903-libertad-fc-emelec",
+   "sport": "football",
+   "competitionId": "liga_pro_ec",
+   "tier": "regional",
+   "competition": {
+    "tr": "Ekvador Ligi",
+    "en": "LigaPro Serie A",
+    "de": "LigaPro Serie A",
+    "es": "LigaPro Serie A",
+    "fr": "LigaPro Serie A",
+    "it": "LigaPro Serie A",
+    "pt": "LigaPro Série A",
+    "ar": "الدوري الإكوادوري"
+   },
+   "home": "Libertad FC",
+   "away": "Emelec",
+   "kickoffUtc": "2026-09-04T00:00:00Z",
+   "broadcasts": {
+    "EC": [
+     "Zapping Sports + Plus"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260903-deportivo-pereira-medellin",
+   "sport": "football",
+   "competitionId": "liga_dimayor",
+   "tier": "regional",
+   "competition": {
+    "tr": "Kolombiya Ligi",
+    "en": "Liga BetPlay",
+    "de": "Liga BetPlay",
+    "es": "Liga BetPlay DIMAYOR",
+    "fr": "Liga BetPlay",
+    "it": "Liga BetPlay",
+    "pt": "Liga BetPlay",
+    "ar": "الدوري الكولومبي"
+   },
+   "home": "Deportivo Pereira",
+   "away": "Medellin",
+   "kickoffUtc": "2026-09-04T01:00:00Z",
+   "broadcasts": {
+    "CO": [
+     "Win Sports",
+     "Win Fútbol +",
+     "Win Play"
+    ],
+    "MX": [
+     "RCN Nuestra Tele"
+    ]
+   },
+   "sources": [],
+   "awayNames": {
+    "tr": "Medellín",
+    "en": "Medellín",
+    "de": "Medellín",
+    "es": "Medellín",
+    "fr": "Medellín",
+    "it": "Medellín",
+    "pt": "Medellín",
+    "ar": "Medellín"
    }
   }
  ]
