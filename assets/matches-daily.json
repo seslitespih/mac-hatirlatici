@@ -1,19 +1,20 @@
 {
- "generated_at": "2026-09-04T05:20:38.000Z",
+ "generated_at": "2026-09-04T05:28:04.000Z",
  "date": "2026-09-04",
  "model": "user-provided",
  "stats": {
-  "total": 31,
-  "withChannel": 31,
+  "total": 34,
+  "withChannel": 34,
   "bySport": {
    "basketball": 3,
    "motorsport": 2,
-   "football": 26
+   "football": 29
   },
   "warnings": 0,
   "searches": 0,
   "days": [
-   "2026-09-03"
+   "2026-09-04",
+   "2026-09-05"
   ]
  },
  "matches": [
@@ -376,6 +377,11 @@
     ],
     "LY": [
      "beIN Sports MENA 5"
+    ],
+    "US": [
+     "beIN Sports Connect",
+     "Fubo",
+     "Fanatiz"
     ]
    },
    "sources": [],
@@ -458,6 +464,18 @@
     "FR": [
      "DAZN",
      "Ligue 1+"
+    ],
+    "US": [
+     "beIN Sports",
+     "Fubo",
+     "Fanatiz"
+    ],
+    "CA": [
+     "Fubo"
+    ],
+    "GB": [
+     "Amazon Prime PPV",
+     "Ligue 1+"
     ]
    },
    "sources": []
@@ -530,6 +548,10 @@
     ],
     "FR": [
      "DAZN"
+    ],
+    "US": [
+     "FOX Soccer Plus",
+     "Fubo"
     ]
    },
    "sources": []
@@ -686,6 +708,12 @@
      "DAZN",
      "GOL",
      "TV Canaria"
+    ],
+    "US": [
+     "ESPN+"
+    ],
+    "GB": [
+     "Premier Player"
     ]
    },
    "sources": []
@@ -712,6 +740,9 @@
     "GB": [
      "BBC Scotland",
      "BBC iPlayer"
+    ],
+    "US": [
+     "Paramount+"
     ]
    },
    "sources": []
@@ -792,6 +823,12 @@
     ],
     "FR": [
      "beIN Sports MAX 9HD"
+    ],
+    "US": [
+     "Peacock Premium"
+    ],
+    "CA": [
+     "Fubo"
     ]
    },
    "sources": [],
@@ -898,6 +935,13 @@
     ],
     "FR": [
      "DAZN"
+    ],
+    "US": [
+     "Paramount+",
+     "Peacock Premium"
+    ],
+    "CA": [
+     "Fubo"
     ]
    },
    "sources": []
@@ -1013,6 +1057,12 @@
     ],
     "FR": [
      "CANAL+ FOOT"
+    ],
+    "US": [
+     "USA Network"
+    ],
+    "CA": [
+     "Fubo"
     ]
    },
    "sources": []
@@ -1094,6 +1144,13 @@
     "FR": [
      "DAZN",
      "Disney+"
+    ],
+    "US": [
+     "ESPN+",
+     "Fubo"
+    ],
+    "CA": [
+     "TSN1"
     ]
    },
    "sources": []
@@ -1170,6 +1227,9 @@
     "FR": [
      "DAZN",
      "Ligue 1+"
+    ],
+    "CA": [
+     "Fubo"
     ]
    },
    "sources": []
@@ -1210,6 +1270,111 @@
     ],
     "FR": [
      "beIN Sports MAX 10"
+    ],
+    "US": [
+     "beIN Sports Connect",
+     "Fubo"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260904-estudiantes-rc-sarmiento",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Primera División",
+    "en": "Argentine Primera División",
+    "de": "Primera División (Argentinien)",
+    "es": "Primera División",
+    "fr": "Primera División (Argentine)",
+    "it": "Primera División argentina",
+    "pt": "Campeonato Argentino",
+    "ar": "الدوري الأرجنتيني الدرجة الأولى"
+   },
+   "home": "Estudiantes RC",
+   "away": "Sarmiento",
+   "kickoffUtc": "2026-09-04T19:45:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN Premium",
+     "TNT Sports Premium"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Estudiantes (Río Cuarto)",
+    "en": "Estudiantes (Río Cuarto)",
+    "de": "Estudiantes (Río Cuarto)",
+    "es": "Estudiantes (Río Cuarto)",
+    "fr": "Estudiantes (Río Cuarto)",
+    "it": "Estudiantes (Río Cuarto)",
+    "pt": "Estudiantes (Río Cuarto)",
+    "ar": "Estudiantes (Río Cuarto)"
+   }
+  },
+  {
+   "id": "football-20260904-belgrano-huracan",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Primera División",
+    "en": "Argentine Primera División",
+    "de": "Primera División (Argentinien)",
+    "es": "Primera División",
+    "fr": "Primera División (Argentine)",
+    "it": "Primera División argentina",
+    "pt": "Campeonato Argentino",
+    "ar": "الدوري الأرجنتيني الدرجة الأولى"
+   },
+   "home": "Belgrano",
+   "away": "Huracan",
+   "kickoffUtc": "2026-09-04T22:00:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN Premium",
+     "TNT Sports Premium"
+    ],
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": [],
+   "awayNames": {
+    "tr": "Huracán",
+    "en": "Huracán",
+    "de": "Huracán",
+    "es": "Huracán",
+    "fr": "Huracán",
+    "it": "Huracán",
+    "pt": "Huracán",
+    "ar": "Huracán"
+   }
+  },
+  {
+   "id": "football-20260904-platense-riestra",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Primera División",
+    "en": "Argentine Primera División",
+    "de": "Primera División (Argentinien)",
+    "es": "Primera División",
+    "fr": "Primera División (Argentine)",
+    "it": "Primera División argentina",
+    "pt": "Campeonato Argentino",
+    "ar": "الدوري الأرجنتيني الدرجة الأولى"
+   },
+   "home": "Platense",
+   "away": "Riestra",
+   "kickoffUtc": "2026-09-04T22:00:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN Premium",
+     "TNT Sports Premium"
     ]
    },
    "sources": []
