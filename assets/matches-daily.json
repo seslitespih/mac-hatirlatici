@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-07T14:37:28.000Z",
- "date": "2026-09-07",
+ "generated_at": "2026-09-08T07:02:54.000Z",
+ "date": "2026-09-08",
  "model": "user-provided",
  "stats": {
-  "total": 22,
-  "withChannel": 22,
+  "total": 18,
+  "withChannel": 18,
   "bySport": {
-   "basketball": 3,
-   "football": 19
+   "basketball": 4,
+   "football": 14
   },
   "warnings": 0,
   "searches": 0,
@@ -18,198 +18,67 @@
  },
  "matches": [
   {
-   "id": "basketball-20260907-porto-riko-turkiye",
+   "id": "basketball-20260908-besiktas-cska-moskova",
    "sport": "basketball",
-   "competitionId": "fiba_wwc",
-   "tier": "global",
-   "competition": {
-    "tr": "FIBA Kadınlar Dünya Kupası",
-    "en": "FIBA Women's World Cup",
-    "de": "FIBA Basketball-WM der Frauen",
-    "es": "Copa Mundial Femenina FIBA",
-    "fr": "Coupe du monde féminine FIBA",
-    "it": "Mondiali femminili FIBA",
-    "pt": "Copa do Mundo Feminina FIBA",
-    "ar": "كأس العالم للسيدات لكرة السلة"
-   },
-   "home": "Porto Riko",
-   "away": "Turkiye",
-   "kickoffUtc": "2026-09-07T09:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor",
-     "S Sport",
-     "S Sport Plus"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Türkiye",
-    "en": "Türkiye",
-    "de": "Türkiye",
-    "es": "Türkiye",
-    "fr": "Türkiye",
-    "it": "Türkiye",
-    "pt": "Türkiye",
-    "ar": "Türkiye"
-   }
-  },
-  {
-   "id": "basketball-20260907-nijerya-fransa",
-   "sport": "basketball",
-   "competitionId": "fiba_wwc",
-   "tier": "global",
-   "competition": {
-    "tr": "FIBA Kadınlar Dünya Kupası",
-    "en": "FIBA Women's World Cup",
-    "de": "FIBA Basketball-WM der Frauen",
-    "es": "Copa Mundial Femenina FIBA",
-    "fr": "Coupe du monde féminine FIBA",
-    "it": "Mondiali femminili FIBA",
-    "pt": "Copa do Mundo Feminina FIBA",
-    "ar": "كأس العالم للسيدات لكرة السلة"
-   },
-   "home": "Nijerya",
-   "away": "Fransa",
-   "kickoffUtc": "2026-09-07T12:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport",
-     "S Sport Plus"
-    ],
-    "FR": [
-     "S Sport"
-    ],
-    "NG": [
-     "S Sport"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260907-ceramica-cleopatra-tala-ea-el-gaish",
-   "sport": "football",
-   "competitionId": "egypt_pl",
+   "competitionId": "gloria_cup",
    "tier": "regional",
    "competition": {
-    "tr": "Mısır Premier Ligi",
-    "en": "Egyptian Premier League",
-    "de": "Ägyptische Premier League",
-    "es": "Liga Premier de Egipto",
-    "fr": "Championnat d'Égypte",
-    "it": "Premier League egiziana",
-    "pt": "Liga Premier do Egito",
-    "ar": "الدوري المصري الممتاز"
+    "tr": "Gloria Cup Basketbol",
+    "en": "Gloria Cup Basketball",
+    "de": "Gloria Cup Basketball",
+    "es": "Gloria Cup de Baloncesto",
+    "fr": "Gloria Cup de Basketball",
+    "it": "Gloria Cup di Basket",
+    "pt": "Gloria Cup de Basquete",
+    "ar": "كأس غلوريا لكرة السلة"
    },
-   "home": "Ceramica Cleopatra",
-   "away": "Tala'ea El Gaish",
-   "kickoffUtc": "2026-09-07T14:00:00Z",
-   "broadcasts": {
-    "EG": [
-     "On Sport Max"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260907-esenler-erokspor-kayserispor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Lig",
-    "es": "TFF Primera División",
-    "fr": "TFF 1. Lig",
-    "it": "TFF 1. Lig",
-    "pt": "TFF 1. Lig",
-    "ar": "دوري الدرجة الأولى التركي"
-   },
-   "home": "Esenler Erokspor",
-   "away": "Kayserispor",
-   "kickoffUtc": "2026-09-07T14:00:00Z",
+   "home": "Besiktas",
+   "away": "CSKA Moskova",
+   "kickoffUtc": "2026-09-08T11:45:00Z",
    "broadcasts": {
     "TR": [
-     "TRT Spor",
-     "beIN Sports 2"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260907-istanbulspor-igdirspor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Lig",
-    "es": "TFF Primera División",
-    "fr": "TFF 1. Lig",
-    "it": "TFF 1. Lig",
-    "pt": "TFF 1. Lig",
-    "ar": "دوري الدرجة الأولى التركي"
-   },
-   "home": "Istanbulspor",
-   "away": "Igdirspor",
-   "kickoffUtc": "2026-09-07T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Türk",
-     "beIN Sports Max 1"
+     "HT Spor"
     ]
    },
    "sources": [],
    "homeNames": {
-    "tr": "İstanbulspor",
-    "en": "İstanbulspor",
-    "de": "İstanbulspor",
-    "es": "İstanbulspor",
-    "fr": "İstanbulspor",
-    "it": "İstanbulspor",
-    "pt": "İstanbulspor",
-    "ar": "İstanbulspor"
-   },
-   "awayNames": {
-    "tr": "Iğdırspor",
-    "en": "Iğdırspor",
-    "de": "Iğdırspor",
-    "es": "Iğdırspor",
-    "fr": "Iğdırspor",
-    "it": "Iğdırspor",
-    "pt": "Iğdırspor",
-    "ar": "Iğdırspor"
+    "tr": "Beşiktaş",
+    "en": "Beşiktaş",
+    "de": "Beşiktaş",
+    "es": "Beşiktaş",
+    "fr": "Beşiktaş",
+    "it": "Beşiktaş",
+    "pt": "Beşiktaş",
+    "ar": "Beşiktaş"
    }
   },
   {
-   "id": "football-20260907-ittihad-assiut-petroleum",
-   "sport": "football",
-   "competitionId": "egypt_pl",
+   "id": "basketball-20260908-galatasaray-mct-technic-denizli-basket",
+   "sport": "basketball",
+   "competitionId": "gloria_cup",
    "tier": "regional",
    "competition": {
-    "tr": "Mısır Premier Ligi",
-    "en": "Egyptian Premier League",
-    "de": "Ägyptische Premier League",
-    "es": "Liga Premier de Egipto",
-    "fr": "Championnat d'Égypte",
-    "it": "Premier League egiziana",
-    "pt": "Liga Premier do Egito",
-    "ar": "الدوري المصري الممتاز"
+    "tr": "Gloria Cup Basketbol",
+    "en": "Gloria Cup Basketball",
+    "de": "Gloria Cup Basketball",
+    "es": "Gloria Cup de Baloncesto",
+    "fr": "Gloria Cup de Basketball",
+    "it": "Gloria Cup di Basket",
+    "pt": "Gloria Cup de Basquete",
+    "ar": "كأس غلوريا لكرة السلة"
    },
-   "home": "Ittihad",
-   "away": "Assiut Petroleum",
-   "kickoffUtc": "2026-09-07T14:00:00Z",
+   "home": "Galatasaray MCT Technic",
+   "away": "Denizli Basket",
+   "kickoffUtc": "2026-09-08T14:00:00Z",
    "broadcasts": {
-    "EG": [
-     "On Sport Plus"
+    "TR": [
+     "HT Spor"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260907-al-khaleej-al-riyadh",
+   "id": "football-20260908-al-ettifaq-al-faisaly",
    "sport": "football",
    "competitionId": "saudi_pl",
    "tier": "global",
@@ -223,537 +92,21 @@
     "pt": "Liga Saudita",
     "ar": "دوري روشن السعودي"
    },
-   "home": "Al Khaleej",
-   "away": "Al Riyadh",
-   "kickoffUtc": "2026-09-07T15:30:00Z",
+   "home": "Al Ettifaq",
+   "away": "Al Faisaly",
+   "kickoffUtc": "2026-09-08T15:30:00Z",
    "broadcasts": {
+    "DE": [
+     "DAZN"
+    ],
     "SA": [
      "Thmanyah"
-    ],
-    "TR": [
-     "S Sport Plus"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260907-cagliari-lecce",
-   "sport": "football",
-   "competitionId": "seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "İtalya Serie A",
-    "en": "Serie A",
-    "de": "Serie A",
-    "es": "Serie A",
-    "fr": "Serie A",
-    "it": "Serie A",
-    "pt": "Serie A",
-    "ar": "الدوري الإيطالي"
-   },
-   "home": "Cagliari",
-   "away": "Lecce",
-   "kickoffUtc": "2026-09-07T16:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport 2",
-     "S Sport Plus"
-    ],
-    "GB": [
-     "DAZN"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "SA": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "DZ": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "EG": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "QA": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "AE": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "MA": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "TN": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "IQ": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "JO": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "OM": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "LY": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260907-getafe-celta-vigo",
-   "sport": "football",
-   "competitionId": "laliga",
-   "tier": "global",
-   "competition": {
-    "tr": "LaLiga",
-    "en": "LaLiga",
-    "de": "LaLiga",
-    "es": "LaLiga",
-    "fr": "LaLiga",
-    "it": "LaLiga",
-    "pt": "LaLiga",
-    "ar": "الدوري الإسباني"
-   },
-   "home": "Getafe",
-   "away": "Celta Vigo",
-   "kickoffUtc": "2026-09-07T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport",
-     "S Sport Plus",
-     "Idman TV"
-    ],
-    "GB": [
-     "Premier Sports 1"
-    ],
-    "ES": [
-     "M+ LALIGA 2",
-     "M+ LALIGA HDR 2",
-     "LaLiga TV Bar"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "SA": [
-     "beIN Sports MENA 1"
-    ],
-    "DZ": [
-     "beIN Sports MENA 1"
-    ],
-    "EG": [
-     "beIN Sports MENA 1"
-    ],
-    "QA": [
-     "beIN Sports MENA 1"
-    ],
-    "AE": [
-     "beIN Sports MENA 1"
-    ],
-    "MA": [
-     "beIN Sports MENA 1"
-    ],
-    "TN": [
-     "beIN Sports MENA 1"
-    ],
-    "IQ": [
-     "beIN Sports MENA 1"
-    ],
-    "JO": [
-     "beIN Sports MENA 1"
-    ],
-    "OM": [
-     "beIN Sports MENA 1"
-    ],
-    "LY": [
-     "beIN Sports MENA 1"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260907-goztepe-gaziantep-fk",
-   "sport": "football",
-   "competitionId": "superlig",
-   "tier": "global",
-   "competition": {
-    "tr": "Trendyol Süper Lig",
-    "en": "Süper Lig",
-    "de": "Süper Lig",
-    "es": "Süper Lig",
-    "fr": "Süper Lig",
-    "it": "Süper Lig",
-    "pt": "Süper Lig",
-    "ar": "الدوري التركي الممتاز"
-   },
-   "home": "Goztepe",
-   "away": "Gaziantep FK",
-   "kickoffUtc": "2026-09-07T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 2"
-    ],
-    "DE": [
-     "Digiturk Euro"
-    ],
-    "FR": [
-     "beIN Sports"
-    ],
-    "SA": [
-     "beIN Sports MENA 3"
-    ],
-    "DZ": [
-     "beIN Sports MENA 3"
-    ],
-    "EG": [
-     "beIN Sports MENA 3"
-    ],
-    "QA": [
-     "beIN Sports MENA 3"
-    ],
-    "AE": [
-     "beIN Sports MENA 3"
-    ],
-    "MA": [
-     "beIN Sports MENA 3"
-    ],
-    "TN": [
-     "beIN Sports MENA 3"
-    ],
-    "IQ": [
-     "beIN Sports MENA 3"
-    ],
-    "JO": [
-     "beIN Sports MENA 3"
-    ],
-    "OM": [
-     "beIN Sports MENA 3"
-    ],
-    "LY": [
-     "beIN Sports MENA 3"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Göztepe",
-    "en": "Göztepe",
-    "de": "Göztepe",
-    "es": "Göztepe",
-    "fr": "Göztepe",
-    "it": "Göztepe",
-    "pt": "Göztepe",
-    "ar": "Göztepe"
-   }
-  },
-  {
-   "id": "football-20260907-manisa-fk-bursaspor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Lig",
-    "es": "TFF Primera División",
-    "fr": "TFF 1. Lig",
-    "it": "TFF 1. Lig",
-    "pt": "TFF 1. Lig",
-    "ar": "دوري الدرجة الأولى التركي"
-   },
-   "home": "Manisa FK",
-   "away": "Bursaspor",
-   "kickoffUtc": "2026-09-07T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor",
-     "beIN Sports Max 1"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260907-mardin-1969-bodrumspor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "TFF First League",
-    "de": "TFF 1. Lig",
-    "es": "TFF Primera División",
-    "fr": "TFF 1. Lig",
-    "it": "TFF 1. Lig",
-    "pt": "TFF 1. Lig",
-    "ar": "دوري الدرجة الأولى التركي"
-   },
-   "home": "Mardin 1969",
-   "away": "Bodrumspor",
-   "kickoffUtc": "2026-09-07T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Kurdi",
-     "beIN Sports Max 2"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260907-national-bank-ghazl-el-mahalla",
-   "sport": "football",
-   "competitionId": "egypt_pl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Mısır Premier Ligi",
-    "en": "Egyptian Premier League",
-    "de": "Ägyptische Premier League",
-    "es": "Liga Premier de Egipto",
-    "fr": "Championnat d'Égypte",
-    "it": "Premier League egiziana",
-    "pt": "Liga Premier do Egito",
-    "ar": "الدوري المصري الممتاز"
-   },
-   "home": "National Bank",
-   "away": "Ghazl El-Mahalla",
-   "kickoffUtc": "2026-09-07T17:00:00Z",
-   "broadcasts": {
-    "EG": [
-     "On Sport Max"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260907-petrojet-al-masry",
-   "sport": "football",
-   "competitionId": "egypt_pl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Mısır Premier Ligi",
-    "en": "Egyptian Premier League",
-    "de": "Ägyptische Premier League",
-    "es": "Liga Premier de Egipto",
-    "fr": "Championnat d'Égypte",
-    "it": "Premier League egiziana",
-    "pt": "Liga Premier do Egito",
-    "ar": "الدوري المصري الممتاز"
-   },
-   "home": "Petrojet",
-   "away": "Al Masry",
-   "kickoffUtc": "2026-09-07T17:00:00Z",
-   "broadcasts": {
-    "EG": [
-     "On Sport"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260907-rizespor-alanyaspor",
-   "sport": "football",
-   "competitionId": "superlig",
-   "tier": "global",
-   "competition": {
-    "tr": "Trendyol Süper Lig",
-    "en": "Süper Lig",
-    "de": "Süper Lig",
-    "es": "Süper Lig",
-    "fr": "Süper Lig",
-    "it": "Süper Lig",
-    "pt": "Süper Lig",
-    "ar": "الدوري التركي الممتاز"
-   },
-   "home": "Rizespor",
-   "away": "Alanyaspor",
-   "kickoffUtc": "2026-09-07T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 1"
-    ],
-    "DE": [
-     "Digiturk Euro"
-    ],
-    "FR": [
-     "beIN Sports"
-    ],
-    "SA": [
-     "beIN Sports MENA 3"
-    ],
-    "DZ": [
-     "beIN Sports MENA 3"
-    ],
-    "EG": [
-     "beIN Sports MENA 3"
-    ],
-    "QA": [
-     "beIN Sports MENA 3"
-    ],
-    "AE": [
-     "beIN Sports MENA 3"
-    ],
-    "MA": [
-     "beIN Sports MENA 3"
-    ],
-    "TN": [
-     "beIN Sports MENA 3"
-    ],
-    "IQ": [
-     "beIN Sports MENA 3"
-    ],
-    "JO": [
-     "beIN Sports MENA 3"
-    ],
-    "OM": [
-     "beIN Sports MENA 3"
-    ],
-    "LY": [
-     "beIN Sports MENA 3"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Ç.Rizespor",
-    "en": "Ç.Rizespor",
-    "de": "Ç.Rizespor",
-    "es": "Ç.Rizespor",
-    "fr": "Ç.Rizespor",
-    "it": "Ç.Rizespor",
-    "pt": "Ç.Rizespor",
-    "ar": "Ç.Rizespor"
-   }
-  },
-  {
-   "id": "football-20260907-al-hilal-neom",
-   "sport": "football",
-   "competitionId": "saudi_pl",
-   "tier": "global",
-   "competition": {
-    "tr": "Suudi Pro Lig",
-    "en": "Saudi Pro League",
-    "de": "Saudi Pro League",
-    "es": "Liga Profesional Saudí",
-    "fr": "Saudi Pro League",
-    "it": "Saudi Pro League",
-    "pt": "Liga Saudita",
-    "ar": "دوري روشن السعودي"
-   },
-   "home": "Al Hilal",
-   "away": "Neom",
-   "kickoffUtc": "2026-09-07T18:00:00Z",
-   "broadcasts": {
-    "SA": [
-     "Thmanyah"
-    ],
-    "TR": [
-     "S Sport Plus"
-    ],
-    "DE": [
-     "DAZN"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260907-palermo-sampdoria",
-   "sport": "football",
-   "competitionId": "seriea_b",
-   "tier": "regional",
-   "competition": {
-    "tr": "İtalya Serie B",
-    "en": "Serie B",
-    "de": "Serie B",
-    "es": "Serie B de Italia",
-    "fr": "Serie B",
-    "it": "Serie B",
-    "pt": "Serie B italiana",
-    "ar": "الدرجة الثانية الإيطالية"
-   },
-   "home": "Palermo",
-   "away": "Sampdoria",
-   "kickoffUtc": "2026-09-07T18:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "Sıfır TV"
-    ],
-    "GB": [
-     "Destination Calcio"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "DE": [
-     "OneFootball"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260907-sabadell-cordoba",
-   "sport": "football",
-   "competitionId": "laliga2",
-   "tier": "regional",
-   "competition": {
-    "tr": "İspanya LaLiga 2",
-    "en": "LaLiga Hypermotion",
-    "de": "LaLiga Hypermotion",
-    "es": "LaLiga Hypermotion",
-    "fr": "LaLiga Hypermotion",
-    "it": "LaLiga Hypermotion",
-    "pt": "LaLiga Hypermotion",
-    "ar": "لا ليغا هايبرموشن"
-   },
-   "home": "Sabadell",
-   "away": "Cordoba",
-   "kickoffUtc": "2026-09-07T18:30:00Z",
-   "broadcasts": {
-    "ES": [
-     "LALIGA TV Hypermotion",
-     "DAZN",
-     "LaLiga TV M2"
-    ],
-    "DE": [
-     "DAZN"
-    ]
-   },
-   "sources": [],
-   "awayNames": {
-    "tr": "Córdoba",
-    "en": "Córdoba",
-    "de": "Córdoba",
-    "es": "Córdoba",
-    "fr": "Córdoba",
-    "it": "Córdoba",
-    "pt": "Córdoba",
-    "ar": "Córdoba"
-   }
-  },
-  {
-   "id": "basketball-20260907-italya-cin",
+   "id": "basketball-20260908-macaristan-japonya",
    "sport": "basketball",
    "competitionId": "fiba_wwc",
    "tier": "global",
@@ -767,195 +120,640 @@
     "pt": "Copa do Mundo Feminina FIBA",
     "ar": "كأس العالم للسيدات لكرة السلة"
    },
-   "home": "Italya",
-   "away": "Cin",
-   "kickoffUtc": "2026-09-07T18:45:00Z",
+   "home": "Macaristan",
+   "away": "Japonya",
+   "kickoffUtc": "2026-09-08T15:45:00Z",
    "broadcasts": {
     "TR": [
+     "S Sport",
      "S Sport Plus"
-    ],
-    "IT": [
-     "S Sport"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "İtalya",
-    "en": "İtalya",
-    "de": "İtalya",
-    "es": "İtalya",
-    "fr": "İtalya",
-    "it": "İtalya",
-    "pt": "İtalya",
-    "ar": "İtalya"
-   },
-   "awayNames": {
-    "tr": "Çin",
-    "en": "Çin",
-    "de": "Çin",
-    "es": "Çin",
-    "fr": "Çin",
-    "it": "Çin",
-    "pt": "Çin",
-    "ar": "Çin"
-   }
-  },
-  {
-   "id": "football-20260907-nantes-nancy",
-   "sport": "football",
-   "competitionId": "ligue2",
-   "tier": "regional",
-   "competition": {
-    "tr": "Fransa Ligue 2",
-    "en": "Ligue 2",
-    "de": "Ligue 2",
-    "es": "Ligue 2",
-    "fr": "Ligue 2 BKT",
-    "it": "Ligue 2",
-    "pt": "Ligue 2",
-    "ar": "الدرجة الثانية الفرنسية"
-   },
-   "home": "Nantes",
-   "away": "Nancy",
-   "kickoffUtc": "2026-09-07T18:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 4"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "FR": [
-     "beIN Sports 4"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260907-udinese-lazio",
+   "id": "football-20260908-aek-atina-lask",
    "sport": "football",
-   "competitionId": "seriea",
+   "competitionId": "champions",
    "tier": "global",
    "competition": {
-    "tr": "İtalya Serie A",
-    "en": "Serie A",
-    "de": "Serie A",
-    "es": "Serie A",
-    "fr": "Serie A",
-    "it": "Serie A",
-    "pt": "Serie A",
-    "ar": "الدوري الإيطالي"
+    "tr": "UEFA Şampiyonlar Ligi",
+    "en": "UEFA Champions League",
+    "de": "UEFA Champions League",
+    "es": "Liga de Campeones",
+    "fr": "Ligue des Champions",
+    "it": "UEFA Champions League",
+    "pt": "Liga dos Campeões",
+    "ar": "دوري أبطال أوروبا"
    },
-   "home": "Udinese",
-   "away": "Lazio",
-   "kickoffUtc": "2026-09-07T18:45:00Z",
+   "home": "AEK Atina",
+   "away": "LASK",
+   "kickoffUtc": "2026-09-08T16:45:00Z",
    "broadcasts": {
     "TR": [
-     "S Sport 2",
-     "S Sport Plus"
+     "tabii Spor"
     ],
     "GB": [
+     "TNT Sports 2",
+     "HBO Max"
+    ],
+    "ES": [
+     "M+ Liga de Campeones 2"
+    ],
+    "DE": [
      "DAZN"
     ],
     "IT": [
-     "Sky Sport Calcio",
+     "Sky Sport Arena"
+    ],
+    "SA": [
+     "beIN Sports MENA 2"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2"
+    ],
+    "EG": [
+     "beIN Sports MENA 2"
+    ],
+    "QA": [
+     "beIN Sports MENA 2"
+    ],
+    "AE": [
+     "beIN Sports MENA 2"
+    ],
+    "MA": [
+     "beIN Sports MENA 2"
+    ],
+    "TN": [
+     "beIN Sports MENA 2"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2"
+    ],
+    "JO": [
+     "beIN Sports MENA 2"
+    ],
+    "OM": [
+     "beIN Sports MENA 2"
+    ],
+    "LY": [
+     "beIN Sports MENA 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-club-brugge-aston-villa",
+   "sport": "football",
+   "competitionId": "champions",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Şampiyonlar Ligi",
+    "en": "UEFA Champions League",
+    "de": "UEFA Champions League",
+    "es": "Liga de Campeones",
+    "fr": "Ligue des Champions",
+    "it": "UEFA Champions League",
+    "pt": "Liga dos Campeões",
+    "ar": "دوري أبطال أوروبا"
+   },
+   "home": "Club Brugge",
+   "away": "Aston Villa",
+   "kickoffUtc": "2026-09-08T16:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "CBC Sport",
+     "tabii Spor 1"
+    ],
+    "GB": [
+     "TNT Sports 1",
+     "HBO Max"
+    ],
+    "ES": [
+     "M+ Liga de Campeones 2"
+    ],
+    "DE": [
      "DAZN"
+    ],
+    "IT": [
+     "Sky Sport Calcio"
+    ],
+    "SA": [
+     "beIN Sports MENA 1"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1"
+    ],
+    "EG": [
+     "beIN Sports MENA 1"
+    ],
+    "QA": [
+     "beIN Sports MENA 1"
+    ],
+    "AE": [
+     "beIN Sports MENA 1"
+    ],
+    "MA": [
+     "beIN Sports MENA 1"
+    ],
+    "TN": [
+     "beIN Sports MENA 1"
+    ],
+    "IQ": [
+     "beIN Sports MENA 1"
+    ],
+    "JO": [
+     "beIN Sports MENA 1"
+    ],
+    "OM": [
+     "beIN Sports MENA 1"
+    ],
+    "LY": [
+     "beIN Sports MENA 1"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-al-qadsiah-al-ahli",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "global",
+   "competition": {
+    "tr": "Suudi Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Liga Saudita",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al Qadsiah",
+   "away": "Al Ahli",
+   "kickoffUtc": "2026-09-08T18:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "HT Spor",
+     "S Sport Plus"
+    ],
+    "ES": [
+     "M+ Vamos"
     ],
     "DE": [
      "DAZN"
     ],
     "SA": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "DZ": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "EG": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "QA": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "AE": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "MA": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "TN": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "IQ": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "JO": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "OM": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
-    ],
-    "LY": [
-     "stc tv",
-     "starzplay",
-     "Shasha"
+     "Thmanyah"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260907-elche-real-sociedad",
-   "sport": "football",
-   "competitionId": "laliga",
+   "id": "basketball-20260908-almanya-guney-kore",
+   "sport": "basketball",
+   "competitionId": "fiba_wwc",
    "tier": "global",
    "competition": {
-    "tr": "LaLiga",
-    "en": "LaLiga",
-    "de": "LaLiga",
-    "es": "LaLiga",
-    "fr": "LaLiga",
-    "it": "LaLiga",
-    "pt": "LaLiga",
-    "ar": "الدوري الإسباني"
+    "tr": "FIBA Kadınlar Dünya Kupası",
+    "en": "FIBA Women's World Cup",
+    "de": "FIBA Basketball-WM der Frauen",
+    "es": "Copa Mundial Femenina FIBA",
+    "fr": "Coupe du monde féminine FIBA",
+    "it": "Mondiali femminili FIBA",
+    "pt": "Copa do Mundo Feminina FIBA",
+    "ar": "كأس العالم للسيدات لكرة السلة"
    },
-   "home": "Elche",
-   "away": "Real Sociedad",
-   "kickoffUtc": "2026-09-07T19:30:00Z",
+   "home": "Almanya",
+   "away": "Guney Kore",
+   "kickoffUtc": "2026-09-08T18:45:00Z",
    "broadcasts": {
     "TR": [
      "S Sport",
-     "S Sport Plus",
-     "Idman TV"
+     "S Sport Plus"
+    ],
+    "DE": [
+     "S Sport"
+    ]
+   },
+   "sources": [],
+   "awayNames": {
+    "tr": "Güney Kore",
+    "en": "Güney Kore",
+    "de": "Güney Kore",
+    "es": "Güney Kore",
+    "fr": "Güney Kore",
+    "it": "Güney Kore",
+    "pt": "Güney Kore",
+    "ar": "Güney Kore"
+   }
+  },
+  {
+   "id": "football-20260908-bournemouth-lincoln-city",
+   "sport": "football",
+   "competitionId": "efl_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Lig Kupası",
+    "en": "EFL Cup",
+    "de": "EFL Cup (Ligapokal)",
+    "es": "Copa de la Liga (EFL Cup)",
+    "fr": "Coupe de la Ligue anglaise",
+    "it": "Coppa di Lega inglese",
+    "pt": "Copa da Liga Inglesa",
+    "ar": "كأس الرابطة الإنجليزية"
+   },
+   "home": "Bournemouth",
+   "away": "Lincoln City",
+   "kickoffUtc": "2026-09-08T18:45:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-crystal-palace-middlesbrough",
+   "sport": "football",
+   "competitionId": "efl_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Lig Kupası",
+    "en": "EFL Cup",
+    "de": "EFL Cup (Ligapokal)",
+    "es": "Copa de la Liga (EFL Cup)",
+    "fr": "Coupe de la Ligue anglaise",
+    "it": "Coppa di Lega inglese",
+    "pt": "Copa da Liga Inglesa",
+    "ar": "كأس الرابطة الإنجليزية"
+   },
+   "home": "Crystal Palace",
+   "away": "Middlesbrough",
+   "kickoffUtc": "2026-09-08T18:45:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-leyton-orient-bradford-city",
+   "sport": "football",
+   "competitionId": "efl_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Lig Kupası",
+    "en": "EFL Cup",
+    "de": "EFL Cup (Ligapokal)",
+    "es": "Copa de la Liga (EFL Cup)",
+    "fr": "Coupe de la Ligue anglaise",
+    "it": "Coppa di Lega inglese",
+    "pt": "Copa da Liga Inglesa",
+    "ar": "كأس الرابطة الإنجليزية"
+   },
+   "home": "Leyton Orient",
+   "away": "Bradford City",
+   "kickoffUtc": "2026-09-08T18:45:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-sunderland-hull-city",
+   "sport": "football",
+   "competitionId": "efl_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Lig Kupası",
+    "en": "EFL Cup",
+    "de": "EFL Cup (Ligapokal)",
+    "es": "Copa de la Liga (EFL Cup)",
+    "fr": "Coupe de la Ligue anglaise",
+    "it": "Coppa di Lega inglese",
+    "pt": "Copa da Liga Inglesa",
+    "ar": "كأس الرابطة الإنجليزية"
+   },
+   "home": "Sunderland",
+   "away": "Hull City",
+   "kickoffUtc": "2026-09-08T18:45:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-bolton-wanderers-west-ham-united",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "Bolton Wanderers",
+   "away": "West Ham United",
+   "kickoffUtc": "2026-09-08T19:00:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports Football"
+    ],
+    "DE": [
+     "Sky Sport Premier League"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-borussia-dortmund-villarreal",
+   "sport": "football",
+   "competitionId": "champions",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Şampiyonlar Ligi",
+    "en": "UEFA Champions League",
+    "de": "UEFA Champions League",
+    "es": "Liga de Campeones",
+    "fr": "Ligue des Champions",
+    "it": "UEFA Champions League",
+    "pt": "Liga dos Campeões",
+    "ar": "دوري أبطال أوروبا"
+   },
+   "home": "Borussia Dortmund",
+   "away": "Villarreal",
+   "kickoffUtc": "2026-09-08T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor 2"
     ],
     "GB": [
-     "Premier Sports 1"
+     "TNT Sports 2",
+     "HBO Max"
     ],
     "ES": [
-     "M+ LALIGA",
-     "M+ LALIGA HDR",
-     "LaLiga TV Bar"
+     "M+ Liga de Campeones 2"
     ],
     "DE": [
      "DAZN"
+    ],
+    "IT": [
+     "Sky Sport"
+    ],
+    "SA": [
+     "beIN Sports MENA 4"
+    ],
+    "DZ": [
+     "beIN Sports MENA 4"
+    ],
+    "EG": [
+     "beIN Sports MENA 4"
+    ],
+    "QA": [
+     "beIN Sports MENA 4"
+    ],
+    "AE": [
+     "beIN Sports MENA 4"
+    ],
+    "MA": [
+     "beIN Sports MENA 4"
+    ],
+    "TN": [
+     "beIN Sports MENA 4"
+    ],
+    "IQ": [
+     "beIN Sports MENA 4"
+    ],
+    "JO": [
+     "beIN Sports MENA 4"
+    ],
+    "OM": [
+     "beIN Sports MENA 4"
+    ],
+    "LY": [
+     "beIN Sports MENA 4"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-lille-real-betis",
+   "sport": "football",
+   "competitionId": "champions",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Şampiyonlar Ligi",
+    "en": "UEFA Champions League",
+    "de": "UEFA Champions League",
+    "es": "Liga de Campeones",
+    "fr": "Ligue des Champions",
+    "it": "UEFA Champions League",
+    "pt": "Liga dos Campeões",
+    "ar": "دوري أبطال أوروبا"
+   },
+   "home": "Lille",
+   "away": "Real Betis",
+   "kickoffUtc": "2026-09-08T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor 3"
+    ],
+    "GB": [
+     "TNT Sports 3",
+     "HBO Max"
+    ],
+    "ES": [
+     "M+ Liga de Campeones 3"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "IT": [
+     "Sky Sport"
+    ],
+    "SA": [
+     "beIN Sports MENA 3"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3"
+    ],
+    "EG": [
+     "beIN Sports MENA 3"
+    ],
+    "QA": [
+     "beIN Sports MENA 3"
+    ],
+    "AE": [
+     "beIN Sports MENA 3"
+    ],
+    "MA": [
+     "beIN Sports MENA 3"
+    ],
+    "TN": [
+     "beIN Sports MENA 3"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3"
+    ],
+    "JO": [
+     "beIN Sports MENA 3"
+    ],
+    "OM": [
+     "beIN Sports MENA 3"
+    ],
+    "LY": [
+     "beIN Sports MENA 3"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-millwall-newcastle-united",
+   "sport": "football",
+   "competitionId": "efl_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Lig Kupası",
+    "en": "EFL Cup",
+    "de": "EFL Cup (Ligapokal)",
+    "es": "Copa de la Liga (EFL Cup)",
+    "fr": "Coupe de la Ligue anglaise",
+    "it": "Coppa di Lega inglese",
+    "pt": "Copa da Liga Inglesa",
+    "ar": "كأس الرابطة الإنجليزية"
+   },
+   "home": "Millwall",
+   "away": "Newcastle United",
+   "kickoffUtc": "2026-09-08T19:00:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports Main Event",
+     "Sky Sports Ultra HDR"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-porto-manchester-city",
+   "sport": "football",
+   "competitionId": "champions",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Şampiyonlar Ligi",
+    "en": "UEFA Champions League",
+    "de": "UEFA Champions League",
+    "es": "Liga de Campeones",
+    "fr": "Ligue des Champions",
+    "it": "UEFA Champions League",
+    "pt": "Liga dos Campeões",
+    "ar": "دوري أبطال أوروبا"
+   },
+   "home": "Porto",
+   "away": "Manchester City",
+   "kickoffUtc": "2026-09-08T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "İçtimai TV",
+     "tabii Spor 1"
+    ],
+    "GB": [
+     "Amazon Prime Video"
+    ],
+    "ES": [
+     "M+ Liga de Campeones 4"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "IT": [
+     "Sky Sport Calcio"
+    ],
+    "PT": [
+     "Sport TV 1"
+    ],
+    "SA": [
+     "beIN Sports MENA 2"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2"
+    ],
+    "EG": [
+     "beIN Sports MENA 2"
+    ],
+    "QA": [
+     "beIN Sports MENA 2"
+    ],
+    "AE": [
+     "beIN Sports MENA 2"
+    ],
+    "MA": [
+     "beIN Sports MENA 2"
+    ],
+    "TN": [
+     "beIN Sports MENA 2"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2"
+    ],
+    "JO": [
+     "beIN Sports MENA 2"
+    ],
+    "OM": [
+     "beIN Sports MENA 2"
+    ],
+    "LY": [
+     "beIN Sports MENA 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-real-madrid-inter",
+   "sport": "football",
+   "competitionId": "champions",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Şampiyonlar Ligi",
+    "en": "UEFA Champions League",
+    "de": "UEFA Champions League",
+    "es": "Liga de Campeones",
+    "fr": "Ligue des Champions",
+    "it": "UEFA Champions League",
+    "pt": "Liga dos Campeões",
+    "ar": "دوري أبطال أوروبا"
+   },
+   "home": "Real Madrid",
+   "away": "Inter",
+   "kickoffUtc": "2026-09-08T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CBC Sport",
+     "tabii Spor"
+    ],
+    "GB": [
+     "TNT Sports 1",
+     "HBO Max"
+    ],
+    "ES": [
+     "Movistar Plus+",
+     "M+ Liga de Campeones"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "IT": [
+     "Sky Sport 1"
     ],
     "SA": [
      "beIN Sports MENA 1"
