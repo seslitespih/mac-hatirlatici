@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-08T07:03:57.000Z",
+ "generated_at": "2026-09-08T10:12:00.000Z",
  "date": "2026-09-08",
  "model": "user-provided",
  "stats": {
-  "total": 19,
-  "withChannel": 19,
+  "total": 25,
+  "withChannel": 25,
   "bySport": {
    "basketball": 4,
-   "football": 15
+   "football": 21
   },
   "warnings": 0,
   "searches": 0,
@@ -130,6 +130,37 @@
     "TR": [
      "S Sport",
      "S Sport Plus"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-al-hazm-al-taawoun",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "global",
+   "competition": {
+    "tr": "Suudi Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Liga Saudita",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al Hazm",
+   "away": "Al Taawoun",
+   "kickoffUtc": "2026-09-08T15:55:00Z",
+   "broadcasts": {
+    "SA": [
+     "Thmanyah"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "FR": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -372,6 +403,7 @@
    "kickoffUtc": "2026-09-08T18:45:00Z",
    "broadcasts": {
     "TR": [
+     "TRT Spor Yildiz",
      "S Sport",
      "S Sport Plus"
     ],
@@ -863,6 +895,268 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "football-20260908-platense-fluminense",
+   "sport": "football",
+   "competitionId": "libertadores",
+   "tier": "global",
+   "competition": {
+    "tr": "Copa Libertadores",
+    "en": "Copa Libertadores",
+    "de": "Copa Libertadores",
+    "es": "Copa Libertadores",
+    "fr": "Copa Libertadores",
+    "it": "Copa Libertadores",
+    "pt": "Copa Libertadores",
+    "ar": "كأس ليبرتادوريس"
+   },
+   "home": "Platense",
+   "away": "Fluminense",
+   "kickoffUtc": "2026-09-08T22:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart"
+    ],
+    "AR": [
+     "Fox Sports",
+     "Disney+",
+     "Telefe"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+"
+    ],
+    "CL": [
+     "ESPN",
+     "Disney+"
+    ],
+    "CO": [
+     "ESPN",
+     "Disney+"
+    ],
+    "PE": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "EC": [
+     "ESPN",
+     "Disney+"
+    ],
+    "PY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "MX": [
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-santa-fe-vasco-da-gama",
+   "sport": "football",
+   "competitionId": "sudamericana",
+   "tier": "regional",
+   "competition": {
+    "tr": "Copa Sudamericana",
+    "en": "Copa Sudamericana",
+    "de": "Copa Sudamericana",
+    "es": "Copa Sudamericana",
+    "fr": "Copa Sudamericana",
+    "it": "Copa Sudamericana",
+    "pt": "Copa Sudamericana",
+    "ar": "كأس سودأمريكانا"
+   },
+   "home": "Santa Fe",
+   "away": "Vasco da Gama",
+   "kickoffUtc": "2026-09-08T22:00:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN",
+     "DSports"
+    ],
+    "CO": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "CL": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "PE": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "UY": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "EC": [
+     "DSports"
+    ],
+    "PY": [
+     "Tigo Sports"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260908-cuiaba-athletic-club",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B brésilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Cuiaba",
+   "away": "Athletic Club",
+   "kickoffUtc": "2026-09-08T23:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Cuiabá",
+    "en": "Cuiabá",
+    "de": "Cuiabá",
+    "es": "Cuiabá",
+    "fr": "Cuiabá",
+    "it": "Cuiabá",
+    "pt": "Cuiabá",
+    "ar": "Cuiabá"
+   }
+  },
+  {
+   "id": "football-20260909-boca-juniors-sao-paulo",
+   "sport": "football",
+   "competitionId": "sudamericana",
+   "tier": "regional",
+   "competition": {
+    "tr": "Copa Sudamericana",
+    "en": "Copa Sudamericana",
+    "de": "Copa Sudamericana",
+    "es": "Copa Sudamericana",
+    "fr": "Copa Sudamericana",
+    "it": "Copa Sudamericana",
+    "pt": "Copa Sudamericana",
+    "ar": "كأس سودأمريكانا"
+   },
+   "home": "Boca Juniors",
+   "away": "Sao Paulo",
+   "kickoffUtc": "2026-09-09T00:30:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN",
+     "DSports"
+    ],
+    "CO": [
+     "ESPN",
+     "Disney+"
+    ],
+    "CL": [
+     "ESPN",
+     "Disney+"
+    ],
+    "PE": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "EC": [
+     "ESPN"
+    ],
+    "PY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "MX": [
+     "ESPN",
+     "Disney+"
+    ],
+    "BR": [
+     "SBT",
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": [],
+   "awayNames": {
+    "tr": "São Paulo",
+    "en": "São Paulo",
+    "de": "São Paulo",
+    "es": "São Paulo",
+    "fr": "São Paulo",
+    "it": "São Paulo",
+    "pt": "São Paulo",
+    "ar": "São Paulo"
+   }
+  },
+  {
+   "id": "football-20260909-criciuma-juventude",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Serie B",
+    "de": "Brasilianische Serie B",
+    "es": "Serie B de Brasil",
+    "fr": "Serie B brésilienne",
+    "it": "Serie B brasiliana",
+    "pt": "Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Criciuma",
+   "away": "Juventude",
+   "kickoffUtc": "2026-09-09T00:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+",
+     "XSports",
+     "Canal GOAT"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Criciúma",
+    "en": "Criciúma",
+    "de": "Criciúma",
+    "es": "Criciúma",
+    "fr": "Criciúma",
+    "it": "Criciúma",
+    "pt": "Criciúma",
+    "ar": "Criciúma"
+   }
   }
  ]
 }
