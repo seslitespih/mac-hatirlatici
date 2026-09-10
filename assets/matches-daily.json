@@ -1,20 +1,708 @@
 {
- "generated_at": "2026-09-10T00:35:00.000Z",
+ "generated_at": "2026-09-10T10:10:00.000Z",
  "date": "2026-09-10",
  "model": "user-provided",
  "stats": {
-  "total": 8,
-  "withChannel": 8,
+  "total": 27,
+  "withChannel": 27,
   "bySport": {
-   "football": 8
+   "basketball": 4,
+   "football": 17,
+   "volleyball": 6
   },
   "warnings": 0,
   "searches": 0,
   "days": [
-   "2026-09-10"
+   "2026-09-10",
+   "2026-09-11"
   ]
  },
  "matches": [
+  {
+   "id": "basketball-20260910-usa-hungary",
+   "sport": "basketball",
+   "competitionId": "fiba_women_wc",
+   "tier": "global",
+   "competition": {
+    "tr": "FIBA Kadınlar Dünya Kupası",
+    "en": "FIBA Women's Basketball World Cup",
+    "de": "FIBA-Basketball-Weltmeisterschaft der Damen",
+    "es": "Copa Mundial Femenina de Baloncesto FIBA",
+    "fr": "Coupe du monde féminine de basket-ball FIBA",
+    "it": "Coppa del Mondo di pallacanestro femminile FIBA",
+    "pt": "Copa do Mundo de Basquete Feminino FIBA",
+    "ar": "كأس العالم لكرة السلة للسيدات"
+   },
+   "home": "USA",
+   "away": "Hungary",
+   "kickoffUtc": "2026-09-10T09:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport",
+     "S Sport Plus"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "ABD",
+    "en": "USA",
+    "de": "USA",
+    "es": "EE.UU.",
+    "fr": "États-Unis",
+    "it": "USA",
+    "pt": "EUA",
+    "ar": "الولايات المتحدة"
+   },
+   "awayNames": {
+    "tr": "Macaristan",
+    "en": "Hungary",
+    "de": "Ungarn",
+    "es": "Hungría",
+    "fr": "Hongrie",
+    "it": "Ungheria",
+    "pt": "Hungria",
+    "ar": "المجر"
+   }
+  },
+  {
+   "id": "basketball-20260910-china-france",
+   "sport": "basketball",
+   "competitionId": "fiba_women_wc",
+   "tier": "global",
+   "competition": {
+    "tr": "FIBA Kadınlar Dünya Kupası",
+    "en": "FIBA Women's Basketball World Cup",
+    "de": "FIBA-Basketball-Weltmeisterschaft der Damen",
+    "es": "Copa Mundial Femenina de Baloncesto FIBA",
+    "fr": "Coupe du monde féminine de basket-ball FIBA",
+    "it": "Coppa del Mondo di pallacanestro femminile FIBA",
+    "pt": "Copa do Mundo de Basquete Feminino FIBA",
+    "ar": "كأس العالم لكرة السلة للسيدات"
+   },
+   "home": "China",
+   "away": "France",
+   "kickoffUtc": "2026-09-10T12:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport",
+     "S Sport Plus"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Çin",
+    "en": "China",
+    "de": "China",
+    "es": "China",
+    "fr": "Chine",
+    "it": "Cina",
+    "pt": "China",
+    "ar": "الصين"
+   },
+   "awayNames": {
+    "tr": "Fransa",
+    "en": "France",
+    "de": "Frankreich",
+    "es": "Francia",
+    "fr": "France",
+    "it": "Francia",
+    "pt": "França",
+    "ar": "فرنسا"
+   }
+  },
+  {
+   "id": "football-20260910-north-korea-costa-rica",
+   "sport": "football",
+   "competitionId": "u20_women_wc",
+   "tier": "global",
+   "competition": {
+    "tr": "FIFA U20 Kadınlar Dünya Kupası",
+    "en": "FIFA U-20 Women's World Cup",
+    "de": "FIFA U-20-Frauen-Weltmeisterschaft",
+    "es": "Copa Mundial Femenina Sub-20 de la FIFA",
+    "fr": "Coupe du monde féminine U-20 de la FIFA",
+    "it": "Coppa del Mondo femminile FIFA U-20",
+    "pt": "Copa do Mundo Feminina Sub-20 da FIFA",
+    "ar": "كأس العالم للسيدات تحت 20 عامًا"
+   },
+   "home": "Korea DPR",
+   "away": "Costa Rica",
+   "kickoffUtc": "2026-09-10T13:00:00Z",
+   "broadcasts": {
+    "GB": [
+     "DAZN"
+    ],
+    "US": [
+     "DAZN"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "IT": [
+     "DAZN"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "PT": [
+     "DAZN"
+    ],
+    "MX": [
+     "ViX Premium",
+     "TUDN"
+    ],
+    "CO": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "CL": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "PE": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "UY": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "EC": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "PY": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Kuzey Kore",
+    "en": "Korea DPR",
+    "de": "Nordkorea",
+    "es": "Corea del Norte",
+    "fr": "Corée du Nord",
+    "it": "Corea del Nord",
+    "pt": "Coreia do Norte",
+    "ar": "كوريا الشمالية"
+   },
+   "awayNames": {
+    "tr": "Kosta Rika",
+    "en": "Costa Rica",
+    "de": "Costa Rica",
+    "es": "Costa Rica",
+    "fr": "Costa Rica",
+    "it": "Costa Rica",
+    "pt": "Costa Rica",
+    "ar": "كوستاريكا"
+   }
+  },
+  {
+   "id": "football-20260910-spain-new-caledonia",
+   "sport": "football",
+   "competitionId": "u20_women_wc",
+   "tier": "global",
+   "competition": {
+    "tr": "FIFA U20 Kadınlar Dünya Kupası",
+    "en": "FIFA U-20 Women's World Cup",
+    "de": "FIFA U-20-Frauen-Weltmeisterschaft",
+    "es": "Copa Mundial Femenina Sub-20 de la FIFA",
+    "fr": "Coupe du monde féminine U-20 de la FIFA",
+    "it": "Coppa del Mondo femminile FIFA U-20",
+    "pt": "Copa do Mundo Feminina Sub-20 da FIFA",
+    "ar": "كأس العالم للسيدات تحت 20 عامًا"
+   },
+   "home": "Spain",
+   "away": "New Caledonia",
+   "kickoffUtc": "2026-09-10T13:00:00Z",
+   "broadcasts": {
+    "GB": [
+     "DAZN"
+    ],
+    "US": [
+     "DAZN"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "IT": [
+     "DAZN"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "PT": [
+     "DAZN"
+    ],
+    "MX": [
+     "ViX Premium",
+     "TUDN"
+    ],
+    "CO": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "CL": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "PE": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "UY": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "EC": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "PY": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "İspanya",
+    "en": "Spain",
+    "de": "Spanien",
+    "es": "España",
+    "fr": "Espagne",
+    "it": "Spagna",
+    "pt": "Espanha",
+    "ar": "إسبانيا"
+   },
+   "awayNames": {
+    "tr": "Yeni Kaledonya",
+    "en": "New Caledonia",
+    "de": "Neukaledonien",
+    "es": "Nueva Caledonia",
+    "fr": "Nouvelle-Calédonie",
+    "it": "Nuova Caledonia",
+    "pt": "Nova Caledônia",
+    "ar": "كاليدونيا الجديدة"
+   }
+  },
+  {
+   "id": "volleyball-20260910-poland-portugal",
+   "sport": "volleyball",
+   "competitionId": "cev_euro_men",
+   "tier": "global",
+   "competition": {
+    "tr": "CEV Avrupa Şampiyonası (Erkekler)",
+    "en": "CEV European Championship (Men)",
+    "de": "CEV-Europameisterschaft (Herren)",
+    "es": "Campeonato de Europa de Voleibol (Masculino)",
+    "fr": "Championnat d'Europe de volley-ball (Hommes)",
+    "it": "Campionato europeo di pallavolo (Maschile)",
+    "pt": "Campeonato Europeu de Voleibol (Masculino)",
+    "ar": "بطولة أوروبا للكرة الطائرة للرجال"
+   },
+   "home": "Poland",
+   "away": "Portugal",
+   "kickoffUtc": "2026-09-10T13:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Polonya",
+    "en": "Poland",
+    "de": "Polen",
+    "es": "Polonia",
+    "fr": "Pologne",
+    "it": "Polonia",
+    "pt": "Polônia",
+    "ar": "بولندا"
+   },
+   "awayNames": {
+    "tr": "Portekiz",
+    "en": "Portugal",
+    "de": "Portugal",
+    "es": "Portugal",
+    "fr": "Portugal",
+    "it": "Portogallo",
+    "pt": "Portugal",
+    "ar": "البرتغال"
+   }
+  },
+  {
+   "id": "volleyball-20260910-france-switzerland",
+   "sport": "volleyball",
+   "competitionId": "cev_euro_men",
+   "tier": "global",
+   "competition": {
+    "tr": "CEV Avrupa Şampiyonası (Erkekler)",
+    "en": "CEV European Championship (Men)",
+    "de": "CEV-Europameisterschaft (Herren)",
+    "es": "Campeonato de Europa de Voleibol (Masculino)",
+    "fr": "Championnat d'Europe de volley-ball (Hommes)",
+    "it": "Campionato europeo di pallavolo (Maschile)",
+    "pt": "Campeonato Europeu de Voleibol (Masculino)",
+    "ar": "بطولة أوروبا للكرة الطائرة للرجال"
+   },
+   "home": "France",
+   "away": "Switzerland",
+   "kickoffUtc": "2026-09-10T14:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor 6"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Fransa",
+    "en": "France",
+    "de": "Frankreich",
+    "es": "Francia",
+    "fr": "France",
+    "it": "Francia",
+    "pt": "França",
+    "ar": "فرنسا"
+   },
+   "awayNames": {
+    "tr": "İsviçre",
+    "en": "Switzerland",
+    "de": "Schweiz",
+    "es": "Suiza",
+    "fr": "Suisse",
+    "it": "Svizzera",
+    "pt": "Suíça",
+    "ar": "سويسرا"
+   }
+  },
+  {
+   "id": "basketball-20260910-belgium-germany",
+   "sport": "basketball",
+   "competitionId": "fiba_women_wc",
+   "tier": "global",
+   "competition": {
+    "tr": "FIBA Kadınlar Dünya Kupası",
+    "en": "FIBA Women's Basketball World Cup",
+    "de": "FIBA-Basketball-Weltmeisterschaft der Damen",
+    "es": "Copa Mundial Femenina de Baloncesto FIBA",
+    "fr": "Coupe du monde féminine de basket-ball FIBA",
+    "it": "Coppa del Mondo di pallacanestro femminile FIBA",
+    "pt": "Copa do Mundo de Basquete Feminino FIBA",
+    "ar": "كأس العالم لكرة السلة للسيدات"
+   },
+   "home": "Belgium",
+   "away": "Germany",
+   "kickoffUtc": "2026-09-10T15:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport",
+     "S Sport Plus"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Belçika",
+    "en": "Belgium",
+    "de": "Belgien",
+    "es": "Bélgica",
+    "fr": "Belgique",
+    "it": "Belgio",
+    "pt": "Bélgica",
+    "ar": "بلجيكا"
+   },
+   "awayNames": {
+    "tr": "Almanya",
+    "en": "Germany",
+    "de": "Deutschland",
+    "es": "Alemania",
+    "fr": "Allemagne",
+    "it": "Germania",
+    "pt": "Alemanha",
+    "ar": "ألمانيا"
+   }
+  },
+  {
+   "id": "football-20260910-china-nigeria",
+   "sport": "football",
+   "competitionId": "u20_women_wc",
+   "tier": "global",
+   "competition": {
+    "tr": "FIFA U20 Kadınlar Dünya Kupası",
+    "en": "FIFA U-20 Women's World Cup",
+    "de": "FIFA U-20-Frauen-Weltmeisterschaft",
+    "es": "Copa Mundial Femenina Sub-20 de la FIFA",
+    "fr": "Coupe du monde féminine U-20 de la FIFA",
+    "it": "Coppa del Mondo femminile FIFA U-20",
+    "pt": "Copa do Mundo Feminina Sub-20 da FIFA",
+    "ar": "كأس العالم للسيدات تحت 20 عامًا"
+   },
+   "home": "China",
+   "away": "Nigeria",
+   "kickoffUtc": "2026-09-10T16:00:00Z",
+   "broadcasts": {
+    "GB": [
+     "DAZN"
+    ],
+    "US": [
+     "DAZN"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "IT": [
+     "DAZN"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "PT": [
+     "DAZN"
+    ],
+    "MX": [
+     "ViX Premium",
+     "TUDN"
+    ],
+    "CO": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "CL": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "PE": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "UY": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "EC": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "PY": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Çin",
+    "en": "China",
+    "de": "China",
+    "es": "China",
+    "fr": "Chine",
+    "it": "Cina",
+    "pt": "China",
+    "ar": "الصين"
+   },
+   "awayNames": {
+    "tr": "Nijerya",
+    "en": "Nigeria",
+    "de": "Nigeria",
+    "es": "Nigeria",
+    "fr": "Nigéria",
+    "it": "Nigeria",
+    "pt": "Nigéria",
+    "ar": "نيجيريا"
+   }
+  },
+  {
+   "id": "football-20260910-colombia-portugal",
+   "sport": "football",
+   "competitionId": "u20_women_wc",
+   "tier": "global",
+   "competition": {
+    "tr": "FIFA U20 Kadınlar Dünya Kupası",
+    "en": "FIFA U-20 Women's World Cup",
+    "de": "FIFA U-20-Frauen-Weltmeisterschaft",
+    "es": "Copa Mundial Femenina Sub-20 de la FIFA",
+    "fr": "Coupe du monde féminine U-20 de la FIFA",
+    "it": "Coppa del Mondo femminile FIFA U-20",
+    "pt": "Copa do Mundo Feminina Sub-20 da FIFA",
+    "ar": "كأس العالم للسيدات تحت 20 عامًا"
+   },
+   "home": "Colombia",
+   "away": "Portugal",
+   "kickoffUtc": "2026-09-10T16:00:00Z",
+   "broadcasts": {
+    "GB": [
+     "DAZN"
+    ],
+    "US": [
+     "DAZN"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "IT": [
+     "DAZN"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "PT": [
+     "DAZN"
+    ],
+    "MX": [
+     "ViX Premium",
+     "TUDN"
+    ],
+    "CO": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "CL": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "PE": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "UY": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "EC": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "PY": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Kolombiya",
+    "en": "Colombia",
+    "de": "Kolumbien",
+    "es": "Colombia",
+    "fr": "Colombie",
+    "it": "Colombia",
+    "pt": "Colômbia",
+    "ar": "كولومبيا"
+   },
+   "awayNames": {
+    "tr": "Portekiz",
+    "en": "Portugal",
+    "de": "Portugal",
+    "es": "Portugal",
+    "fr": "Portugal",
+    "it": "Portogallo",
+    "pt": "Portugal",
+    "ar": "البرتغال"
+   }
+  },
+  {
+   "id": "volleyball-20260910-israel-ukraine",
+   "sport": "volleyball",
+   "competitionId": "cev_euro_men",
+   "tier": "global",
+   "competition": {
+    "tr": "CEV Avrupa Şampiyonası (Erkekler)",
+    "en": "CEV European Championship (Men)",
+    "de": "CEV-Europameisterschaft (Herren)",
+    "es": "Campeonato de Europa de Voleibol (Masculino)",
+    "fr": "Championnat d'Europe de volley-ball (Hommes)",
+    "it": "Campionato europeo di pallavolo (Maschile)",
+    "pt": "Campeonato Europeu de Voleibol (Masculino)",
+    "ar": "بطولة أوروبا للكرة الطائرة للرجال"
+   },
+   "home": "Israel",
+   "away": "Ukraine",
+   "kickoffUtc": "2026-09-10T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "İsrail",
+    "en": "Israel",
+    "de": "Israel",
+    "es": "Israel",
+    "fr": "Israël",
+    "it": "Israele",
+    "pt": "Israel",
+    "ar": "إسرائيل"
+   },
+   "awayNames": {
+    "tr": "Ukrayna",
+    "en": "Ukraine",
+    "de": "Ukraine",
+    "es": "Ucrania",
+    "fr": "Ukraine",
+    "it": "Ucraina",
+    "pt": "Ucrânia",
+    "ar": "أوكرانيا"
+   }
+  },
   {
    "id": "football-20260910-fenerbahce-roma",
    "sport": "football",
@@ -101,6 +789,13 @@
     ],
     "LY": [
      "beIN Sports"
+    ],
+    "MX": [
+     "HBO Max",
+     "TNT"
+    ],
+    "BR": [
+     "Max"
     ]
    },
    "sources": [],
@@ -206,6 +901,13 @@
     ],
     "LY": [
      "beIN Sports"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX+"
+    ],
+    "BR": [
+     "Max"
     ]
    },
    "sources": [],
@@ -218,6 +920,143 @@
     "it": "PSV Eindhoven",
     "pt": "PSV Eindhoven",
     "ar": "آيندهوفن"
+   }
+  },
+  {
+   "id": "volleyball-20260910-finland-denmark",
+   "sport": "volleyball",
+   "competitionId": "cev_euro_men",
+   "tier": "global",
+   "competition": {
+    "tr": "CEV Avrupa Şampiyonası (Erkekler)",
+    "en": "CEV European Championship (Men)",
+    "de": "CEV-Europameisterschaft (Herren)",
+    "es": "Campeonato de Europa de Voleibol (Masculino)",
+    "fr": "Championnat d'Europe de volley-ball (Hommes)",
+    "it": "Campionato europeo di pallavolo (Maschile)",
+    "pt": "Campeonato Europeu de Voleibol (Masculino)",
+    "ar": "بطولة أوروبا للكرة الطائرة للرجال"
+   },
+   "home": "Finland",
+   "away": "Denmark",
+   "kickoffUtc": "2026-09-10T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Finlandiya",
+    "en": "Finland",
+    "de": "Finnland",
+    "es": "Finlandia",
+    "fr": "Finlande",
+    "it": "Finlandia",
+    "pt": "Finlândia",
+    "ar": "فنلندا"
+   },
+   "awayNames": {
+    "tr": "Danimarka",
+    "en": "Denmark",
+    "de": "Dänemark",
+    "es": "Dinamarca",
+    "fr": "Danemark",
+    "it": "Danimarca",
+    "pt": "Dinamarca",
+    "ar": "الدنمارك"
+   }
+  },
+  {
+   "id": "volleyball-20260910-turkey-germany",
+   "sport": "volleyball",
+   "competitionId": "cev_euro_men",
+   "tier": "global",
+   "competition": {
+    "tr": "CEV Avrupa Şampiyonası (Erkekler)",
+    "en": "CEV European Championship (Men)",
+    "de": "CEV-Europameisterschaft (Herren)",
+    "es": "Campeonato de Europa de Voleibol (Masculino)",
+    "fr": "Championnat d'Europe de volley-ball (Hommes)",
+    "it": "Campionato europeo di pallavolo (Maschile)",
+    "pt": "Campeonato Europeu de Voleibol (Masculino)",
+    "ar": "بطولة أوروبا للكرة الطائرة للرجال"
+   },
+   "home": "Turkey",
+   "away": "Germany",
+   "kickoffUtc": "2026-09-10T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Türkiye",
+    "en": "Türkiye",
+    "de": "Türkei",
+    "es": "Turquía",
+    "fr": "Turquie",
+    "it": "Turchia",
+    "pt": "Turquia",
+    "ar": "تركيا"
+   },
+   "awayNames": {
+    "tr": "Almanya",
+    "en": "Germany",
+    "de": "Deutschland",
+    "es": "Alemania",
+    "fr": "Allemagne",
+    "it": "Germania",
+    "pt": "Alemanha",
+    "ar": "ألمانيا"
+   }
+  },
+  {
+   "id": "basketball-20260910-australia-spain",
+   "sport": "basketball",
+   "competitionId": "fiba_women_wc",
+   "tier": "global",
+   "competition": {
+    "tr": "FIBA Kadınlar Dünya Kupası",
+    "en": "FIBA Women's Basketball World Cup",
+    "de": "FIBA-Basketball-Weltmeisterschaft der Damen",
+    "es": "Copa Mundial Femenina de Baloncesto FIBA",
+    "fr": "Coupe du monde féminine de basket-ball FIBA",
+    "it": "Coppa del Mondo di pallacanestro femminile FIBA",
+    "pt": "Copa do Mundo de Basquete Feminino FIBA",
+    "ar": "كأس العالم لكرة السلة للسيدات"
+   },
+   "home": "Australia",
+   "away": "Spain",
+   "kickoffUtc": "2026-09-10T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor Yıldız",
+     "S Sport",
+     "S Sport Plus"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Avustralya",
+    "en": "Australia",
+    "de": "Australien",
+    "es": "Australia",
+    "fr": "Australie",
+    "it": "Australia",
+    "pt": "Austrália",
+    "ar": "أستراليا"
+   },
+   "awayNames": {
+    "tr": "İspanya",
+    "en": "Spain",
+    "de": "Spanien",
+    "es": "España",
+    "fr": "Espagne",
+    "it": "Spagna",
+    "pt": "Espanha",
+    "ar": "إسبانيا"
    }
   },
   {
@@ -304,6 +1143,13 @@
     ],
     "LY": [
      "beIN Sports"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX+"
+    ],
+    "BR": [
+     "Max"
     ]
    },
    "sources": [],
@@ -410,6 +1256,13 @@
     ],
     "LY": [
      "beIN Sports"
+    ],
+    "MX": [
+     "HBO Max",
+     "Space"
+    ],
+    "BR": [
+     "Max"
     ]
    },
    "sources": [],
@@ -506,6 +1359,13 @@
     ],
     "LY": [
      "beIN Sports"
+    ],
+    "MX": [
+     "HBO Max",
+     "TNT"
+    ],
+    "BR": [
+     "Max"
     ]
    },
    "sources": [],
@@ -601,6 +1461,13 @@
     ],
     "LY": [
      "beIN Sports"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX"
+    ],
+    "BR": [
+     "Max"
     ]
    },
    "sources": [],
@@ -653,6 +1520,51 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "volleyball-20260910-italy-sweden",
+   "sport": "volleyball",
+   "competitionId": "cev_euro_men",
+   "tier": "global",
+   "competition": {
+    "tr": "CEV Avrupa Şampiyonası (Erkekler)",
+    "en": "CEV European Championship (Men)",
+    "de": "CEV-Europameisterschaft (Herren)",
+    "es": "Campeonato de Europa de Voleibol (Masculino)",
+    "fr": "Championnat d'Europe de volley-ball (Hommes)",
+    "it": "Campionato europeo di pallavolo (Maschile)",
+    "pt": "Campeonato Europeu de Voleibol (Masculino)",
+    "ar": "بطولة أوروبا للكرة الطائرة للرجال"
+   },
+   "home": "Italy",
+   "away": "Sweden",
+   "kickoffUtc": "2026-09-10T19:05:00Z",
+   "broadcasts": {
+    "TR": [
+     "CEV YouTube"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "İtalya",
+    "en": "Italy",
+    "de": "Italien",
+    "es": "Italia",
+    "fr": "Italie",
+    "it": "Italia",
+    "pt": "Itália",
+    "ar": "إيطاليا"
+   },
+   "awayNames": {
+    "tr": "İsveç",
+    "en": "Sweden",
+    "de": "Schweden",
+    "es": "Suecia",
+    "fr": "Suède",
+    "it": "Svezia",
+    "pt": "Suécia",
+    "ar": "السويد"
+   }
   },
   {
    "id": "football-20260910-estrela-amadora-braga",
@@ -713,6 +1625,306 @@
     "it": "Braga",
     "pt": "Sporting Braga",
     "ar": "براغا"
+   }
+  },
+  {
+   "id": "football-20260910-sao-bernardo-londrina",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Série B",
+    "de": "Brasilianische Série B",
+    "es": "Brasileirão Serie B",
+    "fr": "Série B brésilienne",
+    "it": "Série B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Sao Bernardo",
+   "away": "Londrina",
+   "kickoffUtc": "2026-09-10T22:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "SporTV",
+     "Premiere"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Sao Bernardo",
+    "en": "São Bernardo",
+    "de": "São Bernardo",
+    "es": "São Bernardo",
+    "fr": "São Bernardo",
+    "it": "São Bernardo",
+    "pt": "São Bernardo",
+    "ar": "ساو برناردو"
+   },
+   "awayNames": {
+    "tr": "Londrina",
+    "en": "Londrina",
+    "de": "Londrina",
+    "es": "Londrina",
+    "fr": "Londrina",
+    "it": "Londrina",
+    "pt": "Londrina",
+    "ar": "لوندرينا"
+   }
+  },
+  {
+   "id": "football-20260910-vila-nova-goias",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Série B",
+    "de": "Brasilianische Série B",
+    "es": "Brasileirão Serie B",
+    "fr": "Série B brésilienne",
+    "it": "Série B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Vila Nova",
+   "away": "Goias",
+   "kickoffUtc": "2026-09-10T22:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Vila Nova",
+    "en": "Vila Nova",
+    "de": "Vila Nova",
+    "es": "Vila Nova",
+    "fr": "Vila Nova",
+    "it": "Vila Nova",
+    "pt": "Vila Nova",
+    "ar": "فيلا نوفا"
+   },
+   "awayNames": {
+    "tr": "Goias",
+    "en": "Goiás",
+    "de": "Goiás",
+    "es": "Goiás",
+    "fr": "Goiás",
+    "it": "Goiás",
+    "pt": "Goiás",
+    "ar": "غوياس"
+   }
+  },
+  {
+   "id": "football-20260911-independiente-del-valle-flamengo",
+   "sport": "football",
+   "competitionId": "libertadores",
+   "tier": "regional",
+   "competition": {
+    "tr": "Copa Libertadores",
+    "en": "Copa Libertadores",
+    "de": "Copa Libertadores",
+    "es": "Copa Libertadores",
+    "fr": "Copa Libertadores",
+    "it": "Coppa Libertadores",
+    "pt": "Copa Libertadores",
+    "ar": "كوبا ليبرتادوريس"
+   },
+   "home": "Independiente del Valle",
+   "away": "Flamengo",
+   "kickoffUtc": "2026-09-11T00:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart"
+    ],
+    "BR": [
+     "Globo",
+     "Paramount+",
+     "SporTV"
+    ],
+    "AR": [
+     "Fox Sports",
+     "ESPN"
+    ],
+    "CL": [
+     "ESPN",
+     "Disney+",
+     "Chilevisión"
+    ],
+    "CO": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "PY": [
+     "ESPN",
+     "Disney+",
+     "Paramount+"
+    ],
+    "PE": [
+     "ESPN",
+     "Disney+"
+    ],
+    "EC": [
+     "ESPN",
+     "Disney+"
+    ],
+    "MX": [
+     "Disney+",
+     "ESPN"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Independiente del Valle",
+    "en": "Independiente del Valle",
+    "de": "Independiente del Valle",
+    "es": "Independiente del Valle",
+    "fr": "Independiente del Valle",
+    "it": "Independiente del Valle",
+    "pt": "Independiente del Valle",
+    "ar": "إندبندينتي ديل فايي"
+   },
+   "awayNames": {
+    "tr": "Flamengo",
+    "en": "Flamengo",
+    "de": "Flamengo",
+    "es": "Flamengo",
+    "fr": "Flamengo",
+    "it": "Flamengo",
+    "pt": "Flamengo",
+    "ar": "فلامنغو"
+   }
+  },
+  {
+   "id": "football-20260911-cienciano-montevideo-city-torque",
+   "sport": "football",
+   "competitionId": "sudamericana",
+   "tier": "regional",
+   "competition": {
+    "tr": "Copa Sudamericana",
+    "en": "Copa Sudamericana",
+    "de": "Copa Sudamericana",
+    "es": "Copa Sudamericana",
+    "fr": "Copa Sudamericana",
+    "it": "Coppa Sudamericana",
+    "pt": "Copa Sul-Americana",
+    "ar": "كوبا سودأمريكانا"
+   },
+   "home": "Cienciano",
+   "away": "Montevideo City Torque",
+   "kickoffUtc": "2026-09-11T00:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "ESPN",
+     "Disney+"
+    ],
+    "AR": [
+     "ESPN",
+     "DSports"
+    ],
+    "CO": [
+     "ESPN",
+     "Disney+"
+    ],
+    "CL": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+",
+     "DSports"
+    ],
+    "PY": [
+     "Tigo Sports"
+    ],
+    "PE": [
+     "ESPN",
+     "Disney+",
+     "DSports",
+     "DGO"
+    ],
+    "EC": [
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Cienciano",
+    "en": "Cienciano",
+    "de": "Cienciano",
+    "es": "Cienciano",
+    "fr": "Cienciano",
+    "it": "Cienciano",
+    "pt": "Cienciano",
+    "ar": "سيينسيانو"
+   },
+   "awayNames": {
+    "tr": "Montevideo City Torque",
+    "en": "Montevideo City Torque",
+    "de": "Montevideo City Torque",
+    "es": "Montevideo City Torque",
+    "fr": "Montevideo City Torque",
+    "it": "Montevideo City Torque",
+    "pt": "Montevideo City Torque",
+    "ar": "مونتيفيديو سيتي توركي"
+   }
+  },
+  {
+   "id": "football-20260911-sport-recife-ponte-preta",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brazilian Série B",
+    "de": "Brasilianische Série B",
+    "es": "Brasileirão Serie B",
+    "fr": "Série B brésilienne",
+    "it": "Série B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Sport Recife",
+   "away": "Ponte Preta",
+   "kickoffUtc": "2026-09-11T00:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "ESPN 4",
+     "XSports",
+     "SportyNet",
+     "YouTube",
+     "Disney+"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Sport Recife",
+    "en": "Sport Recife",
+    "de": "Sport Recife",
+    "es": "Sport Recife",
+    "fr": "Sport Recife",
+    "it": "Sport Recife",
+    "pt": "Sport Recife",
+    "ar": "سبورت ريسيفي"
+   },
+   "awayNames": {
+    "tr": "Ponte Preta",
+    "en": "Ponte Preta",
+    "de": "Ponte Preta",
+    "es": "Ponte Preta",
+    "fr": "Ponte Preta",
+    "it": "Ponte Preta",
+    "pt": "Ponte Preta",
+    "ar": "بونتي بريتا"
    }
   }
  ]
