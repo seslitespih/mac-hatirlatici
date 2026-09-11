@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-11T05:55:00.000Z",
+ "generated_at": "2026-09-11T11:17:00.000Z",
  "date": "2026-09-11",
- "model": "claude-opus-5 (elle calistirma; 01:07 gorevi TERMINATED oldu)",
+ "model": "claude-opus-4-8 (13:07 zenginlestirme)",
  "stats": {
-  "total": 58,
-  "withChannel": 58,
+  "total": 57,
+  "withChannel": 57,
   "bySport": {
    "basketball": 1,
-   "football": 41,
-   "motorsport": 8,
+   "football": 43,
+   "motorsport": 5,
    "volleyball": 8
   },
   "countries": 38,
@@ -16,89 +16,6 @@
   "searches": 0
  },
  "matches": [
-  {
-   "id": "motorsport-20260911-fia-formula-3-ispanya-gp-antrenman",
-   "sport": "motorsport",
-   "competitionId": "f3",
-   "tier": "global",
-   "competition": {
-    "tr": "FIA Formula 3",
-    "en": "FIA Formula 3",
-    "de": "FIA Formel 3",
-    "es": "FIA Fórmula 3",
-    "fr": "FIA Formule 3",
-    "it": "FIA Formula 3",
-    "pt": "FIA Fórmula 3",
-    "ar": "الفورمولا 3"
-   },
-   "home": "FIA Formula 3 Ispanya GP",
-   "away": "Antrenman",
-   "kickoffUtc": "2026-09-11T07:55:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 4"
-    ]
-   },
-   "sources": [],
-   "homeNames": {},
-   "awayNames": {}
-  },
-  {
-   "id": "motorsport-20260911-motogp-san-marino-gp-1-antrenman",
-   "sport": "motorsport",
-   "competitionId": "motogp",
-   "tier": "global",
-   "competition": {
-    "tr": "MotoGP",
-    "en": "MotoGP",
-    "de": "MotoGP",
-    "es": "MotoGP",
-    "fr": "MotoGP",
-    "it": "MotoGP",
-    "pt": "MotoGP",
-    "ar": "موتو جي بي"
-   },
-   "home": "MotoGP San Marino GP",
-   "away": "1. Antrenman",
-   "kickoffUtc": "2026-09-11T08:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "Motosiklet",
-     "S Sport",
-     "S Sport Plus"
-    ]
-   },
-   "sources": [],
-   "homeNames": {},
-   "awayNames": {}
-  },
-  {
-   "id": "motorsport-20260911-fia-formula-2-ispanya-gp-antrenman",
-   "sport": "motorsport",
-   "competitionId": "f2",
-   "tier": "global",
-   "competition": {
-    "tr": "FIA Formula 2",
-    "en": "FIA Formula 2",
-    "de": "FIA Formel 2",
-    "es": "FIA Fórmula 2",
-    "fr": "FIA Formule 2",
-    "it": "FIA Formula 2",
-    "pt": "FIA Fórmula 2",
-    "ar": "الفورمولا 2"
-   },
-   "home": "FIA Formula 2 Ispanya GP",
-   "away": "Antrenman",
-   "kickoffUtc": "2026-09-11T09:05:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 4"
-    ]
-   },
-   "sources": [],
-   "homeNames": {},
-   "awayNames": {}
-  },
   {
    "id": "motorsport-20260911-formula-1-madrid-gp-1-antrenman",
    "sport": "motorsport",
@@ -319,6 +236,7 @@
    "kickoffUtc": "2026-09-11T14:00:00Z",
    "broadcasts": {
     "TR": [
+     "tabii Spor 7",
      "CEV YouTube"
     ]
    },
@@ -676,11 +594,44 @@
      "ESPN 4",
      "Disney+"
     ],
+    "AE": [
+     "beIN Sports"
+    ],
     "DE": [
      "Digiturk Euro"
     ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
     "FR": [
      "beIN Sports Max 10"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
     ],
     "TR": [
      "beIN Sports 1"
@@ -818,6 +769,7 @@
    "kickoffUtc": "2026-09-11T17:00:00Z",
    "broadcasts": {
     "TR": [
+     "tabii Spor 7",
      "CEV YouTube"
     ]
    },
@@ -926,6 +878,9 @@
    "away": "Willem II",
    "kickoffUtc": "2026-09-11T18:00:00Z",
    "broadcasts": {
+    "AE": [
+     "Dubai Sports 1"
+    ],
     "BR": [
      "Disney+"
     ],
@@ -1829,8 +1784,41 @@
      "Sky Sport Premier League",
      "WOW"
     ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
     "FR": [
      "beIN Sports Max 9"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
     ],
     "GB": [
      "Sky Sports Main Event",
@@ -1933,6 +1921,33 @@
    "awayNames": {}
   },
   {
+   "id": "football-20260911-sportivo-ameliano-san-lorenzo",
+   "sport": "football",
+   "competitionId": "par_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Paraguay Primera División",
+    "en": "Paraguayan Primera División",
+    "de": "Paraguayische Primera División",
+    "es": "Primera División de Paraguay",
+    "fr": "Primera División paraguayenne",
+    "it": "Primera División paraguaiana",
+    "pt": "Primeira Divisão Paraguaia",
+    "ar": "الدوري الباراغوياني"
+   },
+   "home": "Sportivo Ameliano",
+   "away": "San Lorenzo",
+   "kickoffUtc": "2026-09-11T20:00:00Z",
+   "broadcasts": {
+    "PY": [
+     "Tigo Sports"
+    ]
+   },
+   "sources": [],
+   "homeNames": {},
+   "awayNames": {}
+  },
+  {
    "id": "football-20260911-defensa-y-justicia-gimnasia-y-esgrima-mendoza",
    "sport": "football",
    "competitionId": "arg_primera",
@@ -1958,6 +1973,33 @@
     "UY": [
      "Fanatiz",
      "TyC Sports"
+    ]
+   },
+   "sources": [],
+   "homeNames": {},
+   "awayNames": {}
+  },
+  {
+   "id": "football-20260911-2-de-mayo-club-libertad",
+   "sport": "football",
+   "competitionId": "par_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Paraguay Primera División",
+    "en": "Paraguayan Primera División",
+    "de": "Paraguayische Primera División",
+    "es": "Primera División de Paraguay",
+    "fr": "Primera División paraguayenne",
+    "it": "Primera División paraguaiana",
+    "pt": "Primeira Divisão Paraguaia",
+    "ar": "الدوري الباراغوياني"
+   },
+   "home": "2 de Mayo",
+   "away": "Club Libertad",
+   "kickoffUtc": "2026-09-11T22:30:00Z",
+   "broadcasts": {
+    "PY": [
+     "Tigo Sports"
     ]
    },
    "sources": [],
