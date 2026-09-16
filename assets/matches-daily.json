@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-15T22:15:00.000Z",
+ "generated_at": "2026-09-16T10:10:00.000Z",
  "date": "2026-09-16",
- "model": "claude-opus-4-8 (01:07 gece calismasi, gunu 9 zamaninda kaynakla sifirdan kurdu)",
+ "model": "claude-opus-4-8 (13:07 oglen calismasi, gec donen kaynaklarla zenginlestirdi)",
  "stats": {
-  "total": 34,
-  "withChannel": 34,
+  "total": 35,
+  "withChannel": 35,
   "bySport": {
-   "football": 26,
+   "football": 27,
    "volleyball": 8
   },
   "countries": 35,
   "warnings": 0,
-  "searches": 0
+  "searches": 1
  },
  "matches": [
   {
@@ -390,7 +390,7 @@
    "kickoffUtc": "2026-09-16T16:45:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor"
+     "tabii Spor 1"
     ],
     "GB": [
      "TNT Sports 3",
@@ -825,7 +825,7 @@
    "kickoffUtc": "2026-09-16T17:00:00Z",
    "broadcasts": {
     "TR": [
-     "CEV YouTube"
+     "TRT Spor Yıldız"
     ]
    },
    "sources": [],
@@ -1065,7 +1065,7 @@
    "kickoffUtc": "2026-09-16T19:00:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor"
+     "tabii Spor 2"
     ],
     "GB": [
      "TNT Sports 4",
@@ -1151,7 +1151,7 @@
    "kickoffUtc": "2026-09-16T19:00:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor"
+     "tabii Spor 1"
     ],
     "GB": [
      "TNT Sports 3",
@@ -1631,7 +1631,7 @@
    "kickoffUtc": "2026-09-16T19:00:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor"
+     "tabii Spor 5"
     ],
     "GB": [
      "TNT Sports 8",
@@ -1725,7 +1725,7 @@
    "kickoffUtc": "2026-09-16T19:00:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor"
+     "tabii Spor 4"
     ],
     "GB": [
      "HBO Max"
@@ -1807,7 +1807,7 @@
    "kickoffUtc": "2026-09-16T19:00:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor"
+     "tabii Spor 3"
     ],
     "GB": [
      "TNT Sports 1",
@@ -2277,6 +2277,10 @@
      "beIN Sports en Español",
      "Fubo",
      "Fanatiz"
+    ],
+    "MX": [
+     "Disney+",
+     "ESPN"
     ]
    },
    "sources": [],
@@ -2291,6 +2295,46 @@
     "ar": "ليغا دي كيتو"
    },
    "awayNames": {}
+  },
+  {
+   "id": "football-20260916-botafogo-gremio",
+   "sport": "football",
+   "competitionId": "brasileirao",
+   "tier": "global",
+   "competition": {
+    "tr": "Brezilya Serie A",
+    "en": "Brazilian Serie A",
+    "de": "Brasilianische Serie A",
+    "es": "Brasileirao Serie A",
+    "fr": "Championnat du Brésil Serie A",
+    "it": "Serie A brasiliana",
+    "pt": "Brasileirão Série A",
+    "ar": "الدوري البرازيلي"
+   },
+   "home": "Botafogo",
+   "away": "Gremio",
+   "kickoffUtc": "2026-09-16T22:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart 2",
+     "Smart Spor 2"
+    ],
+    "BR": [
+     "Premiere"
+    ]
+   },
+   "sources": [],
+   "homeNames": {},
+   "awayNames": {
+    "tr": "Grêmio",
+    "en": "Grêmio",
+    "de": "Grêmio",
+    "es": "Gremio",
+    "fr": "Grêmio",
+    "it": "Grêmio",
+    "pt": "Grêmio",
+    "ar": "جريميو"
+   }
   },
   {
    "id": "football-20260916-columbus-crew-orlando-city",
@@ -2325,29 +2369,41 @@
    "awayNames": {}
   },
   {
-   "id": "football-20260916-sao-paulo-boca-juniors",
+   "id": "football-20260917-corinthians-estudiantes",
    "sport": "football",
-   "competitionId": "sudamericana",
-   "tier": "regional",
+   "competitionId": "libertadores",
+   "tier": "global",
    "competition": {
-    "tr": "Copa Sudamericana",
-    "en": "Copa Sudamericana",
-    "de": "Copa Sudamericana",
-    "es": "Copa Sudamericana",
-    "fr": "Copa Sudamericana",
-    "it": "Copa Sudamericana",
-    "pt": "Copa Sul-Americana",
-    "ar": "كوبا سود أمريكانا"
+    "tr": "Copa Libertadores",
+    "en": "Copa Libertadores",
+    "de": "Copa Libertadores",
+    "es": "Copa Libertadores",
+    "fr": "Copa Libertadores",
+    "it": "Copa Libertadores",
+    "pt": "Copa Libertadores",
+    "ar": "كوبا ليبرتادوريس"
    },
-   "home": "Sao Paulo",
-   "away": "Boca Juniors",
+   "home": "Corinthians",
+   "away": "Estudiantes",
    "kickoffUtc": "2026-09-17T00:30:00Z",
    "broadcasts": {
-    "CO": [
+    "TR": [
+     "Spor Smart"
+    ],
+    "BR": [
+     "Globo",
+     "Paramount+",
+     "GE TV"
+    ],
+    "AR": [
+     "Fox Sports",
+     "ESPN"
+    ],
+    "CL": [
      "ESPN",
      "Disney+"
     ],
-    "CL": [
+    "CO": [
      "ESPN",
      "Disney+"
     ],
@@ -2367,42 +2423,38 @@
      "ESPN",
      "Disney+"
     ],
-    "BR": [
-     "ESPN",
-     "Disney+"
-    ],
-    "AR": [
-     "ESPN",
-     "DSports"
-    ],
-    "PT": [
-     "Sport TV",
-     "Fanatiz"
+    "MX": [
+     "Disney+",
+     "ESPN"
     ],
     "US": [
-     "beIN Sports",
-     "beIN Sports en Español",
      "beIN Sports Connect",
+     "beIN Sports en Español",
      "Fubo",
      "Fanatiz"
-    ],
-    "ES": [
-     "M+ Vamos",
-     "M+ Liga de Campeones"
     ]
    },
    "sources": [],
    "homeNames": {
-    "tr": "São Paulo",
-    "en": "São Paulo",
-    "de": "São Paulo",
-    "es": "São Paulo",
-    "fr": "São Paulo",
-    "it": "San Paolo",
-    "pt": "São Paulo",
-    "ar": "ساو باولو"
+    "tr": "Corinthians",
+    "en": "Corinthians",
+    "de": "Corinthians",
+    "es": "Corinthians",
+    "fr": "Corinthians",
+    "it": "Corinthians",
+    "pt": "Corinthians",
+    "ar": "كورينثيانس"
    },
-   "awayNames": {}
+   "awayNames": {
+    "tr": "Estudiantes",
+    "en": "Estudiantes",
+    "de": "Estudiantes",
+    "es": "Estudiantes de La Plata",
+    "fr": "Estudiantes",
+    "it": "Estudiantes",
+    "pt": "Estudiantes",
+    "ar": "إستوديانتيس"
+   }
   }
  ]
 }
