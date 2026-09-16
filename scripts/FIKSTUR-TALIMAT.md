@@ -123,9 +123,8 @@ Gece üretim yapılamazsa (dizüstü fişsiz, pil bitmiş) sabah bu dosya hazır
 
 **Girer:** büyük Avrupa ligleri ve kupaları · UEFA turnuvaları · Türkiye Süper Lig / 1. Lig / Türkiye Kupası ·
 Brasileirão A ve B · Copa do Brasil · Libertadores · Sudamericana · Arjantin Primera División ·
-Suudi Pro Lig · MLS · Liga MX · **Azerbaycan Premier Ligi** · A milli takım maçları · voleybol ve basketbolda büyük turnuvalar · **Akdeniz Oyunları (3x3 basketbol dahil)** · **FIFA/UEFA/CONMEBOL milli takım turnuvaları — yaş grubu ve kadın dahil**
-(U17/U20 Dünya Kupası, Kadınlar Dünya Kupası, Avrupa Şampiyonası). Bunlar küresel turnuvadır,
-dünya çapında yayınlanır (ör. FIFA U20 Kadınlar Dünya Kupası — DAZN).
+Suudi Pro Lig · MLS · Liga MX · **Azerbaycan Premier Ligi** · A milli takım maçları · voleybol ve basketbolda büyük turnuvalar (**kadın turnuvaları dahil**) · **Akdeniz Oyunları (3x3 basketbol dahil)** · **ERKEK** FIFA/UEFA/CONMEBOL yaş grubu milli takım
+turnuvaları (U17/U20 Dünya Kupası).
 
 ⚠️ **Bir önceki çalışmanın koyduğu maçı, kapsam dışı sandığın için ÇIKARMA.** 31 Ağu'da otomatik çalışma bir önceki çalışmanın eklediği Azerbaycan Premier Ligi maçını düşürdü. Dosyada duran bir maç, kaynakta hâlâ görünüyorsa ve bitmemişse KALIR.
 
@@ -133,10 +132,16 @@ dünya çapında yayınlanır (ör. FIFA U20 Kadınlar Dünya Kupası — DAZN).
 altyapı **ligleri** (Torneo Proyección, U21 ligleri, Primera B/C) · kadın **kulüp** ligleri ·
 ülke listesinde olmayan niş ligler (İzlanda, Letonya vb.).
 
-⚠️ **“Altyapı” elemesi KULÜP ligleri içindir, milli takım turnuvaları için DEĞİL.**
-10 Eyl 2026'da otomatik çalışma, GB kaynağında DAZN'de listelenen 4 FIFA U20 Kadınlar Dünya
-Kupası maçını “U20 = altyapı” sanarak düşürdü. Bir FIFA/UEFA milli takım turnuvası,
-yaş grubu veya kadın olsa da GİRER.
+🛑 **KADIN FUTBOLU HİÇBİR ŞEKİLDE GİRMEZ — kulüp de olsa MİLLİ TAKIM da olsa.**
+FIFA Kadınlar Dünya Kupası, U20 Kadınlar Dünya Kupası, Frauen-Bundesliga, NWSL, WSL,
+Liga MX Femenil — hepsi elenir. Bu kural **kullanıcının açık talimatıdır**.
+⚠️ Yalnız FUTBOL için geçerli: **kadın basketbol ve voleybol turnuvaları GİRER**
+(FIBA Kadınlar Dünya Kupası gibi).
+
+Push'tan önce **mutlaka** `node scripts/filtre.mjs` çalıştır — kaçanı o temizler.
+16 Eyl 2026'da gece çalışması 4 U20 Kadınlar Dünya Kupası maçını dosyaya koydu çünkü
+bu talimatta (10 Eyl'de yazılmış) “yaş grubu ve kadın milli takım turnuvaları girer”
+diyen eski bir kural duruyordu; o kural kaldırıldı.
 
 ⚠️ **Gece yarısını aşan maçlar.** Arjantin/Brezilya maçları UTC'de ertesi güne taşabilir
 (ör. 21:15 ART = ertesi gün 00:15 UTC). Bunlar YİNE BUGÜNÜN dosyasına girer — `date` alanı değişmez.
