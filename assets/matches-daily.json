@@ -1,55 +1,914 @@
 {
- "generated_at": "2026-09-16T22:20:00.000Z",
- "date": "2026-09-17",
+ "generated_at": "2026-09-17T22:10:00.000Z",
+ "date": "2026-09-18",
  "model": "claude-opus-4-8 (01:07 gece calismasi, gunu zamaninda ceviren 9 kaynakla sifirdan kuruldu)",
  "stats": {
-  "total": 20,
-  "withChannel": 20,
+  "total": 18,
+  "withChannel": 18,
   "bySport": {
-   "football": 16,
-   "volleyball": 4
+   "football": 18
   },
-  "countries": 35,
+  "countries": 39,
   "warnings": 0,
   "searches": 0
  },
  "matches": [
   {
-   "id": "football-20260917-corinthians-estudiantes",
+   "id": "football-20260918-bandirmaspor-umraniyespor",
    "sport": "football",
-   "competitionId": "libertadores",
-   "tier": "global",
+   "competitionId": "tff1",
+   "tier": "regional",
    "competition": {
-    "tr": "Copa Libertadores",
-    "en": "Copa Libertadores",
-    "de": "Copa Libertadores",
-    "es": "Copa Libertadores",
-    "fr": "Copa Libertadores",
-    "it": "Copa Libertadores",
-    "pt": "Copa Libertadores",
-    "ar": "كوبا ليبرتادوريس"
+    "tr": "Trendyol 1. Lig",
+    "en": "Turkish First League",
+    "de": "Türkische 1. Liga",
+    "es": "Primera División de Turquía",
+    "fr": "Première Ligue turque",
+    "it": "Serie B turca",
+    "pt": "Segunda Liga Turca",
+    "ar": "الدوري التركي الدرجة الأولى"
    },
-   "home": "Corinthians",
-   "away": "Estudiantes",
-   "kickoffUtc": "2026-09-17T00:30:00Z",
+   "home": "Bandirmaspor",
+   "away": "Umraniyespor",
+   "kickoffUtc": "2026-09-18T13:00:00Z",
    "broadcasts": {
     "TR": [
-     "Spor Smart"
+     "TRT Spor",
+     "beIN Sports 2"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Bandırmaspor",
+    "en": "Bandırmaspor",
+    "de": "Bandırmaspor",
+    "es": "Bandırmaspor",
+    "fr": "Bandırmaspor",
+    "it": "Bandırmaspor",
+    "pt": "Bandırmaspor",
+    "ar": "بانديرماسبور"
+   },
+   "awayNames": {
+    "tr": "Ümraniyespor",
+    "en": "Ümraniyespor",
+    "de": "Ümraniyespor",
+    "es": "Ümraniyespor",
+    "fr": "Ümraniyespor",
+    "it": "Ümraniyespor",
+    "pt": "Ümraniyespor",
+    "ar": "أومرانيه سبور"
+   }
+  },
+  {
+   "id": "football-20260918-qabala-neftci-baku",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Qabala",
+   "away": "Neftci Baku",
+   "kickoffUtc": "2026-09-18T13:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "CBC Sport"
+    ]
+   },
+   "sources": [],
+   "homeNames": {},
+   "awayNames": {
+    "tr": "Neftçi Bakü",
+    "en": "Neftçi Baku",
+    "de": "Neftçi Baku",
+    "es": "Neftçi Bakú",
+    "fr": "Neftçi Bakou",
+    "it": "Neftçi Baku",
+    "pt": "Neftçi Baku",
+    "ar": "نفتشي باكو"
+   }
+  },
+  {
+   "id": "football-20260918-karabag-safa-baku",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Karabag",
+   "away": "Safa Baku",
+   "kickoffUtc": "2026-09-18T15:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Qarabağ",
+    "en": "Qarabağ",
+    "de": "Qarabağ",
+    "es": "Qarabağ",
+    "fr": "Qarabağ",
+    "it": "Qarabağ",
+    "pt": "Qarabağ",
+    "ar": "قره باغ"
+   },
+   "awayNames": {
+    "tr": "Safa Bakü",
+    "en": "Safa Baku",
+    "de": "Safa Baku",
+    "es": "Safa Bakú",
+    "fr": "Safa Bakou",
+    "it": "Safa Baku",
+    "pt": "Safa Baku",
+    "ar": "صفا باكو"
+   }
+  },
+  {
+   "id": "football-20260918-wolfsburg-darmstadt",
+   "sport": "football",
+   "competitionId": "bundesliga_2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Almanya 2. Bundesliga",
+    "en": "2. Bundesliga",
+    "de": "2. Bundesliga",
+    "es": "2. Bundesliga",
+    "fr": "2. Bundesliga",
+    "it": "2. Bundesliga",
+    "pt": "2. Bundesliga",
+    "ar": "الدوري الألماني الدرجة الثانية"
+   },
+   "home": "Wolfsburg",
+   "away": "Darmstadt",
+   "kickoffUtc": "2026-09-18T16:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "PT": [
+     "DAZN 1"
+    ],
+    "GB": [
+     "Bundesliga YouTube"
+    ]
+   },
+   "sources": [],
+   "homeNames": {},
+   "awayNames": {}
+  },
+  {
+   "id": "football-20260918-verl-wurzburger-kickers",
+   "sport": "football",
+   "competitionId": "3_liga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Almanya 3. Lig",
+    "en": "3. Liga",
+    "de": "3. Liga",
+    "es": "3. Liga (Alemania)",
+    "fr": "3. Liga (Allemagne)",
+    "it": "3. Liga (Germania)",
+    "pt": "3. Liga (Alemanha)",
+    "ar": "الدوري الألماني الدرجة الثالثة"
+   },
+   "home": "Verl",
+   "away": "Wurzburger Kickers",
+   "kickoffUtc": "2026-09-18T17:00:00Z",
+   "broadcasts": {
+    "US": [
+     "ESPN+"
+    ],
+    "GB": [
+     "DFB Play"
+    ],
+    "PT": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "SC Verl",
+    "en": "SC Verl",
+    "de": "SC Verl",
+    "es": "SC Verl",
+    "fr": "SC Verl",
+    "it": "SC Verl",
+    "pt": "SC Verl",
+    "ar": "إس سي فيرل"
+   },
+   "awayNames": {
+    "tr": "Würzburger Kickers",
+    "en": "Würzburger Kickers",
+    "de": "Würzburger Kickers",
+    "es": "Würzburger Kickers",
+    "fr": "Würzburger Kickers",
+    "it": "Würzburger Kickers",
+    "pt": "Würzburger Kickers",
+    "ar": "فورتسبورغر كيكرز"
+   }
+  },
+  {
+   "id": "football-20260918-kasimpasa-konyaspor",
+   "sport": "football",
+   "competitionId": "superlig",
+   "tier": "global",
+   "competition": {
+    "tr": "Trendyol Süper Lig",
+    "en": "Süper Lig",
+    "de": "Süper Lig",
+    "es": "Superliga de Turquía",
+    "fr": "Süper Lig",
+    "it": "Süper Lig",
+    "pt": "Liga Turca",
+    "ar": "الدوري التركي الممتاز"
+   },
+   "home": "Kasimpasa",
+   "away": "Konyaspor",
+   "kickoffUtc": "2026-09-18T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 1"
+    ],
+    "DE": [
+     "Digiturk Euro"
+    ],
+    "FR": [
+     "beIN Sports",
+     "beIN Sports Connect"
+    ],
+    "US": [
+     "beIN Sports Connect",
+     "Fubo",
+     "Fanatiz"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Kasımpaşa",
+    "en": "Kasımpaşa",
+    "de": "Kasımpaşa",
+    "es": "Kasımpaşa",
+    "fr": "Kasımpaşa",
+    "it": "Kasımpaşa",
+    "pt": "Kasımpaşa",
+    "ar": "قاسم باشا"
+   },
+   "awayNames": {}
+  },
+  {
+   "id": "football-20260918-muglaspor-igdirspor",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "Turkish First League",
+    "de": "Türkische 1. Liga",
+    "es": "Primera División de Turquía",
+    "fr": "Première Ligue turque",
+    "it": "Serie B turca",
+    "pt": "Segunda Liga Turca",
+    "ar": "الدوري التركي الدرجة الأولى"
+   },
+   "home": "Muglaspor",
+   "away": "Igdirspor",
+   "kickoffUtc": "2026-09-18T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor",
+     "beIN Sports 2"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Muğlaspor",
+    "en": "Muğlaspor",
+    "de": "Muğlaspor",
+    "es": "Muğlaspor",
+    "fr": "Muğlaspor",
+    "it": "Muğlaspor",
+    "pt": "Muğlaspor",
+    "ar": "موغلاسبور"
+   },
+   "awayNames": {
+    "tr": "Iğdırspor",
+    "en": "Iğdırspor",
+    "de": "Iğdırspor",
+    "es": "Iğdırspor",
+    "fr": "Iğdırspor",
+    "it": "Iğdırspor",
+    "pt": "Iğdırspor",
+    "ar": "إيغديرسبور"
+   }
+  },
+  {
+   "id": "football-20260918-reims-montpellier",
+   "sport": "football",
+   "competitionId": "ligue2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Fransa Ligue 2",
+    "en": "Ligue 2",
+    "de": "Ligue 2",
+    "es": "Ligue 2",
+    "fr": "Ligue 2",
+    "it": "Ligue 2",
+    "pt": "Ligue 2",
+    "ar": "الدوري الفرنسي الدرجة الثانية"
+   },
+   "home": "Reims",
+   "away": "Montpellier",
+   "kickoffUtc": "2026-09-18T18:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports Max 1"
+    ],
+    "FR": [
+     "beIN Sports Max 4"
+    ],
+    "US": [
+     "beIN Sports Connect",
+     "Fubo",
+     "Fanatiz"
+    ]
+   },
+   "sources": [],
+   "homeNames": {},
+   "awayNames": {}
+  },
+  {
+   "id": "football-20260918-bayern-munich-union-berlin",
+   "sport": "football",
+   "competitionId": "bundesliga",
+   "tier": "global",
+   "competition": {
+    "tr": "Almanya Bundesliga",
+    "en": "Bundesliga",
+    "de": "Bundesliga",
+    "es": "Bundesliga",
+    "fr": "Bundesliga",
+    "it": "Bundesliga",
+    "pt": "Bundesliga",
+    "ar": "الدوري الألماني"
+   },
+   "home": "Bayern Munich",
+   "away": "Union Berlin",
+   "kickoffUtc": "2026-09-18T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport",
+     "S Sport Plus"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "GB": [
+     "BBC iPlayer"
+    ],
+    "US": [
+     "Telemundo",
+     "Peacock",
+     "Fubo"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
+    ]
+   },
+   "sources": [],
+   "homeNames": {
+    "tr": "Bayern Münih",
+    "en": "Bayern Munich",
+    "de": "Bayern München",
+    "es": "Bayern Múnich",
+    "fr": "Bayern Munich",
+    "it": "Bayern Monaco",
+    "pt": "Bayern de Munique",
+    "ar": "بايرن ميونخ"
+   },
+   "awayNames": {
+    "tr": "Union Berlin",
+    "en": "Union Berlin",
+    "de": "Union Berlin",
+    "es": "Unión Berlín",
+    "fr": "Union Berlin",
+    "it": "Union Berlino",
+    "pt": "Union Berlim",
+    "ar": "يونيون برلين"
+   }
+  },
+  {
+   "id": "football-20260918-albacete-cordoba",
+   "sport": "football",
+   "competitionId": "laliga2",
+   "tier": "regional",
+   "competition": {
+    "tr": "İspanya LaLiga Hypermotion",
+    "en": "LaLiga Hypermotion",
+    "de": "LaLiga Hypermotion",
+    "es": "LaLiga Hypermotion",
+    "fr": "LaLiga Hypermotion",
+    "it": "LaLiga Hypermotion",
+    "pt": "LaLiga Hypermotion",
+    "ar": "دوري الدرجة الثانية الإسباني"
+   },
+   "home": "Albacete",
+   "away": "Cordoba",
+   "kickoffUtc": "2026-09-18T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ],
+    "ES": [
+     "LaLiga TV Hypermotion",
+     "DAZN"
+    ]
+   },
+   "sources": [],
+   "homeNames": {},
+   "awayNames": {
+    "tr": "Córdoba",
+    "en": "Córdoba",
+    "de": "Córdoba",
+    "es": "Córdoba",
+    "fr": "Córdoba",
+    "it": "Córdoba",
+    "pt": "Córdoba",
+    "ar": "قرطبة"
+   }
+  },
+  {
+   "id": "football-20260918-juve-stabia-cesena",
+   "sport": "football",
+   "competitionId": "seriebit",
+   "tier": "regional",
+   "competition": {
+    "tr": "İtalya Serie B",
+    "en": "Serie B",
+    "de": "Serie B (Italien)",
+    "es": "Serie B (Italia)",
+    "fr": "Serie B (Italie)",
+    "it": "Serie B",
+    "pt": "Serie B (Itália)",
+    "ar": "الدوري الإيطالي الدرجة الثانية"
+   },
+   "home": "Juve Stabia",
+   "away": "Cesena",
+   "kickoffUtc": "2026-09-18T18:30:00Z",
+   "broadcasts": {
+    "IT": [
+     "DAZN"
+    ],
+    "PT": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": [],
+   "homeNames": {},
+   "awayNames": {}
+  },
+  {
+   "id": "football-20260918-monza-sassuolo",
+   "sport": "football",
+   "competitionId": "seriea",
+   "tier": "global",
+   "competition": {
+    "tr": "İtalya Serie A",
+    "en": "Serie A",
+    "de": "Serie A",
+    "es": "Serie A",
+    "fr": "Serie A",
+    "it": "Serie A",
+    "pt": "Serie A",
+    "ar": "الدوري الإيطالي"
+   },
+   "home": "Monza",
+   "away": "Sassuolo",
+   "kickoffUtc": "2026-09-18T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport 2",
+     "S Sport Plus"
+    ],
+    "IT": [
+     "DAZN",
+     "Sky Sport"
+    ],
+    "GB": [
+     "DAZN"
+    ],
+    "FR": [
+     "DAZN"
+    ],
+    "PT": [
+     "Sport TV 2"
+    ],
+    "US": [
+     "Paramount+",
+     "Universo"
+    ],
+    "CA": [
+     "Fubo"
     ],
     "BR": [
-     "Globo",
-     "Paramount+",
-     "GE TV"
+     "ESPN",
+     "Disney+"
     ],
     "AR": [
-     "Fox Sports",
-     "ESPN"
+     "ESPN",
+     "Disney+"
+    ],
+    "MX": [
+     "ESPN",
+     "Disney+"
+    ],
+    "CO": [
+     "ESPN",
+     "Disney+"
     ],
     "CL": [
      "ESPN",
      "Disney+"
     ],
+    "UY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "PY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "GT": [
+     "ESPN",
+     "Disney+"
+    ],
+    "PE": [
+     "ESPN",
+     "Disney+"
+    ],
+    "EC": [
+     "ESPN",
+     "Disney+"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
+    ]
+   },
+   "sources": [],
+   "homeNames": {},
+   "awayNames": {}
+  },
+  {
+   "id": "football-20260918-monaco-lens",
+   "sport": "football",
+   "competitionId": "ligue1",
+   "tier": "global",
+   "competition": {
+    "tr": "Fransa Ligue 1",
+    "en": "Ligue 1",
+    "de": "Ligue 1",
+    "es": "Ligue 1",
+    "fr": "Ligue 1",
+    "it": "Ligue 1",
+    "pt": "Ligue 1",
+    "ar": "الدوري الفرنسي"
+   },
+   "home": "Monaco",
+   "away": "Lens",
+   "kickoffUtc": "2026-09-18T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 4"
+    ],
+    "FR": [
+     "Ligue 1+"
+    ],
+    "US": [
+     "beIN Sports",
+     "Fubo",
+     "Fanatiz"
+    ],
+    "CA": [
+     "Fubo"
+    ],
+    "PT": [
+     "Sport TV 1",
+     "Fanatiz"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
+    ]
+   },
+   "sources": [],
+   "homeNames": {},
+   "awayNames": {}
+  },
+  {
+   "id": "football-20260918-espanyol-elche",
+   "sport": "football",
+   "competitionId": "laliga",
+   "tier": "global",
+   "competition": {
+    "tr": "İspanya LaLiga",
+    "en": "LaLiga",
+    "de": "LaLiga",
+    "es": "LaLiga",
+    "fr": "LaLiga",
+    "it": "LaLiga",
+    "pt": "LaLiga",
+    "ar": "الدوري الإسباني"
+   },
+   "home": "Espanyol",
+   "away": "Elche",
+   "kickoffUtc": "2026-09-18T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport",
+     "S Sport Plus"
+    ],
+    "ES": [
+     "DAZN LaLiga",
+     "DAZN",
+     "LaLiga TV Bar"
+    ],
+    "GB": [
+     "Premier Sports 1"
+    ],
+    "US": [
+     "ESPN+",
+     "ESPN Deportes",
+     "Fubo"
+    ],
+    "FR": [
+     "DAZN",
+     "Disney+"
+    ],
+    "CA": [
+     "TSN+"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "IT": [
+     "DAZN"
+    ],
+    "PT": [
+     "DAZN"
+    ],
+    "BR": [
+     "CazéTV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "NG": [
+     "SuperSport"
+    ],
+    "ZA": [
+     "SuperSport"
+    ],
+    "GH": [
+     "SuperSport"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ]
+   },
+   "sources": [],
+   "homeNames": {},
+   "awayNames": {}
+  },
+  {
+   "id": "football-20260918-brentford-chelsea",
+   "sport": "football",
+   "competitionId": "premier",
+   "tier": "global",
+   "competition": {
+    "tr": "İngiltere Premier Lig",
+    "en": "Premier League",
+    "de": "Premier League",
+    "es": "Premier League",
+    "fr": "Premier League",
+    "it": "Premier League",
+    "pt": "Premier League",
+    "ar": "الدوري الإنجليزي الممتاز"
+   },
+   "home": "Brentford",
+   "away": "Chelsea",
+   "kickoffUtc": "2026-09-18T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 3",
+     "Idman TV"
+    ],
+    "GB": [
+     "Sky Sports Main Event",
+     "Sky Sports Premier League",
+     "Sky Sports Ultra HDR"
+    ],
+    "US": [
+     "USA Network"
+    ],
+    "CA": [
+     "Fubo"
+    ],
+    "DE": [
+     "Sky Sport"
+    ],
+    "FR": [
+     "CANAL+ FOOT"
+    ],
+    "IT": [
+     "Sky Sport 1"
+    ],
+    "PT": [
+     "DAZN 1"
+    ],
+    "BR": [
+     "Disney+",
+     "ESPN"
+    ],
     "CO": [
+     "ESPN",
+     "Disney+"
+    ],
+    "CL": [
      "ESPN",
      "Disney+"
     ],
@@ -69,488 +928,18 @@
      "ESPN",
      "Disney+"
     ],
-    "MX": [
-     "Disney+",
-     "ESPN"
+    "GT": [
+     "FOX Sports",
+     "TNT Sports"
     ],
-    "US": [
-     "beIN Sports Connect",
-     "beIN Sports en Español",
-     "Fubo",
-     "Fanatiz"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Corinthians",
-    "en": "Corinthians",
-    "de": "Corinthians",
-    "es": "Corinthians",
-    "fr": "Corinthians",
-    "it": "Corinthians",
-    "pt": "Corinthians",
-    "ar": "كورينثيانس"
-   },
-   "awayNames": {
-    "tr": "Estudiantes",
-    "en": "Estudiantes",
-    "de": "Estudiantes",
-    "es": "Estudiantes de La Plata",
-    "fr": "Estudiantes",
-    "it": "Estudiantes",
-    "pt": "Estudiantes",
-    "ar": "إستوديانتيس"
-   }
-  },
-  {
-   "id": "football-20260917-yeni-amasyaspor-cankirigucu",
-   "sport": "football",
-   "competitionId": "turkiye_kupasi",
-   "tier": "regional",
-   "competition": {
-    "tr": "Ziraat Türkiye Kupası",
-    "en": "Turkish Cup",
-    "de": "Türkischer Pokal",
-    "es": "Copa de Turquía",
-    "fr": "Coupe de Turquie",
-    "it": "Coppa di Turchia",
-    "pt": "Taça da Turquia",
-    "ar": "كأس تركيا"
-   },
-   "home": "Yeni Amasyaspor",
-   "away": "Cankirigucu",
-   "kickoffUtc": "2026-09-17T11:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "A Spor"
-    ]
-   },
-   "sources": [],
-   "homeNames": {},
-   "awayNames": {
-    "tr": "Çankırıgücü",
-    "en": "Çankırıgücü",
-    "de": "Çankırıgücü",
-    "es": "Çankırıgücü",
-    "fr": "Çankırıgücü",
-    "it": "Çankırıgücü",
-    "pt": "Çankırıgücü",
-    "ar": "تشانكري غوجو"
-   }
-  },
-  {
-   "id": "volleyball-20260917-serbia-belgium",
-   "sport": "volleyball",
-   "competitionId": "cev_euro",
-   "tier": "global",
-   "competition": {
-    "tr": "CEV Avrupa Şampiyonası (Erkekler)",
-    "en": "CEV European Championship (Men)",
-    "de": "CEV Europameisterschaft (Männer)",
-    "es": "Campeonato de Europa CEV (masculino)",
-    "fr": "Championnat d’Europe CEV (hommes)",
-    "it": "Campionato Europeo CEV (maschile)",
-    "pt": "Campeonato Europeu CEV (masculino)",
-    "ar": "بطولة أوروبا للكرة الطائرة (رجال)"
-   },
-   "home": "Serbia",
-   "away": "Belgium",
-   "kickoffUtc": "2026-09-17T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Sırbistan",
-    "en": "Serbia",
-    "de": "Serbien",
-    "es": "Serbia",
-    "fr": "Serbie",
-    "it": "Serbia",
-    "pt": "Sérvia",
-    "ar": "صربيا"
-   },
-   "awayNames": {
-    "tr": "Belçika",
-    "en": "Belgium",
-    "de": "Belgien",
-    "es": "Bélgica",
-    "fr": "Belgique",
-    "it": "Belgio",
-    "pt": "Bélgica",
-    "ar": "بلجيكا"
-   }
-  },
-  {
-   "id": "volleyball-20260917-slovakia-greece",
-   "sport": "volleyball",
-   "competitionId": "cev_euro",
-   "tier": "global",
-   "competition": {
-    "tr": "CEV Avrupa Şampiyonası (Erkekler)",
-    "en": "CEV European Championship (Men)",
-    "de": "CEV Europameisterschaft (Männer)",
-    "es": "Campeonato de Europa CEV (masculino)",
-    "fr": "Championnat d’Europe CEV (hommes)",
-    "it": "Campionato Europeo CEV (maschile)",
-    "pt": "Campeonato Europeu CEV (masculino)",
-    "ar": "بطولة أوروبا للكرة الطائرة (رجال)"
-   },
-   "home": "Slovakia",
-   "away": "Greece",
-   "kickoffUtc": "2026-09-17T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Slovakya",
-    "en": "Slovakia",
-    "de": "Slowakei",
-    "es": "Eslovaquia",
-    "fr": "Slovaquie",
-    "it": "Slovacchia",
-    "pt": "Eslováquia",
-    "ar": "سلوفاكيا"
-   },
-   "awayNames": {
-    "tr": "Yunanistan",
-    "en": "Greece",
-    "de": "Griechenland",
-    "es": "Grecia",
-    "fr": "Grèce",
-    "it": "Grecia",
-    "pt": "Grécia",
-    "ar": "اليونان"
-   }
-  },
-  {
-   "id": "football-20260917-orduspor-torul-genclik",
-   "sport": "football",
-   "competitionId": "turkiye_kupasi",
-   "tier": "regional",
-   "competition": {
-    "tr": "Ziraat Türkiye Kupası",
-    "en": "Turkish Cup",
-    "de": "Türkischer Pokal",
-    "es": "Copa de Turquía",
-    "fr": "Coupe de Turquie",
-    "it": "Coppa di Turchia",
-    "pt": "Taça da Turquia",
-    "ar": "كأس تركيا"
-   },
-   "home": "Orduspor",
-   "away": "Torul Genclik",
-   "kickoffUtc": "2026-09-17T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "A Spor"
-    ]
-   },
-   "sources": [],
-   "homeNames": {},
-   "awayNames": {
-    "tr": "Torul Gençlik",
-    "en": "Torul Gençlik",
-    "de": "Torul Gençlik",
-    "es": "Torul Gençlik",
-    "fr": "Torul Gençlik",
-    "it": "Torul Gençlik",
-    "pt": "Torul Gençlik",
-    "ar": "تورول غينجليك"
-   }
-  },
-  {
-   "id": "football-20260917-levski-sofia-salzburg",
-   "sport": "football",
-   "competitionId": "europa",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Avrupa Ligi",
-    "en": "UEFA Europa League",
-    "de": "UEFA Europa League",
-    "es": "UEFA Europa League",
-    "fr": "UEFA Europa League",
-    "it": "UEFA Europa League",
-    "pt": "Liga Europa da UEFA",
-    "ar": "الدوري الأوروبي"
-   },
-   "home": "Levski Sofia",
-   "away": "Salzburg",
-   "kickoffUtc": "2026-09-17T16:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "CBC Sport",
-     "tabii Spor 1"
+    "AU": [
+     "Stan Sport"
     ],
-    "GB": [
-     "TNT Sports 6",
-     "HBO Max"
+    "JP": [
+     "U-NEXT"
     ],
-    "ES": [
-     "M+ Liga de Campeones 2"
-    ],
-    "FR": [
-     "CANAL+ LIVE 2"
-    ],
-    "IT": [
-     "Sky",
-     "Sky Sport 1"
-    ],
-    "US": [
-     "CBS Sports Network",
-     "Paramount+",
-     "TUDN",
-     "Fubo",
-     "ViX"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "PT": [
-     "DAZN 2"
-    ],
-    "DE": [
-     "RTL+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Levski Sofya",
-    "en": "Levski Sofia",
-    "de": "Levski Sofia",
-    "es": "Levski Sofia",
-    "fr": "Levski Sofia",
-    "it": "Levski Sofia",
-    "pt": "Levski Sofia",
-    "ar": "ليفسكي صوفيا"
-   },
-   "awayNames": {}
-  },
-  {
-   "id": "football-20260917-ofi-crete-hoffenheim",
-   "sport": "football",
-   "competitionId": "europa",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Avrupa Ligi",
-    "en": "UEFA Europa League",
-    "de": "UEFA Europa League",
-    "es": "UEFA Europa League",
-    "fr": "UEFA Europa League",
-    "it": "UEFA Europa League",
-    "pt": "Liga Europa da UEFA",
-    "ar": "الدوري الأوروبي"
-   },
-   "home": "OFI Crete",
-   "away": "Hoffenheim",
-   "kickoffUtc": "2026-09-17T16:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor"
-    ],
-    "GB": [
-     "TNT Sports 4",
-     "HBO Max"
-    ],
-    "ES": [
-     "M+ Liga de Campeones 3"
-    ],
-    "FR": [
-     "CANAL+ FOOT"
-    ],
-    "IT": [
-     "Sky",
-     "Sky Sport Max"
-    ],
-    "US": [
-     "Paramount+",
-     "ViX"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "DE": [
-     "RTL+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [],
-   "homeNames": {},
-   "awayNames": {}
-  },
-  {
-   "id": "volleyball-20260917-finland-estonia",
-   "sport": "volleyball",
-   "competitionId": "cev_euro",
-   "tier": "global",
-   "competition": {
-    "tr": "CEV Avrupa Şampiyonası (Erkekler)",
-    "en": "CEV European Championship (Men)",
-    "de": "CEV Europameisterschaft (Männer)",
-    "es": "Campeonato de Europa CEV (masculino)",
-    "fr": "Championnat d’Europe CEV (hommes)",
-    "it": "Campionato Europeo CEV (maschile)",
-    "pt": "Campeonato Europeu CEV (masculino)",
-    "ar": "بطولة أوروبا للكرة الطائرة (رجال)"
-   },
-   "home": "Finland",
-   "away": "Estonia",
-   "kickoffUtc": "2026-09-17T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Finlandiya",
-    "en": "Finland",
-    "de": "Finnland",
-    "es": "Finlandia",
-    "fr": "Finlande",
-    "it": "Finlandia",
-    "pt": "Finlândia",
-    "ar": "فنلندا"
-   },
-   "awayNames": {
-    "tr": "Estonya",
-    "en": "Estonia",
-    "de": "Estland",
-    "es": "Estonia",
-    "fr": "Estonie",
-    "it": "Estonia",
-    "pt": "Estónia",
-    "ar": "إستونيا"
-   }
-  },
-  {
-   "id": "football-20260917-real-betis-getafe",
-   "sport": "football",
-   "competitionId": "laliga",
-   "tier": "global",
-   "competition": {
-    "tr": "İspanya LaLiga",
-    "en": "LaLiga",
-    "de": "LaLiga",
-    "es": "LaLiga",
-    "fr": "LaLiga",
-    "it": "LaLiga",
-    "pt": "LaLiga",
-    "ar": "الدوري الإسباني"
-   },
-   "home": "Real Betis",
-   "away": "Getafe",
-   "kickoffUtc": "2026-09-17T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport",
-     "Idman TV",
-     "S Sport Plus"
-    ],
-    "ES": [
-     "DAZN LaLiga",
-     "DAZN",
-     "LaLiga TV Bar"
-    ],
-    "GB": [
-     "Premier Sports 1"
-    ],
-    "US": [
-     "ESPN+",
-     "ESPN Deportes",
-     "Fubo"
-    ],
-    "CA": [
-     "TSN+"
-    ],
-    "PT": [
-     "DAZN 3"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "FR": [
-     "DAZN",
-     "Disney+"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "BR": [
-     "CazéTV"
-    ],
-    "MX": [
-     "Sky Sports"
+    "KR": [
+     "Coupang Play"
     ],
     "NG": [
      "SuperSport"
@@ -609,444 +998,34 @@
    "awayNames": {}
   },
   {
-   "id": "football-20260917-manchester-city-norwich-city",
+   "id": "football-20260918-bristol-city-watford",
    "sport": "football",
-   "competitionId": "efl_cup",
-   "tier": "global",
+   "competitionId": "championship",
+   "tier": "regional",
    "competition": {
-    "tr": "İngiltere Lig Kupası",
-    "en": "EFL Cup",
-    "de": "EFL Cup",
-    "es": "EFL Cup",
-    "fr": "Coupe de la Ligue anglaise",
-    "it": "Coppa di Lega inglese",
-    "pt": "Taça da Liga Inglesa",
-    "ar": "كأس الرابطة الإنجليزية"
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "Championship",
+    "es": "Championship",
+    "fr": "Championship",
+    "it": "Championship",
+    "pt": "Championship",
+    "ar": "دوري البطولة الإنجليزي"
    },
-   "home": "Manchester City",
-   "away": "Norwich City",
-   "kickoffUtc": "2026-09-17T18:30:00Z",
+   "home": "Bristol City",
+   "away": "Watford",
+   "kickoffUtc": "2026-09-18T19:00:00Z",
    "broadcasts": {
-    "GB": [
-     "Sky Sports+"
-    ],
     "TR": [
      "S Sport Plus"
     ],
-    "US": [
-     "Paramount+"
-    ],
-    "PT": [
-     "Sport TV 1"
-    ],
-    "FR": [
-     "beIN Sports 1"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [],
-   "homeNames": {},
-   "awayNames": {}
-  },
-  {
-   "id": "football-20260917-afc-wimbledon-mk-dons",
-   "sport": "football",
-   "competitionId": "league_one",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere League One",
-    "en": "EFL League One",
-    "de": "Englische League One",
-    "es": "League One inglesa",
-    "fr": "League One anglaise",
-    "it": "League One inglese",
-    "pt": "League One inglês",
-    "ar": "دوري الدرجة الأولى الإنجليزي"
-   },
-   "home": "AFC Wimbledon",
-   "away": "MK Dons",
-   "kickoffUtc": "2026-09-17T19:00:00Z",
-   "broadcasts": {
     "GB": [
      "Sky Sports Football",
      "Sky Sports Ultra HDR"
-    ]
-   },
-   "sources": [],
-   "homeNames": {},
-   "awayNames": {}
-  },
-  {
-   "id": "football-20260917-besiktas-marseille",
-   "sport": "football",
-   "competitionId": "europa",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Avrupa Ligi",
-    "en": "UEFA Europa League",
-    "de": "UEFA Europa League",
-    "es": "UEFA Europa League",
-    "fr": "UEFA Europa League",
-    "it": "UEFA Europa League",
-    "pt": "Liga Europa da UEFA",
-    "ar": "الدوري الأوروبي"
-   },
-   "home": "Besiktas",
-   "away": "Marseille",
-   "kickoffUtc": "2026-09-17T19:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT 1",
-     "CBC Sport"
-    ],
-    "GB": [
-     "TNT Sports 7",
-     "HBO Max"
-    ],
-    "ES": [
-     "M+ Liga de Campeones 3",
-     "M+ Liga de Campeones 4"
-    ],
-    "FR": [
-     "CANAL+"
-    ],
-    "IT": [
-     "Sky",
-     "TV8"
     ],
     "US": [
-     "Paramount+",
-     "ViX"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "DE": [
-     "RTL+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Beşiktaş",
-    "en": "Besiktas",
-    "de": "Besiktas",
-    "es": "Besiktas",
-    "fr": "Besiktas",
-    "it": "Besiktas",
-    "pt": "Besiktas",
-    "ar": "بشيكتاش"
-   },
-   "awayNames": {
-    "tr": "Marsilya",
-    "en": "Marseille",
-    "de": "Marseille",
-    "es": "Marsella",
-    "fr": "Marseille",
-    "it": "Marsiglia",
-    "pt": "Marselha",
-    "ar": "مارسيليا"
-   }
-  },
-  {
-   "id": "football-20260917-celtic-ferencvaros",
-   "sport": "football",
-   "competitionId": "europa",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Avrupa Ligi",
-    "en": "UEFA Europa League",
-    "de": "UEFA Europa League",
-    "es": "UEFA Europa League",
-    "fr": "UEFA Europa League",
-    "it": "UEFA Europa League",
-    "pt": "Liga Europa da UEFA",
-    "ar": "الدوري الأوروبي"
-   },
-   "home": "Celtic",
-   "away": "Ferencvaros",
-   "kickoffUtc": "2026-09-17T19:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor 1"
-    ],
-    "GB": [
-     "TNT Sports 3",
-     "TNT Sports Ultimate",
-     "HBO Max"
-    ],
-    "ES": [
-     "M+ Liga de Campeones 4",
-     "M+ Liga de Campeones 6"
-    ],
-    "FR": [
-     "CANAL+ LIVE 5"
-    ],
-    "IT": [
-     "Sky"
-    ],
-    "US": [
-     "Paramount+",
-     "DAZN"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "DE": [
-     "RTL+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [],
-   "homeNames": {},
-   "awayNames": {
-    "tr": "Ferencvaros",
-    "en": "Ferencváros",
-    "de": "Ferencváros",
-    "es": "Ferencváros",
-    "fr": "Ferencváros",
-    "it": "Ferencváros",
-    "pt": "Ferencváros",
-    "ar": "فيرينتسفاروش"
-   }
-  },
-  {
-   "id": "football-20260917-crystal-palace-lech-poznan",
-   "sport": "football",
-   "competitionId": "europa",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Avrupa Ligi",
-    "en": "UEFA Europa League",
-    "de": "UEFA Europa League",
-    "es": "UEFA Europa League",
-    "fr": "UEFA Europa League",
-    "it": "UEFA Europa League",
-    "pt": "Liga Europa da UEFA",
-    "ar": "الدوري الأوروبي"
-   },
-   "home": "Crystal Palace",
-   "away": "Lech Poznan",
-   "kickoffUtc": "2026-09-17T19:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor 2"
-    ],
-    "GB": [
-     "TNT Sports 1",
-     "HBO Max"
-    ],
-    "ES": [
-     "M+ Liga de Campeones 4",
-     "M+ Liga de Campeones 5"
-    ],
-    "FR": [
-     "CANAL+ LIVE 3"
-    ],
-    "IT": [
-     "Sky"
-    ],
-    "US": [
-     "Paramount+",
-     "ViX"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "DE": [
-     "RTL+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [],
-   "homeNames": {},
-   "awayNames": {
-    "tr": "Lech Poznan",
-    "en": "Lech Poznań",
-    "de": "Lech Posen",
-    "es": "Lech Poznan",
-    "fr": "Lech Poznań",
-    "it": "Lech Poznań",
-    "pt": "Lech Poznań",
-    "ar": "ليخ بوزنان"
-   }
-  },
-  {
-   "id": "football-20260917-juventus-nec-nijmegen",
-   "sport": "football",
-   "competitionId": "europa",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Avrupa Ligi",
-    "en": "UEFA Europa League",
-    "de": "UEFA Europa League",
-    "es": "UEFA Europa League",
-    "fr": "UEFA Europa League",
-    "it": "UEFA Europa League",
-    "pt": "Liga Europa da UEFA",
-    "ar": "الدوري الأوروبي"
-   },
-   "home": "Juventus",
-   "away": "NEC Nijmegen",
-   "kickoffUtc": "2026-09-17T19:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor"
-    ],
-    "GB": [
-     "TNT Sports 4",
-     "HBO Max"
-    ],
-    "ES": [
-     "M+ Liga de Campeones 2",
-     "M+ Liga de Campeones 4"
-    ],
-    "FR": [
-     "CANAL+ FOOT"
-    ],
-    "IT": [
-     "Sky",
-     "Sky Sport 1"
-    ],
-    "US": [
-     "Paramount+",
-     "UniMás",
-     "TUDN",
-     "ViX"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "DE": [
-     "RTL+"
+     "CBS Sports Golazo Network",
+     "Paramount+"
     ],
     "SA": [
      "beIN Sports"
@@ -1087,469 +1066,69 @@
    "awayNames": {}
   },
   {
-   "id": "football-20260917-lillestrom-torreense",
+   "id": "football-20260918-real-sc-academica",
    "sport": "football",
-   "competitionId": "europa",
-   "tier": "global",
+   "competitionId": "taca_portugal",
+   "tier": "regional",
    "competition": {
-    "tr": "UEFA Avrupa Ligi",
-    "en": "UEFA Europa League",
-    "de": "UEFA Europa League",
-    "es": "UEFA Europa League",
-    "fr": "UEFA Europa League",
-    "it": "UEFA Europa League",
-    "pt": "Liga Europa da UEFA",
-    "ar": "الدوري الأوروبي"
+    "tr": "Portekiz Kupası",
+    "en": "Taça de Portugal",
+    "de": "Taça de Portugal",
+    "es": "Copa de Portugal",
+    "fr": "Coupe du Portugal",
+    "it": "Coppa di Portogallo",
+    "pt": "Taça de Portugal",
+    "ar": "كأس البرتغال"
    },
-   "home": "Lillestrom",
-   "away": "Torreense",
-   "kickoffUtc": "2026-09-17T19:00:00Z",
+   "home": "Real SC",
+   "away": "Academica",
+   "kickoffUtc": "2026-09-18T19:30:00Z",
    "broadcasts": {
-    "TR": [
-     "tabii Spor 5"
-    ],
-    "GB": [
-     "HBO Max"
-    ],
-    "ES": [
-     "M+ Liga de Campeones 4",
-     "M+ Liga de Campeones 8"
-    ],
-    "FR": [
-     "CANAL+ LIVE 7"
-    ],
-    "IT": [
-     "Sky"
-    ],
-    "US": [
-     "Paramount+",
-     "ViX"
-    ],
-    "CA": [
-     "Fubo"
-    ],
     "PT": [
-     "DAZN 1"
-    ],
-    "DE": [
-     "RTL+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Lillestrøm",
-    "en": "Lillestrøm",
-    "de": "Lillestrøm",
-    "es": "Lillestrøm",
-    "fr": "Lillestrøm",
-    "it": "Lillestrøm",
-    "pt": "Lillestrøm",
-    "ar": "ليليستروم"
-   },
-   "awayNames": {}
-  },
-  {
-   "id": "football-20260917-real-sociedad-bournemouth",
-   "sport": "football",
-   "competitionId": "europa",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Avrupa Ligi",
-    "en": "UEFA Europa League",
-    "de": "UEFA Europa League",
-    "es": "UEFA Europa League",
-    "fr": "UEFA Europa League",
-    "it": "UEFA Europa League",
-    "pt": "Liga Europa da UEFA",
-    "ar": "الدوري الأوروبي"
-   },
-   "home": "Real Sociedad",
-   "away": "Bournemouth",
-   "kickoffUtc": "2026-09-17T19:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor 3"
-    ],
-    "GB": [
-     "TNT Sports 2",
-     "TNT Sports 6",
-     "HBO Max"
-    ],
-    "ES": [
-     "Movistar Plus+",
-     "M+ Liga de Campeones",
-     "M+ Liga de Campeones 4"
-    ],
-    "FR": [
-     "CANAL+ LIVE 4"
-    ],
-    "IT": [
-     "Sky",
-     "Sky Sport Mix"
-    ],
-    "US": [
-     "Paramount+",
-     "DAZN",
-     "ViX"
-    ],
-    "CA": [
-     "Fubo"
-    ],
-    "PT": [
-     "DAZN 2"
-    ],
-    "DE": [
-     "RTL+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
+     "Canal 11"
     ]
    },
    "sources": [],
    "homeNames": {},
    "awayNames": {
-    "tr": "Bournemouth",
-    "en": "AFC Bournemouth",
-    "de": "Bournemouth",
-    "es": "Bournemouth",
-    "fr": "Bournemouth",
-    "it": "Bournemouth",
-    "pt": "Bournemouth",
-    "ar": "بورنموث"
+    "tr": "Académica",
+    "en": "Académica",
+    "de": "Académica",
+    "es": "Académica",
+    "fr": "Académica",
+    "it": "Académica",
+    "pt": "Académica",
+    "ar": "أكاديميكا"
    }
   },
   {
-   "id": "football-20260917-viktoria-plzen-union-saint-gilloise",
+   "id": "football-20260918-new-york-city-new-york-red-bulls",
    "sport": "football",
-   "competitionId": "europa",
-   "tier": "global",
+   "competitionId": "mls",
+   "tier": "regional",
    "competition": {
-    "tr": "UEFA Avrupa Ligi",
-    "en": "UEFA Europa League",
-    "de": "UEFA Europa League",
-    "es": "UEFA Europa League",
-    "fr": "UEFA Europa League",
-    "it": "UEFA Europa League",
-    "pt": "Liga Europa da UEFA",
-    "ar": "الدوري الأوروبي"
+    "tr": "MLS",
+    "en": "MLS",
+    "de": "MLS",
+    "es": "MLS",
+    "fr": "MLS",
+    "it": "MLS",
+    "pt": "MLS",
+    "ar": "الدوري الأمريكي"
    },
-   "home": "Viktoria Plzen",
-   "away": "Union Saint-Gilloise",
-   "kickoffUtc": "2026-09-17T19:00:00Z",
+   "home": "New York City FC",
+   "away": "New York Red Bulls",
+   "kickoffUtc": "2026-09-18T23:30:00Z",
    "broadcasts": {
-    "TR": [
-     "tabii Spor 4"
-    ],
-    "GB": [
-     "TNT Sports 8",
-     "HBO Max"
-    ],
-    "ES": [
-     "M+ Liga de Campeones 4",
-     "M+ Liga de Campeones 7"
-    ],
-    "FR": [
-     "CANAL+ LIVE 6"
-    ],
-    "IT": [
-     "Sky"
-    ],
     "US": [
-     "Paramount+",
-     "ViX"
+     "MLS Season Pass (Apple TV)"
     ],
     "CA": [
-     "Fubo"
-    ],
-    "DE": [
-     "RTL+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
+     "MLS Season Pass (Apple TV)"
     ]
    },
    "sources": [],
-   "homeNames": {
-    "tr": "Viktoria Plzen",
-    "en": "Viktoria Plzeň",
-    "de": "Viktoria Pilsen",
-    "es": "Viktoria Plzen",
-    "fr": "Viktoria Plzeň",
-    "it": "Viktoria Plzen",
-    "pt": "Viktoria Plzen",
-    "ar": "فيكتوريا بلزن"
-   },
-   "awayNames": {
-    "tr": "Union Saint-Gilloise",
-    "en": "Union Saint-Gilloise",
-    "de": "Union Saint-Gilloise",
-    "es": "Union Saint-Gilloise",
-    "fr": "Union Saint-Gilloise",
-    "it": "Union Saint-Gilloise",
-    "pt": "Union Saint-Gilloise",
-    "ar": "اتحاد سان جيلواز"
-   }
-  },
-  {
-   "id": "volleyball-20260917-italy-slovenia",
-   "sport": "volleyball",
-   "competitionId": "cev_euro",
-   "tier": "global",
-   "competition": {
-    "tr": "CEV Avrupa Şampiyonası (Erkekler)",
-    "en": "CEV European Championship (Men)",
-    "de": "CEV Europameisterschaft (Männer)",
-    "es": "Campeonato de Europa CEV (masculino)",
-    "fr": "Championnat d’Europe CEV (hommes)",
-    "it": "Campionato Europeo CEV (maschile)",
-    "pt": "Campeonato Europeu CEV (masculino)",
-    "ar": "بطولة أوروبا للكرة الطائرة (رجال)"
-   },
-   "home": "Italy",
-   "away": "Slovenia",
-   "kickoffUtc": "2026-09-17T19:05:00Z",
-   "broadcasts": {
-    "TR": [
-     "CEV YouTube"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "İtalya",
-    "en": "Italy",
-    "de": "Italien",
-    "es": "Italia",
-    "fr": "Italie",
-    "it": "Italia",
-    "pt": "Itália",
-    "ar": "إيطاليا"
-   },
-   "awayNames": {
-    "tr": "Slovenya",
-    "en": "Slovenia",
-    "de": "Slowenien",
-    "es": "Eslovenia",
-    "fr": "Slovénie",
-    "it": "Slovenia",
-    "pt": "Eslovénia",
-    "ar": "سلوفينيا"
-   }
-  },
-  {
-   "id": "football-20260917-malaga-villarreal",
-   "sport": "football",
-   "competitionId": "laliga",
-   "tier": "global",
-   "competition": {
-    "tr": "İspanya LaLiga",
-    "en": "LaLiga",
-    "de": "LaLiga",
-    "es": "LaLiga",
-    "fr": "LaLiga",
-    "it": "LaLiga",
-    "pt": "LaLiga",
-    "ar": "الدوري الإسباني"
-   },
-   "home": "Malaga",
-   "away": "Villarreal",
-   "kickoffUtc": "2026-09-17T19:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport",
-     "Idman TV",
-     "S Sport Plus"
-    ],
-    "ES": [
-     "DAZN LaLiga",
-     "DAZN",
-     "LaLiga TV Bar"
-    ],
-    "GB": [
-     "Premier Sports 1"
-    ],
-    "US": [
-     "ESPN+",
-     "ESPN Deportes",
-     "Fubo"
-    ],
-    "CA": [
-     "TSN+"
-    ],
-    "PT": [
-     "DAZN 3"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "FR": [
-     "DAZN",
-     "Disney+"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "BR": [
-     "CazéTV"
-    ],
-    "MX": [
-     "Sky Sports"
-    ],
-    "NG": [
-     "SuperSport"
-    ],
-    "ZA": [
-     "SuperSport"
-    ],
-    "GH": [
-     "SuperSport"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ],
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ]
-   },
-   "sources": [],
-   "homeNames": {
-    "tr": "Málaga",
-    "en": "Málaga",
-    "de": "Málaga",
-    "es": "Málaga",
-    "fr": "Málaga",
-    "it": "Málaga",
-    "pt": "Málaga",
-    "ar": "ملقا"
-   },
+   "homeNames": {},
    "awayNames": {}
   }
  ]
