@@ -9,7 +9,7 @@ crons = ["* * * * *"]
 [[d1_databases]]
 binding = "DB"
 database_name = "mac-hatirlatici-push"
-database_id = "D1_OLUSTURULUNCA_DOLDURULACAK"
+database_id = "416f2737-cd46-461a-ba58-f473b3756ffa"
 
 [vars]
 FIKSTUR_URL   = "https://raw.githubusercontent.com/seslitespih/mac-hatirlatici/main/assets/matches-daily.json"
