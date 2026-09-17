@@ -2,7 +2,7 @@ name = "mac-hatirlatici-push"
 main = "src/index.js"
 compatibility_date = "2026-09-01"
 
-# Her dakika: zamani gelen maclarin bildirimini gonder (10 dk'da bir plani da yeniler)
+# Yedek tetik: her dakika (asil tetik asagidaki Saat alarmi)
 [triggers]
 crons = ["* * * * *"]
 
@@ -10,6 +10,16 @@ crons = ["* * * * *"]
 binding = "DB"
 database_name = "mac-hatirlatici-push"
 database_id = "416f2737-cd46-461a-ba58-f473b3756ffa"
+
+# Dakikalik tetik icin ASIL mekanizma: kendini yeniden kuran Durable Object alarmi.
+# (Yeni hesapta cron tetikleyicisi 30+ dk hic calismadi; cron yedek olarak kaliyor.)
+[[durable_objects.bindings]]
+name = "SAAT"
+class_name = "Saat"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Saat"]
 
 [vars]
 FIKSTUR_URL   = "https://raw.githubusercontent.com/seslitespih/mac-hatirlatici/main/assets/matches-daily.json"

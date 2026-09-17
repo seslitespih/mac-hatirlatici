@@ -1,4 +1,4 @@
-// Mac Hatirlatici — push bildirim sunucusu (Cloudflare Worker + D1 + Cron)
+// Mac Hatirlatici — push bildirim sunucusu (Cloudflare Worker + D1 + Durable Object alarmi)
 //
 // NEDEN: uygulama yerel bildirimleri yalniz ACILDIGINDA kuruyordu; kullanici o gun
 // uygulamayi acmazsa bildirim gelmiyordu. Bu sunucu kullanicinin takimlarini bilir ve
@@ -6,24 +6,36 @@
 //
 // AKIS
 //   POST /kayit          uygulama: push token + takimlar + dil + ulke + saat dilimi
-//   cron (her dakika)    10 dk'da bir: fikstur dosyasini oku -> `plan` tablosunu yenile
-//                        her dakika:   zamani gelen maclar -> takipcilere gonder
-//   GET  /saglik         sayilar (token/takim bilgisi DONMEZ)
+//   Saat (DO alarmi)     her dakika calis(): 10 dk'da bir plani yenile, zamani gelenleri gonder
+//   cron (her dakika)    ayni calis() — yedek; biri calismasa digeri yeter
+//   GET  /saglik         sayilar + alarm durumu (token/takim bilgisi DONMEZ)
+//   POST /tetikle        calis()'i hemen calistirir (Bearer TETIK_ANAHTARI). ?plan=1 plani zorla yeniler.
+//   POST /saat           alarmi baslatir (Bearer TETIK_ANAHTARI)
 //
-// JSON'u her dakika ayristirmiyoruz: ucretsiz planda istek basina CPU siniri dusuk.
-// Agir is (ayristirma) 10 dk'da bir; dakikalik is yalniz D1 sorgusu.
+// NEDEN IKI TETIK: 17 Eyl 2026'da yeni acilan hesapta cron tetikleyicisi deploy'dan 30+ dk
+// sonra bile HIC calismadi (Cloudflare analitiginde 0 zamanlanmis calisma). Durable Object
+// alarmi ayri bir mekanizma; kendi bir sonraki alarmini kurarak dakikada bir calisir.
+//
+// CIFT BILDIRIM YOK: gondermeden ONCE `gonderilen` tablosuna yazilir (sahiplenme). Iki tetik
+// ayni dakikaya denk gelse bile bir (mac, cihaz) satirini yalniz biri yazabilir, yalniz o gonderir.
+//
+// UCRETSIZ PLAN SINIRI: calisma basina ~50 D1 sorgusu. Tum toplu isler json_each ile TEK sorguda
+// yapilir; mac ve abone sayisi ne olursa olsun calisma basina sorgu sayisi sabit kalir.
 
 import { planKaydi, zamaniGeldiMi, gorunurMu, bildirimIcerigi, kayitDogrula, HATIRLAT_DK } from './icerik.js';
 
-const PLAN_UFKU_MS  = 6 * 60 * 60 * 1000;   // simdiden 6 saat sonrasina kadarki maclar
-const EXPO_PARTI    = 100;                   // Expo tek istekte en fazla 100 mesaj alir
-const JSON_SINIR    = 8 * 1024;
+const PLAN_UFKU_MS = 6 * 60 * 60 * 1000;   // simdiden 6 saat sonrasina kadarki maclar
+const EXPO_PARTI   = 100;                   // Expo tek istekte en fazla 100 mesaj alir
+const JSON_SINIR   = 8 * 1024;
 
 const json = (veri, durum = 200) =>
   new Response(JSON.stringify(veri), { status: durum, headers: { 'Content-Type': 'application/json' } });
 
+const saat = (env) => env.SAAT.get(env.SAAT.idFromName('tek'));
+const alarmOtomatik = (env) => env.ALARM_OTOMATIK !== '0';
+
 export default {
-  async fetch(istek, env) {
+  async fetch(istek, env, ctx) {
     const url = new URL(istek.url);
 
     if (istek.method === 'POST' && url.pathname === '/kayit') {
@@ -34,7 +46,18 @@ export default {
       const { deger, hata } = kayitDogrula(govde);
       if (hata) return json({ hata }, 400);
       await kaydet(env, deger);
+      if (alarmOtomatik(env)) ctx.waitUntil(saat(env).fetch('https://saat/baslat').catch(() => {}));
       return json({ ok: true });
+    }
+
+    if (istek.method === 'POST' && (url.pathname === '/tetikle' || url.pathname === '/saat')) {
+      if (!env.TETIK_ANAHTARI || !(await anahtarDogruMu(istek.headers.get('Authorization') ?? '', `Bearer ${env.TETIK_ANAHTARI}`))) {
+        return json({ hata: 'yetkisiz' }, 401);
+      }
+      if (url.pathname === '/saat') {
+        return json({ ok: true, ...(await (await saat(env).fetch('https://saat/baslat')).json()) });
+      }
+      return json({ ok: true, ...(await calis(env, Date.now(), url.searchParams.get('plan') === '1')) });
     }
 
     if (istek.method === 'GET' && url.pathname === '/saglik') {
@@ -43,6 +66,11 @@ export default {
         env.DB.prepare('SELECT COUNT(*) AS n, MIN(kickoff) AS ilk, MAX(kickoff) AS son FROM plan'),
         env.DB.prepare('SELECT COUNT(*) AS n FROM gonderilen WHERE ts > ?').bind(Date.now() - 86_400_000),
       ]);
+      let alarm = null;
+      try {
+        const yol = alarmOtomatik(env) ? 'https://saat/baslat' : 'https://saat/durum';   // saglik kontrolu alarmi da ayakta tutar
+        alarm = (await (await saat(env).fetch(yol)).json()).alarm;
+      } catch { /* bilgi amacli */ }
       return json({
         ok: true,
         abone: a.results[0].n,
@@ -50,6 +78,7 @@ export default {
         planIlk: p.results[0].ilk ? new Date(p.results[0].ilk).toISOString() : null,
         planSon: p.results[0].son ? new Date(p.results[0].son).toISOString() : null,
         gonderilen24s: g.results[0].n,
+        sonrakiAlarm: alarm ? new Date(alarm).toISOString() : null,
       });
     }
 
@@ -57,16 +86,71 @@ export default {
   },
 
   async scheduled(olay, env, ctx) {
-    const simdi = olay.scheduledTime;
-    const dakika = new Date(simdi).getUTCMinutes();
-    if (dakika % 10 === 0 || (await planBosMu(env))) {
-      await planYenile(env, simdi);
-    }
-    await gonder(env, simdi);
+    await calis(env, olay.scheduledTime, false);
+    if (alarmOtomatik(env)) ctx.waitUntil(saat(env).fetch('https://saat/baslat').catch(() => {}));
   },
 };
 
-// ─── Kayit ───────────────────────────────────────────────────────────────────
+// ─── Saat: kendini her dakika yeniden kuran alarm ─────────────────────────────
+
+export class Saat {
+  constructor(durum, env) {
+    this.durum = durum;
+    this.env = env;
+  }
+
+  sonraki(simdi) {
+    const aralik = Number(this.env.ALARM_ARALIK_MS) || 60_000;
+    // Uretimde dakika basinin 2 sn sonrasina hizala; testte kisa aralik
+    return aralik === 60_000 ? Math.floor(simdi / 60_000) * 60_000 + 62_000 : simdi + aralik;
+  }
+
+  async fetch(istek) {
+    const yol = new URL(istek.url).pathname;
+    let alarm = await this.durum.storage.getAlarm();
+    if (yol === '/baslat' && alarm == null) {
+      alarm = this.sonraki(Date.now());
+      await this.durum.storage.setAlarm(alarm);
+      console.log('saat baslatildi', new Date(alarm).toISOString());
+    }
+    return json({ alarm });
+  }
+
+  async alarm() {
+    // Bir sonraki alarmi ONCE kur: calis() hata verse bile zincir kopmasin.
+    const simdi = Date.now();
+    await this.durum.storage.setAlarm(this.sonraki(simdi));
+    try {
+      await calis(this.env, simdi, false);
+    } catch (e) {
+      console.log('saat calis hatasi', String(e?.stack ?? e));
+    }
+  }
+}
+
+// ─── Ortak is ────────────────────────────────────────────────────────────────
+
+async function calis(env, simdi, planZorla) {
+  const dakika = new Date(simdi).getUTCMinutes();
+  let planMac = null;
+  if (planZorla || dakika % 10 === 0 || (await planBosMu(env))) {
+    planMac = await planYenile(env, simdi);
+  }
+  const gonderilen = await gonder(env, simdi);
+  return { planMac, gonderilen };
+}
+
+/** Zamanlama saldirisina karsi sabit sureli karsilastirma. */
+async function anahtarDogruMu(gelen, beklenen) {
+  const enc = new TextEncoder();
+  const [a, b] = await Promise.all([
+    crypto.subtle.digest('SHA-256', enc.encode(gelen)),
+    crypto.subtle.digest('SHA-256', enc.encode(beklenen)),
+  ]);
+  return crypto.subtle.timingSafeEqual(a, b);
+}
+
+// ─── Kayit (sabit 2-3 sorgu) ─────────────────────────────────────────────────
 
 async function kaydet(env, k) {
   const silTakim = env.DB.prepare('DELETE FROM abone_takim WHERE token = ?').bind(k.token);
@@ -77,19 +161,19 @@ async function kaydet(env, k) {
     return;
   }
 
-  const ifadeler = [
+  await env.DB.batch([   // D1 batch tek islem (transaction) olarak calisir
     env.DB.prepare(
       `INSERT INTO aboneler (token, dil, ulke, tz, platform, guncelleme) VALUES (?, ?, ?, ?, ?, ?)
        ON CONFLICT(token) DO UPDATE SET dil = excluded.dil, ulke = excluded.ulke, tz = excluded.tz,
          platform = excluded.platform, guncelleme = excluded.guncelleme`,
     ).bind(k.token, k.dil, k.ulke, k.tz, k.platform, Date.now()),
     silTakim,
-    ...k.takimlar.map((t) => env.DB.prepare('INSERT INTO abone_takim (token, takim) VALUES (?, ?)').bind(k.token, t)),
-  ];
-  await env.DB.batch(ifadeler);   // D1 batch tek islem (transaction) olarak calisir
+    env.DB.prepare('INSERT INTO abone_takim (token, takim) SELECT ?, value FROM json_each(?)')
+      .bind(k.token, JSON.stringify(k.takimlar)),
+  ]);
 }
 
-// ─── Plan ────────────────────────────────────────────────────────────────────
+// ─── Plan (sabit 1 + 4 sorgu) ────────────────────────────────────────────────
 
 async function planBosMu(env) {
   const r = await env.DB.prepare('SELECT 1 FROM plan LIMIT 1').first();
@@ -100,100 +184,133 @@ async function planYenile(env, simdi) {
   let dosya;
   try {
     const yanit = await fetch(env.FIKSTUR_URL, { cf: { cacheTtl: 60 } });
-    if (!yanit.ok) { console.log('fikstur alinamadi', yanit.status); return; }
+    if (!yanit.ok) { console.log('fikstur alinamadi', yanit.status); return null; }
     dosya = await yanit.json();
   } catch (e) {
     console.log('fikstur okunamadi', String(e));
-    return;   // hata durumunda mevcut plana DOKUNMA
+    return null;   // hata durumunda mevcut plana DOKUNMA
   }
 
   const kayitlar = (dosya.matches ?? [])
     .map(planKaydi)
     .filter((k) => k && k.kickoff > simdi && k.kickoff <= simdi + PLAN_UFKU_MS);
 
-  const ifadeler = kayitlar.map((k) =>
+  await env.DB.batch([
     env.DB.prepare(
-      `INSERT INTO plan (mac_id, kickoff, takimlar, veri) VALUES (?, ?, ?, ?)
+      `INSERT INTO plan (mac_id, kickoff, takimlar, veri)
+         SELECT json_extract(value, '$.mac_id'), json_extract(value, '$.kickoff'),
+                json_extract(value, '$.takimlar'), json_extract(value, '$.veri')
+           FROM json_each(?) WHERE true
        ON CONFLICT(mac_id) DO UPDATE SET kickoff = excluded.kickoff, takimlar = excluded.takimlar, veri = excluded.veri`,
-    ).bind(k.mac_id, k.kickoff, JSON.stringify(k.takimlar), JSON.stringify(k.veri)),
-  );
-
-  // Dosyadan cikarilan (iptal edilmis, yanlis girilmis, kadin futbolu diye elenmis)
-  // gelecek maclari plandan sil — bildirimi gitmesin.
-  ifadeler.push(
+    ).bind(JSON.stringify(kayitlar)),
+    // Dosyadan cikarilan (iptal edilmis, yanlis girilmis, kadin futbolu diye elenmis) gelecek
+    // maclari plandan sil — bildirimi gitmesin.
     env.DB.prepare('DELETE FROM plan WHERE kickoff > ? AND mac_id NOT IN (SELECT value FROM json_each(?))')
       .bind(simdi, JSON.stringify(kayitlar.map((k) => k.mac_id))),
     env.DB.prepare('DELETE FROM plan WHERE kickoff < ?').bind(simdi - 2 * 3_600_000),
     env.DB.prepare('DELETE FROM gonderilen WHERE ts < ?').bind(simdi - 3 * 86_400_000),
-  );
-  await env.DB.batch(ifadeler);
+  ]);
   console.log('plan yenilendi', kayitlar.length, 'mac');
+  return kayitlar.length;
 }
 
-// ─── Gonderim ────────────────────────────────────────────────────────────────
+// ─── Gonderim (mac/abone sayisindan bagimsiz sabit sorgu) ────────────────────
 
 async function gonder(env, simdi) {
+  const ust = simdi + HATIRLAT_DK * 60_000;
+
+  // 1) Zamani gelen maclar
   const { results: maclar } = await env.DB.prepare(
-    'SELECT mac_id, kickoff, takimlar, veri FROM plan WHERE kickoff > ? AND kickoff <= ?',
-  ).bind(simdi, simdi + HATIRLAT_DK * 60_000).all();
+    'SELECT mac_id, kickoff, veri FROM plan WHERE kickoff > ? AND kickoff <= ?',
+  ).bind(simdi, ust).all();
+  const vadeli = new Map(maclar.filter((m) => zamaniGeldiMi(m.kickoff, simdi)).map((m) => [m.mac_id, { ...m, veri: JSON.parse(m.veri) }]));
+  if (vadeli.size === 0) return 0;
 
-  for (const mac of maclar) {
-    if (!zamaniGeldiMi(mac.kickoff, simdi)) continue;
-    const veri = JSON.parse(mac.veri);
+  // 2) Bu maclarin henuz bildirim almamis takipcileri — TEK sorgu
+  const { results: ciftler } = await env.DB.prepare(
+    `SELECT p.mac_id, a.token, a.dil, a.ulke, a.tz
+       FROM plan p, json_each(p.takimlar) jt
+       JOIN abone_takim t ON t.takim = jt.value
+       JOIN aboneler a ON a.token = t.token
+      WHERE p.kickoff > ? AND p.kickoff <= ?
+        AND NOT EXISTS (SELECT 1 FROM gonderilen g WHERE g.mac_id = p.mac_id AND g.token = a.token)
+      GROUP BY p.mac_id, a.token`,
+  ).bind(simdi, ust).all();
 
-    const { results: aboneler } = await env.DB.prepare(
-      `SELECT DISTINCT a.token, a.dil, a.ulke, a.tz
-         FROM abone_takim t JOIN aboneler a ON a.token = t.token
-        WHERE t.takim IN (SELECT value FROM json_each(?))
-          AND NOT EXISTS (SELECT 1 FROM gonderilen g WHERE g.mac_id = ? AND g.token = a.token)`,
-    ).bind(mac.takimlar, mac.mac_id).all();
+  const adaylar = ciftler.filter((c) => vadeli.has(c.mac_id) && gorunurMu(vadeli.get(c.mac_id).veri, c.ulke));
+  if (adaylar.length === 0) return 0;
 
-    const mesajlar = aboneler
-      .filter((a) => gorunurMu(veri, a.ulke))
-      .map((a) => ({
-        to: a.token,
-        ...bildirimIcerigi(veri, mac.kickoff, a),
+  // 3) SAHIPLEN — satiri bu calisma yazabildiyse gonderim bu calismanin
+  const { results: sahiplenen } = await env.DB.prepare(
+    `INSERT OR IGNORE INTO gonderilen (mac_id, token, ts)
+       SELECT json_extract(value, '$.m'), json_extract(value, '$.t'), ?
+         FROM json_each(?) WHERE true
+     RETURNING mac_id, token`,
+  ).bind(simdi, JSON.stringify(adaylar.map((c) => ({ m: c.mac_id, t: c.token })))).all();
+  const benim = new Set(sahiplenen.map((r) => `${r.mac_id} ${r.token}`));
+
+  const mesajlar = adaylar
+    .filter((c) => benim.has(`${c.mac_id} ${c.token}`))
+    .map((c) => {
+      const mac = vadeli.get(c.mac_id);
+      return {
+        to: c.token,
+        ...bildirimIcerigi(mac.veri, mac.kickoff, c),
         sound: 'default',
         priority: 'high',
         ttl: Math.max(60, Math.floor((mac.kickoff - simdi) / 1000)),   // mac basladiysa gosterme
-        data: { macId: mac.mac_id },
-      }));
+        data: { macId: c.mac_id },
+      };
+    });
 
-    for (let i = 0; i < mesajlar.length; i += EXPO_PARTI) {
-      await expoyaGonder(env, mac.mac_id, mesajlar.slice(i, i + EXPO_PARTI), simdi);
-    }
+  // 4) Gonder; basarisizlari birakip (tekrar denensin) olu cihazlari sil — toplu, en fazla 4 sorgu
+  let basarili = 0;
+  const birak = [];     // gecici hata: sahiplenmeyi geri al
+  const olu    = [];    // DeviceNotRegistered
+  for (let i = 0; i < mesajlar.length; i += EXPO_PARTI) {
+    const parti = mesajlar.slice(i, i + EXPO_PARTI);
+    const biletler = await expoyaGonder(env, parti);
+    parti.forEach((m, j) => {
+      const b = biletler?.[j];
+      if (b?.status === 'ok') basarili++;
+      else if (b?.details?.error === 'DeviceNotRegistered') olu.push(m.to);
+      else {
+        birak.push({ m: m.data.macId, t: m.to });
+        if (b) console.log('expo bilet hatasi', m.data.macId, b.details?.error ?? b.message);
+      }
+    });
   }
+
+  const temizlik = [];
+  if (birak.length) {
+    temizlik.push(env.DB.prepare(
+      `DELETE FROM gonderilen WHERE (mac_id, token) IN
+         (SELECT json_extract(value, '$.m'), json_extract(value, '$.t') FROM json_each(?))`,
+    ).bind(JSON.stringify(birak)));
+  }
+  if (olu.length) {
+    const liste = JSON.stringify([...new Set(olu)]);
+    temizlik.push(
+      env.DB.prepare('DELETE FROM abone_takim WHERE token IN (SELECT value FROM json_each(?))').bind(liste),
+      env.DB.prepare('DELETE FROM aboneler WHERE token IN (SELECT value FROM json_each(?))').bind(liste),
+      // sahiplenme satirlari da gitsin: teslim edilmedi, "gonderilen" sayilmamali
+      env.DB.prepare('DELETE FROM gonderilen WHERE token IN (SELECT value FROM json_each(?))').bind(liste),
+    );
+  }
+  if (temizlik.length) await env.DB.batch(temizlik);
+  return basarili;
 }
 
-async function expoyaGonder(env, macId, mesajlar, simdi) {
+/** Expo'ya bir parti yollar. Biletleri doner; ulasilamazsa null (hepsi tekrar denenir). */
+async function expoyaGonder(env, mesajlar) {
   const basliklar = { 'Content-Type': 'application/json', Accept: 'application/json' };
   if (env.EXPO_ACCESS_TOKEN) basliklar.Authorization = `Bearer ${env.EXPO_ACCESS_TOKEN}`;
-
-  let biletler;
   try {
     const yanit = await fetch(env.EXPO_PUSH_URL, { method: 'POST', headers: basliklar, body: JSON.stringify(mesajlar) });
-    if (!yanit.ok) { console.log('expo HTTP', yanit.status, await yanit.text()); return; }   // sonraki dakika tekrar denenir
-    biletler = (await yanit.json()).data ?? [];
+    if (!yanit.ok) { console.log('expo HTTP', yanit.status, await yanit.text()); return null; }
+    return (await yanit.json()).data ?? null;
   } catch (e) {
     console.log('expo erisilemedi', String(e));
-    return;
+    return null;
   }
-
-  const ifadeler = [];
-  biletler.forEach((bilet, i) => {
-    const token = mesajlar[i]?.to;
-    if (!token) return;
-    if (bilet.status === 'ok') {
-      ifadeler.push(env.DB.prepare('INSERT OR IGNORE INTO gonderilen (mac_id, token, ts) VALUES (?, ?, ?)').bind(macId, token, simdi));
-    } else if (bilet.details?.error === 'DeviceNotRegistered') {
-      // Uygulama silinmis ya da bildirim kalici olarak kapatilmis
-      ifadeler.push(
-        env.DB.prepare('DELETE FROM abone_takim WHERE token = ?').bind(token),
-        env.DB.prepare('DELETE FROM aboneler WHERE token = ?').bind(token),
-      );
-    } else {
-      console.log('expo bilet hatasi', macId, bilet.details?.error ?? bilet.message);
-    }
-  });
-  if (ifadeler.length) await env.DB.batch(ifadeler);
 }
