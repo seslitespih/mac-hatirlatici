@@ -18,7 +18,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getDeviceTimezone } from '../utils/timezone';
 
 // Cloudflare Worker adresi. Kodu: push-sunucu/ klasörü.
-const PUSH_API_URL = 'https://mac-hatirlatici-push.PLACEHOLDER.workers.dev';
+const PUSH_API_URL = 'https://mac-hatirlatici-push.ssaglamess.workers.dev';
 
 const KAYIT_KEY       = 'push_kayit_v1';
 const TAZELE_MS       = 24 * 60 * 60 * 1000;      // değişiklik yoksa da günde bir yenile
