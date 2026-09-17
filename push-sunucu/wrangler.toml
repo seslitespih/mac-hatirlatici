@@ -1,0 +1,19 @@
+name = "mac-hatirlatici-push"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# Her dakika: zamani gelen maclarin bildirimini gonder (10 dk'da bir plani da yeniler)
+[triggers]
+crons = ["* * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mac-hatirlatici-push"
+database_id = "D1_OLUSTURULUNCA_DOLDURULACAK"
+
+[vars]
+FIKSTUR_URL   = "https://raw.githubusercontent.com/seslitespih/mac-hatirlatici/main/assets/matches-daily.json"
+EXPO_PUSH_URL = "https://exp.host/--/api/v2/push/send"
+
+# Istege bagli gizli anahtar (Expo "enhanced push security" acilirsa):
+#   npx wrangler secret put EXPO_ACCESS_TOKEN
