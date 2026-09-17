@@ -9,6 +9,7 @@ import * as Notifications from 'expo-notifications';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Match } from '../constants/matches';
 import { formatLocalTime, getDeviceTimezone } from '../utils/timezone';
+import { pushKaydiniGuncelle } from './pushService';
 
 const REMINDERS_KEY         = 'match_reminders';
 const REMIND_BEFORE_MINUTES = 15;
@@ -186,6 +187,12 @@ export async function scheduleAllNotifications(
 ): Promise<void> {
   await cancelAllNotifications();
 
+  // Push sunucusunu güncel takım seçimiyle bilgilendir — boş liste dahil, takip
+  // bırakılınca sunucu göndermeyi kesmeli. Push aktifse küratörlü (`daily_`) maçların
+  // bildirimini sunucu gönderir; burada kurulursa aynı maç iki kez bildirilir.
+  // Hiçbir zaman hata fırlatmaz; başarısızsa false döner ve aşağısı eskisi gibi çalışır.
+  const pushAktif = await pushKaydiniGuncelle(selectedTeamIds, lang, matches.map(m => m.id));
+
   if (selectedTeamIds.length === 0) return;
 
   const now = new Date();
@@ -199,6 +206,7 @@ export async function scheduleAllNotifications(
       selectedTeamIds.includes(match.homeTeam) ||
       selectedTeamIds.includes(match.awayTeam);
     if (!isSelected) continue;
+    if (pushAktif && match.id.startsWith('daily_')) continue;   // sunucu gönderecek
 
     const fireDate = new Date(new Date(match.date).getTime() - REMIND_BEFORE_MINUTES * 60 * 1000);
     if (fireDate <= now) continue;
