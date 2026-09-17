@@ -3,10 +3,10 @@
  "date": "2026-09-17",
  "model": "claude-opus-4-8 (01:07 gece calismasi, gunu zamaninda ceviren 9 kaynakla sifirdan kuruldu)",
  "stats": {
-  "total": 19,
-  "withChannel": 19,
+  "total": 20,
+  "withChannel": 20,
   "bySport": {
-   "football": 15,
+   "football": 16,
    "volleyball": 4
   },
   "countries": 35,
@@ -674,6 +674,34 @@
     ],
     "LY": [
      "beIN Sports"
+    ]
+   },
+   "sources": [],
+   "homeNames": {},
+   "awayNames": {}
+  },
+  {
+   "id": "football-20260917-afc-wimbledon-mk-dons",
+   "sport": "football",
+   "competitionId": "league_one",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere League One",
+    "en": "EFL League One",
+    "de": "Englische League One",
+    "es": "League One inglesa",
+    "fr": "League One anglaise",
+    "it": "League One inglese",
+    "pt": "League One inglês",
+    "ar": "دوري الدرجة الأولى الإنجليزي"
+   },
+   "home": "AFC Wimbledon",
+   "away": "MK Dons",
+   "kickoffUtc": "2026-09-17T19:00:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports Football",
+     "Sky Sports Ultra HDR"
     ]
    },
    "sources": [],
