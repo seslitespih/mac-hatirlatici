@@ -21,7 +21,7 @@ module.exports = {
       pt: './locales/pt.json',
       ar: './locales/ar.json',
     },
-    version: '1.4.3',
+    version: '1.4.4',
     orientation: 'portrait',
     icon: './assets/icon.png',
     userInterfaceStyle: 'light',
