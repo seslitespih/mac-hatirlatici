@@ -3,6 +3,13 @@
 
 const IS_PROD = process.env.APP_ENV === 'production';
 
+// google-services.json .gitignore'da (herkese acik depo). CI'da GOOGLE_SERVICES_JSON secret'indan
+// yazilir. Dosya yoksa FCM satiri devre disi kalir: derleme KIRILMAZ, uygulama eskisi gibi
+// yerel bildirimle calisir (pushService token alamaz -> false doner).
+const GOOGLE_SERVICES = require('fs').existsSync(__dirname + '/google-services.json')
+  ? './google-services.json'
+  : undefined;
+
 module.exports = {
   expo: {
     name: 'Sports on TV',
@@ -47,9 +54,10 @@ module.exports = {
         'android.permission.POST_NOTIFICATIONS',
         'android.permission.SCHEDULE_EXACT_ALARM',
       ],
-      // google-services.json sadece Firebase/FCM kullanıyorsak gerekli
-      // Lokal bildirimler için gerekli değil — yorum satırı bırakıldı
-      // googleServicesFile: './google-services.json',
+      // 1.4.4: push bildirimleri icin FCM gerekli (Android'de uzaktan bildirimin tek kanali).
+      // Uygulamaya Firebase KUTUPHANESI eklenmedi; expo-notifications zaten iceriyor, bu dosya
+      // yalniz hangi projeye baglanacagini soyler. Firebase projesi: mac-hatirlatici-bildirim.
+      googleServicesFile: GOOGLE_SERVICES,
     },
 
     ios: {

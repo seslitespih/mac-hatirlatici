@@ -47,6 +47,17 @@ jobs:
             "${{ secrets.REVENUECAT_IOS_KEY }}" \
             "${{ secrets.REVENUECAT_ANDROID_KEY }}" > .env
 
+      - name: google-services.json (FCM — push bildirimleri)
+        env:
+          GOOGLE_SERVICES_JSON: ${{ secrets.GOOGLE_SERVICES_JSON }}
+        run: |
+          if [ -n "$GOOGLE_SERVICES_JSON" ]; then
+            echo "$GOOGLE_SERVICES_JSON" | base64 -d > google-services.json
+            echo "google-services.json yazildi ($(wc -c < google-services.json) bayt)"
+          else
+            echo "::warning::GOOGLE_SERVICES_JSON secret yok — AAB push'suz (yalniz yerel bildirim) derlenecek"
+          fi
+
       - name: Expo prebuild (Android)
         env:
           BUILD_NUMBER: ${{ github.event.inputs.version_code }}
