@@ -15,7 +15,7 @@ Hepsi doğrudan çekilebilir. `broadcast-rights.json` → `kaynaklar.ulkeler` da
 
 | Ülke | Adres | Saat dilimi | Not |
 |---|---|---|---|
-| TR | `https://hangikanalda.app/api/proxy/matches` | **İstanbul UTC+3** | **JSON API — `curl` ile çek.** Sayfayı çekme, JS ile yükleniyor. |
+| TR | `https://hangikanalda.app/api/proxy/matches` | **İstanbul UTC+3** | **JSON API — `curl` ile çek.** Sayfayı çekme, JS ile yükleniyor. ⚠️ Yanıtta **DÖRT** bölüm var: `futbol`, `basketbol`, `voleybol`, `motor` — **dördünü de işle.** 18 Eyl 2026'da yalnız `futbol` işlendi, basketbol ve motorspor komple düştü. |
 | DE | `https://www.fotmob.com/de/tv-guide/de` | **UTC** | Bota UTC verir |
 | ES | `https://www.futbolenlatv.es/` | Madrid UTC+2 (yaz) | |
 | FR | `https://www.programmefoot.com/` | Paris UTC+2 (yaz) | |
@@ -123,14 +123,49 @@ Gece üretim yapılamazsa (dizüstü fişsiz, pil bitmiş) sabah bu dosya hazır
 
 **Girer:** büyük Avrupa ligleri ve kupaları · UEFA turnuvaları · Türkiye Süper Lig / 1. Lig / Türkiye Kupası ·
 Brasileirão A ve B · Copa do Brasil · Libertadores · Sudamericana · Arjantin Primera División ·
-Suudi Pro Lig · MLS · Liga MX · **Azerbaycan Premier Ligi** · A milli takım maçları · voleybol ve basketbolda büyük turnuvalar (**kadın turnuvaları dahil**) · **Akdeniz Oyunları (3x3 basketbol dahil)** · **ERKEK** FIFA/UEFA/CONMEBOL yaş grubu milli takım
-turnuvaları (U17/U20 Dünya Kupası).
+Suudi Pro Lig · MLS · Liga MX · **Azerbaycan Premier Ligi** · A milli takım maçları · **Akdeniz Oyunları** · **ERKEK** FIFA/UEFA/CONMEBOL yaş grubu milli takım turnuvaları (U17/U20 Dünya Kupası).
+
+### 🟢 ALTIN KURAL: uygulamanın takım listesindeki bir takım oynuyorsa MAÇ GİRER
+
+`constants/teams.ts` → `TEAMS` dizisi kullanıcının favoriye ekleyebildiği takımları tutar
+(futbol + **basketbol**: Anadolu Efes, Fenerbahçe Beko… + **voleybol**: Halkbank, VakıfBank… +
+**F1 takımları**). Bir takım o listede varsa, hangi turnuvada oynadığına bakmadan maçı girer.
+Sebep: kullanıcı o takımı seçebiliyorsa bildirim bekler; dosyada yoksa bildirim GİTMEZ.
+
+"Büyük turnuva mı?" diye kendine SORMA — o soru 18 Eyl 2026'da EuroLeague Süper Kupa'daki
+Fenerbahçe Beko ve Real Madrid maçlarının düşmesine yol açtı (ikisi de S Sport'ta, kullanıcının
+favorisinde). Ölçüt turnuvanın büyüklüğü değil, takımın uygulamada seçilebilir olmasıdır.
+
+### 🏀🏐 Basketbol ve voleybol
+
+**Girer:** EuroLeague · EuroCup · **EuroLeague Süper Kupa ve hazırlık turnuvaları** · BSL ·
+NBA · FIBA milli takım turnuvaları (**kadınlar dahil**) · CEV Avrupa Şampiyonası ·
+Efeler/Sultanlar Ligi · CEV kulüp kupaları. Kısacası: uygulamada o dalın takımı varsa girer.
+
+### 🏎️ Motorspor: SEANSLAR DA GİRER
+
+F1 · MotoGP · Moto2 · Moto3 · F2 · F3 için **antrenman, sıralama, sprint ve yarış** —
+hepsi ayrı kayıt olarak girer. `home` = etkinlik ("MotoGP Avusturya GP"),
+`away` = seans ("1. Antrenman", "Sıralama", "Sprint", "Yarış").
+⚠️ "Yarış yok, yalnız antrenman var, girmez" DEME — 18 Eyl 2026'da gece çalışması böyle
+yapıp MotoGP Avusturya'yı komple düşürdü; oysa 11-12 Eyl'de seanslar dosyadaydı.
+
+🔢 **BİR LİG GİRDİYSE O LİGİN O GÜNKÜ TÜM MAÇLARI GİRER.** Yarısını alıp yarısını bırakma.
+18 Eyl 2026'da 2. Bundesliga'dan Wolfsburg–Darmstadt girdi ama aynı saatteki
+Greuther Fürth–Magdeburg düştü. Push'tan önce her lig için kaynaktaki maç sayısını
+dosyadakiyle karşılaştır (bkz. §6 kontrol 6).
 
 ⚠️ **Bir önceki çalışmanın koyduğu maçı, kapsam dışı sandığın için ÇIKARMA.** 31 Ağu'da otomatik çalışma bir önceki çalışmanın eklediği Azerbaycan Premier Ligi maçını düşürdü. Dosyada duran bir maç, kaynakta hâlâ görünüyorsa ve bitmemişse KALIR.
 
 **Girmez:** bitmiş maçlar (`Tamamlandı` / `FIN` / `انتهت`) · **kulüplerin** rezerv ve
 altyapı **ligleri** (Torneo Proyección, U21 ligleri, Primera B/C) · kadın **kulüp** ligleri ·
-ülke listesinde olmayan niş ligler (İzlanda, Letonya vb.).
+ülke listesinde olmayan niş ligler (İzlanda, Letonya, Polonya Ekstraklasa vb.).
+
+**İngiltere/İskoçya — karar netleştirildi (tereddüt etme):**
+- GİRER: Premier Lig · Championship · League One · EFL (Carabao) Cup ·
+  İskoçya Premiership · İskoçya Championship · İskoçya Lig Kupası
+- GİRMEZ: League Two · National League · Cymru Premier · League of Ireland ·
+  Kuzey İrlanda Premiership · İskoçya League One/Two · U18/U21 Premier League
 
 🛑 **KADIN FUTBOLU HİÇBİR ŞEKİLDE GİRMEZ — kulüp de olsa MİLLİ TAKIM da olsa.**
 FIFA Kadınlar Dünya Kupası, U20 Kadınlar Dünya Kupası, Frauen-Bundesliga, NWSL, WSL,
@@ -232,6 +267,11 @@ Bunlardan biri bile başarısızsa **dosyayı yazma**, durumu raporla:
    **%70'inden az** mı, ya da kapsanan ülke sayısı azaldı mı? Öyleyse muhtemelen kaynak(lar)
    çekilememiştir — **mevcut dosyayı EZME**, raporla.
 5. Yirmi bir kaynaktan **en az on dördü** başarıyla çekildi mi.
+6. **Lig bütünlüğü:** dosyadaki her turnuva için, kaynaktaki o günkü maç sayısıyla
+   dosyadaki sayıyı karşılaştır. Eksik varsa tamamla ya da nedenini raporda yaz.
+7. **Dal bütünlüğü:** TR kaynağında `basketbol`, `voleybol` veya `motor` bölümünde maç
+   varken dosyada o daldan hiç kayıt yoksa **DUR** — atlamış olma ihtimalin yüksek.
+   Raporda her dal için "kaynakta N, dosyada M" yaz.
 
 Aynı gün içinde tekrar çalışırken mevcut dosya **zenginleştirilir, sıfırdan yazılmaz**:
 mevcut kanalları koru, yalnız eksikleri doldur ve biten maçları çıkar.
@@ -241,6 +281,8 @@ mevcut kanalları koru, yalnız eksikleri doldur ve biten maçları çıkar.
 ## 7. Push
 
 ```
+node scripts/filtre.mjs           # kadin futbolunu ayiklar
+node scripts/kapsam-kontrol.mjs   # dal butunlugu — cikis kodu 1 ise PUSH ETME, eksigi tamamla
 git add assets/matches-daily.json
 git commit -m "<gün> fiksturu: <n> mac, <k> ulke"
 git fetch origin && git rebase origin/main   # channels-daily.json'a otomatik commit atan bir iş var
