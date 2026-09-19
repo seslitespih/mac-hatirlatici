@@ -21,7 +21,7 @@ Hepsi doğrudan çekilebilir. `broadcast-rights.json` → `kaynaklar.ulkeler` da
 | FR | `https://www.programmefoot.com/` | Paris UTC+2 (yaz) | |
 | GB | `https://www.live-footballontv.com/` | Londra UTC+1 (yaz) | |
 | AR | `https://tvenvivo.com.ar/` | UTC−3 | |
-| BR | `https://www.futebolnatv.com.br/` | Brasília UTC−3 | Yaz saati YOK (2019'da kalktı) |
+| BR | `https://www.futebolnatv.com.br/` | Brasília UTC−3 | Yaz saati YOK (2019'da kalktı). **Gece çalışmasında `/jogos-amanha/` kullan** (bkz. "geç dönen kaynaklar") |
 | MENA | `https://www.kooora.com/كرة-القدم/مباريات-اليوم` | **Riyad UTC+3** | **BİRİNCİL** — günü zamanında çevirir; TOD TV / Abu Dhabi Sports / MBC Shahid |
 | MENA | `https://sporsat.com/ar` | UTC (bota) | yedek · ⏰ bir gün geride kalabiliyor · Arapça: `م`=PM, `ص`=AM |
 | US | `https://worldsoccertalk.com/upcoming-matches/` | ET UTC−4 (yaz) | **Sayfa ÖNCE dünü listeler** — istekte "dünü atla, sadece \<bugün\> başlığını listele" de |
@@ -56,7 +56,16 @@ güncelydi. Sonuç: gece çalışması Güney Amerika maçlarını komple kaçı
 (Libertadores çeyrek finali, Copa do Brasil, iki Série B maçı).
 
 **Kural:** gece 01:07 çalışmasında bu üçü eski tarih gösteriyorsa kullanma —
-ama **07:07 ve 13:07 çalışmalarında mutlaka tekrar dene.** O saatlerde güncel olurlar.
+ama **13:07 çalışmasında mutlaka tekrar dene.** O saatte güncel olurlar.
+
+🇧🇷 **BREZİLYA İÇİN GECE ÇÖZÜMÜ — "yarın" sayfası:** `https://www.futebolnatv.com.br/jogos-amanha/`
+Gece 01:07 İstanbul = 19:07 Brasília (bir önceki gün). O anda futebolnatv'nin "Amanhã"
+sayfası, BİZİM hedef günümüzün maçlarını gösterir. **Gece çalışmasında ana sayfa dünü
+gösteriyorsa bu sayfayı kullan** — Brezilya maçlarını 13:07'ye bırakma.
+Sebep: 19 Eyl 2026 gece dosyasında **hiç Brezilya maçı yoktu** (Série A 5 + Série B 2 maç
+vardı); Brezilya en çok indirme alan pazar. Saatler yine Brasília (UTC−3), yaz saati yok.
+Sayfadaki ilk maçın saatini kontrol et: sabah 07:00-10:00 Avrupa maçlarıyla başlıyorsa
+doğru gündür.
 
 ### Saat dilimi kuralı
 
