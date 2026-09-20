@@ -108,6 +108,9 @@ export function bildirimIcerigi(veri, kickoff, abone) {
 const TOKEN_RE = /^Expo(nent)?PushToken\[[A-Za-z0-9_-]{10,100}\]$/;
 const TAKIM_RE = /^[a-z0-9_]{2,40}$/;
 
+/** Uygulamadaki dal kimlikleri (constants/matches.ts). */
+export const DALLAR = ['football', 'basketball', 'volleyball', 'motorsport'];
+
 export function kayitDogrula(g) {
   if (!g || typeof g !== 'object') return { hata: 'govde yok' };
   if (typeof g.token !== 'string' || !TOKEN_RE.test(g.token)) return { hata: 'token gecersiz' };
@@ -121,5 +124,13 @@ export function kayitDogrula(g) {
     try { new Intl.DateTimeFormat('en-GB', { timeZone: g.tz }); tz = g.tz; } catch { /* UTC */ }
   }
   const platform = typeof g.platform === 'string' ? g.platform.slice(0, 10) : '';
-  return { deger: { token: g.token, takimlar, dil, ulke: g.ulke, tz, platform } };
+  // Kullanicinin bildirim istedigi spor dallari. Eski uygulama surumleri bu alani
+  // hic gondermez -> hepsi acik sayilir (eski davranis birebir korunur).
+  const dallar = Array.isArray(g.dallar)
+    ? DALLAR.filter((d) => g.dallar.includes(d))
+    : [...DALLAR];
+  return {
+    deger: { token: g.token, takimlar, dil, ulke: g.ulke, tz, platform,
+             dallar: dallar.length ? dallar : [...DALLAR] },
+  };
 }

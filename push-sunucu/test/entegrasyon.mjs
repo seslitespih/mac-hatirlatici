@@ -37,6 +37,11 @@ const FIKSTUR = {
     { id: 'm4', sport: 'football', tier: 'global', competitionId: 'superlig',
       competition: { en: 'Super Lig' }, home: 'Galatasaray', away: 'Konyaspor', homeNames: {}, awayNames: {},
       kickoffUtc: iso(12), broadcasts: { TR: ['beIN Sports 1'] } },
+    // Futbol takimiyla AYNI adi tasiyan kulubun basketbol maci: favori eslesmesi
+    // yalniz ada baktigi icin futbol seven kullaniciya da carpar.
+    { id: 'm5', sport: 'basketball', tier: 'global', competitionId: 'euroleague',
+      competition: { en: 'EuroLeague' }, home: 'Real Madrid', away: 'Joventut', homeNames: {}, awayNames: {},
+      kickoffUtc: iso(8), broadcasts: { TR: ['S Sport'] } },
   ],
 };
 
@@ -114,7 +119,7 @@ try {
   await new Promise((r) => setTimeout(r, 1500));
 
   const s1 = await saglik();
-  kontrol('plan dolduruldu (4 mac)', s1.plan === 4, `plan=${s1.plan}`);
+  kontrol('plan dolduruldu (5 mac)', s1.plan === 5, `plan=${s1.plan}`);
   kontrol('toplam 2 mesaj gonderildi', gelenler.length === 2, `gelen=${gelenler.length}`);
 
   const mA = gelenler.find((m) => m.to === A);
@@ -139,7 +144,7 @@ try {
   kontrol('/tetikle yanlis anahtar -> 401', (await fetch(`${TABAN}/tetikle`, { method: 'POST', headers: { Authorization: 'Bearer yanlis' } })).status === 401);
   const tr = await fetch(`${TABAN}/tetikle?plan=1`, { method: 'POST', headers: { Authorization: 'Bearer test-anahtari-123' } });
   const tj = await tr.json();
-  kontrol('/tetikle dogru anahtar -> 200, plan 4 mac, tekrar gonderim yok', tr.status === 200 && tj.planMac === 4 && tj.gonderilen === 0, JSON.stringify(tj));
+  kontrol('/tetikle dogru anahtar -> 200, plan 5 mac, tekrar gonderim yok', tr.status === 200 && tj.planMac === 5 && tj.gonderilen === 0, JSON.stringify(tj));
   kontrol('/tetikle sonrasi da cift gonderim yok', gelenler.length === 2, `gelen=${gelenler.length}`);
 
   // --- Es zamanli iki tetik: sahiplenme cift gonderimi engellemeli ---
@@ -176,7 +181,20 @@ try {
   kontrol('alarm calismaya devam etse de E ye TEKRAR YOK', gelenler.filter((m) => m.to === E).length === 1);
   kontrol('saglik: sonraki alarm gorunuyor', !!(await saglik()).sonrakiAlarm);
 
-  for (const t of [A, C, G, E]) await kayit({ token: t, takimlar: [], dil: 'tr', ulke: 'TR', tz: 'Europe/Istanbul', platform: 'ios' });
+  // --- Dal suzgeci: futbol icin Real Madrid secen kullaniciya BASKETBOL gitmemeli ---
+  const F = 'ExponentPushToken[FFFFFFFFFFFFFFFFFFFF]';   // yalniz futbol
+  const H = 'ExponentPushToken[HHHHHHHHHHHHHHHHHHHH]';   // eski surum: dallar alani YOK
+  await kayit({ token: F, takimlar: ['realmadrid'], dil: 'tr', ulke: 'TR', tz: 'Europe/Istanbul', platform: 'ios', dallar: ['football'] });
+  await kayit({ token: H, takimlar: ['realmadrid'], dil: 'tr', ulke: 'TR', tz: 'Europe/Istanbul', platform: 'ios' });
+  let hMesaj = [];
+  for (let i = 0; i < 15 && hMesaj.length === 0; i++) {
+    await new Promise((r) => setTimeout(r, 1000));
+    hMesaj = gelenler.filter((m) => m.to === H);
+  }
+  kontrol('dal suzgeci: eski surum (dal secimi yok) basketbolu ALDI', hMesaj.length === 1 && hMesaj[0].data.macId === 'm5', `H mesaj=${hMesaj.length}`);
+  kontrol('dal suzgeci: yalniz futbol secen kullaniciya basketbol GITMEDI', gelenler.filter((m) => m.to === F).length === 0, `F mesaj=${gelenler.filter((m) => m.to === F).length}`);
+
+  for (const t of [A, C, G, E, F, H]) await kayit({ token: t, takimlar: [], dil: 'tr', ulke: 'TR', tz: 'Europe/Istanbul', platform: 'ios' });
   kontrol('takip birakma: tum abonelikler silindi', (await saglik()).abone === 0);
 } catch (e) {
   console.log('TEST HATASI', e);

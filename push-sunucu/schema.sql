@@ -7,6 +7,8 @@ CREATE TABLE IF NOT EXISTS aboneler (
   ulke       TEXT NOT NULL,         -- uygulamanin listeyi kurdugu ulke (kanal secimi)
   tz         TEXT NOT NULL,         -- bildirimdeki saat bu dilimde yazilir
   platform   TEXT NOT NULL,
+  -- Bildirim istenen spor dallari (JSON dizi). NULL/bos = hepsi; eski kayitlar boyle.
+  dallar     TEXT,
   guncelleme INTEGER NOT NULL
 );
 

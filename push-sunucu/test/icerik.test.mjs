@@ -110,3 +110,16 @@ test('kayitDogrula', () => {
   assert.equal(kayitDogrula({ ...iyi, tz: 'Olmayan/Yer' }).deger.tz, 'UTC');
   assert.equal(kayitDogrula({ ...iyi, dil: 'turkce' }).deger.dil, 'en');
 });
+
+test('kayitDogrula: dal tercihi', () => {
+  const iyi = { token: 'ExponentPushToken[abcdefghijklmnop]', takimlar: ['realmadrid'], dil: 'tr', ulke: 'TR', tz: 'Europe/Istanbul', platform: 'ios' };
+  // Alan hic gelmezse (eski uygulama surumu) hepsi acik — eski davranis korunur.
+  assert.deepEqual(kayitDogrula(iyi).deger.dallar, ['football', 'basketball', 'volleyball', 'motorsport']);
+  // Kullanici yalniz futbol sectiyse
+  assert.deepEqual(kayitDogrula({ ...iyi, dallar: ['football'] }).deger.dallar, ['football']);
+  // Uydurma dal ayiklanir
+  assert.deepEqual(kayitDogrula({ ...iyi, dallar: ['football', 'kriket'] }).deger.dallar, ['football']);
+  // Bos ya da bozuk liste sessizce bildirimsiz birakmaz
+  assert.deepEqual(kayitDogrula({ ...iyi, dallar: [] }).deger.dallar.length, 4);
+  assert.deepEqual(kayitDogrula({ ...iyi, dallar: 'futbol' }).deger.dallar.length, 4);
+});

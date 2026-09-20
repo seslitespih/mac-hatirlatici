@@ -163,10 +163,10 @@ async function kaydet(env, k) {
 
   await env.DB.batch([   // D1 batch tek islem (transaction) olarak calisir
     env.DB.prepare(
-      `INSERT INTO aboneler (token, dil, ulke, tz, platform, guncelleme) VALUES (?, ?, ?, ?, ?, ?)
+      `INSERT INTO aboneler (token, dil, ulke, tz, platform, dallar, guncelleme) VALUES (?, ?, ?, ?, ?, ?, ?)
        ON CONFLICT(token) DO UPDATE SET dil = excluded.dil, ulke = excluded.ulke, tz = excluded.tz,
-         platform = excluded.platform, guncelleme = excluded.guncelleme`,
-    ).bind(k.token, k.dil, k.ulke, k.tz, k.platform, Date.now()),
+         platform = excluded.platform, dallar = excluded.dallar, guncelleme = excluded.guncelleme`,
+    ).bind(k.token, k.dil, k.ulke, k.tz, k.platform, JSON.stringify(k.dallar), Date.now()),
     silTakim,
     env.DB.prepare('INSERT INTO abone_takim (token, takim) SELECT ?, value FROM json_each(?)')
       .bind(k.token, JSON.stringify(k.takimlar)),
@@ -228,7 +228,7 @@ async function gonder(env, simdi) {
 
   // 2) Bu maclarin henuz bildirim almamis takipcileri — TEK sorgu
   const { results: ciftler } = await env.DB.prepare(
-    `SELECT p.mac_id, a.token, a.dil, a.ulke, a.tz
+    `SELECT p.mac_id, a.token, a.dil, a.ulke, a.tz, a.dallar
        FROM plan p, json_each(p.takimlar) jt
        JOIN abone_takim t ON t.takim = jt.value
        JOIN aboneler a ON a.token = t.token
@@ -237,7 +237,12 @@ async function gonder(env, simdi) {
       GROUP BY p.mac_id, a.token`,
   ).bind(simdi, ust).all();
 
-  const adaylar = ciftler.filter((c) => vadeli.has(c.mac_id) && gorunurMu(vadeli.get(c.mac_id).veri, c.ulke));
+  // Takim secimi spor dalini ayirmiyor (ayni adli kulubun basketbol maci futbol
+  // favorisiyle eslesiyor). Kullanici kapattigi dalda bildirim almaz.
+  const adaylar = ciftler.filter((c) =>
+    vadeli.has(c.mac_id)
+    && gorunurMu(vadeli.get(c.mac_id).veri, c.ulke)
+    && dalIstendiMi(c.dallar, vadeli.get(c.mac_id).veri.sport));
   if (adaylar.length === 0) return 0;
 
   // 3) SAHIPLEN — satiri bu calisma yazabildiyse gonderim bu calismanin
@@ -302,6 +307,17 @@ async function gonder(env, simdi) {
 }
 
 /** Expo'ya bir parti yollar. Biletleri doner; ulasilamazsa null (hepsi tekrar denenir). */
+/** Abonenin dal tercihi; kayit eski surumdense (null) hepsi acik sayilir. */
+function dalIstendiMi(ham, sport) {
+  if (!ham) return true;
+  try {
+    const liste = JSON.parse(ham);
+    return !Array.isArray(liste) || liste.length === 0 || liste.includes(sport ?? 'football');
+  } catch {
+    return true;
+  }
+}
+
 async function expoyaGonder(env, mesajlar) {
   const basliklar = { 'Content-Type': 'application/json', Accept: 'application/json' };
   if (env.EXPO_ACCESS_TOKEN) basliklar.Authorization = `Bearer ${env.EXPO_ACCESS_TOKEN}`;
