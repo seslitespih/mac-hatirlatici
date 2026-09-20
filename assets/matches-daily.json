@@ -3,10 +3,11 @@
  "date": "2026-09-20",
  "model": "claude-opus-4-8 (01:07 gece calismasi: 9 gunduz kaynagi TR/GB/US/DE/ES/FR/IT/PT/CA + BR jogos-amanha; yeni gun sifirdan kuruldu; MENA/Liga MX 13:07 zenginlestirmeye birakildi)",
  "stats": {
-  "total": 73,
-  "withChannel": 73,
+  "total": 75,
+  "withChannel": 75,
   "bySport": {
-   "football": 66,
+   "basketball": 1,
+   "football": 67,
    "motorsport": 3,
    "volleyball": 4
   },
@@ -231,41 +232,6 @@
    "sources": []
   },
   {
-   "id": "football-20260920-wolves-west-brom",
-   "sport": "football",
-   "competitionId": "championship",
-   "tier": "regional",
-   "competition": {
-    "tr": "İngiltere Championship",
-    "en": "EFL Championship",
-    "de": "Championship",
-    "es": "Championship",
-    "fr": "Championship",
-    "it": "Championship",
-    "pt": "Championship",
-    "ar": "دوري البطولة الإنجليزي"
-   },
-   "home": "Wolves",
-   "away": "West Brom",
-   "kickoffUtc": "2026-09-20T11:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "Sky Sports Football"
-    ],
-    "US": [
-     "CBS Sports Network",
-     "Paramount+"
-    ],
-    "FR": [
-     "beIN Sports Max 4"
-    ],
-    "PT": [
-     "Sport TV 6"
-    ]
-   },
-   "sources": []
-  },
-  {
    "id": "football-20260920-celtic-rangers",
    "sport": "football",
    "competitionId": "scot_prem",
@@ -297,6 +263,41 @@
     ],
     "PT": [
      "Sport TV 3"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260920-wolves-west-brom",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "Championship",
+    "es": "Championship",
+    "fr": "Championship",
+    "it": "Championship",
+    "pt": "Championship",
+    "ar": "دوري البطولة الإنجليزي"
+   },
+   "home": "Wolves",
+   "away": "West Brom",
+   "kickoffUtc": "2026-09-20T11:00:00Z",
+   "broadcasts": {
+    "GB": [
+     "Sky Sports Football"
+    ],
+    "US": [
+     "CBS Sports Network",
+     "Paramount+"
+    ],
+    "FR": [
+     "beIN Sports Max 4"
+    ],
+    "PT": [
+     "Sport TV 6"
     ]
    },
    "sources": []
@@ -370,40 +371,6 @@
    "sources": []
   },
   {
-   "id": "football-20260920-hannover-96-bochum",
-   "sport": "football",
-   "competitionId": "bundesliga2",
-   "tier": "regional",
-   "competition": {
-    "tr": "Almanya 2. Bundesliga",
-    "en": "2. Bundesliga",
-    "de": "2. Bundesliga",
-    "es": "2. Bundesliga",
-    "fr": "2. Bundesliga",
-    "it": "2. Bundesliga",
-    "pt": "2. Bundesliga",
-    "ar": "الدوري الألماني الدرجة الثانية"
-   },
-   "home": "Hannover 96",
-   "away": "Bochum",
-   "kickoffUtc": "2026-09-20T11:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "DE": [
-     "Sky Sport Bundesliga"
-    ],
-    "FR": [
-     "beIN Sports Max 5"
-    ],
-    "PT": [
-     "DAZN 4"
-    ]
-   },
-   "sources": []
-  },
-  {
    "id": "football-20260920-essen-hansa-rostock",
    "sport": "football",
    "competitionId": "3_liga",
@@ -442,32 +409,35 @@
    "sources": []
   },
   {
-   "id": "motorsport-20260920-motogp-avusturya-gp-yars",
-   "sport": "motorsport",
-   "competitionId": "motogp",
-   "tier": "global",
+   "id": "football-20260920-hannover-96-bochum",
+   "sport": "football",
+   "competitionId": "bundesliga2",
+   "tier": "regional",
    "competition": {
-    "tr": "MotoGP",
-    "en": "MotoGP",
-    "de": "MotoGP",
-    "es": "MotoGP",
-    "fr": "MotoGP",
-    "it": "MotoGP",
-    "pt": "MotoGP",
-    "ar": "موتو جي بي"
+    "tr": "Almanya 2. Bundesliga",
+    "en": "2. Bundesliga",
+    "de": "2. Bundesliga",
+    "es": "2. Bundesliga",
+    "fr": "2. Bundesliga",
+    "it": "2. Bundesliga",
+    "pt": "2. Bundesliga",
+    "ar": "الدوري الألماني الدرجة الثانية"
    },
-   "home": "MotoGP Avusturya GP",
-   "away": "Yarış",
-   "kickoffUtc": "2026-09-20T12:00:00Z",
+   "home": "Hannover 96",
+   "away": "Bochum",
+   "kickoffUtc": "2026-09-20T11:30:00Z",
    "broadcasts": {
     "TR": [
-     "Motosiklet",
-     "S Sport",
      "S Sport Plus"
     ],
-    "IT": [
-     "Sky Sport MotoGP",
-     "Sky Sport Uno"
+    "DE": [
+     "Sky Sport Bundesliga"
+    ],
+    "FR": [
+     "beIN Sports Max 5"
+    ],
+    "PT": [
+     "DAZN 4"
     ]
    },
    "sources": []
@@ -614,6 +584,37 @@
    "sources": []
   },
   {
+   "id": "motorsport-20260920-motogp-avusturya-gp-yars",
+   "sport": "motorsport",
+   "competitionId": "motogp",
+   "tier": "global",
+   "competition": {
+    "tr": "MotoGP",
+    "en": "MotoGP",
+    "de": "MotoGP",
+    "es": "MotoGP",
+    "fr": "MotoGP",
+    "it": "MotoGP",
+    "pt": "MotoGP",
+    "ar": "موتو جي بي"
+   },
+   "home": "MotoGP Avusturya GP",
+   "away": "Yarış",
+   "kickoffUtc": "2026-09-20T12:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Motosiklet",
+     "S Sport",
+     "S Sport Plus"
+    ],
+    "IT": [
+     "Sky Sport MotoGP",
+     "Sky Sport Uno"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260920-shamakhi-araz",
    "sport": "football",
    "competitionId": "aze_pl",
@@ -639,199 +640,86 @@
    "sources": []
   },
   {
-   "id": "football-20260920-cinfaes-leixoes",
+   "id": "football-20260920-twente-psv",
    "sport": "football",
-   "competitionId": "taca_portugal",
+   "competitionId": "eredivisie",
    "tier": "regional",
    "competition": {
-    "tr": "Portekiz Kupası",
-    "en": "Taça de Portugal",
-    "de": "Taça de Portugal",
-    "es": "Copa de Portugal",
-    "fr": "Coupe du Portugal",
-    "it": "Coppa di Portogallo",
-    "pt": "Taça de Portugal",
-    "ar": "كأس البرتغال"
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي"
    },
-   "home": "Cinfaes",
-   "away": "Leixoes",
-   "homeNames": {
-    "pt": "Cinfães",
-    "en": "Cinfães"
+   "home": "Twente",
+   "away": "PSV",
+   "kickoffUtc": "2026-09-20T12:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "US": [
+     "ESPN+"
+    ]
    },
+   "sources": []
+  },
+  {
+   "id": "football-20260920-arezzo-sudtirol",
+   "sport": "football",
+   "competitionId": "seriebit",
+   "tier": "regional",
+   "competition": {
+    "tr": "İtalya Serie B",
+    "en": "Serie B",
+    "de": "Serie B (Italien)",
+    "es": "Serie B (Italia)",
+    "fr": "Serie B (Italie)",
+    "it": "Serie B",
+    "pt": "Serie B (Itália)",
+    "ar": "الدوري الإيطالي الدرجة الثانية"
+   },
+   "home": "Arezzo",
+   "away": "Sudtirol",
    "awayNames": {
-    "pt": "Leixões",
-    "en": "Leixões"
+    "de": "Südtirol",
+    "it": "Südtirol",
+    "en": "Südtirol"
    },
    "kickoffUtc": "2026-09-20T13:00:00Z",
    "broadcasts": {
-    "PT": [
-     "Canal 11"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260920-manchester-city-sunderland",
-   "sport": "football",
-   "competitionId": "premier",
-   "tier": "global",
-   "competition": {
-    "tr": "İngiltere Premier Lig",
-    "en": "Premier League",
-    "de": "Premier League",
-    "es": "Premier League",
-    "fr": "Premier League",
-    "it": "Premier League",
-    "pt": "Premier League",
-    "ar": "الدوري الإنجليزي الممتاز"
-   },
-   "home": "Manchester City",
-   "away": "Sunderland",
-   "kickoffUtc": "2026-09-20T13:00:00Z",
-   "broadcasts": {
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ],
-    "NG": [
-     "SuperSport"
-    ],
-    "ZA": [
-     "SuperSport"
-    ],
-    "GH": [
-     "SuperSport"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
-    ],
-    "GT": [
-     "FOX Sports",
-     "TNT Sports"
-    ],
-    "AU": [
-     "Stan Sport"
-    ],
-    "JP": [
-     "U-NEXT"
-    ],
-    "KR": [
-     "Coupang Play"
-    ],
-    "DE": [
-     "Sky Sport"
-    ],
-    "BR": [
-     "Disney+",
-     "ESPN"
-    ],
-    "TR": [
-     "beIN Sports 3"
-    ],
-    "GB": [
-     "Sky Sports Premier League",
-     "Sky Sports Ultra HDR"
-    ],
-    "US": [
-     "NBCSN",
-     "Peacock"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN 2"
-    ],
-    "FR": [
-     "CANAL+ Live 3"
-    ],
     "IT": [
-     "Sky Sport Calcio"
+     "DAZN"
     ],
     "PT": [
-     "DAZN 2"
-    ],
-    "CA": [
-     "Fubo"
+     "OneFootball PPV"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260920-leeds-united-crystal-palace",
+   "id": "football-20260920-auxerre-brest",
    "sport": "football",
-   "competitionId": "premier",
+   "competitionId": "ligue1",
    "tier": "global",
    "competition": {
-    "tr": "İngiltere Premier Lig",
-    "en": "Premier League",
-    "de": "Premier League",
-    "es": "Premier League",
-    "fr": "Premier League",
-    "it": "Premier League",
-    "pt": "Premier League",
-    "ar": "الدوري الإنجليزي الممتاز"
+    "tr": "Fransa Ligue 1",
+    "en": "Ligue 1",
+    "de": "Ligue 1",
+    "es": "Ligue 1",
+    "fr": "Ligue 1",
+    "it": "Ligue 1",
+    "pt": "Ligue 1",
+    "ar": "الدوري الفرنسي"
    },
-   "home": "Leeds United",
-   "away": "Crystal Palace",
+   "home": "Auxerre",
+   "away": "Brest",
    "kickoffUtc": "2026-09-20T13:00:00Z",
    "broadcasts": {
     "SA": [
@@ -867,15 +755,6 @@
     "LY": [
      "beIN Sports"
     ],
-    "NG": [
-     "SuperSport"
-    ],
-    "ZA": [
-     "SuperSport"
-    ],
-    "GH": [
-     "SuperSport"
-    ],
     "SN": [
      "Canal+"
     ],
@@ -885,69 +764,20 @@
     "ML": [
      "Canal+"
     ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
-    ],
-    "GT": [
-     "FOX Sports",
-     "TNT Sports"
-    ],
-    "AU": [
-     "Stan Sport"
-    ],
-    "JP": [
-     "U-NEXT"
-    ],
-    "KR": [
-     "Coupang Play"
-    ],
-    "DE": [
-     "Sky Sport"
-    ],
-    "BR": [
-     "Disney+",
-     "ESPN"
-    ],
     "TR": [
-     "beIN Sports 5"
-    ],
-    "GB": [
-     "Sky Sports Tennis"
-    ],
-    "US": [
-     "NBCSN",
-     "Peacock"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN 3"
+     "beIN Connect"
     ],
     "FR": [
-     "CANAL+ Live 5"
+     "DAZN",
+     "Ligue 1+"
+    ],
+    "US": [
+     "beIN Sports",
+     "Fanatiz"
     ],
     "PT": [
-     "DAZN 3"
+     "Fanatiz",
+     "Sport TV 6"
     ],
     "CA": [
      "Fubo"
@@ -1098,6 +928,39 @@
    "sources": []
   },
   {
+   "id": "football-20260920-cinfaes-leixoes",
+   "sport": "football",
+   "competitionId": "taca_portugal",
+   "tier": "regional",
+   "competition": {
+    "tr": "Portekiz Kupası",
+    "en": "Taça de Portugal",
+    "de": "Taça de Portugal",
+    "es": "Copa de Portugal",
+    "fr": "Coupe du Portugal",
+    "it": "Coppa di Portogallo",
+    "pt": "Taça de Portugal",
+    "ar": "كأس البرتغال"
+   },
+   "home": "Cinfaes",
+   "away": "Leixoes",
+   "homeNames": {
+    "pt": "Cinfães",
+    "en": "Cinfães"
+   },
+   "awayNames": {
+    "pt": "Leixões",
+    "en": "Leixões"
+   },
+   "kickoffUtc": "2026-09-20T13:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Canal 11"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260920-frosinone-como",
    "sport": "football",
    "competitionId": "seriea",
@@ -1217,6 +1080,290 @@
     ],
     "PT": [
      "Sport TV 2"
+    ],
+    "CA": [
+     "Fubo"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260920-leeds-united-crystal-palace",
+   "sport": "football",
+   "competitionId": "premier",
+   "tier": "global",
+   "competition": {
+    "tr": "İngiltere Premier Lig",
+    "en": "Premier League",
+    "de": "Premier League",
+    "es": "Premier League",
+    "fr": "Premier League",
+    "it": "Premier League",
+    "pt": "Premier League",
+    "ar": "الدوري الإنجليزي الممتاز"
+   },
+   "home": "Leeds United",
+   "away": "Crystal Palace",
+   "kickoffUtc": "2026-09-20T13:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "NG": [
+     "SuperSport"
+    ],
+    "ZA": [
+     "SuperSport"
+    ],
+    "GH": [
+     "SuperSport"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
+    ],
+    "CO": [
+     "ESPN",
+     "Disney+"
+    ],
+    "CL": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "PY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "PE": [
+     "ESPN",
+     "Disney+"
+    ],
+    "EC": [
+     "ESPN",
+     "Disney+"
+    ],
+    "GT": [
+     "FOX Sports",
+     "TNT Sports"
+    ],
+    "AU": [
+     "Stan Sport"
+    ],
+    "JP": [
+     "U-NEXT"
+    ],
+    "KR": [
+     "Coupang Play"
+    ],
+    "DE": [
+     "Sky Sport"
+    ],
+    "BR": [
+     "Disney+",
+     "ESPN"
+    ],
+    "TR": [
+     "beIN Sports 5"
+    ],
+    "GB": [
+     "Sky Sports Tennis"
+    ],
+    "US": [
+     "NBCSN",
+     "Peacock"
+    ],
+    "ES": [
+     "DAZN",
+     "DAZN 3"
+    ],
+    "FR": [
+     "CANAL+ Live 5"
+    ],
+    "PT": [
+     "DAZN 3"
+    ],
+    "CA": [
+     "Fubo"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260920-manchester-city-sunderland",
+   "sport": "football",
+   "competitionId": "premier",
+   "tier": "global",
+   "competition": {
+    "tr": "İngiltere Premier Lig",
+    "en": "Premier League",
+    "de": "Premier League",
+    "es": "Premier League",
+    "fr": "Premier League",
+    "it": "Premier League",
+    "pt": "Premier League",
+    "ar": "الدوري الإنجليزي الممتاز"
+   },
+   "home": "Manchester City",
+   "away": "Sunderland",
+   "kickoffUtc": "2026-09-20T13:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "NG": [
+     "SuperSport"
+    ],
+    "ZA": [
+     "SuperSport"
+    ],
+    "GH": [
+     "SuperSport"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
+    ],
+    "CO": [
+     "ESPN",
+     "Disney+"
+    ],
+    "CL": [
+     "ESPN",
+     "Disney+"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "PY": [
+     "ESPN",
+     "Disney+"
+    ],
+    "PE": [
+     "ESPN",
+     "Disney+"
+    ],
+    "EC": [
+     "ESPN",
+     "Disney+"
+    ],
+    "GT": [
+     "FOX Sports",
+     "TNT Sports"
+    ],
+    "AU": [
+     "Stan Sport"
+    ],
+    "JP": [
+     "U-NEXT"
+    ],
+    "KR": [
+     "Coupang Play"
+    ],
+    "DE": [
+     "Sky Sport"
+    ],
+    "BR": [
+     "Disney+",
+     "ESPN"
+    ],
+    "TR": [
+     "beIN Sports 3"
+    ],
+    "GB": [
+     "Sky Sports Premier League",
+     "Sky Sports Ultra HDR"
+    ],
+    "US": [
+     "NBCSN",
+     "Peacock"
+    ],
+    "ES": [
+     "DAZN",
+     "DAZN 2"
+    ],
+    "FR": [
+     "CANAL+ Live 3"
+    ],
+    "IT": [
+     "Sky Sport Calcio"
+    ],
+    "PT": [
+     "DAZN 2"
     ],
     "CA": [
      "Fubo"
@@ -1382,121 +1529,6 @@
    "sources": []
   },
   {
-   "id": "football-20260920-arezzo-sudtirol",
-   "sport": "football",
-   "competitionId": "seriebit",
-   "tier": "regional",
-   "competition": {
-    "tr": "İtalya Serie B",
-    "en": "Serie B",
-    "de": "Serie B (Italien)",
-    "es": "Serie B (Italia)",
-    "fr": "Serie B (Italie)",
-    "it": "Serie B",
-    "pt": "Serie B (Itália)",
-    "ar": "الدوري الإيطالي الدرجة الثانية"
-   },
-   "home": "Arezzo",
-   "away": "Sudtirol",
-   "awayNames": {
-    "de": "Südtirol",
-    "it": "Südtirol",
-    "en": "Südtirol"
-   },
-   "kickoffUtc": "2026-09-20T13:00:00Z",
-   "broadcasts": {
-    "IT": [
-     "DAZN"
-    ],
-    "PT": [
-     "OneFootball PPV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260920-auxerre-brest",
-   "sport": "football",
-   "competitionId": "ligue1",
-   "tier": "global",
-   "competition": {
-    "tr": "Fransa Ligue 1",
-    "en": "Ligue 1",
-    "de": "Ligue 1",
-    "es": "Ligue 1",
-    "fr": "Ligue 1",
-    "it": "Ligue 1",
-    "pt": "Ligue 1",
-    "ar": "الدوري الفرنسي"
-   },
-   "home": "Auxerre",
-   "away": "Brest",
-   "kickoffUtc": "2026-09-20T13:00:00Z",
-   "broadcasts": {
-    "SA": [
-     "beIN Sports"
-    ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ],
-    "TR": [
-     "beIN Connect"
-    ],
-    "FR": [
-     "DAZN",
-     "Ligue 1+"
-    ],
-    "US": [
-     "beIN Sports",
-     "Fanatiz"
-    ],
-    "PT": [
-     "Fanatiz",
-     "Sport TV 6"
-    ],
-    "CA": [
-     "Fubo"
-    ]
-   },
-   "sources": []
-  },
-  {
    "id": "volleyball-20260920-ukraine-romania",
    "sport": "volleyball",
    "competitionId": "cev_euro",
@@ -1622,6 +1654,38 @@
    "sources": []
   },
   {
+   "id": "football-20260920-erzurumspor-samsunspor",
+   "sport": "football",
+   "competitionId": "superlig",
+   "tier": "global",
+   "competition": {
+    "tr": "Trendyol Süper Lig",
+    "en": "Süper Lig",
+    "de": "Süper Lig",
+    "es": "Superliga de Turquía",
+    "fr": "Süper Lig",
+    "it": "Süper Lig",
+    "pt": "Liga Turca",
+    "ar": "الدوري التركي الممتاز"
+   },
+   "home": "Erzurumspor",
+   "away": "Samsunspor",
+   "kickoffUtc": "2026-09-20T14:00:00Z",
+   "broadcasts": {
+    "DE": [
+     "Digiturk Euro"
+    ],
+    "TR": [
+     "beIN Sports 2"
+    ],
+    "FR": [
+     "beIN Sports",
+     "beIN Sports Connect"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260920-fenerbahce-eyupspor",
    "sport": "football",
    "competitionId": "superlig",
@@ -1666,59 +1730,37 @@
    "sources": []
   },
   {
-   "id": "football-20260920-erzurumspor-samsunspor",
+   "id": "football-20260920-gremio-palmeiras",
    "sport": "football",
-   "competitionId": "superlig",
+   "competitionId": "bra_seriea",
    "tier": "global",
    "competition": {
-    "tr": "Trendyol Süper Lig",
-    "en": "Süper Lig",
-    "de": "Süper Lig",
-    "es": "Superliga de Turquía",
-    "fr": "Süper Lig",
-    "it": "Süper Lig",
-    "pt": "Liga Turca",
-    "ar": "الدوري التركي الممتاز"
+    "tr": "Brezilya Serie A",
+    "en": "Brasileirão Série A",
+    "de": "Brasileirão Série A",
+    "es": "Brasileirão Serie A",
+    "fr": "Brasileirão Série A",
+    "it": "Brasileirão Serie A",
+    "pt": "Brasileirão Série A",
+    "ar": "الدوري البرازيلي"
    },
-   "home": "Erzurumspor",
-   "away": "Samsunspor",
-   "kickoffUtc": "2026-09-20T14:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "Digiturk Euro"
-    ],
-    "TR": [
-     "beIN Sports 2"
-    ],
-    "FR": [
-     "beIN Sports",
-     "beIN Sports Connect"
-    ]
+   "home": "Gremio",
+   "away": "Palmeiras",
+   "homeNames": {
+    "pt": "Grêmio",
+    "en": "Grêmio"
    },
-   "sources": []
-  },
-  {
-   "id": "football-20260920-pendikspor-bodrumspor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "Turkish First League",
-    "de": "Türkische 1. Liga",
-    "es": "Primera División de Turquía",
-    "fr": "Première Ligue turque",
-    "it": "Serie B turca",
-    "pt": "Segunda Liga Turca",
-    "ar": "الدوري التركي الدرجة الأولى"
-   },
-   "home": "Pendikspor",
-   "away": "Bodrumspor",
    "kickoffUtc": "2026-09-20T14:00:00Z",
    "broadcasts": {
     "TR": [
-     "tabii Spor 6",
-     "beIN Sports Max 1"
+     "Spor Smart",
+     "Smart Spor HD"
+    ],
+    "BR": [
+     "Premiere"
+    ],
+    "ES": [
+     "M+ Liga de Campeones"
     ]
    },
    "sources": []
@@ -1754,37 +1796,27 @@
    "sources": []
   },
   {
-   "id": "football-20260920-gremio-palmeiras",
+   "id": "football-20260920-pendikspor-bodrumspor",
    "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "global",
+   "competitionId": "tff1",
+   "tier": "regional",
    "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
+    "tr": "Trendyol 1. Lig",
+    "en": "Turkish First League",
+    "de": "Türkische 1. Liga",
+    "es": "Primera División de Turquía",
+    "fr": "Première Ligue turque",
+    "it": "Serie B turca",
+    "pt": "Segunda Liga Turca",
+    "ar": "الدوري التركي الدرجة الأولى"
    },
-   "home": "Gremio",
-   "away": "Palmeiras",
-   "homeNames": {
-    "pt": "Grêmio",
-    "en": "Grêmio"
-   },
+   "home": "Pendikspor",
+   "away": "Bodrumspor",
    "kickoffUtc": "2026-09-20T14:00:00Z",
    "broadcasts": {
     "TR": [
-     "Spor Smart",
-     "Smart Spor HD"
-    ],
-    "BR": [
-     "Premiere"
-    ],
-    "ES": [
-     "M+ Liga de Campeones"
+     "tabii Spor 6",
+     "beIN Sports Max 1"
     ]
    },
    "sources": []
@@ -1992,39 +2024,38 @@
    "sources": []
   },
   {
-   "id": "football-20260920-waldhof-mannheim-preussen-munster",
+   "id": "football-20260920-estrela-academico-viseu",
    "sport": "football",
-   "competitionId": "3_liga",
-   "tier": "regional",
+   "competitionId": "primeira",
+   "tier": "global",
    "competition": {
-    "tr": "Almanya 3. Lig",
-    "en": "3. Liga",
-    "de": "3. Liga",
-    "es": "3. Liga (Alemania)",
-    "fr": "3. Liga (Allemagne)",
-    "it": "3. Liga (Germania)",
-    "pt": "3. Liga (Alemanha)",
-    "ar": "الدوري الألماني الدرجة الثالثة"
+    "tr": "Portekiz Ligi",
+    "en": "Liga Portugal",
+    "de": "Liga Portugal",
+    "es": "Primeira Liga",
+    "fr": "Liga Portugal",
+    "it": "Primeira Liga",
+    "pt": "Liga Portugal",
+    "ar": "الدوري البرتغالي"
    },
-   "home": "Waldhof Mannheim",
-   "away": "Preussen Munster",
+   "home": "Estrela",
+   "away": "Academico Viseu",
+   "homeNames": {
+    "pt": "Estrela da Amadora",
+    "en": "Estrela da Amadora"
+   },
    "awayNames": {
-    "de": "Preußen Münster",
-    "en": "Preußen Münster"
+    "pt": "Académico de Viseu",
+    "en": "Académico de Viseu"
    },
    "kickoffUtc": "2026-09-20T14:30:00Z",
    "broadcasts": {
-    "TR": [
-     "Sıfır TV"
-    ],
-    "US": [
-     "ESPN+"
-    ],
-    "ES": [
-     "OneFootball PPV"
+    "DE": [
+     "Sportdigital Fußball",
+     "Sportdigital+"
     ],
     "PT": [
-     "OneFootball PPV"
+     "Sport TV 3"
     ]
    },
    "sources": []
@@ -2066,38 +2097,39 @@
    "sources": []
   },
   {
-   "id": "football-20260920-estrela-academico-viseu",
+   "id": "football-20260920-waldhof-mannheim-preussen-munster",
    "sport": "football",
-   "competitionId": "primeira",
-   "tier": "global",
+   "competitionId": "3_liga",
+   "tier": "regional",
    "competition": {
-    "tr": "Portekiz Ligi",
-    "en": "Liga Portugal",
-    "de": "Liga Portugal",
-    "es": "Primeira Liga",
-    "fr": "Liga Portugal",
-    "it": "Primeira Liga",
-    "pt": "Liga Portugal",
-    "ar": "الدوري البرتغالي"
+    "tr": "Almanya 3. Lig",
+    "en": "3. Liga",
+    "de": "3. Liga",
+    "es": "3. Liga (Alemania)",
+    "fr": "3. Liga (Allemagne)",
+    "it": "3. Liga (Germania)",
+    "pt": "3. Liga (Alemanha)",
+    "ar": "الدوري الألماني الدرجة الثالثة"
    },
-   "home": "Estrela",
-   "away": "Academico Viseu",
-   "homeNames": {
-    "pt": "Estrela da Amadora",
-    "en": "Estrela da Amadora"
-   },
+   "home": "Waldhof Mannheim",
+   "away": "Preussen Munster",
    "awayNames": {
-    "pt": "Académico de Viseu",
-    "en": "Académico de Viseu"
+    "de": "Preußen Münster",
+    "en": "Preußen Münster"
    },
    "kickoffUtc": "2026-09-20T14:30:00Z",
    "broadcasts": {
-    "DE": [
-     "Sportdigital Fußball",
-     "Sportdigital+"
+    "TR": [
+     "Sıfır TV"
+    ],
+    "US": [
+     "ESPN+"
+    ],
+    "ES": [
+     "OneFootball PPV"
     ],
     "PT": [
-     "Sport TV 3"
+     "OneFootball PPV"
     ]
    },
    "sources": []
@@ -2471,31 +2503,6 @@
    "sources": []
   },
   {
-   "id": "football-20260920-marco-09-maia-lidador",
-   "sport": "football",
-   "competitionId": "taca_portugal",
-   "tier": "regional",
-   "competition": {
-    "tr": "Portekiz Kupası",
-    "en": "Taça de Portugal",
-    "de": "Taça de Portugal",
-    "es": "Copa de Portugal",
-    "fr": "Coupe du Portugal",
-    "it": "Coppa di Portogallo",
-    "pt": "Taça de Portugal",
-    "ar": "كأس البرتغال"
-   },
-   "home": "Marco 09",
-   "away": "Maia Lidador",
-   "kickoffUtc": "2026-09-20T16:00:00Z",
-   "broadcasts": {
-    "PT": [
-     "Canal 11"
-    ]
-   },
-   "sources": []
-  },
-  {
    "id": "football-20260920-juventus-atalanta",
    "sport": "football",
    "competitionId": "seriea",
@@ -2619,6 +2626,31 @@
     ],
     "CA": [
      "Fubo"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260920-marco-09-maia-lidador",
+   "sport": "football",
+   "competitionId": "taca_portugal",
+   "tier": "regional",
+   "competition": {
+    "tr": "Portekiz Kupası",
+    "en": "Taça de Portugal",
+    "de": "Taça de Portugal",
+    "es": "Copa de Portugal",
+    "fr": "Coupe du Portugal",
+    "it": "Coppa di Portogallo",
+    "pt": "Taça de Portugal",
+    "ar": "كأس البرتغال"
+   },
+   "home": "Marco 09",
+   "away": "Maia Lidador",
+   "kickoffUtc": "2026-09-20T16:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Canal 11"
     ]
    },
    "sources": []
@@ -2771,6 +2803,36 @@
    "sources": []
   },
   {
+   "id": "football-20260920-las-palmas-burgos",
+   "sport": "football",
+   "competitionId": "laliga2",
+   "tier": "regional",
+   "competition": {
+    "tr": "İspanya LaLiga Hypermotion",
+    "en": "LaLiga Hypermotion",
+    "de": "LaLiga Hypermotion",
+    "es": "LaLiga Hypermotion",
+    "fr": "LaLiga Hypermotion",
+    "it": "LaLiga Hypermotion",
+    "pt": "LaLiga Hypermotion",
+    "ar": "دوري الدرجة الثانية الإسباني"
+   },
+   "home": "Las Palmas",
+   "away": "Burgos",
+   "kickoffUtc": "2026-09-20T16:30:00Z",
+   "broadcasts": {
+    "ES": [
+     "LaLiga TV Hypermotion",
+     "DAZN",
+     "LaLiga TV M3"
+    ],
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260920-villarreal-levante",
    "sport": "football",
    "competitionId": "laliga",
@@ -2880,31 +2942,31 @@
    "sources": []
   },
   {
-   "id": "football-20260920-las-palmas-burgos",
-   "sport": "football",
-   "competitionId": "laliga2",
+   "id": "basketball-20260920-joventut-barcelona",
+   "sport": "basketball",
+   "competitionId": "supercopa_acb",
    "tier": "regional",
    "competition": {
-    "tr": "İspanya LaLiga Hypermotion",
-    "en": "LaLiga Hypermotion",
-    "de": "LaLiga Hypermotion",
-    "es": "LaLiga Hypermotion",
-    "fr": "LaLiga Hypermotion",
-    "it": "LaLiga Hypermotion",
-    "pt": "LaLiga Hypermotion",
-    "ar": "دوري الدرجة الثانية الإسباني"
+    "tr": "İspanya Basketbol Süper Kupa Final",
+    "en": "Spanish Basketball Supercup Final",
+    "de": "Spanischer Basketball-Supercup Finale",
+    "es": "Supercopa Endesa Final",
+    "fr": "Supercoupe d'Espagne de basket Finale",
+    "it": "Supercoppa di Spagna di basket Finale",
+    "pt": "Supertaça de Espanha de basquetebol Final",
+    "ar": "نهائي كأس السوبر الإسباني لكرة السلة"
    },
-   "home": "Las Palmas",
-   "away": "Burgos",
-   "kickoffUtc": "2026-09-20T16:30:00Z",
+   "home": "Joventut Badalona",
+   "away": "Barcelona",
+   "kickoffUtc": "2026-09-20T17:00:00Z",
    "broadcasts": {
-    "ES": [
-     "LaLiga TV Hypermotion",
-     "DAZN",
-     "LaLiga TV M3"
+    "TR": [
+     "Spor Smart 2",
+     "Smart Spor 2"
     ],
-    "US": [
-     "ESPN+"
+    "ES": [
+     "DAZN",
+     "Movistar Plus+"
     ]
    },
    "sources": []
@@ -2950,6 +3012,61 @@
    "sources": []
   },
   {
+   "id": "football-20260920-antalyaspor-vanspor",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "Turkish First League",
+    "de": "Türkische 1. Liga",
+    "es": "Primera División de Turquía",
+    "fr": "Première Ligue turque",
+    "it": "Serie B turca",
+    "pt": "Segunda Liga Turca",
+    "ar": "الدوري التركي الدرجة الأولى"
+   },
+   "home": "Antalyaspor",
+   "away": "Vanspor",
+   "kickoffUtc": "2026-09-20T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Türk",
+     "beIN Sports Max 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260920-estoril-casa-pia",
+   "sport": "football",
+   "competitionId": "primeira",
+   "tier": "global",
+   "competition": {
+    "tr": "Portekiz Ligi",
+    "en": "Liga Portugal",
+    "de": "Liga Portugal",
+    "es": "Primeira Liga",
+    "fr": "Liga Portugal",
+    "it": "Primeira Liga",
+    "pt": "Liga Portugal",
+    "ar": "الدوري البرتغالي"
+   },
+   "home": "Estoril",
+   "away": "Casa Pia",
+   "kickoffUtc": "2026-09-20T17:00:00Z",
+   "broadcasts": {
+    "DE": [
+     "Sportdigital Fußball",
+     "Sportdigital+"
+    ],
+    "PT": [
+     "Sport TV 3"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260920-goztepe-caykur-rizespor",
    "sport": "football",
    "competitionId": "superlig",
@@ -2990,32 +3107,6 @@
    "sources": []
   },
   {
-   "id": "football-20260920-antalyaspor-vanspor",
-   "sport": "football",
-   "competitionId": "tff1",
-   "tier": "regional",
-   "competition": {
-    "tr": "Trendyol 1. Lig",
-    "en": "Turkish First League",
-    "de": "Türkische 1. Liga",
-    "es": "Primera División de Turquía",
-    "fr": "Première Ligue turque",
-    "it": "Serie B turca",
-    "pt": "Segunda Liga Turca",
-    "ar": "الدوري التركي الدرجة الأولى"
-   },
-   "home": "Antalyaspor",
-   "away": "Vanspor",
-   "kickoffUtc": "2026-09-20T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Türk",
-     "beIN Sports Max 2"
-    ]
-   },
-   "sources": []
-  },
-  {
    "id": "football-20260920-mardin-1969-kayserispor",
    "sport": "football",
    "competitionId": "tff1",
@@ -3037,35 +3128,6 @@
     "TR": [
      "TRT Spor",
      "beIN Sports Max 1"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260920-estoril-casa-pia",
-   "sport": "football",
-   "competitionId": "primeira",
-   "tier": "global",
-   "competition": {
-    "tr": "Portekiz Ligi",
-    "en": "Liga Portugal",
-    "de": "Liga Portugal",
-    "es": "Primeira Liga",
-    "fr": "Liga Portugal",
-    "it": "Primeira Liga",
-    "pt": "Liga Portugal",
-    "ar": "الدوري البرتغالي"
-   },
-   "home": "Estoril",
-   "away": "Casa Pia",
-   "kickoffUtc": "2026-09-20T17:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "Sportdigital Fußball",
-     "Sportdigital+"
-    ],
-    "PT": [
-     "Sport TV 3"
     ]
    },
    "sources": []
@@ -3266,6 +3328,88 @@
    "sources": []
   },
   {
+   "id": "football-20260920-marseille-psg",
+   "sport": "football",
+   "competitionId": "ligue1",
+   "tier": "global",
+   "competition": {
+    "tr": "Fransa Ligue 1",
+    "en": "Ligue 1",
+    "de": "Ligue 1",
+    "es": "Ligue 1",
+    "fr": "Ligue 1",
+    "it": "Ligue 1",
+    "pt": "Ligue 1",
+    "ar": "الدوري الفرنسي"
+   },
+   "home": "Marseille",
+   "away": "PSG",
+   "kickoffUtc": "2026-09-20T18:45:00Z",
+   "broadcasts": {
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
+    ],
+    "TR": [
+     "beIN Sports 3"
+    ],
+    "FR": [
+     "DAZN",
+     "Ligue 1+"
+    ],
+    "US": [
+     "beIN Sports",
+     "Fanatiz"
+    ],
+    "PT": [
+     "Fanatiz",
+     "Sport TV 6"
+    ],
+    "CA": [
+     "Fubo"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260920-milan-lecce",
    "sport": "football",
    "competitionId": "seriea",
@@ -3394,83 +3538,99 @@
    "sources": []
   },
   {
-   "id": "football-20260920-marseille-psg",
+   "id": "football-20260920-corinthians-fluminense",
    "sport": "football",
-   "competitionId": "ligue1",
+   "competitionId": "bra_seriea",
    "tier": "global",
    "competition": {
-    "tr": "Fransa Ligue 1",
-    "en": "Ligue 1",
-    "de": "Ligue 1",
-    "es": "Ligue 1",
-    "fr": "Ligue 1",
-    "it": "Ligue 1",
-    "pt": "Ligue 1",
-    "ar": "الدوري الفرنسي"
+    "tr": "Brezilya Serie A",
+    "en": "Brasileirão Série A",
+    "de": "Brasileirão Série A",
+    "es": "Brasileirão Serie A",
+    "fr": "Brasileirão Série A",
+    "it": "Brasileirão Serie A",
+    "pt": "Brasileirão Série A",
+    "ar": "الدوري البرازيلي"
    },
-   "home": "Marseille",
-   "away": "PSG",
-   "kickoffUtc": "2026-09-20T18:45:00Z",
+   "home": "Corinthians",
+   "away": "Fluminense",
+   "kickoffUtc": "2026-09-20T19:00:00Z",
    "broadcasts": {
-    "SA": [
-     "beIN Sports"
+    "BR": [
+     "Globo",
+     "Premiere"
     ],
-    "DZ": [
-     "beIN Sports"
-    ],
-    "IQ": [
-     "beIN Sports"
-    ],
-    "JO": [
-     "beIN Sports"
-    ],
-    "EG": [
-     "beIN Sports"
-    ],
-    "OM": [
-     "beIN Sports"
-    ],
-    "QA": [
-     "beIN Sports"
-    ],
-    "AE": [
-     "beIN Sports"
-    ],
-    "MA": [
-     "beIN Sports"
-    ],
-    "TN": [
-     "beIN Sports"
-    ],
-    "LY": [
-     "beIN Sports"
-    ],
-    "SN": [
-     "Canal+"
-    ],
-    "CI": [
-     "Canal+"
-    ],
-    "ML": [
-     "Canal+"
-    ],
-    "TR": [
-     "beIN Sports 3"
-    ],
-    "FR": [
+    "ES": [
+     "M+ Vamos",
+     "Fanatiz"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260920-goias-avai",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brasileirão Série B",
+    "de": "Brasileirão Série B",
+    "es": "Brasileirão Serie B",
+    "fr": "Brasileirão Série B",
+    "it": "Brasileirão Serie B",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Goias",
+   "away": "Avai",
+   "homeNames": {
+    "pt": "Goiás",
+    "en": "Goiás"
+   },
+   "awayNames": {
+    "pt": "Avaí",
+    "en": "Avaí"
+   },
+   "kickoffUtc": "2026-09-20T19:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260920-leganes-granada",
+   "sport": "football",
+   "competitionId": "laliga2",
+   "tier": "regional",
+   "competition": {
+    "tr": "İspanya LaLiga Hypermotion",
+    "en": "LaLiga Hypermotion",
+    "de": "LaLiga Hypermotion",
+    "es": "LaLiga Hypermotion",
+    "fr": "LaLiga Hypermotion",
+    "it": "LaLiga Hypermotion",
+    "pt": "LaLiga Hypermotion",
+    "ar": "دوري الدرجة الثانية الإسباني"
+   },
+   "home": "Leganes",
+   "away": "Granada",
+   "homeNames": {
+    "es": "Leganés",
+    "tr": "Leganés",
+    "en": "Leganés"
+   },
+   "kickoffUtc": "2026-09-20T19:00:00Z",
+   "broadcasts": {
+    "ES": [
+     "LaLiga TV Hypermotion",
      "DAZN",
-     "Ligue 1+"
+     "LaLiga TV M2"
     ],
     "US": [
-     "beIN Sports",
-     "Fanatiz"
-    ],
-    "PT": [
-     "Fanatiz",
-     "Sport TV 6"
-    ],
-    "CA": [
-     "Fubo"
+     "ESPN+"
     ]
    },
    "sources": []
@@ -3586,71 +3746,6 @@
    "sources": []
   },
   {
-   "id": "football-20260920-leganes-granada",
-   "sport": "football",
-   "competitionId": "laliga2",
-   "tier": "regional",
-   "competition": {
-    "tr": "İspanya LaLiga Hypermotion",
-    "en": "LaLiga Hypermotion",
-    "de": "LaLiga Hypermotion",
-    "es": "LaLiga Hypermotion",
-    "fr": "LaLiga Hypermotion",
-    "it": "LaLiga Hypermotion",
-    "pt": "LaLiga Hypermotion",
-    "ar": "دوري الدرجة الثانية الإسباني"
-   },
-   "home": "Leganes",
-   "away": "Granada",
-   "homeNames": {
-    "es": "Leganés",
-    "tr": "Leganés",
-    "en": "Leganés"
-   },
-   "kickoffUtc": "2026-09-20T19:00:00Z",
-   "broadcasts": {
-    "ES": [
-     "LaLiga TV Hypermotion",
-     "DAZN",
-     "LaLiga TV M2"
-    ],
-    "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260920-corinthians-fluminense",
-   "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
-   },
-   "home": "Corinthians",
-   "away": "Fluminense",
-   "kickoffUtc": "2026-09-20T19:00:00Z",
-   "broadcasts": {
-    "BR": [
-     "Globo",
-     "Premiere"
-    ],
-    "ES": [
-     "M+ Vamos",
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
    "id": "football-20260920-vitoria-cruzeiro",
    "sport": "football",
    "competitionId": "bra_seriea",
@@ -3677,39 +3772,6 @@
      "Globo",
      "Premiere",
      "GE TV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260920-goias-avai",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brasileirão Série B",
-    "de": "Brasileirão Série B",
-    "es": "Brasileirão Serie B",
-    "fr": "Brasileirão Série B",
-    "it": "Brasileirão Serie B",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Goias",
-   "away": "Avai",
-   "homeNames": {
-    "pt": "Goiás",
-    "en": "Goiás"
-   },
-   "awayNames": {
-    "pt": "Avaí",
-    "en": "Avaí"
-   },
-   "kickoffUtc": "2026-09-20T19:00:00Z",
-   "broadcasts": {
-    "BR": [
-     "Disney+"
     ]
    },
    "sources": []
@@ -3791,39 +3853,6 @@
    "sources": []
   },
   {
-   "id": "football-20260920-rosario-central-argentinos-juniors",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Primera División",
-    "en": "Argentine Primera División",
-    "de": "Primera División (Argentinien)",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Rosario Central",
-   "away": "Argentinos Juniors",
-   "kickoffUtc": "2026-09-20T20:00:00Z",
-   "broadcasts": {
-    "AR": [
-     "ESPN Premium",
-     "TNT Sports"
-    ],
-    "ES": [
-     "M+ Vamos 2",
-     "Fanatiz"
-    ],
-    "BR": [
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
    "id": "football-20260920-platense-newells-old-boys",
    "sport": "football",
    "competitionId": "arg_primera",
@@ -3851,6 +3880,39 @@
      "TNT Sports"
     ],
     "ES": [
+     "Fanatiz"
+    ],
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260920-rosario-central-argentinos-juniors",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Primera División",
+    "en": "Argentine Primera División",
+    "de": "Primera División (Argentinien)",
+    "es": "Primera División de Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primeira Divisão Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Rosario Central",
+   "away": "Argentinos Juniors",
+   "kickoffUtc": "2026-09-20T20:00:00Z",
+   "broadcasts": {
+    "AR": [
+     "ESPN Premium",
+     "TNT Sports"
+    ],
+    "ES": [
+     "M+ Vamos 2",
      "Fanatiz"
     ],
     "BR": [
