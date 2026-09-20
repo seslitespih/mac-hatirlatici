@@ -22,9 +22,16 @@
 // UCRETSIZ PLAN SINIRI: calisma basina ~50 D1 sorgusu. Tum toplu isler json_each ile TEK sorguda
 // yapilir; mac ve abone sayisi ne olursa olsun calisma basina sorgu sayisi sabit kalir.
 
-import { planKaydi, zamaniGeldiMi, gorunurMu, bildirimIcerigi, kayitDogrula, HATIRLAT_DK } from './icerik.js';
+import {
+  planKaydi, zamaniGeldiMi, gorunurMu, bildirimIcerigi, ozetIcerigi, kayitDogrula,
+  yerelSaat, HATIRLAT_DK, OZET_SAAT,
+} from './icerik.js';
 
-const PLAN_UFKU_MS = 6 * 60 * 60 * 1000;   // simdiden 6 saat sonrasina kadarki maclar
+// Sabah ozeti (09:00) o gunun tamamini bilmek zorunda; bu yuzden ufuk 6 saat degil
+// 26 saat. gonder() zaten yalniz 15 dk icindeki maclara bakiyor, etkilenmiyor.
+const PLAN_UFKU_MS = 26 * 60 * 60 * 1000;
+const OZET_PENCERE_DK = 15;                // 09:00-09:14 arasinda gonderilir
+const GUN_MS          = 86_400_000;
 const EXPO_PARTI   = 100;                   // Expo tek istekte en fazla 100 mesaj alir
 const JSON_SINIR   = 8 * 1024;
 
@@ -137,7 +144,8 @@ async function calis(env, simdi, planZorla) {
     planMac = await planYenile(env, simdi);
   }
   const gonderilen = await gonder(env, simdi);
-  return { planMac, gonderilen };
+  const ozet = await ozetGonder(env, simdi);
+  return { planMac, gonderilen, ozet };
 }
 
 /** Zamanlama saldirisina karsi sabit sureli karsilastirma. */
@@ -209,6 +217,7 @@ async function planYenile(env, simdi) {
       .bind(simdi, JSON.stringify(kayitlar.map((k) => k.mac_id))),
     env.DB.prepare('DELETE FROM plan WHERE kickoff < ?').bind(simdi - 2 * 3_600_000),
     env.DB.prepare('DELETE FROM gonderilen WHERE ts < ?').bind(simdi - 3 * 86_400_000),
+    env.DB.prepare('DELETE FROM gunluk_ozet WHERE ts < ?').bind(simdi - 3 * 86_400_000),
   ]);
   console.log('plan yenilendi', kayitlar.length, 'mac');
   return kayitlar.length;
@@ -306,7 +315,118 @@ async function gonder(env, simdi) {
   return basarili;
 }
 
-/** Expo'ya bir parti yollar. Biletleri doner; ulasilamazsa null (hepsi tekrar denenir). */
+/** Abonenin yerel tarihi (YYYY-MM-DD) — ozet gunde bir kez gitsin diye anahtar. */
+function yerelGun(ms, tz) {
+  try {
+    return new Date(ms).toLocaleDateString('en-CA', { timeZone: tz || 'UTC' });
+  } catch {
+    return new Date(ms).toISOString().slice(0, 10);
+  }
+}
+
+/**
+ * Sabah ozeti: abonenin yerel saatiyle 09:00'da, o gun takip ettigi takimlarin
+ * maclarini TEK bildirimde ozetler. 15 dk kala giden hatirlatma ayrica devam eder.
+ * Ayni gun icin ikinci kez gitmez (gunluk_ozet sahiplenmesi).
+ */
+async function ozetGonder(env, simdi) {
+  const { results: aboneler } = await env.DB.prepare(
+    'SELECT token, dil, ulke, tz, dallar FROM aboneler',
+  ).all();
+
+  const uygun = aboneler
+    .map((a) => ({ ...a, gun: yerelGun(simdi, a.tz) }))
+    .filter((a) => {
+      const [ss, dd] = yerelSaat(simdi, a.tz).split(':').map(Number);
+      // Pencere testte genisletilebilir (wrangler --var); uretimde 15 dk.
+      return ss === OZET_SAAT && dd < (Number(env.OZET_PENCERE_DK) || OZET_PENCERE_DK);
+    });
+  if (uygun.length === 0) return 0;
+
+  // SAHIPLEN — ayni dakikada iki calisma varsa yalniz biri gonderir
+  const { results: sahiplenen } = await env.DB.prepare(
+    `INSERT OR IGNORE INTO gunluk_ozet (token, gun, ts)
+       SELECT json_extract(value, '$.t'), json_extract(value, '$.g'), ?
+         FROM json_each(?) WHERE true
+     RETURNING token`,
+  ).bind(simdi, JSON.stringify(uygun.map((a) => ({ t: a.token, g: a.gun })))).all();
+  if (sahiplenen.length === 0) return 0;
+
+  const benim = new Map(uygun.filter((a) => sahiplenen.some((r) => r.token === a.token)).map((a) => [a.token, a]));
+
+  const { results: satirlar } = await env.DB.prepare(
+    `SELECT p.mac_id, p.kickoff, p.veri, a.token
+       FROM plan p, json_each(p.takimlar) jt
+       JOIN abone_takim t ON t.takim = jt.value
+       JOIN aboneler a ON a.token = t.token
+      WHERE a.token IN (SELECT value FROM json_each(?))
+        AND p.kickoff > ? AND p.kickoff <= ?
+      GROUP BY p.mac_id, a.token`,
+  ).bind(JSON.stringify([...benim.keys()]), simdi, simdi + GUN_MS).all();
+
+  // Abone basina: kendi ulkesinde gorunen, dal tercihine uyan ve AYNI YEREL GUNDEKI maclar
+  const kisiler = new Map();
+  for (const r of satirlar) {
+    const a = benim.get(r.token);
+    if (!a) continue;
+    const veri = JSON.parse(r.veri);
+    if (!gorunurMu(veri, a.ulke)) continue;
+    if (!dalIstendiMi(a.dallar, veri.sport)) continue;
+    if (yerelGun(r.kickoff, a.tz) !== a.gun) continue;
+    if (!kisiler.has(r.token)) kisiler.set(r.token, []);
+    kisiler.get(r.token).push({ kickoff: r.kickoff, veri });
+  }
+
+  const mesajlar = [];
+  for (const [token, maclar] of kisiler) {
+    maclar.sort((x, y) => x.kickoff - y.kickoff);
+    const a = benim.get(token);
+    mesajlar.push({
+      to: token,
+      ...ozetIcerigi(maclar, a),
+      sound: 'default',
+      priority: 'normal',
+      data: { ozet: a.gun },
+    });
+  }
+  // Maci olmayan abone: sahiplenme satiri kalsin — bugun icin tekrar bakilmasin.
+  if (mesajlar.length === 0) return 0;
+
+  let basarili = 0;
+  const birak = [];
+  const olu   = [];
+  for (let i = 0; i < mesajlar.length; i += EXPO_PARTI) {
+    const parti = mesajlar.slice(i, i + EXPO_PARTI);
+    const biletler = await expoyaGonder(env, parti);
+    parti.forEach((m, j) => {
+      const b = biletler?.[j];
+      if (b?.status === 'ok') basarili++;
+      else if (b?.details?.error === 'DeviceNotRegistered') olu.push(m.to);
+      else {
+        birak.push(m.to);   // gecici hata: sahiplenmeyi geri al, bir sonraki dakika tekrar denesin
+        if (b) console.log('ozet bilet hatasi', m.to.slice(0, 24), b.details?.error ?? b.message);
+      }
+    });
+  }
+
+  const temizlik = [];
+  if (birak.length) {
+    temizlik.push(env.DB.prepare(
+      'DELETE FROM gunluk_ozet WHERE token IN (SELECT value FROM json_each(?))',
+    ).bind(JSON.stringify(birak)));
+  }
+  if (olu.length) {
+    const liste = JSON.stringify([...new Set(olu)]);
+    temizlik.push(
+      env.DB.prepare('DELETE FROM abone_takim WHERE token IN (SELECT value FROM json_each(?))').bind(liste),
+      env.DB.prepare('DELETE FROM aboneler WHERE token IN (SELECT value FROM json_each(?))').bind(liste),
+      env.DB.prepare('DELETE FROM gunluk_ozet WHERE token IN (SELECT value FROM json_each(?))').bind(liste),
+    );
+  }
+  if (temizlik.length) await env.DB.batch(temizlik);
+  return basarili;
+}
+
 /** Abonenin dal tercihi; kayit eski surumdense (null) hepsi acik sayilir. */
 function dalIstendiMi(ham, sport) {
   if (!ham) return true;
@@ -318,6 +438,7 @@ function dalIstendiMi(ham, sport) {
   }
 }
 
+/** Expo'ya bir parti yollar. Biletleri doner; ulasilamazsa null (hepsi tekrar denenir). */
 async function expoyaGonder(env, mesajlar) {
   const basliklar = { 'Content-Type': 'application/json', Accept: 'application/json' };
   if (env.EXPO_ACCESS_TOKEN) basliklar.Authorization = `Bearer ${env.EXPO_ACCESS_TOKEN}`;

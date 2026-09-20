@@ -42,6 +42,10 @@ const FIKSTUR = {
     { id: 'm5', sport: 'basketball', tier: 'global', competitionId: 'euroleague',
       competition: { en: 'EuroLeague' }, home: 'Real Madrid', away: 'Joventut', homeNames: {}, awayNames: {},
       kickoffUtc: iso(8), broadcasts: { TR: ['S Sport'] } },
+    // Sabah ozeti icin: gunun ilerisinde, 15 dk penceresine GIRMEYEN mac
+    { id: 'm6', sport: 'football', tier: 'global', competitionId: 'laliga',
+      competition: { en: 'LaLiga' }, home: 'Real Madrid', away: 'Sevilla', homeNames: {}, awayNames: {},
+      kickoffUtc: iso(120), broadcasts: { TR: ['S Sport Plus'] } },
   ],
 };
 
@@ -85,6 +89,7 @@ const dev = spawn('npx', [
   '--var', 'TETIK_ANAHTARI:test-anahtari-123',
   '--var', 'ALARM_OTOMATIK:0',
   '--var', 'ALARM_ARALIK_MS:2000',
+  '--var', 'OZET_PENCERE_DK:60',   // sabah ozeti testi saatin hangi dakikasinda calisirsa calissin
 ], { shell: true, stdio: ['ignore', 'pipe', 'pipe'] });
 let devLog = '';
 dev.stdout.on('data', (d) => (devLog += d));
@@ -119,7 +124,7 @@ try {
   await new Promise((r) => setTimeout(r, 1500));
 
   const s1 = await saglik();
-  kontrol('plan dolduruldu (5 mac)', s1.plan === 5, `plan=${s1.plan}`);
+  kontrol('plan dolduruldu (6 mac)', s1.plan === 6, `plan=${s1.plan}`);
   kontrol('toplam 2 mesaj gonderildi', gelenler.length === 2, `gelen=${gelenler.length}`);
 
   const mA = gelenler.find((m) => m.to === A);
@@ -144,7 +149,7 @@ try {
   kontrol('/tetikle yanlis anahtar -> 401', (await fetch(`${TABAN}/tetikle`, { method: 'POST', headers: { Authorization: 'Bearer yanlis' } })).status === 401);
   const tr = await fetch(`${TABAN}/tetikle?plan=1`, { method: 'POST', headers: { Authorization: 'Bearer test-anahtari-123' } });
   const tj = await tr.json();
-  kontrol('/tetikle dogru anahtar -> 200, plan 5 mac, tekrar gonderim yok', tr.status === 200 && tj.planMac === 5 && tj.gonderilen === 0, JSON.stringify(tj));
+  kontrol('/tetikle dogru anahtar -> 200, plan 6 mac, tekrar gonderim yok', tr.status === 200 && tj.planMac === 6 && tj.gonderilen === 0, JSON.stringify(tj));
   kontrol('/tetikle sonrasi da cift gonderim yok', gelenler.length === 2, `gelen=${gelenler.length}`);
 
   // --- Es zamanli iki tetik: sahiplenme cift gonderimi engellemeli ---
@@ -194,7 +199,20 @@ try {
   kontrol('dal suzgeci: eski surum (dal secimi yok) basketbolu ALDI', hMesaj.length === 1 && hMesaj[0].data.macId === 'm5', `H mesaj=${hMesaj.length}`);
   kontrol('dal suzgeci: yalniz futbol secen kullaniciya basketbol GITMEDI', gelenler.filter((m) => m.to === F).length === 0, `F mesaj=${gelenler.filter((m) => m.to === F).length}`);
 
-  for (const t of [A, C, G, E, F, H]) await kayit({ token: t, takimlar: [], dil: 'tr', ulke: 'TR', tz: 'Europe/Istanbul', platform: 'ios' });
+  // --- Sabah ozeti: abonenin yerel saati 09:xx olacak sekilde zaman dilimi secilir ---
+  const S = 'ExponentPushToken[SABAHSABAHSABAH00001]';
+  const ofsHam = ((9 - new Date().getUTCHours()) + 24) % 24;          // istenen yerel saat: 09
+  const ofs    = ofsHam > 12 ? ofsHam - 24 : ofsHam;                   // -11..+12
+  const sabahTz = ofs === 0 ? 'UTC' : (ofs > 0 ? `Etc/GMT-${ofs}` : `Etc/GMT+${-ofs}`);
+  await kayit({ token: S, takimlar: ['realmadrid'], dil: 'tr', ulke: 'TR', tz: sabahTz, platform: 'ios' });
+  const o1 = await tetik();
+  const sMesaj = gelenler.filter((m) => m.to === S && m.data?.ozet);
+  kontrol('sabah ozeti: tek bildirimde gunun maclari', sMesaj.length === 1 && /Bugün \d+ maçın var/.test(sMesaj[0].title), `${sMesaj.length} mesaj | ${sMesaj[0]?.title ?? ''}`);
+  kontrol('sabah ozeti: 15 dk hatirlatmasi ayri kaliyor (ozet govdesinde mac listesi)', /Real Madrid - Sevilla/.test(sMesaj[0]?.body ?? ''), JSON.stringify(sMesaj[0]?.body ?? ''));
+  await tetik();
+  kontrol('sabah ozeti: ayni gun IKINCI kez gitmiyor', gelenler.filter((m) => m.to === S && m.data?.ozet).length === 1);
+
+  for (const t of [A, C, G, E, F, H, S]) await kayit({ token: t, takimlar: [], dil: 'tr', ulke: 'TR', tz: 'Europe/Istanbul', platform: 'ios' });
   kontrol('takip birakma: tum abonelikler silindi', (await saglik()).abone === 0);
 } catch (e) {
   console.log('TEST HATASI', e);

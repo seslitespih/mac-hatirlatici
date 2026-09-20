@@ -27,6 +27,14 @@ CREATE TABLE IF NOT EXISTS plan (
 );
 CREATE INDEX IF NOT EXISTS idx_plan_kickoff ON plan(kickoff);
 
+-- Sabah ozeti gunde bir kez gitsin (gun = abonenin YEREL tarihi, YYYY-MM-DD)
+CREATE TABLE IF NOT EXISTS gunluk_ozet (
+  token TEXT NOT NULL,
+  gun   TEXT NOT NULL,
+  ts    INTEGER NOT NULL,
+  PRIMARY KEY (token, gun)
+);
+
 -- Ayni maci ayni cihaza iki kez gondermemek icin
 CREATE TABLE IF NOT EXISTS gonderilen (
   mac_id TEXT NOT NULL,

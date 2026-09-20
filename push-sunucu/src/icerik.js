@@ -103,6 +103,49 @@ export function bildirimIcerigi(veri, kickoff, abone) {
   return { title, body };
 }
 
+// ─── Sabah ozeti ─────────────────────────────────────────────────────────────
+// Kullanici istegi (20 Eyl 2026): "favoriye aldigi bir mac varsa sabah da bir kere
+// bildirim atsin, 15 dk kala bildirim de devam etsin." Bu EK bir bildirimdir.
+
+/** Abonenin yerel saatiyle ozetin gonderilecegi saat. */
+export const OZET_SAAT = 9;
+
+const OZET = {
+  tr: { tek: 'Bugün 1 maçın var', cok: (n) => `Bugün ${n} maçın var`, daha: (k) => `+${k} maç daha` },
+  en: { tek: '1 match today',     cok: (n) => `${n} matches today`,    daha: (k) => `+${k} more` },
+  es: { tek: 'Hoy tienes 1 partido', cok: (n) => `Hoy tienes ${n} partidos`, daha: (k) => `+${k} más` },
+  pt: { tek: 'Hoje: 1 jogo',      cok: (n) => `Hoje: ${n} jogos`,      daha: (k) => `+${k} mais` },
+  fr: { tek: "1 match aujourd'hui", cok: (n) => `${n} matchs aujourd'hui`, daha: (k) => `+${k} autres` },
+  de: { tek: 'Heute 1 Spiel',     cok: (n) => `Heute ${n} Spiele`,     daha: (k) => `+${k} weitere` },
+  it: { tek: 'Oggi 1 partita',    cok: (n) => `Oggi ${n} partite`,     daha: (k) => `+${k} altre` },
+  ar: { tek: 'لديك مباراة واحدة اليوم', cok: (n) => `لديك ${n} مباريات اليوم`, daha: (k) => `+${k} أخرى` },
+};
+
+const OZET_SATIR = 3;   // bildirimde en fazla bu kadar mac adi; gerisi "+N"
+
+/**
+ * Bir abonenin bugunku maclarinin tek bildirimlik ozeti.
+ * @param maclar [{ kickoff, veri }] — saate gore sirali olmali
+ */
+export function ozetIcerigi(maclar, abone) {
+  const o = OZET[abone.dil] ?? OZET.en;
+  const n = maclar.length;
+  const title = `📅 ${n === 1 ? o.tek : o.cok(n)}`;
+
+  const satirlar = maclar.slice(0, OZET_SATIR).map((m) => {
+    const emoji = EMOJI[m.veri.sport] ?? '🏆';
+    const ev    = sec(m.veri.homeNames, abone.dil, m.veri.home);
+    const dep   = sec(m.veri.awayNames, abone.dil, m.veri.away);
+    const saat  = yerelSaat(m.kickoff, abone.tz);
+    return m.veri.sport === 'motorsport'
+      ? `${emoji} ${saat} ${ev}`
+      : `${emoji} ${saat} ${ev} - ${dep}`;
+  });
+  if (n > OZET_SATIR) satirlar.push(o.daha(n - OZET_SATIR));
+
+  return { title, body: satirlar.join('\n') };
+}
+
 // ─── Kayit dogrulama ─────────────────────────────────────────────────────────
 
 const TOKEN_RE = /^Expo(nent)?PushToken\[[A-Za-z0-9_-]{10,100}\]$/;
