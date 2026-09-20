@@ -151,6 +151,26 @@ favorisinde). Ölçüt turnuvanın büyüklüğü değil, takımın uygulamada s
 NBA · FIBA milli takım turnuvaları (**kadınlar dahil**) · CEV Avrupa Şampiyonası ·
 Efeler/Sultanlar Ligi · CEV kulüp kupaları. Kısacası: uygulamada o dalın takımı varsa girer.
 
+🏷️ **KULÜP ADI O DALIN MARKASIYLA YAZILIR — yoksa futbol takımına bildirim gider.**
+Uygulama da push sunucusu da favori eşleşmesini YALNIZ ada bakarak yapar
+(`norm(ad) === takimId`); spor dalına BAKMAZ. Dosyaya "Barcelona" yazarsan, futbol için
+Barcelona'yı seçen herkese basketbol bildirimi gider. Kullanıcı 20 Eyl 2026'da bunu
+bildirdi (Real Madrid futbol seçmişti, basketbol bildirimi geldi).
+
+| Yanlış | Doğru | norm() sonucu |
+|---|---|---|
+| Barcelona | **Barça Basket** | `barcabasket` — eşleşmez ✔ |
+| Real Madrid | **Real Madrid Baloncesto** | `realmadridbaloncesto` ✔ |
+| Fenerbahçe | **Fenerbahçe Beko** | `fenerbahcebeko` ✔ (zaten doğru) |
+| Galatasaray | **Galatasaray MCT Technic** | ✔ (zaten doğru) |
+| Beşiktaş (basketbol) | **Beşiktaş GAIN** | ✔ |
+
+⚠️ Uygulamada **kendi kimliği olan** dal takımları (Anadolu Efes, Fenerbahçe Beko,
+Halkbank, VakıfBank, Arkas, Ziraat Bankkart, Eczacıbaşı) **olduğu gibi yazılır** —
+onların bildirimi GİTMELİ. Kural yalnız futbol takımıyla aynı adı taşıyan kulüpler için.
+⚠️ Milli takımlarda (CEV/FIBA: "İtalya", "Fransa") ad DEĞİŞTİRİLMEZ — orada aynı sorun
+var ama çözümü sunucu tarafında; adı bozmak sitede ve listede karışıklık yaratır.
+
 ### 🏎️ Motorspor: SEANSLAR DA GİRER
 
 F1 · MotoGP · Moto2 · Moto3 · F2 · F3 için **antrenman, sıralama, sprint ve yarış** —
