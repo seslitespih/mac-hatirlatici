@@ -6,7 +6,10 @@ import {
   scheduleAllNotifications,
   cancelAllNotifications,
 } from '../services/notificationService';
-import { getNotificationsEnabled, saveNotificationsEnabled, getCountry } from '../services/storageService';
+import {
+  getNotificationsEnabled, saveNotificationsEnabled, getCountry,
+  getNotifySports, saveNotifySports, NOTIFY_SPORTS_ALL, NotifySport,
+} from '../services/storageService';
 import { fetchTRMatches } from '../services/hangikanalda';
 import { fetchSportsDbMatches } from '../services/sportsDbService';
 import { Match } from '../constants/matches';
@@ -16,6 +19,7 @@ export function useNotifications(selectedTeamIds: string[]) {
   const { i18n } = useTranslation();
   const [permissionGranted, setPermissionGranted] = useState(false);
   const [notificationsEnabled, setNotificationsEnabled] = useState(true);
+  const [notifySports, setNotifySports] = useState<NotifySport[]>(NOTIFY_SPORTS_ALL);
   const [isLoading, setIsLoading] = useState(true);
   const notificationListener = useRef<Notifications.Subscription | null>(null);
   const responseListener = useRef<Notifications.Subscription | null>(null);
@@ -27,7 +31,11 @@ export function useNotifications(selectedTeamIds: string[]) {
 
     async function init() {
       const enabled = await getNotificationsEnabled();
-      if (mounted) setNotificationsEnabled(enabled);
+      const sports  = await getNotifySports();
+      if (mounted) {
+        setNotificationsEnabled(enabled);
+        setNotifySports(sports);
+      }
 
       const granted = await requestNotificationPermissions();
       if (mounted) {
@@ -105,9 +113,38 @@ export function useNotifications(selectedTeamIds: string[]) {
     }
   }
 
+  /**
+   * Bir spor dalının bildirimini açar/kapatır.
+   * Son açık dal kapatılamaz — hepsi kapalıyken kullanıcı sessizce bildirimsiz kalır;
+   * bunun yerine üstteki bildirim anahtarını kapatması gerekir.
+   */
+  async function toggleSport(sport: NotifySport) {
+    const acik = notifySports.includes(sport);
+    if (acik && notifySports.length === 1) return;
+    const yeni = acik
+      ? notifySports.filter((s) => s !== sport)
+      : NOTIFY_SPORTS_ALL.filter((s) => s === sport || notifySports.includes(s));
+
+    setNotifySports(yeni);
+    await saveNotifySports(yeni);
+
+    // Yerel bildirimleri yeniden kur ve sunucuya yeni dal listesini bildir.
+    if (permissionGranted && notificationsEnabled) {
+      if (matchesRef.current.length === 0) {
+        const countryCode = (await getCountry()) ?? 'TR';
+        matchesRef.current = countryCode === 'TR'
+          ? await fetchTRMatches()
+          : await fetchSportsDbMatches(countryCode);
+      }
+      await scheduleAllNotifications(selectedTeamIds, matchesRef.current, i18n.language);
+    }
+  }
+
   return {
     permissionGranted,
     notificationsEnabled,
+    notifySports,
+    toggleSport,
     isLoading,
     toggleNotifications,
   };

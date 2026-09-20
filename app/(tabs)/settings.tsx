@@ -15,12 +15,20 @@ import { useCountry } from '../../contexts/CountryContext';
 import { SUPPORTED_COUNTRIES } from '../../constants/countryChannels';
 import { useTheme } from '../../contexts/ThemeContext';
 import PaywallScreen from '../../components/PaywallScreen';
+import { NotifySport } from '../../services/storageService';
+
+const SPOR_DALLARI: { id: NotifySport; emoji: string }[] = [
+  { id: 'football',   emoji: '⚽' },
+  { id: 'basketball', emoji: '🏀' },
+  { id: 'volleyball', emoji: '🏐' },
+  { id: 'motorsport', emoji: '🏎️' },
+];
 
 export default function SettingsScreen() {
   const { t, i18n } = useTranslation();
   const { colors } = useTheme();
   const { selectedTeamIds } = useTeams();
-  const { notificationsEnabled, toggleNotifications, permissionGranted } =
+  const { notificationsEnabled, toggleNotifications, permissionGranted, notifySports, toggleSport } =
     useNotifications(selectedTeamIds);
   const { currentCountry, changeCountry } = useCountry();
 
@@ -78,6 +86,34 @@ export default function SettingsScreen() {
             <View style={s.warning}>
               <Ionicons name="warning-outline" size={13} color="#FFC107" />
               <Text style={s.warningTxt}>{t('settings.permissionWarning')}</Text>
+            </View>
+          )}
+          {/* Hangi dallarda bildirim istendiği. Takım seçimi dalı ayırmadığı için
+              (Real Madrid futbol seçen kullanıcıya basketbol bildirimi gidiyordu)
+              kullanıcı burada kapatabilir. Varsayılan: hepsi açık. */}
+          {notificationsEnabled && (
+            <View style={s.sporKutu}>
+              <Text style={[s.sporBaslik, { color: colors.textSub }]}>{t('settings.notifySports')}</Text>
+              <View style={s.sporSatir}>
+                {SPOR_DALLARI.map(({ id, emoji }) => {
+                  const acik = notifySports.includes(id);
+                  return (
+                    <TouchableOpacity
+                      key={id}
+                      onPress={() => toggleSport(id)}
+                      activeOpacity={0.75}
+                      style={[s.cip, {
+                        backgroundColor: acik ? colors.accentGlow : 'transparent',
+                        borderColor:     acik ? colors.accent : colors.border,
+                      }]}
+                    >
+                      <Text style={[s.cipTxt, { color: acik ? colors.accent : colors.textMuted }]}>
+                        {emoji} {t(`matches.sports.${id}`)}
+                      </Text>
+                    </TouchableOpacity>
+                  );
+                })}
+              </View>
             </View>
           )}
           <View style={[s.disclaimer, { backgroundColor: colors.accentGlow, borderColor: colors.border }]}>
@@ -327,6 +363,15 @@ const s = StyleSheet.create({
     borderWidth: 1, borderColor: 'rgba(255,193,7,0.2)',
   },
   warningTxt: { color: '#FFC107', fontSize: 11, flex: 1, lineHeight: 16 },
+
+  sporKutu:   { paddingHorizontal: 16, paddingBottom: 12 },
+  sporBaslik: { fontSize: 11, marginBottom: 8 },
+  sporSatir:  { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
+  cip: {
+    borderWidth: 1, borderRadius: 999,
+    paddingHorizontal: 12, paddingVertical: 7,
+  },
+  cipTxt: { fontSize: 12, fontWeight: '600' },
 
   disclaimer: {
     flexDirection: 'row', alignItems: 'flex-start', gap: 7,

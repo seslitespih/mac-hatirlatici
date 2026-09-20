@@ -10,6 +10,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Match } from '../constants/matches';
 import { formatLocalTime, getDeviceTimezone } from '../utils/timezone';
 import { pushKaydiniGuncelle } from './pushService';
+import { getNotifySports, NotifySport } from './storageService';
 
 const REMINDERS_KEY         = 'match_reminders';
 const REMIND_BEFORE_MINUTES = 15;
@@ -191,7 +192,11 @@ export async function scheduleAllNotifications(
   // bırakılınca sunucu göndermeyi kesmeli. Push aktifse küratörlü (`daily_`) maçların
   // bildirimini sunucu gönderir; burada kurulursa aynı maç iki kez bildirilir.
   // Hiçbir zaman hata fırlatmaz; başarısızsa false döner ve aşağısı eskisi gibi çalışır.
-  const pushAktif = await pushKaydiniGuncelle(selectedTeamIds, lang, matches.map(m => m.id));
+  // Kullanıcının bildirim istediği dallar (varsayılan: hepsi). Sunucu da aynı listeye
+  // göre süzer; yoksa küratörlü maçlarda seçim etkisiz kalırdı.
+  const dallar = await getNotifySports();
+
+  const pushAktif = await pushKaydiniGuncelle(selectedTeamIds, lang, matches.map(m => m.id), dallar);
 
   if (selectedTeamIds.length === 0) return;
 
@@ -206,6 +211,7 @@ export async function scheduleAllNotifications(
       selectedTeamIds.includes(match.homeTeam) ||
       selectedTeamIds.includes(match.awayTeam);
     if (!isSelected) continue;
+    if (!dallar.includes((match.sport ?? 'football') as NotifySport)) continue;   // kullanıcı bu dalı kapattı
     if (pushAktif && match.id.startsWith('daily_')) continue;   // sunucu gönderecek
 
     const fireDate = new Date(new Date(match.date).getTime() - REMIND_BEFORE_MINUTES * 60 * 1000);

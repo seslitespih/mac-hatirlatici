@@ -64,7 +64,9 @@ function ulkeBul(macIdleri: string[]): string {
   return '';
 }
 
-function govdeImzasi(token: string, takimlar: string[], dil: string, ulke: string): string {
+function govdeImzasi(
+  token: string, takimlar: string[], dil: string, ulke: string, dallar: string[],
+): string {
   return JSON.stringify({
     token,
     takimlar: [...takimlar].sort(),
@@ -72,6 +74,9 @@ function govdeImzasi(token: string, takimlar: string[], dil: string, ulke: strin
     ulke,
     tz:       getDeviceTimezone(),
     platform: Platform.OS,
+    // Kullanıcının bildirim istediği spor dalları. Eski sunucu bu alanı yok sayar,
+    // yeni sunucu buna göre süzer — sıralı gönderilir ki imza kararlı kalsın.
+    dallar:   [...dallar].sort(),
   });
 }
 
@@ -86,6 +91,7 @@ export async function pushKaydiniGuncelle(
   takimlar: string[],
   dil: string,
   macIdleri: string[],
+  dallar: string[] = ['football', 'basketball', 'volleyball', 'motorsport'],
 ): Promise<boolean> {
   try {
     const onceki = await durumOku();
@@ -98,14 +104,14 @@ export async function pushKaydiniGuncelle(
 
     // Hızlı yol: önbellekteki token ile aynı gövde zaten yakın zamanda gönderildiyse ağa çıkma.
     if (onceki) {
-      const ayni = govdeImzasi(onceki.token, takimlar, dil, ulke) === onceki.imza;
+      const ayni = govdeImzasi(onceki.token, takimlar, dil, ulke, dallar) === onceki.imza;
       if (ayni && Date.now() - onceki.basariTs < TAZELE_MS) return true;
     }
 
     const token = (await tokenAl()) ?? onceki?.token ?? null;
     if (!token) return false;
 
-    const imza = govdeImzasi(token, takimlar, dil, ulke);
+    const imza = govdeImzasi(token, takimlar, dil, ulke, dallar);
     const ctrl = new AbortController();
     const zamanlayici = setTimeout(() => ctrl.abort(), ZAMAN_ASIMI_MS);
     try {
