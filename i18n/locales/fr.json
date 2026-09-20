@@ -83,14 +83,14 @@
   },
   "paywall": {
     "subtitle": "Guide TV Sport",
-    "trial": "10 JOURS GRATUITS",
+    "trial": "{{days}} JOURS D'ESSAI GRATUIT",
     "feature0": "Tous les matchs d'aujourd'hui — heure et chaîne corrects",
     "feature1": "Rappel 15 minutes avant le match",
     "feature2": "Programme TV dans 15 pays",
     "feature3": "Mises à jour automatiques quotidiennes",
     "pricePerMonth": "/mois",
-    "priceNote": "Après les 10 jours d'essai, facturation de {{price}}/mois. Annulez à tout moment.",
-    "startFree": "Commencer gratuitement — 10 jours",
+    "priceNote": "À la fin de l'essai gratuit de {{days}} jours, {{price}} par mois vous seront facturés.",
+    "startFree": "Commencer gratuitement — {{days}} jours",
     "restore": "Restaurer les achats",
     "legalIos": "Débité sur votre compte iTunes. L'abonnement se renouvelle automatiquement sauf annulation au moins 24h avant la fin de la période en cours.",
     "legalAndroid": "Débité sur votre compte Google Play. Annulez à tout moment via Google Play.",
@@ -101,6 +101,10 @@
     "errorRestore": "Impossible de restaurer les achats.",
     "offeringError": "Impossible de charger les options d'abonnement. Vérifiez votre connexion internet.",
     "privacyPolicy": "Politique de confidentialité",
-    "termsOfUse": "Conditions d'utilisation"
+    "termsOfUse": "Conditions d'utilisation",
+    "priceNoTrial": "{{price}} par mois vous seront facturés.",
+    "subscribe": "S'abonner",
+    "autoRenewTrial": "Gratuit pendant {{days}} jours. À la fin de l'essai, l'abonnement est renouvelé automatiquement à {{price}} par mois. Annulez au moins 24 heures avant la fin de l'essai et rien ne vous sera facturé.",
+    "autoRenew": "L'abonnement est renouvelé automatiquement à {{price}} par mois. Vous pouvez annuler jusqu'à 24 heures avant la fin de la période."
   }
 }

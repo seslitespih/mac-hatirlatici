@@ -83,14 +83,14 @@
   },
   "paywall": {
     "subtitle": "Guía de TV Deportiva",
-    "trial": "10 DÍAS GRATIS",
+    "trial": "{{days}} DÍAS DE PRUEBA GRATIS",
     "feature0": "Todos los partidos de hoy — hora y canal correctos",
     "feature1": "Recordatorio 15 minutos antes del partido",
     "feature2": "Programación TV en 15 países",
     "feature3": "Actualizaciones automáticas diarias",
     "pricePerMonth": "/mes",
-    "priceNote": "Tras los 10 días de prueba, se factura {{price}}/mes. Cancela cuando quieras.",
-    "startFree": "Empezar gratis — 10 días",
+    "priceNote": "Al terminar la prueba gratuita de {{days}} días se te cobrará {{price}} al mes.",
+    "startFree": "Empezar gratis — {{days}} días",
     "restore": "Restaurar compras",
     "legalIos": "Se cobra a tu cuenta de iTunes. La suscripción se renueva automáticamente si no se cancela al menos 24 horas antes del final del período actual.",
     "legalAndroid": "Se cobra a tu cuenta de Google Play. Cancela cuando quieras desde Google Play.",
@@ -101,6 +101,10 @@
     "errorRestore": "No se pudieron restaurar las compras.",
     "offeringError": "No se pudieron cargar las opciones de suscripción. Comprueba tu conexión a internet.",
     "privacyPolicy": "Política de Privacidad",
-    "termsOfUse": "Términos de Uso"
+    "termsOfUse": "Términos de Uso",
+    "priceNoTrial": "Se te cobrará {{price}} al mes.",
+    "subscribe": "Suscribirse",
+    "autoRenewTrial": "Gratis durante {{days}} días. Al terminar la prueba, la suscripción se renueva automáticamente por {{price}} al mes. Si cancelas al menos 24 horas antes del final de la prueba, no se te cobrará.",
+    "autoRenew": "La suscripción se renueva automáticamente por {{price}} al mes. Puedes cancelar hasta 24 horas antes del fin del periodo."
   }
 }

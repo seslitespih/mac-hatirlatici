@@ -83,14 +83,14 @@
   },
   "paywall": {
     "subtitle": "Sport TV-Programm",
-    "trial": "10 TAGE KOSTENLOS",
+    "trial": "{{days}} TAGE KOSTENLOS TESTEN",
     "feature0": "Alle heutigen Spiele — richtige Zeit und Sender",
     "feature1": "Erinnerung 15 Minuten vor dem Spiel",
     "feature2": "TV-Programm für 15 Länder",
     "feature3": "Automatische tägliche Updates",
     "pricePerMonth": "/Monat",
-    "priceNote": "Nach der 10-tägigen Testphase {{price}}/Monat. Jederzeit kündbar.",
-    "startFree": "Kostenlos starten — 10 Tage",
+    "priceNote": "Nach den {{days}} kostenlosen Testtagen werden {{price}} pro Monat berechnet.",
+    "startFree": "Kostenlos starten — {{days}} Tage",
     "restore": "Käufe wiederherstellen",
     "legalIos": "Wird deinem iTunes-Konto belastet. Das Abo verlängert sich automatisch, wenn es nicht mindestens 24 Stunden vor Ende der Laufzeit gekündigt wird.",
     "legalAndroid": "Wird deinem Google Play-Konto belastet. Jederzeit über Google Play kündbar.",
@@ -101,6 +101,10 @@
     "errorRestore": "Käufe konnten nicht wiederhergestellt werden.",
     "offeringError": "Abonnementoptionen konnten nicht geladen werden. Bitte überprüfe deine Internetverbindung.",
     "privacyPolicy": "Datenschutzrichtlinie",
-    "termsOfUse": "Nutzungsbedingungen"
+    "termsOfUse": "Nutzungsbedingungen",
+    "priceNoTrial": "Es werden {{price}} pro Monat berechnet.",
+    "subscribe": "Abonnieren",
+    "autoRenewTrial": "{{days}} Tage kostenlos. Nach dem Testzeitraum verlängert sich das Abo automatisch für {{price}} pro Monat. Wenn Sie mindestens 24 Stunden vor Ende des Tests kündigen, entstehen keine Kosten.",
+    "autoRenew": "Das Abo verlängert sich automatisch für {{price}} pro Monat. Sie können bis 24 Stunden vor Ablauf kündigen."
   }
 }

@@ -83,14 +83,14 @@
   },
   "paywall": {
     "subtitle": "Guia de TV Esportiva",
-    "trial": "10 DIAS GRÁTIS",
+    "trial": "{{days}} DIAS DE TESTE GRÁTIS",
     "feature0": "Todos os jogos de hoje — horário e canal corretos",
     "feature1": "Lembrete 15 minutos antes do jogo",
     "feature2": "Programação de TV em 15 países",
     "feature3": "Atualizações automáticas diárias",
     "pricePerMonth": "/mês",
-    "priceNote": "Após os 10 dias de teste, cobrado a {{price}}/mês. Cancele quando quiser.",
-    "startFree": "Começar grátis — 10 dias",
+    "priceNote": "Ao fim do teste gratuito de {{days}} dias será cobrado {{price}} por mês.",
+    "startFree": "Começar grátis — {{days}} dias",
     "restore": "Restaurar compras",
     "legalIos": "Cobrado na sua conta do iTunes. A assinatura é renovada automaticamente se não for cancelada pelo menos 24 horas antes do término do período atual.",
     "legalAndroid": "Cobrado na sua conta do Google Play. Cancele quando quiser pelo Google Play.",
@@ -101,6 +101,10 @@
     "errorRestore": "Não foi possível restaurar as compras.",
     "offeringError": "Não foi possível carregar as opções de assinatura. Verifique sua conexão com a internet.",
     "privacyPolicy": "Política de Privacidade",
-    "termsOfUse": "Termos de Uso"
+    "termsOfUse": "Termos de Uso",
+    "priceNoTrial": "Será cobrado {{price}} por mês.",
+    "subscribe": "Assinar",
+    "autoRenewTrial": "Grátis por {{days}} dias. Quando o teste terminar, a assinatura é renovada automaticamente por {{price}} por mês. Se cancelar pelo menos 24 horas antes do fim do teste, não será cobrado.",
+    "autoRenew": "A assinatura é renovada automaticamente por {{price}} por mês. Pode cancelar até 24 horas antes do fim do período."
   }
 }

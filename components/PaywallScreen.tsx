@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import {
-  View, Text, StyleSheet, TouchableOpacity,
+  View, Text, StyleSheet, TouchableOpacity, ScrollView,
   ActivityIndicator, Alert, Platform, Linking,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -13,6 +13,9 @@ import { useTheme } from '../contexts/ThemeContext';
 
 const PRIVACY_URL = 'https://seslitespih.github.io/mac-hatirlatici/privacy.html';
 const EULA_URL    = 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/';
+
+// Urun bilgisi gelmezse kullanilan deneme suresi (App Store Connect'teki teklifle ayni).
+const VARSAYILAN_DENEME_GUN = 10;
 
 interface Props {
   onSubscribed: () => void;
@@ -67,7 +70,21 @@ export default function PaywallScreen({ onSubscribed }: Props) {
     }
   }
 
-  const priceStr = pkg?.product.priceString ?? '$2.99';
+  // Fiyat ve deneme suresi URUNDEN okunur. Magazadaki gercek degerle ekrandaki
+  // metin birbirini tutmak zorunda (Apple 3.1.2(c)); bu yuzden sabit yazilmaz.
+  const priceStr = pkg?.product.priceString ?? '';
+  const intro    = pkg?.product.introPrice ?? null;
+  const denemeGun = (() => {
+    if (!intro || intro.price !== 0) return VARSAYILAN_DENEME_GUN;
+    const n = intro.periodNumberOfUnits ?? 0;
+    switch (intro.periodUnit) {
+      case 'DAY':   return n;
+      case 'WEEK':  return n * 7;
+      case 'MONTH': return n * 30;
+      case 'YEAR':  return n * 365;
+      default:      return VARSAYILAN_DENEME_GUN;
+    }
+  })();
 
   const features: [string, string][] = [
     ['⚽', t('paywall.feature0')],
@@ -78,7 +95,11 @@ export default function PaywallScreen({ onSubscribed }: Props) {
 
   return (
     <SafeAreaView style={[s.safe, { backgroundColor: colors.bg0 }]}>
-      <View style={s.container}>
+      <ScrollView
+        contentContainerStyle={s.container}
+        showsVerticalScrollIndicator={false}
+        bounces={false}
+      >
 
         {/* Logo */}
         <View style={[s.iconWrap, { backgroundColor: colors.bg2, borderColor: colors.border }]}>
@@ -98,19 +119,27 @@ export default function PaywallScreen({ onSubscribed }: Props) {
           ))}
         </View>
 
-        {/* Fiyat kartı */}
-        <View style={[s.priceCard, { backgroundColor: colors.bg2, borderColor: colors.border }]}>
-          <View style={[s.trialBadge, { backgroundColor: colors.accentGlow, borderColor: colors.accent + '44' }]}>
-            <Text style={[s.trialText, { color: colors.accent }]}>{t('paywall.trial')}</Text>
+        {/* Fiyat kartı — fiyat mağazadan gelmediyse hiç gösterilmez (sahte fiyat yazmayız) */}
+        {!!priceStr && (
+          <View style={[s.priceCard, { backgroundColor: colors.bg2, borderColor: colors.border }]}>
+            {denemeGun > 0 && (
+              <View style={[s.trialBadge, { backgroundColor: colors.accentGlow, borderColor: colors.accent + '44' }]}>
+                <Text style={[s.trialText, { color: colors.accent }]}>
+                  {t('paywall.trial', { days: denemeGun })}
+                </Text>
+              </View>
+            )}
+            <Text style={[s.price, { color: colors.text }]}>
+              {priceStr}
+              <Text style={[s.pricePer, { color: colors.textSub }]}>{t('paywall.pricePerMonth')}</Text>
+            </Text>
+            <Text style={[s.priceNote, { color: colors.text }]}>
+              {denemeGun > 0
+                ? t('paywall.priceNote',   { price: priceStr, days: denemeGun })
+                : t('paywall.priceNoTrial', { price: priceStr })}
+            </Text>
           </View>
-          <Text style={[s.price, { color: colors.text }]}>
-            {priceStr}
-            <Text style={[s.pricePer, { color: colors.textSub }]}>{t('paywall.pricePerMonth')}</Text>
-          </Text>
-          <Text style={[s.priceNote, { color: colors.textSub }]}>
-            {t('paywall.priceNote', { price: priceStr })}
-          </Text>
-        </View>
+        )}
 
         {/* Butonlar */}
         {fetching ? (
@@ -132,9 +161,21 @@ export default function PaywallScreen({ onSubscribed }: Props) {
             >
               {loading
                 ? <ActivityIndicator color="#fff" />
-                : <Text style={s.btnText}>{t('paywall.startFree')}</Text>
+                : <Text style={s.btnText}>
+                    {denemeGun > 0 ? t('paywall.startFree', { days: denemeGun }) : t('paywall.subscribe')}
+                  </Text>
               }
             </TouchableOpacity>
+
+            {/* Apple 3.1.2(c): deneme suresi + deneme sonrasi tutar, dugmenin hemen
+                altinda ve okunur puntoda. Solukluk/kucuk punto red sebebiydi. */}
+            {!!priceStr && (
+              <Text style={[s.renewNotice, { color: colors.text }]}>
+                {denemeGun > 0
+                  ? t('paywall.autoRenewTrial', { days: denemeGun, price: priceStr })
+                  : t('paywall.autoRenew',      { price: priceStr })}
+              </Text>
+            )}
 
             <TouchableOpacity
               style={s.restoreBtn}
@@ -161,14 +202,14 @@ export default function PaywallScreen({ onSubscribed }: Props) {
             <Text style={[s.legalLink, { color: colors.accent }]}>{t('paywall.termsOfUse')}</Text>
           </TouchableOpacity>
         </View>
-      </View>
+      </ScrollView>
     </SafeAreaView>
   );
 }
 
 const s = StyleSheet.create({
   safe:         { flex: 1 },
-  container:    { flex: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 24, paddingBottom: 24 },
+  container:    { flexGrow: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 24, paddingVertical: 24 },
   iconWrap:     { width: 80, height: 80, borderRadius: 20, alignItems: 'center', justifyContent: 'center', marginBottom: 16, borderWidth: 1 },
   icon:         { fontSize: 40 },
   title:        { fontSize: 28, fontWeight: '900', letterSpacing: -0.5 },
@@ -182,13 +223,14 @@ const s = StyleSheet.create({
   trialText:    { fontSize: 11, fontWeight: '800', letterSpacing: 1 },
   price:        { fontSize: 36, fontWeight: '900' },
   pricePer:     { fontSize: 16, fontWeight: '500' },
-  priceNote:    { fontSize: 11, textAlign: 'center', marginTop: 8, lineHeight: 16 },
+  priceNote:    { fontSize: 13, textAlign: 'center', marginTop: 8, lineHeight: 19, fontWeight: '500' },
+  renewNotice:  { fontSize: 13, textAlign: 'center', marginTop: 12, lineHeight: 19 },
   btn:          { width: '100%', borderRadius: 14, paddingVertical: 16, alignItems: 'center' },
   btnDisabled:  { opacity: 0.6 },
   btnText:      { color: '#fff', fontSize: 16, fontWeight: '800' },
   restoreBtn:   { marginTop: 14, paddingVertical: 8 },
   restoreText:  { fontSize: 13, textDecorationLine: 'underline' },
-  legal:        { fontSize: 10, textAlign: 'center', marginTop: 16, lineHeight: 15, opacity: 0.7 },
+  legal:        { fontSize: 11, textAlign: 'center', marginTop: 16, lineHeight: 16 },
   legalLinks:   { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: 8 },
   legalLink:    { fontSize: 11, textDecorationLine: 'underline' },
   legalSep:     { fontSize: 11 },
