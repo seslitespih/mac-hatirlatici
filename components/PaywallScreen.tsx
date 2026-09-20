@@ -14,9 +14,6 @@ import { useTheme } from '../contexts/ThemeContext';
 const PRIVACY_URL = 'https://seslitespih.github.io/mac-hatirlatici/privacy.html';
 const EULA_URL    = 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/';
 
-// Urun bilgisi gelmezse kullanilan deneme suresi (App Store Connect'teki teklifle ayni).
-const VARSAYILAN_DENEME_GUN = 10;
-
 interface Props {
   onSubscribed: () => void;
 }
@@ -74,15 +71,17 @@ export default function PaywallScreen({ onSubscribed }: Props) {
   // metin birbirini tutmak zorunda (Apple 3.1.2(c)); bu yuzden sabit yazilmaz.
   const priceStr = pkg?.product.priceString ?? '';
   const intro    = pkg?.product.introPrice ?? null;
+  // Magazada tanimli deneme YOKSA deneme iddiasi da olmaz (0 -> rozet ve
+  // "ucretsiz basla" metni gizlenir). Sabit bir sure varsaymak red sebebiydi.
   const denemeGun = (() => {
-    if (!intro || intro.price !== 0) return VARSAYILAN_DENEME_GUN;
+    if (!intro || intro.price !== 0) return 0;
     const n = intro.periodNumberOfUnits ?? 0;
     switch (intro.periodUnit) {
       case 'DAY':   return n;
       case 'WEEK':  return n * 7;
       case 'MONTH': return n * 30;
       case 'YEAR':  return n * 365;
-      default:      return VARSAYILAN_DENEME_GUN;
+      default:      return 0;
     }
   })();
 

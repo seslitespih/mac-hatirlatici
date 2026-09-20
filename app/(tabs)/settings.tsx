@@ -166,7 +166,7 @@ export default function SettingsScreen() {
           activeOpacity={0.82}
         >
           <Ionicons name="star" size={18} color="#fff" />
-          <Text style={s.premiumTxt}>Get Premium — 10-Day Free Trial</Text>
+          <Text style={s.premiumTxt}>{t('settings.getPremium')}</Text>
           <Ionicons name="chevron-forward" size={16} color="#fff" />
         </TouchableOpacity>
 
