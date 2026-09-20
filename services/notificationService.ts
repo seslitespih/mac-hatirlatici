@@ -77,6 +77,49 @@ function getStrings(lang: string): LangStrings {
   return LANG_STRINGS[lang] ?? LANG_STRINGS['en'];
 }
 
+// ─── Sabah özeti ─────────────────────────────────────────────────────────────
+// Kullanıcı isteği (20 Eyl 2026): favori takımın o gün maçı varsa sabah bir kez
+// haber ver; maçtan 15 dk önceki hatırlatma ayrıca devam etsin.
+// Push aktifse bu bildirimi SUNUCU gönderir (uygulama açılmasa da gelir);
+// buradaki kurulum push'un çalışmadığı cihazlar için yedektir.
+
+const SUMMARY_HOUR  = 9;    // cihazın yerel saati
+const SUMMARY_LINES = 3;    // bildirimde en fazla bu kadar maç; gerisi "+N"
+
+interface SummaryStrings {
+  one:  string;
+  many: (n: number) => string;
+  more: (k: number) => string;
+}
+
+const SUMMARY_STRINGS: Record<string, SummaryStrings> = {
+  tr: { one: 'Bugün 1 maçın var',       many: (n) => `Bugün ${n} maçın var`,       more: (k) => `+${k} maç daha` },
+  en: { one: '1 match today',           many: (n) => `${n} matches today`,         more: (k) => `+${k} more` },
+  es: { one: 'Hoy tienes 1 partido',    many: (n) => `Hoy tienes ${n} partidos`,   more: (k) => `+${k} más` },
+  pt: { one: 'Hoje: 1 jogo',            many: (n) => `Hoje: ${n} jogos`,           more: (k) => `+${k} mais` },
+  fr: { one: "1 match aujourd'hui",     many: (n) => `${n} matchs aujourd'hui`,    more: (k) => `+${k} autres` },
+  de: { one: 'Heute 1 Spiel',           many: (n) => `Heute ${n} Spiele`,          more: (k) => `+${k} weitere` },
+  it: { one: 'Oggi 1 partita',          many: (n) => `Oggi ${n} partite`,          more: (k) => `+${k} altre` },
+  ar: { one: 'لديك مباراة واحدة اليوم', many: (n) => `لديك ${n} مباريات اليوم`,    more: (k) => `+${k} أخرى` },
+};
+
+function buildSummaryContent(matches: Match[], lang: string) {
+  const sx = SUMMARY_STRINGS[lang] ?? SUMMARY_STRINGS['en'];
+  const n  = matches.length;
+  const title = `📅 ${n === 1 ? sx.one : sx.many(n)}`;
+
+  const lines = matches.slice(0, SUMMARY_LINES).map((m) => {
+    const emoji = SPORT_EMOJI[m.sport ?? 'football'] ?? '🏆';
+    const time  = formatLocalTime(new Date(m.date), getDeviceTimezone());
+    return m.sport === 'motorsport'
+      ? `${emoji} ${time} ${m.homeTeamName}`
+      : `${emoji} ${time} ${m.homeTeamName} - ${m.awayTeamName}`;
+  });
+  if (n > SUMMARY_LINES) lines.push(sx.more(n - SUMMARY_LINES));
+
+  return { title, body: lines.join('\n') };
+}
+
 function buildNotificationContent(match: Match, lang = 'tr') {
   const emoji  = SPORT_EMOJI[match.sport] ?? '🏆';
   const isF1   = match.sport === 'motorsport';
@@ -226,6 +269,33 @@ export async function scheduleAllNotifications(
       },
     });
     newMap[match.id] = notifId;
+  }
+
+  // Sabah özeti — push aktifse sunucu gönderir, burada kurulmaz (çift bildirim olmasın).
+  if (!pushAktif) {
+    const ozet = new Date();
+    ozet.setHours(SUMMARY_HOUR, 0, 0, 0);
+    if (ozet > now) {
+      const bugun = now.toDateString();
+      const gunun = matches
+        .filter((m) => {
+          const t = new Date(m.date);
+          return t.toDateString() === bugun
+            && t > ozet
+            && (selectedTeamIds.includes(m.homeTeam) || selectedTeamIds.includes(m.awayTeam))
+            && dallar.includes((m.sport ?? 'football') as NotifySport);
+        })
+        .sort((x, y) => new Date(x.date).getTime() - new Date(y.date).getTime());
+
+      if (gunun.length > 0) {
+        const { title, body } = buildSummaryContent(gunun, lang);
+        const id = await Notifications.scheduleNotificationAsync({
+          content: { title, body, sound: true },
+          trigger: { type: Notifications.SchedulableTriggerInputTypes.DATE, date: ozet },
+        });
+        newMap[`ozet_${bugun}`] = id;
+      }
+    }
   }
 
   await saveReminders(newMap);

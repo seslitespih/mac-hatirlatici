@@ -32,6 +32,7 @@ export default function MatchesScreen() {
   const {
     filter,
     setFilter,
+    favoriteMatches,
     matchGroups,
     hasMatches,
     isRefreshing,
@@ -107,6 +108,27 @@ export default function MatchesScreen() {
           contentContainerStyle={styles.pillsContainer}
           style={styles.pillsScroll}
         >
+          {/* Favorilerim: yalniz secili takimlarin maclari. Filtre mantigi
+              useMatches'te vardi ama ekranda dugmesi yoktu. */}
+          <TouchableOpacity
+            style={[
+              styles.pill,
+              { borderColor: colors.border },
+              filter === 'favorites' && { backgroundColor: colors.accent + '22', borderColor: colors.accent },
+            ]}
+            onPress={() => setFilter(filter === 'favorites' ? 'all' : 'favorites')}
+            activeOpacity={0.7}
+          >
+            <Text style={[
+              styles.pillText,
+              { color: colors.textMuted },
+              filter === 'favorites' && { color: colors.accent, fontWeight: '700' },
+            ]}>
+              {`⭐ ${t('matches.favoriteMatches')}${favoriteMatches.length ? ` (${favoriteMatches.length})` : ''}`}
+            </Text>
+          </TouchableOpacity>
+          <View style={[styles.pillSep, { backgroundColor: colors.border }]} />
+
           {sportTabs.map((tab) => {
             const isActive = activeSport === tab.id;
             return (
@@ -233,6 +255,12 @@ const styles = StyleSheet.create({
     paddingVertical: 7,
     borderRadius: 20,
     borderWidth: 1,
+  },
+  pillSep: {
+    width: 1,
+    alignSelf: 'stretch',
+    marginHorizontal: 4,
+    opacity: 0.6,
   },
   pillText: {
     fontSize: 13,
