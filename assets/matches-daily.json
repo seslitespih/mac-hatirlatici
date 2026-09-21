@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-09-21T05:35:00.000Z",
- "date": "2026-09-21",
- "model": "claude-opus-4-8 (gece/sabah calismasi — 9 zamaninda kaynak: TR/GB/US/DE/ES/FR/IT/PT/CA. Pazartesi hafif gun: buyuk Avrupa/Super Lig maci yok; kapsamdaki maclar 2 Arjantin Primera + 2 CEV voleybol. SA kaynaklari 13:07'de zenginlestirilecek.)",
+ "generated_at": "2026-09-21T22:10:00.000Z",
+ "date": "2026-09-22",
+ "model": "claude-opus-4-8 (gece calismasi — 9 zamaninda kaynak: TR/GB/US/DE/ES/FR/IT/PT/CA + BR jogos-amanha. Sali cok hafif gun: buyuk Avrupa/Super Lig maci YOK (GB yalniz EFL Trophy=kapsam disi, DE bos, FR/ES yalniz kadin, IT futbol yok, PT kadin+rezerv). Kapsamdaki maclar: 2 CEV voleybol ceyrek final + 1 TBF Cumhurbaskanligi Kupasi basketbol. Arjantin Primera ES'de goruldu ama detay yok; tvenvivo 403 verdi — SA futbolu 13:07'de zenginlestirilecek.)",
  "stats": {
-  "total": 8,
-  "withChannel": 8,
+  "total": 3,
+  "withChannel": 3,
   "bySport": {
-   "football": 6,
-   "volleyball": 2
+   "volleyball": 2,
+   "basketball": 1
   },
-  "countries": 6,
+  "countries": 1,
   "warnings": 0,
   "searches": 0
  },
  "matches": [
   {
-   "id": "volleyball-20260921-belgium-czechia",
+   "id": "volleyball-20260922-france-romania",
    "sport": "volleyball",
    "competitionId": "cev_euro",
    "tier": "regional",
@@ -29,103 +29,26 @@
     "pt": "Campeonato Europeu CEV",
     "ar": "بطولة أوروبا لكرة الطائرة"
    },
-   "home": "Belgium",
-   "away": "Czechia",
+   "home": "France",
+   "away": "Romania",
    "homeNames": {
-    "tr": "Belçika",
-    "en": "Belgium"
+    "tr": "Fransa",
+    "en": "France"
    },
    "awayNames": {
-    "tr": "Çekya",
-    "en": "Czechia"
+    "tr": "Romanya",
+    "en": "Romania"
    },
-   "kickoffUtc": "2026-09-21T14:00:00Z",
+   "kickoffUtc": "2026-09-22T13:00:00Z",
    "broadcasts": {
     "TR": [
-     "CEV YouTube"
+     "TRT Spor Yıldız"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260921-aldosivi-atletico-tucuman",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Primera División",
-    "en": "Argentine Primera División",
-    "de": "Primera División (Argentinien)",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Aldosivi",
-   "away": "Atletico Tucuman",
-   "homeNames": {
-    "tr": "Aldosivi",
-    "en": "Aldosivi",
-    "de": "Aldosivi",
-    "es": "Aldosivi",
-    "fr": "Aldosivi",
-    "it": "Aldosivi",
-    "pt": "Aldosivi",
-    "ar": "الدوسيفي"
-   },
-   "awayNames": {
-    "tr": "Atlético Tucumán",
-    "en": "Atlético Tucumán",
-    "de": "Atlético Tucumán",
-    "es": "Atlético Tucumán",
-    "fr": "Atlético Tucumán",
-    "it": "Atlético Tucumán",
-    "pt": "Atlético Tucumán",
-    "ar": "أتلتيكو توكومان"
-   },
-   "kickoffUtc": "2026-09-21T17:30:00Z",
-   "broadcasts": {
-    "AR": [
-     "ESPN Premium",
-     "TNT Sports"
-    ],
-    "ES": [
-     "Fanatiz"
-    ],
-    "BR": [
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260921-manta-orense",
-   "sport": "football",
-   "competitionId": "liga_pro_ec",
-   "tier": "regional",
-   "competition": {
-    "tr": "Ekvador Ligi",
-    "en": "LigaPro Serie A",
-    "de": "LigaPro Serie A",
-    "es": "LigaPro Serie A",
-    "fr": "LigaPro Serie A",
-    "it": "LigaPro Serie A",
-    "pt": "LigaPro Série A",
-    "ar": "الدوري الإكوادوري"
-   },
-   "home": "Manta",
-   "away": "Orense",
-   "kickoffUtc": "2026-09-21T19:00:00Z",
-   "broadcasts": {
-    "EC": [
-     "Zapping Sports + Plus"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "volleyball-20260921-slovenia-serbia",
+   "id": "volleyball-20260922-poland-germany",
    "sport": "volleyball",
    "competitionId": "cev_euro",
    "tier": "regional",
@@ -139,149 +62,53 @@
     "pt": "Campeonato Europeu CEV",
     "ar": "بطولة أوروبا لكرة الطائرة"
    },
-   "home": "Slovenia",
-   "away": "Serbia",
+   "home": "Poland",
+   "away": "Germany",
    "homeNames": {
-    "tr": "Slovenya",
-    "en": "Slovenia"
+    "tr": "Polonya",
+    "en": "Poland"
    },
    "awayNames": {
-    "tr": "Sırbistan",
-    "en": "Serbia"
+    "tr": "Almanya",
+    "en": "Germany"
    },
-   "kickoffUtc": "2026-09-21T19:00:00Z",
+   "kickoffUtc": "2026-09-22T16:00:00Z",
    "broadcasts": {
     "TR": [
-     "CEV YouTube"
+     "TRT Spor"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260921-barracas-central-independiente-rivadavia",
-   "sport": "football",
-   "competitionId": "arg_primera",
+   "id": "basketball-20260922-fenerbahce-beko-besiktas-gain",
+   "sport": "basketball",
+   "competitionId": "tbf_cumhurbaskanligi",
    "tier": "regional",
    "competition": {
-    "tr": "Arjantin Primera División",
-    "en": "Argentine Primera División",
-    "de": "Primera División (Argentinien)",
-    "es": "Primera División de Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primeira Divisão Argentina",
-    "ar": "الدوري الأرجنتيني"
+    "tr": "Cumhurbaşkanlığı Kupası",
+    "en": "Turkish President's Cup",
+    "de": "Türkischer Präsidenten-Pokal",
+    "es": "Copa del Presidente de Turquía",
+    "fr": "Coupe du Président de Turquie",
+    "it": "Coppa del Presidente di Turchia",
+    "pt": "Taça do Presidente da Turquia",
+    "ar": "كأس الرئيس التركي لكرة السلة"
    },
-   "home": "Barracas Central",
-   "away": "Independiente Rivadavia",
+   "home": "Fenerbahce Beko",
+   "away": "Besiktas GAIN",
    "homeNames": {
-    "tr": "Barracas Central",
-    "en": "Barracas Central",
-    "de": "Barracas Central",
-    "es": "Barracas Central",
-    "fr": "Barracas Central",
-    "it": "Barracas Central",
-    "pt": "Barracas Central",
-    "ar": "باراكاس سنترال"
+    "tr": "Fenerbahçe Beko",
+    "en": "Fenerbahçe Beko"
    },
    "awayNames": {
-    "tr": "Independiente Rivadavia",
-    "en": "Independiente Rivadavia",
-    "de": "Independiente Rivadavia",
-    "es": "Independiente Rivadavia",
-    "fr": "Independiente Rivadavia",
-    "it": "Independiente Rivadavia",
-    "pt": "Independiente Rivadavia",
-    "ar": "إندبندينتي ريفادافيا"
+    "tr": "Beşiktaş GAIN",
+    "en": "Beşiktaş GAIN"
    },
-   "kickoffUtc": "2026-09-21T22:00:00Z",
+   "kickoffUtc": "2026-09-22T17:00:00Z",
    "broadcasts": {
-    "AR": [
-     "ESPN Premium",
-     "TNT Sports"
-    ],
-    "BR": [
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260921-central-espanol-torque",
-   "sport": "football",
-   "competitionId": "liga_auf",
-   "tier": "regional",
-   "competition": {
-    "tr": "Uruguay Liga AUF",
-    "en": "Uruguayan Liga AUF",
-    "de": "Uruguayische Liga AUF",
-    "es": "Liga AUF Uruguaya",
-    "fr": "Liga AUF uruguayenne",
-    "it": "Liga AUF uruguaiana",
-    "pt": "Liga AUF Uruguaia",
-    "ar": "الدوري الأوروغوياني"
-   },
-   "home": "Central Espanol",
-   "away": "Montevideo City Torque",
-   "kickoffUtc": "2026-09-21T22:30:00Z",
-   "broadcasts": {
-    "UY": [
-     "DSports Uruguay Premium",
-     "Antel TV",
-     "Disney+ Premium"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260921-criciuma-operario",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brasileirão Série B",
-    "de": "Brasilianische Série B",
-    "es": "Brasileirão Serie B",
-    "fr": "Série B brésilienne",
-    "it": "Série B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Criciuma",
-   "away": "Operario-PR",
-   "kickoffUtc": "2026-09-21T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "ESPN",
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260921-cuiaba-nautico",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brasileirão Série B",
-    "de": "Brasilianische Série B",
-    "es": "Brasileirão Serie B",
-    "fr": "Série B brésilienne",
-    "it": "Série B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Cuiaba",
-   "away": "Nautico",
-   "kickoffUtc": "2026-09-22T00:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "SporTV",
-     "Disney+",
-     "XSports"
+    "TR": [
+     "TRT 1"
     ]
    },
    "sources": []
