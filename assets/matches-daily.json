@@ -3,13 +3,13 @@
  "date": "2026-09-21",
  "model": "claude-opus-4-8 (gece/sabah calismasi — 9 zamaninda kaynak: TR/GB/US/DE/ES/FR/IT/PT/CA. Pazartesi hafif gun: buyuk Avrupa/Super Lig maci yok; kapsamdaki maclar 2 Arjantin Primera + 2 CEV voleybol. SA kaynaklari 13:07'de zenginlestirilecek.)",
  "stats": {
-  "total": 4,
-  "withChannel": 4,
+  "total": 8,
+  "withChannel": 8,
   "bySport": {
-   "football": 2,
+   "football": 6,
    "volleyball": 2
   },
-  "countries": 4,
+  "countries": 6,
   "warnings": 0,
   "searches": 0
  },
@@ -100,6 +100,31 @@
    "sources": []
   },
   {
+   "id": "football-20260921-manta-orense",
+   "sport": "football",
+   "competitionId": "liga_pro_ec",
+   "tier": "regional",
+   "competition": {
+    "tr": "Ekvador Ligi",
+    "en": "LigaPro Serie A",
+    "de": "LigaPro Serie A",
+    "es": "LigaPro Serie A",
+    "fr": "LigaPro Serie A",
+    "it": "LigaPro Serie A",
+    "pt": "LigaPro Série A",
+    "ar": "الدوري الإكوادوري"
+   },
+   "home": "Manta",
+   "away": "Orense",
+   "kickoffUtc": "2026-09-21T19:00:00Z",
+   "broadcasts": {
+    "EC": [
+     "Zapping Sports + Plus"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "volleyball-20260921-slovenia-serbia",
    "sport": "volleyball",
    "competitionId": "cev_euro",
@@ -177,6 +202,86 @@
     ],
     "BR": [
      "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260921-central-espanol-torque",
+   "sport": "football",
+   "competitionId": "liga_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Liga AUF",
+    "en": "Uruguayan Liga AUF",
+    "de": "Uruguayische Liga AUF",
+    "es": "Liga AUF Uruguaya",
+    "fr": "Liga AUF uruguayenne",
+    "it": "Liga AUF uruguaiana",
+    "pt": "Liga AUF Uruguaia",
+    "ar": "الدوري الأوروغوياني"
+   },
+   "home": "Central Espanol",
+   "away": "Montevideo City Torque",
+   "kickoffUtc": "2026-09-21T22:30:00Z",
+   "broadcasts": {
+    "UY": [
+     "DSports Uruguay Premium",
+     "Antel TV",
+     "Disney+ Premium"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260921-criciuma-operario",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brasileirão Série B",
+    "de": "Brasilianische Série B",
+    "es": "Brasileirão Serie B",
+    "fr": "Série B brésilienne",
+    "it": "Série B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Criciuma",
+   "away": "Operario-PR",
+   "kickoffUtc": "2026-09-21T22:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "ESPN",
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260921-cuiaba-nautico",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brasileirão Série B",
+    "de": "Brasilianische Série B",
+    "es": "Brasileirão Serie B",
+    "fr": "Série B brésilienne",
+    "it": "Série B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Cuiaba",
+   "away": "Nautico",
+   "kickoffUtc": "2026-09-22T00:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "SporTV",
+     "Disney+",
+     "XSports"
     ]
    },
    "sources": []

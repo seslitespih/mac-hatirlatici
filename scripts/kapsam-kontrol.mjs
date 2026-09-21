@@ -14,6 +14,19 @@ const DOSYA = process.argv[2] ?? 'assets/matches-daily.json';   // test icin yol
 const TR_API = 'https://hangikanalda.app/api/proxy/matches';
 const ESLEME = { futbol: 'football', basketbol: 'basketball', voleybol: 'volleyball', motor: 'motorsport' };
 
+// Talimat §3'e gore ZATEN girmeyen ligler. Kaynaktaki maclarin HEPSI bunlardansa
+// o dalin dosyada olmamasi dogrudur; kontrol bunu eksik saymaz.
+// (21 Eyl 2026: basketbol bolumunde yalniz WNBA + Avustralya NBL vardi.)
+const KAPSAM_DISI = [
+  /wnba/i, /avustralya nbl/i, /\bnbl\b/i,          // kadin kulup ligi / nis lig
+  /basketbol 1\. ligi/i, /tbf/i,                    // TR ikinci seviye + altyapi
+  /on eleme youtube/i,
+  /usl/i, /primera nacional/i, /primera c/i,        // alt ligler
+  /kadin|women|femin|frauen|feminin|femenin/i,      // kadin futbolu (filtre.mjs de eler)
+  /sub-?\d|u-?1[5-9]|u-?2[01]/i,                    // altyapi
+];
+const kapsamDisiMi = (ligAdi) => KAPSAM_DISI.some((r) => r.test(ligAdi));
+
 const d = JSON.parse(readFileSync(DOSYA, 'utf8'));
 const dosyaSayim = {};
 for (const m of d.matches) dosyaSayim[m.sport] = (dosyaSayim[m.sport] ?? 0) + 1;
@@ -31,10 +44,15 @@ try {
 console.log(`dosya: ${d.date} · ${d.matches.length} mac`);
 let eksik = 0;
 for (const [bolum, spor] of Object.entries(ESLEME)) {
-  const kaynak = (tr[bolum]?.leagues ?? []).reduce((n, lg) => n + (lg.matches?.length ?? 0), 0);
+  const ligler = tr[bolum]?.leagues ?? [];
+  const kaynak = ligler.reduce((n, lg) => n + (lg.matches?.length ?? 0), 0);
+  const kapsamli = ligler
+    .filter((lg) => !kapsamDisiMi(lg.name ?? ''))
+    .reduce((n, lg) => n + (lg.matches?.length ?? 0), 0);
   const bizde = dosyaSayim[spor] ?? 0;
-  const durum = kaynak > 0 && bizde === 0 ? 'EKSIK' : 'tamam';
-  console.log(`  ${spor.padEnd(11)} kaynakta ${String(kaynak).padStart(3)} · dosyada ${String(bizde).padStart(3)}  ${durum}`);
+  const durum = kapsamli > 0 && bizde === 0 ? 'EKSIK' : 'tamam';
+  const not = kaynak > 0 && kapsamli === 0 ? '  (kaynaktakilerin hepsi kapsam disi)' : '';
+  console.log(`  ${spor.padEnd(11)} kaynakta ${String(kaynak).padStart(3)} · dosyada ${String(bizde).padStart(3)}  ${durum}${not}`);
   if (durum === 'EKSIK') {
     eksik++;
     for (const lg of tr[bolum].leagues) {
