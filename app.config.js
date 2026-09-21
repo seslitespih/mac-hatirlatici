@@ -29,7 +29,10 @@ module.exports = {
       ar: './locales/ar.json',
     },
     version: '1.4.4',
-    orientation: 'portrait',
+    // Android 16 buyuk ekranlarda yon kisitlamasini YOK SAYIYOR; Play de kaldirilmasini
+    // istiyor. 'default' = cihazin yonunu izle. Ekranlar liste tabanli ve SafeAreaView
+    // kullaniyor; yatay gorunum derlemeden sonra emulatorde kontrol edilmeli.
+    orientation: 'default',
     icon: './assets/icon.png',
     userInterfaceStyle: 'light',
     backgroundColor: '#F0F5FF',
@@ -96,6 +99,10 @@ module.exports = {
             // resmen bilmiyor; android.yml prebuild sonrasi suppressUnsupportedCompileSdk ekliyor.
             compileSdkVersion: 36,
             targetSdkVersion: 36,
+            // Play "DEX kodu optimizasyonu esigin altinda" dedi (karartma %3, son tarih Sub 2027).
+            // R8 hem kucultur hem karartir. Expo/RN kurallari node_modules'den otomatik gelir.
+            enableProguardInReleaseBuilds: true,
+            enableShrinkResourcesInReleaseBuilds: true,
             minSdkVersion: 26,
             ndkVersion: '28.2.13676358',
           },
@@ -105,6 +112,7 @@ module.exports = {
         },
       ],
       './plugins/withPodfilePatches',
+      './plugins/withAndroid16',
     ],
 
     experiments: {
