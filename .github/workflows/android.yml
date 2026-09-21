@@ -35,7 +35,7 @@ jobs:
           accept-android-sdk-licenses: true
           # Varsayilan "tools platform-tools" — 'tools' paketi Android deposundan kaldirildi,
           # sdkmanager 16.0 ile adim dusuyordu (18 Eyl 2026). Yalniz platform-tools yeterli.
-          packages: 'platform-tools'
+          packages: 'platform-tools platforms;android-36 build-tools;36.0.0'
 
       - name: Install NDK 28 (16KB page-size support)
         run: sdkmanager "ndk;28.2.13676358"
@@ -66,6 +66,15 @@ jobs:
           BUILD_NUMBER: ${{ github.event.inputs.version_code }}
           VERSION_CODE: ${{ github.event.inputs.version_code }}
         run: npx expo prebuild --platform android --clean
+
+      - name: API 36 icin AGP uyarisini bastir
+        # Play 21 Eyl 2026'dan beri hedef API 36 istiyor. Expo 52'nin AGP'si (8.6.0)
+        # API 36'yi "bilinmeyen" sayip derlemeyi durduruyor; bu bayrak platform kurulu
+        # oldugunda derlemeye izin verir. Expo SDK yukseltilince bu adim kaldirilabilir.
+        run: |
+          echo "" >> android/gradle.properties
+          echo "android.suppressUnsupportedCompileSdk=36" >> android/gradle.properties
+          tail -3 android/gradle.properties
 
       - name: Restore keystore
         env:

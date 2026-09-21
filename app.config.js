@@ -92,8 +92,10 @@ module.exports = {
         {
           android: {
             usesCleartextTraffic: false,
-            compileSdkVersion: 35,
-            targetSdkVersion: 35,
+            // Play zorunlulugu (21 Eyl 2026): hedef API 36. AGP 8.6 (Expo 52) API 36'yi
+            // resmen bilmiyor; android.yml prebuild sonrasi suppressUnsupportedCompileSdk ekliyor.
+            compileSdkVersion: 36,
+            targetSdkVersion: 36,
             minSdkVersion: 26,
             ndkVersion: '28.2.13676358',
           },
