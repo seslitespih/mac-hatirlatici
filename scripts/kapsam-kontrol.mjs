@@ -19,6 +19,7 @@ const ESLEME = { futbol: 'football', basketbol: 'basketball', voleybol: 'volleyb
 // (21 Eyl 2026: basketbol bolumunde yalniz WNBA + Avustralya NBL vardi.)
 const KAPSAM_DISI = [
   /wnba/i, /avustralya nbl/i, /\bnbl\b/i,          // kadin kulup ligi / nis lig
+  /fiba europe cup/i,                               // 3. seviye Avrupa kulup kupasi — §3 basketbol kapsaminda degil (uygulamada takim yok)
   /basketbol 1\. ligi/i, /tbf/i,                    // TR ikinci seviye + altyapi
   /on eleme youtube/i,
   /usl/i, /primera nacional/i, /primera c/i,        // alt ligler

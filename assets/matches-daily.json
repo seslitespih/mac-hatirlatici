@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-09-21T22:10:00.000Z",
- "date": "2026-09-22",
- "model": "claude-opus-4-8 (gece calismasi — 9 zamaninda kaynak: TR/GB/US/DE/ES/FR/IT/PT/CA + BR jogos-amanha. Sali cok hafif gun: buyuk Avrupa/Super Lig maci YOK (GB yalniz EFL Trophy=kapsam disi, DE bos, FR/ES yalniz kadin, IT futbol yok, PT kadin+rezerv). Kapsamdaki maclar: 2 CEV voleybol ceyrek final + 1 TBF Cumhurbaskanligi Kupasi basketbol. Arjantin Primera ES'de goruldu ama detay yok; tvenvivo 403 verdi — SA futbolu 13:07'de zenginlestirilecek.)",
+ "generated_at": "2026-09-23T10:20:00.000Z",
+ "date": "2026-09-23",
+ "model": "claude-opus-4-8 (13:07 oglen calismasi — GECE CALISMASI YAPILMADI, dosya dunu (22 Eyl) gosteriyordu ve matches-next.json bostu; gun sifirdan kuruldu. 13:07'de tum kaynaklar guncel oldugu icin hem gunu ceviren 9 kaynak hem gec donen SA/MENA kaynaklari cekildi. Carsamba cok hafif gun: CL/Super Lig/Brasileirao/Libertadores/Sudamericana YOK. Erkek Avrupa futbolu bos (GB/FR/IT yalniz kadin+micro-nation). Kapsam: 2 CEV voleybol ceyrek final + Gulf Cup 2 milli mac + 2 milli hazirlik + USL + Kolombiya Dimayor + MLS. AR tvenvivo 403 (dun de). Kapsam disi birakilanlar raporda.)",
  "stats": {
-  "total": 3,
-  "withChannel": 3,
+  "total": 9,
+  "withChannel": 9,
   "bySport": {
-   "volleyball": 2,
-   "basketball": 1
+   "football": 7,
+   "volleyball": 2
   },
-  "countries": 1,
+  "countries": 13,
   "warnings": 0,
   "searches": 0
  },
  "matches": [
   {
-   "id": "volleyball-20260922-france-romania",
+   "id": "volleyball-20260923-belgium-slovenia",
    "sport": "volleyball",
    "competitionId": "cev_euro",
    "tier": "regional",
@@ -29,50 +29,17 @@
     "pt": "Campeonato Europeu CEV",
     "ar": "بطولة أوروبا لكرة الطائرة"
    },
-   "home": "France",
-   "away": "Romania",
+   "home": "Belgium",
+   "away": "Slovenia",
    "homeNames": {
-    "tr": "Fransa",
-    "en": "France"
+    "tr": "Belçika",
+    "en": "Belgium"
    },
    "awayNames": {
-    "tr": "Romanya",
-    "en": "Romania"
+    "tr": "Slovenya",
+    "en": "Slovenia"
    },
-   "kickoffUtc": "2026-09-22T13:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor Yıldız"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "volleyball-20260922-poland-germany",
-   "sport": "volleyball",
-   "competitionId": "cev_euro",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Avrupa Şampiyonası",
-    "en": "CEV European Championship",
-    "de": "CEV-Europameisterschaft",
-    "es": "Campeonato Europeo CEV",
-    "fr": "Championnat d'Europe CEV",
-    "it": "Campionato Europeo CEV",
-    "pt": "Campeonato Europeu CEV",
-    "ar": "بطولة أوروبا لكرة الطائرة"
-   },
-   "home": "Poland",
-   "away": "Germany",
-   "homeNames": {
-    "tr": "Polonya",
-    "en": "Poland"
-   },
-   "awayNames": {
-    "tr": "Almanya",
-    "en": "Germany"
-   },
-   "kickoffUtc": "2026-09-22T16:00:00Z",
+   "kickoffUtc": "2026-09-23T14:00:00Z",
    "broadcasts": {
     "TR": [
      "TRT Spor"
@@ -81,34 +48,333 @@
    "sources": []
   },
   {
-   "id": "basketball-20260922-fenerbahce-beko-besiktas-gain",
-   "sport": "basketball",
-   "competitionId": "tbf_cumhurbaskanligi",
+   "id": "football-20260923-iraq-oman",
+   "sport": "football",
+   "competitionId": "gulf_cup",
    "tier": "regional",
    "competition": {
-    "tr": "Cumhurbaşkanlığı Kupası",
-    "en": "Turkish President's Cup",
-    "de": "Türkischer Präsidenten-Pokal",
-    "es": "Copa del Presidente de Turquía",
-    "fr": "Coupe du Président de Turquie",
-    "it": "Coppa del Presidente di Turchia",
-    "pt": "Taça do Presidente da Turquia",
-    "ar": "كأس الرئيس التركي لكرة السلة"
+    "tr": "Körfez Kupası",
+    "en": "Arabian Gulf Cup",
+    "de": "Golfpokal",
+    "es": "Copa del Golfo",
+    "fr": "Coupe du Golfe",
+    "it": "Coppa del Golfo",
+    "pt": "Taça do Golfo",
+    "ar": "كأس الخليج العربي"
    },
-   "home": "Fenerbahce Beko",
-   "away": "Besiktas GAIN",
+   "home": "Iraq",
+   "away": "Oman",
    "homeNames": {
-    "tr": "Fenerbahçe Beko",
-    "en": "Fenerbahçe Beko"
+    "tr": "Irak",
+    "en": "Iraq"
    },
    "awayNames": {
-    "tr": "Beşiktaş GAIN",
-    "en": "Beşiktaş GAIN"
+    "tr": "Umman",
+    "en": "Oman"
    },
-   "kickoffUtc": "2026-09-22T17:00:00Z",
+   "kickoffUtc": "2026-09-23T14:30:00Z",
+   "broadcasts": {
+    "SA": [
+     "Saudi Sports 1"
+    ],
+    "QA": [
+     "AL KASS One",
+     "AL KASS Two"
+    ],
+    "AE": [
+     "Sharjah Sports"
+    ],
+    "OM": [
+     "Oman Sports TV"
+    ],
+    "IQ": [
+     "AL KASS One"
+    ],
+    "DE": [
+     "DAZN",
+     "Sportdigital+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260923-azerbaijan-tajikistan",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match amical",
+    "it": "Amichevole",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية"
+   },
+   "home": "Azerbaijan",
+   "away": "Tajikistan",
+   "homeNames": {
+    "tr": "Azerbaycan",
+    "en": "Azerbaijan"
+   },
+   "awayNames": {
+    "tr": "Tacikistan",
+    "en": "Tajikistan"
+   },
+   "kickoffUtc": "2026-09-23T16:00:00Z",
    "broadcasts": {
     "TR": [
-     "TRT 1"
+     "CBC Sport"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "US": [
+     "FOX Soccer Plus",
+     "Fubo",
+     "ViX"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260923-gibraltar-sao-tome-and-principe",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match amical",
+    "it": "Amichevole",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية"
+   },
+   "home": "Gibraltar",
+   "away": "Sao Tome and Principe",
+   "homeNames": {
+    "tr": "Cebelitarık",
+    "en": "Gibraltar"
+   },
+   "awayNames": {
+    "tr": "Sao Tome ve Principe",
+    "en": "Sao Tome and Principe"
+   },
+   "kickoffUtc": "2026-09-23T16:00:00Z",
+   "broadcasts": {
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "PT": [
+     "Sport TV 1"
+    ],
+    "US": [
+     "Tubi",
+     "Amazon Prime Video",
+     "Fubo",
+     "ViX"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260923-birmingham-legion-brooklyn",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL تشامبيونشيب"
+   },
+   "home": "Birmingham Legion",
+   "away": "Brooklyn",
+   "homeNames": {
+    "tr": "Birmingham Legion",
+    "en": "Birmingham Legion"
+   },
+   "awayNames": {
+    "tr": "Brooklyn",
+    "en": "Brooklyn FC"
+   },
+   "kickoffUtc": "2026-09-23T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+",
+     "TUDN"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260923-saudi-arabia-kuwait",
+   "sport": "football",
+   "competitionId": "gulf_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "Körfez Kupası",
+    "en": "Arabian Gulf Cup",
+    "de": "Golfpokal",
+    "es": "Copa del Golfo",
+    "fr": "Coupe du Golfe",
+    "it": "Coppa del Golfo",
+    "pt": "Taça do Golfo",
+    "ar": "كأس الخليج العربي"
+   },
+   "home": "Saudi Arabia",
+   "away": "Kuwait",
+   "homeNames": {
+    "tr": "Suudi Arabistan",
+    "en": "Saudi Arabia"
+   },
+   "awayNames": {
+    "tr": "Kuveyt",
+    "en": "Kuwait"
+   },
+   "kickoffUtc": "2026-09-23T18:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "Saudi Sports 1"
+    ],
+    "QA": [
+     "AL KASS One",
+     "AL KASS Two"
+    ],
+    "AE": [
+     "Sharjah Sports"
+    ],
+    "OM": [
+     "Oman Sports TV"
+    ],
+    "IQ": [
+     "AL KASS One"
+    ],
+    "DE": [
+     "DAZN",
+     "Sportdigital+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "volleyball-20260923-italy-finland",
+   "sport": "volleyball",
+   "competitionId": "cev_euro",
+   "tier": "regional",
+   "competition": {
+    "tr": "CEV Avrupa Şampiyonası",
+    "en": "CEV European Championship",
+    "de": "CEV-Europameisterschaft",
+    "es": "Campeonato Europeo CEV",
+    "fr": "Championnat d'Europe CEV",
+    "it": "Campionato Europeo CEV",
+    "pt": "Campeonato Europeu CEV",
+    "ar": "بطولة أوروبا لكرة الطائرة"
+   },
+   "home": "Italy",
+   "away": "Finland",
+   "homeNames": {
+    "tr": "İtalya",
+    "en": "Italy"
+   },
+   "awayNames": {
+    "tr": "Finlandiya",
+    "en": "Finland"
+   },
+   "kickoffUtc": "2026-09-23T19:05:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor Yıldız"
+    ],
+    "IT": [
+     "Rai 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260923-america-de-cali-aguilas-doradas",
+   "sport": "football",
+   "competitionId": "liga_dimayor",
+   "tier": "regional",
+   "competition": {
+    "tr": "Kolombiya Ligi (BetPlay DIMAYOR)",
+    "en": "Liga BetPlay DIMAYOR",
+    "de": "Liga BetPlay DIMAYOR",
+    "es": "Liga BetPlay DIMAYOR",
+    "fr": "Liga BetPlay DIMAYOR",
+    "it": "Liga BetPlay DIMAYOR",
+    "pt": "Liga BetPlay DIMAYOR",
+    "ar": "الدوري الكولومبي (بيت بلاي)"
+   },
+   "home": "America de Cali",
+   "away": "Aguilas Doradas",
+   "homeNames": {
+    "tr": "América de Cali",
+    "en": "América de Cali"
+   },
+   "awayNames": {
+    "tr": "Águilas Doradas",
+    "en": "Águilas Doradas Rionegro"
+   },
+   "kickoffUtc": "2026-09-24T00:30:00Z",
+   "broadcasts": {
+    "CO": [
+     "Win Fútbol+",
+     "Win Play"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260923-seattle-sounders-real-salt-lake",
+   "sport": "football",
+   "competitionId": "mls",
+   "tier": "regional",
+   "competition": {
+    "tr": "MLS",
+    "en": "MLS",
+    "de": "MLS",
+    "es": "MLS",
+    "fr": "MLS",
+    "it": "MLS",
+    "pt": "MLS",
+    "ar": "الدوري الأمريكي (MLS)"
+   },
+   "home": "Seattle Sounders",
+   "away": "Real Salt Lake",
+   "homeNames": {
+    "tr": "Seattle Sounders",
+    "en": "Seattle Sounders"
+   },
+   "awayNames": {
+    "tr": "Real Salt Lake",
+    "en": "Real Salt Lake"
+   },
+   "kickoffUtc": "2026-09-24T01:30:00Z",
+   "broadcasts": {
+    "US": [
+     "MLS Season Pass (Apple TV)"
+    ],
+    "CA": [
+     "MLS Season Pass (Apple TV)"
     ]
    },
    "sources": []
