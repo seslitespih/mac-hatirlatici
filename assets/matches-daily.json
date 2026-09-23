@@ -3,13 +3,13 @@
  "date": "2026-09-23",
  "model": "claude-opus-4-8 (13:07 oglen calismasi — GECE CALISMASI YAPILMADI, dosya dunu (22 Eyl) gosteriyordu ve matches-next.json bostu; gun sifirdan kuruldu. 13:07'de tum kaynaklar guncel oldugu icin hem gunu ceviren 9 kaynak hem gec donen SA/MENA kaynaklari cekildi. Carsamba cok hafif gun: CL/Super Lig/Brasileirao/Libertadores/Sudamericana YOK. Erkek Avrupa futbolu bos (GB/FR/IT yalniz kadin+micro-nation). Kapsam: 2 CEV voleybol ceyrek final + Gulf Cup 2 milli mac + 2 milli hazirlik + USL + Kolombiya Dimayor + MLS. AR tvenvivo 403 (dun de). Kapsam disi birakilanlar raporda.)",
  "stats": {
-  "total": 9,
-  "withChannel": 9,
+  "total": 10,
+  "withChannel": 10,
   "bySport": {
-   "football": 7,
+   "football": 8,
    "volleyball": 2
   },
-  "countries": 13,
+  "countries": 15,
   "warnings": 0,
   "searches": 0
  },
@@ -142,6 +142,43 @@
    "sources": []
   },
   {
+   "id": "football-20260923-birmingham-legion-brooklyn",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL تشامبيونشيب"
+   },
+   "home": "Birmingham Legion",
+   "away": "Brooklyn",
+   "homeNames": {
+    "tr": "Birmingham Legion",
+    "en": "Birmingham Legion"
+   },
+   "awayNames": {
+    "tr": "Brooklyn",
+    "en": "Brooklyn FC"
+   },
+   "kickoffUtc": "2026-09-23T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "USL Championship YouTube"
+    ],
+    "US": [
+     "ESPN+",
+     "TUDN"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260923-gibraltar-sao-tome-and-principe",
    "sport": "football",
    "competitionId": "friendly",
@@ -182,43 +219,6 @@
      "Amazon Prime Video",
      "Fubo",
      "ViX"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260923-birmingham-legion-brooklyn",
-   "sport": "football",
-   "competitionId": "usl",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "de": "USL Championship",
-    "es": "USL Championship",
-    "fr": "USL Championship",
-    "it": "USL Championship",
-    "pt": "USL Championship",
-    "ar": "دوري USL تشامبيونشيب"
-   },
-   "home": "Birmingham Legion",
-   "away": "Brooklyn",
-   "homeNames": {
-    "tr": "Birmingham Legion",
-    "en": "Birmingham Legion"
-   },
-   "awayNames": {
-    "tr": "Brooklyn",
-    "en": "Brooklyn FC"
-   },
-   "kickoffUtc": "2026-09-23T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "USL Championship YouTube"
-    ],
-    "US": [
-     "ESPN+",
-     "TUDN"
     ]
    },
    "sources": []
@@ -305,6 +305,38 @@
     ],
     "IT": [
      "Rai 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260923-adt-cienciano",
+   "sport": "football",
+   "competitionId": "liga1_pe",
+   "tier": "regional",
+   "competition": {
+    "tr": "Peru Liga 1",
+    "en": "Peruvian Liga 1",
+    "de": "Peruanische Liga 1",
+    "es": "Liga 1 de Perú",
+    "fr": "Liga 1 péruvienne",
+    "it": "Liga 1 peruviana",
+    "pt": "Liga 1 do Peru",
+    "ar": "الدوري البيروفي"
+   },
+   "home": "ADT",
+   "away": "Cienciano",
+   "kickoffUtc": "2026-09-23T20:00:00Z",
+   "broadcasts": {
+    "PE": [
+     "L1 Max",
+     "L1 Play"
+    ],
+    "ES": [
+     "Fanatiz"
+    ],
+    "BR": [
+     "Fanatiz"
     ]
    },
    "sources": []
