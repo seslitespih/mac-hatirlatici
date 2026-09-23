@@ -1,137 +1,249 @@
 {
- "generated_at": "2026-09-23T10:20:00.000Z",
- "date": "2026-09-23",
- "model": "claude-opus-4-8 (13:07 oglen calismasi — GECE CALISMASI YAPILMADI, dosya dunu (22 Eyl) gosteriyordu ve matches-next.json bostu; gun sifirdan kuruldu. 13:07'de tum kaynaklar guncel oldugu icin hem gunu ceviren 9 kaynak hem gec donen SA/MENA kaynaklari cekildi. Carsamba cok hafif gun: CL/Super Lig/Brasileirao/Libertadores/Sudamericana YOK. Erkek Avrupa futbolu bos (GB/FR/IT yalniz kadin+micro-nation). Kapsam: 2 CEV voleybol ceyrek final + Gulf Cup 2 milli mac + 2 milli hazirlik + USL + Kolombiya Dimayor + MLS. AR tvenvivo 403 (dun de). Kapsam disi birakilanlar raporda.)",
+ "generated_at": "2026-09-24T01:15:00.000Z",
+ "date": "2026-09-24",
+ "model": "claude-opus-4-8 (01:07 gece calismasi — yeni gun sifirdan kuruldu; matches-next.json bostu. Milli ara gunu: UEFA Uluslar Ligi 8 mac (kulup futbolu YOK). AFCON Elemeleri favori takimlar (Fildisi Sahili/Gana/Tunus) + lig butunlugu ile 7 mac. EuroLeague 7 mac. F1/F2 Azerbaycan GP FP-gunu (hafta one alindi, yaris Cmt 26 Eyl). PT kaynagi dunu (23 Eyl) gosterdi — kullanilmadi, 13:07'de tekrar. DE FotMob bos dondu — Hollanda-Almanya DE kanali bos, 13:07'de tekrar. 13:07 gec donen kaynaklar (MENA/AR/BR/LATAM) bu dosyayi zenginlestirecek.)",
  "stats": {
-  "total": 10,
-  "withChannel": 10,
+  "total": 26,
+  "withChannel": 26,
   "bySport": {
-   "football": 8,
-   "volleyball": 2
+   "motorsport": 4,
+   "football": 15,
+   "basketball": 7
   },
-  "countries": 15,
+  "countries": 6,
   "warnings": 0,
   "searches": 0
  },
  "matches": [
   {
-   "id": "volleyball-20260923-belgium-slovenia",
-   "sport": "volleyball",
-   "competitionId": "cev_euro",
-   "tier": "regional",
+   "id": "motorsport-20260924-formula-2-azerbaycan-gp-antrenman",
+   "sport": "motorsport",
+   "competitionId": "f2",
+   "tier": "global",
    "competition": {
-    "tr": "CEV Avrupa Şampiyonası",
-    "en": "CEV European Championship",
-    "de": "CEV-Europameisterschaft",
-    "es": "Campeonato Europeo CEV",
-    "fr": "Championnat d'Europe CEV",
-    "it": "Campionato Europeo CEV",
-    "pt": "Campeonato Europeu CEV",
-    "ar": "بطولة أوروبا لكرة الطائرة"
+    "tr": "Formula 2",
+    "en": "Formula 2",
+    "de": "Formel 2",
+    "es": "Fórmula 2",
+    "fr": "Formule 2",
+    "it": "Formula 2",
+    "pt": "Fórmula 2",
+    "ar": "الفورمولا 2"
    },
-   "home": "Belgium",
-   "away": "Slovenia",
+   "home": "Formula 2 Azerbaycan GP",
+   "away": "Antrenman",
    "homeNames": {
-    "tr": "Belçika",
-    "en": "Belgium"
+    "tr": "Formula 2 Azerbaycan GP",
+    "en": "Formula 2 Azerbaijan GP"
    },
    "awayNames": {
-    "tr": "Slovenya",
-    "en": "Slovenia"
+    "tr": "Antrenman",
+    "en": "Practice",
+    "de": "Freies Training",
+    "es": "Práctica",
+    "fr": "Essais libres",
+    "it": "Prove libere",
+    "pt": "Treino livre",
+    "ar": "التجربة الحرة"
    },
-   "kickoffUtc": "2026-09-23T14:00:00Z",
+   "kickoffUtc": "2026-09-24T06:00:00Z",
    "broadcasts": {
     "TR": [
-     "TRT Spor"
+     "beIN Sports 4"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260923-iraq-oman",
-   "sport": "football",
-   "competitionId": "gulf_cup",
-   "tier": "regional",
+   "id": "motorsport-20260924-formula-1-azerbaycan-gp-1-antrenman",
+   "sport": "motorsport",
+   "competitionId": "f1",
+   "tier": "global",
    "competition": {
-    "tr": "Körfez Kupası",
-    "en": "Arabian Gulf Cup",
-    "de": "Golfpokal",
-    "es": "Copa del Golfo",
-    "fr": "Coupe du Golfe",
-    "it": "Coppa del Golfo",
-    "pt": "Taça do Golfo",
-    "ar": "كأس الخليج العربي"
+    "tr": "Formula 1",
+    "en": "Formula 1",
+    "de": "Formel 1",
+    "es": "Fórmula 1",
+    "fr": "Formule 1",
+    "it": "Formula 1",
+    "pt": "Fórmula 1",
+    "ar": "الفورمولا 1"
    },
-   "home": "Iraq",
-   "away": "Oman",
+   "home": "Formula 1 Azerbaycan GP",
+   "away": "1. Antrenman",
    "homeNames": {
-    "tr": "Irak",
-    "en": "Iraq"
+    "tr": "Formula 1 Azerbaycan GP",
+    "en": "Formula 1 Azerbaijan GP"
    },
    "awayNames": {
-    "tr": "Umman",
-    "en": "Oman"
+    "tr": "1. Antrenman",
+    "en": "Practice 1",
+    "de": "1. Freies Training",
+    "es": "Práctica 1",
+    "fr": "Essais libres 1",
+    "it": "Prove libere 1",
+    "pt": "Treino livre 1",
+    "ar": "التجربة الحرة 1"
    },
-   "kickoffUtc": "2026-09-23T14:30:00Z",
+   "kickoffUtc": "2026-09-24T08:30:00Z",
    "broadcasts": {
-    "SA": [
-     "Saudi Sports 1"
-    ],
-    "QA": [
-     "AL KASS One",
-     "AL KASS Two"
-    ],
-    "AE": [
-     "Sharjah Sports"
-    ],
-    "OM": [
-     "Oman Sports TV"
-    ],
-    "IQ": [
-     "AL KASS One"
-    ],
-    "DE": [
-     "DAZN",
-     "Sportdigital+"
+    "TR": [
+     "beIN Sports 4",
+     "Idman TV"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260923-azerbaijan-tajikistan",
-   "sport": "football",
-   "competitionId": "friendly",
-   "tier": "regional",
+   "id": "motorsport-20260924-formula-2-azerbaycan-gp-siralama",
+   "sport": "motorsport",
+   "competitionId": "f2",
+   "tier": "global",
    "competition": {
-    "tr": "Hazırlık Maçı",
-    "en": "International Friendly",
-    "de": "Freundschaftsspiel",
-    "es": "Amistoso Internacional",
-    "fr": "Match amical",
-    "it": "Amichevole",
-    "pt": "Amistoso Internacional",
-    "ar": "مباراة ودية"
+    "tr": "Formula 2",
+    "en": "Formula 2",
+    "de": "Formel 2",
+    "es": "Fórmula 2",
+    "fr": "Formule 2",
+    "it": "Formula 2",
+    "pt": "Fórmula 2",
+    "ar": "الفورمولا 2"
    },
-   "home": "Azerbaijan",
-   "away": "Tajikistan",
+   "home": "Formula 2 Azerbaycan GP",
+   "away": "Sıralama",
    "homeNames": {
-    "tr": "Azerbaycan",
-    "en": "Azerbaijan"
+    "tr": "Formula 2 Azerbaycan GP",
+    "en": "Formula 2 Azerbaijan GP"
    },
    "awayNames": {
-    "tr": "Tacikistan",
-    "en": "Tajikistan"
+    "tr": "Sıralama",
+    "en": "Qualifying",
+    "de": "Qualifying",
+    "es": "Clasificación",
+    "fr": "Qualifications",
+    "it": "Qualifiche",
+    "pt": "Qualificação",
+    "ar": "التصفيات"
    },
-   "kickoffUtc": "2026-09-23T16:00:00Z",
+   "kickoffUtc": "2026-09-24T10:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 4"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "motorsport-20260924-formula-1-azerbaycan-gp-2-antrenman",
+   "sport": "motorsport",
+   "competitionId": "f1",
+   "tier": "global",
+   "competition": {
+    "tr": "Formula 1",
+    "en": "Formula 1",
+    "de": "Formel 1",
+    "es": "Fórmula 1",
+    "fr": "Formule 1",
+    "it": "Formula 1",
+    "pt": "Fórmula 1",
+    "ar": "الفورمولا 1"
+   },
+   "home": "Formula 1 Azerbaycan GP",
+   "away": "2. Antrenman",
+   "homeNames": {
+    "tr": "Formula 1 Azerbaycan GP",
+    "en": "Formula 1 Azerbaijan GP"
+   },
+   "awayNames": {
+    "tr": "2. Antrenman",
+    "en": "Practice 2",
+    "de": "2. Freies Training",
+    "es": "Práctica 2",
+    "fr": "Essais libres 2",
+    "it": "Prove libere 2",
+    "pt": "Treino livre 2",
+    "ar": "التجربة الحرة 2"
+   },
+   "kickoffUtc": "2026-09-24T12:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 4",
+     "Idman TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-namibia-congo",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Namibia",
+   "away": "Congo",
+   "homeNames": {
+    "tr": "Namibya",
+    "en": "Namibia"
+   },
+   "awayNames": {
+    "tr": "Kongo",
+    "en": "Congo"
+   },
+   "kickoffUtc": "2026-09-24T13:00:00Z",
+   "broadcasts": {
+    "US": [
+     "beIN Sports",
+     "beIN Sports Connect",
+     "Fubo",
+     "Fanatiz"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-andorra-malta",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Andorra",
+   "away": "Malta",
+   "homeNames": {
+    "tr": "Andorra",
+    "en": "Andorra"
+   },
+   "awayNames": {
+    "tr": "Malta",
+    "en": "Malta"
+   },
+   "kickoffUtc": "2026-09-24T16:00:00Z",
    "broadcasts": {
     "TR": [
      "CBC Sport"
     ],
-    "DE": [
-     "DAZN"
-    ],
     "ES": [
      "DAZN"
+    ],
+    "IT": [
+     "Sky Sport Calcio"
     ],
     "US": [
      "FOX Soccer Plus",
@@ -142,77 +254,459 @@
    "sources": []
   },
   {
-   "id": "football-20260923-birmingham-legion-brooklyn",
+   "id": "football-20260924-dr-congo-equatorial-guinea",
    "sport": "football",
-   "competitionId": "usl",
+   "competitionId": "afcon_qual",
    "tier": "regional",
    "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "de": "USL Championship",
-    "es": "USL Championship",
-    "fr": "USL Championship",
-    "it": "USL Championship",
-    "pt": "USL Championship",
-    "ar": "دوري USL تشامبيونشيب"
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
    },
-   "home": "Birmingham Legion",
-   "away": "Brooklyn",
+   "home": "DR Congo",
+   "away": "Equatorial Guinea",
    "homeNames": {
-    "tr": "Birmingham Legion",
-    "en": "Birmingham Legion"
+    "tr": "DR Kongo",
+    "en": "DR Congo"
    },
    "awayNames": {
-    "tr": "Brooklyn",
-    "en": "Brooklyn FC"
+    "tr": "Ekvator Ginesi",
+    "en": "Equatorial Guinea"
    },
-   "kickoffUtc": "2026-09-23T16:00:00Z",
+   "kickoffUtc": "2026-09-24T16:00:00Z",
    "broadcasts": {
-    "TR": [
-     "USL Championship YouTube"
+    "FR": [
+     "beIN Sports 2"
     ],
     "US": [
-     "ESPN+",
-     "TUDN"
+     "beIN Sports",
+     "beIN Sports Connect",
+     "Fubo",
+     "Fanatiz"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260923-gibraltar-sao-tome-and-principe",
+   "id": "football-20260924-libya-botswana",
    "sport": "football",
-   "competitionId": "friendly",
+   "competitionId": "afcon_qual",
    "tier": "regional",
    "competition": {
-    "tr": "Hazırlık Maçı",
-    "en": "International Friendly",
-    "de": "Freundschaftsspiel",
-    "es": "Amistoso Internacional",
-    "fr": "Match amical",
-    "it": "Amichevole",
-    "pt": "Amistoso Internacional",
-    "ar": "مباراة ودية"
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
    },
-   "home": "Gibraltar",
-   "away": "Sao Tome and Principe",
+   "home": "Libya",
+   "away": "Botswana",
    "homeNames": {
-    "tr": "Cebelitarık",
-    "en": "Gibraltar"
+    "tr": "Libya",
+    "en": "Libya"
    },
    "awayNames": {
-    "tr": "Sao Tome ve Principe",
-    "en": "Sao Tome and Principe"
+    "tr": "Botsvana",
+    "en": "Botswana"
    },
-   "kickoffUtc": "2026-09-23T16:00:00Z",
+   "kickoffUtc": "2026-09-24T16:00:00Z",
    "broadcasts": {
-    "DE": [
-     "DAZN"
+    "US": [
+     "beIN Sports Connect",
+     "Fubo",
+     "Fanatiz"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-mauritania-central-african-republic",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Mauritania",
+   "away": "Central African Republic",
+   "homeNames": {
+    "tr": "Moritanya",
+    "en": "Mauritania"
+   },
+   "awayNames": {
+    "tr": "Orta Afrika Cumhuriyeti",
+    "en": "Central African Republic"
+   },
+   "kickoffUtc": "2026-09-24T16:00:00Z",
+   "broadcasts": {
+    "US": [
+     "beIN Sports Connect",
+     "beIN Sports en Español",
+     "Fubo",
+     "Fanatiz"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260924-dubai-basket-real-madrid-baloncesto",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Dubai Basket",
+   "away": "Real Madrid Baloncesto",
+   "kickoffUtc": "2026-09-24T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus",
+     "S Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260924-hapoel-tel-aviv-bayern-munich-basketball",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Hapoel Tel Aviv",
+   "away": "Bayern Munich Basketball",
+   "kickoffUtc": "2026-09-24T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus",
+     "S Sport 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260924-crvena-zvezda-zalgiris-kaunas",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Crvena Zvezda",
+   "away": "Zalgiris Kaunas",
+   "kickoffUtc": "2026-09-24T18:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260924-panathinaikos-paris-basketball",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Panathinaikos",
+   "away": "Paris Basketball",
+   "kickoffUtc": "2026-09-24T18:15:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus",
+     "S Sport 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260924-barca-basket-anadolu-efes",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Barça Basket",
+   "away": "Anadolu Efes",
+   "kickoffUtc": "2026-09-24T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus",
+     "S Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260924-baskonia-olympiakos",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Baskonia",
+   "away": "Olympiakos",
+   "kickoffUtc": "2026-09-24T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-netherlands-germany",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Netherlands",
+   "away": "Germany",
+   "homeNames": {
+    "tr": "Hollanda",
+    "en": "Netherlands"
+   },
+   "awayNames": {
+    "tr": "Almanya",
+    "en": "Germany"
+   },
+   "kickoffUtc": "2026-09-24T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "A Spor",
+     "CBC Sport"
+    ],
+    "GB": [
+     "Amazon Prime Video"
+    ],
+    "ES": [
+     "DAZN",
+     "La 1 TVE",
+     "RTVE Play"
+    ],
+    "IT": [
+     "TV8",
+     "Sky Sport 1"
+    ],
+    "FR": [
+     "L'Équipe Live Foot"
+    ],
+    "US": [
+     "Fubo",
+     "ViX"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-norway-denmark",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Norway",
+   "away": "Denmark",
+   "homeNames": {
+    "tr": "Norveç",
+    "en": "Norway"
+   },
+   "awayNames": {
+    "tr": "Danimarka",
+    "en": "Denmark"
+   },
+   "kickoffUtc": "2026-09-24T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "a2 TV"
+    ],
+    "GB": [
+     "Amazon Prime Video"
     ],
     "ES": [
      "DAZN"
     ],
-    "PT": [
-     "Sport TV 1"
+    "FR": [
+     "L'Équipe Live Foot"
+    ],
+    "US": [
+     "FS1",
+     "Fubo",
+     "ViX"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-portugal-wales",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Portugal",
+   "away": "Wales",
+   "homeNames": {
+    "tr": "Portekiz",
+    "en": "Portugal"
+   },
+   "awayNames": {
+    "tr": "Galler",
+    "en": "Wales"
+   },
+   "kickoffUtc": "2026-09-24T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "A Haber"
+    ],
+    "GB": [
+     "BBC One Wales",
+     "BBC Two",
+     "S4C",
+     "BBC iPlayer"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "FR": [
+     "L'Équipe Live Foot"
+    ],
+    "US": [
+     "FOX Soccer Plus",
+     "Fubo",
+     "ViX"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-serbia-greece",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Serbia",
+   "away": "Greece",
+   "homeNames": {
+    "tr": "Sırbistan",
+    "en": "Serbia"
+   },
+   "awayNames": {
+    "tr": "Yunanistan",
+    "en": "Greece"
+   },
+   "kickoffUtc": "2026-09-24T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ],
+    "GB": [
+     "Amazon Prime Video"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "FR": [
+     "L'Équipe Live Foot"
     ],
     "US": [
      "Tubi",
@@ -224,189 +718,268 @@
    "sources": []
   },
   {
-   "id": "football-20260923-saudi-arabia-kuwait",
+   "id": "football-20260924-kosovo-republic-of-ireland",
    "sport": "football",
-   "competitionId": "gulf_cup",
-   "tier": "regional",
+   "competitionId": "uefa_nations",
+   "tier": "global",
    "competition": {
-    "tr": "Körfez Kupası",
-    "en": "Arabian Gulf Cup",
-    "de": "Golfpokal",
-    "es": "Copa del Golfo",
-    "fr": "Coupe du Golfe",
-    "it": "Coppa del Golfo",
-    "pt": "Taça do Golfo",
-    "ar": "كأس الخليج العربي"
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
    },
-   "home": "Saudi Arabia",
-   "away": "Kuwait",
+   "home": "Kosovo",
+   "away": "Republic of Ireland",
    "homeNames": {
-    "tr": "Suudi Arabistan",
-    "en": "Saudi Arabia"
+    "tr": "Kosova",
+    "en": "Kosovo"
    },
    "awayNames": {
-    "tr": "Kuveyt",
-    "en": "Kuwait"
+    "tr": "İrlanda",
+    "en": "Republic of Ireland"
    },
-   "kickoffUtc": "2026-09-23T18:00:00Z",
-   "broadcasts": {
-    "SA": [
-     "Saudi Sports 1"
-    ],
-    "QA": [
-     "AL KASS One",
-     "AL KASS Two"
-    ],
-    "AE": [
-     "Sharjah Sports"
-    ],
-    "OM": [
-     "Oman Sports TV"
-    ],
-    "IQ": [
-     "AL KASS One"
-    ],
-    "DE": [
-     "DAZN",
-     "Sportdigital+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "volleyball-20260923-italy-finland",
-   "sport": "volleyball",
-   "competitionId": "cev_euro",
-   "tier": "regional",
-   "competition": {
-    "tr": "CEV Avrupa Şampiyonası",
-    "en": "CEV European Championship",
-    "de": "CEV-Europameisterschaft",
-    "es": "Campeonato Europeo CEV",
-    "fr": "Championnat d'Europe CEV",
-    "it": "Campionato Europeo CEV",
-    "pt": "Campeonato Europeu CEV",
-    "ar": "بطولة أوروبا لكرة الطائرة"
-   },
-   "home": "Italy",
-   "away": "Finland",
-   "homeNames": {
-    "tr": "İtalya",
-    "en": "Italy"
-   },
-   "awayNames": {
-    "tr": "Finlandiya",
-    "en": "Finland"
-   },
-   "kickoffUtc": "2026-09-23T19:05:00Z",
+   "kickoffUtc": "2026-09-24T18:45:00Z",
    "broadcasts": {
     "TR": [
-     "TRT Spor Yıldız"
+     "S Sport Plus"
     ],
-    "IT": [
-     "Rai 2"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260923-adt-cienciano",
-   "sport": "football",
-   "competitionId": "liga1_pe",
-   "tier": "regional",
-   "competition": {
-    "tr": "Peru Liga 1",
-    "en": "Peruvian Liga 1",
-    "de": "Peruanische Liga 1",
-    "es": "Liga 1 de Perú",
-    "fr": "Liga 1 péruvienne",
-    "it": "Liga 1 peruviana",
-    "pt": "Liga 1 do Peru",
-    "ar": "الدوري البيروفي"
-   },
-   "home": "ADT",
-   "away": "Cienciano",
-   "kickoffUtc": "2026-09-23T20:00:00Z",
-   "broadcasts": {
-    "PE": [
-     "L1 Max",
-     "L1 Play"
+    "GB": [
+     "Amazon Prime Video"
     ],
     "ES": [
-     "Fanatiz"
+     "DAZN"
     ],
-    "BR": [
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260923-america-de-cali-aguilas-doradas",
-   "sport": "football",
-   "competitionId": "liga_dimayor",
-   "tier": "regional",
-   "competition": {
-    "tr": "Kolombiya Ligi (BetPlay DIMAYOR)",
-    "en": "Liga BetPlay DIMAYOR",
-    "de": "Liga BetPlay DIMAYOR",
-    "es": "Liga BetPlay DIMAYOR",
-    "fr": "Liga BetPlay DIMAYOR",
-    "it": "Liga BetPlay DIMAYOR",
-    "pt": "Liga BetPlay DIMAYOR",
-    "ar": "الدوري الكولومبي (بيت بلاي)"
-   },
-   "home": "America de Cali",
-   "away": "Aguilas Doradas",
-   "homeNames": {
-    "tr": "América de Cali",
-    "en": "América de Cali"
-   },
-   "awayNames": {
-    "tr": "Águilas Doradas",
-    "en": "Águilas Doradas Rionegro"
-   },
-   "kickoffUtc": "2026-09-24T00:30:00Z",
-   "broadcasts": {
-    "CO": [
-     "Win Fútbol+",
-     "Win Play"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260923-seattle-sounders-real-salt-lake",
-   "sport": "football",
-   "competitionId": "mls",
-   "tier": "regional",
-   "competition": {
-    "tr": "MLS",
-    "en": "MLS",
-    "de": "MLS",
-    "es": "MLS",
-    "fr": "MLS",
-    "it": "MLS",
-    "pt": "MLS",
-    "ar": "الدوري الأمريكي (MLS)"
-   },
-   "home": "Seattle Sounders",
-   "away": "Real Salt Lake",
-   "homeNames": {
-    "tr": "Seattle Sounders",
-    "en": "Seattle Sounders"
-   },
-   "awayNames": {
-    "tr": "Real Salt Lake",
-    "en": "Real Salt Lake"
-   },
-   "kickoffUtc": "2026-09-24T01:30:00Z",
-   "broadcasts": {
+    "FR": [
+     "L'Équipe Live Foot"
+    ],
     "US": [
-     "MLS Season Pass (Apple TV)"
+     "Fubo",
+     "ViX"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-austria-israel",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Austria",
+   "away": "Israel",
+   "homeNames": {
+    "tr": "Avusturya",
+    "en": "Austria"
+   },
+   "awayNames": {
+    "tr": "İsrail",
+    "en": "Israel"
+   },
+   "kickoffUtc": "2026-09-24T18:45:00Z",
+   "broadcasts": {
+    "GB": [
+     "Amazon Prime Video"
     ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
+    "ES": [
+     "DAZN"
+    ],
+    "FR": [
+     "L'Équipe Live Foot"
+    ],
+    "US": [
+     "Fubo",
+     "ViX"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-liechtenstein-lithuania",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Liechtenstein",
+   "away": "Lithuania",
+   "homeNames": {
+    "tr": "Liechtenstein",
+    "en": "Liechtenstein"
+   },
+   "awayNames": {
+    "tr": "Litvanya",
+    "en": "Lithuania"
+   },
+   "kickoffUtc": "2026-09-24T18:45:00Z",
+   "broadcasts": {
+    "ES": [
+     "DAZN"
+    ],
+    "US": [
+     "Fubo",
+     "ViX"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260924-asvel-maccabi-tel-aviv",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "ASVEL",
+   "away": "Maccabi Tel Aviv",
+   "kickoffUtc": "2026-09-24T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-ivory-coast-ghana",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "global",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Ivory Coast",
+   "away": "Ghana",
+   "homeNames": {
+    "tr": "Fildişi Sahili",
+    "en": "Ivory Coast"
+   },
+   "awayNames": {
+    "tr": "Gana",
+    "en": "Ghana"
+   },
+   "kickoffUtc": "2026-09-24T19:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports 2"
+    ],
+    "US": [
+     "beIN Sports",
+     "beIN Sports Connect",
+     "Fubo",
+     "Fanatiz"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-tunisia-uganda",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "global",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Tunisia",
+   "away": "Uganda",
+   "homeNames": {
+    "tr": "Tunus",
+    "en": "Tunisia"
+   },
+   "awayNames": {
+    "tr": "Uganda",
+    "en": "Uganda"
+   },
+   "kickoffUtc": "2026-09-24T19:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports MAX 5"
+    ],
+    "US": [
+     "beIN Sports Connect",
+     "Fubo",
+     "Fanatiz"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-cameroon-comoros",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Cameroon",
+   "away": "Comoros",
+   "homeNames": {
+    "tr": "Kamerun",
+    "en": "Cameroon"
+   },
+   "awayNames": {
+    "tr": "Komorlar",
+    "en": "Comoros"
+   },
+   "kickoffUtc": "2026-09-24T19:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports MAX 4"
+    ],
+    "US": [
+     "beIN Sports Connect",
+     "beIN Sports en Español",
+     "Fubo",
+     "Fanatiz"
     ]
    },
    "sources": []
