@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-24T01:15:00.000Z",
+ "generated_at": "2026-09-24T10:10:00.000Z",
  "date": "2026-09-24",
- "model": "claude-opus-4-8 (01:07 gece calismasi — yeni gun sifirdan kuruldu; matches-next.json bostu. Milli ara gunu: UEFA Uluslar Ligi 8 mac (kulup futbolu YOK). AFCON Elemeleri favori takimlar (Fildisi Sahili/Gana/Tunus) + lig butunlugu ile 7 mac. EuroLeague 7 mac. F1/F2 Azerbaycan GP FP-gunu (hafta one alindi, yaris Cmt 26 Eyl). PT kaynagi dunu (23 Eyl) gosterdi — kullanilmadi, 13:07'de tekrar. DE FotMob bos dondu — Hollanda-Almanya DE kanali bos, 13:07'de tekrar. 13:07 gec donen kaynaklar (MENA/AR/BR/LATAM) bu dosyayi zenginlestirecek.)",
+ "model": "claude-sonnet-5 (13:07 oglen zenginlestirme — 11 kaynak: MENA/AR/BR/MX/CO/CL/PE/UY/EC/PY/TR. MENA (kooora) 8 UEFA Uluslar Ligi macinin hepsine beIN Sports MENA kanali eklendi. UY+EC kaynaklari Japonya-Uruguay (Kirin Challenge Cup, 10:05Z) ve Guney Kore-Ekvador (hazirlik, 11:00Z) hazirlik maclarini gosterdi — dorttu takim da teams.ts favori listesinde, ALTIN KURAL geregi eklendi. AR (tvenvivo) bugun icin 'Hoy no hay eventos' dedi — Arjantin milli arada bos, dogru. BR (futebolnatv) Brasileirao/Copa do Brasil/Libertadores/Sudamericana'da bugun mac olmadigini dogruladi, UEFA NL saatlerini de teyit etti. MX/CO/CL/PE/PY sadece kapsam disi yerel kupalar/2. lig gosterdi (Liga Expansion MX, Copa Chile, Copa Paraguay, Liga BetPlay, Copa Ecuador) — eklenmedi. CONCACAF Uluslar Ligi (Karayip maclari) kanal bilgisi net degildi, eklenmedi. DE/PT bu calismanin kaynak listesinde degildi, dokunulmadi.)",
  "stats": {
-  "total": 26,
-  "withChannel": 26,
+  "total": 28,
+  "withChannel": 28,
   "bySport": {
    "motorsport": 4,
-   "football": 15,
+   "football": 17,
    "basketball": 7
   },
-  "countries": 6,
+  "countries": 9,
   "warnings": 0,
   "searches": 0
  },
@@ -134,6 +134,79 @@
    "sources": []
   },
   {
+   "id": "football-20260924-japan-uruguay",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "global",
+   "competition": {
+    "tr": "Uluslararası Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match Amical International",
+    "it": "Amichevole Internazionale",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية دولية"
+   },
+   "home": "Japan",
+   "away": "Uruguay",
+   "homeNames": {
+    "tr": "Japonya",
+    "en": "Japan"
+   },
+   "awayNames": {
+    "tr": "Uruguay",
+    "en": "Uruguay"
+   },
+   "kickoffUtc": "2026-09-24T10:05:00Z",
+   "broadcasts": {
+    "UY": [
+     "AUF TV",
+     "DSports",
+     "Flow"
+    ],
+    "EC": [
+     "AUF TV Premium"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260924-south-korea-ecuador",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "global",
+   "competition": {
+    "tr": "Uluslararası Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match Amical International",
+    "it": "Amichevole Internazionale",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية دولية"
+   },
+   "home": "South Korea",
+   "away": "Ecuador",
+   "homeNames": {
+    "tr": "Güney Kore",
+    "en": "South Korea"
+   },
+   "awayNames": {
+    "tr": "Ekvador",
+    "en": "Ecuador"
+   },
+   "kickoffUtc": "2026-09-24T11:00:00Z",
+   "broadcasts": {
+    "EC": [
+     "Teleamazonas",
+     "TC Televisión",
+     "Ecuador TV"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "motorsport-20260924-formula-1-azerbaycan-gp-2-antrenman",
    "sport": "motorsport",
    "competitionId": "f1",
@@ -249,6 +322,9 @@
      "FOX Soccer Plus",
      "Fubo",
      "ViX"
+    ],
+    "MENA": [
+     "beIN Sports MENA 3"
     ]
    },
    "sources": []
@@ -568,6 +644,10 @@
     "US": [
      "Fubo",
      "ViX"
+    ],
+    "MENA": [
+     "TOD TV",
+     "beIN Sports MENA 2"
     ]
    },
    "sources": []
@@ -615,6 +695,9 @@
      "FS1",
      "Fubo",
      "ViX"
+    ],
+    "MENA": [
+     "beIN Sports MENA 4"
     ]
    },
    "sources": []
@@ -665,6 +748,9 @@
      "FOX Soccer Plus",
      "Fubo",
      "ViX"
+    ],
+    "MENA": [
+     "beIN Sports MENA 3"
     ]
    },
    "sources": []
@@ -713,6 +799,9 @@
      "Amazon Prime Video",
      "Fubo",
      "ViX"
+    ],
+    "MENA": [
+     "beIN Sports MENA 6"
     ]
    },
    "sources": []
@@ -759,6 +848,9 @@
     "US": [
      "Fubo",
      "ViX"
+    ],
+    "MENA": [
+     "beIN Sports MENA 5"
     ]
    },
    "sources": []
@@ -802,6 +894,9 @@
     "US": [
      "Fubo",
      "ViX"
+    ],
+    "MENA": [
+     "beIN Sports ENG 2"
     ]
    },
    "sources": []
@@ -839,6 +934,9 @@
     "US": [
      "Fubo",
      "ViX"
+    ],
+    "MENA": [
+     "beIN Sports XTRA 1"
     ]
    },
    "sources": []
