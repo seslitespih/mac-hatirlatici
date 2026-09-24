@@ -22,7 +22,9 @@ const KAPSAM_DISI = [
   /fiba europe cup/i,                               // 3. seviye Avrupa kulup kupasi — §3 basketbol kapsaminda degil (uygulamada takim yok)
   /basketbol 1\. ligi/i, // TR ikinci seviye + altyapi
   /on eleme youtube/i,
-  /usl/i, /primera nacional/i, /primera c/i,        // alt ligler
+  // ⚠️ Kelime siniri SART: /usl/i Turkce "Ul-usl-ar"a takiliyordu -> "UEFA Uluslar
+  // Ligi" ve "Uluslararasi Dostluk" yanlislikla kapsam disi sayiliyordu (24 Eyl 2026).
+  /usl/i, /primera nacional/i, /primera c/i,   // alt ligler
   /kadin|women|femin|frauen|feminin|femenin/i,      // kadin futbolu (filtre.mjs de eler)
   /sub-?\d|u-?1[5-9]|u-?2[01]/i,                    // altyapi
 ];
