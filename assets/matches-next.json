@@ -1,102 +1,11 @@
 {
  "generated_at": "2026-09-25T06:10:00.000Z",
- "date": "2026-09-25",
+ "date": "2026-09-26",
  "model": "user-provided",
  "stats": {
-  "total": 2
+  "total": 0,
+  "withChannel": 0,
+  "bySport": {}
  },
- "matches": [
-  {
-   "id": "football-20260926-el-salvador-martinique",
-   "sport": "football",
-   "competitionId": "concacaf_nl",
-   "tier": "regional",
-   "competition": {
-    "tr": "CONCACAF Uluslar Ligi",
-    "en": "CONCACAF Nations League",
-    "de": "CONCACAF Nations League",
-    "es": "Liga de Naciones de la CONCACAF",
-    "fr": "Ligue des nations de la CONCACAF",
-    "it": "CONCACAF Nations League",
-    "pt": "Liga das Nações da CONCACAF",
-    "ar": "دوري أمم الكونكاكاف"
-   },
-   "home": "El Salvador",
-   "away": "Martinique",
-   "homeNames": {
-    "tr": "El Salvador",
-    "en": "El Salvador"
-   },
-   "awayNames": {
-    "tr": "Martinik",
-    "en": "Martinique"
-   },
-   "kickoffUtc": "2026-09-26T03:00:00Z",
-   "broadcasts": {
-    "US": [
-     "FS2",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV",
-     "ViX"
-    ],
-    "PT": [
-     "CONCACAF YouTube"
-    ],
-    "MX": [
-     "CONCACAF YouTube"
-    ],
-    "CO": [
-     "CONCACAF YouTube"
-    ],
-    "PE": [
-     "CONCACAF YouTube"
-    ],
-    "EC": [
-     "CONCACAF YouTube"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260926-tijuana-atlas",
-   "sport": "football",
-   "competitionId": "liga_mx",
-   "tier": "regional",
-   "competition": {
-    "tr": "Liga MX",
-    "en": "Liga MX",
-    "de": "Liga MX",
-    "es": "Liga MX",
-    "fr": "Liga MX",
-    "it": "Liga MX",
-    "pt": "Liga MX",
-    "ar": "الدوري المكسيكي"
-   },
-   "home": "Tijuana",
-   "away": "Atlas",
-   "homeNames": {
-    "tr": "Tijuana",
-    "en": "Tijuana"
-   },
-   "awayNames": {
-    "tr": "Atlas",
-    "en": "Atlas"
-   },
-   "kickoffUtc": "2026-09-26T03:00:00Z",
-   "broadcasts": {
-    "US": [
-     "UniMás",
-     "TUDN",
-     "DirecTV Stream",
-     "Hulu + Live TV"
-    ],
-    "MX": [
-     "FOX One",
-     "FOX"
-    ]
-   },
-   "sources": []
-  }
- ]
+ "matches": []
 }
