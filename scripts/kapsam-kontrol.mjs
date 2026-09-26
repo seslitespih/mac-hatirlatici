@@ -24,7 +24,9 @@ const KAPSAM_DISI = [
   /on eleme youtube/i,
   // ⚠️ Kelime siniri SART: /usl/i Turkce "Ul-usl-ar"a takiliyordu -> "UEFA Uluslar
   // Ligi" ve "Uluslararasi Dostluk" yanlislikla kapsam disi sayiliyordu (24 Eyl 2026).
-  /usl/i, /primera nacional/i, /primera c/i,   // alt ligler
+  // USL BURADA DEGIL: talimat §4 onu "nis yerel lig -> regional" sayiyor, yani KAPSAMDA.
+  // 19 Eyl'de yanlis hatirlayip kapsam disi yazmistim; 26 Eyl'de talimattan dogrulandi.
+  /primera nacional/i, /primera c/i,                  // alt ligler
   /kadin|women|femin|frauen|feminin|femenin/i,      // kadin futbolu (filtre.mjs de eler)
   /sub-?\d|u-?1[5-9]|u-?2[01]/i,                    // altyapi
 ];
