@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-27T00:20:00.000Z",
+ "generated_at": "2026-09-27T00:30:00.000Z",
  "date": "2026-09-27",
  "model": "user-provided",
  "stats": {
-  "total": 28,
-  "withChannel": 28,
+  "total": 29,
+  "withChannel": 29,
   "bySport": {
-   "basketball": 4,
-   "football": 24
+   "football": 25,
+   "basketball": 4
   },
   "warnings": 0,
   "searches": 0,
@@ -55,6 +55,9 @@
    "broadcasts": {
     "GB": [
      "DAZN"
+    ],
+    "DE": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -100,6 +103,9 @@
    "broadcasts": {
     "GB": [
      "DAZN"
+    ],
+    "DE": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -121,25 +127,10 @@
    },
    "home": "Real Valladolid",
    "away": "Cordoba",
-   "homeNames": {
-    "tr": "Real Valladolid",
-    "en": "Real Valladolid",
-    "de": "Real Valladolid",
-    "es": "Real Valladolid",
-    "fr": "Real Valladolid",
-    "it": "Real Valladolid",
-    "pt": "Real Valladolid",
-    "ar": "Real Valladolid"
-   },
    "awayNames": {
     "tr": "Córdoba",
     "en": "Córdoba",
-    "de": "Córdoba",
-    "es": "Córdoba",
-    "fr": "Córdoba",
-    "it": "Córdoba",
-    "pt": "Córdoba",
-    "ar": "Córdoba"
+    "es": "Córdoba"
    },
    "kickoffUtc": "2026-09-27T12:00:00Z",
    "broadcasts": {
@@ -154,7 +145,7 @@
    "sources": []
   },
   {
-   "id": "basketball-20260927-trabzonspor-basketbol-bursaspor-basketbol",
+   "id": "basketball-20260927-trabzonspor-basketbol-bursaspor",
    "sport": "basketball",
    "competitionId": "bsl",
    "tier": "regional",
@@ -169,26 +160,10 @@
     "ar": "الدوري التركي الممتاز لكرة السلة"
    },
    "home": "Trabzonspor Basketbol",
-   "away": "Bursaspor Basketbol",
+   "away": "Bursaspor",
    "homeNames": {
-    "tr": "Trabzonspor Basketbol",
-    "en": "Trabzonspor Basketbol",
-    "de": "Trabzonspor Basketbol",
-    "es": "Trabzonspor Basketbol",
-    "fr": "Trabzonspor Basketbol",
-    "it": "Trabzonspor Basketbol",
-    "pt": "Trabzonspor Basketbol",
-    "ar": "Trabzonspor Basketbol"
-   },
-   "awayNames": {
-    "tr": "Bursaspor Basketbol",
-    "en": "Bursaspor Basketbol",
-    "de": "Bursaspor Basketbol",
-    "es": "Bursaspor Basketbol",
-    "fr": "Bursaspor Basketbol",
-    "it": "Bursaspor Basketbol",
-    "pt": "Bursaspor Basketbol",
-    "ar": "Bursaspor Basketbol"
+    "tr": "Trabzonspor",
+    "en": "Trabzonspor"
    },
    "kickoffUtc": "2026-09-27T12:30:00Z",
    "broadcasts": {
@@ -206,35 +181,15 @@
    "competition": {
     "tr": "Kulüp Hazırlık Maçı",
     "en": "Club Friendly",
-    "de": "Testspiel",
+    "de": "Vereins-Freundschaftsspiel",
     "es": "Amistoso de clubes",
-    "fr": "Match amical",
+    "fr": "Match amical de clubs",
     "it": "Amichevole",
     "pt": "Amistoso de clubes",
-    "ar": "مباراة ودية"
+    "ar": "مباراة ودية للأندية"
    },
    "home": "Lazio",
    "away": "Arezzo",
-   "homeNames": {
-    "tr": "Lazio",
-    "en": "Lazio",
-    "de": "Lazio",
-    "es": "Lazio",
-    "fr": "Lazio",
-    "it": "Lazio",
-    "pt": "Lazio",
-    "ar": "Lazio"
-   },
-   "awayNames": {
-    "tr": "Arezzo",
-    "en": "Arezzo",
-    "de": "Arezzo",
-    "es": "Arezzo",
-    "fr": "Arezzo",
-    "it": "Arezzo",
-    "pt": "Arezzo",
-    "ar": "Arezzo"
-   },
    "kickoffUtc": "2026-09-27T13:00:00Z",
    "broadcasts": {
     "IT": [
@@ -308,7 +263,33 @@
    "sources": []
   },
   {
-   "id": "football-20260927-mallorca-almeria",
+   "id": "football-20260927-eintracht-braunschweig-eintracht-frankfurt",
+   "sport": "football",
+   "competitionId": "club_friendly",
+   "tier": "regional",
+   "competition": {
+    "tr": "Kulüp Hazırlık Maçı",
+    "en": "Club Friendly",
+    "de": "Vereins-Freundschaftsspiel",
+    "es": "Amistoso de clubes",
+    "fr": "Match amical de clubs",
+    "it": "Amichevole",
+    "pt": "Amistoso de clubes",
+    "ar": "مباراة ودية للأندية"
+   },
+   "home": "Eintracht Braunschweig",
+   "away": "Eintracht Frankfurt",
+   "kickoffUtc": "2026-09-27T13:30:00Z",
+   "broadcasts": {
+    "DE": [
+     "Sky Sport News",
+     "WOW"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260927-mallorca-ud-almeria",
    "sport": "football",
    "competitionId": "laliga2",
    "tier": "regional",
@@ -323,33 +304,17 @@
     "ar": "دوري الدرجة الثانية الإسباني"
    },
    "home": "Mallorca",
-   "away": "Almeria",
-   "homeNames": {
-    "tr": "Mallorca",
-    "en": "Mallorca",
-    "de": "Mallorca",
-    "es": "Mallorca",
-    "fr": "Mallorca",
-    "it": "Mallorca",
-    "pt": "Mallorca",
-    "ar": "Mallorca"
-   },
+   "away": "UD Almeria",
    "awayNames": {
     "tr": "UD Almería",
     "en": "UD Almería",
-    "de": "UD Almería",
-    "es": "UD Almería",
-    "fr": "UD Almería",
-    "it": "UD Almería",
-    "pt": "UD Almería",
-    "ar": "UD Almería"
+    "es": "UD Almería"
    },
    "kickoffUtc": "2026-09-27T14:15:00Z",
    "broadcasts": {
     "ES": [
      "LaLiga TV Hypermotion",
-     "DAZN",
-     "Orange Fútbol 2"
+     "DAZN"
     ],
     "US": [
      "ESPN+"
@@ -376,23 +341,11 @@
    "away": "Fenerbahce Beko",
    "homeNames": {
     "tr": "Bahçeşehir Koleji",
-    "en": "Bahçeşehir Koleji",
-    "de": "Bahçeşehir Koleji",
-    "es": "Bahçeşehir Koleji",
-    "fr": "Bahçeşehir Koleji",
-    "it": "Bahçeşehir Koleji",
-    "pt": "Bahçeşehir Koleji",
-    "ar": "Bahçeşehir Koleji"
+    "en": "Bahcesehir Koleji"
    },
    "awayNames": {
     "tr": "Fenerbahçe Beko",
-    "en": "Fenerbahçe Beko",
-    "de": "Fenerbahçe Beko",
-    "es": "Fenerbahçe Beko",
-    "fr": "Fenerbahçe Beko",
-    "it": "Fenerbahçe Beko",
-    "pt": "Fenerbahçe Beko",
-    "ar": "Fenerbahçe Beko"
+    "en": "Fenerbahce Beko"
    },
    "kickoffUtc": "2026-09-27T15:00:00Z",
    "broadcasts": {
@@ -508,7 +461,8 @@
     "GB": [
      "BBC One",
      "S4C",
-     "BBC iPlayer"
+     "BBC iPlayer",
+     "BBC Sport Website"
     ],
     "US": [
      "Tubi",
@@ -656,7 +610,7 @@
    "sources": []
   },
   {
-   "id": "football-20260927-burgos-eldense",
+   "id": "football-20260927-burgos-cf-cd-eldense",
    "sport": "football",
    "competitionId": "laliga2",
    "tier": "regional",
@@ -670,28 +624,8 @@
     "pt": "LaLiga Hypermotion",
     "ar": "دوري الدرجة الثانية الإسباني"
    },
-   "home": "Burgos",
-   "away": "Eldense",
-   "homeNames": {
-    "tr": "Burgos CF",
-    "en": "Burgos CF",
-    "de": "Burgos CF",
-    "es": "Burgos CF",
-    "fr": "Burgos CF",
-    "it": "Burgos CF",
-    "pt": "Burgos CF",
-    "ar": "Burgos CF"
-   },
-   "awayNames": {
-    "tr": "CD Eldense",
-    "en": "CD Eldense",
-    "de": "CD Eldense",
-    "es": "CD Eldense",
-    "fr": "CD Eldense",
-    "it": "CD Eldense",
-    "pt": "CD Eldense",
-    "ar": "CD Eldense"
-   },
+   "home": "Burgos CF",
+   "away": "CD Eldense",
    "kickoffUtc": "2026-09-27T16:30:00Z",
    "broadcasts": {
     "ES": [
@@ -705,7 +639,7 @@
    "sources": []
   },
   {
-   "id": "football-20260927-eibar-las-palmas",
+   "id": "football-20260927-eibar-ud-las-palmas",
    "sport": "football",
    "competitionId": "laliga2",
    "tier": "regional",
@@ -720,27 +654,7 @@
     "ar": "دوري الدرجة الثانية الإسباني"
    },
    "home": "Eibar",
-   "away": "Las Palmas",
-   "homeNames": {
-    "tr": "Eibar",
-    "en": "Eibar",
-    "de": "Eibar",
-    "es": "Eibar",
-    "fr": "Eibar",
-    "it": "Eibar",
-    "pt": "Eibar",
-    "ar": "Eibar"
-   },
-   "awayNames": {
-    "tr": "UD Las Palmas",
-    "en": "UD Las Palmas",
-    "de": "UD Las Palmas",
-    "es": "UD Las Palmas",
-    "fr": "UD Las Palmas",
-    "it": "UD Las Palmas",
-    "pt": "UD Las Palmas",
-    "ar": "UD Las Palmas"
-   },
+   "away": "UD Las Palmas",
    "kickoffUtc": "2026-09-27T16:30:00Z",
    "broadcasts": {
     "ES": [
@@ -816,24 +730,14 @@
    "home": "Real Madrid Baloncesto",
    "away": "Unicaja Malaga",
    "homeNames": {
-    "tr": "Real Madrid Baloncesto",
-    "en": "Real Madrid Baloncesto",
-    "de": "Real Madrid Baloncesto",
-    "es": "Real Madrid Baloncesto",
-    "fr": "Real Madrid Baloncesto",
-    "it": "Real Madrid Baloncesto",
-    "pt": "Real Madrid Baloncesto",
-    "ar": "Real Madrid Baloncesto"
+    "tr": "Real Madrid",
+    "en": "Real Madrid",
+    "es": "Real Madrid"
    },
    "awayNames": {
     "tr": "Unicaja Málaga",
-    "en": "Unicaja Málaga",
-    "de": "Unicaja Málaga",
-    "es": "Unicaja Málaga",
-    "fr": "Unicaja Málaga",
-    "it": "Unicaja Málaga",
-    "pt": "Unicaja Málaga",
-    "ar": "Unicaja Málaga"
+    "en": "Unicaja Malaga",
+    "es": "Unicaja Málaga"
    },
    "kickoffUtc": "2026-09-27T17:00:00Z",
    "broadcasts": {
@@ -861,25 +765,9 @@
    },
    "home": "Anadolu Efes",
    "away": "Besiktas GAIN",
-   "homeNames": {
-    "tr": "Anadolu Efes",
-    "en": "Anadolu Efes",
-    "de": "Anadolu Efes",
-    "es": "Anadolu Efes",
-    "fr": "Anadolu Efes",
-    "it": "Anadolu Efes",
-    "pt": "Anadolu Efes",
-    "ar": "Anadolu Efes"
-   },
    "awayNames": {
     "tr": "Beşiktaş GAIN",
-    "en": "Beşiktaş GAIN",
-    "de": "Beşiktaş GAIN",
-    "es": "Beşiktaş GAIN",
-    "fr": "Beşiktaş GAIN",
-    "it": "Beşiktaş GAIN",
-    "pt": "Beşiktaş GAIN",
-    "ar": "Beşiktaş GAIN"
+    "en": "Besiktas GAIN"
    },
    "kickoffUtc": "2026-09-27T17:30:00Z",
    "broadcasts": {
@@ -906,25 +794,10 @@
    },
    "home": "Pumas UNAM",
    "away": "Atletico San Luis",
-   "homeNames": {
-    "tr": "Pumas UNAM",
-    "en": "Pumas UNAM",
-    "de": "Pumas UNAM",
-    "es": "Pumas UNAM",
-    "fr": "Pumas UNAM",
-    "it": "Pumas UNAM",
-    "pt": "Pumas UNAM",
-    "ar": "Pumas UNAM"
-   },
    "awayNames": {
     "tr": "Atlético San Luis",
     "en": "Atlético San Luis",
-    "de": "Atlético San Luis",
-    "es": "Atlético San Luis",
-    "fr": "Atlético San Luis",
-    "it": "Atlético San Luis",
-    "pt": "Atlético San Luis",
-    "ar": "Atlético San Luis"
+    "es": "Atlético San Luis"
    },
    "kickoffUtc": "2026-09-27T18:00:00Z",
    "broadcasts": {
@@ -991,7 +864,7 @@
     ],
     "DE": [
      "Das Erste",
-     "ARD Mediathek",
+     "ARD-Mediathek",
      "Joyn",
      "Sportschau.de"
     ],
@@ -1123,19 +996,21 @@
      "DAZN"
     ],
     "ES": [
-     "DAZN",
-     "La 1"
+     "La 1",
+     "RTVE Play",
+     "DAZN"
     ],
     "FR": [
      "L'Équipe Live Foot"
     ],
     "IT": [
      "TV8",
-     "Sky Sport 1"
+     "Sky Sport 1",
+     "Sky Sport Calcio"
     ],
     "PT": [
-     "Sport TV 1",
-     "RTP1"
+     "RTP1",
+     "Sport TV 1"
     ]
    },
    "sources": []
@@ -1209,39 +1084,23 @@
    },
    "home": "Real Oviedo",
    "away": "Sporting Gijon",
-   "homeNames": {
-    "tr": "Real Oviedo",
-    "en": "Real Oviedo",
-    "de": "Real Oviedo",
-    "es": "Real Oviedo",
-    "fr": "Real Oviedo",
-    "it": "Real Oviedo",
-    "pt": "Real Oviedo",
-    "ar": "Real Oviedo"
-   },
    "awayNames": {
     "tr": "Sporting Gijón",
     "en": "Sporting Gijón",
-    "de": "Sporting Gijón",
-    "es": "Sporting Gijón",
-    "fr": "Sporting Gijón",
-    "it": "Sporting Gijón",
-    "pt": "Sporting Gijón",
-    "ar": "Sporting Gijón"
+    "es": "Sporting Gijón"
    },
    "kickoffUtc": "2026-09-27T19:00:00Z",
    "broadcasts": {
-    "ES": [
-     "LaLiga TV Hypermotion",
-     "DAZN",
-     "Orange Fútbol 2"
-    ],
-    "US": [
-     "ESPN+"
-    ],
     "TR": [
      "S Sport Plus",
      "S Sport"
+    ],
+    "ES": [
+     "LaLiga TV Hypermotion",
+     "DAZN"
+    ],
+    "US": [
+     "ESPN+"
     ]
    },
    "sources": []
@@ -1263,31 +1122,11 @@
    },
    "home": "Racing Club",
    "away": "Boca Juniors",
-   "homeNames": {
-    "tr": "Racing Club",
-    "en": "Racing Club",
-    "de": "Racing Club",
-    "es": "Racing Club",
-    "fr": "Racing Club",
-    "it": "Racing Club",
-    "pt": "Racing Club",
-    "ar": "Racing Club"
-   },
-   "awayNames": {
-    "tr": "Boca Juniors",
-    "en": "Boca Juniors",
-    "de": "Boca Juniors",
-    "es": "Boca Juniors",
-    "fr": "Boca Juniors",
-    "it": "Boca Juniors",
-    "pt": "Boca Juniors",
-    "ar": "Boca Juniors"
-   },
    "kickoffUtc": "2026-09-27T20:00:00Z",
    "broadcasts": {
     "PT": [
-     "Fanatiz",
-     "Sport TV 5"
+     "Sport TV 5",
+     "Fanatiz"
     ]
    },
    "sources": []
@@ -1331,9 +1170,6 @@
    },
    "kickoffUtc": "2026-09-27T20:30:00Z",
    "broadcasts": {
-    "ES": [
-     "M+ Vamos"
-    ],
     "PT": [
      "Fanatiz"
     ]
@@ -1341,7 +1177,7 @@
    "sources": []
   },
   {
-   "id": "football-20260927-columbus-crew-inter-miami",
+   "id": "football-20260927-columbus-crew-inter-miami-cf",
    "sport": "football",
    "competitionId": "mls",
    "tier": "regional",
@@ -1356,27 +1192,7 @@
     "ar": "الدوري الأمريكي (MLS)"
    },
    "home": "Columbus Crew",
-   "away": "Inter Miami",
-   "homeNames": {
-    "tr": "Columbus Crew",
-    "en": "Columbus Crew",
-    "de": "Columbus Crew",
-    "es": "Columbus Crew",
-    "fr": "Columbus Crew",
-    "it": "Columbus Crew",
-    "pt": "Columbus Crew",
-    "ar": "Columbus Crew"
-   },
-   "awayNames": {
-    "tr": "Inter Miami CF",
-    "en": "Inter Miami CF",
-    "de": "Inter Miami CF",
-    "es": "Inter Miami CF",
-    "fr": "Inter Miami CF",
-    "it": "Inter Miami CF",
-    "pt": "Inter Miami CF",
-    "ar": "Inter Miami CF"
-   },
+   "away": "Inter Miami CF",
    "kickoffUtc": "2026-09-27T23:00:00Z",
    "broadcasts": {
     "US": [
@@ -1457,26 +1273,6 @@
    },
    "home": "One Knoxville SC",
    "away": "Westchester SC",
-   "homeNames": {
-    "tr": "One Knoxville SC",
-    "en": "One Knoxville SC",
-    "de": "One Knoxville SC",
-    "es": "One Knoxville SC",
-    "fr": "One Knoxville SC",
-    "it": "One Knoxville SC",
-    "pt": "One Knoxville SC",
-    "ar": "One Knoxville SC"
-   },
-   "awayNames": {
-    "tr": "Westchester SC",
-    "en": "Westchester SC",
-    "de": "Westchester SC",
-    "es": "Westchester SC",
-    "fr": "Westchester SC",
-    "it": "Westchester SC",
-    "pt": "Westchester SC",
-    "ar": "Westchester SC"
-   },
    "kickoffUtc": "2026-09-27T23:00:00Z",
    "broadcasts": {
     "US": [
