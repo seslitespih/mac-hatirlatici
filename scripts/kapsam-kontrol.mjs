@@ -29,6 +29,9 @@ const KAPSAM_DISI = [
   /primera nacional/i, /primera c/i,                  // alt ligler
   /kadin|women|femin|frauen|feminin|femenin/i,      // kadin futbolu (filtre.mjs de eler)
   /sub-?\d|u-?1[5-9]|u-?2[01]/i,                    // altyapi
+  // Motorspor: talimat §3 yalniz F1/MotoGP/Moto2/Moto3/F2/F3 der (27 Eyl 2026: motor bolumunde
+  // yalniz bunlar vardi, kontrol yanlis EKSIK verdi).
+  /superbike|supersport|dayaniklilik|kamyon|gt world|nascar/i,
 ];
 const kapsamDisiMi = (ligAdi) => KAPSAM_DISI.some((r) => r.test(ligAdi));
 
