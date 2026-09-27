@@ -1,67 +1,19 @@
 {
- "generated_at": "2026-09-27T00:30:00.000Z",
+ "generated_at": "2026-09-27T10:17:26.485Z",
  "date": "2026-09-27",
  "model": "user-provided",
  "stats": {
-  "total": 29,
-  "withChannel": 29,
+  "total": 39,
+  "withChannel": 39,
   "bySport": {
-   "football": 25,
+   "football": 35,
    "basketball": 4
   },
   "warnings": 0,
   "searches": 0,
-  "countries": 9
+  "countries": 29
  },
  "matches": [
-  {
-   "id": "football-20260927-hong-kong-laos",
-   "sport": "football",
-   "competitionId": "friendly",
-   "tier": "regional",
-   "competition": {
-    "tr": "Uluslararası Hazırlık Maçı",
-    "en": "International Friendly",
-    "de": "Freundschaftsspiel",
-    "es": "Amistoso Internacional",
-    "fr": "Match Amical International",
-    "it": "Amichevole Internazionale",
-    "pt": "Amistoso Internacional",
-    "ar": "مباراة ودية دولية"
-   },
-   "home": "Hong Kong",
-   "away": "Laos",
-   "homeNames": {
-    "tr": "Hong Kong",
-    "en": "Hong Kong",
-    "de": "Hongkong",
-    "es": "Hong Kong",
-    "fr": "Hong Kong",
-    "it": "Hong Kong",
-    "pt": "Hong Kong",
-    "ar": "هونغ كونغ"
-   },
-   "awayNames": {
-    "tr": "Laos",
-    "en": "Laos",
-    "de": "Laos",
-    "es": "Laos",
-    "fr": "Laos",
-    "it": "Laos",
-    "pt": "Laos",
-    "ar": "لاوس"
-   },
-   "kickoffUtc": "2026-09-27T07:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "DAZN"
-    ],
-    "DE": [
-     "DAZN"
-    ]
-   },
-   "sources": []
-  },
   {
    "id": "football-20260927-cambodia-myanmar",
    "sport": "football",
@@ -111,6 +63,51 @@
    "sources": []
   },
   {
+   "id": "football-20260927-china-new-zealand",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uluslararası Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match Amical International",
+    "it": "Amichevole Internazionale",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية دولية"
+   },
+   "home": "China",
+   "away": "New Zealand",
+   "homeNames": {
+    "tr": "Çin",
+    "en": "China",
+    "de": "China",
+    "es": "China",
+    "fr": "Chine",
+    "it": "Cina",
+    "pt": "China",
+    "ar": "الصين"
+   },
+   "awayNames": {
+    "tr": "Yeni Zelanda",
+    "en": "New Zealand",
+    "de": "Neuseeland",
+    "es": "Nueva Zelanda",
+    "fr": "Nouvelle-Zélande",
+    "it": "Nuova Zelanda",
+    "pt": "Nova Zelândia",
+    "ar": "نيوزيلندا"
+   },
+   "kickoffUtc": "2026-09-27T11:35:00Z",
+   "broadcasts": {
+    "NZ": [
+     "DAZN"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20260927-real-valladolid-cordoba",
    "sport": "football",
    "competitionId": "laliga2",
@@ -140,6 +137,37 @@
     ],
     "US": [
      "ESPN+"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "SA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 3",
+     "TOD TV"
     ]
    },
    "sources": []
@@ -258,6 +286,64 @@
     ],
     "PT": [
      "Sport TV 1"
+    ],
+    "BR": [
+     "SporTV 2"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+",
+     "ESPN 3"
+    ],
+    "CL": [
+     "Disney+",
+     "ESPN 3"
+    ],
+    "PE": [
+     "Disney+",
+     "ESPN 3"
+    ],
+    "UY": [
+     "Disney+",
+     "ESPN 3"
+    ],
+    "EC": [
+     "Disney+",
+     "ESPN 3"
+    ],
+    "PY": [
+     "Disney+",
+     "ESPN 3"
     ]
    },
    "sources": []
@@ -284,6 +370,52 @@
     "DE": [
      "Sky Sport News",
      "WOW"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260927-criciuma-avai",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brasileirão Série B",
+    "de": "Brasilianische Série B",
+    "es": "Brasileirão Serie B",
+    "fr": "Série B brésilienne",
+    "it": "Série B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Criciuma",
+   "away": "Avai",
+   "homeNames": {
+    "tr": "Criciúma",
+    "en": "Criciúma",
+    "de": "Criciúma",
+    "es": "Criciúma",
+    "fr": "Criciúma",
+    "it": "Criciúma",
+    "pt": "Criciúma",
+    "ar": "كريسيوما"
+   },
+   "awayNames": {
+    "tr": "Avaí",
+    "en": "Avaí",
+    "de": "Avaí",
+    "es": "Avaí",
+    "fr": "Avaí",
+    "it": "Avaí",
+    "pt": "Avaí",
+    "ar": "أفاي"
+   },
+   "kickoffUtc": "2026-09-27T14:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "ESPN",
+     "Disney+"
     ]
    },
    "sources": []
@@ -319,6 +451,37 @@
     ],
     "US": [
      "ESPN+"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "SA": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 5",
+     "TOD TV"
     ]
    },
    "sources": []
@@ -352,6 +515,89 @@
    "broadcasts": {
     "TR": [
      "beIN Sports 5"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260927-yemen-qatar",
+   "sport": "football",
+   "competitionId": "gulf_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "Körfez Kupası",
+    "en": "Arabian Gulf Cup",
+    "de": "Golfpokal",
+    "es": "Copa del Golfo",
+    "fr": "Coupe du Golfe",
+    "it": "Coppa del Golfo",
+    "pt": "Taça do Golfo",
+    "ar": "كأس الخليج العربي"
+   },
+   "home": "Yemen",
+   "away": "Qatar",
+   "homeNames": {
+    "tr": "Yemen",
+    "en": "Yemen",
+    "de": "Jemen",
+    "es": "Yemen",
+    "fr": "Yémen",
+    "it": "Yemen",
+    "pt": "Iémen",
+    "ar": "اليمن"
+   },
+   "awayNames": {
+    "tr": "Katar",
+    "en": "Qatar",
+    "de": "Katar",
+    "es": "Catar",
+    "fr": "Qatar",
+    "it": "Qatar",
+    "pt": "Catar",
+    "ar": "قطر"
+   },
+   "kickoffUtc": "2026-09-27T15:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "Saudi Sports 2",
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "QA": [
+     "AL KASS One",
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "AE": [
+     "Abu Dhabi Sports 1",
+     "Sharjah Sports",
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "OM": [
+     "Oman Sports TV"
+    ],
+    "KW": [
+     "Kuwait Sport TV"
+    ],
+    "DE": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -413,6 +659,55 @@
     ],
     "PT": [
      "Sport TV 4"
+    ],
+    "SA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "PE": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "EC": [
+     "Disney+"
+    ],
+    "PY": [
+     "Disney+"
     ]
    },
    "sources": []
@@ -483,6 +778,58 @@
     ],
     "PT": [
      "Sport TV 2"
+    ],
+    "BR": [
+     "ESPN"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "PE": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "EC": [
+     "Disney+"
+    ],
+    "PY": [
+     "Disney+"
     ]
    },
    "sources": []
@@ -538,6 +885,55 @@
     ],
     "PT": [
      "Sport TV 5"
+    ],
+    "SA": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "PE": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "EC": [
+     "Disney+"
+    ],
+    "PY": [
+     "Disney+"
     ]
    },
    "sources": []
@@ -606,6 +1002,66 @@
     ],
     "PT": [
      "Sport TV 3"
+    ],
+    "BR": [
+     "SporTV",
+     "SporTV 2",
+     "GE TV"
+    ],
+    "SA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+",
+     "ESPN"
+    ],
+    "CL": [
+     "Disney+",
+     "ESPN"
+    ],
+    "PE": [
+     "Disney+",
+     "ESPN"
+    ],
+    "UY": [
+     "Disney+",
+     "ESPN"
+    ],
+    "EC": [
+     "Disney+",
+     "ESPN"
+    ],
+    "PY": [
+     "Disney+",
+     "ESPN"
     ]
    },
    "sources": []
@@ -635,6 +1091,9 @@
     ],
     "US": [
      "ESPN+"
+    ],
+    "MX": [
+     "Sky Sports"
     ]
    },
    "sources": []
@@ -664,6 +1123,9 @@
     ],
     "US": [
      "ESPN+"
+    ],
+    "MX": [
+     "Sky Sports"
     ]
    },
    "sources": []
@@ -709,6 +1171,24 @@
    "broadcasts": {
     "DE": [
      "DAZN"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "PE": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "EC": [
+     "Disney+"
+    ],
+    "PY": [
+     "Disney+"
     ]
    },
    "sources": []
@@ -754,6 +1234,51 @@
    "sources": []
   },
   {
+   "id": "football-20260927-jordan-syria",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uluslararası Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match Amical International",
+    "it": "Amichevole Internazionale",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية دولية"
+   },
+   "home": "Jordan",
+   "away": "Syria",
+   "homeNames": {
+    "tr": "Ürdün",
+    "en": "Jordan",
+    "de": "Jordanien",
+    "es": "Jordania",
+    "fr": "Jordanie",
+    "it": "Giordania",
+    "pt": "Jordânia",
+    "ar": "الأردن"
+   },
+   "awayNames": {
+    "tr": "Suriye",
+    "en": "Syria",
+    "de": "Syrien",
+    "es": "Siria",
+    "fr": "Syrie",
+    "it": "Siria",
+    "pt": "Síria",
+    "ar": "سوريا"
+   },
+   "kickoffUtc": "2026-09-27T17:00:00Z",
+   "broadcasts": {
+    "JO": [
+     "Jordan TV Sport"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "basketball-20260927-anadolu-efes-besiktas-gain",
    "sport": "basketball",
    "competitionId": "bsl",
@@ -778,6 +1303,91 @@
    "broadcasts": {
     "TR": [
      "beIN Sports 5"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260927-bahrain-united-arab-emirates",
+   "sport": "football",
+   "competitionId": "gulf_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "Körfez Kupası",
+    "en": "Arabian Gulf Cup",
+    "de": "Golfpokal",
+    "es": "Copa del Golfo",
+    "fr": "Coupe du Golfe",
+    "it": "Coppa del Golfo",
+    "pt": "Taça do Golfo",
+    "ar": "كأس الخليج العربي"
+   },
+   "home": "Bahrain",
+   "away": "United Arab Emirates",
+   "homeNames": {
+    "tr": "Bahreyn",
+    "en": "Bahrain",
+    "de": "Bahrain",
+    "es": "Baréin",
+    "fr": "Bahreïn",
+    "it": "Bahrein",
+    "pt": "Bahrein",
+    "ar": "البحرين"
+   },
+   "awayNames": {
+    "tr": "Birleşik Arap Emirlikleri",
+    "en": "United Arab Emirates",
+    "de": "Vereinigte Arabische Emirate",
+    "es": "Emiratos Árabes Unidos",
+    "fr": "Émirats arabes unis",
+    "it": "Emirati Arabi Uniti",
+    "pt": "Emirados Árabes Unidos",
+    "ar": "الإمارات"
+   },
+   "kickoffUtc": "2026-09-27T18:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "Saudi Sports 1",
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "QA": [
+     "AL KASS One",
+     "AL KASS Two",
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "AE": [
+     "Abu Dhabi Sports 1",
+     "Sharjah Sports",
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "OM": [
+     "Oman Sports TV"
+    ],
+    "KW": [
+     "Kuwait Sport TV"
+    ],
+    "DE": [
+     "Sportdigital Fussball",
+     "Sportdigital+"
     ]
    },
    "sources": []
@@ -811,6 +1421,9 @@
      "TUDN",
      "DirecTV Stream",
      "Hulu + Live TV"
+    ],
+    "MX": [
+     "ViX Premium"
     ]
    },
    "sources": []
@@ -881,6 +1494,59 @@
     ],
     "PT": [
      "Sport TV 2"
+    ],
+    "BR": [
+     "SporTV",
+     "SporTV 2"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "PE": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "EC": [
+     "Disney+"
+    ],
+    "PY": [
+     "Disney+"
     ]
    },
    "sources": []
@@ -943,6 +1609,55 @@
     ],
     "PT": [
      "Sport TV 3"
+    ],
+    "SA": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+"
+    ],
+    "CL": [
+     "Disney+"
+    ],
+    "PE": [
+     "Disney+"
+    ],
+    "UY": [
+     "Disney+"
+    ],
+    "EC": [
+     "Disney+"
+    ],
+    "PY": [
+     "Disney+"
     ]
    },
    "sources": []
@@ -1016,6 +1731,101 @@
     "PT": [
      "RTP1",
      "Sport TV 1"
+    ],
+    "BR": [
+     "ESPN"
+    ],
+    "SA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+",
+     "ESPN"
+    ],
+    "CL": [
+     "Disney+",
+     "ESPN"
+    ],
+    "PE": [
+     "Disney+",
+     "ESPN"
+    ],
+    "UY": [
+     "Disney+",
+     "ESPN"
+    ],
+    "EC": [
+     "Disney+",
+     "ESPN"
+    ],
+    "PY": [
+     "Disney+",
+     "ESPN"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260927-crb-cuiaba",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brasileirão Série B",
+    "de": "Brasilianische Série B",
+    "es": "Brasileirão Serie B",
+    "fr": "Série B brésilienne",
+    "it": "Série B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "CRB",
+   "away": "Cuiaba",
+   "awayNames": {
+    "tr": "Cuiabá",
+    "en": "Cuiabá",
+    "de": "Cuiabá",
+    "es": "Cuiabá",
+    "fr": "Cuiabá",
+    "it": "Cuiabá",
+    "pt": "Cuiabá",
+    "ar": "كويابا"
+   },
+   "kickoffUtc": "2026-09-27T19:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "XSports",
+     "SportyNet",
+     "Disney+"
     ]
    },
    "sources": []
@@ -1068,6 +1878,30 @@
     ],
     "PT": [
      "CONCACAF YouTube"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ],
+    "BR": [
+     "CONCACAF YouTube"
     ]
    },
    "sources": []
@@ -1107,6 +1941,9 @@
     ],
     "US": [
      "ESPN+"
+    ],
+    "MX": [
+     "Sky Sports"
     ]
    },
    "sources": []
@@ -1133,6 +1970,33 @@
     "PT": [
      "Sport TV 5",
      "Fanatiz"
+    ],
+    "AR": [
+     "TyC Sports"
+    ],
+    "MX": [
+     "TyC Sports Internacional"
+    ],
+    "CO": [
+     "TyC Sports Internacional"
+    ],
+    "CL": [
+     "TyC Sports Internacional"
+    ],
+    "PE": [
+     "TyC Sports Internacional"
+    ],
+    "UY": [
+     "TyC Sports Internacional"
+    ],
+    "EC": [
+     "TyC Sports Internacional"
+    ],
+    "PY": [
+     "TyC Sports Internacional"
+    ],
+    "BR": [
+     "XSports YouTube"
     ]
    },
    "sources": []
@@ -1181,6 +2045,62 @@
     ],
     "ES": [
      "M+ Vamos"
+    ],
+    "MX": [
+     "FOX Sports Premium",
+     "FOX Sports"
+    ],
+    "UY": [
+     "DGO",
+     "Paramount+",
+     "DSports"
+    ],
+    "EC": [
+     "El Canal del Fútbol",
+     "ECDF App"
+    ],
+    "PY": [
+     "GEN",
+     "Canal Trece",
+     "VS Sports",
+     "APF TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260927-fortaleza-athletic-mg",
+   "sport": "football",
+   "competitionId": "bra_serieb",
+   "tier": "regional",
+   "competition": {
+    "tr": "Brezilya Serie B",
+    "en": "Brasileirão Série B",
+    "de": "Brasilianische Série B",
+    "es": "Brasileirão Serie B",
+    "fr": "Série B brésilienne",
+    "it": "Série B brasiliana",
+    "pt": "Brasileirão Série B",
+    "ar": "الدوري البرازيلي الدرجة الثانية"
+   },
+   "home": "Fortaleza",
+   "away": "Athletic-MG",
+   "awayNames": {
+    "tr": "Athletic Club",
+    "en": "Athletic Club (MG)",
+    "de": "Athletic Club (MG)",
+    "es": "Athletic Club (MG)",
+    "fr": "Athletic Club (MG)",
+    "it": "Athletic Club (MG)",
+    "pt": "Athletic Club",
+    "ar": "أتلتيك كلوب"
+   },
+   "kickoffUtc": "2026-09-27T21:30:00Z",
+   "broadcasts": {
+    "BR": [
+     "SportyNet",
+     "XSports",
+     "Disney+"
     ]
    },
    "sources": []
@@ -1211,6 +2131,27 @@
      "MLS Season Pass (Apple TV)"
     ],
     "DE": [
+     "Apple TV"
+    ],
+    "BR": [
+     "Apple TV"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
      "Apple TV"
     ]
    },
@@ -1261,6 +2202,30 @@
      "DirecTV Stream",
      "Hulu + Live TV",
      "ViX"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ],
+    "BR": [
+     "CONCACAF YouTube"
     ]
    },
    "sources": []
@@ -1290,6 +2255,250 @@
      "DirecTV Stream",
      "Sling Orange",
      "Hulu + Live TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260928-curacao-nicaragua",
+   "sport": "football",
+   "competitionId": "concacaf_nl",
+   "tier": "regional",
+   "competition": {
+    "tr": "CONCACAF Uluslar Ligi",
+    "en": "CONCACAF Nations League",
+    "de": "CONCACAF Nations League",
+    "es": "Liga de Naciones de la CONCACAF",
+    "fr": "Ligue des nations de la CONCACAF",
+    "it": "CONCACAF Nations League",
+    "pt": "Liga das Nações da CONCACAF",
+    "ar": "دوري أمم الكونكاكاف"
+   },
+   "home": "Curaçao",
+   "away": "Nicaragua",
+   "homeNames": {
+    "tr": "Curaçao",
+    "en": "Curaçao",
+    "de": "Curaçao",
+    "es": "Curazao",
+    "fr": "Curaçao",
+    "it": "Curaçao",
+    "pt": "Curaçao",
+    "ar": "كوراساو"
+   },
+   "awayNames": {
+    "tr": "Nikaragua",
+    "en": "Nicaragua",
+    "de": "Nicaragua",
+    "es": "Nicaragua",
+    "fr": "Nicaragua",
+    "it": "Nicaragua",
+    "pt": "Nicarágua",
+    "ar": "نيكاراغوا"
+   },
+   "kickoffUtc": "2026-09-28T00:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "CONCACAF YouTube"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260928-dominica-puerto-rico",
+   "sport": "football",
+   "competitionId": "concacaf_nl",
+   "tier": "regional",
+   "competition": {
+    "tr": "CONCACAF Uluslar Ligi",
+    "en": "CONCACAF Nations League",
+    "de": "CONCACAF Nations League",
+    "es": "Liga de Naciones de la CONCACAF",
+    "fr": "Ligue des nations de la CONCACAF",
+    "it": "CONCACAF Nations League",
+    "pt": "Liga das Nações da CONCACAF",
+    "ar": "دوري أمم الكونكاكاف"
+   },
+   "home": "Dominica",
+   "away": "Puerto Rico",
+   "homeNames": {
+    "tr": "Dominika",
+    "en": "Dominica",
+    "de": "Dominica",
+    "es": "Dominica",
+    "fr": "Dominique",
+    "it": "Dominica",
+    "pt": "Dominica",
+    "ar": "دومينيكا"
+   },
+   "awayNames": {
+    "tr": "Porto Riko",
+    "en": "Puerto Rico",
+    "de": "Puerto Rico",
+    "es": "Puerto Rico",
+    "fr": "Porto Rico",
+    "it": "Porto Rico",
+    "pt": "Porto Rico",
+    "ar": "بورتوريكو"
+   },
+   "kickoffUtc": "2026-09-28T00:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "CONCACAF YouTube"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260928-club-leon-fc-juarez",
+   "sport": "football",
+   "competitionId": "liga_mx",
+   "tier": "regional",
+   "competition": {
+    "tr": "Liga MX",
+    "en": "Liga MX",
+    "de": "Liga MX",
+    "es": "Liga MX",
+    "fr": "Liga MX",
+    "it": "Liga MX",
+    "pt": "Liga MX",
+    "ar": "الدوري المكسيكي"
+   },
+   "home": "Club Leon",
+   "away": "FC Juarez",
+   "homeNames": {
+    "tr": "Club León",
+    "en": "Club León",
+    "de": "Club León",
+    "es": "Club León",
+    "fr": "Club León",
+    "it": "Club León",
+    "pt": "Club León",
+    "ar": "ليون"
+   },
+   "awayNames": {
+    "tr": "FC Juárez",
+    "en": "FC Juárez",
+    "de": "FC Juárez",
+    "es": "FC Juárez",
+    "fr": "FC Juárez",
+    "it": "FC Juárez",
+    "pt": "FC Juárez",
+    "ar": "خواريز"
+   },
+   "kickoffUtc": "2026-09-28T01:00:00Z",
+   "broadcasts": {
+    "MX": [
+     "FOX One",
+     "FOX+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260928-trinidad-and-tobago-dominican-republic",
+   "sport": "football",
+   "competitionId": "concacaf_nl",
+   "tier": "regional",
+   "competition": {
+    "tr": "CONCACAF Uluslar Ligi",
+    "en": "CONCACAF Nations League",
+    "de": "CONCACAF Nations League",
+    "es": "Liga de Naciones de la CONCACAF",
+    "fr": "Ligue des nations de la CONCACAF",
+    "it": "CONCACAF Nations League",
+    "pt": "Liga das Nações da CONCACAF",
+    "ar": "دوري أمم الكونكاكاف"
+   },
+   "home": "Trinidad and Tobago",
+   "away": "Dominican Republic",
+   "homeNames": {
+    "tr": "Trinidad ve Tobago",
+    "en": "Trinidad and Tobago",
+    "de": "Trinidad und Tobago",
+    "es": "Trinidad y Tobago",
+    "fr": "Trinité-et-Tobago",
+    "it": "Trinidad e Tobago",
+    "pt": "Trinidad e Tobago",
+    "ar": "ترينيداد وتوباغو"
+   },
+   "awayNames": {
+    "tr": "Dominik Cumhuriyeti",
+    "en": "Dominican Republic",
+    "de": "Dominikanische Republik",
+    "es": "República Dominicana",
+    "fr": "République dominicaine",
+    "it": "Repubblica Dominicana",
+    "pt": "República Dominicana",
+    "ar": "جمهورية الدومينيكان"
+   },
+   "kickoffUtc": "2026-09-28T01:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "CONCACAF YouTube"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
     ]
    },
    "sources": []

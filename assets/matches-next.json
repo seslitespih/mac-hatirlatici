@@ -1,11 +1,52 @@
 {
- "generated_at": "2026-09-25T06:10:00.000Z",
- "date": "2026-09-26",
+ "generated_at": "2026-09-27T10:17:26.485Z",
+ "date": "2026-09-27",
  "model": "user-provided",
  "stats": {
-  "total": 0,
-  "withChannel": 0,
-  "bySport": {}
+  "total": 1,
+  "withChannel": 1,
+  "bySport": {
+   "football": 1
+  },
+  "warnings": 0,
+  "searches": 0
  },
- "matches": []
+ "matches": [
+  {
+   "id": "football-20260928-necaxa-america",
+   "sport": "football",
+   "competitionId": "liga_mx",
+   "tier": "regional",
+   "competition": {
+    "tr": "Liga MX",
+    "en": "Liga MX",
+    "de": "Liga MX",
+    "es": "Liga MX",
+    "fr": "Liga MX",
+    "it": "Liga MX",
+    "pt": "Liga MX",
+    "ar": "الدوري المكسيكي"
+   },
+   "home": "Necaxa",
+   "away": "America",
+   "awayNames": {
+    "tr": "América",
+    "en": "América",
+    "de": "América",
+    "es": "América",
+    "fr": "América",
+    "it": "América",
+    "pt": "América",
+    "ar": "أمريكا"
+   },
+   "kickoffUtc": "2026-09-28T03:10:00Z",
+   "broadcasts": {
+    "MX": [
+     "FOX One",
+     "FOX+"
+    ]
+   },
+   "sources": []
+  }
+ ]
 }
