@@ -21,6 +21,9 @@ const KAPSAM_DISI = [
   /wnba/i, /avustralya nbl/i, /\bnbl\b/i,          // kadin kulup ligi / nis lig
   /fiba europe cup/i,                               // 3. seviye Avrupa kulup kupasi — §3 basketbol kapsaminda degil (uygulamada takim yok)
   /basketbol 1\. ligi/i, // TR ikinci seviye + altyapi
+  // TR federasyonlarinin ikinci/ucuncu seviyeleri. DIKKAT: yalniz TFF/TVF onekiyle —
+  // genel /[23]\. lig/ kalibi "Almanya 3. Lig"i de eliyordu, oysa o KAPSAMDA.
+  /(tff|tvf).*[23]\. lig/i,
   /on eleme youtube/i,
   // ⚠️ Kelime siniri SART: /usl/i Turkce "Ul-usl-ar"a takiliyordu -> "UEFA Uluslar
   // Ligi" ve "Uluslararasi Dostluk" yanlislikla kapsam disi sayiliyordu (24 Eyl 2026).
