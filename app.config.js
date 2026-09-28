@@ -32,7 +32,7 @@ module.exports = {
       pt: './locales/pt.json',
       ar: './locales/ar.json',
     },
-    version: '1.4.4',
+    version: '1.4.5',
     // Android 16 buyuk ekranlarda yon kisitlamasini YOK SAYIYOR; Play de kaldirilmasini
     // istiyor. 'default' = cihazin yonunu izle. Ekranlar liste tabanli ve SafeAreaView
     // kullaniyor; yatay gorunum derlemeden sonra emulatorde kontrol edilmeli.

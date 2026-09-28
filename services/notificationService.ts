@@ -8,6 +8,7 @@
 import * as Notifications from 'expo-notifications';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Match } from '../constants/matches';
+import { takimSporu } from '../constants/teams';
 import { formatLocalTime, getDeviceTimezone } from '../utils/timezone';
 import { pushKaydiniGuncelle } from './pushService';
 import { getNotifySports, NotifySport } from './storageService';
@@ -250,9 +251,12 @@ export async function scheduleAllNotifications(
   const newMap: Record<string, string> = {};
 
   for (const match of matches) {
-    const isSelected =
-      selectedTeamIds.includes(match.homeTeam) ||
-      selectedTeamIds.includes(match.awayTeam);
+    // Favori eslesmesi hem ADI hem DALI tutmali: futbol icin Fenerbahçe secen
+    // kullaniciya basketbol maci bildirimi GITMEZ (28 Eyl 2026 kullanici istegi).
+    const macDali = (match.sport ?? 'football') as string;
+    const takimTutuyor = (id: string) =>
+      selectedTeamIds.includes(id) && takimSporu(id) === macDali;
+    const isSelected = takimTutuyor(match.homeTeam) || takimTutuyor(match.awayTeam);
     if (!isSelected) continue;
     if (!dallar.includes((match.sport ?? 'football') as NotifySport)) continue;   // kullanıcı bu dalı kapattı
     if (pushAktif && match.id.startsWith('daily_')) continue;   // sunucu gönderecek
@@ -282,7 +286,8 @@ export async function scheduleAllNotifications(
           const t = new Date(m.date);
           return t.toDateString() === bugun
             && t > ozet
-            && (selectedTeamIds.includes(m.homeTeam) || selectedTeamIds.includes(m.awayTeam))
+            && ((selectedTeamIds.includes(m.homeTeam) && takimSporu(m.homeTeam) === (m.sport ?? 'football'))
+             || (selectedTeamIds.includes(m.awayTeam) && takimSporu(m.awayTeam) === (m.sport ?? 'football')))
             && dallar.includes((m.sport ?? 'football') as NotifySport);
         })
         .sort((x, y) => new Date(x.date).getTime() - new Date(y.date).getTime());
