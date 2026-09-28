@@ -200,7 +200,13 @@ altyapı **ligleri** (Torneo Proyección, U21 ligleri, Primera B/C) · kadın **
 FIFA Kadınlar Dünya Kupası, U20 Kadınlar Dünya Kupası, Frauen-Bundesliga, NWSL, WSL,
 Liga MX Femenil — hepsi elenir. Bu kural **kullanıcının açık talimatıdır**.
 ⚠️ Yalnız FUTBOL için geçerli: **kadın basketbol ve voleybol turnuvaları GİRER**
-(FIBA Kadınlar Dünya Kupası gibi).
+(FIBA Kadınlar Dünya Kupası, Kadınlar Basketbol Süper Ligi, TVF Kadınlar Kupa Voley,
+EuroLeague Women gibi). Alt seviye kuralı yine geçerli: TVF Kadınlar **2. Lig** girmez,
+çünkü ikinci seviyedir — kadın olduğu için değil.
+⚠️ 26-28 Eyl 2026'da bu üç gecede üç farklı karar verildi (bir gün alındı, bir gün
+alınmadı). Karar nettir: **kadın basketbol/voleybol ALINIR.** Takım adı futbol takımıyla
+aynıysa dal markası yazılır ("Beşiktaş Voleybol", "Fenerbahçe Opet") — yoksa futbol
+favorisine bildirim gider.
 
 Push'tan önce **mutlaka** `node scripts/filtre.mjs` çalıştır — kaçanı o temizler.
 16 Eyl 2026'da gece çalışması 4 U20 Kadınlar Dünya Kupası maçını dosyaya koydu çünkü

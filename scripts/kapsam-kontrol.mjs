@@ -27,13 +27,18 @@ const KAPSAM_DISI = [
   // USL BURADA DEGIL: talimat §4 onu "nis yerel lig -> regional" sayiyor, yani KAPSAMDA.
   // 19 Eyl'de yanlis hatirlayip kapsam disi yazmistim; 26 Eyl'de talimattan dogrulandi.
   /primera nacional/i, /primera c/i,                  // alt ligler
-  /kadin|women|femin|frauen|feminin|femenin/i,      // kadin futbolu (filtre.mjs de eler)
+
   /sub-?\d|u-?1[5-9]|u-?2[01]/i,                    // altyapi
   // Motorspor: talimat §3 yalniz F1/MotoGP/Moto2/Moto3/F2/F3 der (27 Eyl 2026: motor bolumunde
   // yalniz bunlar vardi, kontrol yanlis EKSIK verdi).
   /superbike|supersport|dayaniklilik|kamyon|gt world|nascar/i,
 ];
-const kapsamDisiMi = (ligAdi) => KAPSAM_DISI.some((r) => r.test(ligAdi));
+// Kadin YALNIZ futbolda elenir. Kullanici kurali: "kadin futbolu girmez, basketbol ve
+// voleybol kalir". 28 Eyl 2026: kontrol TVF Kadinlar Kupa Voley'i kapsam disi sayiyordu,
+// oysa gece calismasi (dogru olarak) dosyaya koymustu.
+const KADIN = /kadin|women|femin|frauen|feminin|femenin/i;
+const kapsamDisiMi = (ligAdi, spor) =>
+  KAPSAM_DISI.some((r) => r.test(ligAdi)) || (spor === 'football' && KADIN.test(ligAdi));
 
 const d = JSON.parse(readFileSync(DOSYA, 'utf8'));
 const dosyaSayim = {};
@@ -55,7 +60,7 @@ for (const [bolum, spor] of Object.entries(ESLEME)) {
   const ligler = tr[bolum]?.leagues ?? [];
   const kaynak = ligler.reduce((n, lg) => n + (lg.matches?.length ?? 0), 0);
   const kapsamli = ligler
-    .filter((lg) => !kapsamDisiMi(lg.name ?? ''))
+    .filter((lg) => !kapsamDisiMi(lg.name ?? '', spor))
     .reduce((n, lg) => n + (lg.matches?.length ?? 0), 0);
   const bizde = dosyaSayim[spor] ?? 0;
   const durum = kapsamli > 0 && bizde === 0 ? 'EKSIK' : 'tamam';
