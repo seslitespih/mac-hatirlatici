@@ -4,7 +4,7 @@
 // fonksiyonuyla BIREBIR ayni uretilir. Uygulamayi acan kullaniciya yerel bildirim,
 // acmayana push gidebilir; ikisi ayni gorunmeli.
 
-import { TAKIM_ESLEME } from './takimlar.js';
+import { TAKIM_ESLEME, takimDali } from './takimlar.js';
 
 export const HATIRLAT_DK = 15;
 
@@ -61,7 +61,13 @@ export function gorunurMu(mac, ulke) {
 export function planKaydi(r) {
   const kickoff = Date.parse(r.kickoffUtc);
   if (!Number.isFinite(kickoff)) return null;
-  const takimlar = [...new Set([...takimKimlikleri(r.home), ...takimKimlikleri(r.away)])];
+  // Favori eslesmesi hem ADI hem DALI tutmali. Ornek: basketbol maci dosyada
+  // "Fenerbahçe" diye yazilirsa, futbol icin Fenerbahçe secen kullaniciya bildirim
+  // GITMEZ (28 Eyl 2026 kullanici istegi). Dogrusu "Fenerbahçe Beko" yazmaktir;
+  // bu kontrol yazim hatasina karsi ikinci emniyet.
+  const dal = r.sport ?? 'football';
+  const takimlar = [...new Set([...takimKimlikleri(r.home), ...takimKimlikleri(r.away)])]
+    .filter((id) => takimDali(id) === dal);
   if (takimlar.length === 0) return null;
   return {
     mac_id: r.id,

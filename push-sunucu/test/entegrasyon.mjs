@@ -37,10 +37,11 @@ const FIKSTUR = {
     { id: 'm4', sport: 'football', tier: 'global', competitionId: 'superlig',
       competition: { en: 'Super Lig' }, home: 'Galatasaray', away: 'Konyaspor', homeNames: {}, awayNames: {},
       kickoffUtc: iso(12), broadcasts: { TR: ['beIN Sports 1'] } },
-    // Futbol takimiyla AYNI adi tasiyan kulubun basketbol maci: favori eslesmesi
-    // yalniz ada baktigi icin futbol seven kullaniciya da carpar.
+    // Basketbol maci: DAL takimiyla (Fenerbahçe Beko) yazilir. 28 Eyl 2026'dan beri
+    // futbol takimi kimligi (fenerbahce) basketbol macina BAGLANMAZ; bu mac yalniz
+    // basketbol takimini secenlere gider.
     { id: 'm5', sport: 'basketball', tier: 'global', competitionId: 'euroleague',
-      competition: { en: 'EuroLeague' }, home: 'Real Madrid', away: 'Joventut', homeNames: {}, awayNames: {},
+      competition: { en: 'EuroLeague' }, home: 'Fenerbahçe Beko', away: 'Joventut', homeNames: {}, awayNames: {},
       kickoffUtc: iso(8), broadcasts: { TR: ['S Sport'] } },
     // Sabah ozeti icin: gunun ilerisinde, 15 dk penceresine GIRMEYEN mac
     { id: 'm6', sport: 'football', tier: 'global', competitionId: 'laliga',
@@ -189,8 +190,8 @@ try {
   // --- Dal suzgeci: futbol icin Real Madrid secen kullaniciya BASKETBOL gitmemeli ---
   const F = 'ExponentPushToken[FFFFFFFFFFFFFFFFFFFF]';   // yalniz futbol
   const H = 'ExponentPushToken[HHHHHHHHHHHHHHHHHHHH]';   // eski surum: dallar alani YOK
-  await kayit({ token: F, takimlar: ['realmadrid'], dil: 'tr', ulke: 'TR', tz: 'Europe/Istanbul', platform: 'ios', dallar: ['football'] });
-  await kayit({ token: H, takimlar: ['realmadrid'], dil: 'tr', ulke: 'TR', tz: 'Europe/Istanbul', platform: 'ios' });
+  await kayit({ token: F, takimlar: ['fenerbahcebeko'], dil: 'tr', ulke: 'TR', tz: 'Europe/Istanbul', platform: 'ios', dallar: ['football'] });
+  await kayit({ token: H, takimlar: ['fenerbahcebeko'], dil: 'tr', ulke: 'TR', tz: 'Europe/Istanbul', platform: 'ios' });
   let hMesaj = [];
   for (let i = 0; i < 15 && hMesaj.length === 0; i++) {
     await new Promise((r) => setTimeout(r, 1000));

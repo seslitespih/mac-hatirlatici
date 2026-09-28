@@ -123,3 +123,23 @@ test('kayitDogrula: dal tercihi', () => {
   assert.deepEqual(kayitDogrula({ ...iyi, dallar: [] }).deger.dallar.length, 4);
   assert.deepEqual(kayitDogrula({ ...iyi, dallar: 'futbol' }).deger.dallar.length, 4);
 });
+
+test('plan kaydi: futbol takimina BASKETBOL bildirimi gitmez', () => {
+  // Fikstur dosyasinda basketbol maci yanlislikla "Fenerbahçe" diye yazilmis olsun.
+  const yanlis = planKaydi({ id: 'b1', sport: 'basketball', tier: 'global', competitionId: 'euroleague',
+    competition: { en: 'EuroLeague' }, home: 'Fenerbahçe', away: 'Real Madrid',
+    homeNames: {}, awayNames: {}, kickoffUtc: '2026-09-28T18:00:00Z', broadcasts: { TR: ['S Sport'] } });
+  assert.equal(yanlis, null, 'futbol takimlari basketbol macina baglanmamali');
+
+  // Dogru yazim: dal takimlari eslesir.
+  const dogru = planKaydi({ id: 'b2', sport: 'basketball', tier: 'global', competitionId: 'euroleague',
+    competition: { en: 'EuroLeague' }, home: 'Fenerbahçe Beko', away: 'Anadolu Efes',
+    homeNames: {}, awayNames: {}, kickoffUtc: '2026-09-28T18:00:00Z', broadcasts: { TR: ['S Sport'] } });
+  assert.deepEqual(dogru.takimlar.sort(), ['anadoluefes', 'fenerbahcebeko']);
+
+  // Futbol maci futbol takimiyla eslesmeye devam eder.
+  const futbol = planKaydi({ id: 'f1', sport: 'football', tier: 'global', competitionId: 'superlig',
+    competition: { en: 'Super Lig' }, home: 'Fenerbahce', away: 'Besiktas',
+    homeNames: {}, awayNames: {}, kickoffUtc: '2026-09-28T18:00:00Z', broadcasts: { TR: ['beIN'] } });
+  assert.deepEqual(futbol.takimlar.sort(), ['besiktas', 'fenerbahce']);
+});
