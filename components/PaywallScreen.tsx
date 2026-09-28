@@ -7,7 +7,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useTranslation } from 'react-i18next';
 import { PurchasesPackage } from 'react-native-purchases';
 import {
-  getOfferings, purchaseSubscription, restorePurchases,
+  getPaketler, purchaseSubscription, restorePurchases,
 } from '../services/subscriptionService';
 import { useTheme } from '../contexts/ThemeContext';
 
@@ -22,6 +22,8 @@ export default function PaywallScreen({ onSubscribed }: Props) {
   const { t } = useTranslation();
   const { colors } = useTheme();
   const [pkg,          setPkg]          = useState<PurchasesPackage | null>(null);
+  const [yillikPkg,    setYillikPkg]    = useState<PurchasesPackage | null>(null);
+  const [secim,        setSecim]        = useState<'aylik' | 'yillik'>('yillik');
   const [loading,      setLoading]      = useState(false);
   const [fetching,     setFetching]     = useState(true);
   const [offeringErr,  setOfferingErr]  = useState(false);
@@ -29,9 +31,11 @@ export default function PaywallScreen({ onSubscribed }: Props) {
   const loadOffering = useCallback(() => {
     setFetching(true);
     setOfferingErr(false);
-    getOfferings().then((p) => {
-      setPkg(p);
-      setOfferingErr(p === null);
+    getPaketler().then(({ aylik, yillik }) => {
+      setPkg(aylik);
+      setYillikPkg(yillik);
+      setSecim(yillik ? 'yillik' : 'aylik');
+      setOfferingErr(aylik === null && yillik === null);
       setFetching(false);
     });
   }, []);
@@ -42,7 +46,7 @@ export default function PaywallScreen({ onSubscribed }: Props) {
     if (!pkg) return;
     setLoading(true);
     try {
-      const ok = await purchaseSubscription(pkg);
+      const ok = await purchaseSubscription(secili!);
       if (ok) onSubscribed();
     } catch {
       Alert.alert(t('paywall.errorTitle'), t('paywall.errorPurchase'));
@@ -67,10 +71,18 @@ export default function PaywallScreen({ onSubscribed }: Props) {
     }
   }
 
+  const secili   = secim === 'yillik' && yillikPkg ? yillikPkg : pkg;
+  const aylikFiyat  = pkg?.product.price ?? 0;
+  const yillikFiyat = yillikPkg?.product.price ?? 0;
+  // Tasarruf yuzdesi fiyatlardan hesaplanir; magaza fiyati degisince metin de degisir.
+  const tasarruf = aylikFiyat > 0 && yillikFiyat > 0
+    ? Math.round((1 - yillikFiyat / (aylikFiyat * 12)) * 100)
+    : 0;
+
   // Fiyat ve deneme suresi URUNDEN okunur. Magazadaki gercek degerle ekrandaki
   // metin birbirini tutmak zorunda (Apple 3.1.2(c)); bu yuzden sabit yazilmaz.
-  const priceStr = pkg?.product.priceString ?? '';
-  const intro    = pkg?.product.introPrice ?? null;
+  const priceStr = secili?.product.priceString ?? '';
+  const intro    = secili?.product.introPrice ?? null;
   // Magazada tanimli deneme YOKSA deneme iddiasi da olmaz (0 -> rozet ve
   // "ucretsiz basla" metni gizlenir). Sabit bir sure varsaymak red sebebiydi.
   const denemeGun = (() => {
@@ -118,8 +130,44 @@ export default function PaywallScreen({ onSubscribed }: Props) {
           ))}
         </View>
 
+        {/* Plan seçici — yıllık ürün mağazada tanımlıysa iki seçenek, yoksa tek kart */}
+        {!!yillikPkg && !!pkg && (
+          <View style={s.planlar}>
+            {([
+              ['yillik', yillikPkg, t('paywall.yearly'), t('paywall.perYear')],
+              ['aylik',  pkg,       t('paywall.monthly'), t('paywall.perMonth')],
+            ] as const).map(([anahtar, paket, baslik, birim]) => {
+              const aktif = secim === anahtar;
+              return (
+                <TouchableOpacity
+                  key={anahtar}
+                  onPress={() => setSecim(anahtar)}
+                  activeOpacity={0.8}
+                  style={[s.plan, {
+                    borderColor: aktif ? colors.accent : colors.border,
+                    backgroundColor: aktif ? colors.accentGlow : 'transparent',
+                    borderWidth: aktif ? 2 : 1,
+                  }]}
+                >
+                  <View style={{ flex: 1 }}>
+                    <Text style={[s.planAd, { color: colors.text }]}>{baslik}</Text>
+                    <Text style={[s.planFiyat, { color: colors.textSub }]}>
+                      {paket.product.priceString}{birim}
+                    </Text>
+                  </View>
+                  {anahtar === 'yillik' && tasarruf > 0 && (
+                    <View style={[s.rozet, { backgroundColor: colors.accent }]}>
+                      <Text style={s.rozetTxt}>{t('paywall.savePercent', { percent: tasarruf })}</Text>
+                    </View>
+                  )}
+                </TouchableOpacity>
+              );
+            })}
+          </View>
+        )}
+
         {/* Fiyat kartı — fiyat mağazadan gelmediyse hiç gösterilmez (sahte fiyat yazmayız) */}
-        {!!priceStr && (
+        {!!priceStr && !(yillikPkg && pkg) && (
           <View style={[s.priceCard, { backgroundColor: colors.bg2, borderColor: colors.border }]}>
             {denemeGun > 0 && (
               <View style={[s.trialBadge, { backgroundColor: colors.accentGlow, borderColor: colors.accent + '44' }]}>
@@ -172,7 +220,8 @@ export default function PaywallScreen({ onSubscribed }: Props) {
               <Text style={[s.renewNotice, { color: colors.text }]}>
                 {denemeGun > 0
                   ? t('paywall.autoRenewTrial', { days: denemeGun, price: priceStr })
-                  : t('paywall.autoRenew',      { price: priceStr })}
+                  : t(secim === 'yillik' && yillikPkg ? 'paywall.autoRenewYear' : 'paywall.autoRenew',
+                      { price: priceStr })}
               </Text>
             )}
 
@@ -217,6 +266,13 @@ const s = StyleSheet.create({
   featureRow:   { flexDirection: 'row', alignItems: 'center', gap: 12 },
   featureEmoji: { fontSize: 20, width: 28 },
   featureText:  { fontSize: 14, fontWeight: '500', flex: 1 },
+  planlar:      { width: '100%', gap: 10, marginBottom: 16 },
+  plan:         { flexDirection: 'row', alignItems: 'center', borderRadius: 14, paddingHorizontal: 16, paddingVertical: 14, gap: 10 },
+  planAd:       { fontSize: 16, fontWeight: '700' },
+  planFiyat:    { fontSize: 13, marginTop: 2 },
+  rozet:        { borderRadius: 999, paddingHorizontal: 10, paddingVertical: 4 },
+  rozetTxt:     { color: '#fff', fontSize: 11, fontWeight: '800' },
+
   priceCard:    { width: '100%', borderRadius: 16, padding: 20, alignItems: 'center', marginBottom: 20, borderWidth: 1 },
   trialBadge:   { borderRadius: 20, paddingHorizontal: 14, paddingVertical: 5, marginBottom: 10, borderWidth: 1 },
   trialText:    { fontSize: 11, fontWeight: '800', letterSpacing: 1 },

@@ -120,6 +120,26 @@ export async function getOfferings(): Promise<PurchasesPackage | null> {
   }
 }
 
+/**
+ * Odeme ekraninda gosterilecek paketler: aylik + (varsa) yillik.
+ * Yillik urun 28 Eyl 2026'da eklendi (yearly_premium_1799, aylik fiyatin yarisi).
+ * Magazada ya da RevenueCat'te yoksa yalniz aylik doner — ekran tek secenekle calisir.
+ */
+export interface Paketler {
+  aylik:  PurchasesPackage | null;
+  yillik: PurchasesPackage | null;
+}
+
+export async function getPaketler(): Promise<Paketler> {
+  try {
+    const offerings = await Purchases.getOfferings();
+    const g = offerings.current;
+    return { aylik: g?.monthly ?? null, yillik: g?.annual ?? null };
+  } catch {
+    return { aylik: null, yillik: null };
+  }
+}
+
 export async function purchaseSubscription(pkg: PurchasesPackage): Promise<boolean> {
   try {
     await Purchases.purchasePackage(pkg);
