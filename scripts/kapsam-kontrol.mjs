@@ -23,13 +23,13 @@ const KAPSAM_DISI = [
   /basketbol 1\. ligi/i, // TR ikinci seviye + altyapi
   // TR federasyonlarinin ikinci/ucuncu seviyeleri. DIKKAT: yalniz TFF/TVF onekiyle —
   // genel /[23]\. lig/ kalibi "Almanya 3. Lig"i de eliyordu, oysa o KAPSAMDA.
-  /(tff|tvf).*[23]\. lig/i,
+  /\b(tff|tvf)\b.*\b[23]\. lig/i,
   /on eleme youtube/i,
   // ⚠️ Kelime siniri SART: /usl/i Turkce "Ul-usl-ar"a takiliyordu -> "UEFA Uluslar
   // Ligi" ve "Uluslararasi Dostluk" yanlislikla kapsam disi sayiliyordu (24 Eyl 2026).
   // USL BURADA DEGIL: talimat §4 onu "nis yerel lig -> regional" sayiyor, yani KAPSAMDA.
   // 19 Eyl'de yanlis hatirlayip kapsam disi yazmistim; 26 Eyl'de talimattan dogrulandi.
-  /primera nacional/i, /primera c/i,                  // alt ligler
+  /primera nacional/i, /\bprimera c\b/i,                  // alt ligler
 
   /sub-?\d|u-?1[5-9]|u-?2[01]/i,                    // altyapi
   // Motorspor: talimat §3 yalniz F1/MotoGP/Moto2/Moto3/F2/F3 der (27 Eyl 2026: motor bolumunde
