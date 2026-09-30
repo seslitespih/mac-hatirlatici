@@ -208,6 +208,13 @@ alınmadı). Karar nettir: **kadın basketbol/voleybol ALINIR.** Takım adı fut
 aynıysa dal markası yazılır ("Beşiktaş Voleybol", "Fenerbahçe Opet") — yoksa futbol
 favorisine bildirim gider.
 
+🛑 **VOLEYBOL 2. LİG HİÇ GİRMEZ — erkek de olsa kadın da olsa, ALTIN KURAL'a rağmen.**
+TVF Erkekler 2. Lig ve TVF Kadınlar 2. Lig maçları dosyaya konmaz. Oynayan takım
+uygulamanın listesinde olsa bile (ör. 30 Eyl 2026: "Halkbank - Maliye Voleybol",
+TVF Erkekler 2. Lig) girmez — oradaki takım kulübün alt/B takımıdır, A takımı değil.
+Bu kural **kullanıcının açık talimatıdır** (30 Eyl 2026). `kapsam-kontrol.mjs` bu ligleri
+zaten kapsam dışı sayar; "EKSIK" derse maçı ekleme, kontrolü düzelt.
+
 Push'tan önce **mutlaka** `node scripts/filtre.mjs` çalıştır — kaçanı o temizler.
 16 Eyl 2026'da gece çalışması 4 U20 Kadınlar Dünya Kupası maçını dosyaya koydu çünkü
 bu talimatta (10 Eyl'de yazılmış) “yaş grubu ve kadın milli takım turnuvaları girer”
