@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-30T08:09:53.000Z",
+ "generated_at": "2026-09-30T10:19:05.000Z",
  "date": "2026-09-30",
  "model": "user-provided",
  "stats": {
-  "total": 35,
-  "withChannel": 35,
+  "total": 37,
+  "withChannel": 37,
   "bySport": {
-   "football": 22,
+   "football": 24,
    "basketball": 13
   },
   "warnings": 0,
@@ -351,31 +351,34 @@
    },
    "kickoffUtc": "2026-09-30T16:00:00Z",
    "broadcasts": {
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "DAZN"
-    ],
     "AR": [
-     "Disney+ Premium"
-    ],
-    "MX": [
-     "Disney+ Premium"
-    ],
-    "CO": [
      "Disney+ Premium"
     ],
     "CL": [
      "Disney+ Premium"
     ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "MX": [
+     "Disney+ Premium"
+    ],
     "PE": [
      "Disney+ Premium"
     ],
-    "UY": [
+    "PY": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "UY": [
      "Disney+ Premium"
     ]
    },
@@ -1068,6 +1071,58 @@
     ],
     "IT": [
      "Sky Sport Arena"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-cerro-largo-rentistas",
+   "sport": "football",
+   "competitionId": "copa_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Kupası",
+    "en": "Copa AUF Uruguay",
+    "de": "Copa AUF Uruguay",
+    "es": "Copa AUF Uruguay",
+    "fr": "Copa AUF Uruguay",
+    "it": "Copa AUF Uruguay",
+    "pt": "Copa AUF Uruguai",
+    "ar": "كأس أوروغواي"
+   },
+   "home": "Cerro Largo",
+   "away": "Rentistas",
+   "kickoffUtc": "2026-09-30T19:00:00Z",
+   "broadcasts": {
+    "UY": [
+     "DSports Uruguay",
+     "DGO"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-defensor-sporting-plaza-colonia",
+   "sport": "football",
+   "competitionId": "copa_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Kupası",
+    "en": "Copa AUF Uruguay",
+    "de": "Copa AUF Uruguay",
+    "es": "Copa AUF Uruguay",
+    "fr": "Copa AUF Uruguay",
+    "it": "Copa AUF Uruguay",
+    "pt": "Copa AUF Uruguai",
+    "ar": "كأس أوروغواي"
+   },
+   "home": "Defensor Sporting",
+   "away": "Plaza Colonia",
+   "kickoffUtc": "2026-09-30T19:00:00Z",
+   "broadcasts": {
+    "UY": [
+     "DSports Uruguay + Plus",
+     "DGO"
     ]
    },
    "sources": []
