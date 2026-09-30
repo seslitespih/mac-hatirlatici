@@ -1,9 +1,12 @@
-// KADIN FUTBOLU FİLTRESİ — matches-daily.json'dan kadın futbol maçlarını çıkarır.
+// KADIN FUTBOLU + U21 FİLTRESİ — matches-daily.json'dan kadın futbol ve U21 maçlarını çıkarır.
 //
 // Kullanıcı kuralı (10 Eyl 2026): "kadınlar futbol maçlarını yayınlama."
 // ⚠️ YALNIZ FUTBOL. Kadın basketbol (FIBA Kadınlar Dünya Kupası) ve voleybol
 // KALIR — kullanıcı özellikle "futbol" dedi, o gün feed'de kadın basketbolu
 // vardı ve ona itiraz etmedi.
+//
+// Kullanıcı kuralı (30 Eyl 2026): "U21 maçlarını da koymamalısın."
+// U21 milli takım maçları (U21 EURO elemeleri, U21 hazırlık) elenir.
 //
 // Fikstür her güncellendiğinde çalıştır:
 //   node scripts/filtre.mjs assets/matches-daily.json
@@ -17,6 +20,9 @@ const KADIN = [
   'feminine', 'femminile', 'dames', 'wsl', 'nwsl', 'frauen-bundesliga',
 ];
 
+// Yarışma kimliği/adında ya da takım adında U21 geçen FUTBOL maçı elenir.
+const U21 = /\bu-?21\b|under[- ]?21|sub-?21|21 ya[şs] alt/i;
+
 const yol = process.argv[2] || 'assets/matches-daily.json';
 const d = JSON.parse(fs.readFileSync(yol, 'utf8'));
 
@@ -27,12 +33,19 @@ const kadinMi = (m) => {
   return KADIN.some((k) => metin.includes(k));
 };
 
+const u21Mi = (m) => {
+  if (m.sport !== 'football') return false;
+  const metin = [m.competitionId || '', ...Object.values(m.competition || {}), m.home, m.away].join(' ');
+  return U21.test(metin);
+};
+const elenirMi = (m) => kadinMi(m) || u21Mi(m);
+
 const once = d.matches.length;
-const atilan = d.matches.filter(kadinMi);
-d.matches = d.matches.filter((m) => !kadinMi(m));
+const atilan = d.matches.filter(elenirMi);
+d.matches = d.matches.filter((m) => !elenirMi(m));
 
 if (!atilan.length) {
-  console.log('kadın futbolu yok — dosyaya dokunulmadı (' + once + ' maç)');
+  console.log('kadın futbolu / U21 yok — dosyaya dokunulmadı (' + once + ' maç)');
   process.exit(0);
 }
 
@@ -51,5 +64,5 @@ for (const m of d.matches) {
 d.stats = { ...d.stats, total: d.matches.length, withChannel, bySport };
 
 fs.writeFileSync(yol, JSON.stringify(d, null, 1), 'utf8');
-console.log('\n' + atilan.length + ' kadın futbol maçı çıkarıldı: ' +
+console.log('\n' + atilan.length + ' maç çıkarıldı (kadın futbolu / U21): ' +
   once + ' → ' + d.matches.length + ' maç');

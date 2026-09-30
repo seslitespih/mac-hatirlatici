@@ -134,6 +134,10 @@ Gece üretim yapılamazsa (dizüstü fişsiz, pil bitmiş) sabah bu dosya hazır
 Brasileirão A ve B · Copa do Brasil · Libertadores · Sudamericana · Arjantin Primera División ·
 Suudi Pro Lig · MLS · Liga MX · **Azerbaycan Premier Ligi** · A milli takım maçları · **Akdeniz Oyunları** · **ERKEK** FIFA/UEFA/CONMEBOL yaş grubu milli takım turnuvaları (U17/U20 Dünya Kupası).
 
+🛑 **U21 MAÇLARI GİRMEZ.** U21 Avrupa Şampiyonası elemeleri, U21 hazırlık maçları — hiçbiri
+dosyaya konmaz. Bu kural **kullanıcının açık talimatıdır** (30 Eyl 2026; o sabah dosyaya
+giren 3 U21 elemesi çıkarıldı). `node scripts/filtre.mjs` kaçanı temizler.
+
 ### 🟢 ALTIN KURAL: uygulamanın takım listesindeki bir takım oynuyorsa MAÇ GİRER
 
 `constants/teams.ts` → `TEAMS` dizisi kullanıcının favoriye ekleyebildiği takımları tutar
