@@ -1,820 +1,123 @@
 {
- "generated_at": "2026-09-28T22:17:31.000Z",
- "date": "2026-09-29",
+ "generated_at": "2026-09-30T08:09:53.000Z",
+ "date": "2026-09-30",
  "model": "user-provided",
  "stats": {
-  "total": 61,
-  "withChannel": 61,
+  "total": 38,
+  "withChannel": 38,
   "bySport": {
-   "football": 45,
-   "volleyball": 3,
+   "football": 25,
    "basketball": 13
   },
   "warnings": 0,
   "searches": 0,
-  "countries": 9
+  "countries": 28
  },
  "matches": [
   {
-   "id": "football-20260928-suriname-martinique",
+   "id": "football-20260930-timor-leste-cambodia",
    "sport": "football",
-   "competitionId": "concacaf_nl",
+   "competitionId": "asean_cup",
    "tier": "regional",
    "competition": {
-    "tr": "CONCACAF Uluslar Ligi",
-    "en": "CONCACAF Nations League",
-    "de": "CONCACAF Nations League",
-    "es": "Liga de Naciones de la CONCACAF",
-    "fr": "Ligue des nations de la CONCACAF",
-    "it": "CONCACAF Nations League",
-    "pt": "Liga das Nações da CONCACAF",
-    "ar": "دوري أمم الكونكاكاف"
+    "tr": "ASEAN Kupası",
+    "en": "ASEAN Cup",
+    "de": "ASEAN-Cup",
+    "es": "Copa ASEAN",
+    "fr": "Coupe ASEAN",
+    "it": "Coppa ASEAN",
+    "pt": "Copa ASEAN",
+    "ar": "كأس آسيان"
    },
-   "home": "Suriname",
-   "away": "Martinique",
+   "home": "Timor-Leste",
+   "away": "Cambodia",
    "homeNames": {
-    "tr": "Surinam",
-    "en": "Suriname",
-    "de": "Suriname",
-    "es": "Surinam",
-    "fr": "Suriname",
-    "it": "Suriname",
-    "pt": "Suriname",
-    "ar": "سورينام"
+    "tr": "Doğu Timor",
+    "en": "Timor-Leste",
+    "de": "Osttimor",
+    "es": "Timor Oriental",
+    "fr": "Timor oriental",
+    "it": "Timor Est",
+    "pt": "Timor-Leste",
+    "ar": "تيمور الشرقية"
    },
    "awayNames": {
-    "tr": "Martinik",
-    "en": "Martinique",
-    "de": "Martinique",
-    "es": "Martinica",
-    "fr": "Martinique",
-    "it": "Martinica",
-    "pt": "Martinica",
-    "ar": "مارتينيك"
+    "tr": "Kamboçya",
+    "en": "Cambodia",
+    "de": "Kambodscha",
+    "es": "Camboya",
+    "fr": "Cambodge",
+    "it": "Cambogia",
+    "pt": "Camboja",
+    "ar": "كمبوديا"
    },
-   "kickoffUtc": "2026-09-28T22:00:00Z",
+   "kickoffUtc": "2026-09-30T09:00:00Z",
    "broadcasts": {
-    "US": [
-     "FS2",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV",
-     "ViX"
-    ],
     "GB": [
-     "CONCACAF YouTube"
+     "DAZN"
     ],
-    "PT": [
-     "CONCACAF YouTube"
+    "DE": [
+     "DAZN"
     ],
     "ES": [
-     "CONCACAF YouTube"
+     "DAZN"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260928-montevideo-wanderers-albion",
+   "id": "football-20260930-brunei-hong-kong",
    "sport": "football",
-   "competitionId": "liga_auf",
+   "competitionId": "asean_cup",
    "tier": "regional",
    "competition": {
-    "tr": "Uruguay Ligi",
-    "en": "Uruguayan Primera División",
-    "de": "Uruguayische Primera División",
-    "es": "Primera División de Uruguay",
-    "fr": "Championnat d'Uruguay",
-    "it": "Primera División uruguaiana",
-    "pt": "Campeonato Uruguaio",
-    "ar": "الدوري الأوروغوياني"
+    "tr": "ASEAN Kupası",
+    "en": "ASEAN Cup",
+    "de": "ASEAN-Cup",
+    "es": "Copa ASEAN",
+    "fr": "Coupe ASEAN",
+    "it": "Coppa ASEAN",
+    "pt": "Copa ASEAN",
+    "ar": "كأس آسيان"
    },
-   "home": "Montevideo Wanderers",
-   "away": "Albion",
+   "home": "Brunei",
+   "away": "Hong Kong",
    "homeNames": {
-    "tr": "Montevideo Wanderers",
-    "en": "Montevideo Wanderers",
-    "de": "Montevideo Wanderers",
-    "es": "Montevideo Wanderers",
-    "fr": "Montevideo Wanderers",
-    "it": "Montevideo Wanderers",
-    "pt": "Montevideo Wanderers",
-    "ar": "مونتيفيديو واندررز"
+    "tr": "Brunei",
+    "en": "Brunei",
+    "de": "Brunei",
+    "es": "Brunéi",
+    "fr": "Brunei",
+    "it": "Brunei",
+    "pt": "Brunei",
+    "ar": "بروناي"
    },
    "awayNames": {
-    "tr": "Albión",
-    "en": "Albión",
-    "de": "Albión",
-    "es": "Albión",
-    "fr": "Albión",
-    "it": "Albión",
-    "pt": "Albión",
-    "ar": "Albión"
+    "tr": "Hong Kong",
+    "en": "Hong Kong",
+    "de": "Hongkong",
+    "es": "Hong Kong",
+    "fr": "Hong Kong",
+    "it": "Hong Kong",
+    "pt": "Hong Kong",
+    "ar": "هونغ كونغ"
    },
-   "kickoffUtc": "2026-09-28T23:00:00Z",
+   "kickoffUtc": "2026-09-30T12:00:00Z",
    "broadcasts": {
+    "GB": [
+     "DAZN"
+    ],
+    "DE": [
+     "DAZN"
+    ],
     "ES": [
-     "Antel TV Internacional"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-jamaica-honduras",
-   "sport": "football",
-   "competitionId": "concacaf_nl",
-   "tier": "regional",
-   "competition": {
-    "tr": "CONCACAF Uluslar Ligi",
-    "en": "CONCACAF Nations League",
-    "de": "CONCACAF Nations League",
-    "es": "Liga de Naciones de la CONCACAF",
-    "fr": "Ligue des nations de la CONCACAF",
-    "it": "CONCACAF Nations League",
-    "pt": "Liga das Nações da CONCACAF",
-    "ar": "دوري أمم الكونكاكاف"
-   },
-   "home": "Jamaica",
-   "away": "Honduras",
-   "homeNames": {
-    "tr": "Jamaika",
-    "en": "Jamaica",
-    "de": "Jamaika",
-    "es": "Jamaica",
-    "fr": "Jamaïque",
-    "it": "Giamaica",
-    "pt": "Jamaica",
-    "ar": "جامايكا"
-   },
-   "awayNames": {
-    "tr": "Honduras",
-    "en": "Honduras",
-    "de": "Honduras",
-    "es": "Honduras",
-    "fr": "Honduras",
-    "it": "Honduras",
-    "pt": "Honduras",
-    "ar": "هندوراس"
-   },
-   "kickoffUtc": "2026-09-29T00:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "CONCACAF YouTube"
-    ],
-    "US": [
-     "FS2",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV",
-     "ViX"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-saint-kitts-and-nevis-grenada",
-   "sport": "football",
-   "competitionId": "concacaf_nl",
-   "tier": "regional",
-   "competition": {
-    "tr": "CONCACAF Uluslar Ligi",
-    "en": "CONCACAF Nations League",
-    "de": "CONCACAF Nations League",
-    "es": "Liga de Naciones de la CONCACAF",
-    "fr": "Ligue des nations de la CONCACAF",
-    "it": "CONCACAF Nations League",
-    "pt": "Liga das Nações da CONCACAF",
-    "ar": "دوري أمم الكونكاكاف"
-   },
-   "home": "Saint Kitts and Nevis",
-   "away": "Grenada",
-   "homeNames": {
-    "tr": "Saint Kitts ve Nevis",
-    "en": "Saint Kitts and Nevis",
-    "de": "St. Kitts und Nevis",
-    "es": "San Cristóbal y Nieves",
-    "fr": "Saint-Christophe-et-Niévès",
-    "it": "Saint Kitts e Nevis",
-    "pt": "São Cristóvão e Névis",
-    "ar": "سانت كيتس ونيفيس"
-   },
-   "awayNames": {
-    "tr": "Grenada",
-    "en": "Grenada",
-    "de": "Grenada",
-    "es": "Granada",
-    "fr": "Grenade",
-    "it": "Grenada",
-    "pt": "Granada",
-    "ar": "غرينادا"
-   },
-   "kickoffUtc": "2026-09-29T00:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "CONCACAF YouTube"
-    ],
-    "US": [
-     "FOX Soccer Plus",
-     "Fubo",
-     "ViX"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-saint-lucia-bermuda",
-   "sport": "football",
-   "competitionId": "concacaf_nl",
-   "tier": "regional",
-   "competition": {
-    "tr": "CONCACAF Uluslar Ligi",
-    "en": "CONCACAF Nations League",
-    "de": "CONCACAF Nations League",
-    "es": "Liga de Naciones de la CONCACAF",
-    "fr": "Ligue des nations de la CONCACAF",
-    "it": "CONCACAF Nations League",
-    "pt": "Liga das Nações da CONCACAF",
-    "ar": "دوري أمم الكونكاكاف"
-   },
-   "home": "Saint Lucia",
-   "away": "Bermuda",
-   "homeNames": {
-    "tr": "Saint Lucia",
-    "en": "Saint Lucia",
-    "de": "St. Lucia",
-    "es": "Santa Lucía",
-    "fr": "Sainte-Lucie",
-    "it": "Saint Lucia",
-    "pt": "Santa Lúcia",
-    "ar": "سانت لوسيا"
-   },
-   "awayNames": {
-    "tr": "Bermuda",
-    "en": "Bermuda",
-    "de": "Bermuda",
-    "es": "Bermudas",
-    "fr": "Bermudes",
-    "it": "Bermuda",
-    "pt": "Bermudas",
-    "ar": "برمودا"
-   },
-   "kickoffUtc": "2026-09-29T00:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "CONCACAF YouTube"
-    ],
-    "US": [
-     "Tubi",
-     "ViX"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-guatemala-el-salvador",
-   "sport": "football",
-   "competitionId": "concacaf_nl",
-   "tier": "regional",
-   "competition": {
-    "tr": "CONCACAF Uluslar Ligi",
-    "en": "CONCACAF Nations League",
-    "de": "CONCACAF Nations League",
-    "es": "Liga de Naciones de la CONCACAF",
-    "fr": "Ligue des nations de la CONCACAF",
-    "it": "CONCACAF Nations League",
-    "pt": "Liga das Nações da CONCACAF",
-    "ar": "دوري أمم الكونكاكاف"
-   },
-   "home": "Guatemala",
-   "away": "El Salvador",
-   "homeNames": {
-    "tr": "Guatemala",
-    "en": "Guatemala",
-    "de": "Guatemala",
-    "es": "Guatemala",
-    "fr": "Guatemala",
-    "it": "Guatemala",
-    "pt": "Guatemala",
-    "ar": "غواتيمالا"
-   },
-   "awayNames": {
-    "tr": "El Salvador",
-    "en": "El Salvador",
-    "de": "El Salvador",
-    "es": "El Salvador",
-    "fr": "Salvador",
-    "it": "El Salvador",
-    "pt": "El Salvador",
-    "ar": "السلفادور"
-   },
-   "kickoffUtc": "2026-09-29T02:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "CONCACAF YouTube"
-    ],
-    "US": [
-     "FS2",
-     "TUDN",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV",
-     "ViX"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-philippines-pakistan",
-   "sport": "football",
-   "competitionId": "friendly",
-   "tier": "regional",
-   "competition": {
-    "tr": "Hazırlık Maçı",
-    "en": "International Friendly",
-    "de": "Freundschaftsspiel",
-    "es": "Amistoso Internacional",
-    "fr": "Match amical",
-    "it": "Amichevole",
-    "pt": "Amistoso Internacional",
-    "ar": "مباراة ودية"
-   },
-   "home": "Philippines",
-   "away": "Pakistan",
-   "homeNames": {
-    "tr": "Filipinler",
-    "en": "Philippines",
-    "de": "Philippinen",
-    "es": "Filipinas",
-    "fr": "Philippines",
-    "it": "Filippine",
-    "pt": "Filipinas",
-    "ar": "الفلبين"
-   },
-   "awayNames": {
-    "tr": "Pakistan",
-    "en": "Pakistan",
-    "de": "Pakistan",
-    "es": "Pakistán",
-    "fr": "Pakistan",
-    "it": "Pakistan",
-    "pt": "Paquistão",
-    "ar": "باكستان"
-   },
-   "kickoffUtc": "2026-09-29T09:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "DAZN"
-    ],
-    "DE": [
      "DAZN"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260929-australia-brazil",
-   "sport": "football",
-   "competitionId": "friendly",
-   "tier": "global",
-   "competition": {
-    "tr": "Hazırlık Maçı",
-    "en": "International Friendly",
-    "de": "Freundschaftsspiel",
-    "es": "Amistoso Internacional",
-    "fr": "Match amical",
-    "it": "Amichevole",
-    "pt": "Amistoso Internacional",
-    "ar": "مباراة ودية"
-   },
-   "home": "Australia",
-   "away": "Brazil",
-   "homeNames": {
-    "tr": "Avustralya",
-    "en": "Australia",
-    "de": "Australien",
-    "es": "Australia",
-    "fr": "Australie",
-    "it": "Australia",
-    "pt": "Austrália",
-    "ar": "أستراليا"
-   },
-   "awayNames": {
-    "tr": "Brezilya",
-    "en": "Brazil",
-    "de": "Brasilien",
-    "es": "Brasil",
-    "fr": "Brésil",
-    "it": "Brasile",
-    "pt": "Brasil",
-    "ar": "البرازيل"
-   },
-   "kickoffUtc": "2026-09-29T10:00:00Z",
-   "broadcasts": {
-    "BR": [
-     "Globo",
-     "SporTV",
-     "GE TV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-comoros-namibia",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Comoros",
-   "away": "Namibia",
-   "homeNames": {
-    "tr": "Komorlar",
-    "en": "Comoros",
-    "de": "Komoren",
-    "es": "Comoras",
-    "fr": "Comores",
-    "it": "Comore",
-    "pt": "Comores",
-    "ar": "جزر القمر"
-   },
-   "awayNames": {
-    "tr": "Namibya",
-    "en": "Namibia",
-    "de": "Namibia",
-    "es": "Namibia",
-    "fr": "Namibie",
-    "it": "Namibia",
-    "pt": "Namíbia",
-    "ar": "ناميبيا"
-   },
-   "kickoffUtc": "2026-09-29T11:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Connect",
-     "Fubo",
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-burundi-algeria",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Burundi",
-   "away": "Algeria",
-   "homeNames": {
-    "tr": "Burundi",
-    "en": "Burundi",
-    "de": "Burundi",
-    "es": "Burundi",
-    "fr": "Burundi",
-    "it": "Burundi",
-    "pt": "Burundi",
-    "ar": "بوروندي"
-   },
-   "awayNames": {
-    "tr": "Cezayir",
-    "en": "Algeria",
-    "de": "Algerien",
-    "es": "Argelia",
-    "fr": "Algérie",
-    "it": "Algeria",
-    "pt": "Argélia",
-    "ar": "الجزائر"
-   },
-   "kickoffUtc": "2026-09-29T13:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Connect",
-     "Fubo",
-     "Fanatiz"
-    ],
-    "FR": [
-     "beIN Sports 2"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-ethiopia-senegal",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Ethiopia",
-   "away": "Senegal",
-   "homeNames": {
-    "tr": "Etiyopya",
-    "en": "Ethiopia",
-    "de": "Äthiopien",
-    "es": "Etiopía",
-    "fr": "Éthiopie",
-    "it": "Etiopia",
-    "pt": "Etiópia",
-    "ar": "إثيوبيا"
-   },
-   "awayNames": {
-    "tr": "Senegal",
-    "en": "Senegal",
-    "de": "Senegal",
-    "es": "Senegal",
-    "fr": "Sénégal",
-    "it": "Senegal",
-    "pt": "Senegal",
-    "ar": "السنغال"
-   },
-   "kickoffUtc": "2026-09-29T13:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Xtra",
-     "beIN Sports Connect",
-     "Fubo",
-     "Fanatiz",
-     "DirecTV Stream",
-     "Tubi"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "IT": [
-     "Sportitalia"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-lesotho-morocco",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Lesotho",
-   "away": "Morocco",
-   "homeNames": {
-    "tr": "Lesotho",
-    "en": "Lesotho",
-    "de": "Lesotho",
-    "es": "Lesoto",
-    "fr": "Lesotho",
-    "it": "Lesotho",
-    "pt": "Lesoto",
-    "ar": "ليسوتو"
-   },
-   "awayNames": {
-    "tr": "Fas",
-    "en": "Morocco",
-    "de": "Marokko",
-    "es": "Marruecos",
-    "fr": "Maroc",
-    "it": "Marocco",
-    "pt": "Marrocos",
-    "ar": "المغرب"
-   },
-   "kickoffUtc": "2026-09-29T13:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports",
-     "Fubo",
-     "Fanatiz"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "FR": [
-     "beIN Sports 1"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-madagascar-tanzania",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Madagascar",
-   "away": "Tanzania",
-   "homeNames": {
-    "tr": "Madagaskar",
-    "en": "Madagascar",
-    "de": "Madagaskar",
-    "es": "Madagascar",
-    "fr": "Madagascar",
-    "it": "Madagascar",
-    "pt": "Madagáscar",
-    "ar": "مدغشقر"
-   },
-   "awayNames": {
-    "tr": "Tanzanya",
-    "en": "Tanzania",
-    "de": "Tansania",
-    "es": "Tanzania",
-    "fr": "Tanzanie",
-    "it": "Tanzania",
-    "pt": "Tanzânia",
-    "ar": "تنزانيا"
-   },
-   "kickoffUtc": "2026-09-29T13:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Connect",
-     "Fubo",
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-mozambique-sudan",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Mozambique",
-   "away": "Sudan",
-   "homeNames": {
-    "tr": "Mozambik",
-    "en": "Mozambique",
-    "de": "Mosambik",
-    "es": "Mozambique",
-    "fr": "Mozambique",
-    "it": "Mozambico",
-    "pt": "Moçambique",
-    "ar": "موزمبيق"
-   },
-   "awayNames": {
-    "tr": "Sudan",
-    "en": "Sudan",
-    "de": "Sudan",
-    "es": "Sudán",
-    "fr": "Soudan",
-    "it": "Sudan",
-    "pt": "Sudão",
-    "ar": "السودان"
-   },
-   "kickoffUtc": "2026-09-29T13:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Connect",
-     "Fubo",
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-south-sudan-egypt",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "South Sudan",
-   "away": "Egypt",
-   "homeNames": {
-    "tr": "Güney Sudan",
-    "en": "South Sudan",
-    "de": "Südsudan",
-    "es": "Sudán del Sur",
-    "fr": "Soudan du Sud",
-    "it": "Sudan del Sud",
-    "pt": "Sudão do Sul",
-    "ar": "جنوب السودان"
-   },
-   "awayNames": {
-    "tr": "Mısır",
-    "en": "Egypt",
-    "de": "Ägypten",
-    "es": "Egipto",
-    "fr": "Égypte",
-    "it": "Egitto",
-    "pt": "Egito",
-    "ar": "مصر"
-   },
-   "kickoffUtc": "2026-09-29T13:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Connect",
-     "beIN Sports en Español",
-     "Fubo",
-     "Fanatiz"
-    ],
-    "DE": [
-     "DAZN"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "volleyball-20260929-kuzeyboru-manisa-bb",
-   "sport": "volleyball",
-   "competitionId": "tvf_kadin_kupa",
-   "tier": "regional",
-   "competition": {
-    "tr": "TVF Kadınlar Kupa Voley",
-    "en": "Turkish Women's Volleyball Cup",
-    "de": "Türkischer Volleyball-Pokal (Frauen)",
-    "es": "Copa de Turquía de Voleibol Femenino",
-    "fr": "Coupe de Turquie de volley-ball féminin",
-    "it": "Coppa di Turchia di pallavolo femminile",
-    "pt": "Taça da Turquia de Voleibol Feminino",
-    "ar": "كأس تركيا للكرة الطائرة للسيدات"
-   },
-   "home": "Kuzeyboru",
-   "away": "Manisa BB",
-   "homeNames": {
-    "tr": "Kuzeyboru",
-    "en": "Kuzeyboru",
-    "de": "Kuzeyboru",
-    "es": "Kuzeyboru",
-    "fr": "Kuzeyboru",
-    "it": "Kuzeyboru",
-    "pt": "Kuzeyboru",
-    "ar": "Kuzeyboru"
-   },
-   "awayNames": {
-    "tr": "Manisa BB",
-    "en": "Manisa BB",
-    "de": "Manisa BB",
-    "es": "Manisa BB",
-    "fr": "Manisa BB",
-    "it": "Manisa BB",
-    "pt": "Manisa BB",
-    "ar": "Manisa BB"
-   },
-   "kickoffUtc": "2026-09-29T13:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor Yıldız"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20260929-neptunas-klaipeda-dolomiti-energia-trento",
+   "id": "basketball-20260930-siauliai-london-lions",
    "sport": "basketball",
    "competitionId": "eurocup",
    "tier": "regional",
@@ -828,32 +131,77 @@
     "pt": "EuroCup",
     "ar": "كأس أوروبا لكرة السلة"
    },
-   "home": "Neptunas Klaipeda",
-   "away": "Dolomiti Energia Trento",
+   "home": "Siauliai",
+   "away": "London Lions",
    "homeNames": {
-    "tr": "Neptūnas Klaipėda",
-    "en": "Neptūnas Klaipėda",
-    "de": "Neptūnas Klaipėda",
-    "es": "Neptūnas Klaipėda",
-    "fr": "Neptūnas Klaipėda",
-    "it": "Neptūnas Klaipėda",
-    "pt": "Neptūnas Klaipėda",
-    "ar": "نبتوناس كلايبيدا"
+    "tr": "Šiauliai",
+    "en": "Šiauliai",
+    "de": "Šiauliai",
+    "es": "Šiauliai",
+    "fr": "Šiauliai",
+    "it": "Šiauliai",
+    "pt": "Šiauliai",
+    "ar": "شياولياي"
    },
    "awayNames": {
-    "tr": "Dolomiti Energia Trento",
-    "en": "Dolomiti Energia Trento",
-    "de": "Dolomiti Energia Trento",
-    "es": "Dolomiti Energia Trento",
-    "fr": "Dolomiti Energia Trento",
-    "it": "Dolomiti Energia Trento",
-    "pt": "Dolomiti Energia Trento",
-    "ar": "ترينتو"
+    "tr": "London Lions",
+    "en": "London Lions",
+    "de": "London Lions",
+    "es": "London Lions",
+    "fr": "London Lions",
+    "it": "London Lions",
+    "pt": "London Lions",
+    "ar": "لندن لايونز"
    },
-   "kickoffUtc": "2026-09-29T16:00:00Z",
+   "kickoffUtc": "2026-09-30T15:30:00Z",
    "broadcasts": {
     "TR": [
      "EuroLeague TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260930-bahcesehir-koleji-roma-basketball",
+   "sport": "basketball",
+   "competitionId": "eurocup",
+   "tier": "regional",
+   "competition": {
+    "tr": "EuroCup",
+    "en": "EuroCup",
+    "de": "EuroCup",
+    "es": "EuroCup",
+    "fr": "EuroCup",
+    "it": "EuroCup",
+    "pt": "EuroCup",
+    "ar": "كأس أوروبا لكرة السلة"
+   },
+   "home": "Bahcesehir Koleji",
+   "away": "Roma Basketball",
+   "homeNames": {
+    "tr": "Bahçeşehir Koleji",
+    "en": "Bahçeşehir Koleji",
+    "de": "Bahçeşehir Koleji",
+    "es": "Bahçeşehir Koleji",
+    "fr": "Bahçeşehir Koleji",
+    "it": "Bahçeşehir Koleji",
+    "pt": "Bahçeşehir Koleji",
+    "ar": "Bahçeşehir Koleji"
+   },
+   "awayNames": {
+    "tr": "Roma Basketball",
+    "en": "Roma Basketball",
+    "de": "Roma Basketball",
+    "es": "Roma Basketball",
+    "fr": "Roma Basketball",
+    "it": "Roma Basketball",
+    "pt": "Roma Basketball",
+    "ar": "روما لكرة السلة"
+   },
+   "kickoffUtc": "2026-09-30T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor Yıldız"
     ],
     "IT": [
      "Sky Sport 1"
@@ -862,155 +210,55 @@
    "sources": []
   },
   {
-   "id": "basketball-20260929-dubai-basket-barca-basket",
+   "id": "basketball-20260930-riga-zelli-derthona-tortona",
    "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
+   "competitionId": "eurocup",
+   "tier": "regional",
    "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
+    "tr": "EuroCup",
+    "en": "EuroCup",
+    "de": "EuroCup",
+    "es": "EuroCup",
+    "fr": "EuroCup",
+    "it": "EuroCup",
+    "pt": "EuroCup",
+    "ar": "كأس أوروبا لكرة السلة"
    },
-   "home": "Dubai Basket",
-   "away": "Barca Basket",
+   "home": "Riga Zelli",
+   "away": "Derthona Tortona",
    "homeNames": {
-    "tr": "Dubai Basket",
-    "en": "Dubai Basket",
-    "de": "Dubai Basket",
-    "es": "Dubai Basket",
-    "fr": "Dubai Basket",
-    "it": "Dubai Basket",
-    "pt": "Dubai Basket",
-    "ar": "دبي باسكت"
+    "tr": "Rīga Zeļļi",
+    "en": "Rīga Zeļļi",
+    "de": "Rīga Zeļļi",
+    "es": "Rīga Zeļļi",
+    "fr": "Rīga Zeļļi",
+    "it": "Rīga Zeļļi",
+    "pt": "Rīga Zeļļi",
+    "ar": "ريغا زيلي"
    },
    "awayNames": {
-    "tr": "Barça Basket",
-    "en": "Barça Basket",
-    "de": "Barça Basket",
-    "es": "Barça Basket",
-    "fr": "Barça Basket",
-    "it": "Barça Basket",
-    "pt": "Barça Basket",
-    "ar": "برشلونة لكرة السلة"
+    "tr": "Derthona Tortona",
+    "en": "Derthona Tortona",
+    "de": "Derthona Tortona",
+    "es": "Derthona Tortona",
+    "fr": "Derthona Tortona",
+    "it": "Derthona Tortona",
+    "pt": "Derthona Tortona",
+    "ar": "ديرتونا تورتونا"
    },
-   "kickoffUtc": "2026-09-29T16:00:00Z",
+   "kickoffUtc": "2026-09-30T16:00:00Z",
    "broadcasts": {
     "TR": [
-     "S Sport Plus"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-cape-verde-rwanda",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Cape Verde",
-   "away": "Rwanda",
-   "homeNames": {
-    "tr": "Yeşil Burun Adaları",
-    "en": "Cape Verde",
-    "de": "Kap Verde",
-    "es": "Cabo Verde",
-    "fr": "Cap-Vert",
-    "it": "Capo Verde",
-    "pt": "Cabo Verde",
-    "ar": "الرأس الأخضر"
-   },
-   "awayNames": {
-    "tr": "Ruanda",
-    "en": "Rwanda",
-    "de": "Ruanda",
-    "es": "Ruanda",
-    "fr": "Rwanda",
-    "it": "Ruanda",
-    "pt": "Ruanda",
-    "ar": "رواندا"
-   },
-   "kickoffUtc": "2026-09-29T16:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Connect",
-     "Fubo",
-     "Fanatiz"
-    ],
-    "DE": [
-     "DAZN"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-ghana-gambia",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Ghana",
-   "away": "Gambia",
-   "homeNames": {
-    "tr": "Gana",
-    "en": "Ghana",
-    "de": "Ghana",
-    "es": "Ghana",
-    "fr": "Ghana",
-    "it": "Ghana",
-    "pt": "Gana",
-    "ar": "غانا"
-   },
-   "awayNames": {
-    "tr": "Gambiya",
-    "en": "Gambia",
-    "de": "Gambia",
-    "es": "Gambia",
-    "fr": "Gambie",
-    "it": "Gambia",
-    "pt": "Gâmbia",
-    "ar": "غامبيا"
-   },
-   "kickoffUtc": "2026-09-29T16:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Xtra",
-     "beIN Sports Connect",
-     "Fubo",
-     "Fanatiz",
-     "DirecTV Stream",
-     "Tubi"
+     "EuroLeague TV"
     ],
     "IT": [
-     "Sportitalia"
+     "Sky Sport Arena"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260929-guinea-bissau-nigeria",
+   "id": "football-20260930-eritrea-south-africa",
    "sport": "football",
    "competitionId": "afcon_qual",
    "tier": "regional",
@@ -1024,144 +272,117 @@
     "pt": "Eliminatórias da Copa Africana",
     "ar": "تصفيات كأس أمم أفريقيا"
    },
-   "home": "Guinea-Bissau",
-   "away": "Nigeria",
+   "home": "Eritrea",
+   "away": "South Africa",
    "homeNames": {
-    "tr": "Gine-Bissau",
-    "en": "Guinea-Bissau",
-    "de": "Guinea-Bissau",
-    "es": "Guinea-Bisáu",
-    "fr": "Guinée-Bissau",
-    "it": "Guinea-Bissau",
-    "pt": "Guiné-Bissau",
-    "ar": "غينيا بيساو"
+    "tr": "Eritre",
+    "en": "Eritrea",
+    "de": "Eritrea",
+    "es": "Eritrea",
+    "fr": "Érythrée",
+    "it": "Eritrea",
+    "pt": "Eritreia",
+    "ar": "إريتريا"
    },
    "awayNames": {
-    "tr": "Nijerya",
-    "en": "Nigeria",
-    "de": "Nigeria",
-    "es": "Nigeria",
-    "fr": "Nigéria",
-    "it": "Nigeria",
-    "pt": "Nigéria",
-    "ar": "نيجيريا"
+    "tr": "Güney Afrika",
+    "en": "South Africa",
+    "de": "Südafrika",
+    "es": "Sudáfrica",
+    "fr": "Afrique du Sud",
+    "it": "Sudafrica",
+    "pt": "África do Sul",
+    "ar": "جنوب أفريقيا"
    },
-   "kickoffUtc": "2026-09-29T16:00:00Z",
+   "kickoffUtc": "2026-09-30T16:00:00Z",
    "broadcasts": {
     "US": [
      "beIN Sports",
+     "beIN Sports en Español",
      "beIN Sports Connect",
      "Fubo",
      "Fanatiz"
     ],
+    "IT": [
+     "Sportitalia"
+    ],
+    "PT": [
+     "Fanatiz"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-lithuania-andorra",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match amical",
+    "it": "Amichevole",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية"
+   },
+   "home": "Lithuania",
+   "away": "Andorra",
+   "homeNames": {
+    "tr": "Litvanya",
+    "en": "Lithuania",
+    "de": "Litauen",
+    "es": "Lituania",
+    "fr": "Lituanie",
+    "it": "Lituania",
+    "pt": "Lituânia",
+    "ar": "ليتوانيا"
+   },
+   "awayNames": {
+    "tr": "Andorra",
+    "en": "Andorra",
+    "de": "Andorra",
+    "es": "Andorra",
+    "fr": "Andorre",
+    "it": "Andorra",
+    "pt": "Andorra",
+    "ar": "أندورا"
+   },
+   "kickoffUtc": "2026-09-30T16:00:00Z",
+   "broadcasts": {
     "DE": [
      "DAZN"
     ],
-    "FR": [
-     "beIN Sports 1"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-uganda-libya",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Uganda",
-   "away": "Libya",
-   "homeNames": {
-    "tr": "Uganda",
-    "en": "Uganda",
-    "de": "Uganda",
-    "es": "Uganda",
-    "fr": "Ouganda",
-    "it": "Uganda",
-    "pt": "Uganda",
-    "ar": "أوغندا"
-   },
-   "awayNames": {
-    "tr": "Libya",
-    "en": "Libya",
-    "de": "Libyen",
-    "es": "Libia",
-    "fr": "Libye",
-    "it": "Libia",
-    "pt": "Líbia",
-    "ar": "ليبيا"
-   },
-   "kickoffUtc": "2026-09-29T16:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Connect",
-     "Fubo",
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-zambia-togo",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Zambia",
-   "away": "Togo",
-   "homeNames": {
-    "tr": "Zambiya",
-    "en": "Zambia",
-    "de": "Sambia",
-    "es": "Zambia",
-    "fr": "Zambie",
-    "it": "Zambia",
-    "pt": "Zâmbia",
-    "ar": "زامبيا"
-   },
-   "awayNames": {
-    "tr": "Togo",
-    "en": "Togo",
-    "de": "Togo",
-    "es": "Togo",
-    "fr": "Togo",
-    "it": "Togo",
-    "pt": "Togo",
-    "ar": "توغو"
-   },
-   "kickoffUtc": "2026-09-29T16:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Connect",
-     "Fubo",
-     "Fanatiz"
-    ],
-    "DE": [
+    "ES": [
      "DAZN"
+    ],
+    "AR": [
+     "Disney+ Premium"
+    ],
+    "MX": [
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260929-estonia-u21-france-u21",
+   "id": "football-20260930-malta-u21-germany-u21",
    "sport": "football",
    "competitionId": "u21_euro_qual",
    "tier": "regional",
@@ -1175,244 +396,50 @@
     "pt": "Qualificação Europeu Sub-21",
     "ar": "تصفيات بطولة أوروبا تحت 21 سنة"
    },
-   "home": "Estonia U21",
-   "away": "France U21",
+   "home": "Malta U21",
+   "away": "Germany U21",
    "homeNames": {
-    "tr": "Estonya U21",
-    "en": "Estonia U21",
-    "de": "Estland U21",
-    "es": "Estonia Sub-21",
-    "fr": "Estonie U21",
-    "it": "Estonia U21",
-    "pt": "Estónia Sub-21",
-    "ar": "إستونيا تحت 21"
+    "tr": "Malta U21",
+    "en": "Malta U21",
+    "de": "Malta U21",
+    "es": "Malta Sub-21",
+    "fr": "Malte U21",
+    "it": "Malta U21",
+    "pt": "Malta Sub-21",
+    "ar": "مالطا تحت 21"
    },
    "awayNames": {
-    "tr": "Fransa U21",
-    "en": "France U21",
-    "de": "Frankreich U21",
-    "es": "Francia Sub-21",
-    "fr": "France U21",
-    "it": "Francia U21",
-    "pt": "França Sub-21",
-    "ar": "فرنسا تحت 21"
+    "tr": "Almanya U21",
+    "en": "Germany U21",
+    "de": "Deutschland U21",
+    "es": "Alemania Sub-21",
+    "fr": "Allemagne U21",
+    "it": "Germania U21",
+    "pt": "Alemanha Sub-21",
+    "ar": "ألمانيا تحت 21"
    },
-   "kickoffUtc": "2026-09-29T16:00:00Z",
+   "kickoffUtc": "2026-09-30T16:00:00Z",
    "broadcasts": {
-    "FR": [
-     "YouTube"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-finland-belarus",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Finland",
-   "away": "Belarus",
-   "homeNames": {
-    "tr": "Finlandiya",
-    "en": "Finland",
-    "de": "Finnland",
-    "es": "Finlandia",
-    "fr": "Finlande",
-    "it": "Finlandia",
-    "pt": "Finlândia",
-    "ar": "فنلندا"
-   },
-   "awayNames": {
-    "tr": "Belarus",
-    "en": "Belarus",
-    "de": "Belarus",
-    "es": "Bielorrusia",
-    "fr": "Biélorussie",
-    "it": "Bielorussia",
-    "pt": "Bielorrússia",
-    "ar": "بيلاروسيا"
-   },
-   "kickoffUtc": "2026-09-29T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "CBC Sport"
-    ],
-    "US": [
-     "FS2",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV",
-     "ViX"
-    ],
     "DE": [
-     "DAZN"
+     "ProSieben Maxx",
+     "Joyn"
+    ],
+    "GB": [
+     "DFB Play",
+     "German Football YouTube"
     ],
     "ES": [
-     "DAZN"
+     "DAZN",
+     "German Football YouTube"
     ],
-    "BR": [
-     "ESPN 4",
-     "Disney+"
+    "PT": [
+     "German Football YouTube"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260929-moldova-faroe-islands",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Moldova",
-   "away": "Faroe Islands",
-   "homeNames": {
-    "tr": "Moldova",
-    "en": "Moldova",
-    "de": "Moldau",
-    "es": "Moldavia",
-    "fr": "Moldavie",
-    "it": "Moldavia",
-    "pt": "Moldávia",
-    "ar": "مولدوفا"
-   },
-   "awayNames": {
-    "tr": "Faroe Adaları",
-    "en": "Faroe Islands",
-    "de": "Färöer",
-    "es": "Islas Feroe",
-    "fr": "Îles Féroé",
-    "it": "Isole Fær Øer",
-    "pt": "Ilhas Faroé",
-    "ar": "جزر فارو"
-   },
-   "kickoffUtc": "2026-09-29T16:00:00Z",
-   "broadcasts": {
-    "US": [
-     "FOX Soccer Plus",
-     "Fubo",
-     "ViX"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "DAZN"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "volleyball-20260929-besiktas-voleybol-afyon-bld",
-   "sport": "volleyball",
-   "competitionId": "tvf_kadin_kupa",
-   "tier": "regional",
-   "competition": {
-    "tr": "TVF Kadınlar Kupa Voley",
-    "en": "Turkish Women's Volleyball Cup",
-    "de": "Türkischer Volleyball-Pokal (Frauen)",
-    "es": "Copa de Turquía de Voleibol Femenino",
-    "fr": "Coupe de Turquie de volley-ball féminin",
-    "it": "Coppa di Turchia di pallavolo femminile",
-    "pt": "Taça da Turquia de Voleibol Feminino",
-    "ar": "كأس تركيا للكرة الطائرة للسيدات"
-   },
-   "home": "Besiktas Voleybol",
-   "away": "Afyon Bld",
-   "homeNames": {
-    "tr": "Beşiktaş Voleybol",
-    "en": "Beşiktaş Volleyball",
-    "de": "Beşiktaş Volleyball",
-    "es": "Beşiktaş Voleibol",
-    "fr": "Beşiktaş Volley",
-    "it": "Beşiktaş Volley",
-    "pt": "Beşiktaş Vôlei",
-    "ar": "بشكتاش للكرة الطائرة"
-   },
-   "awayNames": {
-    "tr": "Afyon Bld.",
-    "en": "Afyon Bld.",
-    "de": "Afyon Bld.",
-    "es": "Afyon Bld.",
-    "fr": "Afyon Bld.",
-    "it": "Afyon Bld.",
-    "pt": "Afyon Bld.",
-    "ar": "Afyon Bld."
-   },
-   "kickoffUtc": "2026-09-29T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor Yıldız"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "volleyball-20260929-goztepe-voleybol-ilbank",
-   "sport": "volleyball",
-   "competitionId": "tvf_kadin_kupa",
-   "tier": "regional",
-   "competition": {
-    "tr": "TVF Kadınlar Kupa Voley",
-    "en": "Turkish Women's Volleyball Cup",
-    "de": "Türkischer Volleyball-Pokal (Frauen)",
-    "es": "Copa de Turquía de Voleibol Femenino",
-    "fr": "Coupe de Turquie de volley-ball féminin",
-    "it": "Coppa di Turchia di pallavolo femminile",
-    "pt": "Taça da Turquia de Voleibol Feminino",
-    "ar": "كأس تركيا للكرة الطائرة للسيدات"
-   },
-   "home": "Goztepe Voleybol",
-   "away": "Ilbank",
-   "homeNames": {
-    "tr": "Göztepe Voleybol",
-    "en": "Göztepe Volleyball",
-    "de": "Göztepe Volleyball",
-    "es": "Göztepe Voleibol",
-    "fr": "Göztepe Volley",
-    "it": "Göztepe Volley",
-    "pt": "Göztepe Vôlei",
-    "ar": "غوزتبه للكرة الطائرة"
-   },
-   "awayNames": {
-    "tr": "İlbank",
-    "en": "İlbank",
-    "de": "İlbank",
-    "es": "İlbank",
-    "fr": "İlbank",
-    "it": "İlbank",
-    "pt": "İlbank",
-    "ar": "İlbank"
-   },
-   "kickoffUtc": "2026-09-29T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor",
-     "TVF Voleybol TV YouTube"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20260929-hapoel-jerusalem-rostock-seawolves",
+   "id": "basketball-20260930-lietkabelis-bosna",
    "sport": "basketball",
    "competitionId": "eurocup",
    "tier": "regional",
@@ -1426,29 +453,29 @@
     "pt": "EuroCup",
     "ar": "كأس أوروبا لكرة السلة"
    },
-   "home": "Hapoel Jerusalem",
-   "away": "Rostock Seawolves",
+   "home": "Lietkabelis",
+   "away": "Bosna",
    "homeNames": {
-    "tr": "Hapoel Jerusalem",
-    "en": "Hapoel Jerusalem",
-    "de": "Hapoel Jerusalem",
-    "es": "Hapoel Jerusalem",
-    "fr": "Hapoel Jerusalem",
-    "it": "Hapoel Jerusalem",
-    "pt": "Hapoel Jerusalem",
-    "ar": "هبوعيل القدس"
+    "tr": "Lietkabelis",
+    "en": "Lietkabelis",
+    "de": "Lietkabelis",
+    "es": "Lietkabelis",
+    "fr": "Lietkabelis",
+    "it": "Lietkabelis",
+    "pt": "Lietkabelis",
+    "ar": "ليتكابيليس"
    },
    "awayNames": {
-    "tr": "Rostock Seawolves",
-    "en": "Rostock Seawolves",
-    "de": "Rostock Seawolves",
-    "es": "Rostock Seawolves",
-    "fr": "Rostock Seawolves",
-    "it": "Rostock Seawolves",
-    "pt": "Rostock Seawolves",
-    "ar": "روستوك سيوولفز"
+    "tr": "KK Bosna",
+    "en": "KK Bosna",
+    "de": "KK Bosna",
+    "es": "KK Bosna",
+    "fr": "KK Bosna",
+    "it": "KK Bosna",
+    "pt": "KK Bosna",
+    "ar": "بوسنا"
    },
-   "kickoffUtc": "2026-09-29T17:00:00Z",
+   "kickoffUtc": "2026-09-30T16:30:00Z",
    "broadcasts": {
     "TR": [
      "EuroLeague TV"
@@ -1457,7 +484,7 @@
    "sources": []
   },
   {
-   "id": "basketball-20260929-tofas-niners-chemnitz",
+   "id": "basketball-20260930-paok-basketball-manresa",
    "sport": "basketball",
    "competitionId": "eurocup",
    "tier": "regional",
@@ -1471,29 +498,164 @@
     "pt": "EuroCup",
     "ar": "كأس أوروبا لكرة السلة"
    },
-   "home": "Tofas",
-   "away": "Niners Chemnitz",
+   "home": "PAOK Basketball",
+   "away": "Manresa",
    "homeNames": {
-    "tr": "Tofaş",
-    "en": "Tofaş",
-    "de": "Tofaş",
-    "es": "Tofaş",
-    "fr": "Tofaş",
-    "it": "Tofaş",
-    "pt": "Tofaş",
-    "ar": "Tofaş"
+    "tr": "PAOK Basketball",
+    "en": "PAOK Basketball",
+    "de": "PAOK Basketball",
+    "es": "PAOK Basketball",
+    "fr": "PAOK Basketball",
+    "it": "PAOK Basketball",
+    "pt": "PAOK Basketball",
+    "ar": "باوك لكرة السلة"
    },
    "awayNames": {
-    "tr": "Niners Chemnitz",
-    "en": "Niners Chemnitz",
-    "de": "Niners Chemnitz",
-    "es": "Niners Chemnitz",
-    "fr": "Niners Chemnitz",
-    "it": "Niners Chemnitz",
-    "pt": "Niners Chemnitz",
-    "ar": "نينرز كيمنتس"
+    "tr": "Manresa",
+    "en": "Manresa",
+    "de": "Manresa",
+    "es": "Manresa",
+    "fr": "Manresa",
+    "it": "Manresa",
+    "pt": "Manresa",
+    "ar": "مانريسا"
    },
-   "kickoffUtc": "2026-09-29T17:00:00Z",
+   "kickoffUtc": "2026-09-30T16:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "EuroLeague TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260930-ratiopharm-ulm-balkan-botevgrad",
+   "sport": "basketball",
+   "competitionId": "eurocup",
+   "tier": "regional",
+   "competition": {
+    "tr": "EuroCup",
+    "en": "EuroCup",
+    "de": "EuroCup",
+    "es": "EuroCup",
+    "fr": "EuroCup",
+    "it": "EuroCup",
+    "pt": "EuroCup",
+    "ar": "كأس أوروبا لكرة السلة"
+   },
+   "home": "Ratiopharm Ulm",
+   "away": "Balkan Botevgrad",
+   "homeNames": {
+    "tr": "ratiopharm Ulm",
+    "en": "ratiopharm Ulm",
+    "de": "ratiopharm Ulm",
+    "es": "ratiopharm Ulm",
+    "fr": "ratiopharm Ulm",
+    "it": "ratiopharm Ulm",
+    "pt": "ratiopharm Ulm",
+    "ar": "راتيوفارم أولم"
+   },
+   "awayNames": {
+    "tr": "Balkan Botevgrad",
+    "en": "Balkan Botevgrad",
+    "de": "Balkan Botevgrad",
+    "es": "Balkan Botevgrad",
+    "fr": "Balkan Botevgrad",
+    "it": "Balkan Botevgrad",
+    "pt": "Balkan Botevgrad",
+    "ar": "بالكان بوتيفغراد"
+   },
+   "kickoffUtc": "2026-09-30T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "EuroLeague TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260930-slask-wroclaw-buducnost",
+   "sport": "basketball",
+   "competitionId": "eurocup",
+   "tier": "regional",
+   "competition": {
+    "tr": "EuroCup",
+    "en": "EuroCup",
+    "de": "EuroCup",
+    "es": "EuroCup",
+    "fr": "EuroCup",
+    "it": "EuroCup",
+    "pt": "EuroCup",
+    "ar": "كأس أوروبا لكرة السلة"
+   },
+   "home": "Slask Wroclaw",
+   "away": "Buducnost",
+   "homeNames": {
+    "tr": "Śląsk Wrocław",
+    "en": "Śląsk Wrocław",
+    "de": "Śląsk Wrocław",
+    "es": "Śląsk Wrocław",
+    "fr": "Śląsk Wrocław",
+    "it": "Śląsk Wrocław",
+    "pt": "Śląsk Wrocław",
+    "ar": "شلونسك فروتسواف"
+   },
+   "awayNames": {
+    "tr": "Budućnost",
+    "en": "Budućnost",
+    "de": "Budućnost",
+    "es": "Budućnost",
+    "fr": "Budućnost",
+    "it": "Budućnost",
+    "pt": "Budućnost",
+    "ar": "بودوتشنوست"
+   },
+   "kickoffUtc": "2026-09-30T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "EuroLeague TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-konyaspor-palestine",
+   "sport": "football",
+   "competitionId": "club_friendly",
+   "tier": "regional",
+   "competition": {
+    "tr": "Kulüp Hazırlık Maçı",
+    "en": "Club Friendly",
+    "de": "Vereins-Freundschaftsspiel",
+    "es": "Amistoso de clubes",
+    "fr": "Match amical de clubs",
+    "it": "Amichevole",
+    "pt": "Amistoso de clubes",
+    "ar": "مباراة ودية للأندية"
+   },
+   "home": "Konyaspor",
+   "away": "Palestine",
+   "homeNames": {
+    "tr": "Konyaspor",
+    "en": "Konyaspor",
+    "de": "Konyaspor",
+    "es": "Konyaspor",
+    "fr": "Konyaspor",
+    "it": "Konyaspor",
+    "pt": "Konyaspor",
+    "ar": "قونيا سبور"
+   },
+   "awayNames": {
+    "tr": "Filistin",
+    "en": "Palestine",
+    "de": "Palästina",
+    "es": "Palestina",
+    "fr": "Palestine",
+    "it": "Palestina",
+    "pt": "Palestina",
+    "ar": "فلسطين"
+   },
+   "kickoffUtc": "2026-09-30T17:00:00Z",
    "broadcasts": {
     "TR": [
      "TRT Spor"
@@ -1502,146 +664,7 @@
    "sources": []
   },
   {
-   "id": "basketball-20260929-anadolu-efes-real-madrid-baloncesto",
-   "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
-   "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
-   },
-   "home": "Anadolu Efes",
-   "away": "Real Madrid Baloncesto",
-   "homeNames": {
-    "tr": "Anadolu Efes",
-    "en": "Anadolu Efes",
-    "de": "Anadolu Efes",
-    "es": "Anadolu Efes",
-    "fr": "Anadolu Efes",
-    "it": "Anadolu Efes",
-    "pt": "Anadolu Efes",
-    "ar": "Anadolu Efes"
-   },
-   "awayNames": {
-    "tr": "Real Madrid Baloncesto",
-    "en": "Real Madrid Baloncesto",
-    "de": "Real Madrid Baloncesto",
-    "es": "Real Madrid Baloncesto",
-    "fr": "Real Madrid Baloncesto",
-    "it": "Real Madrid Baloncesto",
-    "pt": "Real Madrid Baloncesto",
-    "ar": "Real Madrid Baloncesto"
-   },
-   "kickoffUtc": "2026-09-29T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus",
-     "S Sport 2",
-     "Idman TV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20260929-zalgiris-kaunas-olympiacos",
-   "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
-   "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
-   },
-   "home": "Zalgiris Kaunas",
-   "away": "Olympiacos",
-   "homeNames": {
-    "tr": "Žalgiris Kaunas",
-    "en": "Žalgiris Kaunas",
-    "de": "Žalgiris Kaunas",
-    "es": "Žalgiris Kaunas",
-    "fr": "Žalgiris Kaunas",
-    "it": "Žalgiris Kaunas",
-    "pt": "Žalgiris Kaunas",
-    "ar": "جالغيريس كاوناس"
-   },
-   "awayNames": {
-    "tr": "Olympiakos",
-    "en": "Olympiacos",
-    "de": "Olympiakos",
-    "es": "Olympiacos",
-    "fr": "Olympiakos",
-    "it": "Olympiakos",
-    "pt": "Olympiacos",
-    "ar": "أولمبياكوس"
-   },
-   "kickoffUtc": "2026-09-29T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-benin-mauritania",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Benin",
-   "away": "Mauritania",
-   "homeNames": {
-    "tr": "Benin",
-    "en": "Benin",
-    "de": "Benin",
-    "es": "Benín",
-    "fr": "Bénin",
-    "it": "Benin",
-    "pt": "Benim",
-    "ar": "بنين"
-   },
-   "awayNames": {
-    "tr": "Moritanya",
-    "en": "Mauritania",
-    "de": "Mauretanien",
-    "es": "Mauritania",
-    "fr": "Mauritanie",
-    "it": "Mauritania",
-    "pt": "Mauritânia",
-    "ar": "موريتانيا"
-   },
-   "kickoffUtc": "2026-09-29T17:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Connect",
-     "Fubo",
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-saudi-arabia-iraq",
+   "id": "football-20260930-bahrain-yemen",
    "sport": "football",
    "competitionId": "gulf_cup",
    "tier": "regional",
@@ -1655,29 +678,115 @@
     "pt": "Taça do Golfo",
     "ar": "كأس الخليج العربي"
    },
-   "home": "Saudi Arabia",
-   "away": "Iraq",
+   "home": "Bahrain",
+   "away": "Yemen",
    "homeNames": {
-    "tr": "Suudi Arabistan",
-    "en": "Saudi Arabia",
-    "de": "Saudi-Arabien",
-    "es": "Arabia Saudí",
-    "fr": "Arabie saoudite",
-    "it": "Arabia Saudita",
-    "pt": "Arábia Saudita",
-    "ar": "السعودية"
+    "tr": "Bahreyn",
+    "en": "Bahrain",
+    "de": "Bahrain",
+    "es": "Baréin",
+    "fr": "Bahreïn",
+    "it": "Bahrein",
+    "pt": "Bahrein",
+    "ar": "البحرين"
    },
    "awayNames": {
-    "tr": "Irak",
-    "en": "Iraq",
-    "de": "Irak",
-    "es": "Irak",
-    "fr": "Irak",
-    "it": "Iraq",
-    "pt": "Iraque",
-    "ar": "العراق"
+    "tr": "Yemen",
+    "en": "Yemen",
+    "de": "Jemen",
+    "es": "Yemen",
+    "fr": "Yémen",
+    "it": "Yemen",
+    "pt": "Iémen",
+    "ar": "اليمن"
    },
-   "kickoffUtc": "2026-09-29T17:30:00Z",
+   "kickoffUtc": "2026-09-30T17:30:00Z",
+   "broadcasts": {
+    "DE": [
+     "Sportdigital+"
+    ],
+    "ES": [
+     "FANPLAY TV"
+    ],
+    "SA": [
+     "KSA Sports 2",
+     "MBC Shahid"
+    ],
+    "AE": [
+     "Abu Dhabi Sports 2",
+     "Sharjah Sports 2",
+     "MBC Shahid"
+    ],
+    "QA": [
+     "Alkass Two",
+     "MBC Shahid"
+    ],
+    "OM": [
+     "Oman Live",
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-united-arab-emirates-qatar",
+   "sport": "football",
+   "competitionId": "gulf_cup",
+   "tier": "regional",
+   "competition": {
+    "tr": "Körfez Kupası",
+    "en": "Arabian Gulf Cup",
+    "de": "Golfpokal",
+    "es": "Copa del Golfo",
+    "fr": "Coupe du Golfe",
+    "it": "Coppa del Golfo",
+    "pt": "Taça do Golfo",
+    "ar": "كأس الخليج العربي"
+   },
+   "home": "United Arab Emirates",
+   "away": "Qatar",
+   "homeNames": {
+    "tr": "Birleşik Arap Emirlikleri",
+    "en": "United Arab Emirates",
+    "de": "Vereinigte Arabische Emirate",
+    "es": "Emiratos Árabes Unidos",
+    "fr": "Émirats arabes unis",
+    "it": "Emirati Arabi Uniti",
+    "pt": "Emirados Árabes Unidos",
+    "ar": "الإمارات"
+   },
+   "awayNames": {
+    "tr": "Katar",
+    "en": "Qatar",
+    "de": "Katar",
+    "es": "Catar",
+    "fr": "Qatar",
+    "it": "Qatar",
+    "pt": "Catar",
+    "ar": "قطر"
+   },
+   "kickoffUtc": "2026-09-30T17:30:00Z",
    "broadcasts": {
     "DE": [
      "DAZN",
@@ -1685,58 +794,61 @@
     ],
     "ES": [
      "FANPLAY TV"
+    ],
+    "SA": [
+     "KSA Sports 1",
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "AE": [
+     "Abu Dhabi Sports 1",
+     "Sharjah Sports",
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "QA": [
+     "Alkass One",
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "OM": [
+     "Oman Sports TV",
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Action",
+     "MBC Shahid"
     ]
    },
    "sources": []
   },
   {
-   "id": "basketball-20260929-fenerbahce-beko-bayern-munich-basketball",
-   "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
-   "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
-   },
-   "home": "Fenerbahce Beko",
-   "away": "Bayern Munich Basketball",
-   "homeNames": {
-    "tr": "Fenerbahçe Beko",
-    "en": "Fenerbahçe Beko",
-    "de": "Fenerbahçe Beko",
-    "es": "Fenerbahçe Beko",
-    "fr": "Fenerbahçe Beko",
-    "it": "Fenerbahçe Beko",
-    "pt": "Fenerbahçe Beko",
-    "ar": "Fenerbahçe Beko"
-   },
-   "awayNames": {
-    "tr": "Bayern Münih Basketbol",
-    "en": "Bayern Munich Basketball",
-    "de": "FC Bayern München Basketball",
-    "es": "Bayern Múnich Baloncesto",
-    "fr": "Bayern Munich Basketball",
-    "it": "Bayern Monaco Basket",
-    "pt": "Bayern de Munique Basquete",
-    "ar": "بايرن ميونخ لكرة السلة"
-   },
-   "kickoffUtc": "2026-09-29T17:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus",
-     "S Sport"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20260929-le-mans-basket-aris",
+   "id": "basketball-20260930-napoli-basketball-jl-bourg",
    "sport": "basketball",
    "competitionId": "eurocup",
    "tier": "regional",
@@ -1750,38 +862,42 @@
     "pt": "EuroCup",
     "ar": "كأس أوروبا لكرة السلة"
    },
-   "home": "Le Mans Basket",
-   "away": "Aris",
+   "home": "Napoli Basketball",
+   "away": "JL Bourg",
    "homeNames": {
-    "tr": "Le Mans Sarthe Basket",
-    "en": "Le Mans Sarthe Basket",
-    "de": "Le Mans Sarthe Basket",
-    "es": "Le Mans Sarthe Basket",
-    "fr": "Le Mans Sarthe Basket",
-    "it": "Le Mans Sarthe Basket",
-    "pt": "Le Mans Sarthe Basket",
-    "ar": "لومان"
+    "tr": "Napoli Basketball",
+    "en": "Napoli Basketball",
+    "de": "Napoli Basketball",
+    "es": "Napoli Basketball",
+    "fr": "Napoli Basketball",
+    "it": "Napoli Basketball",
+    "pt": "Napoli Basketball",
+    "ar": "نابولي لكرة السلة"
    },
    "awayNames": {
-    "tr": "Aris",
-    "en": "Aris",
-    "de": "Aris",
-    "es": "Aris",
-    "fr": "Aris",
-    "it": "Aris",
-    "pt": "Aris",
-    "ar": "آريس"
+    "tr": "JL Bourg",
+    "en": "JL Bourg",
+    "de": "JL Bourg",
+    "es": "JL Bourg",
+    "fr": "JL Bourg",
+    "it": "JL Bourg",
+    "pt": "JL Bourg",
+    "ar": "بورغ"
    },
-   "kickoffUtc": "2026-09-29T18:00:00Z",
+   "kickoffUtc": "2026-09-30T18:00:00Z",
    "broadcasts": {
     "TR": [
      "EuroLeague TV"
+    ],
+    "IT": [
+     "Sky Sport Max",
+     "Sky Sport 1"
     ]
    },
    "sources": []
   },
   {
-   "id": "basketball-20260929-crvena-zvezda-hapoel-tel-aviv",
+   "id": "basketball-20260930-maccabi-tel-aviv-besiktas-gain",
    "sport": "basketball",
    "competitionId": "euroleague",
    "tier": "global",
@@ -1795,38 +911,133 @@
     "pt": "EuroLiga",
     "ar": "الدوري الأوروبي لكرة السلة"
    },
-   "home": "Crvena Zvezda",
-   "away": "Hapoel Tel Aviv",
+   "home": "Maccabi Tel Aviv",
+   "away": "Besiktas GAIN",
    "homeNames": {
-    "tr": "Kızılyıldız",
-    "en": "Crvena Zvezda",
-    "de": "Roter Stern Belgrad",
-    "es": "Estrella Roja",
-    "fr": "Étoile rouge de Belgrade",
-    "it": "Stella Rossa",
-    "pt": "Estrela Vermelha",
-    "ar": "النجم الأحمر"
+    "tr": "Maccabi Tel Aviv",
+    "en": "Maccabi Tel Aviv",
+    "de": "Maccabi Tel Aviv",
+    "es": "Maccabi Tel Aviv",
+    "fr": "Maccabi Tel Aviv",
+    "it": "Maccabi Tel Aviv",
+    "pt": "Maccabi Tel Aviv",
+    "ar": "مكابي تل أبيب"
    },
    "awayNames": {
-    "tr": "Hapoel Tel Aviv",
-    "en": "Hapoel Tel Aviv",
-    "de": "Hapoel Tel Aviv",
-    "es": "Hapoel Tel Aviv",
-    "fr": "Hapoel Tel Aviv",
-    "it": "Hapoel Tel Aviv",
-    "pt": "Hapoel Tel Aviv",
-    "ar": "هبوعيل تل أبيب"
+    "tr": "Beşiktaş GAIN",
+    "en": "Beşiktaş GAIN",
+    "de": "Beşiktaş GAIN",
+    "es": "Beşiktaş GAIN",
+    "fr": "Beşiktaş GAIN",
+    "it": "Beşiktaş GAIN",
+    "pt": "Beşiktaş GAIN",
+    "ar": "Beşiktaş GAIN"
    },
-   "kickoffUtc": "2026-09-29T18:00:00Z",
+   "kickoffUtc": "2026-09-30T18:05:00Z",
    "broadcasts": {
     "TR": [
-     "S Sport Plus"
+     "S Sport Plus",
+     "S Sport"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260929-belgium-u21-wales-u21",
+   "id": "basketball-20260930-panathinaikos-asvel",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Panathinaikos",
+   "away": "ASVEL",
+   "homeNames": {
+    "tr": "Panathinaikos",
+    "en": "Panathinaikos",
+    "de": "Panathinaikos",
+    "es": "Panathinaikos",
+    "fr": "Panathinaikos",
+    "it": "Panathinaikos",
+    "pt": "Panathinaikos",
+    "ar": "باناثينايكوس"
+   },
+   "awayNames": {
+    "tr": "ASVEL",
+    "en": "ASVEL",
+    "de": "ASVEL",
+    "es": "ASVEL",
+    "fr": "ASVEL",
+    "it": "ASVEL",
+    "pt": "ASVEL",
+    "ar": "أسفيل"
+   },
+   "kickoffUtc": "2026-09-30T18:15:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus",
+     "S Sport 2"
+    ],
+    "IT": [
+     "Sky Sport Mix"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260930-san-pablo-burgos-cedevita-olimpija",
+   "sport": "basketball",
+   "competitionId": "eurocup",
+   "tier": "regional",
+   "competition": {
+    "tr": "EuroCup",
+    "en": "EuroCup",
+    "de": "EuroCup",
+    "es": "EuroCup",
+    "fr": "EuroCup",
+    "it": "EuroCup",
+    "pt": "EuroCup",
+    "ar": "كأس أوروبا لكرة السلة"
+   },
+   "home": "San Pablo Burgos",
+   "away": "Cedevita Olimpija",
+   "homeNames": {
+    "tr": "San Pablo Burgos",
+    "en": "San Pablo Burgos",
+    "de": "San Pablo Burgos",
+    "es": "San Pablo Burgos",
+    "fr": "San Pablo Burgos",
+    "it": "San Pablo Burgos",
+    "pt": "San Pablo Burgos",
+    "ar": "سان بابلو بورغوس"
+   },
+   "awayNames": {
+    "tr": "Cedevita Olimpija",
+    "en": "Cedevita Olimpija",
+    "de": "Cedevita Olimpija",
+    "es": "Cedevita Olimpija",
+    "fr": "Cedevita Olimpija",
+    "it": "Cedevita Olimpija",
+    "pt": "Cedevita Olimpija",
+    "ar": "تسيديفيتا أوليمبيا"
+   },
+   "kickoffUtc": "2026-09-30T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "EuroLeague TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-scotland-u21-azerbaijan-u21",
    "sport": "football",
    "competitionId": "u21_euro_qual",
    "tier": "regional",
@@ -1840,39 +1051,38 @@
     "pt": "Qualificação Europeu Sub-21",
     "ar": "تصفيات بطولة أوروبا تحت 21 سنة"
    },
-   "home": "Belgium U21",
-   "away": "Wales U21",
+   "home": "Scotland U21",
+   "away": "Azerbaijan U21",
    "homeNames": {
-    "tr": "Belçika U21",
-    "en": "Belgium U21",
-    "de": "Belgien U21",
-    "es": "Bélgica Sub-21",
-    "fr": "Belgique U21",
-    "it": "Belgio U21",
-    "pt": "Bélgica Sub-21",
-    "ar": "بلجيكا تحت 21"
+    "tr": "İskoçya U21",
+    "en": "Scotland U21",
+    "de": "Schottland U21",
+    "es": "Escocia Sub-21",
+    "fr": "Écosse U21",
+    "it": "Scozia U21",
+    "pt": "Escócia Sub-21",
+    "ar": "اسكتلندا تحت 21"
    },
    "awayNames": {
-    "tr": "Galler U21",
-    "en": "Wales U21",
-    "de": "Wales U21",
-    "es": "Gales Sub-21",
-    "fr": "Pays de Galles U21",
-    "it": "Galles U21",
-    "pt": "País de Gales Sub-21",
-    "ar": "ويلز تحت 21"
+    "tr": "Azerbaycan U21",
+    "en": "Azerbaijan U21",
+    "de": "Aserbaidschan U21",
+    "es": "Azerbaiyán Sub-21",
+    "fr": "Azerbaïdjan U21",
+    "it": "Azerbaigian U21",
+    "pt": "Azerbaijão Sub-21",
+    "ar": "أذربيجان تحت 21"
    },
-   "kickoffUtc": "2026-09-29T18:00:00Z",
+   "kickoffUtc": "2026-09-30T18:30:00Z",
    "broadcasts": {
-    "GB": [
-     "BBC iPlayer",
-     "S4C Online"
+    "TR": [
+     "Idman TV"
     ]
    },
    "sources": []
   },
   {
-   "id": "basketball-20260929-reyer-venezia-skyliners-frankfurt",
+   "id": "basketball-20260930-la-laguna-tenerife-turk-telekom",
    "sport": "basketball",
    "competitionId": "eurocup",
    "tier": "regional",
@@ -1886,979 +1096,869 @@
     "pt": "EuroCup",
     "ar": "كأس أوروبا لكرة السلة"
    },
-   "home": "Reyer Venezia",
-   "away": "Skyliners Frankfurt",
+   "home": "La Laguna Tenerife",
+   "away": "Turk Telekom",
    "homeNames": {
-    "tr": "Reyer Venezia",
-    "en": "Reyer Venezia",
-    "de": "Reyer Venezia",
-    "es": "Reyer Venezia",
-    "fr": "Reyer Venezia",
-    "it": "Reyer Venezia",
-    "pt": "Reyer Venezia",
-    "ar": "رييه فينيسيا"
+    "tr": "La Laguna Tenerife",
+    "en": "La Laguna Tenerife",
+    "de": "La Laguna Tenerife",
+    "es": "La Laguna Tenerife",
+    "fr": "La Laguna Tenerife",
+    "it": "La Laguna Tenerife",
+    "pt": "La Laguna Tenerife",
+    "ar": "لا لاغونا تينيريفي"
    },
    "awayNames": {
-    "tr": "Skyliners Frankfurt",
-    "en": "Skyliners Frankfurt",
-    "de": "Skyliners Frankfurt",
-    "es": "Skyliners Frankfurt",
-    "fr": "Skyliners Frankfurt",
-    "it": "Skyliners Frankfurt",
-    "pt": "Skyliners Frankfurt",
-    "ar": "سكايلاينرز فرانكفورت"
+    "tr": "Türk Telekom",
+    "en": "Türk Telekom",
+    "de": "Türk Telekom",
+    "es": "Türk Telekom",
+    "fr": "Türk Telekom",
+    "it": "Türk Telekom",
+    "pt": "Türk Telekom",
+    "ar": "Türk Telekom"
    },
-   "kickoffUtc": "2026-09-29T18:30:00Z",
+   "kickoffUtc": "2026-09-30T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor Yıldız"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20260930-maxima-roma-u-bt-cluj-napoca",
+   "sport": "basketball",
+   "competitionId": "eurocup",
+   "tier": "regional",
+   "competition": {
+    "tr": "EuroCup",
+    "en": "EuroCup",
+    "de": "EuroCup",
+    "es": "EuroCup",
+    "fr": "EuroCup",
+    "it": "EuroCup",
+    "pt": "EuroCup",
+    "ar": "كأس أوروبا لكرة السلة"
+   },
+   "home": "Maxima Roma",
+   "away": "U-BT Cluj-Napoca",
+   "homeNames": {
+    "tr": "Maxima Roma",
+    "en": "Maxima Roma",
+    "de": "Maxima Roma",
+    "es": "Maxima Roma",
+    "fr": "Maxima Roma",
+    "it": "Maxima Roma",
+    "pt": "Maxima Roma",
+    "ar": "ماكسيما روما"
+   },
+   "awayNames": {
+    "tr": "U-BT Cluj-Napoca",
+    "en": "U-BT Cluj-Napoca",
+    "de": "U-BT Cluj-Napoca",
+    "es": "U-BT Cluj-Napoca",
+    "fr": "U-BT Cluj-Napoca",
+    "it": "U-BT Cluj-Napoca",
+    "pt": "U-BT Cluj-Napoca",
+    "ar": "كلوج نابوكا"
+   },
+   "kickoffUtc": "2026-09-30T19:00:00Z",
    "broadcasts": {
     "TR": [
      "EuroLeague TV"
     ],
     "IT": [
-     "Sky Sport Max"
+     "Sky Sport Arena"
     ]
    },
    "sources": []
   },
   {
-   "id": "basketball-20260929-olimpia-milano-virtus-bologna",
-   "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
-   "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
-   },
-   "home": "Olimpia Milano",
-   "away": "Virtus Bologna",
-   "homeNames": {
-    "tr": "Olimpia Milano",
-    "en": "Olimpia Milano",
-    "de": "Olimpia Milano",
-    "es": "Olimpia Milano",
-    "fr": "Olimpia Milano",
-    "it": "Olimpia Milano",
-    "pt": "Olimpia Milano",
-    "ar": "أوليمبيا ميلانو"
-   },
-   "awayNames": {
-    "tr": "Virtus Bologna",
-    "en": "Virtus Bologna",
-    "de": "Virtus Bologna",
-    "es": "Virtus Bologna",
-    "fr": "Virtus Bologna",
-    "it": "Virtus Bologna",
-    "pt": "Virtus Bologna",
-    "ar": "فيرتوس بولونيا"
-   },
-   "kickoffUtc": "2026-09-29T18:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "IT": [
-     "Sky Sport 1"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20260929-valencia-basket-baskonia",
-   "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
-   "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
-   },
-   "home": "Valencia Basket",
-   "away": "Baskonia",
-   "homeNames": {
-    "tr": "Valencia Basket",
-    "en": "Valencia Basket",
-    "de": "Valencia Basket",
-    "es": "Valencia Basket",
-    "fr": "Valencia Basket",
-    "it": "Valencia Basket",
-    "pt": "Valencia Basket",
-    "ar": "فالنسيا باسكت"
-   },
-   "awayNames": {
-    "tr": "Baskonia",
-    "en": "Baskonia",
-    "de": "Baskonia",
-    "es": "Baskonia",
-    "fr": "Baskonia",
-    "it": "Baskonia",
-    "pt": "Baskonia",
-    "ar": "باسكونيا"
-   },
-   "kickoffUtc": "2026-09-29T18:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20260929-paris-basketball-partizan",
-   "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
-   "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
-   },
-   "home": "Paris Basketball",
-   "away": "Partizan",
-   "homeNames": {
-    "tr": "Paris Basketball",
-    "en": "Paris Basketball",
-    "de": "Paris Basketball",
-    "es": "Paris Basketball",
-    "fr": "Paris Basketball",
-    "it": "Paris Basketball",
-    "pt": "Paris Basketball",
-    "ar": "باريس باسكتبول"
-   },
-   "awayNames": {
-    "tr": "Partizan",
-    "en": "Partizan",
-    "de": "Partizan",
-    "es": "Partizan",
-    "fr": "Partizan",
-    "it": "Partizan",
-    "pt": "Partizan",
-    "ar": "بارتيزان"
-   },
-   "kickoffUtc": "2026-09-29T18:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "Idman TV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-bulgaria-estonia",
+   "id": "football-20260930-portugal-u21-gibraltar-u21",
    "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
+   "competitionId": "u21_euro_qual",
+   "tier": "regional",
    "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
+    "tr": "U21 Avrupa Şampiyonası Elemeleri",
+    "en": "UEFA U21 EURO Qualifiers",
+    "de": "U21-EM-Qualifikation",
+    "es": "Clasificación Europeo Sub-21",
+    "fr": "Éliminatoires Euro Espoirs",
+    "it": "Qualificazioni Europeo U21",
+    "pt": "Qualificação Europeu Sub-21",
+    "ar": "تصفيات بطولة أوروبا تحت 21 سنة"
    },
-   "home": "Bulgaria",
-   "away": "Estonia",
+   "home": "Portugal U21",
+   "away": "Gibraltar U21",
    "homeNames": {
-    "tr": "Bulgaristan",
-    "en": "Bulgaria",
-    "de": "Bulgarien",
-    "es": "Bulgaria",
-    "fr": "Bulgarie",
-    "it": "Bulgaria",
-    "pt": "Bulgária",
-    "ar": "بلغاريا"
+    "tr": "Portekiz U21",
+    "en": "Portugal U21",
+    "de": "Portugal U21",
+    "es": "Portugal Sub-21",
+    "fr": "Portugal U21",
+    "it": "Portogallo U21",
+    "pt": "Portugal Sub-21",
+    "ar": "البرتغال تحت 21"
    },
    "awayNames": {
-    "tr": "Estonya",
-    "en": "Estonia",
-    "de": "Estland",
-    "es": "Estonia",
-    "fr": "Estonie",
-    "it": "Estonia",
-    "pt": "Estónia",
-    "ar": "إستونيا"
+    "tr": "Cebelitarık U21",
+    "en": "Gibraltar U21",
+    "de": "Gibraltar U21",
+    "es": "Gibraltar Sub-21",
+    "fr": "Gibraltar U21",
+    "it": "Gibilterra U21",
+    "pt": "Gibraltar Sub-21",
+    "ar": "جبل طارق تحت 21"
    },
-   "kickoffUtc": "2026-09-29T18:45:00Z",
+   "kickoffUtc": "2026-09-30T19:00:00Z",
    "broadcasts": {
-    "US": [
-     "Fubo",
-     "ViX"
-    ],
-    "DE": [
-     "DAZN"
+    "PT": [
+     "Canal 11"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-cienciano-los-chankas",
+   "sport": "football",
+   "competitionId": "liga1_pe",
+   "tier": "regional",
+   "competition": {
+    "tr": "Peru Liga 1",
+    "en": "Peruvian Liga 1",
+    "de": "Peruanische Liga 1",
+    "es": "Liga 1 de Perú",
+    "fr": "Liga 1 péruvienne",
+    "it": "Liga 1 peruviana",
+    "pt": "Liga 1 do Peru",
+    "ar": "الدوري البيروفي"
+   },
+   "home": "Cienciano",
+   "away": "Los Chankas",
+   "homeNames": {
+    "tr": "Cienciano",
+    "en": "Cienciano",
+    "de": "Cienciano",
+    "es": "Cienciano",
+    "fr": "Cienciano",
+    "it": "Cienciano",
+    "pt": "Cienciano",
+    "ar": "سيينسيانو"
+   },
+   "awayNames": {
+    "tr": "Los Chankas",
+    "en": "Los Chankas",
+    "de": "Los Chankas",
+    "es": "Los Chankas",
+    "fr": "Los Chankas",
+    "it": "Los Chankas",
+    "pt": "Los Chankas",
+    "ar": "لوس تشانكاس"
+   },
+   "kickoffUtc": "2026-09-30T20:00:00Z",
+   "broadcasts": {
+    "PE": [
+     "L1 Max",
+     "L1 Play",
+     "Fanatiz"
     ],
     "ES": [
-     "DAZN"
+     "Fanatiz"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "AR": [
+     "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "CL": [
+     "Fanatiz"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
+    ],
+    "PY": [
+     "Fanatiz"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260929-czech-republic-england",
+   "id": "football-20260930-independiente-cg-nacional-asuncion",
    "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
+   "competitionId": "copa_paraguay",
+   "tier": "regional",
    "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
+    "tr": "Paraguay Kupası",
+    "en": "Copa Paraguay",
+    "de": "Copa Paraguay",
+    "es": "Copa Paraguay",
+    "fr": "Coupe du Paraguay",
+    "it": "Coppa del Paraguay",
+    "pt": "Copa Paraguai",
+    "ar": "كأس باراغواي"
    },
-   "home": "Czech Republic",
-   "away": "England",
+   "home": "Independiente CG",
+   "away": "Nacional Asuncion",
    "homeNames": {
-    "tr": "Çekya",
-    "en": "Czechia",
-    "de": "Tschechien",
-    "es": "Chequia",
-    "fr": "Tchéquie",
-    "it": "Cechia",
-    "pt": "Chéquia",
-    "ar": "التشيك"
+    "tr": "Independiente CG",
+    "en": "Independiente CG",
+    "de": "Independiente CG",
+    "es": "Independiente CG",
+    "fr": "Independiente CG",
+    "it": "Independiente CG",
+    "pt": "Independiente CG",
+    "ar": "إنديبنديينتي سي جي"
    },
    "awayNames": {
-    "tr": "İngiltere",
-    "en": "England",
-    "de": "England",
-    "es": "Inglaterra",
-    "fr": "Angleterre",
-    "it": "Inghilterra",
-    "pt": "Inglaterra",
-    "ar": "إنجلترا"
+    "tr": "Nacional",
+    "en": "Nacional",
+    "de": "Nacional",
+    "es": "Nacional",
+    "fr": "Nacional",
+    "it": "Nacional",
+    "pt": "Nacional",
+    "ar": "Nacional"
    },
-   "kickoffUtc": "2026-09-29T18:45:00Z",
+   "kickoffUtc": "2026-09-30T20:00:00Z",
    "broadcasts": {
-    "TR": [
-     "A Spor",
-     "A Haber"
+    "PY": [
+     "Tigo Sports"
     ],
-    "GB": [
-     "ITV1",
-     "STV",
-     "ITVX",
-     "STV Player"
-    ],
-    "US": [
-     "Fubo",
-     "ViX"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "FR": [
-     "L'Équipe Live Foot"
-    ],
-    "BR": [
-     "ESPN"
+    "AR": [
+     "Fútbol Paraguayo (DirecTV)"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260929-luxembourg-iceland",
+   "id": "football-20260930-cerro-porteno-rubio-nu",
    "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
+   "competitionId": "copa_paraguay",
+   "tier": "regional",
    "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
+    "tr": "Paraguay Kupası",
+    "en": "Copa Paraguay",
+    "de": "Copa Paraguay",
+    "es": "Copa Paraguay",
+    "fr": "Coupe du Paraguay",
+    "it": "Coppa del Paraguay",
+    "pt": "Copa Paraguai",
+    "ar": "كأس باراغواي"
    },
-   "home": "Luxembourg",
-   "away": "Iceland",
+   "home": "Cerro Porteno",
+   "away": "Rubio Nu",
    "homeNames": {
-    "tr": "Lüksemburg",
-    "en": "Luxembourg",
-    "de": "Luxemburg",
-    "es": "Luxemburgo",
-    "fr": "Luxembourg",
-    "it": "Lussemburgo",
-    "pt": "Luxemburgo",
-    "ar": "لوكسمبورغ"
+    "tr": "Cerro Porteño",
+    "en": "Cerro Porteño",
+    "de": "Cerro Porteño",
+    "es": "Cerro Porteño",
+    "fr": "Cerro Porteño",
+    "it": "Cerro Porteño",
+    "pt": "Cerro Porteño",
+    "ar": "Cerro Porteño"
    },
    "awayNames": {
-    "tr": "İzlanda",
-    "en": "Iceland",
-    "de": "Island",
-    "es": "Islandia",
-    "fr": "Islande",
-    "it": "Islanda",
-    "pt": "Islândia",
-    "ar": "آيسلندا"
+    "tr": "Rubio Ñu",
+    "en": "Rubio Ñu",
+    "de": "Rubio Ñu",
+    "es": "Rubio Ñu",
+    "fr": "Rubio Ñu",
+    "it": "Rubio Ñu",
+    "pt": "Rubio Ñu",
+    "ar": "Rubio Ñu"
    },
-   "kickoffUtc": "2026-09-29T18:45:00Z",
+   "kickoffUtc": "2026-09-30T22:30:00Z",
    "broadcasts": {
-    "US": [
-     "Fubo",
-     "ViX"
+    "PY": [
+     "Tigo Sports"
     ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "FR": [
-     "L'Équipe Live Foot"
-    ],
-    "BR": [
-     "SporTV 3"
+    "AR": [
+     "Fútbol Paraguayo (DirecTV)"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260929-san-marino-albania",
+   "id": "football-20260930-atletico-ottawa-cavalry-fc",
    "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
+   "competitionId": "cpl",
+   "tier": "regional",
    "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
+    "tr": "Kanada Premier Ligi",
+    "en": "Canadian Premier League",
+    "de": "Kanadische Premier League",
+    "es": "Liga Premier de Canadá",
+    "fr": "Première Ligue canadienne",
+    "it": "Premier League canadese",
+    "pt": "Liga Premier do Canadá",
+    "ar": "الدوري الكندي"
    },
-   "home": "San Marino",
-   "away": "Albania",
+   "home": "Atletico Ottawa",
+   "away": "Cavalry FC",
    "homeNames": {
-    "tr": "San Marino",
-    "en": "San Marino",
-    "de": "San Marino",
-    "es": "San Marino",
-    "fr": "Saint-Marin",
-    "it": "San Marino",
-    "pt": "San Marino",
-    "ar": "سان مارينو"
+    "tr": "Atlético Ottawa",
+    "en": "Atlético Ottawa",
+    "de": "Atlético Ottawa",
+    "es": "Atlético Ottawa",
+    "fr": "Atlético Ottawa",
+    "it": "Atlético Ottawa",
+    "pt": "Atlético Ottawa",
+    "ar": "أتلتيكو أوتاوا"
    },
    "awayNames": {
-    "tr": "Arnavutluk",
-    "en": "Albania",
-    "de": "Albanien",
-    "es": "Albania",
-    "fr": "Albanie",
-    "it": "Albania",
-    "pt": "Albânia",
-    "ar": "ألبانيا"
+    "tr": "Cavalry FC",
+    "en": "Cavalry FC",
+    "de": "Cavalry FC",
+    "es": "Cavalry FC",
+    "fr": "Cavalry FC",
+    "it": "Cavalry FC",
+    "pt": "Cavalry FC",
+    "ar": "كافالري"
    },
-   "kickoffUtc": "2026-09-29T18:45:00Z",
+   "kickoffUtc": "2026-09-30T23:00:00Z",
    "broadcasts": {
-    "US": [
-     "Fubo",
-     "ViX"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "DAZN"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-scotland-switzerland",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Scotland",
-   "away": "Switzerland",
-   "homeNames": {
-    "tr": "İskoçya",
-    "en": "Scotland",
-    "de": "Schottland",
-    "es": "Escocia",
-    "fr": "Écosse",
-    "it": "Scozia",
-    "pt": "Escócia",
-    "ar": "اسكتلندا"
-   },
-   "awayNames": {
-    "tr": "İsviçre",
-    "en": "Switzerland",
-    "de": "Schweiz",
-    "es": "Suiza",
-    "fr": "Suisse",
-    "it": "Svizzera",
-    "pt": "Suíça",
-    "ar": "سويسرا"
-   },
-   "kickoffUtc": "2026-09-29T18:45:00Z",
-   "broadcasts": {
-    "GB": [
-     "BBC Scotland",
-     "BBC Two",
-     "BBC iPlayer",
-     "BBC Sport Website"
-    ],
-    "US": [
-     "Tubi",
-     "Amazon Prime Video",
-     "Fubo",
-     "Hulu + Live TV",
-     "ViX"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "FR": [
-     "L'Équipe Live Foot"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-slovakia-kazakhstan",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Slovakia",
-   "away": "Kazakhstan",
-   "homeNames": {
-    "tr": "Slovakya",
-    "en": "Slovakia",
-    "de": "Slowakei",
-    "es": "Eslovaquia",
-    "fr": "Slovaquie",
-    "it": "Slovacchia",
-    "pt": "Eslováquia",
-    "ar": "سلوفاكيا"
-   },
-   "awayNames": {
-    "tr": "Kazakistan",
-    "en": "Kazakhstan",
-    "de": "Kasachstan",
-    "es": "Kazajistán",
-    "fr": "Kazakhstan",
-    "it": "Kazakistan",
-    "pt": "Cazaquistão",
-    "ar": "كازاخستان"
-   },
-   "kickoffUtc": "2026-09-29T18:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
-    "US": [
-     "Fubo",
-     "ViX"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "FR": [
-     "L'Équipe Live Foot"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-slovenia-north-macedonia",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Slovenia",
-   "away": "North Macedonia",
-   "homeNames": {
-    "tr": "Slovenya",
-    "en": "Slovenia",
-    "de": "Slowenien",
-    "es": "Eslovenia",
-    "fr": "Slovénie",
-    "it": "Slovenia",
-    "pt": "Eslovénia",
-    "ar": "سلوفينيا"
-   },
-   "awayNames": {
-    "tr": "Kuzey Makedonya",
-    "en": "North Macedonia",
-    "de": "Nordmazedonien",
-    "es": "Macedonia del Norte",
-    "fr": "Macédoine du Nord",
-    "it": "Macedonia del Nord",
-    "pt": "Macedónia do Norte",
-    "ar": "مقدونيا الشمالية"
-   },
-   "kickoffUtc": "2026-09-29T18:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ],
     "US": [
      "FS2",
      "Fubo",
      "DirecTV Stream",
-     "Hulu + Live TV",
-     "ViX"
+     "Hulu + Live TV"
     ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "BR": [
-     "SporTV 2"
+    "CA": [
+     "OneSoccer"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260929-spain-croatia",
+   "id": "football-20260930-brooklyn-fc-detroit-city-fc",
    "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
+   "competitionId": "usl",
+   "tier": "regional",
    "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
+    "tr": "USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL تشامبيونشيب"
    },
-   "home": "Spain",
-   "away": "Croatia",
+   "home": "Brooklyn FC",
+   "away": "Detroit City FC",
    "homeNames": {
-    "tr": "İspanya",
-    "en": "Spain",
-    "de": "Spanien",
-    "es": "España",
-    "fr": "Espagne",
-    "it": "Spagna",
-    "pt": "Espanha",
-    "ar": "إسبانيا"
+    "tr": "Brooklyn FC",
+    "en": "Brooklyn FC",
+    "de": "Brooklyn FC",
+    "es": "Brooklyn FC",
+    "fr": "Brooklyn FC",
+    "it": "Brooklyn FC",
+    "pt": "Brooklyn FC",
+    "ar": "بروكلين"
    },
    "awayNames": {
-    "tr": "Hırvatistan",
-    "en": "Croatia",
-    "de": "Kroatien",
-    "es": "Croacia",
-    "fr": "Croatie",
-    "it": "Croazia",
-    "pt": "Croácia",
-    "ar": "كرواتيا"
+    "tr": "Detroit City FC",
+    "en": "Detroit City FC",
+    "de": "Detroit City FC",
+    "es": "Detroit City FC",
+    "fr": "Detroit City FC",
+    "it": "Detroit City FC",
+    "pt": "Detroit City FC",
+    "ar": "ديترويت سيتي"
    },
-   "kickoffUtc": "2026-09-29T18:45:00Z",
+   "kickoffUtc": "2026-09-30T23:00:00Z",
    "broadcasts": {
-    "TR": [
-     "CBC Sport"
-    ],
-    "GB": [
-     "Amazon Prime Video (PPV)"
-    ],
     "US": [
-     "FS1",
-     "Fubo",
-     "DirecTV Stream",
-     "Sling Blue",
-     "Hulu + Live TV",
-     "ViX"
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-chattanooga-red-wolves-spokane-velocity",
+   "sport": "football",
+   "competitionId": "usl1",
+   "tier": "regional",
+   "competition": {
+    "tr": "USL League One",
+    "en": "USL League One",
+    "de": "USL League One",
+    "es": "USL League One",
+    "fr": "USL League One",
+    "it": "USL League One",
+    "pt": "USL League One",
+    "ar": "دوري USL الأولى"
+   },
+   "home": "Chattanooga Red Wolves",
+   "away": "Spokane Velocity",
+   "homeNames": {
+    "tr": "Chattanooga Red Wolves",
+    "en": "Chattanooga Red Wolves",
+    "de": "Chattanooga Red Wolves",
+    "es": "Chattanooga Red Wolves",
+    "fr": "Chattanooga Red Wolves",
+    "it": "Chattanooga Red Wolves",
+    "pt": "Chattanooga Red Wolves",
+    "ar": "تشاتانوغا ريد وولفز"
+   },
+   "awayNames": {
+    "tr": "Spokane Velocity",
+    "en": "Spokane Velocity",
+    "de": "Spokane Velocity",
+    "es": "Spokane Velocity",
+    "fr": "Spokane Velocity",
+    "it": "Spokane Velocity",
+    "pt": "Spokane Velocity",
+    "ar": "سبوكان فيلوسيتي"
+   },
+   "kickoffUtc": "2026-09-30T23:00:00Z",
+   "broadcasts": {
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-d-concepcion-o-higgins",
+   "sport": "football",
+   "competitionId": "copa_chile",
+   "tier": "regional",
+   "competition": {
+    "tr": "Şili Kupası",
+    "en": "Copa Chile",
+    "de": "Copa Chile",
+    "es": "Copa Chile",
+    "fr": "Coupe du Chili",
+    "it": "Coppa del Cile",
+    "pt": "Copa do Chile",
+    "ar": "كأس تشيلي"
+   },
+   "home": "D. Concepcion",
+   "away": "O'Higgins",
+   "homeNames": {
+    "tr": "Deportes Concepción",
+    "en": "Deportes Concepción",
+    "de": "Deportes Concepción",
+    "es": "Deportes Concepción",
+    "fr": "Deportes Concepción",
+    "it": "Deportes Concepción",
+    "pt": "Deportes Concepción",
+    "ar": "Deportes Concepción"
+   },
+   "awayNames": {
+    "tr": "O'Higgins",
+    "en": "O'Higgins",
+    "de": "O'Higgins",
+    "es": "O'Higgins",
+    "fr": "O'Higgins",
+    "it": "O'Higgins",
+    "pt": "O'Higgins",
+    "ar": "أوهيغينز"
+   },
+   "kickoffUtc": "2026-09-30T23:00:00Z",
+   "broadcasts": {
+    "CL": [
+     "HBO Max",
+     "TNT Sports Premium"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-miami-fc-sporting-club-jacksonville",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL تشامبيونشيب"
+   },
+   "home": "Miami FC",
+   "away": "Sporting Club Jacksonville",
+   "homeNames": {
+    "tr": "Miami FC",
+    "en": "Miami FC",
+    "de": "Miami FC",
+    "es": "Miami FC",
+    "fr": "Miami FC",
+    "it": "Miami FC",
+    "pt": "Miami FC",
+    "ar": "ميامي إف سي"
+   },
+   "awayNames": {
+    "tr": "Sporting Club Jacksonville",
+    "en": "Sporting Club Jacksonville",
+    "de": "Sporting Club Jacksonville",
+    "es": "Sporting Club Jacksonville",
+    "fr": "Sporting Club Jacksonville",
+    "it": "Sporting Club Jacksonville",
+    "pt": "Sporting Club Jacksonville",
+    "ar": "سبورتنغ جاكسونفيل"
+   },
+   "kickoffUtc": "2026-09-30T23:00:00Z",
+   "broadcasts": {
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-montevideo-city-torque-penarol",
+   "sport": "football",
+   "competitionId": "liga_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Ligi",
+    "en": "Uruguayan Primera División",
+    "de": "Uruguayische Primera División",
+    "es": "Primera División de Uruguay",
+    "fr": "Championnat d'Uruguay",
+    "it": "Primera División uruguaiana",
+    "pt": "Campeonato Uruguaio",
+    "ar": "الدوري الأوروغوياني"
+   },
+   "home": "Montevideo City Torque",
+   "away": "Penarol",
+   "homeNames": {
+    "tr": "Montevideo City Torque",
+    "en": "Montevideo City Torque",
+    "de": "Montevideo City Torque",
+    "es": "Montevideo City Torque",
+    "fr": "Montevideo City Torque",
+    "it": "Montevideo City Torque",
+    "pt": "Montevideo City Torque",
+    "ar": "مونتيفيديو سيتي توركي"
+   },
+   "awayNames": {
+    "tr": "Peñarol",
+    "en": "Peñarol",
+    "de": "Peñarol",
+    "es": "Peñarol",
+    "fr": "Peñarol",
+    "it": "Peñarol",
+    "pt": "Peñarol",
+    "ar": "بينيارول"
+   },
+   "kickoffUtc": "2026-09-30T23:00:00Z",
+   "broadcasts": {
+    "UY": [
+     "DSports Uruguay Premium",
+     "Antel TV",
+     "Disney+ Premium"
+    ],
+    "BR": [
+     "Disney+"
+    ],
+    "AR": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "MX": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-new-york-red-bulls-st-louis-city",
+   "sport": "football",
+   "competitionId": "mls",
+   "tier": "regional",
+   "competition": {
+    "tr": "MLS",
+    "en": "MLS",
+    "de": "MLS",
+    "es": "MLS",
+    "fr": "MLS",
+    "it": "MLS",
+    "pt": "MLS",
+    "ar": "الدوري الأمريكي (MLS)"
+   },
+   "home": "New York Red Bulls",
+   "away": "St Louis City",
+   "homeNames": {
+    "tr": "New York Red Bulls",
+    "en": "New York Red Bulls",
+    "de": "New York Red Bulls",
+    "es": "New York Red Bulls",
+    "fr": "New York Red Bulls",
+    "it": "New York Red Bulls",
+    "pt": "New York Red Bulls",
+    "ar": "نيويورك ريد بولز"
+   },
+   "awayNames": {
+    "tr": "St. Louis City SC",
+    "en": "St. Louis City SC",
+    "de": "St. Louis City SC",
+    "es": "St. Louis City SC",
+    "fr": "St. Louis City SC",
+    "it": "St. Louis City SC",
+    "pt": "St. Louis City SC",
+    "ar": "St. Louis City SC"
+   },
+   "kickoffUtc": "2026-09-30T23:30:00Z",
+   "broadcasts": {
+    "US": [
+     "Apple TV"
+    ],
+    "CA": [
+     "MLS Season Pass (Apple TV)"
     ],
     "DE": [
-     "DAZN"
+     "Apple TV"
     ],
-    "ES": [
-     "La 1",
-     "RTVE Play"
+    "BR": [
+     "Apple TV"
     ],
-    "FR": [
-     "L'Équipe Live Foot"
+    "AR": [
+     "Apple TV"
     ],
-    "IT": [
-     "Sky Sport Arena",
-     "Italia 1"
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "UY": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20260930-rhode-island-fc-indy-eleven",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL تشامبيونشيب"
+   },
+   "home": "Rhode Island FC",
+   "away": "Indy Eleven",
+   "homeNames": {
+    "tr": "Rhode Island FC",
+    "en": "Rhode Island FC",
+    "de": "Rhode Island FC",
+    "es": "Rhode Island FC",
+    "fr": "Rhode Island FC",
+    "it": "Rhode Island FC",
+    "pt": "Rhode Island FC",
+    "ar": "رود آيلاند"
+   },
+   "awayNames": {
+    "tr": "Indy Eleven",
+    "en": "Indy Eleven",
+    "de": "Indy Eleven",
+    "es": "Indy Eleven",
+    "fr": "Indy Eleven",
+    "it": "Indy Eleven",
+    "pt": "Indy Eleven",
+    "ar": "إندي إليفن"
+   },
+   "kickoffUtc": "2026-09-30T23:30:00Z",
+   "broadcasts": {
+    "US": [
+     "CBS Sports Network",
+     "Fubo",
+     "DirecTV Stream",
+     "Hulu + Live TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261001-argentina-bolivia",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "global",
+   "competition": {
+    "tr": "Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match amical",
+    "it": "Amichevole",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية"
+   },
+   "home": "Argentina",
+   "away": "Bolivia",
+   "homeNames": {
+    "tr": "Arjantin",
+    "en": "Argentina",
+    "de": "Argentinien",
+    "es": "Argentina",
+    "fr": "Argentine",
+    "it": "Argentina",
+    "pt": "Argentina",
+    "ar": "الأرجنتين"
+   },
+   "awayNames": {
+    "tr": "Bolivya",
+    "en": "Bolivia",
+    "de": "Bolivien",
+    "es": "Bolivia",
+    "fr": "Bolivie",
+    "it": "Bolivia",
+    "pt": "Bolívia",
+    "ar": "بوليفيا"
+   },
+   "kickoffUtc": "2026-10-01T00:00:00Z",
+   "broadcasts": {
+    "AR": [
+     "Telefe",
+     "TyC Sports"
+    ],
+    "US": [
+     "ViX"
     ],
     "BR": [
      "SporTV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-congo-cameroon",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Congo",
-   "away": "Cameroon",
-   "homeNames": {
-    "tr": "Kongo",
-    "en": "Congo",
-    "de": "Kongo",
-    "es": "Congo",
-    "fr": "Congo",
-    "it": "Congo",
-    "pt": "Congo",
-    "ar": "الكونغو"
-   },
-   "awayNames": {
-    "tr": "Kamerun",
-    "en": "Cameroon",
-    "de": "Kamerun",
-    "es": "Camerún",
-    "fr": "Cameroun",
-    "it": "Camerun",
-    "pt": "Camarões",
-    "ar": "الكاميرون"
-   },
-   "kickoffUtc": "2026-09-29T19:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports",
-     "beIN Sports Connect",
-     "Fubo",
-     "Fanatiz"
     ],
-    "DE": [
+    "MX": [
+     "ViX Premium"
+    ],
+    "CO": [
+     "DSports",
+     "DGO",
+     "Amazon Prime Video",
+     "Paramount+",
      "DAZN"
     ],
-    "FR": [
-     "beIN Sports 2"
-    ],
-    "IT": [
-     "Sportitalia"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-gabon-niger",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Gabon",
-   "away": "Niger",
-   "homeNames": {
-    "tr": "Gabon",
-    "en": "Gabon",
-    "de": "Gabun",
-    "es": "Gabón",
-    "fr": "Gabon",
-    "it": "Gabon",
-    "pt": "Gabão",
-    "ar": "الغابون"
-   },
-   "awayNames": {
-    "tr": "Nijer",
-    "en": "Niger",
-    "de": "Niger",
-    "es": "Níger",
-    "fr": "Niger",
-    "it": "Niger",
-    "pt": "Níger",
-    "ar": "النيجر"
-   },
-   "kickoffUtc": "2026-09-29T19:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Connect",
-     "beIN Sports en Español",
-     "Fubo",
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-liberia-mali",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Liberia",
-   "away": "Mali",
-   "homeNames": {
-    "tr": "Liberya",
-    "en": "Liberia",
-    "de": "Liberia",
-    "es": "Liberia",
-    "fr": "Liberia",
-    "it": "Liberia",
-    "pt": "Libéria",
-    "ar": "ليبيريا"
-   },
-   "awayNames": {
-    "tr": "Mali",
-    "en": "Mali",
-    "de": "Mali",
-    "es": "Malí",
-    "fr": "Mali",
-    "it": "Mali",
-    "pt": "Mali",
-    "ar": "مالي"
-   },
-   "kickoffUtc": "2026-09-29T19:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Xtra",
-     "beIN Sports Connect",
-     "Fubo",
-     "Fanatiz",
-     "DirecTV Stream",
-     "Tubi"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-somalia-ivory-coast",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Somalia",
-   "away": "Ivory Coast",
-   "homeNames": {
-    "tr": "Somali",
-    "en": "Somalia",
-    "de": "Somalia",
-    "es": "Somalia",
-    "fr": "Somalie",
-    "it": "Somalia",
-    "pt": "Somália",
-    "ar": "الصومال"
-   },
-   "awayNames": {
-    "tr": "Fildişi Sahili",
-    "en": "Ivory Coast",
-    "de": "Elfenbeinküste",
-    "es": "Costa de Marfil",
-    "fr": "Côte d'Ivoire",
-    "it": "Costa d'Avorio",
-    "pt": "Costa do Marfim",
-    "ar": "ساحل العاج"
-   },
-   "kickoffUtc": "2026-09-29T19:00:00Z",
-   "broadcasts": {
-    "US": [
-     "beIN Sports Connect",
-     "beIN Sports en Español",
-     "Fubo",
-     "Fanatiz"
-    ],
-    "DE": [
+    "CL": [
+     "DSports",
+     "DGO",
+     "Amazon Prime Video",
+     "Paramount+",
      "DAZN"
     ],
-    "FR": [
-     "beIN Sports 1"
+    "PE": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "UY": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "EC": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260929-british-virgin-islands-turks-and-caicos-islands",
+   "id": "football-20261001-fc-tulsa-new-mexico-united",
    "sport": "football",
-   "competitionId": "concacaf_nl",
+   "competitionId": "usl",
    "tier": "regional",
    "competition": {
-    "tr": "CONCACAF Uluslar Ligi",
-    "en": "CONCACAF Nations League",
-    "de": "CONCACAF Nations League",
-    "es": "Liga de Naciones de la CONCACAF",
-    "fr": "Ligue des nations de la CONCACAF",
-    "it": "CONCACAF Nations League",
-    "pt": "Liga das Nações da CONCACAF",
-    "ar": "دوري أمم الكونكاكاف"
+    "tr": "USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL تشامبيونشيب"
    },
-   "home": "British Virgin Islands",
-   "away": "Turks and Caicos Islands",
+   "home": "FC Tulsa",
+   "away": "New Mexico United",
    "homeNames": {
-    "tr": "Britanya Virjin Adaları",
-    "en": "British Virgin Islands",
-    "de": "Britische Jungferninseln",
-    "es": "Islas Vírgenes Británicas",
-    "fr": "Îles Vierges britanniques",
-    "it": "Isole Vergini britanniche",
-    "pt": "Ilhas Virgens Britânicas",
-    "ar": "جزر العذراء البريطانية"
+    "tr": "FC Tulsa",
+    "en": "FC Tulsa",
+    "de": "FC Tulsa",
+    "es": "FC Tulsa",
+    "fr": "FC Tulsa",
+    "it": "FC Tulsa",
+    "pt": "FC Tulsa",
+    "ar": "تولسا"
    },
    "awayNames": {
-    "tr": "Turks ve Caicos Adaları",
-    "en": "Turks and Caicos Islands",
-    "de": "Turks- und Caicosinseln",
-    "es": "Islas Turcas y Caicos",
-    "fr": "Îles Turques-et-Caïques",
-    "it": "Turks e Caicos",
-    "pt": "Turks e Caicos",
-    "ar": "جزر توركس وكايكوس"
+    "tr": "New Mexico United",
+    "en": "New Mexico United",
+    "de": "New Mexico United",
+    "es": "New Mexico United",
+    "fr": "New Mexico United",
+    "it": "New Mexico United",
+    "pt": "New Mexico United",
+    "ar": "نيو مكسيكو يونايتد"
    },
-   "kickoffUtc": "2026-09-29T19:00:00Z",
+   "kickoffUtc": "2026-10-01T00:00:00Z",
    "broadcasts": {
-    "GB": [
-     "CONCACAF YouTube"
-    ],
     "US": [
-     "FOX Soccer Plus",
-     "Fubo",
-     "ViX"
-    ],
-    "BR": [
-     "CONCACAF YouTube"
+     "ESPN+"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260929-us-virgin-islands-bahamas",
-   "sport": "football",
-   "competitionId": "concacaf_nl",
-   "tier": "regional",
-   "competition": {
-    "tr": "CONCACAF Uluslar Ligi",
-    "en": "CONCACAF Nations League",
-    "de": "CONCACAF Nations League",
-    "es": "Liga de Naciones de la CONCACAF",
-    "fr": "Ligue des nations de la CONCACAF",
-    "it": "CONCACAF Nations League",
-    "pt": "Liga das Nações da CONCACAF",
-    "ar": "دوري أمم الكونكاكاف"
-   },
-   "home": "US Virgin Islands",
-   "away": "Bahamas",
-   "homeNames": {
-    "tr": "ABD Virjin Adaları",
-    "en": "US Virgin Islands",
-    "de": "Amerikanische Jungferninseln",
-    "es": "Islas Vírgenes de EE. UU.",
-    "fr": "Îles Vierges des États-Unis",
-    "it": "Isole Vergini americane",
-    "pt": "Ilhas Virgens Americanas",
-    "ar": "جزر العذراء الأمريكية"
-   },
-   "awayNames": {
-    "tr": "Bahamalar",
-    "en": "Bahamas",
-    "de": "Bahamas",
-    "es": "Bahamas",
-    "fr": "Bahamas",
-    "it": "Bahamas",
-    "pt": "Bahamas",
-    "ar": "جزر البهاما"
-   },
-   "kickoffUtc": "2026-09-29T20:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "CONCACAF YouTube"
-    ],
-    "US": [
-     "Tubi",
-     "ViX"
-    ],
-    "BR": [
-     "CONCACAF YouTube"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-deportivo-pereira-santa-fe",
+   "id": "football-20261001-atletico-nacional-junior",
    "sport": "football",
    "competitionId": "liga_dimayor",
    "tier": "regional",
@@ -2872,235 +1972,78 @@
     "pt": "Liga BetPlay",
     "ar": "الدوري الكولومبي"
    },
-   "home": "Deportivo Pereira",
-   "away": "Santa Fe",
+   "home": "Atletico Nacional",
+   "away": "Junior",
    "homeNames": {
-    "tr": "Deportivo Pereira",
-    "en": "Deportivo Pereira",
-    "de": "Deportivo Pereira",
-    "es": "Deportivo Pereira",
-    "fr": "Deportivo Pereira",
-    "it": "Deportivo Pereira",
-    "pt": "Deportivo Pereira",
-    "ar": "ديبورتيفو بيريرا"
+    "tr": "Atlético Nacional",
+    "en": "Atlético Nacional",
+    "de": "Atlético Nacional",
+    "es": "Atlético Nacional",
+    "fr": "Atlético Nacional",
+    "it": "Atlético Nacional",
+    "pt": "Atlético Nacional",
+    "ar": "Atlético Nacional"
    },
    "awayNames": {
-    "tr": "Santa Fe",
-    "en": "Santa Fe",
-    "de": "Santa Fe",
-    "es": "Santa Fe",
-    "fr": "Santa Fe",
-    "it": "Santa Fe",
-    "pt": "Santa Fe",
-    "ar": "سانتا في"
+    "tr": "Junior",
+    "en": "Junior",
+    "de": "Junior",
+    "es": "Junior",
+    "fr": "Junior",
+    "it": "Junior",
+    "pt": "Junior",
+    "ar": "جونيور"
    },
-   "kickoffUtc": "2026-09-29T20:30:00Z",
+   "kickoffUtc": "2026-10-01T01:00:00Z",
    "broadcasts": {
-    "ES": [
-     "RCN Nuestra Tele"
+    "CO": [
+     "Win Fútbol+",
+     "Win Play"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20260929-french-guiana-sint-maarten",
+   "id": "football-20261001-sacramento-republic-las-vegas-lights",
    "sport": "football",
-   "competitionId": "concacaf_nl",
+   "competitionId": "usl",
    "tier": "regional",
    "competition": {
-    "tr": "CONCACAF Uluslar Ligi",
-    "en": "CONCACAF Nations League",
-    "de": "CONCACAF Nations League",
-    "es": "Liga de Naciones de la CONCACAF",
-    "fr": "Ligue des nations de la CONCACAF",
-    "it": "CONCACAF Nations League",
-    "pt": "Liga das Nações da CONCACAF",
-    "ar": "دوري أمم الكونكاكاف"
+    "tr": "USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "دوري USL تشامبيونشيب"
    },
-   "home": "French Guiana",
-   "away": "Sint Maarten",
+   "home": "Sacramento Republic",
+   "away": "Las Vegas Lights",
    "homeNames": {
-    "tr": "Fransız Guyanası",
-    "en": "French Guiana",
-    "de": "Französisch-Guayana",
-    "es": "Guayana Francesa",
-    "fr": "Guyane",
-    "it": "Guyana francese",
-    "pt": "Guiana Francesa",
-    "ar": "غويانا الفرنسية"
+    "tr": "Sacramento Republic",
+    "en": "Sacramento Republic",
+    "de": "Sacramento Republic",
+    "es": "Sacramento Republic",
+    "fr": "Sacramento Republic",
+    "it": "Sacramento Republic",
+    "pt": "Sacramento Republic",
+    "ar": "ساكرامنتو ريببلك"
    },
    "awayNames": {
-    "tr": "Sint Maarten",
-    "en": "Sint Maarten",
-    "de": "Sint Maarten",
-    "es": "Sint Maarten",
-    "fr": "Saint-Martin (NL)",
-    "it": "Sint Maarten",
-    "pt": "São Martinho (NL)",
-    "ar": "سينت مارتن"
+    "tr": "Las Vegas Lights",
+    "en": "Las Vegas Lights",
+    "de": "Las Vegas Lights",
+    "es": "Las Vegas Lights",
+    "fr": "Las Vegas Lights",
+    "it": "Las Vegas Lights",
+    "pt": "Las Vegas Lights",
+    "ar": "لاس فيغاس لايتس"
    },
-   "kickoffUtc": "2026-09-29T21:00:00Z",
+   "kickoffUtc": "2026-10-01T02:00:00Z",
    "broadcasts": {
-    "GB": [
-     "CONCACAF YouTube"
-    ],
     "US": [
-     "FS2",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV",
-     "ViX"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-botafogo-sp-ponte-preta",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Série B",
-    "de": "Brasilianische Série B",
-    "es": "Serie B de Brasil",
-    "fr": "Série B brésilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Botafogo-SP",
-   "away": "Ponte Preta",
-   "homeNames": {
-    "tr": "Botafogo-SP",
-    "en": "Botafogo-SP",
-    "de": "Botafogo-SP",
-    "es": "Botafogo-SP",
-    "fr": "Botafogo-SP",
-    "it": "Botafogo-SP",
-    "pt": "Botafogo-SP",
-    "ar": "بوتافوغو إس بي"
-   },
-   "awayNames": {
-    "tr": "Ponte Preta",
-    "en": "Ponte Preta",
-    "de": "Ponte Preta",
-    "es": "Ponte Preta",
-    "fr": "Ponte Preta",
-    "it": "Ponte Preta",
-    "pt": "Ponte Preta",
-    "ar": "بونتي بريتا"
-   },
-   "kickoffUtc": "2026-09-29T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260929-anguilla-aruba",
-   "sport": "football",
-   "competitionId": "concacaf_nl",
-   "tier": "regional",
-   "competition": {
-    "tr": "CONCACAF Uluslar Ligi",
-    "en": "CONCACAF Nations League",
-    "de": "CONCACAF Nations League",
-    "es": "Liga de Naciones de la CONCACAF",
-    "fr": "Ligue des nations de la CONCACAF",
-    "it": "CONCACAF Nations League",
-    "pt": "Liga das Nações da CONCACAF",
-    "ar": "دوري أمم الكونكاكاف"
-   },
-   "home": "Anguilla",
-   "away": "Aruba",
-   "homeNames": {
-    "tr": "Anguilla",
-    "en": "Anguilla",
-    "de": "Anguilla",
-    "es": "Anguila",
-    "fr": "Anguilla",
-    "it": "Anguilla",
-    "pt": "Anguila",
-    "ar": "أنغويلا"
-   },
-   "awayNames": {
-    "tr": "Aruba",
-    "en": "Aruba",
-    "de": "Aruba",
-    "es": "Aruba",
-    "fr": "Aruba",
-    "it": "Aruba",
-    "pt": "Aruba",
-    "ar": "أروبا"
-   },
-   "kickoffUtc": "2026-09-29T23:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "CONCACAF YouTube"
-    ],
-    "US": [
-     "FS2",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV",
-     "ViX"
-    ],
-    "ES": [
-     "CONCACAF YouTube"
-    ],
-    "BR": [
-     "CONCACAF YouTube"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260930-belize-st-vincent-and-the-grenadines",
-   "sport": "football",
-   "competitionId": "concacaf_nl",
-   "tier": "regional",
-   "competition": {
-    "tr": "CONCACAF Uluslar Ligi",
-    "en": "CONCACAF Nations League",
-    "de": "CONCACAF Nations League",
-    "es": "Liga de Naciones de la CONCACAF",
-    "fr": "Ligue des nations de la CONCACAF",
-    "it": "CONCACAF Nations League",
-    "pt": "Liga das Nações da CONCACAF",
-    "ar": "دوري أمم الكونكاكاف"
-   },
-   "home": "Belize",
-   "away": "St Vincent and the Grenadines",
-   "homeNames": {
-    "tr": "Belize",
-    "en": "Belize",
-    "de": "Belize",
-    "es": "Belice",
-    "fr": "Belize",
-    "it": "Belize",
-    "pt": "Belize",
-    "ar": "بليز"
-   },
-   "awayNames": {
-    "tr": "Saint Vincent ve Grenadinler",
-    "en": "St Vincent and the Grenadines",
-    "de": "St. Vincent und die Grenadinen",
-    "es": "San Vicente y las Granadinas",
-    "fr": "Saint-Vincent-et-les-Grenadines",
-    "it": "Saint Vincent e Grenadine",
-    "pt": "São Vicente e Granadinas",
-    "ar": "سانت فينسنت والغرينادين"
-   },
-   "kickoffUtc": "2026-09-30T02:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "CONCACAF YouTube"
-    ],
-    "ES": [
-     "CONCACAF YouTube"
+     "ESPN+"
     ]
    },
    "sources": []
