@@ -1,517 +1,24 @@
 {
- "generated_at": "2026-09-30T22:16:36.000Z",
+ "generated_at": "2026-10-01T10:14:56.000Z",
  "date": "2026-10-01",
  "model": "user-provided",
  "stats": {
-  "total": 38,
-  "withChannel": 38,
+  "total": 30,
+  "withChannel": 30,
   "bySport": {
-   "football": 34,
+   "football": 26,
    "basketball": 4
   },
   "warnings": 0,
   "searches": 0,
-  "countries": 18
+  "countries": 25
  },
  "matches": [
   {
-   "id": "football-20260930-cerro-porteno-rubio-nu",
-   "sport": "football",
-   "competitionId": "copa_paraguay",
-   "tier": "regional",
-   "competition": {
-    "tr": "Paraguay Kupası",
-    "en": "Copa Paraguay",
-    "de": "Copa Paraguay",
-    "es": "Copa Paraguay",
-    "fr": "Coupe du Paraguay",
-    "it": "Coppa del Paraguay",
-    "pt": "Copa Paraguai",
-    "ar": "كأس باراغواي"
-   },
-   "home": "Cerro Porteno",
-   "away": "Rubio Nu",
-   "homeNames": {
-    "tr": "Cerro Porteño",
-    "en": "Cerro Porteño",
-    "de": "Cerro Porteño",
-    "es": "Cerro Porteño",
-    "fr": "Cerro Porteño",
-    "it": "Cerro Porteño",
-    "pt": "Cerro Porteño",
-    "ar": "Cerro Porteño"
-   },
-   "awayNames": {
-    "tr": "Rubio Ñu",
-    "en": "Rubio Ñu",
-    "de": "Rubio Ñu",
-    "es": "Rubio Ñu",
-    "fr": "Rubio Ñu",
-    "it": "Rubio Ñu",
-    "pt": "Rubio Ñu",
-    "ar": "Rubio Ñu"
-   },
-   "kickoffUtc": "2026-09-30T22:30:00Z",
-   "broadcasts": {
-    "PY": [
-     "Tigo Sports"
-    ],
-    "AR": [
-     "Fútbol Paraguayo (DirecTV)"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260930-atletico-ottawa-cavalry-fc",
-   "sport": "football",
-   "competitionId": "cpl",
-   "tier": "regional",
-   "competition": {
-    "tr": "Kanada Premier Ligi",
-    "en": "Canadian Premier League",
-    "de": "Kanadische Premier League",
-    "es": "Liga Premier de Canadá",
-    "fr": "Première Ligue canadienne",
-    "it": "Premier League canadese",
-    "pt": "Liga Premier do Canadá",
-    "ar": "الدوري الكندي"
-   },
-   "home": "Atletico Ottawa",
-   "away": "Cavalry FC",
-   "homeNames": {
-    "tr": "Atlético Ottawa",
-    "en": "Atlético Ottawa",
-    "de": "Atlético Ottawa",
-    "es": "Atlético Ottawa",
-    "fr": "Atlético Ottawa",
-    "it": "Atlético Ottawa",
-    "pt": "Atlético Ottawa",
-    "ar": "أتلتيكو أوتاوا"
-   },
-   "awayNames": {
-    "tr": "Cavalry FC",
-    "en": "Cavalry FC",
-    "de": "Cavalry FC",
-    "es": "Cavalry FC",
-    "fr": "Cavalry FC",
-    "it": "Cavalry FC",
-    "pt": "Cavalry FC",
-    "ar": "كافالري"
-   },
-   "kickoffUtc": "2026-09-30T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "FS2",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV"
-    ],
-    "CA": [
-     "OneSoccer"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260930-brooklyn-fc-detroit-city-fc",
-   "sport": "football",
-   "competitionId": "usl",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "de": "USL Championship",
-    "es": "USL Championship",
-    "fr": "USL Championship",
-    "it": "USL Championship",
-    "pt": "USL Championship",
-    "ar": "دوري USL تشامبيونشيب"
-   },
-   "home": "Brooklyn FC",
-   "away": "Detroit City FC",
-   "homeNames": {
-    "tr": "Brooklyn FC",
-    "en": "Brooklyn FC",
-    "de": "Brooklyn FC",
-    "es": "Brooklyn FC",
-    "fr": "Brooklyn FC",
-    "it": "Brooklyn FC",
-    "pt": "Brooklyn FC",
-    "ar": "بروكلين"
-   },
-   "awayNames": {
-    "tr": "Detroit City FC",
-    "en": "Detroit City FC",
-    "de": "Detroit City FC",
-    "es": "Detroit City FC",
-    "fr": "Detroit City FC",
-    "it": "Detroit City FC",
-    "pt": "Detroit City FC",
-    "ar": "ديترويت سيتي"
-   },
-   "kickoffUtc": "2026-09-30T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260930-chattanooga-red-wolves-spokane-velocity",
-   "sport": "football",
-   "competitionId": "usl1",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL League One",
-    "en": "USL League One",
-    "de": "USL League One",
-    "es": "USL League One",
-    "fr": "USL League One",
-    "it": "USL League One",
-    "pt": "USL League One",
-    "ar": "دوري USL الأولى"
-   },
-   "home": "Chattanooga Red Wolves",
-   "away": "Spokane Velocity",
-   "homeNames": {
-    "tr": "Chattanooga Red Wolves",
-    "en": "Chattanooga Red Wolves",
-    "de": "Chattanooga Red Wolves",
-    "es": "Chattanooga Red Wolves",
-    "fr": "Chattanooga Red Wolves",
-    "it": "Chattanooga Red Wolves",
-    "pt": "Chattanooga Red Wolves",
-    "ar": "تشاتانوغا ريد وولفز"
-   },
-   "awayNames": {
-    "tr": "Spokane Velocity",
-    "en": "Spokane Velocity",
-    "de": "Spokane Velocity",
-    "es": "Spokane Velocity",
-    "fr": "Spokane Velocity",
-    "it": "Spokane Velocity",
-    "pt": "Spokane Velocity",
-    "ar": "سبوكان فيلوسيتي"
-   },
-   "kickoffUtc": "2026-09-30T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260930-d-concepcion-o-higgins",
-   "sport": "football",
-   "competitionId": "copa_chile",
-   "tier": "regional",
-   "competition": {
-    "tr": "Şili Kupası",
-    "en": "Copa Chile",
-    "de": "Copa Chile",
-    "es": "Copa Chile",
-    "fr": "Coupe du Chili",
-    "it": "Coppa del Cile",
-    "pt": "Copa do Chile",
-    "ar": "كأس تشيلي"
-   },
-   "home": "D. Concepcion",
-   "away": "O'Higgins",
-   "homeNames": {
-    "tr": "Deportes Concepción",
-    "en": "Deportes Concepción",
-    "de": "Deportes Concepción",
-    "es": "Deportes Concepción",
-    "fr": "Deportes Concepción",
-    "it": "Deportes Concepción",
-    "pt": "Deportes Concepción",
-    "ar": "Deportes Concepción"
-   },
-   "awayNames": {
-    "tr": "O'Higgins",
-    "en": "O'Higgins",
-    "de": "O'Higgins",
-    "es": "O'Higgins",
-    "fr": "O'Higgins",
-    "it": "O'Higgins",
-    "pt": "O'Higgins",
-    "ar": "أوهيغينز"
-   },
-   "kickoffUtc": "2026-09-30T23:00:00Z",
-   "broadcasts": {
-    "CL": [
-     "HBO Max",
-     "TNT Sports Premium"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260930-miami-fc-sporting-club-jacksonville",
-   "sport": "football",
-   "competitionId": "usl",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "de": "USL Championship",
-    "es": "USL Championship",
-    "fr": "USL Championship",
-    "it": "USL Championship",
-    "pt": "USL Championship",
-    "ar": "دوري USL تشامبيونشيب"
-   },
-   "home": "Miami FC",
-   "away": "Sporting Club Jacksonville",
-   "homeNames": {
-    "tr": "Miami FC",
-    "en": "Miami FC",
-    "de": "Miami FC",
-    "es": "Miami FC",
-    "fr": "Miami FC",
-    "it": "Miami FC",
-    "pt": "Miami FC",
-    "ar": "ميامي إف سي"
-   },
-   "awayNames": {
-    "tr": "Sporting Club Jacksonville",
-    "en": "Sporting Club Jacksonville",
-    "de": "Sporting Club Jacksonville",
-    "es": "Sporting Club Jacksonville",
-    "fr": "Sporting Club Jacksonville",
-    "it": "Sporting Club Jacksonville",
-    "pt": "Sporting Club Jacksonville",
-    "ar": "سبورتنغ جاكسونفيل"
-   },
-   "kickoffUtc": "2026-09-30T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260930-montevideo-city-torque-penarol",
-   "sport": "football",
-   "competitionId": "liga_auf",
-   "tier": "regional",
-   "competition": {
-    "tr": "Uruguay Ligi",
-    "en": "Uruguayan Primera División",
-    "de": "Uruguayische Primera División",
-    "es": "Primera División de Uruguay",
-    "fr": "Championnat d'Uruguay",
-    "it": "Primera División uruguaiana",
-    "pt": "Campeonato Uruguaio",
-    "ar": "الدوري الأوروغوياني"
-   },
-   "home": "Montevideo City Torque",
-   "away": "Penarol",
-   "homeNames": {
-    "tr": "Montevideo City Torque",
-    "en": "Montevideo City Torque",
-    "de": "Montevideo City Torque",
-    "es": "Montevideo City Torque",
-    "fr": "Montevideo City Torque",
-    "it": "Montevideo City Torque",
-    "pt": "Montevideo City Torque",
-    "ar": "مونتيفيديو سيتي توركي"
-   },
-   "awayNames": {
-    "tr": "Peñarol",
-    "en": "Peñarol",
-    "de": "Peñarol",
-    "es": "Peñarol",
-    "fr": "Peñarol",
-    "it": "Peñarol",
-    "pt": "Peñarol",
-    "ar": "بينيارول"
-   },
-   "kickoffUtc": "2026-09-30T23:00:00Z",
-   "broadcasts": {
-    "UY": [
-     "DSports Uruguay Premium",
-     "Antel TV",
-     "Disney+ Premium"
-    ],
-    "BR": [
-     "Disney+"
-    ],
-    "AR": [
-     "Antel TV Internacional",
-     "Disney+ Premium"
-    ],
-    "MX": [
-     "Antel TV Internacional",
-     "Disney+ Premium"
-    ],
-    "CO": [
-     "Antel TV Internacional",
-     "Disney+ Premium"
-    ],
-    "CL": [
-     "Antel TV Internacional",
-     "Disney+ Premium"
-    ],
-    "PE": [
-     "Antel TV Internacional",
-     "Disney+ Premium"
-    ],
-    "EC": [
-     "Antel TV Internacional",
-     "Disney+ Premium"
-    ],
-    "PY": [
-     "Antel TV Internacional",
-     "Disney+ Premium"
-    ],
-    "PT": [
-     "Antel TV Internacional"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260930-new-york-red-bulls-st-louis-city",
-   "sport": "football",
-   "competitionId": "mls",
-   "tier": "regional",
-   "competition": {
-    "tr": "MLS",
-    "en": "MLS",
-    "de": "MLS",
-    "es": "MLS",
-    "fr": "MLS",
-    "it": "MLS",
-    "pt": "MLS",
-    "ar": "الدوري الأمريكي (MLS)"
-   },
-   "home": "New York Red Bulls",
-   "away": "St Louis City",
-   "homeNames": {
-    "tr": "New York Red Bulls",
-    "en": "New York Red Bulls",
-    "de": "New York Red Bulls",
-    "es": "New York Red Bulls",
-    "fr": "New York Red Bulls",
-    "it": "New York Red Bulls",
-    "pt": "New York Red Bulls",
-    "ar": "نيويورك ريد بولز"
-   },
-   "awayNames": {
-    "tr": "St. Louis City SC",
-    "en": "St. Louis City SC",
-    "de": "St. Louis City SC",
-    "es": "St. Louis City SC",
-    "fr": "St. Louis City SC",
-    "it": "St. Louis City SC",
-    "pt": "St. Louis City SC",
-    "ar": "St. Louis City SC"
-   },
-   "kickoffUtc": "2026-09-30T23:30:00Z",
-   "broadcasts": {
-    "US": [
-     "Apple TV"
-    ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
-    ],
-    "DE": [
-     "Apple TV"
-    ],
-    "BR": [
-     "Apple TV"
-    ],
-    "AR": [
-     "Apple TV"
-    ],
-    "MX": [
-     "Apple TV"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
-    "CL": [
-     "Apple TV"
-    ],
-    "PE": [
-     "Apple TV"
-    ],
-    "UY": [
-     "Apple TV"
-    ],
-    "EC": [
-     "Apple TV"
-    ],
-    "PY": [
-     "Apple TV"
-    ],
-    "ES": [
-     "Apple TV"
-    ],
-    "PT": [
-     "Apple TV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20260930-rhode-island-fc-indy-eleven",
-   "sport": "football",
-   "competitionId": "usl",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "de": "USL Championship",
-    "es": "USL Championship",
-    "fr": "USL Championship",
-    "it": "USL Championship",
-    "pt": "USL Championship",
-    "ar": "دوري USL تشامبيونشيب"
-   },
-   "home": "Rhode Island FC",
-   "away": "Indy Eleven",
-   "homeNames": {
-    "tr": "Rhode Island FC",
-    "en": "Rhode Island FC",
-    "de": "Rhode Island FC",
-    "es": "Rhode Island FC",
-    "fr": "Rhode Island FC",
-    "it": "Rhode Island FC",
-    "pt": "Rhode Island FC",
-    "ar": "رود آيلاند"
-   },
-   "awayNames": {
-    "tr": "Indy Eleven",
-    "en": "Indy Eleven",
-    "de": "Indy Eleven",
-    "es": "Indy Eleven",
-    "fr": "Indy Eleven",
-    "it": "Indy Eleven",
-    "pt": "Indy Eleven",
-    "ar": "إندي إليفن"
-   },
-   "kickoffUtc": "2026-09-30T23:30:00Z",
-   "broadcasts": {
-    "US": [
-     "CBS Sports Network",
-     "Fubo",
-     "DirecTV Stream",
-     "Hulu + Live TV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261001-argentina-bolivia",
+   "id": "football-20261001-japan-ecuador",
    "sport": "football",
    "competitionId": "friendly",
-   "tier": "global",
+   "tier": "regional",
    "competition": {
     "tr": "Hazırlık Maçı",
     "en": "International Friendly",
@@ -522,220 +29,34 @@
     "pt": "Amistoso Internacional",
     "ar": "مباراة ودية"
    },
-   "home": "Argentina",
-   "away": "Bolivia",
+   "home": "Japan",
+   "away": "Ecuador",
    "homeNames": {
-    "tr": "Arjantin",
-    "en": "Argentina",
-    "de": "Argentinien",
-    "es": "Argentina",
-    "fr": "Argentine",
-    "it": "Argentina",
-    "pt": "Argentina",
-    "ar": "الأرجنتين"
+    "tr": "Japonya",
+    "en": "Japan",
+    "de": "Japan",
+    "es": "Japón",
+    "fr": "Japon",
+    "it": "Giappone",
+    "pt": "Japão",
+    "ar": "اليابان"
    },
    "awayNames": {
-    "tr": "Bolivya",
-    "en": "Bolivia",
-    "de": "Bolivien",
-    "es": "Bolivia",
-    "fr": "Bolivie",
-    "it": "Bolivia",
-    "pt": "Bolívia",
-    "ar": "بوليفيا"
+    "tr": "Ekvador",
+    "en": "Ecuador",
+    "de": "Ecuador",
+    "es": "Ecuador",
+    "fr": "Équateur",
+    "it": "Ecuador",
+    "pt": "Equador",
+    "ar": "الإكوادور"
    },
-   "kickoffUtc": "2026-10-01T00:00:00Z",
+   "kickoffUtc": "2026-10-01T10:10:00Z",
    "broadcasts": {
-    "AR": [
-     "Telefe",
-     "TyC Sports"
-    ],
-    "US": [
-     "ViX"
-    ],
-    "BR": [
-     "SporTV"
-    ],
-    "MX": [
-     "ViX Premium"
-    ],
-    "CO": [
-     "DSports",
-     "DGO",
-     "Amazon Prime Video",
-     "Paramount+",
-     "DAZN"
-    ],
-    "CL": [
-     "DSports",
-     "DGO",
-     "Amazon Prime Video",
-     "Paramount+",
-     "DAZN"
-    ],
-    "PE": [
-     "DSports",
-     "DGO",
-     "Paramount+",
-     "DAZN"
-    ],
-    "UY": [
-     "DSports",
-     "DGO",
-     "Paramount+",
-     "DAZN"
-    ],
     "EC": [
-     "DSports",
-     "DGO",
-     "Paramount+",
-     "DAZN"
-    ],
-    "TR": [
-     "S Sport Plus"
-    ],
-    "GB": [
-     "Premier Sports 2"
-    ],
-    "ES": [
-     "Movistar Plus+",
-     "M+ Liga de Campeones"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261001-fc-tulsa-new-mexico-united",
-   "sport": "football",
-   "competitionId": "usl",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "de": "USL Championship",
-    "es": "USL Championship",
-    "fr": "USL Championship",
-    "it": "USL Championship",
-    "pt": "USL Championship",
-    "ar": "دوري USL تشامبيونشيب"
-   },
-   "home": "FC Tulsa",
-   "away": "New Mexico United",
-   "homeNames": {
-    "tr": "FC Tulsa",
-    "en": "FC Tulsa",
-    "de": "FC Tulsa",
-    "es": "FC Tulsa",
-    "fr": "FC Tulsa",
-    "it": "FC Tulsa",
-    "pt": "FC Tulsa",
-    "ar": "تولسا"
-   },
-   "awayNames": {
-    "tr": "New Mexico United",
-    "en": "New Mexico United",
-    "de": "New Mexico United",
-    "es": "New Mexico United",
-    "fr": "New Mexico United",
-    "it": "New Mexico United",
-    "pt": "New Mexico United",
-    "ar": "نيو مكسيكو يونايتد"
-   },
-   "kickoffUtc": "2026-10-01T00:00:00Z",
-   "broadcasts": {
-    "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261001-atletico-nacional-junior",
-   "sport": "football",
-   "competitionId": "liga_dimayor",
-   "tier": "regional",
-   "competition": {
-    "tr": "Kolombiya Ligi",
-    "en": "Liga BetPlay",
-    "de": "Liga BetPlay",
-    "es": "Liga BetPlay DIMAYOR",
-    "fr": "Liga BetPlay",
-    "it": "Liga BetPlay",
-    "pt": "Liga BetPlay",
-    "ar": "الدوري الكولومبي"
-   },
-   "home": "Atletico Nacional",
-   "away": "Junior",
-   "homeNames": {
-    "tr": "Atlético Nacional",
-    "en": "Atlético Nacional",
-    "de": "Atlético Nacional",
-    "es": "Atlético Nacional",
-    "fr": "Atlético Nacional",
-    "it": "Atlético Nacional",
-    "pt": "Atlético Nacional",
-    "ar": "Atlético Nacional"
-   },
-   "awayNames": {
-    "tr": "Junior",
-    "en": "Junior",
-    "de": "Junior",
-    "es": "Junior",
-    "fr": "Junior",
-    "it": "Junior",
-    "pt": "Junior",
-    "ar": "جونيور"
-   },
-   "kickoffUtc": "2026-10-01T01:00:00Z",
-   "broadcasts": {
-    "CO": [
-     "Win Fútbol+",
-     "Win Play"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261001-sacramento-republic-las-vegas-lights",
-   "sport": "football",
-   "competitionId": "usl",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "de": "USL Championship",
-    "es": "USL Championship",
-    "fr": "USL Championship",
-    "it": "USL Championship",
-    "pt": "USL Championship",
-    "ar": "دوري USL تشامبيونشيب"
-   },
-   "home": "Sacramento Republic",
-   "away": "Las Vegas Lights",
-   "homeNames": {
-    "tr": "Sacramento Republic",
-    "en": "Sacramento Republic",
-    "de": "Sacramento Republic",
-    "es": "Sacramento Republic",
-    "fr": "Sacramento Republic",
-    "it": "Sacramento Republic",
-    "pt": "Sacramento Republic",
-    "ar": "ساكرامنتو ريببلك"
-   },
-   "awayNames": {
-    "tr": "Las Vegas Lights",
-    "en": "Las Vegas Lights",
-    "de": "Las Vegas Lights",
-    "es": "Las Vegas Lights",
-    "fr": "Las Vegas Lights",
-    "it": "Las Vegas Lights",
-    "pt": "Las Vegas Lights",
-    "ar": "لاس فيغاس لايتس"
-   },
-   "kickoffUtc": "2026-10-01T02:00:00Z",
-   "broadcasts": {
-    "US": [
-     "ESPN+"
+     "Teleamazonas",
+     "TC Televisión",
+     "Ecuador TV"
     ]
    },
    "sources": []
@@ -855,6 +176,65 @@
     ],
     "BR": [
      "ESPN 2"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1"
+    ],
+    "MA": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "AR": [
+     "Disney+ Premium",
+     "ESPN 2"
     ]
    },
    "sources": []
@@ -905,6 +285,69 @@
    "sources": []
   },
   {
+   "id": "football-20261001-guinea-kenya",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Guinea",
+   "away": "Kenya",
+   "homeNames": {
+    "tr": "Gine",
+    "en": "Guinea",
+    "de": "Guinea",
+    "es": "Guinea",
+    "fr": "Guinée",
+    "it": "Guinea",
+    "pt": "Guiné",
+    "ar": "غينيا"
+   },
+   "awayNames": {
+    "tr": "Kenya",
+    "en": "Kenya",
+    "de": "Kenia",
+    "es": "Kenia",
+    "fr": "Kenya",
+    "it": "Kenya",
+    "pt": "Quênia",
+    "ar": "كينيا"
+   },
+   "kickoffUtc": "2026-10-01T16:00:00Z",
+   "broadcasts": {
+    "SA": [
+     "beIN Sports MENA 3"
+    ],
+    "QA": [
+     "beIN Sports MENA 3"
+    ],
+    "AE": [
+     "beIN Sports MENA 3"
+    ],
+    "EG": [
+     "beIN Sports MENA 3"
+    ],
+    "MA": [
+     "beIN Sports MENA 3"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3"
+    ],
+    "TN": [
+     "beIN Sports MENA 3"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "basketball-20261001-crvena-zvezda-anadolu-efes",
    "sport": "basketball",
    "competitionId": "euroleague",
@@ -950,6 +393,53 @@
     ],
     "ES": [
      "M+ Baloncesto 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261001-sporting-cristal-ad-tarma",
+   "sport": "football",
+   "competitionId": "copa_liga_pe",
+   "tier": "regional",
+   "competition": {
+    "tr": "Peru Lig Kupası",
+    "en": "Peruvian League Cup",
+    "de": "Peruanischer Ligapokal",
+    "es": "Copa de la Liga (Perú)",
+    "fr": "Coupe de la Ligue péruvienne",
+    "it": "Coppa di Lega peruviana",
+    "pt": "Copa da Liga do Peru",
+    "ar": "كأس الرابطة البيروفية"
+   },
+   "home": "Sporting Cristal",
+   "away": "AD Tarma",
+   "homeNames": {
+    "tr": "Sporting Cristal",
+    "en": "Sporting Cristal",
+    "de": "Sporting Cristal",
+    "es": "Sporting Cristal",
+    "fr": "Sporting Cristal",
+    "it": "Sporting Cristal",
+    "pt": "Sporting Cristal",
+    "ar": "سبورتنغ كريستال"
+   },
+   "awayNames": {
+    "tr": "AD Tarma",
+    "en": "AD Tarma",
+    "de": "AD Tarma",
+    "es": "AD Tarma",
+    "fr": "AD Tarma",
+    "it": "AD Tarma",
+    "pt": "AD Tarma",
+    "ar": "إيه دي تارما"
+   },
+   "kickoffUtc": "2026-10-01T18:00:00Z",
+   "broadcasts": {
+    "PE": [
+     "América Televisión",
+     "América tvGO",
+     "TV360"
     ]
    },
    "sources": []
@@ -1120,6 +610,65 @@
     ],
     "BR": [
      "SporTV"
+    ],
+    "SA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "AR": [
+     "Disney+ Premium",
+     "ESPN"
     ]
    },
    "sources": []
@@ -1195,6 +744,65 @@
     "BR": [
      "SporTV 3",
      "GE TV"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "AR": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -1263,6 +871,65 @@
     ],
     "BR": [
      "ESPN"
+    ],
+    "SA": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "AR": [
+     "Disney+ Premium",
+     "ESPN 2"
     ]
    },
    "sources": []
@@ -1318,6 +985,58 @@
     ],
     "FR": [
      "L'Équipe Live Foot"
+    ],
+    "SA": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports English 2",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "AR": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -1370,6 +1089,51 @@
     ],
     "ES": [
      "DAZN"
+    ],
+    "SA": [
+     "beIN Sports MENA 5"
+    ],
+    "QA": [
+     "beIN Sports MENA 5"
+    ],
+    "AE": [
+     "beIN Sports MENA 5"
+    ],
+    "EG": [
+     "beIN Sports MENA 5"
+    ],
+    "MA": [
+     "beIN Sports MENA 5"
+    ],
+    "DZ": [
+     "beIN Sports MENA 5"
+    ],
+    "TN": [
+     "beIN Sports MENA 5"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "AR": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -1434,6 +1198,58 @@
     ],
     "PT": [
      "Sport TV 6"
+    ],
+    "SA": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "AR": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -1508,6 +1324,58 @@
     ],
     "BR": [
      "ESPN 2"
+    ],
+    "SA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "AR": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -1561,6 +1429,33 @@
      "CONCACAF YouTube"
     ],
     "PT": [
+     "CONCACAF YouTube"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ],
+    "AR": [
+     "CONCACAF YouTube"
+    ],
+    "BR": [
      "CONCACAF YouTube"
     ]
    },
@@ -1617,6 +1512,33 @@
     ],
     "PT": [
      "CONCACAF YouTube"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ],
+    "AR": [
+     "CONCACAF YouTube"
+    ],
+    "BR": [
+     "CONCACAF YouTube"
     ]
    },
    "sources": []
@@ -1672,6 +1594,33 @@
      "CONCACAF YouTube"
     ],
     "PT": [
+     "CONCACAF YouTube"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ],
+    "AR": [
+     "CONCACAF YouTube"
+    ],
+    "BR": [
      "CONCACAF YouTube"
     ]
    },
@@ -1731,6 +1680,81 @@
     ],
     "PT": [
      "CONCACAF YouTube"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ],
+    "AR": [
+     "CONCACAF YouTube"
+    ],
+    "BR": [
+     "CONCACAF YouTube"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261001-olimpia-sportivo-luqueno",
+   "sport": "football",
+   "competitionId": "copa_paraguay",
+   "tier": "regional",
+   "competition": {
+    "tr": "Paraguay Kupası",
+    "en": "Copa Paraguay",
+    "de": "Copa Paraguay",
+    "es": "Copa Paraguay",
+    "fr": "Coupe du Paraguay",
+    "it": "Coppa del Paraguay",
+    "pt": "Copa Paraguai",
+    "ar": "كأس باراغواي"
+   },
+   "home": "Olimpia",
+   "away": "Sportivo Luqueno",
+   "homeNames": {
+    "tr": "Olimpia",
+    "en": "Olimpia",
+    "de": "Olimpia",
+    "es": "Olimpia",
+    "fr": "Olimpia",
+    "it": "Olimpia",
+    "pt": "Olimpia",
+    "ar": "أوليمبيا"
+   },
+   "awayNames": {
+    "tr": "Sportivo Luqueño",
+    "en": "Sportivo Luqueño",
+    "de": "Sportivo Luqueño",
+    "es": "Sportivo Luqueño",
+    "fr": "Sportivo Luqueño",
+    "it": "Sportivo Luqueño",
+    "pt": "Sportivo Luqueño",
+    "ar": "سبورتيفو لوكينيو"
+   },
+   "kickoffUtc": "2026-10-01T22:00:00Z",
+   "broadcasts": {
+    "PY": [
+     "Tigo Sports"
+    ],
+    "AR": [
+     "Fútbol Paraguayo (DirecTV)"
     ]
    },
    "sources": []
@@ -1785,6 +1809,33 @@
      "CONCACAF YouTube"
     ],
     "PT": [
+     "CONCACAF YouTube"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ],
+    "AR": [
+     "CONCACAF YouTube"
+    ],
+    "BR": [
      "CONCACAF YouTube"
     ]
    },
@@ -1882,6 +1933,30 @@
     ],
     "PT": [
      "CONCACAF YouTube"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ],
+    "AR": [
+     "CONCACAF YouTube"
     ]
    },
    "sources": []
@@ -1932,6 +2007,33 @@
      "CONCACAF YouTube"
     ],
     "PT": [
+     "CONCACAF YouTube"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ],
+    "AR": [
+     "CONCACAF YouTube"
+    ],
+    "BR": [
      "CONCACAF YouTube"
     ]
    },
@@ -2027,6 +2129,96 @@
     "PT": [
      "Sport TV 1",
      "Fanatiz"
+    ],
+    "AR": [
+     "TyC Sports",
+     "TyC Sports Play"
+    ],
+    "MX": [
+     "TyC Sports Internacional"
+    ],
+    "CO": [
+     "TyC Sports Internacional"
+    ],
+    "CL": [
+     "TyC Sports Internacional"
+    ],
+    "PE": [
+     "TyC Sports Internacional"
+    ],
+    "UY": [
+     "TyC Sports Internacional"
+    ],
+    "EC": [
+     "TyC Sports Internacional"
+    ],
+    "PY": [
+     "TyC Sports Internacional"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261002-inter-bogota-once-caldas",
+   "sport": "football",
+   "competitionId": "liga_dimayor",
+   "tier": "regional",
+   "competition": {
+    "tr": "Kolombiya Ligi",
+    "en": "Liga BetPlay",
+    "de": "Liga BetPlay",
+    "es": "Liga BetPlay DIMAYOR",
+    "fr": "Liga BetPlay",
+    "it": "Liga BetPlay",
+    "pt": "Liga BetPlay",
+    "ar": "الدوري الكولومبي"
+   },
+   "home": "Inter Bogota",
+   "away": "Once Caldas",
+   "homeNames": {
+    "tr": "Inter Bogotá",
+    "en": "Inter Bogotá",
+    "de": "Inter Bogotá",
+    "es": "Inter Bogotá",
+    "fr": "Inter Bogotá",
+    "it": "Inter Bogotá",
+    "pt": "Inter Bogotá",
+    "ar": "إنتر بوغوتا"
+   },
+   "awayNames": {
+    "tr": "Once Caldas",
+    "en": "Once Caldas",
+    "de": "Once Caldas",
+    "es": "Once Caldas",
+    "fr": "Once Caldas",
+    "it": "Once Caldas",
+    "pt": "Once Caldas",
+    "ar": "أونسي كالداس"
+   },
+   "kickoffUtc": "2026-10-02T01:00:00Z",
+   "broadcasts": {
+    "CO": [
+     "Win Sports",
+     "Win Fútbol+",
+     "Win Play"
+    ],
+    "MX": [
+     "RCN Nuestra Tele"
+    ],
+    "CL": [
+     "RCN Nuestra Tele"
+    ],
+    "PE": [
+     "RCN Nuestra Tele"
+    ],
+    "UY": [
+     "RCN Nuestra Tele"
+    ],
+    "EC": [
+     "RCN Nuestra Tele"
+    ],
+    "AR": [
+     "RCN Nuestra Tele"
     ]
    },
    "sources": []
@@ -2087,6 +2279,30 @@
     ],
     "BR": [
      "Apple TV"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "UY": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -2137,6 +2353,33 @@
      "CONCACAF YouTube"
     ],
     "PT": [
+     "CONCACAF YouTube"
+    ],
+    "MX": [
+     "CONCACAF YouTube"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ],
+    "AR": [
+     "CONCACAF YouTube"
+    ],
+    "BR": [
      "CONCACAF YouTube"
     ]
    },
