@@ -15,7 +15,7 @@
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Match, SportType } from '../constants/matches';
-import { formatLocalTime, getMatchWindow } from '../utils/timezone';
+import { formatLocalTime, getMatchWindow, localDateOf } from '../utils/timezone';
 import { COUNTRY_TZ, norm } from './sportsDbService';
 
 const REMOTE_URL =
@@ -24,6 +24,20 @@ const REMOTE_URL =
 const CACHE_KEY  = 'daily_matches_v1';
 const CACHE_TIME = 'daily_matches_time_v1';
 const TTL_MS     = 2 * 60 * 60 * 1000; // 2 saat — kanal verisiyle aynı tazelik
+// Önbellekteki dosya BUGÜNÜN değilse (dosyanın `date` alanı İstanbul gününe göre
+// yazılır) 2 saat bekleme: yeni dosya her an yayına girebilir. 6 Eki 2026'da dosya
+// öğlen yayına alındı; sabah önbelleğe giren 5 Ekim dosyası futbol sekmesini
+// 2 saat boyunca boş bıraktı (eski maçların hepsi bitmişti).
+const STALE_TTL_MS = 10 * 60 * 1000;     // 10 dk
+const FIXTURE_TZ   = 'Europe/Istanbul';
+
+function cacheTtl(data: RemoteFixtures | null): number {
+  try {
+    return data?.date === localDateOf(new Date(), FIXTURE_TZ) ? TTL_MS : STALE_TTL_MS;
+  } catch {
+    return TTL_MS;
+  }
+}
 
 // ─── Uzak dosya tipleri ───────────────────────────────────────────────────────
 
@@ -56,17 +70,20 @@ let _mem: RemoteFixtures | null = null;
 let _memTime = 0;
 
 export async function getRemoteFixtures(): Promise<RemoteFixtures | null> {
-  if (_mem && Date.now() - _memTime < TTL_MS) return _mem;
+  if (_mem && Date.now() - _memTime < cacheTtl(_mem)) return _mem;
 
   try {
     const [timeRaw, dataRaw] = await Promise.all([
       AsyncStorage.getItem(CACHE_TIME),
       AsyncStorage.getItem(CACHE_KEY),
     ]);
-    if (timeRaw && dataRaw && Date.now() - parseInt(timeRaw, 10) < TTL_MS) {
-      _mem     = JSON.parse(dataRaw) as RemoteFixtures;
-      _memTime = parseInt(timeRaw, 10);
-      return _mem;
+    if (timeRaw && dataRaw) {
+      const cached = JSON.parse(dataRaw) as RemoteFixtures;
+      if (Date.now() - parseInt(timeRaw, 10) < cacheTtl(cached)) {
+        _mem     = cached;
+        _memTime = parseInt(timeRaw, 10);
+        return _mem;
+      }
     }
   } catch { /* bozuk önbellek → ağdan çek */ }
 
