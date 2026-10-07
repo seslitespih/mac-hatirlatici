@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-07T05:04:05.000Z",
+ "generated_at": "2026-10-07T10:11:20.000Z",
  "date": "2026-10-07",
  "model": "user-provided",
  "stats": {
-  "total": 30,
-  "withChannel": 30,
+  "total": 31,
+  "withChannel": 31,
   "bySport": {
-   "football": 21,
+   "football": 22,
    "basketball": 9
   },
   "warnings": 0,
@@ -655,6 +655,52 @@
    "sources": []
   },
   {
+   "id": "football-20261007-coquimbo-unido-cobreloa",
+   "sport": "football",
+   "competitionId": "copa_chile",
+   "tier": "regional",
+   "competition": {
+    "tr": "Şili Kupası",
+    "en": "Copa Chile",
+    "de": "Copa Chile",
+    "es": "Copa Chile",
+    "fr": "Coupe du Chili",
+    "it": "Coppa del Cile",
+    "pt": "Copa do Chile",
+    "ar": "كأس تشيلي"
+   },
+   "home": "Coquimbo Unido",
+   "away": "Cobreloa",
+   "homeNames": {
+    "tr": "Coquimbo Unido",
+    "en": "Coquimbo Unido",
+    "de": "Coquimbo Unido",
+    "es": "Coquimbo Unido",
+    "fr": "Coquimbo Unido",
+    "it": "Coquimbo Unido",
+    "pt": "Coquimbo Unido",
+    "ar": "كوكيمبو يونيدو"
+   },
+   "awayNames": {
+    "tr": "Cobreloa",
+    "en": "Cobreloa",
+    "de": "Cobreloa",
+    "es": "Cobreloa",
+    "fr": "Cobreloa",
+    "it": "Cobreloa",
+    "pt": "Cobreloa",
+    "ar": "كوبريلوا"
+   },
+   "kickoffUtc": "2026-10-07T22:00:00Z",
+   "broadcasts": {
+    "CL": [
+     "HBO Max",
+     "TNT Sports Premium"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20261007-avai-londrina",
    "sport": "football",
    "competitionId": "bra_serieb",
@@ -758,7 +804,8 @@
      "Fanatiz"
     ],
     "CL": [
-     "Fanatiz"
+     "Fanatiz",
+     "Fanatiz 1"
     ],
     "PE": [
      "L1 Play",
@@ -773,7 +820,12 @@
      "Fanatiz"
     ],
     "PY": [
-     "Fanatiz"
+     "Fanatiz",
+     "VS Sports"
+    ],
+    "MX": [
+     "Fanatiz",
+     "Azteca Deportes Network"
     ]
    },
    "sources": []
@@ -889,6 +941,9 @@
     ],
     "PY": [
      "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz"
     ]
    },
    "sources": []
@@ -958,6 +1013,9 @@
      "Fanatiz"
     ],
     "PY": [
+     "Fanatiz"
+    ],
+    "MX": [
      "Fanatiz"
     ]
    },
@@ -1165,6 +1223,9 @@
     ],
     "PY": [
      "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz"
     ]
    },
    "sources": []
@@ -1284,6 +1345,9 @@
     "PY": [
      "Fanatiz",
      "Flow"
+    ],
+    "MX": [
+     "Fanatiz"
     ]
    },
    "sources": []
@@ -1474,6 +1538,16 @@
     ],
     "EC": [
      "ECDF App"
+    ],
+    "MX": [
+     "Azteca Deportes Network"
+    ],
+    "CO": [
+     "Win Sports",
+     "Win Play"
+    ],
+    "CL": [
+     "Fanatiz 1"
     ]
    },
    "sources": []
