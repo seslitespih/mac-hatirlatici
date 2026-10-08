@@ -238,6 +238,10 @@ Buna karşılık TR kaynağındaki 00:30 / 01:15 gibi saatler **dünün bitmiş 
   Bundesliga, Ligue 1, Liga Portugal, Süper Lig, Şampiyonlar/Avrupa/Konferans Ligi, Suudi Pro Lig,
   Brasileirão Série A, DFB Pokal, Coppa Italia). Niş yerel ligler `regional`
   (TFF 1. Lig, LaLiga Hypermotion, Ligue 2, Série B, Arjantin Primera División, Liga MX, USL, Azerbaycan PL).
+- **NBA her zaman `global`** (hazırlık maçları dahil). Kullanıcı kararı, 8 Eki 2026: NBA yalnız
+  TR'ye değil herkese gösterilir; kanalı bilinmeyen ülkede kanalsız listelenmesi kabul.
+  Önceki dosyalarda NBA `regional` + yalnız TR kanalıyla girdiği için ABD'li kullanıcı kendi
+  ligini hiç görmüyordu.
 - **Kupalar sahadaki takıma göre:** Suudi Kral Kupası varsayılan `regional`, ama
   Al-Nassr / Al-Hilal / Al-Ittihad / Al-Ahli oynuyorsa `global`.
 
