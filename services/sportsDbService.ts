@@ -45,7 +45,6 @@ export const COUNTRY_TZ: Record<string, string> = {
   CA: 'America/Toronto',
   SA: 'Asia/Riyadh',
   QA: 'Asia/Qatar',
-  IR: 'Asia/Tehran',
   JP: 'Asia/Tokyo',
   KR: 'Asia/Seoul',
   AU: 'Australia/Sydney',

@@ -32,7 +32,6 @@ export const SUPPORTED_COUNTRIES: CountryInfo[] = [
   { code: 'NZ', name: 'New Zealand',    englishName: 'New Zealand',    flag: '🇳🇿', timezone: 'Pacific/Auckland',         language: 'en' },
   { code: 'KR', name: '대한민국',        englishName: 'South Korea',    flag: '🇰🇷', timezone: 'Asia/Seoul',              language: 'en' },
   { code: 'JP', name: '日本',            englishName: 'Japan',          flag: '🇯🇵', timezone: 'Asia/Tokyo',              language: 'en' },
-  { code: 'IR', name: 'ایران',          englishName: 'Iran',           flag: '🇮🇷', timezone: 'Asia/Tehran',             language: 'en' },
   { code: 'NO', name: 'Norge',          englishName: 'Norway',         flag: '🇳🇴', timezone: 'Europe/Oslo',             language: 'en' },
   { code: 'HR', name: 'Hrvatska',       englishName: 'Croatia',        flag: '🇭🇷', timezone: 'Europe/Zagreb',           language: 'en' },
   { code: 'CZ', name: 'Česko',          englishName: 'Czechia',        flag: '🇨🇿', timezone: 'Europe/Prague',           language: 'en' },
