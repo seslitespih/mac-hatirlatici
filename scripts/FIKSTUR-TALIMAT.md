@@ -155,6 +155,13 @@ favorisinde). Ölçüt turnuvanın büyüklüğü değil, takımın uygulamada s
 NBA · FIBA milli takım turnuvaları (**kadınlar dahil**) · CEV Avrupa Şampiyonası ·
 Efeler/Sultanlar Ligi · CEV kulüp kupaları. Kısacası: uygulamada o dalın takımı varsa girer.
 
+🏀 **NBA'i ELLE GİRME — `node scripts/nba.mjs` yapar** (8 Eki 2026). Betik ESPN'in açık maç
+programından günün NBA maçlarını ekler, TR kaynağından gelmiş NBA kaydını bulup tamamlar,
+`tier: global` yapar, ABD kanalını maç maç ESPN'den, diğer ülkeleri `scripts/nba-yayincilar.json`
+tablosundan yazar. Bir ülkede kanal zaten varsa (TR kaynağının "Prime Video"su gibi) dokunmaz.
+Takım adını kısa yazar ("Lakers", "Warriors") — uygulama favoriyi bu adla eşler. Kredi harcamaz;
+NBA için web araması YAPMA. Betik "UYARI: ESPN'e ulaşılamadı" derse NBA'i bu turda atla.
+
 🏷️ **KULÜP ADI O DALIN MARKASIYLA YAZILIR — yoksa futbol takımına bildirim gider.**
 Uygulama da push sunucusu da favori eşleşmesini YALNIZ ada bakarak yapar
 (`norm(ad) === takimId`); spor dalına BAKMAZ. Dosyaya "Barcelona" yazarsan, futbol için
@@ -331,6 +338,7 @@ mevcut kanalları koru, yalnız eksikleri doldur ve biten maçları çıkar.
 ## 7. Push
 
 ```
+node scripts/nba.mjs              # NBA maclari + kanallari (ESPN + nba-yayincilar.json)
 node scripts/filtre.mjs           # kadin futbolunu ayiklar
 node scripts/kapsam-kontrol.mjs   # dal butunlugu — cikis kodu 1 ise PUSH ETME, eksigi tamamla
 git add assets/matches-daily.json
