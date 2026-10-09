@@ -1,13 +1,14 @@
 {
- "generated_at": "2026-10-07T22:18:18.000Z",
- "date": "2026-10-08",
+ "generated_at": "2026-10-09T06:27:34.000Z",
+ "date": "2026-10-09",
  "model": "user-provided",
  "stats": {
-  "total": 47,
-  "withChannel": 47,
+  "total": 51,
+  "withChannel": 51,
   "bySport": {
-   "football": 27,
-   "basketball": 17,
+   "motorsport": 4,
+   "basketball": 5,
+   "football": 39,
    "volleyball": 3
   },
   "warnings": 0,
@@ -15,331 +16,149 @@
  },
  "matches": [
   {
-   "id": "football-20261007-avai-londrina",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Série B",
-    "de": "Brasilianische Série B",
-    "es": "Serie B de Brasil",
-    "fr": "Série B brésilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Avai",
-   "away": "Londrina",
-   "homeNames": {
-    "tr": "Avaí",
-    "en": "Avaí",
-    "de": "Avaí",
-    "es": "Avaí",
-    "fr": "Avaí",
-    "it": "Avaí",
-    "pt": "Avaí",
-    "ar": "أفاي"
-   },
-   "awayNames": {
-    "tr": "Londrina",
-    "en": "Londrina",
-    "de": "Londrina",
-    "es": "Londrina",
-    "fr": "Londrina",
-    "it": "Londrina",
-    "pt": "Londrina",
-    "ar": "لوندرينا"
-   },
-   "kickoffUtc": "2026-10-07T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261007-internacional-corinthians",
-   "sport": "football",
-   "competitionId": "bra_seriea",
+   "id": "motorsport-20261009-motogp-endonezya-gp-1-antrenman",
+   "sport": "motorsport",
+   "competitionId": "motogp",
    "tier": "global",
    "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
+    "tr": "MotoGP",
+    "en": "MotoGP",
+    "de": "MotoGP",
+    "es": "MotoGP",
+    "fr": "MotoGP",
+    "it": "MotoGP",
+    "pt": "MotoGP",
+    "ar": "موتو جي بي"
    },
-   "home": "Internacional",
-   "away": "Corinthians",
+   "home": "MotoGP Endonezya GP",
+   "away": "1. Antrenman",
    "homeNames": {
-    "tr": "Internacional",
-    "en": "Internacional",
-    "de": "Internacional",
-    "es": "Internacional",
-    "fr": "Internacional",
-    "it": "Internacional",
-    "pt": "Internacional",
-    "ar": "إنترناسيونال"
+    "tr": "MotoGP Endonezya GP",
+    "en": "MotoGP Indonesian GP",
+    "de": "MotoGP Indonesien-GP",
+    "es": "MotoGP GP de Indonesia",
+    "fr": "MotoGP GP d'Indonésie",
+    "it": "MotoGP GP d'Indonesia",
+    "pt": "MotoGP GP da Indonésia",
+    "ar": "موتو جي بي - جائزة إندونيسيا"
    },
    "awayNames": {
-    "tr": "Corinthians",
-    "en": "Corinthians",
-    "de": "Corinthians",
-    "es": "Corinthians",
-    "fr": "Corinthians",
-    "it": "Corinthians",
-    "pt": "Corinthians",
-    "ar": "كورينثيانز"
+    "tr": "1. Antrenman",
+    "en": "Practice 1",
+    "de": "1. Freies Training",
+    "es": "Práctica 1",
+    "fr": "Essais libres 1",
+    "it": "Prove libere 1",
+    "pt": "Treino livre 1",
+    "ar": "التجربة الحرة 1"
    },
-   "kickoffUtc": "2026-10-07T22:30:00Z",
+   "kickoffUtc": "2026-10-09T02:45:00Z",
    "broadcasts": {
-    "BR": [
-     "Record",
-     "Premiere 2",
-     "CazéTV"
-    ],
-    "DE": [
-     "Sportdigital FUSSBALL",
-     "Sportdigital+"
-    ],
-    "ES": [
-     "Fanatiz",
-     "M+ Vamos"
-    ],
-    "PT": [
-     "Fanatiz"
-    ],
-    "CO": [
-     "Fanatiz"
-    ],
-    "CL": [
-     "Fanatiz",
-     "Fanatiz 1"
-    ],
-    "PE": [
-     "L1 Play",
-     "Fanatiz"
-    ],
-    "UY": [
-     "RecordTV",
-     "Fanatiz"
-    ],
-    "EC": [
-     "ECDF App",
-     "Fanatiz"
-    ],
-    "PY": [
-     "Fanatiz",
-     "VS Sports"
-    ],
-    "MX": [
-     "Fanatiz",
-     "Azteca Deportes Network"
+    "TR": [
+     "Motosiklet",
+     "S Sport Plus",
+     "S Sport"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261007-operario-pr-botafogo-sp",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Série B",
-    "de": "Brasilianische Série B",
-    "es": "Serie B de Brasil",
-    "fr": "Série B brésilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Operario-PR",
-   "away": "Botafogo-SP",
-   "homeNames": {
-    "tr": "Operário-PR",
-    "en": "Operário-PR",
-    "de": "Operário-PR",
-    "es": "Operário-PR",
-    "fr": "Operário-PR",
-    "it": "Operário-PR",
-    "pt": "Operário-PR",
-    "ar": "أوبيراريو"
-   },
-   "awayNames": {
-    "tr": "Botafogo-SP",
-    "en": "Botafogo-SP",
-    "de": "Botafogo-SP",
-    "es": "Botafogo-SP",
-    "fr": "Botafogo-SP",
-    "it": "Botafogo-SP",
-    "pt": "Botafogo-SP",
-    "ar": "بوتافوغو إس بي"
-   },
-   "kickoffUtc": "2026-10-07T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261007-rb-bragantino-mirassol",
-   "sport": "football",
-   "competitionId": "bra_seriea",
+   "id": "motorsport-20261009-motogp-endonezya-gp-antrenman",
+   "sport": "motorsport",
+   "competitionId": "motogp",
    "tier": "global",
    "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
+    "tr": "MotoGP",
+    "en": "MotoGP",
+    "de": "MotoGP",
+    "es": "MotoGP",
+    "fr": "MotoGP",
+    "it": "MotoGP",
+    "pt": "MotoGP",
+    "ar": "موتو جي بي"
    },
-   "home": "RB Bragantino",
-   "away": "Mirassol",
+   "home": "MotoGP Endonezya GP",
+   "away": "Antrenman",
    "homeNames": {
-    "tr": "RB Bragantino",
-    "en": "RB Bragantino",
-    "de": "RB Bragantino",
-    "es": "RB Bragantino",
-    "fr": "RB Bragantino",
-    "it": "RB Bragantino",
-    "pt": "RB Bragantino",
-    "ar": "براغانتينو"
+    "tr": "MotoGP Endonezya GP",
+    "en": "MotoGP Indonesian GP",
+    "de": "MotoGP Indonesien-GP",
+    "es": "MotoGP GP de Indonesia",
+    "fr": "MotoGP GP d'Indonésie",
+    "it": "MotoGP GP d'Indonesia",
+    "pt": "MotoGP GP da Indonésia",
+    "ar": "موتو جي بي - جائزة إندونيسيا"
    },
    "awayNames": {
-    "tr": "Mirassol",
-    "en": "Mirassol",
-    "de": "Mirassol",
-    "es": "Mirassol",
-    "fr": "Mirassol",
-    "it": "Mirassol",
-    "pt": "Mirassol",
-    "ar": "ميراسول"
+    "tr": "Antrenman",
+    "en": "Practice",
+    "de": "Training",
+    "es": "Práctica",
+    "fr": "Essais",
+    "it": "Prove",
+    "pt": "Treino",
+    "ar": "التجارب"
    },
-   "kickoffUtc": "2026-10-07T22:30:00Z",
+   "kickoffUtc": "2026-10-09T07:00:00Z",
    "broadcasts": {
-    "BR": [
-     "Premiere 5"
-    ],
-    "ES": [
-     "Fanatiz"
-    ],
-    "PT": [
-     "Fanatiz"
-    ],
-    "CO": [
-     "Fanatiz"
-    ],
-    "CL": [
-     "Fanatiz"
-    ],
-    "PE": [
-     "L1 Play",
-     "Fanatiz"
-    ],
-    "UY": [
-     "Fanatiz"
-    ],
-    "EC": [
-     "Fanatiz"
-    ],
-    "PY": [
-     "Fanatiz"
-    ],
-    "MX": [
-     "Fanatiz"
+    "TR": [
+     "Motosiklet",
+     "S Sport Plus",
+     "S Sport"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261007-remo-gremio",
-   "sport": "football",
-   "competitionId": "bra_seriea",
+   "id": "motorsport-20261009-formula-1-singapur-gp-1-antrenman",
+   "sport": "motorsport",
+   "competitionId": "f1",
    "tier": "global",
    "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
+    "tr": "Formula 1",
+    "en": "Formula 1",
+    "de": "Formel 1",
+    "es": "Fórmula 1",
+    "fr": "Formule 1",
+    "it": "Formula 1",
+    "pt": "Fórmula 1",
+    "ar": "الفورمولا 1"
    },
-   "home": "Remo",
-   "away": "Gremio",
+   "home": "Formula 1 Singapur GP",
+   "away": "1. Antrenman",
    "homeNames": {
-    "tr": "Remo",
-    "en": "Remo",
-    "de": "Remo",
-    "es": "Remo",
-    "fr": "Remo",
-    "it": "Remo",
-    "pt": "Remo",
-    "ar": "ريمو"
+    "tr": "Formula 1 Singapur GP",
+    "en": "Formula 1 Singapore GP",
+    "de": "Formel 1 Singapur-GP",
+    "es": "Fórmula 1 GP de Singapur",
+    "fr": "Formule 1 GP de Singapour",
+    "it": "Formula 1 GP di Singapore",
+    "pt": "Fórmula 1 GP de Singapura",
+    "ar": "الفورمولا 1 - جائزة سنغافورة"
    },
    "awayNames": {
-    "tr": "Grêmio",
-    "en": "Grêmio",
-    "de": "Grêmio",
-    "es": "Grêmio",
-    "fr": "Grêmio",
-    "it": "Grêmio",
-    "pt": "Grêmio",
-    "ar": "جريميو"
+    "tr": "1. Antrenman",
+    "en": "Practice 1",
+    "de": "1. Freies Training",
+    "es": "Práctica 1",
+    "fr": "Essais libres 1",
+    "it": "Prove libere 1",
+    "pt": "Treino livre 1",
+    "ar": "التجربة الحرة 1"
    },
-   "kickoffUtc": "2026-10-07T22:30:00Z",
+   "kickoffUtc": "2026-10-09T08:30:00Z",
    "broadcasts": {
-    "BR": [
-     "Premiere 4"
-    ],
-    "ES": [
-     "Fanatiz"
-    ],
-    "PT": [
-     "Fanatiz"
-    ],
-    "CO": [
-     "Fanatiz"
-    ],
-    "CL": [
-     "Fanatiz"
-    ],
-    "PE": [
-     "L1 Play",
-     "Fanatiz"
-    ],
-    "UY": [
-     "Fanatiz"
-    ],
-    "EC": [
-     "Fanatiz"
-    ],
-    "PY": [
-     "Fanatiz"
-    ],
-    "MX": [
-     "Fanatiz"
+    "TR": [
+     "beIN Sports 4"
     ]
    },
    "sources": []
   },
   {
-   "id": "basketball-20261007-indiana-pacers-minnesota-timberwolves",
+   "id": "basketball-20261009-dallas-mavericks-houston-rockets",
    "sport": "basketball",
    "competitionId": "nba",
-   "tier": "regional",
+   "tier": "global",
    "competition": {
     "tr": "NBA Hazırlık Maçları",
     "en": "NBA Preseason",
@@ -350,452 +169,1244 @@
     "pt": "Pré-temporada da NBA",
     "ar": "مباريات NBA التحضيرية"
    },
-   "home": "Indiana Pacers",
-   "away": "Minnesota Timberwolves",
+   "home": "Mavericks",
+   "away": "Rockets",
    "homeNames": {
-    "tr": "Indiana Pacers",
-    "en": "Indiana Pacers",
-    "de": "Indiana Pacers",
-    "es": "Indiana Pacers",
-    "fr": "Indiana Pacers",
-    "it": "Indiana Pacers",
-    "pt": "Indiana Pacers",
-    "ar": "إنديانا بيسرز"
+    "tr": "Dallas Mavericks",
+    "en": "Dallas Mavericks",
+    "de": "Dallas Mavericks",
+    "es": "Dallas Mavericks",
+    "fr": "Dallas Mavericks",
+    "it": "Dallas Mavericks",
+    "pt": "Dallas Mavericks",
+    "ar": "دالاس مافريكس"
    },
    "awayNames": {
-    "tr": "Minnesota Timberwolves",
-    "en": "Minnesota Timberwolves",
-    "de": "Minnesota Timberwolves",
-    "es": "Minnesota Timberwolves",
-    "fr": "Minnesota Timberwolves",
-    "it": "Minnesota Timberwolves",
-    "pt": "Minnesota Timberwolves",
-    "ar": "مينيسوتا تمبروولفز"
+    "tr": "Houston Rockets",
+    "en": "Houston Rockets",
+    "de": "Houston Rockets",
+    "es": "Houston Rockets",
+    "fr": "Houston Rockets",
+    "it": "Houston Rockets",
+    "pt": "Houston Rockets",
+    "ar": "هيوستن روكتس"
    },
-   "kickoffUtc": "2026-10-07T23:00:00Z",
+   "kickoffUtc": "2026-10-09T12:00:00Z",
    "broadcasts": {
     "TR": [
      "Prime Video"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261007-fc-naples-richmond-kickers",
-   "sport": "football",
-   "competitionId": "usl1",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL League One",
-    "en": "USL League One",
-    "de": "USL League One",
-    "es": "USL League One",
-    "fr": "USL League One",
-    "it": "USL League One",
-    "pt": "USL League One",
-    "ar": "دوري USL الأولى"
-   },
-   "home": "FC Naples",
-   "away": "Richmond Kickers",
-   "homeNames": {
-    "tr": "FC Naples",
-    "en": "FC Naples",
-    "de": "FC Naples",
-    "es": "FC Naples",
-    "fr": "FC Naples",
-    "it": "FC Naples",
-    "pt": "FC Naples",
-    "ar": "نابولز"
-   },
-   "awayNames": {
-    "tr": "Richmond Kickers",
-    "en": "Richmond Kickers",
-    "de": "Richmond Kickers",
-    "es": "Richmond Kickers",
-    "fr": "Richmond Kickers",
-    "it": "Richmond Kickers",
-    "pt": "Richmond Kickers",
-    "ar": "ريتشموند كيكرز"
-   },
-   "kickoffUtc": "2026-10-07T23:00:00Z",
-   "broadcasts": {
+    ],
     "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261007-one-knoxville-sc-chattanooga-red-wolves",
-   "sport": "football",
-   "competitionId": "usl1",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL League One",
-    "en": "USL League One",
-    "de": "USL League One",
-    "es": "USL League One",
-    "fr": "USL League One",
-    "it": "USL League One",
-    "pt": "USL League One",
-    "ar": "دوري USL الأولى"
-   },
-   "home": "One Knoxville SC",
-   "away": "Chattanooga Red Wolves",
-   "homeNames": {
-    "tr": "One Knoxville SC",
-    "en": "One Knoxville SC",
-    "de": "One Knoxville SC",
-    "es": "One Knoxville SC",
-    "fr": "One Knoxville SC",
-    "it": "One Knoxville SC",
-    "pt": "One Knoxville SC",
-    "ar": "One Knoxville SC"
-   },
-   "awayNames": {
-    "tr": "Chattanooga Red Wolves",
-    "en": "Chattanooga Red Wolves",
-    "de": "Chattanooga Red Wolves",
-    "es": "Chattanooga Red Wolves",
-    "fr": "Chattanooga Red Wolves",
-    "it": "Chattanooga Red Wolves",
-    "pt": "Chattanooga Red Wolves",
-    "ar": "تشاتانوغا ريد وولفز"
-   },
-   "kickoffUtc": "2026-10-07T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261007-plaza-colonia-juventud",
-   "sport": "football",
-   "competitionId": "copa_auf",
-   "tier": "regional",
-   "competition": {
-    "tr": "Uruguay Kupası",
-    "en": "Copa AUF Uruguay",
-    "de": "Copa AUF Uruguay",
-    "es": "Copa AUF Uruguay",
-    "fr": "Copa AUF Uruguay",
-    "it": "Copa AUF Uruguay",
-    "pt": "Copa AUF Uruguai",
-    "ar": "كأس أوروغواي"
-   },
-   "home": "Plaza Colonia",
-   "away": "Juventud",
-   "homeNames": {
-    "tr": "Plaza Colonia",
-    "en": "Plaza Colonia",
-    "de": "Plaza Colonia",
-    "es": "Plaza Colonia",
-    "fr": "Plaza Colonia",
-    "it": "Plaza Colonia",
-    "pt": "Plaza Colonia",
-    "ar": "بلازا كولونيا"
-   },
-   "awayNames": {
-    "tr": "Juventud de Las Piedras",
-    "en": "Juventud de Las Piedras",
-    "de": "Juventud de Las Piedras",
-    "es": "Juventud de Las Piedras",
-    "fr": "Juventud de Las Piedras",
-    "it": "Juventud de Las Piedras",
-    "pt": "Juventud de Las Piedras",
-    "ar": "خوفنتود"
-   },
-   "kickoffUtc": "2026-10-07T23:00:00Z",
-   "broadcasts": {
-    "UY": [
-     "DSports Uruguay",
-     "DGO"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261007-vitoria-chapecoense",
-   "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
-   },
-   "home": "Vitoria",
-   "away": "Chapecoense",
-   "homeNames": {
-    "tr": "Vitória",
-    "en": "Vitória",
-    "de": "Vitória",
-    "es": "Vitória",
-    "fr": "Vitória",
-    "it": "Vitória",
-    "pt": "Vitória",
-    "ar": "فيتوريا"
-   },
-   "awayNames": {
-    "tr": "Chapecoense",
-    "en": "Chapecoense",
-    "de": "Chapecoense",
-    "es": "Chapecoense",
-    "fr": "Chapecoense",
-    "it": "Chapecoense",
-    "pt": "Chapecoense",
-    "ar": "تشابيكوينسي"
-   },
-   "kickoffUtc": "2026-10-07T23:00:00Z",
-   "broadcasts": {
-    "BR": [
-     "Premiere 3"
+     "NBA TV"
+    ],
+    "GB": [
+     "Sky Sports",
+     "Prime Video",
+     "NBA League Pass"
     ],
     "ES": [
-     "Fanatiz"
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
     ],
     "PT": [
-     "Fanatiz"
+     "Sport TV",
+     "Prime Video",
+     "NBA League Pass"
     ],
-    "CO": [
-     "Fanatiz"
+    "FR": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
     ],
-    "CL": [
-     "Fanatiz"
+    "DE": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
     ],
-    "PE": [
-     "L1 Play",
-     "Fanatiz"
+    "AT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
     ],
-    "UY": [
-     "Fanatiz"
+    "CH": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
     ],
-    "EC": [
-     "Fanatiz"
+    "IT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
     ],
-    "PY": [
-     "Fanatiz"
+    "BE": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
     ],
-    "MX": [
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261007-america-mg-fortaleza",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Série B",
-    "de": "Brasilianische Série B",
-    "es": "Serie B de Brasil",
-    "fr": "Série B brésilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "America-MG",
-   "away": "Fortaleza",
-   "homeNames": {
-    "tr": "América-MG",
-    "en": "América-MG",
-    "de": "América-MG",
-    "es": "América-MG",
-    "fr": "América-MG",
-    "it": "América-MG",
-    "pt": "América-MG",
-    "ar": "أميركا مينيرو"
-   },
-   "awayNames": {
-    "tr": "Fortaleza",
-    "en": "Fortaleza",
-    "de": "Fortaleza",
-    "es": "Fortaleza",
-    "fr": "Fortaleza",
-    "it": "Fortaleza",
-    "pt": "Fortaleza",
-    "ar": "فورتاليزا"
-   },
-   "kickoffUtc": "2026-10-07T23:30:00Z",
-   "broadcasts": {
+    "NL": [
+     "ESPN",
+     "NBA League Pass"
+    ],
+    "HR": [
+     "Sport Klub",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NO": [
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CZ": [
+     "Nova Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
     "BR": [
      "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MX": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AR": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CO": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CL": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PE": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "UY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "EC": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CA": [
+     "TSN",
+     "Sportsnet",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "SA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "QA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AE": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "EG": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DZ": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "TN": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "JP": [
+     "Lemino",
+     "Prime Video",
+     "WOWOW"
+    ],
+    "KR": [
+     "Coupang Play",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AU": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NZ": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ZA": [
+     "SuperSport",
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NG": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "GH": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "SN": [
+     "Canal+ Sport",
+     "NBA League Pass"
+    ]
+   },
+   "sources": [
+    "espn"
+   ]
+  },
+  {
+   "id": "football-20261009-araz-kapaz",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premier Ligi",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Liga Premier do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Araz",
+   "away": "Kapaz",
+   "homeNames": {
+    "tr": "Araz",
+    "en": "Araz",
+    "de": "Araz",
+    "es": "Araz",
+    "fr": "Araz",
+    "it": "Araz",
+    "pt": "Araz",
+    "ar": "أراز"
+   },
+   "awayNames": {
+    "tr": "Kapaz",
+    "en": "Kapaz",
+    "de": "Kapaz",
+    "es": "Kapaz",
+    "fr": "Kapaz",
+    "it": "Kapaz",
+    "pt": "Kapaz",
+    "ar": "كاباز"
+   },
+   "kickoffUtc": "2026-10-09T12:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "CBC Sport"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-veres-rivne-shakhtar-donetsk",
+   "sport": "football",
+   "competitionId": "ukr_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Ukrayna Premier Ligi",
+    "en": "Ukrainian Premier League",
+    "de": "Ukrainische Premier League",
+    "es": "Liga Premier de Ucrania",
+    "fr": "Premier League ukrainienne",
+    "it": "Premier League ucraina",
+    "pt": "Liga Premier da Ucrânia",
+    "ar": "الدوري الأوكراني"
+   },
+   "home": "Veres Rivne",
+   "away": "Shakhtar Donetsk",
+   "homeNames": {
+    "tr": "Veres Rivne",
+    "en": "Veres Rivne",
+    "de": "Veres Rivne",
+    "es": "Veres Rivne",
+    "fr": "Veres Rivne",
+    "it": "Veres Rivne",
+    "pt": "Veres Rivne",
+    "ar": "فيريس ريفني"
+   },
+   "awayNames": {
+    "tr": "Şahtar Donetsk",
+    "en": "Shakhtar Donetsk",
+    "de": "Schachtar Donezk",
+    "es": "Shakhtar Donetsk",
+    "fr": "Chakhtar Donetsk",
+    "it": "Shakhtar Donetsk",
+    "pt": "Shakhtar Donetsk",
+    "ar": "شاختار دونيتسك"
+   },
+   "kickoffUtc": "2026-10-09T12:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Tivibu Spor 1"
+    ],
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "PT": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "motorsport-20261009-formula-1-singapur-gp-sprint-siralama",
+   "sport": "motorsport",
+   "competitionId": "f1",
+   "tier": "global",
+   "competition": {
+    "tr": "Formula 1",
+    "en": "Formula 1",
+    "de": "Formel 1",
+    "es": "Fórmula 1",
+    "fr": "Formule 1",
+    "it": "Formula 1",
+    "pt": "Fórmula 1",
+    "ar": "الفورمولا 1"
+   },
+   "home": "Formula 1 Singapur GP",
+   "away": "Sprint Siralama",
+   "homeNames": {
+    "tr": "Formula 1 Singapur GP",
+    "en": "Formula 1 Singapore GP",
+    "de": "Formel 1 Singapur-GP",
+    "es": "Fórmula 1 GP de Singapur",
+    "fr": "Formule 1 GP de Singapour",
+    "it": "Formula 1 GP di Singapore",
+    "pt": "Fórmula 1 GP de Singapura",
+    "ar": "الفورمولا 1 - جائزة سنغافورة"
+   },
+   "awayNames": {
+    "tr": "Sprint Sıralama",
+    "en": "Sprint Qualifying",
+    "de": "Sprint-Qualifying",
+    "es": "Clasificación Sprint",
+    "fr": "Qualifications Sprint",
+    "it": "Qualifiche Sprint",
+    "pt": "Classificação Sprint",
+    "ar": "التجارب التأهيلية للسباق السريع"
+   },
+   "kickoffUtc": "2026-10-09T12:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 4"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "volleyball-20261009-istanbul-bb-istanbul-genclik",
+   "sport": "volleyball",
+   "competitionId": "tvf_erkek_kupa",
+   "tier": "regional",
+   "competition": {
+    "tr": "TVF Erkekler Kupa Voley",
+    "en": "Turkish Men's Volleyball Cup",
+    "de": "Türkischer Volleyball-Pokal (Männer)",
+    "es": "Copa de Turquía de Voleibol Masculino",
+    "fr": "Coupe de Turquie de volley-ball masculin",
+    "it": "Coppa di Turchia di pallavolo maschile",
+    "pt": "Taça da Turquia de Voleibol Masculino",
+    "ar": "كأس تركيا للكرة الطائرة للرجال"
+   },
+   "home": "Istanbul BB",
+   "away": "Istanbul Genclik",
+   "homeNames": {
+    "tr": "İstanbul BB",
+    "en": "İstanbul BB",
+    "de": "İstanbul BB",
+    "es": "İstanbul BB",
+    "fr": "İstanbul BB",
+    "it": "İstanbul BB",
+    "pt": "İstanbul BB",
+    "ar": "İstanbul BB"
+   },
+   "awayNames": {
+    "tr": "İstanbul Gençlik",
+    "en": "İstanbul Gençlik",
+    "de": "İstanbul Gençlik",
+    "es": "İstanbul Gençlik",
+    "fr": "İstanbul Gençlik",
+    "it": "İstanbul Gençlik",
+    "pt": "İstanbul Gençlik",
+    "ar": "İstanbul Gençlik"
+   },
+   "kickoffUtc": "2026-10-09T13:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TVF Voleybol TV YouTube"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "volleyball-20261009-onikisubat-bld-tfl-altekma",
+   "sport": "volleyball",
+   "competitionId": "tvf_erkek_kupa",
+   "tier": "regional",
+   "competition": {
+    "tr": "TVF Erkekler Kupa Voley",
+    "en": "Turkish Men's Volleyball Cup",
+    "de": "Türkischer Volleyball-Pokal (Männer)",
+    "es": "Copa de Turquía de Voleibol Masculino",
+    "fr": "Coupe de Turquie de volley-ball masculin",
+    "it": "Coppa di Turchia di pallavolo maschile",
+    "pt": "Taça da Turquia de Voleibol Masculino",
+    "ar": "كأس تركيا للكرة الطائرة للرجال"
+   },
+   "home": "Onikisubat Bld",
+   "away": "TFL Altekma",
+   "homeNames": {
+    "tr": "Onikişubat Bld.",
+    "en": "Onikişubat Bld.",
+    "de": "Onikişubat Bld.",
+    "es": "Onikişubat Bld.",
+    "fr": "Onikişubat Bld.",
+    "it": "Onikişubat Bld.",
+    "pt": "Onikişubat Bld.",
+    "ar": "Onikişubat Bld."
+   },
+   "awayNames": {
+    "tr": "TFL Altekma",
+    "en": "TFL Altekma",
+    "de": "TFL Altekma",
+    "es": "TFL Altekma",
+    "fr": "TFL Altekma",
+    "it": "TFL Altekma",
+    "pt": "TFL Altekma",
+    "ar": "TFL Altekma"
+   },
+   "kickoffUtc": "2026-10-09T13:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-al-kholood-al-qadsiah",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "global",
+   "competition": {
+    "tr": "Suudi Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Liga Saudita",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al Kholood",
+   "away": "Al Qadsiah",
+   "homeNames": {
+    "tr": "Al Kholood",
+    "en": "Al Kholood",
+    "de": "Al Kholood",
+    "es": "Al Kholood",
+    "fr": "Al Kholood",
+    "it": "Al Kholood",
+    "pt": "Al Kholood",
+    "ar": "الخلود"
+   },
+   "awayNames": {
+    "tr": "Al Qadsiah",
+    "en": "Al Qadsiah",
+    "de": "Al Qadsiah",
+    "es": "Al Qadsiah",
+    "fr": "Al Qadsiah",
+    "it": "Al Qadsiah",
+    "pt": "Al Qadsiah",
+    "ar": "القادسية"
+   },
+   "kickoffUtc": "2026-10-09T13:50:00Z",
+   "broadcasts": {
+    "ES": [
+     "M+ Vamos 2",
+     "M+ Liga de Campeones"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "FR": [
+     "DAZN"
+    ],
+    "US": [
+     "FOX Deportes",
+     "Fubo Latino"
+    ],
+    "BR": [
+     "XSports",
+     "Canal GOAT"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-bodrumspor-keciorengucu",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Liga",
+    "es": "Primera División TFF",
+    "fr": "TFF 1re Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "دوري الدرجة الأولى التركي"
+   },
+   "home": "Bodrumspor",
+   "away": "Keciorengucu",
+   "homeNames": {
+    "tr": "Bodrumspor",
+    "en": "Bodrumspor",
+    "de": "Bodrumspor",
+    "es": "Bodrumspor",
+    "fr": "Bodrumspor",
+    "it": "Bodrumspor",
+    "pt": "Bodrumspor",
+    "ar": "بودروم سبور"
+   },
+   "awayNames": {
+    "tr": "Keçiörengücü",
+    "en": "Keçiörengücü",
+    "de": "Keçiörengücü",
+    "es": "Keçiörengücü",
+    "fr": "Keçiörengücü",
+    "it": "Keçiörengücü",
+    "pt": "Keçiörengücü",
+    "ar": "Keçiörengücü"
+   },
+   "kickoffUtc": "2026-10-09T14:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor 6",
+     "beIN Sports 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-sivasspor-pendikspor",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Liga",
+    "es": "Primera División TFF",
+    "fr": "TFF 1re Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "دوري الدرجة الأولى التركي"
+   },
+   "home": "Sivasspor",
+   "away": "Pendikspor",
+   "homeNames": {
+    "tr": "Sivasspor",
+    "en": "Sivasspor",
+    "de": "Sivasspor",
+    "es": "Sivasspor",
+    "fr": "Sivasspor",
+    "it": "Sivasspor",
+    "pt": "Sivasspor",
+    "ar": "سيفاس سبور"
+   },
+   "awayNames": {
+    "tr": "Pendikspor",
+    "en": "Pendikspor",
+    "de": "Pendikspor",
+    "es": "Pendikspor",
+    "fr": "Pendikspor",
+    "it": "Pendikspor",
+    "pt": "Pendikspor",
+    "ar": "بنديك سبور"
+   },
+   "kickoffUtc": "2026-10-09T14:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor",
+     "beIN Sports Max 1"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-al-fateh-al-ahli",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "global",
+   "competition": {
+    "tr": "Suudi Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Liga Saudita",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al Fateh",
+   "away": "Al Ahli",
+   "homeNames": {
+    "tr": "Al Fateh",
+    "en": "Al Fateh",
+    "de": "Al Fateh",
+    "es": "Al Fateh",
+    "fr": "Al Fateh",
+    "it": "Al Fateh",
+    "pt": "Al Fateh",
+    "ar": "الفتح"
+   },
+   "awayNames": {
+    "tr": "Al Ahli",
+    "en": "Al Ahli",
+    "de": "Al Ahli",
+    "es": "Al Ahli",
+    "fr": "Al Ahli",
+    "it": "Al Ahli",
+    "pt": "Al Ahli",
+    "ar": "الأهلي"
+   },
+   "kickoffUtc": "2026-10-09T14:55:00Z",
+   "broadcasts": {
+    "GB": [
+     "Saudi Pro League YouTube"
+    ],
+    "ES": [
+     "OneFootball"
+    ],
+    "PT": [
+     "OneFootball",
+     "Sport TV 1"
+    ],
+    "DE": [
+     "DAZN",
+     "Sportdigital FUSSBALL2",
+     "Sportdigital+"
+    ],
+    "FR": [
+     "DAZN"
+    ],
+    "US": [
+     "FS2",
+     "Fubo"
+    ],
+    "BR": [
+     "Canal GOAT",
+     "OneFootball"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-neftci-baku-sabah",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premier Ligi",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Liga Premier do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Neftci Baku",
+   "away": "Sabah",
+   "homeNames": {
+    "tr": "Neftçi Bakü",
+    "en": "Neftçi Baku",
+    "de": "Neftçi Baku",
+    "es": "Neftçi Bakú",
+    "fr": "Neftçi Bakou",
+    "it": "Neftçi Baku",
+    "pt": "Neftçi Baku",
+    "ar": "نفتشي باكو"
+   },
+   "awayNames": {
+    "tr": "Sabah",
+    "en": "Sabah FK",
+    "de": "Sabah FK",
+    "es": "Sabah FK",
+    "fr": "Sabah FK",
+    "it": "Sabah FK",
+    "pt": "Sabah FK",
+    "ar": "صباح"
+   },
+   "kickoffUtc": "2026-10-09T15:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV",
+     "CBC Sport"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "volleyball-20261009-sungurlu-bld-sultanbeyli-bld",
+   "sport": "volleyball",
+   "competitionId": "tvf_erkek_kupa",
+   "tier": "regional",
+   "competition": {
+    "tr": "TVF Erkekler Kupa Voley",
+    "en": "Turkish Men's Volleyball Cup",
+    "de": "Türkischer Volleyball-Pokal (Männer)",
+    "es": "Copa de Turquía de Voleibol Masculino",
+    "fr": "Coupe de Turquie de volley-ball masculin",
+    "it": "Coppa di Turchia di pallavolo maschile",
+    "pt": "Taça da Turquia de Voleibol Masculino",
+    "ar": "كأس تركيا للكرة الطائرة للرجال"
+   },
+   "home": "Sungurlu Bld",
+   "away": "Sultanbeyli Bld",
+   "homeNames": {
+    "tr": "Sungurlu Bld.",
+    "en": "Sungurlu Bld.",
+    "de": "Sungurlu Bld.",
+    "es": "Sungurlu Bld.",
+    "fr": "Sungurlu Bld.",
+    "it": "Sungurlu Bld.",
+    "pt": "Sungurlu Bld.",
+    "ar": "Sungurlu Bld."
+   },
+   "awayNames": {
+    "tr": "Sultanbeyli Bld.",
+    "en": "Sultanbeyli Bld.",
+    "de": "Sultanbeyli Bld.",
+    "es": "Sultanbeyli Bld.",
+    "fr": "Sultanbeyli Bld.",
+    "it": "Sultanbeyli Bld.",
+    "pt": "Sultanbeyli Bld.",
+    "ar": "Sultanbeyli Bld."
+   },
+   "kickoffUtc": "2026-10-09T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor Yıldız"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-eintracht-braunschweig-holstein-kiel",
+   "sport": "football",
+   "competitionId": "bundesliga2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Almanya 2. Bundesliga",
+    "en": "2. Bundesliga",
+    "de": "2. Bundesliga",
+    "es": "2. Bundesliga",
+    "fr": "2. Bundesliga",
+    "it": "2. Bundesliga",
+    "pt": "2. Bundesliga",
+    "ar": "دوري الدرجة الثانية الألماني"
+   },
+   "home": "Eintracht Braunschweig",
+   "away": "Holstein Kiel",
+   "homeNames": {
+    "tr": "Eintracht Braunschweig",
+    "en": "Eintracht Braunschweig",
+    "de": "Eintracht Braunschweig",
+    "es": "Eintracht Braunschweig",
+    "fr": "Eintracht Brunswick",
+    "it": "Eintracht Braunschweig",
+    "pt": "Eintracht Braunschweig",
+    "ar": "أينتراخت براونشفايغ"
+   },
+   "awayNames": {
+    "tr": "Holstein Kiel",
+    "en": "Holstein Kiel",
+    "de": "Holstein Kiel",
+    "es": "Holstein Kiel",
+    "fr": "Holstein Kiel",
+    "it": "Holstein Kiel",
+    "pt": "Holstein Kiel",
+    "ar": "هولشتاين كيل"
+   },
+   "kickoffUtc": "2026-10-09T16:30:00Z",
+   "broadcasts": {
+    "DE": [
+     "Sky Bundesliga 4",
+     "WOW"
+    ],
+    "GB": [
+     "Bundesliga App",
+     "Bundesliga YouTube"
+    ],
+    "BR": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-heidenheim-kaiserslautern",
+   "sport": "football",
+   "competitionId": "bundesliga2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Almanya 2. Bundesliga",
+    "en": "2. Bundesliga",
+    "de": "2. Bundesliga",
+    "es": "2. Bundesliga",
+    "fr": "2. Bundesliga",
+    "it": "2. Bundesliga",
+    "pt": "2. Bundesliga",
+    "ar": "دوري الدرجة الثانية الألماني"
+   },
+   "home": "Heidenheim",
+   "away": "Kaiserslautern",
+   "homeNames": {
+    "tr": "Heidenheim",
+    "en": "1. FC Heidenheim",
+    "de": "1. FC Heidenheim",
+    "es": "Heidenheim",
+    "fr": "Heidenheim",
+    "it": "Heidenheim",
+    "pt": "Heidenheim",
+    "ar": "هايدنهايم"
+   },
+   "awayNames": {
+    "tr": "Kaiserslautern",
+    "en": "Kaiserslautern",
+    "de": "1. FC Kaiserslautern",
+    "es": "Kaiserslautern",
+    "fr": "Kaiserslautern",
+    "it": "Kaiserslautern",
+    "pt": "Kaiserslautern",
+    "ar": "كايزرسلاوترن"
+   },
+   "kickoffUtc": "2026-10-09T16:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ],
+    "DE": [
+     "Sky Bundesliga 3",
+     "WOW"
+    ],
+    "GB": [
+     "Bundesliga App",
+     "Bundesliga YouTube"
+    ],
+    "PT": [
+     "DAZN 2"
+    ],
+    "FR": [
+     "beIN Sports Max 10"
+    ],
+    "IT": [
+     "Sky Sport 1"
+    ],
+    "BR": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-galatasaray-kasimpasa",
+   "sport": "football",
+   "competitionId": "superlig",
+   "tier": "global",
+   "competition": {
+    "tr": "Trendyol Süper Lig",
+    "en": "Turkish Süper Lig",
+    "de": "Süper Lig",
+    "es": "Süper Lig turca",
+    "fr": "Süper Lig",
+    "it": "Süper Lig",
+    "pt": "Süper Lig",
+    "ar": "الدوري التركي الممتاز"
+   },
+   "home": "Galatasaray",
+   "away": "Kasimpasa",
+   "homeNames": {
+    "tr": "Galatasaray",
+    "en": "Galatasaray",
+    "de": "Galatasaray",
+    "es": "Galatasaray",
+    "fr": "Galatasaray",
+    "it": "Galatasaray",
+    "pt": "Galatasaray",
+    "ar": "غلطة سراي"
+   },
+   "awayNames": {
+    "tr": "Kasımpaşa",
+    "en": "Kasımpaşa",
+    "de": "Kasımpaşa",
+    "es": "Kasımpaşa",
+    "fr": "Kasımpaşa",
+    "it": "Kasımpaşa",
+    "pt": "Kasımpaşa",
+    "ar": "قاسم باشا"
+   },
+   "kickoffUtc": "2026-10-09T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 1"
+    ],
+    "PT": [
+     "Sport TV 4",
+     "Fanatiz"
+    ],
+    "FR": [
+     "beIN Sports Max 9"
+    ],
+    "US": [
+     "beIN Sports",
+     "beIN Sports Connect",
+     "Fubo",
+     "Fanatiz"
+    ],
+    "BR": [
+     "ESPN 4",
      "Disney+"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261007-botafogo-vasco-da-gama",
+   "id": "football-20261009-penafiel-avs",
    "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "global",
+   "competitionId": "primeira2",
+   "tier": "regional",
    "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
+    "tr": "Liga Portugal 2",
+    "en": "Liga Portugal 2",
+    "de": "Liga Portugal 2",
+    "es": "Liga Portugal 2",
+    "fr": "Liga Portugal 2",
+    "it": "Liga Portugal 2",
+    "pt": "Liga Portugal 2",
+    "ar": "الدوري البرتغالي الدرجة الثانية"
    },
-   "home": "Botafogo",
-   "away": "Vasco da Gama",
+   "home": "Penafiel",
+   "away": "AVS",
    "homeNames": {
-    "tr": "Botafogo",
-    "en": "Botafogo",
-    "de": "Botafogo",
-    "es": "Botafogo",
-    "fr": "Botafogo",
-    "it": "Botafogo",
-    "pt": "Botafogo",
-    "ar": "بوتافوجو"
+    "tr": "Penafiel",
+    "en": "Penafiel",
+    "de": "Penafiel",
+    "es": "Penafiel",
+    "fr": "Penafiel",
+    "it": "Penafiel",
+    "pt": "Penafiel",
+    "ar": "بينافيل"
    },
    "awayNames": {
-    "tr": "Vasco da Gama",
-    "en": "Vasco da Gama",
-    "de": "Vasco da Gama",
-    "es": "Vasco da Gama",
-    "fr": "Vasco da Gama",
-    "it": "Vasco da Gama",
-    "pt": "Vasco da Gama",
-    "ar": "فاسكو دا جاما"
+    "tr": "AVS",
+    "en": "AVS",
+    "de": "AVS",
+    "es": "AVS",
+    "fr": "AVS",
+    "it": "AVS",
+    "pt": "AVS",
+    "ar": "AVS"
    },
-   "kickoffUtc": "2026-10-07T23:30:00Z",
+   "kickoffUtc": "2026-10-09T17:00:00Z",
    "broadcasts": {
-    "BR": [
-     "Prime Video"
+    "PT": [
+     "Sport TV+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-preussen-munster-rot-weiss-essen",
+   "sport": "football",
+   "competitionId": "3_liga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Almanya 3. Lig",
+    "en": "3. Liga",
+    "de": "3. Liga",
+    "es": "3. Liga (Alemania)",
+    "fr": "3. Liga (Allemagne)",
+    "it": "3. Liga (Germania)",
+    "pt": "3. Liga (Alemanha)",
+    "ar": "الدوري الألماني الدرجة الثالثة"
+   },
+   "home": "Preussen Munster",
+   "away": "Rot-Weiss Essen",
+   "homeNames": {
+    "tr": "Preußen Münster",
+    "en": "Preußen Münster",
+    "de": "Preußen Münster",
+    "es": "Preußen Münster",
+    "fr": "Preußen Münster",
+    "it": "Preußen Münster",
+    "pt": "Preußen Münster",
+    "ar": "بروسن مونستر"
+   },
+   "awayNames": {
+    "tr": "Rot-Weiss Essen",
+    "en": "Rot-Weiss Essen",
+    "de": "Rot-Weiss Essen",
+    "es": "Rot-Weiss Essen",
+    "fr": "Rot-Weiss Essen",
+    "it": "Rot-Weiss Essen",
+    "pt": "Rot-Weiss Essen",
+    "ar": "روت فايس إيسن"
+   },
+   "kickoffUtc": "2026-10-09T17:00:00Z",
+   "broadcasts": {
+    "DE": [
+     "Magenta Sport"
     ],
+    "GB": [
+     "DFB Play"
+    ],
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "PT": [
+     "OneFootball PPV"
+    ],
+    "US": [
+     "ESPN+"
+    ],
+    "BR": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-umraniyespor-sariyer",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Liga",
+    "es": "Primera División TFF",
+    "fr": "TFF 1re Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "دوري الدرجة الأولى التركي"
+   },
+   "home": "Umraniyespor",
+   "away": "Sariyer",
+   "homeNames": {
+    "tr": "Ümraniyespor",
+    "en": "Ümraniyespor",
+    "de": "Ümraniyespor",
+    "es": "Ümraniyespor",
+    "fr": "Ümraniyespor",
+    "it": "Ümraniyespor",
+    "pt": "Ümraniyespor",
+    "ar": "أومرانيه سبور"
+   },
+   "awayNames": {
+    "tr": "Sarıyer",
+    "en": "Sarıyer",
+    "de": "Sarıyer",
+    "es": "Sarıyer",
+    "fr": "Sarıyer",
+    "it": "Sarıyer",
+    "pt": "Sarıyer",
+    "ar": "Sarıyer"
+   },
+   "kickoffUtc": "2026-10-09T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor 6",
+     "beIN Sports 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-vanspor-bandirmaspor",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Liga",
+    "es": "Primera División TFF",
+    "fr": "TFF 1re Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "دوري الدرجة الأولى التركي"
+   },
+   "home": "Vanspor",
+   "away": "Bandirmaspor",
+   "homeNames": {
+    "tr": "Vanspor",
+    "en": "Vanspor",
+    "de": "Vanspor",
+    "es": "Vanspor",
+    "fr": "Vanspor",
+    "it": "Vanspor",
+    "pt": "Vanspor",
+    "ar": "فان سبور"
+   },
+   "awayNames": {
+    "tr": "Bandırmaspor",
+    "en": "Bandırmaspor",
+    "de": "Bandırmaspor",
+    "es": "Bandırmaspor",
+    "fr": "Bandırmaspor",
+    "it": "Bandırmaspor",
+    "pt": "Bandırmaspor",
+    "ar": "بانديرماسبور"
+   },
+   "kickoffUtc": "2026-10-09T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor",
+     "beIN Sports Max 1"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-aldosivi-sarmiento",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Primera División",
+    "en": "Argentine Primera División",
+    "de": "Primera División",
+    "es": "Liga Profesional Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primera División Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Aldosivi",
+   "away": "Sarmiento",
+   "homeNames": {
+    "tr": "Aldosivi",
+    "en": "Aldosivi",
+    "de": "Aldosivi",
+    "es": "Aldosivi",
+    "fr": "Aldosivi",
+    "it": "Aldosivi",
+    "pt": "Aldosivi",
+    "ar": "الدوسيفي"
+   },
+   "awayNames": {
+    "tr": "Sarmiento",
+    "en": "Sarmiento",
+    "de": "Sarmiento",
+    "es": "Sarmiento",
+    "fr": "Sarmiento",
+    "it": "Sarmiento",
+    "pt": "Sarmiento",
+    "ar": "سارمينتو"
+   },
+   "kickoffUtc": "2026-10-09T17:30:00Z",
+   "broadcasts": {
     "ES": [
      "Fanatiz"
     ],
     "PT": [
-     "Fanatiz",
-     "Canal 11"
-    ],
-    "CO": [
-     "Fanatiz"
-    ],
-    "CL": [
-     "Fanatiz"
-    ],
-    "PE": [
-     "L1 Play",
-     "Fanatiz"
-    ],
-    "UY": [
-     "Fanatiz",
-     "Flow"
-    ],
-    "EC": [
-     "ECDF App",
-     "Fanatiz"
-    ],
-    "PY": [
-     "Fanatiz",
-     "Flow"
-    ],
-    "MX": [
      "Fanatiz"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261007-crb-atletico-go",
+   "id": "football-20261009-moreirense-gil-vicente",
    "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
+   "competitionId": "primeira",
+   "tier": "global",
    "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Série B",
-    "de": "Brasilianische Série B",
-    "es": "Serie B de Brasil",
-    "fr": "Série B brésilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
+    "tr": "Portekiz Ligi",
+    "en": "Primeira Liga",
+    "de": "Primeira Liga",
+    "es": "Liga Portuguesa",
+    "fr": "Liga Portugal",
+    "it": "Campionato portoghese",
+    "pt": "Liga Portugal",
+    "ar": "الدوري البرتغالي"
    },
-   "home": "CRB",
-   "away": "Atletico-GO",
+   "home": "Moreirense",
+   "away": "Gil Vicente",
    "homeNames": {
-    "tr": "CRB",
-    "en": "CRB",
-    "de": "CRB",
-    "es": "CRB",
-    "fr": "CRB",
-    "it": "CRB",
-    "pt": "CRB",
-    "ar": "سي آر بي"
+    "tr": "Moreirense",
+    "en": "Moreirense",
+    "de": "Moreirense",
+    "es": "Moreirense",
+    "fr": "Moreirense",
+    "it": "Moreirense",
+    "pt": "Moreirense",
+    "ar": "موريرينسي"
    },
    "awayNames": {
-    "tr": "Atlético-GO",
-    "en": "Atlético-GO",
-    "de": "Atlético-GO",
-    "es": "Atlético-GO",
-    "fr": "Atlético-GO",
-    "it": "Atlético-GO",
-    "pt": "Atlético-GO",
-    "ar": "أتليتيكو جويانيينسي"
+    "tr": "Gil Vicente",
+    "en": "Gil Vicente",
+    "de": "Gil Vicente",
+    "es": "Gil Vicente",
+    "fr": "Gil Vicente",
+    "it": "Gil Vicente",
+    "pt": "Gil Vicente",
+    "ar": "جيل فيسنتي"
    },
-   "kickoffUtc": "2026-10-07T23:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "Xsports",
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261007-vila-nova-cuiaba",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Série B",
-    "de": "Brasilianische Série B",
-    "es": "Serie B de Brasil",
-    "fr": "Série B brésilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Vila Nova",
-   "away": "Cuiaba",
-   "homeNames": {
-    "tr": "Vila Nova",
-    "en": "Vila Nova",
-    "de": "Vila Nova",
-    "es": "Vila Nova",
-    "fr": "Vila Nova",
-    "it": "Vila Nova",
-    "pt": "Vila Nova",
-    "ar": "فيلا نوفا"
-   },
-   "awayNames": {
-    "tr": "Cuiabá",
-    "en": "Cuiabá",
-    "de": "Cuiabá",
-    "es": "Cuiabá",
-    "fr": "Cuiabá",
-    "it": "Cuiabá",
-    "pt": "Cuiabá",
-    "ar": "كويابا"
-   },
-   "kickoffUtc": "2026-10-07T23:30:00Z",
+   "kickoffUtc": "2026-10-09T17:45:00Z",
    "broadcasts": {
     "BR": [
      "Disney+"
@@ -804,10 +1415,1275 @@
    "sources": []
   },
   {
-   "id": "basketball-20261008-bulls-phoenix-suns",
+   "id": "football-20261009-al-nassr-al-diriyah",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "global",
+   "competition": {
+    "tr": "Suudi Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Liga Saudita",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al Nassr",
+   "away": "Al Diriyah",
+   "homeNames": {
+    "tr": "Al Nassr",
+    "en": "Al Nassr",
+    "de": "Al-Nassr",
+    "es": "Al Nassr",
+    "fr": "Al-Nassr",
+    "it": "Al Nassr",
+    "pt": "Al-Nassr",
+    "ar": "النصر"
+   },
+   "awayNames": {
+    "tr": "Al Diriyah",
+    "en": "Al Diriyah",
+    "de": "Al Diriyah",
+    "es": "Al Diriyah",
+    "fr": "Al Diriyah",
+    "it": "Al Diriyah",
+    "pt": "Al Diriyah",
+    "ar": "الدرعية"
+   },
+   "kickoffUtc": "2026-10-09T18:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ],
+    "ES": [
+     "M+ Vamos",
+     "M+ Liga de Campeones"
+    ],
+    "PT": [
+     "Sport TV 2"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "FR": [
+     "DAZN"
+    ],
+    "IT": [
+     "Sportitalia"
+    ],
+    "US": [
+     "FOX Soccer Plus",
+     "FOX Deportes",
+     "Fubo"
+    ],
+    "BR": [
+     "XSports",
+     "Canal GOAT"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-dunkerque-annecy",
+   "sport": "football",
+   "competitionId": "ligue2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Fransa Ligue 2",
+    "en": "French Ligue 2",
+    "de": "Ligue 2",
+    "es": "Ligue 2",
+    "fr": "Ligue 2 BKT",
+    "it": "Ligue 2",
+    "pt": "Ligue 2",
+    "ar": "الدوري الفرنسي الدرجة الثانية"
+   },
+   "home": "Dunkerque",
+   "away": "Annecy",
+   "homeNames": {
+    "tr": "Dunkerque",
+    "en": "Dunkerque",
+    "de": "Dunkerque",
+    "es": "Dunkerque",
+    "fr": "Dunkerque",
+    "it": "Dunkerque",
+    "pt": "Dunkerque",
+    "ar": "دونكيرك"
+   },
+   "awayNames": {
+    "tr": "Annecy",
+    "en": "Annecy",
+    "de": "Annecy",
+    "es": "Annecy",
+    "fr": "Annecy",
+    "it": "Annecy",
+    "pt": "Annecy",
+    "ar": "أنسي"
+   },
+   "kickoffUtc": "2026-10-09T18:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports Max 7"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-libertad-fc-leones-del-norte",
+   "sport": "football",
+   "competitionId": "liga_pro_ec",
+   "tier": "regional",
+   "competition": {
+    "tr": "Ekvador Serie A",
+    "en": "Ecuadorian Serie A (LigaPro)",
+    "de": "Ecuadorianische Serie A",
+    "es": "LigaPro Serie A",
+    "fr": "Serie A équatorienne",
+    "it": "Serie A ecuadoriana",
+    "pt": "Série A Equatoriana",
+    "ar": "الدوري الإكوادوري"
+   },
+   "home": "Libertad FC",
+   "away": "Leones del Norte",
+   "homeNames": {
+    "tr": "Libertad FC",
+    "en": "Libertad FC",
+    "de": "Libertad FC",
+    "es": "Libertad FC",
+    "fr": "Libertad FC",
+    "it": "Libertad FC",
+    "pt": "Libertad FC",
+    "ar": "ليبرتاد"
+   },
+   "awayNames": {
+    "tr": "Leones del Norte",
+    "en": "Leones del Norte",
+    "de": "Leones del Norte",
+    "es": "Leones del Norte",
+    "fr": "Leones del Norte",
+    "it": "Leones del Norte",
+    "pt": "Leones del Norte",
+    "ar": "Leones del Norte"
+   },
+   "kickoffUtc": "2026-10-09T18:00:00Z",
+   "broadcasts": {
+    "ES": [
+     "Zapping Internacional"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-montpellier-grenoble",
+   "sport": "football",
+   "competitionId": "ligue2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Fransa Ligue 2",
+    "en": "French Ligue 2",
+    "de": "Ligue 2",
+    "es": "Ligue 2",
+    "fr": "Ligue 2 BKT",
+    "it": "Ligue 2",
+    "pt": "Ligue 2",
+    "ar": "الدوري الفرنسي الدرجة الثانية"
+   },
+   "home": "Montpellier",
+   "away": "Grenoble",
+   "homeNames": {
+    "tr": "Montpellier",
+    "en": "Montpellier",
+    "de": "Montpellier",
+    "es": "Montpellier",
+    "fr": "Montpellier",
+    "it": "Montpellier",
+    "pt": "Montpellier",
+    "ar": "مونبلييه"
+   },
+   "awayNames": {
+    "tr": "Grenoble",
+    "en": "Grenoble",
+    "de": "Grenoble",
+    "es": "Grenoble",
+    "fr": "Grenoble",
+    "it": "Grenoble",
+    "pt": "Grenoble",
+    "ar": "غرونوبل"
+   },
+   "kickoffUtc": "2026-10-09T18:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports Max 8"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-nancy-guingamp",
+   "sport": "football",
+   "competitionId": "ligue2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Fransa Ligue 2",
+    "en": "French Ligue 2",
+    "de": "Ligue 2",
+    "es": "Ligue 2",
+    "fr": "Ligue 2 BKT",
+    "it": "Ligue 2",
+    "pt": "Ligue 2",
+    "ar": "الدوري الفرنسي الدرجة الثانية"
+   },
+   "home": "Nancy",
+   "away": "Guingamp",
+   "homeNames": {
+    "tr": "Nancy",
+    "en": "Nancy",
+    "de": "Nancy",
+    "es": "Nancy",
+    "fr": "Nancy",
+    "it": "Nancy",
+    "pt": "Nancy",
+    "ar": "نانسي"
+   },
+   "awayNames": {
+    "tr": "Guingamp",
+    "en": "Guingamp",
+    "de": "Guingamp",
+    "es": "Guingamp",
+    "fr": "Guingamp",
+    "it": "Guingamp",
+    "pt": "Guingamp",
+    "ar": "غانغان"
+   },
+   "kickoffUtc": "2026-10-09T18:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports Max 6"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-pau-laval",
+   "sport": "football",
+   "competitionId": "ligue2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Fransa Ligue 2",
+    "en": "French Ligue 2",
+    "de": "Ligue 2",
+    "es": "Ligue 2",
+    "fr": "Ligue 2 BKT",
+    "it": "Ligue 2",
+    "pt": "Ligue 2",
+    "ar": "الدوري الفرنسي الدرجة الثانية"
+   },
+   "home": "Pau",
+   "away": "Laval",
+   "homeNames": {
+    "tr": "Pau",
+    "en": "Pau",
+    "de": "Pau",
+    "es": "Pau",
+    "fr": "Pau",
+    "it": "Pau",
+    "pt": "Pau",
+    "ar": "بو"
+   },
+   "awayNames": {
+    "tr": "Laval",
+    "en": "Laval",
+    "de": "Laval",
+    "es": "Laval",
+    "fr": "Laval",
+    "it": "Laval",
+    "pt": "Laval",
+    "ar": "لافال"
+   },
+   "kickoffUtc": "2026-10-09T18:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports Max 5"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-psv-heerenveen",
+   "sport": "football",
+   "competitionId": "eredivisie",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي"
+   },
+   "home": "PSV",
+   "away": "Heerenveen",
+   "homeNames": {
+    "tr": "PSV Eindhoven",
+    "en": "PSV Eindhoven",
+    "de": "PSV Eindhoven",
+    "es": "PSV Eindhoven",
+    "fr": "PSV Eindhoven",
+    "it": "PSV Eindhoven",
+    "pt": "PSV Eindhoven",
+    "ar": "آيندهوفن"
+   },
+   "awayNames": {
+    "tr": "Heerenveen",
+    "en": "Heerenveen",
+    "de": "Heerenveen",
+    "es": "Heerenveen",
+    "fr": "Heerenveen",
+    "it": "Heerenveen",
+    "pt": "Heerenveen",
+    "ar": "هيرنفين"
+   },
+   "kickoffUtc": "2026-10-09T18:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ],
+    "DE": [
+     "Sportdigital+",
+     "Sportdigital FUSSBALL"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "PT": [
+     "DAZN 3"
+    ],
+    "FR": [
+     "DAZN"
+    ],
+    "US": [
+     "ESPN+"
+    ],
+    "CA": [
+     "Sportsnet"
+    ],
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-sochaux-boulogne",
+   "sport": "football",
+   "competitionId": "ligue2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Fransa Ligue 2",
+    "en": "French Ligue 2",
+    "de": "Ligue 2",
+    "es": "Ligue 2",
+    "fr": "Ligue 2 BKT",
+    "it": "Ligue 2",
+    "pt": "Ligue 2",
+    "ar": "الدوري الفرنسي الدرجة الثانية"
+   },
+   "home": "Sochaux",
+   "away": "Boulogne",
+   "homeNames": {
+    "tr": "Sochaux",
+    "en": "Sochaux",
+    "de": "Sochaux",
+    "es": "Sochaux",
+    "fr": "Sochaux",
+    "it": "Sochaux",
+    "pt": "Sochaux",
+    "ar": "سوشو"
+   },
+   "awayNames": {
+    "tr": "Boulogne",
+    "en": "Boulogne",
+    "de": "Boulogne",
+    "es": "Boulogne",
+    "fr": "Boulogne",
+    "it": "Boulogne",
+    "pt": "Boulogne",
+    "ar": "بولوني"
+   },
+   "kickoffUtc": "2026-10-09T18:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports Max 4"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20261009-olympiacos-anadolu-efes",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Olympiacos",
+   "away": "Anadolu Efes",
+   "homeNames": {
+    "tr": "Olympiakos",
+    "en": "Olympiacos",
+    "de": "Olympiakos",
+    "es": "Olympiacos",
+    "fr": "Olympiakos",
+    "it": "Olympiakos",
+    "pt": "Olympiacos",
+    "ar": "أولمبياكوس"
+   },
+   "awayNames": {
+    "tr": "Anadolu Efes",
+    "en": "Anadolu Efes",
+    "de": "Anadolu Efes",
+    "es": "Anadolu Efes",
+    "fr": "Anadolu Efes",
+    "it": "Anadolu Efes",
+    "pt": "Anadolu Efes",
+    "ar": "Anadolu Efes"
+   },
+   "kickoffUtc": "2026-10-09T18:15:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus",
+     "S Sport"
+    ],
+    "IT": [
+     "Sky Sport Basket"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20261009-barca-basket-zalgiris-kaunas",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Barca Basket",
+   "away": "Zalgiris Kaunas",
+   "homeNames": {
+    "tr": "Barça Basket",
+    "en": "Barça Basket",
+    "de": "Barça Basket",
+    "es": "Barça Basket",
+    "fr": "Barça Basket",
+    "it": "Barça Basket",
+    "pt": "Barça Basket",
+    "ar": "برشلونة لكرة السلة"
+   },
+   "awayNames": {
+    "tr": "Žalgiris Kaunas",
+    "en": "Žalgiris Kaunas",
+    "de": "Žalgiris Kaunas",
+    "es": "Žalgiris Kaunas",
+    "fr": "Žalgiris Kaunas",
+    "it": "Žalgiris Kaunas",
+    "pt": "Žalgiris Kaunas",
+    "ar": "جالغيريس كاوناس"
+   },
+   "kickoffUtc": "2026-10-09T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ],
+    "IT": [
+     "Sky Sport Arena"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20261009-baskonia-besiktas-gain",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Baskonia",
+   "away": "Besiktas GAIN",
+   "homeNames": {
+    "tr": "Baskonia",
+    "en": "Baskonia",
+    "de": "Baskonia",
+    "es": "Baskonia",
+    "fr": "Baskonia",
+    "it": "Baskonia",
+    "pt": "Baskonia",
+    "ar": "باسكونيا"
+   },
+   "awayNames": {
+    "tr": "Beşiktaş GAIN",
+    "en": "Beşiktaş GAIN",
+    "de": "Beşiktaş GAIN",
+    "es": "Beşiktaş GAIN",
+    "fr": "Beşiktaş GAIN",
+    "it": "Beşiktaş GAIN",
+    "pt": "Beşiktaş GAIN",
+    "ar": "بشكتاش GAIN"
+   },
+   "kickoffUtc": "2026-10-09T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus",
+     "S Sport 2"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-avellino-sampdoria",
+   "sport": "football",
+   "competitionId": "seriebit",
+   "tier": "regional",
+   "competition": {
+    "tr": "İtalya Serie B",
+    "en": "Serie B",
+    "de": "Serie B (Italien)",
+    "es": "Serie B (Italia)",
+    "fr": "Serie B (Italie)",
+    "it": "Serie B",
+    "pt": "Serie B (Itália)",
+    "ar": "الدوري الإيطالي الدرجة الثانية"
+   },
+   "home": "Avellino",
+   "away": "Sampdoria",
+   "homeNames": {
+    "tr": "Avellino",
+    "en": "Avellino",
+    "de": "Avellino",
+    "es": "Avellino",
+    "fr": "Avellino",
+    "it": "Avellino",
+    "pt": "Avellino",
+    "ar": "أفيلينو"
+   },
+   "awayNames": {
+    "tr": "Sampdoria",
+    "en": "Sampdoria",
+    "de": "Sampdoria",
+    "es": "Sampdoria",
+    "fr": "Sampdoria",
+    "it": "Sampdoria",
+    "pt": "Sampdoria",
+    "ar": "سامبدوريا"
+   },
+   "kickoffUtc": "2026-10-09T18:30:00Z",
+   "broadcasts": {
+    "IT": [
+     "DAZN"
+    ],
+    "GB": [
+     "Destination Calcio"
+    ],
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "PT": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-borussia-dortmund-werder-bremen",
+   "sport": "football",
+   "competitionId": "bundesliga",
+   "tier": "global",
+   "competition": {
+    "tr": "Almanya Bundesliga",
+    "en": "Bundesliga",
+    "de": "Bundesliga",
+    "es": "Bundesliga",
+    "fr": "Bundesliga",
+    "it": "Bundesliga",
+    "pt": "Bundesliga",
+    "ar": "الدوري الألماني"
+   },
+   "home": "Borussia Dortmund",
+   "away": "Werder Bremen",
+   "homeNames": {
+    "tr": "Borussia Dortmund",
+    "en": "Borussia Dortmund",
+    "de": "Borussia Dortmund",
+    "es": "Borussia Dortmund",
+    "fr": "Borussia Dortmund",
+    "it": "Borussia Dortmund",
+    "pt": "Borussia Dortmund",
+    "ar": "بوروسيا دورتموند"
+   },
+   "awayNames": {
+    "tr": "Werder Bremen",
+    "en": "Werder Bremen",
+    "de": "Werder Bremen",
+    "es": "Werder Bremen",
+    "fr": "Werder Brême",
+    "it": "Werder Brema",
+    "pt": "Werder Bremen",
+    "ar": "فيردر بريمن"
+   },
+   "kickoffUtc": "2026-10-09T18:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus",
+     "Idman TV"
+    ],
+    "DE": [
+     "Sky Bundesliga 1",
+     "Sky Top Event",
+     "Sky Showcase",
+     "WOW"
+    ],
+    "GB": [
+     "BBC iPlayer",
+     "BBC Sport Website",
+     "Bundesliga YouTube"
+    ],
+    "ES": [
+     "DAZN",
+     "M+ Vamos 2",
+     "M+ Liga de Campeones 2"
+    ],
+    "PT": [
+     "DAZN 1"
+    ],
+    "FR": [
+     "beIN Sports 2"
+    ],
+    "IT": [
+     "Sky Sport Calcio"
+    ],
+    "US": [
+     "Universo",
+     "Peacock Premium",
+     "Fubo Latino"
+    ],
+    "CA": [
+     "Fubo",
+     "DAZN",
+     "OneSoccer"
+    ],
+    "BR": [
+     "SportyNet",
+     "CazéTV",
+     "OneFootball PPV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-lens-lyon",
+   "sport": "football",
+   "competitionId": "ligue1",
+   "tier": "global",
+   "competition": {
+    "tr": "Fransa Ligue 1",
+    "en": "French Ligue 1",
+    "de": "Ligue 1",
+    "es": "Ligue 1",
+    "fr": "Ligue 1",
+    "it": "Ligue 1",
+    "pt": "Ligue 1",
+    "ar": "الدوري الفرنسي"
+   },
+   "home": "Lens",
+   "away": "Lyon",
+   "homeNames": {
+    "tr": "Lens",
+    "en": "RC Lens",
+    "de": "RC Lens",
+    "es": "Lens",
+    "fr": "RC Lens",
+    "it": "Lens",
+    "pt": "Lens",
+    "ar": "لانس"
+   },
+   "awayNames": {
+    "tr": "Lyon",
+    "en": "Lyon",
+    "de": "Olympique Lyon",
+    "es": "Olympique de Lyon",
+    "fr": "Olympique Lyonnais",
+    "it": "Lione",
+    "pt": "Lyon",
+    "ar": "ليون"
+   },
+   "kickoffUtc": "2026-10-09T18:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 4"
+    ],
+    "FR": [
+     "Ligue 1+"
+    ],
+    "GB": [
+     "Amazon Prime PPV",
+     "Ligue1+"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "PT": [
+     "Fanatiz",
+     "Sport TV 6"
+    ],
+    "US": [
+     "beIN Sports Connect",
+     "beIN Sports en Español",
+     "Fubo",
+     "Fanatiz"
+    ],
+    "CA": [
+     "Fubo"
+    ],
+    "BR": [
+     "CazéTV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-malaga-espanyol",
+   "sport": "football",
+   "competitionId": "laliga",
+   "tier": "global",
+   "competition": {
+    "tr": "İspanya La Liga",
+    "en": "LaLiga",
+    "de": "LaLiga",
+    "es": "LaLiga",
+    "fr": "LaLiga",
+    "it": "LaLiga",
+    "pt": "LaLiga",
+    "ar": "الدوري الإسباني"
+   },
+   "home": "Malaga",
+   "away": "Espanyol",
+   "homeNames": {
+    "tr": "Málaga",
+    "en": "Málaga",
+    "de": "Málaga",
+    "es": "Málaga",
+    "fr": "Málaga",
+    "it": "Málaga",
+    "pt": "Málaga",
+    "ar": "ملقا"
+   },
+   "awayNames": {
+    "tr": "Espanyol",
+    "en": "Espanyol",
+    "de": "Espanyol",
+    "es": "Espanyol",
+    "fr": "Espanyol",
+    "it": "Espanyol",
+    "pt": "Espanyol",
+    "ar": "إسبانيول"
+   },
+   "kickoffUtc": "2026-10-09T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus",
+     "AzTV"
+    ],
+    "ES": [
+     "DAZN LaLiga",
+     "DAZN"
+    ],
+    "GB": [
+     "LALIGATV"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "PT": [
+     "DAZN 2"
+    ],
+    "FR": [
+     "DAZN",
+     "Disney+"
+    ],
+    "US": [
+     "ESPN+",
+     "ESPN Deportes",
+     "Fubo"
+    ],
+    "CA": [
+     "TSN+"
+    ],
+    "BR": [
+     "CazéTV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-west-ham-united-qpr",
+   "sport": "football",
+   "competitionId": "championship",
+   "tier": "regional",
+   "competition": {
+    "tr": "İngiltere Championship",
+    "en": "EFL Championship",
+    "de": "EFL Championship",
+    "es": "EFL Championship",
+    "fr": "EFL Championship",
+    "it": "EFL Championship",
+    "pt": "EFL Championship",
+    "ar": "دوري البطولة الإنجليزية"
+   },
+   "home": "West Ham United",
+   "away": "QPR",
+   "homeNames": {
+    "tr": "West Ham United",
+    "en": "West Ham United",
+    "de": "West Ham United",
+    "es": "West Ham United",
+    "fr": "West Ham United",
+    "it": "West Ham United",
+    "pt": "West Ham United",
+    "ar": "وست هام يونايتد"
+   },
+   "awayNames": {
+    "tr": "QPR",
+    "en": "Queens Park Rangers",
+    "de": "Queens Park Rangers",
+    "es": "Queens Park Rangers",
+    "fr": "Queens Park Rangers",
+    "it": "Queens Park Rangers",
+    "pt": "Queens Park Rangers",
+    "ar": "كوينز بارك رينجرز"
+   },
+   "kickoffUtc": "2026-10-09T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ],
+    "GB": [
+     "Sky Sports Main Event",
+     "Sky Sports Football"
+    ],
+    "DE": [
+     "WOW",
+     "Sky Sport Premier League"
+    ],
+    "PT": [
+     "Sport TV 4"
+    ],
+    "FR": [
+     "beIN Sports Max 10"
+    ],
+    "US": [
+     "CBS Sports Network",
+     "Paramount+",
+     "Fubo"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-braga-sporting-cp",
+   "sport": "football",
+   "competitionId": "primeira",
+   "tier": "global",
+   "competition": {
+    "tr": "Portekiz Ligi",
+    "en": "Primeira Liga",
+    "de": "Primeira Liga",
+    "es": "Liga Portuguesa",
+    "fr": "Liga Portugal",
+    "it": "Campionato portoghese",
+    "pt": "Liga Portugal",
+    "ar": "الدوري البرتغالي"
+   },
+   "home": "Braga",
+   "away": "Sporting CP",
+   "homeNames": {
+    "tr": "Braga",
+    "en": "SC Braga",
+    "de": "SC Braga",
+    "es": "Braga",
+    "fr": "SC Braga",
+    "it": "Braga",
+    "pt": "Sporting Braga",
+    "ar": "براغا"
+   },
+   "awayNames": {
+    "tr": "Sporting Lizbon",
+    "en": "Sporting CP",
+    "de": "Sporting Lissabon",
+    "es": "Sporting de Portugal",
+    "fr": "Sporting CP",
+    "it": "Sporting Lisbona",
+    "pt": "Sporting",
+    "ar": "سبورتينغ لشبونة"
+   },
+   "kickoffUtc": "2026-10-09T19:15:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 3"
+    ],
+    "PT": [
+     "Sport TV 1",
+     "Sporting TV",
+     "Fanatiz"
+    ],
+    "DE": [
+     "Sportdigital+",
+     "Sportdigital FUSSBALL2"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "FR": [
+     "beIN Sports Max 9"
+    ],
+    "US": [
+     "beIN Sports",
+     "beIN Sports Connect",
+     "Fubo",
+     "Fanatiz"
+    ],
+    "BR": [
+     "ESPN 4",
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-montevideo-city-torque-danubio",
+   "sport": "football",
+   "competitionId": "liga_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Liga AUF",
+    "en": "Uruguayan Liga AUF",
+    "de": "Uruguayische Liga AUF",
+    "es": "Liga AUF Uruguaya",
+    "fr": "Liga AUF uruguayenne",
+    "it": "Liga AUF uruguaiana",
+    "pt": "Liga AUF Uruguaia",
+    "ar": "الدوري الأوروغوياني"
+   },
+   "home": "Montevideo City Torque",
+   "away": "Danubio",
+   "homeNames": {
+    "tr": "Montevideo City Torque",
+    "en": "Montevideo City Torque",
+    "de": "Montevideo City Torque",
+    "es": "Montevideo City Torque",
+    "fr": "Montevideo City Torque",
+    "it": "Montevideo City Torque",
+    "pt": "Montevideo City Torque",
+    "ar": "مونتيفيديو سيتي توركي"
+   },
+   "awayNames": {
+    "tr": "Danubio",
+    "en": "Danubio",
+    "de": "Danubio",
+    "es": "Danubio",
+    "fr": "Danubio",
+    "it": "Danubio",
+    "pt": "Danubio",
+    "ar": "Danubio"
+   },
+   "kickoffUtc": "2026-10-09T20:00:00Z",
+   "broadcasts": {
+    "ES": [
+     "Antel TV Internacional"
+    ],
+    "PT": [
+     "Antel TV Internacional"
+    ],
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-delfin-mushuc-runa",
+   "sport": "football",
+   "competitionId": "liga_pro_ec",
+   "tier": "regional",
+   "competition": {
+    "tr": "Ekvador Serie A",
+    "en": "Ecuadorian Serie A (LigaPro)",
+    "de": "Ecuadorianische Serie A",
+    "es": "LigaPro Serie A",
+    "fr": "Serie A équatorienne",
+    "it": "Serie A ecuadoriana",
+    "pt": "Série A Equatoriana",
+    "ar": "الدوري الإكوادوري"
+   },
+   "home": "Delfin",
+   "away": "Mushuc Runa",
+   "homeNames": {
+    "tr": "Delfín",
+    "en": "Delfín",
+    "de": "Delfín",
+    "es": "Delfín",
+    "fr": "Delfín",
+    "it": "Delfín",
+    "pt": "Delfín",
+    "ar": "Delfín"
+   },
+   "awayNames": {
+    "tr": "Mushuc Runa",
+    "en": "Mushuc Runa",
+    "de": "Mushuc Runa",
+    "es": "Mushuc Runa",
+    "fr": "Mushuc Runa",
+    "it": "Mushuc Runa",
+    "pt": "Mushuc Runa",
+    "ar": "موشوك رونا"
+   },
+   "kickoffUtc": "2026-10-09T20:30:00Z",
+   "broadcasts": {
+    "ES": [
+     "Zapping Internacional"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-gimnasia-lp-atletico-tucuman",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Primera División",
+    "en": "Argentine Primera División",
+    "de": "Primera División",
+    "es": "Liga Profesional Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primera División Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Gimnasia LP",
+   "away": "Atletico Tucuman",
+   "homeNames": {
+    "tr": "Gimnasia La Plata",
+    "en": "Gimnasia La Plata",
+    "de": "Gimnasia La Plata",
+    "es": "Gimnasia La Plata",
+    "fr": "Gimnasia La Plata",
+    "it": "Gimnasia La Plata",
+    "pt": "Gimnasia La Plata",
+    "ar": "خيمناسيا لا بلاتا"
+   },
+   "awayNames": {
+    "tr": "Atlético Tucumán",
+    "en": "Atlético Tucumán",
+    "de": "Atlético Tucumán",
+    "es": "Atlético Tucumán",
+    "fr": "Atlético Tucumán",
+    "it": "Atlético Tucumán",
+    "pt": "Atlético Tucumán",
+    "ar": "أتلتيكو توكومان"
+   },
+   "kickoffUtc": "2026-10-09T21:00:00Z",
+   "broadcasts": {
+    "ES": [
+     "Fanatiz"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-instituto-boca-juniors",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Primera División",
+    "en": "Argentine Primera División",
+    "de": "Primera División",
+    "es": "Liga Profesional Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primera División Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Instituto",
+   "away": "Boca Juniors",
+   "homeNames": {
+    "tr": "Instituto",
+    "en": "Instituto",
+    "de": "Instituto",
+    "es": "Instituto",
+    "fr": "Instituto",
+    "it": "Instituto",
+    "pt": "Instituto",
+    "ar": "إنستيتوتو"
+   },
+   "awayNames": {
+    "tr": "Boca Juniors",
+    "en": "Boca Juniors",
+    "de": "Boca Juniors",
+    "es": "Boca Juniors",
+    "fr": "Boca Juniors",
+    "it": "Boca Juniors",
+    "pt": "Boca Juniors",
+    "ar": "بوكا جونيورز"
+   },
+   "kickoffUtc": "2026-10-09T22:30:00Z",
+   "broadcasts": {
+    "PT": [
+     "Sport TV 1",
+     "Fanatiz"
+    ],
+    "DE": [
+     "Sportdigital FUSSBALL",
+     "Sportdigital+"
+    ],
+    "BR": [
+     "ESPN 4",
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-deportivo-maldonado-liverpool-montevideo",
+   "sport": "football",
+   "competitionId": "liga_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Liga AUF",
+    "en": "Uruguayan Liga AUF",
+    "de": "Uruguayische Liga AUF",
+    "es": "Liga AUF Uruguaya",
+    "fr": "Liga AUF uruguayenne",
+    "it": "Liga AUF uruguaiana",
+    "pt": "Liga AUF Uruguaia",
+    "ar": "الدوري الأوروغوياني"
+   },
+   "home": "Deportivo Maldonado",
+   "away": "Liverpool Montevideo",
+   "homeNames": {
+    "tr": "Deportivo Maldonado",
+    "en": "Deportivo Maldonado",
+    "de": "Deportivo Maldonado",
+    "es": "Deportivo Maldonado",
+    "fr": "Deportivo Maldonado",
+    "it": "Deportivo Maldonado",
+    "pt": "Deportivo Maldonado",
+    "ar": "ديبورتيفو مالدونادو"
+   },
+   "awayNames": {
+    "tr": "Liverpool Montevideo",
+    "en": "Liverpool Montevideo",
+    "de": "Liverpool Montevideo",
+    "es": "Liverpool Montevideo",
+    "fr": "Liverpool Montevideo",
+    "it": "Liverpool Montevideo",
+    "pt": "Liverpool Montevideo",
+    "ar": "ليفربول مونتيفيديو"
+   },
+   "kickoffUtc": "2026-10-09T23:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "Disney+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261009-lexington-sc-birmingham-legion",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "بطولة USL"
+   },
+   "home": "Lexington SC",
+   "away": "Birmingham Legion",
+   "homeNames": {
+    "tr": "Lexington SC",
+    "en": "Lexington SC",
+    "de": "Lexington SC",
+    "es": "Lexington SC",
+    "fr": "Lexington SC",
+    "it": "Lexington SC",
+    "pt": "Lexington SC",
+    "ar": "ليكسينغتون"
+   },
+   "awayNames": {
+    "tr": "Birmingham Legion",
+    "en": "Birmingham Legion",
+    "de": "Birmingham Legion",
+    "es": "Birmingham Legion",
+    "fr": "Birmingham Legion",
+    "it": "Birmingham Legion",
+    "pt": "Birmingham Legion",
+    "ar": "برمنغهام ليجن"
+   },
+   "kickoffUtc": "2026-10-09T23:30:00Z",
+   "broadcasts": {
+    "US": [
+     "CBS Sports Golazo Network",
+     "Paramount+",
+     "Amazon Prime Video"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20261010-bulls-grizzlies",
    "sport": "basketball",
    "competitionId": "nba",
-   "tier": "regional",
+   "tier": "global",
    "competition": {
     "tr": "NBA Hazırlık Maçları",
     "en": "NBA Preseason",
@@ -819,7 +2695,7 @@
     "ar": "مباريات NBA التحضيرية"
    },
    "home": "Bulls",
-   "away": "Phoenix Suns",
+   "away": "Grizzlies",
    "homeNames": {
     "tr": "Chicago Bulls",
     "en": "Chicago Bulls",
@@ -831,41 +2707,6 @@
     "ar": "شيكاغو بولز"
    },
    "awayNames": {
-    "tr": "Phoenix Suns",
-    "en": "Phoenix Suns",
-    "de": "Phoenix Suns",
-    "es": "Phoenix Suns",
-    "fr": "Phoenix Suns",
-    "it": "Phoenix Suns",
-    "pt": "Phoenix Suns",
-    "ar": "فينيكس صنز"
-   },
-   "kickoffUtc": "2026-10-08T00:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "Prime Video"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20261008-memphis-grizzlies-orlando-magic",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "regional",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Memphis Grizzlies",
-   "away": "Orlando Magic",
-   "homeNames": {
     "tr": "Memphis Grizzlies",
     "en": "Memphis Grizzlies",
     "de": "Memphis Grizzlies",
@@ -875,682 +2716,221 @@
     "pt": "Memphis Grizzlies",
     "ar": "ممفيس غريزليز"
    },
-   "awayNames": {
-    "tr": "Orlando Magic",
-    "en": "Orlando Magic",
-    "de": "Orlando Magic",
-    "es": "Orlando Magic",
-    "fr": "Orlando Magic",
-    "it": "Orlando Magic",
-    "pt": "Orlando Magic",
-    "ar": "أورلاندو ماجيك"
-   },
-   "kickoffUtc": "2026-10-08T00:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "Prime Video"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20261008-oklahoma-city-thunder-bucks",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "regional",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Oklahoma City Thunder",
-   "away": "Bucks",
-   "homeNames": {
-    "tr": "Oklahoma City Thunder",
-    "en": "Oklahoma City Thunder",
-    "de": "Oklahoma City Thunder",
-    "es": "Oklahoma City Thunder",
-    "fr": "Oklahoma City Thunder",
-    "it": "Oklahoma City Thunder",
-    "pt": "Oklahoma City Thunder",
-    "ar": "أوكلاهوما سيتي ثاندر"
-   },
-   "awayNames": {
-    "tr": "Milwaukee Bucks",
-    "en": "Milwaukee Bucks",
-    "de": "Milwaukee Bucks",
-    "es": "Milwaukee Bucks",
-    "fr": "Milwaukee Bucks",
-    "it": "Milwaukee Bucks",
-    "pt": "Milwaukee Bucks",
-    "ar": "ميلووكي باكس"
-   },
-   "kickoffUtc": "2026-10-08T00:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "Prime Video"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261007-corpus-christi-fc-fort-wayne-fc",
-   "sport": "football",
-   "competitionId": "usl1",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL League One",
-    "en": "USL League One",
-    "de": "USL League One",
-    "es": "USL League One",
-    "fr": "USL League One",
-    "it": "USL League One",
-    "pt": "USL League One",
-    "ar": "دوري USL الأولى"
-   },
-   "home": "Corpus Christi FC",
-   "away": "Fort Wayne FC",
-   "homeNames": {
-    "tr": "Corpus Christi FC",
-    "en": "Corpus Christi FC",
-    "de": "Corpus Christi FC",
-    "es": "Corpus Christi FC",
-    "fr": "Corpus Christi FC",
-    "it": "Corpus Christi FC",
-    "pt": "Corpus Christi FC",
-    "ar": "كوربوس كريستي"
-   },
-   "awayNames": {
-    "tr": "Fort Wayne FC",
-    "en": "Fort Wayne FC",
-    "de": "Fort Wayne FC",
-    "es": "Fort Wayne FC",
-    "fr": "Fort Wayne FC",
-    "it": "Fort Wayne FC",
-    "pt": "Fort Wayne FC",
-    "ar": "فورت واين"
-   },
-   "kickoffUtc": "2026-10-08T00:30:00Z",
+   "kickoffUtc": "2026-10-10T00:00:00Z",
    "broadcasts": {
     "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261007-cruzeiro-sao-paulo",
-   "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
-   },
-   "home": "Cruzeiro",
-   "away": "Sao Paulo",
-   "homeNames": {
-    "tr": "Cruzeiro",
-    "en": "Cruzeiro",
-    "de": "Cruzeiro",
-    "es": "Cruzeiro",
-    "fr": "Cruzeiro",
-    "it": "Cruzeiro",
-    "pt": "Cruzeiro",
-    "ar": "كروزيرو"
-   },
-   "awayNames": {
-    "tr": "São Paulo",
-    "en": "São Paulo",
-    "de": "São Paulo",
-    "es": "São Paulo",
-    "fr": "São Paulo",
-    "it": "San Paolo",
-    "pt": "São Paulo",
-    "ar": "ساو باولو"
-   },
-   "kickoffUtc": "2026-10-08T00:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "SporTV",
-     "Premiere FC"
+     "NBA TV"
     ],
-    "PE": [
-     "L1 Play",
-     "L1 Max",
-     "Fanatiz"
+    "TR": [
+     "S Sport",
+     "Prime Video",
+     "NBA League Pass"
     ],
-    "EC": [
-     "ECDF App"
+    "GB": [
+     "Sky Sports",
+     "Prime Video",
+     "NBA League Pass"
     ],
-    "MX": [
-     "Azteca Deportes Network"
-    ],
-    "CO": [
-     "Win Sports",
-     "Win Play"
-    ],
-    "CL": [
-     "Fanatiz 1"
+    "ES": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
     ],
     "PT": [
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261007-atletico-nacional-deportes-tolima",
-   "sport": "football",
-   "competitionId": "liga_dimayor",
-   "tier": "regional",
-   "competition": {
-    "tr": "Kolombiya Liga BetPlay",
-    "en": "Liga BetPlay DIMAYOR",
-    "de": "Liga BetPlay DIMAYOR",
-    "es": "Liga BetPlay DIMAYOR",
-    "fr": "Liga BetPlay DIMAYOR",
-    "it": "Liga BetPlay DIMAYOR",
-    "pt": "Liga BetPlay DIMAYOR",
-    "ar": "الدوري الكولومبي"
-   },
-   "home": "Atletico Nacional",
-   "away": "Deportes Tolima",
-   "homeNames": {
-    "tr": "Atlético Nacional",
-    "en": "Atlético Nacional",
-    "de": "Atlético Nacional",
-    "es": "Atlético Nacional",
-    "fr": "Atlético Nacional",
-    "it": "Atlético Nacional",
-    "pt": "Atlético Nacional",
-    "ar": "Atlético Nacional"
-   },
-   "awayNames": {
-    "tr": "Deportes Tolima",
-    "en": "Deportes Tolima",
-    "de": "Deportes Tolima",
-    "es": "Deportes Tolima",
-    "fr": "Deportes Tolima",
-    "it": "Deportes Tolima",
-    "pt": "Deportes Tolima",
-    "ar": "توليما"
-   },
-   "kickoffUtc": "2026-10-08T01:20:00Z",
-   "broadcasts": {
+     "Sport TV",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "FR": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DE": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "CH": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "IT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BE": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NL": [
+     "ESPN",
+     "NBA League Pass"
+    ],
+    "HR": [
+     "Sport Klub",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NO": [
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CZ": [
+     "Nova Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MX": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AR": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
     "CO": [
-     "Win Fútbol+",
-     "Win Play"
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CL": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PE": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "UY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "EC": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CA": [
+     "TSN",
+     "Sportsnet",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "SA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "QA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AE": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "EG": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DZ": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "TN": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "JP": [
+     "Lemino",
+     "Prime Video",
+     "WOWOW"
+    ],
+    "KR": [
+     "Coupang Play",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AU": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NZ": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ZA": [
+     "SuperSport",
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NG": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "GH": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "SN": [
+     "Canal+ Sport",
+     "NBA League Pass"
     ]
    },
-   "sources": []
+   "sources": [
+    "espn"
+   ]
   },
   {
-   "id": "basketball-20261008-portland-trail-blazers-warriors",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "regional",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Portland Trail Blazers",
-   "away": "Warriors",
-   "homeNames": {
-    "tr": "Portland Trail Blazers",
-    "en": "Portland Trail Blazers",
-    "de": "Portland Trail Blazers",
-    "es": "Portland Trail Blazers",
-    "fr": "Portland Trail Blazers",
-    "it": "Portland Trail Blazers",
-    "pt": "Portland Trail Blazers",
-    "ar": "بورتلاند ترايل بليزرز"
-   },
-   "awayNames": {
-    "tr": "Golden State Warriors",
-    "en": "Golden State Warriors",
-    "de": "Golden State Warriors",
-    "es": "Golden State Warriors",
-    "fr": "Golden State Warriors",
-    "it": "Golden State Warriors",
-    "pt": "Golden State Warriors",
-    "ar": "غولدن ستايت ووريورز"
-   },
-   "kickoffUtc": "2026-10-08T02:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "Prime Video"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261008-erciyes-38-fk-kahta-02",
-   "sport": "football",
-   "competitionId": "turkiye_kupasi",
-   "tier": "regional",
-   "competition": {
-    "tr": "Ziraat Türkiye Kupası",
-    "en": "Turkish Cup",
-    "de": "Türkischer Pokal",
-    "es": "Copa de Turquía",
-    "fr": "Coupe de Turquie",
-    "it": "Coppa di Turchia",
-    "pt": "Taça da Turquia",
-    "ar": "كأس تركيا"
-   },
-   "home": "Erciyes 38 FK",
-   "away": "Kahta 02",
-   "homeNames": {
-    "tr": "Erciyes 38 FK",
-    "en": "Erciyes 38 FK",
-    "de": "Erciyes 38 FK",
-    "es": "Erciyes 38 FK",
-    "fr": "Erciyes 38 FK",
-    "it": "Erciyes 38 FK",
-    "pt": "Erciyes 38 FK",
-    "ar": "إرجييس 38"
-   },
-   "awayNames": {
-    "tr": "Kahta 02",
-    "en": "Kahta 02",
-    "de": "Kahta 02",
-    "es": "Kahta 02",
-    "fr": "Kahta 02",
-    "it": "Kahta 02",
-    "pt": "Kahta 02",
-    "ar": "كاهتا 02"
-   },
-   "kickoffUtc": "2026-10-08T11:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "A Spor"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "volleyball-20261008-tfl-altekma-gaziantep-genclik",
-   "sport": "volleyball",
-   "competitionId": "tvf_erkek_kupa",
-   "tier": "regional",
-   "competition": {
-    "tr": "TVF Erkekler Kupa Voley",
-    "en": "Turkish Men's Volleyball Cup",
-    "de": "Türkischer Volleyball-Pokal (Männer)",
-    "es": "Copa de Turquía de Voleibol Masculino",
-    "fr": "Coupe de Turquie de volley-ball masculin",
-    "it": "Coppa di Turchia di pallavolo maschile",
-    "pt": "Taça da Turquia de Voleibol Masculino",
-    "ar": "كأس تركيا للكرة الطائرة للرجال"
-   },
-   "home": "TFL Altekma",
-   "away": "Gaziantep Genclik",
-   "homeNames": {
-    "tr": "TFL Altekma",
-    "en": "TFL Altekma",
-    "de": "TFL Altekma",
-    "es": "TFL Altekma",
-    "fr": "TFL Altekma",
-    "it": "TFL Altekma",
-    "pt": "TFL Altekma",
-    "ar": "TFL Altekma"
-   },
-   "awayNames": {
-    "tr": "Gaziantep Gençlik",
-    "en": "Gaziantep Gençlik",
-    "de": "Gaziantep Gençlik",
-    "es": "Gaziantep Gençlik",
-    "fr": "Gaziantep Gençlik",
-    "it": "Gaziantep Gençlik",
-    "pt": "Gaziantep Gençlik",
-    "ar": "Gaziantep Gençlik"
-   },
-   "kickoffUtc": "2026-10-08T13:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "TRT Spor Yıldız"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261008-denizli-idmanyurdu-gureller-serik-bld",
-   "sport": "football",
-   "competitionId": "turkiye_kupasi",
-   "tier": "regional",
-   "competition": {
-    "tr": "Ziraat Türkiye Kupası",
-    "en": "Turkish Cup",
-    "de": "Türkischer Pokal",
-    "es": "Copa de Turquía",
-    "fr": "Coupe de Turquie",
-    "it": "Coppa di Turchia",
-    "pt": "Taça da Turquia",
-    "ar": "كأس تركيا"
-   },
-   "home": "Denizli Idmanyurdu Gureller",
-   "away": "Serik Bld.",
-   "homeNames": {
-    "tr": "Denizli İdmanyurdu Güreller",
-    "en": "Denizli İdmanyurdu Güreller",
-    "de": "Denizli İdmanyurdu Güreller",
-    "es": "Denizli İdmanyurdu Güreller",
-    "fr": "Denizli İdmanyurdu Güreller",
-    "it": "Denizli İdmanyurdu Güreller",
-    "pt": "Denizli İdmanyurdu Güreller",
-    "ar": "دنيزلي إدمان يوردو"
-   },
-   "awayNames": {
-    "tr": "Serik Bld.",
-    "en": "Serik Bld.",
-    "de": "Serik Bld.",
-    "es": "Serik Bld.",
-    "fr": "Serik Bld.",
-    "it": "Serik Bld.",
-    "pt": "Serik Bld.",
-    "ar": "سيريك"
-   },
-   "kickoffUtc": "2026-10-08T14:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "A Spor"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20261008-dubai-basket-crvena-zvezda",
-   "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
-   "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
-   },
-   "home": "Dubai Basket",
-   "away": "Crvena Zvezda",
-   "homeNames": {
-    "tr": "Dubai Basket",
-    "en": "Dubai Basket",
-    "de": "Dubai Basket",
-    "es": "Dubai Basket",
-    "fr": "Dubai Basket",
-    "it": "Dubai Basket",
-    "pt": "Dubai Basket",
-    "ar": "دبي باسكت"
-   },
-   "awayNames": {
-    "tr": "Kızılyıldız",
-    "en": "Crvena Zvezda",
-    "de": "Roter Stern Belgrad",
-    "es": "Estrella Roja",
-    "fr": "Étoile rouge de Belgrade",
-    "it": "Stella Rossa",
-    "pt": "Estrela Vermelha",
-    "ar": "النجم الأحمر"
-   },
-   "kickoffUtc": "2026-10-08T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus",
-     "S Sport 2",
-     "Idman TV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20261008-maccabi-tel-aviv-olimpia-milano",
-   "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
-   "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
-   },
-   "home": "Maccabi Tel Aviv",
-   "away": "Olimpia Milano",
-   "homeNames": {
-    "tr": "Maccabi Tel Aviv",
-    "en": "Maccabi Tel Aviv",
-    "de": "Maccabi Tel Aviv",
-    "es": "Maccabi Tel Aviv",
-    "fr": "Maccabi Tel Aviv",
-    "it": "Maccabi Tel Aviv",
-    "pt": "Maccabi Tel Aviv",
-    "ar": "مكابي تل أبيب"
-   },
-   "awayNames": {
-    "tr": "Olimpia Milano",
-    "en": "Olimpia Milano",
-    "de": "Olimpia Milano",
-    "es": "Olimpia Milano",
-    "fr": "Olimpia Milano",
-    "it": "Olimpia Milano",
-    "pt": "Olimpia Milano",
-    "ar": "أوليمبيا ميلانو"
-   },
-   "kickoffUtc": "2026-10-08T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "volleyball-20261008-istanbul-genclik-alanya-bld",
-   "sport": "volleyball",
-   "competitionId": "tvf_erkek_kupa",
-   "tier": "regional",
-   "competition": {
-    "tr": "TVF Erkekler Kupa Voley",
-    "en": "Turkish Men's Volleyball Cup",
-    "de": "Türkischer Volleyball-Pokal (Männer)",
-    "es": "Copa de Turquía de Voleibol Masculino",
-    "fr": "Coupe de Turquie de volley-ball masculin",
-    "it": "Coppa di Turchia di pallavolo maschile",
-    "pt": "Taça da Turquia de Voleibol Masculino",
-    "ar": "كأس تركيا للكرة الطائرة للرجال"
-   },
-   "home": "Istanbul Genclik",
-   "away": "Alanya Bld",
-   "homeNames": {
-    "tr": "İstanbul Gençlik",
-    "en": "İstanbul Gençlik",
-    "de": "İstanbul Gençlik",
-    "es": "İstanbul Gençlik",
-    "fr": "İstanbul Gençlik",
-    "it": "İstanbul Gençlik",
-    "pt": "İstanbul Gençlik",
-    "ar": "İstanbul Gençlik"
-   },
-   "awayNames": {
-    "tr": "Alanya Bld.",
-    "en": "Alanya Bld.",
-    "de": "Alanya Bld.",
-    "es": "Alanya Bld.",
-    "fr": "Alanya Bld.",
-    "it": "Alanya Bld.",
-    "pt": "Alanya Bld.",
-    "ar": "Alanya Bld."
-   },
-   "kickoffUtc": "2026-10-08T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor",
-     "TVF Voleybol TV YouTube"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "volleyball-20261008-sultanbeyli-bld-gebze-bld",
-   "sport": "volleyball",
-   "competitionId": "tvf_erkek_kupa",
-   "tier": "regional",
-   "competition": {
-    "tr": "TVF Erkekler Kupa Voley",
-    "en": "Turkish Men's Volleyball Cup",
-    "de": "Türkischer Volleyball-Pokal (Männer)",
-    "es": "Copa de Turquía de Voleibol Masculino",
-    "fr": "Coupe de Turquie de volley-ball masculin",
-    "it": "Coppa di Turchia di pallavolo maschile",
-    "pt": "Taça da Turquia de Voleibol Masculino",
-    "ar": "كأس تركيا للكرة الطائرة للرجال"
-   },
-   "home": "Sultanbeyli Bld",
-   "away": "Gebze Bld",
-   "homeNames": {
-    "tr": "Sultanbeyli Bld.",
-    "en": "Sultanbeyli Bld.",
-    "de": "Sultanbeyli Bld.",
-    "es": "Sultanbeyli Bld.",
-    "fr": "Sultanbeyli Bld.",
-    "it": "Sultanbeyli Bld.",
-    "pt": "Sultanbeyli Bld.",
-    "ar": "Sultanbeyli Bld."
-   },
-   "awayNames": {
-    "tr": "Gebze Bld.",
-    "en": "Gebze Bld.",
-    "de": "Gebze Bld.",
-    "es": "Gebze Bld.",
-    "fr": "Gebze Bld.",
-    "it": "Gebze Bld.",
-    "pt": "Gebze Bld.",
-    "ar": "Gebze Bld."
-   },
-   "kickoffUtc": "2026-10-08T16:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "tabii Spor"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261008-orduspor-karadeniz-eregli",
-   "sport": "football",
-   "competitionId": "turkiye_kupasi",
-   "tier": "regional",
-   "competition": {
-    "tr": "Ziraat Türkiye Kupası",
-    "en": "Turkish Cup",
-    "de": "Türkischer Pokal",
-    "es": "Copa de Turquía",
-    "fr": "Coupe de Turquie",
-    "it": "Coppa di Turchia",
-    "pt": "Taça da Turquia",
-    "ar": "كأس تركيا"
-   },
-   "home": "Orduspor",
-   "away": "Karadeniz Eregli",
-   "homeNames": {
-    "tr": "Orduspor",
-    "en": "Orduspor",
-    "de": "Orduspor",
-    "es": "Orduspor",
-    "fr": "Orduspor",
-    "it": "Orduspor",
-    "pt": "Orduspor",
-    "ar": "أوردو سبور"
-   },
-   "awayNames": {
-    "tr": "Karadeniz Ereğli",
-    "en": "Karadeniz Ereğli",
-    "de": "Karadeniz Ereğli",
-    "es": "Karadeniz Ereğli",
-    "fr": "Karadeniz Ereğli",
-    "it": "Karadeniz Ereğli",
-    "pt": "Karadeniz Ereğli",
-    "ar": "كارادنيز أرغلي"
-   },
-   "kickoffUtc": "2026-10-08T17:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "A Spor"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20261008-bayern-munich-basketball-virtus-bologna",
-   "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
-   "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
-   },
-   "home": "Bayern Munich Basketball",
-   "away": "Virtus Bologna",
-   "homeNames": {
-    "tr": "Bayern Münih Basketbol",
-    "en": "Bayern Munich Basketball",
-    "de": "FC Bayern München Basketball",
-    "es": "Bayern Múnich Baloncesto",
-    "fr": "Bayern Munich Basketball",
-    "it": "Bayern Monaco Basket",
-    "pt": "Bayern de Munique Basquete",
-    "ar": "بايرن ميونخ لكرة السلة"
-   },
-   "awayNames": {
-    "tr": "Virtus Bologna",
-    "en": "Virtus Bologna",
-    "de": "Virtus Bologna",
-    "es": "Virtus Bologna",
-    "fr": "Virtus Bologna",
-    "it": "Virtus Bologna",
-    "pt": "Virtus Bologna",
-    "ar": "فيرتوس بولونيا"
-   },
-   "kickoffUtc": "2026-10-08T18:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261008-cd-moquegua-cienciano",
+   "id": "football-20261010-deportivo-garcilaso-sport-huancayo",
    "sport": "football",
    "competitionId": "liga1_pe",
    "tier": "regional",
@@ -1564,36 +2944,30 @@
     "pt": "Liga 1 do Peru",
     "ar": "الدوري البيروفي"
    },
-   "home": "CD Moquegua",
-   "away": "Cienciano",
+   "home": "Deportivo Garcilaso",
+   "away": "Sport Huancayo",
    "homeNames": {
-    "tr": "CD Moquegua",
-    "en": "CD Moquegua",
-    "de": "CD Moquegua",
-    "es": "CD Moquegua",
-    "fr": "CD Moquegua",
-    "it": "CD Moquegua",
-    "pt": "CD Moquegua",
-    "ar": "موكيغوا"
+    "tr": "Deportivo Garcilaso",
+    "en": "Deportivo Garcilaso",
+    "de": "Deportivo Garcilaso",
+    "es": "Deportivo Garcilaso",
+    "fr": "Deportivo Garcilaso",
+    "it": "Deportivo Garcilaso",
+    "pt": "Deportivo Garcilaso",
+    "ar": "ديبورتيفو غارسيلاسو"
    },
    "awayNames": {
-    "tr": "Cienciano",
-    "en": "Cienciano",
-    "de": "Cienciano",
-    "es": "Cienciano",
-    "fr": "Cienciano",
-    "it": "Cienciano",
-    "pt": "Cienciano",
-    "ar": "سيينسيانو"
+    "tr": "Sport Huancayo",
+    "en": "Sport Huancayo",
+    "de": "Sport Huancayo",
+    "es": "Sport Huancayo",
+    "fr": "Sport Huancayo",
+    "it": "Sport Huancayo",
+    "pt": "Sport Huancayo",
+    "ar": "سبورت هوانكايو"
    },
-   "kickoffUtc": "2026-10-08T18:00:00Z",
+   "kickoffUtc": "2026-10-10T01:00:00Z",
    "broadcasts": {
-    "ES": [
-     "Fanatiz"
-    ],
-    "PT": [
-     "Fanatiz"
-    ],
     "BR": [
      "Fanatiz"
     ]
@@ -1601,2005 +2975,98 @@
    "sources": []
   },
   {
-   "id": "basketball-20261008-panathinaikos-fenerbahce-beko",
-   "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
-   "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
-   },
-   "home": "Panathinaikos",
-   "away": "Fenerbahce Beko",
-   "homeNames": {
-    "tr": "Panathinaikos",
-    "en": "Panathinaikos",
-    "de": "Panathinaikos",
-    "es": "Panathinaikos",
-    "fr": "Panathinaikos",
-    "it": "Panathinaikos",
-    "pt": "Panathinaikos",
-    "ar": "باناثينايكوس"
-   },
-   "awayNames": {
-    "tr": "Fenerbahçe Beko",
-    "en": "Fenerbahçe Beko",
-    "de": "Fenerbahçe Beko",
-    "es": "Fenerbahçe Beko",
-    "fr": "Fenerbahçe Beko",
-    "it": "Fenerbahçe Beko",
-    "pt": "Fenerbahçe Beko",
-    "ar": "فنربخشة بيكو"
-   },
-   "kickoffUtc": "2026-10-08T18:15:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus",
-     "S Sport",
-     "Idman TV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20261008-valencia-basket-hapoel-tel-aviv",
-   "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
-   "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
-   },
-   "home": "Valencia Basket",
-   "away": "Hapoel Tel Aviv",
-   "homeNames": {
-    "tr": "Valencia Basket",
-    "en": "Valencia Basket",
-    "de": "Valencia Basket",
-    "es": "Valencia Basket",
-    "fr": "Valencia Basket",
-    "it": "Valencia Basket",
-    "pt": "Valencia Basket",
-    "ar": "فالنسيا باسكت"
-   },
-   "awayNames": {
-    "tr": "Hapoel Tel Aviv",
-    "en": "Hapoel Tel Aviv",
-    "de": "Hapoel Tel Aviv",
-    "es": "Hapoel Tel Aviv",
-    "fr": "Hapoel Tel Aviv",
-    "it": "Hapoel Tel Aviv",
-    "pt": "Hapoel Tel Aviv",
-    "ar": "هبوعيل تل أبيب"
-   },
-   "kickoffUtc": "2026-10-08T18:30:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20261008-real-madrid-baloncesto-partizan",
-   "sport": "basketball",
-   "competitionId": "euroleague",
-   "tier": "global",
-   "competition": {
-    "tr": "EuroLeague",
-    "en": "EuroLeague",
-    "de": "EuroLeague",
-    "es": "Euroliga",
-    "fr": "EuroLigue",
-    "it": "Eurolega",
-    "pt": "EuroLiga",
-    "ar": "الدوري الأوروبي لكرة السلة"
-   },
-   "home": "Real Madrid Baloncesto",
-   "away": "Partizan",
-   "homeNames": {
-    "tr": "Real Madrid Baloncesto",
-    "en": "Real Madrid Baloncesto",
-    "de": "Real Madrid Baloncesto",
-    "es": "Real Madrid Baloncesto",
-    "fr": "Real Madrid Baloncesto",
-    "it": "Real Madrid Baloncesto",
-    "pt": "Real Madrid Baloncesto",
-    "ar": "Real Madrid Baloncesto"
-   },
-   "awayNames": {
-    "tr": "Partizan",
-    "en": "Partizan",
-    "de": "Partizan",
-    "es": "Partizan",
-    "fr": "Partizan",
-    "it": "Partizan",
-    "pt": "Partizan",
-    "ar": "بارتيزان"
-   },
-   "kickoffUtc": "2026-10-08T18:45:00Z",
-   "broadcasts": {
-    "TR": [
-     "S Sport Plus",
-     "S Sport 2"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261008-atletico-grau-los-chankas",
+   "id": "football-20261010-puebla-leon",
    "sport": "football",
-   "competitionId": "liga1_pe",
+   "competitionId": "liga_mx",
    "tier": "regional",
    "competition": {
-    "tr": "Peru Liga 1",
-    "en": "Peruvian Liga 1",
-    "de": "Peruanische Liga 1",
-    "es": "Liga 1 de Perú",
-    "fr": "Liga 1 péruvienne",
-    "it": "Liga 1 peruviana",
-    "pt": "Liga 1 do Peru",
-    "ar": "الدوري البيروفي"
+    "tr": "Meksika Liga MX",
+    "en": "Liga MX",
+    "de": "Liga MX",
+    "es": "Liga MX",
+    "fr": "Liga MX",
+    "it": "Liga MX",
+    "pt": "Liga MX",
+    "ar": "الدوري المكسيكي"
    },
-   "home": "Atletico Grau",
-   "away": "Los Chankas",
+   "home": "Puebla",
+   "away": "Leon",
    "homeNames": {
-    "tr": "Atlético Grau",
-    "en": "Atlético Grau",
-    "de": "Atlético Grau",
-    "es": "Atlético Grau",
-    "fr": "Atlético Grau",
-    "it": "Atlético Grau",
-    "pt": "Atlético Grau",
-    "ar": "Atlético Grau"
+    "tr": "Puebla",
+    "en": "Puebla",
+    "de": "Puebla",
+    "es": "Puebla",
+    "fr": "Puebla",
+    "it": "Puebla",
+    "pt": "Puebla",
+    "ar": "بويبلا"
    },
    "awayNames": {
-    "tr": "Los Chankas",
-    "en": "Los Chankas",
-    "de": "Los Chankas",
-    "es": "Los Chankas",
-    "fr": "Los Chankas",
-    "it": "Los Chankas",
-    "pt": "Los Chankas",
-    "ar": "لوس تشانكاس"
+    "tr": "León",
+    "en": "León",
+    "de": "León",
+    "es": "León",
+    "fr": "León",
+    "it": "León",
+    "pt": "León",
+    "ar": "ليون"
    },
-   "kickoffUtc": "2026-10-08T20:30:00Z",
+   "kickoffUtc": "2026-10-10T01:00:00Z",
    "broadcasts": {
-    "ES": [
-     "Fanatiz"
-    ],
-    "PT": [
-     "Fanatiz"
+    "US": [
+     "TUDN"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261008-ceara-criciuma",
+   "id": "football-20261010-tigres-uanl-toluca",
    "sport": "football",
-   "competitionId": "bra_serieb",
+   "competitionId": "liga_mx",
    "tier": "regional",
    "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Série B",
-    "de": "Brasilianische Série B",
-    "es": "Serie B de Brasil",
-    "fr": "Série B brésilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
+    "tr": "Meksika Liga MX",
+    "en": "Liga MX",
+    "de": "Liga MX",
+    "es": "Liga MX",
+    "fr": "Liga MX",
+    "it": "Liga MX",
+    "pt": "Liga MX",
+    "ar": "الدوري المكسيكي"
    },
-   "home": "Ceara",
-   "away": "Criciuma",
+   "home": "Tigres UANL",
+   "away": "Toluca",
    "homeNames": {
-    "tr": "Ceará",
-    "en": "Ceará",
-    "de": "Ceará",
-    "es": "Ceará",
-    "fr": "Ceará",
-    "it": "Ceará",
-    "pt": "Ceará",
-    "ar": "سيارا"
+    "tr": "Tigres UANL",
+    "en": "Tigres UANL",
+    "de": "Tigres UANL",
+    "es": "Tigres UANL",
+    "fr": "Tigres UANL",
+    "it": "Tigres UANL",
+    "pt": "Tigres UANL",
+    "ar": "تيغريس"
    },
    "awayNames": {
-    "tr": "Criciúma",
-    "en": "Criciúma",
-    "de": "Criciúma",
-    "es": "Criciúma",
-    "fr": "Criciúma",
-    "it": "Criciúma",
-    "pt": "Criciúma",
-    "ar": "كريسيوما"
+    "tr": "Toluca",
+    "en": "Toluca",
+    "de": "Toluca",
+    "es": "Toluca",
+    "fr": "Toluca",
+    "it": "Toluca",
+    "pt": "Toluca",
+    "ar": "تولوكا"
    },
-   "kickoffUtc": "2026-10-08T22:30:00Z",
+   "kickoffUtc": "2026-10-10T03:00:00Z",
    "broadcasts": {
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "XSports",
-     "SportyNet"
+    "US": [
+     "FS2",
+     "FOX Deportes",
+     "Universo",
+     "Fubo",
+     "Peacock Premium"
     ]
    },
    "sources": []
-  },
-  {
-   "id": "football-20261008-nautico-novorizontino",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Série B",
-    "de": "Brasilianische Série B",
-    "es": "Serie B de Brasil",
-    "fr": "Série B brésilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Nautico",
-   "away": "Novorizontino",
-   "homeNames": {
-    "tr": "Náutico",
-    "en": "Náutico",
-    "de": "Náutico",
-    "es": "Náutico",
-    "fr": "Náutico",
-    "it": "Náutico",
-    "pt": "Náutico",
-    "ar": "ناوتيكو"
-   },
-   "awayNames": {
-    "tr": "Novorizontino",
-    "en": "Novorizontino",
-    "de": "Novorizontino",
-    "es": "Novorizontino",
-    "fr": "Novorizontino",
-    "it": "Novorizontino",
-    "pt": "Novorizontino",
-    "ar": "نوفوريزونتينو"
-   },
-   "kickoffUtc": "2026-10-08T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "Premiere 6"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261008-santos-flamengo",
-   "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
-   },
-   "home": "Santos",
-   "away": "Flamengo",
-   "homeNames": {
-    "tr": "Santos",
-    "en": "Santos",
-    "de": "Santos",
-    "es": "Santos",
-    "fr": "Santos",
-    "it": "Santos",
-    "pt": "Santos",
-    "ar": "سانتوس"
-   },
-   "awayNames": {
-    "tr": "Flamengo",
-    "en": "Flamengo",
-    "de": "Flamengo",
-    "es": "Flamengo",
-    "fr": "Flamengo",
-    "it": "Flamengo",
-    "pt": "Flamengo",
-    "ar": "فلامنغو"
-   },
-   "kickoffUtc": "2026-10-08T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "SporTV",
-     "Premiere FC"
-    ],
-    "GB": [
-     "Premier Sports 2"
-    ],
-    "DE": [
-     "DAZN",
-     "Sportdigital FUSSBALL",
-     "Sportdigital+"
-    ],
-    "ES": [
-     "Fanatiz",
-     "M+ Vamos",
-     "M+ Liga de Campeones"
-    ],
-    "PT": [
-     "Fanatiz",
-     "Canal 11"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261008-athletico-pr-atletico-mg",
-   "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
-   },
-   "home": "Athletico-PR",
-   "away": "Atletico-MG",
-   "homeNames": {
-    "tr": "Athletico-PR",
-    "en": "Athletico-PR",
-    "de": "Athletico-PR",
-    "es": "Athletico-PR",
-    "fr": "Athletico-PR",
-    "it": "Athletico-PR",
-    "pt": "Athletico-PR",
-    "ar": "أتلتيكو باراناينسي"
-   },
-   "awayNames": {
-    "tr": "Atlético-MG",
-    "en": "Atlético-MG",
-    "de": "Atlético-MG",
-    "es": "Atlético-MG",
-    "fr": "Atlético-MG",
-    "it": "Atlético-MG",
-    "pt": "Atlético-MG",
-    "ar": "أتلتيكو مينيرو"
-   },
-   "kickoffUtc": "2026-10-08T23:00:00Z",
-   "broadcasts": {
-    "BR": [
-     "Premiere 3",
-     "Premiere 4"
-    ],
-    "PT": [
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20261008-cavaliers-celtics",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Cavaliers",
-   "away": "Celtics",
-   "homeNames": {
-    "tr": "Cleveland Cavaliers",
-    "en": "Cleveland Cavaliers",
-    "de": "Cleveland Cavaliers",
-    "es": "Cleveland Cavaliers",
-    "fr": "Cleveland Cavaliers",
-    "it": "Cleveland Cavaliers",
-    "pt": "Cleveland Cavaliers",
-    "ar": "كليفلاند كافالييرز"
-   },
-   "awayNames": {
-    "tr": "Boston Celtics",
-    "en": "Boston Celtics",
-    "de": "Boston Celtics",
-    "es": "Boston Celtics",
-    "fr": "Boston Celtics",
-    "it": "Boston Celtics",
-    "pt": "Boston Celtics",
-    "ar": "بوسطن سيلتيكس"
-   },
-   "kickoffUtc": "2026-10-08T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "basketball-20261008-heat-pelicans",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Heat",
-   "away": "Pelicans",
-   "homeNames": {
-    "tr": "Miami Heat",
-    "en": "Miami Heat",
-    "de": "Miami Heat",
-    "es": "Miami Heat",
-    "fr": "Miami Heat",
-    "it": "Miami Heat",
-    "pt": "Miami Heat",
-    "ar": "ميامي هيت"
-   },
-   "awayNames": {
-    "tr": "New Orleans Pelicans",
-    "en": "New Orleans Pelicans",
-    "de": "New Orleans Pelicans",
-    "es": "New Orleans Pelicans",
-    "fr": "New Orleans Pelicans",
-    "it": "New Orleans Pelicans",
-    "pt": "New Orleans Pelicans",
-    "ar": "نيو أورلينز بيليكانز"
-   },
-   "kickoffUtc": "2026-10-08T23:30:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "basketball-20261008-nets-76ers",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Nets",
-   "away": "76ers",
-   "homeNames": {
-    "tr": "Brooklyn Nets",
-    "en": "Brooklyn Nets",
-    "de": "Brooklyn Nets",
-    "es": "Brooklyn Nets",
-    "fr": "Brooklyn Nets",
-    "it": "Brooklyn Nets",
-    "pt": "Brooklyn Nets",
-    "ar": "بروكلين نتس"
-   },
-   "awayNames": {
-    "tr": "Philadelphia 76ers",
-    "en": "Philadelphia 76ers",
-    "de": "Philadelphia 76ers",
-    "es": "Philadelphia 76ers",
-    "fr": "Philadelphia 76ers",
-    "it": "Philadelphia 76ers",
-    "pt": "Philadelphia 76ers",
-    "ar": "فيلادلفيا سفنتي سيكسرز"
-   },
-   "kickoffUtc": "2026-10-08T23:30:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "basketball-20261008-knicks-wizards",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Knicks",
-   "away": "Wizards",
-   "homeNames": {
-    "tr": "New York Knicks",
-    "en": "New York Knicks",
-    "de": "New York Knicks",
-    "es": "New York Knicks",
-    "fr": "New York Knicks",
-    "it": "New York Knicks",
-    "pt": "New York Knicks",
-    "ar": "نيويورك نيكس"
-   },
-   "awayNames": {
-    "tr": "Washington Wizards",
-    "en": "Washington Wizards",
-    "de": "Washington Wizards",
-    "es": "Washington Wizards",
-    "fr": "Washington Wizards",
-    "it": "Washington Wizards",
-    "pt": "Washington Wizards",
-    "ar": "واشنطن ويزاردز"
-   },
-   "kickoffUtc": "2026-10-08T23:30:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA TV",
-     "MNMT"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "basketball-20261009-spurs-hawks",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Spurs",
-   "away": "Hawks",
-   "homeNames": {
-    "tr": "San Antonio Spurs",
-    "en": "San Antonio Spurs",
-    "de": "San Antonio Spurs",
-    "es": "San Antonio Spurs",
-    "fr": "San Antonio Spurs",
-    "it": "San Antonio Spurs",
-    "pt": "San Antonio Spurs",
-    "ar": "سان أنتونيو سبيرز"
-   },
-   "awayNames": {
-    "tr": "Atlanta Hawks",
-    "en": "Atlanta Hawks",
-    "de": "Atlanta Hawks",
-    "es": "Atlanta Hawks",
-    "fr": "Atlanta Hawks",
-    "it": "Atlanta Hawks",
-    "pt": "Atlanta Hawks",
-    "ar": "أتلانتا هوكس"
-   },
-   "kickoffUtc": "2026-10-09T00:00:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "football-20261009-fluminense-coritiba",
-   "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
-   },
-   "home": "Fluminense",
-   "away": "Coritiba",
-   "homeNames": {
-    "tr": "Fluminense",
-    "en": "Fluminense",
-    "de": "Fluminense",
-    "es": "Fluminense",
-    "fr": "Fluminense",
-    "it": "Fluminense",
-    "pt": "Fluminense",
-    "ar": "فلومينينسي"
-   },
-   "awayNames": {
-    "tr": "Coritiba",
-    "en": "Coritiba",
-    "de": "Coritiba",
-    "es": "Coritiba",
-    "fr": "Coritiba",
-    "it": "Coritiba",
-    "pt": "Coritiba",
-    "ar": "كوريتيبا"
-   },
-   "kickoffUtc": "2026-10-09T00:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "Globo",
-     "Premiere 5"
-    ],
-    "ES": [
-     "Fanatiz"
-    ],
-    "PT": [
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261009-palmeiras-bahia",
-   "sport": "football",
-   "competitionId": "bra_seriea",
-   "tier": "global",
-   "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brasileirão Série A",
-    "de": "Brasileirão Série A",
-    "es": "Brasileirão Serie A",
-    "fr": "Brasileirão Série A",
-    "it": "Brasileirão Serie A",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
-   },
-   "home": "Palmeiras",
-   "away": "Bahia",
-   "homeNames": {
-    "tr": "Palmeiras",
-    "en": "Palmeiras",
-    "de": "Palmeiras",
-    "es": "Palmeiras",
-    "fr": "Palmeiras",
-    "it": "Palmeiras",
-    "pt": "Palmeiras",
-    "ar": "بالميراس"
-   },
-   "awayNames": {
-    "tr": "Bahia",
-    "en": "Bahia",
-    "de": "Bahia",
-    "es": "Bahia",
-    "fr": "Bahia",
-    "it": "Bahia",
-    "pt": "Bahia",
-    "ar": "باهيا"
-   },
-   "kickoffUtc": "2026-10-09T00:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "Globo",
-     "Premiere 2",
-     "GE TV"
-    ],
-    "GB": [
-     "Premier Sports 2"
-    ],
-    "ES": [
-     "Fanatiz"
-    ],
-    "PT": [
-     "Fanatiz",
-     "Canal 11"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20261009-lakers-kings",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Lakers",
-   "away": "Kings",
-   "homeNames": {
-    "tr": "Los Angeles Lakers",
-    "en": "Los Angeles Lakers",
-    "de": "Los Angeles Lakers",
-    "es": "Los Angeles Lakers",
-    "fr": "Los Angeles Lakers",
-    "it": "Los Angeles Lakers",
-    "pt": "Los Angeles Lakers",
-    "ar": "لوس أنجلوس ليكرز"
-   },
-   "awayNames": {
-    "tr": "Sacramento Kings",
-    "en": "Sacramento Kings",
-    "de": "Sacramento Kings",
-    "es": "Sacramento Kings",
-    "fr": "Sacramento Kings",
-    "it": "Sacramento Kings",
-    "pt": "Sacramento Kings",
-    "ar": "ساكرامنتو كينغز"
-   },
-   "kickoffUtc": "2026-10-09T02:30:00Z",
-   "broadcasts": {
-    "US": [
-     "ESPN2"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
   }
  ]
 }
