@@ -1,540 +1,20 @@
 {
- "generated_at": "2026-10-10T00:16:49.000Z",
+ "generated_at": "2026-10-10T16:16:40.000Z",
  "date": "2026-10-10",
  "model": "user-provided",
  "stats": {
-  "total": 142,
-  "withChannel": 142,
+  "total": 145,
+  "withChannel": 145,
   "bySport": {
-   "basketball": 8,
-   "football": 130,
-   "motorsport": 4
+   "motorsport": 4,
+   "football": 129,
+   "basketball": 11,
+   "volleyball": 1
   },
   "warnings": 0,
   "searches": 0
  },
  "matches": [
-  {
-   "id": "basketball-20261010-bulls-grizzlies",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Bulls",
-   "away": "Grizzlies",
-   "homeNames": {
-    "tr": "Chicago Bulls",
-    "en": "Chicago Bulls",
-    "de": "Chicago Bulls",
-    "es": "Chicago Bulls",
-    "fr": "Chicago Bulls",
-    "it": "Chicago Bulls",
-    "pt": "Chicago Bulls",
-    "ar": "شيكاغو بولز"
-   },
-   "awayNames": {
-    "tr": "Memphis Grizzlies",
-    "en": "Memphis Grizzlies",
-    "de": "Memphis Grizzlies",
-    "es": "Memphis Grizzlies",
-    "fr": "Memphis Grizzlies",
-    "it": "Memphis Grizzlies",
-    "pt": "Memphis Grizzlies",
-    "ar": "ممفيس غريزليز"
-   },
-   "kickoffUtc": "2026-10-10T00:00:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA TV"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "football-20261010-union-defensa-y-justicia",
-   "sport": "football",
-   "competitionId": "arg_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Arjantin Primera División",
-    "en": "Argentine Primera División",
-    "de": "Primera División",
-    "es": "Liga Profesional Argentina",
-    "fr": "Primera División argentine",
-    "it": "Primera División argentina",
-    "pt": "Primera División Argentina",
-    "ar": "الدوري الأرجنتيني"
-   },
-   "home": "Union",
-   "away": "Defensa y Justicia",
-   "homeNames": {
-    "tr": "Unión Santa Fe",
-    "en": "Unión Santa Fe",
-    "de": "Unión Santa Fe",
-    "es": "Unión Santa Fe",
-    "fr": "Unión Santa Fe",
-    "it": "Unión Santa Fe",
-    "pt": "Unión Santa Fe",
-    "ar": "Unión Santa Fe"
-   },
-   "awayNames": {
-    "tr": "Defensa y Justicia",
-    "en": "Defensa y Justicia",
-    "de": "Defensa y Justicia",
-    "es": "Defensa y Justicia",
-    "fr": "Defensa y Justicia",
-    "it": "Defensa y Justicia",
-    "pt": "Defensa y Justicia",
-    "ar": "Defensa y Justicia"
-   },
-   "kickoffUtc": "2026-10-10T00:45:00Z",
-   "broadcasts": {
-    "MX": [
-     "Fanatiz",
-     "TyC Sports Internacional"
-    ],
-    "CO": [
-     "Fanatiz",
-     "TyC Sports Internacional"
-    ],
-    "CL": [
-     "Fanatiz",
-     "TyC Sports Internacional"
-    ],
-    "PE": [
-     "Fanatiz",
-     "TyC Sports Internacional"
-    ],
-    "UY": [
-     "TyC Sports Internacional",
-     "Fanatiz"
-    ],
-    "EC": [
-     "Fanatiz",
-     "TyC Sports Internacional"
-    ],
-    "PY": [
-     "Fanatiz",
-     "TyC Sports Internacional"
-    ],
-    "AR": [
-     "ESPN Premium"
-    ],
-    "ES": [
-     "Fanatiz"
-    ],
-    "PT": [
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261010-deportivo-garcilaso-sport-huancayo",
-   "sport": "football",
-   "competitionId": "liga1_pe",
-   "tier": "regional",
-   "competition": {
-    "tr": "Peru Liga 1",
-    "en": "Peruvian Liga 1",
-    "de": "Peruanische Liga 1",
-    "es": "Liga 1 de Perú",
-    "fr": "Liga 1 péruvienne",
-    "it": "Liga 1 peruviana",
-    "pt": "Liga 1 do Peru",
-    "ar": "الدوري البيروفي"
-   },
-   "home": "Deportivo Garcilaso",
-   "away": "Sport Huancayo",
-   "homeNames": {
-    "tr": "Deportivo Garcilaso",
-    "en": "Deportivo Garcilaso",
-    "de": "Deportivo Garcilaso",
-    "es": "Deportivo Garcilaso",
-    "fr": "Deportivo Garcilaso",
-    "it": "Deportivo Garcilaso",
-    "pt": "Deportivo Garcilaso",
-    "ar": "ديبورتيفو غارسيلاسو"
-   },
-   "awayNames": {
-    "tr": "Sport Huancayo",
-    "en": "Sport Huancayo",
-    "de": "Sport Huancayo",
-    "es": "Sport Huancayo",
-    "fr": "Sport Huancayo",
-    "it": "Sport Huancayo",
-    "pt": "Sport Huancayo",
-    "ar": "سبورت هوانكايو"
-   },
-   "kickoffUtc": "2026-10-10T01:00:00Z",
-   "broadcasts": {
-    "BR": [
-     "Fanatiz"
-    ],
-    "MX": [
-     "Fanatiz"
-    ],
-    "CO": [
-     "Fanatiz"
-    ],
-    "CL": [
-     "Fanatiz",
-     "Fanatiz 1"
-    ],
-    "PE": [
-     "L1 Max",
-     "L1 Play",
-     "Fanatiz"
-    ],
-    "UY": [
-     "Fanatiz"
-    ],
-    "EC": [
-     "Fanatiz"
-    ],
-    "PY": [
-     "Fanatiz"
-    ],
-    "ES": [
-     "Fanatiz"
-    ],
-    "PT": [
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261010-puebla-leon",
-   "sport": "football",
-   "competitionId": "liga_mx",
-   "tier": "regional",
-   "competition": {
-    "tr": "Meksika Liga MX",
-    "en": "Liga MX",
-    "de": "Liga MX",
-    "es": "Liga MX",
-    "fr": "Liga MX",
-    "it": "Liga MX",
-    "pt": "Liga MX",
-    "ar": "الدوري المكسيكي"
-   },
-   "home": "Puebla",
-   "away": "Leon",
-   "homeNames": {
-    "tr": "Puebla",
-    "en": "Puebla",
-    "de": "Puebla",
-    "es": "Puebla",
-    "fr": "Puebla",
-    "it": "Puebla",
-    "pt": "Puebla",
-    "ar": "بويبلا"
-   },
-   "awayNames": {
-    "tr": "León",
-    "en": "León",
-    "de": "León",
-    "es": "León",
-    "fr": "León",
-    "it": "León",
-    "pt": "León",
-    "ar": "ليون"
-   },
-   "kickoffUtc": "2026-10-10T01:00:00Z",
-   "broadcasts": {
-    "US": [
-     "TUDN"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+ Premium"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261010-once-caldas-llaneros",
-   "sport": "football",
-   "competitionId": "liga_dimayor",
-   "tier": "regional",
-   "competition": {
-    "tr": "Kolombiya Liga BetPlay",
-    "en": "Liga BetPlay DIMAYOR",
-    "de": "Liga BetPlay DIMAYOR",
-    "es": "Liga BetPlay DIMAYOR",
-    "fr": "Liga BetPlay DIMAYOR",
-    "it": "Liga BetPlay DIMAYOR",
-    "pt": "Liga BetPlay DIMAYOR",
-    "ar": "الدوري الكولومبي"
-   },
-   "home": "Once Caldas",
-   "away": "Llaneros",
-   "homeNames": {
-    "tr": "Once Caldas",
-    "en": "Once Caldas",
-    "de": "Once Caldas",
-    "es": "Once Caldas",
-    "fr": "Once Caldas",
-    "it": "Once Caldas",
-    "pt": "Once Caldas",
-    "ar": "أونسي كالداس"
-   },
-   "awayNames": {
-    "tr": "Llaneros",
-    "en": "Llaneros",
-    "de": "Llaneros",
-    "es": "Llaneros",
-    "fr": "Llaneros",
-    "it": "Llaneros",
-    "pt": "Llaneros",
-    "ar": "Llaneros"
-   },
-   "kickoffUtc": "2026-10-10T01:10:00Z",
-   "broadcasts": {
-    "MX": [
-     "RCN Nuestra Tele"
-    ],
-    "CO": [
-     "Win Fútbol+",
-     "Win Play",
-     "Win Sports"
-    ],
-    "CL": [
-     "RCN Nuestra Tele"
-    ],
-    "PE": [
-     "RCN Nuestra Tele"
-    ],
-    "UY": [
-     "RCN Nuestra Tele"
-    ],
-    "EC": [
-     "RCN Nuestra Tele"
-    ],
-    "ES": [
-     "RCN Nuestra Tele"
-    ],
-    "PT": [
-     "Fanatiz"
-    ]
-   },
-   "sources": []
-  },
   {
    "id": "motorsport-20261010-motogp-endonezya-gp-2-antrenman-ve-siralama",
    "sport": "motorsport",
@@ -578,60 +58,6 @@
      "Motosiklet",
      "S Sport Plus",
      "S Sport"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261010-tigres-uanl-toluca",
-   "sport": "football",
-   "competitionId": "liga_mx",
-   "tier": "regional",
-   "competition": {
-    "tr": "Meksika Liga MX",
-    "en": "Liga MX",
-    "de": "Liga MX",
-    "es": "Liga MX",
-    "fr": "Liga MX",
-    "it": "Liga MX",
-    "pt": "Liga MX",
-    "ar": "الدوري المكسيكي"
-   },
-   "home": "Tigres UANL",
-   "away": "Toluca",
-   "homeNames": {
-    "tr": "Tigres UANL",
-    "en": "Tigres UANL",
-    "de": "Tigres UANL",
-    "es": "Tigres UANL",
-    "fr": "Tigres UANL",
-    "it": "Tigres UANL",
-    "pt": "Tigres UANL",
-    "ar": "تيغريس"
-   },
-   "awayNames": {
-    "tr": "Toluca",
-    "en": "Toluca",
-    "de": "Toluca",
-    "es": "Toluca",
-    "fr": "Toluca",
-    "it": "Toluca",
-    "pt": "Toluca",
-    "ar": "تولوكا"
-   },
-   "kickoffUtc": "2026-10-10T03:00:00Z",
-   "broadcasts": {
-    "US": [
-     "FS2",
-     "FOX Deportes",
-     "Universo",
-     "Fubo",
-     "Peacock Premium"
-    ],
-    "MX": [
-     "FOX One",
-     "FOX",
-     "Azteca 7"
     ]
    },
    "sources": []
@@ -823,7 +249,6 @@
    "kickoffUtc": "2026-10-10T10:30:00Z",
    "broadcasts": {
     "TR": [
-     "beIN Sports 1",
      "beIN Sports 2"
     ]
    },
@@ -878,6 +303,27 @@
     "DE": [
      "Sky Bundesliga 4",
      "WOW"
+    ],
+    "MX": [
+     "Bundesliga YouTube"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -934,6 +380,30 @@
     "DE": [
      "Sky Bundesliga 3",
      "WOW"
+    ],
+    "TR": [
+     "S Sport Plus"
+    ],
+    "MX": [
+     "Bundesliga YouTube"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -987,6 +457,27 @@
     "DE": [
      "WOW",
      "Sky Bundesliga 5"
+    ],
+    "MX": [
+     "Bundesliga YouTube"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -1067,8 +558,8 @@
      "DAZN"
     ],
     "TR": [
-     "beIN Sports 1",
-     "beIN Sports 4"
+     "beIN Sports 3",
+     "Idman TV"
     ],
     "SA": [
      "beIN Sports"
@@ -1122,28 +613,28 @@
      "Canal+"
     ],
     "CO": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "CL": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "UY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "PY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "PE": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "EC": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "GT": [
      "FOX Sports",
@@ -1157,6 +648,9 @@
     ],
     "KR": [
      "Coupang Play"
+    ],
+    "MX": [
+     "HBO Max"
     ]
    },
    "sources": []
@@ -1389,6 +883,33 @@
      "CBS Sports Golazo Network",
      "Paramount+",
      "Amazon Prime Video"
+    ],
+    "MX": [
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "PE": [
+     "ESPN 5",
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "ESPN 5",
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 5"
     ]
    },
    "sources": []
@@ -1679,6 +1200,9 @@
      "beIN Sports Connect",
      "Fubo",
      "Fanatiz"
+    ],
+    "TR": [
+     "beIN Sports Max 2"
     ]
    },
    "sources": []
@@ -1751,9 +1275,8 @@
      "TSN+"
     ],
     "TR": [
-     "S Sport",
      "S Sport Plus",
-     "Idman TV"
+     "S Sport"
     ],
     "MX": [
      "Sky Sports"
@@ -1808,6 +1331,24 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -1871,6 +1412,27 @@
     ],
     "US": [
      "ESPN+"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
     ]
    },
    "sources": []
@@ -1915,7 +1477,6 @@
    "kickoffUtc": "2026-10-10T13:00:00Z",
    "broadcasts": {
     "TR": [
-     "beIN Sports 1",
      "beIN Sports 2"
     ]
    },
@@ -2016,6 +1577,27 @@
     ],
     "IT": [
      "DAZN"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
     ]
    },
    "sources": []
@@ -2077,6 +1659,30 @@
     "US": [
      "FOX Soccer Plus",
      "Fubo"
+    ],
+    "TR": [
+     "Sıfır TV"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
     ]
    },
    "sources": []
@@ -2147,44 +1753,38 @@
      "DAZN"
     ],
     "TR": [
-     "beIN Sports 2",
-     "beIN Sports 3"
+     "S Sport Plus",
+     "S Sport 2"
     ],
     "AR": [
      "ESPN",
      "Disney+"
     ],
     "MX": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "CO": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "CL": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "UY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "PY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "GT": [
      "ESPN",
      "Disney+"
     ],
     "PE": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "EC": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "SA": [
      "beIN Sports"
@@ -2288,8 +1888,35 @@
      "Fanatiz"
     ],
     "TR": [
-     "beIN Sports 1",
-     "beIN Sports 2"
+     "beIN Sports 1"
+    ],
+    "MX": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 7"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 7"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 7"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 7"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 7"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 7"
     ]
    },
    "sources": []
@@ -2344,6 +1971,27 @@
     ],
     "IT": [
      "DAZN"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
     ]
    },
    "sources": []
@@ -2398,6 +2046,27 @@
     ],
     "IT": [
      "DAZN"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
     ]
    },
    "sources": []
@@ -2516,6 +2185,32 @@
      "Fubo",
      "DAZN",
      "OneSoccer"
+    ],
+    "TR": [
+     "Idman TV YouTube",
+     "S Sport Plus"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -2580,6 +2275,30 @@
      "Fubo",
      "DAZN",
      "OneSoccer"
+    ],
+    "TR": [
+     "S Sport Plus"
+    ],
+    "MX": [
+     "FOX One"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -2651,6 +2370,36 @@
      "Fubo",
      "DAZN",
      "OneSoccer"
+    ],
+    "TR": [
+     "S Sport Plus"
+    ],
+    "MX": [
+     "FOX One"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN Premium"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 5"
     ]
    },
    "sources": []
@@ -2716,6 +2465,27 @@
      "Fubo",
      "DAZN",
      "OneSoccer"
+    ],
+    "MX": [
+     "FOX One"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -2781,6 +2551,27 @@
      "Fubo",
      "DAZN",
      "OneSoccer"
+    ],
+    "MX": [
+     "FOX One"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -2824,10 +2615,6 @@
    },
    "kickoffUtc": "2026-10-10T13:50:00Z",
    "broadcasts": {
-    "TR": [
-     "HT Spor",
-     "S Sport Plus"
-    ],
     "SA": [
      "Thmanyah",
      "STC TV"
@@ -2908,8 +2695,7 @@
      "DAZN"
     ],
     "TR": [
-     "beIN Sports 1",
-     "beIN Sports 4"
+     "beIN Sports Max 1"
     ],
     "SA": [
      "beIN Sports"
@@ -2963,28 +2749,22 @@
      "Canal+"
     ],
     "CO": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "CL": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "UY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "PY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "PE": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "EC": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "GT": [
      "FOX Sports",
@@ -2998,6 +2778,9 @@
     ],
     "KR": [
      "Coupang Play"
+    ],
+    "MX": [
+     "FOX One"
     ]
    },
    "sources": []
@@ -3072,8 +2855,7 @@
      "DAZN"
     ],
     "TR": [
-     "beIN Sports 1",
-     "beIN Sports 4"
+     "beIN Sports 3"
     ],
     "SA": [
      "beIN Sports"
@@ -3127,28 +2909,28 @@
      "Canal+"
     ],
     "CO": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "CL": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "UY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "PY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "PE": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "EC": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "GT": [
      "FOX Sports",
@@ -3162,6 +2944,10 @@
     ],
     "KR": [
      "Coupang Play"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX+"
     ]
    },
    "sources": []
@@ -3213,6 +2999,35 @@
     ],
     "BR": [
      "Disney+"
+    ],
+    "MX": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "DSports Uruguay Premium",
+     "Antel TV",
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -3324,8 +3139,7 @@
      "DAZN"
     ],
     "TR": [
-     "beIN Sports 1",
-     "beIN Sports 4"
+     "beIN Connect"
     ],
     "SA": [
      "beIN Sports"
@@ -3379,28 +3193,22 @@
      "Canal+"
     ],
     "CO": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "CL": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "UY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "PY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "PE": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "EC": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "GT": [
      "FOX Sports",
@@ -3414,6 +3222,10 @@
     ],
     "KR": [
      "Coupang Play"
+    ],
+    "MX": [
+     "FOX One",
+     "Tubi"
     ]
    },
    "sources": []
@@ -3572,8 +3384,7 @@
      "DAZN"
     ],
     "TR": [
-     "beIN Sports 1",
-     "beIN Sports 4"
+     "beIN Sports Max 2"
     ],
     "SA": [
      "beIN Sports"
@@ -3627,28 +3438,22 @@
      "Canal+"
     ],
     "CO": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "CL": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "UY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "PY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "PE": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "EC": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "GT": [
      "FOX Sports",
@@ -3662,6 +3467,10 @@
     ],
     "KR": [
      "Coupang Play"
+    ],
+    "MX": [
+     "HBO Max",
+     "TNT"
     ]
    },
    "sources": []
@@ -3780,45 +3589,55 @@
      "TSN+"
     ],
     "TR": [
-     "S Sport",
      "S Sport Plus",
-     "Idman TV"
+     "S Sport"
     ],
     "MX": [
      "Sky Sports"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "NG": [
      "SuperSport"
@@ -3837,6 +3656,30 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 2"
     ]
    },
    "sources": []
@@ -3883,6 +3726,9 @@
     "ES": [
      "LaLiga TV Hypermotion",
      "DAZN"
+    ],
+    "MX": [
+     "Sky Sports"
     ]
    },
    "sources": []
@@ -3931,10 +3777,6 @@
     ],
     "BR": [
      "Disney+"
-    ],
-    "TR": [
-     "beIN Sports 3",
-     "Tivibu Spor 1"
     ]
    },
    "sources": []
@@ -3998,6 +3840,27 @@
     ],
     "US": [
      "ESPN+"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
     ]
    },
    "sources": []
@@ -4086,10 +3949,6 @@
    },
    "kickoffUtc": "2026-10-10T14:55:00Z",
    "broadcasts": {
-    "TR": [
-     "HT Spor",
-     "S Sport Plus"
-    ],
     "SA": [
      "Thmanyah",
      "STC TV"
@@ -4099,6 +3958,51 @@
     ],
     "CH": [
      "DAZN"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20261010-tofas-esenler-erokspor",
+   "sport": "basketball",
+   "competitionId": "bsl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Basketbol Süper Ligi",
+    "en": "Turkish Basketball Super League",
+    "de": "Türkische Basketball Super League",
+    "es": "Superliga de Baloncesto de Turquía",
+    "fr": "Super Ligue turque de basket-ball",
+    "it": "Super Lega turca di pallacanestro",
+    "pt": "Superliga Turca de Basquete",
+    "ar": "الدوري التركي الممتاز لكرة السلة"
+   },
+   "home": "Tofas",
+   "away": "Esenler Erokspor",
+   "homeNames": {
+    "tr": "Tofaş",
+    "en": "Tofaş",
+    "de": "Tofaş",
+    "es": "Tofaş",
+    "fr": "Tofaş",
+    "it": "Tofaş",
+    "pt": "Tofaş",
+    "ar": "Tofaş"
+   },
+   "awayNames": {
+    "tr": "Esenler Erokspor",
+    "en": "Esenler Erokspor",
+    "de": "Esenler Erokspor",
+    "es": "Esenler Erokspor",
+    "fr": "Esenler Erokspor",
+    "it": "Esenler Erokspor",
+    "pt": "Esenler Erokspor",
+    "ar": "Esenler Erokspor"
+   },
+   "kickoffUtc": "2026-10-10T15:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 5"
     ]
    },
    "sources": []
@@ -4167,40 +4071,51 @@
      "Fubo"
     ],
     "TR": [
-     "beIN Sports 3"
+     "beIN Connect"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "SN": [
      "Canal+"
@@ -4210,6 +4125,27 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "MX": [
+     "FOX One"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -4264,6 +4200,118 @@
     ],
     "IT": [
      "DAZN"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261010-sumqayit-qabala",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premier Ligi",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Liga Premier do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Sumqayit",
+   "away": "Qabala",
+   "homeNames": {
+    "tr": "Sumqayıt",
+    "en": "Sumqayit",
+    "de": "Sumqayit",
+    "es": "Sumqayit",
+    "fr": "Sumqayit",
+    "it": "Sumqayit",
+    "pt": "Sumqayit",
+    "ar": "سومقايت"
+   },
+   "awayNames": {
+    "tr": "Gabala",
+    "en": "Qabala",
+    "de": "Qabala",
+    "es": "Qabala",
+    "fr": "Qabala",
+    "it": "Qabala",
+    "pt": "Qabala",
+    "ar": "قبالة"
+   },
+   "kickoffUtc": "2026-10-10T15:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "CBC Sport"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20261010-leyma-coruna-basket-zaragoza",
+   "sport": "basketball",
+   "competitionId": "acb",
+   "tier": "regional",
+   "competition": {
+    "tr": "İspanya Basketbol Ligi",
+    "en": "Spanish ACB League",
+    "de": "Spanische ACB-Liga",
+    "es": "Liga Endesa",
+    "fr": "Championnat d'Espagne de basket",
+    "it": "Lega spagnola di basket",
+    "pt": "Liga espanhola de basquetebol",
+    "ar": "الدوري الإسباني لكرة السلة"
+   },
+   "home": "Leyma Coruna",
+   "away": "Basket Zaragoza",
+   "homeNames": {
+    "tr": "Leyma Coruña",
+    "en": "Leyma Coruña",
+    "de": "Leyma Coruña",
+    "es": "Leyma Coruña",
+    "fr": "Leyma Coruña",
+    "it": "Leyma Coruña",
+    "pt": "Leyma Coruña",
+    "ar": "Leyma Coruña"
+   },
+   "awayNames": {
+    "tr": "Basket Zaragoza",
+    "en": "Basket Zaragoza",
+    "de": "Basket Zaragoza",
+    "es": "Basket Zaragoza",
+    "fr": "Basket Zaragoza",
+    "it": "Basket Zaragoza",
+    "pt": "Basket Zaragoza",
+    "ar": "Basket Zaragoza"
+   },
+   "kickoffUtc": "2026-10-10T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Smart Spor 2",
+     "Spor Smart 2"
     ]
    },
    "sources": []
@@ -4342,44 +4390,38 @@
      "DAZN"
     ],
     "TR": [
-     "beIN Sports 2",
-     "beIN Sports 3"
+     "S Sport Plus",
+     "S Sport 2"
     ],
     "AR": [
      "ESPN",
      "Disney+"
     ],
     "MX": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "CO": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "CL": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "UY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "PY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "GT": [
      "ESPN",
      "Disney+"
     ],
     "PE": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "EC": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "SA": [
      "beIN Sports"
@@ -4422,6 +4464,164 @@
     ],
     "ML": [
      "Canal+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261010-istanbulspor-esenler-erokspor",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Liga",
+    "es": "Primera División TFF",
+    "fr": "TFF 1re Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "دوري الدرجة الأولى التركي"
+   },
+   "home": "Istanbulspor",
+   "away": "Esenler Erokspor",
+   "homeNames": {
+    "tr": "İstanbulspor",
+    "en": "İstanbulspor",
+    "de": "İstanbulspor",
+    "es": "İstanbulspor",
+    "fr": "İstanbulspor",
+    "it": "İstanbulspor",
+    "pt": "İstanbulspor",
+    "ar": "إسطنبول سبور"
+   },
+   "awayNames": {
+    "tr": "Esenler Erokspor",
+    "en": "Esenler Erokspor",
+    "de": "Esenler Erokspor",
+    "es": "Esenler Erokspor",
+    "fr": "Esenler Erokspor",
+    "it": "Esenler Erokspor",
+    "pt": "Esenler Erokspor",
+    "ar": "Esenler Erokspor"
+   },
+   "kickoffUtc": "2026-10-10T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "tabii Spor 6",
+     "beIN Sports Max 1"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "MA": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261010-kayserispor-manisa-fk",
+   "sport": "football",
+   "competitionId": "tff1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Trendyol 1. Lig",
+    "en": "TFF First League",
+    "de": "TFF 1. Liga",
+    "es": "Primera División TFF",
+    "fr": "TFF 1re Ligue",
+    "it": "TFF Prima Lega",
+    "pt": "TFF Primeira Liga",
+    "ar": "دوري الدرجة الأولى التركي"
+   },
+   "home": "Kayserispor",
+   "away": "Manisa FK",
+   "homeNames": {
+    "tr": "Kayserispor",
+    "en": "Kayserispor",
+    "de": "Kayserispor",
+    "es": "Kayserispor",
+    "fr": "Kayserispor",
+    "it": "Kayserispor",
+    "pt": "Kayserispor",
+    "ar": "قيصري سبور"
+   },
+   "awayNames": {
+    "tr": "Manisa FK",
+    "en": "Manisa FK",
+    "de": "Manisa FK",
+    "es": "Manisa FK",
+    "fr": "Manisa FK",
+    "it": "Manisa FK",
+    "pt": "Manisa FK",
+    "ar": "مانيسا"
+   },
+   "kickoffUtc": "2026-10-10T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor",
+     "beIN Sports 2"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "MA": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
     ]
    },
    "sources": []
@@ -4481,8 +4681,112 @@
      "Fanatiz"
     ],
     "TR": [
-     "beIN Sports 1",
-     "beIN Sports 2"
+     "beIN Sports 1"
+    ],
+    "MX": [
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 7"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 7"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 7"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 7"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 7"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 7"
+    ],
+    "SA": [
+     "beIN Sports MENA 7"
+    ],
+    "DZ": [
+     "beIN Sports MENA 7"
+    ],
+    "IQ": [
+     "beIN Sports MENA 7"
+    ],
+    "JO": [
+     "beIN Sports MENA 7"
+    ],
+    "EG": [
+     "beIN Sports MENA 7"
+    ],
+    "OM": [
+     "beIN Sports MENA 7"
+    ],
+    "QA": [
+     "beIN Sports MENA 7"
+    ],
+    "AE": [
+     "beIN Sports MENA 7"
+    ],
+    "MA": [
+     "beIN Sports MENA 7"
+    ],
+    "TN": [
+     "beIN Sports MENA 7"
+    ],
+    "LY": [
+     "beIN Sports MENA 7"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "volleyball-20261010-alanya-bld-istanbul-bb",
+   "sport": "volleyball",
+   "competitionId": "tvf_erkek_kupa",
+   "tier": "regional",
+   "competition": {
+    "tr": "TVF Erkekler Kupa Voley",
+    "en": "Turkish Men's Volleyball Cup",
+    "de": "Türkischer Volleyball-Pokal (Männer)",
+    "es": "Copa de Turquía de Voleibol Masculino",
+    "fr": "Coupe de Turquie de volley-ball masculin",
+    "it": "Coppa di Turchia di pallavolo maschile",
+    "pt": "Taça da Turquia de Voleibol Masculino",
+    "ar": "كأس تركيا للكرة الطائرة للرجال"
+   },
+   "home": "Alanya Bld",
+   "away": "Istanbul BB",
+   "homeNames": {
+    "tr": "Alanya Bld.",
+    "en": "Alanya Bld.",
+    "de": "Alanya Bld.",
+    "es": "Alanya Bld.",
+    "fr": "Alanya Bld.",
+    "it": "Alanya Bld.",
+    "pt": "Alanya Bld.",
+    "ar": "Alanya Bld."
+   },
+   "awayNames": {
+    "tr": "İstanbul BB",
+    "en": "İstanbul BB",
+    "de": "İstanbul BB",
+    "es": "İstanbul BB",
+    "fr": "İstanbul BB",
+    "it": "İstanbul BB",
+    "pt": "İstanbul BB",
+    "ar": "İstanbul BB"
+   },
+   "kickoffUtc": "2026-10-10T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TVF Voleybol TV YouTube"
     ]
    },
    "sources": []
@@ -4555,45 +4859,55 @@
      "TSN+"
     ],
     "TR": [
-     "S Sport",
      "S Sport Plus",
-     "Idman TV"
+     "S Sport"
     ],
     "MX": [
      "Sky Sports"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "TOD TV"
     ],
     "NG": [
      "SuperSport"
@@ -4612,6 +4926,30 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 2"
     ]
    },
    "sources": []
@@ -4658,6 +4996,9 @@
     "ES": [
      "LaLiga TV Hypermotion",
      "DAZN"
+    ],
+    "MX": [
+     "Sky Sports"
     ]
    },
    "sources": []
@@ -4703,6 +5044,18 @@
    "broadcasts": {
     "ES": [
      "Zapping Internacional"
+    ],
+    "CO": [
+     "Zapping Internacional"
+    ],
+    "PE": [
+     "Zapping Internacional"
+    ],
+    "UY": [
+     "Zapping Internacional"
+    ],
+    "EC": [
+     "Zapping Sports + Plus"
     ]
    },
    "sources": []
@@ -4783,41 +5136,63 @@
      "DAZN"
     ],
     "TR": [
-     "beIN Sports 1",
-     "beIN Sports 4"
+     "beIN Sports 3",
+     "Idman TV"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "NG": [
      "SuperSport"
@@ -4838,28 +5213,28 @@
      "Canal+"
     ],
     "CO": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "CL": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "UY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "PY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "PE": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "EC": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN"
     ],
     "GT": [
      "FOX Sports",
@@ -4873,6 +5248,10 @@
     ],
     "KR": [
      "Coupang Play"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX+"
     ]
    },
    "sources": []
@@ -4949,6 +5328,81 @@
      "Fubo",
      "DAZN",
      "OneSoccer"
+    ],
+    "TR": [
+     "S Sport Plus"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN Premium"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "SA": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Action",
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Action",
+     "MBC Shahid"
     ]
    },
    "sources": []
@@ -5014,6 +5468,37 @@
     ],
     "CA": [
      "Sportsnet"
+    ],
+    "MX": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "AE": [
+     "Dubai Sports 1"
     ]
    },
    "sources": []
@@ -5081,8 +5566,44 @@
      "Fanatiz"
     ],
     "TR": [
-     "beIN Sports 3",
-     "Tivibu Spor 1"
+     "beIN Sports Max 2"
+    ],
+    "MX": [
+     "Claro Sports",
+     "Claro Sports Premium YouTube"
+    ],
+    "CO": [
+     "DGO",
+     "Amazon Prime Video",
+     "Paramount+",
+     "DAZN",
+     "DSports 2",
+     "Win Play"
+    ],
+    "CL": [
+     "DGO",
+     "Amazon Prime Video",
+     "Paramount+",
+     "DAZN",
+     "DSports 2"
+    ],
+    "PE": [
+     "DGO",
+     "Paramount+",
+     "DAZN",
+     "DSports 2"
+    ],
+    "UY": [
+     "DGO",
+     "Paramount+",
+     "DAZN",
+     "DSports 2"
+    ],
+    "EC": [
+     "DGO",
+     "Paramount+",
+     "DAZN",
+     "DSports 2"
     ]
    },
    "sources": []
@@ -5191,6 +5712,115 @@
     ],
     "CA": [
      "Apple TV"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20261010-cayirova-bld-fenerbahce-beko",
+   "sport": "basketball",
+   "competitionId": "bsl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Basketbol Süper Ligi",
+    "en": "Turkish Basketball Super League",
+    "de": "Türkische Basketball Super League",
+    "es": "Superliga de Baloncesto de Turquía",
+    "fr": "Super Ligue turque de basket-ball",
+    "it": "Super Lega turca di pallacanestro",
+    "pt": "Superliga Turca de Basquete",
+    "ar": "الدوري التركي الممتاز لكرة السلة"
+   },
+   "home": "Cayirova Bld.",
+   "away": "Fenerbahce Beko",
+   "homeNames": {
+    "tr": "Çayırova Bld.",
+    "en": "Çayırova Bld.",
+    "de": "Çayırova Bld.",
+    "es": "Çayırova Bld.",
+    "fr": "Çayırova Bld.",
+    "it": "Çayırova Bld.",
+    "pt": "Çayırova Bld.",
+    "ar": "Çayırova Bld."
+   },
+   "awayNames": {
+    "tr": "Fenerbahçe Beko",
+    "en": "Fenerbahçe Beko",
+    "de": "Fenerbahçe Beko",
+    "es": "Fenerbahçe Beko",
+    "fr": "Fenerbahçe Beko",
+    "it": "Fenerbahçe Beko",
+    "pt": "Fenerbahçe Beko",
+    "ar": "فنربخشة بيكو"
+   },
+   "kickoffUtc": "2026-10-10T17:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 5"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20261010-unicaja-malaga-morabanc-andorra",
+   "sport": "basketball",
+   "competitionId": "acb",
+   "tier": "regional",
+   "competition": {
+    "tr": "İspanya Basketbol Ligi",
+    "en": "Spanish ACB League",
+    "de": "Spanische ACB-Liga",
+    "es": "Liga Endesa",
+    "fr": "Championnat d'Espagne de basket",
+    "it": "Lega spagnola di basket",
+    "pt": "Liga espanhola de basquetebol",
+    "ar": "الدوري الإسباني لكرة السلة"
+   },
+   "home": "Unicaja Malaga",
+   "away": "MoraBanc Andorra",
+   "homeNames": {
+    "tr": "Unicaja Málaga",
+    "en": "Unicaja Málaga",
+    "de": "Unicaja Málaga",
+    "es": "Unicaja Málaga",
+    "fr": "Unicaja Málaga",
+    "it": "Unicaja Málaga",
+    "pt": "Unicaja Málaga",
+    "ar": "Unicaja Málaga"
+   },
+   "awayNames": {
+    "tr": "MoraBanc Andorra",
+    "en": "MoraBanc Andorra",
+    "de": "MoraBanc Andorra",
+    "es": "MoraBanc Andorra",
+    "fr": "MoraBanc Andorra",
+    "it": "MoraBanc Andorra",
+    "pt": "MoraBanc Andorra",
+    "ar": "MoraBanc Andorra"
+   },
+   "kickoffUtc": "2026-10-10T17:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart",
+     "Smart Spor HD"
     ]
    },
    "sources": []
@@ -5245,6 +5875,27 @@
     ],
     "IT": [
      "DAZN"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
     ]
    },
    "sources": []
@@ -5298,6 +5949,39 @@
     ],
     "BR": [
      "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz",
+     "L1 Max YouTube"
+    ],
+    "CO": [
+     "Fanatiz",
+     "L1 Max YouTube"
+    ],
+    "CL": [
+     "Fanatiz",
+     "Fanatiz 1",
+     "L1 Max YouTube"
+    ],
+    "PE": [
+     "L1 Max",
+     "L1 Play",
+     "Fanatiz",
+     "L1 Max YouTube",
+     "Nativa",
+     "L1"
+    ],
+    "UY": [
+     "Fanatiz",
+     "L1 Max YouTube"
+    ],
+    "EC": [
+     "Fanatiz",
+     "L1 Max YouTube"
+    ],
+    "PY": [
+     "Fanatiz",
+     "L1 Max YouTube"
     ]
    },
    "sources": []
@@ -5365,10 +6049,6 @@
      "FOX Soccer Plus",
      "Fubo"
     ],
-    "TR": [
-     "HT Spor",
-     "S Sport Plus"
-    ],
     "SA": [
      "Thmanyah",
      "STC TV"
@@ -5378,6 +6058,28 @@
     ],
     "CH": [
      "DAZN"
+    ],
+    "MX": [
+     "FOX One",
+     "Tubi"
+    ],
+    "CO": [
+     "Somos FOX YouTube"
+    ],
+    "CL": [
+     "Somos FOX YouTube"
+    ],
+    "PE": [
+     "Somos FOX YouTube"
+    ],
+    "UY": [
+     "Somos FOX YouTube"
+    ],
+    "EC": [
+     "Somos FOX YouTube"
+    ],
+    "PY": [
+     "Somos FOX YouTube"
     ]
    },
    "sources": []
@@ -5422,11 +6124,8 @@
    "kickoffUtc": "2026-10-10T18:00:00Z",
    "broadcasts": {
     "CL": [
-     "TNT Sports",
      "TNT Sports Premium",
-     "HBO Max",
-     "ESPN",
-     "Disney+"
+     "HBO Max"
     ]
    },
    "sources": []
@@ -5478,6 +6177,35 @@
     ],
     "BR": [
      "Disney+"
+    ],
+    "MX": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "DSports Uruguay Premium",
+     "Antel TV",
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -5526,6 +6254,53 @@
     ],
     "FR": [
      "beIN Sports 1"
+    ],
+    "TR": [
+     "beIN Connect"
+    ],
+    "SA": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "MA": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 6",
+     "TOD TV"
     ]
    },
    "sources": []
@@ -5588,6 +6363,24 @@
      "Apple TV"
     ],
     "CA": [
+     "Apple TV"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
      "Apple TV"
     ]
    },
@@ -5656,6 +6449,63 @@
     ],
     "IT": [
      "Sky Sport Max"
+    ],
+    "TR": [
+     "S Sport Plus"
+    ],
+    "MX": [
+     "Bundesliga YouTube"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
     ]
    },
    "sources": []
@@ -5707,6 +6557,38 @@
     ],
     "BR": [
      "Disney+"
+    ],
+    "MX": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "Fanatiz",
+     "ESPN 5"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "AR": [
+     "ESPN Premium"
     ]
    },
    "sources": []
@@ -5774,40 +6656,51 @@
      "Fubo"
     ],
     "TR": [
-     "beIN Sports 3"
+     "beIN Connect"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "SN": [
      "Canal+"
@@ -5817,6 +6710,28 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "MX": [
+     "FOX One",
+     "Tubi"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -5887,40 +6802,51 @@
      "Fubo"
     ],
     "TR": [
-     "beIN Sports 3"
+     "beIN Sports 4"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "SN": [
      "Canal+"
@@ -5930,6 +6856,27 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "MX": [
+     "FOX One"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -6007,37 +6954,48 @@
      "beIN Sports 3"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "SN": [
      "Canal+"
@@ -6047,6 +7005,28 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -6126,44 +7106,43 @@
      "DAZN"
     ],
     "TR": [
-     "beIN Sports 2",
-     "beIN Sports 3"
+     "S Sport Plus",
+     "S Sport 2"
     ],
     "AR": [
      "ESPN",
      "Disney+"
     ],
     "MX": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium"
     ],
     "CO": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN 2"
     ],
     "CL": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN 2"
     ],
     "UY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN 2"
     ],
     "PY": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN 2"
     ],
     "GT": [
      "ESPN",
      "Disney+"
     ],
     "PE": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN 2"
     ],
     "EC": [
-     "ESPN",
-     "Disney+"
+     "Disney+ Premium",
+     "ESPN 2"
     ],
     "SA": [
      "beIN Sports"
@@ -6281,40 +7260,51 @@
      "Fubo"
     ],
     "TR": [
-     "beIN Sports 3"
+     "beIN Sports 2"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "TOD TV"
     ],
     "SN": [
      "Canal+"
@@ -6324,6 +7314,34 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX+"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN"
     ]
    },
    "sources": []
@@ -6389,6 +7407,34 @@
     ],
     "CA": [
      "Sportsnet"
+    ],
+    "TR": [
+     "S Sport Plus"
+    ],
+    "MX": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "AE": [
+     "Dubai Sports 1"
     ]
    },
    "sources": []
@@ -6435,6 +7481,9 @@
     "ES": [
      "LaLiga TV Hypermotion",
      "DAZN"
+    ],
+    "MX": [
+     "Sky Sports"
     ]
    },
    "sources": []
@@ -6480,6 +7529,18 @@
    "broadcasts": {
     "ES": [
      "Zapping Internacional"
+    ],
+    "CO": [
+     "Zapping Internacional"
+    ],
+    "PE": [
+     "Zapping Internacional"
+    ],
+    "UY": [
+     "Zapping Internacional"
+    ],
+    "EC": [
+     "Zapping Sports + Plus"
     ]
    },
    "sources": []
@@ -6554,45 +7615,68 @@
      "TSN+"
     ],
     "TR": [
-     "S Sport",
      "S Sport Plus",
+     "S Sport",
      "Idman TV"
     ],
     "MX": [
-     "Sky Sports"
+     "Sky Sports",
+     "DAZN"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "NG": [
      "SuperSport"
@@ -6611,6 +7695,39 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "CO": [
+     "DSports",
+     "DGO",
+     "Amazon Prime Video",
+     "Paramount+",
+     "DAZN",
+     "Win Play"
+    ],
+    "CL": [
+     "DGO",
+     "Amazon Prime Video",
+     "Paramount+",
+     "DAZN",
+     "DSports"
+    ],
+    "PE": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "UY": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
+    ],
+    "EC": [
+     "DSports",
+     "DGO",
+     "Paramount+",
+     "DAZN"
     ]
    },
    "sources": []
@@ -6659,10 +7776,6 @@
     ],
     "BR": [
      "Disney+"
-    ],
-    "TR": [
-     "beIN Sports 3",
-     "Tivibu Spor 1"
     ]
    },
    "sources": []
@@ -6756,6 +7869,82 @@
     ],
     "PT": [
      "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "CO": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "CL": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "PE": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "UY": [
+     "TyC Sports Internacional",
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "PY": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "AR": [
+     "ESPN Premium"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261010-sportivo-san-lorenzo-sportivo-trinidense",
+   "sport": "football",
+   "competitionId": "primera_py",
+   "tier": "regional",
+   "competition": {
+    "tr": "Paraguay Ligi",
+    "en": "Paraguay Primera División",
+    "de": "Primera División Paraguay",
+    "es": "Primera División de Paraguay",
+    "fr": "Championnat du Paraguay",
+    "it": "Primera División paraguaiana",
+    "pt": "Primeira Divisão do Paraguai",
+    "ar": "الدوري الباراغوياني"
+   },
+   "home": "Sportivo San Lorenzo",
+   "away": "Sportivo Trinidense",
+   "homeNames": {
+    "tr": "Sportivo San Lorenzo",
+    "en": "Sportivo San Lorenzo",
+    "de": "Sportivo San Lorenzo",
+    "es": "Sportivo San Lorenzo",
+    "fr": "Sportivo San Lorenzo",
+    "it": "Sportivo San Lorenzo",
+    "pt": "Sportivo San Lorenzo",
+    "ar": "سبورتيفو سان لورينزو"
+   },
+   "awayNames": {
+    "tr": "Sportivo Trinidense",
+    "en": "Sportivo Trinidense",
+    "de": "Sportivo Trinidense",
+    "es": "Sportivo Trinidense",
+    "fr": "Sportivo Trinidense",
+    "it": "Sportivo Trinidense",
+    "pt": "Sportivo Trinidense",
+    "ar": "سبورتيفو ترينيدينسي"
+   },
+   "kickoffUtc": "2026-10-10T20:00:00Z",
+   "broadcasts": {
+    "PY": [
+     "Tigo Sports"
     ]
    },
    "sources": []
@@ -6853,6 +8042,29 @@
     ],
     "BR": [
      "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "CL": [
+     "Fanatiz"
+    ],
+    "PE": [
+     "L1 Max",
+     "L1 Play",
+     "Fanatiz"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
+    ],
+    "PY": [
+     "Fanatiz"
     ]
    },
    "sources": []
@@ -6897,8 +8109,8 @@
    "kickoffUtc": "2026-10-10T20:30:00Z",
    "broadcasts": {
     "CO": [
-     "Win Sports",
-     "Win Sports+"
+     "Win Fútbol+",
+     "Win Play"
     ]
    },
    "sources": []
@@ -6943,11 +8155,10 @@
    "kickoffUtc": "2026-10-10T20:30:00Z",
    "broadcasts": {
     "CL": [
-     "TNT Sports",
      "TNT Sports Premium",
      "HBO Max",
-     "ESPN",
-     "Disney+"
+     "T13",
+     "13Go"
     ]
    },
    "sources": []
@@ -7092,9 +8303,32 @@
      "Premiere",
      "CazéTV"
     ],
-    "TR": [
-     "Spor Smart 2",
-     "Smart Spor 2"
+    "MX": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "CL": [
+     "Fanatiz",
+     "Fanatiz 1"
+    ],
+    "PE": [
+     "L1 Play",
+     "Fanatiz"
+    ],
+    "UY": [
+     "RecordTV",
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz",
+     "ECDF Web",
+     "ECDF App",
+     "El Canal del Fútbol"
+    ],
+    "PY": [
+     "Fanatiz"
     ]
    },
    "sources": []
@@ -7140,6 +8374,19 @@
    "broadcasts": {
     "ES": [
      "Zapping Internacional"
+    ],
+    "CO": [
+     "Zapping Internacional"
+    ],
+    "PE": [
+     "Zapping Internacional"
+    ],
+    "UY": [
+     "Zapping Internacional"
+    ],
+    "EC": [
+     "Zapping Sports + Plus",
+     "Teleamazonas"
     ]
    },
    "sources": []
@@ -7191,6 +8438,35 @@
     ],
     "BR": [
      "Disney+"
+    ],
+    "MX": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "DSports Uruguay Premium",
+     "Antel TV",
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
     ]
    },
    "sources": []
@@ -7284,6 +8560,82 @@
     ],
     "PT": [
      "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "CO": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "CL": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "PE": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "UY": [
+     "TyC Sports Internacional",
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "PY": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "AR": [
+     "TNT Sports Premium"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261010-sportivo-luqueno-cerro-porteno",
+   "sport": "football",
+   "competitionId": "primera_py",
+   "tier": "regional",
+   "competition": {
+    "tr": "Paraguay Ligi",
+    "en": "Paraguay Primera División",
+    "de": "Primera División Paraguay",
+    "es": "Primera División de Paraguay",
+    "fr": "Championnat du Paraguay",
+    "it": "Primera División paraguaiana",
+    "pt": "Primeira Divisão do Paraguai",
+    "ar": "الدوري الباراغوياني"
+   },
+   "home": "Sportivo Luqueno",
+   "away": "Cerro Porteno",
+   "homeNames": {
+    "tr": "Sportivo Luqueño",
+    "en": "Sportivo Luqueño",
+    "de": "Sportivo Luqueño",
+    "es": "Sportivo Luqueño",
+    "fr": "Sportivo Luqueño",
+    "it": "Sportivo Luqueño",
+    "pt": "Sportivo Luqueño",
+    "ar": "سبورتيفو لوكينيو"
+   },
+   "awayNames": {
+    "tr": "Cerro Porteño",
+    "en": "Cerro Porteño",
+    "de": "Cerro Porteño",
+    "es": "Cerro Porteño",
+    "fr": "Cerro Porteño",
+    "it": "Cerro Porteño",
+    "pt": "Cerro Porteño",
+    "ar": "سيرو بورتينو"
+   },
+   "kickoffUtc": "2026-10-10T22:20:00Z",
+   "broadcasts": {
+    "PY": [
+     "Tigo Sports"
     ]
    },
    "sources": []
@@ -7537,435 +8889,6 @@
    "sources": [
     "espn"
    ]
-  },
-  {
-   "id": "football-20261010-audax-italiano-universidad-catolica",
-   "sport": "football",
-   "competitionId": "liga_primera",
-   "tier": "regional",
-   "competition": {
-    "tr": "Şili Ligi",
-    "en": "Liga de Primera",
-    "de": "Liga de Primera",
-    "es": "Liga de Primera",
-    "fr": "Liga de Primera",
-    "it": "Liga de Primera",
-    "pt": "Liga de Primera",
-    "ar": "الدوري التشيلي"
-   },
-   "home": "Audax Italiano",
-   "away": "Universidad Catolica",
-   "homeNames": {
-    "tr": "Audax Italiano",
-    "en": "Audax Italiano",
-    "de": "Audax Italiano",
-    "es": "Audax Italiano",
-    "fr": "Audax Italiano",
-    "it": "Audax Italiano",
-    "pt": "Audax Italiano",
-    "ar": "أوداكس إيطاليانو"
-   },
-   "awayNames": {
-    "tr": "U. Católica",
-    "en": "U. Católica",
-    "de": "U. Católica",
-    "es": "U. Católica",
-    "fr": "U. Católica",
-    "it": "U. Católica",
-    "pt": "U. Católica",
-    "ar": "U. Católica"
-   },
-   "kickoffUtc": "2026-10-10T23:00:00Z",
-   "broadcasts": {
-    "CL": [
-     "TNT Sports",
-     "TNT Sports Premium",
-     "HBO Max",
-     "ESPN",
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261010-charlotte-independence-new-york-cosmos",
-   "sport": "football",
-   "competitionId": "usl1",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL League One",
-    "en": "USL League One",
-    "de": "USL League One",
-    "es": "USL League One",
-    "fr": "USL League One",
-    "it": "USL League One",
-    "pt": "USL League One",
-    "ar": "دوري USL الأولى"
-   },
-   "home": "Charlotte Independence",
-   "away": "New York Cosmos",
-   "homeNames": {
-    "tr": "Charlotte Independence",
-    "en": "Charlotte Independence",
-    "de": "Charlotte Independence",
-    "es": "Charlotte Independence",
-    "fr": "Charlotte Independence",
-    "it": "Charlotte Independence",
-    "pt": "Charlotte Independence",
-    "ar": "Charlotte Independence"
-   },
-   "awayNames": {
-    "tr": "New York Cosmos",
-    "en": "New York Cosmos",
-    "de": "New York Cosmos",
-    "es": "New York Cosmos",
-    "fr": "New York Cosmos",
-    "it": "New York Cosmos",
-    "pt": "New York Cosmos",
-    "ar": "نيويورك كوزموس"
-   },
-   "kickoffUtc": "2026-10-10T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261010-detroit-city-rhode-island-fc",
-   "sport": "football",
-   "competitionId": "usl",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "de": "USL Championship",
-    "es": "USL Championship",
-    "fr": "USL Championship",
-    "it": "USL Championship",
-    "pt": "USL Championship",
-    "ar": "بطولة USL"
-   },
-   "home": "Detroit City",
-   "away": "Rhode Island FC",
-   "homeNames": {
-    "tr": "Detroit City FC",
-    "en": "Detroit City FC",
-    "de": "Detroit City FC",
-    "es": "Detroit City FC",
-    "fr": "Detroit City FC",
-    "it": "Detroit City FC",
-    "pt": "Detroit City FC",
-    "ar": "Detroit City FC"
-   },
-   "awayNames": {
-    "tr": "Rhode Island FC",
-    "en": "Rhode Island FC",
-    "de": "Rhode Island FC",
-    "es": "Rhode Island FC",
-    "fr": "Rhode Island FC",
-    "it": "Rhode Island FC",
-    "pt": "Rhode Island FC",
-    "ar": "Rhode Island FC"
-   },
-   "kickoffUtc": "2026-10-10T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261010-indy-eleven-tampa-bay-rowdies",
-   "sport": "football",
-   "competitionId": "usl",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "de": "USL Championship",
-    "es": "USL Championship",
-    "fr": "USL Championship",
-    "it": "USL Championship",
-    "pt": "USL Championship",
-    "ar": "بطولة USL"
-   },
-   "home": "Indy Eleven",
-   "away": "Tampa Bay Rowdies",
-   "homeNames": {
-    "tr": "Indy Eleven",
-    "en": "Indy Eleven",
-    "de": "Indy Eleven",
-    "es": "Indy Eleven",
-    "fr": "Indy Eleven",
-    "it": "Indy Eleven",
-    "pt": "Indy Eleven",
-    "ar": "إندي إليفن"
-   },
-   "awayNames": {
-    "tr": "Tampa Bay Rowdies",
-    "en": "Tampa Bay Rowdies",
-    "de": "Tampa Bay Rowdies",
-    "es": "Tampa Bay Rowdies",
-    "fr": "Tampa Bay Rowdies",
-    "it": "Tampa Bay Rowdies",
-    "pt": "Tampa Bay Rowdies",
-    "ar": "Tampa Bay Rowdies"
-   },
-   "kickoffUtc": "2026-10-10T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261010-juarez-tijuana",
-   "sport": "football",
-   "competitionId": "liga_mx",
-   "tier": "regional",
-   "competition": {
-    "tr": "Meksika Liga MX",
-    "en": "Liga MX",
-    "de": "Liga MX",
-    "es": "Liga MX",
-    "fr": "Liga MX",
-    "it": "Liga MX",
-    "pt": "Liga MX",
-    "ar": "الدوري المكسيكي"
-   },
-   "home": "Juarez",
-   "away": "Tijuana",
-   "homeNames": {
-    "tr": "Juárez",
-    "en": "Juárez",
-    "de": "Juárez",
-    "es": "Juárez",
-    "fr": "Juárez",
-    "it": "Juárez",
-    "pt": "Juárez",
-    "ar": "Juárez"
-   },
-   "awayNames": {
-    "tr": "Tijuana",
-    "en": "Tijuana",
-    "de": "Tijuana",
-    "es": "Tijuana",
-    "fr": "Tijuana",
-    "it": "Tijuana",
-    "pt": "Tijuana",
-    "ar": "تيخوانا"
-   },
-   "kickoffUtc": "2026-10-10T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "Telemundo",
-     "Universo",
-     "FOX Deportes",
-     "Fubo",
-     "Peacock Premium"
-    ],
-    "MX": [
-     "TUDN",
-     "Canal 5",
-     "ViX",
-     "FOX One",
-     "TV Azteca"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261010-miami-fc-loudoun-united",
-   "sport": "football",
-   "competitionId": "usl",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "de": "USL Championship",
-    "es": "USL Championship",
-    "fr": "USL Championship",
-    "it": "USL Championship",
-    "pt": "USL Championship",
-    "ar": "بطولة USL"
-   },
-   "home": "Miami FC",
-   "away": "Loudoun United",
-   "homeNames": {
-    "tr": "Miami FC",
-    "en": "Miami FC",
-    "de": "Miami FC",
-    "es": "Miami FC",
-    "fr": "Miami FC",
-    "it": "Miami FC",
-    "pt": "Miami FC",
-    "ar": "ميامي إف سي"
-   },
-   "awayNames": {
-    "tr": "Loudoun United",
-    "en": "Loudoun United",
-    "de": "Loudoun United",
-    "es": "Loudoun United",
-    "fr": "Loudoun United",
-    "it": "Loudoun United",
-    "pt": "Loudoun United",
-    "ar": "Loudoun United"
-   },
-   "kickoffUtc": "2026-10-10T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261010-pittsburgh-riverhounds-hartford-athletic",
-   "sport": "football",
-   "competitionId": "usl",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL Championship",
-    "en": "USL Championship",
-    "de": "USL Championship",
-    "es": "USL Championship",
-    "fr": "USL Championship",
-    "it": "USL Championship",
-    "pt": "USL Championship",
-    "ar": "بطولة USL"
-   },
-   "home": "Pittsburgh Riverhounds",
-   "away": "Hartford Athletic",
-   "homeNames": {
-    "tr": "Pittsburgh Riverhounds",
-    "en": "Pittsburgh Riverhounds",
-    "de": "Pittsburgh Riverhounds",
-    "es": "Pittsburgh Riverhounds",
-    "fr": "Pittsburgh Riverhounds",
-    "it": "Pittsburgh Riverhounds",
-    "pt": "Pittsburgh Riverhounds",
-    "ar": "Pittsburgh Riverhounds"
-   },
-   "awayNames": {
-    "tr": "Hartford Athletic",
-    "en": "Hartford Athletic",
-    "de": "Hartford Athletic",
-    "es": "Hartford Athletic",
-    "fr": "Hartford Athletic",
-    "it": "Hartford Athletic",
-    "pt": "Hartford Athletic",
-    "ar": "Hartford Athletic"
-   },
-   "kickoffUtc": "2026-10-10T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "CBS Sports Golazo Network",
-     "Paramount+",
-     "Amazon Prime Video"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261010-queretaro-atlante",
-   "sport": "football",
-   "competitionId": "liga_mx",
-   "tier": "regional",
-   "competition": {
-    "tr": "Meksika Liga MX",
-    "en": "Liga MX",
-    "de": "Liga MX",
-    "es": "Liga MX",
-    "fr": "Liga MX",
-    "it": "Liga MX",
-    "pt": "Liga MX",
-    "ar": "الدوري المكسيكي"
-   },
-   "home": "Queretaro",
-   "away": "Atlante",
-   "homeNames": {
-    "tr": "Querétaro",
-    "en": "Querétaro",
-    "de": "Querétaro",
-    "es": "Querétaro",
-    "fr": "Querétaro",
-    "it": "Querétaro",
-    "pt": "Querétaro",
-    "ar": "كيريتارو"
-   },
-   "awayNames": {
-    "tr": "Atlante",
-    "en": "Atlante",
-    "de": "Atlante",
-    "es": "Atlante",
-    "fr": "Atlante",
-    "it": "Atlante",
-    "pt": "Atlante",
-    "ar": "أتلانتي"
-   },
-   "kickoffUtc": "2026-10-10T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "ViX"
-    ],
-    "MX": [
-     "TUDN",
-     "Canal 5",
-     "ViX",
-     "FOX One",
-     "TV Azteca"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261010-westchester-sc-forward-madison",
-   "sport": "football",
-   "competitionId": "usl1",
-   "tier": "regional",
-   "competition": {
-    "tr": "USL League One",
-    "en": "USL League One",
-    "de": "USL League One",
-    "es": "USL League One",
-    "fr": "USL League One",
-    "it": "USL League One",
-    "pt": "USL League One",
-    "ar": "دوري USL الأولى"
-   },
-   "home": "Westchester SC",
-   "away": "Forward Madison",
-   "homeNames": {
-    "tr": "Westchester SC",
-    "en": "Westchester SC",
-    "de": "Westchester SC",
-    "es": "Westchester SC",
-    "fr": "Westchester SC",
-    "it": "Westchester SC",
-    "pt": "Westchester SC",
-    "ar": "Westchester SC"
-   },
-   "awayNames": {
-    "tr": "Forward Madison",
-    "en": "Forward Madison",
-    "de": "Forward Madison",
-    "es": "Forward Madison",
-    "fr": "Forward Madison",
-    "it": "Forward Madison",
-    "pt": "Forward Madison",
-    "ar": "Forward Madison"
-   },
-   "kickoffUtc": "2026-10-10T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "ESPN+"
-    ]
-   },
-   "sources": []
   },
   {
    "id": "basketball-20261010-pacers-hawks",
@@ -8469,6 +9392,384 @@
    ]
   },
   {
+   "id": "football-20261010-charlotte-independence-new-york-cosmos",
+   "sport": "football",
+   "competitionId": "usl1",
+   "tier": "regional",
+   "competition": {
+    "tr": "USL League One",
+    "en": "USL League One",
+    "de": "USL League One",
+    "es": "USL League One",
+    "fr": "USL League One",
+    "it": "USL League One",
+    "pt": "USL League One",
+    "ar": "دوري USL الأولى"
+   },
+   "home": "Charlotte Independence",
+   "away": "New York Cosmos",
+   "homeNames": {
+    "tr": "Charlotte Independence",
+    "en": "Charlotte Independence",
+    "de": "Charlotte Independence",
+    "es": "Charlotte Independence",
+    "fr": "Charlotte Independence",
+    "it": "Charlotte Independence",
+    "pt": "Charlotte Independence",
+    "ar": "Charlotte Independence"
+   },
+   "awayNames": {
+    "tr": "New York Cosmos",
+    "en": "New York Cosmos",
+    "de": "New York Cosmos",
+    "es": "New York Cosmos",
+    "fr": "New York Cosmos",
+    "it": "New York Cosmos",
+    "pt": "New York Cosmos",
+    "ar": "نيويورك كوزموس"
+   },
+   "kickoffUtc": "2026-10-10T23:00:00Z",
+   "broadcasts": {
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261010-detroit-city-rhode-island-fc",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "بطولة USL"
+   },
+   "home": "Detroit City",
+   "away": "Rhode Island FC",
+   "homeNames": {
+    "tr": "Detroit City FC",
+    "en": "Detroit City FC",
+    "de": "Detroit City FC",
+    "es": "Detroit City FC",
+    "fr": "Detroit City FC",
+    "it": "Detroit City FC",
+    "pt": "Detroit City FC",
+    "ar": "Detroit City FC"
+   },
+   "awayNames": {
+    "tr": "Rhode Island FC",
+    "en": "Rhode Island FC",
+    "de": "Rhode Island FC",
+    "es": "Rhode Island FC",
+    "fr": "Rhode Island FC",
+    "it": "Rhode Island FC",
+    "pt": "Rhode Island FC",
+    "ar": "Rhode Island FC"
+   },
+   "kickoffUtc": "2026-10-10T23:00:00Z",
+   "broadcasts": {
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261010-indy-eleven-tampa-bay-rowdies",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "بطولة USL"
+   },
+   "home": "Indy Eleven",
+   "away": "Tampa Bay Rowdies",
+   "homeNames": {
+    "tr": "Indy Eleven",
+    "en": "Indy Eleven",
+    "de": "Indy Eleven",
+    "es": "Indy Eleven",
+    "fr": "Indy Eleven",
+    "it": "Indy Eleven",
+    "pt": "Indy Eleven",
+    "ar": "إندي إليفن"
+   },
+   "awayNames": {
+    "tr": "Tampa Bay Rowdies",
+    "en": "Tampa Bay Rowdies",
+    "de": "Tampa Bay Rowdies",
+    "es": "Tampa Bay Rowdies",
+    "fr": "Tampa Bay Rowdies",
+    "it": "Tampa Bay Rowdies",
+    "pt": "Tampa Bay Rowdies",
+    "ar": "Tampa Bay Rowdies"
+   },
+   "kickoffUtc": "2026-10-10T23:00:00Z",
+   "broadcasts": {
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261010-juarez-tijuana",
+   "sport": "football",
+   "competitionId": "liga_mx",
+   "tier": "regional",
+   "competition": {
+    "tr": "Meksika Liga MX",
+    "en": "Liga MX",
+    "de": "Liga MX",
+    "es": "Liga MX",
+    "fr": "Liga MX",
+    "it": "Liga MX",
+    "pt": "Liga MX",
+    "ar": "الدوري المكسيكي"
+   },
+   "home": "Juarez",
+   "away": "Tijuana",
+   "homeNames": {
+    "tr": "Juárez",
+    "en": "Juárez",
+    "de": "Juárez",
+    "es": "Juárez",
+    "fr": "Juárez",
+    "it": "Juárez",
+    "pt": "Juárez",
+    "ar": "Juárez"
+   },
+   "awayNames": {
+    "tr": "Tijuana",
+    "en": "Tijuana",
+    "de": "Tijuana",
+    "es": "Tijuana",
+    "fr": "Tijuana",
+    "it": "Tijuana",
+    "pt": "Tijuana",
+    "ar": "تيخوانا"
+   },
+   "kickoffUtc": "2026-10-10T23:00:00Z",
+   "broadcasts": {
+    "US": [
+     "Telemundo",
+     "Universo",
+     "FOX Deportes",
+     "Fubo",
+     "Peacock Premium"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX",
+     "Azteca Deportes Network",
+     "Azteca Deportes App",
+     "Disney+ Premium",
+     "Azteca 7"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261010-miami-fc-loudoun-united",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "بطولة USL"
+   },
+   "home": "Miami FC",
+   "away": "Loudoun United",
+   "homeNames": {
+    "tr": "Miami FC",
+    "en": "Miami FC",
+    "de": "Miami FC",
+    "es": "Miami FC",
+    "fr": "Miami FC",
+    "it": "Miami FC",
+    "pt": "Miami FC",
+    "ar": "ميامي إف سي"
+   },
+   "awayNames": {
+    "tr": "Loudoun United",
+    "en": "Loudoun United",
+    "de": "Loudoun United",
+    "es": "Loudoun United",
+    "fr": "Loudoun United",
+    "it": "Loudoun United",
+    "pt": "Loudoun United",
+    "ar": "Loudoun United"
+   },
+   "kickoffUtc": "2026-10-10T23:00:00Z",
+   "broadcasts": {
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261010-pittsburgh-riverhounds-hartford-athletic",
+   "sport": "football",
+   "competitionId": "usl",
+   "tier": "regional",
+   "competition": {
+    "tr": "USL Championship",
+    "en": "USL Championship",
+    "de": "USL Championship",
+    "es": "USL Championship",
+    "fr": "USL Championship",
+    "it": "USL Championship",
+    "pt": "USL Championship",
+    "ar": "بطولة USL"
+   },
+   "home": "Pittsburgh Riverhounds",
+   "away": "Hartford Athletic",
+   "homeNames": {
+    "tr": "Pittsburgh Riverhounds",
+    "en": "Pittsburgh Riverhounds",
+    "de": "Pittsburgh Riverhounds",
+    "es": "Pittsburgh Riverhounds",
+    "fr": "Pittsburgh Riverhounds",
+    "it": "Pittsburgh Riverhounds",
+    "pt": "Pittsburgh Riverhounds",
+    "ar": "Pittsburgh Riverhounds"
+   },
+   "awayNames": {
+    "tr": "Hartford Athletic",
+    "en": "Hartford Athletic",
+    "de": "Hartford Athletic",
+    "es": "Hartford Athletic",
+    "fr": "Hartford Athletic",
+    "it": "Hartford Athletic",
+    "pt": "Hartford Athletic",
+    "ar": "Hartford Athletic"
+   },
+   "kickoffUtc": "2026-10-10T23:00:00Z",
+   "broadcasts": {
+    "US": [
+     "CBS Sports Golazo Network",
+     "Paramount+",
+     "Amazon Prime Video"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261010-queretaro-atlante",
+   "sport": "football",
+   "competitionId": "liga_mx",
+   "tier": "regional",
+   "competition": {
+    "tr": "Meksika Liga MX",
+    "en": "Liga MX",
+    "de": "Liga MX",
+    "es": "Liga MX",
+    "fr": "Liga MX",
+    "it": "Liga MX",
+    "pt": "Liga MX",
+    "ar": "الدوري المكسيكي"
+   },
+   "home": "Queretaro",
+   "away": "Atlante",
+   "homeNames": {
+    "tr": "Querétaro",
+    "en": "Querétaro",
+    "de": "Querétaro",
+    "es": "Querétaro",
+    "fr": "Querétaro",
+    "it": "Querétaro",
+    "pt": "Querétaro",
+    "ar": "كيريتارو"
+   },
+   "awayNames": {
+    "tr": "Atlante",
+    "en": "Atlante",
+    "de": "Atlante",
+    "es": "Atlante",
+    "fr": "Atlante",
+    "it": "Atlante",
+    "pt": "Atlante",
+    "ar": "أتلانتي"
+   },
+   "kickoffUtc": "2026-10-10T23:00:00Z",
+   "broadcasts": {
+    "US": [
+     "ViX"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX+"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261010-westchester-sc-forward-madison",
+   "sport": "football",
+   "competitionId": "usl1",
+   "tier": "regional",
+   "competition": {
+    "tr": "USL League One",
+    "en": "USL League One",
+    "de": "USL League One",
+    "es": "USL League One",
+    "fr": "USL League One",
+    "it": "USL League One",
+    "pt": "USL League One",
+    "ar": "دوري USL الأولى"
+   },
+   "home": "Westchester SC",
+   "away": "Forward Madison",
+   "homeNames": {
+    "tr": "Westchester SC",
+    "en": "Westchester SC",
+    "de": "Westchester SC",
+    "es": "Westchester SC",
+    "fr": "Westchester SC",
+    "it": "Westchester SC",
+    "pt": "Westchester SC",
+    "ar": "Westchester SC"
+   },
+   "awayNames": {
+    "tr": "Forward Madison",
+    "en": "Forward Madison",
+    "de": "Forward Madison",
+    "es": "Forward Madison",
+    "fr": "Forward Madison",
+    "it": "Forward Madison",
+    "pt": "Forward Madison",
+    "ar": "Forward Madison"
+   },
+   "kickoffUtc": "2026-10-10T23:00:00Z",
+   "broadcasts": {
+    "US": [
+     "ESPN+"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20261010-junior-internacional-de-bogota",
    "sport": "football",
    "competitionId": "liga_dimayor",
@@ -8508,8 +9809,9 @@
    "kickoffUtc": "2026-10-10T23:10:00Z",
    "broadcasts": {
     "CO": [
-     "Win Sports",
-     "Win Sports+"
+     "Win Fútbol+",
+     "Win Play",
+     "Win Sports"
     ]
    },
    "sources": []
@@ -8573,6 +9875,24 @@
     ],
     "CA": [
      "MLS Season Pass (Apple TV)"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -8636,6 +9956,24 @@
     ],
     "CA": [
      "MLS Season Pass (Apple TV)"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -8699,6 +10037,24 @@
     ],
     "CA": [
      "MLS Season Pass (Apple TV)"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -8762,6 +10118,24 @@
     ],
     "CA": [
      "MLS Season Pass (Apple TV)"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -8839,6 +10213,24 @@
     ],
     "CA": [
      "MLS Season Pass (Apple TV)"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -8902,6 +10294,24 @@
     ],
     "CA": [
      "MLS Season Pass (Apple TV)"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -8965,6 +10375,24 @@
     ],
     "CA": [
      "MLS Season Pass (Apple TV)"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -9015,111 +10443,254 @@
    "sources": []
   },
   {
-   "id": "football-20261011-sao-paulo-vitoria",
-   "sport": "football",
-   "competitionId": "bra_seriea",
+   "id": "basketball-20261011-celtics-76ers",
+   "sport": "basketball",
+   "competitionId": "nba",
    "tier": "global",
    "competition": {
-    "tr": "Brezilya Serie A",
-    "en": "Brazilian Série A",
-    "de": "Brasileirão",
-    "es": "Serie A de Brasil",
-    "fr": "Championnat brésilien",
-    "it": "Serie A brasiliana",
-    "pt": "Brasileirão Série A",
-    "ar": "الدوري البرازيلي"
+    "tr": "NBA Hazırlık Maçları",
+    "en": "NBA Preseason",
+    "de": "NBA Preseason",
+    "es": "Pretemporada NBA",
+    "fr": "Présaison NBA",
+    "it": "Preseason NBA",
+    "pt": "Pré-temporada da NBA",
+    "ar": "مباريات NBA التحضيرية"
    },
-   "home": "Sao Paulo",
-   "away": "Vitoria",
+   "home": "Celtics",
+   "away": "76ers",
    "homeNames": {
-    "tr": "São Paulo",
-    "en": "São Paulo",
-    "de": "São Paulo",
-    "es": "São Paulo",
-    "fr": "São Paulo",
-    "it": "San Paolo",
-    "pt": "São Paulo",
-    "ar": "ساو باولو"
+    "tr": "Boston Celtics",
+    "en": "Boston Celtics",
+    "de": "Boston Celtics",
+    "es": "Boston Celtics",
+    "fr": "Boston Celtics",
+    "it": "Boston Celtics",
+    "pt": "Boston Celtics",
+    "ar": "بوسطن سيلتيكس"
    },
    "awayNames": {
-    "tr": "Vitória",
-    "en": "Vitória",
-    "de": "Vitória",
-    "es": "Vitória",
-    "fr": "Vitória",
-    "it": "Vitória",
-    "pt": "Vitória",
-    "ar": "فيتوريا"
+    "tr": "Philadelphia 76ers",
+    "en": "Philadelphia 76ers",
+    "de": "Philadelphia 76ers",
+    "es": "Philadelphia 76ers",
+    "fr": "Philadelphia 76ers",
+    "it": "Philadelphia 76ers",
+    "pt": "Philadelphia 76ers",
+    "ar": "فيلادلفيا سفنتي سيكسرز"
    },
    "kickoffUtc": "2026-10-11T00:00:00Z",
    "broadcasts": {
-    "ES": [
-     "Fanatiz"
-    ],
-    "PT": [
-     "Fanatiz"
-    ],
-    "BR": [
-     "SporTV",
-     "Premiere"
+    "US": [
+     "NBA TV"
     ],
     "TR": [
-     "Spor Smart 2",
-     "Smart Spor 2"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261011-universitario-melgar",
-   "sport": "football",
-   "competitionId": "liga1_pe",
-   "tier": "regional",
-   "competition": {
-    "tr": "Peru Liga 1",
-    "en": "Peruvian Liga 1",
-    "de": "Peruanische Liga 1",
-    "es": "Liga 1 de Perú",
-    "fr": "Liga 1 péruvienne",
-    "it": "Liga 1 peruviana",
-    "pt": "Liga 1 do Peru",
-    "ar": "الدوري البيروفي"
-   },
-   "home": "Universitario",
-   "away": "Melgar",
-   "homeNames": {
-    "tr": "Universitario",
-    "en": "Universitario",
-    "de": "Universitario",
-    "es": "Universitario",
-    "fr": "Universitario",
-    "it": "Universitario",
-    "pt": "Universitario",
-    "ar": "أونيفرسيتاريو"
-   },
-   "awayNames": {
-    "tr": "Melgar",
-    "en": "Melgar",
-    "de": "Melgar",
-    "es": "Melgar",
-    "fr": "Melgar",
-    "it": "Melgar",
-    "pt": "Melgar",
-    "ar": "ميلغار"
-   },
-   "kickoffUtc": "2026-10-11T00:00:00Z",
-   "broadcasts": {
+     "S Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "GB": [
+     "Sky Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
     "ES": [
-     "Fanatiz"
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
     ],
     "PT": [
-     "Fanatiz"
+     "Sport TV",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "FR": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DE": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "CH": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "IT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BE": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NL": [
+     "ESPN",
+     "NBA League Pass"
+    ],
+    "HR": [
+     "Sport Klub",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NO": [
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CZ": [
+     "Nova Sport",
+     "Prime Video",
+     "NBA League Pass"
     ],
     "BR": [
-     "Fanatiz"
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MX": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AR": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CO": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CL": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PE": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "UY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "EC": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CA": [
+     "TSN",
+     "Sportsnet",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "SA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "QA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AE": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "EG": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DZ": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "TN": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "JP": [
+     "Lemino",
+     "Prime Video",
+     "WOWOW"
+    ],
+    "KR": [
+     "Coupang Play",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AU": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NZ": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ZA": [
+     "SuperSport",
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NG": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "GH": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "SN": [
+     "Canal+ Sport",
+     "NBA League Pass"
     ]
    },
-   "sources": []
+   "sources": [
+    "espn"
+   ]
   },
   {
    "id": "basketball-20261011-heat-timberwolves",
@@ -9372,7 +10943,159 @@
    ]
   },
   {
-   "id": "basketball-20261011-celtics-76ers",
+   "id": "football-20261011-sao-paulo-vitoria",
+   "sport": "football",
+   "competitionId": "bra_seriea",
+   "tier": "global",
+   "competition": {
+    "tr": "Brezilya Serie A",
+    "en": "Brazilian Série A",
+    "de": "Brasileirão",
+    "es": "Serie A de Brasil",
+    "fr": "Championnat brésilien",
+    "it": "Serie A brasiliana",
+    "pt": "Brasileirão Série A",
+    "ar": "الدوري البرازيلي"
+   },
+   "home": "Sao Paulo",
+   "away": "Vitoria",
+   "homeNames": {
+    "tr": "São Paulo",
+    "en": "São Paulo",
+    "de": "São Paulo",
+    "es": "São Paulo",
+    "fr": "São Paulo",
+    "it": "San Paolo",
+    "pt": "São Paulo",
+    "ar": "ساو باولو"
+   },
+   "awayNames": {
+    "tr": "Vitória",
+    "en": "Vitória",
+    "de": "Vitória",
+    "es": "Vitória",
+    "fr": "Vitória",
+    "it": "Vitória",
+    "pt": "Vitória",
+    "ar": "فيتوريا"
+   },
+   "kickoffUtc": "2026-10-11T00:00:00Z",
+   "broadcasts": {
+    "ES": [
+     "Fanatiz"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "BR": [
+     "SporTV",
+     "Premiere"
+    ],
+    "MX": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "CL": [
+     "Fanatiz"
+    ],
+    "PE": [
+     "L1 Play",
+     "Fanatiz"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz",
+     "ECDF Web",
+     "ECDF App",
+     "El Canal del Fútbol"
+    ],
+    "PY": [
+     "Fanatiz"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261011-universitario-melgar",
+   "sport": "football",
+   "competitionId": "liga1_pe",
+   "tier": "regional",
+   "competition": {
+    "tr": "Peru Liga 1",
+    "en": "Peruvian Liga 1",
+    "de": "Peruanische Liga 1",
+    "es": "Liga 1 de Perú",
+    "fr": "Liga 1 péruvienne",
+    "it": "Liga 1 peruviana",
+    "pt": "Liga 1 do Peru",
+    "ar": "الدوري البيروفي"
+   },
+   "home": "Universitario",
+   "away": "Melgar",
+   "homeNames": {
+    "tr": "Universitario",
+    "en": "Universitario",
+    "de": "Universitario",
+    "es": "Universitario",
+    "fr": "Universitario",
+    "it": "Universitario",
+    "pt": "Universitario",
+    "ar": "أونيفرسيتاريو"
+   },
+   "awayNames": {
+    "tr": "Melgar",
+    "en": "Melgar",
+    "de": "Melgar",
+    "es": "Melgar",
+    "fr": "Melgar",
+    "it": "Melgar",
+    "pt": "Melgar",
+    "ar": "ميلغار"
+   },
+   "kickoffUtc": "2026-10-11T00:00:00Z",
+   "broadcasts": {
+    "ES": [
+     "Fanatiz"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "BR": [
+     "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "CL": [
+     "Fanatiz",
+     "Fanatiz 1"
+    ],
+    "PE": [
+     "L1 Max",
+     "L1 Play",
+     "Fanatiz"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
+    ],
+    "PY": [
+     "Fanatiz"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "basketball-20261011-warriors-kings",
    "sport": "basketball",
    "competitionId": "nba",
    "tier": "global",
@@ -9386,32 +11109,32 @@
     "pt": "Pré-temporada da NBA",
     "ar": "مباريات NBA التحضيرية"
    },
-   "home": "Celtics",
-   "away": "76ers",
+   "home": "Warriors",
+   "away": "Kings",
    "homeNames": {
-    "tr": "Boston Celtics",
-    "en": "Boston Celtics",
-    "de": "Boston Celtics",
-    "es": "Boston Celtics",
-    "fr": "Boston Celtics",
-    "it": "Boston Celtics",
-    "pt": "Boston Celtics",
-    "ar": "بوسطن سيلتيكس"
+    "tr": "Golden State Warriors",
+    "en": "Golden State Warriors",
+    "de": "Golden State Warriors",
+    "es": "Golden State Warriors",
+    "fr": "Golden State Warriors",
+    "it": "Golden State Warriors",
+    "pt": "Golden State Warriors",
+    "ar": "غولدن ستايت ووريورز"
    },
    "awayNames": {
-    "tr": "Philadelphia 76ers",
-    "en": "Philadelphia 76ers",
-    "de": "Philadelphia 76ers",
-    "es": "Philadelphia 76ers",
-    "fr": "Philadelphia 76ers",
-    "it": "Philadelphia 76ers",
-    "pt": "Philadelphia 76ers",
-    "ar": "فيلادلفيا سفنتي سيكسرز"
+    "tr": "Sacramento Kings",
+    "en": "Sacramento Kings",
+    "de": "Sacramento Kings",
+    "es": "Sacramento Kings",
+    "fr": "Sacramento Kings",
+    "it": "Sacramento Kings",
+    "pt": "Sacramento Kings",
+    "ar": "ساكرامنتو كينغز"
    },
-   "kickoffUtc": "2026-10-11T00:00:00Z",
+   "kickoffUtc": "2026-10-11T00:30:00Z",
    "broadcasts": {
     "US": [
-     "NBA TV"
+     "NBA League Pass"
     ],
     "TR": [
      "S Sport",
@@ -9680,6 +11403,24 @@
     ],
     "CA": [
      "MLS Season Pass (Apple TV)"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -9743,6 +11484,24 @@
     ],
     "CA": [
      "MLS Season Pass (Apple TV)"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -9803,6 +11562,43 @@
     ],
     "IT": [
      "Sportitalia"
+    ],
+    "MX": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "Fanatiz",
+     "ESPN 3"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "Fanatiz",
+     "ESPN 3"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "Fanatiz",
+     "ESPN 3"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "Fanatiz",
+     "ESPN 3"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "Fanatiz",
+     "ESPN 3"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "Fanatiz",
+     "ESPN 3"
+    ],
+    "AR": [
+     "ESPN Premium"
     ]
    },
    "sources": []
@@ -9866,259 +11662,27 @@
     ],
     "CA": [
      "MLS Season Pass (Apple TV)"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
     ]
    },
    "sources": []
-  },
-  {
-   "id": "basketball-20261011-warriors-kings",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Warriors",
-   "away": "Kings",
-   "homeNames": {
-    "tr": "Golden State Warriors",
-    "en": "Golden State Warriors",
-    "de": "Golden State Warriors",
-    "es": "Golden State Warriors",
-    "fr": "Golden State Warriors",
-    "it": "Golden State Warriors",
-    "pt": "Golden State Warriors",
-    "ar": "غولدن ستايت ووريورز"
-   },
-   "awayNames": {
-    "tr": "Sacramento Kings",
-    "en": "Sacramento Kings",
-    "de": "Sacramento Kings",
-    "es": "Sacramento Kings",
-    "fr": "Sacramento Kings",
-    "it": "Sacramento Kings",
-    "pt": "Sacramento Kings",
-    "ar": "ساكرامنتو كينغز"
-   },
-   "kickoffUtc": "2026-10-11T00:30:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
   },
   {
    "id": "football-20261011-atlas-guadalajara",
@@ -10163,15 +11727,18 @@
      "SportyNet"
     ],
     "MX": [
+     "ViX Premium",
      "TUDN",
      "Canal 5",
-     "ViX",
-     "FOX One",
-     "TV Azteca"
+     "Layvtime",
+     "Layvtime YouTube"
     ],
     "US": [
      "ViX",
      "TUDN"
+    ],
+    "CO": [
+     "ViX Premium"
     ]
    },
    "sources": []
@@ -10325,6 +11892,24 @@
     ],
     "CA": [
      "MLS Season Pass (Apple TV)"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -10460,69 +12045,6 @@
    "broadcasts": {
     "US": [
      "ESPN+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261011-los-angeles-fc-vancouver-whitecaps",
-   "sport": "football",
-   "competitionId": "mls",
-   "tier": "regional",
-   "competition": {
-    "tr": "MLS",
-    "en": "MLS",
-    "de": "MLS",
-    "es": "MLS",
-    "fr": "MLS",
-    "it": "MLS",
-    "pt": "MLS",
-    "ar": "الدوري الأمريكي للمحترفين"
-   },
-   "home": "Los Angeles FC",
-   "away": "Vancouver Whitecaps",
-   "homeNames": {
-    "tr": "Los Angeles FC",
-    "en": "Los Angeles FC",
-    "de": "Los Angeles FC",
-    "es": "Los Angeles FC",
-    "fr": "Los Angeles FC",
-    "it": "Los Angeles FC",
-    "pt": "Los Angeles FC",
-    "ar": "لوس أنجلوس إف سي"
-   },
-   "awayNames": {
-    "tr": "Vancouver Whitecaps",
-    "en": "Vancouver Whitecaps",
-    "de": "Vancouver Whitecaps",
-    "es": "Vancouver Whitecaps",
-    "fr": "Vancouver Whitecaps",
-    "it": "Vancouver Whitecaps",
-    "pt": "Vancouver Whitecaps",
-    "ar": "فانكوفر وايتكابس"
-   },
-   "kickoffUtc": "2026-10-11T02:30:00Z",
-   "broadcasts": {
-    "ES": [
-     "Apple TV"
-    ],
-    "PT": [
-     "Apple TV"
-    ],
-    "BR": [
-     "Apple TV"
-    ],
-    "GB": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ],
-    "US": [
-     "MLS Season Pass (Apple TV)"
-    ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
     ]
    },
    "sources": []
@@ -10776,6 +12298,87 @@
    "sources": [
     "espn"
    ]
+  },
+  {
+   "id": "football-20261011-los-angeles-fc-vancouver-whitecaps",
+   "sport": "football",
+   "competitionId": "mls",
+   "tier": "regional",
+   "competition": {
+    "tr": "MLS",
+    "en": "MLS",
+    "de": "MLS",
+    "es": "MLS",
+    "fr": "MLS",
+    "it": "MLS",
+    "pt": "MLS",
+    "ar": "الدوري الأمريكي للمحترفين"
+   },
+   "home": "Los Angeles FC",
+   "away": "Vancouver Whitecaps",
+   "homeNames": {
+    "tr": "Los Angeles FC",
+    "en": "Los Angeles FC",
+    "de": "Los Angeles FC",
+    "es": "Los Angeles FC",
+    "fr": "Los Angeles FC",
+    "it": "Los Angeles FC",
+    "pt": "Los Angeles FC",
+    "ar": "لوس أنجلوس إف سي"
+   },
+   "awayNames": {
+    "tr": "Vancouver Whitecaps",
+    "en": "Vancouver Whitecaps",
+    "de": "Vancouver Whitecaps",
+    "es": "Vancouver Whitecaps",
+    "fr": "Vancouver Whitecaps",
+    "it": "Vancouver Whitecaps",
+    "pt": "Vancouver Whitecaps",
+    "ar": "فانكوفر وايتكابس"
+   },
+   "kickoffUtc": "2026-10-11T02:30:00Z",
+   "broadcasts": {
+    "ES": [
+     "Apple TV"
+    ],
+    "PT": [
+     "Apple TV"
+    ],
+    "BR": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ],
+    "DE": [
+     "Apple TV"
+    ],
+    "US": [
+     "MLS Season Pass (Apple TV)"
+    ],
+    "CA": [
+     "MLS Season Pass (Apple TV)"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ]
+   },
+   "sources": []
   }
  ]
 }
