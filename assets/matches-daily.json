@@ -1,1512 +1,19 @@
 {
- "generated_at": "2026-10-14T00:24:22.000Z",
+ "generated_at": "2026-10-14T07:26:47.000Z",
  "date": "2026-10-14",
  "model": "user-provided",
  "stats": {
-  "total": 89,
-  "withChannel": 89,
+  "total": 84,
+  "withChannel": 84,
   "bySport": {
+   "volleyball": 7,
    "football": 50,
-   "basketball": 32,
-   "volleyball": 7
+   "basketball": 27
   },
   "warnings": 0,
   "searches": 0
  },
  "matches": [
-  {
-   "id": "football-20261013-athletic-mg-londrina",
-   "sport": "football",
-   "competitionId": "bra_serieb",
-   "tier": "regional",
-   "competition": {
-    "tr": "Brezilya Serie B",
-    "en": "Brazilian Série B",
-    "de": "Brasilianische Série B",
-    "es": "Serie B de Brasil",
-    "fr": "Série B brésilienne",
-    "it": "Serie B brasiliana",
-    "pt": "Brasileirão Série B",
-    "ar": "الدوري البرازيلي الدرجة الثانية"
-   },
-   "home": "Athletic-MG",
-   "away": "Londrina",
-   "homeNames": {
-    "tr": "Athletic Club",
-    "en": "Athletic Club (MG)",
-    "de": "Athletic Club (MG)",
-    "es": "Athletic Club (MG)",
-    "fr": "Athletic Club (MG)",
-    "it": "Athletic Club (MG)",
-    "pt": "Athletic Club",
-    "ar": "أتلتيك كلوب"
-   },
-   "awayNames": {
-    "tr": "Londrina",
-    "en": "Londrina",
-    "de": "Londrina",
-    "es": "Londrina",
-    "fr": "Londrina",
-    "it": "Londrina",
-    "pt": "Londrina",
-    "ar": "لوندرينا"
-   },
-   "kickoffUtc": "2026-10-13T22:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "ESPN",
-     "ESPN 4",
-     "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20261013-magic-cavaliers",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Magic",
-   "away": "Cavaliers",
-   "homeNames": {
-    "tr": "Orlando Magic",
-    "en": "Orlando Magic",
-    "de": "Orlando Magic",
-    "es": "Orlando Magic",
-    "fr": "Orlando Magic",
-    "it": "Orlando Magic",
-    "pt": "Orlando Magic",
-    "ar": "أورلاندو ماجيك"
-   },
-   "awayNames": {
-    "tr": "Cleveland Cavaliers",
-    "en": "Cleveland Cavaliers",
-    "de": "Cleveland Cavaliers",
-    "es": "Cleveland Cavaliers",
-    "fr": "Cleveland Cavaliers",
-    "it": "Cleveland Cavaliers",
-    "pt": "Cleveland Cavaliers",
-    "ar": "كليفلاند كافالييرز"
-   },
-   "kickoffUtc": "2026-10-13T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "Peacock",
-     "NBCSN"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "basketball-20261013-raptors-knicks",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Raptors",
-   "away": "Knicks",
-   "homeNames": {
-    "tr": "Toronto Raptors",
-    "en": "Toronto Raptors",
-    "de": "Toronto Raptors",
-    "es": "Toronto Raptors",
-    "fr": "Toronto Raptors",
-    "it": "Toronto Raptors",
-    "pt": "Toronto Raptors",
-    "ar": "تورونتو رابتورز"
-   },
-   "awayNames": {
-    "tr": "New York Knicks",
-    "en": "New York Knicks",
-    "de": "New York Knicks",
-    "es": "New York Knicks",
-    "fr": "New York Knicks",
-    "it": "New York Knicks",
-    "pt": "New York Knicks",
-    "ar": "نيويورك نيكس"
-   },
-   "kickoffUtc": "2026-10-13T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "football-20261013-bucaramanga-aguilas-doradas",
-   "sport": "football",
-   "competitionId": "liga_dimayor",
-   "tier": "regional",
-   "competition": {
-    "tr": "Kolombiya Liga BetPlay",
-    "en": "Liga BetPlay DIMAYOR",
-    "de": "Liga BetPlay DIMAYOR",
-    "es": "Liga BetPlay DIMAYOR",
-    "fr": "Liga BetPlay DIMAYOR",
-    "it": "Liga BetPlay DIMAYOR",
-    "pt": "Liga BetPlay DIMAYOR",
-    "ar": "الدوري الكولومبي"
-   },
-   "home": "Bucaramanga",
-   "away": "Aguilas Doradas",
-   "homeNames": {
-    "tr": "Atlético Bucaramanga",
-    "en": "Atlético Bucaramanga",
-    "de": "Atlético Bucaramanga",
-    "es": "Atlético Bucaramanga",
-    "fr": "Atlético Bucaramanga",
-    "it": "Atlético Bucaramanga",
-    "pt": "Atlético Bucaramanga",
-    "ar": "Atlético Bucaramanga"
-   },
-   "awayNames": {
-    "tr": "Águilas Doradas",
-    "en": "Águilas Doradas",
-    "de": "Águilas Doradas",
-    "es": "Águilas Doradas",
-    "fr": "Águilas Doradas",
-    "it": "Águilas Doradas",
-    "pt": "Águilas Doradas",
-    "ar": "أغيلاس دورادس"
-   },
-   "kickoffUtc": "2026-10-13T23:30:00Z",
-   "broadcasts": {
-    "CO": [
-     "Win Fútbol+",
-     "Win Play"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20261014-thunder-pacers",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Thunder",
-   "away": "Pacers",
-   "homeNames": {
-    "tr": "Oklahoma City Thunder",
-    "en": "Oklahoma City Thunder",
-    "de": "Oklahoma City Thunder",
-    "es": "Oklahoma City Thunder",
-    "fr": "Oklahoma City Thunder",
-    "it": "Oklahoma City Thunder",
-    "pt": "Oklahoma City Thunder",
-    "ar": "أوكلاهوما سيتي ثاندر"
-   },
-   "awayNames": {
-    "tr": "Indiana Pacers",
-    "en": "Indiana Pacers",
-    "de": "Indiana Pacers",
-    "es": "Indiana Pacers",
-    "fr": "Indiana Pacers",
-    "it": "Indiana Pacers",
-    "pt": "Indiana Pacers",
-    "ar": "إنديانا بيسرز"
-   },
-   "kickoffUtc": "2026-10-14T00:00:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "football-20261013-boca-juniors-vasco-da-gama",
-   "sport": "football",
-   "competitionId": "sudamericana",
-   "tier": "regional",
-   "competition": {
-    "tr": "Copa Sudamericana",
-    "en": "Copa Sudamericana",
-    "de": "Copa Sudamericana",
-    "es": "Copa Sudamericana",
-    "fr": "Copa Sudamericana",
-    "it": "Copa Sudamericana",
-    "pt": "Copa Sul-Americana",
-    "ar": "كأس أمريكا الجنوبية"
-   },
-   "home": "Boca Juniors",
-   "away": "Vasco da Gama",
-   "homeNames": {
-    "tr": "Boca Juniors",
-    "en": "Boca Juniors",
-    "de": "Boca Juniors",
-    "es": "Boca Juniors",
-    "fr": "Boca Juniors",
-    "it": "Boca Juniors",
-    "pt": "Boca Juniors",
-    "ar": "بوكا جونيورز"
-   },
-   "awayNames": {
-    "tr": "Vasco da Gama",
-    "en": "Vasco da Gama",
-    "de": "Vasco da Gama",
-    "es": "Vasco da Gama",
-    "fr": "Vasco da Gama",
-    "it": "Vasco da Gama",
-    "pt": "Vasco da Gama",
-    "ar": "فاسكو دا جاما"
-   },
-   "kickoffUtc": "2026-10-14T00:30:00Z",
-   "broadcasts": {
-    "BR": [
-     "SBT",
-     "SBT Sports YouTube",
-     "Paramount+"
-    ],
-    "US": [
-     "beIN Sports",
-     "beIN Sports en Español",
-     "Fubo",
-     "Fanatiz"
-    ],
-    "MX": [
-     "Disney+ Premium"
-    ],
-    "CL": [
-     "DSports",
-     "DGO",
-     "Paramount+",
-     "DAZN",
-     "Disney+ Premium",
-     "ESPN"
-    ],
-    "PE": [
-     "DSports",
-     "DGO",
-     "Paramount+",
-     "DAZN",
-     "Disney+ Premium",
-     "ESPN"
-    ],
-    "UY": [
-     "DSports",
-     "DGO",
-     "Paramount+",
-     "DAZN",
-     "Disney+ Premium",
-     "ESPN"
-    ],
-    "EC": [
-     "DSports",
-     "DGO",
-     "Paramount+",
-     "DAZN",
-     "Disney+ Premium",
-     "ESPN"
-    ],
-    "CO": [
-     "DSports",
-     "DGO",
-     "Amazon Prime Video",
-     "Paramount+",
-     "DAZN",
-     "Disney+ Premium",
-     "ESPN",
-     "Win Play"
-    ],
-    "PY": [
-     "Disney+ Premium",
-     "ESPN",
-     "Tigo Sports"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261013-millonarios-once-caldas",
-   "sport": "football",
-   "competitionId": "liga_dimayor",
-   "tier": "regional",
-   "competition": {
-    "tr": "Kolombiya Liga BetPlay",
-    "en": "Liga BetPlay DIMAYOR",
-    "de": "Liga BetPlay DIMAYOR",
-    "es": "Liga BetPlay DIMAYOR",
-    "fr": "Liga BetPlay DIMAYOR",
-    "it": "Liga BetPlay DIMAYOR",
-    "pt": "Liga BetPlay DIMAYOR",
-    "ar": "الدوري الكولومبي"
-   },
-   "home": "Millonarios",
-   "away": "Once Caldas",
-   "homeNames": {
-    "tr": "Millonarios",
-    "en": "Millonarios",
-    "de": "Millonarios",
-    "es": "Millonarios",
-    "fr": "Millonarios",
-    "it": "Millonarios",
-    "pt": "Millonarios",
-    "ar": "Millonarios"
-   },
-   "awayNames": {
-    "tr": "Once Caldas",
-    "en": "Once Caldas",
-    "de": "Once Caldas",
-    "es": "Once Caldas",
-    "fr": "Once Caldas",
-    "it": "Once Caldas",
-    "pt": "Once Caldas",
-    "ar": "أونسي كالداس"
-   },
-   "kickoffUtc": "2026-10-14T01:30:00Z",
-   "broadcasts": {
-    "CO": [
-     "Win Fútbol+",
-     "Win Play"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "basketball-20261014-lakers-warriors",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Lakers",
-   "away": "Warriors",
-   "homeNames": {
-    "tr": "Los Angeles Lakers",
-    "en": "Los Angeles Lakers",
-    "de": "Los Angeles Lakers",
-    "es": "Los Angeles Lakers",
-    "fr": "Los Angeles Lakers",
-    "it": "Los Angeles Lakers",
-    "pt": "Los Angeles Lakers",
-    "ar": "لوس أنجلوس ليكرز"
-   },
-   "awayNames": {
-    "tr": "Golden State Warriors",
-    "en": "Golden State Warriors",
-    "de": "Golden State Warriors",
-    "es": "Golden State Warriors",
-    "fr": "Golden State Warriors",
-    "it": "Golden State Warriors",
-    "pt": "Golden State Warriors",
-    "ar": "غولدن ستايت ووريورز"
-   },
-   "kickoffUtc": "2026-10-14T02:00:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA TV"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "basketball-20261014-kings-trail-blazers",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Kings",
-   "away": "Trail Blazers",
-   "homeNames": {
-    "tr": "Sacramento Kings",
-    "en": "Sacramento Kings",
-    "de": "Sacramento Kings",
-    "es": "Sacramento Kings",
-    "fr": "Sacramento Kings",
-    "it": "Sacramento Kings",
-    "pt": "Sacramento Kings",
-    "ar": "ساكرامنتو كينغز"
-   },
-   "awayNames": {
-    "tr": "Portland Trail Blazers",
-    "en": "Portland Trail Blazers",
-    "de": "Portland Trail Blazers",
-    "es": "Portland Trail Blazers",
-    "fr": "Portland Trail Blazers",
-    "it": "Portland Trail Blazers",
-    "pt": "Portland Trail Blazers",
-    "ar": "بورتلاند ترايل بليزرز"
-   },
-   "kickoffUtc": "2026-10-14T02:00:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
   {
    "id": "volleyball-20261014-kuzeyboru-thy",
    "sport": "volleyball",
@@ -2045,7 +552,7 @@
    "kickoffUtc": "2026-10-14T16:00:00Z",
    "broadcasts": {
     "TR": [
-     "TVF Voleybol TV YouTube"
+     "FB TV"
     ]
    },
    "sources": []
@@ -2335,37 +842,48 @@
      "ESPN Premium"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": []
@@ -2478,37 +996,59 @@
      "ESPN"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 2",
+     "beIN Sports English 1",
+     "TOD TV"
     ]
    },
    "sources": []
@@ -2739,7 +1279,7 @@
    "kickoffUtc": "2026-10-14T17:00:00Z",
    "broadcasts": {
     "TR": [
-     "TRT Spor"
+     "TRT Spor Yıldız"
     ]
    },
    "sources": []
@@ -3347,6 +1887,52 @@
    "sources": []
   },
   {
+   "id": "football-20261014-boston-river-river-plate-montevideo",
+   "sport": "football",
+   "competitionId": "copa_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Kupası",
+    "en": "Copa AUF Uruguay",
+    "de": "Copa AUF Uruguay",
+    "es": "Copa AUF Uruguay",
+    "fr": "Copa AUF Uruguay",
+    "it": "Copa AUF Uruguay",
+    "pt": "Copa AUF Uruguai",
+    "ar": "كأس أوروغواي"
+   },
+   "home": "Boston River",
+   "away": "River Plate Montevideo",
+   "homeNames": {
+    "tr": "Boston River",
+    "en": "Boston River",
+    "de": "Boston River",
+    "es": "Boston River",
+    "fr": "Boston River",
+    "it": "Boston River",
+    "pt": "Boston River",
+    "ar": "Boston River"
+   },
+   "awayNames": {
+    "tr": "River Plate (Montevideo)",
+    "en": "River Plate (Montevideo)",
+    "de": "River Plate (Montevideo)",
+    "es": "River Plate (Montevideo)",
+    "fr": "River Plate (Montevideo)",
+    "it": "River Plate (Montevideo)",
+    "pt": "River Plate (Montevideo)",
+    "ar": "River Plate (Montevideo)"
+   },
+   "kickoffUtc": "2026-10-14T18:30:00Z",
+   "broadcasts": {
+    "UY": [
+     "DSports Uruguay",
+     "DGO"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "basketball-20261014-paris-basketball-virtus-bologna",
    "sport": "basketball",
    "competitionId": "euroleague",
@@ -3624,7 +2210,7 @@
    "kickoffUtc": "2026-10-14T19:00:00Z",
    "broadcasts": {
     "TR": [
-     "TRT Spor"
+     "TRT Spor Yıldız"
     ],
     "IT": [
      "Sky Sport Mix"
@@ -3737,37 +2323,48 @@
      "ESPN 3"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": []
@@ -3876,37 +2473,48 @@
      "ESPN 7"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 5",
+     "TOD TV"
     ]
    },
    "sources": []
@@ -4015,37 +2623,48 @@
      "ESPN 2"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 6",
+     "TOD TV"
     ]
    },
    "sources": []
@@ -4239,37 +2858,59 @@
      "ESPN Premium"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 1",
+     "beIN Sports English 1",
+     "TOD TV"
     ]
    },
    "sources": []
@@ -4382,37 +3023,59 @@
      "ESPN"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 3",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 3",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 3",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 3",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 3",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 3",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 3",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 3",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 3",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 3",
+     "beIN Sports English 1",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 3",
+     "beIN Sports English 1",
+     "TOD TV"
     ]
    },
    "sources": []
@@ -4518,37 +3181,37 @@
      "ESPN 6"
     ],
     "SA": [
-     "beIN Sports"
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "TOD TV"
     ]
    },
    "sources": []
@@ -4653,37 +3316,93 @@
      "ESPN 4"
     ],
     "SA": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "DZ": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "IQ": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "JO": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "EG": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "OM": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "QA": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "AE": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "MA": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "TN": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
     ],
     "LY": [
-     "beIN Sports"
+     "beIN Sports MENA 7",
+     "TOD TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261014-atletico-tembetary-sol-de-america",
+   "sport": "football",
+   "competitionId": "copa_paraguay",
+   "tier": "regional",
+   "competition": {
+    "tr": "Paraguay Kupası",
+    "en": "Copa Paraguay",
+    "de": "Copa Paraguay",
+    "es": "Copa Paraguay",
+    "fr": "Coupe du Paraguay",
+    "it": "Coppa del Paraguay",
+    "pt": "Copa Paraguai",
+    "ar": "كأس باراغواي"
+   },
+   "home": "Atletico Tembetary",
+   "away": "Sol de America",
+   "homeNames": {
+    "tr": "Atlético Tembetary",
+    "en": "Atlético Tembetary",
+    "de": "Atlético Tembetary",
+    "es": "Atlético Tembetary",
+    "fr": "Atlético Tembetary",
+    "it": "Atlético Tembetary",
+    "pt": "Atlético Tembetary",
+    "ar": "Atlético Tembetary"
+   },
+   "awayNames": {
+    "tr": "Sol de América",
+    "en": "Sol de América",
+    "de": "Sol de América",
+    "es": "Sol de América",
+    "fr": "Sol de América",
+    "it": "Sol de América",
+    "pt": "Sol de América",
+    "ar": "Sol de América"
+   },
+   "kickoffUtc": "2026-10-14T20:00:00Z",
+   "broadcasts": {
+    "PY": [
+     "Tigo Sports"
     ]
    },
    "sources": []
@@ -4933,6 +3652,51 @@
    "sources": []
   },
   {
+   "id": "football-20261014-cerro-porteno-san-lorenzo-py",
+   "sport": "football",
+   "competitionId": "copa_paraguay",
+   "tier": "regional",
+   "competition": {
+    "tr": "Paraguay Kupası",
+    "en": "Copa Paraguay",
+    "de": "Copa Paraguay",
+    "es": "Copa Paraguay",
+    "fr": "Coupe du Paraguay",
+    "it": "Coppa del Paraguay",
+    "pt": "Copa Paraguai",
+    "ar": "كأس باراغواي"
+   },
+   "home": "Cerro Porteno",
+   "away": "San Lorenzo PY",
+   "homeNames": {
+    "tr": "Cerro Porteño",
+    "en": "Cerro Porteño",
+    "de": "Cerro Porteño",
+    "es": "Cerro Porteño",
+    "fr": "Cerro Porteño",
+    "it": "Cerro Porteño",
+    "pt": "Cerro Porteño",
+    "ar": "Cerro Porteño"
+   },
+   "awayNames": {
+    "tr": "Sportivo San Lorenzo",
+    "en": "Sportivo San Lorenzo",
+    "de": "Sportivo San Lorenzo",
+    "es": "Sportivo San Lorenzo",
+    "fr": "Sportivo San Lorenzo",
+    "it": "Sportivo San Lorenzo",
+    "pt": "Sportivo San Lorenzo",
+    "ar": "Sportivo San Lorenzo"
+   },
+   "kickoffUtc": "2026-10-14T22:30:00Z",
+   "broadcasts": {
+    "PY": [
+     "Tigo Sports"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20261014-greenville-triumph-spokane-velocity",
    "sport": "football",
    "competitionId": "usl1",
@@ -5066,6 +3830,506 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "basketball-20261014-celtics-hornets",
+   "sport": "basketball",
+   "competitionId": "nba",
+   "tier": "global",
+   "competition": {
+    "tr": "NBA Hazırlık Maçları",
+    "en": "NBA Preseason",
+    "de": "NBA Preseason",
+    "es": "Pretemporada NBA",
+    "fr": "Présaison NBA",
+    "it": "Preseason NBA",
+    "pt": "Pré-temporada da NBA",
+    "ar": "مباريات NBA التحضيرية"
+   },
+   "home": "Celtics",
+   "away": "Hornets",
+   "homeNames": {
+    "tr": "Boston Celtics",
+    "en": "Boston Celtics",
+    "de": "Boston Celtics",
+    "es": "Boston Celtics",
+    "fr": "Boston Celtics",
+    "it": "Boston Celtics",
+    "pt": "Boston Celtics",
+    "ar": "بوسطن سيلتيكس"
+   },
+   "awayNames": {
+    "tr": "Charlotte Hornets",
+    "en": "Charlotte Hornets",
+    "de": "Charlotte Hornets",
+    "es": "Charlotte Hornets",
+    "fr": "Charlotte Hornets",
+    "it": "Charlotte Hornets",
+    "pt": "Charlotte Hornets",
+    "ar": "شارلوت هورنتس"
+   },
+   "kickoffUtc": "2026-10-14T23:30:00Z",
+   "broadcasts": {
+    "US": [
+     "NBA League Pass"
+    ],
+    "TR": [
+     "S Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "GB": [
+     "Sky Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ES": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "PT": [
+     "Sport TV",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "FR": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DE": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "CH": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "IT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BE": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NL": [
+     "ESPN",
+     "NBA League Pass"
+    ],
+    "HR": [
+     "Sport Klub",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NO": [
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CZ": [
+     "Nova Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MX": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AR": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CO": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CL": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PE": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "UY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "EC": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CA": [
+     "TSN",
+     "Sportsnet",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "SA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "QA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AE": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "EG": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DZ": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "TN": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "JP": [
+     "Lemino",
+     "Prime Video",
+     "WOWOW"
+    ],
+    "KR": [
+     "Coupang Play",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AU": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NZ": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ZA": [
+     "SuperSport",
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NG": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "GH": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "SN": [
+     "Canal+ Sport",
+     "NBA League Pass"
+    ]
+   },
+   "sources": [
+    "espn"
+   ]
+  },
+  {
+   "id": "basketball-20261014-heat-nets",
+   "sport": "basketball",
+   "competitionId": "nba",
+   "tier": "global",
+   "competition": {
+    "tr": "NBA Hazırlık Maçları",
+    "en": "NBA Preseason",
+    "de": "NBA Preseason",
+    "es": "Pretemporada NBA",
+    "fr": "Présaison NBA",
+    "it": "Preseason NBA",
+    "pt": "Pré-temporada da NBA",
+    "ar": "مباريات NBA التحضيرية"
+   },
+   "home": "Heat",
+   "away": "Nets",
+   "homeNames": {
+    "tr": "Miami Heat",
+    "en": "Miami Heat",
+    "de": "Miami Heat",
+    "es": "Miami Heat",
+    "fr": "Miami Heat",
+    "it": "Miami Heat",
+    "pt": "Miami Heat",
+    "ar": "ميامي هيت"
+   },
+   "awayNames": {
+    "tr": "Brooklyn Nets",
+    "en": "Brooklyn Nets",
+    "de": "Brooklyn Nets",
+    "es": "Brooklyn Nets",
+    "fr": "Brooklyn Nets",
+    "it": "Brooklyn Nets",
+    "pt": "Brooklyn Nets",
+    "ar": "بروكلين نتس"
+   },
+   "kickoffUtc": "2026-10-14T23:30:00Z",
+   "broadcasts": {
+    "US": [
+     "NBA League Pass"
+    ],
+    "TR": [
+     "S Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "GB": [
+     "Sky Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ES": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "PT": [
+     "Sport TV",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "FR": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DE": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "CH": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "IT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BE": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NL": [
+     "ESPN",
+     "NBA League Pass"
+    ],
+    "HR": [
+     "Sport Klub",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NO": [
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CZ": [
+     "Nova Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MX": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AR": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CO": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CL": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PE": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "UY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "EC": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CA": [
+     "TSN",
+     "Sportsnet",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "SA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "QA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AE": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "EG": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DZ": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "TN": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "JP": [
+     "Lemino",
+     "Prime Video",
+     "WOWOW"
+    ],
+    "KR": [
+     "Coupang Play",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AU": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NZ": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ZA": [
+     "SuperSport",
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NG": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "GH": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "SN": [
+     "Canal+ Sport",
+     "NBA League Pass"
+    ]
+   },
+   "sources": [
+    "espn"
+   ]
   },
   {
    "id": "football-20261014-cf-montreal-atlanta-united",
@@ -5511,7 +4775,7 @@
    "sources": []
   },
   {
-   "id": "basketball-20261014-heat-nets",
+   "id": "basketball-20261015-bucks-bulls",
    "sport": "basketball",
    "competitionId": "nba",
    "tier": "global",
@@ -5525,527 +4789,27 @@
     "pt": "Pré-temporada da NBA",
     "ar": "مباريات NBA التحضيرية"
    },
-   "home": "Heat",
-   "away": "Nets",
+   "home": "Bucks",
+   "away": "Bulls",
    "homeNames": {
-    "tr": "Miami Heat",
-    "en": "Miami Heat",
-    "de": "Miami Heat",
-    "es": "Miami Heat",
-    "fr": "Miami Heat",
-    "it": "Miami Heat",
-    "pt": "Miami Heat",
-    "ar": "ميامي هيت"
+    "tr": "Milwaukee Bucks",
+    "en": "Milwaukee Bucks",
+    "de": "Milwaukee Bucks",
+    "es": "Milwaukee Bucks",
+    "fr": "Milwaukee Bucks",
+    "it": "Milwaukee Bucks",
+    "pt": "Milwaukee Bucks",
+    "ar": "ميلووكي باكس"
    },
    "awayNames": {
-    "tr": "Brooklyn Nets",
-    "en": "Brooklyn Nets",
-    "de": "Brooklyn Nets",
-    "es": "Brooklyn Nets",
-    "fr": "Brooklyn Nets",
-    "it": "Brooklyn Nets",
-    "pt": "Brooklyn Nets",
-    "ar": "بروكلين نتس"
-   },
-   "kickoffUtc": "2026-10-14T23:30:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "basketball-20261014-celtics-hornets",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Celtics",
-   "away": "Hornets",
-   "homeNames": {
-    "tr": "Boston Celtics",
-    "en": "Boston Celtics",
-    "de": "Boston Celtics",
-    "es": "Boston Celtics",
-    "fr": "Boston Celtics",
-    "it": "Boston Celtics",
-    "pt": "Boston Celtics",
-    "ar": "بوسطن سيلتيكس"
-   },
-   "awayNames": {
-    "tr": "Charlotte Hornets",
-    "en": "Charlotte Hornets",
-    "de": "Charlotte Hornets",
-    "es": "Charlotte Hornets",
-    "fr": "Charlotte Hornets",
-    "it": "Charlotte Hornets",
-    "pt": "Charlotte Hornets",
-    "ar": "شارلوت هورنتس"
-   },
-   "kickoffUtc": "2026-10-14T23:30:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "basketball-20261015-spurs-suns",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA Hazırlık Maçları",
-    "en": "NBA Preseason",
-    "de": "NBA Preseason",
-    "es": "Pretemporada NBA",
-    "fr": "Présaison NBA",
-    "it": "Preseason NBA",
-    "pt": "Pré-temporada da NBA",
-    "ar": "مباريات NBA التحضيرية"
-   },
-   "home": "Spurs",
-   "away": "Suns",
-   "homeNames": {
-    "tr": "San Antonio Spurs",
-    "en": "San Antonio Spurs",
-    "de": "San Antonio Spurs",
-    "es": "San Antonio Spurs",
-    "fr": "San Antonio Spurs",
-    "it": "San Antonio Spurs",
-    "pt": "San Antonio Spurs",
-    "ar": "سان أنتونيو سبيرز"
-   },
-   "awayNames": {
-    "tr": "Phoenix Suns",
-    "en": "Phoenix Suns",
-    "de": "Phoenix Suns",
-    "es": "Phoenix Suns",
-    "fr": "Phoenix Suns",
-    "it": "Phoenix Suns",
-    "pt": "Phoenix Suns",
-    "ar": "فينيكس صنز"
+    "tr": "Chicago Bulls",
+    "en": "Chicago Bulls",
+    "de": "Chicago Bulls",
+    "es": "Chicago Bulls",
+    "fr": "Chicago Bulls",
+    "it": "Chicago Bulls",
+    "pt": "Chicago Bulls",
+    "ar": "شيكاغو بولز"
    },
    "kickoffUtc": "2026-10-15T00:00:00Z",
    "broadcasts": {
@@ -6511,7 +5275,7 @@
    ]
   },
   {
-   "id": "basketball-20261015-bucks-bulls",
+   "id": "basketball-20261015-spurs-suns",
    "sport": "basketball",
    "competitionId": "nba",
    "tier": "global",
@@ -6525,27 +5289,27 @@
     "pt": "Pré-temporada da NBA",
     "ar": "مباريات NBA التحضيرية"
    },
-   "home": "Bucks",
-   "away": "Bulls",
+   "home": "Spurs",
+   "away": "Suns",
    "homeNames": {
-    "tr": "Milwaukee Bucks",
-    "en": "Milwaukee Bucks",
-    "de": "Milwaukee Bucks",
-    "es": "Milwaukee Bucks",
-    "fr": "Milwaukee Bucks",
-    "it": "Milwaukee Bucks",
-    "pt": "Milwaukee Bucks",
-    "ar": "ميلووكي باكس"
+    "tr": "San Antonio Spurs",
+    "en": "San Antonio Spurs",
+    "de": "San Antonio Spurs",
+    "es": "San Antonio Spurs",
+    "fr": "San Antonio Spurs",
+    "it": "San Antonio Spurs",
+    "pt": "San Antonio Spurs",
+    "ar": "سان أنتونيو سبيرز"
    },
    "awayNames": {
-    "tr": "Chicago Bulls",
-    "en": "Chicago Bulls",
-    "de": "Chicago Bulls",
-    "es": "Chicago Bulls",
-    "fr": "Chicago Bulls",
-    "it": "Chicago Bulls",
-    "pt": "Chicago Bulls",
-    "ar": "شيكاغو بولز"
+    "tr": "Phoenix Suns",
+    "en": "Phoenix Suns",
+    "de": "Phoenix Suns",
+    "es": "Phoenix Suns",
+    "fr": "Phoenix Suns",
+    "it": "Phoenix Suns",
+    "pt": "Phoenix Suns",
+    "ar": "فينيكس صنز"
    },
    "kickoffUtc": "2026-10-15T00:00:00Z",
    "broadcasts": {
@@ -7351,6 +6115,52 @@
    "sources": []
   },
   {
+   "id": "football-20261014-atletico-nacional-independiente-medellin",
+   "sport": "football",
+   "competitionId": "copa_colombia",
+   "tier": "regional",
+   "competition": {
+    "tr": "Kolombiya Kupası",
+    "en": "Copa Colombia",
+    "de": "Copa Colombia",
+    "es": "Copa BetPlay",
+    "fr": "Coupe de Colombie",
+    "it": "Coppa di Colombia",
+    "pt": "Copa da Colômbia",
+    "ar": "كأس كولومبيا"
+   },
+   "home": "Atletico Nacional",
+   "away": "Independiente Medellin",
+   "homeNames": {
+    "tr": "Atlético Nacional",
+    "en": "Atlético Nacional",
+    "de": "Atlético Nacional",
+    "es": "Atlético Nacional",
+    "fr": "Atlético Nacional",
+    "it": "Atlético Nacional",
+    "pt": "Atlético Nacional",
+    "ar": "Atlético Nacional"
+   },
+   "awayNames": {
+    "tr": "Independiente Medellín",
+    "en": "Independiente Medellín",
+    "de": "Independiente Medellín",
+    "es": "Independiente Medellín",
+    "fr": "Independiente Medellín",
+    "it": "Independiente Medellín",
+    "pt": "Independiente Medellín",
+    "ar": "Independiente Medellín"
+   },
+   "kickoffUtc": "2026-10-15T01:30:00Z",
+   "broadcasts": {
+    "CO": [
+     "Win Fútbol+",
+     "Win Play"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20261014-colorado-rapids-minnesota-united",
    "sport": "football",
    "competitionId": "mls",
@@ -7454,204 +6264,6 @@
     "ar": "سان خوسيه إيرثكويكس"
    },
    "kickoffUtc": "2026-10-15T01:30:00Z",
-   "broadcasts": {
-    "US": [
-     "Apple TV"
-    ],
-    "CA": [
-     "Apple TV"
-    ],
-    "MX": [
-     "Apple TV"
-    ],
-    "BR": [
-     "Apple TV"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
-    "CL": [
-     "Apple TV"
-    ],
-    "PE": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261014-la-galaxy-portland-timbers",
-   "sport": "football",
-   "competitionId": "mls",
-   "tier": "regional",
-   "competition": {
-    "tr": "MLS",
-    "en": "MLS",
-    "de": "MLS",
-    "es": "MLS",
-    "fr": "MLS",
-    "it": "MLS",
-    "pt": "MLS",
-    "ar": "الدوري الأمريكي (MLS)"
-   },
-   "home": "LA Galaxy",
-   "away": "Portland Timbers",
-   "homeNames": {
-    "tr": "LA Galaxy",
-    "en": "LA Galaxy",
-    "de": "LA Galaxy",
-    "es": "LA Galaxy",
-    "fr": "LA Galaxy",
-    "it": "LA Galaxy",
-    "pt": "LA Galaxy",
-    "ar": "لوس أنجلوس غالاكسي"
-   },
-   "awayNames": {
-    "tr": "Portland Timbers",
-    "en": "Portland Timbers",
-    "de": "Portland Timbers",
-    "es": "Portland Timbers",
-    "fr": "Portland Timbers",
-    "it": "Portland Timbers",
-    "pt": "Portland Timbers",
-    "ar": "بورتلاند تيمبرز"
-   },
-   "kickoffUtc": "2026-10-15T02:30:00Z",
-   "broadcasts": {
-    "US": [
-     "Apple TV"
-    ],
-    "CA": [
-     "Apple TV"
-    ],
-    "MX": [
-     "Apple TV"
-    ],
-    "BR": [
-     "Apple TV"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
-    "CL": [
-     "Apple TV"
-    ],
-    "PE": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261014-lafc-austin-fc",
-   "sport": "football",
-   "competitionId": "mls",
-   "tier": "regional",
-   "competition": {
-    "tr": "MLS",
-    "en": "MLS",
-    "de": "MLS",
-    "es": "MLS",
-    "fr": "MLS",
-    "it": "MLS",
-    "pt": "MLS",
-    "ar": "الدوري الأمريكي (MLS)"
-   },
-   "home": "LAFC",
-   "away": "Austin FC",
-   "homeNames": {
-    "tr": "LAFC",
-    "en": "LAFC",
-    "de": "LAFC",
-    "es": "LAFC",
-    "fr": "LAFC",
-    "it": "LAFC",
-    "pt": "LAFC",
-    "ar": "LAFC"
-   },
-   "awayNames": {
-    "tr": "Austin FC",
-    "en": "Austin FC",
-    "de": "Austin FC",
-    "es": "Austin FC",
-    "fr": "Austin FC",
-    "it": "Austin FC",
-    "pt": "Austin FC",
-    "ar": "أوستن"
-   },
-   "kickoffUtc": "2026-10-15T02:30:00Z",
-   "broadcasts": {
-    "US": [
-     "Apple TV"
-    ],
-    "CA": [
-     "Apple TV"
-    ],
-    "MX": [
-     "Apple TV"
-    ],
-    "BR": [
-     "Apple TV"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
-    "CL": [
-     "Apple TV"
-    ],
-    "PE": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261014-san-diego-fc-houston-dynamo",
-   "sport": "football",
-   "competitionId": "mls",
-   "tier": "regional",
-   "competition": {
-    "tr": "MLS",
-    "en": "MLS",
-    "de": "MLS",
-    "es": "MLS",
-    "fr": "MLS",
-    "it": "MLS",
-    "pt": "MLS",
-    "ar": "الدوري الأمريكي (MLS)"
-   },
-   "home": "San Diego FC",
-   "away": "Houston Dynamo",
-   "homeNames": {
-    "tr": "San Diego FC",
-    "en": "San Diego FC",
-    "de": "San Diego FC",
-    "es": "San Diego FC",
-    "fr": "San Diego FC",
-    "it": "San Diego FC",
-    "pt": "San Diego FC",
-    "ar": "سان دييغو"
-   },
-   "awayNames": {
-    "tr": "Houston Dynamo",
-    "en": "Houston Dynamo",
-    "de": "Houston Dynamo",
-    "es": "Houston Dynamo",
-    "fr": "Houston Dynamo",
-    "it": "Houston Dynamo",
-    "pt": "Houston Dynamo",
-    "ar": "هيوستن دينامو"
-   },
-   "kickoffUtc": "2026-10-15T02:30:00Z",
    "broadcasts": {
     "US": [
      "Apple TV"
@@ -7929,6 +6541,204 @@
    "sources": [
     "espn"
    ]
+  },
+  {
+   "id": "football-20261014-la-galaxy-portland-timbers",
+   "sport": "football",
+   "competitionId": "mls",
+   "tier": "regional",
+   "competition": {
+    "tr": "MLS",
+    "en": "MLS",
+    "de": "MLS",
+    "es": "MLS",
+    "fr": "MLS",
+    "it": "MLS",
+    "pt": "MLS",
+    "ar": "الدوري الأمريكي (MLS)"
+   },
+   "home": "LA Galaxy",
+   "away": "Portland Timbers",
+   "homeNames": {
+    "tr": "LA Galaxy",
+    "en": "LA Galaxy",
+    "de": "LA Galaxy",
+    "es": "LA Galaxy",
+    "fr": "LA Galaxy",
+    "it": "LA Galaxy",
+    "pt": "LA Galaxy",
+    "ar": "لوس أنجلوس غالاكسي"
+   },
+   "awayNames": {
+    "tr": "Portland Timbers",
+    "en": "Portland Timbers",
+    "de": "Portland Timbers",
+    "es": "Portland Timbers",
+    "fr": "Portland Timbers",
+    "it": "Portland Timbers",
+    "pt": "Portland Timbers",
+    "ar": "بورتلاند تيمبرز"
+   },
+   "kickoffUtc": "2026-10-15T02:30:00Z",
+   "broadcasts": {
+    "US": [
+     "Apple TV"
+    ],
+    "CA": [
+     "Apple TV"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "BR": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "DE": [
+     "Apple TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261014-lafc-austin-fc",
+   "sport": "football",
+   "competitionId": "mls",
+   "tier": "regional",
+   "competition": {
+    "tr": "MLS",
+    "en": "MLS",
+    "de": "MLS",
+    "es": "MLS",
+    "fr": "MLS",
+    "it": "MLS",
+    "pt": "MLS",
+    "ar": "الدوري الأمريكي (MLS)"
+   },
+   "home": "LAFC",
+   "away": "Austin FC",
+   "homeNames": {
+    "tr": "LAFC",
+    "en": "LAFC",
+    "de": "LAFC",
+    "es": "LAFC",
+    "fr": "LAFC",
+    "it": "LAFC",
+    "pt": "LAFC",
+    "ar": "LAFC"
+   },
+   "awayNames": {
+    "tr": "Austin FC",
+    "en": "Austin FC",
+    "de": "Austin FC",
+    "es": "Austin FC",
+    "fr": "Austin FC",
+    "it": "Austin FC",
+    "pt": "Austin FC",
+    "ar": "أوستن"
+   },
+   "kickoffUtc": "2026-10-15T02:30:00Z",
+   "broadcasts": {
+    "US": [
+     "Apple TV"
+    ],
+    "CA": [
+     "Apple TV"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "BR": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "DE": [
+     "Apple TV"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261014-san-diego-fc-houston-dynamo",
+   "sport": "football",
+   "competitionId": "mls",
+   "tier": "regional",
+   "competition": {
+    "tr": "MLS",
+    "en": "MLS",
+    "de": "MLS",
+    "es": "MLS",
+    "fr": "MLS",
+    "it": "MLS",
+    "pt": "MLS",
+    "ar": "الدوري الأمريكي (MLS)"
+   },
+   "home": "San Diego FC",
+   "away": "Houston Dynamo",
+   "homeNames": {
+    "tr": "San Diego FC",
+    "en": "San Diego FC",
+    "de": "San Diego FC",
+    "es": "San Diego FC",
+    "fr": "San Diego FC",
+    "it": "San Diego FC",
+    "pt": "San Diego FC",
+    "ar": "سان دييغو"
+   },
+   "awayNames": {
+    "tr": "Houston Dynamo",
+    "en": "Houston Dynamo",
+    "de": "Houston Dynamo",
+    "es": "Houston Dynamo",
+    "fr": "Houston Dynamo",
+    "it": "Houston Dynamo",
+    "pt": "Houston Dynamo",
+    "ar": "هيوستن دينامو"
+   },
+   "kickoffUtc": "2026-10-15T02:30:00Z",
+   "broadcasts": {
+    "US": [
+     "Apple TV"
+    ],
+    "CA": [
+     "Apple TV"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "BR": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "DE": [
+     "Apple TV"
+    ]
+   },
+   "sources": []
   }
  ]
 }
