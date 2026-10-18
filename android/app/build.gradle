@@ -103,9 +103,9 @@ android {
         }
         release {
             storeFile file(System.getenv("KEYSTORE_FILE") ?: "mac-hatirlatici.keystore")
-            storePassword (System.getenv("KEYSTORE_PASSWORD") ?: 'MacHatirlatici2024!')
+            storePassword System.getenv("KEYSTORE_PASSWORD")
             keyAlias (System.getenv("KEY_ALIAS") ?: 'mac-hatirlatici')
-            keyPassword (System.getenv("KEY_PASSWORD") ?: 'MacHatirlatici2024!')
+            keyPassword System.getenv("KEY_PASSWORD")
         }
     }
     buildTypes {

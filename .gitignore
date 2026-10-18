@@ -41,3 +41,9 @@ privacy-policy/
 # python onbellegi
 __pycache__/
 *.pyc
+
+# Imza dosyalari ve kimlik bilgileri (GitHub Secrets / EAS'te tutulur)
+credentials.json
+*.p12
+*.p8
+*.mobileprovision
