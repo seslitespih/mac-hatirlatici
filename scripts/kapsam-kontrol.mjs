@@ -24,6 +24,11 @@ const KAPSAM_DISI = [
   // TR federasyonlarinin ikinci/ucuncu seviyeleri. DIKKAT: yalniz TFF/TVF onekiyle —
   // genel /[23]\. lig/ kalibi "Almanya 3. Lig"i de eliyordu, oysa o KAPSAMDA.
   /\b(tff|tvf)\b.*\b[23]\. lig/i,
+  // TVF Kadinlar 1. Lig = Sultanlar Ligi'nin ALTI (ikinci seviye). 20 Eki 2026: tvf.org.tr lig
+  // sayfasinda ECZACIBASI / VAKIFBANK / FENERBAHCE MEDICANA'nin B takimlari bu ligde; TR kaynagi
+  // "Fenerbahce Medicana - Eczacibasi" diye B takim macini verdi (A takimlarin maci 25 Eki).
+  // 2. Lig kurali (30 Eyl, B takim girmez) ile ayni gerekce. Erkekler 1. Lig hala karar bekliyor.
+  /\btvf kadinlar 1\. lig/i,
   /on eleme youtube/i,
   // ⚠️ Kelime siniri SART: /usl/i Turkce "Ul-usl-ar"a takiliyordu -> "UEFA Uluslar
   // Ligi" ve "Uluslararasi Dostluk" yanlislikla kapsam disi sayiliyordu (24 Eyl 2026).
