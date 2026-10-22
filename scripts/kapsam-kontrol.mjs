@@ -29,6 +29,10 @@ const KAPSAM_DISI = [
   // "Fenerbahce Medicana - Eczacibasi" diye B takim macini verdi (A takimlarin maci 25 Eki).
   // 2. Lig kurali (30 Eyl, B takim girmez) ile ayni gerekce. Erkekler 1. Lig hala karar bekliyor.
   /\btvf kadinlar 1\. lig/i,
+  // TVF Erkekler 1. Lig de Efeler Ligi'nin ALTI: 11 Eki'de Ziraat Bankkart-Duzce, 23 Eki'de
+  // "Fenerbahce Medicana - Arkas" (iki Efeler kulubunun B takimi) — her iki gece de girmedi.
+  // Kullanici karari hala bekleniyor; alinacaksa bu satiri sil.
+  /\btvf erkekler 1\. lig/i,
   /on eleme youtube/i,
   // ⚠️ Kelime siniri SART: /usl/i Turkce "Ul-usl-ar"a takiliyordu -> "UEFA Uluslar
   // Ligi" ve "Uluslararasi Dostluk" yanlislikla kapsam disi sayiliyordu (24 Eyl 2026).
