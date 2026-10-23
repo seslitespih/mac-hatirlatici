@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-23T22:30:27.000Z",
+ "generated_at": "2026-10-23T22:51:18.000Z",
  "date": "2026-10-24",
  "model": "user-provided",
  "stats": {
-  "total": 186,
-  "withChannel": 186,
+  "total": 192,
+  "withChannel": 192,
   "bySport": {
-   "motorsport": 12,
-   "football": 139,
+   "football": 146,
+   "motorsport": 11,
    "basketball": 28,
    "volleyball": 7
   },
@@ -15,6 +15,198 @@
   "searches": 0
  },
  "matches": [
+  {
+   "id": "football-20261023-gimnasia-lp-sarmiento",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Primera División",
+    "en": "Argentine Primera División",
+    "de": "Argentinische Primera División",
+    "es": "Primera División de Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primeira Divisão Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Gimnasia LP",
+   "away": "Sarmiento",
+   "homeNames": {
+    "tr": "Gimnasia La Plata",
+    "en": "Gimnasia La Plata",
+    "de": "Gimnasia La Plata",
+    "es": "Gimnasia La Plata",
+    "fr": "Gimnasia La Plata",
+    "it": "Gimnasia La Plata",
+    "pt": "Gimnasia La Plata",
+    "ar": "خيمناسيا لا بلاتا"
+   },
+   "awayNames": {
+    "tr": "Sarmiento",
+    "en": "Sarmiento",
+    "de": "Sarmiento",
+    "es": "Sarmiento",
+    "fr": "Sarmiento",
+    "it": "Sarmiento",
+    "pt": "Sarmiento",
+    "ar": "سارمينتو"
+   },
+   "kickoffUtc": "2026-10-23T21:00:00Z",
+   "broadcasts": {
+    "ES": [
+     "Fanatiz"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "BR": [
+     "Disney+"
+    ],
+    "MX": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 5",
+     "Fanatiz"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN",
+     "Fanatiz"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "PY": [
+     "ESPN",
+     "Disney+ Premium",
+     "Fanatiz"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261023-gimnasia-mendoza-platense",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Primera División",
+    "en": "Argentine Primera División",
+    "de": "Argentinische Primera División",
+    "es": "Primera División de Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primeira Divisão Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Gimnasia Mendoza",
+   "away": "Platense",
+   "homeNames": {
+    "tr": "Gimnasia y Esgrima Mendoza",
+    "en": "Gimnasia y Esgrima Mendoza",
+    "de": "Gimnasia y Esgrima Mendoza",
+    "es": "Gimnasia y Esgrima Mendoza",
+    "fr": "Gimnasia y Esgrima Mendoza",
+    "it": "Gimnasia y Esgrima Mendoza",
+    "pt": "Gimnasia y Esgrima Mendoza",
+    "ar": "ميندوزا خيمناسيا"
+   },
+   "awayNames": {
+    "tr": "Platense",
+    "en": "Platense",
+    "de": "Platense",
+    "es": "Platense",
+    "fr": "Platense",
+    "it": "Platense",
+    "pt": "Platense",
+    "ar": "كلوب أتلتيكو بلاتينسي"
+   },
+   "kickoffUtc": "2026-10-23T21:30:00Z",
+   "broadcasts": {
+    "MX": [
+     "TyC Sports Internacional"
+    ],
+    "CO": [
+     "TyC Sports Internacional"
+    ],
+    "CL": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "PE": [
+     "TyC Sports Internacional"
+    ],
+    "UY": [
+     "TyC Sports Internacional"
+    ],
+    "EC": [
+     "TyC Sports Internacional"
+    ],
+    "PY": [
+     "TyC Sports Internacional"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "motorsport-20261023-moto3-avustralya-gp-2-antrenman",
+   "sport": "motorsport",
+   "competitionId": "moto3",
+   "tier": "global",
+   "competition": {
+    "tr": "Moto3",
+    "en": "Moto3",
+    "de": "Moto3",
+    "es": "Moto3",
+    "fr": "Moto3",
+    "it": "Moto3",
+    "pt": "Moto3",
+    "ar": "موتو 3"
+   },
+   "home": "Moto3 Avustralya GP",
+   "away": "2. Antrenman",
+   "homeNames": {
+    "tr": "Moto3 Avustralya GP",
+    "en": "Moto3 Australian GP",
+    "de": "Moto3 Australien-GP",
+    "es": "Moto3 GP de Australia",
+    "fr": "Moto3 GP d'Australie",
+    "it": "Moto3 GP d'Australia",
+    "pt": "Moto3 GP da Austrália",
+    "ar": "موتو 3 - جائزة أستراليا"
+   },
+   "awayNames": {
+    "tr": "2. Antrenman",
+    "en": "Practice 2",
+    "de": "2. Freies Training",
+    "es": "Práctica 2",
+    "fr": "Essais libres 2",
+    "it": "Prove libere 2",
+    "pt": "Treino livre 2",
+    "ar": "التجربة الحرة 2"
+   },
+   "kickoffUtc": "2026-10-23T21:40:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": []
+  },
   {
    "id": "motorsport-20261023-moto2-avustralya-gp-2-antrenman",
    "sport": "motorsport",
@@ -146,56 +338,6 @@
    "broadcasts": {
     "BR": [
      "Disney+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "motorsport-20261023-f1-academy-abd-gp-acilis-yarisi",
-   "sport": "motorsport",
-   "competitionId": "f1_academy",
-   "tier": "global",
-   "competition": {
-    "tr": "Formula 1 Academy",
-    "en": "F1 Academy",
-    "de": "F1 Academy",
-    "es": "F1 Academy",
-    "fr": "F1 Academy",
-    "it": "F1 Academy",
-    "pt": "F1 Academy",
-    "ar": "إف 1 أكاديمي"
-   },
-   "home": "F1 Academy ABD GP",
-   "away": "Acilis Yarisi",
-   "homeNames": {
-    "tr": "F1 Academy ABD GP",
-    "en": "F1 Academy United States GP",
-    "de": "F1 Academy USA-GP",
-    "es": "F1 Academy GP de Estados Unidos",
-    "fr": "F1 Academy GP des États-Unis",
-    "it": "F1 Academy GP degli Stati Uniti",
-    "pt": "F1 Academy GP dos Estados Unidos",
-    "ar": "أكاديمية الفورمولا 1 - جائزة الولايات المتحدة"
-   },
-   "awayNames": {
-    "tr": "Açılış Yarışı",
-    "en": "Opening Race",
-    "de": "Eröffnungsrennen",
-    "es": "Carrera inaugural",
-    "fr": "Course d'ouverture",
-    "it": "Gara di apertura",
-    "pt": "Corrida de abertura",
-    "ar": "السباق الافتتاحي"
-   },
-   "kickoffUtc": "2026-10-23T22:50:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 4"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN F1",
-     "F1 Academy YouTube"
     ]
    },
    "sources": []
@@ -1588,6 +1730,10 @@
     "PT": [
      "Canal 11"
     ],
+    "TR": [
+     "Spor Smart",
+     "Smart Spor HD"
+    ],
     "BR": [
      "SporTV",
      "Premiere"
@@ -1654,9 +1800,6 @@
     ],
     "PT": [
      "Antel TV Internacional"
-    ],
-    "BR": [
-     "Disney+"
     ]
    },
    "sources": []
@@ -1701,12 +1844,7 @@
    "kickoffUtc": "2026-10-23T23:10:00Z",
    "broadcasts": {
     "TR": [
-     "S Sport Plus",
-     "S Sport"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN MotoGP"
+     "S Sport Plus"
     ]
    },
    "sources": []
@@ -2711,10 +2849,6 @@
    "broadcasts": {
     "TR": [
      "S Sport Plus"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN MotoGP"
     ]
    },
    "sources": []
@@ -3514,12 +3648,7 @@
    "kickoffUtc": "2026-10-24T02:40:00Z",
    "broadcasts": {
     "TR": [
-     "S Sport Plus",
-     "S Sport"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN MotoGP"
+     "S Sport Plus"
     ]
    },
    "sources": []
@@ -3595,12 +3724,12 @@
    "homeNames": {
     "tr": "MotoGP Avustralya GP",
     "en": "MotoGP Australian GP",
-    "de": "MotoGP Australien-GP",
-    "es": "MotoGP GP de Australia",
-    "fr": "MotoGP GP d'Australie",
-    "it": "MotoGP GP d'Australia",
-    "pt": "MotoGP GP da Austrália",
-    "ar": "موتو جي بي - جائزة أستراليا"
+    "de": "MotoGP Australian GP",
+    "es": "MotoGP Australian GP",
+    "fr": "MotoGP Australian GP",
+    "it": "MotoGP Australian GP",
+    "pt": "MotoGP Australian GP",
+    "ar": "MotoGP Australian GP"
    },
    "awayNames": {
     "tr": "Sprint",
@@ -3610,17 +3739,13 @@
     "fr": "Sprint",
     "it": "Sprint",
     "pt": "Sprint",
-    "ar": "سباق السرعة"
+    "ar": "Sprint"
    },
    "kickoffUtc": "2026-10-24T04:00:00Z",
    "broadcasts": {
     "TR": [
      "S Sport Plus",
      "S Sport"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN MotoGP"
     ]
    },
    "sources": []
@@ -3672,7 +3797,7 @@
    "sources": []
   },
   {
-   "id": "football-20261024-academica-leixoes",
+   "id": "football-20261024-academica-coimbra-leixoes",
    "sport": "football",
    "competitionId": "primeira2",
    "tier": "regional",
@@ -3686,17 +3811,17 @@
     "pt": "Liga Portugal 2",
     "ar": "الدوري البرتغالي الدرجة الثانية"
    },
-   "home": "Academica",
+   "home": "Academica Coimbra",
    "away": "Leixoes",
    "homeNames": {
-    "tr": "Académica",
-    "en": "Académica",
-    "de": "Académica",
-    "es": "Académica",
-    "fr": "Académica",
-    "it": "Académica",
-    "pt": "Académica",
-    "ar": "أكاديميكا"
+    "tr": "Académica Coimbra",
+    "en": "Académica Coimbra",
+    "de": "Académica Coimbra",
+    "es": "Académica Coimbra",
+    "fr": "Académica Coimbra",
+    "it": "Académica Coimbra",
+    "pt": "Académica Coimbra",
+    "ar": "Académica Coimbra"
    },
    "awayNames": {
     "tr": "Leixões",
@@ -3893,13 +4018,6 @@
    "broadcasts": {
     "TR": [
      "beIN Sports 1"
-    ],
-    "DE": [
-     "Digiturk Euro"
-    ],
-    "FR": [
-     "beIN Sports",
-     "beIN Sports Connect"
     ]
    },
    "sources": []
@@ -3939,7 +4057,7 @@
     "fr": "Sivasspor",
     "it": "Sivasspor",
     "pt": "Sivasspor",
-    "ar": "سيواس سبور"
+    "ar": "سيفاس سبور"
    },
    "kickoffUtc": "2026-10-24T10:30:00Z",
    "broadcasts": {
@@ -4086,6 +4204,71 @@
    "sources": []
   },
   {
+   "id": "football-20261024-fc-magdeburg-karlsruher",
+   "sport": "football",
+   "competitionId": "bundesliga2",
+   "tier": "regional",
+   "competition": {
+    "tr": "Almanya 2. Bundesliga",
+    "en": "2. Bundesliga",
+    "de": "2. Bundesliga",
+    "es": "2. Bundesliga",
+    "fr": "2. Bundesliga",
+    "it": "2. Bundesliga",
+    "pt": "2. Bundesliga",
+    "ar": "الدوري الألماني الدرجة الثانية"
+   },
+   "home": "FC Magdeburg",
+   "away": "Karlsruher",
+   "homeNames": {
+    "tr": "FC Magdeburg",
+    "en": "FC Magdeburg",
+    "de": "FC Magdeburg",
+    "es": "FC Magdeburg",
+    "fr": "FC Magdeburg",
+    "it": "FC Magdeburg",
+    "pt": "FC Magdeburg",
+    "ar": "FC Magdeburg"
+   },
+   "awayNames": {
+    "tr": "Karlsruher",
+    "en": "Karlsruher",
+    "de": "Karlsruher",
+    "es": "Karlsruher",
+    "fr": "Karlsruher",
+    "it": "Karlsruher",
+    "pt": "Karlsruher",
+    "ar": "Karlsruher"
+   },
+   "kickoffUtc": "2026-10-24T11:00:00Z",
+   "broadcasts": {
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "DE": [
+     "Sky Bundesliga 4",
+     "OneFootball Deutschland",
+     "WOW"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20261024-heidenheim-energie-cottbus",
    "sport": "football",
    "competitionId": "bundesliga2",
@@ -4124,17 +4307,28 @@
    },
    "kickoffUtc": "2026-10-24T11:00:00Z",
    "broadcasts": {
-    "GB": [
-     "Bundesliga App",
-     "Bundesliga YouTube"
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ],
     "DE": [
      "Sky Bundesliga 5",
-     "OneFootball",
+     "OneFootball Deutschland",
      "WOW"
-    ],
-    "BR": [
-     "OneFootball PPV"
     ]
    },
    "sources": []
@@ -4178,84 +4372,40 @@
    },
    "kickoffUtc": "2026-10-24T11:00:00Z",
    "broadcasts": {
-    "GB": [
-     "Bundesliga App",
-     "Bundesliga YouTube"
-    ],
-    "DE": [
-     "Sky Bundesliga 3",
-     "OneFootball",
-     "WOW"
-    ],
     "ES": [
      "DAZN"
     ],
     "PT": [
      "DAZN 2"
     ],
-    "FR": [
-     "beIN Sports Max 5"
+    "CO": [
+     "Disney+ Premium"
     ],
-    "BR": [
-     "YouTube",
-     "OneFootball PPV"
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "DE": [
+     "Sky Bundesliga 3",
+     "OneFootball Deutschland",
+     "WOW"
+    ],
+    "FR": [
+     "beIN SPORTS MAX 5HD"
     ],
     "TR": [
      "S Sport Plus"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261024-magdeburg-karlsruher-sc",
-   "sport": "football",
-   "competitionId": "bundesliga2",
-   "tier": "regional",
-   "competition": {
-    "tr": "Almanya 2. Bundesliga",
-    "en": "2. Bundesliga",
-    "de": "2. Bundesliga",
-    "es": "2. Bundesliga",
-    "fr": "2. Bundesliga",
-    "it": "2. Bundesliga",
-    "pt": "2. Bundesliga",
-    "ar": "الدوري الألماني الدرجة الثانية"
-   },
-   "home": "Magdeburg",
-   "away": "Karlsruher SC",
-   "homeNames": {
-    "tr": "Magdeburg",
-    "en": "Magdeburg",
-    "de": "1. FC Magdeburg",
-    "es": "Magdeburgo",
-    "fr": "Magdebourg",
-    "it": "Magdeburgo",
-    "pt": "Magdeburg",
-    "ar": "ماغديبورغ"
-   },
-   "awayNames": {
-    "tr": "Karlsruher SC",
-    "en": "Karlsruher SC",
-    "de": "Karlsruher SC",
-    "es": "Karlsruher SC",
-    "fr": "Karlsruher SC",
-    "it": "Karlsruher SC",
-    "pt": "Karlsruher SC",
-    "ar": "كارلسروه"
-   },
-   "kickoffUtc": "2026-10-24T11:00:00Z",
-   "broadcasts": {
-    "GB": [
-     "Bundesliga App",
-     "Bundesliga YouTube"
-    ],
-    "DE": [
-     "Sky Bundesliga 4",
-     "OneFootball",
-     "WOW"
-    ],
-    "BR": [
-     "OneFootball PPV"
     ]
    },
    "sources": []
@@ -4344,6 +4494,46 @@
    },
    "kickoffUtc": "2026-10-24T11:30:00Z",
    "broadcasts": {
+    "ES": [
+     "DAZN",
+     "Movistar Plus+",
+     "M+ #Vamos Bar 2",
+     "DAZN 1",
+     "M+ Liga de Campeones"
+    ],
+    "PT": [
+     "DAZN",
+     "DAZN 1"
+    ],
+    "MX": [
+     "HBO Max",
+     "TNT",
+     "TNT Sports"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
     "GB": [
      "TNT Sports 1",
      "TNT Sports Ultimate",
@@ -4351,37 +4541,22 @@
     ],
     "US": [
      "USA Network",
-     "Universo",
-     "Sling Blue",
-     "Fubo"
+     "Universo"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+"
     ],
     "DE": [
      "Sky Sport Premier League",
      "RTL+",
      "WOW"
     ],
-    "ES": [
-     "DAZN",
-     "Movistar Plus+",
-     "M+ #Vamos Bar 2",
-     "DAZN 1",
-     "DAZN 1 Bar",
-     "M+ Liga de Campeones"
-    ],
-    "PT": [
-     "DAZN",
-     "DAZN 1"
+    "IT": [
+     "Sky Sport 1"
     ],
     "FR": [
      "CANAL+"
-    ],
-    "CA": [
-     "Fubo",
-     "DAZN"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+"
     ],
     "TR": [
      "beIN Sports 3",
@@ -4438,30 +4613,6 @@
     "ML": [
      "Canal+"
     ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
-    ],
     "GT": [
      "FOX Sports",
      "TNT Sports"
@@ -4517,6 +4668,37 @@
    },
    "kickoffUtc": "2026-10-24T11:30:00Z",
    "broadcasts": {
+    "PT": [
+     "Sport TV 4"
+    ],
+    "MX": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
     "GB": [
      "Sky Sports Main Event",
      "Sky Sports Football",
@@ -4527,15 +4709,12 @@
      "Paramount+",
      "Amazon Prime Video"
     ],
-    "PT": [
-     "Sport TV 4"
-    ],
-    "FR": [
-     "beIN Sports Max 10"
-    ],
     "BR": [
      "ESPN 4",
      "Disney+"
+    ],
+    "FR": [
+     "beIN Sports Max 10"
     ]
    },
    "sources": []
@@ -4565,7 +4744,7 @@
     "fr": "Huddersfield Town",
     "it": "Huddersfield Town",
     "pt": "Huddersfield Town",
-    "ar": "هدرسفيلد تاون"
+    "ar": "Huddersfield Town"
    },
    "awayNames": {
     "tr": "Wigan Athletic",
@@ -4575,7 +4754,7 @@
     "fr": "Wigan Athletic",
     "it": "Wigan Athletic",
     "pt": "Wigan Athletic",
-    "ar": "ويغان أثلتيك"
+    "ar": "Wigan Athletic"
    },
    "kickoffUtc": "2026-10-24T11:30:00Z",
    "broadcasts": {
@@ -4750,7 +4929,7 @@
     "fr": "Córdoba",
     "it": "Córdoba",
     "pt": "Córdoba",
-    "ar": "قرطبة"
+    "ar": "Córdoba"
    },
    "awayNames": {
     "tr": "Eibar",
@@ -4764,13 +4943,16 @@
    },
    "kickoffUtc": "2026-10-24T12:00:00Z",
    "broadcasts": {
-    "US": [
-     "ESPN+"
-    ],
     "ES": [
      "LaLiga TV Hypermotion",
      "DAZN",
      "LaLiga TV M2"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "US": [
+     "ESPN+"
     ]
    },
    "sources": []
@@ -4793,24 +4975,24 @@
    "home": "Dijon",
    "away": "Rodez",
    "homeNames": {
-    "tr": "Dijon",
-    "en": "Dijon",
-    "de": "Dijon",
-    "es": "Dijon",
-    "fr": "Dijon",
-    "it": "Dijon",
-    "pt": "Dijon",
-    "ar": "ديجون"
+    "tr": "Dijon FCO",
+    "en": "Dijon FCO",
+    "de": "Dijon FCO",
+    "es": "Dijon FCO",
+    "fr": "Dijon FCO",
+    "it": "Dijon FCO",
+    "pt": "Dijon FCO",
+    "ar": "Dijon FCO"
    },
    "awayNames": {
-    "tr": "Rodez",
-    "en": "Rodez",
+    "tr": "Rodez AF",
+    "en": "Rodez AF",
     "de": "Rodez AF",
-    "es": "Rodez",
+    "es": "Rodez AF",
     "fr": "Rodez AF",
-    "it": "Rodez",
-    "pt": "Rodez",
-    "ar": "روديز"
+    "it": "Rodez AF",
+    "pt": "Rodez AF",
+    "ar": "Rodez AF"
    },
    "kickoffUtc": "2026-10-24T12:00:00Z",
    "broadcasts": {
@@ -4859,6 +5041,33 @@
    },
    "kickoffUtc": "2026-10-24T12:00:00Z",
    "broadcasts": {
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "PT": [
+     "OneFootball PPV"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
+    ],
     "GB": [
      "DFB Play"
     ],
@@ -4867,22 +5076,7 @@
     ],
     "DE": [
      "Magenta Sport",
-     "OneFootball",
-     "Sportschau.de",
-     "ARD-Mediathek",
-     "NDR"
-    ],
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "PT": [
-     "OneFootball PPV"
-    ],
-    "BR": [
-     "OneFootball PPV"
-    ],
-    "TR": [
-     "Sıfır TV"
+     "OneFootball Deutschland"
     ]
    },
    "sources": []
@@ -4905,14 +5099,14 @@
    "home": "Ingolstadt",
    "away": "MSV Duisburg",
    "homeNames": {
-    "tr": "FC Ingolstadt",
-    "en": "FC Ingolstadt",
-    "de": "FC Ingolstadt",
-    "es": "FC Ingolstadt",
-    "fr": "FC Ingolstadt",
-    "it": "FC Ingolstadt",
-    "pt": "FC Ingolstadt",
-    "ar": "إنغولشتات"
+    "tr": "FC Ingolstadt 04",
+    "en": "FC Ingolstadt 04",
+    "de": "FC Ingolstadt 04",
+    "es": "FC Ingolstadt 04",
+    "fr": "FC Ingolstadt 04",
+    "it": "FC Ingolstadt 04",
+    "pt": "FC Ingolstadt 04",
+    "ar": "FC Ingolstadt 04"
    },
    "awayNames": {
     "tr": "MSV Duisburg",
@@ -4927,12 +5121,8 @@
    "kickoffUtc": "2026-10-24T12:00:00Z",
    "broadcasts": {
     "DE": [
-     "BR",
-     "WDR",
-     "OneFootball",
-     "Sportschau.de",
-     "ARD-Mediathek",
-     "Magenta Sport"
+     "Magenta Sport",
+     "OneFootball"
     ]
    },
    "sources": []
@@ -4976,17 +5166,6 @@
    },
    "kickoffUtc": "2026-10-24T12:00:00Z",
    "broadcasts": {
-    "GB": [
-     "LaLigaTV"
-    ],
-    "US": [
-     "ESPN+",
-     "ESPN Deportes",
-     "Fubo"
-    ],
-    "DE": [
-     "DAZN"
-    ],
     "ES": [
      "M+ LaLiga",
      "M+ LaLiga HDR",
@@ -4995,25 +5174,53 @@
     "PT": [
      "DAZN 3"
     ],
-    "FR": [
-     "DAZN",
-     "Disney+"
+    "MX": [
+     "Sky Sports"
     ],
-    "CA": [
-     "TSN+"
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "GB": [
+     "LaLigaTV"
+    ],
+    "US": [
+     "ESPN+",
+     "ESPN Deportes"
     ],
     "BR": [
      "CazéTV"
     ],
+    "DE": [
+     "DAZN"
+    ],
+    "FR": [
+     "DAZN",
+     "Disney+"
+    ],
     "TR": [
      "S Sport Plus",
      "S Sport"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "MX": [
-     "Sky Sports"
     ],
     "SA": [
      "beIN Sports"
@@ -5104,13 +5311,13 @@
     "fr": "Würzburger Kickers",
     "it": "Würzburger Kickers",
     "pt": "Würzburger Kickers",
-    "ar": "فورتسبورغر كيكرز"
+    "ar": "Würzburger Kickers"
    },
    "kickoffUtc": "2026-10-24T12:00:00Z",
    "broadcasts": {
     "DE": [
-     "OneFootball",
-     "Magenta Sport"
+     "Magenta Sport",
+     "OneFootball"
     ]
    },
    "sources": []
@@ -5140,7 +5347,7 @@
     "fr": "Viktoria Köln",
     "it": "Viktoria Köln",
     "pt": "Viktoria Köln",
-    "ar": "فيكتوريا كولن"
+    "ar": "Viktoria Köln"
    },
    "awayNames": {
     "tr": "SC Verl",
@@ -5155,8 +5362,8 @@
    "kickoffUtc": "2026-10-24T12:00:00Z",
    "broadcasts": {
     "DE": [
-     "OneFootball",
-     "Magenta Sport"
+     "Magenta Sport",
+     "OneFootball"
     ]
    },
    "sources": []
@@ -5186,23 +5393,23 @@
     "fr": "Wehen Wiesbaden",
     "it": "Wehen Wiesbaden",
     "pt": "Wehen Wiesbaden",
-    "ar": "فيهن فيسبادن"
+    "ar": "Wehen Wiesbaden"
    },
    "awayNames": {
-    "tr": "Sonnenhof Grossaspach",
-    "en": "Sonnenhof Grossaspach",
-    "de": "Sonnenhof Grossaspach",
-    "es": "Sonnenhof Grossaspach",
-    "fr": "Sonnenhof Grossaspach",
-    "it": "Sonnenhof Grossaspach",
-    "pt": "Sonnenhof Grossaspach",
-    "ar": "Sonnenhof Grossaspach"
+    "tr": "Sonnenhof Großaspach",
+    "en": "Sonnenhof Großaspach",
+    "de": "Sonnenhof Großaspach",
+    "es": "Sonnenhof Großaspach",
+    "fr": "Sonnenhof Großaspach",
+    "it": "Sonnenhof Großaspach",
+    "pt": "Sonnenhof Großaspach",
+    "ar": "Sonnenhof Großaspach"
    },
    "kickoffUtc": "2026-10-24T12:00:00Z",
    "broadcasts": {
     "DE": [
-     "OneFootball",
-     "Magenta Sport"
+     "Magenta Sport",
+     "OneFootball"
     ]
    },
    "sources": []
@@ -5336,14 +5543,38 @@
    },
    "kickoffUtc": "2026-10-24T13:00:00Z",
    "broadcasts": {
-    "DE": [
-     "OneFootball"
-    ],
     "ES": [
      "OneFootball PPV"
     ],
     "PT": [
      "OneFootball PPV"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
+    ],
+    "DE": [
+     "OneFootball Deutschland"
+    ],
+    "IT": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -5387,69 +5618,45 @@
    },
    "kickoffUtc": "2026-10-24T13:00:00Z",
    "broadcasts": {
+    "ES": [
+     "DAZN"
+    ],
+    "MX": [
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
     "US": [
      "Paramount+",
-     "Peacock"
+     "Peacock Premium"
+    ],
+    "BR": [
+     "Disney+"
     ],
     "DE": [
      "DAZN"
     ],
-    "ES": [
+    "IT": [
      "DAZN"
-    ],
-    "FR": [
-     "DAZN"
-    ],
-    "CA": [
-     "Fubo",
-     "DAZN"
-    ],
-    "BR": [
-     "YouTube",
-     "Disney+"
     ],
     "TR": [
      "S Sport Plus"
-    ],
-    "IT": [
-     "DAZN",
-     "Sky Sport"
-    ],
-    "AR": [
-     "ESPN",
-     "Disney+"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "GT": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
     ],
     "SA": [
      "beIN Sports"
@@ -5483,6 +5690,10 @@
     ],
     "LY": [
      "beIN Sports"
+    ],
+    "GT": [
+     "ESPN",
+     "Disney+"
     ],
     "SN": [
      "Canal+"
@@ -5541,6 +5752,35 @@
     "PT": [
      "Antel TV Internacional"
     ],
+    "MX": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "DSports Uruguay Premium",
+     "Antel TV",
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
     "BR": [
      "Disney+"
     ]
@@ -5572,7 +5812,7 @@
     "fr": "Como",
     "it": "Como",
     "pt": "Como",
-    "ar": "كومو"
+    "ar": "Como"
    },
    "awayNames": {
     "tr": "Sassuolo",
@@ -5586,73 +5826,57 @@
    },
    "kickoffUtc": "2026-10-24T13:00:00Z",
    "broadcasts": {
-    "US": [
-     "Paramount+",
-     "Peacock"
-    ],
-    "DE": [
-     "DAZN"
-    ],
     "ES": [
      "DAZN"
     ],
     "PT": [
      "Sport TV 2"
     ],
-    "FR": [
-     "DAZN"
+    "MX": [
+     "Disney+ Premium",
+     "ESPN"
     ],
-    "CA": [
-     "Fubo",
-     "DAZN"
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "US": [
+     "Paramount+",
+     "Peacock Premium"
     ],
     "BR": [
      "ESPN 2",
      "Disney+"
     ],
+    "DE": [
+     "DAZN"
+    ],
+    "IT": [
+     "DAZN"
+    ],
     "TR": [
      "S Sport Plus",
      "S Sport 2"
-    ],
-    "IT": [
-     "DAZN",
-     "Sky Sport"
-    ],
-    "AR": [
-     "ESPN",
-     "Disney+"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "GT": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
     ],
     "SA": [
      "beIN Sports"
@@ -5687,6 +5911,10 @@
     "LY": [
      "beIN Sports"
     ],
+    "GT": [
+     "ESPN",
+     "Disney+"
+    ],
     "SN": [
      "Canal+"
     ],
@@ -5695,57 +5923,6 @@
     ],
     "ML": [
      "Canal+"
-    ]
-   },
-   "sources": []
-  },
-  {
-   "id": "football-20261024-cremonese-juve-stabia",
-   "sport": "football",
-   "competitionId": "seriebit",
-   "tier": "regional",
-   "competition": {
-    "tr": "İtalya Serie B",
-    "en": "Serie B",
-    "de": "Serie B (Italien)",
-    "es": "Serie B (Italia)",
-    "fr": "Serie B (Italie)",
-    "it": "Serie B",
-    "pt": "Serie B (Itália)",
-    "ar": "الدوري الإيطالي الدرجة الثانية"
-   },
-   "home": "Cremonese",
-   "away": "Juve Stabia",
-   "homeNames": {
-    "tr": "Cremonese",
-    "en": "Cremonese",
-    "de": "Cremonese",
-    "es": "Cremonese",
-    "fr": "Cremonese",
-    "it": "Cremonese",
-    "pt": "Cremonese",
-    "ar": "Cremonese"
-   },
-   "awayNames": {
-    "tr": "Juve Stabia",
-    "en": "Juve Stabia",
-    "de": "Juve Stabia",
-    "es": "Juve Stabia",
-    "fr": "Juve Stabia",
-    "it": "Juve Stabia",
-    "pt": "Juve Stabia",
-    "ar": "يوفي ستابيا"
-   },
-   "kickoffUtc": "2026-10-24T13:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "OneFootball"
-    ],
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "PT": [
-     "OneFootball PPV"
     ]
    },
    "sources": []
@@ -5785,7 +5962,7 @@
     "fr": "Benfica B",
     "it": "Benfica B",
     "pt": "Benfica B",
-    "ar": "بنفيكا ب"
+    "ar": "Benfica B"
    },
    "kickoffUtc": "2026-10-24T13:00:00Z",
    "broadcasts": {
@@ -5836,19 +6013,12 @@
    "broadcasts": {
     "TR": [
      "beIN Sports 1"
-    ],
-    "DE": [
-     "Digiturk Euro"
-    ],
-    "FR": [
-     "beIN Sports",
-     "beIN Sports Connect"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261024-modena-cesena",
+   "id": "football-20261024-modena-ac-cesena",
    "sport": "football",
    "competitionId": "seriebit",
    "tier": "regional",
@@ -5863,7 +6033,7 @@
     "ar": "الدوري الإيطالي الدرجة الثانية"
    },
    "home": "Modena",
-   "away": "Cesena",
+   "away": "AC Cesena",
    "homeNames": {
     "tr": "Modena",
     "en": "Modena",
@@ -5875,25 +6045,49 @@
     "ar": "مودينا"
    },
    "awayNames": {
-    "tr": "Cesena",
-    "en": "Cesena",
-    "de": "Cesena",
-    "es": "Cesena",
-    "fr": "Cesena",
-    "it": "Cesena",
-    "pt": "Cesena",
-    "ar": "تشيزينا"
+    "tr": "AC Cesena",
+    "en": "AC Cesena",
+    "de": "AC Cesena",
+    "es": "AC Cesena",
+    "fr": "AC Cesena",
+    "it": "AC Cesena",
+    "pt": "AC Cesena",
+    "ar": "AC Cesena"
    },
    "kickoffUtc": "2026-10-24T13:00:00Z",
    "broadcasts": {
-    "DE": [
-     "OneFootball"
-    ],
     "ES": [
      "OneFootball PPV"
     ],
     "PT": [
      "OneFootball PPV"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
+    ],
+    "DE": [
+     "OneFootball Deutschland"
+    ],
+    "IT": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -5983,20 +6177,119 @@
    },
    "kickoffUtc": "2026-10-24T13:00:00Z",
    "broadcasts": {
-    "DE": [
-     "OneFootball"
-    ],
     "ES": [
      "OneFootball PPV"
     ],
     "PT": [
      "OneFootball PPV"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
+    ],
+    "DE": [
+     "OneFootball Deutschland"
+    ],
+    "IT": [
+     "DAZN"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261024-virtus-entella-mantova",
+   "id": "football-20261024-us-cremonese-juve-stabia",
+   "sport": "football",
+   "competitionId": "seriebit",
+   "tier": "regional",
+   "competition": {
+    "tr": "İtalya Serie B",
+    "en": "Serie B",
+    "de": "Serie B (Italien)",
+    "es": "Serie B (Italia)",
+    "fr": "Serie B (Italie)",
+    "it": "Serie B",
+    "pt": "Serie B (Itália)",
+    "ar": "الدوري الإيطالي الدرجة الثانية"
+   },
+   "home": "US Cremonese",
+   "away": "Juve Stabia",
+   "homeNames": {
+    "tr": "US Cremonese",
+    "en": "US Cremonese",
+    "de": "US Cremonese",
+    "es": "US Cremonese",
+    "fr": "US Cremonese",
+    "it": "US Cremonese",
+    "pt": "US Cremonese",
+    "ar": "US Cremonese"
+   },
+   "awayNames": {
+    "tr": "Juve Stabia",
+    "en": "Juve Stabia",
+    "de": "Juve Stabia",
+    "es": "Juve Stabia",
+    "fr": "Juve Stabia",
+    "it": "Juve Stabia",
+    "pt": "Juve Stabia",
+    "ar": "يوفي ستابيا"
+   },
+   "kickoffUtc": "2026-10-24T13:00:00Z",
+   "broadcasts": {
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "PT": [
+     "OneFootball PPV"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
+    ],
+    "DE": [
+     "OneFootball Deutschland"
+    ],
+    "IT": [
+     "DAZN"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261024-virtus-entella-mantova-1911",
    "sport": "football",
    "competitionId": "seriebit",
    "tier": "regional",
@@ -6011,7 +6304,7 @@
     "ar": "الدوري الإيطالي الدرجة الثانية"
    },
    "home": "Virtus Entella",
-   "away": "Mantova",
+   "away": "Mantova 1911",
    "homeNames": {
     "tr": "Virtus Entella",
     "en": "Virtus Entella",
@@ -6023,25 +6316,49 @@
     "ar": "فيرتوس إنتيلا"
    },
    "awayNames": {
-    "tr": "Mantova",
-    "en": "Mantova",
-    "de": "Mantova",
-    "es": "Mantova",
-    "fr": "Mantoue",
-    "it": "Mantova",
-    "pt": "Mantova",
-    "ar": "مانتوفا"
+    "tr": "Mantova 1911",
+    "en": "Mantova 1911",
+    "de": "Mantova 1911",
+    "es": "Mantova 1911",
+    "fr": "Mantova 1911",
+    "it": "Mantova 1911",
+    "pt": "Mantova 1911",
+    "ar": "Mantova 1911"
    },
    "kickoffUtc": "2026-10-24T13:00:00Z",
    "broadcasts": {
-    "DE": [
-     "OneFootball"
-    ],
     "ES": [
      "OneFootball PPV"
     ],
     "PT": [
      "OneFootball PPV"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
+    ],
+    "DE": [
+     "OneFootball Deutschland"
+    ],
+    "IT": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -6154,14 +6471,14 @@
    "home": "Spor Toto",
    "away": "Halkbank",
    "homeNames": {
-    "tr": "Spor Toto SK",
-    "en": "Spor Toto SK",
-    "de": "Spor Toto SK",
-    "es": "Spor Toto SK",
-    "fr": "Spor Toto SK",
-    "it": "Spor Toto SK",
-    "pt": "Spor Toto SK",
-    "ar": "Spor Toto SK"
+    "tr": "Spor Toto",
+    "en": "Spor Toto",
+    "de": "Spor Toto",
+    "es": "Spor Toto",
+    "fr": "Spor Toto",
+    "it": "Spor Toto",
+    "pt": "Spor Toto",
+    "ar": "Spor Toto"
    },
    "awayNames": {
     "tr": "Halkbank",
@@ -6171,7 +6488,7 @@
     "fr": "Halkbank",
     "it": "Halkbank",
     "pt": "Halkbank",
-    "ar": "هالك بانك"
+    "ar": "Halkbank"
    },
    "kickoffUtc": "2026-10-24T13:00:00Z",
    "broadcasts": {
@@ -6201,12 +6518,12 @@
    "homeNames": {
     "tr": "Augsburg",
     "en": "Augsburg",
-    "de": "FC Augsburg",
-    "es": "Augsburgo",
-    "fr": "Augsbourg",
-    "it": "Augusta",
+    "de": "Augsburg",
+    "es": "Augsburg",
+    "fr": "Augsburg",
+    "it": "Augsburg",
     "pt": "Augsburg",
-    "ar": "أوغسبورغ"
+    "ar": "Augsburg"
    },
    "awayNames": {
     "tr": "Union Berlin",
@@ -6220,31 +6537,82 @@
    },
    "kickoffUtc": "2026-10-24T13:30:00Z",
    "broadcasts": {
+    "ES": [
+     "DAZN"
+    ],
+    "MX": [
+     "FOX One",
+     "FOX+"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
     "US": [
-     "Fandango",
-     "Peacock"
+     "Peacock Premium"
     ],
     "DE": [
      "Sky Bundesliga 5",
      "WOW"
     ],
-    "ES": [
-     "DAZN"
-    ],
-    "FR": [
-     "beIN Sports Max 5"
-    ],
-    "CA": [
-     "Fubo",
-     "DAZN",
-     "OneSoccer"
-    ],
-    "BR": [
-     "YouTube",
-     "OneFootball PPV"
-    ],
     "TR": [
      "S Sport Plus"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
     ]
    },
    "sources": []
@@ -6267,14 +6635,14 @@
    "home": "Koln",
    "away": "Schalke 04",
    "homeNames": {
-    "tr": "Köln",
-    "en": "Köln",
-    "de": "Köln",
-    "es": "Köln",
-    "fr": "Köln",
-    "it": "Köln",
-    "pt": "Köln",
-    "ar": "Köln"
+    "tr": "FC Köln",
+    "en": "FC Köln",
+    "de": "FC Köln",
+    "es": "FC Köln",
+    "fr": "FC Köln",
+    "it": "FC Köln",
+    "pt": "FC Köln",
+    "ar": "FC Köln"
    },
    "awayNames": {
     "tr": "Schalke 04",
@@ -6288,9 +6656,41 @@
    },
    "kickoffUtc": "2026-10-24T13:30:00Z",
    "broadcasts": {
+    "ES": [
+     "DAZN"
+    ],
+    "MX": [
+     "FOX One"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN Premium"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 5"
+    ],
     "US": [
-     "Fandango",
-     "Peacock"
+     "Peacock Premium"
+    ],
+    "BR": [
+     "SportyNet"
     ],
     "DE": [
      "WOW",
@@ -6299,25 +6699,54 @@
      "Sky Bundesliga UHD",
      "Sky Bundesliga 1"
     ],
-    "ES": [
-     "DAZN"
-    ],
     "FR": [
-     "beIN Sports Max 8"
-    ],
-    "CA": [
-     "Fubo",
-     "DAZN",
-     "OneSoccer"
-    ],
-    "BR": [
-     "SportyNet",
-     "YouTube",
-     "OneFootball PPV"
+     "beIN SPORTS MAX 8HD"
     ],
     "TR": [
      "Idman TV YouTube",
      "S Sport Plus"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
     ]
    },
    "sources": []
@@ -6361,32 +6790,84 @@
    },
    "kickoffUtc": "2026-10-24T13:30:00Z",
    "broadcasts": {
+    "ES": [
+     "DAZN"
+    ],
+    "MX": [
+     "FOX One"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
     "US": [
-     "Fandango",
-     "Peacock"
+     "Peacock Premium"
+    ],
+    "BR": [
+     "Canal GOAT"
     ],
     "DE": [
      "WOW",
      "Sky Bundesliga 3"
     ],
-    "ES": [
-     "DAZN"
-    ],
-    "FR": [
-     "beIN Sports Max 7"
-    ],
-    "CA": [
-     "Fubo",
-     "DAZN",
-     "OneSoccer"
-    ],
-    "BR": [
-     "OneFootball PPV",
-     "Canal GOAT",
-     "YouTube"
-    ],
     "TR": [
      "S Sport Plus"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
     ]
    },
    "sources": []
@@ -6416,7 +6897,7 @@
     "fr": "RB Leipzig",
     "it": "RB Lipsia",
     "pt": "RB Leipzig",
-    "ar": "آر بي لايبزيغ"
+    "ar": "لايبزيغ"
    },
    "awayNames": {
     "tr": "SV Elversberg",
@@ -6430,34 +6911,90 @@
    },
    "kickoffUtc": "2026-10-24T13:30:00Z",
    "broadcasts": {
-    "US": [
-     "Fandango",
-     "Peacock"
-    ],
-    "DE": [
-     "WOW",
-     "Sky Bundesliga 2"
-    ],
     "ES": [
      "DAZN"
     ],
     "PT": [
      "DAZN 4"
     ],
+    "MX": [
+     "FOX One"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "US": [
+     "Peacock Premium"
+    ],
+    "BR": [
+     "CazéTV"
+    ],
+    "DE": [
+     "WOW",
+     "Sky Bundesliga 2"
+    ],
     "FR": [
      "beIN Sports Max 6"
     ],
-    "CA": [
-     "Fubo",
-     "DAZN",
-     "OneSoccer"
-    ],
-    "BR": [
-     "CazéTV",
-     "OneFootball PPV"
-    ],
     "TR": [
      "S Sport Plus"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
     ]
    },
    "sources": []
@@ -6501,28 +7038,81 @@
    },
    "kickoffUtc": "2026-10-24T13:30:00Z",
    "broadcasts": {
+    "ES": [
+     "DAZN"
+    ],
+    "MX": [
+     "FOX One"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
     "US": [
-     "Fandango",
-     "Peacock"
+     "Peacock Premium"
+    ],
+    "BR": [
+     "Canal GOAT"
     ],
     "DE": [
      "WOW",
      "Sky Bundesliga 4"
     ],
-    "ES": [
-     "DAZN"
+    "SA": [
+     "beIN Sports"
     ],
-    "FR": [
-     "beIN Sports Max 9"
+    "DZ": [
+     "beIN Sports"
     ],
-    "CA": [
-     "Fubo",
-     "DAZN",
-     "OneSoccer"
+    "IQ": [
+     "beIN Sports"
     ],
-    "BR": [
-     "Canal GOAT",
-     "OneFootball PPV"
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
     ]
    },
    "sources": []
@@ -6597,7 +7187,7 @@
     "fr": "Arsenal",
     "it": "Arsenal",
     "pt": "Arsenal",
-    "ar": "أرسنال"
+    "ar": "آرسنال"
    },
    "awayNames": {
     "tr": "Everton",
@@ -6611,35 +7201,59 @@
    },
    "kickoffUtc": "2026-10-24T14:00:00Z",
    "broadcasts": {
-    "US": [
-     "USA Network",
-     "Universo",
-     "Sling Blue",
-     "Fubo"
-    ],
-    "DE": [
-     "Sky Sport Premier League",
-     "WOW"
-    ],
     "ES": [
      "DAZN",
-     "DAZN 1",
-     "DAZN 1 Bar"
+     "DAZN 1"
     ],
     "PT": [
      "DAZN",
      "DAZN 1"
     ],
-    "FR": [
-     "CANAL+ Foot"
+    "MX": [
+     "FOX",
+     "FOX One"
     ],
-    "CA": [
-     "Fubo",
-     "DAZN"
+    "CO": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "US": [
+     "USA Network",
+     "Universo"
     ],
     "BR": [
      "ESPN",
      "Disney+"
+    ],
+    "DE": [
+     "Sky Sport Premier League",
+     "WOW"
+    ],
+    "IT": [
+     "Sky Sport 1"
+    ],
+    "FR": [
+     "CANAL+ Foot"
     ],
     "TR": [
      "beIN Sports 3",
@@ -6696,30 +7310,6 @@
     "ML": [
      "Canal+"
     ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
-    ],
     "GT": [
      "FOX Sports",
      "TNT Sports"
@@ -6737,7 +7327,7 @@
    "sources": []
   },
   {
-   "id": "football-20261024-blackburn-rovers-wrexham",
+   "id": "football-20261024-blackburn-rovers-wrexham-afc",
    "sport": "football",
    "competitionId": "championship",
    "tier": "regional",
@@ -6752,7 +7342,7 @@
     "ar": "دوري البطولة الإنجليزي"
    },
    "home": "Blackburn Rovers",
-   "away": "Wrexham",
+   "away": "Wrexham AFC",
    "homeNames": {
     "tr": "Blackburn Rovers",
     "en": "Blackburn Rovers",
@@ -6764,14 +7354,14 @@
     "ar": "Blackburn Rovers"
    },
    "awayNames": {
-    "tr": "Wrexham",
-    "en": "Wrexham",
-    "de": "Wrexham",
-    "es": "Wrexham",
-    "fr": "Wrexham",
-    "it": "Wrexham",
-    "pt": "Wrexham",
-    "ar": "Wrexham"
+    "tr": "Wrexham AFC",
+    "en": "Wrexham AFC",
+    "de": "Wrexham AFC",
+    "es": "Wrexham AFC",
+    "fr": "Wrexham AFC",
+    "it": "Wrexham AFC",
+    "pt": "Wrexham AFC",
+    "ar": "Wrexham AFC"
    },
    "kickoffUtc": "2026-10-24T14:00:00Z",
    "broadcasts": {
@@ -6806,7 +7396,7 @@
     "fr": "Blackpool",
     "it": "Blackpool",
     "pt": "Blackpool",
-    "ar": "بلاكبول"
+    "ar": "Blackpool"
    },
    "awayNames": {
     "tr": "Mansfield Town",
@@ -6910,15 +7500,6 @@
    },
    "kickoffUtc": "2026-10-24T14:00:00Z",
    "broadcasts": {
-    "US": [
-     "NBCSN",
-     "Fubo",
-     "Peacock"
-    ],
-    "DE": [
-     "Sky Sport Mix",
-     "WOW"
-    ],
     "ES": [
      "DAZN"
     ],
@@ -6926,16 +7507,43 @@
      "DAZN",
      "DAZN 2"
     ],
-    "FR": [
-     "CANAL+ Live 3"
+    "MX": [
+     "Tubi",
+     "FOX One"
     ],
-    "CA": [
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "US": [
+     "NBCSN",
      "Fubo",
-     "DAZN"
+     "Peacock Premium"
     ],
     "BR": [
      "ESPN 4",
      "Disney+"
+    ],
+    "DE": [
+     "Sky Sport Mix",
+     "WOW"
+    ],
+    "FR": [
+     "CANAL+ Live 3"
     ],
     "TR": [
      "beIN Sports 4"
@@ -6990,30 +7598,6 @@
     ],
     "ML": [
      "Canal+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
     ],
     "GT": [
      "FOX Sports",
@@ -7094,14 +7678,14 @@
    "home": "Neom",
    "away": "Abha",
    "homeNames": {
-    "tr": "Neom",
+    "tr": "Neom SC",
     "en": "Neom SC",
     "de": "Neom SC",
     "es": "Neom SC",
     "fr": "Neom SC",
     "it": "Neom SC",
     "pt": "Neom SC",
-    "ar": "نيوم"
+    "ar": "Neom SC"
    },
    "awayNames": {
     "tr": "Abha",
@@ -7111,7 +7695,7 @@
     "fr": "Abha",
     "it": "Abha",
     "pt": "Abha",
-    "ar": "أبها"
+    "ar": "Abha"
    },
    "kickoffUtc": "2026-10-24T14:00:00Z",
    "broadcasts": {
@@ -7138,7 +7722,7 @@
    "sources": []
   },
   {
-   "id": "football-20261024-preston-north-end-west-brom",
+   "id": "football-20261024-preston-north-end-west-bromwich-albion",
    "sport": "football",
    "competitionId": "championship",
    "tier": "regional",
@@ -7153,7 +7737,7 @@
     "ar": "دوري البطولة الإنجليزي"
    },
    "home": "Preston North End",
-   "away": "West Brom",
+   "away": "West Bromwich Albion",
    "homeNames": {
     "tr": "Preston North End",
     "en": "Preston North End",
@@ -7176,6 +7760,27 @@
    },
    "kickoffUtc": "2026-10-24T14:00:00Z",
    "broadcasts": {
+    "MX": [
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
     "US": [
      "Paramount+"
     ],
@@ -7203,14 +7808,14 @@
    "home": "West Ham",
    "away": "Southampton",
    "homeNames": {
-    "tr": "West Ham",
+    "tr": "West Ham United",
     "en": "West Ham United",
-    "de": "West Ham",
-    "es": "West Ham",
-    "fr": "West Ham",
-    "it": "West Ham",
-    "pt": "West Ham",
-    "ar": "وست هام"
+    "de": "West Ham United",
+    "es": "West Ham United",
+    "fr": "West Ham United",
+    "it": "West Ham United",
+    "pt": "West Ham United",
+    "ar": "West Ham United"
    },
    "awayNames": {
     "tr": "Southampton",
@@ -7233,7 +7838,7 @@
    "sources": []
   },
   {
-   "id": "football-20261024-wolves-watford",
+   "id": "football-20261024-wolverhampton-wanderers-watford",
    "sport": "football",
    "competitionId": "championship",
    "tier": "regional",
@@ -7247,17 +7852,17 @@
     "pt": "Championship",
     "ar": "دوري البطولة الإنجليزي"
    },
-   "home": "Wolves",
+   "home": "Wolverhampton Wanderers",
    "away": "Watford",
    "homeNames": {
-    "tr": "Wolverhampton",
-    "en": "Wolves",
-    "de": "Wolverhampton",
-    "es": "Wolverhampton",
-    "fr": "Wolverhampton",
-    "it": "Wolverhampton",
-    "pt": "Wolverhampton",
-    "ar": "وولفرهامبتون"
+    "tr": "Wolverhampton Wanderers",
+    "en": "Wolverhampton Wanderers",
+    "de": "Wolverhampton Wanderers",
+    "es": "Wolverhampton Wanderers",
+    "fr": "Wolverhampton Wanderers",
+    "it": "Wolverhampton Wanderers",
+    "pt": "Wolverhampton Wanderers",
+    "ar": "Wolverhampton Wanderers"
    },
    "awayNames": {
     "tr": "Watford",
@@ -7318,14 +7923,17 @@
    },
    "kickoffUtc": "2026-10-24T14:15:00Z",
    "broadcasts": {
-    "US": [
-     "ESPN+"
-    ],
     "ES": [
      "LaLiga TV Hypermotion",
      "DAZN",
      "Orange Fútbol 2",
      "LaLiga TV M2"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "US": [
+     "ESPN+"
     ]
    },
    "sources": []
@@ -7369,17 +7977,6 @@
    },
    "kickoffUtc": "2026-10-24T14:15:00Z",
    "broadcasts": {
-    "GB": [
-     "LaLigaTV"
-    ],
-    "US": [
-     "ESPN+",
-     "ESPN Deportes",
-     "Fubo"
-    ],
-    "DE": [
-     "DAZN"
-    ],
     "ES": [
      "DAZN LaLiga",
      "DAZN",
@@ -7388,25 +7985,53 @@
     "PT": [
      "DAZN 3"
     ],
-    "FR": [
-     "DAZN",
-     "Disney+"
+    "MX": [
+     "Sky Sports"
     ],
-    "CA": [
-     "TSN+"
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 2"
+    ],
+    "GB": [
+     "LaLigaTV"
+    ],
+    "US": [
+     "ESPN+",
+     "ESPN Deportes"
     ],
     "BR": [
      "CazéTV"
     ],
+    "DE": [
+     "DAZN"
+    ],
+    "FR": [
+     "DAZN",
+     "Disney+"
+    ],
     "TR": [
      "S Sport Plus",
      "S Sport"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "MX": [
-     "Sky Sports"
     ],
     "SA": [
      "beIN Sports"
@@ -7463,31 +8088,31 @@
    "sources": []
   },
   {
-   "id": "football-20261024-estrela-amadora-casa-pia",
+   "id": "football-20261024-estrela-casa-pia",
    "sport": "football",
    "competitionId": "primeira",
    "tier": "global",
    "competition": {
     "tr": "Portekiz Ligi",
-    "en": "Primeira Liga",
-    "de": "Primeira Liga",
-    "es": "Liga Portuguesa",
+    "en": "Liga Portugal",
+    "de": "Liga Portugal",
+    "es": "Primeira Liga",
     "fr": "Liga Portugal",
-    "it": "Campionato portoghese",
+    "it": "Primeira Liga",
     "pt": "Liga Portugal",
     "ar": "الدوري البرتغالي"
    },
-   "home": "Estrela Amadora",
+   "home": "Estrela",
    "away": "Casa Pia",
    "homeNames": {
-    "tr": "Estrela Amadora",
-    "en": "Estrela Amadora",
-    "de": "Estrela Amadora",
-    "es": "Estrela Amadora",
-    "fr": "Estrela Amadora",
-    "it": "Estrela Amadora",
-    "pt": "Estrela da Amadora",
-    "ar": "إستريلا أمادورا"
+    "tr": "Estrela",
+    "en": "Estrela",
+    "de": "Estrela",
+    "es": "Estrela",
+    "fr": "Estrela",
+    "it": "Estrela",
+    "pt": "Estrela",
+    "ar": "Estrela"
    },
    "awayNames": {
     "tr": "Casa Pia",
@@ -7501,20 +8126,20 @@
    },
    "kickoffUtc": "2026-10-24T14:30:00Z",
    "broadcasts": {
-    "DE": [
-     "Sportdigital+"
-    ],
     "PT": [
      "Sport TV 1"
     ],
     "BR": [
      "Disney+"
+    ],
+    "DE": [
+     "Sportdigital+"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261024-stuttgart-ii-alemannia-aachen",
+   "id": "football-20261024-vfb-stuttgart-ii-alemannia-aachen",
    "sport": "football",
    "competitionId": "3_liga",
    "tier": "regional",
@@ -7528,17 +8153,17 @@
     "pt": "3. Liga (Alemanha)",
     "ar": "الدوري الألماني الدرجة الثالثة"
    },
-   "home": "Stuttgart II",
+   "home": "VfB Stuttgart II",
    "away": "Alemannia Aachen",
    "homeNames": {
-    "tr": "Stuttgart II",
+    "tr": "VfB Stuttgart II",
     "en": "VfB Stuttgart II",
     "de": "VfB Stuttgart II",
-    "es": "Stuttgart II",
-    "fr": "Stuttgart II",
-    "it": "Stoccarda II",
-    "pt": "Stuttgart II",
-    "ar": "شتوتغارت 2"
+    "es": "VfB Stuttgart II",
+    "fr": "VfB Stuttgart II",
+    "it": "VfB Stuttgart II",
+    "pt": "VfB Stuttgart II",
+    "ar": "VfB Stuttgart II"
    },
    "awayNames": {
     "tr": "Alemannia Aachen",
@@ -7552,6 +8177,33 @@
    },
    "kickoffUtc": "2026-10-24T14:30:00Z",
    "broadcasts": {
+    "ES": [
+     "OneFootball PPV"
+    ],
+    "PT": [
+     "OneFootball PPV"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
+    ],
     "GB": [
      "DFB Play"
     ],
@@ -7560,25 +8212,13 @@
     ],
     "DE": [
      "Magenta Sport",
-     "OneFootball"
-    ],
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "PT": [
-     "OneFootball PPV"
-    ],
-    "BR": [
-     "OneFootball PPV"
-    ],
-    "TR": [
-     "Sıfır TV"
+     "OneFootball Deutschland"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261024-neftci-baku-turan-tovuz",
+   "id": "football-20261024-neftci-baku-turan",
    "sport": "football",
    "competitionId": "aze_pl",
    "tier": "regional",
@@ -7593,7 +8233,7 @@
     "ar": "الدوري الأذربيجاني الممتاز"
    },
    "home": "Neftci Baku",
-   "away": "Turan Tovuz",
+   "away": "Turan",
    "homeNames": {
     "tr": "Neftçi Bakü",
     "en": "Neftçi Baku",
@@ -7605,14 +8245,14 @@
     "ar": "نفتشي باكو"
    },
    "awayNames": {
-    "tr": "Turan Tovuz",
-    "en": "Turan Tovuz",
-    "de": "Turan Tovuz",
-    "es": "Turan Tovuz",
-    "fr": "Turan Tovuz",
-    "it": "Turan Tovuz",
-    "pt": "Turan Tovuz",
-    "ar": "توران توفوز"
+    "tr": "Turan",
+    "en": "Turan",
+    "de": "Turan",
+    "es": "Turan",
+    "fr": "Turan",
+    "it": "Turan",
+    "pt": "Turan",
+    "ar": "Turan"
    },
    "kickoffUtc": "2026-10-24T15:00:00Z",
    "broadcasts": {
@@ -7665,23 +8305,13 @@
      "OneFootball"
     ],
     "SA": [
-     "Thmanyah",
-     "STC TV"
-    ],
-    "DE": [
-     "DAZN"
+     "Thmanyah"
     ],
     "AT": [
      "DAZN"
     ],
     "CH": [
      "DAZN"
-    ],
-    "FR": [
-     "DAZN"
-    ],
-    "US": [
-     "Fox Sports"
     ]
    },
    "sources": []
@@ -7725,14 +8355,38 @@
    },
    "kickoffUtc": "2026-10-24T15:15:00Z",
    "broadcasts": {
-    "DE": [
-     "OneFootball"
-    ],
     "ES": [
      "OneFootball PPV"
     ],
     "PT": [
      "OneFootball PPV"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
+    ],
+    "DE": [
+     "OneFootball Deutschland"
+    ],
+    "IT": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -7777,11 +8431,8 @@
    "kickoffUtc": "2026-10-24T15:30:00Z",
    "broadcasts": {
     "CL": [
-     "TNT Sports",
      "TNT Sports Premium",
-     "HBO Max",
-     "ESPN",
-     "Disney+"
+     "HBO Max"
     ]
    },
    "sources": []
@@ -7828,10 +8479,6 @@
     "TR": [
      "Spor Smart",
      "Smart Spor HD"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN Baloncesto"
     ]
    },
    "sources": []
@@ -7855,26 +8502,60 @@
    "away": "Roma",
    "homeNames": {
     "tr": "Napoli",
-    "en": "SSC Napoli",
+    "en": "Napoli",
     "de": "SSC Neapel",
     "es": "Nápoles",
     "fr": "Naples",
-    "it": "SSC Napoli",
-    "pt": "Nápoles",
+    "it": "Napoli",
+    "pt": "Napoli",
     "ar": "نابولي"
    },
    "awayNames": {
     "tr": "Roma",
     "en": "AS Roma",
     "de": "AS Rom",
-    "es": "AS Roma",
+    "es": "Roma",
     "fr": "AS Rome",
-    "it": "AS Roma",
-    "pt": "AS Roma",
+    "it": "Roma",
+    "pt": "Roma",
     "ar": "روما"
    },
    "kickoffUtc": "2026-10-24T16:00:00Z",
    "broadcasts": {
+    "ES": [
+     "DAZN"
+    ],
+    "PT": [
+     "Sport TV 3"
+    ],
+    "MX": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
     "GB": [
      "TNT Sports 4",
      "DAZN",
@@ -7885,72 +8566,24 @@
      "Universo",
      "Paramount+",
      "Amazon Prime Video",
-     "Fubo",
-     "Peacock"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "PT": [
-     "Sport TV 3"
-    ],
-    "FR": [
-     "DAZN"
-    ],
-    "CA": [
-     "Fubo",
-     "DAZN"
+     "Peacock Premium"
     ],
     "BR": [
      "CazéTV",
      "Disney+"
     ],
+    "DE": [
+     "DAZN"
+    ],
+    "IT": [
+     "DAZN"
+    ],
+    "FR": [
+     "DAZN"
+    ],
     "TR": [
      "S Sport Plus",
      "S Sport 2"
-    ],
-    "IT": [
-     "DAZN",
-     "Sky Sport"
-    ],
-    "AR": [
-     "ESPN",
-     "Disney+"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "GT": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
     ],
     "SA": [
      "beIN Sports"
@@ -7984,6 +8617,10 @@
     ],
     "LY": [
      "beIN Sports"
+    ],
+    "GT": [
+     "ESPN",
+     "Disney+"
     ],
     "SN": [
      "Canal+"
@@ -8038,13 +8675,6 @@
    "broadcasts": {
     "TR": [
      "beIN Sports 1"
-    ],
-    "DE": [
-     "Digiturk Euro"
-    ],
-    "FR": [
-     "beIN Sports",
-     "beIN Sports Connect"
     ]
    },
    "sources": []
@@ -8120,7 +8750,7 @@
     "fr": "Ziraat Bankkart",
     "it": "Ziraat Bankkart",
     "pt": "Ziraat Bankkart",
-    "ar": "زراعت بانكارت"
+    "ar": "Ziraat Bankkart"
    },
    "awayNames": {
     "tr": "TFL Altekma",
@@ -8160,7 +8790,7 @@
    "homeNames": {
     "tr": "Chelsea",
     "en": "Chelsea",
-    "de": "Chelsea",
+    "de": "FC Chelsea",
     "es": "Chelsea",
     "fr": "Chelsea",
     "it": "Chelsea",
@@ -8170,7 +8800,7 @@
    "awayNames": {
     "tr": "Tottenham",
     "en": "Tottenham Hotspur",
-    "de": "Tottenham",
+    "de": "Tottenham Hotspur",
     "es": "Tottenham",
     "fr": "Tottenham",
     "it": "Tottenham",
@@ -8179,6 +8809,41 @@
    },
    "kickoffUtc": "2026-10-24T16:30:00Z",
    "broadcasts": {
+    "ES": [
+     "DAZN",
+     "DAZN 1"
+    ],
+    "PT": [
+     "DAZN",
+     "DAZN 1"
+    ],
+    "MX": [
+     "HBO Max"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
     "GB": [
      "Sky Sports Main Event",
      "Sky Sports Premier League",
@@ -8188,35 +8853,25 @@
      "NBCSN",
      "Telemundo",
      "Fubo",
-     "Peacock"
-    ],
-    "DE": [
-     "Sky Sport Premier League",
-     "WOW"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN 1",
-     "DAZN 1 Bar"
-    ],
-    "PT": [
-     "DAZN",
-     "DAZN 1"
-    ],
-    "FR": [
-     "CANAL+ Foot"
-    ],
-    "CA": [
-     "Fubo",
-     "DAZN"
+     "Peacock Premium"
     ],
     "BR": [
      "ESPN",
      "Disney+"
     ],
+    "DE": [
+     "Sky Sport Premier League",
+     "WOW"
+    ],
+    "IT": [
+     "Sky Sport 1"
+    ],
+    "FR": [
+     "CANAL+ Foot"
+    ],
     "TR": [
+     "Bein Sports beIN Connect",
      "beIN Sports 3",
-     "beIN Connect",
      "Idman TV"
     ],
     "SA": [
@@ -8269,30 +8924,6 @@
     ],
     "ML": [
      "Canal+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
     ],
     "GT": [
      "FOX Sports",
@@ -8349,21 +8980,6 @@
    },
    "kickoffUtc": "2026-10-24T16:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Sky Sports+"
-    ],
-    "US": [
-     "USA Network",
-     "Sling Blue",
-     "Peacock"
-    ],
-    "DE": [
-     "Sky Bundesliga 1",
-     "Sky Bundesliga UHD",
-     "Sky Bundesliga",
-     "Sky Top Event",
-     "WOW"
-    ],
     "ES": [
      "DAZN",
      "Movistar Plus+",
@@ -8374,23 +8990,91 @@
     "PT": [
      "DAZN 4"
     ],
-    "FR": [
-     "beIN Sports 2"
+    "MX": [
+     "FOX One",
+     "FOX"
     ],
-    "CA": [
-     "Fubo",
-     "DAZN",
-     "OneSoccer"
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "GB": [
+     "Sky Sports+"
+    ],
+    "US": [
+     "USA Network",
+     "Peacock Premium"
     ],
     "BR": [
-     "SportyNet",
-     "XSports",
-     "YouTube",
-     "OneFootball PPV"
+     "Xsports",
+     "SportyNet"
+    ],
+    "DE": [
+     "Sky Bundesliga 1",
+     "Sky Bundesliga UHD",
+     "Sky Bundesliga",
+     "Sky Top Event",
+     "WOW"
     ],
     "TR": [
      "Idman TV YouTube",
      "S Sport Plus"
+    ],
+    "SA": [
+     "beIN Sports"
+    ],
+    "DZ": [
+     "beIN Sports"
+    ],
+    "IQ": [
+     "beIN Sports"
+    ],
+    "JO": [
+     "beIN Sports"
+    ],
+    "EG": [
+     "beIN Sports"
+    ],
+    "OM": [
+     "beIN Sports"
+    ],
+    "QA": [
+     "beIN Sports"
+    ],
+    "AE": [
+     "beIN Sports"
+    ],
+    "MA": [
+     "beIN Sports"
+    ],
+    "TN": [
+     "beIN Sports"
+    ],
+    "LY": [
+     "beIN Sports"
+    ],
+    "SN": [
+     "Canal+"
+    ],
+    "CI": [
+     "Canal+"
+    ],
+    "ML": [
+     "Canal+"
     ]
    },
    "sources": []
@@ -8435,9 +9119,12 @@
    "kickoffUtc": "2026-10-24T16:30:00Z",
    "broadcasts": {
     "ES": [
-     "LaLiga TV Hypermotion 2",
+     "LALIGA TV Hypermotion 2",
      "DAZN",
      "LaLiga TV M3"
+    ],
+    "MX": [
+     "Sky Sports"
     ]
    },
    "sources": []
@@ -8483,6 +9170,18 @@
    "broadcasts": {
     "ES": [
      "Zapping Internacional"
+    ],
+    "CO": [
+     "Zapping Internacional"
+    ],
+    "PE": [
+     "Zapping Internacional"
+    ],
+    "UY": [
+     "Zapping Internacional"
+    ],
+    "EC": [
+     "Zapping Sports + Plus (canal 16)"
     ]
    },
    "sources": []
@@ -8530,6 +9229,9 @@
      "LaLiga TV Hypermotion",
      "DAZN",
      "LaLiga TV M2"
+    ],
+    "MX": [
+     "Sky Sports"
     ]
    },
    "sources": []
@@ -8563,54 +9265,76 @@
    },
    "awayNames": {
     "tr": "Villarreal",
-    "en": "Villarreal CF",
-    "de": "FC Villarreal",
-    "es": "Villarreal CF",
-    "fr": "Villarreal CF",
+    "en": "Villarreal",
+    "de": "Villarreal",
+    "es": "Villarreal",
+    "fr": "Villarreal",
     "it": "Villarreal",
-    "pt": "Villarreal CF",
+    "pt": "Villarreal",
     "ar": "فياريال"
    },
    "kickoffUtc": "2026-10-24T16:30:00Z",
    "broadcasts": {
-    "GB": [
-     "LaLigaTV"
-    ],
-    "US": [
-     "ESPN+",
-     "ESPN Deportes",
-     "Fubo"
-    ],
-    "DE": [
-     "DAZN"
-    ],
     "ES": [
-     "M+ LaLiga 2",
-     "M+ LaLiga HDR 2",
+     "M+ Laliga 2",
+     "M+ Laliga Hdr 2",
      "LaLiga TV Bar"
     ],
     "PT": [
      "DAZN 2"
     ],
-    "FR": [
-     "DAZN",
-     "Disney+"
+    "MX": [
+     "Sky Sports"
     ],
-    "CA": [
-     "TSN+"
+    "CO": [
+     "DGO",
+     "DSports",
+     "Amazon Prime Video",
+     "Paramount+",
+     "DAZN",
+     "Win Play"
+    ],
+    "CL": [
+     "DGO",
+     "Amazon Prime Video",
+     "Paramount+",
+     "DAZN",
+     "DSports"
+    ],
+    "PE": [
+     "DGO",
+     "DSports",
+     "Paramount+",
+     "DAZN"
+    ],
+    "UY": [
+     "DGO",
+     "DSports",
+     "Paramount+",
+     "DAZN"
+    ],
+    "EC": [
+     "DGO",
+     "DSports",
+     "Paramount+",
+     "DAZN"
+    ],
+    "GB": [
+     "LaLigaTV"
+    ],
+    "US": [
+     "ESPN+",
+     "ESPN Deportes"
     ],
     "BR": [
      "CazéTV"
     ],
+    "DE": [
+     "DAZN"
+    ],
     "TR": [
      "S Sport Plus",
      "S Sport"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "MX": [
-     "Sky Sports"
     ],
     "SA": [
      "beIN Sports"
@@ -8667,17 +9391,62 @@
    "sources": []
   },
   {
+   "id": "basketball-20261024-atlanta-dream-golden-state-valkyries",
+   "sport": "basketball",
+   "competitionId": "wnba",
+   "tier": "regional",
+   "competition": {
+    "tr": "WNBA",
+    "en": "WNBA",
+    "de": "WNBA",
+    "es": "WNBA",
+    "fr": "WNBA",
+    "it": "WNBA",
+    "pt": "WNBA",
+    "ar": "WNBA"
+   },
+   "home": "Atlanta Dream",
+   "away": "Golden State Valkyries",
+   "homeNames": {
+    "tr": "Atlanta Dream",
+    "en": "Atlanta Dream",
+    "de": "Atlanta Dream",
+    "es": "Atlanta Dream",
+    "fr": "Atlanta Dream",
+    "it": "Atlanta Dream",
+    "pt": "Atlanta Dream",
+    "ar": "Atlanta Dream"
+   },
+   "awayNames": {
+    "tr": "Golden State Valkyries",
+    "en": "Golden State Valkyries",
+    "de": "Golden State Valkyries",
+    "es": "Golden State Valkyries",
+    "fr": "Golden State Valkyries",
+    "it": "Golden State Valkyries",
+    "pt": "Golden State Valkyries",
+    "ar": "Golden State Valkyries"
+   },
+   "kickoffUtc": "2026-10-24T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Prime Video"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20261024-alverca-arouca",
    "sport": "football",
    "competitionId": "primeira",
    "tier": "global",
    "competition": {
     "tr": "Portekiz Ligi",
-    "en": "Primeira Liga",
-    "de": "Primeira Liga",
-    "es": "Liga Portuguesa",
+    "en": "Liga Portugal",
+    "de": "Liga Portugal",
+    "es": "Primeira Liga",
     "fr": "Liga Portugal",
-    "it": "Campionato portoghese",
+    "it": "Primeira Liga",
     "pt": "Liga Portugal",
     "ar": "الدوري البرتغالي"
    },
@@ -8707,16 +9476,12 @@
    "broadcasts": {
     "PT": [
      "Sport TV 2"
-    ],
-    "DE": [
-     "Sportdigital Fußball",
-     "Sportdigital+"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261024-farense-penafiel",
+   "id": "football-20261024-sc-farense-penafiel",
    "sport": "football",
    "competitionId": "primeira2",
    "tier": "regional",
@@ -8730,17 +9495,17 @@
     "pt": "Liga Portugal 2",
     "ar": "الدوري البرتغالي الدرجة الثانية"
    },
-   "home": "Farense",
+   "home": "SC Farense",
    "away": "Penafiel",
    "homeNames": {
-    "tr": "Farense",
-    "en": "Farense",
-    "de": "Farense",
-    "es": "Farense",
-    "fr": "Farense",
-    "it": "Farense",
-    "pt": "Farense",
-    "ar": "فارينسي"
+    "tr": "SC Farense",
+    "en": "SC Farense",
+    "de": "SC Farense",
+    "es": "SC Farense",
+    "fr": "SC Farense",
+    "it": "SC Farense",
+    "pt": "SC Farense",
+    "ar": "SC Farense"
    },
    "awayNames": {
     "tr": "Penafiel",
@@ -8806,52 +9571,6 @@
    "sources": []
   },
   {
-   "id": "basketball-20261024-ucam-murcia-leyma-coruna",
-   "sport": "basketball",
-   "competitionId": "acb",
-   "tier": "regional",
-   "competition": {
-    "tr": "İspanya Basketbol Ligi",
-    "en": "Spanish ACB League",
-    "de": "Spanische ACB-Liga",
-    "es": "Liga Endesa",
-    "fr": "Championnat d'Espagne de basket",
-    "it": "Lega spagnola di basket",
-    "pt": "Liga espanhola de basquetebol",
-    "ar": "الدوري الإسباني لكرة السلة"
-   },
-   "home": "UCAM Murcia",
-   "away": "Leyma Coruna",
-   "homeNames": {
-    "tr": "UCAM Murcia",
-    "en": "UCAM Murcia",
-    "de": "UCAM Murcia",
-    "es": "UCAM Murcia",
-    "fr": "UCAM Murcia",
-    "it": "UCAM Murcia",
-    "pt": "UCAM Murcia",
-    "ar": "UCAM Murcia"
-   },
-   "awayNames": {
-    "tr": "Leyma Coruña",
-    "en": "Leyma Coruña",
-    "de": "Leyma Coruña",
-    "es": "Leyma Coruña",
-    "fr": "Leyma Coruña",
-    "it": "Leyma Coruña",
-    "pt": "Leyma Coruña",
-    "ar": "Leyma Coruña"
-   },
-   "kickoffUtc": "2026-10-24T17:30:00Z",
-   "broadcasts": {
-    "ES": [
-     "DAZN",
-     "DAZN Baloncesto 2"
-    ]
-   },
-   "sources": []
-  },
-  {
    "id": "football-20261024-arezzo-benevento",
    "sport": "football",
    "competitionId": "seriebit",
@@ -8890,17 +9609,38 @@
    },
    "kickoffUtc": "2026-10-24T17:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Destination Calcio"
-    ],
-    "DE": [
-     "OneFootball"
-    ],
     "ES": [
      "OneFootball PPV"
     ],
     "PT": [
      "OneFootball PPV"
+    ],
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "CO": [
+     "OneFootball PPV"
+    ],
+    "CL": [
+     "OneFootball PPV"
+    ],
+    "PE": [
+     "OneFootball PPV"
+    ],
+    "UY": [
+     "OneFootball PPV"
+    ],
+    "EC": [
+     "OneFootball PPV"
+    ],
+    "PY": [
+     "OneFootball PPV"
+    ],
+    "DE": [
+     "OneFootball Deutschland"
+    ],
+    "IT": [
+     "DAZN"
     ]
    },
    "sources": []
@@ -8944,25 +9684,40 @@
    },
    "kickoffUtc": "2026-10-24T17:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
      "Apple TV"
     ],
-    "CA": [
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ],
+    "US": [
      "Apple TV"
     ],
     "BR": [
+     "Apple TV"
+    ],
+    "DE": [
      "Apple TV"
     ]
    },
@@ -8988,31 +9743,91 @@
    "homeNames": {
     "tr": "Formula 1 ABD GP",
     "en": "Formula 1 United States GP",
-    "de": "Formel 1 USA-GP",
-    "es": "Fórmula 1 GP de Estados Unidos",
-    "fr": "Formule 1 GP des États-Unis",
-    "it": "Formula 1 GP degli Stati Uniti",
-    "pt": "Fórmula 1 GP dos Estados Unidos",
-    "ar": "الفورمولا 1 - جائزة الولايات المتحدة"
+    "de": "Formula 1 United States GP",
+    "es": "Formula 1 United States GP",
+    "fr": "Formula 1 United States GP",
+    "it": "Formula 1 United States GP",
+    "pt": "Formula 1 United States GP",
+    "ar": "Formula 1 United States GP"
    },
    "awayNames": {
     "tr": "3. Antrenman",
     "en": "Practice 3",
-    "de": "3. Freies Training",
-    "es": "Práctica 3",
-    "fr": "Essais libres 3",
-    "it": "Prove libere 3",
-    "pt": "Treino livre 3",
-    "ar": "التجربة الحرة 3"
+    "de": "Practice 3",
+    "es": "Practice 3",
+    "fr": "Practice 3",
+    "it": "Practice 3",
+    "pt": "Practice 3",
+    "ar": "Practice 3"
    },
    "kickoffUtc": "2026-10-24T17:30:00Z",
    "broadcasts": {
     "TR": [
      "beIN Sports 4"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261024-banfield-lanus",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Primera División",
+    "en": "Argentine Primera División",
+    "de": "Argentinische Primera División",
+    "es": "Primera División de Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primeira Divisão Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Banfield",
+   "away": "Lanus",
+   "homeNames": {
+    "tr": "Banfield",
+    "en": "Banfield",
+    "de": "Banfield",
+    "es": "Banfield",
+    "fr": "Banfield",
+    "it": "Banfield",
+    "pt": "Banfield",
+    "ar": "بانفيلد"
+   },
+   "awayNames": {
+    "tr": "Lanús",
+    "en": "Lanús",
+    "de": "Lanús",
+    "es": "Lanús",
+    "fr": "Lanús",
+    "it": "Lanús",
+    "pt": "Lanús",
+    "ar": "Lanús"
+   },
+   "kickoffUtc": "2026-10-24T17:45:00Z",
+   "broadcasts": {
+    "MX": [
+     "TyC Sports Internacional"
     ],
-    "ES": [
-     "DAZN",
-     "DAZN F1"
+    "CO": [
+     "TyC Sports Internacional"
+    ],
+    "CL": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "PE": [
+     "TyC Sports Internacional"
+    ],
+    "UY": [
+     "TyC Sports Internacional"
+    ],
+    "EC": [
+     "TyC Sports Internacional"
+    ],
+    "PY": [
+     "TyC Sports Internacional"
     ]
    },
    "sources": []
@@ -9062,6 +9877,29 @@
     "PT": [
      "Fanatiz"
     ],
+    "MX": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "CL": [
+     "Fanatiz"
+    ],
+    "PE": [
+     "Fanatiz",
+     "L1 Max",
+     "L1 Play"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
+    ],
+    "PY": [
+     "Fanatiz"
+    ],
     "BR": [
      "Fanatiz"
     ]
@@ -9086,24 +9924,24 @@
    "home": "Al Riyadh",
    "away": "Al Taawoun",
    "homeNames": {
-    "tr": "Al-Riyadh",
-    "en": "Al-Riyadh",
-    "de": "Al-Riyadh",
-    "es": "Al-Riyadh",
-    "fr": "Al-Riyadh",
-    "it": "Al-Riyadh",
-    "pt": "Al-Riyadh",
-    "ar": "الرياض"
+    "tr": "Al Riyadh",
+    "en": "Al Riyadh",
+    "de": "Al Riyadh",
+    "es": "Al Riyadh",
+    "fr": "Al Riyadh",
+    "it": "Al Riyadh",
+    "pt": "Al Riyadh",
+    "ar": "Al Riyadh"
    },
    "awayNames": {
-    "tr": "Al-Taawoun",
-    "en": "Al-Taawoun",
-    "de": "Al-Taawoun",
-    "es": "Al-Taawoun",
-    "fr": "Al-Taawoun",
-    "it": "Al-Taawoun",
-    "pt": "Al-Taawoun",
-    "ar": "التعاون"
+    "tr": "Al Taawoun",
+    "en": "Al Taawoun",
+    "de": "Al Taawoun",
+    "es": "Al Taawoun",
+    "fr": "Al Taawoun",
+    "it": "Al Taawoun",
+    "pt": "Al Taawoun",
+    "ar": "Al Taawoun"
    },
    "kickoffUtc": "2026-10-24T18:00:00Z",
    "broadcasts": {
@@ -9130,7 +9968,7 @@
    "sources": []
   },
   {
-   "id": "football-20261024-nurnberg-kaiserslautern",
+   "id": "football-20261024-fc-nurnberg-kaiserslautern",
    "sport": "football",
    "competitionId": "bundesliga2",
    "tier": "regional",
@@ -9144,17 +9982,17 @@
     "pt": "2. Bundesliga",
     "ar": "الدوري الألماني الدرجة الثانية"
    },
-   "home": "Nurnberg",
+   "home": "FC Nurnberg",
    "away": "Kaiserslautern",
    "homeNames": {
-    "tr": "Nürnberg",
-    "en": "Nürnberg",
-    "de": "Nürnberg",
-    "es": "Nürnberg",
-    "fr": "Nürnberg",
-    "it": "Nürnberg",
-    "pt": "Nürnberg",
-    "ar": "Nürnberg"
+    "tr": "FC Nürnberg",
+    "en": "FC Nürnberg",
+    "de": "FC Nürnberg",
+    "es": "FC Nürnberg",
+    "fr": "FC Nürnberg",
+    "it": "FC Nürnberg",
+    "pt": "FC Nürnberg",
+    "ar": "FC Nürnberg"
    },
    "awayNames": {
     "tr": "Kaiserslautern",
@@ -9168,9 +10006,26 @@
    },
    "kickoffUtc": "2026-10-24T18:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Bundesliga App",
-     "Bundesliga YouTube"
+    "ES": [
+     "DAZN"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
     ],
     "DE": [
      "RTL Nitro",
@@ -9179,17 +10034,8 @@
      "Sky Bundesliga UHD",
      "Sky Top Event",
      "RTL+",
-     "OneFootball",
+     "OneFootball Deutschland",
      "WOW"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "FR": [
-     "beIN Sports Max 6"
-    ],
-    "BR": [
-     "OneFootball PPV"
     ],
     "TR": [
      "S Sport Plus"
@@ -9216,13 +10062,13 @@
    "away": "Parma",
    "homeNames": {
     "tr": "Lazio",
-    "en": "SS Lazio",
-    "de": "Lazio Rom",
-    "es": "SS Lazio",
-    "fr": "SS Lazio",
-    "it": "SS Lazio",
-    "pt": "SS Lazio",
-    "ar": "لاتسيو"
+    "en": "Lazio",
+    "de": "Lazio",
+    "es": "Lazio",
+    "fr": "Lazio",
+    "it": "Lazio",
+    "pt": "Lazio",
+    "ar": "Lazio"
    },
    "awayNames": {
     "tr": "Parma",
@@ -9236,6 +10082,40 @@
    },
    "kickoffUtc": "2026-10-24T18:45:00Z",
    "broadcasts": {
+    "ES": [
+     "DAZN"
+    ],
+    "PT": [
+     "Sport TV 3"
+    ],
+    "MX": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 3"
+    ],
     "GB": [
      "DAZN"
     ],
@@ -9245,71 +10125,23 @@
      "Paramount+",
      "Amazon Prime Video",
      "Fubo",
-     "Peacock"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "PT": [
-     "Sport TV 3"
-    ],
-    "FR": [
-     "DAZN"
-    ],
-    "CA": [
-     "Fubo",
-     "DAZN"
+     "Peacock Premium"
     ],
     "BR": [
      "ESPN 2",
      "Disney+"
     ],
+    "DE": [
+     "DAZN"
+    ],
+    "IT": [
+     "Sky Sport",
+     "DAZN",
+     "Sky Sport Calcio"
+    ],
     "TR": [
      "S Sport Plus",
      "S Sport 2"
-    ],
-    "IT": [
-     "DAZN",
-     "Sky Sport"
-    ],
-    "AR": [
-     "ESPN",
-     "Disney+"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+"
-    ],
-    "GT": [
-     "ESPN",
-     "Disney+"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+"
     ],
     "SA": [
      "beIN Sports"
@@ -9344,6 +10176,10 @@
     "LY": [
      "beIN Sports"
     ],
+    "GT": [
+     "ESPN",
+     "Disney+"
+    ],
     "SN": [
      "Canal+"
     ],
@@ -9375,13 +10211,13 @@
    "away": "Paris FC",
    "homeNames": {
     "tr": "Lens",
-    "en": "RC Lens",
-    "de": "RC Lens",
+    "en": "Lens",
+    "de": "Lens",
     "es": "Lens",
-    "fr": "RC Lens",
+    "fr": "Lens",
     "it": "Lens",
     "pt": "Lens",
-    "ar": "لانس"
+    "ar": "Lens"
    },
    "awayNames": {
     "tr": "Paris FC",
@@ -9395,34 +10231,59 @@
    },
    "kickoffUtc": "2026-10-24T18:45:00Z",
    "broadcasts": {
-    "GB": [
-     "Amazon Prime PPV",
-     "Ligue 1+"
-    ],
-    "US": [
-     "beIN Sports",
-     "Fubo",
-     "Fanatiz"
-    ],
-    "DE": [
-     "DAZN"
-    ],
     "ES": [
-     "DAZN",
-     "TV5Monde"
+     "DAZN"
     ],
     "PT": [
      "Fanatiz",
      "Sport TV 4"
     ],
-    "FR": [
-     "Ligue 1+"
+    "MX": [
+     "FOX One",
+     "FOX"
     ],
-    "CA": [
-     "Fubo"
+    "CO": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN 4"
+    ],
+    "GB": [
+     "Amazon Prime PPV"
+    ],
+    "US": [
+     "beIN Sports",
+     "beIN Sports Connect",
+     "Fubo",
+     "Fanatiz"
     ],
     "BR": [
      "CazéTV"
+    ],
+    "DE": [
+     "DAZN"
+    ],
+    "FR": [
+     "DAZN",
+     "Ligue 1+"
     ],
     "TR": [
      "beIN Sports 3"
@@ -9511,9 +10372,13 @@
    },
    "kickoffUtc": "2026-10-24T18:45:00Z",
    "broadcasts": {
+    "PT": [
+     "Fanatiz"
+    ],
     "US": [
-     "beIN Sports XTRA",
-     "beIN Sports XTRA Español",
+     "beIN SPORTS XTRA",
+     "beIN SPORTS XTRA Español",
+     "beIN Sports Connect",
      "Fubo",
      "Fanatiz",
      "Tubi",
@@ -9532,7 +10397,7 @@
    "sources": []
   },
   {
-   "id": "basketball-20261024-barca-basket-casademont-zaragoza",
+   "id": "basketball-20261024-barca-basket-basket-zaragoza",
    "sport": "basketball",
    "competitionId": "acb",
    "tier": "regional",
@@ -9547,7 +10412,7 @@
     "ar": "الدوري الإسباني لكرة السلة"
    },
    "home": "Barca Basket",
-   "away": "Casademont Zaragoza",
+   "away": "Basket Zaragoza",
    "homeNames": {
     "tr": "Barça Basket",
     "en": "Barça Basket",
@@ -9559,25 +10424,20 @@
     "ar": "برشلونة لكرة السلة"
    },
    "awayNames": {
-    "tr": "Casademont Zaragoza",
-    "en": "Casademont Zaragoza",
-    "de": "Casademont Zaragoza",
-    "es": "Casademont Zaragoza",
-    "fr": "Casademont Zaragoza",
-    "it": "Casademont Zaragoza",
-    "pt": "Casademont Zaragoza",
-    "ar": "Casademont Zaragoza"
+    "tr": "Basket Zaragoza",
+    "en": "Basket Zaragoza",
+    "de": "Basket Zaragoza",
+    "es": "Basket Zaragoza",
+    "fr": "Basket Zaragoza",
+    "it": "Basket Zaragoza",
+    "pt": "Basket Zaragoza",
+    "ar": "Basket Zaragoza"
    },
    "kickoffUtc": "2026-10-24T19:00:00Z",
    "broadcasts": {
     "TR": [
      "Spor Smart",
      "Smart Spor HD"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN Baloncesto 3",
-     "Aragón TV"
     ]
    },
    "sources": []
@@ -9600,14 +10460,14 @@
    "home": "Atletico",
    "away": "Deportivo La Coruna",
    "homeNames": {
-    "tr": "Atletico Madrid",
+    "tr": "Atlético Madrid",
     "en": "Atlético Madrid",
     "de": "Atlético Madrid",
-    "es": "Atlético de Madrid",
+    "es": "Atlético Madrid",
     "fr": "Atlético Madrid",
     "it": "Atlético Madrid",
-    "pt": "Atlético de Madrid",
-    "ar": "أتلتيكو مدريد"
+    "pt": "Atlético Madrid",
+    "ar": "Atlético Madrid"
    },
    "awayNames": {
     "tr": "Deportivo La Coruña",
@@ -9621,17 +10481,6 @@
    },
    "kickoffUtc": "2026-10-24T19:00:00Z",
    "broadcasts": {
-    "GB": [
-     "Disney+"
-    ],
-    "US": [
-     "ESPN+",
-     "ESPN Deportes",
-     "Fubo"
-    ],
-    "DE": [
-     "DAZN"
-    ],
     "ES": [
      "M+ LaLiga",
      "Movistar Plus+",
@@ -9642,26 +10491,50 @@
     "PT": [
      "DAZN 1"
     ],
-    "FR": [
-     "DAZN",
+    "MX": [
+     "Sky Sports"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "ESPN"
+    ],
+    "GB": [
      "Disney+"
     ],
-    "CA": [
-     "TSN+"
+    "US": [
+     "ESPN+",
+     "ESPN Deportes"
     ],
     "BR": [
      "CazéTV"
+    ],
+    "DE": [
+     "DAZN"
     ],
     "TR": [
      "S Sport Plus",
      "S Sport",
      "Idman TV"
-    ],
-    "IT": [
-     "DAZN"
-    ],
-    "MX": [
-     "Sky Sports"
     ],
     "SA": [
      "beIN Sports"
@@ -9752,7 +10625,7 @@
     "fr": "Botafogo-SP",
     "it": "Botafogo-SP",
     "pt": "Botafogo-SP",
-    "ar": "بوتافوغو إس بي"
+    "ar": "Botafogo-SP"
    },
    "kickoffUtc": "2026-10-24T19:00:00Z",
    "broadcasts": {
@@ -9790,14 +10663,14 @@
     "ar": "ديفينسور سبورتينغ"
    },
    "awayNames": {
-    "tr": "Racing Club (Montevideo)",
-    "en": "Racing Club (Montevideo)",
-    "de": "Racing Club (Montevideo)",
-    "es": "Racing Club (Montevideo)",
-    "fr": "Racing Club (Montevideo)",
-    "it": "Racing Club (Montevideo)",
-    "pt": "Racing Club (Montevideo)",
-    "ar": "Racing Club (Montevideo)"
+    "tr": "Racing Club de Montevideo",
+    "en": "Racing Club de Montevideo",
+    "de": "Racing Club de Montevideo",
+    "es": "Racing Club de Montevideo",
+    "fr": "Racing Club de Montevideo",
+    "it": "Racing Club de Montevideo",
+    "pt": "Racing Club de Montevideo",
+    "ar": "Racing Club de Montevideo"
    },
    "kickoffUtc": "2026-10-24T19:00:00Z",
    "broadcasts": {
@@ -9806,6 +10679,35 @@
     ],
     "PT": [
      "Antel TV Internacional"
+    ],
+    "MX": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "DSports Uruguay Premium",
+     "Antel TV",
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
     ],
     "BR": [
      "Disney+"
@@ -9854,12 +10756,24 @@
    "broadcasts": {
     "ES": [
      "Zapping Internacional"
+    ],
+    "CO": [
+     "Zapping Internacional"
+    ],
+    "PE": [
+     "Zapping Internacional"
+    ],
+    "UY": [
+     "Zapping Internacional"
+    ],
+    "EC": [
+     "Zapping Sports + Plus (canal 16)"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261024-ud-almeria-real-oviedo",
+   "id": "football-20261024-ud-almeria-oviedo",
    "sport": "football",
    "competitionId": "laliga2",
    "tier": "regional",
@@ -9874,7 +10788,7 @@
     "ar": "دوري الدرجة الثانية الإسباني"
    },
    "home": "UD Almeria",
-   "away": "Real Oviedo",
+   "away": "Oviedo",
    "homeNames": {
     "tr": "UD Almería",
     "en": "UD Almería",
@@ -9886,25 +10800,28 @@
     "ar": "UD Almería"
    },
    "awayNames": {
-    "tr": "Real Oviedo",
-    "en": "Real Oviedo",
-    "de": "Real Oviedo",
-    "es": "Real Oviedo",
-    "fr": "Real Oviedo",
-    "it": "Real Oviedo",
-    "pt": "Real Oviedo",
-    "ar": "ريال أوفييدو"
+    "tr": "Oviedo",
+    "en": "Oviedo",
+    "de": "Oviedo",
+    "es": "Oviedo",
+    "fr": "Oviedo",
+    "it": "Oviedo",
+    "pt": "Oviedo",
+    "ar": "Oviedo"
    },
    "kickoffUtc": "2026-10-24T19:00:00Z",
    "broadcasts": {
-    "US": [
-     "ESPN+"
-    ],
     "ES": [
      "LaLiga TV Hypermotion",
      "DAZN",
      "Orange Fútbol 2",
      "LaLiga TV M2"
+    ],
+    "MX": [
+     "Sky Sports"
+    ],
+    "US": [
+     "ESPN+"
     ],
     "TR": [
      "S Sport Plus"
@@ -9930,14 +10847,14 @@
    "home": "Atletico-GO",
    "away": "Novorizontino",
    "homeNames": {
-    "tr": "Atlético-GO",
-    "en": "Atlético-GO",
-    "de": "Atlético-GO",
-    "es": "Atlético-GO",
-    "fr": "Atlético-GO",
-    "it": "Atlético-GO",
-    "pt": "Atlético-GO",
-    "ar": "أتليتيكو جويانيينسي"
+    "tr": "Atlético GO",
+    "en": "Atlético GO",
+    "de": "Atlético GO",
+    "es": "Atlético GO",
+    "fr": "Atlético GO",
+    "it": "Atlético GO",
+    "pt": "Atlético GO",
+    "ar": "Atlético GO"
    },
    "awayNames": {
     "tr": "Novorizontino",
@@ -9999,25 +10916,40 @@
    },
    "kickoffUtc": "2026-10-24T19:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
      "Apple TV"
     ],
-    "CA": [
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ],
+    "US": [
      "Apple TV"
     ],
     "BR": [
+     "Apple TV"
+    ],
+    "DE": [
      "Apple TV"
     ]
    },
@@ -10030,11 +10962,11 @@
    "tier": "global",
    "competition": {
     "tr": "Portekiz Ligi",
-    "en": "Primeira Liga",
-    "de": "Primeira Liga",
-    "es": "Liga Portuguesa",
+    "en": "Liga Portugal",
+    "de": "Liga Portugal",
+    "es": "Primeira Liga",
     "fr": "Liga Portugal",
-    "it": "Campionato portoghese",
+    "it": "Primeira Liga",
     "pt": "Liga Portugal",
     "ar": "الدوري البرتغالي"
    },
@@ -10051,28 +10983,17 @@
     "ar": "جيل فيسنتي"
    },
    "awayNames": {
-    "tr": "FC Porto",
-    "en": "FC Porto",
+    "tr": "Porto",
+    "en": "Porto",
     "de": "FC Porto",
-    "es": "FC Porto",
+    "es": "Oporto",
     "fr": "FC Porto",
-    "it": "FC Porto",
+    "it": "Porto",
     "pt": "FC Porto",
     "ar": "بورتو"
    },
    "kickoffUtc": "2026-10-24T19:30:00Z",
    "broadcasts": {
-    "US": [
-     "beIN Sports en Español",
-     "Fubo",
-     "Fanatiz"
-    ],
-    "DE": [
-     "Sportdigital FUSSBALL",
-     "OneFootball",
-     "Sportdigital FUSSBALL2",
-     "Sportdigital+"
-    ],
     "ES": [
      "DAZN"
     ],
@@ -10081,12 +11002,61 @@
      "Sport TV 1",
      "Fanatiz"
     ],
-    "FR": [
-     "beIN Sports 2"
+    "MX": [
+     "Claro Sports",
+     "Claro Sports Premium YouTube"
+    ],
+    "CO": [
+     "DGO",
+     "Amazon Prime Video",
+     "Paramount+",
+     "DAZN",
+     "DSports",
+     "Win Play"
+    ],
+    "CL": [
+     "DGO",
+     "Amazon Prime Video",
+     "Paramount+",
+     "DAZN",
+     "DSports"
+    ],
+    "PE": [
+     "DGO",
+     "Paramount+",
+     "DAZN",
+     "DSports"
+    ],
+    "UY": [
+     "DGO",
+     "Paramount+",
+     "DAZN",
+     "DSports"
+    ],
+    "EC": [
+     "DGO",
+     "Paramount+",
+     "DAZN",
+     "DSports"
+    ],
+    "US": [
+     "beIN Sports Connect",
+     "beIN Sports en Español",
+     "Fubo",
+     "Fanatiz"
     ],
     "BR": [
      "ESPN 4",
      "Disney+"
+    ],
+    "DE": [
+     "Sportdigital FUSSBALL",
+     "OneFootball Deutschland",
+     "Sportdigital FUSSBALL2",
+     "Sportdigital+"
+    ],
+    "FR": [
+     "beIN Sports 2"
     ],
     "TR": [
      "beIN Sports 2"
@@ -10133,9 +11103,33 @@
    },
    "kickoffUtc": "2026-10-24T19:30:00Z",
    "broadcasts": {
+    "MX": [
+     "Globo Internacional"
+    ],
+    "CO": [
+     "Globo Internacional"
+    ],
+    "CL": [
+     "Globo Internacional"
+    ],
+    "PE": [
+     "L1 Play",
+     "Globo Internacional"
+    ],
+    "UY": [
+     "Globo Internacional"
+    ],
+    "EC": [
+     "Globo Internacional",
+     "ECDF App",
+     "ECDF Web",
+     "ECDF YouTube"
+    ],
+    "PY": [
+     "Globo Internacional"
+    ],
     "BR": [
-     "Globo",
-     "Premiere"
+     "Globo"
     ]
    },
    "sources": []
@@ -10179,9 +11173,17 @@
    },
    "kickoffUtc": "2026-10-24T19:30:00Z",
    "broadcasts": {
+    "PE": [
+     "L1 Play"
+    ],
+    "EC": [
+     "El Canal del Fútbol",
+     "ECDF App",
+     "ECDF Web",
+     "ECDF Partidos YouTube"
+    ],
     "BR": [
-     "Globo",
-     "Premiere"
+     "Globo"
     ]
    },
    "sources": []
@@ -10226,8 +11228,7 @@
    "kickoffUtc": "2026-10-24T19:30:00Z",
    "broadcasts": {
     "BR": [
-     "Globo",
-     "Premiere"
+     "Globo"
     ]
    },
    "sources": []
@@ -10267,7 +11268,7 @@
     "fr": "Athletico-PR",
     "it": "Athletico-PR",
     "pt": "Athletico-PR",
-    "ar": "أتلتيكو باراناينسي"
+    "ar": "Athletico-PR"
    },
    "kickoffUtc": "2026-10-24T19:30:00Z",
    "broadcasts": {
@@ -10276,10 +11277,65 @@
      "M+ #Vamos Bar 2",
      "M+ Liga de Campeones"
     ],
+    "MX": [
+     "Azteca Deportes Network",
+     "Azteca Deportes App",
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Fanatiz"
+    ],
+    "PE": [
+     "L1 Play"
+    ],
     "BR": [
      "Globo",
-     "Premiere",
-     "GE TV"
+     "Ge Tv"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261024-club-nacional-trinidense",
+   "sport": "football",
+   "competitionId": "primera_py",
+   "tier": "regional",
+   "competition": {
+    "tr": "Paraguay Ligi",
+    "en": "Paraguay Primera División",
+    "de": "Primera División Paraguay",
+    "es": "Primera División de Paraguay",
+    "fr": "Championnat du Paraguay",
+    "it": "Primera División paraguaiana",
+    "pt": "Primeira Divisão do Paraguai",
+    "ar": "الدوري الباراغوياني"
+   },
+   "home": "Club Nacional",
+   "away": "Trinidense",
+   "homeNames": {
+    "tr": "Club Nacional",
+    "en": "Club Nacional",
+    "de": "Club Nacional",
+    "es": "Club Nacional",
+    "fr": "Club Nacional",
+    "it": "Club Nacional",
+    "pt": "Club Nacional",
+    "ar": "Club Nacional"
+   },
+   "awayNames": {
+    "tr": "Trinidense",
+    "en": "Trinidense",
+    "de": "Trinidense",
+    "es": "Trinidense",
+    "fr": "Trinidense",
+    "it": "Trinidense",
+    "pt": "Trinidense",
+    "ar": "Trinidense"
+   },
+   "kickoffUtc": "2026-10-24T20:00:00Z",
+   "broadcasts": {
+    "PY": [
+     "Tigo Sports"
     ]
    },
    "sources": []
@@ -10330,6 +11386,70 @@
    "sources": []
   },
   {
+   "id": "football-20261024-talleres-cordoba-defensa-y-justicia",
+   "sport": "football",
+   "competitionId": "arg_primera",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Primera División",
+    "en": "Argentine Primera División",
+    "de": "Argentinische Primera División",
+    "es": "Primera División de Argentina",
+    "fr": "Primera División argentine",
+    "it": "Primera División argentina",
+    "pt": "Primeira Divisão Argentina",
+    "ar": "الدوري الأرجنتيني"
+   },
+   "home": "Talleres Cordoba",
+   "away": "Defensa y Justicia",
+   "homeNames": {
+    "tr": "Talleres Córdoba",
+    "en": "Talleres Córdoba",
+    "de": "Talleres Córdoba",
+    "es": "Talleres Córdoba",
+    "fr": "Talleres Córdoba",
+    "it": "Talleres Córdoba",
+    "pt": "Talleres Córdoba",
+    "ar": "Talleres Córdoba"
+   },
+   "awayNames": {
+    "tr": "Defensa y Justicia",
+    "en": "Defensa y Justicia",
+    "de": "Defensa y Justicia",
+    "es": "Defensa y Justicia",
+    "fr": "Defensa y Justicia",
+    "it": "Defensa y Justicia",
+    "pt": "Defensa y Justicia",
+    "ar": "Defensa y Justicia"
+   },
+   "kickoffUtc": "2026-10-24T20:00:00Z",
+   "broadcasts": {
+    "MX": [
+     "TyC Sports Internacional"
+    ],
+    "CO": [
+     "TyC Sports Internacional"
+    ],
+    "CL": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "PE": [
+     "TyC Sports Internacional"
+    ],
+    "UY": [
+     "TyC Sports Internacional"
+    ],
+    "EC": [
+     "TyC Sports Internacional"
+    ],
+    "PY": [
+     "TyC Sports Internacional"
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "football-20261024-cusco-fc-sporting-cristal",
    "sport": "football",
    "competitionId": "liga1_pe",
@@ -10372,6 +11492,29 @@
      "Fanatiz"
     ],
     "PT": [
+     "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "CL": [
+     "Fanatiz"
+    ],
+    "PE": [
+     "Fanatiz",
+     "L1 Max",
+     "L1 Play"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
+    ],
+    "PY": [
      "Fanatiz"
     ],
     "BR": [
@@ -10490,31 +11633,27 @@
    "homeNames": {
     "tr": "Formula 1 ABD GP",
     "en": "Formula 1 United States GP",
-    "de": "Formel 1 USA-GP",
-    "es": "Fórmula 1 GP de Estados Unidos",
-    "fr": "Formule 1 GP des États-Unis",
-    "it": "Formula 1 GP degli Stati Uniti",
-    "pt": "Fórmula 1 GP dos Estados Unidos",
-    "ar": "الفورمولا 1 - جائزة الولايات المتحدة"
+    "de": "Formula 1 United States GP",
+    "es": "Formula 1 United States GP",
+    "fr": "Formula 1 United States GP",
+    "it": "Formula 1 United States GP",
+    "pt": "Formula 1 United States GP",
+    "ar": "Formula 1 United States GP"
    },
    "awayNames": {
-    "tr": "Sıralama",
+    "tr": "Siralama",
     "en": "Qualifying",
     "de": "Qualifying",
-    "es": "Clasificación",
-    "fr": "Qualifications",
-    "it": "Qualifiche",
-    "pt": "Classificação",
-    "ar": "التجارب التأهيلية"
+    "es": "Qualifying",
+    "fr": "Qualifying",
+    "it": "Qualifying",
+    "pt": "Qualifying",
+    "ar": "Qualifying"
    },
    "kickoffUtc": "2026-10-24T21:00:00Z",
    "broadcasts": {
     "TR": [
      "beIN Sports 4"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN F1"
     ]
    },
    "sources": []
@@ -10603,32 +11742,47 @@
    },
    "kickoffUtc": "2026-10-24T21:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
      "Apple TV"
     ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ],
+    "US": [
+     "Apple TV"
+    ],
     "BR": [
      "Apple TV"
     ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
+    "DE": [
+     "Apple TV"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261024-palmeiras-rb-bragantino",
+   "id": "football-20261024-palmeiras-red-bull-bragantino",
    "sport": "football",
    "competitionId": "bra_seriea",
    "tier": "global",
@@ -10643,7 +11797,7 @@
     "ar": "الدوري البرازيلي"
    },
    "home": "Palmeiras",
-   "away": "RB Bragantino",
+   "away": "Red Bull Bragantino",
    "homeNames": {
     "tr": "Palmeiras",
     "en": "Palmeiras",
@@ -10655,35 +11809,50 @@
     "ar": "بالميراس"
    },
    "awayNames": {
-    "tr": "RB Bragantino",
-    "en": "RB Bragantino",
-    "de": "RB Bragantino",
-    "es": "RB Bragantino",
-    "fr": "RB Bragantino",
-    "it": "RB Bragantino",
-    "pt": "RB Bragantino",
-    "ar": "براغانتينو"
+    "tr": "Red Bull Bragantino",
+    "en": "Red Bull Bragantino",
+    "de": "Red Bull Bragantino",
+    "es": "Red Bull Bragantino",
+    "fr": "Red Bull Bragantino",
+    "it": "Red Bull Bragantino",
+    "pt": "Red Bull Bragantino",
+    "ar": "Red Bull Bragantino"
    },
    "kickoffUtc": "2026-10-24T21:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Premier Sports 2"
-    ],
-    "DE": [
-     "Sportdigital FUSSBALL",
-     "OneFootball",
-     "Sportdigital+"
-    ],
     "ES": [
-     "M+ Vamos",
+     "M+ Vamos (8 y 50)",
      "M+ #Vamos Bar",
      "M+ Liga de Campeones 2"
     ],
     "PT": [
      "Canal 11"
     ],
-    "BR": [
-     "Premiere"
+    "MX": [
+     "Azteca Deportes Network",
+     "Azteca Deportes App",
+     "Fanatiz YouTube",
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Fanatiz",
+     "Fanatiz YouTube"
+    ],
+    "PE": [
+     "L1 Play"
+    ],
+    "EC": [
+     "ECDF App",
+     "ECDF Web",
+     "ECDF Partidos YouTube"
+    ],
+    "GB": [
+     "Premier Sports 2"
+    ],
+    "DE": [
+     "Sportdigital FUSSBALL",
+     "OneFootball Deutschland",
+     "Sportdigital+"
     ]
    },
    "sources": []
@@ -10773,9 +11942,18 @@
    },
    "kickoffUtc": "2026-10-24T21:30:00Z",
    "broadcasts": {
+    "PE": [
+     "L1 Play"
+    ],
+    "UY": [
+     "Record TV",
+     "Flow"
+    ],
+    "PY": [
+     "Flow Eventos HD (Canal 25)"
+    ],
     "BR": [
      "Record",
-     "Premiere",
      "CazéTV"
     ]
    },
@@ -10870,6 +12048,35 @@
     ],
     "PT": [
      "Antel TV Internacional"
+    ],
+    "MX": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PE": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "UY": [
+     "DSports Uruguay Premium",
+     "Antel TV",
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
     ],
     "BR": [
      "Disney+"
@@ -11218,7 +12425,7 @@
    ]
   },
   {
-   "id": "football-20261024-san-lorenzo-newells-old-boys",
+   "id": "football-20261024-san-lorenzo-newell-s-old-boys",
    "sport": "football",
    "competitionId": "arg_primera",
    "tier": "regional",
@@ -11233,7 +12440,7 @@
     "ar": "الدوري الأرجنتيني"
    },
    "home": "San Lorenzo",
-   "away": "Newells Old Boys",
+   "away": "Newell's Old Boys",
    "homeNames": {
     "tr": "San Lorenzo",
     "en": "San Lorenzo",
@@ -11252,7 +12459,7 @@
     "fr": "Newell's Old Boys",
     "it": "Newell's Old Boys",
     "pt": "Newell's Old Boys",
-    "ar": "نيولز أولد بويز"
+    "ar": "Newell's Old Boys"
    },
    "kickoffUtc": "2026-10-24T22:15:00Z",
    "broadcasts": {
@@ -11262,6 +12469,34 @@
     "PT": [
      "Fanatiz"
     ],
+    "MX": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "CO": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "PE": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "UY": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
+    "PY": [
+     "Disney+ Premium",
+     "Fanatiz"
+    ],
     "BR": [
      "Disney+"
     ]
@@ -11269,7 +12504,52 @@
    "sources": []
   },
   {
-   "id": "football-20261024-chapecoense-fluminense",
+   "id": "football-20261024-2-de-mayo-deportivo-recoleta",
+   "sport": "football",
+   "competitionId": "primera_py",
+   "tier": "regional",
+   "competition": {
+    "tr": "Paraguay Ligi",
+    "en": "Paraguay Primera División",
+    "de": "Primera División Paraguay",
+    "es": "Primera División de Paraguay",
+    "fr": "Championnat du Paraguay",
+    "it": "Primera División paraguaiana",
+    "pt": "Primeira Divisão do Paraguai",
+    "ar": "الدوري الباراغوياني"
+   },
+   "home": "2 de Mayo",
+   "away": "Deportivo Recoleta",
+   "homeNames": {
+    "tr": "2 de Mayo",
+    "en": "2 de Mayo",
+    "de": "2 de Mayo",
+    "es": "2 de Mayo",
+    "fr": "2 de Mayo",
+    "it": "2 de Mayo",
+    "pt": "2 de Mayo",
+    "ar": "دوس دي مايو"
+   },
+   "awayNames": {
+    "tr": "Deportivo Recoleta",
+    "en": "Deportivo Recoleta",
+    "de": "Deportivo Recoleta",
+    "es": "Deportivo Recoleta",
+    "fr": "Deportivo Recoleta",
+    "it": "Deportivo Recoleta",
+    "pt": "Deportivo Recoleta",
+    "ar": "Deportivo Recoleta"
+   },
+   "kickoffUtc": "2026-10-24T22:30:00Z",
+   "broadcasts": {
+    "PY": [
+     "Tigo Sports"
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "football-20261024-chapecoense-sc-fluminense",
    "sport": "football",
    "competitionId": "bra_seriea",
    "tier": "global",
@@ -11283,17 +12563,17 @@
     "pt": "Brasileirão Série A",
     "ar": "الدوري البرازيلي"
    },
-   "home": "Chapecoense",
+   "home": "Chapecoense-sc",
    "away": "Fluminense",
    "homeNames": {
-    "tr": "Chapecoense",
-    "en": "Chapecoense",
-    "de": "Chapecoense",
-    "es": "Chapecoense",
-    "fr": "Chapecoense",
-    "it": "Chapecoense",
-    "pt": "Chapecoense",
-    "ar": "تشابيكوينسي"
+    "tr": "Chapecoense-sc",
+    "en": "Chapecoense-sc",
+    "de": "Chapecoense-sc",
+    "es": "Chapecoense-sc",
+    "fr": "Chapecoense-sc",
+    "it": "Chapecoense-sc",
+    "pt": "Chapecoense-sc",
+    "ar": "Chapecoense-sc"
    },
    "awayNames": {
     "tr": "Fluminense",
@@ -11307,6 +12587,9 @@
    },
    "kickoffUtc": "2026-10-24T22:30:00Z",
    "broadcasts": {
+    "PE": [
+     "L1 Play"
+    ],
     "BR": [
      "Prime Video"
     ]
@@ -11314,7 +12597,7 @@
    "sources": []
   },
   {
-   "id": "football-20261024-fc-naples-spokane-velocity",
+   "id": "football-20261024-fc-naples-spokane-velocity-fc",
    "sport": "football",
    "competitionId": "usl1",
    "tier": "regional",
@@ -11329,7 +12612,7 @@
     "ar": "دوري USL الأولى"
    },
    "home": "FC Naples",
-   "away": "Spokane Velocity",
+   "away": "Spokane Velocity FC",
    "homeNames": {
     "tr": "FC Naples",
     "en": "FC Naples",
@@ -11341,14 +12624,14 @@
     "ar": "نابولز"
    },
    "awayNames": {
-    "tr": "Spokane Velocity",
-    "en": "Spokane Velocity",
-    "de": "Spokane Velocity",
-    "es": "Spokane Velocity",
-    "fr": "Spokane Velocity",
-    "it": "Spokane Velocity",
-    "pt": "Spokane Velocity",
-    "ar": "سبوكان فيلوسيتي"
+    "tr": "Spokane Velocity FC",
+    "en": "Spokane Velocity FC",
+    "de": "Spokane Velocity FC",
+    "es": "Spokane Velocity FC",
+    "fr": "Spokane Velocity FC",
+    "it": "Spokane Velocity FC",
+    "pt": "Spokane Velocity FC",
+    "ar": "Spokane Velocity FC"
    },
    "kickoffUtc": "2026-10-24T23:00:00Z",
    "broadcasts": {
@@ -11442,6 +12725,9 @@
    },
    "kickoffUtc": "2026-10-24T23:00:00Z",
    "broadcasts": {
+    "MX": [
+     "FOX One"
+    ],
     "US": [
      "ViX"
     ]
@@ -11533,11 +12819,8 @@
    "kickoffUtc": "2026-10-24T23:00:00Z",
    "broadcasts": {
     "CL": [
-     "TNT Sports",
      "TNT Sports Premium",
-     "HBO Max",
-     "ESPN",
-     "Disney+"
+     "HBO Max"
     ]
    },
    "sources": []
@@ -11590,56 +12873,6 @@
    "sources": []
   },
   {
-   "id": "motorsport-20261024-f1-academy-abd-gp-ters-grid-yarisi",
-   "sport": "motorsport",
-   "competitionId": "f1_academy",
-   "tier": "global",
-   "competition": {
-    "tr": "Formula 1 Academy",
-    "en": "F1 Academy",
-    "de": "F1 Academy",
-    "es": "F1 Academy",
-    "fr": "F1 Academy",
-    "it": "F1 Academy",
-    "pt": "F1 Academy",
-    "ar": "إف 1 أكاديمي"
-   },
-   "home": "F1 Academy ABD GP",
-   "away": "Ters Grid Yarisi",
-   "homeNames": {
-    "tr": "F1 Academy ABD GP",
-    "en": "F1 Academy United States GP",
-    "de": "F1 Academy USA-GP",
-    "es": "F1 Academy GP de Estados Unidos",
-    "fr": "F1 Academy GP des États-Unis",
-    "it": "F1 Academy GP degli Stati Uniti",
-    "pt": "F1 Academy GP dos Estados Unidos",
-    "ar": "أكاديمية الفورمولا 1 - جائزة الولايات المتحدة"
-   },
-   "awayNames": {
-    "tr": "Ters Grid Yarışı",
-    "en": "Reverse Grid Race",
-    "de": "Rennen mit umgekehrter Startaufstellung",
-    "es": "Carrera de parrilla invertida",
-    "fr": "Course à grille inversée",
-    "it": "Gara a griglia invertita",
-    "pt": "Corrida de grid invertido",
-    "ar": "سباق الشبكة المعكوسة"
-   },
-   "kickoffUtc": "2026-10-24T23:00:00Z",
-   "broadcasts": {
-    "TR": [
-     "beIN Sports 4"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN F1",
-     "F1 Academy YouTube"
-    ]
-   },
-   "sources": []
-  },
-  {
    "id": "football-20261024-america-de-cali-cucuta",
    "sport": "football",
    "competitionId": "liga_dimayor",
@@ -11679,8 +12912,8 @@
    "kickoffUtc": "2026-10-24T23:05:00Z",
    "broadcasts": {
     "CO": [
-     "Win Sports",
-     "Win Sports+"
+     "Win Fútbol+",
+     "Win Play"
     ]
    },
    "sources": []
@@ -11724,26 +12957,41 @@
    },
    "kickoffUtc": "2026-10-24T23:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
      "Apple TV"
     ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ],
+    "US": [
+     "Apple TV"
+    ],
     "BR": [
      "Apple TV"
     ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
+    "DE": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -11787,32 +13035,44 @@
    },
    "kickoffUtc": "2026-10-24T23:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
      "Apple TV"
     ],
-    "BR": [
+    "MX": [
      "Apple TV"
     ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ],
+    "US": [
+     "Apple TV"
+    ],
+    "BR": [
+     "Apple TV"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261024-fort-wayne-fc-ac-boise",
+   "id": "football-20261024-fort-wayne-fc-athletic-club-boise",
    "sport": "football",
    "competitionId": "usl1",
    "tier": "regional",
@@ -11827,7 +13087,7 @@
     "ar": "دوري USL الأولى"
    },
    "home": "Fort Wayne FC",
-   "away": "AC Boise",
+   "away": "Athletic Club Boise",
    "homeNames": {
     "tr": "Fort Wayne FC",
     "en": "Fort Wayne FC",
@@ -11895,26 +13155,41 @@
    },
    "kickoffUtc": "2026-10-24T23:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
      "Apple TV"
     ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ],
+    "US": [
+     "Apple TV"
+    ],
     "BR": [
      "Apple TV"
     ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
+    "DE": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -11958,26 +13233,41 @@
    },
    "kickoffUtc": "2026-10-24T23:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
      "Apple TV"
     ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ],
+    "US": [
+     "Apple TV"
+    ],
     "BR": [
      "Apple TV"
     ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
+    "DE": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -12062,7 +13352,7 @@
     "fr": "Sporting JAX",
     "it": "Sporting JAX",
     "pt": "Sporting JAX",
-    "ar": "Sporting JAX"
+    "ar": "سبورتنغ جاكسونفيل"
    },
    "kickoffUtc": "2026-10-24T23:30:00Z",
    "broadcasts": {
@@ -12615,12 +13905,38 @@
    },
    "kickoffUtc": "2026-10-25T00:00:00Z",
    "broadcasts": {
+    "MX": [
+     "Azteca Deportes Network",
+     "Azteca Deportes App",
+     "Disney+ Premium"
+    ],
+    "CO": [
+     "Win Play",
+     "Win Sports"
+    ],
+    "CL": [
+     "Fanatiz"
+    ],
+    "PE": [
+     "L1 Play"
+    ],
+    "UY": [
+     "Flow"
+    ],
+    "EC": [
+     "El Canal del Fútbol",
+     "ECDF App",
+     "ECDF Web",
+     "ECDF Partidos YouTube"
+    ],
+    "PY": [
+     "Flow Eventos HD (Canal 25)"
+    ],
     "GB": [
      "Premier Sports 2"
     ],
     "BR": [
-     "SporTV",
-     "Premiere"
+     "SporTV"
     ]
    },
    "sources": []
@@ -12645,12 +13961,12 @@
    "homeNames": {
     "tr": "Moto3 Avustralya GP",
     "en": "Moto3 Australian GP",
-    "de": "Moto3 Australien-GP",
-    "es": "Moto3 GP de Australia",
-    "fr": "Moto3 GP d'Australie",
-    "it": "Moto3 GP d'Australia",
-    "pt": "Moto3 GP da Austrália",
-    "ar": "موتو 3 - جائزة أستراليا"
+    "de": "Moto3 Australian GP",
+    "es": "Moto3 Australian GP",
+    "fr": "Moto3 Australian GP",
+    "it": "Moto3 Australian GP",
+    "pt": "Moto3 Australian GP",
+    "ar": "Moto3 Australian GP"
    },
    "awayNames": {
     "tr": "Yarış",
@@ -12667,10 +13983,6 @@
     "TR": [
      "S Sport Plus",
      "S Sport"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN MotoGP"
     ]
    },
    "sources": []
@@ -13218,13 +14530,31 @@
    },
    "kickoffUtc": "2026-10-25T00:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
+     "Apple TV"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
      "Apple TV"
     ],
     "BR": [
@@ -13233,12 +14563,6 @@
     ],
     "DE": [
      "Apple TV"
-    ],
-    "US": [
-     "MLS Season Pass (Apple TV)"
-    ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
     ]
    },
    "sources": []
@@ -13282,13 +14606,31 @@
    },
    "kickoffUtc": "2026-10-25T00:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
+     "Apple TV"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
      "Apple TV"
     ],
     "BR": [
@@ -13296,18 +14638,12 @@
     ],
     "DE": [
      "Apple TV"
-    ],
-    "US": [
-     "MLS Season Pass (Apple TV)"
-    ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261025-rosario-central-huracan",
+   "id": "football-20261025-rosario-central-ca-huracan",
    "sport": "football",
    "competitionId": "arg_primera",
    "tier": "regional",
@@ -13322,7 +14658,7 @@
     "ar": "الدوري الأرجنتيني"
    },
    "home": "Rosario Central",
-   "away": "Huracan",
+   "away": "CA Huracan",
    "homeNames": {
     "tr": "Rosario Central",
     "en": "Rosario Central",
@@ -13334,19 +14670,41 @@
     "ar": "روساريو سنترال"
    },
    "awayNames": {
-    "tr": "Huracán",
-    "en": "Huracán",
-    "de": "Huracán",
-    "es": "Huracán",
-    "fr": "Huracán",
-    "it": "Huracán",
-    "pt": "Huracán",
-    "ar": "Huracán"
+    "tr": "CA Huracán",
+    "en": "CA Huracán",
+    "de": "CA Huracán",
+    "es": "CA Huracán",
+    "fr": "CA Huracán",
+    "it": "CA Huracán",
+    "pt": "CA Huracán",
+    "ar": "CA Huracán"
    },
    "kickoffUtc": "2026-10-25T00:30:00Z",
    "broadcasts": {
     "PT": [
      "Sport TV 1"
+    ],
+    "MX": [
+     "TyC Sports Internacional"
+    ],
+    "CO": [
+     "TyC Sports Internacional"
+    ],
+    "CL": [
+     "Fanatiz",
+     "TyC Sports Internacional"
+    ],
+    "PE": [
+     "TyC Sports Internacional"
+    ],
+    "UY": [
+     "TyC Sports Internacional"
+    ],
+    "EC": [
+     "TyC Sports Internacional"
+    ],
+    "PY": [
+     "TyC Sports Internacional"
     ]
    },
    "sources": []
@@ -13390,13 +14748,31 @@
    },
    "kickoffUtc": "2026-10-25T00:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
+     "Apple TV"
+    ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
      "Apple TV"
     ],
     "BR": [
@@ -13404,18 +14780,12 @@
     ],
     "DE": [
      "Apple TV"
-    ],
-    "US": [
-     "MLS Season Pass (Apple TV)"
-    ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
     ]
    },
    "sources": []
   },
   {
-   "id": "football-20261025-universitario-juan-pablo-ii-college",
+   "id": "football-20261025-universitario-acd-juan-pablo-ii-college",
    "sport": "football",
    "competitionId": "liga1_pe",
    "tier": "regional",
@@ -13430,7 +14800,7 @@
     "ar": "الدوري البيروفي"
    },
    "home": "Universitario",
-   "away": "Juan Pablo II College",
+   "away": "ACD Juan Pablo II College",
    "homeNames": {
     "tr": "Universitario",
     "en": "Universitario",
@@ -13442,25 +14812,50 @@
     "ar": "أونيفرسيتاريو"
    },
    "awayNames": {
-    "tr": "Juan Pablo II College",
-    "en": "Juan Pablo II College",
-    "de": "Juan Pablo II College",
-    "es": "Juan Pablo II College",
-    "fr": "Juan Pablo II College",
-    "it": "Juan Pablo II College",
-    "pt": "Juan Pablo II College",
-    "ar": "Juan Pablo II College"
+    "tr": "ACD Juan Pablo II College",
+    "en": "ACD Juan Pablo II College",
+    "de": "ACD Juan Pablo II College",
+    "es": "ACD Juan Pablo II College",
+    "fr": "ACD Juan Pablo II College",
+    "it": "ACD Juan Pablo II College",
+    "pt": "ACD Juan Pablo II College",
+    "ar": "ACD Juan Pablo II College"
    },
    "kickoffUtc": "2026-10-25T00:30:00Z",
    "broadcasts": {
     "ES": [
      "Fanatiz"
     ],
-    "PT": [
-     "Fanatiz"
+    "MX": [
+     "Fanatiz",
+     "Fanatiz YouTube"
+    ],
+    "CO": [
+     "Fanatiz",
+     "Fanatiz YouTube"
+    ],
+    "CL": [
+     "Fanatiz",
+     "Fanatiz YouTube"
+    ],
+    "PE": [
+     "Fanatiz",
+     "L1 Max",
+     "L1 Play"
+    ],
+    "UY": [
+     "Fanatiz",
+     "Fanatiz YouTube"
+    ],
+    "EC": [
+     "Fanatiz",
+     "Fanatiz YouTube"
+    ],
+    "PY": [
+     "Fanatiz",
+     "Fanatiz YouTube"
     ],
     "BR": [
-     "YouTube",
      "Fanatiz"
     ]
    },
@@ -13715,6 +15110,59 @@
    "sources": [
     "espn"
    ]
+  },
+  {
+   "id": "football-20261025-monterrey-guadalajara-chivas",
+   "sport": "football",
+   "competitionId": "liga_mx",
+   "tier": "regional",
+   "competition": {
+    "tr": "Liga MX",
+    "en": "Liga MX",
+    "de": "Liga MX",
+    "es": "Liga MX",
+    "fr": "Liga MX",
+    "it": "Liga MX",
+    "pt": "Liga MX",
+    "ar": "الدوري المكسيكي"
+   },
+   "home": "Monterrey",
+   "away": "Guadalajara Chivas",
+   "homeNames": {
+    "tr": "Monterrey",
+    "en": "Monterrey",
+    "de": "Monterrey",
+    "es": "Monterrey",
+    "fr": "Monterrey",
+    "it": "Monterrey",
+    "pt": "Monterrey",
+    "ar": "مونتيري"
+   },
+   "awayNames": {
+    "tr": "Guadalajara Chivas",
+    "en": "Guadalajara Chivas",
+    "de": "Guadalajara Chivas",
+    "es": "Guadalajara Chivas",
+    "fr": "Guadalajara Chivas",
+    "it": "Guadalajara Chivas",
+    "pt": "Guadalajara Chivas",
+    "ar": "Guadalajara Chivas"
+   },
+   "kickoffUtc": "2026-10-25T01:00:00Z",
+   "broadcasts": {
+    "MX": [
+     "ViX Premium",
+     "TUDN",
+     "Canal 5"
+    ],
+    "CO": [
+     "ViX Premium"
+    ],
+    "BR": [
+     "SportyNet"
+    ]
+   },
+   "sources": []
   },
   {
    "id": "basketball-20261025-nuggets-pelicans",
@@ -14008,8 +15456,8 @@
    "kickoffUtc": "2026-10-25T01:15:00Z",
    "broadcasts": {
     "CO": [
-     "Win Sports",
-     "Win Sports+"
+     "Win Fútbol+",
+     "Win Play"
     ]
    },
    "sources": []
@@ -14034,12 +15482,12 @@
    "homeNames": {
     "tr": "Moto2 Avustralya GP",
     "en": "Moto2 Australian GP",
-    "de": "Moto2 Australien-GP",
-    "es": "Moto2 GP de Australia",
-    "fr": "Moto2 GP d'Australie",
-    "it": "Moto2 GP d'Australia",
-    "pt": "Moto2 GP da Austrália",
-    "ar": "موتو 2 - جائزة أستراليا"
+    "de": "Moto2 Australian GP",
+    "es": "Moto2 Australian GP",
+    "fr": "Moto2 Australian GP",
+    "it": "Moto2 Australian GP",
+    "pt": "Moto2 Australian GP",
+    "ar": "Moto2 Australian GP"
    },
    "awayNames": {
     "tr": "Yarış",
@@ -14056,10 +15504,6 @@
     "TR": [
      "S Sport Plus",
      "S Sport"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN MotoGP"
     ]
    },
    "sources": []
@@ -14103,26 +15547,38 @@
    },
    "kickoffUtc": "2026-10-25T01:30:00Z",
    "broadcasts": {
-    "DE": [
-     "Apple TV"
-    ],
-    "GB": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
      "Apple TV"
     ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ],
     "BR": [
      "Apple TV"
     ],
-    "US": [
-     "MLS Season Pass (Apple TV)"
-    ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
+    "DE": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -14166,26 +15622,38 @@
    },
    "kickoffUtc": "2026-10-25T01:30:00Z",
    "broadcasts": {
-    "DE": [
-     "Apple TV"
-    ],
-    "GB": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
      "Apple TV"
     ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ],
     "BR": [
      "Apple TV"
     ],
-    "US": [
-     "MLS Season Pass (Apple TV)"
-    ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
+    "DE": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -14481,26 +15949,38 @@
    },
    "kickoffUtc": "2026-10-25T02:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
      "Apple TV"
     ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ],
     "BR": [
      "Apple TV"
     ],
-    "US": [
-     "MLS Season Pass (Apple TV)"
-    ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
+    "DE": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -14544,26 +16024,38 @@
    },
    "kickoffUtc": "2026-10-25T02:30:00Z",
    "broadcasts": {
-    "GB": [
-     "Apple TV"
-    ],
-    "DE": [
-     "Apple TV"
-    ],
     "ES": [
      "Apple TV"
     ],
     "PT": [
      "Apple TV"
     ],
+    "MX": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "CL": [
+     "Apple TV"
+    ],
+    "PE": [
+     "Apple TV"
+    ],
+    "EC": [
+     "Apple TV"
+    ],
+    "PY": [
+     "Apple TV"
+    ],
+    "GB": [
+     "Apple TV"
+    ],
     "BR": [
      "Apple TV"
     ],
-    "US": [
-     "MLS Season Pass (Apple TV)"
-    ],
-    "CA": [
-     "MLS Season Pass (Apple TV)"
+    "DE": [
+     "Apple TV"
     ]
    },
    "sources": []
@@ -14588,12 +16080,12 @@
    "homeNames": {
     "tr": "MotoGP Avustralya GP",
     "en": "MotoGP Australian GP",
-    "de": "MotoGP Australien-GP",
-    "es": "MotoGP GP de Australia",
-    "fr": "MotoGP GP d'Australie",
-    "it": "MotoGP GP d'Australia",
-    "pt": "MotoGP GP da Austrália",
-    "ar": "موتو جي بي - جائزة أستراليا"
+    "de": "MotoGP Australian GP",
+    "es": "MotoGP Australian GP",
+    "fr": "MotoGP Australian GP",
+    "it": "MotoGP Australian GP",
+    "pt": "MotoGP Australian GP",
+    "ar": "MotoGP Australian GP"
    },
    "awayNames": {
     "tr": "Yarış",
@@ -14610,10 +16102,6 @@
     "TR": [
      "S Sport Plus",
      "S Sport"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN MotoGP"
     ]
    },
    "sources": []
