@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-28T10:50:03.000Z",
+ "generated_at": "2026-10-28T10:55:39.000Z",
  "date": "2026-10-28",
  "model": "user-provided",
  "stats": {
-  "total": 91,
-  "withChannel": 91,
+  "total": 99,
+  "withChannel": 99,
   "bySport": {
-   "football": 58,
+   "football": 66,
    "basketball": 33
   },
   "warnings": 0,
@@ -57,6 +57,167 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "football-20261028-gamba-osaka-buriram-united",
+   "sport": "football",
+   "competitionId": "afc_cl",
+   "tier": "global",
+   "competition": {
+    "tr": "AFC Şampiyonlar Ligi Elit",
+    "en": "AFC Champions League Elite",
+    "de": "AFC Champions League Elite",
+    "es": "Liga de Campeones de la AFC Elite",
+    "fr": "Ligue des champions de l'AFC Elite",
+    "it": "AFC Champions League Elite",
+    "pt": "Liga dos Campeões da AFC Elite",
+    "ar": "دوري أبطال آسيا للنخبة"
+   },
+   "home": "Gamba Osaka",
+   "away": "Buriram United",
+   "homeNames": {
+    "tr": "Gamba Osaka",
+    "en": "Gamba Osaka",
+    "de": "Gamba Osaka",
+    "es": "Gamba Osaka",
+    "fr": "Gamba Osaka",
+    "it": "Gamba Osaka",
+    "pt": "Gamba Osaka",
+    "ar": "Gamba Osaka"
+   },
+   "awayNames": {
+    "tr": "Buriram United",
+    "en": "Buriram United",
+    "de": "Buriram United",
+    "es": "Buriram United",
+    "fr": "Buriram United",
+    "it": "Buriram United",
+    "pt": "Buriram United",
+    "ar": "Buriram United"
+   },
+   "kickoffUtc": "2026-10-28T10:00:00Z",
+   "broadcasts": {
+    "AU": [
+     "Paramount+"
+    ],
+    "BR": [
+     "Disney+ Premium"
+    ],
+    "ES": [
+     "The AFC Hub YouTube"
+    ],
+    "GB": [
+     "Youtube UK"
+    ],
+    "HR": [
+     "MAXtv To Go",
+     "Sport Klub 3 HR"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "KR": [
+     "Coupang Play"
+    ],
+    "MA": [
+     "beIN Sports 2",
+     "beIN CONNECT",
+     "TOD"
+    ],
+    "TR": [
+     "Spor Smart 2",
+     "D-Smart GO"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261028-kashima-antlers-pohang-steelers",
+   "sport": "football",
+   "competitionId": "afc_cl",
+   "tier": "global",
+   "competition": {
+    "tr": "AFC Şampiyonlar Ligi Elit",
+    "en": "AFC Champions League Elite",
+    "de": "AFC Champions League Elite",
+    "es": "Liga de Campeones de la AFC Elite",
+    "fr": "Ligue des champions de l'AFC Elite",
+    "it": "AFC Champions League Elite",
+    "pt": "Liga dos Campeões da AFC Elite",
+    "ar": "دوري أبطال آسيا للنخبة"
+   },
+   "home": "Kashima Antlers",
+   "away": "Pohang Steelers",
+   "homeNames": {
+    "tr": "Kashima Antlers",
+    "en": "Kashima Antlers",
+    "de": "Kashima Antlers",
+    "es": "Kashima Antlers",
+    "fr": "Kashima Antlers",
+    "it": "Kashima Antlers",
+    "pt": "Kashima Antlers",
+    "ar": "Kashima Antlers"
+   },
+   "awayNames": {
+    "tr": "Pohang Steelers",
+    "en": "Pohang Steelers",
+    "de": "Pohang Steelers",
+    "es": "Pohang Steelers",
+    "fr": "Pohang Steelers",
+    "it": "Pohang Steelers",
+    "pt": "Pohang Steelers",
+    "ar": "Pohang Steelers"
+   },
+   "kickoffUtc": "2026-10-28T10:00:00Z",
+   "broadcasts": {
+    "AT": [
+     "Sportdigital+ App",
+     "Sportdigital1+",
+     "Sportdigital.de"
+    ],
+    "AU": [
+     "Paramount+"
+    ],
+    "BR": [
+     "Disney+ Premium"
+    ],
+    "CH": [
+     "Blue Sport 1 Live",
+     "Sportdigital1+",
+     "Blue Sport 1 Direct"
+    ],
+    "DE": [
+     "Sportdigital+",
+     "Sportdigital1+"
+    ],
+    "ES": [
+     "The AFC Hub YouTube"
+    ],
+    "GB": [
+     "Youtube UK"
+    ],
+    "HR": [
+     "Sportklub 1 Croatia",
+     "MAXtv To Go"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "KR": [
+     "Coupang Play"
+    ],
+    "MA": [
+     "beIN Sports 3",
+     "beIN CONNECT",
+     "TOD",
+     "beIN Sports English"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-fethiyespor-eyupspor",
@@ -218,9 +379,26 @@
     ],
     "BR": [
      "Fanatiz"
+    ],
+    "AR": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "basketball-20261028-siauliai-maxima-roma",
@@ -648,9 +826,42 @@
     ],
     "LY": [
      "Abu Dhabi Sports 2"
+    ],
+    "AR": [
+     "DFB Play"
+    ],
+    "AT": [
+     "Sky Sport 1",
+     "Sky Sport 3",
+     "Sky X",
+     "Sky Sport Top Event"
+    ],
+    "AU": [
+     "German Football YouTube"
+    ],
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CZ": [
+     "Nova Sport 3"
+    ],
+    "JP": [
+     "GAORAオンデマンド"
+    ],
+    "NL": [
+     "Ziggo Sport",
+     "Ziggo Sport Kanaal 14"
+    ],
+    "NO": [
+     "VG TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-paderborn-vfb-stuttgart",
@@ -777,9 +988,41 @@
     "LY": [
      "beIN Sports MENA Max 4",
      "Abu Dhabi Sports Extra"
+    ],
+    "AR": [
+     "DFB Play"
+    ],
+    "AT": [
+     "Sky Sport 1",
+     "Sky Sport 4",
+     "Sky X",
+     "Sky Sport Top Event"
+    ],
+    "AU": [
+     "German Football YouTube"
+    ],
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CZ": [
+     "Nova Sport 4"
+    ],
+    "JP": [
+     "GAORAオンデマンド"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "NZ": [
+     "DAZN New Zealand"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-sc-freiburg-wolfsburg",
@@ -896,9 +1139,49 @@
     ],
     "LY": [
      "Abu Dhabi Sports 1"
+    ],
+    "AR": [
+     "DFB Play"
+    ],
+    "AT": [
+     "Sky Sport 1",
+     "Sky Sport 2",
+     "Sky Sport 6",
+     "Sky X"
+    ],
+    "AU": [
+     "German Football YouTube"
+    ],
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CH": [
+     "Sky Sport 2 D"
+    ],
+    "CZ": [
+     "Nova Sport 6"
+    ],
+    "FR": [
+     "beIN Sports MAX 5 (FR)"
+    ],
+    "JP": [
+     "U-NEXT",
+     "GAORA SPORTS",
+     "GAORAオンデマンド"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "NZ": [
+     "DAZN New Zealand"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-ssv-jeddeloh-hertha-berlin",
@@ -950,9 +1233,32 @@
     ],
     "FR": [
      "beIN SPORTS MAX 7HD"
+    ],
+    "AT": [
+     "Sky Sport 1",
+     "Sky Sport 5",
+     "Sky X",
+     "Sky Sport Top Event"
+    ],
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "JP": [
+     "GAORAオンデマンド"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "NZ": [
+     "DAZN New Zealand"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "basketball-20261028-aris-cedevita-olimpija",
@@ -1264,9 +1570,64 @@
     ],
     "LY": [
      "STARZPLAY"
+    ],
+    "AR": [
+     "ESPN 3",
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "DAZN"
+    ],
+    "AU": [
+     "beIN CONNECT"
+    ],
+    "BE": [
+     "DAZN 2 (BE)",
+     "DAZN (BE)"
+    ],
+    "CA": [
+     "DAZN Canada",
+     "TLN"
+    ],
+    "CH": [
+     "DAZN"
+    ],
+    "CZ": [
+     "Sport 2"
+    ],
+    "FR": [
+     "DAZN 1 (FR)",
+     "DAZN.com (FR)"
+    ],
+    "HR": [
+     "MAXtv To Go",
+     "Arena Sport 1"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "NG": [
+     "SuperSport Kickoff"
+    ],
+    "NL": [
+     "Ziggo Sport 5"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "ZA": [
+     "SuperSport Laliga"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-parma-udinese",
@@ -1384,9 +1745,34 @@
     ],
     "LY": [
      "STARZPLAY"
+    ],
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "FR": [
+     "DAZN 1 (FR)",
+     "DAZN.com (FR)"
+    ],
+    "HR": [
+     "MAXtv To Go",
+     "Arena Sport 6"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-venezia-inter",
@@ -1524,9 +1910,59 @@
     ],
     "LY": [
      "STARZPLAY"
+    ],
+    "AR": [
+     "ESPN",
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "DAZN"
+    ],
+    "AU": [
+     "beIN CONNECT"
+    ],
+    "BE": [
+     "DAZN 1 (BE)",
+     "DAZN (BE)"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CH": [
+     "DAZN"
+    ],
+    "CZ": [
+     "Sport 1"
+    ],
+    "HR": [
+     "MAXtv To Go",
+     "Arena Sport 4"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "NG": [
+     "SuperSport Football"
+    ],
+    "NL": [
+     "Ziggo Sport 2"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "ZA": [
+     "SuperSport Football"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "basketball-20261028-hapoel-tel-aviv-anadolu-efes",
@@ -1742,9 +2178,39 @@
     ],
     "LY": [
      "MBC Shahid"
+    ],
+    "AR": [
+     "Canal por confirmar"
+    ],
+    "BR": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Canal por confirmar"
+    ],
+    "CO": [
+     "Canal por confirmar"
+    ],
+    "EC": [
+     "Canal por confirmar"
+    ],
+    "HR": [
+     "MAXtv To Go",
+     "Arena Sport 6"
+    ],
+    "PE": [
+     "Canal por confirmar"
+    ],
+    "PY": [
+     "Canal por confirmar"
+    ],
+    "UY": [
+     "Canal por confirmar"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-cd-tarancon-levante",
@@ -1824,9 +2290,35 @@
     ],
     "LY": [
      "MBC Shahid"
+    ],
+    "AR": [
+     "Canal por confirmar"
+    ],
+    "BR": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Canal por confirmar"
+    ],
+    "CO": [
+     "Canal por confirmar"
+    ],
+    "EC": [
+     "Canal por confirmar"
+    ],
+    "PE": [
+     "Canal por confirmar"
+    ],
+    "PY": [
+     "Canal por confirmar"
+    ],
+    "UY": [
+     "Canal por confirmar"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-pisa-palermo",
@@ -1899,9 +2391,31 @@
     ],
     "IT": [
      "DAZN"
+    ],
+    "AR": [
+     "OneFootball PPV"
+    ],
+    "AT": [
+     "OneFootball PPV"
+    ],
+    "AU": [
+     "OneFootball PPV"
+    ],
+    "BR": [
+     "OneFootball PPV"
+    ],
+    "CH": [
+     "Blue Sport 1 Live",
+     "OneFootball PPV",
+     "Blue Sport 1 Direct"
+    ],
+    "JP": [
+     "OneFootball PPV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-fc-cajamarca-utc-cajamarca",
@@ -1973,9 +2487,26 @@
     ],
     "BR": [
      "Fanatiz"
+    ],
+    "AR": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "basketball-20261028-derthona-tortona-rostock-seawolves",
@@ -2228,9 +2759,29 @@
     ],
     "IT": [
      "DAZN"
+    ],
+    "AR": [
+     "OneFootball PPV"
+    ],
+    "AT": [
+     "OneFootball PPV"
+    ],
+    "AU": [
+     "OneFootball PPV"
+    ],
+    "BR": [
+     "OneFootball PPV"
+    ],
+    "CH": [
+     "OneFootball PPV"
+    ],
+    "JP": [
+     "OneFootball PPV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-juve-stabia-verona",
@@ -2303,9 +2854,127 @@
     ],
     "IT": [
      "DAZN"
+    ],
+    "AR": [
+     "OneFootball PPV"
+    ],
+    "AT": [
+     "OneFootball PPV"
+    ],
+    "AU": [
+     "OneFootball PPV"
+    ],
+    "BR": [
+     "OneFootball PPV"
+    ],
+    "CH": [
+     "Blue Sport 2 Live",
+     "OneFootball PPV",
+     "Blue Sport 2 Direct"
+    ],
+    "JP": [
+     "OneFootball PPV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261028-alcoyano-mallorca",
+   "sport": "football",
+   "competitionId": "copa_del_rey",
+   "tier": "regional",
+   "competition": {
+    "tr": "İspanya Kral Kupası",
+    "en": "Copa del Rey",
+    "de": "Copa del Rey",
+    "es": "Copa del Rey",
+    "fr": "Coupe du Roi",
+    "it": "Coppa del Re",
+    "pt": "Copa do Rei",
+    "ar": "كأس ملك إسبانيا"
+   },
+   "home": "Alcoyano",
+   "away": "Mallorca",
+   "homeNames": {
+    "tr": "Alcoyano",
+    "en": "Alcoyano",
+    "de": "Alcoyano",
+    "es": "Alcoyano",
+    "fr": "Alcoyano",
+    "it": "Alcoyano",
+    "pt": "Alcoyano",
+    "ar": "Alcoyano"
+   },
+   "awayNames": {
+    "tr": "Mallorca",
+    "en": "Mallorca",
+    "de": "Mallorca",
+    "es": "Mallorca",
+    "fr": "Mallorca",
+    "it": "Mallorca",
+    "pt": "Mallorca",
+    "ar": "Mallorca"
+   },
+   "kickoffUtc": "2026-10-28T19:00:00Z",
+   "broadcasts": {
+    "ES": [
+     "À Punt",
+     "IB3"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261028-nacional-florida-juventud",
+   "sport": "football",
+   "competitionId": "copa_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Kupası",
+    "en": "Copa AUF Uruguay",
+    "de": "Copa AUF Uruguay",
+    "es": "Copa AUF Uruguay",
+    "fr": "Copa AUF Uruguay",
+    "it": "Copa AUF Uruguay",
+    "pt": "Copa AUF Uruguai",
+    "ar": "كأس أوروغواي"
+   },
+   "home": "Nacional Florida",
+   "away": "Juventud",
+   "homeNames": {
+    "tr": "Nacional Florida",
+    "en": "Nacional Florida",
+    "de": "Nacional Florida",
+    "es": "Nacional Florida",
+    "fr": "Nacional Florida",
+    "it": "Nacional Florida",
+    "pt": "Nacional Florida",
+    "ar": "Nacional Florida"
+   },
+   "awayNames": {
+    "tr": "Juventud de Las Piedras",
+    "en": "Juventud de Las Piedras",
+    "de": "Juventud de Las Piedras",
+    "es": "Juventud de Las Piedras",
+    "fr": "Juventud de Las Piedras",
+    "it": "Juventud de Las Piedras",
+    "pt": "Juventud de Las Piedras",
+    "ar": "خوفنتود"
+   },
+   "kickoffUtc": "2026-10-28T19:00:00Z",
+   "broadcasts": {
+    "UY": [
+     "DGO",
+     "DSports Uruguay + Plus"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "basketball-20261028-london-lions-turk-telekom",
@@ -2564,9 +3233,59 @@
     "LY": [
      "beIN Sports MENA 4",
      "TOD TV"
+    ],
+    "AR": [
+     "Disney+ Premium"
+    ],
+    "AU": [
+     "beIN Sports 2"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CZ": [
+     "Nova Sport 5"
+    ],
+    "GH": [
+     "SuperSport GOtv LaLiga",
+     "SuperSport Laliga ROA",
+     "DStv Now"
+    ],
+    "HR": [
+     "MAXtv To Go",
+     "Arena Sport 4",
+     "Arena Sport 8"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "KR": [
+     "Coupang Play"
+    ],
+    "NG": [
+     "SuperSport GOtv LaLiga",
+     "SuperSport Laliga Nigeria"
+    ],
+    "NL": [
+     "Viaplay NL"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "V sport 2 NO",
+     "TV 2 Play (NO)"
+    ],
+    "NZ": [
+     "beIN CONNECT",
+     "beIN Sports Connect New Zealand"
+    ],
+    "ZA": [
+     "SuperSport GOtv LaLiga",
+     "SuperSport Football Plus"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-afc-bournemouth-aston-villa",
@@ -2691,9 +3410,45 @@
     "LY": [
      "beIN Sports MENA 6",
      "TOD TV"
+    ],
+    "AR": [
+     "Disney+ Premium"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "HR": [
+     "MAXtv To Go",
+     "Arena Sport 6"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "KR": [
+     "Coupang Play"
+    ],
+    "NG": [
+     "SuperSport Kickoff"
+    ],
+    "NL": [
+     "Viaplay NL"
+    ],
+    "NO": [
+     "TV 2 Play (NO)",
+     "V sport 3 NO",
+     "Viaplay NO"
+    ],
+    "NZ": [
+     "beIN CONNECT",
+     "beIN Sports Connect New Zealand"
+    ],
+    "ZA": [
+     "SuperSport Kickoff"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-bayern-munich-fc-magdeburg",
@@ -2808,9 +3563,62 @@
     ],
     "LY": [
      "Abu Dhabi Sports 1"
+    ],
+    "AR": [
+     "DFB Play"
+    ],
+    "AT": [
+     "Sky Sport 1",
+     "Sky Sport 2",
+     "Sky Sport News",
+     "Sky Sport UHD"
+    ],
+    "AU": [
+     "German Football YouTube"
+    ],
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "BR": [
+     "ESPN 4",
+     "Disney+ Premium"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CH": [
+     "Sky Sport 2 D",
+     "L'Équipe TV",
+     "Servus TV"
+    ],
+    "CZ": [
+     "Nova Sport 3"
+    ],
+    "FR": [
+     "L'Équipe live",
+     "la chaine L'Équipe",
+     "beIN Sports MAX 4 (FR)"
+    ],
+    "JP": [
+     "U-NEXT",
+     "GAORA SPORTS",
+     "GAORAオンデマンド"
+    ],
+    "NL": [
+     "Ziggo Sport",
+     "Ziggo Sport 3",
+     "Ziggo Sport Kanaal 14"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "NZ": [
+     "DAZN New Zealand"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-fulham-crystal-palace",
@@ -2916,9 +3724,35 @@
     ],
     "LY": [
      "beIN Sports MENA 9"
+    ],
+    "AR": [
+     "Disney+ Premium"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "KR": [
+     "Coupang Play"
+    ],
+    "NL": [
+     "Viaplay NL"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "TV3+ NO",
+     "TV 2 Play (NO)"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand",
+     "beIN CONNECT"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-genoa-juventus",
@@ -3052,9 +3886,60 @@
     ],
     "LY": [
      "STARZPLAY"
+    ],
+    "AR": [
+     "ESPN 3",
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "DAZN"
+    ],
+    "AU": [
+     "beIN CONNECT"
+    ],
+    "BE": [
+     "DAZN (BE)",
+     "DAZN 1 (BE)"
+    ],
+    "CA": [
+     "DAZN Canada",
+     "TLN"
+    ],
+    "CH": [
+     "DAZN"
+    ],
+    "CZ": [
+     "Sport 2"
+    ],
+    "HR": [
+     "MAXtv To Go",
+     "Arena Sport 5"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "NG": [
+     "SuperSport Football"
+    ],
+    "NL": [
+     "Ziggo Sport 5"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "ZA": [
+     "SuperSport Football"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-hannover-96-kaiserslautern",
@@ -3104,9 +3989,35 @@
      "RTL+",
      "OneFootball Deutschland",
      "WOW"
+    ],
+    "AT": [
+     "Sky Sport 1",
+     "Sky Sport 5",
+     "Sky Sport 9",
+     "Sky X"
+    ],
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "FR": [
+     "beIN Sports MAX 10 (FR)"
+    ],
+    "JP": [
+     "GAORAオンデマンド"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "NZ": [
+     "DAZN New Zealand"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-holstein-kiel-hoffenheim",
@@ -3186,9 +4097,39 @@
     ],
     "FR": [
      "beIN SPORTS MAX 8HD"
+    ],
+    "AR": [
+     "DFB Play"
+    ],
+    "AT": [
+     "Sky Sport 1",
+     "Sky Sport 4",
+     "Sky Sport 8",
+     "Sky X"
+    ],
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CZ": [
+     "Nova Sport 6"
+    ],
+    "JP": [
+     "U-NEXT",
+     "GAORAオンデマンド"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "NZ": [
+     "DAZN New Zealand"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-leverkusen-fc-nurnberg",
@@ -3302,9 +4243,44 @@
     ],
     "LY": [
      "Abu Dhabi Sports 2"
+    ],
+    "AR": [
+     "DFB Play"
+    ],
+    "AT": [
+     "Sky Sport 1",
+     "Sky Sport 3",
+     "Sky Sport 7",
+     "Sky X"
+    ],
+    "AU": [
+     "German Football YouTube"
+    ],
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CZ": [
+     "Nova Sport 4"
+    ],
+    "FR": [
+     "beIN Sports MAX 5 (FR)"
+    ],
+    "JP": [
+     "GAORAオンデマンド"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "NZ": [
+     "DAZN New Zealand"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-monza-napoli",
@@ -3429,9 +4405,64 @@
     ],
     "LY": [
      "STARZPLAY"
+    ],
+    "AR": [
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "DAZN"
+    ],
+    "AU": [
+     "beIN CONNECT"
+    ],
+    "BE": [
+     "DAZN (BE)",
+     "DAZN 2 (BE)"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CH": [
+     "DAZN"
+    ],
+    "CZ": [
+     "Sport 1"
+    ],
+    "GH": [
+     "SuperSport Football Plus ROA"
+    ],
+    "HR": [
+     "MAXtv To Go",
+     "Arena Sport 9 Croatia"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "NG": [
+     "SuperSport Football Plus Nigeria"
+    ],
+    "NL": [
+     "Ziggo Sport 2"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "TR": [
+     "S Sport"
+    ],
+    "ZA": [
+     "SuperSport Laliga"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-sunderland-brentford",
@@ -3548,9 +4579,49 @@
     "LY": [
      "beIN Sports MENA 5",
      "TOD TV"
+    ],
+    "AR": [
+     "Disney+ Premium"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "GH": [
+     "DStv Now",
+     "SuperSport Action Africa"
+    ],
+    "HR": [
+     "MAXtv To Go",
+     "Arena Sport 10"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "KR": [
+     "Coupang Play"
+    ],
+    "NG": [
+     "SuperSport Action Africa"
+    ],
+    "NL": [
+     "Viaplay NL"
+    ],
+    "NO": [
+     "V sport + NO",
+     "TV 2 Play (NO)",
+     "Viaplay NO"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand",
+     "beIN CONNECT"
+    ],
+    "ZA": [
+     "SuperSport Action"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "basketball-20261028-la-laguna-tenerife-reyer-venezia",
@@ -3676,9 +4747,45 @@
     ],
     "LY": [
      "MBC Shahid"
+    ],
+    "AR": [
+     "Canal por confirmar"
+    ],
+    "AT": [
+     "DAZN"
+    ],
+    "BR": [
+     "Disney+ Premium"
+    ],
+    "CH": [
+     "DAZN"
+    ],
+    "CL": [
+     "Canal por confirmar"
+    ],
+    "CO": [
+     "Canal por confirmar"
+    ],
+    "EC": [
+     "Canal por confirmar"
+    ],
+    "HR": [
+     "Arena Sport 6",
+     "MAXtv To Go"
+    ],
+    "PE": [
+     "Canal por confirmar"
+    ],
+    "PY": [
+     "Canal por confirmar"
+    ],
+    "UY": [
+     "Canal por confirmar"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-cf-ue-tavernes-de-la-valldigna-valencia",
@@ -3761,9 +4868,38 @@
     ],
     "LY": [
      "MBC Shahid"
+    ],
+    "AR": [
+     "Canal por confirmar"
+    ],
+    "BR": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Canal por confirmar"
+    ],
+    "CO": [
+     "Canal por confirmar"
+    ],
+    "EC": [
+     "Canal por confirmar"
+    ],
+    "JP": [
+     "U-NEXT"
+    ],
+    "PE": [
+     "Canal por confirmar"
+    ],
+    "PY": [
+     "Canal por confirmar"
+    ],
+    "UY": [
+     "Canal por confirmar"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-hearts-rangers",
@@ -3815,9 +4951,30 @@
      "Sportdigital FUSSBALL",
      "OneFootball Deutschland",
      "Sportdigital+"
+    ],
+    "AT": [
+     "Sportdigital Fussball",
+     "OneFootball PPV",
+     "Sportdigital+ App",
+     "Sportdigital.de"
+    ],
+    "BR": [
+     "Canal GOAT"
+    ],
+    "CH": [
+     "Sportdigital Fussball",
+     "OneFootball PPV"
+    ],
+    "HR": [
+     "MAXtv To Go"
+    ],
+    "KR": [
+     "SPOTV NOW"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-liverpool-chelsea",
@@ -3954,9 +5111,68 @@
     "LY": [
      "beIN Sports MENA 1",
      "TOD TV"
+    ],
+    "AR": [
+     "ESPN",
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "Sky Sports Premier League",
+     "Sky Stream"
+    ],
+    "AU": [
+     "beIN Sports 3"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CZ": [
+     "Nova Sport 2"
+    ],
+    "DE": [
+     "Sky Sport Premier League",
+     "WOW"
+    ],
+    "GH": [
+     "SuperSport Premier League ROA",
+     "Supersport Grandstand ROA",
+     "DStv Now"
+    ],
+    "HR": [
+     "MAXtv To Go",
+     "Arena Sport 1"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "KR": [
+     "Coupang Play"
+    ],
+    "NG": [
+     "SuperSport Premier League Nigeria",
+     "Supersport Grandstand ROA"
+    ],
+    "NL": [
+     "Viaplay NL"
+    ],
+    "NO": [
+     "TV 2 Play (NO)",
+     "V sport 1 NO",
+     "Viaplay NO"
+    ],
+    "NZ": [
+     "beIN CONNECT",
+     "beIN Sports Connect New Zealand"
+    ],
+    "ZA": [
+     "Supersport Grandstand",
+     "SuperSport Premier League Nigeria",
+     "SuperSport Premier League"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-salamanca-celta-vigo",
@@ -4036,9 +5252,35 @@
     ],
     "LY": [
      "MBC Shahid"
+    ],
+    "AR": [
+     "Canal por confirmar"
+    ],
+    "BR": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Canal por confirmar"
+    ],
+    "CO": [
+     "Canal por confirmar"
+    ],
+    "EC": [
+     "Canal por confirmar"
+    ],
+    "PE": [
+     "Canal por confirmar"
+    ],
+    "PY": [
+     "Canal por confirmar"
+    ],
+    "UY": [
+     "Canal por confirmar"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-alianza-atletico-deportivo-garcilaso",
@@ -4110,9 +5352,113 @@
     ],
     "BR": [
      "Fanatiz"
+    ],
+    "AR": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261028-porto-academico-viseu",
+   "sport": "football",
+   "competitionId": "taca_da_liga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Portekiz Lig Kupası",
+    "en": "Taça da Liga",
+    "de": "Taça da Liga",
+    "es": "Copa de la Liga de Portugal",
+    "fr": "Coupe de la Ligue portugaise",
+    "it": "Taça da Liga",
+    "pt": "Taça da Liga",
+    "ar": "كأس الدوري البرتغالي"
+   },
+   "home": "Porto",
+   "away": "Academico Viseu",
+   "homeNames": {
+    "tr": "FC Porto",
+    "en": "FC Porto",
+    "de": "FC Porto",
+    "es": "FC Porto",
+    "fr": "FC Porto",
+    "it": "FC Porto",
+    "pt": "FC Porto",
+    "ar": "بورتو"
+   },
+   "awayNames": {
+    "tr": "Académico Viseu",
+    "en": "Académico Viseu",
+    "de": "Académico Viseu",
+    "es": "Académico Viseu",
+    "fr": "Académico Viseu",
+    "it": "Académico Viseu",
+    "pt": "Académico Viseu",
+    "ar": "فيسيو"
+   },
+   "kickoffUtc": "2026-10-28T20:30:00Z",
+   "broadcasts": {
+    "AR": [
+     "DSports",
+     "DGO",
+     "Amazon Prime Video",
+     "Paramount+"
+    ],
+    "CL": [
+     "DAZN",
+     "DSports",
+     "DGO",
+     "Paramount+"
+    ],
+    "CO": [
+     "DAZN",
+     "DSports",
+     "Win Play",
+     "DGO"
+    ],
+    "EC": [
+     "DAZN",
+     "DSports",
+     "DGO",
+     "Paramount+"
+    ],
+    "NO": [
+     "VG TV"
+    ],
+    "PE": [
+     "DAZN",
+     "DSports",
+     "DGO",
+     "Paramount+"
+    ],
+    "PT": [
+     "Sport TV 1"
+    ],
+    "UY": [
+     "DAZN",
+     "DSports",
+     "DGO",
+     "Paramount+"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "kooora"
+   ]
   },
   {
    "id": "football-20261028-fluminense-internacional",
@@ -4191,9 +5537,29 @@
      "Record",
      "CazéTV",
      "Ge Tv"
+    ],
+    "AR": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "US": [
+     "Fanatiz"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-rb-bragantino-chapecoense",
@@ -4261,9 +5627,32 @@
     ],
     "PY": [
      "Fanatiz"
+    ],
+    "AR": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "BR": [
+     "Premiere"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "US": [
+     "Fanatiz"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-santos-palmeiras",
@@ -4349,9 +5738,85 @@
      "OneFootball Deutschland",
      "DAZN",
      "Sportdigital FUSSBALL"
+    ],
+    "AR": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "DAZN",
+     "Sportdigital Fussball",
+     "Fanatiz",
+     "OneFootball PPV"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "DAZN",
+     "Sportdigital Fussball",
+     "Fanatiz",
+     "OneFootball PPV"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "US": [
+     "Fanatiz"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261028-luqueno-recoleta",
+   "sport": "football",
+   "competitionId": "copa_paraguay",
+   "tier": "regional",
+   "competition": {
+    "tr": "Paraguay Kupası",
+    "en": "Copa Paraguay",
+    "de": "Copa Paraguay",
+    "es": "Copa Paraguay",
+    "fr": "Coupe du Paraguay",
+    "it": "Coppa del Paraguay",
+    "pt": "Copa Paraguai",
+    "ar": "كأس باراغواي"
+   },
+   "home": "Luqueno",
+   "away": "Recoleta",
+   "homeNames": {
+    "tr": "Luqueño",
+    "en": "Luqueño",
+    "de": "Luqueño",
+    "es": "Luqueño",
+    "fr": "Luqueño",
+    "it": "Luqueño",
+    "pt": "Luqueño",
+    "ar": "Luqueño"
+   },
+   "awayNames": {
+    "tr": "Recoleta",
+    "en": "Recoleta",
+    "de": "Recoleta",
+    "es": "Recoleta",
+    "fr": "Recoleta",
+    "it": "Recoleta",
+    "pt": "Recoleta",
+    "ar": "Recoleta"
+   },
+   "kickoffUtc": "2026-10-28T22:30:00Z",
+   "broadcasts": {
+    "PT": [
+     "Fanatiz"
+    ],
+    "PY": [
+     "Tigo Sports"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-once-caldas-alianza",
@@ -4416,9 +5881,17 @@
     ],
     "EC": [
      "RCN Nuestra Tele"
+    ],
+    "AR": [
+     "RCN Nuestra Tele"
+    ],
+    "BR": [
+     "RCN Nuestra Tele"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "basketball-20261028-hawks-heat",
@@ -5467,7 +6940,9 @@
      "HBO Max"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-charlotte-fc-cf-montreal",
@@ -5543,9 +7018,72 @@
     ],
     "DE": [
      "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
+    ],
+    "AT": [
+     "Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
+    "BE": [
+     "Apple TV (BE)"
+    ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "CH": [
+     "Apple TV"
+    ],
+    "CZ": [
+     "Apple TV"
+    ],
+    "FR": [
+     "Apple TV (FR)"
+    ],
+    "GH": [
+     "MLS Pass on Apple TV"
+    ],
+    "HR": [
+     "Apple TV"
+    ],
+    "IT": [
+     "Apple TV (IT)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "MA": [
+     "Apple TV"
+    ],
+    "NG": [
+     "MLS Season Pass",
+     "Apple TV"
+    ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
+    "NO": [
+     "Apple TV (NO)"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "TR": [
+     "Apple TV"
+    ],
+    "ZA": [
+     "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-inter-miami-cf-fc-cincinnati",
@@ -5621,9 +7159,72 @@
     ],
     "DE": [
      "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
+    ],
+    "AT": [
+     "Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
+    "BE": [
+     "Apple TV (BE)"
+    ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "CH": [
+     "Apple TV"
+    ],
+    "CZ": [
+     "Apple TV"
+    ],
+    "FR": [
+     "Apple TV (FR)"
+    ],
+    "GH": [
+     "MLS Pass on Apple TV"
+    ],
+    "HR": [
+     "Apple TV"
+    ],
+    "IT": [
+     "Apple TV (IT)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "MA": [
+     "Apple TV"
+    ],
+    "NG": [
+     "MLS Season Pass",
+     "Apple TV"
+    ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
+    "NO": [
+     "Apple TV (NO)"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "TR": [
+     "Apple TV"
+    ],
+    "ZA": [
+     "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-new-england-revolution-new-york-red-bulls",
@@ -5699,9 +7300,71 @@
     ],
     "DE": [
      "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
+    ],
+    "AT": [
+     "Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
+    "BE": [
+     "Apple TV (BE)"
+    ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "CH": [
+     "Apple TV"
+    ],
+    "CZ": [
+     "Apple TV"
+    ],
+    "FR": [
+     "Apple TV (FR)"
+    ],
+    "GH": [
+     "MLS Pass on Apple TV"
+    ],
+    "HR": [
+     "Apple TV"
+    ],
+    "IT": [
+     "Apple TV (IT)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "MA": [
+     "Apple TV"
+    ],
+    "NG": [
+     "Apple TV"
+    ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
+    "NO": [
+     "Apple TV (NO)"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "TR": [
+     "Apple TV"
+    ],
+    "ZA": [
+     "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-new-york-city-fc-atlanta-united",
@@ -5774,9 +7437,75 @@
     ],
     "BR": [
      "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
+    ],
+    "AT": [
+     "Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
+    "BE": [
+     "Apple TV (BE)"
+    ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "CH": [
+     "Apple TV"
+    ],
+    "CZ": [
+     "Apple TV"
+    ],
+    "DE": [
+     "Apple TV (DE)"
+    ],
+    "FR": [
+     "Apple TV (FR)"
+    ],
+    "GH": [
+     "MLS Pass on Apple TV"
+    ],
+    "HR": [
+     "Apple TV"
+    ],
+    "IT": [
+     "Apple TV (IT)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "MA": [
+     "Apple TV"
+    ],
+    "NG": [
+     "MLS Season Pass",
+     "Apple TV"
+    ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
+    "NO": [
+     "Apple TV (NO)"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "TR": [
+     "Apple TV"
+    ],
+    "ZA": [
+     "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261028-toronto-fc-d-c-united",
@@ -6107,6 +7836,54 @@
    ]
   },
   {
+   "id": "football-20261028-porongos-deportivo-maldonado",
+   "sport": "football",
+   "competitionId": "copa_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Kupası",
+    "en": "Copa AUF Uruguay",
+    "de": "Copa AUF Uruguay",
+    "es": "Copa AUF Uruguay",
+    "fr": "Copa AUF Uruguay",
+    "it": "Copa AUF Uruguay",
+    "pt": "Copa AUF Uruguai",
+    "ar": "كأس أوروغواي"
+   },
+   "home": "Porongos",
+   "away": "Deportivo Maldonado",
+   "homeNames": {
+    "tr": "Porongos",
+    "en": "Porongos",
+    "de": "Porongos",
+    "es": "Porongos",
+    "fr": "Porongos",
+    "it": "Porongos",
+    "pt": "Porongos",
+    "ar": "Porongos"
+   },
+   "awayNames": {
+    "tr": "Deportivo Maldonado",
+    "en": "Deportivo Maldonado",
+    "de": "Deportivo Maldonado",
+    "es": "Deportivo Maldonado",
+    "fr": "Deportivo Maldonado",
+    "it": "Deportivo Maldonado",
+    "pt": "Deportivo Maldonado",
+    "ar": "ديبورتيفو مالدونادو"
+   },
+   "kickoffUtc": "2026-10-28T23:30:00Z",
+   "broadcasts": {
+    "UY": [
+     "DGO",
+     "DSports Uruguay + Plus"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
    "id": "football-20261029-cienciano-atletico-grau",
    "sport": "football",
    "competitionId": "liga1_pe",
@@ -6186,9 +7963,31 @@
     ],
     "BR": [
      "Fanatiz"
+    ],
+    "AR": [
+     "Fanatiz",
+     "L1 Max YouTube"
+    ],
+    "AT": [
+     "Fanatiz",
+     "L1 Max YouTube"
+    ],
+    "AU": [
+     "Fanatiz",
+     "L1 Max YouTube"
+    ],
+    "CH": [
+     "Fanatiz",
+     "L1 Max YouTube"
+    ],
+    "JP": [
+     "Fanatiz",
+     "L1 Max YouTube"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "basketball-20261029-bulls-knicks",
@@ -7195,6 +8994,80 @@
    ]
   },
   {
+   "id": "football-20261029-atletico-tucuman-club-atletico-platense",
+   "sport": "football",
+   "competitionId": "copa_argentina",
+   "tier": "regional",
+   "competition": {
+    "tr": "Arjantin Kupası",
+    "en": "Copa Argentina",
+    "de": "Copa Argentina",
+    "es": "Copa Argentina",
+    "fr": "Coupe d'Argentine",
+    "it": "Coppa d'Argentina",
+    "pt": "Copa da Argentina",
+    "ar": "كأس الأرجنتين"
+   },
+   "home": "Atletico Tucuman",
+   "away": "Club Atletico Platense",
+   "homeNames": {
+    "tr": "Atlético Tucumán",
+    "en": "Atlético Tucumán",
+    "de": "Atlético Tucumán",
+    "es": "Atlético Tucumán",
+    "fr": "Atlético Tucumán",
+    "it": "Atlético Tucumán",
+    "pt": "Atlético Tucumán",
+    "ar": "أتلتيكو توكومان"
+   },
+   "awayNames": {
+    "tr": "Club Atlético Platense",
+    "en": "Club Atlético Platense",
+    "de": "Club Atlético Platense",
+    "es": "Club Atlético Platense",
+    "fr": "Club Atlético Platense",
+    "it": "Club Atlético Platense",
+    "pt": "Club Atlético Platense",
+    "ar": "Club Atlético Platense"
+   },
+   "kickoffUtc": "2026-10-29T00:15:00Z",
+   "broadcasts": {
+    "AR": [
+     "TyC Sports",
+     "TyC Sports Play"
+    ],
+    "CL": [
+     "TyC Sports Internacional"
+    ],
+    "CO": [
+     "TyC Sports Internacional",
+     "Win Play"
+    ],
+    "EC": [
+     "TyC Sports Internacional"
+    ],
+    "MX": [
+     "TyC Sports Internacional"
+    ],
+    "PE": [
+     "TyC Sports Internacional"
+    ],
+    "PT": [
+     "Sport TV 2",
+     "Fanatiz"
+    ],
+    "PY": [
+     "TyC Sports Internacional"
+    ],
+    "UY": [
+     "TyC Sports Internacional"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
    "id": "football-20261029-austin-fc-real-salt-lake",
    "sport": "football",
    "competitionId": "mls",
@@ -7268,9 +9141,72 @@
     ],
     "DE": [
      "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
+    ],
+    "AT": [
+     "Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
+    "BE": [
+     "Apple TV (BE)"
+    ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "CH": [
+     "Apple TV"
+    ],
+    "CZ": [
+     "Apple TV"
+    ],
+    "FR": [
+     "Apple TV (FR)"
+    ],
+    "GH": [
+     "MLS Pass on Apple TV"
+    ],
+    "HR": [
+     "Apple TV"
+    ],
+    "IT": [
+     "Apple TV (IT)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "MA": [
+     "Apple TV"
+    ],
+    "NG": [
+     "MLS Season Pass",
+     "Apple TV"
+    ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
+    "NO": [
+     "Apple TV (NO)"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "TR": [
+     "Apple TV"
+    ],
+    "ZA": [
+     "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261029-bahia-sao-paulo",
@@ -7347,9 +9283,29 @@
      "Globo",
      "SporTV",
      "Ge Tv"
+    ],
+    "AR": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "US": [
+     "Fanatiz"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261029-chicago-fire-fc-orlando-city",
@@ -7425,9 +9381,72 @@
     ],
     "DE": [
      "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
+    ],
+    "AT": [
+     "Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
+    "BE": [
+     "Apple TV (BE)"
+    ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "CH": [
+     "Apple TV"
+    ],
+    "CZ": [
+     "Apple TV"
+    ],
+    "FR": [
+     "Apple TV (FR)"
+    ],
+    "GH": [
+     "MLS Pass on Apple TV"
+    ],
+    "HR": [
+     "Apple TV"
+    ],
+    "IT": [
+     "Apple TV (IT)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "MA": [
+     "Apple TV"
+    ],
+    "NG": [
+     "MLS Season Pass",
+     "Apple TV"
+    ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
+    "NO": [
+     "Apple TV (NO)"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "TR": [
+     "Apple TV"
+    ],
+    "ZA": [
+     "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261029-fc-dallas-columbus-crew",
@@ -7503,9 +9522,72 @@
     ],
     "DE": [
      "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
+    ],
+    "AT": [
+     "Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
+    "BE": [
+     "Apple TV (BE)"
+    ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "CH": [
+     "Apple TV"
+    ],
+    "CZ": [
+     "Apple TV"
+    ],
+    "FR": [
+     "Apple TV (FR)"
+    ],
+    "GH": [
+     "MLS Pass on Apple TV"
+    ],
+    "HR": [
+     "Apple TV"
+    ],
+    "IT": [
+     "Apple TV (IT)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "MA": [
+     "Apple TV"
+    ],
+    "NG": [
+     "MLS Season Pass",
+     "Apple TV"
+    ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
+    "NO": [
+     "Apple TV (NO)"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "TR": [
+     "Apple TV"
+    ],
+    "ZA": [
+     "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261029-minnesota-united-fc-sporting-kansas-city",
@@ -7659,9 +9741,72 @@
     ],
     "DE": [
      "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
+    ],
+    "AT": [
+     "Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
+    "BE": [
+     "Apple TV (BE)"
+    ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "CH": [
+     "Apple TV"
+    ],
+    "CZ": [
+     "Apple TV"
+    ],
+    "FR": [
+     "Apple TV (FR)"
+    ],
+    "GH": [
+     "MLS Pass on Apple TV"
+    ],
+    "HR": [
+     "Apple TV"
+    ],
+    "IT": [
+     "Apple TV (IT)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "MA": [
+     "Apple TV"
+    ],
+    "NG": [
+     "MLS Season Pass",
+     "Apple TV"
+    ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
+    "NO": [
+     "Apple TV (NO)"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "TR": [
+     "Apple TV"
+    ],
+    "ZA": [
+     "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261029-remo-botafogo",
@@ -7739,9 +9884,30 @@
     ],
     "BR": [
      "Globo"
+    ],
+    "AR": [
+     "Globo Internacional",
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "US": [
+     "Fanatiz"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261029-st-louis-city-sc-portland-timbers",
@@ -7817,9 +9983,72 @@
     ],
     "DE": [
      "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
+    ],
+    "AT": [
+     "Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
+    "BE": [
+     "Apple TV (BE)"
+    ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "CH": [
+     "Apple TV"
+    ],
+    "CZ": [
+     "Apple TV"
+    ],
+    "FR": [
+     "Apple TV (FR)"
+    ],
+    "GH": [
+     "MLS Pass on Apple TV"
+    ],
+    "HR": [
+     "Apple TV"
+    ],
+    "IT": [
+     "Apple TV (IT)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "MA": [
+     "Apple TV"
+    ],
+    "NG": [
+     "MLS Season Pass",
+     "Apple TV"
+    ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
+    "NO": [
+     "Apple TV (NO)"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "TR": [
+     "Apple TV"
+    ],
+    "ZA": [
+     "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "basketball-20261029-jazz-spurs",
@@ -8137,9 +10366,17 @@
     ],
     "EC": [
      "RCN Nuestra Tele"
+    ],
+    "AR": [
+     "RCN Nuestra Tele"
+    ],
+    "BR": [
+     "RCN Nuestra Tele"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261029-universitario-sport-boys-a",
@@ -8549,9 +10786,72 @@
     ],
     "DE": [
      "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
+    ],
+    "AT": [
+     "Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
+    "BE": [
+     "Apple TV (BE)"
+    ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "CH": [
+     "Apple TV"
+    ],
+    "CZ": [
+     "Apple TV"
+    ],
+    "FR": [
+     "Apple TV (FR)"
+    ],
+    "GH": [
+     "MLS Pass on Apple TV"
+    ],
+    "HR": [
+     "Apple TV"
+    ],
+    "IT": [
+     "Apple TV (IT)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "MA": [
+     "Apple TV"
+    ],
+    "NG": [
+     "MLS Season Pass",
+     "Apple TV"
+    ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
+    "NO": [
+     "Apple TV (NO)"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "TR": [
+     "Apple TV"
+    ],
+    "ZA": [
+     "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261029-seattle-sounders-fc-houston-dynamo-fc",
@@ -8627,9 +10927,72 @@
     ],
     "DE": [
      "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
+    ],
+    "AT": [
+     "Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
+    "BE": [
+     "Apple TV (BE)"
+    ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "CH": [
+     "Apple TV"
+    ],
+    "CZ": [
+     "Apple TV"
+    ],
+    "FR": [
+     "Apple TV (FR)"
+    ],
+    "GH": [
+     "MLS Pass on Apple TV"
+    ],
+    "HR": [
+     "Apple TV"
+    ],
+    "IT": [
+     "Apple TV (IT)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "MA": [
+     "Apple TV"
+    ],
+    "NG": [
+     "MLS Season Pass",
+     "Apple TV"
+    ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
+    "NO": [
+     "Apple TV (NO)"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "TR": [
+     "Apple TV"
+    ],
+    "ZA": [
+     "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "football-20261029-vancouver-whitecaps-fc-san-diego-fc",
@@ -8705,9 +11068,75 @@
     ],
     "DE": [
      "Apple TV"
+    ],
+    "AR": [
+     "Apple TV"
+    ],
+    "AT": [
+     "Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
+    "BE": [
+     "Apple TV (BE)"
+    ],
+    "CA": [
+     "Apple TV (US)",
+     "TSN+",
+     "TSN3",
+     "TSN"
+    ],
+    "CH": [
+     "Apple TV"
+    ],
+    "CZ": [
+     "Apple TV"
+    ],
+    "FR": [
+     "Apple TV (FR)"
+    ],
+    "GH": [
+     "MLS Pass on Apple TV"
+    ],
+    "HR": [
+     "Apple TV"
+    ],
+    "IT": [
+     "Apple TV (IT)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "MA": [
+     "Apple TV"
+    ],
+    "NG": [
+     "MLS Season Pass",
+     "Apple TV"
+    ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
+    "NO": [
+     "Apple TV (NO)"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "TR": [
+     "Apple TV"
+    ],
+    "ZA": [
+     "Apple TV"
     ]
    },
-   "sources": []
+   "sources": [
+    "fotmob"
+   ]
   },
   {
    "id": "basketball-20261029-clippers-lakers",
