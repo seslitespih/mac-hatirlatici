@@ -1,0 +1,59 @@
+name: Otomatik Fikstür (yapay zekâsız)
+
+# 28 Eki 2026: Claude limiti / bilgisayar durumu ne olursa olsun matches-daily.json her gün güncellensin.
+# scripts/otomatik-fikstur.mjs açık kaynaklardan (FotMob, kooora, A Spor, EuroLeague, ESPN) üretir; API kredisi gerekmez.
+# Aynı günün dosyası varsa elle girilen maçlara dokunmaz, yalnız eksik maç/kanal ekler.
+# assets/kuyruk/<gün>.json önceden hazırlanmış günlerdir; kaynak o gün çökse de onlar girer.
+on:
+  schedule:
+    - cron: '20 21 * * *'   # 00:20 TR — yeni günün dosyası
+    - cron: '0 4 * * *'     # 07:00 TR
+    - cron: '0 10 * * *'    # 13:00 TR — A Spor ve kooora gün içi güncel
+    - cron: '0 15 * * *'    # 18:00 TR — akşam maçlarının son kanal bilgisi
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Hedef gün (YYYY-MM-DD) — boşsa Türkiye takvimindeki bugün'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-fixtures
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Üret, kontrol et, gönder
+        env:
+          HEDEF: ${{ inputs.date }}
+        run: |
+          git config user.name "fixture-bot"
+          git config user.email "fixture-bot@users.noreply.github.com"
+          ARG=""; [ -n "$HEDEF" ] && ARG="--date $HEDEF"
+          # Başka biri (bot ya da elle) araya push ederse en güncel dosyanın üstüne yeniden üret
+          for deneme in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            node scripts/otomatik-fikstur.mjs $ARG
+            node scripts/nba.mjs assets/matches-daily.json || echo "NBA bu turda atlandı"
+            node scripts/filtre.mjs assets/matches-daily.json
+            git add assets/matches-daily.json
+            if git diff --cached --quiet; then echo "Değişiklik yok"; exit 0; fi
+            GUN=$(node -p "require('./assets/matches-daily.json').date")
+            ADET=$(node -p "require('./assets/matches-daily.json').matches.length")
+            git commit -q -m "auto: fikstur $GUN ($ADET mac) [skip ci]"
+            if git push -q origin HEAD:main; then echo "Gönderildi: $GUN, $ADET maç"; exit 0; fi
+            sleep 15
+          done
+          exit 1

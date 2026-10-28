@@ -7,6 +7,15 @@ Bu dosya **kendi kendine yeterlidir**. Sıfır bağlamla gelen bir ajan yalnızc
 sportstvtoday.com sitesi aynı anda bu dosyadan beslenir. Uygulama güncellemesi/build
 GEREKMEZ; push yeterlidir.
 
+> 🤖 **28 Eki 2026'dan beri OTOMATİK:** `.github/workflows/auto-fixtures.yml` günde 4 kez
+> (00:20 / 07:00 / 13:00 / 18:00 TR) `scripts/otomatik-fikstur.mjs` + `nba.mjs` + `filtre.mjs` çalıştırır.
+> Yapay zekâ kullanmaz; elle girilmiş maçlara dokunmaz, yalnız ekler. Elle tur yapacaksan önce
+> `origin/main`'deki dosyanın tarihine bak — çoğu zaman iş zaten yapılmıştır; sen yalnız eksik dalları
+> (BSL, Sultanlar/Efeler, motorspor — otomatik hatta kaynağı YOK) ekle.
+> ⚠️ Aşağıdaki tablodaki TR kaynağı **hangikanalda.app 28 Eki'de satılık alan adına döndü — ölü.**
+> ⚠️ FotMob "Canal por confirmar" yer tutucusu yazar — kanal DEĞİLDİR. "Bayern Munih"/"Milan" yanlış;
+> uygulama kimliği `bayernmunich`/`acmilan` → `Bayern Munich`/`AC Milan` yaz.
+
 ---
 
 ## 1. Kaynaklar
