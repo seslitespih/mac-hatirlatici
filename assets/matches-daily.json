@@ -1,14 +1,15 @@
 {
- "generated_at": "2026-10-31T08:55:26.000Z",
+ "generated_at": "2026-10-31T09:05:44.000Z",
  "date": "2026-10-31",
  "model": "user-provided",
  "stats": {
-  "total": 159,
-  "withChannel": 159,
+  "total": 177,
+  "withChannel": 177,
   "bySport": {
    "football": 139,
-   "motorsport": 3,
-   "basketball": 17
+   "motorsport": 6,
+   "basketball": 25,
+   "volleyball": 7
   },
   "warnings": 0,
   "searches": 0
@@ -3761,6 +3762,54 @@
    ]
   },
   {
+   "id": "motorsport-20261031-motogp-malezya-gp-serbest-antrenman-2-ve-siralama-turlari",
+   "sport": "motorsport",
+   "competitionId": "motogp",
+   "tier": "global",
+   "competition": {
+    "tr": "MotoGP",
+    "en": "MotoGP",
+    "de": "MotoGP",
+    "es": "MotoGP",
+    "fr": "MotoGP",
+    "it": "MotoGP",
+    "pt": "MotoGP",
+    "ar": "موتو جي بي"
+   },
+   "home": "MotoGP Malezya GP",
+   "away": "Serbest Antrenman 2 ve Siralama Turlari",
+   "homeNames": {
+    "tr": "MotoGP Malezya GP",
+    "en": "MotoGP Malaysian GP",
+    "de": "MotoGP Malaysia-GP",
+    "es": "MotoGP GP de Malasia",
+    "fr": "MotoGP GP de Malaisie",
+    "it": "MotoGP GP della Malesia",
+    "pt": "MotoGP GP da Malásia",
+    "ar": "MotoGP - جائزة ماليزيا"
+   },
+   "awayNames": {
+    "tr": "Serbest Antrenman 2 ve Sıralama Turları",
+    "en": "Free Practice 2 & Qualifying",
+    "de": "Freies Training 2 & Qualifying",
+    "es": "Entrenamientos libres 2 y Clasificación",
+    "fr": "Essais libres 2 et Qualifications",
+    "it": "Prove libere 2 e Qualifiche",
+    "pt": "Treino livre 2 e Classificação",
+    "ar": "التجارب الحرة 2 و التجارب التأهيلية"
+   },
+   "kickoffUtc": "2026-10-31T02:10:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus",
+     "S Sport"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
    "id": "football-20261031-puebla-pumas",
    "sport": "football",
    "competitionId": "liga_mx",
@@ -3813,6 +3862,196 @@
    "sources": [
     "fotmob",
     "kooora"
+   ]
+  },
+  {
+   "id": "motorsport-20261031-moto2-malezya-gp-siralama-turlari",
+   "sport": "motorsport",
+   "competitionId": "moto2",
+   "tier": "global",
+   "competition": {
+    "tr": "Moto2",
+    "en": "Moto2",
+    "de": "Moto2",
+    "es": "Moto2",
+    "fr": "Moto2",
+    "it": "Moto2",
+    "pt": "Moto2",
+    "ar": "موتو 2"
+   },
+   "home": "Moto2 Malezya GP",
+   "away": "Siralama Turlari",
+   "homeNames": {
+    "tr": "Moto2 Malezya GP",
+    "en": "Moto2 Malaysian GP",
+    "de": "Moto2 Malaysia-GP",
+    "es": "Moto2 GP de Malasia",
+    "fr": "Moto2 GP de Malaisie",
+    "it": "Moto2 GP della Malesia",
+    "pt": "Moto2 GP da Malásia",
+    "ar": "Moto2 - جائزة ماليزيا"
+   },
+   "awayNames": {
+    "tr": "Sıralama Turları",
+    "en": "Qualifying",
+    "de": "Qualifying",
+    "es": "Clasificación",
+    "fr": "Qualifications",
+    "it": "Qualifiche",
+    "pt": "Classificação",
+    "ar": "التجارب التأهيلية"
+   },
+   "kickoffUtc": "2026-10-31T05:40:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus",
+     "S Sport"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "motorsport-20261031-motogp-malezya-gp-sprint-yarislari",
+   "sport": "motorsport",
+   "competitionId": "motogp",
+   "tier": "global",
+   "competition": {
+    "tr": "MotoGP",
+    "en": "MotoGP",
+    "de": "MotoGP",
+    "es": "MotoGP",
+    "fr": "MotoGP",
+    "it": "MotoGP",
+    "pt": "MotoGP",
+    "ar": "موتو جي بي"
+   },
+   "home": "MotoGP Malezya GP",
+   "away": "Sprint Yarislari",
+   "homeNames": {
+    "tr": "MotoGP Malezya GP",
+    "en": "MotoGP Malaysian GP",
+    "de": "MotoGP Malaysia-GP",
+    "es": "MotoGP GP de Malasia",
+    "fr": "MotoGP GP de Malaisie",
+    "it": "MotoGP GP della Malesia",
+    "pt": "MotoGP GP da Malásia",
+    "ar": "MotoGP - جائزة ماليزيا"
+   },
+   "awayNames": {
+    "tr": "Sprint Yarışları",
+    "en": "Sprint",
+    "de": "Sprint",
+    "es": "Sprint",
+    "fr": "Sprint",
+    "it": "Sprint",
+    "pt": "Sprint",
+    "ar": "السباق السريع"
+   },
+   "kickoffUtc": "2026-10-31T07:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus",
+     "S Sport"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "basketball-20261031-besiktas-basket-kadin-ogm-orman",
+   "sport": "basketball",
+   "competitionId": "kbsl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Kadınlar Basketbol Süper Ligi",
+    "en": "Turkish Women's Basketball Super League",
+    "de": "Türkische Basketball Super League (Frauen)",
+    "es": "Superliga Femenina de Baloncesto de Turquía",
+    "fr": "Super Ligue turque de basket-ball féminin",
+    "it": "Super Lega turca di pallacanestro femminile",
+    "pt": "Superliga Turca de Basquete Feminino",
+    "ar": "الدوري التركي الممتاز لكرة السلة للسيدات"
+   },
+   "home": "Besiktas Basket Kadin",
+   "away": "OGM Orman",
+   "homeNames": {
+    "tr": "Beşiktaş",
+    "en": "Beşiktaş Basket Kadın",
+    "de": "Beşiktaş Basket Kadın",
+    "es": "Beşiktaş Basket Kadın",
+    "fr": "Beşiktaş Basket Kadın",
+    "it": "Beşiktaş Basket Kadın",
+    "pt": "Beşiktaş Basket Kadın",
+    "ar": "Beşiktaş Basket Kadın"
+   },
+   "awayNames": {
+    "tr": "OGM Orman",
+    "en": "OGM Orman",
+    "de": "OGM Orman",
+    "es": "OGM Orman",
+    "fr": "OGM Orman",
+    "it": "OGM Orman",
+    "pt": "OGM Orman",
+    "ar": "OGM Orman"
+   },
+   "kickoffUtc": "2026-10-31T10:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TBF TV Youtube"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "volleyball-20261031-halkbank-onikisubat-belediyespor",
+   "sport": "volleyball",
+   "competitionId": "efeler",
+   "tier": "regional",
+   "competition": {
+    "tr": "Efeler Ligi",
+    "en": "Turkish Men's Volleyball League",
+    "de": "Türkische Volleyball-Liga (Männer)",
+    "es": "Liga turca de voleibol masculino",
+    "fr": "Championnat de Turquie de volley masculin",
+    "it": "Campionato turco di pallavolo maschile",
+    "pt": "Liga Turca de Voleibol Masculino",
+    "ar": "الدوري التركي للكرة الطائرة للرجال"
+   },
+   "home": "Halkbank",
+   "away": "Onikisubat Belediyespor",
+   "homeNames": {
+    "tr": "Halkbank",
+    "en": "Halkbank",
+    "de": "Halkbank",
+    "es": "Halkbank",
+    "fr": "Halkbank",
+    "it": "Halkbank",
+    "pt": "Halkbank",
+    "ar": "هالك بانك"
+   },
+   "awayNames": {
+    "tr": "Onikişubat Belediyespor",
+    "en": "Onikişubat Belediyespor",
+    "de": "Onikişubat Belediyespor",
+    "es": "Onikişubat Belediyespor",
+    "fr": "Onikişubat Belediyespor",
+    "it": "Onikişubat Belediyespor",
+    "pt": "Onikişubat Belediyespor",
+    "ar": "Onikişubat Belediyespor"
+   },
+   "kickoffUtc": "2026-10-31T10:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TVF Voleybol TV Youtube"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
    ]
   },
   {
@@ -4228,6 +4467,147 @@
    "sources": [
     "kooora",
     "goal.com"
+   ]
+  },
+  {
+   "id": "basketball-20261031-emlak-konut-cbk-mersin",
+   "sport": "basketball",
+   "competitionId": "kbsl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Kadınlar Basketbol Süper Ligi",
+    "en": "Turkish Women's Basketball Super League",
+    "de": "Türkische Basketball Super League (Frauen)",
+    "es": "Superliga Femenina de Baloncesto de Turquía",
+    "fr": "Super Ligue turque de basket-ball féminin",
+    "it": "Super Lega turca di pallacanestro femminile",
+    "pt": "Superliga Turca de Basquete Feminino",
+    "ar": "الدوري التركي الممتاز لكرة السلة للسيدات"
+   },
+   "home": "Emlak Konut",
+   "away": "CBK Mersin",
+   "homeNames": {
+    "tr": "Emlak Konut",
+    "en": "Emlak Konut",
+    "de": "Emlak Konut",
+    "es": "Emlak Konut",
+    "fr": "Emlak Konut",
+    "it": "Emlak Konut",
+    "pt": "Emlak Konut",
+    "ar": "Emlak Konut"
+   },
+   "awayNames": {
+    "tr": "ÇBK Mersin",
+    "en": "ÇBK Mersin",
+    "de": "ÇBK Mersin",
+    "es": "ÇBK Mersin",
+    "fr": "ÇBK Mersin",
+    "it": "ÇBK Mersin",
+    "pt": "ÇBK Mersin",
+    "ar": "مرسين"
+   },
+   "kickoffUtc": "2026-10-31T11:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TBF TV Youtube"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "basketball-20261031-nesibe-aydin-istanbul-genclik",
+   "sport": "basketball",
+   "competitionId": "kbsl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Kadınlar Basketbol Süper Ligi",
+    "en": "Turkish Women's Basketball Super League",
+    "de": "Türkische Basketball Super League (Frauen)",
+    "es": "Superliga Femenina de Baloncesto de Turquía",
+    "fr": "Super Ligue turque de basket-ball féminin",
+    "it": "Super Lega turca di pallacanestro femminile",
+    "pt": "Superliga Turca de Basquete Feminino",
+    "ar": "الدوري التركي الممتاز لكرة السلة للسيدات"
+   },
+   "home": "Nesibe Aydin",
+   "away": "Istanbul Genclik",
+   "homeNames": {
+    "tr": "Nesibe Aydın",
+    "en": "Nesibe Aydın",
+    "de": "Nesibe Aydın",
+    "es": "Nesibe Aydın",
+    "fr": "Nesibe Aydın",
+    "it": "Nesibe Aydın",
+    "pt": "Nesibe Aydın",
+    "ar": "Nesibe Aydın"
+   },
+   "awayNames": {
+    "tr": "İstanbul Gençlik",
+    "en": "İstanbul Gençlik",
+    "de": "İstanbul Gençlik",
+    "es": "İstanbul Gençlik",
+    "fr": "İstanbul Gençlik",
+    "it": "İstanbul Gençlik",
+    "pt": "İstanbul Gençlik",
+    "ar": "İstanbul Gençlik"
+   },
+   "kickoffUtc": "2026-10-31T11:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "HT Spor"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "volleyball-20261031-gebze-bld-istanbul-genclik",
+   "sport": "volleyball",
+   "competitionId": "efeler",
+   "tier": "regional",
+   "competition": {
+    "tr": "Efeler Ligi",
+    "en": "Turkish Men's Volleyball League",
+    "de": "Türkische Volleyball-Liga (Männer)",
+    "es": "Liga turca de voleibol masculino",
+    "fr": "Championnat de Turquie de volley masculin",
+    "it": "Campionato turco di pallavolo maschile",
+    "pt": "Liga Turca de Voleibol Masculino",
+    "ar": "الدوري التركي للكرة الطائرة للرجال"
+   },
+   "home": "Gebze Bld",
+   "away": "Istanbul Genclik",
+   "homeNames": {
+    "tr": "Gebze Bld.",
+    "en": "Gebze Bld.",
+    "de": "Gebze Bld.",
+    "es": "Gebze Bld.",
+    "fr": "Gebze Bld.",
+    "it": "Gebze Bld.",
+    "pt": "Gebze Bld.",
+    "ar": "Gebze Bld."
+   },
+   "awayNames": {
+    "tr": "İstanbul Gençlik",
+    "en": "İstanbul Gençlik",
+    "de": "İstanbul Gençlik",
+    "es": "İstanbul Gençlik",
+    "fr": "İstanbul Gençlik",
+    "it": "İstanbul Gençlik",
+    "pt": "İstanbul Gençlik",
+    "ar": "İstanbul Gençlik"
+   },
+   "kickoffUtc": "2026-10-31T11:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TVF Voleybol TV Youtube"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
    ]
   },
   {
@@ -5311,6 +5691,53 @@
    ]
   },
   {
+   "id": "basketball-20261031-korfez-basket-trabzonspor-basket",
+   "sport": "basketball",
+   "competitionId": "bsl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Basketbol Süper Ligi",
+    "en": "Turkish Basketball Super League",
+    "de": "Türkische Basketball Super League",
+    "es": "Superliga de Baloncesto de Turquía",
+    "fr": "Super Ligue turque de basket-ball",
+    "it": "Super Lega turca di pallacanestro",
+    "pt": "Superliga Turca de Basquete",
+    "ar": "الدوري التركي الممتاز لكرة السلة"
+   },
+   "home": "Korfez Basket",
+   "away": "Trabzonspor Basket",
+   "homeNames": {
+    "tr": "Körfez Basket",
+    "en": "Körfez Basket",
+    "de": "Körfez Basket",
+    "es": "Körfez Basket",
+    "fr": "Körfez Basket",
+    "it": "Körfez Basket",
+    "pt": "Körfez Basket",
+    "ar": "Körfez Basket"
+   },
+   "awayNames": {
+    "tr": "Trabzonspor",
+    "en": "Trabzonspor Basket",
+    "de": "Trabzonspor Basket",
+    "es": "Trabzonspor Basket",
+    "fr": "Trabzonspor Basket",
+    "it": "Trabzonspor Basket",
+    "pt": "Trabzonspor Basket",
+    "ar": "Trabzonspor Basket"
+   },
+   "kickoffUtc": "2026-10-31T12:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 5"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
    "id": "football-20261031-annecy-fc-montpellier",
    "sport": "football",
    "competitionId": "ligue2",
@@ -5936,6 +6363,148 @@
    ]
   },
   {
+   "id": "volleyball-20261031-spor-toto-sungurlu-bld",
+   "sport": "volleyball",
+   "competitionId": "efeler",
+   "tier": "regional",
+   "competition": {
+    "tr": "Efeler Ligi",
+    "en": "Turkish Men's Volleyball League",
+    "de": "Türkische Volleyball-Liga (Männer)",
+    "es": "Liga turca de voleibol masculino",
+    "fr": "Championnat de Turquie de volley masculin",
+    "it": "Campionato turco di pallavolo maschile",
+    "pt": "Liga Turca de Voleibol Masculino",
+    "ar": "الدوري التركي للكرة الطائرة للرجال"
+   },
+   "home": "Spor Toto",
+   "away": "Sungurlu Bld",
+   "homeNames": {
+    "tr": "Spor Toto SK",
+    "en": "Spor Toto SK",
+    "de": "Spor Toto SK",
+    "es": "Spor Toto SK",
+    "fr": "Spor Toto SK",
+    "it": "Spor Toto SK",
+    "pt": "Spor Toto SK",
+    "ar": "Spor Toto SK"
+   },
+   "awayNames": {
+    "tr": "Sungurlu Bld.",
+    "en": "Sungurlu Bld.",
+    "de": "Sungurlu Bld.",
+    "es": "Sungurlu Bld.",
+    "fr": "Sungurlu Bld.",
+    "it": "Sungurlu Bld.",
+    "pt": "Sungurlu Bld.",
+    "ar": "Sungurlu Bld."
+   },
+   "kickoffUtc": "2026-10-31T13:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TVF Voleybol TV Youtube"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "volleyball-20261031-alanya-bld-ziraat-bankkart",
+   "sport": "volleyball",
+   "competitionId": "efeler",
+   "tier": "regional",
+   "competition": {
+    "tr": "Efeler Ligi",
+    "en": "Turkish Men's Volleyball League",
+    "de": "Türkische Volleyball-Liga (Männer)",
+    "es": "Liga turca de voleibol masculino",
+    "fr": "Championnat de Turquie de volley masculin",
+    "it": "Campionato turco di pallavolo maschile",
+    "pt": "Liga Turca de Voleibol Masculino",
+    "ar": "الدوري التركي للكرة الطائرة للرجال"
+   },
+   "home": "Alanya Bld",
+   "away": "Ziraat Bankkart",
+   "homeNames": {
+    "tr": "Alanya Bld.",
+    "en": "Alanya Bld.",
+    "de": "Alanya Bld.",
+    "es": "Alanya Bld.",
+    "fr": "Alanya Bld.",
+    "it": "Alanya Bld.",
+    "pt": "Alanya Bld.",
+    "ar": "Alanya Bld."
+   },
+   "awayNames": {
+    "tr": "Ziraat Bankkart",
+    "en": "Ziraat Bankkart",
+    "de": "Ziraat Bankkart",
+    "es": "Ziraat Bankkart",
+    "fr": "Ziraat Bankkart",
+    "it": "Ziraat Bankkart",
+    "pt": "Ziraat Bankkart",
+    "ar": "زراعت بانكارت"
+   },
+   "kickoffUtc": "2026-10-31T13:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor Yıldız",
+     "tabii Spor 5"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "volleyball-20261031-gaziantep-genclik-tfl-altekma",
+   "sport": "volleyball",
+   "competitionId": "efeler",
+   "tier": "regional",
+   "competition": {
+    "tr": "Efeler Ligi",
+    "en": "Turkish Men's Volleyball League",
+    "de": "Türkische Volleyball-Liga (Männer)",
+    "es": "Liga turca de voleibol masculino",
+    "fr": "Championnat de Turquie de volley masculin",
+    "it": "Campionato turco di pallavolo maschile",
+    "pt": "Liga Turca de Voleibol Masculino",
+    "ar": "الدوري التركي للكرة الطائرة للرجال"
+   },
+   "home": "Gaziantep Genclik",
+   "away": "TFL Altekma",
+   "homeNames": {
+    "tr": "Gaziantep Gençlik",
+    "en": "Gaziantep Gençlik",
+    "de": "Gaziantep Gençlik",
+    "es": "Gaziantep Gençlik",
+    "fr": "Gaziantep Gençlik",
+    "it": "Gaziantep Gençlik",
+    "pt": "Gaziantep Gençlik",
+    "ar": "Gaziantep Gençlik"
+   },
+   "awayNames": {
+    "tr": "TFL Altekma",
+    "en": "TFL Altekma",
+    "de": "TFL Altekma",
+    "es": "TFL Altekma",
+    "fr": "TFL Altekma",
+    "it": "TFL Altekma",
+    "pt": "TFL Altekma",
+    "ar": "TFL Altekma"
+   },
+   "kickoffUtc": "2026-10-31T13:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TVF Voleybol TV Youtube"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
    "id": "football-20261031-fk-qabala-qarabag-fk",
    "sport": "football",
    "competitionId": "aze_pl",
@@ -6069,6 +6638,53 @@
    "sources": [
     "kooora",
     "goal.com"
+   ]
+  },
+  {
+   "id": "volleyball-20261031-istanbul-bb-fenerbahce-medicana",
+   "sport": "volleyball",
+   "competitionId": "efeler",
+   "tier": "regional",
+   "competition": {
+    "tr": "Efeler Ligi",
+    "en": "Turkish Men's Volleyball League",
+    "de": "Türkische Volleyball-Liga (Männer)",
+    "es": "Liga turca de voleibol masculino",
+    "fr": "Championnat de Turquie de volley masculin",
+    "it": "Campionato turco di pallavolo maschile",
+    "pt": "Liga Turca de Voleibol Masculino",
+    "ar": "الدوري التركي للكرة الطائرة للرجال"
+   },
+   "home": "Istanbul BB",
+   "away": "Fenerbahce Medicana",
+   "homeNames": {
+    "tr": "İstanbul BB",
+    "en": "İstanbul BB",
+    "de": "İstanbul BB",
+    "es": "İstanbul BB",
+    "fr": "İstanbul BB",
+    "it": "İstanbul BB",
+    "pt": "İstanbul BB",
+    "ar": "İstanbul BB"
+   },
+   "awayNames": {
+    "tr": "Fenerbahçe Medicana",
+    "en": "Fenerbahçe Medicana",
+    "de": "Fenerbahçe Medicana",
+    "es": "Fenerbahçe Medicana",
+    "fr": "Fenerbahçe Medicana",
+    "it": "Fenerbahçe Medicana",
+    "pt": "Fenerbahçe Medicana",
+    "ar": "Fenerbahçe Medicana"
+   },
+   "kickoffUtc": "2026-10-31T13:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "FB TV"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
    ]
   },
   {
@@ -9180,6 +9796,53 @@
    ]
   },
   {
+   "id": "basketball-20261031-bandirma-bordo-bahcesehir-klj",
+   "sport": "basketball",
+   "competitionId": "bsl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Basketbol Süper Ligi",
+    "en": "Turkish Basketball Super League",
+    "de": "Türkische Basketball Super League",
+    "es": "Superliga de Baloncesto de Turquía",
+    "fr": "Super Ligue turque de basket-ball",
+    "it": "Super Lega turca di pallacanestro",
+    "pt": "Superliga Turca de Basquete",
+    "ar": "الدوري التركي الممتاز لكرة السلة"
+   },
+   "home": "Bandirma Bordo",
+   "away": "Bahcesehir Klj",
+   "homeNames": {
+    "tr": "Bandırma Bordo",
+    "en": "Bandırma Bordo",
+    "de": "Bandırma Bordo",
+    "es": "Bandırma Bordo",
+    "fr": "Bandırma Bordo",
+    "it": "Bandırma Bordo",
+    "pt": "Bandırma Bordo",
+    "ar": "Bandırma Bordo"
+   },
+   "awayNames": {
+    "tr": "Bahçeşehir Klj",
+    "en": "Bahçeşehir Klj",
+    "de": "Bahçeşehir Klj",
+    "es": "Bahçeşehir Klj",
+    "fr": "Bahçeşehir Klj",
+    "it": "Bahçeşehir Klj",
+    "pt": "Bahçeşehir Klj",
+    "ar": "Bahçeşehir Klj"
+   },
+   "kickoffUtc": "2026-10-31T15:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 5"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
    "id": "football-20261031-rayo-vallecano-celta-vigo",
    "sport": "football",
    "competitionId": "laliga",
@@ -10135,6 +10798,53 @@
    ]
   },
   {
+   "id": "volleyball-20261031-galatasaray-voleybol-sultanbeyli-bld",
+   "sport": "volleyball",
+   "competitionId": "efeler",
+   "tier": "regional",
+   "competition": {
+    "tr": "Efeler Ligi",
+    "en": "Turkish Men's Volleyball League",
+    "de": "Türkische Volleyball-Liga (Männer)",
+    "es": "Liga turca de voleibol masculino",
+    "fr": "Championnat de Turquie de volley masculin",
+    "it": "Campionato turco di pallavolo maschile",
+    "pt": "Liga Turca de Voleibol Masculino",
+    "ar": "الدوري التركي للكرة الطائرة للرجال"
+   },
+   "home": "Galatasaray Voleybol",
+   "away": "Sultanbeyli Bld",
+   "homeNames": {
+    "tr": "Galatasaray",
+    "en": "Galatasaray Voleybol",
+    "de": "Galatasaray Voleybol",
+    "es": "Galatasaray Voleybol",
+    "fr": "Galatasaray Voleybol",
+    "it": "Galatasaray Voleybol",
+    "pt": "Galatasaray Voleybol",
+    "ar": "Galatasaray Voleybol"
+   },
+   "awayNames": {
+    "tr": "Sultanbeyli Bld.",
+    "en": "Sultanbeyli Bld.",
+    "de": "Sultanbeyli Bld.",
+    "es": "Sultanbeyli Bld.",
+    "fr": "Sultanbeyli Bld.",
+    "it": "Sultanbeyli Bld.",
+    "pt": "Sultanbeyli Bld.",
+    "ar": "Sultanbeyli Bld."
+   },
+   "kickoffUtc": "2026-10-31T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "TRT Spor Yıldız"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
    "id": "football-20261031-catanzaro-padova",
    "sport": "football",
    "competitionId": "seriebit",
@@ -10581,6 +11291,54 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "basketball-20261031-zaragoza-basquet-girona",
+   "sport": "basketball",
+   "competitionId": "acb",
+   "tier": "regional",
+   "competition": {
+    "tr": "İspanya Basketbol Ligi",
+    "en": "Spanish ACB League",
+    "de": "Spanische ACB-Liga",
+    "es": "Liga Endesa",
+    "fr": "Championnat d'Espagne de basket",
+    "it": "Lega spagnola di basket",
+    "pt": "Liga espanhola de basquetebol",
+    "ar": "الدوري الإسباني لكرة السلة"
+   },
+   "home": "Zaragoza",
+   "away": "Basquet Girona",
+   "homeNames": {
+    "tr": "Zaragoza",
+    "en": "Zaragoza",
+    "de": "Zaragoza",
+    "es": "Zaragoza",
+    "fr": "Zaragoza",
+    "it": "Zaragoza",
+    "pt": "Zaragoza",
+    "ar": "Zaragoza"
+   },
+   "awayNames": {
+    "tr": "Basquet Girona",
+    "en": "Basquet Girona",
+    "de": "Basquet Girona",
+    "es": "Basquet Girona",
+    "fr": "Basquet Girona",
+    "it": "Basquet Girona",
+    "pt": "Basquet Girona",
+    "ar": "Basquet Girona"
+   },
+   "kickoffUtc": "2026-10-31T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart",
+     "Smart Spor HD"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
    ]
   },
   {
@@ -11461,6 +12219,53 @@
    },
    "sources": [
     "jolpi.ca"
+   ]
+  },
+  {
+   "id": "basketball-20261031-denizli-basket-galatasaray-mct-technic",
+   "sport": "basketball",
+   "competitionId": "bsl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Basketbol Süper Ligi",
+    "en": "Turkish Basketball Super League",
+    "de": "Türkische Basketball Super League",
+    "es": "Superliga de Baloncesto de Turquía",
+    "fr": "Super Ligue turque de basket-ball",
+    "it": "Super Lega turca di pallacanestro",
+    "pt": "Superliga Turca de Basquete",
+    "ar": "الدوري التركي الممتاز لكرة السلة"
+   },
+   "home": "Denizli Basket",
+   "away": "Galatasaray MCT Technic",
+   "homeNames": {
+    "tr": "Denizli Basket",
+    "en": "Denizli Basket",
+    "de": "Denizli Basket",
+    "es": "Denizli Basket",
+    "fr": "Denizli Basket",
+    "it": "Denizli Basket",
+    "pt": "Denizli Basket",
+    "ar": "دنيزلي باسكت"
+   },
+   "awayNames": {
+    "tr": "Galatasaray MCT Technic",
+    "en": "Galatasaray MCT Technic",
+    "de": "Galatasaray MCT Technic",
+    "es": "Galatasaray MCT Technic",
+    "fr": "Galatasaray MCT Technic",
+    "it": "Galatasaray MCT Technic",
+    "pt": "Galatasaray MCT Technic",
+    "ar": "غلطة سراي MCT Technic"
+   },
+   "kickoffUtc": "2026-10-31T17:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 5"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
    ]
   },
   {
@@ -14907,6 +15712,54 @@
    "sources": [
     "fotmob",
     "kooora"
+   ]
+  },
+  {
+   "id": "basketball-20261031-leyma-coruna-iberostar-tenerife",
+   "sport": "basketball",
+   "competitionId": "acb",
+   "tier": "regional",
+   "competition": {
+    "tr": "İspanya Basketbol Ligi",
+    "en": "Spanish ACB League",
+    "de": "Spanische ACB-Liga",
+    "es": "Liga Endesa",
+    "fr": "Championnat d'Espagne de basket",
+    "it": "Lega spagnola di basket",
+    "pt": "Liga espanhola de basquetebol",
+    "ar": "الدوري الإسباني لكرة السلة"
+   },
+   "home": "Leyma Coruna",
+   "away": "Iberostar Tenerife",
+   "homeNames": {
+    "tr": "Leyma Coruna",
+    "en": "Leyma Coruña",
+    "de": "Leyma Coruña",
+    "es": "Leyma Coruña",
+    "fr": "Leyma Coruña",
+    "it": "Leyma Coruña",
+    "pt": "Leyma Coruña",
+    "ar": "Leyma Coruña"
+   },
+   "awayNames": {
+    "tr": "Iberostar Tenerife",
+    "en": "Iberostar Tenerife",
+    "de": "Iberostar Tenerife",
+    "es": "Iberostar Tenerife",
+    "fr": "Iberostar Tenerife",
+    "it": "Iberostar Tenerife",
+    "pt": "Iberostar Tenerife",
+    "ar": "Iberostar Tenerife"
+   },
+   "kickoffUtc": "2026-10-31T20:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart",
+     "Smart Spor HD"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
    ]
   },
   {

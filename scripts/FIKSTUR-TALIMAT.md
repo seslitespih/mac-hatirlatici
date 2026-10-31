@@ -11,7 +11,8 @@ GEREKMEZ; push yeterlidir.
 > (00:20 / 07:00 / 13:00 / 18:00 TR) `scripts/otomatik-fikstur.mjs` + `nba.mjs` + `filtre.mjs` çalıştırır.
 > Yapay zekâ kullanmaz; elle girilmiş maçlara dokunmaz, yalnız ekler. Elle tur yapacaksan önce
 > `origin/main`'deki dosyanın tarihine bak — çoğu zaman iş zaten yapılmıştır; sen yalnız eksik dalları
-> (BSL, Sultanlar/Efeler, motorspor — otomatik hatta kaynağı YOK) ekle.
+> ekle. 31 Eki: TR kaynağı artık sporekrani.com (yalnız bugün; BSL, KBSL, Efeler/Sultanlar, MotoGP, Süper Lig TR kanalı);
+> F1 jolpi.ca; Suudi/Cezayir/Mısır/Fas/Azerbaycan kooora+goal.com. Hâlâ yok: Sultanlar dışı CEV kupaları, NBA TR kanalı.
 > ⚠️ Aşağıdaki tablodaki TR kaynağı **hangikanalda.app 28 Eki'de satılık alan adına döndü — ölü.**
 > ⚠️ FotMob "Canal por confirmar" yer tutucusu yazar — kanal DEĞİLDİR. "Bayern Munih"/"Milan" yanlış;
 > uygulama kimliği `bayernmunich`/`acmilan` → `Bayern Munich`/`AC Milan` yaz.

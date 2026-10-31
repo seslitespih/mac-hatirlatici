@@ -188,6 +188,11 @@ const tok = s => ascii(s).toLowerCase().split(/[^a-z0-9]+/).filter(x => x.length
 const ortak = (a, b) => n(a).includes(n(b)) || n(b).includes(n(a)) ||
   tok(a).some(t => tok(b).some(u => t === u || (Math.min(t.length, u.length) >= 5 && (t.startsWith(u) || u.startsWith(t)))));   // Yildirimspor ~ Yildirim
 
+// futbol dışında turnuva da aynı olmalı: "Moto2 Malezya GP - Sıralama" ile "MotoGP Malezya GP - ... Sıralama" birleşiyordu
+const ayni = (a, b) => a.sport === b.sport && (a.sport === 'football' || a.competitionId === b.competitionId) &&
+  ortak(a.home, b.home) && ortak(a.away, b.away) &&
+  Math.abs(Date.parse(a.kickoffUtc) - Date.parse(b.kickoffUtc)) <= 6 * 3600e3;
+
 const kooKullanildi = new Set();
 function kooBul(utc, ev, dep, lig = null) {
   const ad = kooora.filter(k => !kooKullanildi.has(k.id) && Date.parse(k.start) === Date.parse(utc) && (!lig || lig.test(k.comp)));
@@ -332,12 +337,82 @@ for (const [C, cid, bc] of [['E', 'euroleague', { TR: ['S Sport Plus'] }], ['U',
   rapor.push(`${cid}: ${j ? adet + ' maç' : 'okunamadı'}`);
 }
 
+// ── 5) sporekrani.com — Türkiye TV programı (hangikanalda'nın yerine, kullanıcı önerisi 31 Eki) ──
+// Açık ana sayfa yalnız BUGÜNÜ verir (diğer günler yetkili API'den, onu kullanmıyoruz) — bot günde 4 tur zaten.
+// Çok gereksiz satır var (TV programları, tenis, alt ligler): yalnız aşağıdaki ligler alınır.
+const SE_LIG = [
+  [/^Basketbol Süper Ligi/i, 'bsl', 'basketball'], [/^Kad[ıi]nlar Basketbol Süper Ligi/i, 'kbsl', 'basketball', 'kadin'],
+  [/EuroLeague Kad|Kad[ıi]nlar EuroLeague/i, 'euroleague_women', 'basketball', 'kadin'], [/EuroLeague|THY Avrupa Ligi/i, 'euroleague', 'basketball'],
+  [/EuroCup/i, 'eurocup', 'basketball'], [/^İspanya Basketbol Ligi/i, 'acb', 'basketball'], [/FIBA Şampiyonlar Ligi/i, 'fiba_cl', 'basketball'],
+  [/^TVF Efeler Ligi/i, 'efeler', 'volleyball'], [/^TVF Sultanlar Ligi/i, 'sultansliga', 'volleyball', 'kadin'],
+  [/^MotoGP /i, 'motogp', 'motorsport'], [/^Moto2 /i, 'moto2', 'motorsport'], [/^Moto3 /i, 'moto3', 'motorsport'],
+  [/^Formula 2 /i, 'f2', 'motorsport'], [/^Formula 3 /i, 'f3', 'motorsport'],
+  [/^Trendyol Süper Lig/i, 'superlig', 'football'], [/^Trendyol 1\. Lig/i, 'tff1', 'football'], [/Türkiye Kupas/i, 'turkiye_kupasi', 'football'],
+];
+const APP_TAKIM = TAKIM_SATIR.map(l => ({ id: l.match(/id: '([^']+)'/)[1], ad: (l.match(/name: +'([^']+)'/) || [])[1],
+  spor: (l.match(/sport: '([^']+)'/) || [])[1] || 'football' }));
+// "Ç.Rizespor", "RAMS Başakşehir", "Eczacıbaşı Dynavit" -> uygulamanın kimliğiyle tutan ad
+function trAd(ad, spor, kadin) {
+  const k = n(ad);
+  const app = APP_TAKIM.find(t => t.spor === spor && t.id.length >= 6 && (k === t.id || k.endsWith(t.id) || k.startsWith(t.id)));
+  if (app && !kadin) return spor === 'football' ? (SOZ.takimlar[app.id]?.home || app.ad || ad) : (app.ad || ad);
+  // futbol favorisine basketbol/voleybol bildirimi gitmesin (talimat §3)
+  if (spor !== 'football' && APP_FUTBOL.has(k)) return `${ad} ${spor === 'volleyball' ? 'Voleybol' : 'Basket'}${kadin ? ' Kadın' : ''}`;
+  return ad;
+}
+const GP_TR = { Malezya: ['Malaysian GP', 'Malaysia-GP', 'GP de Malasia', 'GP de Malaisie', 'GP della Malesia', 'GP da Malásia', 'جائزة ماليزيا'],
+  Portekiz: ['Portuguese GP', 'Portugal-GP', 'GP de Portugal', 'GP du Portugal', 'GP del Portogallo', 'GP de Portugal', 'جائزة البرتغال'],
+  Valensiya: ['Valencia GP', 'Valencia-GP', 'GP de la Comunitat Valenciana', 'GP de Valence', 'GP di Valencia', 'GP de Valência', 'جائزة فالنسيا'],
+  Katar: ['Qatar GP', 'Katar-GP', 'GP de Catar', 'GP du Qatar', 'GP del Qatar', 'GP do Catar', 'جائزة قطر'],
+  Tayland: ['Thai GP', 'Thailand-GP', 'GP de Tailandia', 'GP de Thaïlande', 'GP di Thailandia', 'GP da Tailândia', 'جائزة تايلاند'] };
+const SEANS_TR = [   // sıra önemli: uzun ifade önce
+  [/Serbest Antrenman|Antrenman Turlar[ıi]-?/gi, ['Free Practice ', 'Freies Training ', 'Entrenamientos libres ', 'Essais libres ', 'Prove libere ', 'Treino livre ', 'التجارب الحرة ']],
+  [/S[ıi]ralama Turlar[ıi]|S[ıi]ralama/gi, ['Qualifying', 'Qualifying', 'Clasificación', 'Qualifications', 'Qualifiche', 'Classificação', 'التجارب التأهيلية']],
+  [/Sprint Yar[ıi]ş(lar)?[ıi]?/gi, ['Sprint', 'Sprint', 'Sprint', 'Sprint', 'Sprint', 'Sprint', 'السباق السريع']],
+  [/Is[ıi]nma Turlar[ıi]/gi, ['Warm Up', 'Warm-up', 'Calentamiento', 'Warm-up', 'Warm-up', 'Aquecimento', 'الإحماء']],
+  [/Yar[ıi]ş(lar)?[ıi]?/gi, ['Race', 'Rennen', 'Carrera', 'Course', 'Gara', 'Corrida', 'السباق']],
+  [/\s+ve\s+/gi, [' & ', ' & ', ' y ', ' et ', ' e ', ' e ', ' و ']],
+];
+const cevir = (tr, i) => SEANS_TR.reduce((s, [re, k]) => s.replace(re, k[i]), tr).replace(/\s+/g, ' ').trim();
+let seEk = 0, seTR = 0;
+if (GUN === BUGUN_TR) {
+  const h = await al('https://www.sporekrani.com/');
+  const dec = s => s.replace(/&#39;/g, "'").replace(/&amp;/g, '&').replace(/&quot;/g, '"').trim();
+  for (const r of (h || '').split('event-list__row ').slice(1)) {
+    const g = re => (r.match(re) || [])[1];
+    const saat = g(/event-list__time[^>]*>\s*([0-2]\d:[0-5]\d)\s*</), ad = dec(g(/event-list__name[^>]*>([^<]+)</) || ''), lig = dec(g(/event-list__league[^>]*>([^<]+)</) || '');
+    const L = SE_LIG.find(([re]) => re.test(lig));
+    if (!saat || !L) continue;
+    const [, cid, spor, kadin] = L;
+    const kanal = temizKanal([...(r.split('event-list__channels flex gt-xs')[1] || '').matchAll(/alt="([^"]+)"/g)].map(m => dec(m[1]).replace(/Yildiz/, 'Yıldız')));
+    if (!kanal.length) continue;
+    const utc = new Date(Date.parse(`${GUN}T${saat}:00+03:00`)).toISOString();
+    let ev, dep;
+    if (spor === 'motorsport') {
+      const gp = lig.replace(/^(MotoGP|Moto2|Moto3|Formula [23])\s+/i, '').replace(/\s*GP$/i, '').trim();
+      const seri = lig.match(/^(MotoGP|Moto2|Moto3|Formula [23])/i)[1];
+      const gpDil = GP_TR[gp];
+      ev = { home: ascii(lig), names: Object.fromEntries(DIL.map((l, i) => [l, l === 'tr' ? lig : gpDil ? (l === 'ar' ? `${seri} - ${gpDil[6]}` : `${seri} ${gpDil[i - 1]}`) : lig])) };
+      dep = { home: ascii(ad), names: Object.fromEntries(DIL.map((l, i) => [l, l === 'tr' ? ad : cevir(ad, i - 1)])) };
+    } else {
+      const [a, b] = ad.split(/\s+-\s+/);
+      if (!a || !b) continue;
+      ev = takim(trAd(a, spor, kadin), null, spor); dep = takim(trAd(b, spor, kadin), null, spor);
+      ev.names.tr = a; dep.names.tr = b;
+    }
+    const m = { sport: spor, competitionId: cid, kickoffUtc: utc.replace('.000Z', 'Z'), home: ev.home, away: dep.home };
+    const var_ = taze.find(x => ayni(x, m) || (x.competitionId === cid && x.kickoffUtc === m.kickoffUtc && (ortak(x.home, m.home) || ortak(x.away, m.away))));
+    if (var_) { var_.broadcasts.TR = kanal; seTR++; continue; }        // TR kanalında yerli kaynak otorite (talimat §2.6)
+    kayit({ sport: spor, cid, utc, ev, dep, broadcasts: { TR: kanal }, sources: ['sporekrani.com'] });
+    seEk++;
+  }
+  rapor.push(`sporekrani: ${h ? `${seEk} yeni kayıt, ${seTR} kayda TR kanalı` : 'okunamadı'}`);
+}
+
 // ── Birleştirme ──────────────────────────────────────────────────────────────
 const oku = p => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return null; } };
 const mevcut = oku(OUT);
 const temel = mevcut?.date === GUN ? mevcut : { date: GUN, model: 'user-provided', matches: [] };
-const ayni =(a, b) => a.sport === b.sport && ortak(a.home, b.home) && ortak(a.away, b.away) &&
-  Math.abs(Date.parse(a.kickoffUtc) - Date.parse(b.kickoffUtc)) <= 6 * 3600e3;
 let yeniMac = 0, yeniUlke = 0;
 const ekle = liste => {
   for (const m of liste) {
