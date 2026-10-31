@@ -53,7 +53,7 @@ const LIG = { 47: 'premier', 87: 'laliga', 55: 'seriea', 54: 'bundesliga', 53: '
   161: 'liga_auf', 10342: 'copa_auf', 199: 'primera_py', 10230: 'copa_paraguay', 64: 'scot_prem', 180: 'scot_lc',
   209: 'dfb_pokal', 133: 'efl_cup', 132: 'fa_cup', 138: 'copa_del_rey', 141: 'coppa_italia', 134: 'coupe_de_france',
   187: 'taca_da_liga', 165: 'tff1', 140: 'laliga2', 86: 'seriebit', 146: 'bundesliga2', 110: 'ligue2', 185: 'primeira2',
-  57: 'eredivisie', 48: 'championship', 108: 'league_one', 8972: 'usl', 38: 'aut_bundesliga', 441: 'ukr_pl' };
+  57: 'eredivisie', 48: 'championship', 108: 'league_one', 8972: 'usl', 38: 'aut_bundesliga', 441: 'ukr_pl', 530: 'botola' };
 // Kimliğinden emin olunmayanlar ada göre (ülke kodu | FotMob lig adı)
 const LIG_AD = { 'POR|Taça de Portugal': 'taca_portugal', 'TUR|Turkish Cup': 'turkiye_kupasi', 'AZE|Premier League': 'aze_pl',
   'INT|Copa Libertadores': 'libertadores', 'INT|Copa Sudamericana': 'sudamericana', 'INT|Europa League': 'europa',
@@ -65,6 +65,9 @@ const YENI_LIG = {
   taca_da_liga: ['regional', { tr: 'Portekiz Lig Kupası', en: 'Taça da Liga', de: 'Taça da Liga', es: 'Copa de la Liga de Portugal', fr: 'Coupe de la Ligue portugaise', it: 'Taça da Liga', pt: 'Taça da Liga', ar: 'كأس الدوري البرتغالي' }],
   fa_cup: ['global', { tr: 'İngiltere FA Cup', en: 'FA Cup', de: 'FA Cup', es: 'FA Cup', fr: 'FA Cup', it: 'FA Cup', pt: 'FA Cup', ar: 'كأس الاتحاد الإنجليزي' }],
   coupe_de_france: ['regional', { tr: 'Fransa Kupası', en: 'Coupe de France', de: 'Coupe de France', es: 'Copa de Francia', fr: 'Coupe de France', it: 'Coppa di Francia', pt: 'Taça de França', ar: 'كأس فرنسا' }],
+  alg_l1: ['regional', { tr: 'Cezayir Ligue 1', en: 'Algerian Ligue 1', de: 'Algerische Ligue 1', es: 'Liga de Argelia', fr: 'Ligue 1 Mobilis', it: 'Ligue 1 algerina', pt: 'Liga Argelina', ar: 'الرابطة الجزائرية المحترفة الأولى' }],
+  alg_cup: ['regional', { tr: 'Cezayir Kupası', en: 'Algerian Cup', de: 'Algerischer Pokal', es: 'Copa de Argelia', fr: "Coupe d'Algérie", it: "Coppa d'Algeria", pt: 'Taça da Argélia', ar: 'كأس الجزائر' }],
+  botola: ['regional', { tr: 'Fas Botola Pro', en: 'Botola Pro', de: 'Botola Pro', es: 'Botola Pro', fr: 'Botola Pro', it: 'Botola Pro', pt: 'Botola Pro', ar: 'البطولة الاحترافية' }],
   wc_qual_uefa: ['global', { tr: 'Dünya Kupası Elemeleri (Avrupa)', en: 'World Cup Qualifiers (UEFA)', de: 'WM-Qualifikation (UEFA)', es: 'Eliminatorias Mundial (UEFA)', fr: 'Qualifications Coupe du monde (UEFA)', it: 'Qualificazioni Mondiali (UEFA)', pt: 'Eliminatórias da Copa (UEFA)', ar: 'تصفيات كأس العالم (أوروبا)' }],
   wc_qual_conmebol: ['global', { tr: 'Dünya Kupası Elemeleri (Güney Amerika)', en: 'World Cup Qualifiers (CONMEBOL)', de: 'WM-Qualifikation (CONMEBOL)', es: 'Eliminatorias Sudamericanas', fr: 'Qualifications Coupe du monde (CONMEBOL)', it: 'Qualificazioni Mondiali (CONMEBOL)', pt: 'Eliminatórias Sul-Americanas', ar: 'تصفيات كأس العالم (أمريكا الجنوبية)' }],
 };
@@ -158,20 +161,42 @@ rapor.push(`FotMob: ${fmTamam}/${ULKELER.length} ülke rehberi, pencerede ${Obje
 
 // ── 2) kooora (MENA) ─────────────────────────────────────────────────────────
 const KOO = 'https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D8%AF%D9%85/%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85';
+// goal.com kooora ile aynı veri altyapısında: maç kimlikleri aynı, takım adları İngilizce → kooora maçını FotMob maçına ADLA bağlar
+const goalEn = {};
+const topla = o => {
+  if (!o || typeof o !== 'object') return;
+  if (o.id && o.teamA?.name && o.teamB?.name) goalEn[o.id] = { home: o.teamA.name, away: o.teamB.name };
+  for (const v of Object.values(o)) topla(v);
+};
 const kooora = [];
 for (const g of [GUN, ertesi(GUN)]) {
+  topla(nextData(await al(`https://www.goal.com/en/live-scores?date=${g}`))?.props?.pageProps);
   for (const grp of nextData(await al(`${KOO}?date=${g}`))?.props?.pageProps?.data || []) for (const x of grp.matches || []) {
-    if (kooora.some(k => k.id === x.id)) continue;
+    // ertelenen maç eski saatinde listede kalıyor (31 Eki: Cezayir 10. haftanın 8 maçı) — alma
+    if (kooora.some(k => k.id === x.id) || /POSTPON|CANCEL|ABANDON|SUSPEND/i.test(x.status || '')) continue;
     kooora.push({ id: x.id, comp: (grp.competition?.name || x.competition?.name || '').replace(/\s+/g, ' ').trim(), start: x.startDate,
       home: x.teamA?.name, away: x.teamB?.name, tv: (x.tvChannels || []).map(c => c.name || c.title || c) });
   }
 }
-rapor.push(`kooora: ${kooora.length} maç`);
+for (const k of kooora) { k.enHome = goalEn[k.id]?.home; k.enAway = goalEn[k.id]?.away; }
+rapor.push(`kooora: ${kooora.length} maç (${kooora.filter(k => k.enHome).length} İngilizce adlı, goal.com)`);
+
+// Aynı maç: iki taraf da benzemeli ("Bayern Munich - Magdeburg" = "Bayern Munich - FC Magdeburg").
+// Tek taraf yetmez: aynı saatte "Manchester City - X" ile "Manchester United - Y" birleşirdi.
+const tok = s => ascii(s).toLowerCase().split(/[^a-z0-9]+/).filter(x => x.length >= 4 &&
+  !/^(club|deportivo|futbol|basket|sport|spor|united|city|real|atletico|sporting|athletic|olympique|internacional)$/.test(x));
+const ortak = (a, b) => n(a).includes(n(b)) || n(b).includes(n(a)) ||
+  tok(a).some(t => tok(b).some(u => t === u || (Math.min(t.length, u.length) >= 5 && (t.startsWith(u) || u.startsWith(t)))));   // Yildirimspor ~ Yildirim
+
 const kooKullanildi = new Set();
 function kooBul(utc, ev, dep, lig = null) {
   const ad = kooora.filter(k => !kooKullanildi.has(k.id) && Date.parse(k.start) === Date.parse(utc) && (!lig || lig.test(k.comp)));
-  const arlar = [ev, dep].map(t => SOZ.takimlar[n(ALIAS[n(t)] || t)]?.names?.ar).filter(arapca);
-  let s = ad.filter(k => arlar.includes(k.home) || arlar.includes(k.away));
+  // 1) İngilizce adla iki taraf  2) sözlükteki Arapça adla  3) o saatte tek aday
+  let s = ad.filter(k => k.enHome && ortak(k.enHome, ev) && ortak(k.enAway, dep));
+  if (s.length !== 1) {
+    const arlar = [ev, dep].map(t => SOZ.takimlar[n(ALIAS[n(t)] || t)]?.names?.ar).filter(arapca);
+    s = ad.filter(k => arlar.includes(k.home) || arlar.includes(k.away));
+  }
   if (s.length !== 1) s = ad.length === 1 ? ad : [];
   if (!s.length) return null;
   kooKullanildi.add(s[0].id);
@@ -203,6 +228,69 @@ for (const m of Object.values(fm)) {
   kayit({ sport: 'football', cid, fmAd: m.lig, utc: m.utc, ev: takim(m.home, koo?.home), dep: takim(m.away, koo?.away),
     broadcasts, sources: ['fotmob', ...(koo ? ['kooora'] : [])] });
 }
+
+// ── 2b) Yalnız kooora'da olan ligler (FotMob'un bu ülkeler için TV rehberi yok) ──
+// Cezayir ve Brezilya en çok tercih eden pazarlar (kullanıcı, 31 Eki 2026) — Cezayir ligi buradan gelir.
+const KOO_LIG = {
+  'دوري روشن السعودي': { cid: 'saudi_pl', ulke: MENA_ULKE },
+  'الرابطة الجزائرية المحترفة الأولى': { cid: 'alg_l1', ulke: ['DZ'] },
+  'كأس الجزائر': { cid: 'alg_cup', ulke: ['DZ'] },
+  'الدوري المصري الممتاز': { cid: 'egypt_pl', ulke: ['EG'] },
+  'الدوري المغربي الممتاز': { cid: 'botola', ulke: ['MA'] },
+  'الدوري الأذربيجاني': { cid: 'aze_pl', ulke: [], sabit: { TR: ['Idman TV'], AZ: ['CBC Sport', 'Idman TV'] } },
+};
+let kooEk = 0;
+for (const k of kooora) {
+  const L = KOO_LIG[k.comp];
+  const t = Date.parse(k.start);
+  if (!L || !(t >= BAS && t < SON) || kooKullanildi.has(k.id) || !k.enHome) continue;
+  if (taze.some(m => Math.abs(Date.parse(m.kickoffUtc) - t) <= 3 * 3600e3 && ortak(m.home, k.enHome) && ortak(m.away, k.enAway))) continue;
+  const tv = temizKanal(k.tv), mena = menaKanal(k.tv);
+  const broadcasts = { ...(L.sabit || {}) };
+  if (tv.length) for (const cc of L.ulke) broadcasts[cc] = tv;
+  if (mena.length) for (const cc of MENA_ULKE) broadcasts[cc] ??= mena.filter(x => !/alkass/i.test(x) || cc === 'QA');
+  for (const cc of Object.keys(broadcasts)) if (!broadcasts[cc].length) delete broadcasts[cc];
+  if (!Object.keys(broadcasts).length && ligBilgi(L.cid).tier !== 'global') continue;
+  kooKullanildi.add(k.id);
+  kayit({ sport: 'football', cid: L.cid, utc: k.start, ev: takim(k.enHome, k.home), dep: takim(k.enAway, k.away), broadcasts, sources: ['kooora', 'goal.com'] });
+  kooEk++;
+}
+rapor.push(`kooora'ya özel ligler (Suudi, Cezayir, Mısır, Fas, Azerbaycan): ${kooEk} maç`);
+
+// ── 2c) Formula 1 — seans programı (jolpi.ca, Ergast'ın devamı; anahtar gerekmez) ──
+const GP_AD = {
+  Mexico: { tr: 'Meksika GP', en: 'Mexico City GP', de: 'Großer Preis von Mexiko', es: 'GP de México', fr: 'GP du Mexique', it: 'GP del Messico', pt: 'GP do México', ar: 'جائزة المكسيك الكبرى' },
+  Brazil: { tr: 'Brezilya GP', en: 'São Paulo GP', de: 'Großer Preis von Brasilien', es: 'GP de Brasil', fr: 'GP du Brésil', it: 'GP del Brasile', pt: 'GP de São Paulo', ar: 'جائزة البرازيل الكبرى' },
+  Qatar: { tr: 'Katar GP', en: 'Qatar GP', de: 'Großer Preis von Katar', es: 'GP de Catar', fr: 'GP du Qatar', it: 'GP del Qatar', pt: 'GP do Catar', ar: 'جائزة قطر الكبرى' },
+  UAE: { tr: 'Abu Dabi GP', en: 'Abu Dhabi GP', de: 'Großer Preis von Abu Dhabi', es: 'GP de Abu Dabi', fr: "GP d'Abou Dhabi", it: 'GP di Abu Dhabi', pt: 'GP de Abu Dhabi', ar: 'جائزة أبوظبي الكبرى' },
+};
+const SEANS = {
+  FirstPractice: { tr: '1. Antrenman', en: 'Practice 1', de: '1. Freies Training', es: 'Práctica 1', fr: 'Essais libres 1', it: 'Prove libere 1', pt: 'Treino livre 1', ar: 'التجارب الحرة الأولى' },
+  SecondPractice: { tr: '2. Antrenman', en: 'Practice 2', de: '2. Freies Training', es: 'Práctica 2', fr: 'Essais libres 2', it: 'Prove libere 2', pt: 'Treino livre 2', ar: 'التجارب الحرة الثانية' },
+  ThirdPractice: { tr: '3. Antrenman', en: 'Practice 3', de: '3. Freies Training', es: 'Práctica 3', fr: 'Essais libres 3', it: 'Prove libere 3', pt: 'Treino livre 3', ar: 'التجارب الحرة الثالثة' },
+  SprintQualifying: { tr: 'Sprint Sıralaması', en: 'Sprint Qualifying', de: 'Sprint-Qualifying', es: 'Clasificación Sprint', fr: 'Qualifications Sprint', it: 'Qualifiche Sprint', pt: 'Classificação Sprint', ar: 'تصفيات السباق السريع' },
+  Sprint: { tr: 'Sprint', en: 'Sprint', de: 'Sprint', es: 'Sprint', fr: 'Sprint', it: 'Sprint', pt: 'Sprint', ar: 'السباق السريع' },
+  Qualifying: { tr: 'Sıralama', en: 'Qualifying', de: 'Qualifying', es: 'Clasificación', fr: 'Qualifications', it: 'Qualifiche', pt: 'Classificação', ar: 'التجارب التأهيلية' },
+  Race: { tr: 'Yarış', en: 'Race', de: 'Rennen', es: 'Carrera', fr: 'Course', it: 'Gara', pt: 'Corrida', ar: 'السباق' },
+};
+// TR ve ES geçmiş dosyalardan; diğerleri sezonluk hak sahipleri
+const F1_KANAL = { TR: ['beIN Sports 4'], ES: ['DAZN F1'], GB: ['Sky Sports F1'], DE: ['Sky Sport F1'], IT: ['Sky Sport F1'], FR: ['Canal+'], US: ['Apple TV'], NL: ['Viaplay'] };
+const f1 = await al(`https://api.jolpi.ca/ergast/f1/${GUN.slice(0, 4)}/races/`, 'json');
+let f1Ek = 0;
+for (const r of f1?.MRData?.RaceTable?.Races || []) {
+  const ulke = r.Circuit?.Location?.country;
+  const gp = GP_AD[ulke] || hepsi(r.raceName.replace(/Grand Prix/, 'GP'));
+  for (const [anahtar, ad] of Object.entries(SEANS)) {
+    const s = anahtar === 'Race' ? { date: r.date, time: r.time } : r[anahtar];
+    const t = s?.time && Date.parse(`${s.date}T${s.time}`);
+    if (!(t >= BAS && t < SON)) continue;
+    const ev = { home: ascii(`Formula 1 ${gp.tr}`), names: Object.fromEntries(DIL.map(l => [l, l === 'ar' ? `الفورمولا 1 - ${gp.ar}` : `Formula 1 ${gp[l]}`])) };
+    kayit({ sport: 'motorsport', cid: 'f1', utc: new Date(t).toISOString(), ev, dep: { home: ascii(ad.tr), names: { ...ad } },
+      broadcasts: { ...F1_KANAL }, sources: ['jolpi.ca'] });
+    f1Ek++;
+  }
+}
+rapor.push(`F1: ${f1 ? f1Ek + ' seans' : 'okunamadı'}`);
 
 // ── 3) Türkiye Kupası — A Spor yayın akışı (yalnız bugünün akışı yayında) ───
 if (GUN === BUGUN_TR) {
@@ -248,13 +336,7 @@ for (const [C, cid, bc] of [['E', 'euroleague', { TR: ['S Sport Plus'] }], ['U',
 const oku = p => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return null; } };
 const mevcut = oku(OUT);
 const temel = mevcut?.date === GUN ? mevcut : { date: GUN, model: 'user-provided', matches: [] };
-// Aynı maç: iki taraf da benzemeli ("Bayern Munich - Magdeburg" = "Bayern Munich - FC Magdeburg").
-// Tek taraf yetmez: aynı saatte "Manchester City - X" ile "Manchester United - Y" birleşirdi.
-const tok = s => ascii(s).toLowerCase().split(/[^a-z0-9]+/).filter(x => x.length >= 4 &&
-  !/^(club|deportivo|futbol|basket|sport|spor|united|city|real|atletico|sporting|athletic|olympique|internacional)$/.test(x));
-const ortak = (a, b) => n(a).includes(n(b)) || n(b).includes(n(a)) ||
-  tok(a).some(t => tok(b).some(u => t === u || (Math.min(t.length, u.length) >= 5 && (t.startsWith(u) || u.startsWith(t)))));   // Yildirimspor ~ Yildirim
-const ayni = (a, b) => a.sport === b.sport && ortak(a.home, b.home) && ortak(a.away, b.away) &&
+const ayni =(a, b) => a.sport === b.sport && ortak(a.home, b.home) && ortak(a.away, b.away) &&
   Math.abs(Date.parse(a.kickoffUtc) - Date.parse(b.kickoffUtc)) <= 6 * 3600e3;
 let yeniMac = 0, yeniUlke = 0;
 const ekle = liste => {

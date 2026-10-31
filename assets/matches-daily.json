@@ -1,12 +1,13 @@
 {
- "generated_at": "2026-10-31T00:52:04.000Z",
+ "generated_at": "2026-10-31T08:55:26.000Z",
  "date": "2026-10-31",
  "model": "user-provided",
  "stats": {
-  "total": 143,
-  "withChannel": 143,
+  "total": 159,
+  "withChannel": 159,
   "bySport": {
-   "football": 126,
+   "football": 139,
+   "motorsport": 3,
    "basketball": 17
   },
   "warnings": 0,
@@ -294,6 +295,74 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "motorsport-20261030-formula-1-meksika-gp-2-antrenman",
+   "sport": "motorsport",
+   "competitionId": "f1",
+   "tier": "global",
+   "competition": {
+    "tr": "Formula 1",
+    "en": "Formula 1",
+    "de": "Formel 1",
+    "es": "Fórmula 1",
+    "fr": "Formule 1",
+    "it": "Formula 1",
+    "pt": "Fórmula 1",
+    "ar": "الفورمولا 1"
+   },
+   "home": "Formula 1 Meksika GP",
+   "away": "2. Antrenman",
+   "homeNames": {
+    "tr": "Formula 1 Meksika GP",
+    "en": "Formula 1 Mexico City GP",
+    "de": "Formula 1 Großer Preis von Mexiko",
+    "es": "Formula 1 GP de México",
+    "fr": "Formula 1 GP du Mexique",
+    "it": "Formula 1 GP del Messico",
+    "pt": "Formula 1 GP do México",
+    "ar": "الفورمولا 1 - جائزة المكسيك الكبرى"
+   },
+   "awayNames": {
+    "tr": "2. Antrenman",
+    "en": "Practice 2",
+    "de": "2. Freies Training",
+    "es": "Práctica 2",
+    "fr": "Essais libres 2",
+    "it": "Prove libere 2",
+    "pt": "Treino livre 2",
+    "ar": "التجارب الحرة الثانية"
+   },
+   "kickoffUtc": "2026-10-30T22:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 4"
+    ],
+    "ES": [
+     "DAZN F1"
+    ],
+    "GB": [
+     "Sky Sports F1"
+    ],
+    "DE": [
+     "Sky Sport F1"
+    ],
+    "IT": [
+     "Sky Sport F1"
+    ],
+    "FR": [
+     "Canal+"
+    ],
+    "US": [
+     "Apple TV"
+    ],
+    "NL": [
+     "Viaplay"
+    ]
+   },
+   "sources": [
+    "jolpi.ca"
    ]
   },
   {
@@ -3839,6 +3908,45 @@
      "beIN Sports 2",
      "beIN CONNECT",
      "Digiturk Play"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "MA": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4071,6 +4179,58 @@
    ]
   },
   {
+   "id": "football-20261031-araz-pfk-zira",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Araz PFK",
+   "away": "Zira",
+   "homeNames": {
+    "tr": "Araz PFK",
+    "en": "Araz PFK",
+    "de": "Araz PFK",
+    "es": "Araz PFK",
+    "fr": "Araz PFK",
+    "it": "Araz PFK",
+    "pt": "Araz PFK",
+    "ar": "اراز"
+   },
+   "awayNames": {
+    "tr": "Zira",
+    "en": "Zira",
+    "de": "Zira",
+    "es": "Zira",
+    "fr": "Zira",
+    "it": "Zira",
+    "pt": "Zira",
+    "ar": "زيره"
+   },
+   "kickoffUtc": "2026-10-31T11:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261031-darmstadt-magdeburg",
    "sport": "football",
    "competitionId": "bundesliga2",
@@ -4161,6 +4321,45 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -4280,6 +4479,58 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "MA": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
     ]
    },
    "sources": [
@@ -4567,6 +4818,54 @@
     "PY": [
      "ESPN",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4813,6 +5112,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -5010,6 +5357,42 @@
      "beIN CONNECT",
      "TOD",
      "beIN Sports France"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -5194,6 +5577,54 @@
      "DSports",
      "DGO",
      "Paramount+"
+    ],
+    "SA": [
+     "beIN Sports MENA 8",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 8",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 8",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 8",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 8",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 8",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 8",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 8",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 8",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 8",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 8",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 8",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -5502,6 +5933,142 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261031-fk-qabala-qarabag-fk",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "FK Qabala",
+   "away": "Qarabag FK",
+   "homeNames": {
+    "tr": "FK Qabala",
+    "en": "FK Qabala",
+    "de": "FK Qabala",
+    "es": "FK Qabala",
+    "fr": "FK Qabala",
+    "it": "FK Qabala",
+    "pt": "FK Qabala",
+    "ar": "إف ك كابالا"
+   },
+   "awayNames": {
+    "tr": "Qarabag FK",
+    "en": "Qarabag FK",
+    "de": "Qarabag FK",
+    "es": "Qarabag FK",
+    "fr": "Qarabag FK",
+    "it": "Qarabag FK",
+    "pt": "Qarabag FK",
+    "ar": "كاراباج"
+   },
+   "kickoffUtc": "2026-10-31T13:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261031-al-taawoun-al-ettifaq",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "global",
+   "competition": {
+    "tr": "Suudi Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Liga Saudita",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al Taawoun",
+   "away": "Al-Ettifaq",
+   "homeNames": {
+    "tr": "Al-Taawoun",
+    "en": "Al-Taawoun",
+    "de": "Al-Taawoun",
+    "es": "Al-Taawoun",
+    "fr": "Al-Taawoun",
+    "it": "Al-Taawoun",
+    "pt": "Al-Taawoun",
+    "ar": "التعاون"
+   },
+   "awayNames": {
+    "tr": "Al-Ettifaq",
+    "en": "Al-Ettifaq",
+    "de": "Al-Ettifaq",
+    "es": "Al-Ettifaq",
+    "fr": "Al-Ettifaq",
+    "it": "Al-Ettifaq",
+    "pt": "Al-Ettifaq",
+    "ar": "الاتفاق"
+   },
+   "kickoffUtc": "2026-10-31T13:30:00Z",
+   "broadcasts": {
+    "SA": [
+     "Thmanyah"
+    ],
+    "QA": [
+     "Thmanyah"
+    ],
+    "AE": [
+     "Thmanyah"
+    ],
+    "EG": [
+     "Thmanyah"
+    ],
+    "MA": [
+     "Thmanyah"
+    ],
+    "DZ": [
+     "Thmanyah"
+    ],
+    "TN": [
+     "Thmanyah"
+    ],
+    "IQ": [
+     "Thmanyah"
+    ],
+    "JO": [
+     "Thmanyah"
+    ],
+    "OM": [
+     "Thmanyah"
+    ],
+    "LY": [
+     "Thmanyah"
+    ],
+    "KW": [
+     "Thmanyah"
+    ],
+    "BH": [
+     "Thmanyah"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -5989,6 +6556,54 @@
    ]
   },
   {
+   "id": "football-20261031-mc-alger-usm-khenchela",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "MC Alger",
+   "away": "USM Khenchela",
+   "homeNames": {
+    "tr": "MC Alger",
+    "en": "MC Alger",
+    "de": "MC Alger",
+    "es": "MC Alger",
+    "fr": "MC Alger",
+    "it": "MC Alger",
+    "pt": "MC Alger",
+    "ar": "مولودية الجزائر"
+   },
+   "awayNames": {
+    "tr": "USM Khenchela",
+    "en": "USM Khenchela",
+    "de": "USM Khenchela",
+    "es": "USM Khenchela",
+    "fr": "USM Khenchela",
+    "it": "USM Khenchela",
+    "pt": "USM Khenchela",
+    "ar": "اتحاد خنشلة"
+   },
+   "kickoffUtc": "2026-10-31T14:00:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261031-augsburg-freiburg",
    "sport": "football",
    "competitionId": "bundesliga",
@@ -6109,6 +6724,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA Max 4",
+     "MBC Shahid"
+    ],
+    "QA": [
+     "beIN Sports MENA Max 4",
+     "MBC Shahid"
+    ],
+    "AE": [
+     "beIN Sports MENA Max 4",
+     "MBC Shahid"
+    ],
+    "EG": [
+     "beIN Sports MENA Max 4",
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "beIN Sports MENA Max 4",
+     "MBC Shahid"
+    ],
+    "TN": [
+     "beIN Sports MENA Max 4",
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "beIN Sports MENA Max 4",
+     "MBC Shahid"
+    ],
+    "JO": [
+     "beIN Sports MENA Max 4",
+     "MBC Shahid"
+    ],
+    "OM": [
+     "beIN Sports MENA Max 4",
+     "MBC Shahid"
+    ],
+    "LY": [
+     "beIN Sports MENA Max 4",
+     "MBC Shahid"
+    ],
+    "KW": [
+     "beIN Sports MENA Max 4",
+     "MBC Shahid"
+    ],
+    "BH": [
+     "beIN Sports MENA Max 4",
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -6258,6 +6921,54 @@
     "PY": [
      "ESPN 5",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
     ]
    },
    "sources": [
@@ -6384,6 +7095,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 8"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 8"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 8"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 8"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 8"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 8"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 8"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 8"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 8"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 8"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 8"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 8"
     ]
    },
    "sources": [
@@ -6529,6 +7288,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
     ]
    },
    "sources": [
@@ -6662,10 +7469,142 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
     ]
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261031-al-fayha-al-faisaly",
+   "sport": "football",
+   "competitionId": "saudi_pl",
+   "tier": "global",
+   "competition": {
+    "tr": "Suudi Pro Lig",
+    "en": "Saudi Pro League",
+    "de": "Saudi Pro League",
+    "es": "Liga Profesional Saudí",
+    "fr": "Saudi Pro League",
+    "it": "Saudi Pro League",
+    "pt": "Liga Saudita",
+    "ar": "دوري روشن السعودي"
+   },
+   "home": "Al-Fayha",
+   "away": "Al-Faisaly",
+   "homeNames": {
+    "tr": "Al-Fayha",
+    "en": "Al-Fayha",
+    "de": "Al-Fayha",
+    "es": "Al-Fayha",
+    "fr": "Al-Fayha",
+    "it": "Al-Fayha",
+    "pt": "Al-Fayha",
+    "ar": "الفيحاء"
+   },
+   "awayNames": {
+    "tr": "Al-Faisaly",
+    "en": "Al-Faisaly",
+    "de": "Al-Faisaly",
+    "es": "Al-Faisaly",
+    "fr": "Al-Faisaly",
+    "it": "Al-Faisaly",
+    "pt": "Al-Faisaly",
+    "ar": "الفيصلي"
+   },
+   "kickoffUtc": "2026-10-31T14:55:00Z",
+   "broadcasts": {
+    "SA": [
+     "Thmanyah"
+    ],
+    "QA": [
+     "Thmanyah"
+    ],
+    "AE": [
+     "Thmanyah"
+    ],
+    "EG": [
+     "Thmanyah"
+    ],
+    "MA": [
+     "Thmanyah"
+    ],
+    "DZ": [
+     "Thmanyah"
+    ],
+    "TN": [
+     "Thmanyah"
+    ],
+    "IQ": [
+     "Thmanyah"
+    ],
+    "JO": [
+     "Thmanyah"
+    ],
+    "OM": [
+     "Thmanyah"
+    ],
+    "LY": [
+     "Thmanyah"
+    ],
+    "KW": [
+     "Thmanyah"
+    ],
+    "BH": [
+     "Thmanyah"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -6811,6 +7750,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -6969,6 +7956,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -7118,6 +8153,42 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 5"
+    ],
+    "QA": [
+     "beIN Sports MENA 5"
+    ],
+    "AE": [
+     "beIN Sports MENA 5"
+    ],
+    "EG": [
+     "beIN Sports MENA 5"
+    ],
+    "DZ": [
+     "beIN Sports MENA 5"
+    ],
+    "TN": [
+     "beIN Sports MENA 5"
+    ],
+    "IQ": [
+     "beIN Sports MENA 5"
+    ],
+    "JO": [
+     "beIN Sports MENA 5"
+    ],
+    "OM": [
+     "beIN Sports MENA 5"
+    ],
+    "LY": [
+     "beIN Sports MENA 5"
+    ],
+    "KW": [
+     "beIN Sports MENA 5"
+    ],
+    "BH": [
+     "beIN Sports MENA 5"
     ]
    },
    "sources": [
@@ -7273,6 +8344,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 3",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -7453,6 +8572,54 @@
     "PY": [
      "ESPN",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -7706,6 +8873,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "TOD TV",
+     "beIN Sports MAX 9"
+    ],
+    "QA": [
+     "TOD TV",
+     "beIN Sports MAX 9"
+    ],
+    "AE": [
+     "TOD TV",
+     "beIN Sports MAX 9"
+    ],
+    "EG": [
+     "TOD TV",
+     "beIN Sports MAX 9"
+    ],
+    "DZ": [
+     "TOD TV",
+     "beIN Sports MAX 9"
+    ],
+    "TN": [
+     "TOD TV",
+     "beIN Sports MAX 9"
+    ],
+    "IQ": [
+     "TOD TV",
+     "beIN Sports MAX 9"
+    ],
+    "JO": [
+     "TOD TV",
+     "beIN Sports MAX 9"
+    ],
+    "OM": [
+     "TOD TV",
+     "beIN Sports MAX 9"
+    ],
+    "LY": [
+     "TOD TV",
+     "beIN Sports MAX 9"
+    ],
+    "KW": [
+     "TOD TV",
+     "beIN Sports MAX 9"
+    ],
+    "BH": [
+     "TOD TV",
+     "beIN Sports MAX 9"
     ]
    },
    "sources": [
@@ -7917,6 +9132,54 @@
    ]
   },
   {
+   "id": "football-20261031-abo-qir-semad-ghazl-al-mahalla",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "Abo Qir Semad",
+   "away": "Ghazl Al Mahalla",
+   "homeNames": {
+    "tr": "Abo Qir Semad",
+    "en": "Abo Qir Semad",
+    "de": "Abo Qir Semad",
+    "es": "Abo Qir Semad",
+    "fr": "Abo Qir Semad",
+    "it": "Abo Qir Semad",
+    "pt": "Abo Qir Semad",
+    "ar": "أبو قير للأسمدة"
+   },
+   "awayNames": {
+    "tr": "Ghazl Al Mahalla",
+    "en": "Ghazl Al Mahalla",
+    "de": "Ghazl Al Mahalla",
+    "es": "Ghazl Al Mahalla",
+    "fr": "Ghazl Al Mahalla",
+    "it": "Ghazl Al Mahalla",
+    "pt": "Ghazl Al Mahalla",
+    "ar": "غزل المحلة"
+   },
+   "kickoffUtc": "2026-10-31T15:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport Plus"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261031-rayo-vallecano-celta-vigo",
    "sport": "football",
    "competitionId": "laliga",
@@ -8085,6 +9348,54 @@
     "PY": [
      "ESPN 4",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 5",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -8162,6 +9473,42 @@
      "beIN Sports 8",
      "TOD",
      "beIN CONNECT"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -8691,6 +10038,103 @@
    ]
   },
   {
+   "id": "football-20261031-us-amal-tiznit-kacm",
+   "sport": "football",
+   "competitionId": "botola",
+   "tier": "regional",
+   "competition": {
+    "tr": "Fas Botola Pro",
+    "en": "Botola Pro",
+    "de": "Botola Pro",
+    "es": "Botola Pro",
+    "fr": "Botola Pro",
+    "it": "Botola Pro",
+    "pt": "Botola Pro",
+    "ar": "البطولة الاحترافية"
+   },
+   "home": "US Amal Tiznit",
+   "away": "KACM",
+   "homeNames": {
+    "tr": "US Amal Tiznit",
+    "en": "US Amal Tiznit",
+    "de": "US Amal Tiznit",
+    "es": "US Amal Tiznit",
+    "fr": "US Amal Tiznit",
+    "it": "US Amal Tiznit",
+    "pt": "US Amal Tiznit",
+    "ar": "أمل تيزنيت"
+   },
+   "awayNames": {
+    "tr": "KACM",
+    "en": "KACM",
+    "de": "KACM",
+    "es": "KACM",
+    "fr": "KACM",
+    "it": "KACM",
+    "pt": "KACM",
+    "ar": "الكوكب الرياضي المراكشي"
+   },
+   "kickoffUtc": "2026-10-31T16:00:00Z",
+   "broadcasts": {
+    "MA": [
+     "SNRT Live",
+     "Arryadia"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "kooora"
+   ]
+  },
+  {
+   "id": "football-20261031-cs-constantine-usm-alger",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "CS Constantine",
+   "away": "USM Alger",
+   "homeNames": {
+    "tr": "CS Constantine",
+    "en": "CS Constantine",
+    "de": "CS Constantine",
+    "es": "CS Constantine",
+    "fr": "CS Constantine",
+    "it": "CS Constantine",
+    "pt": "CS Constantine",
+    "ar": "شباب قسنطينة"
+   },
+   "awayNames": {
+    "tr": "USM Alger",
+    "en": "USM Alger",
+    "de": "USM Alger",
+    "es": "USM Alger",
+    "fr": "USM Alger",
+    "it": "USM Alger",
+    "pt": "USM Alger",
+    "ar": "اتحاد العاصمة"
+   },
+   "kickoffUtc": "2026-10-31T16:00:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261031-catanzaro-padova",
    "sport": "football",
    "competitionId": "seriebit",
@@ -8842,6 +10286,54 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261031-mb-rouissat-es-ben-aknoun",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "MB Rouissat",
+   "away": "ES Ben Aknoun",
+   "homeNames": {
+    "tr": "MB Rouissat",
+    "en": "MB Rouissat",
+    "de": "MB Rouissat",
+    "es": "MB Rouissat",
+    "fr": "MB Rouissat",
+    "it": "MB Rouissat",
+    "pt": "MB Rouissat",
+    "ar": "مستقبل بلدية الرويسات"
+   },
+   "awayNames": {
+    "tr": "ES Ben Aknoun",
+    "en": "ES Ben Aknoun",
+    "de": "ES Ben Aknoun",
+    "es": "ES Ben Aknoun",
+    "fr": "ES Ben Aknoun",
+    "it": "ES Ben Aknoun",
+    "pt": "ES Ben Aknoun",
+    "ar": "نجم بن عكنون"
+   },
+   "kickoffUtc": "2026-10-31T16:45:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -9272,6 +10764,54 @@
     "PY": [
      "ESPN 2",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -9452,6 +10992,54 @@
      "DSports",
      "DGO",
      "Paramount+"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -9672,6 +11260,42 @@
     "PY": [
      "ESPN",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -9769,6 +11393,74 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "motorsport-20261031-formula-1-meksika-gp-3-antrenman",
+   "sport": "motorsport",
+   "competitionId": "f1",
+   "tier": "global",
+   "competition": {
+    "tr": "Formula 1",
+    "en": "Formula 1",
+    "de": "Formel 1",
+    "es": "Fórmula 1",
+    "fr": "Formule 1",
+    "it": "Formula 1",
+    "pt": "Fórmula 1",
+    "ar": "الفورمولا 1"
+   },
+   "home": "Formula 1 Meksika GP",
+   "away": "3. Antrenman",
+   "homeNames": {
+    "tr": "Formula 1 Meksika GP",
+    "en": "Formula 1 Mexico City GP",
+    "de": "Formula 1 Großer Preis von Mexiko",
+    "es": "Formula 1 GP de México",
+    "fr": "Formula 1 GP du Mexique",
+    "it": "Formula 1 GP del Messico",
+    "pt": "Formula 1 GP do México",
+    "ar": "الفورمولا 1 - جائزة المكسيك الكبرى"
+   },
+   "awayNames": {
+    "tr": "3. Antrenman",
+    "en": "Practice 3",
+    "de": "3. Freies Training",
+    "es": "Práctica 3",
+    "fr": "Essais libres 3",
+    "it": "Prove libere 3",
+    "pt": "Treino livre 3",
+    "ar": "التجارب الحرة الثالثة"
+   },
+   "kickoffUtc": "2026-10-31T17:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 4"
+    ],
+    "ES": [
+     "DAZN F1"
+    ],
+    "GB": [
+     "Sky Sports F1"
+    ],
+    "DE": [
+     "Sky Sport F1"
+    ],
+    "IT": [
+     "Sky Sport F1"
+    ],
+    "FR": [
+     "Canal+"
+    ],
+    "US": [
+     "Apple TV"
+    ],
+    "NL": [
+     "Viaplay"
+    ]
+   },
+   "sources": [
+    "jolpi.ca"
    ]
   },
   {
@@ -10549,10 +12241,194 @@
     ],
     "NG": [
      "ESPN 2 Africa"
+    ],
+    "SA": [
+     "Thmanyah"
+    ],
+    "QA": [
+     "Thmanyah"
+    ],
+    "AE": [
+     "Thmanyah"
+    ],
+    "EG": [
+     "Thmanyah"
+    ],
+    "MA": [
+     "Thmanyah"
+    ],
+    "DZ": [
+     "Thmanyah"
+    ],
+    "TN": [
+     "Thmanyah"
+    ],
+    "IQ": [
+     "Thmanyah"
+    ],
+    "JO": [
+     "Thmanyah"
+    ],
+    "OM": [
+     "Thmanyah"
+    ],
+    "LY": [
+     "Thmanyah"
+    ],
+    "KW": [
+     "Thmanyah"
+    ],
+    "BH": [
+     "Thmanyah"
     ]
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261031-wydad-casablanca-mat-tetouan",
+   "sport": "football",
+   "competitionId": "botola",
+   "tier": "regional",
+   "competition": {
+    "tr": "Fas Botola Pro",
+    "en": "Botola Pro",
+    "de": "Botola Pro",
+    "es": "Botola Pro",
+    "fr": "Botola Pro",
+    "it": "Botola Pro",
+    "pt": "Botola Pro",
+    "ar": "البطولة الاحترافية"
+   },
+   "home": "Wydad Casablanca",
+   "away": "MAT Tetouan",
+   "homeNames": {
+    "tr": "Wydad Casablanca",
+    "en": "Wydad Casablanca",
+    "de": "Wydad Casablanca",
+    "es": "Wydad Casablanca",
+    "fr": "Wydad Casablanca",
+    "it": "Wydad Casablanca",
+    "pt": "Wydad Casablanca",
+    "ar": "الوداد الرياضي"
+   },
+   "awayNames": {
+    "tr": "MAT Tetouan",
+    "en": "MAT Tetouan",
+    "de": "MAT Tetouan",
+    "es": "MAT Tetouan",
+    "fr": "MAT Tetouan",
+    "it": "MAT Tetouan",
+    "pt": "MAT Tetouan",
+    "ar": "المغرب التطواني"
+   },
+   "kickoffUtc": "2026-10-31T18:00:00Z",
+   "broadcasts": {
+    "MA": [
+     "Arryadia",
+     "SNRT Live"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "kooora"
+   ]
+  },
+  {
+   "id": "football-20261031-ceramica-cleopatra-zed-fc",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "Ceramica Cleopatra",
+   "away": "ZED FC",
+   "homeNames": {
+    "tr": "Ceramica Cleopatra",
+    "en": "Ceramica Cleopatra",
+    "de": "Ceramica Cleopatra",
+    "es": "Ceramica Cleopatra",
+    "fr": "Ceramica Cleopatra",
+    "it": "Ceramica Cleopatra",
+    "pt": "Ceramica Cleopatra",
+    "ar": "سيراميكا كليوباترا"
+   },
+   "awayNames": {
+    "tr": "ZED FC",
+    "en": "ZED FC",
+    "de": "ZED FC",
+    "es": "ZED FC",
+    "fr": "ZED FC",
+    "it": "ZED FC",
+    "pt": "ZED FC",
+    "ar": "زد"
+   },
+   "kickoffUtc": "2026-10-31T18:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261031-petrojet-suez-smouha-sc",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "Petrojet-Suez",
+   "away": "Smouha SC",
+   "homeNames": {
+    "tr": "Petrojet-Suez",
+    "en": "Petrojet-Suez",
+    "de": "Petrojet-Suez",
+    "es": "Petrojet-Suez",
+    "fr": "Petrojet-Suez",
+    "it": "Petrojet-Suez",
+    "pt": "Petrojet-Suez",
+    "ar": "السويس بتروجيت"
+   },
+   "awayNames": {
+    "tr": "Smouha SC",
+    "en": "Smouha SC",
+    "de": "Smouha SC",
+    "es": "Smouha SC",
+    "fr": "Smouha SC",
+    "it": "Smouha SC",
+    "pt": "Smouha SC",
+    "ar": "سموحة"
+   },
+   "kickoffUtc": "2026-10-31T18:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport Max"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -11668,6 +13544,45 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -12079,6 +13994,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -12439,6 +14402,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -12616,6 +14627,54 @@
     "PY": [
      "ESPN",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -12799,6 +14858,55 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261031-fus-rabat-hassania-agadir",
+   "sport": "football",
+   "competitionId": "botola",
+   "tier": "regional",
+   "competition": {
+    "tr": "Fas Botola Pro",
+    "en": "Botola Pro",
+    "de": "Botola Pro",
+    "es": "Botola Pro",
+    "fr": "Botola Pro",
+    "it": "Botola Pro",
+    "pt": "Botola Pro",
+    "ar": "البطولة الاحترافية"
+   },
+   "home": "FUS Rabat",
+   "away": "Hassania Agadir",
+   "homeNames": {
+    "tr": "FUS Rabat",
+    "en": "FUS Rabat",
+    "de": "FUS Rabat",
+    "es": "FUS Rabat",
+    "fr": "FUS Rabat",
+    "it": "FUS Rabat",
+    "pt": "FUS Rabat",
+    "ar": "الفتح الرباطي"
+   },
+   "awayNames": {
+    "tr": "Hassania Agadir",
+    "en": "Hassania Agadir",
+    "de": "Hassania Agadir",
+    "es": "Hassania Agadir",
+    "fr": "Hassania Agadir",
+    "it": "Hassania Agadir",
+    "pt": "Hassania Agadir",
+    "ar": "حسنية أغادير"
+   },
+   "kickoffUtc": "2026-10-31T20:00:00Z",
+   "broadcasts": {
+    "MA": [
+     "Arryadia",
+     "SNRT Live"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "kooora"
    ]
   },
   {
@@ -13406,6 +15514,74 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "motorsport-20261031-formula-1-meksika-gp-siralama",
+   "sport": "motorsport",
+   "competitionId": "f1",
+   "tier": "global",
+   "competition": {
+    "tr": "Formula 1",
+    "en": "Formula 1",
+    "de": "Formel 1",
+    "es": "Fórmula 1",
+    "fr": "Formule 1",
+    "it": "Formula 1",
+    "pt": "Fórmula 1",
+    "ar": "الفورمولا 1"
+   },
+   "home": "Formula 1 Meksika GP",
+   "away": "Siralama",
+   "homeNames": {
+    "tr": "Formula 1 Meksika GP",
+    "en": "Formula 1 Mexico City GP",
+    "de": "Formula 1 Großer Preis von Mexiko",
+    "es": "Formula 1 GP de México",
+    "fr": "Formula 1 GP du Mexique",
+    "it": "Formula 1 GP del Messico",
+    "pt": "Formula 1 GP do México",
+    "ar": "الفورمولا 1 - جائزة المكسيك الكبرى"
+   },
+   "awayNames": {
+    "tr": "Sıralama",
+    "en": "Qualifying",
+    "de": "Qualifying",
+    "es": "Clasificación",
+    "fr": "Qualifications",
+    "it": "Qualifiche",
+    "pt": "Classificação",
+    "ar": "التجارب التأهيلية"
+   },
+   "kickoffUtc": "2026-10-31T21:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 4"
+    ],
+    "ES": [
+     "DAZN F1"
+    ],
+    "GB": [
+     "Sky Sports F1"
+    ],
+    "DE": [
+     "Sky Sport F1"
+    ],
+    "IT": [
+     "Sky Sport F1"
+    ],
+    "FR": [
+     "Canal+"
+    ],
+    "US": [
+     "Apple TV"
+    ],
+    "NL": [
+     "Viaplay"
+    ]
+   },
+   "sources": [
+    "jolpi.ca"
    ]
   },
   {
