@@ -1,0 +1,105 @@
+{
+  "tabs": {
+    "matches": "Utakmice",
+    "teams": "Moji timovi",
+    "settings": "Podešavanja"
+  },
+  "matches": {
+    "title": "Raspored utakmica",
+    "appTitle": "Na kom kanalu?",
+    "lastUpdated": "Ažurirano: {{time}}",
+    "today": "Danas",
+    "tomorrow": "Sutra",
+    "noMatches": "Danas nema utakmica",
+    "noFavoriteMatches": "Nema utakmica vaših omiljenih timova",
+    "allMatches": "Sve utakmice",
+    "favoriteMatches": "Moji timovi",
+    "live": "UŽIVO",
+    "channel": "Kanal",
+    "startsIn": "minuta do početka",
+    "sports": {
+      "all": "Sve",
+      "football": "Fudbal",
+      "basketball": "Košarka",
+      "volleyball": "Odbojka",
+      "motorsport": "Moto sportovi"
+    },
+    "worldcupBanner": "Svetsko prvenstvo 2026",
+    "worldcupSubtitle": "TV kanali i satnica za svaku utakmicu",
+    "reminder15min": "Podsetnik postavljen — 15 min pre početka",
+    "reminderNoGoal": "(Samo vreme utakmice — bez obaveštenja o golovima)",
+    "noChannel": "Nema podataka o prenosu"
+  },
+  "teams": {
+    "title": "Izaberite timove",
+    "search": "Pretraži timove...",
+    "selected": "izabrano",
+    "noTeams": "Nema pronađenih timova",
+    "infoText": "Dobićete obaveštenje 15 minuta pre utakmica izabranih timova.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premijer liga",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serija A",
+      "ligue1": "Liga 1",
+      "champions": "Liga šampiona",
+      "national": "Reprezentacije"
+    }
+  },
+  "settings": {
+    "title": "Podešavanja",
+    "language": "Jezik",
+    "notifications": "Obaveštenja",
+    "notificationsDesc": "Obaveštenje 15 minuta pre početka utakmice",
+    "noGoalDisclaimer": "Namerno ne šaljemo obaveštenja o golovima — ne želimo da vam pokvarimo doživljaj utakmice. Šaljemo samo podsetnik 15 minuta pre početka.",
+    "theme": "Tema",
+    "dark": "Tamna",
+    "light": "Svetla",
+    "about": "O aplikaciji",
+    "version": "Verzija",
+    "selectLanguage": "Izaberite jezik",
+    "notificationEnabled": "Obaveštenja uključena",
+    "notificationDisabled": "Obaveštenja isključena",
+    "permissionWarning": "Dozvola za obaveštenja je odbijena. Omogućite je u podešavanjima aplikacije.",
+    "country": "Zemlja / region prenosa",
+    "countryDesc": "Kanali prikazani uz svaku utakmicu zavise od izabrane zemlje.",
+    "selectCountry": "Izaberite zemlju",
+    "appName": "Na kom kanalu?",
+    "appDesc": "Pratite utakmice na pravom kanalu u pravo vreme."
+  },
+  "notification": {
+    "title": "⚽ Podsetnik za utakmicu",
+    "body": "{{home}} - {{away}} počinje za 15 minuta na {{channel}}!",
+    "bodyNoChannel": "{{home}} - {{away}} počinje za 15 minuta!"
+  },
+  "common": {
+    "loading": "Učitavanje...",
+    "error": "Došlo je do greške",
+    "retry": "Pokušaj ponovo",
+    "save": "Sačuvaj",
+    "cancel": "Otkaži"
+  },
+  "paywall": {
+    "subtitle": "Sportski TV vodič",
+    "trial": "10 DANA BESPLATNO",
+    "feature0": "Današnje utakmice — tačno vreme i kanal",
+    "feature1": "Podsetnik 15 minuta pre utakmice",
+    "feature2": "TV raspored za 15 zemalja",
+    "feature3": "Svakodnevno automatsko ažuriranje",
+    "pricePerMonth": "/mesečno",
+    "priceNote": "Posle besplatnog perioda od 10 dana naplaćuje se {{price}}/mesečno. Otkazivanje u bilo kom trenutku.",
+    "startFree": "Počni besplatno — 10 dana",
+    "restore": "Vrati kupovine",
+    "legalIos": "Naplaćuje se sa vašeg iTunes naloga. Pretplata se automatski obnavlja ako je ne otkažete najmanje 24 sata pre isteka tekućeg perioda.",
+    "legalAndroid": "Naplaćuje se sa vašeg Google Play naloga. Otkazivanje u bilo kom trenutku preko Google Play-a.",
+    "errorTitle": "Greška",
+    "errorPurchase": "Kupovina nije završena. Pokušajte ponovo.",
+    "notFoundTitle": "Nije pronađeno",
+    "errorNoSub": "Za ovaj nalog nije pronađena aktivna pretplata.",
+    "errorRestore": "Kupovine nije moguće vratiti.",
+    "offeringError": "Nije moguće učitati opcije pretplate. Proverite internet vezu.",
+    "privacyPolicy": "Politika privatnosti",
+    "termsOfUse": "Uslovi korišćenja"
+  }
+}

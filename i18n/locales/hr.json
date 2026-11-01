@@ -1,0 +1,105 @@
+{
+  "tabs": {
+    "matches": "Utakmice",
+    "teams": "Moji klubovi",
+    "settings": "Postavke"
+  },
+  "matches": {
+    "title": "Raspored utakmica",
+    "appTitle": "Na kojem kanalu?",
+    "lastUpdated": "Ažurirano: {{time}}",
+    "today": "Danas",
+    "tomorrow": "Sutra",
+    "noMatches": "Danas nema utakmica",
+    "noFavoriteMatches": "Nema utakmica vaših omiljenih klubova",
+    "allMatches": "Sve utakmice",
+    "favoriteMatches": "Moji klubovi",
+    "live": "UŽIVO",
+    "channel": "Kanal",
+    "startsIn": "minuta do početka",
+    "sports": {
+      "all": "Sve",
+      "football": "Nogomet",
+      "basketball": "Košarka",
+      "volleyball": "Odbojka",
+      "motorsport": "Moto sportovi"
+    },
+    "worldcupBanner": "Svjetsko prvenstvo 2026",
+    "worldcupSubtitle": "TV kanali i satnica za svaku utakmicu",
+    "reminder15min": "Podsjetnik postavljen — 15 min prije početka",
+    "reminderNoGoal": "(Samo vrijeme utakmice — bez obavijesti o golovima)",
+    "noChannel": "Nema podataka o prijenosu"
+  },
+  "teams": {
+    "title": "Odaberite klubove",
+    "search": "Pretraži klubove...",
+    "selected": "odabrano",
+    "noTeams": "Nema pronađenih klubova",
+    "infoText": "Dobit ćete obavijest 15 minuta prije utakmica odabranih klubova.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Liga prvaka",
+      "national": "Reprezentacije"
+    }
+  },
+  "settings": {
+    "title": "Postavke",
+    "language": "Jezik",
+    "notifications": "Obavijesti",
+    "notificationsDesc": "Obavijest 15 minuta prije početka utakmice",
+    "noGoalDisclaimer": "Namjerno ne šaljemo obavijesti o golovima — ne želimo vam pokvariti doživljaj utakmice. Šaljemo samo podsjetnik 15 minuta prije početka.",
+    "theme": "Tema",
+    "dark": "Tamna",
+    "light": "Svijetla",
+    "about": "O aplikaciji",
+    "version": "Verzija",
+    "selectLanguage": "Odaberite jezik",
+    "notificationEnabled": "Obavijesti uključene",
+    "notificationDisabled": "Obavijesti isključene",
+    "permissionWarning": "Dopuštenje za obavijesti je odbijeno. Omogućite ga u postavkama aplikacije.",
+    "country": "Država / regija prijenosa",
+    "countryDesc": "Kanali prikazani uz svaku utakmicu ovise o odabranoj državi.",
+    "selectCountry": "Odaberite državu",
+    "appName": "Na kojem kanalu?",
+    "appDesc": "Pratite utakmice na pravom kanalu u pravo vrijeme."
+  },
+  "notification": {
+    "title": "⚽ Podsjetnik za utakmicu",
+    "body": "{{home}} - {{away}} počinje za 15 minuta na {{channel}}!",
+    "bodyNoChannel": "{{home}} - {{away}} počinje za 15 minuta!"
+  },
+  "common": {
+    "loading": "Učitavanje...",
+    "error": "Došlo je do pogreške",
+    "retry": "Pokušaj ponovno",
+    "save": "Spremi",
+    "cancel": "Odustani"
+  },
+  "paywall": {
+    "subtitle": "Sportski TV vodič",
+    "trial": "10 DANA BESPLATNO",
+    "feature0": "Današnje utakmice — točno vrijeme i kanal",
+    "feature1": "Podsjetnik 15 minuta prije utakmice",
+    "feature2": "TV raspored za 15 zemalja",
+    "feature3": "Svakodnevno automatsko ažuriranje",
+    "pricePerMonth": "/mjesečno",
+    "priceNote": "Nakon besplatnog razdoblja od 10 dana naplaćuje se {{price}}/mjesečno. Otkazivanje u bilo kojem trenutku.",
+    "startFree": "Započni besplatno — 10 dana",
+    "restore": "Vrati kupnje",
+    "legalIos": "Naplaćuje se na vaš iTunes račun. Pretplata se automatski obnavlja ako je ne otkažete najmanje 24 sata prije isteka tekućeg razdoblja.",
+    "legalAndroid": "Naplaćuje se na vaš Google Play račun. Otkazivanje u bilo kojem trenutku putem Google Playa.",
+    "errorTitle": "Pogreška",
+    "errorPurchase": "Kupnja nije dovršena. Pokušajte ponovno.",
+    "notFoundTitle": "Nije pronađeno",
+    "errorNoSub": "Za ovaj račun nije pronađena aktivna pretplata.",
+    "errorRestore": "Kupnje nije moguće vratiti.",
+    "offeringError": "Nije moguće učitati opcije pretplate. Provjerite internetsku vezu.",
+    "privacyPolicy": "Pravila privatnosti",
+    "termsOfUse": "Uvjeti korištenja"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "tabs": {
+    "matches": "Mecze",
+    "teams": "Moje drużyny",
+    "settings": "Ustawienia"
+  },
+  "matches": {
+    "title": "Terminarz meczów",
+    "appTitle": "Na jakim kanale?",
+    "lastUpdated": "Aktualizacja: {{time}}",
+    "today": "Dziś",
+    "tomorrow": "Jutro",
+    "noMatches": "Brak meczów na dziś",
+    "noFavoriteMatches": "Brak meczów Twoich ulubionych drużyn",
+    "allMatches": "Wszystkie mecze",
+    "favoriteMatches": "Moje drużyny",
+    "live": "NA ŻYWO",
+    "channel": "Kanał",
+    "startsIn": "minut do rozpoczęcia",
+    "sports": {
+      "all": "Wszystkie",
+      "football": "Piłka nożna",
+      "basketball": "Koszykówka",
+      "volleyball": "Siatkówka",
+      "motorsport": "Sporty motorowe"
+    },
+    "worldcupBanner": "Mistrzostwa Świata 2026",
+    "worldcupSubtitle": "Kanały transmisji i godziny wszystkich meczów",
+    "reminder15min": "Przypomnienie ustawione — 15 min przed meczem",
+    "reminderNoGoal": "(Tylko godzina meczu — bez powiadomień o golach)",
+    "noChannel": "Brak informacji o transmisji"
+  },
+  "teams": {
+    "title": "Wybierz drużyny",
+    "search": "Szukaj drużyn...",
+    "selected": "wybrano",
+    "noTeams": "Nie znaleziono drużyn",
+    "infoText": "Otrzymasz powiadomienie 15 minut przed meczami wybranych drużyn.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Liga Mistrzów",
+      "national": "Reprezentacje"
+    }
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "language": "Język",
+    "notifications": "Powiadomienia",
+    "notificationsDesc": "Powiadomienie 15 minut przed rozpoczęciem meczu",
+    "noGoalDisclaimer": "Celowo nie wysyłamy powiadomień o golach — nie chcemy psuć Ci emocji meczu. Wysyłamy tylko przypomnienie 15 minut przed rozpoczęciem.",
+    "theme": "Motyw",
+    "dark": "Ciemny",
+    "light": "Jasny",
+    "about": "O aplikacji",
+    "version": "Wersja",
+    "selectLanguage": "Wybierz język",
+    "notificationEnabled": "Powiadomienia włączone",
+    "notificationDisabled": "Powiadomienia wyłączone",
+    "permissionWarning": "Odmówiono zgody na powiadomienia. Włącz ją w ustawieniach aplikacji.",
+    "country": "Kraj / region transmisji",
+    "countryDesc": "Kanały przy każdym meczu zależą od wybranego kraju.",
+    "selectCountry": "Wybierz kraj",
+    "appName": "Na jakim kanale?",
+    "appDesc": "Oglądaj mecze na właściwym kanale o właściwej porze."
+  },
+  "notification": {
+    "title": "⚽ Przypomnienie o meczu",
+    "body": "{{home}} - {{away}} zaczyna się za 15 minut na {{channel}}!",
+    "bodyNoChannel": "{{home}} - {{away}} zaczyna się za 15 minut!"
+  },
+  "common": {
+    "loading": "Ładowanie...",
+    "error": "Wystąpił błąd",
+    "retry": "Spróbuj ponownie",
+    "save": "Zapisz",
+    "cancel": "Anuluj"
+  },
+  "paywall": {
+    "subtitle": "Sportowy przewodnik TV",
+    "trial": "10 DNI ZA DARMO",
+    "feature0": "Dzisiejsze mecze — właściwa godzina i kanał",
+    "feature1": "Przypomnienie 15 minut przed meczem",
+    "feature2": "Program TV dla 15 krajów",
+    "feature3": "Codzienne automatyczne aktualizacje",
+    "pricePerMonth": "/miesiąc",
+    "priceNote": "Po 10-dniowym bezpłatnym okresie próbnym {{price}}/miesiąc. Możesz zrezygnować w każdej chwili.",
+    "startFree": "Zacznij za darmo — 10 dni",
+    "restore": "Przywróć zakupy",
+    "legalIos": "Opłata zostanie pobrana z Twojego konta iTunes. Subskrypcja odnawia się automatycznie, chyba że anulujesz ją co najmniej 24 godziny przed końcem bieżącego okresu.",
+    "legalAndroid": "Opłata zostanie pobrana z Twojego konta Google Play. Możesz zrezygnować w każdej chwili w Google Play.",
+    "errorTitle": "Błąd",
+    "errorPurchase": "Nie udało się dokończyć zakupu. Spróbuj ponownie.",
+    "notFoundTitle": "Nie znaleziono",
+    "errorNoSub": "Nie znaleziono aktywnej subskrypcji dla tego konta.",
+    "errorRestore": "Nie udało się przywrócić zakupów.",
+    "offeringError": "Nie udało się wczytać opcji subskrypcji. Sprawdź połączenie z internetem.",
+    "privacyPolicy": "Polityka prywatności",
+    "termsOfUse": "Warunki korzystania"
+  }
+}

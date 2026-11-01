@@ -1,0 +1,105 @@
+{
+  "tabs": {
+    "matches": "Wedstrijden",
+    "teams": "Mijn teams",
+    "settings": "Instellingen"
+  },
+  "matches": {
+    "title": "Wedstrijdschema",
+    "appTitle": "Welk kanaal?",
+    "lastUpdated": "Bijgewerkt: {{time}}",
+    "today": "Vandaag",
+    "tomorrow": "Morgen",
+    "noMatches": "Geen wedstrijden vandaag",
+    "noFavoriteMatches": "Geen wedstrijden van je favoriete teams",
+    "allMatches": "Alle wedstrijden",
+    "favoriteMatches": "Mijn teams",
+    "live": "LIVE",
+    "channel": "Kanaal",
+    "startsIn": "minuten tot de aftrap",
+    "sports": {
+      "all": "Alles",
+      "football": "Voetbal",
+      "basketball": "Basketbal",
+      "volleyball": "Volleybal",
+      "motorsport": "Motorsport"
+    },
+    "worldcupBanner": "WK 2026",
+    "worldcupSubtitle": "Zenders en aftraptijden van elke wedstrijd",
+    "reminder15min": "Herinnering ingesteld — 15 min voor de aftrap",
+    "reminderNoGoal": "(Alleen de aftraptijd — geen doelpuntmeldingen)",
+    "noChannel": "Geen informatie over de uitzender"
+  },
+  "teams": {
+    "title": "Teams kiezen",
+    "search": "Teams zoeken...",
+    "selected": "geselecteerd",
+    "noTeams": "Geen teams gevonden",
+    "infoText": "Je krijgt 15 minuten voor de wedstrijden van je gekozen teams een melding.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Champions League",
+      "national": "Nationale teams"
+    }
+  },
+  "settings": {
+    "title": "Instellingen",
+    "language": "Taal",
+    "notifications": "Meldingen",
+    "notificationsDesc": "Melding 15 minuten voor de aftrap",
+    "noGoalDisclaimer": "We sturen bewust geen doelpuntmeldingen — we willen je kijkplezier niet bederven. Je krijgt alleen een herinnering 15 minuten voor de wedstrijd.",
+    "theme": "Thema",
+    "dark": "Donker",
+    "light": "Licht",
+    "about": "Over",
+    "version": "Versie",
+    "selectLanguage": "Taal kiezen",
+    "notificationEnabled": "Meldingen aan",
+    "notificationDisabled": "Meldingen uit",
+    "permissionWarning": "Toestemming voor meldingen geweigerd. Sta het toe in de app-instellingen.",
+    "country": "Land / uitzendregio",
+    "countryDesc": "Welke zenders je bij een wedstrijd ziet, hangt af van het gekozen land.",
+    "selectCountry": "Land kiezen",
+    "appName": "Welk kanaal?",
+    "appDesc": "Volg wedstrijden op het juiste kanaal, op het juiste moment."
+  },
+  "notification": {
+    "title": "⚽ Wedstrijdherinnering",
+    "body": "{{home}} - {{away}} begint over 15 minuten op {{channel}}!",
+    "bodyNoChannel": "{{home}} - {{away}} begint over 15 minuten!"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Er is een fout opgetreden",
+    "retry": "Opnieuw",
+    "save": "Opslaan",
+    "cancel": "Annuleren"
+  },
+  "paywall": {
+    "subtitle": "Sport-tv-gids",
+    "trial": "10 DAGEN GRATIS PROBEREN",
+    "feature0": "Wedstrijden van vandaag — juiste tijd en zender",
+    "feature1": "Herinnering 15 minuten voor de wedstrijd",
+    "feature2": "Tv-schema voor 15 landen",
+    "feature3": "Dagelijkse automatische updates",
+    "pricePerMonth": "/maand",
+    "priceNote": "Na de gratis proefperiode van 10 dagen {{price}}/maand. Altijd opzegbaar.",
+    "startFree": "Start gratis — 10 dagen",
+    "restore": "Aankopen herstellen",
+    "legalIos": "Wordt afgeschreven van je iTunes-account. Het abonnement wordt automatisch verlengd tenzij je het minstens 24 uur voor het einde van de huidige periode opzegt.",
+    "legalAndroid": "Wordt afgeschreven van je Google Play-account. Altijd opzegbaar via Google Play.",
+    "errorTitle": "Fout",
+    "errorPurchase": "De aankoop is niet voltooid. Probeer het opnieuw.",
+    "notFoundTitle": "Niet gevonden",
+    "errorNoSub": "Geen actief abonnement gevonden voor dit account.",
+    "errorRestore": "Aankopen konden niet worden hersteld.",
+    "offeringError": "Abonnementsopties konden niet worden geladen. Controleer je internetverbinding.",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfUse": "Gebruiksvoorwaarden"
+  }
+}

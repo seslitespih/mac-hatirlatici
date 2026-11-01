@@ -1,0 +1,105 @@
+{
+  "tabs": {
+    "matches": "Meccsek",
+    "teams": "Csapataim",
+    "settings": "Beállítások"
+  },
+  "matches": {
+    "title": "Meccsnaptár",
+    "appTitle": "Melyik csatornán?",
+    "lastUpdated": "Frissítve: {{time}}",
+    "today": "Ma",
+    "tomorrow": "Holnap",
+    "noMatches": "Ma nincs meccs",
+    "noFavoriteMatches": "A kedvenc csapataidnak nincs meccse",
+    "allMatches": "Minden meccs",
+    "favoriteMatches": "Csapataim",
+    "live": "ÉLŐ",
+    "channel": "Csatorna",
+    "startsIn": "perc a kezdésig",
+    "sports": {
+      "all": "Mind",
+      "football": "Labdarúgás",
+      "basketball": "Kosárlabda",
+      "volleyball": "Röplabda",
+      "motorsport": "Motorsport"
+    },
+    "worldcupBanner": "Világbajnokság 2026",
+    "worldcupSubtitle": "Közvetítő csatornák és kezdési időpontok minden meccshez",
+    "reminder15min": "Emlékeztető beállítva — 15 perccel a kezdés előtt",
+    "reminderNoGoal": "(Csak a meccs időpontja — gólértesítés nélkül)",
+    "noChannel": "Nincs adat a közvetítésről"
+  },
+  "teams": {
+    "title": "Csapatok kiválasztása",
+    "search": "Csapatok keresése...",
+    "selected": "kiválasztva",
+    "noTeams": "Nincs találat",
+    "infoText": "A kiválasztott csapataid meccsei előtt 15 perccel értesítést kapsz.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Bajnokok Ligája",
+      "national": "Válogatottak"
+    }
+  },
+  "settings": {
+    "title": "Beállítások",
+    "language": "Nyelv",
+    "notifications": "Értesítések",
+    "notificationsDesc": "Értesítés 15 perccel a meccs kezdete előtt",
+    "noGoalDisclaimer": "Szándékosan nem küldünk gólértesítést — nem akarjuk elrontani a meccsélményt. Csak a kezdés előtti 15 perces emlékeztetőt küldjük.",
+    "theme": "Téma",
+    "dark": "Sötét",
+    "light": "Világos",
+    "about": "Névjegy",
+    "version": "Verzió",
+    "selectLanguage": "Nyelv kiválasztása",
+    "notificationEnabled": "Értesítések bekapcsolva",
+    "notificationDisabled": "Értesítések kikapcsolva",
+    "permissionWarning": "Az értesítési engedélyt elutasították. Engedélyezd az alkalmazás beállításaiban.",
+    "country": "Ország / közvetítési régió",
+    "countryDesc": "Az egyes meccseknél megjelenő csatornák a kiválasztott országtól függnek.",
+    "selectCountry": "Ország kiválasztása",
+    "appName": "Melyik csatornán?",
+    "appDesc": "Kövesd a meccseket a megfelelő csatornán, a megfelelő időben."
+  },
+  "notification": {
+    "title": "⚽ Meccsemlékeztető",
+    "body": "A(z) {{home}} - {{away}} 15 perc múlva kezdődik a(z) {{channel}} csatornán!",
+    "bodyNoChannel": "A(z) {{home}} - {{away}} 15 perc múlva kezdődik!"
+  },
+  "common": {
+    "loading": "Betöltés...",
+    "error": "Hiba történt",
+    "retry": "Újra",
+    "save": "Mentés",
+    "cancel": "Mégse"
+  },
+  "paywall": {
+    "subtitle": "Sport TV-műsor",
+    "trial": "10 NAP INGYENES PRÓBA",
+    "feature0": "A mai meccsek — pontos idő és csatorna",
+    "feature1": "Emlékeztető 15 perccel a meccs előtt",
+    "feature2": "TV-műsor 15 országhoz",
+    "feature3": "Napi automatikus frissítés",
+    "pricePerMonth": "/hó",
+    "priceNote": "A 10 napos ingyenes próbaidőszak után {{price}}/hó. Bármikor lemondható.",
+    "startFree": "Ingyenes kezdés — 10 nap",
+    "restore": "Vásárlások visszaállítása",
+    "legalIos": "A díjat az iTunes-fiókod terheli. Az előfizetés automatikusan megújul, hacsak legalább 24 órával az aktuális időszak vége előtt le nem mondod.",
+    "legalAndroid": "A díjat a Google Play-fiókod terheli. Bármikor lemondható a Google Playen.",
+    "errorTitle": "Hiba",
+    "errorPurchase": "A vásárlás nem fejeződött be. Próbáld újra.",
+    "notFoundTitle": "Nem található",
+    "errorNoSub": "Ehhez a fiókhoz nem található aktív előfizetés.",
+    "errorRestore": "A vásárlásokat nem sikerült visszaállítani.",
+    "offeringError": "Az előfizetési lehetőségek nem tölthetők be. Ellenőrizd az internetkapcsolatot.",
+    "privacyPolicy": "Adatvédelmi irányelvek",
+    "termsOfUse": "Felhasználási feltételek"
+  }
+}

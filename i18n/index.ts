@@ -15,6 +15,17 @@ import fr from './locales/fr.json';
 import de from './locales/de.json';
 import ar from './locales/ar.json';
 import it from './locales/it.json';
+import el from './locales/el.json';
+import nl from './locales/nl.json';
+import nb from './locales/nb.json';
+import hr from './locales/hr.json';
+import cs from './locales/cs.json';
+import pl from './locales/pl.json';
+import ro from './locales/ro.json';
+import uk from './locales/uk.json';
+import hu from './locales/hu.json';
+import sr from './locales/sr.json';
+import { SUPPORTED_COUNTRIES } from '../constants/countryChannels';
 
 export const SUPPORTED_LANGUAGES = [
   { code: 'tr', name: 'Türkçe',    flag: '🇹🇷' },
@@ -25,6 +36,16 @@ export const SUPPORTED_LANGUAGES = [
   { code: 'de', name: 'Deutsch',   flag: '🇩🇪' },
   { code: 'ar', name: 'العربية',   flag: '🇸🇦' },
   { code: 'it', name: 'Italiano',  flag: '🇮🇹' },
+  { code: 'pl', name: 'Polski',    flag: '🇵🇱' },
+  { code: 'ro', name: 'Română',    flag: '🇷🇴' },
+  { code: 'uk', name: 'Українська', flag: '🇺🇦' },
+  { code: 'hu', name: 'Magyar',    flag: '🇭🇺' },
+  { code: 'sr', name: 'Srpski',    flag: '🇷🇸' },
+  { code: 'el', name: 'Ελληνικά',  flag: '🇬🇷' },
+  { code: 'nl', name: 'Nederlands', flag: '🇳🇱' },
+  { code: 'nb', name: 'Norsk',     flag: '🇳🇴' },
+  { code: 'hr', name: 'Hrvatski',  flag: '🇭🇷' },
+  { code: 'cs', name: 'Čeština',   flag: '🇨🇿' },
 ];
 
 export const LANGUAGE_STORAGE_KEY  = '@app_language';
@@ -40,6 +61,16 @@ const resources = {
   de: { translation: de },
   ar: { translation: ar },
   it: { translation: it },
+  el: { translation: el },
+  nl: { translation: nl },
+  nb: { translation: nb },
+  hr: { translation: hr },
+  cs: { translation: cs },
+  pl: { translation: pl },
+  ro: { translation: ro },
+  uk: { translation: uk },
+  hu: { translation: hu },
+  sr: { translation: sr },
 };
 
 // Desteklenen dil kodları
@@ -55,6 +86,16 @@ const LOCALE_TO_LANG: Record<string, string> = {
   'de': 'de', 'de-DE': 'de', 'de-AT': 'de', 'de-CH': 'de',
   'ar': 'ar', 'ar-SA': 'ar', 'ar-EG': 'ar', 'ar-MA': 'ar', 'ar-DZ': 'ar', 'ar-TN': 'ar',
   'it': 'it', 'it-IT': 'it',
+  'el': 'el', 'el-GR': 'el', 'el-CY': 'el',
+  'nl': 'nl', 'nl-NL': 'nl', 'nl-BE': 'nl',
+  'nb': 'nb', 'nb-NO': 'nb', 'no': 'nb', 'nn': 'nb', 'nn-NO': 'nb',
+  'hr': 'hr', 'hr-HR': 'hr', 'bs': 'hr', 'bs-BA': 'hr',
+  'cs': 'cs', 'cs-CZ': 'cs', 'sk': 'cs', 'sk-SK': 'cs',
+  'pl': 'pl', 'pl-PL': 'pl',
+  'ro': 'ro', 'ro-RO': 'ro', 'ro-MD': 'ro',
+  'uk': 'uk', 'uk-UA': 'uk',
+  'hu': 'hu', 'hu-HU': 'hu',
+  'sr': 'sr', 'sr-RS': 'sr', 'sr-Latn': 'sr', 'sr-Latn-RS': 'sr', 'sr-Cyrl': 'sr', 'sr-Cyrl-RS': 'sr', 'sr-ME': 'sr',
 };
 
 // Bölgesel locale → ülke kodu (ilk açılışta ülke tahmini için)
@@ -88,6 +129,9 @@ function detectDeviceCountry(): string | null {
     // Bölge kodu varsa
     const region = loc.regionCode ?? '';
     if (region) {
+      // Desteklenen her ülke doğrudan kendi koduyla seçilir. Eskiden yalnız aşağıdaki tablo vardı:
+      // Cezayir (DZ) gibi listede olmayan ülkeler bulunamıyor, dile göre Suudi Arabistan'a düşüyordu.
+      if (SUPPORTED_COUNTRIES.some((c) => c.code === region)) return region;
       const byRegion: Record<string, string> = {
         TR: 'TR', GB: 'GB', ES: 'ES', PT: 'PT', FR: 'FR', DE: 'DE', IT: 'IT',
         SA: 'SA', AE: 'SA', KW: 'SA', QA: 'SA', BH: 'SA', OM: 'SA',

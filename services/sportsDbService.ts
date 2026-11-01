@@ -19,6 +19,7 @@ import {
   getDailyChannelData,
   getChannelsFromDaily,
 } from './channelService';
+import { SUPPORTED_COUNTRIES } from '../constants/countryChannels';
 
 // ─── Ülke → IANA Timezone ────────────────────────────────────────────────────
 
@@ -61,6 +62,9 @@ export const COUNTRY_TZ: Record<string, string> = {
   PE: 'America/Lima',
   AE: 'Asia/Dubai',
 };
+// Tabloda olmayan ülkeler UTC'ye düşüyordu (Yunanistan, Irak, Uruguay... — saat ve gün penceresi kayıyordu).
+// Eksikleri ülke listesindeki saat diliminden tamamla; yeni ülke eklerken burayı ayrıca düzenlemek gerekmez.
+for (const c of SUPPORTED_COUNTRIES) COUNTRY_TZ[c.code] ??= c.timezone;
 
 // ─── TheSportsDB lig filtreleri ──────────────────────────────────────────────
 

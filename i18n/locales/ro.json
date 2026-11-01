@@ -1,0 +1,105 @@
+{
+  "tabs": {
+    "matches": "Meciuri",
+    "teams": "Echipele mele",
+    "settings": "Setări"
+  },
+  "matches": {
+    "title": "Programul meciurilor",
+    "appTitle": "Pe ce canal?",
+    "lastUpdated": "Actualizat: {{time}}",
+    "today": "Azi",
+    "tomorrow": "Mâine",
+    "noMatches": "Niciun meci astăzi",
+    "noFavoriteMatches": "Niciun meci al echipelor tale favorite",
+    "allMatches": "Toate meciurile",
+    "favoriteMatches": "Echipele mele",
+    "live": "LIVE",
+    "channel": "Canal",
+    "startsIn": "minute până la start",
+    "sports": {
+      "all": "Toate",
+      "football": "Fotbal",
+      "basketball": "Baschet",
+      "volleyball": "Volei",
+      "motorsport": "Motorsport"
+    },
+    "worldcupBanner": "Campionatul Mondial 2026",
+    "worldcupSubtitle": "Canalele de transmisie și orele tuturor meciurilor",
+    "reminder15min": "Memento setat — cu 15 min înainte de start",
+    "reminderNoGoal": "(Doar ora meciului — fără notificări de gol)",
+    "noChannel": "Nu există informații despre transmisie"
+  },
+  "teams": {
+    "title": "Alege echipele",
+    "search": "Caută echipe...",
+    "selected": "selectate",
+    "noTeams": "Nu s-au găsit echipe",
+    "infoText": "Vei primi o notificare cu 15 minute înainte de meciurile echipelor alese.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Liga Campionilor",
+      "national": "Echipe naționale"
+    }
+  },
+  "settings": {
+    "title": "Setări",
+    "language": "Limbă",
+    "notifications": "Notificări",
+    "notificationsDesc": "Notificare cu 15 minute înainte de începerea meciului",
+    "noGoalDisclaimer": "Nu trimitem intenționat notificări de gol — nu vrem să-ți stricăm experiența meciului. Trimitem doar un memento cu 15 minute înainte de start.",
+    "theme": "Temă",
+    "dark": "Întunecată",
+    "light": "Luminoasă",
+    "about": "Despre",
+    "version": "Versiune",
+    "selectLanguage": "Alege limba",
+    "notificationEnabled": "Notificări activate",
+    "notificationDisabled": "Notificări dezactivate",
+    "permissionWarning": "Permisiunea pentru notificări a fost refuzată. Permite-o din setările aplicației.",
+    "country": "Țară / regiune de transmisie",
+    "countryDesc": "Canalele afișate la fiecare meci depind de țara aleasă.",
+    "selectCountry": "Alege țara",
+    "appName": "Pe ce canal?",
+    "appDesc": "Urmărește meciurile pe canalul potrivit, la momentul potrivit."
+  },
+  "notification": {
+    "title": "⚽ Memento meci",
+    "body": "{{home}} - {{away}} începe în 15 minute pe {{channel}}!",
+    "bodyNoChannel": "{{home}} - {{away}} începe în 15 minute!"
+  },
+  "common": {
+    "loading": "Se încarcă...",
+    "error": "A apărut o eroare",
+    "retry": "Reîncearcă",
+    "save": "Salvează",
+    "cancel": "Anulează"
+  },
+  "paywall": {
+    "subtitle": "Ghid TV sportiv",
+    "trial": "10 ZILE GRATUIT",
+    "feature0": "Meciurile de azi — ora și canalul corect",
+    "feature1": "Memento cu 15 minute înainte de meci",
+    "feature2": "Program TV pentru 15 țări",
+    "feature3": "Actualizări automate zilnice",
+    "pricePerMonth": "/lună",
+    "priceNote": "După perioada gratuită de 10 zile, {{price}}/lună. Poți anula oricând.",
+    "startFree": "Începe gratuit — 10 zile",
+    "restore": "Restaurează achizițiile",
+    "legalIos": "Plata se face din contul tău iTunes. Abonamentul se reînnoiește automat dacă nu este anulat cu cel puțin 24 de ore înainte de sfârșitul perioadei curente.",
+    "legalAndroid": "Plata se face din contul tău Google Play. Poți anula oricând din Google Play.",
+    "errorTitle": "Eroare",
+    "errorPurchase": "Achiziția nu a putut fi finalizată. Încearcă din nou.",
+    "notFoundTitle": "Negăsit",
+    "errorNoSub": "Nu s-a găsit niciun abonament activ pentru acest cont.",
+    "errorRestore": "Achizițiile nu au putut fi restaurate.",
+    "offeringError": "Opțiunile de abonament nu au putut fi încărcate. Verifică conexiunea la internet.",
+    "privacyPolicy": "Politica de confidențialitate",
+    "termsOfUse": "Termeni de utilizare"
+  }
+}

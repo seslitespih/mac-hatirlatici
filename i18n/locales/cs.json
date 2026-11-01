@@ -1,0 +1,105 @@
+{
+  "tabs": {
+    "matches": "Zápasy",
+    "teams": "Moje týmy",
+    "settings": "Nastavení"
+  },
+  "matches": {
+    "title": "Program zápasů",
+    "appTitle": "Na jakém kanálu?",
+    "lastUpdated": "Aktualizováno: {{time}}",
+    "today": "Dnes",
+    "tomorrow": "Zítra",
+    "noMatches": "Dnes nejsou žádné zápasy",
+    "noFavoriteMatches": "Vaše oblíbené týmy dnes nehrají",
+    "allMatches": "Všechny zápasy",
+    "favoriteMatches": "Moje týmy",
+    "live": "ŽIVĚ",
+    "channel": "Kanál",
+    "startsIn": "minut do výkopu",
+    "sports": {
+      "all": "Vše",
+      "football": "Fotbal",
+      "basketball": "Basketbal",
+      "volleyball": "Volejbal",
+      "motorsport": "Motorsport"
+    },
+    "worldcupBanner": "MS 2026",
+    "worldcupSubtitle": "TV kanály a časy výkopu všech zápasů",
+    "reminder15min": "Připomenutí nastaveno — 15 min před výkopem",
+    "reminderNoGoal": "(Pouze čas zápasu — bez upozornění na góly)",
+    "noChannel": "Informace o vysílání nejsou k dispozici"
+  },
+  "teams": {
+    "title": "Vyberte týmy",
+    "search": "Hledat týmy...",
+    "selected": "vybráno",
+    "noTeams": "Nenalezeny žádné týmy",
+    "infoText": "Upozornění dostanete 15 minut před zápasy vybraných týmů.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Liga mistrů",
+      "national": "Reprezentace"
+    }
+  },
+  "settings": {
+    "title": "Nastavení",
+    "language": "Jazyk",
+    "notifications": "Upozornění",
+    "notificationsDesc": "Upozornění 15 minut před začátkem zápasu",
+    "noGoalDisclaimer": "Upozornění na góly záměrně neposíláme — nechceme vám zkazit zážitek ze zápasu. Posíláme jen připomenutí 15 minut před začátkem.",
+    "theme": "Motiv",
+    "dark": "Tmavý",
+    "light": "Světlý",
+    "about": "O aplikaci",
+    "version": "Verze",
+    "selectLanguage": "Vyberte jazyk",
+    "notificationEnabled": "Upozornění zapnuta",
+    "notificationDisabled": "Upozornění vypnuta",
+    "permissionWarning": "Oprávnění k upozorněním bylo zamítnuto. Povolte je v nastavení aplikace.",
+    "country": "Země / oblast vysílání",
+    "countryDesc": "Kanály u každého zápasu závisí na zvolené zemi.",
+    "selectCountry": "Vyberte zemi",
+    "appName": "Na jakém kanálu?",
+    "appDesc": "Sledujte zápasy na správném kanálu ve správný čas."
+  },
+  "notification": {
+    "title": "⚽ Připomenutí zápasu",
+    "body": "{{home}} - {{away}} začíná za 15 minut na {{channel}}!",
+    "bodyNoChannel": "{{home}} - {{away}} začíná za 15 minut!"
+  },
+  "common": {
+    "loading": "Načítání...",
+    "error": "Došlo k chybě",
+    "retry": "Zkusit znovu",
+    "save": "Uložit",
+    "cancel": "Zrušit"
+  },
+  "paywall": {
+    "subtitle": "Sportovní TV průvodce",
+    "trial": "10 DNÍ ZDARMA",
+    "feature0": "Dnešní zápasy — správný čas a kanál",
+    "feature1": "Připomenutí 15 minut před zápasem",
+    "feature2": "TV program pro 15 zemí",
+    "feature3": "Denní automatické aktualizace",
+    "pricePerMonth": "/měsíc",
+    "priceNote": "Po 10denní zkušební době zdarma {{price}}/měsíc. Zrušit můžete kdykoli.",
+    "startFree": "Začít zdarma — 10 dní",
+    "restore": "Obnovit nákupy",
+    "legalIos": "Platba bude stržena z vašeho účtu iTunes. Předplatné se automaticky obnovuje, pokud jej nezrušíte alespoň 24 hodin před koncem aktuálního období.",
+    "legalAndroid": "Platba bude stržena z vašeho účtu Google Play. Zrušit můžete kdykoli přes Google Play.",
+    "errorTitle": "Chyba",
+    "errorPurchase": "Nákup se nepodařilo dokončit. Zkuste to znovu.",
+    "notFoundTitle": "Nenalezeno",
+    "errorNoSub": "Pro tento účet nebylo nalezeno žádné aktivní předplatné.",
+    "errorRestore": "Nákupy se nepodařilo obnovit.",
+    "offeringError": "Možnosti předplatného se nepodařilo načíst. Zkontrolujte připojení k internetu.",
+    "privacyPolicy": "Zásady ochrany soukromí",
+    "termsOfUse": "Podmínky použití"
+  }
+}

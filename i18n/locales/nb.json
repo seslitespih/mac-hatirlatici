@@ -1,0 +1,105 @@
+{
+  "tabs": {
+    "matches": "Kamper",
+    "teams": "Mine lag",
+    "settings": "Innstillinger"
+  },
+  "matches": {
+    "title": "Kampprogram",
+    "appTitle": "Hvilken kanal?",
+    "lastUpdated": "Oppdatert: {{time}}",
+    "today": "I dag",
+    "tomorrow": "I morgen",
+    "noMatches": "Ingen kamper i dag",
+    "noFavoriteMatches": "Ingen kamper for favorittlagene dine",
+    "allMatches": "Alle kamper",
+    "favoriteMatches": "Mine lag",
+    "live": "LIVE",
+    "channel": "Kanal",
+    "startsIn": "minutter til avspark",
+    "sports": {
+      "all": "Alle",
+      "football": "Fotball",
+      "basketball": "Basketball",
+      "volleyball": "Volleyball",
+      "motorsport": "Motorsport"
+    },
+    "worldcupBanner": "VM 2026",
+    "worldcupSubtitle": "TV-kanaler og avsparkstider for hver kamp",
+    "reminder15min": "Påminnelse satt — 15 min før avspark",
+    "reminderNoGoal": "(Bare kamptidspunkt — ingen målvarsler)",
+    "noChannel": "Ingen informasjon om kringkaster"
+  },
+  "teams": {
+    "title": "Velg lag",
+    "search": "Søk etter lag...",
+    "selected": "valgt",
+    "noTeams": "Fant ingen lag",
+    "infoText": "Du får et varsel 15 minutter før kampene til lagene du har valgt.",
+    "leagues": {
+      "superlig": "Süper Lig",
+      "premier": "Premier League",
+      "laliga": "La Liga",
+      "bundesliga": "Bundesliga",
+      "seriea": "Serie A",
+      "ligue1": "Ligue 1",
+      "champions": "Champions League",
+      "national": "Landslag"
+    }
+  },
+  "settings": {
+    "title": "Innstillinger",
+    "language": "Språk",
+    "notifications": "Varsler",
+    "notificationsDesc": "Få varsel 15 minutter før avspark",
+    "noGoalDisclaimer": "Vi sender med vilje ikke målvarsler — vi vil ikke ødelegge kampopplevelsen din. Du får bare en påminnelse 15 minutter før kampen.",
+    "theme": "Tema",
+    "dark": "Mørk",
+    "light": "Lys",
+    "about": "Om",
+    "version": "Versjon",
+    "selectLanguage": "Velg språk",
+    "notificationEnabled": "Varsler på",
+    "notificationDisabled": "Varsler av",
+    "permissionWarning": "Tillatelse til varsler ble avslått. Tillat det i appinnstillingene.",
+    "country": "Land / sendeområde",
+    "countryDesc": "Kanalene som vises for hver kamp avhenger av landet du har valgt.",
+    "selectCountry": "Velg land",
+    "appName": "Hvilken kanal?",
+    "appDesc": "Følg kampene på riktig kanal til riktig tid."
+  },
+  "notification": {
+    "title": "⚽ Kamppåminnelse",
+    "body": "{{home}} - {{away}} starter om 15 minutter på {{channel}}!",
+    "bodyNoChannel": "{{home}} - {{away}} starter om 15 minutter!"
+  },
+  "common": {
+    "loading": "Laster...",
+    "error": "Det oppstod en feil",
+    "retry": "Prøv igjen",
+    "save": "Lagre",
+    "cancel": "Avbryt"
+  },
+  "paywall": {
+    "subtitle": "TV-guide for sport",
+    "trial": "10 DAGER GRATIS PRØVEPERIODE",
+    "feature0": "Dagens kamper — riktig tid og kanal",
+    "feature1": "Påminnelse 15 minutter før kampen",
+    "feature2": "TV-program for 15 land",
+    "feature3": "Daglige automatiske oppdateringer",
+    "pricePerMonth": "/måned",
+    "priceNote": "Etter den gratis prøveperioden på 10 dager koster det {{price}}/måned. Kan sies opp når som helst.",
+    "startFree": "Start gratis — 10 dager",
+    "restore": "Gjenopprett kjøp",
+    "legalIos": "Belastes iTunes-kontoen din. Abonnementet fornyes automatisk med mindre det sies opp minst 24 timer før gjeldende periode utløper.",
+    "legalAndroid": "Belastes Google Play-kontoen din. Kan sies opp når som helst via Google Play.",
+    "errorTitle": "Feil",
+    "errorPurchase": "Kjøpet ble ikke fullført. Prøv igjen.",
+    "notFoundTitle": "Ikke funnet",
+    "errorNoSub": "Fant ikke noe aktivt abonnement for denne kontoen.",
+    "errorRestore": "Kunne ikke gjenopprette kjøp.",
+    "offeringError": "Kunne ikke laste inn abonnementsalternativer. Sjekk internettforbindelsen.",
+    "privacyPolicy": "Personvernerklæring",
+    "termsOfUse": "Vilkår for bruk"
+  }
+}
