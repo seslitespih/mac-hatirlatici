@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-01T21:15:51.000Z",
+ "generated_at": "2026-11-01T21:36:11.000Z",
  "date": "2026-11-07",
  "model": "user-provided",
  "stats": {
-  "total": 119,
-  "withChannel": 119,
+  "total": 134,
+  "withChannel": 134,
   "bySport": {
-   "football": 102,
+   "football": 117,
    "basketball": 15,
    "motorsport": 2
   },
@@ -121,10 +121,13 @@
      "SporTV",
      "Premiere"
     ],
+    "JP": [
+     "Fanatiz"
+    ],
     "AU": [
      "Fanatiz"
     ],
-    "JP": [
+    "CO": [
      "Fanatiz"
     ],
     "MX": [
@@ -133,10 +136,7 @@
     "US": [
      "Fanatiz"
     ],
-    "CO": [
-     "Fanatiz"
-    ],
-    "CL": [
+    "EC": [
      "Fanatiz"
     ],
     "UY": [
@@ -146,7 +146,7 @@
      "Fanatiz",
      "L1 Play"
     ],
-    "EC": [
+    "CL": [
      "Fanatiz"
     ],
     "PY": [
@@ -966,7 +966,7 @@
     "MX": [
      "RCN Nuestra Tele"
     ],
-    "CL": [
+    "EC": [
      "RCN Nuestra Tele"
     ],
     "UY": [
@@ -975,7 +975,7 @@
     "PE": [
      "RCN Nuestra Tele"
     ],
-    "EC": [
+    "CL": [
      "RCN Nuestra Tele"
     ],
     "CO": [
@@ -1032,6 +1032,9 @@
     "BR": [
      "Disney+ Premium"
     ],
+    "CO": [
+     "Disney+ Premium"
+    ],
     "MX": [
      "ESPN",
      "ViX Premium",
@@ -1040,10 +1043,7 @@
     "US": [
      "ViX"
     ],
-    "CO": [
-     "Disney+ Premium"
-    ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -1052,7 +1052,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -2795,7 +2795,8 @@
     "fr": "Premier League ukrainienne",
     "it": "Premier League ucraina",
     "pt": "Liga Premier da Ucrânia",
-    "ar": "الدوري الأوكراني"
+    "ar": "الدوري الأوكراني",
+    "uk": "Українська Прем'єр-ліга"
    },
    "home": "FC Kharkiv",
    "away": "Karpaty",
@@ -2821,50 +2822,8 @@
    },
    "kickoffUtc": "2026-11-07T11:00:00Z",
    "broadcasts": {
-    "PT": [
-     "OneFootball PPV"
-    ],
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "CH": [
-     "OneFootball PPV"
-    ],
-    "AT": [
-     "OneFootball PPV"
-    ],
-    "AR": [
-     "OneFootball PPV"
-    ],
-    "BR": [
-     "OneFootball PPV"
-    ],
-    "AU": [
-     "OneFootball PPV"
-    ],
-    "JP": [
-     "OneFootball PPV"
-    ],
-    "MX": [
-     "OneFootball PPV"
-    ],
-    "CO": [
-     "OneFootball PPV"
-    ],
-    "CL": [
-     "OneFootball PPV"
-    ],
-    "UY": [
-     "OneFootball PPV"
-    ],
-    "PE": [
-     "OneFootball PPV"
-    ],
-    "EC": [
-     "OneFootball PPV"
-    ],
-    "PY": [
-     "OneFootball PPV"
+    "UA": [
+     "Setanta Sports"
     ]
    },
    "sources": [
@@ -2884,7 +2843,8 @@
     "fr": "Premier League ukrainienne",
     "it": "Premier League ucraina",
     "pt": "Liga Premier da Ucrânia",
-    "ar": "الدوري الأوكراني"
+    "ar": "الدوري الأوكراني",
+    "uk": "Українська Прем'єр-ліга"
    },
    "home": "Kudrivka",
    "away": "Chornomorets Odesa",
@@ -2910,50 +2870,56 @@
    },
    "kickoffUtc": "2026-11-07T11:00:00Z",
    "broadcasts": {
-    "PT": [
-     "OneFootball PPV"
-    ],
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "CH": [
-     "OneFootball PPV"
-    ],
-    "AT": [
-     "OneFootball PPV"
-    ],
-    "AR": [
-     "OneFootball PPV"
-    ],
-    "BR": [
-     "OneFootball PPV"
-    ],
-    "AU": [
-     "OneFootball PPV"
-    ],
-    "JP": [
-     "OneFootball PPV"
-    ],
-    "MX": [
-     "OneFootball PPV"
-    ],
-    "CO": [
-     "OneFootball PPV"
-    ],
-    "CL": [
-     "OneFootball PPV"
-    ],
-    "UY": [
-     "OneFootball PPV"
-    ],
-    "PE": [
-     "OneFootball PPV"
-    ],
-    "EC": [
-     "OneFootball PPV"
-    ],
-    "PY": [
-     "OneFootball PPV"
+    "UA": [
+     "Setanta Sports"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261107-korona-kielce-radomiak-radom",
+   "sport": "football",
+   "competitionId": "ekstraklasa",
+   "tier": "regional",
+   "competition": {
+    "tr": "Polonya Ekstraklasa",
+    "en": "Ekstraklasa",
+    "de": "Ekstraklasa",
+    "es": "Ekstraklasa",
+    "fr": "Ekstraklasa",
+    "it": "Ekstraklasa",
+    "pt": "Ekstraklasa",
+    "ar": "الدوري البولندي",
+    "pl": "PKO BP Ekstraklasa"
+   },
+   "home": "Korona Kielce",
+   "away": "Radomiak Radom",
+   "homeNames": {
+    "tr": "Korona Kielce",
+    "en": "Korona Kielce",
+    "de": "Korona Kielce",
+    "es": "Korona Kielce",
+    "fr": "Korona Kielce",
+    "it": "Korona Kielce",
+    "pt": "Korona Kielce",
+    "ar": "Korona Kielce"
+   },
+   "awayNames": {
+    "tr": "Radomiak Radom",
+    "en": "Radomiak Radom",
+    "de": "Radomiak Radom",
+    "es": "Radomiak Radom",
+    "fr": "Radomiak Radom",
+    "it": "Radomiak Radom",
+    "pt": "Radomiak Radom",
+    "ar": "Radomiak Radom"
+   },
+   "kickoffUtc": "2026-11-07T11:15:00Z",
+   "broadcasts": {
+    "PL": [
+     "Canal+ Sport"
     ]
    },
    "sources": [
@@ -3006,6 +2972,10 @@
     "NL": [
      "Viaplay NL"
     ],
+    "NO": [
+     "Viaplay NO",
+     "TV 2 Play (NO)"
+    ],
     "CH": [
      "Sky Sport Bundesliga 4",
      "OneFootball PPV"
@@ -3023,20 +2993,16 @@
      "OneFootball",
      "OneFootball PPV"
     ],
-    "NO": [
-     "Viaplay NO",
-     "TV 2 Play (NO)"
-    ],
     "NZ": [
      "beIN Sports Connect New Zealand"
-    ],
-    "MX": [
-     "Bundesliga YouTube"
     ],
     "CO": [
      "Disney+ Premium"
     ],
-    "CL": [
+    "MX": [
+     "Bundesliga YouTube"
+    ],
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -3045,7 +3011,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -3095,15 +3061,19 @@
    },
    "kickoffUtc": "2026-11-07T12:00:00Z",
    "broadcasts": {
-    "FR": [
-     "beIN Sports MAX 4 (FR)"
-    ],
     "DE": [
      "Sky Bundesliga 3",
      "WOW"
     ],
+    "FR": [
+     "beIN Sports MAX 4 (FR)"
+    ],
     "NL": [
      "Viaplay NL"
+    ],
+    "NO": [
+     "TV 2 Play (NO)",
+     "Viaplay NO"
     ],
     "CH": [
      "Sky Sport Bundesliga 3",
@@ -3122,17 +3092,13 @@
      "OneFootball",
      "OneFootball PPV"
     ],
-    "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO"
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "Bundesliga YouTube"
     ],
-    "CO": [
-     "Disney+ Premium"
-    ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -3141,7 +3107,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -3198,6 +3164,10 @@
     "NL": [
      "Viaplay NL"
     ],
+    "NO": [
+     "Viaplay NO",
+     "TV 2 Play (NO)"
+    ],
     "CH": [
      "Sky Sport Bundesliga 5",
      "OneFootball PPV"
@@ -3215,20 +3185,16 @@
      "OneFootball",
      "OneFootball PPV"
     ],
-    "NO": [
-     "Viaplay NO",
-     "TV 2 Play (NO)"
-    ],
     "NZ": [
      "beIN Sports Connect New Zealand"
-    ],
-    "MX": [
-     "Bundesliga YouTube"
     ],
     "CO": [
      "Disney+ Premium"
     ],
-    "CL": [
+    "MX": [
+     "Bundesliga YouTube"
+    ],
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -3237,7 +3203,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -3287,6 +3253,10 @@
    },
    "kickoffUtc": "2026-11-07T12:30:00Z",
    "broadcasts": {
+    "BE": [
+     "Play Sports 1",
+     "Play Sports"
+    ],
     "TR": [
      "beIN CONNECT",
      "TOD"
@@ -3296,17 +3266,13 @@
      "Sky Sport 4K (IT)",
      "NOW TV (IT)"
     ],
-    "FR": [
-     "Canal+ Foot",
-     "myCANAL"
-    ],
-    "BE": [
-     "Play Sports 1",
-     "Play Sports"
-    ],
     "DE": [
      "Sky Sport Premier League",
      "WOW"
+    ],
+    "FR": [
+     "Canal+ Foot",
+     "myCANAL"
     ],
     "GB": [
      "TNT Sports 1",
@@ -3319,6 +3285,13 @@
     "ES": [
      "DAZN"
     ],
+    "HR": [
+     "Arena Sport 1"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "V sport Premier League NO"
+    ],
     "CH": [
      "CANAL+ Foot"
     ],
@@ -3328,24 +3301,24 @@
      "Sky Go",
      "Sky Stream"
     ],
-    "HR": [
-     "Arena Sport 1"
-    ],
     "AR": [
      "Disney+ Premium"
     ],
     "BR": [
      "Disney+ Premium"
     ],
-    "NO": [
-     "Viaplay NO",
-     "V sport Premier League NO"
-    ],
     "KR": [
      "Coupang Play"
     ],
+    "CA": [
+     "DAZN Canada",
+     "Fubo Sports CA"
+    ],
     "AU": [
      "Stan Sport"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "FOX One"
@@ -3354,22 +3327,23 @@
      "Universo",
      "USA Network"
     ],
-    "CA": [
-     "DAZN Canada",
-     "Fubo Sports CA"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "NG": [
      "SuperSport MaXimo 1",
      "DStv Now"
+    ],
+    "ZA": [
+     "SuperSport MaXimo 1",
+     "DStv Now"
+    ],
+    "GH": [
+     "DStv Now",
+     "SuperSport MaXimo 1"
     ],
     "MA": [
      "beIN CONNECT",
      "TOD"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -3378,16 +3352,8 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "GH": [
-     "DStv Now",
-     "SuperSport MaXimo 1"
-    ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
-    ],
-    "ZA": [
-     "SuperSport MaXimo 1",
-     "DStv Now"
     ],
     "PY": [
      "Disney+ Premium"
@@ -3608,22 +3574,28 @@
      "ViaplayTV NL",
      "Viaplay NL"
     ],
+    "NO": [
+     "V sport + NO",
+     "Viaplay NO",
+     "TV 2 Play (NO)"
+    ],
     "AR": [
      "Disney+ Premium"
     ],
     "BR": [
      "Disney+ Premium"
     ],
-    "NO": [
-     "V sport + NO",
-     "Viaplay NO",
-     "TV 2 Play (NO)"
-    ],
     "NZ": [
      "beIN Sports Connect New Zealand"
     ],
+    "CA": [
+     "DAZN Canada"
+    ],
     "JP": [
      "DAZN"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "ESPN 4",
@@ -3632,13 +3604,10 @@
     "US": [
      "Paramount+ (US)"
     ],
-    "CA": [
-     "DAZN Canada"
+    "GH": [
+     "DStv Now"
     ],
-    "CO": [
-     "Disney+ Premium"
-    ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -3647,10 +3616,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "GH": [
-     "DStv Now"
-    ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -3747,22 +3713,22 @@
    },
    "kickoffUtc": "2026-11-07T13:00:00Z",
    "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
     "TR": [
      "S Sport"
     ],
     "IT": [
      "DAZN Italia"
     ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
     "FR": [
      "DAZN 1 (FR)",
      "DAZN.com (FR)",
      "Disney+ (FR)"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "DE": [
-     "DAZN Deutschland"
     ],
     "GB": [
      "Premier Sports Player",
@@ -3772,6 +3738,11 @@
      "LaLiga TV Bar",
      "M+ LALIGA",
      "M+ LALIGA HDR"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "TV 2 Sport Premium",
+     "TV 2 Play (NO)"
     ],
     "CH": [
      "DAZN"
@@ -3788,22 +3759,26 @@
     "BR": [
      "CazéTV YouTube"
     ],
-    "NO": [
-     "Viaplay NO",
-     "TV 2 Sport Premium",
-     "TV 2 Play (NO)"
-    ],
     "NZ": [
      "beIN Sports Connect New Zealand"
     ],
     "KR": [
      "Coupang Play"
     ],
-    "AU": [
-     "beIN CONNECT"
+    "CA": [
+     "TSN+"
     ],
     "JP": [
      "DAZN"
+    ],
+    "AU": [
+     "beIN CONNECT"
+    ],
+    "CO": [
+     "DAZN",
+     "DSports",
+     "Win Play",
+     "DGO"
     ],
     "MX": [
      "SKY Sports"
@@ -3814,22 +3789,21 @@
      "ESPN Deportes",
      "Fubo Sports"
     ],
-    "CA": [
-     "TSN+"
-    ],
-    "CO": [
-     "DAZN",
-     "DSports",
-     "Win Play",
-     "DGO"
-    ],
     "NG": [
      "SuperSport GOtv LaLiga"
+    ],
+    "ZA": [
+     "SuperSport GOtv LaLiga"
+    ],
+    "GH": [
+     "SuperSport GOtv LaLiga",
+     "SuperSport Laliga ROA",
+     "DStv Now"
     ],
     "MA": [
      "beIN CONNECT"
     ],
-    "CL": [
+    "EC": [
      "DAZN",
      "DSports",
      "DGO",
@@ -3847,19 +3821,11 @@
      "DGO",
      "Paramount+"
     ],
-    "GH": [
-     "SuperSport GOtv LaLiga",
-     "SuperSport Laliga ROA",
-     "DStv Now"
-    ],
-    "EC": [
+    "CL": [
      "DAZN",
      "DSports",
      "DGO",
      "Paramount+"
-    ],
-    "ZA": [
-     "SuperSport GOtv LaLiga"
     ],
     "PT": [
      "DAZN"
@@ -4117,19 +4083,19 @@
     "BR": [
      "OneFootball"
     ],
-    "AU": [
-     "OneFootball"
-    ],
     "JP": [
      "OneFootball"
     ],
-    "MX": [
+    "AU": [
      "OneFootball"
     ],
     "CO": [
      "OneFootball"
     ],
-    "CL": [
+    "MX": [
+     "OneFootball"
+    ],
+    "EC": [
      "OneFootball"
     ],
     "UY": [
@@ -4138,7 +4104,7 @@
     "PE": [
      "OneFootball"
     ],
-    "EC": [
+    "CL": [
      "OneFootball"
     ],
     "PY": [
@@ -4179,7 +4145,8 @@
     "fr": "Premier League ukrainienne",
     "it": "Premier League ucraina",
     "pt": "Liga Premier da Ucrânia",
-    "ar": "الدوري الأوكراني"
+    "ar": "الدوري الأوكراني",
+    "uk": "Українська Прем'єр-ліга"
    },
    "home": "Epitsentr Kamianets-Podilskyi",
    "away": "Kryvbas",
@@ -4205,50 +4172,56 @@
    },
    "kickoffUtc": "2026-11-07T13:30:00Z",
    "broadcasts": {
-    "PT": [
-     "OneFootball PPV"
-    ],
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "CH": [
-     "OneFootball PPV"
-    ],
-    "AT": [
-     "OneFootball PPV"
-    ],
-    "AR": [
-     "OneFootball PPV"
-    ],
-    "BR": [
-     "OneFootball PPV"
-    ],
-    "AU": [
-     "OneFootball PPV"
-    ],
-    "JP": [
-     "OneFootball PPV"
-    ],
-    "MX": [
-     "OneFootball PPV"
-    ],
-    "CO": [
-     "OneFootball PPV"
-    ],
-    "CL": [
-     "OneFootball PPV"
-    ],
-    "UY": [
-     "OneFootball PPV"
-    ],
-    "PE": [
-     "OneFootball PPV"
-    ],
-    "EC": [
-     "OneFootball PPV"
-    ],
-    "PY": [
-     "OneFootball PPV"
+    "UA": [
+     "Setanta Sports"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261107-slask-wroclaw-piast-gliwice",
+   "sport": "football",
+   "competitionId": "ekstraklasa",
+   "tier": "regional",
+   "competition": {
+    "tr": "Polonya Ekstraklasa",
+    "en": "Ekstraklasa",
+    "de": "Ekstraklasa",
+    "es": "Ekstraklasa",
+    "fr": "Ekstraklasa",
+    "it": "Ekstraklasa",
+    "pt": "Ekstraklasa",
+    "ar": "الدوري البولندي",
+    "pl": "PKO BP Ekstraklasa"
+   },
+   "home": "Slask Wroclaw",
+   "away": "Piast Gliwice",
+   "homeNames": {
+    "tr": "Śląsk Wrocław",
+    "en": "Śląsk Wrocław",
+    "de": "Śląsk Wrocław",
+    "es": "Śląsk Wrocław",
+    "fr": "Śląsk Wrocław",
+    "it": "Śląsk Wrocław",
+    "pt": "Śląsk Wrocław",
+    "ar": "Śląsk Wrocław"
+   },
+   "awayNames": {
+    "tr": "Piast Gliwice",
+    "en": "Piast Gliwice",
+    "de": "Piast Gliwice",
+    "es": "Piast Gliwice",
+    "fr": "Piast Gliwice",
+    "it": "Piast Gliwice",
+    "pt": "Piast Gliwice",
+    "ar": "Piast Gliwice"
+   },
+   "kickoffUtc": "2026-11-07T13:45:00Z",
+   "broadcasts": {
+    "PL": [
+     "Canal+ Sport"
     ]
    },
    "sources": [
@@ -4294,27 +4267,30 @@
    },
    "kickoffUtc": "2026-11-07T14:00:00Z",
    "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
     "TR": [
      "S Sport"
     ],
     "IT": [
      "DAZN Italia"
     ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
     "FR": [
      "DAZN 1 (FR)",
      "DAZN.com (FR)"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "DE": [
-     "DAZN Deutschland"
     ],
     "GB": [
      "DAZN UK"
     ],
     "ES": [
      "DAZN"
+    ],
+    "NO": [
+     "VG TV"
     ],
     "CH": [
      "DAZN"
@@ -4328,17 +4304,20 @@
     "BR": [
      "Disney+ Premium"
     ],
-    "NO": [
-     "VG TV"
-    ],
     "NZ": [
      "beIN Sports Connect New Zealand"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "JP": [
+     "DAZN"
     ],
     "AU": [
      "beIN CONNECT"
     ],
-    "JP": [
-     "DAZN"
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "Disney+ Premium"
@@ -4347,16 +4326,10 @@
      "Paramount+ (US)",
      "Peacock (Español)"
     ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "MA": [
      "STARZPLAY"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -4365,7 +4338,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -4458,27 +4431,30 @@
    },
    "kickoffUtc": "2026-11-07T14:00:00Z",
    "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
     "TR": [
      "S Sport"
     ],
     "IT": [
      "DAZN Italia"
     ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
     "FR": [
      "DAZN 1 (FR)",
      "DAZN.com (FR)"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "DE": [
-     "DAZN Deutschland"
     ],
     "GB": [
      "DAZN UK"
     ],
     "ES": [
      "DAZN"
+    ],
+    "NO": [
+     "VG TV"
     ],
     "CH": [
      "DAZN"
@@ -4492,17 +4468,20 @@
     "BR": [
      "Disney+ Premium"
     ],
-    "NO": [
-     "VG TV"
-    ],
     "NZ": [
      "beIN Sports Connect New Zealand"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "JP": [
+     "DAZN"
     ],
     "AU": [
      "beIN CONNECT"
     ],
-    "JP": [
-     "DAZN"
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "ESPN",
@@ -4512,16 +4491,13 @@
      "Paramount+ (US)",
      "Peacock (Español)"
     ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "CO": [
-     "Disney+ Premium"
+    "GH": [
+     "DStv Now"
     ],
     "MA": [
      "STARZPLAY"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -4530,10 +4506,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "GH": [
-     "DStv Now"
-    ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -4581,6 +4554,55 @@
     ],
     "ML": [
      "Canal+"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261107-hnk-gorica-slaven",
+   "sport": "football",
+   "competitionId": "hnl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hırvatistan HNL",
+    "en": "Croatian HNL",
+    "de": "Kroatische HNL",
+    "es": "HNL de Croacia",
+    "fr": "HNL croate",
+    "it": "HNL croata",
+    "pt": "HNL da Croácia",
+    "ar": "الدوري الكرواتي",
+    "hr": "SuperSport HNL"
+   },
+   "home": "HNK Gorica",
+   "away": "Slaven",
+   "homeNames": {
+    "tr": "HNK Gorica",
+    "en": "HNK Gorica",
+    "de": "HNK Gorica",
+    "es": "HNK Gorica",
+    "fr": "HNK Gorica",
+    "it": "HNK Gorica",
+    "pt": "HNK Gorica",
+    "ar": "HNK Gorica"
+   },
+   "awayNames": {
+    "tr": "Slaven",
+    "en": "Slaven",
+    "de": "Slaven",
+    "es": "Slaven",
+    "fr": "Slaven",
+    "it": "Slaven",
+    "pt": "Slaven",
+    "ar": "Slaven"
+   },
+   "kickoffUtc": "2026-11-07T14:00:00Z",
+   "broadcasts": {
+    "HR": [
+     "MAX To Go",
+     "Max Sport 1"
     ]
    },
    "sources": [
@@ -4644,19 +4666,19 @@
     "BR": [
      "OneFootball PPV"
     ],
-    "AU": [
-     "OneFootball PPV"
-    ],
     "JP": [
      "OneFootball PPV"
     ],
-    "MX": [
+    "AU": [
      "OneFootball PPV"
     ],
     "CO": [
      "OneFootball PPV"
     ],
-    "CL": [
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "EC": [
      "OneFootball PPV"
     ],
     "UY": [
@@ -4665,7 +4687,7 @@
     "PE": [
      "OneFootball PPV"
     ],
-    "EC": [
+    "CL": [
      "OneFootball PPV"
     ],
     "PY": [
@@ -4733,19 +4755,19 @@
     "BR": [
      "OneFootball PPV"
     ],
-    "AU": [
-     "OneFootball PPV"
-    ],
     "JP": [
      "OneFootball PPV"
     ],
-    "MX": [
+    "AU": [
      "OneFootball PPV"
     ],
     "CO": [
      "OneFootball PPV"
     ],
-    "CL": [
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "EC": [
      "OneFootball PPV"
     ],
     "UY": [
@@ -4754,7 +4776,7 @@
     "PE": [
      "OneFootball PPV"
     ],
-    "EC": [
+    "CL": [
      "OneFootball PPV"
     ],
     "PY": [
@@ -4822,19 +4844,19 @@
     "BR": [
      "OneFootball PPV"
     ],
-    "AU": [
-     "OneFootball PPV"
-    ],
     "JP": [
      "OneFootball PPV"
     ],
-    "MX": [
+    "AU": [
      "OneFootball PPV"
     ],
     "CO": [
      "OneFootball PPV"
     ],
-    "CL": [
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "EC": [
      "OneFootball PPV"
     ],
     "UY": [
@@ -4843,7 +4865,7 @@
     "PE": [
      "OneFootball PPV"
     ],
-    "EC": [
+    "CL": [
      "OneFootball PPV"
     ],
     "PY": [
@@ -4911,19 +4933,19 @@
     "BR": [
      "OneFootball PPV"
     ],
-    "AU": [
-     "OneFootball PPV"
-    ],
     "JP": [
      "OneFootball PPV"
     ],
-    "MX": [
+    "AU": [
      "OneFootball PPV"
     ],
     "CO": [
      "OneFootball PPV"
     ],
-    "CL": [
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "EC": [
      "OneFootball PPV"
     ],
     "UY": [
@@ -4932,7 +4954,7 @@
     "PE": [
      "OneFootball PPV"
     ],
-    "EC": [
+    "CL": [
      "OneFootball PPV"
     ],
     "PY": [
@@ -4982,25 +5004,29 @@
    },
    "kickoffUtc": "2026-11-07T14:30:00Z",
    "broadcasts": {
-    "TR": [
-     "S Sport"
-    ],
-    "FR": [
-     "beIN Sports MAX 4 (FR)"
-    ],
     "BE": [
      "Play Sports 3",
      "Play Sports"
     ],
+    "TR": [
+     "S Sport"
+    ],
     "DE": [
      "Sky Bundesliga 2",
      "WOW"
+    ],
+    "FR": [
+     "beIN Sports MAX 4 (FR)"
     ],
     "ES": [
      "DAZN"
     ],
     "NL": [
      "Viaplay NL"
+    ],
+    "NO": [
+     "TV 2 Play (NO)",
+     "Viaplay NO"
     ],
     "CH": [
      "Sky Sport Bundesliga 2",
@@ -5017,21 +5043,23 @@
      "OneFootball",
      "OneFootball PPV"
     ],
-    "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO"
-    ],
     "NZ": [
      "beIN Sports Connect New Zealand"
     ],
     "KR": [
      "Coupang Play"
     ],
-    "AU": [
-     "beIN CONNECT"
+    "CA": [
+     "DAZN Canada"
     ],
     "JP": [
      "DAZN"
+    ],
+    "AU": [
+     "beIN CONNECT"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "FOX One"
@@ -5039,18 +5067,12 @@
     "US": [
      "Peacock (Español)"
     ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "MA": [
      "TOD",
      "beIN CONNECT",
      "Shahid"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -5059,7 +5081,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -5109,15 +5131,12 @@
    },
    "kickoffUtc": "2026-11-07T14:30:00Z",
    "broadcasts": {
-    "TR": [
-     "S Sport"
-    ],
-    "FR": [
-     "beIN Sports 2 (FR)"
-    ],
     "BE": [
      "Play Sports 2",
      "Play Sports"
+    ],
+    "TR": [
+     "S Sport"
     ],
     "DE": [
      "Sky Top Event",
@@ -5125,11 +5144,17 @@
      "Sky Bundesliga UHD",
      "Sky Bundesliga 1"
     ],
+    "FR": [
+     "beIN Sports 2 (FR)"
+    ],
     "ES": [
      "DAZN"
     ],
     "NL": [
      "Viaplay NL"
+    ],
+    "NO": [
+     "Viaplay NO"
     ],
     "CH": [
      "Sky Sport Bundesliga 1",
@@ -5149,20 +5174,23 @@
      "OneFootball",
      "OneFootball PPV"
     ],
-    "NO": [
-     "Viaplay NO"
-    ],
     "NZ": [
      "beIN Sports Connect New Zealand"
     ],
     "KR": [
      "Coupang Play"
     ],
-    "AU": [
-     "beIN CONNECT"
+    "CA": [
+     "DAZN Canada"
     ],
     "JP": [
      "DAZN"
+    ],
+    "AU": [
+     "beIN CONNECT"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "FOX",
@@ -5172,18 +5200,12 @@
      "Peacock (Español)",
      "Telemundo"
     ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "MA": [
      "TOD",
      "beIN CONNECT",
      "Shahid"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -5192,7 +5214,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -5245,18 +5267,22 @@
     "TR": [
      "S Sport"
     ],
-    "FR": [
-     "beIN Sports MAX 6 (FR)"
-    ],
     "DE": [
      "Sky Bundesliga 4",
      "WOW"
+    ],
+    "FR": [
+     "beIN Sports MAX 6 (FR)"
     ],
     "ES": [
      "DAZN"
     ],
     "NL": [
      "Viaplay NL"
+    ],
+    "NO": [
+     "TV 2 Play (NO)",
+     "Viaplay NO"
     ],
     "CH": [
      "Sky Sport Bundesliga 4"
@@ -5272,21 +5298,23 @@
      "OneFootball",
      "OneFootball PPV"
     ],
-    "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO"
-    ],
     "NZ": [
      "beIN Sports Connect New Zealand"
     ],
     "KR": [
      "Coupang Play"
     ],
-    "AU": [
-     "beIN CONNECT"
+    "CA": [
+     "DAZN Canada"
     ],
     "JP": [
      "DAZN"
+    ],
+    "AU": [
+     "beIN CONNECT"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "FOX One"
@@ -5294,18 +5322,12 @@
     "US": [
      "Peacock (Español)"
     ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "MA": [
      "Shahid",
      "beIN CONNECT",
      "TOD"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -5314,7 +5336,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -5367,18 +5389,23 @@
     "TR": [
      "S Sport"
     ],
-    "FR": [
-     "beIN Sports MAX 5 (FR)"
-    ],
     "DE": [
      "Sky Bundesliga 3",
      "WOW"
+    ],
+    "FR": [
+     "beIN Sports MAX 5 (FR)"
     ],
     "ES": [
      "DAZN"
     ],
     "NL": [
      "Viaplay NL"
+    ],
+    "NO": [
+     "TV 2 Play (NO)",
+     "Viaplay NO",
+     "V sport 2 NO"
     ],
     "CH": [
      "Sky Sport Bundesliga 2",
@@ -5395,22 +5422,23 @@
      "OneFootball",
      "OneFootball PPV"
     ],
-    "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO",
-     "V sport 2 NO"
-    ],
     "NZ": [
      "beIN Sports Connect New Zealand"
     ],
     "KR": [
      "Coupang Play"
     ],
-    "AU": [
-     "beIN CONNECT"
+    "CA": [
+     "DAZN Canada"
     ],
     "JP": [
      "DAZN"
+    ],
+    "AU": [
+     "beIN CONNECT"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "FOX One"
@@ -5418,18 +5446,12 @@
     "US": [
      "Peacock (Español)"
     ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "MA": [
      "Shahid",
      "TOD",
      "beIN CONNECT"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -5438,7 +5460,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -5488,14 +5510,14 @@
    },
    "kickoffUtc": "2026-11-07T14:30:00Z",
    "broadcasts": {
-    "FR": [
-     "DAZN 1 (FR)",
-     "DAZN.com (FR)"
-    ],
     "DE": [
      "DAZN Deutschland",
      "Sportdigital+",
      "Sportdigital FUSSBALL"
+    ],
+    "FR": [
+     "DAZN 1 (FR)",
+     "DAZN.com (FR)"
     ],
     "CH": [
      "DAZN",
@@ -5593,6 +5615,54 @@
    ]
   },
   {
+   "id": "football-20261107-kristiansund-valerenga",
+   "sport": "football",
+   "competitionId": "eliteserien",
+   "tier": "regional",
+   "competition": {
+    "tr": "Norveç Eliteserien",
+    "en": "Eliteserien",
+    "de": "Eliteserien",
+    "es": "Eliteserien",
+    "fr": "Eliteserien",
+    "it": "Eliteserien",
+    "pt": "Eliteserien",
+    "ar": "الدوري النرويجي",
+    "nb": "Eliteserien"
+   },
+   "home": "Kristiansund",
+   "away": "Valerenga",
+   "homeNames": {
+    "tr": "Kristiansund",
+    "en": "Kristiansund",
+    "de": "Kristiansund",
+    "es": "Kristiansund",
+    "fr": "Kristiansund",
+    "it": "Kristiansund",
+    "pt": "Kristiansund",
+    "ar": "Kristiansund"
+   },
+   "awayNames": {
+    "tr": "Vålerenga",
+    "en": "Vålerenga",
+    "de": "Vålerenga",
+    "es": "Vålerenga",
+    "fr": "Vålerenga",
+    "it": "Vålerenga",
+    "pt": "Vålerenga",
+    "ar": "Vålerenga"
+   },
+   "kickoffUtc": "2026-11-07T15:00:00Z",
+   "broadcasts": {
+    "NO": [
+     "TV 2 Play (NO)"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
    "id": "football-20261107-arsenal-hull-city",
    "sport": "football",
    "competitionId": "premier",
@@ -5631,6 +5701,10 @@
    },
    "kickoffUtc": "2026-11-07T15:00:00Z",
    "broadcasts": {
+    "BE": [
+     "Play Sports",
+     "Play Sports 1"
+    ],
     "TR": [
      "beIN CONNECT",
      "TOD"
@@ -5640,17 +5714,13 @@
      "Sky Sport Calcio",
      "NOW TV (IT)"
     ],
-    "FR": [
-     "Canal+ Foot",
-     "myCANAL"
-    ],
-    "BE": [
-     "Play Sports",
-     "Play Sports 1"
-    ],
     "DE": [
      "Sky Sport Premier League",
      "WOW"
+    ],
+    "FR": [
+     "Canal+ Foot",
+     "myCANAL"
     ],
     "PT": [
      "DAZN"
@@ -5661,6 +5731,13 @@
     "NL": [
      "Viaplay NL"
     ],
+    "HR": [
+     "Arena Sport 1"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "V sport Premier League NO"
+    ],
     "CH": [
      "CANAL+ Foot"
     ],
@@ -5669,46 +5746,47 @@
      "Sky Stream",
      "WOW"
     ],
-    "HR": [
-     "Arena Sport 1"
-    ],
     "AR": [
      "Disney+ Premium"
     ],
     "BR": [
      "Disney+ Premium"
     ],
-    "NO": [
-     "Viaplay NO",
-     "V sport Premier League NO"
-    ],
     "KR": [
      "Coupang Play"
     ],
+    "CA": [
+     "DAZN Canada",
+     "Fubo Sports CA"
+    ],
     "AU": [
      "Stan Sport"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "US": [
      "Peacock",
      "Universo",
      "NBC Sports Network"
     ],
-    "CA": [
-     "DAZN Canada",
-     "Fubo Sports CA"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "NG": [
      "SuperSport MaXimo 1",
      "DStv Now"
+    ],
+    "ZA": [
+     "SuperSport MaXimo 1",
+     "DStv Now"
+    ],
+    "GH": [
+     "DStv Now",
+     "SuperSport MaXimo 1"
     ],
     "MA": [
      "beIN CONNECT",
      "TOD"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -5717,16 +5795,8 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "GH": [
-     "DStv Now",
-     "SuperSport MaXimo 1"
-    ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
-    ],
-    "ZA": [
-     "SuperSport MaXimo 1",
-     "DStv Now"
     ],
     "PY": [
      "Disney+ Premium"
@@ -5825,21 +5895,21 @@
    },
    "kickoffUtc": "2026-11-07T15:00:00Z",
    "broadcasts": {
-    "TR": [
-     "TOD",
-     "beIN CONNECT"
-    ],
-    "FR": [
-     "Canal+ Live 8",
-     "myCANAL"
-    ],
     "BE": [
      "Play Sports",
      "Play Sports 4"
     ],
+    "TR": [
+     "TOD",
+     "beIN CONNECT"
+    ],
     "DE": [
      "Sky Sport 8",
      "WOW"
+    ],
+    "FR": [
+     "Canal+ Live 8",
+     "myCANAL"
     ],
     "PT": [
      "DAZN"
@@ -5851,13 +5921,17 @@
      "Viaplay NL",
      "ViaplayTV NL"
     ],
+    "HR": [
+     "Arena Sport 4"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "V sport Premier League 1 NO"
+    ],
     "AT": [
      "Sky Sport 8",
      "Sky Stream",
      "WOW"
-    ],
-    "HR": [
-     "Arena Sport 4"
     ],
     "AR": [
      "Disney+ Premium"
@@ -5865,12 +5939,15 @@
     "BR": [
      "Disney+ Premium"
     ],
-    "NO": [
-     "Viaplay NO",
-     "V sport Premier League 1 NO"
+    "CA": [
+     "DAZN Canada",
+     "Fubo Sports CA"
     ],
     "AU": [
      "Stan Sport"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "FOX One"
@@ -5878,21 +5955,21 @@
     "US": [
      "USA Network"
     ],
-    "CA": [
-     "DAZN Canada",
-     "Fubo Sports CA"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "NG": [
+     "DStv Now"
+    ],
+    "ZA": [
+     "DStv Now"
+    ],
+    "GH": [
+     "SuperSport Football Plus ROA",
      "DStv Now"
     ],
     "MA": [
      "TOD",
      "beIN CONNECT"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -5901,15 +5978,8 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "GH": [
-     "SuperSport Football Plus ROA",
-     "DStv Now"
-    ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
-    ],
-    "ZA": [
-     "DStv Now"
     ],
     "PY": [
      "Disney+ Premium"
@@ -5973,6 +6043,55 @@
    ]
   },
   {
+   "id": "football-20261107-westerlo-sporting-charleroi",
+   "sport": "football",
+   "competitionId": "belgian_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Belçika Pro Lig",
+    "en": "Belgian Pro League",
+    "de": "Belgische Pro League",
+    "es": "Liga de Bélgica",
+    "fr": "Jupiler Pro League",
+    "it": "Pro League belga",
+    "pt": "Liga Belga",
+    "ar": "الدوري البلجيكي",
+    "nl": "Jupiler Pro League"
+   },
+   "home": "Westerlo",
+   "away": "Sporting Charleroi",
+   "homeNames": {
+    "tr": "Westerlo",
+    "en": "Westerlo",
+    "de": "Westerlo",
+    "es": "Westerlo",
+    "fr": "Westerlo",
+    "it": "Westerlo",
+    "pt": "Westerlo",
+    "ar": "Westerlo"
+   },
+   "awayNames": {
+    "tr": "Sporting Charleroi",
+    "en": "Sporting Charleroi",
+    "de": "Sporting Charleroi",
+    "es": "Sporting Charleroi",
+    "fr": "Sporting Charleroi",
+    "it": "Sporting Charleroi",
+    "pt": "Sporting Charleroi",
+    "ar": "Sporting Charleroi"
+   },
+   "kickoffUtc": "2026-11-07T15:00:00Z",
+   "broadcasts": {
+    "BE": [
+     "DAZN (BE)",
+     "DAZN Pro League 1"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
    "id": "football-20261107-birmingham-city-swansea-city",
    "sport": "football",
    "competitionId": "championship",
@@ -6017,19 +6136,25 @@
     "NL": [
      "Viaplay NL"
     ],
+    "NO": [
+     "V sport + NO",
+     "TV 2 Play (NO)",
+     "Viaplay NO"
+    ],
     "AR": [
      "Disney+ Premium"
     ],
     "BR": [
      "Disney+ Premium"
     ],
-    "NO": [
-     "V sport + NO",
-     "TV 2 Play (NO)",
-     "Viaplay NO"
+    "CA": [
+     "DAZN Canada"
     ],
     "JP": [
      "DAZN"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "Disney+ Premium"
@@ -6037,13 +6162,7 @@
     "US": [
      "Paramount+ (US)"
     ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -6052,7 +6171,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -6452,22 +6571,22 @@
    },
    "kickoffUtc": "2026-11-07T15:15:00Z",
    "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
     "TR": [
      "S Sport"
     ],
     "IT": [
      "DAZN Italia"
     ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
     "FR": [
      "DAZN 1 (FR)",
      "DAZN.com (FR)",
      "Disney+ (FR)"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "DE": [
-     "DAZN Deutschland"
     ],
     "GB": [
      "Premier Sports Player",
@@ -6477,6 +6596,11 @@
      "DAZN",
      "DAZN LaLiga",
      "LaLiga TV Bar"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "TV 2 Play (NO)",
+     "TV 2 Sport Premium"
     ],
     "CH": [
      "DAZN"
@@ -6493,19 +6617,23 @@
     "BR": [
      "CazéTV YouTube"
     ],
-    "NO": [
-     "Viaplay NO",
-     "TV 2 Play (NO)",
-     "TV 2 Sport Premium"
-    ],
     "KR": [
      "Coupang Play"
+    ],
+    "CA": [
+     "TSN+"
+    ],
+    "JP": [
+     "DAZN"
     ],
     "AU": [
      "beIN CONNECT"
     ],
-    "JP": [
-     "DAZN"
+    "CO": [
+     "DAZN",
+     "DSports",
+     "Win Play",
+     "DGO"
     ],
     "MX": [
      "SKY Sports"
@@ -6516,22 +6644,20 @@
      "ESPN Deportes",
      "Fubo Sports"
     ],
-    "CA": [
-     "TSN+"
-    ],
-    "CO": [
-     "DAZN",
-     "DSports",
-     "Win Play",
-     "DGO"
-    ],
     "NG": [
      "SuperSport GOtv LaLiga"
+    ],
+    "ZA": [
+     "SuperSport GOtv LaLiga"
+    ],
+    "GH": [
+     "SuperSport GOtv LaLiga",
+     "SuperSport Laliga ROA"
     ],
     "MA": [
      "beIN CONNECT"
     ],
-    "CL": [
+    "EC": [
      "DAZN",
      "DSports",
      "DGO",
@@ -6549,18 +6675,11 @@
      "DGO",
      "Paramount+"
     ],
-    "GH": [
-     "SuperSport GOtv LaLiga",
-     "SuperSport Laliga ROA"
-    ],
-    "EC": [
+    "CL": [
      "DAZN",
      "DSports",
      "DGO",
      "Paramount+"
-    ],
-    "ZA": [
-     "SuperSport GOtv LaLiga"
     ],
     "PT": [
      "DAZN"
@@ -6671,7 +6790,8 @@
     "fr": "Eredivisie",
     "it": "Eredivisie",
     "pt": "Eredivisie",
-    "ar": "الدوري الهولندي"
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
    },
    "home": "Fortuna Sittard",
    "away": "Telstar",
@@ -6746,53 +6866,11 @@
    },
    "kickoffUtc": "2026-11-07T16:00:00Z",
    "broadcasts": {
-    "PT": [
-     "OneFootball PPV"
-    ],
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "CH": [
-     "OneFootball PPV"
-    ],
     "AT": [
      "Sky Sport Austria 1",
      "Sky Go",
      "OneFootball PPV",
      "WOW"
-    ],
-    "AR": [
-     "OneFootball PPV"
-    ],
-    "BR": [
-     "OneFootball PPV"
-    ],
-    "AU": [
-     "OneFootball PPV"
-    ],
-    "JP": [
-     "OneFootball PPV"
-    ],
-    "MX": [
-     "OneFootball PPV"
-    ],
-    "CO": [
-     "OneFootball PPV"
-    ],
-    "CL": [
-     "OneFootball PPV"
-    ],
-    "UY": [
-     "OneFootball PPV"
-    ],
-    "PE": [
-     "OneFootball PPV"
-    ],
-    "EC": [
-     "OneFootball PPV"
-    ],
-    "PY": [
-     "OneFootball PPV"
     ]
    },
    "sources": [
@@ -6906,6 +6984,12 @@
     "BR": [
      "Disney+ Premium"
     ],
+    "CA": [
+     "beIN Sport Canada"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
     "MX": [
      "ESPN 3",
      "Disney+ Premium"
@@ -6914,13 +6998,7 @@
      "beIN Sports (US)",
      "beIN Sports CONNECT (US)"
     ],
-    "CA": [
-     "beIN Sport Canada"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -6929,7 +7007,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -7079,19 +7157,19 @@
    },
    "kickoffUtc": "2026-11-07T16:15:00Z",
    "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
     "TR": [
      "TOD",
      "beIN CONNECT"
     ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
     "FR": [
      "DAZN.com (FR)",
      "Ligue 1+"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "DE": [
-     "DAZN Deutschland"
     ],
     "GB": [
      "Ligue 1+ (UK IR)"
@@ -7105,6 +7183,10 @@
     "NL": [
      "Viaplay NL"
     ],
+    "NO": [
+     "Viaplay NO",
+     "TV 2 Play (NO)"
+    ],
     "AT": [
      "DAZN"
     ],
@@ -7114,15 +7196,17 @@
     "BR": [
      "CazéTV YouTube"
     ],
-    "NO": [
-     "Viaplay NO",
-     "TV 2 Play (NO)"
-    ],
     "KR": [
      "Coupang Play"
     ],
+    "CA": [
+     "beIN Sport Canada Espanol"
+    ],
     "JP": [
      "DAZN"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "FOX One"
@@ -7132,17 +7216,11 @@
      "beIN Sports en Español (US)",
      "beIN Sports CONNECT (US)"
     ],
-    "CA": [
-     "beIN Sport Canada Espanol"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "MA": [
      "beIN CONNECT",
      "TOD"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -7151,7 +7229,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -7260,10 +7338,13 @@
     "BR": [
      "OneFootball PPV"
     ],
+    "JP": [
+     "OneFootball PPV"
+    ],
     "AU": [
      "OneFootball PPV"
     ],
-    "JP": [
+    "CO": [
      "OneFootball PPV"
     ],
     "MX": [
@@ -7274,10 +7355,7 @@
      "FOX Soccer Plus",
      "Fox Sports online"
     ],
-    "CO": [
-     "OneFootball PPV"
-    ],
-    "CL": [
+    "EC": [
      "OneFootball PPV"
     ],
     "UY": [
@@ -7286,11 +7364,107 @@
     "PE": [
      "OneFootball PPV"
     ],
-    "EC": [
+    "CL": [
      "OneFootball PPV"
     ],
     "PY": [
      "OneFootball PPV"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261107-gornik-zabrze-wieczysta-krakow",
+   "sport": "football",
+   "competitionId": "ekstraklasa",
+   "tier": "regional",
+   "competition": {
+    "tr": "Polonya Ekstraklasa",
+    "en": "Ekstraklasa",
+    "de": "Ekstraklasa",
+    "es": "Ekstraklasa",
+    "fr": "Ekstraklasa",
+    "it": "Ekstraklasa",
+    "pt": "Ekstraklasa",
+    "ar": "الدوري البولندي",
+    "pl": "PKO BP Ekstraklasa"
+   },
+   "home": "Gornik Zabrze",
+   "away": "Wieczysta Krakow",
+   "homeNames": {
+    "tr": "Górnik Zabrze",
+    "en": "Górnik Zabrze",
+    "de": "Górnik Zabrze",
+    "es": "Górnik Zabrze",
+    "fr": "Górnik Zabrze",
+    "it": "Górnik Zabrze",
+    "pt": "Górnik Zabrze",
+    "ar": "Górnik Zabrze"
+   },
+   "awayNames": {
+    "tr": "Wieczysta Kraków",
+    "en": "Wieczysta Kraków",
+    "de": "Wieczysta Kraków",
+    "es": "Wieczysta Kraków",
+    "fr": "Wieczysta Kraków",
+    "it": "Wieczysta Kraków",
+    "pt": "Wieczysta Kraków",
+    "ar": "Wieczysta Kraków"
+   },
+   "kickoffUtc": "2026-11-07T16:30:00Z",
+   "broadcasts": {
+    "PL": [
+     "Canal+ Sport"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261107-rosenborg-start",
+   "sport": "football",
+   "competitionId": "eliteserien",
+   "tier": "regional",
+   "competition": {
+    "tr": "Norveç Eliteserien",
+    "en": "Eliteserien",
+    "de": "Eliteserien",
+    "es": "Eliteserien",
+    "fr": "Eliteserien",
+    "it": "Eliteserien",
+    "pt": "Eliteserien",
+    "ar": "الدوري النرويجي",
+    "nb": "Eliteserien"
+   },
+   "home": "Rosenborg",
+   "away": "Start",
+   "homeNames": {
+    "tr": "Rosenborg",
+    "en": "Rosenborg",
+    "de": "Rosenborg",
+    "es": "Rosenborg",
+    "fr": "Rosenborg",
+    "it": "Rosenborg",
+    "pt": "Rosenborg",
+    "ar": "Rosenborg"
+   },
+   "awayNames": {
+    "tr": "Start",
+    "en": "Start",
+    "de": "Start",
+    "es": "Start",
+    "fr": "Start",
+    "it": "Start",
+    "pt": "Start",
+    "ar": "Start"
+   },
+   "kickoffUtc": "2026-11-07T17:00:00Z",
+   "broadcasts": {
+    "NO": [
+     "TV 2 Play (NO)"
     ]
    },
    "sources": [
@@ -7336,27 +7510,30 @@
    },
    "kickoffUtc": "2026-11-07T17:00:00Z",
    "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
     "TR": [
      "S Sport"
     ],
     "IT": [
      "DAZN Italia"
     ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
     "FR": [
      "DAZN.com (FR)",
      "DAZN 1 (FR)"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "DE": [
-     "DAZN Deutschland"
     ],
     "GB": [
      "DAZN UK"
     ],
     "ES": [
      "DAZN"
+    ],
+    "NO": [
+     "VG TV"
     ],
     "CH": [
      "DAZN"
@@ -7370,14 +7547,17 @@
     "BR": [
      "Disney+ Premium"
     ],
-    "NO": [
-     "VG TV"
+    "CA": [
+     "DAZN Canada"
+    ],
+    "JP": [
+     "DAZN"
     ],
     "AU": [
      "beIN CONNECT"
     ],
-    "JP": [
-     "DAZN"
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "ESPN",
@@ -7387,16 +7567,10 @@
      "Paramount+ (US)",
      "Peacock (Español)"
     ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "MA": [
      "STARZPLAY"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -7405,7 +7579,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -7460,6 +7634,204 @@
    ]
   },
   {
+   "id": "football-20261107-nk-istra-1961-rijeka",
+   "sport": "football",
+   "competitionId": "hnl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hırvatistan HNL",
+    "en": "Croatian HNL",
+    "de": "Kroatische HNL",
+    "es": "HNL de Croacia",
+    "fr": "HNL croate",
+    "it": "HNL croata",
+    "pt": "HNL da Croácia",
+    "ar": "الدوري الكرواتي",
+    "hr": "SuperSport HNL"
+   },
+   "home": "NK Istra 1961",
+   "away": "Rijeka",
+   "homeNames": {
+    "tr": "NK Istra 1961",
+    "en": "NK Istra 1961",
+    "de": "NK Istra 1961",
+    "es": "NK Istra 1961",
+    "fr": "NK Istra 1961",
+    "it": "NK Istra 1961",
+    "pt": "NK Istra 1961",
+    "ar": "NK Istra 1961"
+   },
+   "awayNames": {
+    "tr": "Rijeka",
+    "en": "Rijeka",
+    "de": "Rijeka",
+    "es": "Rijeka",
+    "fr": "Rijeka",
+    "it": "Rijeka",
+    "pt": "Rijeka",
+    "ar": "Rijeka"
+   },
+   "kickoffUtc": "2026-11-07T17:00:00Z",
+   "broadcasts": {
+    "HR": [
+     "Max Sport 1",
+     "MAX To Go"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261107-luzern-young-boys",
+   "sport": "football",
+   "competitionId": "swiss_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "İsviçre Süper Ligi",
+    "en": "Swiss Super League",
+    "de": "Super League",
+    "es": "Superliga Suiza",
+    "fr": "Super League suisse",
+    "it": "Super League svizzera",
+    "pt": "Superliga Suíça",
+    "ar": "الدوري السويسري"
+   },
+   "home": "Luzern",
+   "away": "Young Boys",
+   "homeNames": {
+    "tr": "Luzern",
+    "en": "Luzern",
+    "de": "Luzern",
+    "es": "Luzern",
+    "fr": "Luzern",
+    "it": "Luzern",
+    "pt": "Luzern",
+    "ar": "Luzern"
+   },
+   "awayNames": {
+    "tr": "Young Boys",
+    "en": "Young Boys",
+    "de": "Young Boys",
+    "es": "Young Boys",
+    "fr": "Young Boys",
+    "it": "Young Boys",
+    "pt": "Young Boys",
+    "ar": "Young Boys"
+   },
+   "kickoffUtc": "2026-11-07T17:00:00Z",
+   "broadcasts": {
+    "CH": [
+     "Blue Sport D 1",
+     "Blue Sport 2 Direct",
+     "Blue Sport 2 Direct F",
+     "Blue Sport 2 Live D"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261107-fc-vaduz-sion",
+   "sport": "football",
+   "competitionId": "swiss_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "İsviçre Süper Ligi",
+    "en": "Swiss Super League",
+    "de": "Super League",
+    "es": "Superliga Suiza",
+    "fr": "Super League suisse",
+    "it": "Super League svizzera",
+    "pt": "Superliga Suíça",
+    "ar": "الدوري السويسري"
+   },
+   "home": "FC Vaduz",
+   "away": "Sion",
+   "homeNames": {
+    "tr": "FC Vaduz",
+    "en": "FC Vaduz",
+    "de": "FC Vaduz",
+    "es": "FC Vaduz",
+    "fr": "FC Vaduz",
+    "it": "FC Vaduz",
+    "pt": "FC Vaduz",
+    "ar": "FC Vaduz"
+   },
+   "awayNames": {
+    "tr": "Sion",
+    "en": "Sion",
+    "de": "Sion",
+    "es": "Sion",
+    "fr": "Sion",
+    "it": "Sion",
+    "pt": "Sion",
+    "ar": "Sion"
+   },
+   "kickoffUtc": "2026-11-07T17:00:00Z",
+   "broadcasts": {
+    "CH": [
+     "Blue Sport 2 Live",
+     "Blue Sport F",
+     "Blue Sport 3 Direct F",
+     "Blue Sport 3 Live D"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261107-oh-leuven-kv-mechelen",
+   "sport": "football",
+   "competitionId": "belgian_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Belçika Pro Lig",
+    "en": "Belgian Pro League",
+    "de": "Belgische Pro League",
+    "es": "Liga de Bélgica",
+    "fr": "Jupiler Pro League",
+    "it": "Pro League belga",
+    "pt": "Liga Belga",
+    "ar": "الدوري البلجيكي",
+    "nl": "Jupiler Pro League"
+   },
+   "home": "OH Leuven",
+   "away": "KV Mechelen",
+   "homeNames": {
+    "tr": "OH Leuven",
+    "en": "OH Leuven",
+    "de": "OH Leuven",
+    "es": "OH Leuven",
+    "fr": "OH Leuven",
+    "it": "OH Leuven",
+    "pt": "OH Leuven",
+    "ar": "OH Leuven"
+   },
+   "awayNames": {
+    "tr": "KV Mechelen",
+    "en": "KV Mechelen",
+    "de": "KV Mechelen",
+    "es": "KV Mechelen",
+    "fr": "KV Mechelen",
+    "it": "KV Mechelen",
+    "pt": "KV Mechelen",
+    "ar": "KV Mechelen"
+   },
+   "kickoffUtc": "2026-11-07T17:15:00Z",
+   "broadcasts": {
+    "BE": [
+     "DAZN (BE)",
+     "DAZN Pro League 1"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
    "id": "football-20261107-nottingham-forest-man-city",
    "sport": "football",
    "competitionId": "premier",
@@ -7498,6 +7870,10 @@
    },
    "kickoffUtc": "2026-11-07T17:30:00Z",
    "broadcasts": {
+    "BE": [
+     "Play Sports 1",
+     "Play Sports"
+    ],
     "TR": [
      "beIN CONNECT",
      "TOD"
@@ -7506,18 +7882,14 @@
      "Sky Sport Calcio",
      "NOW TV (IT)"
     ],
+    "DE": [
+     "Sky Sport Premier League",
+     "WOW"
+    ],
     "FR": [
      "Canal+ Live 7",
      "Canal+ Foot",
      "myCANAL"
-    ],
-    "BE": [
-     "Play Sports 1",
-     "Play Sports"
-    ],
-    "DE": [
-     "Sky Sport Premier League",
-     "WOW"
     ],
     "GB": [
      "Sky Sports Main Event",
@@ -7534,6 +7906,13 @@
     "NL": [
      "Viaplay NL"
     ],
+    "HR": [
+     "Arena Sport 1"
+    ],
+    "NO": [
+     "V sport Premier League NO",
+     "Viaplay NO"
+    ],
     "CH": [
      "CANAL+ Foot"
     ],
@@ -7542,24 +7921,24 @@
      "Sky Stream",
      "WOW"
     ],
-    "HR": [
-     "Arena Sport 1"
-    ],
     "AR": [
      "Disney+ Premium"
     ],
     "BR": [
      "Disney+ Premium"
     ],
-    "NO": [
-     "V sport Premier League NO",
-     "Viaplay NO"
-    ],
     "KR": [
      "Coupang Play"
     ],
+    "CA": [
+     "DAZN Canada",
+     "Fubo Sports CA"
+    ],
     "AU": [
      "Stan Sport"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "FOX One"
@@ -7570,21 +7949,20 @@
      "Peacock",
      "NBC Sports 4K"
     ],
-    "CA": [
-     "DAZN Canada",
-     "Fubo Sports CA"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "NG": [
+     "DStv Now"
+    ],
+    "ZA": [
+     "DStv Now"
+    ],
+    "GH": [
      "DStv Now"
     ],
     "MA": [
      "beIN CONNECT",
      "TOD"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -7593,14 +7971,8 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "GH": [
-     "DStv Now"
-    ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
-    ],
-    "ZA": [
-     "DStv Now"
     ],
     "PY": [
      "Disney+ Premium"
@@ -7695,21 +8067,21 @@
    },
    "kickoffUtc": "2026-11-07T17:30:00Z",
    "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
     "TR": [
      "S Sport"
     ],
     "IT": [
      "DAZN Italia"
     ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
     "FR": [
      "DAZN 1 (FR)",
      "Disney+ (FR)"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "DE": [
-     "DAZN Deutschland"
     ],
     "GB": [
      "Premier Sports Player",
@@ -7720,6 +8092,11 @@
      "LaLiga TV Bar",
      "M+ LALIGA",
      "Orange Fútbol 1"
+    ],
+    "NO": [
+     "TV 2 Play (NO)",
+     "Viaplay NO",
+     "TV 2 Sport 1"
     ],
     "CH": [
      "DAZN"
@@ -7733,19 +8110,20 @@
     "BR": [
      "CazéTV YouTube"
     ],
-    "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO",
-     "TV 2 Sport 1"
-    ],
     "KR": [
      "Coupang Play"
+    ],
+    "CA": [
+     "TSN+"
+    ],
+    "JP": [
+     "DAZN"
     ],
     "AU": [
      "beIN CONNECT"
     ],
-    "JP": [
-     "DAZN"
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "SKY Sports"
@@ -7756,19 +8134,20 @@
      "ESPN Select",
      "Fubo Sports"
     ],
-    "CA": [
-     "TSN+"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "NG": [
      "SuperSport GOtv LaLiga"
+    ],
+    "ZA": [
+     "SuperSport GOtv LaLiga"
+    ],
+    "GH": [
+     "SuperSport GOtv LaLiga",
+     "SuperSport Laliga ROA"
     ],
     "MA": [
      "beIN CONNECT"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -7777,15 +8156,8 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "GH": [
-     "SuperSport GOtv LaLiga",
-     "SuperSport Laliga ROA"
-    ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
-    ],
-    "ZA": [
-     "SuperSport GOtv LaLiga"
     ],
     "PY": [
      "Disney+ Premium"
@@ -7975,14 +8347,14 @@
     "TR": [
      "S Sport"
     ],
-    "FR": [
-     "beIN Sports 2 (FR)"
-    ],
     "DE": [
      "Sky Top Event",
      "Sky Bundesliga",
      "Sky Bundesliga 1",
      "Sky Bundesliga UHD"
+    ],
+    "FR": [
+     "beIN Sports 2 (FR)"
     ],
     "GB": [
      "Sky Sports Football",
@@ -7994,6 +8366,11 @@
     ],
     "NL": [
      "Viaplay NL"
+    ],
+    "NO": [
+     "TV 2 Play (NO)",
+     "Viaplay NO",
+     "V sport 2 NO"
     ],
     "CH": [
      "Sky Sport Bundesliga 1",
@@ -8014,19 +8391,20 @@
      "OneFootball",
      "OneFootball PPV"
     ],
-    "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO",
-     "V sport 2 NO"
-    ],
     "KR": [
      "Coupang Play"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "JP": [
+     "DAZN"
     ],
     "AU": [
      "beIN CONNECT"
     ],
-    "JP": [
-     "DAZN"
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "FOX",
@@ -8036,18 +8414,12 @@
      "USA Network",
      "Peacock (Español)"
     ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "MA": [
      "beIN CONNECT",
      "TOD",
      "Shahid"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -8056,7 +8428,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -8115,15 +8487,15 @@
      "HBO Max (UK)",
      "BBC iPlayer"
     ],
+    "CA": [
+     "Sportsnet+"
+    ],
     "AU": [
      "Stan Sport"
     ],
     "US": [
      "ESPN Select",
      "ESPN Unlimited"
-    ],
-    "CA": [
-     "Sportsnet+"
     ]
    },
    "sources": [
@@ -8169,12 +8541,12 @@
    },
    "kickoffUtc": "2026-11-07T17:30:00Z",
    "broadcasts": {
+    "DE": [
+     "DAZN Deutschland"
+    ],
     "FR": [
      "DAZN.com (FR)",
      "DAZN 1 (FR)"
-    ],
-    "DE": [
-     "DAZN Deutschland"
     ],
     "CH": [
      "DAZN"
@@ -8214,7 +8586,8 @@
     "fr": "Eredivisie",
     "it": "Eredivisie",
     "pt": "Eredivisie",
-    "ar": "الدوري الهولندي"
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
    },
    "home": "ADO Den Haag",
    "away": "Sparta Rotterdam",
@@ -8466,19 +8839,19 @@
     "BR": [
      "Fanatiz"
     ],
-    "AU": [
-     "Fanatiz"
-    ],
     "JP": [
      "Fanatiz"
     ],
-    "MX": [
+    "AU": [
      "Fanatiz"
     ],
     "CO": [
      "Fanatiz"
     ],
-    "CL": [
+    "MX": [
+     "Fanatiz"
+    ],
+    "EC": [
      "Fanatiz"
     ],
     "UY": [
@@ -8489,7 +8862,7 @@
      "L1 Max",
      "L1 Play"
     ],
-    "EC": [
+    "CL": [
      "Fanatiz"
     ],
     "PY": [
@@ -8607,53 +8980,11 @@
    },
    "kickoffUtc": "2026-11-07T18:30:00Z",
    "broadcasts": {
-    "PT": [
-     "OneFootball PPV"
-    ],
-    "ES": [
-     "OneFootball PPV"
-    ],
-    "CH": [
-     "OneFootball PPV"
-    ],
     "AT": [
      "Sky Sport Austria 1",
      "Sky Go",
      "OneFootball PPV",
      "WOW"
-    ],
-    "AR": [
-     "OneFootball PPV"
-    ],
-    "BR": [
-     "OneFootball PPV"
-    ],
-    "AU": [
-     "OneFootball PPV"
-    ],
-    "JP": [
-     "OneFootball PPV"
-    ],
-    "MX": [
-     "OneFootball PPV"
-    ],
-    "CO": [
-     "OneFootball PPV"
-    ],
-    "CL": [
-     "OneFootball PPV"
-    ],
-    "UY": [
-     "OneFootball PPV"
-    ],
-    "PE": [
-     "OneFootball PPV"
-    ],
-    "EC": [
-     "OneFootball PPV"
-    ],
-    "PY": [
-     "OneFootball PPV"
     ]
    },
    "sources": [
@@ -8717,19 +9048,19 @@
     "BR": [
      "OneFootball PPV"
     ],
-    "AU": [
-     "OneFootball PPV"
-    ],
     "JP": [
      "OneFootball PPV"
     ],
-    "MX": [
+    "AU": [
      "OneFootball PPV"
     ],
     "CO": [
      "OneFootball PPV"
     ],
-    "CL": [
+    "MX": [
+     "OneFootball PPV"
+    ],
+    "EC": [
      "OneFootball PPV"
     ],
     "UY": [
@@ -8738,7 +9069,7 @@
     "PE": [
      "OneFootball PPV"
     ],
-    "EC": [
+    "CL": [
      "OneFootball PPV"
     ],
     "PY": [
@@ -8882,14 +9213,14 @@
    },
    "kickoffUtc": "2026-11-07T19:00:00Z",
    "broadcasts": {
-    "FR": [
-     "beIN Sports 1 (FR)"
-    ],
     "BE": [
      "DAZN (BE)"
     ],
     "DE": [
      "DAZN Deutschland"
+    ],
+    "FR": [
+     "beIN Sports 1 (FR)"
     ],
     "PT": [
      "Fanatiz"
@@ -8897,14 +9228,14 @@
     "NL": [
      "Viaplay NL"
     ],
+    "NO": [
+     "Viaplay NO"
+    ],
     "CH": [
      "DAZN"
     ],
     "AT": [
      "DAZN"
-    ],
-    "NO": [
-     "Viaplay NO"
     ],
     "US": [
      "beIN Sports Xtra (Canada)",
@@ -8967,6 +9298,104 @@
    ]
   },
   {
+   "id": "football-20261107-widzew-lodz-pogon-szczecin",
+   "sport": "football",
+   "competitionId": "ekstraklasa",
+   "tier": "regional",
+   "competition": {
+    "tr": "Polonya Ekstraklasa",
+    "en": "Ekstraklasa",
+    "de": "Ekstraklasa",
+    "es": "Ekstraklasa",
+    "fr": "Ekstraklasa",
+    "it": "Ekstraklasa",
+    "pt": "Ekstraklasa",
+    "ar": "الدوري البولندي",
+    "pl": "PKO BP Ekstraklasa"
+   },
+   "home": "Widzew Lodz",
+   "away": "Pogon Szczecin",
+   "homeNames": {
+    "tr": "Widzew Łódź",
+    "en": "Widzew Łódź",
+    "de": "Widzew Łódź",
+    "es": "Widzew Łódź",
+    "fr": "Widzew Łódź",
+    "it": "Widzew Łódź",
+    "pt": "Widzew Łódź",
+    "ar": "Widzew Łódź"
+   },
+   "awayNames": {
+    "tr": "Pogoń Szczecin",
+    "en": "Pogoń Szczecin",
+    "de": "Pogoń Szczecin",
+    "es": "Pogoń Szczecin",
+    "fr": "Pogoń Szczecin",
+    "it": "Pogoń Szczecin",
+    "pt": "Pogoń Szczecin",
+    "ar": "Pogoń Szczecin"
+   },
+   "kickoffUtc": "2026-11-07T19:15:00Z",
+   "broadcasts": {
+    "PL": [
+     "Canal+ Sport"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261107-grasshopper-lausanne",
+   "sport": "football",
+   "competitionId": "swiss_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "İsviçre Süper Ligi",
+    "en": "Swiss Super League",
+    "de": "Super League",
+    "es": "Superliga Suiza",
+    "fr": "Super League suisse",
+    "it": "Super League svizzera",
+    "pt": "Superliga Suíça",
+    "ar": "الدوري السويسري"
+   },
+   "home": "Grasshopper",
+   "away": "Lausanne",
+   "homeNames": {
+    "tr": "Grasshopper",
+    "en": "Grasshopper",
+    "de": "Grasshopper",
+    "es": "Grasshopper",
+    "fr": "Grasshopper",
+    "it": "Grasshopper",
+    "pt": "Grasshopper",
+    "ar": "Grasshopper"
+   },
+   "awayNames": {
+    "tr": "Lausanne",
+    "en": "Lausanne",
+    "de": "Lausanne",
+    "es": "Lausanne",
+    "fr": "Lausanne",
+    "it": "Lausanne",
+    "pt": "Lausanne",
+    "ar": "Lausanne"
+   },
+   "kickoffUtc": "2026-11-07T19:30:00Z",
+   "broadcasts": {
+    "CH": [
+     "SRF zwei",
+     "Play SRF",
+     "RSI La 2",
+     "SRF Sport"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
    "id": "football-20261107-hertha-bsc-wolfsburg",
    "sport": "football",
    "competitionId": "bundesliga2",
@@ -9005,20 +9434,25 @@
    },
    "kickoffUtc": "2026-11-07T19:30:00Z",
    "broadcasts": {
-    "FR": [
-     "beIN Sports MAX 5 (FR)"
-    ],
     "DE": [
      "Sky Bundesliga 2",
      "Sky Sport News",
      "Sky Bundesliga UHD",
      "Sky Top Event"
     ],
+    "FR": [
+     "beIN Sports MAX 5 (FR)"
+    ],
     "ES": [
      "DAZN"
     ],
     "NL": [
      "Viaplay NL"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "V sport 2 NO",
+     "TV 2 Play (NO)"
     ],
     "CH": [
      "Sky Sport Bundesliga 2",
@@ -9039,18 +9473,13 @@
      "OneFootball",
      "OneFootball PPV"
     ],
-    "NO": [
-     "Viaplay NO",
-     "V sport 2 NO",
-     "TV 2 Play (NO)"
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "Bundesliga YouTube"
     ],
-    "CO": [
-     "Disney+ Premium"
-    ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -9059,7 +9488,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -9109,27 +9538,30 @@
    },
    "kickoffUtc": "2026-11-07T19:45:00Z",
    "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
     "TR": [
      "S Sport"
     ],
     "IT": [
      "DAZN Italia"
     ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
     "FR": [
      "DAZN 1 (FR)",
      "DAZN.com (FR)"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "DE": [
-     "DAZN Deutschland"
     ],
     "GB": [
      "DAZN UK"
     ],
     "ES": [
      "DAZN"
+    ],
+    "NO": [
+     "VG TV"
     ],
     "CH": [
      "DAZN"
@@ -9143,14 +9575,18 @@
     "BR": [
      "Disney+ Premium"
     ],
-    "NO": [
-     "VG TV"
+    "CA": [
+     "DAZN Canada",
+     "TLN"
+    ],
+    "JP": [
+     "DAZN"
     ],
     "AU": [
      "beIN CONNECT"
     ],
-    "JP": [
-     "DAZN"
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "Disney+ Premium"
@@ -9160,17 +9596,10 @@
      "Telemundo",
      "Peacock (Español)"
     ],
-    "CA": [
-     "DAZN Canada",
-     "TLN"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "MA": [
      "STARZPLAY"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -9179,7 +9608,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -9272,20 +9701,20 @@
    },
    "kickoffUtc": "2026-11-07T19:45:00Z",
    "broadcasts": {
-    "TR": [
-     "beIN CONNECT",
-     "TOD"
-    ],
-    "FR": [
-     "DAZN.com (FR)",
-     "Ligue 1+"
-    ],
     "BE": [
      "DAZN 1 (BE)",
      "DAZN (BE)"
     ],
+    "TR": [
+     "beIN CONNECT",
+     "TOD"
+    ],
     "DE": [
      "DAZN Deutschland"
+    ],
+    "FR": [
+     "DAZN.com (FR)",
+     "Ligue 1+"
     ],
     "GB": [
      "Ligue 1+ (UK IR)"
@@ -9300,6 +9729,9 @@
     "NL": [
      "Viaplay NL"
     ],
+    "NO": [
+     "Viaplay NO"
+    ],
     "CH": [
      "DAZN"
     ],
@@ -9312,14 +9744,18 @@
     "BR": [
      "CazéTV YouTube"
     ],
-    "NO": [
-     "Viaplay NO"
-    ],
     "KR": [
      "Coupang Play"
     ],
+    "CA": [
+     "beIN Sport Canada Espanol",
+     "beIN Sport Canada"
+    ],
     "JP": [
      "DAZN"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "MX": [
      "FOX",
@@ -9330,18 +9766,11 @@
      "beIN Sports en Español (US)",
      "beIN Sports CONNECT (US)"
     ],
-    "CA": [
-     "beIN Sport Canada Espanol",
-     "beIN Sport Canada"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
     "MA": [
      "TOD",
      "beIN CONNECT"
     ],
-    "CL": [
+    "EC": [
      "Disney+ Premium"
     ],
     "UY": [
@@ -9350,7 +9779,7 @@
     "PE": [
      "Disney+ Premium"
     ],
-    "EC": [
+    "CL": [
      "Disney+ Premium"
     ],
     "PY": [
@@ -9401,6 +9830,104 @@
    ]
   },
   {
+   "id": "football-20261107-royal-antwerp-lommel",
+   "sport": "football",
+   "competitionId": "belgian_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Belçika Pro Lig",
+    "en": "Belgian Pro League",
+    "de": "Belgische Pro League",
+    "es": "Liga de Bélgica",
+    "fr": "Jupiler Pro League",
+    "it": "Pro League belga",
+    "pt": "Liga Belga",
+    "ar": "الدوري البلجيكي",
+    "nl": "Jupiler Pro League"
+   },
+   "home": "Royal Antwerp",
+   "away": "Lommel",
+   "homeNames": {
+    "tr": "Royal Antwerp",
+    "en": "Royal Antwerp",
+    "de": "Royal Antwerp",
+    "es": "Royal Antwerp",
+    "fr": "Royal Antwerp",
+    "it": "Royal Antwerp",
+    "pt": "Royal Antwerp",
+    "ar": "Royal Antwerp"
+   },
+   "awayNames": {
+    "tr": "Lommel",
+    "en": "Lommel",
+    "de": "Lommel",
+    "es": "Lommel",
+    "fr": "Lommel",
+    "it": "Lommel",
+    "pt": "Lommel",
+    "ar": "Lommel"
+   },
+   "kickoffUtc": "2026-11-07T19:45:00Z",
+   "broadcasts": {
+    "BE": [
+     "DAZN Pro League 1",
+     "DAZN (BE)"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261107-raal-la-louviere-cercle-brugge",
+   "sport": "football",
+   "competitionId": "belgian_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Belçika Pro Lig",
+    "en": "Belgian Pro League",
+    "de": "Belgische Pro League",
+    "es": "Liga de Bélgica",
+    "fr": "Jupiler Pro League",
+    "it": "Pro League belga",
+    "pt": "Liga Belga",
+    "ar": "الدوري البلجيكي",
+    "nl": "Jupiler Pro League"
+   },
+   "home": "RAAL La Louviere",
+   "away": "Cercle Brugge",
+   "homeNames": {
+    "tr": "RAAL La Louvière",
+    "en": "RAAL La Louvière",
+    "de": "RAAL La Louvière",
+    "es": "RAAL La Louvière",
+    "fr": "RAAL La Louvière",
+    "it": "RAAL La Louvière",
+    "pt": "RAAL La Louvière",
+    "ar": "RAAL La Louvière"
+   },
+   "awayNames": {
+    "tr": "Cercle Brugge",
+    "en": "Cercle Brugge",
+    "de": "Cercle Brugge",
+    "es": "Cercle Brugge",
+    "fr": "Cercle Brugge",
+    "it": "Cercle Brugge",
+    "pt": "Cercle Brugge",
+    "ar": "Cercle Brugge"
+   },
+   "kickoffUtc": "2026-11-07T19:45:00Z",
+   "broadcasts": {
+    "BE": [
+     "DAZN (BE)",
+     "DAZN Pro League 2"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
    "id": "football-20261107-excelsior-go-ahead-eagles",
    "sport": "football",
    "competitionId": "eredivisie",
@@ -9413,7 +9940,8 @@
     "fr": "Eredivisie",
     "it": "Eredivisie",
     "pt": "Eredivisie",
-    "ar": "الدوري الهولندي"
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
    },
    "home": "Excelsior",
    "away": "Go Ahead Eagles",
@@ -9553,23 +10081,23 @@
    },
    "kickoffUtc": "2026-11-07T20:00:00Z",
    "broadcasts": {
+    "BE": [
+     "DAZN 2 (BE)",
+     "DAZN (BE)"
+    ],
     "TR": [
      "S Sport"
     ],
     "IT": [
      "DAZN Italia"
     ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
     "FR": [
      "DAZN 1 (FR)",
      "DAZN.com (FR)",
      "Disney+ (FR)"
-    ],
-    "BE": [
-     "DAZN 2 (BE)",
-     "DAZN (BE)"
-    ],
-    "DE": [
-     "DAZN Deutschland"
     ],
     "GB": [
      "Disney+ (UK)"
@@ -9578,6 +10106,11 @@
      "DAZN",
      "DAZN LaLiga",
      "LaLiga TV Bar"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "TV 2 Play (NO)",
+     "TV 2 Sport 1"
     ],
     "CH": [
      "DAZN"
@@ -9594,19 +10127,23 @@
     "BR": [
      "CazéTV YouTube"
     ],
-    "NO": [
-     "Viaplay NO",
-     "TV 2 Play (NO)",
-     "TV 2 Sport 1"
-    ],
     "KR": [
      "Coupang Play"
+    ],
+    "CA": [
+     "TSN+"
+    ],
+    "JP": [
+     "DAZN"
     ],
     "AU": [
      "beIN CONNECT"
     ],
-    "JP": [
-     "DAZN"
+    "CO": [
+     "DAZN",
+     "DSports",
+     "Win Play",
+     "DGO"
     ],
     "MX": [
      "SKY Sports"
@@ -9617,22 +10154,20 @@
      "ESPN Unlimited",
      "Fubo Sports"
     ],
-    "CA": [
-     "TSN+"
-    ],
-    "CO": [
-     "DAZN",
-     "DSports",
-     "Win Play",
-     "DGO"
-    ],
     "NG": [
      "SuperSport GOtv LaLiga"
+    ],
+    "ZA": [
+     "SuperSport GOtv LaLiga"
+    ],
+    "GH": [
+     "SuperSport GOtv LaLiga",
+     "SuperSport Laliga ROA"
     ],
     "MA": [
      "beIN CONNECT"
     ],
-    "CL": [
+    "EC": [
      "DAZN",
      "DSports",
      "DGO",
@@ -9650,18 +10185,11 @@
      "DGO",
      "Paramount+"
     ],
-    "GH": [
-     "SuperSport GOtv LaLiga",
-     "SuperSport Laliga ROA"
-    ],
-    "EC": [
+    "CL": [
      "DAZN",
      "DSports",
      "DGO",
      "Paramount+"
-    ],
-    "ZA": [
-     "SuperSport GOtv LaLiga"
     ],
     "PT": [
      "DAZN"
@@ -9801,11 +10329,11 @@
    },
    "kickoffUtc": "2026-11-07T20:00:00Z",
    "broadcasts": {
-    "IT": [
-     "DAZN Italia"
-    ],
     "BE": [
      "DAZN (BE)"
+    ],
+    "IT": [
+     "DAZN Italia"
     ],
     "DE": [
      "DAZN Deutschland"
@@ -9819,15 +10347,20 @@
     "NL": [
      "Viaplay NL"
     ],
+    "NO": [
+     "V sport 1 NO",
+     "Viaplay NO"
+    ],
     "CH": [
      "DAZN"
     ],
     "AT": [
      "DAZN"
     ],
-    "NO": [
-     "V sport 1 NO",
-     "Viaplay NO"
+    "CA": [
+     "Sportsnet World",
+     "Sportsnet NOW",
+     "Sportsnet+"
     ],
     "AU": [
      "Stan Sport"
@@ -9835,11 +10368,6 @@
     "US": [
      "ESPN Unlimited",
      "ESPN Select"
-    ],
-    "CA": [
-     "Sportsnet World",
-     "Sportsnet NOW",
-     "Sportsnet+"
     ]
    },
    "sources": [
@@ -9933,6 +10461,9 @@
    },
    "kickoffUtc": "2026-11-07T20:30:00Z",
    "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
     "TR": [
      "TOD",
      "beIN CONNECT"
@@ -9940,18 +10471,18 @@
     "IT": [
      "DAZN Italia"
     ],
-    "FR": [
-     "beIN Sports 2 (FR)"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
     "DE": [
      "Sportdigital FUSSBALL",
      "Sportdigital+"
     ],
+    "FR": [
+     "beIN Sports 2 (FR)"
+    ],
     "PT": [
      "Fanatiz"
+    ],
+    "NO": [
+     "VG TV"
     ],
     "CH": [
      "Sportdigital Fussball"
@@ -9961,24 +10492,20 @@
      "Amazon Prime Video",
      "Paramount+"
     ],
-    "NO": [
-     "VG TV"
-    ],
-    "MX": [
-     "Claro Sports",
-     "Claro Sports Premium YouTube"
-    ],
     "CO": [
      "DAZN",
      "DGO",
      "Amazon Prime Video",
      "Paramount+"
     ],
-    "CL": [
+    "MX": [
+     "Claro Sports",
+     "Claro Sports Premium YouTube"
+    ],
+    "EC": [
      "DAZN",
      "DGO",
-     "Paramount+",
-     "Amazon Prime Video"
+     "Paramount+"
     ],
     "UY": [
      "DAZN",
@@ -9990,10 +10517,11 @@
      "DGO",
      "Paramount+"
     ],
-    "EC": [
+    "CL": [
      "DAZN",
      "DGO",
-     "Paramount+"
+     "Paramount+",
+     "Amazon Prime Video"
     ]
    },
    "sources": [
@@ -10105,19 +10633,19 @@
     "BR": [
      "Fanatiz"
     ],
-    "AU": [
-     "Fanatiz"
-    ],
     "JP": [
      "Fanatiz"
     ],
-    "MX": [
+    "AU": [
      "Fanatiz"
     ],
     "CO": [
      "Fanatiz"
     ],
-    "CL": [
+    "MX": [
+     "Fanatiz"
+    ],
+    "EC": [
      "Fanatiz"
     ],
     "UY": [
@@ -10128,7 +10656,7 @@
      "L1 Max",
      "L1 Play"
     ],
-    "EC": [
+    "CL": [
      "Fanatiz"
     ],
     "PY": [
@@ -10178,20 +10706,20 @@
    },
    "kickoffUtc": "2026-11-07T21:00:00Z",
    "broadcasts": {
+    "BE": [
+     "Apple TV (BE)"
+    ],
     "TR": [
      "Apple TV"
     ],
     "IT": [
      "Apple TV (IT)"
     ],
-    "FR": [
-     "Apple TV (FR)"
-    ],
-    "BE": [
-     "Apple TV (BE)"
-    ],
     "DE": [
      "Apple TV (DE)"
+    ],
+    "FR": [
+     "Apple TV (FR)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -10202,19 +10730,22 @@
     "ES": [
      "Apple TV"
     ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
     "CZ": [
      "Apple TV"
     ],
-    "NL": [
-     "Apple TV (NL)"
+    "HR": [
+     "Apple TV"
+    ],
+    "NO": [
+     "Apple TV (NO)"
     ],
     "CH": [
      "Apple TV"
     ],
     "AT": [
-     "Apple TV"
-    ],
-    "HR": [
      "Apple TV"
     ],
     "AR": [
@@ -10223,19 +10754,22 @@
     "BR": [
      "Apple TV"
     ],
-    "NO": [
-     "Apple TV (NO)"
-    ],
     "NZ": [
      "MLS Pass on Apple TV"
     ],
     "KR": [
      "MLS Pass on Apple TV"
     ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
     "AU": [
      "Apple TV"
     ],
-    "JP": [
+    "CO": [
      "Apple TV"
     ],
     "MX": [
@@ -10244,32 +10778,26 @@
     "US": [
      "Apple TV (US)"
     ],
-    "CA": [
-     "Apple TV (US)"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
     "NG": [
      "MLS Season Pass",
      "Apple TV"
     ],
-    "MA": [
-     "Apple TV"
-    ],
-    "CL": [
-     "Apple TV"
-    ],
-    "PE": [
+    "ZA": [
      "Apple TV"
     ],
     "GH": [
      "MLS Pass on Apple TV"
     ],
+    "MA": [
+     "Apple TV"
+    ],
     "EC": [
      "Apple TV"
     ],
-    "ZA": [
+    "PE": [
+     "Apple TV"
+    ],
+    "CL": [
      "Apple TV"
     ],
     "PY": [
@@ -10319,20 +10847,20 @@
    },
    "kickoffUtc": "2026-11-07T21:00:00Z",
    "broadcasts": {
+    "BE": [
+     "Apple TV (BE)"
+    ],
     "TR": [
      "Apple TV"
     ],
     "IT": [
      "Apple TV (IT)"
     ],
-    "FR": [
-     "Apple TV (FR)"
-    ],
-    "BE": [
-     "Apple TV (BE)"
-    ],
     "DE": [
      "Apple TV (DE)"
+    ],
+    "FR": [
+     "Apple TV (FR)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -10343,19 +10871,22 @@
     "ES": [
      "Apple TV"
     ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
     "CZ": [
      "Apple TV"
     ],
-    "NL": [
-     "Apple TV (NL)"
+    "HR": [
+     "Apple TV"
+    ],
+    "NO": [
+     "Apple TV (NO)"
     ],
     "CH": [
      "Apple TV"
     ],
     "AT": [
-     "Apple TV"
-    ],
-    "HR": [
      "Apple TV"
     ],
     "AR": [
@@ -10364,19 +10895,22 @@
     "BR": [
      "Apple TV"
     ],
-    "NO": [
-     "Apple TV (NO)"
-    ],
     "NZ": [
      "MLS Pass on Apple TV"
     ],
     "KR": [
      "MLS Pass on Apple TV"
     ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
     "AU": [
      "Apple TV"
     ],
-    "JP": [
+    "CO": [
      "Apple TV"
     ],
     "MX": [
@@ -10385,32 +10919,26 @@
     "US": [
      "Apple TV (US)"
     ],
-    "CA": [
-     "Apple TV (US)"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
     "NG": [
      "MLS Season Pass",
      "Apple TV"
     ],
-    "MA": [
-     "Apple TV"
-    ],
-    "CL": [
-     "Apple TV"
-    ],
-    "PE": [
+    "ZA": [
      "Apple TV"
     ],
     "GH": [
      "MLS Pass on Apple TV"
     ],
+    "MA": [
+     "Apple TV"
+    ],
     "EC": [
      "Apple TV"
     ],
-    "ZA": [
+    "PE": [
+     "Apple TV"
+    ],
+    "CL": [
      "Apple TV"
     ],
     "PY": [
@@ -10460,20 +10988,20 @@
    },
    "kickoffUtc": "2026-11-07T21:00:00Z",
    "broadcasts": {
+    "BE": [
+     "Apple TV (BE)"
+    ],
     "TR": [
      "Apple TV"
     ],
     "IT": [
      "Apple TV (IT)"
     ],
-    "FR": [
-     "Apple TV (FR)"
-    ],
-    "BE": [
-     "Apple TV (BE)"
-    ],
     "DE": [
      "Apple TV (DE)"
+    ],
+    "FR": [
+     "Apple TV (FR)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -10484,19 +11012,22 @@
     "ES": [
      "Apple TV"
     ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
     "CZ": [
      "Apple TV"
     ],
-    "NL": [
-     "Apple TV (NL)"
+    "HR": [
+     "Apple TV"
+    ],
+    "NO": [
+     "Apple TV (NO)"
     ],
     "CH": [
      "Apple TV"
     ],
     "AT": [
-     "Apple TV"
-    ],
-    "HR": [
      "Apple TV"
     ],
     "AR": [
@@ -10505,19 +11036,22 @@
     "BR": [
      "Apple TV"
     ],
-    "NO": [
-     "Apple TV (NO)"
-    ],
     "NZ": [
      "MLS Pass on Apple TV"
     ],
     "KR": [
      "MLS Pass on Apple TV"
     ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
     "AU": [
      "Apple TV"
     ],
-    "JP": [
+    "CO": [
      "Apple TV"
     ],
     "MX": [
@@ -10526,32 +11060,26 @@
     "US": [
      "Apple TV (US)"
     ],
-    "CA": [
-     "Apple TV (US)"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
     "NG": [
      "MLS Season Pass",
      "Apple TV"
     ],
-    "MA": [
-     "Apple TV"
-    ],
-    "CL": [
-     "Apple TV"
-    ],
-    "PE": [
+    "ZA": [
      "Apple TV"
     ],
     "GH": [
      "MLS Pass on Apple TV"
     ],
+    "MA": [
+     "Apple TV"
+    ],
     "EC": [
      "Apple TV"
     ],
-    "ZA": [
+    "PE": [
+     "Apple TV"
+    ],
+    "CL": [
      "Apple TV"
     ],
     "PY": [
@@ -10601,20 +11129,20 @@
    },
    "kickoffUtc": "2026-11-07T21:00:00Z",
    "broadcasts": {
+    "BE": [
+     "Apple TV (BE)"
+    ],
     "TR": [
      "Apple TV"
     ],
     "IT": [
      "Apple TV (IT)"
     ],
-    "FR": [
-     "Apple TV (FR)"
-    ],
-    "BE": [
-     "Apple TV (BE)"
-    ],
     "DE": [
      "Apple TV (DE)"
+    ],
+    "FR": [
+     "Apple TV (FR)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -10625,19 +11153,22 @@
     "ES": [
      "Apple TV"
     ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
     "CZ": [
      "Apple TV"
     ],
-    "NL": [
-     "Apple TV (NL)"
+    "HR": [
+     "Apple TV"
+    ],
+    "NO": [
+     "Apple TV (NO)"
     ],
     "CH": [
      "Apple TV"
     ],
     "AT": [
-     "Apple TV"
-    ],
-    "HR": [
      "Apple TV"
     ],
     "AR": [
@@ -10646,19 +11177,22 @@
     "BR": [
      "Apple TV"
     ],
-    "NO": [
-     "Apple TV (NO)"
-    ],
     "NZ": [
      "MLS Pass on Apple TV"
     ],
     "KR": [
      "MLS Pass on Apple TV"
     ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
     "AU": [
      "Apple TV"
     ],
-    "JP": [
+    "CO": [
      "Apple TV"
     ],
     "MX": [
@@ -10668,32 +11202,26 @@
      "Apple TV (US)",
      "Tubi (US)"
     ],
-    "CA": [
-     "Apple TV (US)"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
     "NG": [
      "MLS Season Pass",
      "Apple TV"
     ],
-    "MA": [
-     "Apple TV"
-    ],
-    "CL": [
-     "Apple TV"
-    ],
-    "PE": [
+    "ZA": [
      "Apple TV"
     ],
     "GH": [
      "MLS Pass on Apple TV"
     ],
+    "MA": [
+     "Apple TV"
+    ],
     "EC": [
      "Apple TV"
     ],
-    "ZA": [
+    "PE": [
+     "Apple TV"
+    ],
+    "CL": [
      "Apple TV"
     ],
     "PY": [
@@ -10743,20 +11271,20 @@
    },
    "kickoffUtc": "2026-11-07T21:00:00Z",
    "broadcasts": {
+    "BE": [
+     "Apple TV (BE)"
+    ],
     "TR": [
      "Apple TV"
     ],
     "IT": [
      "Apple TV (IT)"
     ],
-    "FR": [
-     "Apple TV (FR)"
-    ],
-    "BE": [
-     "Apple TV (BE)"
-    ],
     "DE": [
      "Apple TV (DE)"
+    ],
+    "FR": [
+     "Apple TV (FR)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -10767,19 +11295,22 @@
     "ES": [
      "Apple TV"
     ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
     "CZ": [
      "Apple TV"
     ],
-    "NL": [
-     "Apple TV (NL)"
+    "HR": [
+     "Apple TV"
+    ],
+    "NO": [
+     "Apple TV (NO)"
     ],
     "CH": [
      "Apple TV"
     ],
     "AT": [
-     "Apple TV"
-    ],
-    "HR": [
      "Apple TV"
     ],
     "AR": [
@@ -10788,19 +11319,22 @@
     "BR": [
      "Apple TV"
     ],
-    "NO": [
-     "Apple TV (NO)"
-    ],
     "NZ": [
      "MLS Pass on Apple TV"
     ],
     "KR": [
      "MLS Pass on Apple TV"
     ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
     "AU": [
      "Apple TV"
     ],
-    "JP": [
+    "CO": [
      "Apple TV"
     ],
     "MX": [
@@ -10809,32 +11343,26 @@
     "US": [
      "Apple TV (US)"
     ],
-    "CA": [
-     "Apple TV (US)"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
     "NG": [
      "MLS Season Pass",
      "Apple TV"
     ],
-    "MA": [
-     "Apple TV"
-    ],
-    "CL": [
-     "Apple TV"
-    ],
-    "PE": [
+    "ZA": [
      "Apple TV"
     ],
     "GH": [
      "MLS Pass on Apple TV"
     ],
+    "MA": [
+     "Apple TV"
+    ],
     "EC": [
      "Apple TV"
     ],
-    "ZA": [
+    "PE": [
+     "Apple TV"
+    ],
+    "CL": [
      "Apple TV"
     ],
     "PY": [
@@ -10884,20 +11412,20 @@
    },
    "kickoffUtc": "2026-11-07T21:00:00Z",
    "broadcasts": {
+    "BE": [
+     "Apple TV (BE)"
+    ],
     "TR": [
      "Apple TV"
     ],
     "IT": [
      "Apple TV (IT)"
     ],
-    "FR": [
-     "Apple TV (FR)"
-    ],
-    "BE": [
-     "Apple TV (BE)"
-    ],
     "DE": [
      "Apple TV (DE)"
+    ],
+    "FR": [
+     "Apple TV (FR)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -10908,19 +11436,22 @@
     "ES": [
      "Apple TV"
     ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
     "CZ": [
      "Apple TV"
     ],
-    "NL": [
-     "Apple TV (NL)"
+    "HR": [
+     "Apple TV"
+    ],
+    "NO": [
+     "Apple TV (NO)"
     ],
     "CH": [
      "Apple TV"
     ],
     "AT": [
-     "Apple TV"
-    ],
-    "HR": [
      "Apple TV"
     ],
     "AR": [
@@ -10929,19 +11460,22 @@
     "BR": [
      "Apple TV"
     ],
-    "NO": [
-     "Apple TV (NO)"
-    ],
     "NZ": [
      "MLS Pass on Apple TV"
     ],
     "KR": [
      "MLS Pass on Apple TV"
     ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
     "AU": [
      "Apple TV"
     ],
-    "JP": [
+    "CO": [
      "Apple TV"
     ],
     "MX": [
@@ -10950,32 +11484,26 @@
     "US": [
      "Apple TV (US)"
     ],
-    "CA": [
-     "Apple TV (US)"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
     "NG": [
      "MLS Season Pass",
      "Apple TV"
     ],
-    "MA": [
-     "Apple TV"
-    ],
-    "CL": [
-     "Apple TV"
-    ],
-    "PE": [
+    "ZA": [
      "Apple TV"
     ],
     "GH": [
      "MLS Pass on Apple TV"
     ],
+    "MA": [
+     "Apple TV"
+    ],
     "EC": [
      "Apple TV"
     ],
-    "ZA": [
+    "PE": [
+     "Apple TV"
+    ],
+    "CL": [
      "Apple TV"
     ],
     "PY": [
@@ -11025,20 +11553,20 @@
    },
    "kickoffUtc": "2026-11-07T21:00:00Z",
    "broadcasts": {
+    "BE": [
+     "Apple TV (BE)"
+    ],
     "TR": [
      "Apple TV"
     ],
     "IT": [
      "Apple TV (IT)"
     ],
-    "FR": [
-     "Apple TV (FR)"
-    ],
-    "BE": [
-     "Apple TV (BE)"
-    ],
     "DE": [
      "Apple TV (DE)"
+    ],
+    "FR": [
+     "Apple TV (FR)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -11049,19 +11577,22 @@
     "ES": [
      "Apple TV"
     ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
     "CZ": [
      "Apple TV"
     ],
-    "NL": [
-     "Apple TV (NL)"
+    "HR": [
+     "Apple TV"
+    ],
+    "NO": [
+     "Apple TV (NO)"
     ],
     "CH": [
      "Apple TV"
     ],
     "AT": [
-     "Apple TV"
-    ],
-    "HR": [
      "Apple TV"
     ],
     "AR": [
@@ -11070,19 +11601,22 @@
     "BR": [
      "Apple TV"
     ],
-    "NO": [
-     "Apple TV (NO)"
-    ],
     "NZ": [
      "MLS Pass on Apple TV"
     ],
     "KR": [
      "MLS Pass on Apple TV"
     ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
     "AU": [
      "Apple TV"
     ],
-    "JP": [
+    "CO": [
      "Apple TV"
     ],
     "MX": [
@@ -11091,32 +11625,26 @@
     "US": [
      "Apple TV (US)"
     ],
-    "CA": [
-     "Apple TV (US)"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
     "NG": [
      "MLS Season Pass",
      "Apple TV"
     ],
-    "MA": [
-     "Apple TV"
-    ],
-    "CL": [
-     "Apple TV"
-    ],
-    "PE": [
+    "ZA": [
      "Apple TV"
     ],
     "GH": [
      "MLS Pass on Apple TV"
     ],
+    "MA": [
+     "Apple TV"
+    ],
     "EC": [
      "Apple TV"
     ],
-    "ZA": [
+    "PE": [
+     "Apple TV"
+    ],
+    "CL": [
      "Apple TV"
     ],
     "PY": [
@@ -11166,20 +11694,20 @@
    },
    "kickoffUtc": "2026-11-07T21:00:00Z",
    "broadcasts": {
+    "BE": [
+     "Apple TV (BE)"
+    ],
     "TR": [
      "Apple TV"
     ],
     "IT": [
      "Apple TV (IT)"
     ],
-    "FR": [
-     "Apple TV (FR)"
-    ],
-    "BE": [
-     "Apple TV (BE)"
-    ],
     "DE": [
      "Apple TV (DE)"
+    ],
+    "FR": [
+     "Apple TV (FR)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -11190,19 +11718,22 @@
     "ES": [
      "Apple TV"
     ],
+    "NL": [
+     "Apple TV (NL)"
+    ],
     "CZ": [
      "Apple TV"
     ],
-    "NL": [
-     "Apple TV (NL)"
+    "HR": [
+     "Apple TV"
+    ],
+    "NO": [
+     "Apple TV (NO)"
     ],
     "CH": [
      "Apple TV"
     ],
     "AT": [
-     "Apple TV"
-    ],
-    "HR": [
      "Apple TV"
     ],
     "AR": [
@@ -11211,19 +11742,25 @@
     "BR": [
      "Apple TV"
     ],
-    "NO": [
-     "Apple TV (NO)"
-    ],
     "NZ": [
      "MLS Pass on Apple TV"
     ],
     "KR": [
      "MLS Pass on Apple TV"
     ],
+    "CA": [
+     "TSN4",
+     "RDS Info",
+     "TSN+",
+     "TSN"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
     "AU": [
      "Apple TV"
     ],
-    "JP": [
+    "CO": [
      "Apple TV"
     ],
     "MX": [
@@ -11232,35 +11769,26 @@
     "US": [
      "Apple TV (US)"
     ],
-    "CA": [
-     "TSN4",
-     "RDS Info",
-     "TSN+",
-     "TSN"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
     "NG": [
      "MLS Season Pass",
      "Apple TV"
     ],
-    "MA": [
-     "Apple TV"
-    ],
-    "CL": [
-     "Apple TV"
-    ],
-    "PE": [
+    "ZA": [
      "Apple TV"
     ],
     "GH": [
      "MLS Pass on Apple TV"
     ],
+    "MA": [
+     "Apple TV"
+    ],
     "EC": [
      "Apple TV"
     ],
-    "ZA": [
+    "PE": [
+     "Apple TV"
+    ],
+    "CL": [
      "Apple TV"
     ],
     "PY": [
@@ -11337,15 +11865,11 @@
      "Premiere",
      "Amazon Prime Video"
     ],
-    "AU": [
-     "OneFootball PPV"
-    ],
     "JP": [
      "OneFootball PPV"
     ],
-    "MX": [
-     "ESPN 2",
-     "Disney+ Premium"
+    "AU": [
+     "OneFootball PPV"
     ],
     "CO": [
      "DAZN",
@@ -11353,11 +11877,15 @@
      "DGO",
      "Amazon Prime Video"
     ],
-    "CL": [
+    "MX": [
+     "ESPN 2",
+     "Disney+ Premium"
+    ],
+    "EC": [
      "DAZN",
+     "DSports 2",
      "DGO",
-     "Paramount+",
-     "DSports 2"
+     "Paramount+"
     ],
     "UY": [
      "DAZN",
@@ -11371,11 +11899,11 @@
      "DSports 2",
      "Paramount+"
     ],
-    "EC": [
+    "CL": [
      "DAZN",
-     "DSports 2",
      "DGO",
-     "Paramount+"
+     "Paramount+",
+     "DSports 2"
     ]
    },
    "sources": [
@@ -11436,7 +11964,7 @@
     "MX": [
      "RCN Nuestra Tele"
     ],
-    "CL": [
+    "EC": [
      "RCN Nuestra Tele"
     ],
     "UY": [
@@ -11445,7 +11973,7 @@
     "PE": [
      "RCN Nuestra Tele"
     ],
-    "EC": [
+    "CL": [
      "RCN Nuestra Tele"
     ],
     "CO": [
@@ -11963,19 +12491,19 @@
     "BR": [
      "Fanatiz"
     ],
-    "AU": [
-     "Fanatiz"
-    ],
     "JP": [
      "Fanatiz"
     ],
-    "MX": [
+    "AU": [
      "Fanatiz"
     ],
     "CO": [
      "Fanatiz"
     ],
-    "CL": [
+    "MX": [
+     "Fanatiz"
+    ],
+    "EC": [
      "Fanatiz"
     ],
     "UY": [
@@ -11986,7 +12514,7 @@
      "L1 Max",
      "L1 Play"
     ],
-    "EC": [
+    "CL": [
      "Fanatiz"
     ],
     "PY": [
@@ -12051,7 +12579,7 @@
     "MX": [
      "RCN Nuestra Tele"
     ],
-    "CL": [
+    "EC": [
      "RCN Nuestra Tele"
     ],
     "UY": [
@@ -12060,7 +12588,7 @@
     "PE": [
      "RCN Nuestra Tele"
     ],
-    "EC": [
+    "CL": [
      "RCN Nuestra Tele"
     ],
     "CO": [

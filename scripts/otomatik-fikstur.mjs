@@ -34,7 +34,10 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const n = s => String(s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
 const ascii = s => String(s).replace(/ç/g, 'c').replace(/Ç/g, 'C').replace(/ş/g, 's').replace(/Ş/g, 'S').replace(/ğ/g, 'g')
   .replace(/ı/g, 'i').replace(/İ/g, 'I').replace(/ö/g, 'o').replace(/Ö/g, 'O').replace(/ü/g, 'u').replace(/Ü/g, 'U')
-  .normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ø/g, 'o').replace(/å/g, 'a').replace(/ß/g, 'ss');
+  .normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ø/g, 'o').replace(/å/g, 'a').replace(/ß/g, 'ss')
+  // NFD ile ayrışmayan harfler (Lehçe ł, Balkan đ, İskandinav æ): "Wrocław" -> "Wroc-aw" id'si çıkıyordu
+  .replace(/ł/g, 'l').replace(/Ł/g, 'L').replace(/đ/g, 'd').replace(/Đ/g, 'D').replace(/æ/g, 'ae').replace(/Æ/g, 'Ae')
+  .replace(/œ/g, 'oe').replace(/Ø/g, 'O').replace(/þ/g, 'th');
 const slug = s => ascii(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const arapca = s => /[؀-ۿ]/.test(s || '');
 const hepsi = ad => Object.fromEntries(DIL.map(l => [l, ad]));
@@ -53,7 +56,26 @@ const LIG = { 47: 'premier', 87: 'laliga', 55: 'seriea', 54: 'bundesliga', 53: '
   161: 'liga_auf', 10342: 'copa_auf', 199: 'primera_py', 10230: 'copa_paraguay', 64: 'scot_prem', 180: 'scot_lc',
   209: 'dfb_pokal', 133: 'efl_cup', 132: 'fa_cup', 138: 'copa_del_rey', 141: 'coppa_italia', 134: 'coupe_de_france',
   187: 'taca_da_liga', 165: 'tff1', 140: 'laliga2', 86: 'seriebit', 146: 'bundesliga2', 110: 'ligue2', 185: 'primeira2',
-  57: 'eredivisie', 48: 'championship', 108: 'league_one', 8972: 'usl', 38: 'aut_bundesliga', 441: 'ukr_pl', 530: 'botola' };
+  57: 'eredivisie', 48: 'championship', 108: 'league_one', 8972: 'usl', 38: 'aut_bundesliga', 441: 'ukr_pl', 530: 'botola',
+  40: 'belgian_pl', 59: 'eliteserien', 252: 'hnl', 122: 'czech_fl', 69: 'swiss_sl', 196: 'ekstraklasa' };
+// Avrupa yerel ligleri (kullanıcı, 2 Kas 2026): maç YALNIZ o ülkenin kullanıcısına görünür — kanal listesinde yalnız o ülke kalır.
+// FotMob o ülkenin rehberinde kanal verirse o kullanılır; yoksa `kanal` = ligin sezonluk yayıncısı (TAHMİN, maç bazında
+// doğrulanmadı — o ülkede FotMob rehberi yok: GR, PL, RO, UA, HU, RS). `dil`/`ad`: lig adının o ülkenin dilindeki hâli.
+const YEREL = {
+  eredivisie: { ulke: ['NL'], kanal: ['ESPN'], dil: 'nl', ad: 'Eredivisie' },
+  belgian_pl: { ulke: ['BE'], kanal: ['DAZN'], dil: 'nl', ad: 'Jupiler Pro League' },
+  eliteserien: { ulke: ['NO'], kanal: ['TV 2 Play'], dil: 'nb', ad: 'Eliteserien' },
+  hnl: { ulke: ['HR'], kanal: ['MAXtv'], dil: 'hr', ad: 'SuperSport HNL' },
+  czech_fl: { ulke: ['CZ'], kanal: ['Oneplay Sport'], dil: 'cs', ad: 'Chance Liga' },
+  aut_bundesliga: { ulke: ['AT'], kanal: ['Sky Sport Austria'], dil: 'de', ad: 'Admiral Bundesliga' },
+  swiss_sl: { ulke: ['CH'], kanal: ['blue Sport'], dil: 'de', ad: 'Super League' },
+  greek_sl: { ulke: ['GR'], kanal: ['Cosmote Sport', 'Nova Sports'], dil: 'el', ad: 'Super League Ελλάδας' },
+  ekstraklasa: { ulke: ['PL'], kanal: ['Canal+ Sport'], dil: 'pl', ad: 'PKO BP Ekstraklasa' },
+  ro_liga1: { ulke: ['RO'], kanal: ['Digi Sport', 'Prima Sport'], dil: 'ro', ad: 'SuperLiga' },
+  ukr_pl: { ulke: ['UA'], kanal: ['Setanta Sports'], dil: 'uk', ad: "Українська Прем'єр-ліга" },
+  hu_nb1: { ulke: ['HU'], kanal: ['M4 Sport'], dil: 'hu', ad: 'NB I' },
+  rs_superliga: { ulke: ['RS'], kanal: ['Arena Sport'], dil: 'sr', ad: 'Superliga Srbije' },
+};
 // Kimliğinden emin olunmayanlar ada göre (ülke kodu | FotMob lig adı)
 const LIG_AD = { 'POR|Taça de Portugal': 'taca_portugal', 'TUR|Turkish Cup': 'turkiye_kupasi', 'AZE|Premier League': 'aze_pl',
   'INT|Copa Libertadores': 'libertadores', 'INT|Copa Sudamericana': 'sudamericana', 'INT|Europa League': 'europa',
@@ -67,6 +89,16 @@ const YENI_LIG = {
   coupe_de_france: ['regional', { tr: 'Fransa Kupası', en: 'Coupe de France', de: 'Coupe de France', es: 'Copa de Francia', fr: 'Coupe de France', it: 'Coppa di Francia', pt: 'Taça de França', ar: 'كأس فرنسا' }],
   alg_l1: ['regional', { tr: 'Cezayir Ligue 1', en: 'Algerian Ligue 1', de: 'Algerische Ligue 1', es: 'Liga de Argelia', fr: 'Ligue 1 Mobilis', it: 'Ligue 1 algerina', pt: 'Liga Argelina', ar: 'الرابطة الجزائرية المحترفة الأولى' }],
   alg_cup: ['regional', { tr: 'Cezayir Kupası', en: 'Algerian Cup', de: 'Algerischer Pokal', es: 'Copa de Argelia', fr: "Coupe d'Algérie", it: "Coppa d'Algeria", pt: 'Taça da Argélia', ar: 'كأس الجزائر' }],
+  belgian_pl: ['regional', { tr: 'Belçika Pro Lig', en: 'Belgian Pro League', de: 'Belgische Pro League', es: 'Liga de Bélgica', fr: 'Jupiler Pro League', it: 'Pro League belga', pt: 'Liga Belga', ar: 'الدوري البلجيكي' }],
+  eliteserien: ['regional', { tr: 'Norveç Eliteserien', en: 'Eliteserien', de: 'Eliteserien', es: 'Eliteserien', fr: 'Eliteserien', it: 'Eliteserien', pt: 'Eliteserien', ar: 'الدوري النرويجي' }],
+  hnl: ['regional', { tr: 'Hırvatistan HNL', en: 'Croatian HNL', de: 'Kroatische HNL', es: 'HNL de Croacia', fr: 'HNL croate', it: 'HNL croata', pt: 'HNL da Croácia', ar: 'الدوري الكرواتي' }],
+  czech_fl: ['regional', { tr: 'Çekya 1. Lig', en: 'Czech First League', de: 'Tschechische 1. Liga', es: 'Primera Liga Checa', fr: 'Championnat tchèque', it: 'Prima Lega ceca', pt: 'Liga Checa', ar: 'الدوري التشيكي' }],
+  swiss_sl: ['regional', { tr: 'İsviçre Süper Ligi', en: 'Swiss Super League', de: 'Super League', es: 'Superliga Suiza', fr: 'Super League suisse', it: 'Super League svizzera', pt: 'Superliga Suíça', ar: 'الدوري السويسري' }],
+  greek_sl: ['regional', { tr: 'Yunanistan Süper Ligi', en: 'Greek Super League', de: 'Griechische Super League', es: 'Superliga de Grecia', fr: 'Super League grecque', it: 'Super League greca', pt: 'Superliga Grega', ar: 'الدوري اليوناني' }],
+  ekstraklasa: ['regional', { tr: 'Polonya Ekstraklasa', en: 'Ekstraklasa', de: 'Ekstraklasa', es: 'Ekstraklasa', fr: 'Ekstraklasa', it: 'Ekstraklasa', pt: 'Ekstraklasa', ar: 'الدوري البولندي' }],
+  ro_liga1: ['regional', { tr: 'Romanya SuperLiga', en: 'Romanian SuperLiga', de: 'Rumänische SuperLiga', es: 'SuperLiga de Rumanía', fr: 'SuperLiga roumaine', it: 'SuperLiga rumena', pt: 'SuperLiga Romena', ar: 'الدوري الروماني' }],
+  hu_nb1: ['regional', { tr: 'Macaristan NB I', en: 'Hungarian NB I', de: 'Ungarische NB I', es: 'NB I de Hungría', fr: 'NB I hongroise', it: 'NB I ungherese', pt: 'NB I da Hungria', ar: 'الدوري المجري' }],
+  rs_superliga: ['regional', { tr: 'Sırbistan SuperLiga', en: 'Serbian SuperLiga', de: 'Serbische SuperLiga', es: 'SuperLiga de Serbia', fr: 'SuperLiga serbe', it: 'SuperLiga serba', pt: 'SuperLiga Sérvia', ar: 'الدوري الصربي' }],
   eurocup_women: ['regional', { tr: 'Kadınlar EuroCup', en: 'EuroCup Women', de: 'EuroCup Women', es: 'EuroCup Femenina', fr: 'EuroCoupe féminine', it: 'EuroCup femminile', pt: 'EuroCup Feminina', ar: 'كأس أوروبا لكرة السلة للسيدات' }],
   botola: ['regional', { tr: 'Fas Botola Pro', en: 'Botola Pro', de: 'Botola Pro', es: 'Botola Pro', fr: 'Botola Pro', it: 'Botola Pro', pt: 'Botola Pro', ar: 'البطولة الاحترافية' }],
   wc_qual_uefa: ['global', { tr: 'Dünya Kupası Elemeleri (Avrupa)', en: 'World Cup Qualifiers (UEFA)', de: 'WM-Qualifikation (UEFA)', es: 'Eliminatorias Mundial (UEFA)', fr: 'Qualifications Coupe du monde (UEFA)', it: 'Qualificazioni Mondiali (UEFA)', pt: 'Eliminatórias da Copa (UEFA)', ar: 'تصفيات كأس العالم (أوروبا)' }],
@@ -245,6 +277,12 @@ const KOO_LIG = {
   'الدوري المصري الممتاز': { cid: 'egypt_pl', ulke: ['EG'] },
   'الدوري المغربي الممتاز': { cid: 'botola', ulke: ['MA'] },
   'الدوري الأذربيجاني': { cid: 'aze_pl', ulke: [], sabit: { TR: ['Idman TV'], AZ: ['CBC Sport', 'Idman TV'] } },
+  // Avrupa yerel ligleri (kanal YEREL tablosundan; kooora'nın kanal listesi bu liglerde yabancı kanallardan ibaret)
+  'الدوري الهولندي': { cid: 'eredivisie' }, 'الدوري البلجيكي': { cid: 'belgian_pl' }, 'الدوري النرويجي الممتاز': { cid: 'eliteserien' },
+  'الدوري الكرواتي': { cid: 'hnl' }, 'الدوري التشيكي': { cid: 'czech_fl' }, 'الدوري التشيكي الممتاز': { cid: 'czech_fl' },
+  'الدوري النمساوي الممتاز': { cid: 'aut_bundesliga' }, 'دوري السوبر السويسري': { cid: 'swiss_sl' }, 'دوري السوبر اليوناني': { cid: 'greek_sl' },
+  'الدوري البولندي الممتاز': { cid: 'ekstraklasa' }, 'الدوري الروماني': { cid: 'ro_liga1' }, 'الدوري الأوكراني الممتاز': { cid: 'ukr_pl' },
+  'الدوري المجري': { cid: 'hu_nb1' }, 'الدوري الصربي': { cid: 'rs_superliga' },
 };
 let kooEk = 0;
 for (const k of kooora) {
@@ -252,9 +290,10 @@ for (const k of kooora) {
   const t = Date.parse(k.start);
   if (!L || !(t >= BAS && t < SON) || kooKullanildi.has(k.id) || !k.enHome) continue;
   if (taze.some(m => Math.abs(Date.parse(m.kickoffUtc) - t) <= 3 * 3600e3 && ortak(m.home, k.enHome) && ortak(m.away, k.enAway))) continue;
-  const tv = temizKanal(k.tv), mena = menaKanal(k.tv);
-  const broadcasts = { ...(L.sabit || {}) };
-  if (tv.length) for (const cc of L.ulke) broadcasts[cc] = tv;
+  const Y = YEREL[L.cid];
+  const tv = Y ? [] : temizKanal(k.tv), mena = Y ? [] : menaKanal(k.tv);
+  const broadcasts = { ...(L.sabit || {}), ...(Y ? { [Y.ulke[0]]: Y.kanal } : {}) };
+  if (tv.length) for (const cc of L.ulke || []) broadcasts[cc] = tv;
   if (mena.length) for (const cc of MENA_ULKE) broadcasts[cc] ??= mena.filter(x => !/alkass/i.test(x) || cc === 'QA');
   for (const cc of Object.keys(broadcasts)) if (!broadcasts[cc].length) delete broadcasts[cc];
   if (!Object.keys(broadcasts).length && ligBilgi(L.cid).tier !== 'global') continue;
@@ -427,6 +466,22 @@ for (const m of temel.matches) {
   }
 }
 rapor.push(`taban hak tablosu: ${tabanEk} boş ülkeye sezonluk yayıncı yazıldı`);
+
+// Avrupa yerel ligleri: yalnız kendi ülkesinin kanalı kalır (Yunan ligi yalnız Yunan kullanıcıya) + lig adı yerel dilde.
+// Uygulama takımı oynuyorsa dokunma (altın kural: favorisi olan her ülkeden kullanıcı görmeli).
+let yerelSayi = 0;
+for (const m of temel.matches) {
+  const Y = YEREL[m.competitionId];
+  if (!Y) continue;
+  if ([m.home, m.away].some(t => APP.has(n(t)))) continue;
+  const yeni = {};
+  for (const cc of Y.ulke) yeni[cc] = m.broadcasts[cc]?.length ? m.broadcasts[cc] : Y.kanal;
+  m.broadcasts = yeni;
+  m.tier = 'regional';
+  m.competition = { ...m.competition, [Y.dil]: m.competition?.[Y.dil] && Y.dil === 'de' ? m.competition[Y.dil] : Y.ad };
+  yerelSayi++;
+}
+rapor.push(`Avrupa yerel ligleri: ${yerelSayi} maç yalnız kendi ülkesine`);
 
 // Temizlik (eski/elle girilmiş kayıtlar dahil): yer tutucu kanalları ve boş kalan ülke listelerini sil
 let temizlenen = 0;
