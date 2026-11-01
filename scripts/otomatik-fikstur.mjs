@@ -412,6 +412,22 @@ ekle(taze);
 const kuyruk = oku(KUYRUK);
 if (kuyruk?.date === GUN) ekle(kuyruk.matches);
 
+// Taban hak tablosu (talimat §2.4): günlük kaynağı olmayan ülkeye turnuvanın sezonluk yayıncısı yazılır.
+// Yalnız BOŞ ülkeyi doldurur, günlük kaynağa dokunmaz; yalnız "dogrulandi" turnuvalar ("tahmin" olanlar değil).
+// Cezayir + Ortadoğu (@MENA) büyük Avrupa maçlarında böyle gelir (kullanıcı, 2 Kas 2026).
+const HAK = oku(path.join(KOK, 'scripts', 'broadcast-rights.json'));
+let tabanEk = 0;
+for (const m of temel.matches) {
+  const T = HAK?.turnuvalar?.[m.competitionId];
+  if (T?.durum !== 'dogrulandi') continue;
+  for (const [k, kanal] of Object.entries(T.ulkeler || {})) {
+    if (!Array.isArray(kanal) || !kanal.length) continue;
+    const ulkeler = k.startsWith('@') ? HAK.bolgeler?.[k.slice(1)] || [] : [k];
+    for (const cc of ulkeler) if (/^[A-Z]{2}$/.test(cc) && !m.broadcasts[cc]?.length) { m.broadcasts[cc] = kanal.slice(0, 4); tabanEk++; }
+  }
+}
+rapor.push(`taban hak tablosu: ${tabanEk} boş ülkeye sezonluk yayıncı yazıldı`);
+
 // Temizlik (eski/elle girilmiş kayıtlar dahil): yer tutucu kanalları ve boş kalan ülke listelerini sil
 let temizlenen = 0;
 for (const m of temel.matches) for (const [cc, k] of Object.entries(m.broadcasts || {})) {
