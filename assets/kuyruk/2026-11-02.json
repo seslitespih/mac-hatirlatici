@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-31T08:55:33.000Z",
+ "generated_at": "2026-11-01T21:05:18.000Z",
  "date": "2026-11-02",
  "model": "user-provided",
  "stats": {
-  "total": 75,
-  "withChannel": 75,
+  "total": 79,
+  "withChannel": 79,
   "bySport": {
    "football": 60,
-   "basketball": 15
+   "basketball": 19
   },
   "warnings": 0,
   "searches": 0
@@ -61,14 +61,14 @@
     "CO": [
      "Zapping Internacional"
     ],
-    "EC": [
-     "Zapping Sports + Plus"
+    "PE": [
+     "Zapping Internacional"
     ],
     "UY": [
      "Zapping Internacional"
     ],
-    "PE": [
-     "Zapping Internacional"
+    "EC": [
+     "Zapping Sports + Plus"
     ]
    },
    "sources": [
@@ -134,13 +134,13 @@
     "MX": [
      "RCN Nuestra Tele"
     ],
-    "EC": [
+    "PE": [
      "RCN Nuestra Tele"
     ],
     "UY": [
      "RCN Nuestra Tele"
     ],
-    "PE": [
+    "EC": [
      "RCN Nuestra Tele"
     ],
     "CL": [
@@ -190,20 +190,20 @@
    },
    "kickoffUtc": "2026-11-01T21:30:00Z",
    "broadcasts": {
+    "TR": [
+     "Apple TV"
+    ],
     "IT": [
      "Apple TV (IT)"
+    ],
+    "BE": [
+     "Apple TV (BE)"
     ],
     "FR": [
      "Apple TV (FR)"
     ],
     "DE": [
      "Apple TV (DE)"
-    ],
-    "TR": [
-     "Apple TV"
-    ],
-    "BE": [
-     "Apple TV (BE)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -226,17 +226,26 @@
     "NO": [
      "Apple TV (NO)"
     ],
+    "CH": [
+     "Apple TV"
+    ],
     "BR": [
      "Apple TV"
     ],
     "AR": [
      "Apple TV"
     ],
-    "CH": [
-     "Apple TV"
-    ],
     "AT": [
      "Apple TV"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
     ],
     "CA": [
      "Apple TV (US)"
@@ -244,23 +253,14 @@
     "KR": [
      "MLS Pass on Apple TV"
     ],
-    "NZ": [
-     "MLS Pass on Apple TV"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV (US)"
-    ],
     "AU": [
-     "Apple TV"
-    ],
-    "JP": [
      "Apple TV"
     ],
     "MX": [
      "Apple TV"
+    ],
+    "US": [
+     "Apple TV (US)"
     ],
     "NG": [
      "MLS Season Pass",
@@ -275,10 +275,10 @@
     "MA": [
      "Apple TV"
     ],
-    "EC": [
+    "PE": [
      "Apple TV"
     ],
-    "PE": [
+    "EC": [
      "Apple TV"
     ],
     "CL": [
@@ -331,20 +331,20 @@
    },
    "kickoffUtc": "2026-11-01T21:30:00Z",
    "broadcasts": {
+    "TR": [
+     "Apple TV"
+    ],
     "IT": [
      "Apple TV (IT)"
+    ],
+    "BE": [
+     "Apple TV (BE)"
     ],
     "FR": [
      "Apple TV (FR)"
     ],
     "DE": [
      "Apple TV (DE)"
-    ],
-    "TR": [
-     "Apple TV"
-    ],
-    "BE": [
-     "Apple TV (BE)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -367,43 +367,43 @@
     "NO": [
      "Apple TV (NO)"
     ],
+    "CH": [
+     "Apple TV"
+    ],
     "BR": [
      "Apple TV"
     ],
     "AR": [
      "Apple TV"
     ],
-    "CH": [
-     "Apple TV"
-    ],
     "AT": [
-     "Apple TV"
-    ],
-    "CA": [
-     "Apple TV (US)",
-     "TSN+",
-     "TSN3"
-    ],
-    "KR": [
-     "MLS Pass on Apple TV"
-    ],
-    "NZ": [
-     "MLS Pass on Apple TV"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV (US)"
-    ],
-    "AU": [
      "Apple TV"
     ],
     "JP": [
      "Apple TV"
     ],
+    "CO": [
+     "Apple TV"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "CA": [
+     "TSN+",
+     "Apple TV (US)",
+     "TSN3"
+    ],
+    "KR": [
+     "MLS Pass on Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
     "MX": [
      "Apple TV"
+    ],
+    "US": [
+     "Apple TV (US)"
     ],
     "NG": [
      "MLS Season Pass",
@@ -418,10 +418,10 @@
     "MA": [
      "Apple TV"
     ],
-    "EC": [
+    "PE": [
      "Apple TV"
     ],
-    "PE": [
+    "EC": [
      "Apple TV"
     ],
     "CL": [
@@ -475,6 +475,7 @@
    "kickoffUtc": "2026-11-01T21:30:00Z",
    "broadcasts": {
     "BR": [
+     "ESPN",
      "Disney+ Premium"
     ]
    },
@@ -581,6 +582,9 @@
     "ES": [
      "OneFootball PPV"
     ],
+    "CH": [
+     "OneFootball PPV"
+    ],
     "BR": [
      "SporTV",
      "Premiere",
@@ -592,10 +596,10 @@
      "Amazon Prime Video",
      "Paramount+"
     ],
-    "CH": [
+    "AT": [
      "OneFootball PPV"
     ],
-    "AT": [
+    "JP": [
      "OneFootball PPV"
     ],
     "CO": [
@@ -604,25 +608,22 @@
      "DGO",
      "Amazon Prime Video"
     ],
-    "US": [
-     "FOX Deportes",
-     "Fox Sports online",
-     "FOX One"
-    ],
     "AU": [
-     "OneFootball PPV"
-    ],
-    "JP": [
      "OneFootball PPV"
     ],
     "MX": [
      "ESPN 4",
      "Disney+ Premium"
     ],
-    "EC": [
+    "US": [
+     "FOX Deportes",
+     "Fox Sports online",
+     "FOX One"
+    ],
+    "PE": [
      "DAZN",
-     "DSports 2",
      "DGO",
+     "DSports 2",
      "Paramount+"
     ],
     "UY": [
@@ -631,10 +632,10 @@
      "DSports 2",
      "Paramount+"
     ],
-    "PE": [
+    "EC": [
      "DAZN",
-     "DGO",
      "DSports 2",
+     "DGO",
      "Paramount+"
     ],
     "CL": [
@@ -693,38 +694,38 @@
     "ES": [
      "Fanatiz"
     ],
+    "CH": [
+     "Fanatiz"
+    ],
     "BR": [
      "Disney+ Premium"
     ],
     "AR": [
      "ESPN Premium"
     ],
-    "CH": [
+    "AT": [
      "Fanatiz"
     ],
-    "AT": [
+    "JP": [
      "Fanatiz"
     ],
     "CO": [
      "Fanatiz",
      "Disney+ Premium"
     ],
-    "US": [
-     "Fanatiz",
-     "ViX",
-     "TyC Sports Int. (US)"
-    ],
     "AU": [
-     "Fanatiz"
-    ],
-    "JP": [
      "Fanatiz"
     ],
     "MX": [
      "Fanatiz",
      "Disney+ Premium"
     ],
-    "EC": [
+    "US": [
+     "ViX",
+     "Fanatiz",
+     "TyC Sports Int. (US)"
+    ],
+    "PE": [
      "Fanatiz",
      "Disney+ Premium"
     ],
@@ -732,7 +733,7 @@
      "Fanatiz",
      "Disney+ Premium"
     ],
-    "PE": [
+    "EC": [
      "Fanatiz",
      "Disney+ Premium"
     ],
@@ -796,20 +797,20 @@
      "TyC Sports Internacional",
      "Win Play"
     ],
+    "MX": [
+     "TyC Sports Internacional"
+    ],
     "US": [
      "Fanatiz",
      "ViX"
     ],
-    "MX": [
-     "TyC Sports Internacional"
-    ],
-    "EC": [
+    "PE": [
      "TyC Sports Internacional"
     ],
     "UY": [
      "TyC Sports Internacional"
     ],
-    "PE": [
+    "EC": [
      "TyC Sports Internacional"
     ],
     "CL": [
@@ -1121,6 +1122,9 @@
     "ES": [
      "Antel TV Internacional"
     ],
+    "CH": [
+     "Antel TV Internacional"
+    ],
     "BR": [
      "Disney+ Premium",
      "Antel TV Internacional"
@@ -1129,10 +1133,10 @@
      "Disney+ Premium",
      "Antel TV Internacional"
     ],
-    "CH": [
+    "AT": [
      "Antel TV Internacional"
     ],
-    "AT": [
+    "JP": [
      "Antel TV Internacional"
     ],
     "CO": [
@@ -1142,25 +1146,22 @@
     "AU": [
      "Antel TV Internacional"
     ],
-    "JP": [
-     "Antel TV Internacional"
-    ],
     "MX": [
      "Disney+ Premium",
      "Antel TV Internacional"
     ],
-    "EC": [
-     "Disney+ Premium",
-     "Antel TV Internacional"
+    "PE": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
     ],
     "UY": [
      "Antel TV",
      "DSports Uruguay Premium",
      "Disney+ Premium"
     ],
-    "PE": [
-     "Antel TV Internacional",
-     "Disney+ Premium"
+    "EC": [
+     "Disney+ Premium",
+     "Antel TV Internacional"
     ],
     "CL": [
      "Disney+ Premium",
@@ -1215,8 +1216,8 @@
    "kickoffUtc": "2026-11-01T23:00:00Z",
    "broadcasts": {
     "US": [
-     "Fubo Sports",
-     "CBS Sports Network"
+     "CBS Sports Network",
+     "Fubo Sports"
     ]
    },
    "sources": [
@@ -1262,13 +1263,13 @@
    },
    "kickoffUtc": "2026-11-01T23:00:00Z",
    "broadcasts": {
-    "US": [
-     "TUDN (US)"
-    ],
     "MX": [
      "ESPN 2",
      "ViX Premium",
      "Disney+ Premium"
+    ],
+    "US": [
+     "TUDN (US)"
     ]
    },
    "sources": [
@@ -1331,21 +1332,21 @@
      "Win Fútbol +",
      "Win Play"
     ],
+    "MX": [
+     "RCN Nuestra Tele"
+    ],
     "US": [
      "FOX Deportes",
      "Fox Sports online",
      "FOX One"
     ],
-    "MX": [
-     "RCN Nuestra Tele"
-    ],
-    "EC": [
+    "PE": [
      "RCN Nuestra Tele"
     ],
     "UY": [
      "RCN Nuestra Tele"
     ],
-    "PE": [
+    "EC": [
      "RCN Nuestra Tele"
     ],
     "CL": [
@@ -1403,21 +1404,21 @@
      "TyC Sports Internacional",
      "Win Play"
     ],
+    "MX": [
+     "TyC Sports Internacional"
+    ],
     "US": [
      "Fanatiz",
      "ViX",
      "TyC Sports Int. (US)"
     ],
-    "MX": [
-     "TyC Sports Internacional"
-    ],
-    "EC": [
+    "PE": [
      "TyC Sports Internacional"
     ],
     "UY": [
      "TyC Sports Internacional"
     ],
-    "PE": [
+    "EC": [
      "TyC Sports Internacional"
     ],
     "CL": [
@@ -1471,20 +1472,20 @@
    },
    "kickoffUtc": "2026-11-02T00:00:00Z",
    "broadcasts": {
+    "TR": [
+     "Apple TV"
+    ],
     "IT": [
      "Apple TV (IT)"
+    ],
+    "BE": [
+     "Apple TV (BE)"
     ],
     "FR": [
      "Apple TV (FR)"
     ],
     "DE": [
      "Apple TV (DE)"
-    ],
-    "TR": [
-     "Apple TV"
-    ],
-    "BE": [
-     "Apple TV (BE)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -1507,17 +1508,27 @@
     "NO": [
      "Apple TV (NO)"
     ],
+    "CH": [
+     "Apple TV"
+    ],
     "BR": [
+     "SporTV 2",
      "Apple TV"
     ],
     "AR": [
      "Apple TV"
     ],
-    "CH": [
-     "Apple TV"
-    ],
     "AT": [
      "Apple TV"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
     ],
     "CA": [
      "Apple TV (US)"
@@ -1525,23 +1536,14 @@
     "KR": [
      "MLS Pass on Apple TV"
     ],
-    "NZ": [
-     "MLS Pass on Apple TV"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV (US)"
-    ],
     "AU": [
-     "Apple TV"
-    ],
-    "JP": [
      "Apple TV"
     ],
     "MX": [
      "Apple TV"
+    ],
+    "US": [
+     "Apple TV (US)"
     ],
     "NG": [
      "MLS Season Pass",
@@ -1556,10 +1558,10 @@
     "MA": [
      "Apple TV"
     ],
-    "EC": [
+    "PE": [
      "Apple TV"
     ],
-    "PE": [
+    "EC": [
      "Apple TV"
     ],
     "CL": [
@@ -1612,13 +1614,16 @@
    },
    "kickoffUtc": "2026-11-02T01:10:00Z",
    "broadcasts": {
-    "US": [
-     "TUDN (US)"
+    "BR": [
+     "SportyNet"
     ],
     "MX": [
      "Canal 5",
      "TUDN",
      "ViX Premium"
+    ],
+    "US": [
+     "TUDN (US)"
     ]
    },
    "sources": [
@@ -1664,20 +1669,20 @@
    },
    "kickoffUtc": "2026-11-02T01:30:00Z",
    "broadcasts": {
+    "TR": [
+     "Apple TV"
+    ],
     "IT": [
      "Apple TV (IT)"
+    ],
+    "BE": [
+     "Apple TV (BE)"
     ],
     "FR": [
      "Apple TV (FR)"
     ],
     "DE": [
      "Apple TV (DE)"
-    ],
-    "TR": [
-     "Apple TV"
-    ],
-    "BE": [
-     "Apple TV (BE)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -1700,43 +1705,43 @@
     "NO": [
      "Apple TV (NO)"
     ],
+    "CH": [
+     "Apple TV"
+    ],
     "BR": [
      "Apple TV"
     ],
     "AR": [
      "Apple TV"
     ],
-    "CH": [
-     "Apple TV"
-    ],
     "AT": [
-     "Apple TV"
-    ],
-    "CA": [
-     "Apple TV (US)"
-    ],
-    "KR": [
-     "MLS Pass on Apple TV",
-     "SPOTV Prime",
-     "SPOTV NOW"
-    ],
-    "NZ": [
-     "MLS Pass on Apple TV"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
-    "US": [
-     "Apple TV (US)"
-    ],
-    "AU": [
      "Apple TV"
     ],
     "JP": [
      "Apple TV"
     ],
+    "CO": [
+     "Apple TV"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
+    ],
+    "CA": [
+     "Apple TV (US)"
+    ],
+    "KR": [
+     "SPOTV Prime",
+     "SPOTV NOW",
+     "MLS Pass on Apple TV"
+    ],
+    "AU": [
+     "Apple TV"
+    ],
     "MX": [
      "Apple TV"
+    ],
+    "US": [
+     "Apple TV (US)"
     ],
     "NG": [
      "MLS Season Pass",
@@ -1751,10 +1756,10 @@
     "MA": [
      "Apple TV"
     ],
-    "EC": [
+    "PE": [
      "Apple TV"
     ],
-    "PE": [
+    "EC": [
      "Apple TV"
     ],
     "CL": [
@@ -2358,20 +2363,20 @@
    },
    "kickoffUtc": "2026-11-02T02:45:00Z",
    "broadcasts": {
+    "TR": [
+     "Apple TV"
+    ],
     "IT": [
      "Apple TV (IT)"
+    ],
+    "BE": [
+     "Apple TV (BE)"
     ],
     "FR": [
      "Apple TV (FR)"
     ],
     "DE": [
      "Apple TV (DE)"
-    ],
-    "TR": [
-     "Apple TV"
-    ],
-    "BE": [
-     "Apple TV (BE)"
     ],
     "GB": [
      "Apple TV (UK)"
@@ -2394,17 +2399,26 @@
     "NO": [
      "Apple TV (NO)"
     ],
+    "CH": [
+     "Apple TV"
+    ],
     "BR": [
      "Apple TV"
     ],
     "AR": [
      "Apple TV"
     ],
-    "CH": [
-     "Apple TV"
-    ],
     "AT": [
      "Apple TV"
+    ],
+    "JP": [
+     "Apple TV"
+    ],
+    "CO": [
+     "Apple TV"
+    ],
+    "NZ": [
+     "MLS Pass on Apple TV"
     ],
     "CA": [
      "Apple TV (US)",
@@ -2414,26 +2428,17 @@
     "KR": [
      "MLS Pass on Apple TV"
     ],
-    "NZ": [
-     "MLS Pass on Apple TV"
-    ],
-    "CO": [
-     "Apple TV"
-    ],
-    "US": [
-     "Fubo Sports",
-     "FOX One",
-     "FOX Sports 1",
-     "FOX Deportes"
-    ],
     "AU": [
-     "Apple TV"
-    ],
-    "JP": [
      "Apple TV"
     ],
     "MX": [
      "Apple TV"
+    ],
+    "US": [
+     "FOX One",
+     "FOX Sports 1",
+     "Fubo Sports",
+     "Apple TV (US)"
     ],
     "NG": [
      "MLS Season Pass",
@@ -2448,10 +2453,10 @@
     "MA": [
      "Apple TV"
     ],
-    "EC": [
+    "PE": [
      "Apple TV"
     ],
-    "PE": [
+    "EC": [
      "Apple TV"
     ],
     "CL": [
@@ -2510,16 +2515,19 @@
     "ES": [
      "OneFootball PPV"
     ],
+    "CH": [
+     "OneFootball PPV"
+    ],
     "BR": [
      "OneFootball PPV"
     ],
     "AR": [
      "OneFootball PPV"
     ],
-    "CH": [
+    "AT": [
      "OneFootball PPV"
     ],
-    "AT": [
+    "JP": [
      "OneFootball PPV"
     ],
     "CO": [
@@ -2528,19 +2536,16 @@
     "AU": [
      "OneFootball PPV"
     ],
-    "JP": [
-     "OneFootball PPV"
-    ],
     "MX": [
      "OneFootball PPV"
     ],
-    "EC": [
+    "PE": [
      "OneFootball PPV"
     ],
     "UY": [
      "OneFootball PPV"
     ],
-    "PE": [
+    "EC": [
      "OneFootball PPV"
     ],
     "CL": [
@@ -2599,16 +2604,19 @@
     "ES": [
      "OneFootball PPV"
     ],
+    "CH": [
+     "OneFootball PPV"
+    ],
     "BR": [
      "OneFootball PPV"
     ],
     "AR": [
      "OneFootball PPV"
     ],
-    "CH": [
+    "AT": [
      "OneFootball PPV"
     ],
-    "AT": [
+    "JP": [
      "OneFootball PPV"
     ],
     "CO": [
@@ -2617,19 +2625,16 @@
     "AU": [
      "OneFootball PPV"
     ],
-    "JP": [
-     "OneFootball PPV"
-    ],
     "MX": [
      "OneFootball PPV"
     ],
-    "EC": [
+    "PE": [
      "OneFootball PPV"
     ],
     "UY": [
      "OneFootball PPV"
     ],
-    "PE": [
+    "EC": [
      "OneFootball PPV"
     ],
     "CL": [
@@ -2689,6 +2694,9 @@
     "GB": [
      "Youtube UK"
     ],
+    "PT": [
+     "Canal 11"
+    ],
     "ES": [
      "The AFC Hub YouTube"
     ],
@@ -2696,18 +2704,19 @@
      "ESPN NL",
      "ESPN Watch NL"
     ],
-    "BR": [
-     "Disney+ Premium"
-    ],
-    "AR": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
     "CH": [
      "Blue Sport 1 Live",
      "OneFootball PPV",
      "Sportdigital1+",
      "Blue Sport 1 Direct"
+    ],
+    "BR": [
+     "ESPN 4",
+     "Disney+ Premium"
+    ],
+    "AR": [
+     "ESPN 4",
+     "Disney+ Premium"
     ],
     "AT": [
      "OneFootball PPV",
@@ -2715,15 +2724,18 @@
      "Sportdigital1+",
      "Sportdigital.de"
     ],
+    "JP": [
+     "DAZN"
+    ],
     "CO": [
      "ESPN 4",
      "Disney+ Premium"
     ],
+    "KR": [
+     "Coupang Play"
+    ],
     "AU": [
      "Paramount+"
-    ],
-    "JP": [
-     "DAZN"
     ],
     "MX": [
      "ESPN",
@@ -2732,7 +2744,7 @@
     "MA": [
      "beIN Sports 2"
     ],
-    "EC": [
+    "PE": [
      "ESPN 4",
      "Disney+ Premium"
     ],
@@ -2740,7 +2752,7 @@
      "ESPN 4",
      "Disney+ Premium"
     ],
-    "PE": [
+    "EC": [
      "ESPN 4",
      "Disney+ Premium"
     ],
@@ -2755,6 +2767,54 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "basketball-20261102-petkimspor-anadolu-efes",
+   "sport": "basketball",
+   "competitionId": "bsl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Basketbol Süper Ligi",
+    "en": "Turkish Basketball Super League",
+    "de": "Türkische Basketball Super League",
+    "es": "Superliga de Baloncesto de Turquía",
+    "fr": "Super Ligue turque de basket-ball",
+    "it": "Super Lega turca di pallacanestro",
+    "pt": "Superliga Turca de Basquete",
+    "ar": "الدوري التركي الممتاز لكرة السلة"
+   },
+   "home": "Petkimspor",
+   "away": "Anadolu Efes",
+   "homeNames": {
+    "tr": "Petkimspor",
+    "en": "Petkimspor",
+    "de": "Petkimspor",
+    "es": "Petkimspor",
+    "fr": "Petkimspor",
+    "it": "Petkimspor",
+    "pt": "Petkimspor",
+    "ar": "Petkimspor"
+   },
+   "awayNames": {
+    "tr": "Anadolu Efes",
+    "en": "Anadolu Efes",
+    "de": "Anadolu Efes",
+    "es": "Anadolu Efes",
+    "fr": "Anadolu Efes",
+    "it": "Anadolu Efes",
+    "pt": "Anadolu Efes",
+    "ar": "أناضولو إيفيس"
+   },
+   "kickoffUtc": "2026-11-02T15:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 5",
+     "beIN Sports Haber"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
    ]
   },
   {
@@ -2809,6 +2869,9 @@
      "LALIGA TV Hypermotion",
      "Orange Fútbol 2"
     ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
     "MX": [
      "SKY Sports"
     ]
@@ -2862,16 +2925,19 @@
     "ES": [
      "OneFootball PPV"
     ],
+    "CH": [
+     "OneFootball PPV"
+    ],
     "BR": [
      "OneFootball PPV"
     ],
     "AR": [
      "OneFootball PPV"
     ],
-    "CH": [
+    "AT": [
      "OneFootball PPV"
     ],
-    "AT": [
+    "JP": [
      "OneFootball PPV"
     ],
     "CO": [
@@ -2880,19 +2946,16 @@
     "AU": [
      "OneFootball PPV"
     ],
-    "JP": [
-     "OneFootball PPV"
-    ],
     "MX": [
      "OneFootball PPV"
     ],
-    "EC": [
+    "PE": [
      "OneFootball PPV"
     ],
     "UY": [
      "OneFootball PPV"
     ],
-    "PE": [
+    "EC": [
      "OneFootball PPV"
     ],
     "CL": [
@@ -2948,14 +3011,23 @@
     "GB": [
      "Youtube UK"
     ],
+    "PT": [
+     "Canal 11"
+    ],
     "ES": [
      "The AFC Hub YouTube"
     ],
-    "AU": [
-     "Paramount+"
+    "BR": [
+     "Disney+ Premium"
     ],
     "JP": [
      "DAZN"
+    ],
+    "KR": [
+     "Coupang Play"
+    ],
+    "AU": [
+     "Paramount+"
     ],
     "MA": [
      "beIN Sports 1",
@@ -3012,11 +3084,17 @@
     "ES": [
      "The AFC Hub YouTube"
     ],
-    "AU": [
-     "Paramount+"
+    "BR": [
+     "Disney+ Premium"
     ],
     "JP": [
      "DAZN"
+    ],
+    "KR": [
+     "Coupang Play"
+    ],
+    "AU": [
+     "Paramount+"
     ],
     "MA": [
      "beIN Sports 2"
@@ -3071,11 +3149,14 @@
     "ES": [
      "The AFC Hub YouTube"
     ],
-    "AU": [
-     "Paramount+"
+    "BR": [
+     "Disney+ Premium"
     ],
     "JP": [
      "DAZN"
+    ],
+    "AU": [
+     "Paramount+"
     ],
     "MA": [
      "beIN Sports 3"
@@ -3130,16 +3211,19 @@
     "ES": [
      "Fanatiz"
     ],
+    "CH": [
+     "Fanatiz"
+    ],
     "BR": [
      "Fanatiz"
     ],
     "AR": [
      "Fanatiz"
     ],
-    "CH": [
+    "AT": [
      "Fanatiz"
     ],
-    "AT": [
+    "JP": [
      "Fanatiz"
     ],
     "CO": [
@@ -3148,22 +3232,19 @@
     "AU": [
      "Fanatiz"
     ],
-    "JP": [
-     "Fanatiz"
-    ],
     "MX": [
-     "Fanatiz"
-    ],
-    "EC": [
-     "Fanatiz"
-    ],
-    "UY": [
      "Fanatiz"
     ],
     "PE": [
      "Fanatiz",
      "L1 Max",
      "L1 Play"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
     ],
     "CL": [
      "Fanatiz",
@@ -3217,9 +3298,7 @@
    "kickoffUtc": "2026-11-02T17:00:00Z",
    "broadcasts": {
     "TR": [
-     "beIN Sports 1",
-     "beIN CONNECT",
-     "TOD"
+     "beIN Sports 1"
     ]
    },
    "sources": [
@@ -3267,13 +3346,105 @@
    "broadcasts": {
     "TR": [
      "TRT Spor",
-     "beIN Sports 2",
-     "beIN CONNECT",
-     "Digiturk Play"
+     "beIN Sports 2"
     ]
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "basketball-20261102-ttt-riga-elitzur-ramla",
+   "sport": "basketball",
+   "competitionId": "eurocup_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "Kadınlar EuroCup",
+    "en": "EuroCup Women",
+    "de": "EuroCup Women",
+    "es": "EuroCup Femenina",
+    "fr": "EuroCoupe féminine",
+    "it": "EuroCup femminile",
+    "pt": "EuroCup Feminina",
+    "ar": "كأس أوروبا لكرة السلة للسيدات"
+   },
+   "home": "TTT Riga",
+   "away": "Elitzur Ramla",
+   "homeNames": {
+    "tr": "TTT Riga",
+    "en": "TTT Riga",
+    "de": "TTT Riga",
+    "es": "TTT Riga",
+    "fr": "TTT Riga",
+    "it": "TTT Riga",
+    "pt": "TTT Riga",
+    "ar": "TTT Riga"
+   },
+   "awayNames": {
+    "tr": "Elitzur Ramla",
+    "en": "Elitzur Ramla",
+    "de": "Elitzur Ramla",
+    "es": "Elitzur Ramla",
+    "fr": "Elitzur Ramla",
+    "it": "Elitzur Ramla",
+    "pt": "Elitzur Ramla",
+    "ar": "Elitzur Ramla"
+   },
+   "kickoffUtc": "2026-11-02T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "FIBA TV"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "basketball-20261102-besiktas-basket-kadin-maccabi-ashdod",
+   "sport": "basketball",
+   "competitionId": "eurocup_women",
+   "tier": "regional",
+   "competition": {
+    "tr": "Kadınlar EuroCup",
+    "en": "EuroCup Women",
+    "de": "EuroCup Women",
+    "es": "EuroCup Femenina",
+    "fr": "EuroCoupe féminine",
+    "it": "EuroCup femminile",
+    "pt": "EuroCup Feminina",
+    "ar": "كأس أوروبا لكرة السلة للسيدات"
+   },
+   "home": "Besiktas Basket Kadin",
+   "away": "Maccabi Ashdod",
+   "homeNames": {
+    "tr": "Beşiktaş",
+    "en": "Beşiktaş Basket Kadın",
+    "de": "Beşiktaş Basket Kadın",
+    "es": "Beşiktaş Basket Kadın",
+    "fr": "Beşiktaş Basket Kadın",
+    "it": "Beşiktaş Basket Kadın",
+    "pt": "Beşiktaş Basket Kadın",
+    "ar": "Beşiktaş Basket Kadın"
+   },
+   "awayNames": {
+    "tr": "Maccabi Ashdod",
+    "en": "Maccabi Ashdod",
+    "de": "Maccabi Ashdod",
+    "es": "Maccabi Ashdod",
+    "fr": "Maccabi Ashdod",
+    "it": "Maccabi Ashdod",
+    "pt": "Maccabi Ashdod",
+    "ar": "Maccabi Ashdod"
+   },
+   "kickoffUtc": "2026-11-02T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "FIBA TV"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
    ]
   },
   {
@@ -3315,10 +3486,18 @@
    },
    "kickoffUtc": "2026-11-02T17:30:00Z",
    "broadcasts": {
+    "TR": [
+     "S Sport",
+     "S Sport 2",
+     "S Sport Plus"
+    ],
     "IT": [
      "Sky Sport 4K (IT)",
      "DAZN Italia",
      "NOW TV (IT)"
+    ],
+    "BE": [
+     "DAZN (BE)"
     ],
     "FR": [
      "DAZN 1 (FR)",
@@ -3326,14 +3505,6 @@
     ],
     "DE": [
      "DAZN Deutschland"
-    ],
-    "TR": [
-     "S Sport",
-     "S Sport Plus",
-     "S Sport 2"
-    ],
-    "BE": [
-     "DAZN (BE)"
     ],
     "GB": [
      "DAZN UK"
@@ -3344,24 +3515,42 @@
     "ES": [
      "DAZN"
     ],
+    "CZ": [
+     "Sport 1"
+    ],
+    "HR": [
+     "MAXtv To Go"
+    ],
     "NL": [
      "Ziggo Sport 2"
     ],
     "NO": [
      "VG TV"
     ],
+    "CH": [
+     "DAZN"
+    ],
     "BR": [
-     "Disney+ Premium"
+     "Disney+ Premium",
+     "SportyNet",
+     "SportyNet YouTube"
     ],
     "AR": [
      "ESPN 3",
      "Disney+ Premium"
     ],
-    "CH": [
-     "DAZN"
-    ],
     "AT": [
      "DAZN"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "CO": [
+     "ESPN 5",
+     "Disney+ Premium"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
     ],
     "CA": [
      "DAZN Canada"
@@ -3369,8 +3558,12 @@
     "KR": [
      "SPOTV NOW"
     ],
-    "CO": [
-     "ESPN 5",
+    "AU": [
+     "beIN Sports 2",
+     "beIN CONNECT"
+    ],
+    "MX": [
+     "ESPN 4",
      "Disney+ Premium"
     ],
     "US": [
@@ -3378,17 +3571,6 @@
      "Universo",
      "TeleXitos",
      "Peacock (Español)"
-    ],
-    "AU": [
-     "beIN Sports 2",
-     "beIN CONNECT"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "MX": [
-     "ESPN 4",
-     "Disney+ Premium"
     ],
     "NG": [
      "SuperSport Football"
@@ -3402,7 +3584,7 @@
     "MA": [
      "STARZPLAY"
     ],
-    "EC": [
+    "PE": [
      "ESPN 5",
      "Disney+ Premium"
     ],
@@ -3410,7 +3592,7 @@
      "ESPN 5",
      "Disney+ Premium"
     ],
-    "PE": [
+    "EC": [
      "ESPN 5",
      "Disney+ Premium"
     ],
@@ -3495,6 +3677,53 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "basketball-20261102-besiktas-gain-cayirova-bld",
+   "sport": "basketball",
+   "competitionId": "bsl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Basketbol Süper Ligi",
+    "en": "Turkish Basketball Super League",
+    "de": "Türkische Basketball Super League",
+    "es": "Superliga de Baloncesto de Turquía",
+    "fr": "Super Ligue turque de basket-ball",
+    "it": "Super Lega turca di pallacanestro",
+    "pt": "Superliga Turca de Basquete",
+    "ar": "الدوري التركي الممتاز لكرة السلة"
+   },
+   "home": "Besiktas GAIN",
+   "away": "Cayirova Bld.",
+   "homeNames": {
+    "tr": "Beşiktaş",
+    "en": "Beşiktaş GAIN",
+    "de": "Beşiktaş GAIN",
+    "es": "Beşiktaş GAIN",
+    "fr": "Beşiktaş GAIN",
+    "it": "Beşiktaş GAIN",
+    "pt": "Beşiktaş GAIN",
+    "ar": "بشكتاش GAIN"
+   },
+   "awayNames": {
+    "tr": "Çayırova Bld.",
+    "en": "Çayırova Bld.",
+    "de": "Çayırova Bld.",
+    "es": "Çayırova Bld.",
+    "fr": "Çayırova Bld.",
+    "it": "Çayırova Bld.",
+    "pt": "Çayırova Bld.",
+    "ar": "Çayırova Bld."
+   },
+   "kickoffUtc": "2026-11-02T17:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "beIN Sports 5"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
    ]
   },
   {
@@ -3596,14 +3825,14 @@
     "AR": [
      "Disney+ Premium"
     ],
+    "JP": [
+     "DAZN"
+    ],
     "CO": [
      "Disney+ Premium"
     ],
     "AU": [
      "Paramount+"
-    ],
-    "JP": [
-     "DAZN"
     ],
     "MX": [
      "ESPN 3",
@@ -3612,13 +3841,13 @@
     "MA": [
      "beIN Sports 1"
     ],
-    "EC": [
+    "PE": [
      "Disney+ Premium"
     ],
     "UY": [
      "Disney+ Premium"
     ],
-    "PE": [
+    "EC": [
      "Disney+ Premium"
     ],
     "CL": [
@@ -3674,17 +3903,27 @@
     "GB": [
      "Youtube UK"
     ],
+    "PT": [
+     "Canal 11"
+    ],
     "ES": [
      "The AFC Hub YouTube"
     ],
-    "AU": [
-     "Paramount+"
+    "BR": [
+     "Disney+ Premium"
     ],
     "JP": [
      "DAZN"
     ],
+    "KR": [
+     "Coupang Play"
+    ],
+    "AU": [
+     "Paramount+"
+    ],
     "MA": [
      "beIN Sports 3",
+     "beIN CONNECT",
      "TOD"
     ]
    },
@@ -3737,16 +3976,19 @@
     "ES": [
      "Fanatiz"
     ],
+    "CH": [
+     "Fanatiz"
+    ],
     "BR": [
      "Fanatiz"
     ],
     "AR": [
      "Fanatiz"
     ],
-    "CH": [
+    "AT": [
      "Fanatiz"
     ],
-    "AT": [
+    "JP": [
      "Fanatiz"
     ],
     "CO": [
@@ -3755,22 +3997,19 @@
     "AU": [
      "Fanatiz"
     ],
-    "JP": [
-     "Fanatiz"
-    ],
     "MX": [
-     "Fanatiz"
-    ],
-    "EC": [
-     "Fanatiz"
-    ],
-    "UY": [
      "Fanatiz"
     ],
     "PE": [
      "Fanatiz",
      "L1 Max",
      "L1 Play"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
     ],
     "CL": [
      "Fanatiz",
@@ -3870,23 +4109,23 @@
    },
    "kickoffUtc": "2026-11-02T19:45:00Z",
    "broadcasts": {
+    "TR": [
+     "S Sport",
+     "S Sport 2",
+     "S Sport Plus"
+    ],
     "IT": [
      "DAZN Italia"
     ],
+    "BE": [
+     "DAZN (BE)"
+    ],
     "FR": [
-     "DAZN.com (FR)",
-     "DAZN 1 (FR)"
+     "DAZN 1 (FR)",
+     "DAZN.com (FR)"
     ],
     "DE": [
      "DAZN Deutschland"
-    ],
-    "TR": [
-     "S Sport",
-     "S Sport Plus",
-     "S Sport 2"
-    ],
-    "BE": [
-     "DAZN (BE)"
     ],
     "GB": [
      "TNT Sports 1",
@@ -3899,23 +4138,39 @@
     "ES": [
      "DAZN"
     ],
+    "CZ": [
+     "Sport 1"
+    ],
+    "HR": [
+     "MAXtv To Go"
+    ],
     "NL": [
      "Ziggo Sport 2"
     ],
     "NO": [
      "VG TV"
     ],
+    "CH": [
+     "DAZN"
+    ],
     "BR": [
+     "ESPN 3",
      "Disney+ Premium"
     ],
     "AR": [
      "Disney+ Premium"
     ],
-    "CH": [
-     "DAZN"
-    ],
     "AT": [
      "DAZN"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
     ],
     "CA": [
      "DAZN Canada"
@@ -3923,23 +4178,17 @@
     "KR": [
      "SPOTV NOW"
     ],
-    "CO": [
+    "AU": [
+     "beIN Sports 2",
+     "beIN CONNECT"
+    ],
+    "MX": [
+     "ESPN 4",
      "Disney+ Premium"
     ],
     "US": [
      "Paramount+ (US)",
      "Peacock (Español)"
-    ],
-    "AU": [
-     "beIN Sports 2",
-     "beIN CONNECT"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "MX": [
-     "ESPN 4",
-     "Disney+ Premium"
     ],
     "NG": [
      "SuperSport Football"
@@ -3953,13 +4202,13 @@
     "MA": [
      "STARZPLAY"
     ],
-    "EC": [
+    "PE": [
      "Disney+ Premium"
     ],
     "UY": [
      "Disney+ Premium"
     ],
-    "PE": [
+    "EC": [
      "Disney+ Premium"
     ],
     "CL": [
@@ -4012,20 +4261,20 @@
    },
    "kickoffUtc": "2026-11-02T19:45:00Z",
    "broadcasts": {
+    "TR": [
+     "beIN Sports 2",
+     "TOD",
+     "beIN CONNECT"
+    ],
+    "BE": [
+     "DAZN (BE)"
+    ],
     "FR": [
      "DAZN.com (FR)",
      "Ligue 1+"
     ],
     "DE": [
      "DAZN Deutschland"
-    ],
-    "TR": [
-     "beIN Sports 2",
-     "beIN CONNECT",
-     "TOD"
-    ],
-    "BE": [
-     "DAZN (BE)"
     ],
     "GB": [
      "Ligue 1+ (UK IR)"
@@ -4046,49 +4295,50 @@
      "Viaplay NO",
      "TV 2 Play (NO)"
     ],
+    "CH": [
+     "DAZN"
+    ],
     "BR": [
-     "CazéTV YouTube"
+     "CazéTV YouTube",
+     "CazeTV"
     ],
     "AR": [
      "Disney+ Premium"
     ],
-    "CH": [
-     "DAZN"
-    ],
     "AT": [
      "DAZN"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "CO": [
+     "Disney+ Premium"
     ],
     "KR": [
      "Coupang Play"
     ],
-    "CO": [
-     "Disney+ Premium"
+    "MX": [
+     "Tubi",
+     "FOX One"
     ],
     "US": [
      "beIN Sports 3",
      "beIN Sports XTRA (US)",
      "beIN Sports XTRA en Español (US)",
-     "Fawesome (US)"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "MX": [
-     "Tubi",
-     "FOX One"
+     "beIN Sports CONNECT (US)"
     ],
     "MA": [
      "beIN Sports 5",
      "beIN CONNECT",
      "TOD"
     ],
-    "EC": [
+    "PE": [
      "Disney+ Premium"
     ],
     "UY": [
      "Disney+ Premium"
     ],
-    "PE": [
+    "EC": [
      "Disney+ Premium"
     ],
     "CL": [
@@ -4146,7 +4396,10 @@
      "beIN Sports 2 (FR)"
     ],
     "MA": [
-     "beIN Sports 8"
+     "beIN Sports 2 France",
+     "beIN Sports 8",
+     "TOD",
+     "beIN CONNECT"
     ]
    },
    "sources": [
@@ -4192,27 +4445,30 @@
    },
    "kickoffUtc": "2026-11-02T19:45:00Z",
    "broadcasts": {
-    "FR": [
-     "beIN Sports 1 (FR)"
-    ],
-    "DE": [
-     "DAZN Deutschland"
-    ],
     "TR": [
      "beIN Sports MAX 1"
     ],
     "BE": [
      "DAZN (BE)"
     ],
+    "FR": [
+     "beIN Sports 1 (FR)"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
     "PT": [
      "Fanatiz"
+    ],
+    "CZ": [
+     "Nova Sport 2"
     ],
     "NL": [
      "Viaplay NL"
     ],
     "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO"
+     "Viaplay NO",
+     "TV 2 Play (NO)"
     ],
     "CH": [
      "DAZN"
@@ -4220,11 +4476,15 @@
     "AT": [
      "DAZN"
     ],
-    "US": [
-     "beIN Sports 6"
-    ],
     "JP": [
      "DAZN"
+    ],
+    "US": [
+     "beIN Sports 6",
+     "beIN Sports CONNECT (US)"
+    ],
+    "MA": [
+     "beIN Sports France"
     ]
    },
    "sources": [
@@ -4270,10 +4530,19 @@
    },
    "kickoffUtc": "2026-11-02T20:00:00Z",
    "broadcasts": {
+    "TR": [
+     "beIN Sports 3",
+     "TOD",
+     "beIN CONNECT"
+    ],
     "IT": [
      "Sky Sport Calcio",
      "Sky Sport 4K (IT)",
      "NOW TV (IT)"
+    ],
+    "BE": [
+     "Play Sports 1",
+     "Play Sports"
     ],
     "FR": [
      "Canal+ Foot",
@@ -4283,15 +4552,6 @@
      "Sky Sport Premier League",
      "Sky Top Event",
      "WOW"
-    ],
-    "TR": [
-     "beIN Sports 3",
-     "TOD",
-     "beIN CONNECT"
-    ],
-    "BE": [
-     "Play Sports 1",
-     "Play Sports"
     ],
     "GB": [
      "Sky Sports+ app",
@@ -4311,32 +4571,41 @@
      "CANAL+ Sport"
     ],
     "HR": [
+     "MAXtv To Go",
      "Arena Sport"
     ],
     "NL": [
-     "ViaplayTV NL",
-     "Viaplay NL"
+     "Viaplay NL",
+     "ViaplayTV NL"
     ],
     "NO": [
-     "V sport Premier League NO",
-     "Viaplay NO"
+     "Viaplay NO",
+     "V sport Premier League NO"
+    ],
+    "CH": [
+     "CANAL+ Foot",
+     "CANAL+ Premier League"
     ],
     "BR": [
+     "ESPN 4",
      "Disney+ Premium"
     ],
     "AR": [
      "ESPN 3",
      "Disney+ Premium"
     ],
-    "CH": [
-     "CANAL+ Foot",
-     "CANAL+ Premier League"
-    ],
     "AT": [
      "Sky Sport Austria 1",
      "Sky Sports Premier League",
      "Sky Sport Top Event",
      "Sky Go"
+    ],
+    "CO": [
+     "ESPN 5",
+     "Disney+ Premium"
+    ],
+    "NZ": [
+     "Sky Sports Premier League"
     ],
     "CA": [
      "DAZN Canada",
@@ -4345,32 +4614,26 @@
     "KR": [
      "Coupang Play"
     ],
-    "NZ": [
-     "Sky Sports Premier League"
-    ],
-    "CO": [
-     "ESPN 5",
-     "Disney+ Premium"
-    ],
-    "US": [
-     "USA Network",
-     "TeleXitos",
-     "Universo"
-    ],
     "AU": [
      "Stan Sport"
     ],
     "MX": [
      "HBO MAX"
     ],
+    "US": [
+     "USA Network",
+     "TeleXitos",
+     "Universo"
+    ],
     "NG": [
      "Canal+ Afrique",
-     "DStv Now",
      "SuperSport Premier League Nigeria",
+     "DStv Now",
      "SuperSport Kickoff"
     ],
     "ZA": [
      "DStv Now",
+     "SuperSport Premier League Nigeria",
      "SuperSport Premier League"
     ],
     "GH": [
@@ -4381,11 +4644,11 @@
     ],
     "MA": [
      "beIN Sports 2",
-     "TOD",
      "beIN CONNECT",
+     "TOD",
      "beIN Sports English"
     ],
-    "EC": [
+    "PE": [
      "ESPN 5",
      "Disney+ Premium"
     ],
@@ -4393,7 +4656,7 @@
      "ESPN 5",
      "Disney+ Premium"
     ],
-    "PE": [
+    "EC": [
      "ESPN 5",
      "Disney+ Premium"
     ],
@@ -4449,8 +4712,15 @@
    },
    "kickoffUtc": "2026-11-02T20:00:00Z",
    "broadcasts": {
+    "TR": [
+     "S Sport",
+     "S Sport Plus"
+    ],
     "IT": [
      "DAZN Italia"
+    ],
+    "BE": [
+     "DAZN (BE)"
     ],
     "FR": [
      "DAZN 1 (FR)",
@@ -4459,13 +4729,6 @@
     ],
     "DE": [
      "DAZN Deutschland"
-    ],
-    "TR": [
-     "S Sport",
-     "S Sport Plus"
-    ],
-    "BE": [
-     "DAZN (BE)"
     ],
     "GB": [
      "Premier Sports 1 UK",
@@ -4481,27 +4744,41 @@
      "LaLiga TV Bar",
      "M+ LALIGA"
     ],
+    "CZ": [
+     "Nova Sport 4"
+    ],
     "HR": [
      "SportKlub",
      "Arena Sport"
     ],
     "NO": [
      "TV 2 Sport Premium",
-     "Viaplay NO",
-     "TV 2 Play (NO)"
+     "TV 2 Play (NO)",
+     "Viaplay NO"
+    ],
+    "CH": [
+     "DAZN"
     ],
     "BR": [
-     "CazéTV YouTube"
+     "CazéTV YouTube",
+     "CazeTV"
     ],
     "AR": [
      "ESPN 4",
      "Disney+ Premium"
     ],
-    "CH": [
-     "DAZN"
-    ],
     "AT": [
      "DAZN"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "CO": [
+     "ESPN 4",
+     "Disney+ Premium"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
     ],
     "CA": [
      "TSN+"
@@ -4509,9 +4786,12 @@
     "KR": [
      "Coupang Play"
     ],
-    "CO": [
-     "ESPN 4",
-     "Disney+ Premium"
+    "AU": [
+     "beIN Sports 3",
+     "beIN CONNECT"
+    ],
+    "MX": [
+     "SKY Sports"
     ],
     "US": [
      "ESPN Deportes",
@@ -4519,39 +4799,29 @@
      "ESPN Select",
      "Fubo Sports"
     ],
-    "AU": [
-     "beIN Sports 3",
-     "beIN CONNECT"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "MX": [
-     "SKY Sports"
-    ],
     "NG": [
-     "SuperSport GOtv LaLiga",
+     "StarTimes App",
      "SuperSport Laliga Nigeria",
-     "StarTimes App"
+     "SuperSport GOtv LaLiga"
     ],
     "ZA": [
      "SuperSport GOtv LaLiga",
      "SuperSport Laliga",
-     "StarTimes App",
-     "OneFootball"
+     "OneFootball",
+     "StarTimes App"
     ],
     "GH": [
-     "DStv Now",
-     "SuperSport GOtv LaLiga",
+     "StarTimes Ghana",
      "SuperSport Laliga ROA",
-     "StarTimes Ghana"
+     "DStv Now",
+     "SuperSport GOtv LaLiga"
     ],
     "MA": [
      "beIN Sports 4",
-     "beIN CONNECT",
-     "TOD"
+     "TOD",
+     "beIN CONNECT"
     ],
-    "EC": [
+    "PE": [
      "ESPN 4",
      "Disney+ Premium"
     ],
@@ -4559,7 +4829,7 @@
      "ESPN 4",
      "Disney+ Premium"
     ],
-    "PE": [
+    "EC": [
      "ESPN 4",
      "Disney+ Premium"
     ],
@@ -4615,18 +4885,18 @@
    },
    "kickoffUtc": "2026-11-02T20:00:00Z",
    "broadcasts": {
+    "TR": [
+     "S Sport",
+     "S Sport Plus"
+    ],
     "IT": [
      "DAZN Italia"
     ],
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "TR": [
-     "S Sport Plus",
-     "S Sport"
-    ],
     "BE": [
      "DAZN (BE)"
+    ],
+    "DE": [
+     "DAZN Deutschland"
     ],
     "PT": [
      "DAZN 3"
@@ -4637,24 +4907,30 @@
      "LALIGA TV Hypermotion",
      "Orange Fútbol 2"
     ],
+    "CZ": [
+     "Nova Sport 3"
+    ],
     "CH": [
      "DAZN"
     ],
     "AT": [
      "DAZN"
     ],
-    "CA": [
-     "TSN+"
-    ],
-    "US": [
-     "ESPN Unlimited",
-     "ESPN Select"
-    ],
     "JP": [
      "DAZN"
     ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "CA": [
+     "TSN+"
+    ],
     "MX": [
      "SKY Sports"
+    ],
+    "US": [
+     "ESPN Select",
+     "ESPN Unlimited"
     ],
     "NG": [
      "StarTimes App"
@@ -4711,6 +4987,9 @@
    "broadcasts": {
     "PT": [
      "Sport TV 1"
+    ],
+    "BR": [
+     "Disney+ Premium"
     ]
    },
    "sources": [
@@ -4756,8 +5035,16 @@
    },
    "kickoffUtc": "2026-11-02T20:15:00Z",
    "broadcasts": {
+    "TR": [
+     "beIN Sports 4",
+     "TOD",
+     "beIN CONNECT"
+    ],
     "IT": [
      "DAZN Italia"
+    ],
+    "BE": [
+     "DAZN (BE)"
     ],
     "FR": [
      "beIN Sports 3 (FR)"
@@ -4766,14 +5053,6 @@
      "OneFootball Deutschland",
      "Sportdigital+"
     ],
-    "TR": [
-     "beIN Sports 4",
-     "TOD",
-     "beIN CONNECT"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
     "PT": [
      "BTV",
      "Fanatiz"
@@ -4781,11 +5060,21 @@
     "ES": [
      "DAZN"
     ],
+    "CZ": [
+     "Kanal1 Sport"
+    ],
     "NL": [
      "Ziggo Sport 3"
     ],
     "NO": [
      "VG TV"
+    ],
+    "CH": [
+     "OneFootball PPV"
+    ],
+    "BR": [
+     "ESPN Brasil YouTube",
+     "Disney+ Premium"
     ],
     "AR": [
      "DGO",
@@ -4793,16 +5082,13 @@
      "Amazon Prime Video",
      "Paramount+"
     ],
-    "CH": [
-     "OneFootball PPV"
-    ],
     "AT": [
      "OneFootball PPV",
      "Sportdigital+ App",
      "Sportdigital.de"
     ],
-    "CA": [
-     "beIN Sport Canada Espanol"
+    "JP": [
+     "DAZN"
     ],
     "CO": [
      "DAZN",
@@ -4810,21 +5096,22 @@
      "DGO",
      "Amazon Prime Video"
     ],
-    "US": [
-     "beIN Sports (US)",
-     "beIN Sports en Español (US)"
-    ],
-    "JP": [
-     "DAZN"
+    "CA": [
+     "beIN Sport Canada Espanol"
     ],
     "MX": [
      "Claro Sports",
      "Claro Sports Premium YouTube"
     ],
-    "EC": [
+    "US": [
+     "beIN Sports (US)",
+     "beIN Sports en Español (US)",
+     "beIN Sports CONNECT (US)"
+    ],
+    "PE": [
      "DAZN",
-     "DSports 2",
      "DGO",
+     "DSports 2",
      "Paramount+"
     ],
     "UY": [
@@ -4833,10 +5120,10 @@
      "DSports 2",
      "Paramount+"
     ],
-    "PE": [
+    "EC": [
      "DAZN",
-     "DGO",
      "DSports 2",
+     "DGO",
      "Paramount+"
     ],
     "CL": [
@@ -4895,16 +5182,19 @@
     "ES": [
      "Fanatiz"
     ],
+    "CH": [
+     "Fanatiz"
+    ],
     "BR": [
      "Fanatiz"
     ],
     "AR": [
      "Fanatiz"
     ],
-    "CH": [
+    "AT": [
      "Fanatiz"
     ],
-    "AT": [
+    "JP": [
      "Fanatiz"
     ],
     "CO": [
@@ -4913,22 +5203,19 @@
     "AU": [
      "Fanatiz"
     ],
-    "JP": [
-     "Fanatiz"
-    ],
     "MX": [
-     "Fanatiz"
-    ],
-    "EC": [
-     "Fanatiz"
-    ],
-    "UY": [
      "Fanatiz"
     ],
     "PE": [
      "Fanatiz",
      "L1 Max",
      "L1 Play"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
     ],
     "CL": [
      "Fanatiz",
@@ -4990,14 +5277,14 @@
     "CO": [
      "Zapping Internacional"
     ],
-    "EC": [
-     "Zapping Sports + Plus"
+    "PE": [
+     "Zapping Internacional"
     ],
     "UY": [
      "Zapping Internacional"
     ],
-    "PE": [
-     "Zapping Internacional"
+    "EC": [
+     "Zapping Sports + Plus"
     ]
    },
    "sources": [
@@ -5044,9 +5331,10 @@
    "kickoffUtc": "2026-11-02T21:00:00Z",
    "broadcasts": {
     "BR": [
+     "ESPN",
      "Disney+ Premium",
      "SportyNet",
-     "Xsports"
+     "SportyNet YouTube"
     ]
    },
    "sources": [
@@ -5157,21 +5445,21 @@
      "Win Fútbol +",
      "Win Play"
     ],
+    "MX": [
+     "RCN Nuestra Tele"
+    ],
     "US": [
      "FOX Deportes",
      "Fox Sports online",
      "FOX One"
     ],
-    "MX": [
-     "RCN Nuestra Tele"
-    ],
-    "EC": [
+    "PE": [
      "RCN Nuestra Tele"
     ],
     "UY": [
      "RCN Nuestra Tele"
     ],
-    "PE": [
+    "EC": [
      "RCN Nuestra Tele"
     ],
     "CL": [
@@ -5227,6 +5515,10 @@
     "ES": [
      "Fanatiz"
     ],
+    "CH": [
+     "Fanatiz",
+     "SI Solocalcio"
+    ],
     "BR": [
      "ESPN 4",
      "Disney+ Premium"
@@ -5235,14 +5527,20 @@
      "TNT Sports Premium",
      "TNT Sports en HBO MAX"
     ],
-    "CH": [
-     "Fanatiz",
-     "SI Solocalcio"
-    ],
     "AT": [
      "Fanatiz"
     ],
+    "JP": [
+     "Fanatiz"
+    ],
     "CO": [
+     "Fanatiz",
+     "Disney+ Premium"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "MX": [
      "Fanatiz",
      "Disney+ Premium"
     ],
@@ -5251,17 +5549,7 @@
      "ViX",
      "TyC Sports Int. (US)"
     ],
-    "AU": [
-     "Fanatiz"
-    ],
-    "JP": [
-     "Fanatiz"
-    ],
-    "MX": [
-     "Fanatiz",
-     "Disney+ Premium"
-    ],
-    "EC": [
+    "PE": [
      "Fanatiz",
      "Disney+ Premium"
     ],
@@ -5269,7 +5557,7 @@
      "Fanatiz",
      "Disney+ Premium"
     ],
-    "PE": [
+    "EC": [
      "Fanatiz",
      "Disney+ Premium"
     ],
@@ -5331,19 +5619,29 @@
     "ES": [
      "Fanatiz"
     ],
+    "CH": [
+     "Fanatiz"
+    ],
     "BR": [
      "Disney+ Premium"
     ],
     "AR": [
      "ESPN Premium"
     ],
-    "CH": [
-     "Fanatiz"
-    ],
     "AT": [
      "Fanatiz"
     ],
+    "JP": [
+     "Fanatiz"
+    ],
     "CO": [
+     "Fanatiz",
+     "Disney+ Premium"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "MX": [
      "Fanatiz",
      "Disney+ Premium"
     ],
@@ -5351,17 +5649,7 @@
      "Fanatiz",
      "ViX"
     ],
-    "AU": [
-     "Fanatiz"
-    ],
-    "JP": [
-     "Fanatiz"
-    ],
-    "MX": [
-     "Fanatiz",
-     "Disney+ Premium"
-    ],
-    "EC": [
+    "PE": [
      "Fanatiz",
      "Disney+ Premium"
     ],
@@ -5369,7 +5657,7 @@
      "Fanatiz",
      "Disney+ Premium"
     ],
-    "PE": [
+    "EC": [
      "Fanatiz",
      "Disney+ Premium"
     ],
@@ -5432,6 +5720,9 @@
     "ES": [
      "Fanatiz"
     ],
+    "CH": [
+     "Fanatiz"
+    ],
     "BR": [
      "SporTV",
      "Premiere"
@@ -5439,36 +5730,33 @@
     "AR": [
      "Fanatiz"
     ],
-    "CH": [
-     "Fanatiz"
-    ],
     "AT": [
-     "Fanatiz"
-    ],
-    "CO": [
-     "Fanatiz"
-    ],
-    "US": [
-     "Fanatiz"
-    ],
-    "AU": [
      "Fanatiz"
     ],
     "JP": [
      "Fanatiz"
     ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
     "MX": [
      "Fanatiz"
     ],
-    "EC": [
-     "Fanatiz"
-    ],
-    "UY": [
+    "US": [
      "Fanatiz"
     ],
     "PE": [
      "Fanatiz",
      "L1 Play"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
     ],
     "CL": [
      "Fanatiz"
@@ -5526,6 +5814,9 @@
     "ES": [
      "Antel TV Internacional"
     ],
+    "CH": [
+     "Antel TV Internacional"
+    ],
     "BR": [
      "Disney+ Premium",
      "Antel TV Internacional"
@@ -5534,10 +5825,10 @@
      "Disney+ Premium",
      "Antel TV Internacional"
     ],
-    "CH": [
+    "AT": [
      "Antel TV Internacional"
     ],
-    "AT": [
+    "JP": [
      "Antel TV Internacional"
     ],
     "CO": [
@@ -5547,25 +5838,22 @@
     "AU": [
      "Antel TV Internacional"
     ],
-    "JP": [
-     "Antel TV Internacional"
-    ],
     "MX": [
      "Disney+ Premium",
      "Antel TV Internacional"
     ],
-    "EC": [
-     "Disney+ Premium",
-     "Antel TV Internacional"
+    "PE": [
+     "Antel TV Internacional",
+     "Disney+ Premium"
     ],
     "UY": [
      "Antel TV",
      "DSports Uruguay Premium",
      "Disney+ Premium"
     ],
-    "PE": [
-     "Antel TV Internacional",
-     "Disney+ Premium"
+    "EC": [
+     "Disney+ Premium",
+     "Antel TV Internacional"
     ],
     "CL": [
      "Disney+ Premium",
@@ -5622,6 +5910,7 @@
     "BR": [
      "Disney+ Premium",
      "SportyNet",
+     "SportyNet YouTube",
      "Xsports"
     ]
    },
@@ -5972,6 +6261,9 @@
     "ES": [
      "Fanatiz"
     ],
+    "CH": [
+     "Fanatiz"
+    ],
     "BR": [
      "Disney+ Premium"
     ],
@@ -5979,13 +6271,20 @@
      "ESPN",
      "ESPN Premium"
     ],
-    "CH": [
-     "Fanatiz"
-    ],
     "AT": [
      "Fanatiz"
     ],
+    "JP": [
+     "Fanatiz"
+    ],
     "CO": [
+     "Fanatiz",
+     "Disney+ Premium"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "MX": [
      "Fanatiz",
      "Disney+ Premium"
     ],
@@ -5994,17 +6293,8 @@
      "ViX",
      "TyC Sports Int. (US)"
     ],
-    "AU": [
-     "Fanatiz"
-    ],
-    "JP": [
-     "Fanatiz"
-    ],
-    "MX": [
-     "Fanatiz",
-     "Disney+ Premium"
-    ],
-    "EC": [
+    "PE": [
+     "ESPN",
      "Fanatiz",
      "Disney+ Premium"
     ],
@@ -6013,8 +6303,7 @@
      "Fanatiz",
      "Disney+ Premium"
     ],
-    "PE": [
-     "ESPN",
+    "EC": [
      "Fanatiz",
      "Disney+ Premium"
     ],
@@ -6080,20 +6369,20 @@
      "TyC Sports Internacional",
      "Win Play"
     ],
-    "US": [
-     "Fanatiz",
-     "ViX"
-    ],
     "MX": [
      "TyC Sports Internacional"
     ],
-    "EC": [
+    "US": [
+     "ViX",
+     "Fanatiz"
+    ],
+    "PE": [
      "TyC Sports Internacional"
     ],
     "UY": [
      "TyC Sports Internacional"
     ],
-    "PE": [
+    "EC": [
      "TyC Sports Internacional"
     ],
     "CL": [
@@ -8176,13 +8465,13 @@
     "MX": [
      "RCN Nuestra Tele"
     ],
-    "EC": [
+    "PE": [
      "RCN Nuestra Tele"
     ],
     "UY": [
      "RCN Nuestra Tele"
     ],
-    "PE": [
+    "EC": [
      "RCN Nuestra Tele"
     ],
     "CL": [

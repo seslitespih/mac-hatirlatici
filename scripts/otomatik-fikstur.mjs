@@ -67,6 +67,7 @@ const YENI_LIG = {
   coupe_de_france: ['regional', { tr: 'Fransa Kupası', en: 'Coupe de France', de: 'Coupe de France', es: 'Copa de Francia', fr: 'Coupe de France', it: 'Coppa di Francia', pt: 'Taça de França', ar: 'كأس فرنسا' }],
   alg_l1: ['regional', { tr: 'Cezayir Ligue 1', en: 'Algerian Ligue 1', de: 'Algerische Ligue 1', es: 'Liga de Argelia', fr: 'Ligue 1 Mobilis', it: 'Ligue 1 algerina', pt: 'Liga Argelina', ar: 'الرابطة الجزائرية المحترفة الأولى' }],
   alg_cup: ['regional', { tr: 'Cezayir Kupası', en: 'Algerian Cup', de: 'Algerischer Pokal', es: 'Copa de Argelia', fr: "Coupe d'Algérie", it: "Coppa d'Algeria", pt: 'Taça da Argélia', ar: 'كأس الجزائر' }],
+  eurocup_women: ['regional', { tr: 'Kadınlar EuroCup', en: 'EuroCup Women', de: 'EuroCup Women', es: 'EuroCup Femenina', fr: 'EuroCoupe féminine', it: 'EuroCup femminile', pt: 'EuroCup Feminina', ar: 'كأس أوروبا لكرة السلة للسيدات' }],
   botola: ['regional', { tr: 'Fas Botola Pro', en: 'Botola Pro', de: 'Botola Pro', es: 'Botola Pro', fr: 'Botola Pro', it: 'Botola Pro', pt: 'Botola Pro', ar: 'البطولة الاحترافية' }],
   wc_qual_uefa: ['global', { tr: 'Dünya Kupası Elemeleri (Avrupa)', en: 'World Cup Qualifiers (UEFA)', de: 'WM-Qualifikation (UEFA)', es: 'Eliminatorias Mundial (UEFA)', fr: 'Qualifications Coupe du monde (UEFA)', it: 'Qualificazioni Mondiali (UEFA)', pt: 'Eliminatórias da Copa (UEFA)', ar: 'تصفيات كأس العالم (أوروبا)' }],
   wc_qual_conmebol: ['global', { tr: 'Dünya Kupası Elemeleri (Güney Amerika)', en: 'World Cup Qualifiers (CONMEBOL)', de: 'WM-Qualifikation (CONMEBOL)', es: 'Eliminatorias Sudamericanas', fr: 'Qualifications Coupe du monde (CONMEBOL)', it: 'Qualificazioni Mondiali (CONMEBOL)', pt: 'Eliminatórias Sul-Americanas', ar: 'تصفيات كأس العالم (أمريكا الجنوبية)' }],
@@ -191,7 +192,8 @@ const ortak = (a, b) => n(a).includes(n(b)) || n(b).includes(n(a)) ||
 // futbol dışında turnuva da aynı olmalı: "Moto2 Malezya GP - Sıralama" ile "MotoGP Malezya GP - ... Sıralama" birleşiyordu
 const ayni = (a, b) => a.sport === b.sport && (a.sport === 'football' || a.competitionId === b.competitionId) &&
   ortak(a.home, b.home) && ortak(a.away, b.away) &&
-  Math.abs(Date.parse(a.kickoffUtc) - Date.parse(b.kickoffUtc)) <= 6 * 3600e3;
+  // motorsporda seanslar aynı gün ardışık: "1. Antrenman" ile "2. Antrenman" 3,5 saat arayla birleşiyordu
+  Math.abs(Date.parse(a.kickoffUtc) - Date.parse(b.kickoffUtc)) <= (a.sport === 'motorsport' ? 30 * 60e3 : 6 * 3600e3);
 
 const kooKullanildi = new Set();
 function kooBul(utc, ev, dep, lig = null) {
@@ -342,7 +344,9 @@ for (const [C, cid, bc] of [['E', 'euroleague', { TR: ['S Sport Plus'] }], ['U',
 // Çok gereksiz satır var (TV programları, tenis, alt ligler): yalnız aşağıdaki ligler alınır.
 const SE_LIG = [
   [/^Basketbol Süper Ligi/i, 'bsl', 'basketball'], [/^Kad[ıi]nlar Basketbol Süper Ligi/i, 'kbsl', 'basketball', 'kadin'],
-  [/EuroLeague Kad|Kad[ıi]nlar EuroLeague/i, 'euroleague_women', 'basketball', 'kadin'], [/EuroLeague|THY Avrupa Ligi/i, 'euroleague', 'basketball'],
+  // kadın kalıpları ÖNCE: site "Eurocup Kadinlar" yazıyor, yoksa erkek EuroCup'a düşer (2 Kas)
+  [/EuroLeague Kad|Kad[ıi]nlar EuroLeague/i, 'euroleague_women', 'basketball', 'kadin'], [/EuroCup Kad|Kad[ıi]nlar EuroCup/i, 'eurocup_women', 'basketball', 'kadin'],
+  [/EuroLeague|THY Avrupa Ligi/i, 'euroleague', 'basketball'],
   [/EuroCup/i, 'eurocup', 'basketball'], [/^İspanya Basketbol Ligi/i, 'acb', 'basketball'], [/FIBA Şampiyonlar Ligi/i, 'fiba_cl', 'basketball'],
   [/^TVF Efeler Ligi/i, 'efeler', 'volleyball'], [/^TVF Sultanlar Ligi/i, 'sultansliga', 'volleyball', 'kadin'],
   [/^MotoGP /i, 'motogp', 'motorsport'], [/^Moto2 /i, 'moto2', 'motorsport'], [/^Moto3 /i, 'moto3', 'motorsport'],
@@ -356,6 +360,7 @@ function trAd(ad, spor, kadin) {
   const k = n(ad);
   const app = APP_TAKIM.find(t => t.spor === spor && t.id.length >= 6 && (k === t.id || k.endsWith(t.id) || k.startsWith(t.id)));
   if (app && !kadin) return spor === 'football' ? (SOZ.takimlar[app.id]?.home || app.ad || ad) : (app.ad || ad);
+  if (spor === 'basketball' && !kadin && BASKET_AD[k]) return BASKET_AD[k];      // Beşiktaş -> Beşiktaş GAIN
   // futbol favorisine basketbol/voleybol bildirimi gitmesin (talimat §3)
   if (spor !== 'football' && APP_FUTBOL.has(k)) return `${ad} ${spor === 'volleyball' ? 'Voleybol' : 'Basket'}${kadin ? ' Kadın' : ''}`;
   return ad;
@@ -376,7 +381,10 @@ const SEANS_TR = [   // sıra önemli: uzun ifade önce
 const cevir = (tr, i) => SEANS_TR.reduce((s, [re, k]) => s.replace(re, k[i]), tr).replace(/\s+/g, ' ').trim();
 let seEk = 0, seTR = 0;
 if (GUN === BUGUN_TR) {
-  const h = await al('https://www.sporekrani.com/');
+  let h = await al('https://www.sporekrani.com/');
+  // sayfa başlığı günü taşır ("2026-11-02 Spor Ekranı"); gece yarısı geçişinde dünkü sayfa gelirse saatler yanlış güne yazılır
+  const seGun = (h || '').match(/"title":"(\d{4}-\d\d-\d\d) Spor Ekran/)?.[1];
+  if (h && seGun !== GUN) { rapor.push(`sporekrani: sayfa ${seGun || '?'} gününü gösteriyor, ${GUN} değil — atlandı`); h = null; }
   const dec = s => s.replace(/&#39;/g, "'").replace(/&amp;/g, '&').replace(/&quot;/g, '"').trim();
   for (const r of (h || '').split('event-list__row ').slice(1)) {
     const g = re => (r.match(re) || [])[1];
