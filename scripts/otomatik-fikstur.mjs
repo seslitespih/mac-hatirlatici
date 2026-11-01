@@ -5,7 +5,7 @@
 // Kaynaklar (hepsi açık sayfa, anahtar gerekmez):
 //   futbol + kanallar  FotMob ülke TV rehberleri  fotmob.com/en/tv-guide/<ülke>  (UTC saat, 33 ülke)
 //   MENA kanal + Arapça ad  kooora  .../مباريات-اليوم?date=YYYY-MM-DD
-//   Türkiye Kupası     A Spor yayın akışı (yalnız bugün; "Ztk / Ev - Deplasman" satırları)
+//   TR kanalları + Türkiye Kupası, BSL, voleybol, MotoGP  sporekrani.com (yalnız bugün)
 //   EuroLeague/EuroCup resmi API  api-live.euroleague.net
 //   NBA ve kadın futbolu/U21 filtresi ayrı betikler: nba.mjs, filtre.mjs (iş akışı sırayla çalıştırır)
 // Eski TR kaynağı hangikanalda.app 28 Eki'de satılık alan adına döndü — KULLANMA.
@@ -298,28 +298,6 @@ for (const r of f1?.MRData?.RaceTable?.Races || []) {
   }
 }
 rapor.push(`F1: ${f1 ? f1Ek + ' seans' : 'okunamadı'}`);
-
-// ── 3) Türkiye Kupası — A Spor yayın akışı (yalnız bugünün akışı yayında) ───
-if (GUN === BUGUN_TR) {
-  const h = await al('https://www.aspor.com.tr/yayin-akisi');
-  const satir = (h || '').replace(/<[^>]+>/g, '\n').split('\n').map(s => s.replace(/&#x131;/g, 'ı').replace(/&amp;/g, '&').trim()).filter(Boolean);
-  let saat = null, adet = 0;
-  for (const s of satir) {
-    const t = s.match(/^([01]\d|2[0-3])[:.]([0-5]\d)$/);
-    if (t) { saat = `${t[1]}:${t[2]}`; continue; }
-    const z = s.match(/^Ztk\s*\/\s*(.+?)\s+-\s+(.+)$/i);
-    if (!z || !saat) continue;
-    const temiz = x => x.replace(/\s+A\.?\s?Ş\.?$/i, '').replace(/\b(Kktc|Fk|Sk|Fc|Bld)\b/g, k => k.toUpperCase()).trim();
-    const [ev, dep] = [temiz(z[1]), temiz(z[2])];
-    const utc = new Date(Date.parse(`${GUN}T${saat}:00+03:00`)).toISOString();
-    // kooora'nın Arapça adı KULLANILMAZ: 28 Eki'de 4 kupa maçının 2'sinde A Spor'dan farklı rakip yazıyordu
-    const E = takim(ev, null), D = takim(dep, null);
-    E.names.tr = ev; D.names.tr = dep;
-    kayit({ sport: 'football', cid: 'turkiye_kupasi', utc, ev: E, dep: D, broadcasts: { TR: ['A Spor'] }, sources: ['aspor.com.tr'] });
-    adet++;
-  }
-  rapor.push(`A Spor: ${h ? `${adet} Türkiye Kupası maçı` : 'okunamadı'}`);
-}
 
 // ── 4) EuroLeague / EuroCup ──────────────────────────────────────────────────
 const sezon = +GUN.slice(5, 7) >= 8 ? +GUN.slice(0, 4) : +GUN.slice(0, 4) - 1;

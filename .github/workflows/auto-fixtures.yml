@@ -1,14 +1,14 @@
 name: Otomatik Fikstür (yapay zekâsız)
 
 # 28 Eki 2026: Claude limiti / bilgisayar durumu ne olursa olsun matches-daily.json her gün güncellensin.
-# scripts/otomatik-fikstur.mjs açık kaynaklardan (FotMob, kooora, A Spor, EuroLeague, ESPN) üretir; API kredisi gerekmez.
+# scripts/otomatik-fikstur.mjs açık kaynaklardan (FotMob, kooora, goal.com, sporekrani, EuroLeague, jolpi, ESPN) üretir; API kredisi gerekmez.
 # Aynı günün dosyası varsa elle girilen maçlara dokunmaz, yalnız eksik maç/kanal ekler.
 # assets/kuyruk/<gün>.json önceden hazırlanmış günlerdir; kaynak o gün çökse de onlar girer.
 on:
   schedule:
     - cron: '20 21 * * *'   # 00:20 TR — yeni günün dosyası
     - cron: '0 4 * * *'     # 07:00 TR
-    - cron: '0 10 * * *'    # 13:00 TR — A Spor ve kooora gün içi güncel
+    - cron: '0 10 * * *'    # 13:00 TR — sporekrani ve kooora gün içi güncel
     - cron: '0 15 * * *'    # 18:00 TR — akşam maçlarının son kanal bilgisi
   workflow_dispatch:
     inputs:
