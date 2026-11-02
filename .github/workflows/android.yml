@@ -87,11 +87,20 @@ jobs:
           VERSION_CODE: ${{ github.event.inputs.version_code }}
         run: |
           cd android
+          # expo prebuild --clean, release'i debug anahtariyla imzalayan build.gradle uretiyor;
+          # -Pandroid.storeFile gibi ozellikleri okuyan yok (69 numarali paket Play'den bu yuzden
+          # "yanlis anahtar" ile dondu). AGP'nin injected.signing ozellikleri her varyanti imzalar.
           ./gradlew bundleRelease \
-            -Pandroid.storeFile=mac-hatirlatici.keystore \
-            -Pandroid.storePassword="${{ secrets.ANDROID_KEYSTORE_PASSWORD }}" \
-            -Pandroid.keyAlias="${{ secrets.ANDROID_KEY_ALIAS }}" \
-            -Pandroid.keyPassword="${{ secrets.ANDROID_KEY_PASSWORD }}"
+            -Pandroid.injected.signing.store.file="$PWD/app/mac-hatirlatici.keystore" \
+            -Pandroid.injected.signing.store.password="${{ secrets.ANDROID_KEYSTORE_PASSWORD }}" \
+            -Pandroid.injected.signing.key.alias="${{ secrets.ANDROID_KEY_ALIAS }}" \
+            -Pandroid.injected.signing.key.password="${{ secrets.ANDROID_KEY_PASSWORD }}"
+
+      - name: Imza kontrolu (Play yukleme anahtari)
+        run: |
+          keytool -printcert -jarfile android/app/build/outputs/bundle/release/*.aab | tee /tmp/imza.txt
+          grep -q "C4:08:04:44:20:02:A3:60:E1:7A:4C:92:9C:06:B2:C1:73:C9:40:18" /tmp/imza.txt \
+            || { echo "::error::AAB yukleme anahtariyla imzalanmamis"; exit 1; }
 
       - name: Upload AAB artifact
         uses: actions/upload-artifact@v4

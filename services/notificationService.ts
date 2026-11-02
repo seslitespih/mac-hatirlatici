@@ -72,6 +72,56 @@ const LANG_STRINGS: Record<string, LangStrings> = {
     on: 'على',
     note: '(تذكير بموعد المباراة فقط. لا إشعارات أهداف.)',
   },
+  pl: {
+    minsLeft: `za ${REMIND_BEFORE_MINUTES} min`,
+    on: 'w',
+    note: '(Tylko przypomnienie o godzinie meczu. Bez powiadomień o golach.)',
+  },
+  ro: {
+    minsLeft: `în ${REMIND_BEFORE_MINUTES} min`,
+    on: 'pe',
+    note: '(Doar memento pentru ora meciului. Fără notificări de gol.)',
+  },
+  uk: {
+    minsLeft: `за ${REMIND_BEFORE_MINUTES} хв`,
+    on: 'на',
+    note: '(Лише нагадування про час матчу. Без сповіщень про голи.)',
+  },
+  hu: {
+    minsLeft: `${REMIND_BEFORE_MINUTES} perc múlva`,
+    on: '',
+    note: '(Csak a meccs kezdési idejére emlékeztet. Gólértesítés nincs.)',
+  },
+  sr: {
+    minsLeft: `za ${REMIND_BEFORE_MINUTES} min`,
+    on: 'na',
+    note: '(Samo podsetnik za vreme utakmice. Bez obaveštenja o golovima.)',
+  },
+  el: {
+    minsLeft: `σε ${REMIND_BEFORE_MINUTES} λεπτά`,
+    on: 'στο',
+    note: '(Μόνο υπενθύμιση ώρας αγώνα. Χωρίς ειδοποιήσεις γκολ.)',
+  },
+  nl: {
+    minsLeft: `over ${REMIND_BEFORE_MINUTES} min`,
+    on: 'op',
+    note: '(Alleen herinnering aan de aftraptijd. Geen doelpuntmeldingen.)',
+  },
+  nb: {
+    minsLeft: `om ${REMIND_BEFORE_MINUTES} min`,
+    on: 'på',
+    note: '(Kun påminnelse om kampstart. Ingen målvarsler.)',
+  },
+  hr: {
+    minsLeft: `za ${REMIND_BEFORE_MINUTES} min`,
+    on: 'na',
+    note: '(Samo podsjetnik na početak utakmice. Bez obavijesti o golovima.)',
+  },
+  cs: {
+    minsLeft: `za ${REMIND_BEFORE_MINUTES} min`,
+    on: 'na',
+    note: '(Pouze připomínka začátku zápasu. Žádná upozornění na góly.)',
+  },
 };
 
 function getStrings(lang: string): LangStrings {
@@ -102,6 +152,16 @@ const SUMMARY_STRINGS: Record<string, SummaryStrings> = {
   de: { one: 'Heute 1 Spiel',           many: (n) => `Heute ${n} Spiele`,          more: (k) => `+${k} weitere` },
   it: { one: 'Oggi 1 partita',          many: (n) => `Oggi ${n} partite`,          more: (k) => `+${k} altre` },
   ar: { one: 'لديك مباراة واحدة اليوم', many: (n) => `لديك ${n} مباريات اليوم`,    more: (k) => `+${k} أخرى` },
+  pl: { one: 'Dziś masz 1 mecz', many: (n) => `Mecze dziś: ${n}`, more: (k) => `+${k} więcej` },
+  ro: { one: 'Azi ai 1 meci', many: (n) => `Azi ai ${n} meciuri`, more: (k) => `+${k} în plus` },
+  uk: { one: 'Сьогодні 1 матч', many: (n) => `Матчі сьогодні: ${n}`, more: (k) => `ще ${k}` },
+  hu: { one: 'Ma 1 meccsed van', many: (n) => `Ma ${n} meccsed van`, more: (k) => `+${k} további` },
+  sr: { one: 'Danas: 1 utakmica', many: (n) => `Utakmice danas: ${n}`, more: (k) => `i još ${k}` },
+  el: { one: 'Σήμερα έχεις 1 αγώνα', many: (n) => `Σήμερα έχεις ${n} αγώνες`, more: (k) => `+${k} ακόμη` },
+  nl: { one: 'Vandaag 1 wedstrijd', many: (n) => `Vandaag ${n} wedstrijden`, more: (k) => `+${k} meer` },
+  nb: { one: 'I dag: 1 kamp', many: (n) => `I dag: ${n} kamper`, more: (k) => `+${k} til` },
+  hr: { one: 'Danas: 1 utakmica', many: (n) => `Utakmice danas: ${n}`, more: (k) => `i još ${k}` },
+  cs: { one: 'Dnes máš 1 zápas', many: (n) => `Zápasy dnes: ${n}`, more: (k) => `+${k} další` },
 };
 
 function buildSummaryContent(matches: Match[], lang: string) {

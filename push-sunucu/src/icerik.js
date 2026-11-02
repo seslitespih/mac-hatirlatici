@@ -19,6 +19,16 @@ const METIN = {
   de: { kaldi: `in ${HATIRLAT_DK} Min`,              on: 'auf', not: '(Nur Spielzeit-Erinnerung. Keine Tor-Benachrichtigungen.)' },
   it: { kaldi: `tra ${HATIRLAT_DK} minuti`,          on: 'su',  not: '(Solo promemoria orario. Nessun avviso gol.)' },
   ar: { kaldi: `يبدأ بعد ${HATIRLAT_DK} دقيقة`,       on: 'على', not: '(تذكير بموعد المباراة فقط. لا إشعارات أهداف.)' },
+  pl: { kaldi: `za ${HATIRLAT_DK} min`, on: 'w', not: '(Tylko przypomnienie o godzinie meczu. Bez powiadomień o golach.)' },
+  ro: { kaldi: `în ${HATIRLAT_DK} min`, on: 'pe', not: '(Doar memento pentru ora meciului. Fără notificări de gol.)' },
+  uk: { kaldi: `за ${HATIRLAT_DK} хв`, on: 'на', not: '(Лише нагадування про час матчу. Без сповіщень про голи.)' },
+  hu: { kaldi: `${HATIRLAT_DK} perc múlva`, on: '', not: '(Csak a meccs kezdési idejére emlékeztet. Gólértesítés nincs.)' },
+  sr: { kaldi: `za ${HATIRLAT_DK} min`, on: 'na', not: '(Samo podsetnik za vreme utakmice. Bez obaveštenja o golovima.)' },
+  el: { kaldi: `σε ${HATIRLAT_DK} λεπτά`, on: 'στο', not: '(Μόνο υπενθύμιση ώρας αγώνα. Χωρίς ειδοποιήσεις γκολ.)' },
+  nl: { kaldi: `over ${HATIRLAT_DK} min`, on: 'op', not: '(Alleen herinnering aan de aftraptijd. Geen doelpuntmeldingen.)' },
+  nb: { kaldi: `om ${HATIRLAT_DK} min`, on: 'på', not: '(Kun påminnelse om kampstart. Ingen målvarsler.)' },
+  hr: { kaldi: `za ${HATIRLAT_DK} min`, on: 'na', not: '(Samo podsjetnik na početak utakmice. Bez obavijesti o golovima.)' },
+  cs: { kaldi: `za ${HATIRLAT_DK} min`, on: 'na', not: '(Pouze připomínka začátku zápasu. Žádná upozornění na góly.)' },
 };
 
 /** Uygulamanin 1.4.3'teki norm() fonksiyonu — favori eslesmesi buna gore yapiliyor. */
@@ -125,6 +135,16 @@ const OZET = {
   de: { tek: 'Heute 1 Spiel',     cok: (n) => `Heute ${n} Spiele`,     daha: (k) => `+${k} weitere` },
   it: { tek: 'Oggi 1 partita',    cok: (n) => `Oggi ${n} partite`,     daha: (k) => `+${k} altre` },
   ar: { tek: 'لديك مباراة واحدة اليوم', cok: (n) => `لديك ${n} مباريات اليوم`, daha: (k) => `+${k} أخرى` },
+  pl: { tek: 'Dziś masz 1 mecz', cok: (n) => `Mecze dziś: ${n}`, daha: (k) => `+${k} więcej` },
+  ro: { tek: 'Azi ai 1 meci', cok: (n) => `Azi ai ${n} meciuri`, daha: (k) => `+${k} în plus` },
+  uk: { tek: 'Сьогодні 1 матч', cok: (n) => `Матчі сьогодні: ${n}`, daha: (k) => `ще ${k}` },
+  hu: { tek: 'Ma 1 meccsed van', cok: (n) => `Ma ${n} meccsed van`, daha: (k) => `+${k} további` },
+  sr: { tek: 'Danas: 1 utakmica', cok: (n) => `Utakmice danas: ${n}`, daha: (k) => `i još ${k}` },
+  el: { tek: 'Σήμερα έχεις 1 αγώνα', cok: (n) => `Σήμερα έχεις ${n} αγώνες`, daha: (k) => `+${k} ακόμη` },
+  nl: { tek: 'Vandaag 1 wedstrijd', cok: (n) => `Vandaag ${n} wedstrijden`, daha: (k) => `+${k} meer` },
+  nb: { tek: 'I dag: 1 kamp', cok: (n) => `I dag: ${n} kamper`, daha: (k) => `+${k} til` },
+  hr: { tek: 'Danas: 1 utakmica', cok: (n) => `Utakmice danas: ${n}`, daha: (k) => `i još ${k}` },
+  cs: { tek: 'Dnes máš 1 zápas', cok: (n) => `Zápasy dnes: ${n}`, daha: (k) => `+${k} další` },
 };
 
 const OZET_SATIR = 3;   // bildirimde en fazla bu kadar mac adi; gerisi "+N"
