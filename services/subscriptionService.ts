@@ -36,7 +36,11 @@ export const PRODUCT_ID      = 'monthly_premium_299';  // App Store & Play Store
 // ─── Ücretsiz deneme (yerel, 10 gün) ─────────────────────────────────────────
 
 const FIRST_LAUNCH_KEY = '@first_launch_v1_0';  // version-specific: TestFlight verisini devralma
-const FREE_TRIAL_DAYS  = 10;
+// Uygulama ici UCRETSIZ KULLANIM suresi — abonelik "deneme"si DEGIL: odeme bilgisi
+// alinmaz, kimseden otomatik para cekilmez. Sure dolunca paywall cikar ve kullanici
+// isterse abone olur. Bu yuzden odeme ekraninda "ucretsiz deneme" diye pazarlanmaz
+// (Apple 3.1.2(c), 19 Eyl 2026 redi). 20 Eyl 2026: kullanici istegiyle 10 -> 30 gun.
+const FREE_TRIAL_DAYS  = 30;
 
 async function getFirstLaunchDate(): Promise<number> {
   try {
@@ -77,7 +81,7 @@ export async function getCustomerInfo(): Promise<CustomerInfo> {
 
 /**
  * Kullanıcının aktif aboneliği var mı?
- * 30 günlük ücretsiz deneme süresi içindeyse de true döner.
+ * 30 günlük ücretsiz kullanım süresi içindeyse de true döner.
  */
 export async function isSubscribed(): Promise<boolean> {
   try {
@@ -91,7 +95,7 @@ export async function isSubscribed(): Promise<boolean> {
 
 /**
  * Paywall gösterilmeli mi?
- * false → 30 günlük ücretsiz deneme süreci veya aktif abonelik var
+ * false → 30 günlük ücretsiz kullanım süresi içinde ya da aktif abonelik var
  * true  → deneme bitti, abonelik yok → paywall göster
  */
 export async function needsPaywall(): Promise<boolean> {
@@ -113,6 +117,26 @@ export async function getOfferings(): Promise<PurchasesPackage | null> {
     return offerings.current?.monthly ?? null;
   } catch {
     return null;
+  }
+}
+
+/**
+ * Odeme ekraninda gosterilecek paketler: aylik + (varsa) yillik.
+ * Yillik urun 28 Eyl 2026'da eklendi (yearly_premium_1799, aylik fiyatin yarisi).
+ * Magazada ya da RevenueCat'te yoksa yalniz aylik doner — ekran tek secenekle calisir.
+ */
+export interface Paketler {
+  aylik:  PurchasesPackage | null;
+  yillik: PurchasesPackage | null;
+}
+
+export async function getPaketler(): Promise<Paketler> {
+  try {
+    const offerings = await Purchases.getOfferings();
+    const g = offerings.current;
+    return { aylik: g?.monthly ?? null, yillik: g?.annual ?? null };
+  } catch {
+    return { aylik: null, yillik: null };
   }
 }
 

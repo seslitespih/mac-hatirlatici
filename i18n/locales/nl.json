@@ -9,7 +9,6 @@
     "appTitle": "Welk kanaal?",
     "lastUpdated": "Bijgewerkt: {{time}}",
     "today": "Vandaag",
-    "tomorrow": "Morgen",
     "noMatches": "Geen wedstrijden vandaag",
     "noFavoriteMatches": "Geen wedstrijden van je favoriete teams",
     "allMatches": "Alle wedstrijden",
@@ -28,7 +27,8 @@
     "worldcupSubtitle": "Zenders en aftraptijden van elke wedstrijd",
     "reminder15min": "Herinnering ingesteld — 15 min voor de aftrap",
     "reminderNoGoal": "(Alleen de aftraptijd — geen doelpuntmeldingen)",
-    "noChannel": "Geen informatie over de uitzender"
+    "noChannel": "Geen informatie over de uitzender",
+    "night": "Vannacht"
   },
   "teams": {
     "title": "Teams kiezen",
@@ -66,7 +66,9 @@
     "countryDesc": "Welke zenders je bij een wedstrijd ziet, hangt af van het gekozen land.",
     "selectCountry": "Land kiezen",
     "appName": "Welk kanaal?",
-    "appDesc": "Volg wedstrijden op het juiste kanaal, op het juiste moment."
+    "appDesc": "Volg wedstrijden op het juiste kanaal, op het juiste moment.",
+    "notifySports": "Voor welke sporten wil je meldingen?",
+    "getPremium": "Premium nemen"
   },
   "notification": {
     "title": "⚽ Wedstrijdherinnering",
@@ -82,14 +84,14 @@
   },
   "paywall": {
     "subtitle": "Sport-tv-gids",
-    "trial": "10 DAGEN GRATIS PROBEREN",
+    "trial": "{{days}} DAGEN GRATIS PROBEREN",
     "feature0": "Wedstrijden van vandaag — juiste tijd en zender",
     "feature1": "Herinnering 15 minuten voor de wedstrijd",
     "feature2": "Tv-schema voor 15 landen",
     "feature3": "Dagelijkse automatische updates",
     "pricePerMonth": "/maand",
-    "priceNote": "Na de gratis proefperiode van 10 dagen {{price}}/maand. Altijd opzegbaar.",
-    "startFree": "Start gratis — 10 dagen",
+    "priceNote": "Na de gratis proefperiode van {{days}} dagen betaal je {{price}} per maand.",
+    "startFree": "Gratis starten — {{days}} dagen",
     "restore": "Aankopen herstellen",
     "legalIos": "Wordt afgeschreven van je iTunes-account. Het abonnement wordt automatisch verlengd tenzij je het minstens 24 uur voor het einde van de huidige periode opzegt.",
     "legalAndroid": "Wordt afgeschreven van je Google Play-account. Altijd opzegbaar via Google Play.",
@@ -100,6 +102,16 @@
     "errorRestore": "Aankopen konden niet worden hersteld.",
     "offeringError": "Abonnementsopties konden niet worden geladen. Controleer je internetverbinding.",
     "privacyPolicy": "Privacybeleid",
-    "termsOfUse": "Gebruiksvoorwaarden"
+    "termsOfUse": "Gebruiksvoorwaarden",
+    "priceNoTrial": "Je betaalt {{price}} per maand.",
+    "subscribe": "Abonneren",
+    "autoRenewTrial": "{{days}} dagen gratis. Na de proefperiode wordt het abonnement automatisch verlengd voor {{price}} per maand. Zeg je minstens 24 uur voor het einde van de proefperiode op, dan betaal je niets.",
+    "autoRenew": "Het abonnement wordt automatisch verlengd voor {{price}} per maand. Je kunt opzeggen tot minstens 24 uur voor het einde van de periode.",
+    "yearly": "Jaarlijks",
+    "monthly": "Maandelijks",
+    "perYear": "/jaar",
+    "perMonth": "/maand",
+    "savePercent": "Bespaar {{percent}}%",
+    "autoRenewYear": "Het abonnement wordt automatisch verlengd voor {{price}} per jaar. Je kunt opzeggen tot minstens 24 uur voor het einde van de periode."
   }
 }

@@ -9,7 +9,6 @@
     "appTitle": "Pe ce canal?",
     "lastUpdated": "Actualizat: {{time}}",
     "today": "Azi",
-    "tomorrow": "Mâine",
     "noMatches": "Niciun meci astăzi",
     "noFavoriteMatches": "Niciun meci al echipelor tale favorite",
     "allMatches": "Toate meciurile",
@@ -28,7 +27,8 @@
     "worldcupSubtitle": "Canalele de transmisie și orele tuturor meciurilor",
     "reminder15min": "Memento setat — cu 15 min înainte de start",
     "reminderNoGoal": "(Doar ora meciului — fără notificări de gol)",
-    "noChannel": "Nu există informații despre transmisie"
+    "noChannel": "Nu există informații despre transmisie",
+    "night": "În noaptea asta"
   },
   "teams": {
     "title": "Alege echipele",
@@ -66,7 +66,9 @@
     "countryDesc": "Canalele afișate la fiecare meci depind de țara aleasă.",
     "selectCountry": "Alege țara",
     "appName": "Pe ce canal?",
-    "appDesc": "Urmărește meciurile pe canalul potrivit, la momentul potrivit."
+    "appDesc": "Urmărește meciurile pe canalul potrivit, la momentul potrivit.",
+    "notifySports": "Pentru ce sporturi vrei notificări?",
+    "getPremium": "Ia Premium"
   },
   "notification": {
     "title": "⚽ Memento meci",
@@ -82,14 +84,14 @@
   },
   "paywall": {
     "subtitle": "Ghid TV sportiv",
-    "trial": "10 ZILE GRATUIT",
+    "trial": "{{days}} ZILE GRATUIT",
     "feature0": "Meciurile de azi — ora și canalul corect",
     "feature1": "Memento cu 15 minute înainte de meci",
     "feature2": "Program TV pentru 15 țări",
     "feature3": "Actualizări automate zilnice",
     "pricePerMonth": "/lună",
-    "priceNote": "După perioada gratuită de 10 zile, {{price}}/lună. Poți anula oricând.",
-    "startFree": "Începe gratuit — 10 zile",
+    "priceNote": "După perioada gratuită de {{days}} zile, se percepe {{price}} pe lună.",
+    "startFree": "Începe gratuit — {{days}} zile",
     "restore": "Restaurează achizițiile",
     "legalIos": "Plata se face din contul tău iTunes. Abonamentul se reînnoiește automat dacă nu este anulat cu cel puțin 24 de ore înainte de sfârșitul perioadei curente.",
     "legalAndroid": "Plata se face din contul tău Google Play. Poți anula oricând din Google Play.",
@@ -100,6 +102,16 @@
     "errorRestore": "Achizițiile nu au putut fi restaurate.",
     "offeringError": "Opțiunile de abonament nu au putut fi încărcate. Verifică conexiunea la internet.",
     "privacyPolicy": "Politica de confidențialitate",
-    "termsOfUse": "Termeni de utilizare"
+    "termsOfUse": "Termeni de utilizare",
+    "priceNoTrial": "Se percepe {{price}} pe lună.",
+    "subscribe": "Abonează-te",
+    "autoRenewTrial": "Gratuit {{days}} zile. După perioada de probă, abonamentul se reînnoiește automat la {{price}} pe lună. Dacă anulezi cu cel puțin 24 de ore înainte de sfârșitul perioadei de probă, nu plătești nimic.",
+    "autoRenew": "Abonamentul se reînnoiește automat la {{price}} pe lună. Poți anula cu cel puțin 24 de ore înainte de sfârșitul perioadei.",
+    "yearly": "Anual",
+    "monthly": "Lunar",
+    "perYear": "/an",
+    "perMonth": "/lună",
+    "savePercent": "Economisești {{percent}}%",
+    "autoRenewYear": "Abonamentul se reînnoiește automat la {{price}} pe an. Poți anula cu cel puțin 24 de ore înainte de sfârșitul perioadei."
   }
 }

@@ -9,7 +9,6 @@
     "appTitle": "Na jakim kanale?",
     "lastUpdated": "Aktualizacja: {{time}}",
     "today": "Dziś",
-    "tomorrow": "Jutro",
     "noMatches": "Brak meczów na dziś",
     "noFavoriteMatches": "Brak meczów Twoich ulubionych drużyn",
     "allMatches": "Wszystkie mecze",
@@ -28,7 +27,8 @@
     "worldcupSubtitle": "Kanały transmisji i godziny wszystkich meczów",
     "reminder15min": "Przypomnienie ustawione — 15 min przed meczem",
     "reminderNoGoal": "(Tylko godzina meczu — bez powiadomień o golach)",
-    "noChannel": "Brak informacji o transmisji"
+    "noChannel": "Brak informacji o transmisji",
+    "night": "Dziś w nocy"
   },
   "teams": {
     "title": "Wybierz drużyny",
@@ -66,7 +66,9 @@
     "countryDesc": "Kanały przy każdym meczu zależą od wybranego kraju.",
     "selectCountry": "Wybierz kraj",
     "appName": "Na jakim kanale?",
-    "appDesc": "Oglądaj mecze na właściwym kanale o właściwej porze."
+    "appDesc": "Oglądaj mecze na właściwym kanale o właściwej porze.",
+    "notifySports": "Z jakich dyscyplin chcesz powiadomienia?",
+    "getPremium": "Kup Premium"
   },
   "notification": {
     "title": "⚽ Przypomnienie o meczu",
@@ -82,14 +84,14 @@
   },
   "paywall": {
     "subtitle": "Sportowy przewodnik TV",
-    "trial": "10 DNI ZA DARMO",
+    "trial": "{{days}} DNI ZA DARMO",
     "feature0": "Dzisiejsze mecze — właściwa godzina i kanał",
     "feature1": "Przypomnienie 15 minut przed meczem",
     "feature2": "Program TV dla 15 krajów",
     "feature3": "Codzienne automatyczne aktualizacje",
     "pricePerMonth": "/miesiąc",
-    "priceNote": "Po 10-dniowym bezpłatnym okresie próbnym {{price}}/miesiąc. Możesz zrezygnować w każdej chwili.",
-    "startFree": "Zacznij za darmo — 10 dni",
+    "priceNote": "Po {{days}}-dniowym bezpłatnym okresie próbnym opłata wynosi {{price}} miesięcznie.",
+    "startFree": "Zacznij za darmo — {{days}} dni",
     "restore": "Przywróć zakupy",
     "legalIos": "Opłata zostanie pobrana z Twojego konta iTunes. Subskrypcja odnawia się automatycznie, chyba że anulujesz ją co najmniej 24 godziny przed końcem bieżącego okresu.",
     "legalAndroid": "Opłata zostanie pobrana z Twojego konta Google Play. Możesz zrezygnować w każdej chwili w Google Play.",
@@ -100,6 +102,16 @@
     "errorRestore": "Nie udało się przywrócić zakupów.",
     "offeringError": "Nie udało się wczytać opcji subskrypcji. Sprawdź połączenie z internetem.",
     "privacyPolicy": "Polityka prywatności",
-    "termsOfUse": "Warunki korzystania"
+    "termsOfUse": "Warunki korzystania",
+    "priceNoTrial": "Opłata wynosi {{price}} miesięcznie.",
+    "subscribe": "Subskrybuj",
+    "autoRenewTrial": "{{days}} dni za darmo. Po okresie próbnym subskrypcja odnawia się automatycznie za {{price}} miesięcznie. Jeśli anulujesz co najmniej 24 godziny przed końcem okresu próbnego, nie zapłacisz nic.",
+    "autoRenew": "Subskrypcja odnawia się automatycznie za {{price}} miesięcznie. Możesz ją anulować najpóźniej 24 godziny przed końcem okresu.",
+    "yearly": "Rocznie",
+    "monthly": "Miesięcznie",
+    "perYear": "/rok",
+    "perMonth": "/miesiąc",
+    "savePercent": "Oszczędzasz {{percent}}%",
+    "autoRenewYear": "Subskrypcja odnawia się automatycznie za {{price}} rocznie. Możesz ją anulować najpóźniej 24 godziny przed końcem okresu."
   }
 }

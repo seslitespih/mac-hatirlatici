@@ -1,13 +1,13 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import {
-  View, Text, StyleSheet, TouchableOpacity,
+  View, Text, StyleSheet, TouchableOpacity, ScrollView,
   ActivityIndicator, Alert, Platform, Linking,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useTranslation } from 'react-i18next';
 import { PurchasesPackage } from 'react-native-purchases';
 import {
-  getOfferings, purchaseSubscription, restorePurchases,
+  getPaketler, purchaseSubscription, restorePurchases,
 } from '../services/subscriptionService';
 import { useTheme } from '../contexts/ThemeContext';
 
@@ -22,6 +22,8 @@ export default function PaywallScreen({ onSubscribed }: Props) {
   const { t } = useTranslation();
   const { colors } = useTheme();
   const [pkg,          setPkg]          = useState<PurchasesPackage | null>(null);
+  const [yillikPkg,    setYillikPkg]    = useState<PurchasesPackage | null>(null);
+  const [secim,        setSecim]        = useState<'aylik' | 'yillik'>('yillik');
   const [loading,      setLoading]      = useState(false);
   const [fetching,     setFetching]     = useState(true);
   const [offeringErr,  setOfferingErr]  = useState(false);
@@ -29,9 +31,11 @@ export default function PaywallScreen({ onSubscribed }: Props) {
   const loadOffering = useCallback(() => {
     setFetching(true);
     setOfferingErr(false);
-    getOfferings().then((p) => {
-      setPkg(p);
-      setOfferingErr(p === null);
+    getPaketler().then(({ aylik, yillik }) => {
+      setPkg(aylik);
+      setYillikPkg(yillik);
+      setSecim(yillik ? 'yillik' : 'aylik');
+      setOfferingErr(aylik === null && yillik === null);
       setFetching(false);
     });
   }, []);
@@ -42,7 +46,7 @@ export default function PaywallScreen({ onSubscribed }: Props) {
     if (!pkg) return;
     setLoading(true);
     try {
-      const ok = await purchaseSubscription(pkg);
+      const ok = await purchaseSubscription(secili!);
       if (ok) onSubscribed();
     } catch {
       Alert.alert(t('paywall.errorTitle'), t('paywall.errorPurchase'));
@@ -67,7 +71,31 @@ export default function PaywallScreen({ onSubscribed }: Props) {
     }
   }
 
-  const priceStr = pkg?.product.priceString ?? '$2.99';
+  const secili   = secim === 'yillik' && yillikPkg ? yillikPkg : pkg;
+  const aylikFiyat  = pkg?.product.price ?? 0;
+  const yillikFiyat = yillikPkg?.product.price ?? 0;
+  // Tasarruf yuzdesi fiyatlardan hesaplanir; magaza fiyati degisince metin de degisir.
+  const tasarruf = aylikFiyat > 0 && yillikFiyat > 0
+    ? Math.round((1 - yillikFiyat / (aylikFiyat * 12)) * 100)
+    : 0;
+
+  // Fiyat ve deneme suresi URUNDEN okunur. Magazadaki gercek degerle ekrandaki
+  // metin birbirini tutmak zorunda (Apple 3.1.2(c)); bu yuzden sabit yazilmaz.
+  const priceStr = secili?.product.priceString ?? '';
+  const intro    = secili?.product.introPrice ?? null;
+  // Magazada tanimli deneme YOKSA deneme iddiasi da olmaz (0 -> rozet ve
+  // "ucretsiz basla" metni gizlenir). Sabit bir sure varsaymak red sebebiydi.
+  const denemeGun = (() => {
+    if (!intro || intro.price !== 0) return 0;
+    const n = intro.periodNumberOfUnits ?? 0;
+    switch (intro.periodUnit) {
+      case 'DAY':   return n;
+      case 'WEEK':  return n * 7;
+      case 'MONTH': return n * 30;
+      case 'YEAR':  return n * 365;
+      default:      return 0;
+    }
+  })();
 
   const features: [string, string][] = [
     ['⚽', t('paywall.feature0')],
@@ -78,7 +106,11 @@ export default function PaywallScreen({ onSubscribed }: Props) {
 
   return (
     <SafeAreaView style={[s.safe, { backgroundColor: colors.bg0 }]}>
-      <View style={s.container}>
+      <ScrollView
+        contentContainerStyle={s.container}
+        showsVerticalScrollIndicator={false}
+        bounces={false}
+      >
 
         {/* Logo */}
         <View style={[s.iconWrap, { backgroundColor: colors.bg2, borderColor: colors.border }]}>
@@ -98,19 +130,63 @@ export default function PaywallScreen({ onSubscribed }: Props) {
           ))}
         </View>
 
-        {/* Fiyat kartı */}
-        <View style={[s.priceCard, { backgroundColor: colors.bg2, borderColor: colors.border }]}>
-          <View style={[s.trialBadge, { backgroundColor: colors.accentGlow, borderColor: colors.accent + '44' }]}>
-            <Text style={[s.trialText, { color: colors.accent }]}>{t('paywall.trial')}</Text>
+        {/* Plan seçici — yıllık ürün mağazada tanımlıysa iki seçenek, yoksa tek kart */}
+        {!!yillikPkg && !!pkg && (
+          <View style={s.planlar}>
+            {([
+              ['yillik', yillikPkg, t('paywall.yearly'), t('paywall.perYear')],
+              ['aylik',  pkg,       t('paywall.monthly'), t('paywall.perMonth')],
+            ] as const).map(([anahtar, paket, baslik, birim]) => {
+              const aktif = secim === anahtar;
+              return (
+                <TouchableOpacity
+                  key={anahtar}
+                  onPress={() => setSecim(anahtar)}
+                  activeOpacity={0.8}
+                  style={[s.plan, {
+                    borderColor: aktif ? colors.accent : colors.border,
+                    backgroundColor: aktif ? colors.accentGlow : 'transparent',
+                    borderWidth: aktif ? 2 : 1,
+                  }]}
+                >
+                  <View style={{ flex: 1 }}>
+                    <Text style={[s.planAd, { color: colors.text }]}>{baslik}</Text>
+                    <Text style={[s.planFiyat, { color: colors.textSub }]}>
+                      {paket.product.priceString}{birim}
+                    </Text>
+                  </View>
+                  {anahtar === 'yillik' && tasarruf > 0 && (
+                    <View style={[s.rozet, { backgroundColor: colors.accent }]}>
+                      <Text style={s.rozetTxt}>{t('paywall.savePercent', { percent: tasarruf })}</Text>
+                    </View>
+                  )}
+                </TouchableOpacity>
+              );
+            })}
           </View>
-          <Text style={[s.price, { color: colors.text }]}>
-            {priceStr}
-            <Text style={[s.pricePer, { color: colors.textSub }]}>{t('paywall.pricePerMonth')}</Text>
-          </Text>
-          <Text style={[s.priceNote, { color: colors.textSub }]}>
-            {t('paywall.priceNote', { price: priceStr })}
-          </Text>
-        </View>
+        )}
+
+        {/* Fiyat kartı — fiyat mağazadan gelmediyse hiç gösterilmez (sahte fiyat yazmayız) */}
+        {!!priceStr && !(yillikPkg && pkg) && (
+          <View style={[s.priceCard, { backgroundColor: colors.bg2, borderColor: colors.border }]}>
+            {denemeGun > 0 && (
+              <View style={[s.trialBadge, { backgroundColor: colors.accentGlow, borderColor: colors.accent + '44' }]}>
+                <Text style={[s.trialText, { color: colors.accent }]}>
+                  {t('paywall.trial', { days: denemeGun })}
+                </Text>
+              </View>
+            )}
+            <Text style={[s.price, { color: colors.text }]}>
+              {priceStr}
+              <Text style={[s.pricePer, { color: colors.textSub }]}>{t('paywall.pricePerMonth')}</Text>
+            </Text>
+            <Text style={[s.priceNote, { color: colors.text }]}>
+              {denemeGun > 0
+                ? t('paywall.priceNote',   { price: priceStr, days: denemeGun })
+                : t('paywall.priceNoTrial', { price: priceStr })}
+            </Text>
+          </View>
+        )}
 
         {/* Butonlar */}
         {fetching ? (
@@ -132,9 +208,22 @@ export default function PaywallScreen({ onSubscribed }: Props) {
             >
               {loading
                 ? <ActivityIndicator color="#fff" />
-                : <Text style={s.btnText}>{t('paywall.startFree')}</Text>
+                : <Text style={s.btnText}>
+                    {denemeGun > 0 ? t('paywall.startFree', { days: denemeGun }) : t('paywall.subscribe')}
+                  </Text>
               }
             </TouchableOpacity>
+
+            {/* Apple 3.1.2(c): deneme suresi + deneme sonrasi tutar, dugmenin hemen
+                altinda ve okunur puntoda. Solukluk/kucuk punto red sebebiydi. */}
+            {!!priceStr && (
+              <Text style={[s.renewNotice, { color: colors.text }]}>
+                {denemeGun > 0
+                  ? t('paywall.autoRenewTrial', { days: denemeGun, price: priceStr })
+                  : t(secim === 'yillik' && yillikPkg ? 'paywall.autoRenewYear' : 'paywall.autoRenew',
+                      { price: priceStr })}
+              </Text>
+            )}
 
             <TouchableOpacity
               style={s.restoreBtn}
@@ -161,14 +250,14 @@ export default function PaywallScreen({ onSubscribed }: Props) {
             <Text style={[s.legalLink, { color: colors.accent }]}>{t('paywall.termsOfUse')}</Text>
           </TouchableOpacity>
         </View>
-      </View>
+      </ScrollView>
     </SafeAreaView>
   );
 }
 
 const s = StyleSheet.create({
   safe:         { flex: 1 },
-  container:    { flex: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 24, paddingBottom: 24 },
+  container:    { flexGrow: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 24, paddingVertical: 24 },
   iconWrap:     { width: 80, height: 80, borderRadius: 20, alignItems: 'center', justifyContent: 'center', marginBottom: 16, borderWidth: 1 },
   icon:         { fontSize: 40 },
   title:        { fontSize: 28, fontWeight: '900', letterSpacing: -0.5 },
@@ -177,18 +266,26 @@ const s = StyleSheet.create({
   featureRow:   { flexDirection: 'row', alignItems: 'center', gap: 12 },
   featureEmoji: { fontSize: 20, width: 28 },
   featureText:  { fontSize: 14, fontWeight: '500', flex: 1 },
+  planlar:      { width: '100%', gap: 10, marginBottom: 16 },
+  plan:         { flexDirection: 'row', alignItems: 'center', borderRadius: 14, paddingHorizontal: 16, paddingVertical: 14, gap: 10 },
+  planAd:       { fontSize: 16, fontWeight: '700' },
+  planFiyat:    { fontSize: 13, marginTop: 2 },
+  rozet:        { borderRadius: 999, paddingHorizontal: 10, paddingVertical: 4 },
+  rozetTxt:     { color: '#fff', fontSize: 11, fontWeight: '800' },
+
   priceCard:    { width: '100%', borderRadius: 16, padding: 20, alignItems: 'center', marginBottom: 20, borderWidth: 1 },
   trialBadge:   { borderRadius: 20, paddingHorizontal: 14, paddingVertical: 5, marginBottom: 10, borderWidth: 1 },
   trialText:    { fontSize: 11, fontWeight: '800', letterSpacing: 1 },
   price:        { fontSize: 36, fontWeight: '900' },
   pricePer:     { fontSize: 16, fontWeight: '500' },
-  priceNote:    { fontSize: 11, textAlign: 'center', marginTop: 8, lineHeight: 16 },
+  priceNote:    { fontSize: 13, textAlign: 'center', marginTop: 8, lineHeight: 19, fontWeight: '500' },
+  renewNotice:  { fontSize: 13, textAlign: 'center', marginTop: 12, lineHeight: 19 },
   btn:          { width: '100%', borderRadius: 14, paddingVertical: 16, alignItems: 'center' },
   btnDisabled:  { opacity: 0.6 },
   btnText:      { color: '#fff', fontSize: 16, fontWeight: '800' },
   restoreBtn:   { marginTop: 14, paddingVertical: 8 },
   restoreText:  { fontSize: 13, textDecorationLine: 'underline' },
-  legal:        { fontSize: 10, textAlign: 'center', marginTop: 16, lineHeight: 15, opacity: 0.7 },
+  legal:        { fontSize: 11, textAlign: 'center', marginTop: 16, lineHeight: 16 },
   legalLinks:   { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: 8 },
   legalLink:    { fontSize: 11, textDecorationLine: 'underline' },
   legalSep:     { fontSize: 11 },

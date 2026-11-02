@@ -9,7 +9,7 @@
     "appTitle": "Su Quale Canale?",
     "lastUpdated": "Aggiornato: {{time}}",
     "today": "Oggi",
-    "tomorrow": "Domani",
+    "night": "Notte",
     "noMatches": "Nessuna partita oggi",
     "noFavoriteMatches": "Nessuna partita delle tue squadre preferite",
     "allMatches": "Tutte le Partite",
@@ -52,6 +52,7 @@
     "language": "Lingua",
     "notifications": "Notifiche",
     "notificationsDesc": "Ricevi notifiche 15 minuti prima dell'inizio della partita",
+    "notifySports": "Per quali sport ricevere avvisi?",
     "noGoalDisclaimer": "Non inviamo notifiche di gol intenzionalmente — non vogliamo rovinare la tua esperienza. Vengono inviati solo promemoria 15 minuti prima della partita.",
     "theme": "Tema",
     "dark": "Scuro",
@@ -66,7 +67,8 @@
     "countryDesc": "I canali mostrati per ogni partita dipendono dal tuo paese selezionato.",
     "selectCountry": "Seleziona Paese",
     "appName": "Su Quale Canale?",
-    "appDesc": "Segui le partite sul canale giusto all'orario giusto."
+    "appDesc": "Segui le partite sul canale giusto all'orario giusto.",
+    "getPremium": "Passa a Premium"
   },
   "notification": {
     "title": "⚽ Promemoria Partita",
@@ -82,14 +84,14 @@
   },
   "paywall": {
     "subtitle": "Guida Sport TV",
-    "trial": "10 GIORNI GRATUITI",
+    "trial": "{{days}} GIORNI DI PROVA GRATUITA",
     "feature0": "Tutte le partite di oggi — ora e canale corretti",
     "feature1": "Promemoria 15 minuti prima della partita",
     "feature2": "Programma TV in 15 paesi",
     "feature3": "Aggiornamenti automatici giornalieri",
     "pricePerMonth": "/mese",
-    "priceNote": "Dopo i 10 giorni di prova, fatturato a {{price}}/mese. Cancella quando vuoi.",
-    "startFree": "Inizia gratis — 10 giorni",
+    "priceNote": "Al termine della prova gratuita di {{days}} giorni ti verranno addebitati {{price}} al mese.",
+    "startFree": "Inizia gratis — {{days}} giorni",
     "restore": "Ripristina acquisti",
     "legalIos": "Addebitato al tuo account iTunes. L'abbonamento si rinnova automaticamente se non viene cancellato almeno 24 ore prima della fine del periodo corrente.",
     "legalAndroid": "Addebitato al tuo account Google Play. Cancella quando vuoi tramite Google Play.",
@@ -100,6 +102,16 @@
     "errorRestore": "Impossibile ripristinare gli acquisti.",
     "offeringError": "Impossibile caricare le opzioni di abbonamento. Controlla la tua connessione internet.",
     "privacyPolicy": "Informativa sulla privacy",
-    "termsOfUse": "Termini di utilizzo"
+    "termsOfUse": "Termini di utilizzo",
+    "priceNoTrial": "Ti verranno addebitati {{price}} al mese.",
+    "subscribe": "Abbonati",
+    "autoRenewTrial": "Gratis per {{days}} giorni. Alla fine della prova l'abbonamento si rinnova automaticamente a {{price}} al mese. Se annulli almeno 24 ore prima della fine della prova non ti verrà addebitato nulla.",
+    "autoRenew": "L'abbonamento si rinnova automaticamente a {{price}} al mese. Puoi annullare fino a 24 ore prima della fine del periodo.",
+    "yearly": "Annuale",
+    "monthly": "Mensile",
+    "perYear": "/anno",
+    "perMonth": "/mese",
+    "savePercent": "Risparmi il {{percent}}%",
+    "autoRenewYear": "L'abbonamento si rinnova automaticamente a {{price}} all'anno. Puoi annullare fino a 24 ore prima della fine del periodo."
   }
 }

@@ -3,6 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 const KEYS = {
   SELECTED_TEAMS: '@selected_teams',
   NOTIFICATIONS_ENABLED: '@notifications_enabled',
+  NOTIFY_SPORTS: '@notify_sports_v1',
   THEME: '@app_theme',
   LANGUAGE: '@app_language',
   COUNTRY: '@app_country',
@@ -71,6 +72,35 @@ export async function getNotificationsEnabled(): Promise<boolean> {
 export async function saveNotificationsEnabled(enabled: boolean): Promise<void> {
   try {
     await AsyncStorage.setItem(KEYS.NOTIFICATIONS_ENABLED, JSON.stringify(enabled));
+  } catch (_) {}
+}
+
+// ─── Bildirim dalları ──────────────────────────────────────────────────────────
+// Takım seçimi spor dalını ayırmıyor: aynı adı taşıyan kulübün (Real Madrid, Barcelona)
+// basketbol maçı da futbol favorisiyle eşleşiyordu. Kullanıcı hangi dallarda bildirim
+// istediğini burada seçer. Varsayılan: hepsi — eski davranış birebir korunur.
+
+export type NotifySport = 'football' | 'basketball' | 'volleyball' | 'motorsport';
+export const NOTIFY_SPORTS_ALL: NotifySport[] = ['football', 'basketball', 'volleyball', 'motorsport'];
+
+export async function getNotifySports(): Promise<NotifySport[]> {
+  try {
+    const raw = await AsyncStorage.getItem(KEYS.NOTIFY_SPORTS);
+    if (raw === null) return NOTIFY_SPORTS_ALL;
+    const list = JSON.parse(raw) as NotifySport[];
+    if (!Array.isArray(list)) return NOTIFY_SPORTS_ALL;
+    const temiz = list.filter((s) => NOTIFY_SPORTS_ALL.includes(s));
+    // Hepsi kapalıysa bildirim anahtarı zaten kapatılmalıydı; boş listeyi kayıp sayıp
+    // hepsine dönmek, kullanıcının sessizce bildirimsiz kalmasından iyidir.
+    return temiz.length > 0 ? temiz : NOTIFY_SPORTS_ALL;
+  } catch {
+    return NOTIFY_SPORTS_ALL;
+  }
+}
+
+export async function saveNotifySports(sports: NotifySport[]): Promise<void> {
+  try {
+    await AsyncStorage.setItem(KEYS.NOTIFY_SPORTS, JSON.stringify(sports));
   } catch (_) {}
 }
 

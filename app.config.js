@@ -3,6 +3,17 @@
 
 const IS_PROD = process.env.APP_ENV === 'production';
 
+// google-services.json .gitignore'da (herkese acik depo). CI'da GOOGLE_SERVICES_JSON secret'indan
+// yazilir. Dosya yoksa FCM satiri devre disi kalir: derleme KIRILMAZ, uygulama eskisi gibi
+// yerel bildirimle calisir (pushService token alamaz -> false doner).
+/** RevenueCat anahtari dogru magazaya mi ait? Degilse bilinen gecerli anahtara don. */
+const rcAnahtar = (deger, onEk, yedek) =>
+  (typeof deger === 'string' && deger.startsWith(onEk)) ? deger : yedek;
+
+const GOOGLE_SERVICES = require('fs').existsSync(__dirname + '/google-services.json')
+  ? './google-services.json'
+  : undefined;
+
 module.exports = {
   expo: {
     name: 'Sports on TV',
@@ -32,7 +43,10 @@ module.exports = {
       sr: './locales/sr.json',
     },
     version: '1.5.0',
-    orientation: 'portrait',
+    // Android 16 buyuk ekranlarda yon kisitlamasini YOK SAYIYOR; Play de kaldirilmasini
+    // istiyor. 'default' = cihazin yonunu izle. Ekranlar liste tabanli ve SafeAreaView
+    // kullaniyor; yatay gorunum derlemeden sonra emulatorde kontrol edilmeli.
+    orientation: 'default',
     icon: './assets/icon.png',
     userInterfaceStyle: 'light',
     backgroundColor: '#F0F5FF',
@@ -57,9 +71,10 @@ module.exports = {
         'android.permission.POST_NOTIFICATIONS',
         'android.permission.SCHEDULE_EXACT_ALARM',
       ],
-      // google-services.json sadece Firebase/FCM kullanıyorsak gerekli
-      // Lokal bildirimler için gerekli değil — yorum satırı bırakıldı
-      // googleServicesFile: './google-services.json',
+      // 1.4.4: push bildirimleri icin FCM gerekli (Android'de uzaktan bildirimin tek kanali).
+      // Uygulamaya Firebase KUTUPHANESI eklenmedi; expo-notifications zaten iceriyor, bu dosya
+      // yalniz hangi projeye baglanacagini soyler. Firebase projesi: mac-hatirlatici-bildirim.
+      googleServicesFile: GOOGLE_SERVICES,
     },
 
     ios: {
@@ -94,8 +109,24 @@ module.exports = {
         {
           android: {
             usesCleartextTraffic: false,
-            compileSdkVersion: 35,
-            targetSdkVersion: 35,
+            // Play zorunlulugu (21 Eyl 2026): hedef API 36. AGP 8.6 (Expo 52) API 36'yi
+            // resmen bilmiyor; android.yml prebuild sonrasi suppressUnsupportedCompileSdk ekliyor.
+            compileSdkVersion: 36,
+            targetSdkVersion: 36,
+            // Play "DEX kodu optimizasyonu esigin altinda" dedi (karartma %3, son tarih Sub 2027).
+            // R8 hem kucultur hem karartir. Expo/RN kurallari node_modules'den otomatik gelir.
+            enableProguardInReleaseBuilds: true,
+            enableShrinkResourcesInReleaseBuilds: true,
+            // R8, yalniz reflection ile cagrilan siniflari "kullanilmiyor" sanip atiyor.
+            // 21 Eyl 2026: RNHeadlessAppLoader dex'ten dustu -> arka plan gorevi (gunluk
+            // fikstur cekme) calismaz hale gelirdi. Dogrulama: dex icinde sinif adini ara.
+            extraProguardRules: [
+              '-keep class expo.modules.** { *; }',
+              '-keep class expo.core.** { *; }',
+              '-keep class com.facebook.react.HeadlessJsTaskService { *; }',
+              '-keep class * implements expo.modules.core.interfaces.Package { *; }',
+              '-keepnames class * implements expo.modules.kotlin.modules.Module',
+            ].join(String.fromCharCode(10)),
             minSdkVersion: 26,
             ndkVersion: '28.2.13676358',
           },
@@ -105,6 +136,7 @@ module.exports = {
         },
       ],
       './plugins/withPodfilePatches',
+      './plugins/withAndroid16',
     ],
 
     experiments: {
@@ -116,8 +148,12 @@ module.exports = {
       footballDataToken: process.env.FOOTBALL_DATA_TOKEN ?? '',
       rapidApiKey:       process.env.RAPID_API_KEY ?? '',
       groqApiKey:        process.env.GROQ_API_KEY ?? '',
-      rcApiKeyIos:       process.env.REVENUECAT_IOS_KEY || 'appl_DBXnXzCViacQTaNmOobAfGHuYGf',
-      rcApiKeyAndroid:   process.env.REVENUECAT_ANDROID_KEY || 'goog_kKIpmpVTfhMJaJjQjzOIcFrZsGR',
+      // ⚠️ 21 Eyl 2026: CI'daki REVENUECAT_ANDROID_KEY gizli degeri bir TEST magaza
+      // anahtari ('test_...'). RevenueCat SDK 10 surum derlemesinde bunu reddediyor:
+      // "Test Store API key used in release build" -> teklifler yuklenemiyor, Android'de
+      // abonelik satin alinamiyor. Yanlis on ekli anahtar artik yok sayilir.
+      rcApiKeyIos:       rcAnahtar(process.env.REVENUECAT_IOS_KEY, 'appl_', 'appl_DBXnXzCViacQTaNmOobAfGHuYGf'),
+      rcApiKeyAndroid:   rcAnahtar(process.env.REVENUECAT_ANDROID_KEY, 'goog_', 'goog_kKIpmpVTfhMJaJjQjzOIcFrZsGR'),
       eas: {
         projectId: '1df49d90-6cfa-49a4-9815-bbab3db6e612',
       },

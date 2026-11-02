@@ -68,8 +68,11 @@ function sameDay(a: Date, b: Date): boolean {
 function getDayTitle(date: Date, language: string, t: (key: string) => string): string {
   const now = new Date();
   if (sameDay(date, now)) return t('matches.today');
-  const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
-  if (sameDay(date, tomorrow)) return t('matches.tomorrow');
+  // Gunluk dosya yalniz BUGUNU ve BU GECEYI kapsiyor (kesme: yarin 03:00 UTC).
+  // Bu yuzden "yarin"a dusen tek sey gece yarisini asan maclardir; kullanici istegi
+  // uzerine (28 Eyl 2026) baslik "Yarin" degil "Gece" yazar.
+  const yarin = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+  if (sameDay(date, yarin)) return t('matches.night');
   try {
     return date.toLocaleDateString(language, { weekday: 'long', day: 'numeric', month: 'long' });
   } catch {

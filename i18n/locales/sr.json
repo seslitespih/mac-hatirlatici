@@ -9,7 +9,6 @@
     "appTitle": "Na kom kanalu?",
     "lastUpdated": "Ažurirano: {{time}}",
     "today": "Danas",
-    "tomorrow": "Sutra",
     "noMatches": "Danas nema utakmica",
     "noFavoriteMatches": "Nema utakmica vaših omiljenih timova",
     "allMatches": "Sve utakmice",
@@ -28,7 +27,8 @@
     "worldcupSubtitle": "TV kanali i satnica za svaku utakmicu",
     "reminder15min": "Podsetnik postavljen — 15 min pre početka",
     "reminderNoGoal": "(Samo vreme utakmice — bez obaveštenja o golovima)",
-    "noChannel": "Nema podataka o prenosu"
+    "noChannel": "Nema podataka o prenosu",
+    "night": "Večeras"
   },
   "teams": {
     "title": "Izaberite timove",
@@ -66,7 +66,9 @@
     "countryDesc": "Kanali prikazani uz svaku utakmicu zavise od izabrane zemlje.",
     "selectCountry": "Izaberite zemlju",
     "appName": "Na kom kanalu?",
-    "appDesc": "Pratite utakmice na pravom kanalu u pravo vreme."
+    "appDesc": "Pratite utakmice na pravom kanalu u pravo vreme.",
+    "notifySports": "Za koje sportove želite obaveštenja?",
+    "getPremium": "Uzmi Premium"
   },
   "notification": {
     "title": "⚽ Podsetnik za utakmicu",
@@ -82,14 +84,14 @@
   },
   "paywall": {
     "subtitle": "Sportski TV vodič",
-    "trial": "10 DANA BESPLATNO",
+    "trial": "{{days}} DANA BESPLATNO",
     "feature0": "Današnje utakmice — tačno vreme i kanal",
     "feature1": "Podsetnik 15 minuta pre utakmice",
     "feature2": "TV raspored za 15 zemalja",
     "feature3": "Svakodnevno automatsko ažuriranje",
     "pricePerMonth": "/mesečno",
-    "priceNote": "Posle besplatnog perioda od 10 dana naplaćuje se {{price}}/mesečno. Otkazivanje u bilo kom trenutku.",
-    "startFree": "Počni besplatno — 10 dana",
+    "priceNote": "Posle besplatnog perioda od {{days}} dana naplaćuje se {{price}} mesečno.",
+    "startFree": "Počni besplatno — {{days}} dana",
     "restore": "Vrati kupovine",
     "legalIos": "Naplaćuje se sa vašeg iTunes naloga. Pretplata se automatski obnavlja ako je ne otkažete najmanje 24 sata pre isteka tekućeg perioda.",
     "legalAndroid": "Naplaćuje se sa vašeg Google Play naloga. Otkazivanje u bilo kom trenutku preko Google Play-a.",
@@ -100,6 +102,16 @@
     "errorRestore": "Kupovine nije moguće vratiti.",
     "offeringError": "Nije moguće učitati opcije pretplate. Proverite internet vezu.",
     "privacyPolicy": "Politika privatnosti",
-    "termsOfUse": "Uslovi korišćenja"
+    "termsOfUse": "Uslovi korišćenja",
+    "priceNoTrial": "Naplaćuje se {{price}} mesečno.",
+    "subscribe": "Pretplati se",
+    "autoRenewTrial": "Besplatno {{days}} dana. Posle probnog perioda pretplata se automatski obnavlja po ceni od {{price}} mesečno. Ako otkažete najmanje 24 sata pre kraja probnog perioda, nećete platiti ništa.",
+    "autoRenew": "Pretplata se automatski obnavlja po ceni od {{price}} mesečno. Možete je otkazati najmanje 24 sata pre kraja perioda.",
+    "yearly": "Godišnje",
+    "monthly": "Mesečno",
+    "perYear": "/godišnje",
+    "perMonth": "/mesečno",
+    "savePercent": "Uštedite {{percent}}%",
+    "autoRenewYear": "Pretplata se automatski obnavlja po ceni od {{price}} godišnje. Možete je otkazati najmanje 24 sata pre kraja perioda."
   }
 }

@@ -9,7 +9,6 @@
     "appTitle": "Hvilken kanal?",
     "lastUpdated": "Oppdatert: {{time}}",
     "today": "I dag",
-    "tomorrow": "I morgen",
     "noMatches": "Ingen kamper i dag",
     "noFavoriteMatches": "Ingen kamper for favorittlagene dine",
     "allMatches": "Alle kamper",
@@ -28,7 +27,8 @@
     "worldcupSubtitle": "TV-kanaler og avsparkstider for hver kamp",
     "reminder15min": "Påminnelse satt — 15 min før avspark",
     "reminderNoGoal": "(Bare kamptidspunkt — ingen målvarsler)",
-    "noChannel": "Ingen informasjon om kringkaster"
+    "noChannel": "Ingen informasjon om kringkaster",
+    "night": "I natt"
   },
   "teams": {
     "title": "Velg lag",
@@ -66,7 +66,9 @@
     "countryDesc": "Kanalene som vises for hver kamp avhenger av landet du har valgt.",
     "selectCountry": "Velg land",
     "appName": "Hvilken kanal?",
-    "appDesc": "Følg kampene på riktig kanal til riktig tid."
+    "appDesc": "Følg kampene på riktig kanal til riktig tid.",
+    "notifySports": "Hvilke idretter vil du ha varsler for?",
+    "getPremium": "Få Premium"
   },
   "notification": {
     "title": "⚽ Kamppåminnelse",
@@ -82,14 +84,14 @@
   },
   "paywall": {
     "subtitle": "TV-guide for sport",
-    "trial": "10 DAGER GRATIS PRØVEPERIODE",
+    "trial": "{{days}} DAGER GRATIS PRØVEPERIODE",
     "feature0": "Dagens kamper — riktig tid og kanal",
     "feature1": "Påminnelse 15 minutter før kampen",
     "feature2": "TV-program for 15 land",
     "feature3": "Daglige automatiske oppdateringer",
     "pricePerMonth": "/måned",
-    "priceNote": "Etter den gratis prøveperioden på 10 dager koster det {{price}}/måned. Kan sies opp når som helst.",
-    "startFree": "Start gratis — 10 dager",
+    "priceNote": "Etter den gratis prøveperioden på {{days}} dager belastes du {{price}} per måned.",
+    "startFree": "Start gratis — {{days}} dager",
     "restore": "Gjenopprett kjøp",
     "legalIos": "Belastes iTunes-kontoen din. Abonnementet fornyes automatisk med mindre det sies opp minst 24 timer før gjeldende periode utløper.",
     "legalAndroid": "Belastes Google Play-kontoen din. Kan sies opp når som helst via Google Play.",
@@ -100,6 +102,16 @@
     "errorRestore": "Kunne ikke gjenopprette kjøp.",
     "offeringError": "Kunne ikke laste inn abonnementsalternativer. Sjekk internettforbindelsen.",
     "privacyPolicy": "Personvernerklæring",
-    "termsOfUse": "Vilkår for bruk"
+    "termsOfUse": "Vilkår for bruk",
+    "priceNoTrial": "Du belastes {{price}} per måned.",
+    "subscribe": "Abonner",
+    "autoRenewTrial": "Gratis i {{days}} dager. Når prøveperioden er over, fornyes abonnementet automatisk til {{price}} per måned. Sier du opp minst 24 timer før prøveperioden slutter, belastes du ikke.",
+    "autoRenew": "Abonnementet fornyes automatisk til {{price}} per måned. Du kan si opp senest 24 timer før perioden slutter.",
+    "yearly": "Årlig",
+    "monthly": "Månedlig",
+    "perYear": "/år",
+    "perMonth": "/måned",
+    "savePercent": "Spar {{percent}} %",
+    "autoRenewYear": "Abonnementet fornyes automatisk til {{price}} per år. Du kan si opp senest 24 timer før perioden slutter."
   }
 }

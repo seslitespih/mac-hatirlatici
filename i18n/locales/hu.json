@@ -9,7 +9,6 @@
     "appTitle": "Melyik csatornán?",
     "lastUpdated": "Frissítve: {{time}}",
     "today": "Ma",
-    "tomorrow": "Holnap",
     "noMatches": "Ma nincs meccs",
     "noFavoriteMatches": "A kedvenc csapataidnak nincs meccse",
     "allMatches": "Minden meccs",
@@ -28,7 +27,8 @@
     "worldcupSubtitle": "Közvetítő csatornák és kezdési időpontok minden meccshez",
     "reminder15min": "Emlékeztető beállítva — 15 perccel a kezdés előtt",
     "reminderNoGoal": "(Csak a meccs időpontja — gólértesítés nélkül)",
-    "noChannel": "Nincs adat a közvetítésről"
+    "noChannel": "Nincs adat a közvetítésről",
+    "night": "Ma éjjel"
   },
   "teams": {
     "title": "Csapatok kiválasztása",
@@ -66,7 +66,9 @@
     "countryDesc": "Az egyes meccseknél megjelenő csatornák a kiválasztott országtól függnek.",
     "selectCountry": "Ország kiválasztása",
     "appName": "Melyik csatornán?",
-    "appDesc": "Kövesd a meccseket a megfelelő csatornán, a megfelelő időben."
+    "appDesc": "Kövesd a meccseket a megfelelő csatornán, a megfelelő időben.",
+    "notifySports": "Mely sportágakról kérsz értesítést?",
+    "getPremium": "Premium vásárlása"
   },
   "notification": {
     "title": "⚽ Meccsemlékeztető",
@@ -82,14 +84,14 @@
   },
   "paywall": {
     "subtitle": "Sport TV-műsor",
-    "trial": "10 NAP INGYENES PRÓBA",
+    "trial": "{{days}} NAP INGYENES PRÓBA",
     "feature0": "A mai meccsek — pontos idő és csatorna",
     "feature1": "Emlékeztető 15 perccel a meccs előtt",
     "feature2": "TV-műsor 15 országhoz",
     "feature3": "Napi automatikus frissítés",
     "pricePerMonth": "/hó",
-    "priceNote": "A 10 napos ingyenes próbaidőszak után {{price}}/hó. Bármikor lemondható.",
-    "startFree": "Ingyenes kezdés — 10 nap",
+    "priceNote": "A(z) {{days}} napos ingyenes próbaidő után havi {{price}} díjat számítunk fel.",
+    "startFree": "Ingyenes kezdés — {{days}} nap",
     "restore": "Vásárlások visszaállítása",
     "legalIos": "A díjat az iTunes-fiókod terheli. Az előfizetés automatikusan megújul, hacsak legalább 24 órával az aktuális időszak vége előtt le nem mondod.",
     "legalAndroid": "A díjat a Google Play-fiókod terheli. Bármikor lemondható a Google Playen.",
@@ -100,6 +102,16 @@
     "errorRestore": "A vásárlásokat nem sikerült visszaállítani.",
     "offeringError": "Az előfizetési lehetőségek nem tölthetők be. Ellenőrizd az internetkapcsolatot.",
     "privacyPolicy": "Adatvédelmi irányelvek",
-    "termsOfUse": "Felhasználási feltételek"
+    "termsOfUse": "Felhasználási feltételek",
+    "priceNoTrial": "Havi {{price}} díjat számítunk fel.",
+    "subscribe": "Előfizetés",
+    "autoRenewTrial": "{{days}} napig ingyenes. A próbaidő után az előfizetés automatikusan megújul havi {{price}} áron. Ha legalább 24 órával a próbaidő vége előtt lemondod, nem kell fizetned.",
+    "autoRenew": "Az előfizetés automatikusan megújul havi {{price}} áron. Legkésőbb 24 órával az időszak vége előtt lemondhatod.",
+    "yearly": "Éves",
+    "monthly": "Havi",
+    "perYear": "/év",
+    "perMonth": "/hó",
+    "savePercent": "{{percent}}% megtakarítás",
+    "autoRenewYear": "Az előfizetés automatikusan megújul évi {{price}} áron. Legkésőbb 24 órával az időszak vége előtt lemondhatod."
   }
 }

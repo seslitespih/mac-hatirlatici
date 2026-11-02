@@ -9,7 +9,7 @@
     "appTitle": "Hangi Kanalda?",
     "lastUpdated": "Son güncelleme: {{time}}",
     "today": "Bugün",
-    "tomorrow": "Yarın",
+    "night": "Gece",
     "noMatches": "Bu gün için maç yok",
     "noFavoriteMatches": "Favori takımlarınızın maçı yok",
     "allMatches": "Tüm Maçlar",
@@ -52,6 +52,7 @@
     "language": "Dil",
     "notifications": "Bildirimler",
     "notificationsDesc": "Maç başlamadan 15 dakika önce bildirim al",
+    "notifySports": "Hangi dallarda bildirim gelsin?",
     "noGoalDisclaimer": "Gol bildirimi bilerek gönderilmez — maç izleme zevkinizi bozmak istemeyiz. Sadece maçtan 15 dakika önce hatırlatıcı bildirim gönderilir.",
     "theme": "Tema",
     "dark": "Karanlık",
@@ -66,7 +67,8 @@
     "countryDesc": "Maçların hangi kanalda yayınlandığı ülkenize göre gösterilir.",
     "selectCountry": "Ülke Seç",
     "appName": "Hangi Kanalda?",
-    "appDesc": "Maçları doğru kanal ve saatle takip et."
+    "appDesc": "Maçları doğru kanal ve saatle takip et.",
+    "getPremium": "Premium'a Geç"
   },
   "notification": {
     "title": "⚽ Maç Hatırlatıcısı",
@@ -82,14 +84,14 @@
   },
   "paywall": {
     "subtitle": "Spor TV Rehberi",
-    "trial": "10 GÜN ÜCRETSİZ DENEME",
+    "trial": "{{days}} GÜN ÜCRETSİZ DENEME",
     "feature0": "Bugünkü tüm maçlar, doğru saat ve kanalıyla",
     "feature1": "Maçtan 15 dakika önce hatırlatıcı",
     "feature2": "15 ülkede TV yayın programı",
     "feature3": "Günlük otomatik güncelleme",
     "pricePerMonth": "/ay",
-    "priceNote": "10 günlük deneme bittikten sonra {{price}}/ay faturalandırılır. İstediğiniz zaman iptal edebilirsiniz.",
-    "startFree": "Ücretsiz Başla — 10 Gün",
+    "priceNote": "{{days}} günlük ücretsiz deneme bittiğinde ayda {{price}} tahsil edilir.",
+    "startFree": "Ücretsiz Başla — {{days}} Gün",
     "restore": "Satın Almaları Geri Yükle",
     "legalIos": "iTunes hesabınızdan ücret alınır. Mevcut dönem bitmeden en az 24 saat önce iptal edilmezse abonelik otomatik yenilenir.",
     "legalAndroid": "Google Play hesabınızdan ücret alınır. Google Play üzerinden istediğiniz zaman iptal edebilirsiniz.",
@@ -100,6 +102,16 @@
     "errorRestore": "Satın almalar geri yüklenemedi.",
     "offeringError": "Abonelik seçenekleri yüklenemedi. Lütfen internet bağlantınızı kontrol edin.",
     "privacyPolicy": "Gizlilik Politikası",
-    "termsOfUse": "Kullanım Koşulları"
+    "termsOfUse": "Kullanım Koşulları",
+    "priceNoTrial": "Ayda {{price}} tahsil edilir.",
+    "subscribe": "Abone Ol",
+    "autoRenewTrial": "{{days}} gün ücretsiz. Deneme bitince abonelik otomatik olarak {{price}}/ay ücretle yenilenir. Deneme bitmeden en az 24 saat önce iptal ederseniz ücret alınmaz.",
+    "autoRenew": "Abonelik {{price}}/ay ücretle otomatik yenilenir. Dönem bitmeden en az 24 saat önce iptal edebilirsiniz.",
+    "yearly": "Yıllık",
+    "monthly": "Aylık",
+    "perYear": "/yıl",
+    "perMonth": "/ay",
+    "savePercent": "%{{percent}} tasarruf",
+    "autoRenewYear": "Abonelik {{price}}/yıl ücretle otomatik yenilenir. Dönem bitmeden en az 24 saat önce iptal edebilirsiniz."
   }
 }

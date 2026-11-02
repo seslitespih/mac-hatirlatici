@@ -789,3 +789,17 @@ export const getTeamsByLeague = (leagueId: string): Team[] =>
 
 export const getTeamById = (id: string): Team | undefined =>
   TEAMS.find((t) => t.id === id);
+
+/**
+ * Bir takim kimliginin spor dali. Kayitta `sport` yoksa futboldur (104 futbol takimi
+ * bu alani tasimiyor).
+ *
+ * NEDEN: favori eslesmesi yalniz ADA bakiyordu. Fikstur dosyasinda basketbol maci
+ * yanlislikla "Fenerbahçe" diye yazilirsa (dogrusu "Fenerbahçe Beko"), futbol icin
+ * Fenerbahçe secen kullaniciya basketbol bildirimi gidiyordu. Artik dal da tutmali.
+ */
+const TAKIM_SPORU: Record<string, string> = Object.fromEntries(
+  TEAMS.map((t) => [t.id, t.sport ?? 'football']),
+);
+
+export const takimSporu = (id: string): string => TAKIM_SPORU[id] ?? 'football';
