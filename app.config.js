@@ -31,7 +31,7 @@ module.exports = {
       hu: './locales/hu.json',
       sr: './locales/sr.json',
     },
-    version: '1.4.3',
+    version: '1.5.0',
     orientation: 'portrait',
     icon: './assets/icon.png',
     userInterfaceStyle: 'light',
