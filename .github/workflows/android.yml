@@ -33,6 +33,8 @@ jobs:
         uses: android-actions/setup-android@v3
         with:
           accept-android-sdk-licenses: true
+          # Varsayılan 'tools platform-tools'; eski 'tools' paketi SDK deposundan kalktı (Kas 2026), kurulum düşüyordu.
+          packages: 'platform-tools'
 
       - name: Install NDK 28 (16KB page-size support)
         run: sdkmanager "ndk;28.2.13676358"
