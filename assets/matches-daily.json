@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-04T01:28:09.000Z",
+ "generated_at": "2026-11-04T11:46:28.000Z",
  "date": "2026-11-04",
  "model": "user-provided",
  "stats": {
-  "total": 92,
-  "withChannel": 92,
+  "total": 93,
+  "withChannel": 93,
   "bySport": {
-   "football": 37,
+   "football": 38,
    "volleyball": 5,
    "basketball": 50
   },
@@ -502,6 +502,54 @@
      "beIN Sports 3",
      "TOD",
      "beIN CONNECT"
+    ],
+    "SA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 3",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -661,6 +709,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 3",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -975,6 +1071,18 @@
     ],
     "LY": [
      "beIN Sports"
+    ],
+    "MX": [
+     "Claro Sports",
+     "Claro Sports Premium YouTube"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -2086,6 +2194,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -2305,6 +2421,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -3111,6 +3235,54 @@
    ]
   },
   {
+   "id": "football-20261104-mc-alger-mc-oran",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "MC Alger",
+   "away": "MC Oran",
+   "homeNames": {
+    "tr": "MC Alger",
+    "en": "MC Alger",
+    "de": "MC Alger",
+    "es": "MC Alger",
+    "fr": "MC Alger",
+    "it": "MC Alger",
+    "pt": "MC Alger",
+    "ar": "مولودية الجزائر"
+   },
+   "awayNames": {
+    "tr": "MC Oran",
+    "en": "MC Oran",
+    "de": "MC Oran",
+    "es": "MC Oran",
+    "fr": "MC Oran",
+    "it": "MC Oran",
+    "pt": "MC Oran",
+    "ar": "مولودية وهران"
+   },
+   "kickoffUtc": "2026-11-04T19:00:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261104-kortrijk-kv-mechelen",
    "sport": "football",
    "competitionId": "belgian_pl",
@@ -3673,6 +3845,42 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -3886,6 +4094,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 5",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4102,6 +4318,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4312,6 +4536,12 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 8"
+    ],
+    "BH": [
+     "beIN Sports MENA 8"
     ]
    },
    "sources": [
@@ -4524,6 +4754,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 3",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4744,6 +4982,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4958,6 +5204,12 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 9"
+    ],
+    "BH": [
+     "beIN Sports MENA 9"
     ]
    },
    "sources": [
@@ -5161,6 +5413,12 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
