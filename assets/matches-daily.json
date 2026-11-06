@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-06T01:36:34.000Z",
+ "generated_at": "2026-11-06T11:42:25.000Z",
  "date": "2026-11-06",
  "model": "user-provided",
  "stats": {
-  "total": 75,
-  "withChannel": 75,
+  "total": 79,
+  "withChannel": 79,
   "bySport": {
-   "football": 57,
+   "football": 61,
    "basketball": 14,
    "motorsport": 4
   },
@@ -1296,6 +1296,58 @@
    ]
   },
   {
+   "id": "football-20261106-qarabag-fk-turan-tovuz",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Qarabag FK",
+   "away": "Turan Tovuz",
+   "homeNames": {
+    "tr": "Qarabag FK",
+    "en": "Qarabag FK",
+    "de": "Qarabag FK",
+    "es": "Qarabag FK",
+    "fr": "Qarabag FK",
+    "it": "Qarabag FK",
+    "pt": "Qarabag FK",
+    "ar": "كاراباج"
+   },
+   "awayNames": {
+    "tr": "Turan Tovuz",
+    "en": "Turan Tovuz",
+    "de": "Turan Tovuz",
+    "es": "Turan Tovuz",
+    "fr": "Turan Tovuz",
+    "it": "Turan Tovuz",
+    "pt": "Turan Tovuz",
+    "ar": "توران توفوز"
+   },
+   "kickoffUtc": "2026-11-06T14:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261106-al-fateh-fc-al-riyadh",
    "sport": "football",
    "competitionId": "saudi_pl",
@@ -1556,6 +1608,56 @@
    ]
   },
   {
+   "id": "football-20261106-uta-arad-petrolul-ploiesti",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "UTA Arad",
+   "away": "Petrolul Ploiesti",
+   "homeNames": {
+    "tr": "UTA Arad",
+    "en": "UTA Arad",
+    "de": "UTA Arad",
+    "es": "UTA Arad",
+    "fr": "UTA Arad",
+    "it": "UTA Arad",
+    "pt": "UTA Arad",
+    "ar": "أوت آراد"
+   },
+   "awayNames": {
+    "tr": "Petrolul Ploiesti",
+    "en": "Petrolul Ploiesti",
+    "de": "Petrolul Ploiesti",
+    "es": "Petrolul Ploiesti",
+    "fr": "Petrolul Ploiesti",
+    "it": "Petrolul Ploiesti",
+    "pt": "Petrolul Ploiesti",
+    "ar": "بترولول"
+   },
+   "kickoffUtc": "2026-11-06T15:30:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "motorsport-20261106-motogp-katar-gp-antrenman",
    "sport": "motorsport",
    "competitionId": "motogp",
@@ -1601,6 +1703,58 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261106-fk-neftchi-fc-kapaz",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "FK Neftchi",
+   "away": "FC Kapaz",
+   "homeNames": {
+    "tr": "FK Neftchi",
+    "en": "FK Neftchi",
+    "de": "FK Neftchi",
+    "es": "FK Neftchi",
+    "fr": "FK Neftchi",
+    "it": "FK Neftchi",
+    "pt": "FK Neftchi",
+    "ar": "إف ك نيفتكي"
+   },
+   "awayNames": {
+    "tr": "FC Kapaz",
+    "en": "FC Kapaz",
+    "de": "FC Kapaz",
+    "es": "FC Kapaz",
+    "fr": "FC Kapaz",
+    "it": "FC Kapaz",
+    "pt": "FC Kapaz",
+    "ar": "جانيا"
+   },
+   "kickoffUtc": "2026-11-06T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -1797,6 +1951,45 @@
     "TR": [
      "TRT Spor",
      "beIN Sports 2"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "MA": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -1845,6 +2038,45 @@
     "TR": [
      "TRT Türk",
      "beIN Sports Max 1"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "MA": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -2049,6 +2281,45 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -2152,6 +2423,45 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -2300,6 +2610,24 @@
     ],
     "PY": [
      "TyC Sports Internacional"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "ES": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
     ]
    },
    "sources": [
@@ -2354,6 +2682,56 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261106-fc-arges-pitesti-dinamo-bucuresti",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "FC Arges Pitesti",
+   "away": "Dinamo Bucuresti",
+   "homeNames": {
+    "tr": "FC Arges Pitesti",
+    "en": "FC Arges Pitesti",
+    "de": "FC Arges Pitesti",
+    "es": "FC Arges Pitesti",
+    "fr": "FC Arges Pitesti",
+    "it": "FC Arges Pitesti",
+    "pt": "FC Arges Pitesti",
+    "ar": "إف سي آجريس بيتيستي"
+   },
+   "awayNames": {
+    "tr": "Dinamo Bucuresti",
+    "en": "Dinamo Bucuresti",
+    "de": "Dinamo Bucuresti",
+    "es": "Dinamo Bucuresti",
+    "fr": "Dinamo Bucuresti",
+    "it": "Dinamo Bucuresti",
+    "pt": "Dinamo Bucuresti",
+    "ar": "دينامو بوخارست"
+   },
+   "kickoffUtc": "2026-11-06T18:30:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -2495,6 +2873,45 @@
    "broadcasts": {
     "FR": [
      "beIN Sports MAX 7 (FR)"
+    ],
+    "SA": [
+     "beIN Sports MAX 7"
+    ],
+    "QA": [
+     "beIN Sports MAX 7"
+    ],
+    "AE": [
+     "beIN Sports MAX 7"
+    ],
+    "EG": [
+     "beIN Sports MAX 7"
+    ],
+    "MA": [
+     "beIN Sports MAX 7"
+    ],
+    "DZ": [
+     "beIN Sports MAX 7"
+    ],
+    "TN": [
+     "beIN Sports MAX 7"
+    ],
+    "IQ": [
+     "beIN Sports MAX 7"
+    ],
+    "JO": [
+     "beIN Sports MAX 7"
+    ],
+    "OM": [
+     "beIN Sports MAX 7"
+    ],
+    "LY": [
+     "beIN Sports MAX 7"
+    ],
+    "KW": [
+     "beIN Sports MAX 7"
+    ],
+    "BH": [
+     "beIN Sports MAX 7"
     ]
    },
    "sources": [
@@ -2542,6 +2959,45 @@
    "broadcasts": {
     "FR": [
      "beIN Sports MAX 6 (FR)"
+    ],
+    "SA": [
+     "beIN Sports MAX 6"
+    ],
+    "QA": [
+     "beIN Sports MAX 6"
+    ],
+    "AE": [
+     "beIN Sports MAX 6"
+    ],
+    "EG": [
+     "beIN Sports MAX 6"
+    ],
+    "MA": [
+     "beIN Sports MAX 6"
+    ],
+    "DZ": [
+     "beIN Sports MAX 6"
+    ],
+    "TN": [
+     "beIN Sports MAX 6"
+    ],
+    "IQ": [
+     "beIN Sports MAX 6"
+    ],
+    "JO": [
+     "beIN Sports MAX 6"
+    ],
+    "OM": [
+     "beIN Sports MAX 6"
+    ],
+    "LY": [
+     "beIN Sports MAX 6"
+    ],
+    "KW": [
+     "beIN Sports MAX 6"
+    ],
+    "BH": [
+     "beIN Sports MAX 6"
     ]
    },
    "sources": [
@@ -2589,6 +3045,45 @@
    "broadcasts": {
     "FR": [
      "beIN Sports MAX 4 (FR)"
+    ],
+    "SA": [
+     "beIN Sports MENA Max 4"
+    ],
+    "QA": [
+     "beIN Sports MENA Max 4"
+    ],
+    "AE": [
+     "beIN Sports MENA Max 4"
+    ],
+    "EG": [
+     "beIN Sports MENA Max 4"
+    ],
+    "MA": [
+     "beIN Sports MENA Max 4"
+    ],
+    "DZ": [
+     "beIN Sports MENA Max 4"
+    ],
+    "TN": [
+     "beIN Sports MENA Max 4"
+    ],
+    "IQ": [
+     "beIN Sports MENA Max 4"
+    ],
+    "JO": [
+     "beIN Sports MENA Max 4"
+    ],
+    "OM": [
+     "beIN Sports MENA Max 4"
+    ],
+    "LY": [
+     "beIN Sports MENA Max 4"
+    ],
+    "KW": [
+     "beIN Sports MENA Max 4"
+    ],
+    "BH": [
+     "beIN Sports MENA Max 4"
     ]
    },
    "sources": [
@@ -2636,6 +3131,45 @@
    "broadcasts": {
     "FR": [
      "beIN Sports MAX 8 (FR)"
+    ],
+    "SA": [
+     "beIN Sports MAX 8"
+    ],
+    "QA": [
+     "beIN Sports MAX 8"
+    ],
+    "AE": [
+     "beIN Sports MAX 8"
+    ],
+    "EG": [
+     "beIN Sports MAX 8"
+    ],
+    "MA": [
+     "beIN Sports MAX 8"
+    ],
+    "DZ": [
+     "beIN Sports MAX 8"
+    ],
+    "TN": [
+     "beIN Sports MAX 8"
+    ],
+    "IQ": [
+     "beIN Sports MAX 8"
+    ],
+    "JO": [
+     "beIN Sports MAX 8"
+    ],
+    "OM": [
+     "beIN Sports MAX 8"
+    ],
+    "LY": [
+     "beIN Sports MAX 8"
+    ],
+    "KW": [
+     "beIN Sports MAX 8"
+    ],
+    "BH": [
+     "beIN Sports MAX 8"
     ]
    },
    "sources": [
@@ -2727,6 +3261,42 @@
      "beIN CONNECT",
      "TOD",
      "beIN Sports France"
+    ],
+    "SA": [
+     "beIN Sports MENA 5"
+    ],
+    "QA": [
+     "beIN Sports MENA 5"
+    ],
+    "AE": [
+     "beIN Sports MENA 5"
+    ],
+    "EG": [
+     "beIN Sports MENA 5"
+    ],
+    "DZ": [
+     "beIN Sports MENA 5"
+    ],
+    "TN": [
+     "beIN Sports MENA 5"
+    ],
+    "IQ": [
+     "beIN Sports MENA 5"
+    ],
+    "JO": [
+     "beIN Sports MENA 5"
+    ],
+    "OM": [
+     "beIN Sports MENA 5"
+    ],
+    "LY": [
+     "beIN Sports MENA 5"
+    ],
+    "KW": [
+     "beIN Sports MENA 5"
+    ],
+    "BH": [
+     "beIN Sports MENA 5"
     ]
    },
    "sources": [
@@ -2774,6 +3344,45 @@
    "broadcasts": {
     "FR": [
      "beIN Sports MAX 5 (FR)"
+    ],
+    "SA": [
+     "beIN Sports MAX 5"
+    ],
+    "QA": [
+     "beIN Sports MAX 5"
+    ],
+    "AE": [
+     "beIN Sports MAX 5"
+    ],
+    "EG": [
+     "beIN Sports MAX 5"
+    ],
+    "MA": [
+     "beIN Sports MAX 5"
+    ],
+    "DZ": [
+     "beIN Sports MAX 5"
+    ],
+    "TN": [
+     "beIN Sports MAX 5"
+    ],
+    "IQ": [
+     "beIN Sports MAX 5"
+    ],
+    "JO": [
+     "beIN Sports MAX 5"
+    ],
+    "OM": [
+     "beIN Sports MAX 5"
+    ],
+    "LY": [
+     "beIN Sports MAX 5"
+    ],
+    "KW": [
+     "beIN Sports MAX 5"
+    ],
+    "BH": [
+     "beIN Sports MAX 5"
     ]
    },
    "sources": [
@@ -3202,6 +3811,42 @@
     "PY": [
      "ESPN 5",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -3727,6 +4372,12 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4137,6 +4788,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4281,6 +4940,54 @@
     "PY": [
      "ESPN 7",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4504,6 +5211,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 3",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4778,6 +5493,21 @@
     ],
     "PY": [
      "TyC Sports Internacional"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
     ]
    },
    "sources": [
@@ -4828,6 +5558,42 @@
     ],
     "US": [
      "ViX",
+     "Fanatiz"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "ES": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "PE": [
+     "Fanatiz"
+    ],
+    "PY": [
      "Fanatiz"
     ]
    },
@@ -4880,6 +5646,42 @@
     ],
     "US": [
      "ViX",
+     "Fanatiz"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "ES": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "PE": [
+     "Fanatiz"
+    ],
+    "PY": [
      "Fanatiz"
     ]
    },
@@ -6138,6 +6940,24 @@
     ],
     "PY": [
      "TyC Sports Internacional"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "ES": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
     ]
    },
    "sources": [
@@ -6219,6 +7039,24 @@
     "PY": [
      "ESPN 7",
      "Disney+ Premium"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "ES": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
     ]
    },
    "sources": [
