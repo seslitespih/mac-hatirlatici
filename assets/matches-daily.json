@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-08T00:43:35.000Z",
+ "generated_at": "2026-11-08T10:55:48.000Z",
  "date": "2026-11-08",
  "model": "user-provided",
  "stats": {
-  "total": 176,
-  "withChannel": 176,
+  "total": 200,
+  "withChannel": 200,
   "bySport": {
-   "football": 148,
+   "football": 172,
    "basketball": 20,
    "volleyball": 7,
    "motorsport": 1
@@ -5587,6 +5587,58 @@
    ]
   },
   {
+   "id": "football-20261108-imisli-fk-sumqayit",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Imisli FK",
+   "away": "Sumqayit",
+   "homeNames": {
+    "tr": "Imisli FK",
+    "en": "Imisli FK",
+    "de": "Imisli FK",
+    "es": "Imisli FK",
+    "fr": "Imisli FK",
+    "it": "Imisli FK",
+    "pt": "Imisli FK",
+    "ar": "Imisli FK"
+   },
+   "awayNames": {
+    "tr": "Sumqayıt",
+    "en": "Sumqayit",
+    "de": "Sumqayit",
+    "es": "Sumqayit",
+    "fr": "Sumqayit",
+    "it": "Sumqayit",
+    "pt": "Sumqayit",
+    "ar": "سومقايت"
+   },
+   "kickoffUtc": "2026-11-08T11:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261108-heerenveen-feyenoord",
    "sport": "football",
    "competitionId": "eredivisie",
@@ -5996,6 +6048,153 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261108-fk-radnik-surdulica-ofk-beograd",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "FK Radnik Surdulica",
+   "away": "OFK Beograd",
+   "homeNames": {
+    "tr": "FK Radnik Surdulica",
+    "en": "FK Radnik Surdulica",
+    "de": "FK Radnik Surdulica",
+    "es": "FK Radnik Surdulica",
+    "fr": "FK Radnik Surdulica",
+    "it": "FK Radnik Surdulica",
+    "pt": "FK Radnik Surdulica",
+    "ar": "رادنيك سوردوليتشا"
+   },
+   "awayNames": {
+    "tr": "OFK Beograd",
+    "en": "OFK Beograd",
+    "de": "OFK Beograd",
+    "es": "OFK Beograd",
+    "fr": "OFK Beograd",
+    "it": "OFK Beograd",
+    "pt": "OFK Beograd",
+    "ar": "أو إف ك بلغراد"
+   },
+   "kickoffUtc": "2026-11-08T12:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261108-novi-pazar-mladost-lucani",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "Novi Pazar",
+   "away": "Mladost Lucani",
+   "homeNames": {
+    "tr": "Novi Pazar",
+    "en": "Novi Pazar",
+    "de": "Novi Pazar",
+    "es": "Novi Pazar",
+    "fr": "Novi Pazar",
+    "it": "Novi Pazar",
+    "pt": "Novi Pazar",
+    "ar": "نوفي بازار"
+   },
+   "awayNames": {
+    "tr": "Mladost Lucani",
+    "en": "Mladost Lucani",
+    "de": "Mladost Lucani",
+    "es": "Mladost Lucani",
+    "fr": "Mladost Lucani",
+    "it": "Mladost Lucani",
+    "pt": "Mladost Lucani",
+    "ar": "ملادوست إل"
+   },
+   "kickoffUtc": "2026-11-08T12:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261108-nyiregyhaza-spartacus-fc-gyori-eto",
+   "sport": "football",
+   "competitionId": "hu_nb1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Macaristan NB I",
+    "en": "Hungarian NB I",
+    "de": "Ungarische NB I",
+    "es": "NB I de Hungría",
+    "fr": "NB I hongroise",
+    "it": "NB I ungherese",
+    "pt": "NB I da Hungria",
+    "ar": "الدوري المجري",
+    "hu": "NB I"
+   },
+   "home": "Nyiregyhaza Spartacus FC",
+   "away": "Gyori ETO",
+   "homeNames": {
+    "tr": "Nyiregyhaza Spartacus FC",
+    "en": "Nyiregyhaza Spartacus FC",
+    "de": "Nyiregyhaza Spartacus FC",
+    "es": "Nyiregyhaza Spartacus FC",
+    "fr": "Nyiregyhaza Spartacus FC",
+    "it": "Nyiregyhaza Spartacus FC",
+    "pt": "Nyiregyhaza Spartacus FC",
+    "ar": "نايريجايهازا"
+   },
+   "awayNames": {
+    "tr": "Gyori ETO",
+    "en": "Gyori ETO",
+    "de": "Gyori ETO",
+    "es": "Gyori ETO",
+    "fr": "Gyori ETO",
+    "it": "Gyori ETO",
+    "pt": "Gyori ETO",
+    "ar": "جيور"
+   },
+   "kickoffUtc": "2026-11-08T12:15:00Z",
+   "broadcasts": {
+    "HU": [
+     "M4 Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -6969,6 +7168,70 @@
     ],
     "DE": [
      "Digiturk Euro"
+    ],
+    "US": [
+     "beIN Sports 3",
+     "beIN Sports CONNECT (US)"
+    ],
+    "SA": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "QA": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "AE": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "EG": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "DZ": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "TN": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "IQ": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "JO": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "OM": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "LY": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "KW": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "BH": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
     ]
    },
    "sources": [
@@ -7017,6 +7280,45 @@
     "TR": [
      "TRT Spor",
      "beIN Sports 2"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "MA": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -7065,6 +7367,45 @@
     "TR": [
      "tabii Spor 6",
      "beIN Sports Max 1"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "MA": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -7210,6 +7551,150 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261108-js-el-biar-mc-alger",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "JS El Biar",
+   "away": "MC Alger",
+   "homeNames": {
+    "tr": "JS El Biar",
+    "en": "JS El Biar",
+    "de": "JS El Biar",
+    "es": "JS El Biar",
+    "fr": "JS El Biar",
+    "it": "JS El Biar",
+    "pt": "JS El Biar",
+    "ar": "JS El Biar"
+   },
+   "awayNames": {
+    "tr": "MC Alger",
+    "en": "MC Alger",
+    "de": "MC Alger",
+    "es": "MC Alger",
+    "fr": "MC Alger",
+    "it": "MC Alger",
+    "pt": "MC Alger",
+    "ar": "مولودية الجزائر"
+   },
+   "kickoffUtc": "2026-11-08T13:00:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261108-us-biskra-aso-chlef",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "US Biskra",
+   "away": "ASO Chlef",
+   "homeNames": {
+    "tr": "US Biskra",
+    "en": "US Biskra",
+    "de": "US Biskra",
+    "es": "US Biskra",
+    "fr": "US Biskra",
+    "it": "US Biskra",
+    "pt": "US Biskra",
+    "ar": "اتحاد بسكرة"
+   },
+   "awayNames": {
+    "tr": "ASO Chlef",
+    "en": "ASO Chlef",
+    "de": "ASO Chlef",
+    "es": "ASO Chlef",
+    "fr": "ASO Chlef",
+    "it": "ASO Chlef",
+    "pt": "ASO Chlef",
+    "ar": "أولمبي الشلف"
+   },
+   "kickoffUtc": "2026-11-08T13:00:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261108-usm-khenchela-cr-temouchent",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "USM Khenchela",
+   "away": "CR Temouchent",
+   "homeNames": {
+    "tr": "USM Khenchela",
+    "en": "USM Khenchela",
+    "de": "USM Khenchela",
+    "es": "USM Khenchela",
+    "fr": "USM Khenchela",
+    "it": "USM Khenchela",
+    "pt": "USM Khenchela",
+    "ar": "اتحاد خنشلة"
+   },
+   "awayNames": {
+    "tr": "CR Temouchent",
+    "en": "CR Temouchent",
+    "de": "CR Temouchent",
+    "es": "CR Temouchent",
+    "fr": "CR Temouchent",
+    "it": "CR Temouchent",
+    "pt": "CR Temouchent",
+    "ar": "CR Temouchent"
+   },
+   "kickoffUtc": "2026-11-08T13:00:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -7410,6 +7895,58 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261108-sabah-shamakhi-fk",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Sabah",
+   "away": "Shamakhi FK",
+   "homeNames": {
+    "tr": "Sabah",
+    "en": "Sabah FK",
+    "de": "Sabah FK",
+    "es": "Sabah FK",
+    "fr": "Sabah FK",
+    "it": "Sabah FK",
+    "pt": "Sabah FK",
+    "ar": "صباح"
+   },
+   "awayNames": {
+    "tr": "Shamakhi FK",
+    "en": "Shamakhi FK",
+    "de": "Shamakhi FK",
+    "es": "Shamakhi FK",
+    "fr": "Shamakhi FK",
+    "it": "Shamakhi FK",
+    "pt": "Shamakhi FK",
+    "ar": "انتر باكو"
+   },
+   "kickoffUtc": "2026-11-08T13:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -7647,6 +8184,9 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "GH": [
+     "SuperSport Football Plus ROA"
     ]
    },
    "sources": [
@@ -8088,6 +8628,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -8303,6 +8851,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -9186,6 +9742,56 @@
    ]
   },
   {
+   "id": "football-20261108-sepsi-osk-fc-voluntari",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "Sepsi OSK",
+   "away": "FC Voluntari",
+   "homeNames": {
+    "tr": "Sepsi OSK",
+    "en": "Sepsi OSK",
+    "de": "Sepsi OSK",
+    "es": "Sepsi OSK",
+    "fr": "Sepsi OSK",
+    "it": "Sepsi OSK",
+    "pt": "Sepsi OSK",
+    "ar": "سيبسي"
+   },
+   "awayNames": {
+    "tr": "FC Voluntari",
+    "en": "FC Voluntari",
+    "de": "FC Voluntari",
+    "es": "FC Voluntari",
+    "fr": "FC Voluntari",
+    "it": "FC Voluntari",
+    "pt": "FC Voluntari",
+    "ar": "فولونتاري"
+   },
+   "kickoffUtc": "2026-11-08T14:00:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261108-cray-wanderers-stockport-county",
    "sport": "football",
    "competitionId": "fa_cup",
@@ -9419,6 +10025,55 @@
    ]
   },
   {
+   "id": "football-20261108-debrecen-ujpest",
+   "sport": "football",
+   "competitionId": "hu_nb1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Macaristan NB I",
+    "en": "Hungarian NB I",
+    "de": "Ungarische NB I",
+    "es": "NB I de Hungría",
+    "fr": "NB I hongroise",
+    "it": "NB I ungherese",
+    "pt": "NB I da Hungria",
+    "ar": "الدوري المجري",
+    "hu": "NB I"
+   },
+   "home": "Debrecen",
+   "away": "Ujpest",
+   "homeNames": {
+    "tr": "Debrecen",
+    "en": "Debrecen",
+    "de": "Debrecen",
+    "es": "Debrecen",
+    "fr": "Debrecen",
+    "it": "Debrecen",
+    "pt": "Debrecen",
+    "ar": "ديبريتشين"
+   },
+   "awayNames": {
+    "tr": "Ujpest",
+    "en": "Ujpest",
+    "de": "Ujpest",
+    "es": "Ujpest",
+    "fr": "Ujpest",
+    "it": "Ujpest",
+    "pt": "Ujpest",
+    "ar": "أويبيست"
+   },
+   "kickoffUtc": "2026-11-08T14:30:00Z",
+   "broadcasts": {
+    "HU": [
+     "M4 Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261108-gent-kortrijk",
    "sport": "football",
    "competitionId": "belgian_pl",
@@ -9624,6 +10279,106 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261108-aek-athens-levadiakos",
+   "sport": "football",
+   "competitionId": "greek_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Yunanistan Süper Ligi",
+    "en": "Greek Super League",
+    "de": "Griechische Super League",
+    "es": "Superliga de Grecia",
+    "fr": "Super League grecque",
+    "it": "Super League greca",
+    "pt": "Superliga Grega",
+    "ar": "الدوري اليوناني",
+    "el": "Super League Ελλάδας"
+   },
+   "home": "AEK Athens",
+   "away": "Levadiakos",
+   "homeNames": {
+    "tr": "AEK Athens",
+    "en": "AEK Athens",
+    "de": "AEK Athens",
+    "es": "AEK Athens",
+    "fr": "AEK Athens",
+    "it": "AEK Athens",
+    "pt": "AEK Athens",
+    "ar": "أيك أثينا"
+   },
+   "awayNames": {
+    "tr": "Levadiakos",
+    "en": "Levadiakos",
+    "de": "Levadiakos",
+    "es": "Levadiakos",
+    "fr": "Levadiakos",
+    "it": "Levadiakos",
+    "pt": "Levadiakos",
+    "ar": "ليفادياكوس"
+   },
+   "kickoffUtc": "2026-11-08T15:00:00Z",
+   "broadcasts": {
+    "GR": [
+     "Cosmote Sport",
+     "Nova Sports"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261108-asteras-tripolis-kalamata",
+   "sport": "football",
+   "competitionId": "greek_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Yunanistan Süper Ligi",
+    "en": "Greek Super League",
+    "de": "Griechische Super League",
+    "es": "Superliga de Grecia",
+    "fr": "Super League grecque",
+    "it": "Super League greca",
+    "pt": "Superliga Grega",
+    "ar": "الدوري اليوناني",
+    "el": "Super League Ελλάδας"
+   },
+   "home": "Asteras Tripolis",
+   "away": "Kalamata",
+   "homeNames": {
+    "tr": "Asteras Tripolis",
+    "en": "Asteras Tripolis",
+    "de": "Asteras Tripolis",
+    "es": "Asteras Tripolis",
+    "fr": "Asteras Tripolis",
+    "it": "Asteras Tripolis",
+    "pt": "Asteras Tripolis",
+    "ar": "أستيراس تريبوليس"
+   },
+   "awayNames": {
+    "tr": "Kalamata",
+    "en": "Kalamata",
+    "de": "Kalamata",
+    "es": "Kalamata",
+    "fr": "Kalamata",
+    "it": "Kalamata",
+    "pt": "Kalamata",
+    "ar": "كالاماتا"
+   },
+   "kickoffUtc": "2026-11-08T15:00:00Z",
+   "broadcasts": {
+    "GR": [
+     "Cosmote Sport",
+     "Nova Sports"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -10253,6 +11008,66 @@
     ],
     "DE": [
      "Digiturk Euro"
+    ],
+    "SA": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 4"
+    ],
+    "QA": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 4"
+    ],
+    "AE": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 4"
+    ],
+    "EG": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 4"
+    ],
+    "DZ": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 4"
+    ],
+    "TN": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 4"
+    ],
+    "IQ": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 4"
+    ],
+    "JO": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 4"
+    ],
+    "OM": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 4"
+    ],
+    "LY": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 4"
+    ],
+    "KW": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 4"
+    ],
+    "BH": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 4"
     ]
    },
    "sources": [
@@ -10353,6 +11168,104 @@
    "sources": [
     "fotmob",
     "kooora"
+   ]
+  },
+  {
+   "id": "football-20261108-iraklis-panathinaikos",
+   "sport": "football",
+   "competitionId": "greek_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Yunanistan Süper Ligi",
+    "en": "Greek Super League",
+    "de": "Griechische Super League",
+    "es": "Superliga de Grecia",
+    "fr": "Super League grecque",
+    "it": "Super League greca",
+    "pt": "Superliga Grega",
+    "ar": "الدوري اليوناني",
+    "el": "Super League Ελλάδας"
+   },
+   "home": "Iraklis",
+   "away": "Panathinaikos",
+   "homeNames": {
+    "tr": "Iraklis",
+    "en": "Iraklis",
+    "de": "Iraklis",
+    "es": "Iraklis",
+    "fr": "Iraklis",
+    "it": "Iraklis",
+    "pt": "Iraklis",
+    "ar": "إيراكليس"
+   },
+   "awayNames": {
+    "tr": "Panathinaikos",
+    "en": "Panathinaikos",
+    "de": "Panathinaikos",
+    "es": "Panathinaikos",
+    "fr": "Panathinaikos",
+    "it": "Panathinaikos",
+    "pt": "Panathinaikos",
+    "ar": "باناثينايكوس"
+   },
+   "kickoffUtc": "2026-11-08T15:30:00Z",
+   "broadcasts": {
+    "GR": [
+     "Cosmote Sport",
+     "Nova Sports"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261108-servette-fc-zuerich",
+   "sport": "football",
+   "competitionId": "swiss_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "İsviçre Süper Ligi",
+    "en": "Swiss Super League",
+    "de": "Super League",
+    "es": "Superliga Suiza",
+    "fr": "Super League suisse",
+    "it": "Super League svizzera",
+    "pt": "Superliga Suíça",
+    "ar": "الدوري السويسري"
+   },
+   "home": "Servette",
+   "away": "FC Zuerich",
+   "homeNames": {
+    "tr": "Servette",
+    "en": "Servette",
+    "de": "Servette",
+    "es": "Servette",
+    "fr": "Servette",
+    "it": "Servette",
+    "pt": "Servette",
+    "ar": "سيرفيت"
+   },
+   "awayNames": {
+    "tr": "FC Zuerich",
+    "en": "FC Zuerich",
+    "de": "FC Zuerich",
+    "es": "FC Zuerich",
+    "fr": "FC Zuerich",
+    "it": "FC Zuerich",
+    "pt": "FC Zuerich",
+    "ar": "إف سي زيوريخ"
+   },
+   "kickoffUtc": "2026-11-08T15:30:00Z",
+   "broadcasts": {
+    "CH": [
+     "blue Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -10742,6 +11655,45 @@
     "TR": [
      "TRT Kurdi",
      "beIN Sports 2"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "MA": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -10938,6 +11890,104 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261108-lillestroem-aalesund",
+   "sport": "football",
+   "competitionId": "eliteserien",
+   "tier": "regional",
+   "competition": {
+    "tr": "Norveç Eliteserien",
+    "en": "Eliteserien",
+    "de": "Eliteserien",
+    "es": "Eliteserien",
+    "fr": "Eliteserien",
+    "it": "Eliteserien",
+    "pt": "Eliteserien",
+    "ar": "الدوري النرويجي",
+    "nb": "Eliteserien"
+   },
+   "home": "Lillestroem",
+   "away": "Aalesund",
+   "homeNames": {
+    "tr": "Lillestroem",
+    "en": "Lillestroem",
+    "de": "Lillestroem",
+    "es": "Lillestroem",
+    "fr": "Lillestroem",
+    "it": "Lillestroem",
+    "pt": "Lillestroem",
+    "ar": "ليلستروم"
+   },
+   "awayNames": {
+    "tr": "Aalesund",
+    "en": "Aalesund",
+    "de": "Aalesund",
+    "es": "Aalesund",
+    "fr": "Aalesund",
+    "it": "Aalesund",
+    "pt": "Aalesund",
+    "ar": "آليسوند"
+   },
+   "kickoffUtc": "2026-11-08T16:00:00Z",
+   "broadcasts": {
+    "NO": [
+     "TV 2 Play"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261108-partizan-beograd-macva-sabac",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "Partizan Beograd",
+   "away": "Macva Sabac",
+   "homeNames": {
+    "tr": "Partizan Beograd",
+    "en": "Partizan Beograd",
+    "de": "Partizan Beograd",
+    "es": "Partizan Beograd",
+    "fr": "Partizan Beograd",
+    "it": "Partizan Beograd",
+    "pt": "Partizan Beograd",
+    "ar": "بارتيزان بلغراد"
+   },
+   "awayNames": {
+    "tr": "Macva Sabac",
+    "en": "Macva Sabac",
+    "de": "Macva Sabac",
+    "es": "Macva Sabac",
+    "fr": "Macva Sabac",
+    "it": "Macva Sabac",
+    "pt": "Macva Sabac",
+    "ar": "ماكفا"
+   },
+   "kickoffUtc": "2026-11-08T16:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -12179,10 +13229,256 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "HR": [
+     "MAXtv To Go"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
     ]
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261108-ofi-crete-atromitos",
+   "sport": "football",
+   "competitionId": "greek_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Yunanistan Süper Ligi",
+    "en": "Greek Super League",
+    "de": "Griechische Super League",
+    "es": "Superliga de Grecia",
+    "fr": "Super League grecque",
+    "it": "Super League greca",
+    "pt": "Superliga Grega",
+    "ar": "الدوري اليوناني",
+    "el": "Super League Ελλάδας"
+   },
+   "home": "OFI Crete",
+   "away": "Atromitos",
+   "homeNames": {
+    "tr": "OFI Crete",
+    "en": "OFI Crete",
+    "de": "OFI Crete",
+    "es": "OFI Crete",
+    "fr": "OFI Crete",
+    "it": "OFI Crete",
+    "pt": "OFI Crete",
+    "ar": "أو إف آي كريتي"
+   },
+   "awayNames": {
+    "tr": "Atromitos",
+    "en": "Atromitos",
+    "de": "Atromitos",
+    "es": "Atromitos",
+    "fr": "Atromitos",
+    "it": "Atromitos",
+    "pt": "Atromitos",
+    "ar": "أتروميتوس"
+   },
+   "kickoffUtc": "2026-11-08T16:30:00Z",
+   "broadcasts": {
+    "GR": [
+     "Cosmote Sport",
+     "Nova Sports"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261108-legia-warszawa-rakow-czestochowa",
+   "sport": "football",
+   "competitionId": "ekstraklasa",
+   "tier": "regional",
+   "competition": {
+    "tr": "Polonya Ekstraklasa",
+    "en": "Ekstraklasa",
+    "de": "Ekstraklasa",
+    "es": "Ekstraklasa",
+    "fr": "Ekstraklasa",
+    "it": "Ekstraklasa",
+    "pt": "Ekstraklasa",
+    "ar": "الدوري البولندي",
+    "pl": "PKO BP Ekstraklasa"
+   },
+   "home": "Legia Warszawa",
+   "away": "Rakow Czestochowa",
+   "homeNames": {
+    "tr": "Legia Warszawa",
+    "en": "Legia Warszawa",
+    "de": "Legia Warszawa",
+    "es": "Legia Warszawa",
+    "fr": "Legia Warszawa",
+    "it": "Legia Warszawa",
+    "pt": "Legia Warszawa",
+    "ar": "ليجيا فارسزاوا"
+   },
+   "awayNames": {
+    "tr": "Rakow Czestochowa",
+    "en": "Rakow Czestochowa",
+    "de": "Rakow Czestochowa",
+    "es": "Rakow Czestochowa",
+    "fr": "Rakow Czestochowa",
+    "it": "Rakow Czestochowa",
+    "pt": "Rakow Czestochowa",
+    "ar": "راكوف"
+   },
+   "kickoffUtc": "2026-11-08T16:30:00Z",
+   "broadcasts": {
+    "PL": [
+     "Canal+ Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261108-es-ben-aknoun-cr-belouizdad",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "ES Ben Aknoun",
+   "away": "CR Belouizdad",
+   "homeNames": {
+    "tr": "ES Ben Aknoun",
+    "en": "ES Ben Aknoun",
+    "de": "ES Ben Aknoun",
+    "es": "ES Ben Aknoun",
+    "fr": "ES Ben Aknoun",
+    "it": "ES Ben Aknoun",
+    "pt": "ES Ben Aknoun",
+    "ar": "نجم بن عكنون"
+   },
+   "awayNames": {
+    "tr": "CR Belouizdad",
+    "en": "CR Belouizdad",
+    "de": "CR Belouizdad",
+    "es": "CR Belouizdad",
+    "fr": "CR Belouizdad",
+    "it": "CR Belouizdad",
+    "pt": "CR Belouizdad",
+    "ar": "شباب بلوزداد"
+   },
+   "kickoffUtc": "2026-11-08T16:45:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261108-js-saoura-cs-constantine",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "JS Saoura",
+   "away": "CS Constantine",
+   "homeNames": {
+    "tr": "JS Saoura",
+    "en": "JS Saoura",
+    "de": "JS Saoura",
+    "es": "JS Saoura",
+    "fr": "JS Saoura",
+    "it": "JS Saoura",
+    "pt": "JS Saoura",
+    "ar": "شبيبة الساورة"
+   },
+   "awayNames": {
+    "tr": "CS Constantine",
+    "en": "CS Constantine",
+    "de": "CS Constantine",
+    "es": "CS Constantine",
+    "fr": "CS Constantine",
+    "it": "CS Constantine",
+    "pt": "CS Constantine",
+    "ar": "شباب قسنطينة"
+   },
+   "kickoffUtc": "2026-11-08T16:45:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -12560,6 +13856,56 @@
    },
    "sources": [
     "jolpi.ca"
+   ]
+  },
+  {
+   "id": "football-20261108-cfr-cluj-universitatea-craiova",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "CFR Cluj",
+   "away": "Universitatea Craiova",
+   "homeNames": {
+    "tr": "CFR Cluj",
+    "en": "CFR Cluj",
+    "de": "CFR Cluj",
+    "es": "CFR Cluj",
+    "fr": "CFR Cluj",
+    "it": "CFR Cluj",
+    "pt": "CFR Cluj",
+    "ar": "سي إف آر كلوج"
+   },
+   "awayNames": {
+    "tr": "Universitatea Craiova",
+    "en": "Universitatea Craiova",
+    "de": "Universitatea Craiova",
+    "es": "Universitatea Craiova",
+    "fr": "Universitatea Craiova",
+    "it": "Universitatea Craiova",
+    "pt": "Universitatea Craiova",
+    "ar": "يونيفيرسيتاتيا كرايوفا"
+   },
+   "kickoffUtc": "2026-11-08T17:00:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -13250,6 +14596,54 @@
     "MA": [
      "TOD",
      "beIN CONNECT"
+    ],
+    "SA": [
+     "beIN Sports MENA 7",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 7",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 7",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 7",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 7",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 7",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 7",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 7",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 7",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 7",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 7",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 7",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -13533,6 +14927,69 @@
     ],
     "DE": [
      "Digiturk Euro"
+    ],
+    "HR": [
+     "MAXtv To Go"
+    ],
+    "SA": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "QA": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "AE": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "EG": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "DZ": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "TN": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "IQ": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "JO": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "OM": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "LY": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "KW": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
+    ],
+    "BH": [
+     "beIN Sports MENA 5",
+     "TOD TV",
+     "beIN Sports MAX 6"
     ]
    },
    "sources": [
@@ -13825,6 +15282,104 @@
    ]
   },
   {
+   "id": "football-20261108-vasas-budapest-ferencvaros",
+   "sport": "football",
+   "competitionId": "hu_nb1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Macaristan NB I",
+    "en": "Hungarian NB I",
+    "de": "Ungarische NB I",
+    "es": "NB I de Hungría",
+    "fr": "NB I hongroise",
+    "it": "NB I ungherese",
+    "pt": "NB I da Hungria",
+    "ar": "الدوري المجري",
+    "hu": "NB I"
+   },
+   "home": "Vasas Budapest",
+   "away": "Ferencvaros",
+   "homeNames": {
+    "tr": "Vasas Budapest",
+    "en": "Vasas Budapest",
+    "de": "Vasas Budapest",
+    "es": "Vasas Budapest",
+    "fr": "Vasas Budapest",
+    "it": "Vasas Budapest",
+    "pt": "Vasas Budapest",
+    "ar": "فاساس بودابست"
+   },
+   "awayNames": {
+    "tr": "Ferencváros",
+    "en": "Ferencváros",
+    "de": "Ferencváros",
+    "es": "Ferencváros",
+    "fr": "Ferencváros",
+    "it": "Ferencváros",
+    "pt": "Ferencváros",
+    "ar": "فيرينتسفاروشي"
+   },
+   "kickoffUtc": "2026-11-08T18:00:00Z",
+   "broadcasts": {
+    "HU": [
+     "M4 Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261108-vojvodina-fk-crvena-zvezda",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "Vojvodina",
+   "away": "FK Crvena Zvezda",
+   "homeNames": {
+    "tr": "Vojvodina",
+    "en": "Vojvodina",
+    "de": "Vojvodina",
+    "es": "Vojvodina",
+    "fr": "Vojvodina",
+    "it": "Vojvodina",
+    "pt": "Vojvodina",
+    "ar": "فويفودينا"
+   },
+   "awayNames": {
+    "tr": "FK Crvena Zvezda",
+    "en": "FK Crvena Zvezda",
+    "de": "FK Crvena Zvezda",
+    "es": "FK Crvena Zvezda",
+    "fr": "FK Crvena Zvezda",
+    "it": "FK Crvena Zvezda",
+    "pt": "FK Crvena Zvezda",
+    "ar": "النجم الأحمر بلجراد"
+   },
+   "kickoffUtc": "2026-11-08T18:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261108-fredrikstad-brann",
    "sport": "football",
    "competitionId": "eliteserien",
@@ -14063,6 +15618,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
     ]
    },
    "sources": [
@@ -14401,6 +16004,56 @@
    ]
   },
   {
+   "id": "football-20261108-olympiacos-paok-thessaloniki-fc",
+   "sport": "football",
+   "competitionId": "greek_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Yunanistan Süper Ligi",
+    "en": "Greek Super League",
+    "de": "Griechische Super League",
+    "es": "Superliga de Grecia",
+    "fr": "Super League grecque",
+    "it": "Super League greca",
+    "pt": "Superliga Grega",
+    "ar": "الدوري اليوناني",
+    "el": "Super League Ελλάδας"
+   },
+   "home": "Olympiacos",
+   "away": "PAOK Thessaloniki FC",
+   "homeNames": {
+    "tr": "Olympiacos",
+    "en": "Olympiacos",
+    "de": "Olympiacos",
+    "es": "Olympiacos",
+    "fr": "Olympiacos",
+    "it": "Olympiacos",
+    "pt": "Olympiacos",
+    "ar": "أولمبياكوس"
+   },
+   "awayNames": {
+    "tr": "PAOK Thessaloniki FC",
+    "en": "PAOK Thessaloniki FC",
+    "de": "PAOK Thessaloniki FC",
+    "es": "PAOK Thessaloniki FC",
+    "fr": "PAOK Thessaloniki FC",
+    "it": "PAOK Thessaloniki FC",
+    "pt": "PAOK Thessaloniki FC",
+    "ar": "باوك سالونيكا"
+   },
+   "kickoffUtc": "2026-11-08T19:00:00Z",
+   "broadcasts": {
+    "GR": [
+     "Cosmote Sport",
+     "Nova Sports"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261108-lech-poznan-zaglebie-lubin",
    "sport": "football",
    "competitionId": "ekstraklasa",
@@ -14648,6 +16301,9 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "GH": [
+     "SuperSport Football"
     ]
    },
    "sources": [
