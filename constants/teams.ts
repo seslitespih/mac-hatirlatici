@@ -8,6 +8,8 @@ export interface Team {
   emoji: string;
   color: string;
   sport?: 'football' | 'basketball' | 'volleyball' | 'motorsport';
+  /** Fikstürde görülen başka yazımlar ("RC Lens", "Paris Saint-Germain"). Favori eşleşmesi bunlara da bakar. */
+  aliases?: string[];
 }
 
 export const LEAGUES = [
@@ -18,6 +20,9 @@ export const LEAGUES = [
   { id: 'bundesliga', name: 'Bundesliga',           emoji: '🇩🇪',  country: 'Germany', countryCode: 'DE', sport: 'football' },
   { id: 'seriea',     name: 'Serie A',              emoji: '🇮🇹',  country: 'Italy',   countryCode: 'IT', sport: 'football' },
   { id: 'ligue1',     name: 'Ligue 1',              emoji: '🇫🇷',  country: 'France',  countryCode: 'FR', sport: 'football' },
+  { id: 'bra_seriea', name: 'Brasileirão',          emoji: '🇧🇷',  country: 'Brazil',  countryCode: 'BR', sport: 'football' },
+  { id: 'alg_l1',     name: 'Ligue 1 Algérie',      emoji: '🇩🇿',  country: 'Algeria', countryCode: 'DZ', sport: 'football' },
+  { id: 'saudi_pl',   name: 'Saudi Pro League',     emoji: '🇸🇦',  country: 'Saudi Arabia', countryCode: 'SA', sport: 'football' },
   { id: 'champions',  name: 'Şampiyonlar Ligi',     emoji: '🏆',  country: 'Europe',  countryCode: null, sport: 'football' },
   { id: 'national',   name: 'Milli Takımlar',       emoji: '🌍',  country: 'World',   countryCode: null, sport: 'football' },
   // Basketbol
@@ -82,6 +87,7 @@ export const TEAMS: Team[] = [
     country: 'Turkey',
     emoji: '🌟',
     color: '#FF6600',
+    aliases: ['Istanbul Basaksehir', 'İstanbul Başakşehir'],
   },
   {
     id: 'konyaspor',
@@ -182,6 +188,7 @@ export const TEAMS: Team[] = [
     country: 'Turkey',
     emoji: '🍵',
     color: '#006633',
+    aliases: ['Caykur Rizespor', 'Çaykur Rizespor', 'Ç. Rizespor'],
   },
   {
     id: 'hatayspor',
@@ -212,6 +219,7 @@ export const TEAMS: Team[] = [
     country: 'Turkey',
     emoji: '⚓',
     color: '#0066CC',
+    aliases: ['Bodrumspor'],
   },
   {
     id: 'goztepe',
@@ -232,6 +240,7 @@ export const TEAMS: Team[] = [
     country: 'Turkey',
     emoji: '🔴',
     color: '#CC0000',
+    aliases: ['Kayserispor'],
   },
 
   // ===================== PREMIER LEAGUE =====================
@@ -244,6 +253,7 @@ export const TEAMS: Team[] = [
     country: 'England',
     emoji: '🔵',
     color: '#6CABDD',
+    aliases: ['Manchester City'],
   },
   {
     id: 'manutd',
@@ -254,6 +264,7 @@ export const TEAMS: Team[] = [
     country: 'England',
     emoji: '🔴',
     color: '#DA291C',
+    aliases: ['Manchester United'],
   },
   {
     id: 'arsenal',
@@ -294,6 +305,7 @@ export const TEAMS: Team[] = [
     country: 'England',
     emoji: '⚪',
     color: '#132257',
+    aliases: ['Tottenham Hotspur'],
   },
   {
     id: 'newcastle',
@@ -304,6 +316,7 @@ export const TEAMS: Team[] = [
     country: 'England',
     emoji: '⚫',
     color: '#241F20',
+    aliases: ['Newcastle United'],
   },
   {
     id: 'astonvilla',
@@ -324,6 +337,7 @@ export const TEAMS: Team[] = [
     country: 'England',
     emoji: '🔵',
     color: '#0057B8',
+    aliases: ['Brighton & Hove Albion'],
   },
   {
     id: 'westham',
@@ -334,6 +348,7 @@ export const TEAMS: Team[] = [
     country: 'England',
     emoji: '⚒️',
     color: '#7A263A',
+    aliases: ['West Ham United'],
   },
 
   // ===================== LA LIGA =====================
@@ -356,6 +371,7 @@ export const TEAMS: Team[] = [
     country: 'Spain',
     emoji: '🔵',
     color: '#A50044',
+    aliases: ['FC Barcelona'],
   },
   {
     id: 'atletico',
@@ -366,6 +382,7 @@ export const TEAMS: Team[] = [
     country: 'Spain',
     emoji: '🔴',
     color: '#CB3524',
+    aliases: ['Atletico Madrid', 'Atlético Madrid'],
   },
   {
     id: 'sevilla',
@@ -406,6 +423,7 @@ export const TEAMS: Team[] = [
     country: 'Spain',
     emoji: '🔴',
     color: '#EE2523',
+    aliases: ['Athletic Bilbao'],
   },
   {
     id: 'villarreal',
@@ -426,6 +444,7 @@ export const TEAMS: Team[] = [
     country: 'Spain',
     emoji: '🟢',
     color: '#00954C',
+    aliases: ['Real Betis'],
   },
 
   // ===================== BUNDESLIGA =====================
@@ -448,6 +467,7 @@ export const TEAMS: Team[] = [
     country: 'Germany',
     emoji: '🟡',
     color: '#FDE100',
+    aliases: ['Borussia Dortmund'],
   },
   {
     id: 'rbleipzig',
@@ -458,6 +478,7 @@ export const TEAMS: Team[] = [
     country: 'Germany',
     emoji: '🔴',
     color: '#CC0000',
+    aliases: ['Leipzig'],
   },
   {
     id: 'leverkusen',
@@ -468,6 +489,7 @@ export const TEAMS: Team[] = [
     country: 'Germany',
     emoji: '🔴',
     color: '#E32221',
+    aliases: ['Bayer Leverkusen'],
   },
   {
     id: 'frankfurt',
@@ -478,6 +500,7 @@ export const TEAMS: Team[] = [
     country: 'Germany',
     emoji: '🦅',
     color: '#E1000F',
+    aliases: ['Eintracht Frankfurt'],
   },
   {
     id: 'wolfsburg',
@@ -520,6 +543,7 @@ export const TEAMS: Team[] = [
     country: 'Italy',
     emoji: '🔴',
     color: '#FB090B',
+    aliases: ['Milan'],
   },
   {
     id: 'napoli',
@@ -572,6 +596,7 @@ export const TEAMS: Team[] = [
     country: 'France',
     emoji: '🔵',
     color: '#004170',
+    aliases: ['Paris Saint-Germain'],
   },
   {
     id: 'marseille',
@@ -776,6 +801,134 @@ export const TEAMS: Team[] = [
   { id: 'vakifbank',   name: 'VakıfBank',          nameLocal: { tr: 'VakıfBank', en: 'VakifBank', es: 'VakıfBank', pt: 'VakıfBank', fr: 'VakıfBank', de: 'VakıfBank', ar: 'واقف بانك', it: 'VakıfBank' }, league: 'Sultansliga', leagueId: 'sultansliga', country: 'Turkey', emoji: '🟡', color: '#F5A623', sport: 'volleyball' },
   { id: 'eczacibasi',  name: 'Eczacıbaşı',         nameLocal: { tr: 'Eczacıbaşı', en: 'Eczacibasi', es: 'Eczacıbaşı', pt: 'Eczacıbaşı', fr: 'Eczacıbaşı', de: 'Eczacıbaşı', ar: 'إجزاجيباشي', it: 'Eczacıbaşı' }, league: 'Sultansliga', leagueId: 'sultansliga', country: 'Turkey', emoji: '🔵', color: '#003087', sport: 'volleyball' },
 
+  // ===================== SÜPER LİG (2026-27 yeni) =====================
+  { id: 'kocaelispor', name: 'Kocaelispor', nameLocal: { tr: 'Kocaelispor', en: 'Kocaelispor', es: 'Kocaelispor', pt: 'Kocaelispor', fr: 'Kocaelispor', de: 'Kocaelispor', ar: 'كوجالي سبور', it: 'Kocaelispor' }, league: 'Süper Lig', leagueId: 'superlig', country: 'Turkey', emoji: '🟢', color: '#00843D' },
+  { id: 'amedspor', name: 'Amedspor', nameLocal: { tr: 'Amed SK', en: 'Amed SK', es: 'Amed SK', pt: 'Amed SK', fr: 'Amed SK', de: 'Amed SK', ar: 'آمد سبور', it: 'Amed SK' }, league: 'Süper Lig', leagueId: 'superlig', country: 'Turkey', emoji: '🟢', color: '#007A3D', aliases: ['Amed Sportif', 'Amed SFK'] },
+  { id: 'erzurumspor', name: 'Erzurumspor', nameLocal: { tr: 'Erzurumspor FK', en: 'Erzurumspor', es: 'Erzurumspor', pt: 'Erzurumspor', fr: 'Erzurumspor', de: 'Erzurumspor', ar: 'أرضروم سبور', it: 'Erzurumspor' }, league: 'Süper Lig', leagueId: 'superlig', country: 'Turkey', emoji: '🔵', color: '#0055A4', aliases: ['Erzurumspor FK', 'Erzurum BB'] },
+  { id: 'corumfk', name: 'Çorum FK', nameLocal: { tr: 'Çorum FK', en: 'Çorum FK', es: 'Çorum FK', pt: 'Çorum FK', fr: 'Çorum FK', de: 'Çorum FK', ar: 'تشوروم', it: 'Çorum FK' }, league: 'Süper Lig', leagueId: 'superlig', country: 'Turkey', emoji: '🔴', color: '#C8102E' },
+  { id: 'genclerbirligi', name: 'Gençlerbirliği', nameLocal: { tr: 'Gençlerbirliği', en: 'Gençlerbirliği', es: 'Gençlerbirliği', pt: 'Gençlerbirliği', fr: 'Gençlerbirliği', de: 'Gençlerbirliği', ar: 'Gençlerbirliği', it: 'Gençlerbirliği' }, league: 'Süper Lig', leagueId: 'superlig', country: 'Turkey', emoji: '🔴', color: '#C8102E' },
+  // ===================== PREMIER LEAGUE (ek) =====================
+  { id: 'fulham', name: 'Fulham', nameLocal: { tr: 'Fulham', en: 'Fulham', es: 'Fulham', pt: 'Fulham', fr: 'Fulham', de: 'FC Fulham', ar: 'فولهام', it: 'Fulham' }, league: 'Premier League', leagueId: 'premier', country: 'England', emoji: '⚪', color: '#000000' },
+  { id: 'brentford', name: 'Brentford', nameLocal: { tr: 'Brentford', en: 'Brentford', es: 'Brentford', pt: 'Brentford', fr: 'Brentford', de: 'Brentford', ar: 'برينتفورد', it: 'Brentford' }, league: 'Premier League', leagueId: 'premier', country: 'England', emoji: '🔴', color: '#E30613' },
+  { id: 'bournemouth', name: 'Bournemouth', nameLocal: { tr: 'Bournemouth', en: 'AFC Bournemouth', es: 'Bournemouth', pt: 'Bournemouth', fr: 'Bournemouth', de: 'Bournemouth', ar: 'بورنموث', it: 'Bournemouth' }, league: 'Premier League', leagueId: 'premier', country: 'England', emoji: '🔴', color: '#DA291C', aliases: ['AFC Bournemouth'] },
+  { id: 'crystalpalace', name: 'Crystal Palace', nameLocal: { tr: 'Crystal Palace', en: 'Crystal Palace', es: 'Crystal Palace', pt: 'Crystal Palace', fr: 'Crystal Palace', de: 'Crystal Palace', ar: 'كريستال بالاس', it: 'Crystal Palace' }, league: 'Premier League', leagueId: 'premier', country: 'England', emoji: '🔵', color: '#1B458F' },
+  { id: 'everton', name: 'Everton', nameLocal: { tr: 'Everton', en: 'Everton', es: 'Everton', pt: 'Everton', fr: 'Everton', de: 'FC Everton', ar: 'إيفرتون', it: 'Everton' }, league: 'Premier League', leagueId: 'premier', country: 'England', emoji: '🔵', color: '#003399' },
+  { id: 'nottinghamforest', name: 'Nottingham Forest', nameLocal: { tr: 'Nottingham Forest', en: 'Nottingham Forest', es: 'Nottingham Forest', pt: 'Nottingham Forest', fr: 'Nottingham Forest', de: 'Nottingham Forest', ar: 'نوتنغهام فورست', it: 'Nottingham Forest' }, league: 'Premier League', leagueId: 'premier', country: 'England', emoji: '🔴', color: '#DD0000', aliases: ['Nott\'m Forest'] },
+  { id: 'sunderland', name: 'Sunderland', nameLocal: { tr: 'Sunderland', en: 'Sunderland', es: 'Sunderland', pt: 'Sunderland', fr: 'Sunderland', de: 'AFC Sunderland', ar: 'سندرلاند', it: 'Sunderland' }, league: 'Premier League', leagueId: 'premier', country: 'England', emoji: '🔴', color: '#EB172B' },
+  { id: 'leedsunited', name: 'Leeds United', nameLocal: { tr: 'Leeds United', en: 'Leeds United', es: 'Leeds United', pt: 'Leeds United', fr: 'Leeds United', de: 'Leeds United', ar: 'ليدز يونايتد', it: 'Leeds United' }, league: 'Premier League', leagueId: 'premier', country: 'England', emoji: '⚪', color: '#1D428A', aliases: ['Leeds'] },
+  { id: 'ipswichtown', name: 'Ipswich Town', nameLocal: { tr: 'Ipswich Town', en: 'Ipswich Town', es: 'Ipswich Town', pt: 'Ipswich Town', fr: 'Ipswich Town', de: 'Ipswich Town', ar: 'إيبسويتش تاون', it: 'Ipswich Town' }, league: 'Premier League', leagueId: 'premier', country: 'England', emoji: '🔵', color: '#0044A9', aliases: ['Ipswich'] },
+  { id: 'hullcity', name: 'Hull City', nameLocal: { tr: 'Hull City', en: 'Hull City', es: 'Hull City', pt: 'Hull City', fr: 'Hull City', de: 'Hull City', ar: 'هال سيتي', it: 'Hull City' }, league: 'Premier League', leagueId: 'premier', country: 'England', emoji: '🟠', color: '#F18A01', aliases: ['Hull'] },
+  { id: 'coventrycity', name: 'Coventry City', nameLocal: { tr: 'Coventry City', en: 'Coventry City', es: 'Coventry City', pt: 'Coventry City', fr: 'Coventry City', de: 'Coventry City', ar: 'Coventry City', it: 'Coventry City' }, league: 'Premier League', leagueId: 'premier', country: 'England', emoji: '🔵', color: '#59CBE8', aliases: ['Coventry'] },
+  // ===================== LA LIGA (ek) =====================
+  { id: 'rayovallecano', name: 'Rayo Vallecano', nameLocal: { tr: 'Rayo Vallecano', en: 'Rayo Vallecano', es: 'Rayo Vallecano', pt: 'Rayo Vallecano', fr: 'Rayo Vallecano', de: 'Rayo Vallecano', ar: 'رايو فاليكانو', it: 'Rayo Vallecano' }, league: 'La Liga', leagueId: 'laliga', country: 'Spain', emoji: '⚪', color: '#E53027' },
+  { id: 'osasuna', name: 'Osasuna', nameLocal: { tr: 'Osasuna', en: 'Osasuna', es: 'Osasuna', pt: 'Osasuna', fr: 'Osasuna', de: 'CA Osasuna', ar: 'أوساسونا', it: 'Osasuna' }, league: 'La Liga', leagueId: 'laliga', country: 'Spain', emoji: '🔴', color: '#D91A21', aliases: ['CA Osasuna'] },
+  { id: 'getafe', name: 'Getafe', nameLocal: { tr: 'Getafe', en: 'Getafe', es: 'Getafe', pt: 'Getafe', fr: 'Getafe', de: 'Getafe', ar: 'خيتافي', it: 'Getafe' }, league: 'La Liga', leagueId: 'laliga', country: 'Spain', emoji: '🔵', color: '#005999' },
+  { id: 'elche', name: 'Elche', nameLocal: { tr: 'Elche', en: 'Elche', es: 'Elche', pt: 'Elche', fr: 'Elche', de: 'Elche', ar: 'إلتشي', it: 'Elche' }, league: 'La Liga', leagueId: 'laliga', country: 'Spain', emoji: '🟢', color: '#05642C' },
+  { id: 'celtavigo', name: 'Celta Vigo', nameLocal: { tr: 'Celta Vigo', en: 'Celta Vigo', es: 'Celta de Vigo', pt: 'Celta de Vigo', fr: 'Celta Vigo', de: 'Celta Vigo', ar: 'سيلتا فيغو', it: 'Celta Vigo' }, league: 'La Liga', leagueId: 'laliga', country: 'Spain', emoji: '🔵', color: '#8AC3EE', aliases: ['Celta', 'RC Celta'] },
+  { id: 'levante', name: 'Levante', nameLocal: { tr: 'Levante', en: 'Levante', es: 'Levante', pt: 'Levante', fr: 'Levante', de: 'Levante', ar: 'ليفانتي', it: 'Levante' }, league: 'La Liga', leagueId: 'laliga', country: 'Spain', emoji: '🔵', color: '#004D98' },
+  { id: 'malaga', name: 'Málaga', nameLocal: { tr: 'Málaga', en: 'Málaga', es: 'Málaga', pt: 'Málaga', fr: 'Málaga', de: 'Málaga', ar: 'ملقا', it: 'Málaga' }, league: 'La Liga', leagueId: 'laliga', country: 'Spain', emoji: '🔵', color: '#0071BC' },
+  { id: 'espanyol', name: 'Espanyol', nameLocal: { tr: 'Espanyol', en: 'Espanyol', es: 'Espanyol', pt: 'Espanyol', fr: 'Espanyol', de: 'Espanyol', ar: 'إسبانيول', it: 'Espanyol' }, league: 'La Liga', leagueId: 'laliga', country: 'Spain', emoji: '🔵', color: '#007FC8', aliases: ['RCD Espanyol'] },
+  { id: 'racingsantander', name: 'Racing Santander', nameLocal: { tr: 'Racing Santander', en: 'Racing Santander', es: 'Racing de Santander', pt: 'Racing Santander', fr: 'Racing de Santander', de: 'Racing Santander', ar: 'راسينغ سانتاندير', it: 'Racing Santander' }, league: 'La Liga', leagueId: 'laliga', country: 'Spain', emoji: '🟢', color: '#00843D' },
+  { id: 'alaves', name: 'Alavés', nameLocal: { tr: 'Alavés', en: 'Alavés', es: 'Alavés', pt: 'Alavés', fr: 'Alavés', de: 'Alavés', ar: 'Alavés', it: 'Alavés' }, league: 'La Liga', leagueId: 'laliga', country: 'Spain', emoji: '🔵', color: '#0761AF', aliases: ['Deportivo Alaves', 'Deportivo Alavés'] },
+  { id: 'deportivolacoruna', name: 'Deportivo La Coruña', nameLocal: { tr: 'Deportivo La Coruña', en: 'Deportivo La Coruña', es: 'Deportivo La Coruña', pt: 'Deportivo La Coruña', fr: 'Deportivo La Coruña', de: 'Deportivo La Coruña', ar: 'Deportivo La Coruña', it: 'Deportivo La Coruña' }, league: 'La Liga', leagueId: 'laliga', country: 'Spain', emoji: '🔵', color: '#0067B1', aliases: ['Deportivo A Coruna', 'Deportivo A Coruña'] },
+  // ===================== BUNDESLIGA (ek) =====================
+  { id: 'stuttgart', name: 'Stuttgart', nameLocal: { tr: 'VfB Stuttgart', en: 'VfB Stuttgart', es: 'VfB Stuttgart', pt: 'VfB Stuttgart', fr: 'VfB Stuttgart', de: 'VfB Stuttgart', ar: 'VfB Stuttgart', it: 'VfB Stuttgart' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '🔴', color: '#E32219', aliases: ['VfB Stuttgart'] },
+  { id: 'hoffenheim', name: 'Hoffenheim', nameLocal: { tr: 'Hoffenheim', en: 'Hoffenheim', es: 'Hoffenheim', pt: 'Hoffenheim', fr: 'Hoffenheim', de: 'TSG Hoffenheim', ar: 'هوفنهايم', it: 'Hoffenheim' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '🔵', color: '#1961B5', aliases: ['TSG Hoffenheim'] },
+  { id: 'werderbremen', name: 'Werder Bremen', nameLocal: { tr: 'Werder Bremen', en: 'Werder Bremen', es: 'Werder Bremen', pt: 'Werder Bremen', fr: 'Werder Brême', de: 'Werder Bremen', ar: 'فيردر بريمن', it: 'Werder Brema' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '🟢', color: '#1D9053', aliases: ['Bremen'] },
+  { id: 'borussiamonchengladbac', name: 'Borussia M\'gladbach', nameLocal: { tr: 'Borussia Mönchengladbach', en: 'Borussia Mönchengladbach', es: 'Borussia Mönchengladbach', pt: 'Borussia Mönchengladbach', fr: 'Borussia Mönchengladbach', de: 'Borussia Mönchengladbach', ar: 'Borussia Mönchengladbach', it: 'Borussia Mönchengladbach' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '⚫', color: '#000000', aliases: ['Borussia M\'gladbach', 'Gladbach'] },
+  { id: 'freiburg', name: 'Freiburg', nameLocal: { tr: 'SC Freiburg', en: 'SC Freiburg', es: 'SC Freiburg', pt: 'SC Freiburg', fr: 'SC Freiburg', de: 'SC Freiburg', ar: 'SC Freiburg', it: 'SC Freiburg' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '🔴', color: '#E2001A', aliases: ['SC Freiburg'] },
+  { id: 'unionberlin', name: 'Union Berlin', nameLocal: { tr: 'Union Berlin', en: 'Union Berlin', es: 'Union Berlin', pt: 'Union Berlin', fr: 'Union Berlin', de: 'Union Berlin', ar: 'Union Berlin', it: 'Union Berlin' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '🔴', color: '#EB1923', aliases: ['FC Union Berlin', '1. FC Union Berlin'] },
+  { id: 'mainz', name: 'Mainz', nameLocal: { tr: 'Mainz', en: 'Mainz 05', es: 'Maguncia', pt: 'Mainz', fr: 'Mayence', de: '1. FSV Mainz 05', ar: 'ماينز', it: 'Magonza' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '🔴', color: '#C3141E', aliases: ['Mainz 05', '1. FSV Mainz 05'] },
+  { id: 'augsburg', name: 'Augsburg', nameLocal: { tr: 'Augsburg', en: 'Augsburg', es: 'Augsburgo', pt: 'Augsburg', fr: 'Augsbourg', de: 'FC Augsburg', ar: 'أوغسبورغ', it: 'Augusta' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '🔴', color: '#BA3733', aliases: ['FC Augsburg'] },
+  { id: 'schalke04', name: 'Schalke 04', nameLocal: { tr: 'Schalke 04', en: 'Schalke 04', es: 'Schalke 04', pt: 'Schalke 04', fr: 'Schalke 04', de: 'Schalke 04', ar: 'Schalke 04', it: 'Schalke 04' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '🔵', color: '#004D9D', aliases: ['Schalke', 'FC Schalke 04'] },
+  { id: 'hamburgersv', name: 'Hamburger SV', nameLocal: { tr: 'Hamburger SV', en: 'Hamburger SV', es: 'Hamburger SV', pt: 'Hamburger SV', fr: 'Hamburger SV', de: 'Hamburger SV', ar: 'Hamburger SV', it: 'Hamburger SV' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '🔵', color: '#0A3F86', aliases: ['Hamburg'] },
+  { id: '1fckoln', name: '1. FC Köln', nameLocal: { tr: '1. FC Köln', en: '1. FC Köln', es: '1. FC Köln', pt: '1. FC Köln', fr: '1. FC Köln', de: '1. FC Köln', ar: '1. FC Köln', it: '1. FC Köln' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '🔴', color: '#ED1C24', aliases: ['FC Koln', 'FC Köln', 'Köln', 'Koln'] },
+  { id: 'paderborn', name: 'Paderborn', nameLocal: { tr: 'Paderborn', en: 'Paderborn', es: 'Paderborn', pt: 'Paderborn', fr: 'Paderborn', de: 'SC Paderborn 07', ar: 'بادربورن', it: 'Paderborn' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '🔵', color: '#005CA9', aliases: ['SC Paderborn', 'SC Paderborn 07'] },
+  { id: 'elversberg', name: 'Elversberg', nameLocal: { tr: 'Elversberg', en: 'SV Elversberg', es: 'Elversberg', pt: 'Elversberg', fr: 'Elversberg', de: 'SV Elversberg', ar: 'إلفرسبيرغ', it: 'Elversberg' }, league: 'Bundesliga', leagueId: 'bundesliga', country: 'Germany', emoji: '⚫', color: '#000000', aliases: ['SV Elversberg'] },
+  // ===================== SERIE A (ek) =====================
+  { id: 'atalanta', name: 'Atalanta', nameLocal: { tr: 'Atalanta', en: 'Atalanta', es: 'Atalanta', pt: 'Atalanta', fr: 'Atalanta', de: 'Atalanta', ar: 'Atalanta', it: 'Atalanta' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '🔵', color: '#1E71B8' },
+  { id: 'bologna', name: 'Bologna', nameLocal: { tr: 'Bologna', en: 'Bologna', es: 'Bologna', pt: 'Bologna', fr: 'Bologne', de: 'Bologna', ar: 'بولونيا', it: 'Bologna' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '🔴', color: '#1A2F48' },
+  { id: 'torino', name: 'Torino', nameLocal: { tr: 'Torino', en: 'Torino', es: 'Torino', pt: 'Torino', fr: 'Torino', de: 'Torino', ar: 'Torino', it: 'Torino' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '🟤', color: '#8A1E03' },
+  { id: 'genoa', name: 'Genoa', nameLocal: { tr: 'Genoa', en: 'Genoa', es: 'Genoa', pt: 'Genoa', fr: 'Genoa', de: 'Genoa', ar: 'جنوى', it: 'Genoa' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '🔴', color: '#A6192E' },
+  { id: 'udinese', name: 'Udinese', nameLocal: { tr: 'Udinese', en: 'Udinese', es: 'Udinese', pt: 'Udinese', fr: 'Udinese', de: 'Udinese', ar: 'Udinese', it: 'Udinese' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '⚫', color: '#000000' },
+  { id: 'cagliari', name: 'Cagliari', nameLocal: { tr: 'Cagliari', en: 'Cagliari', es: 'Cagliari', pt: 'Cagliari', fr: 'Cagliari', de: 'Cagliari', ar: 'كالياري', it: 'Cagliari' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '🔴', color: '#B01028' },
+  { id: 'lecce', name: 'Lecce', nameLocal: { tr: 'Lecce', en: 'Lecce', es: 'Lecce', pt: 'Lecce', fr: 'Lecce', de: 'Lecce', ar: 'ليتشي', it: 'Lecce' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '🟡', color: '#FFED00' },
+  { id: 'parma', name: 'Parma', nameLocal: { tr: 'Parma', en: 'Parma', es: 'Parma', pt: 'Parma', fr: 'Parme', de: 'Parma Calcio', ar: 'بارما', it: 'Parma' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '🟡', color: '#FFD200' },
+  { id: 'como', name: 'Como', nameLocal: { tr: 'Como', en: 'Como', es: 'Como', pt: 'Como', fr: 'Como', de: 'Como', ar: 'كومو', it: 'Como' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '🔵', color: '#003DA5' },
+  { id: 'sassuolo', name: 'Sassuolo', nameLocal: { tr: 'Sassuolo', en: 'Sassuolo', es: 'Sassuolo', pt: 'Sassuolo', fr: 'Sassuolo', de: 'Sassuolo', ar: 'ساسولو', it: 'Sassuolo' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '🟢', color: '#00A752' },
+  { id: 'monza', name: 'Monza', nameLocal: { tr: 'Monza', en: 'Monza', es: 'Monza', pt: 'Monza', fr: 'Monza', de: 'Monza', ar: 'مونزا', it: 'Monza' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '🔴', color: '#E30613' },
+  { id: 'venezia', name: 'Venezia', nameLocal: { tr: 'Venezia', en: 'Venezia', es: 'Venezia', pt: 'Venezia', fr: 'Venezia', de: 'Venezia', ar: 'Venezia', it: 'Venezia' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '🟠', color: '#F28C00' },
+  { id: 'frosinone', name: 'Frosinone', nameLocal: { tr: 'Frosinone', en: 'Frosinone', es: 'Frosinone', pt: 'Frosinone', fr: 'Frosinone', de: 'Frosinone', ar: 'فروزينوني', it: 'Frosinone' }, league: 'Serie A', leagueId: 'seriea', country: 'Italy', emoji: '🟡', color: '#FFDD00' },
+  // ===================== LIGUE 1 (ek) =====================
+  { id: 'lens', name: 'Lens', nameLocal: { tr: 'Lens', en: 'RC Lens', es: 'Lens', pt: 'Lens', fr: 'RC Lens', de: 'RC Lens', ar: 'لانس', it: 'Lens' }, league: 'Ligue 1', leagueId: 'ligue1', country: 'France', emoji: '🟡', color: '#FFD700', aliases: ['RC Lens'] },
+  { id: 'rennes', name: 'Rennes', nameLocal: { tr: 'Rennes', en: 'Stade Rennais', es: 'Rennes', pt: 'Rennes', fr: 'Rennes', de: 'Stade Rennes', ar: 'رين', it: 'Rennes' }, league: 'Ligue 1', leagueId: 'ligue1', country: 'France', emoji: '🔴', color: '#E13327', aliases: ['Stade Rennais'] },
+  { id: 'strasbourg', name: 'Strasbourg', nameLocal: { tr: 'Strasbourg', en: 'Strasbourg', es: 'Estrasburgo', pt: 'Estrasburgo', fr: 'Strasbourg', de: 'Racing Straßburg', ar: 'ستراسبورغ', it: 'Strasburgo' }, league: 'Ligue 1', leagueId: 'ligue1', country: 'France', emoji: '🔵', color: '#009FE3', aliases: ['RC Strasbourg'] },
+  { id: 'brest', name: 'Brest', nameLocal: { tr: 'Brest', en: 'Brest', es: 'Stade Brestois', pt: 'Brest', fr: 'Stade Brestois', de: 'Stade Brest', ar: 'بريست', it: 'Brest' }, league: 'Ligue 1', leagueId: 'ligue1', country: 'France', emoji: '🔴', color: '#E30613', aliases: ['Stade Brestois'] },
+  { id: 'toulouse', name: 'Toulouse', nameLocal: { tr: 'Toulouse', en: 'Toulouse', es: 'Toulouse', pt: 'Toulouse', fr: 'Toulouse FC', de: 'FC Toulouse', ar: 'تولوز', it: 'Tolosa' }, league: 'Ligue 1', leagueId: 'ligue1', country: 'France', emoji: '🟣', color: '#6D2C8E', aliases: ['Toulouse FC'] },
+  { id: 'angers', name: 'Angers', nameLocal: { tr: 'Angers', en: 'Angers', es: 'Angers', pt: 'Angers', fr: 'Angers SCO', de: 'SCO Angers', ar: 'أنجيه', it: 'Angers' }, league: 'Ligue 1', leagueId: 'ligue1', country: 'France', emoji: '⚫', color: '#000000', aliases: ['Angers SCO'] },
+  { id: 'lehavre', name: 'Le Havre', nameLocal: { tr: 'Le Havre', en: 'Le Havre', es: 'Le Havre', pt: 'Le Havre', fr: 'Le Havre', de: 'Le Havre', ar: 'لوهافر', it: 'Le Havre' }, league: 'Ligue 1', leagueId: 'ligue1', country: 'France', emoji: '🔵', color: '#1C3F94', aliases: ['Le Havre AC'] },
+  { id: 'lorient', name: 'Lorient', nameLocal: { tr: 'Lorient', en: 'Lorient', es: 'Lorient', pt: 'Lorient', fr: 'FC Lorient', de: 'FC Lorient', ar: 'لوريان', it: 'Lorient' }, league: 'Ligue 1', leagueId: 'ligue1', country: 'France', emoji: '🟠', color: '#F58113', aliases: ['FC Lorient'] },
+  { id: 'auxerre', name: 'Auxerre', nameLocal: { tr: 'Auxerre', en: 'AJ Auxerre', es: 'Auxerre', pt: 'Auxerre', fr: 'Auxerre', de: 'AJ Auxerre', ar: 'أوكسير', it: 'Auxerre' }, league: 'Ligue 1', leagueId: 'ligue1', country: 'France', emoji: '🔵', color: '#0060A9', aliases: ['AJ Auxerre'] },
+  { id: 'parisfc', name: 'Paris FC', nameLocal: { tr: 'Paris FC', en: 'Paris FC', es: 'Paris FC', pt: 'Paris FC', fr: 'Paris FC', de: 'Paris FC', ar: 'باريس إف سي', it: 'Paris FC' }, league: 'Ligue 1', leagueId: 'ligue1', country: 'France', emoji: '🔵', color: '#1B3A6B' },
+  { id: 'troyes', name: 'Troyes', nameLocal: { tr: 'Troyes', en: 'Troyes AC', es: 'Troyes', pt: 'Troyes', fr: 'Troyes', de: 'ES Troyes AC', ar: 'تروا', it: 'Troyes' }, league: 'Ligue 1', leagueId: 'ligue1', country: 'France', emoji: '🔵', color: '#004A99', aliases: ['ESTAC Troyes'] },
+  { id: 'lemans', name: 'Le Mans', nameLocal: { tr: 'Le Mans', en: 'Le Mans', es: 'Le Mans', pt: 'Le Mans', fr: 'Le Mans', de: 'Le Mans', ar: 'لومان', it: 'Le Mans' }, league: 'Ligue 1', leagueId: 'ligue1', country: 'France', emoji: '🔴', color: '#D52B1E', aliases: ['Le Mans FC'] },
+  // ===================== BRASILEIRÃO =====================
+  { id: 'flamengo', name: 'Flamengo', nameLocal: { tr: 'Flamengo', en: 'Flamengo', es: 'Flamengo', pt: 'Flamengo', fr: 'Flamengo', de: 'Flamengo', ar: 'فلامنغو', it: 'Flamengo' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🔴', color: '#C3281E' },
+  { id: 'palmeiras', name: 'Palmeiras', nameLocal: { tr: 'Palmeiras', en: 'Palmeiras', es: 'Palmeiras', pt: 'Palmeiras', fr: 'Palmeiras', de: 'Palmeiras', ar: 'بالميراس', it: 'Palmeiras' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🟢', color: '#006437' },
+  { id: 'corinthians', name: 'Corinthians', nameLocal: { tr: 'Corinthians', en: 'Corinthians', es: 'Corinthians', pt: 'Corinthians', fr: 'Corinthians', de: 'Corinthians', ar: 'كورينثيانس', it: 'Corinthians' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '⚫', color: '#000000' },
+  { id: 'saopaulo', name: 'São Paulo', nameLocal: { tr: 'São Paulo', en: 'São Paulo', es: 'São Paulo', pt: 'São Paulo', fr: 'São Paulo', de: 'São Paulo', ar: 'ساو باولو', it: 'San Paolo' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🔴', color: '#FE0000' },
+  { id: 'santos', name: 'Santos', nameLocal: { tr: 'Santos', en: 'Santos', es: 'Santos', pt: 'Santos', fr: 'Santos', de: 'Santos', ar: 'سانتوس', it: 'Santos' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '⚪', color: '#000000' },
+  { id: 'fluminense', name: 'Fluminense', nameLocal: { tr: 'Fluminense', en: 'Fluminense', es: 'Fluminense', pt: 'Fluminense', fr: 'Fluminense', de: 'Fluminense', ar: 'فلومينينسي', it: 'Fluminense' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🟤', color: '#7A0B1E' },
+  { id: 'botafogo', name: 'Botafogo', nameLocal: { tr: 'Botafogo', en: 'Botafogo', es: 'Botafogo', pt: 'Botafogo', fr: 'Botafogo', de: 'Botafogo', ar: 'بوتافوجو', it: 'Botafogo' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '⚫', color: '#000000' },
+  { id: 'vascodagama', name: 'Vasco da Gama', nameLocal: { tr: 'Vasco da Gama', en: 'Vasco da Gama', es: 'Vasco da Gama', pt: 'Vasco da Gama', fr: 'Vasco da Gama', de: 'Vasco da Gama', ar: 'فاسكو دا جاما', it: 'Vasco da Gama' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '⚫', color: '#000000', aliases: ['Vasco'] },
+  { id: 'gremio', name: 'Grêmio', nameLocal: { tr: 'Grêmio', en: 'Grêmio', es: 'Grêmio', pt: 'Grêmio', fr: 'Grêmio', de: 'Grêmio', ar: 'Grêmio', it: 'Grêmio' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🔵', color: '#0D80BF' },
+  { id: 'internacional', name: 'Internacional', nameLocal: { tr: 'Internacional', en: 'Internacional', es: 'Internacional', pt: 'Internacional', fr: 'Internacional', de: 'Internacional', ar: 'إنترناسيونال', it: 'Internacional' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🔴', color: '#E30613' },
+  { id: 'cruzeiro', name: 'Cruzeiro', nameLocal: { tr: 'Cruzeiro', en: 'Cruzeiro', es: 'Cruzeiro', pt: 'Cruzeiro', fr: 'Cruzeiro', de: 'Cruzeiro', ar: 'كروزيرو', it: 'Cruzeiro' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🔵', color: '#2F529E' },
+  { id: 'atleticomg', name: 'Atlético Mineiro', nameLocal: { tr: 'Atlético Mineiro', en: 'Atlético Mineiro', es: 'Atlético Mineiro', pt: 'Atlético Mineiro', fr: 'Atlético Mineiro', de: 'Atlético Mineiro', ar: 'أتلتيكو مينيرو', it: 'Atlético Mineiro' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '⚫', color: '#000000', aliases: ['Atlético Mineiro', 'Atletico Mineiro'] },
+  { id: 'bahia', name: 'Bahia', nameLocal: { tr: 'Bahia', en: 'Bahia', es: 'Bahia', pt: 'Bahia', fr: 'Bahia', de: 'Bahia', ar: 'باهيا', it: 'Bahia' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🔵', color: '#0066B3', aliases: ['EC Bahia'] },
+  { id: 'vitoria', name: 'Vitória', nameLocal: { tr: 'Vitória', en: 'Vitória', es: 'Vitória', pt: 'Vitória', fr: 'Vitória', de: 'Vitória', ar: 'فيتوريا', it: 'Vitória' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🔴', color: '#E30613' },
+  { id: 'rbbragantino', name: 'RB Bragantino', nameLocal: { tr: 'RB Bragantino', en: 'RB Bragantino', es: 'RB Bragantino', pt: 'RB Bragantino', fr: 'RB Bragantino', de: 'RB Bragantino', ar: 'براغانتينو', it: 'RB Bragantino' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '⚪', color: '#E30613', aliases: ['Bragantino', 'Red Bull Bragantino'] },
+  { id: 'athleticoparanaense', name: 'Athletico Paranaense', nameLocal: { tr: 'Athletico Paranaense', en: 'Athletico Paranaense', es: 'Athletico Paranaense', pt: 'Athletico Paranaense', fr: 'Athletico Paranaense', de: 'Athletico Paranaense', ar: 'Athletico Paranaense', it: 'Athletico Paranaense' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🔴', color: '#C8102E', aliases: ['Athletico-PR', 'Athletico PR'] },
+  { id: 'coritiba', name: 'Coritiba', nameLocal: { tr: 'Coritiba', en: 'Coritiba', es: 'Coritiba', pt: 'Coritiba', fr: 'Coritiba', de: 'Coritiba', ar: 'كوريتيبا', it: 'Coritiba' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🟢', color: '#00544D' },
+  { id: 'chapecoense', name: 'Chapecoense', nameLocal: { tr: 'Chapecoense', en: 'Chapecoense', es: 'Chapecoense', pt: 'Chapecoense', fr: 'Chapecoense', de: 'Chapecoense', ar: 'تشابيكوينسي', it: 'Chapecoense' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🟢', color: '#00843D' },
+  { id: 'mirassol', name: 'Mirassol', nameLocal: { tr: 'Mirassol', en: 'Mirassol', es: 'Mirassol', pt: 'Mirassol', fr: 'Mirassol', de: 'Mirassol', ar: 'ميراسول', it: 'Mirassol' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🟡', color: '#FFD100' },
+  { id: 'remo', name: 'Remo', nameLocal: { tr: 'Remo', en: 'Remo', es: 'Remo', pt: 'Remo', fr: 'Remo', de: 'Remo', ar: 'ريمو', it: 'Remo' }, league: 'Brasileirão', leagueId: 'bra_seriea', country: 'Brazil', emoji: '🔵', color: '#00205B', aliases: ['Clube do Remo'] },
+  // ===================== LIGUE 1 ALGÉRIE =====================
+  { id: 'mcalger', name: 'MC Alger', nameLocal: { tr: 'MC Alger', en: 'MC Alger', es: 'MC Alger', pt: 'MC Alger', fr: 'MC Alger', de: 'MC Alger', ar: 'مولودية الجزائر', it: 'MC Alger' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🔴', color: '#C8102E', aliases: ['Mouloudia Alger', 'MC Algiers'] },
+  { id: 'usmalger', name: 'USM Alger', nameLocal: { tr: 'USM Alger', en: 'USM Alger', es: 'USM Alger', pt: 'USM Alger', fr: 'USM Alger', de: 'USM Alger', ar: 'اتحاد العاصمة', it: 'USM Alger' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🔴', color: '#D21034', aliases: ['USM Algiers'] },
+  { id: 'crbelouizdad', name: 'CR Belouizdad', nameLocal: { tr: 'CR Belouizdad', en: 'CR Belouizdad', es: 'CR Belouizdad', pt: 'CR Belouizdad', fr: 'CR Belouizdad', de: 'CR Belouizdad', ar: 'شباب بلوزداد', it: 'CR Belouizdad' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🔴', color: '#E30613', aliases: ['Belouizdad'] },
+  { id: 'jskabylie', name: 'JS Kabylie', nameLocal: { tr: 'JS Kabylie', en: 'JS Kabylie', es: 'JS Kabylie', pt: 'JS Kabylie', fr: 'JS Kabylie', de: 'JS Kabylie', ar: 'شبيبة القبائل', it: 'JS Kabylie' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🟡', color: '#FFD700', aliases: ['JSK'] },
+  { id: 'essetif', name: 'ES Sétif', nameLocal: { tr: 'ES Sétif', en: 'ES Sétif', es: 'ES Sétif', pt: 'ES Sétif', fr: 'ES Sétif', de: 'ES Sétif', ar: 'وفاق سطيف', it: 'ES Sétif' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '⚫', color: '#000000', aliases: ['Entente Setif'] },
+  { id: 'csconstantine', name: 'CS Constantine', nameLocal: { tr: 'CS Constantine', en: 'CS Constantine', es: 'CS Constantine', pt: 'CS Constantine', fr: 'CS Constantine', de: 'CS Constantine', ar: 'شباب قسنطينة', it: 'CS Constantine' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🟢', color: '#007A33' },
+  { id: 'mcoran', name: 'MC Oran', nameLocal: { tr: 'MC Oran', en: 'MC Oran', es: 'MC Oran', pt: 'MC Oran', fr: 'MC Oran', de: 'MC Oran', ar: 'MC Oran', it: 'MC Oran' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🔴', color: '#C8102E' },
+  { id: 'jssaoura', name: 'JS Saoura', nameLocal: { tr: 'JS Saoura', en: 'JS Saoura', es: 'JS Saoura', pt: 'JS Saoura', fr: 'JS Saoura', de: 'JS Saoura', ar: 'شبيبة الساورة', it: 'JS Saoura' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🟡', color: '#F7D117' },
+  { id: 'asochlef', name: 'ASO Chlef', nameLocal: { tr: 'ASO Chlef', en: 'ASO Chlef', es: 'ASO Chlef', pt: 'ASO Chlef', fr: 'ASO Chlef', de: 'ASO Chlef', ar: 'أولمبي الشلف', it: 'ASO Chlef' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🔴', color: '#D21034', aliases: ['Chlef'] },
+  { id: 'olympiqueakbou', name: 'Olympique Akbou', nameLocal: { tr: 'Olympique Akbou', en: 'Olympique Akbou', es: 'Olympique Akbou', pt: 'Olympique Akbou', fr: 'Olympique Akbou', de: 'Olympique Akbou', ar: 'أولمبي أقبو', it: 'Olympique Akbou' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🟢', color: '#009A44', aliases: ['O. Akbou'] },
+  { id: 'usbiskra', name: 'US Biskra', nameLocal: { tr: 'US Biskra', en: 'US Biskra', es: 'US Biskra', pt: 'US Biskra', fr: 'US Biskra', de: 'US Biskra', ar: 'اتحاد بسكرة', it: 'US Biskra' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🟢', color: '#009A44' },
+  { id: 'usmkhenchela', name: 'USM Khenchela', nameLocal: { tr: 'USM Khenchela', en: 'USM Khenchela', es: 'USM Khenchela', pt: 'USM Khenchela', fr: 'USM Khenchela', de: 'USM Khenchela', ar: 'اتحاد خنشلة', it: 'USM Khenchela' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🔵', color: '#0055A4' },
+  { id: 'crtemouchent', name: 'CR Temouchent', nameLocal: { tr: 'CR Temouchent', en: 'CR Temouchent', es: 'CR Temouchent', pt: 'CR Temouchent', fr: 'CR Temouchent', de: 'CR Temouchent', ar: 'CR Temouchent', it: 'CR Temouchent' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🔵', color: '#0055A4' },
+  { id: 'esbenaknoun', name: 'ES Ben Aknoun', nameLocal: { tr: 'ES Ben Aknoun', en: 'ES Ben Aknoun', es: 'ES Ben Aknoun', pt: 'ES Ben Aknoun', fr: 'ES Ben Aknoun', de: 'ES Ben Aknoun', ar: 'نجم بن عكنون', it: 'ES Ben Aknoun' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🟢', color: '#009A44' },
+  { id: 'mbrouissat', name: 'MB Rouissat', nameLocal: { tr: 'MB Rouissat', en: 'MB Rouissat', es: 'MB Rouissat', pt: 'MB Rouissat', fr: 'MB Rouissat', de: 'MB Rouissat', ar: 'مستقبل بلدية الرويسات', it: 'MB Rouissat' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🔵', color: '#0055A4' },
+  { id: 'jselbiar', name: 'JS El Biar', nameLocal: { tr: 'JS El Biar', en: 'JS El Biar', es: 'JS El Biar', pt: 'JS El Biar', fr: 'JS El Biar', de: 'JS El Biar', ar: 'JS El Biar', it: 'JS El Biar' }, league: 'Ligue 1 Algérie', leagueId: 'alg_l1', country: 'Algeria', emoji: '🔴', color: '#C8102E' },
+  // ===================== SAUDI PRO LEAGUE =====================
+  { id: 'alhilal', name: 'Al Hilal', nameLocal: { tr: 'Al Hilal', en: 'Al Hilal', es: 'Al Hilal', pt: 'Al-Hilal', fr: 'Al-Hilal', de: 'Al-Hilal', ar: 'الهلال', it: 'Al Hilal' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🔵', color: '#0033A0' },
+  { id: 'alnassr', name: 'Al Nassr', nameLocal: { tr: 'Al Nassr', en: 'Al Nassr', es: 'Al Nassr', pt: 'Al-Nassr', fr: 'Al-Nassr', de: 'Al-Nassr', ar: 'النصر', it: 'Al Nassr' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🟡', color: '#FCD116', aliases: ['Al Nassr FC'] },
+  { id: 'alittihad', name: 'Al Ittihad', nameLocal: { tr: 'Al Ittihad', en: 'Al Ittihad', es: 'Al Ittihad', pt: 'Al-Ittihad', fr: 'Al-Ittihad', de: 'Al-Ittihad', ar: 'الاتحاد', it: 'Al Ittihad' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🟡', color: '#FFD700' },
+  { id: 'alahli', name: 'Al Ahli', nameLocal: { tr: 'Al Ahli', en: 'Al Ahli', es: 'Al Ahli', pt: 'Al Ahli', fr: 'Al Ahli', de: 'Al Ahli', ar: 'الأهلي', it: 'Al Ahli' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🟢', color: '#00843D', aliases: ['Al-Ahli Jeddah', 'Al Ahli Jeddah', 'Al Ahli Saudi'] },
+  { id: 'alqadsiah', name: 'Al Qadsiah', nameLocal: { tr: 'Al Qadsiah', en: 'Al Qadsiah', es: 'Al Qadsiah', pt: 'Al Qadsiah', fr: 'Al Qadsiah', de: 'Al Qadsiah', ar: 'القادسية', it: 'Al Qadsiah' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🔴', color: '#C8102E', aliases: ['Al Qadisiyah'] },
+  { id: 'alshabab', name: 'Al Shabab', nameLocal: { tr: 'Al-Shabab', en: 'Al-Shabab', es: 'Al-Shabab', pt: 'Al-Shabab', fr: 'Al-Shabab', de: 'Al-Shabab', ar: 'الشباب', it: 'Al-Shabab' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '⚪', color: '#000000' },
+  { id: 'alettifaq', name: 'Al-Ettifaq', nameLocal: { tr: 'Al-Ettifaq', en: 'Al-Ettifaq', es: 'Al-Ettifaq', pt: 'Al-Ettifaq', fr: 'Al-Ettifaq', de: 'Al-Ettifaq', ar: 'Al-Ettifaq', it: 'Al-Ettifaq' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🟢', color: '#00843D' },
+  { id: 'altaawoun', name: 'Al Taawoun', nameLocal: { tr: 'Al-Taawoun', en: 'Al-Taawoun', es: 'Al-Taawoun', pt: 'Al-Taawoun', fr: 'Al-Taawoun', de: 'Al-Taawoun', ar: 'التعاون', it: 'Al-Taawoun' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🟡', color: '#FFD200', aliases: ['Al Taawon'] },
+  { id: 'alfateh', name: 'Al Fateh', nameLocal: { tr: 'Al Fateh', en: 'Al Fateh', es: 'Al Fateh', pt: 'Al Fateh', fr: 'Al Fateh', de: 'Al Fateh', ar: 'الفتح', it: 'Al Fateh' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🔵', color: '#0055A4', aliases: ['Al Fateh FC'] },
+  { id: 'alfayha', name: 'Al-Fayha', nameLocal: { tr: 'Al-Fayha', en: 'Al-Fayha', es: 'Al-Fayha', pt: 'Al-Fayha', fr: 'Al-Fayha', de: 'Al-Fayha', ar: 'Al-Fayha', it: 'Al-Fayha' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🟠', color: '#F28C00' },
+  { id: 'alkhaleej', name: 'Al-Khaleej', nameLocal: { tr: 'Al-Khaleej', en: 'Al-Khaleej', es: 'Al-Khaleej', pt: 'Al-Khaleej', fr: 'Al-Khaleej', de: 'Al-Khaleej', ar: 'Al-Khaleej', it: 'Al-Khaleej' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🟢', color: '#00843D', aliases: ['Al Khaleej Saihat'] },
+  { id: 'alriyadh', name: 'Al Riyadh', nameLocal: { tr: 'Al-Riyadh', en: 'Al-Riyadh', es: 'Al-Riyadh', pt: 'Al-Riyadh', fr: 'Al-Riyadh', de: 'Al-Riyadh', ar: 'الرياض', it: 'Al-Riyadh' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🔴', color: '#C8102E' },
+  { id: 'alkholood', name: 'Al Kholood', nameLocal: { tr: 'Al Kholood', en: 'Al Kholood', es: 'Al Kholood', pt: 'Al Kholood', fr: 'Al Kholood', de: 'Al Kholood', ar: 'الخلود', it: 'Al Kholood' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🔴', color: '#C8102E' },
+  { id: 'alhazem', name: 'Al Hazem', nameLocal: { tr: 'Al Hazem', en: 'Al Hazem', es: 'Al Hazem', pt: 'Al-Hazem', fr: 'Al-Hazem', de: 'Al-Hazem', ar: 'الحزم', it: 'Al Hazem' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🟡', color: '#FFD200' },
+  { id: 'alfaisaly', name: 'Al-Faisaly', nameLocal: { tr: 'Al-Faisaly', en: 'Al-Faisaly', es: 'Al-Faisaly', pt: 'Al-Faisaly', fr: 'Al-Faisaly', de: 'Al-Faisaly', ar: 'Al-Faisaly', it: 'Al-Faisaly' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🔵', color: '#0055A4', aliases: ['Al Faysaly'] },
+  { id: 'aldiriyah', name: 'Al Diriyah', nameLocal: { tr: 'Al Diriyah', en: 'Al Diriyah', es: 'Al Diriyah', pt: 'Al Diriyah', fr: 'Al Diriyah', de: 'Al Diriyah', ar: 'الدرعية', it: 'Al Diriyah' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🔵', color: '#0055A4' },
+  { id: 'abha', name: 'Abha', nameLocal: { tr: 'Abha', en: 'Abha', es: 'Abha', pt: 'Abha', fr: 'Abha', de: 'Abha', ar: 'أبها', it: 'Abha' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🟢', color: '#00843D' },
+  { id: 'neom', name: 'Neom', nameLocal: { tr: 'Neom', en: 'Neom SC', es: 'Neom SC', pt: 'Neom SC', fr: 'Neom SC', de: 'Neom SC', ar: 'نيوم', it: 'Neom SC' }, league: 'Saudi Pro League', leagueId: 'saudi_pl', country: 'Saudi Arabia', emoji: '🔵', color: '#0055A4', aliases: ['NEOM SC', 'Neom SC'] },
   // ===================== FORMULA 1 =====================
   { id: 'mercedes_f1',  name: 'Mercedes',          nameLocal: { tr: 'Mercedes', en: 'Mercedes', es: 'Mercedes', pt: 'Mercedes', fr: 'Mercedes', de: 'Mercedes', ar: 'مرسيدس', it: 'Mercedes' }, league: 'Formula 1', leagueId: 'f1', country: 'Germany', emoji: '⬛', color: '#00D2BE', sport: 'motorsport' },
   { id: 'redbull_f1',   name: 'Red Bull',           nameLocal: { tr: 'Red Bull', en: 'Red Bull', es: 'Red Bull', pt: 'Red Bull', fr: 'Red Bull', de: 'Red Bull', ar: 'ريد بول', it: 'Red Bull' }, league: 'Formula 1', leagueId: 'f1', country: 'Austria', emoji: '🔵', color: '#0600EF', sport: 'motorsport' },

@@ -14,6 +14,7 @@ import {
 } from '../services/dailyMatchService';
 import { getMatchWindow, getDeviceTimezone } from '../utils/timezone';
 import { scheduleAllNotifications }            from '../services/notificationService';
+import { takimSporu }                          from '../constants/teams';
 import { useTranslation } from 'react-i18next';
 
 export type MatchFilter = 'all' | 'favorites';
@@ -135,10 +136,13 @@ export function useMatches(
     return sport === 'all' ? active : active.filter(m => m.sport === sport);
   }, [allMatches, sport, countryCode]);
 
+  // Dal da tutmalı (bildirimlerdeki gibi): basketboldaki "Venezia"/"Strasbourg",
+  // futbolda o takımı seçen kişinin listesine düşmesin.
   const favoriteMatches = useMemo(
-    () => sportFiltered.filter(
-      m => selectedTeamIds.includes(m.homeTeam) || selectedTeamIds.includes(m.awayTeam),
-    ),
+    () => sportFiltered.filter((m) => {
+      const tutar = (id: string) => selectedTeamIds.includes(id) && takimSporu(id) === (m.sport ?? 'football');
+      return tutar(m.homeTeam) || tutar(m.awayTeam);
+    }),
     [sportFiltered, selectedTeamIds],
   );
 

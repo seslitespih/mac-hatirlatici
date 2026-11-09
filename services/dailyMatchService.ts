@@ -17,6 +17,24 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Match, SportType } from '../constants/matches';
 import { formatLocalTime, getMatchWindow } from '../utils/timezone';
 import { COUNTRY_TZ, norm } from './sportsDbService';
+import { TEAMS } from '../constants/teams';
+
+/**
+ * Fikstürde aynı takım farklı yazılabiliyor ("RC Lens" / "Lens", "Paris Saint-Germain" / "PSG").
+ * Favori eşleşmesi norm(ad) === takım kimliği olduğu için bu yazımlar kaçıyordu
+ * (FR kullanıcı yorumu, 4 Eyl 2026). Takma adları ve yerel adları ("Marsilya") kimliğe çevir.
+ * Ad zaten bir kimlikse ona dokunma: Kayseri'nin yerel adı "Kayserispor" ama ayrı kimlik de var.
+ * Arapça adlar norm()'da boş kalır → 3 harften kısa anahtarlar alınmaz.
+ */
+const KIMLIKLER = new Set(TEAMS.map((t) => t.id));
+const TAKMA_AD: Record<string, string> = {};
+for (const t of TEAMS) {
+  for (const a of [...(t.aliases ?? []), t.name, ...Object.values(t.nameLocal)]) {
+    const n = norm(a);
+    if (n.length >= 3) TAKMA_AD[n] ??= t.id;
+  }
+}
+const takimKimligi = (ad: string) => { const n = norm(ad); return KIMLIKLER.has(n) ? n : TAKMA_AD[n] ?? n; };
 
 const REMOTE_URL =
   'https://raw.githubusercontent.com/seslitespih/mac-hatirlatici/main/assets/matches-daily.json';
@@ -146,8 +164,8 @@ export async function fetchDailyMatches(
     out.push({
       id:            `daily_${countryCode}_${r.id}`,
       sport:         r.sport,
-      homeTeam:      norm(r.home),   // favori eşleşmesi taban ad üzerinden
-      awayTeam:      norm(r.away),
+      homeTeam:      takimKimligi(r.home),   // favori eşleşmesi taban ad + takma ad üzerinden
+      awayTeam:      takimKimligi(r.away),
       homeTeamName:  homeName,
       awayTeamName:  awayName,
       homeTeamColor: '#888',

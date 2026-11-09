@@ -42,7 +42,7 @@ module.exports = {
       hu: './locales/hu.json',
       sr: './locales/sr.json',
     },
-    version: '1.5.0',
+    version: '1.5.1',
     // Expo 52'de alan yoktu = eski mimari. Expo 54'te varsayilan yeni mimari; davranis
     // degismesin diye eski mimari sabit. (Expo 54 eski mimariyi destekleyen son SDK.)
     newArchEnabled: false,
