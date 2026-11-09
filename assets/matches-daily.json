@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-09T12:21:53.000Z",
+ "generated_at": "2026-11-09T20:24:41.000Z",
  "date": "2026-11-09",
  "model": "user-provided",
  "stats": {
-  "total": 31,
-  "withChannel": 31,
+  "total": 32,
+  "withChannel": 32,
   "bySport": {
-   "football": 17,
+   "football": 18,
    "basketball": 14
   },
   "warnings": 0,
@@ -2386,10 +2386,66 @@
      "Sportsnet World",
      "Sportsnet NOW",
      "Sportsnet+"
+    ],
+    "BR": [
+     "Disney+ Premium"
     ]
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261109-las-palmas-eldense",
+   "sport": "football",
+   "competitionId": "laliga2",
+   "tier": "regional",
+   "competition": {
+    "tr": "LaLiga Hypermotion",
+    "en": "LaLiga Hypermotion",
+    "de": "LaLiga Hypermotion",
+    "es": "LaLiga Hypermotion",
+    "fr": "LaLiga Hypermotion",
+    "it": "LaLiga Hypermotion",
+    "pt": "LaLiga Hypermotion",
+    "ar": "دوري الدرجة الثانية الإسباني"
+   },
+   "home": "Las Palmas",
+   "away": "Eldense",
+   "homeNames": {
+    "tr": "UD Las Palmas",
+    "en": "UD Las Palmas",
+    "de": "UD Las Palmas",
+    "es": "UD Las Palmas",
+    "fr": "UD Las Palmas",
+    "it": "UD Las Palmas",
+    "pt": "UD Las Palmas",
+    "ar": "لاس بالماس"
+   },
+   "awayNames": {
+    "tr": "Eldense",
+    "en": "CD Eldense",
+    "de": "CD Eldense",
+    "es": "CD Eldense",
+    "fr": "CD Eldense",
+    "it": "CD Eldense",
+    "pt": "CD Eldense",
+    "ar": "إلدينسي"
+   },
+   "kickoffUtc": "2026-11-09T19:30:00Z",
+   "broadcasts": {
+    "ES": [
+     "DAZN",
+     "LALIGA TV Hypermotion 2"
+    ],
+    "US": [
+     "ESPN Select",
+     "ESPN Unlimited"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "kooora"
    ]
   },
   {
