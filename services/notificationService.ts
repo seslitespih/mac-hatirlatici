@@ -379,7 +379,8 @@ export async function cancelAllNotifications(): Promise<void> {
 export function configureNotifications() {
   Notifications.setNotificationHandler({
     handleNotification: async () => ({
-      shouldShowAlert: true,
+      shouldShowBanner: true,   // expo-notifications 0.32: shouldShowAlert yerine
+      shouldShowList:   true,
       shouldPlaySound: true,
       shouldSetBadge:  false,
     }),

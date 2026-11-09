@@ -43,6 +43,9 @@ module.exports = {
       sr: './locales/sr.json',
     },
     version: '1.5.0',
+    // Expo 52'de alan yoktu = eski mimari. Expo 54'te varsayilan yeni mimari; davranis
+    // degismesin diye eski mimari sabit. (Expo 54 eski mimariyi destekleyen son SDK.)
+    newArchEnabled: false,
     // Android 16 buyuk ekranlarda yon kisitlamasini YOK SAYIYOR; Play de kaldirilmasini
     // istiyor. 'default' = cihazin yonunu izle. Ekranlar liste tabanli ve SafeAreaView
     // kullaniyor; yatay gorunum derlemeden sonra emulatorde kontrol edilmeli.
