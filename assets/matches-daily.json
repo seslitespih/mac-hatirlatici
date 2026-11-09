@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-09T00:58:28.000Z",
+ "generated_at": "2026-11-09T12:21:53.000Z",
  "date": "2026-11-09",
  "model": "user-provided",
  "stats": {
-  "total": 29,
-  "withChannel": 29,
+  "total": 31,
+  "withChannel": 31,
   "bySport": {
-   "football": 15,
+   "football": 17,
    "basketball": 14
   },
   "warnings": 0,
@@ -2126,6 +2126,105 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261109-kristiansund-bk-vaalerenga",
+   "sport": "football",
+   "competitionId": "eliteserien",
+   "tier": "regional",
+   "competition": {
+    "tr": "Norveç Eliteserien",
+    "en": "Eliteserien",
+    "de": "Eliteserien",
+    "es": "Eliteserien",
+    "fr": "Eliteserien",
+    "it": "Eliteserien",
+    "pt": "Eliteserien",
+    "ar": "الدوري النرويجي",
+    "nb": "Eliteserien"
+   },
+   "home": "Kristiansund BK",
+   "away": "Vaalerenga",
+   "homeNames": {
+    "tr": "Kristiansund BK",
+    "en": "Kristiansund BK",
+    "de": "Kristiansund BK",
+    "es": "Kristiansund BK",
+    "fr": "Kristiansund BK",
+    "it": "Kristiansund BK",
+    "pt": "Kristiansund BK",
+    "ar": "كريستيانسوند بي ك"
+   },
+   "awayNames": {
+    "tr": "Vaalerenga",
+    "en": "Vaalerenga",
+    "de": "Vaalerenga",
+    "es": "Vaalerenga",
+    "fr": "Vaalerenga",
+    "it": "Vaalerenga",
+    "pt": "Vaalerenga",
+    "ar": "فاليرينجا"
+   },
+   "kickoffUtc": "2026-11-09T18:00:00Z",
+   "broadcasts": {
+    "NO": [
+     "TV 2 Play"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261109-botosani-otelul-galati",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "Botosani",
+   "away": "Otelul Galati",
+   "homeNames": {
+    "tr": "Botosani",
+    "en": "Botosani",
+    "de": "Botosani",
+    "es": "Botosani",
+    "fr": "Botosani",
+    "it": "Botosani",
+    "pt": "Botosani",
+    "ar": "بوتوساني"
+   },
+   "awayNames": {
+    "tr": "Otelul Galati",
+    "en": "Otelul Galati",
+    "de": "Otelul Galati",
+    "es": "Otelul Galati",
+    "fr": "Otelul Galati",
+    "it": "Otelul Galati",
+    "pt": "Otelul Galati",
+    "ar": "أوتيلول جالاتي"
+   },
+   "kickoffUtc": "2026-11-09T18:00:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
