@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-10T03:38:03.000Z",
+ "generated_at": "2026-11-10T11:57:52.000Z",
  "date": "2026-11-10",
  "model": "user-provided",
  "stats": {
-  "total": 28,
-  "withChannel": 28,
+  "total": 30,
+  "withChannel": 30,
   "bySport": {
-   "football": 4,
+   "football": 6,
    "basketball": 24
   },
   "warnings": 0,
@@ -2438,6 +2438,48 @@
     "US": [
      "ESPN Select",
      "ESPN Unlimited"
+    ],
+    "BR": [
+     "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -2774,6 +2816,54 @@
    ]
   },
   {
+   "id": "football-20261110-boston-river-montevideo-city-torque",
+   "sport": "football",
+   "competitionId": "copa_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Kupası",
+    "en": "Copa AUF Uruguay",
+    "de": "Copa AUF Uruguay",
+    "es": "Copa AUF Uruguay",
+    "fr": "Copa AUF Uruguay",
+    "it": "Copa AUF Uruguay",
+    "pt": "Copa AUF Uruguai",
+    "ar": "كأس أوروغواي"
+   },
+   "home": "Boston River",
+   "away": "Montevideo City Torque",
+   "homeNames": {
+    "tr": "Boston River",
+    "en": "Boston River",
+    "de": "Boston River",
+    "es": "Boston River",
+    "fr": "Boston River",
+    "it": "Boston River",
+    "pt": "Boston River",
+    "ar": "Boston River"
+   },
+   "awayNames": {
+    "tr": "Montevideo City Torque",
+    "en": "Montevideo City Torque",
+    "de": "Montevideo City Torque",
+    "es": "Montevideo City Torque",
+    "fr": "Montevideo City Torque",
+    "it": "Montevideo City Torque",
+    "pt": "Montevideo City Torque",
+    "ar": "مونتيفيديو سيتي توركي"
+   },
+   "kickoffUtc": "2026-11-10T19:30:00Z",
+   "broadcasts": {
+    "UY": [
+     "DGO",
+     "DSports Uruguay + Plus"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
    "id": "football-20261110-tavernes-de-la-valldigna-valencia",
    "sport": "football",
    "competitionId": "copa_del_rey",
@@ -2822,10 +2912,66 @@
     "US": [
      "ESPN Unlimited",
      "ESPN Select"
+    ],
+    "BR": [
+     "ESPN 2",
+     "Disney+ Premium"
+    ],
+    "MX": [
+     "SKY Sports"
     ]
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261111-liverpool-fc-juventud",
+   "sport": "football",
+   "competitionId": "copa_auf",
+   "tier": "regional",
+   "competition": {
+    "tr": "Uruguay Kupası",
+    "en": "Copa AUF Uruguay",
+    "de": "Copa AUF Uruguay",
+    "es": "Copa AUF Uruguay",
+    "fr": "Copa AUF Uruguay",
+    "it": "Copa AUF Uruguay",
+    "pt": "Copa AUF Uruguai",
+    "ar": "كأس أوروغواي"
+   },
+   "home": "Liverpool FC",
+   "away": "Juventud",
+   "homeNames": {
+    "tr": "Liverpool FC",
+    "en": "Liverpool FC",
+    "de": "Liverpool FC",
+    "es": "Liverpool FC",
+    "fr": "Liverpool FC",
+    "it": "Liverpool FC",
+    "pt": "Liverpool FC",
+    "ar": "موريليا"
+   },
+   "awayNames": {
+    "tr": "Juventud de Las Piedras",
+    "en": "Juventud de Las Piedras",
+    "de": "Juventud de Las Piedras",
+    "es": "Juventud de Las Piedras",
+    "fr": "Juventud de Las Piedras",
+    "it": "Juventud de Las Piedras",
+    "pt": "Juventud de Las Piedras",
+    "ar": "خوفنتود"
+   },
+   "kickoffUtc": "2026-11-11T00:00:00Z",
+   "broadcasts": {
+    "UY": [
+     "DGO",
+     "DSports Uruguay + Plus"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "kooora"
    ]
   },
   {
