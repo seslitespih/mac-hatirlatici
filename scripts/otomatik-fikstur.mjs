@@ -93,6 +93,11 @@ const ligAdla = (cc, lig) => LIG_AD[`${cc}|${lig}`] || LIG_RE.find(([re]) => re.
 // Bu turnuvalarda TR kanalını YALNIZ sporekrani yazar (maç günü); FotMob'un TR'si atılır.
 const MILLI_TR = new Set(['uefa_nations', 'wc_qual_uefa']);
 const TR_MILLI_TABAN = ['ATV'];   // Türkiye'nin kendi maçı, sporekrani okunamazsa (Türkiye-Belçika 12 Kas: ATV)
+// Cezayir milli maçı: beIN (kooora maç günü verir) + Cezayir devlet TV'si (Cezayir-Togo 14 Kas: beIN Sports 1 + Algerian TV, dzsport-live)
+const DZ_MILLI = ['ENTV'];
+const cezayirMi = t => n(t) === 'algeria';
+// FotMob ülke rehberine komşu ülke kanalı / radyo karışıyor (13 Kas: FR'de Alman "RTL Television", AT'de radyo "NDR info")
+const YABANCI_KANAL = { FR: /^RTL Television/i, AT: /^NDR info/i, US: /\(Canada\)$/i };
 const YENI_LIG = {
   copa_del_rey: ['regional', { tr: 'İspanya Kral Kupası', en: 'Copa del Rey', de: 'Copa del Rey', es: 'Copa del Rey', fr: 'Coupe du Roi', it: 'Coppa del Re', pt: 'Copa do Rei', ar: 'كأس ملك إسبانيا' }],
   taca_da_liga: ['regional', { tr: 'Portekiz Lig Kupası', en: 'Taça da Liga', de: 'Taça da Liga', es: 'Copa de la Liga de Portugal', fr: 'Coupe de la Ligue portugaise', it: 'Taça da Liga', pt: 'Taça da Liga', ar: 'كأس الدوري البرتغالي' }],
@@ -279,6 +284,8 @@ for (const m of Object.values(fm)) {
   }
   const mk = menaKanal(koo?.tv);
   if (mk.length) for (const cc of MENA_ULKE) { const k = mk.filter(x => !/alkass/i.test(x) || cc === 'QA'); if (k.length) broadcasts[cc] = k; }
+  // Cezayir milli maçı Cezayir'de devlet TV'sinde de (EPTV/ENTV) — menaKanal yalnız beIN/TOD/AD alıyor, Cezayir kanalı düşüyordu
+  if ([m.home, m.away].some(cezayirMi)) broadcasts.DZ = [...new Set([...(broadcasts.DZ || []), ...DZ_MILLI])].slice(0, 4);
   if (!Object.keys(broadcasts).length) continue;                    // regional + kanalsız = hiçbir yerde görünmez
   kayit({ sport: 'football', cid, fmAd: m.lig, utc: m.utc, ev: takim(m.home, koo?.home), dep: takim(m.away, koo?.away),
     broadcasts, sources: ['fotmob', ...(koo ? ['kooora'] : [])] });
@@ -472,6 +479,8 @@ const ekle = liste => {
     const t = temel.matches.find(x => ayni(x, m));
     if (!t) { temel.matches.push(m); yeniMac++; continue; }
     for (const [cc, k] of Object.entries(m.broadcasts)) if (!t.broadcasts[cc]?.length) { t.broadcasts[cc] = k; yeniUlke++; }
+    // Cezayir milli maçı: gece turunda kooora boş gelir (yalnız ENTV yazılır) — gündüz turunun beIN kanalı da eklenir
+    else if (cc === 'DZ' && [t.home, t.away].some(cezayirMi)) t.broadcasts.DZ = [...new Set([...k, ...t.broadcasts.DZ])].slice(0, 4);
   }
 };
 const onceki = temel.matches.length;
@@ -542,11 +551,11 @@ rapor.push(`Avrupa yerel ligleri: ${yerelSayi} maç yalnız kendi ülkesine`);
 // Temizlik (eski/elle girilmiş kayıtlar dahil): yer tutucu kanalları ve boş kalan ülke listelerini sil
 let temizlenen = 0;
 for (const m of temel.matches) for (const [cc, k] of Object.entries(m.broadcasts || {})) {
-  const t = k.filter(x => !YER_TUTUCU.test(x));
+  const t = k.filter(x => !YER_TUTUCU.test(x) && !YABANCI_KANAL[cc]?.test(x));
   temizlenen += k.length - t.length;
   if (t.length) m.broadcasts[cc] = t; else delete m.broadcasts[cc];
 }
-if (temizlenen) rapor.push(`temizlik: ${temizlenen} yer tutucu kanal silindi`);
+if (temizlenen) rapor.push(`temizlik: ${temizlenen} yer tutucu / yabancı kanal silindi`);
 
 if (!temel.matches.length) {
   console.error(`Hiç maç bulunamadı (${GUN}) — dosyaya dokunulmadı.\n` + rapor.join('\n'));
