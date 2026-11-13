@@ -82,6 +82,17 @@ const LIG_AD = { 'POR|Taça de Portugal': 'taca_portugal', 'TUR|Turkish Cup': 't
   'INT|Conference League': 'conference', 'INT|Friendlies': 'friendly', 'INT|UEFA Nations League A': 'uefa_nations',
   'INT|UEFA Nations League B': 'uefa_nations', 'INT|UEFA Nations League C': 'uefa_nations', 'INT|UEFA Nations League D': 'uefa_nations',
   'INT|World Cup Qualification UEFA': 'wc_qual_uefa', 'INT|World Cup Qualification CONMEBOL': 'wc_qual_conmebol' };
+// Milli turnuvalar FotMob'da grup ekiyle gelir ("UEFA Nations League A Grp. 2") — tam ad tutmuyordu, maç fm_9806 kimliğiyle,
+// İngilizce adla ve "regional" girdi (milli ara, 13 Kas 2026). Ada göre, grup eki önemsiz.
+const LIG_RE = [[/^UEFA Nations League [A-D]\b/i, 'uefa_nations'], [/^Africa Cup of Nations Qualification/i, 'afcon_qual'],
+  [/^CONCACAF Nations League/i, 'concacaf_nl'], [/^World Cup Qualification UEFA/i, 'wc_qual_uefa'],
+  [/^World Cup Qualification CONMEBOL/i, 'wc_qual_conmebol']];
+const ligAdla = (cc, lig) => LIG_AD[`${cc}|${lig}`] || LIG_RE.find(([re]) => re.test(lig || ''))?.[1];
+// Milli maçlarda FotMob'un TR rehberi yanlış: Uluslar Ligi'nin hepsine "S Sport" yazıyor, oysa 2026-27'de yayın ATV grubunda
+// (A Spor / A Haber / A Para / ATV), bir kısmı S Sport Plus'ta, çoğu "Yayın Yok" (sporekrani, 13 Kas 2026).
+// Bu turnuvalarda TR kanalını YALNIZ sporekrani yazar (maç günü); FotMob'un TR'si atılır.
+const MILLI_TR = new Set(['uefa_nations', 'wc_qual_uefa']);
+const TR_MILLI_TABAN = ['ATV'];   // Türkiye'nin kendi maçı, sporekrani okunamazsa (Türkiye-Belçika 12 Kas: ATV)
 const YENI_LIG = {
   copa_del_rey: ['regional', { tr: 'İspanya Kral Kupası', en: 'Copa del Rey', de: 'Copa del Rey', es: 'Copa del Rey', fr: 'Coupe du Roi', it: 'Coppa del Re', pt: 'Copa do Rei', ar: 'كأس ملك إسبانيا' }],
   taca_da_liga: ['regional', { tr: 'Portekiz Lig Kupası', en: 'Taça da Liga', de: 'Taça da Liga', es: 'Copa de la Liga de Portugal', fr: 'Coupe de la Ligue portugaise', it: 'Taça da Liga', pt: 'Taça da Liga', ar: 'كأس الدوري البرتغالي' }],
@@ -255,12 +266,17 @@ function kayit({ sport, cid, fmAd, utc, ev, dep, broadcasts, sources }) {
 for (const m of Object.values(fm)) {
   if (KADIN_GENC.test(m.lig) || /\(W\)/.test(m.home + m.away)) continue;
   const appMaci = [m.home, m.away].some(t => APP.has(n(ALIAS[n(t)] || t)) || APP.has(n(SOZ.takimlar[n(t)]?.home)));
-  let cid = LIG[m.lid] || LIG_AD[`${m.cc}|${m.lig}`];
-  if (!cid && !appMaci) continue;                                   // altın kural: uygulama takımı oynuyorsa lig ne olursa girer
+  let cid = LIG[m.lid] || ligAdla(m.cc, m.lig);
+  if ((!cid || cid === 'concacaf_nl') && !appMaci) continue;        // altın kural: uygulama takımı oynuyorsa lig ne olursa girer
+                                                                    // (CONCACAF'ta Montserrat-Nikaragua gibi maçlar liste kalabalığı)
   cid ||= `fm_${m.lid}`;
   if (KALABALIK_KUPA.has(cid) && !appMaci && Object.keys(m.kanal).length < 2) continue;
   const koo = kooBul(m.utc, m.home, m.away);
   const broadcasts = { ...m.kanal };
+  if (MILLI_TR.has(cid)) {
+    delete broadcasts.TR;
+    if ([m.home, m.away].some(t => /^(turkey|turkiye)$/.test(n(t)))) broadcasts.TR = TR_MILLI_TABAN;
+  }
   const mk = menaKanal(koo?.tv);
   if (mk.length) for (const cc of MENA_ULKE) { const k = mk.filter(x => !/alkass/i.test(x) || cc === 'QA'); if (k.length) broadcasts[cc] = k; }
   if (!Object.keys(broadcasts).length) continue;                    // regional + kanalsız = hiçbir yerde görünmez
@@ -369,7 +385,12 @@ const SE_LIG = [
   [/^MotoGP /i, 'motogp', 'motorsport'], [/^Moto2 /i, 'moto2', 'motorsport'], [/^Moto3 /i, 'moto3', 'motorsport'],
   [/^Formula 2 /i, 'f2', 'motorsport'], [/^Formula 3 /i, 'f3', 'motorsport'],
   [/^Trendyol Süper Lig/i, 'superlig', 'football'], [/^Trendyol 1\. Lig/i, 'tff1', 'football'], [/Türkiye Kupas/i, 'turkiye_kupasi', 'football'],
+  // milli ara (13 Kas 2026): Uluslar Ligi'nin TR kanalı yalnız buradan; "Yayın Yok" = TR'de kanal yok. Kadınlar/U21 ayrı ad taşır, eşleşmez.
+  [/^UEFA Uluslar Ligi/i, 'uefa_nations', 'football'],
 ];
+// Türkçe ülke adı -> FotMob'daki İngilizce ad ("Sırbistan" -> "Serbia"); yoksa milli maç Türkçe adla İKİNCİ kayıt olurdu
+const TR_ULKE = {};
+for (const v of Object.values(SOZ.takimlar)) if (v.sport === 'football' && v.names?.tr) TR_ULKE[n(v.names.tr)] ??= v.home;
 const APP_TAKIM = TAKIM_SATIR.map(l => ({ id: l.match(/id: '([^']+)'/)[1], ad: (l.match(/name: +'([^']+)'/) || [])[1],
   spor: (l.match(/sport: '([^']+)'/) || [])[1] || 'football' }));
 // "Ç.Rizespor", "RAMS Başakşehir", "Eczacıbaşı Dynavit" -> uygulamanın kimliğiyle tutan ad
@@ -397,6 +418,7 @@ const SEANS_TR = [   // sıra önemli: uzun ifade önce
 ];
 const cevir = (tr, i) => SEANS_TR.reduce((s, [re, k]) => s.replace(re, k[i]), tr).replace(/\s+/g, ' ').trim();
 let seEk = 0, seTR = 0;
+const trOtorite = [];   // { m, kanal } — kanal [] = sporekrani "Yayın Yok" dedi
 if (GUN === BUGUN_TR) {
   let h = await al('https://www.sporekrani.com/');
   // sayfa başlığı günü taşır ("2026-11-02 Spor Ekranı"); gece yarısı geçişinde dünkü sayfa gelirse saatler yanlış güne yazılır
@@ -409,8 +431,10 @@ if (GUN === BUGUN_TR) {
     const L = SE_LIG.find(([re]) => re.test(lig));
     if (!saat || !L) continue;
     const [, cid, spor, kadin] = L;
-    const kanal = temizKanal([...(r.split('event-list__channels flex gt-xs')[1] || '').matchAll(/alt="([^"]+)"/g)].map(m => dec(m[1]).replace(/Yildiz/, 'Yıldız')));
-    if (!kanal.length) continue;
+    const ham = [...(r.split('event-list__channels flex gt-xs')[1] || '').matchAll(/alt="([^"]+)"/g)].map(m => dec(m[1]).replace(/Yildiz/, 'Yıldız'));
+    const yayinYok = ham.some(x => /^Yay[ıi]n Yok$/i.test(x));
+    const kanal = temizKanal(ham.filter(x => !/^Yay[ıi]n Yok$/i.test(x)));
+    if (!kanal.length && !(yayinYok && MILLI_TR.has(cid))) continue;
     const utc = new Date(Date.parse(`${GUN}T${saat}:00+03:00`)).toISOString();
     let ev, dep;
     if (spor === 'motorsport') {
@@ -422,12 +446,16 @@ if (GUN === BUGUN_TR) {
     } else {
       const [a, b] = ad.split(/\s+-\s+/);
       if (!a || !b) continue;
-      ev = takim(trAd(a, spor, kadin), null, spor); dep = takim(trAd(b, spor, kadin), null, spor);
+      const en = x => MILLI_TR.has(cid) ? TR_ULKE[n(x)] || x : x;
+      ev = takim(trAd(en(a), spor, kadin), null, spor); dep = takim(trAd(en(b), spor, kadin), null, spor);
       ev.names.tr = a; dep.names.tr = b;
     }
     const m = { sport: spor, competitionId: cid, kickoffUtc: utc.replace('.000Z', 'Z'), home: ev.home, away: dep.home };
     const var_ = taze.find(x => ayni(x, m) || (x.competitionId === cid && x.kickoffUtc === m.kickoffUtc && (ortak(x.home, m.home) || ortak(x.away, m.away))));
-    if (var_) { var_.broadcasts.TR = kanal; seTR++; continue; }        // TR kanalında yerli kaynak otorite (talimat §2.6)
+    // TR kanalında yerli kaynak otorite (talimat §2.6) — birleştirmede dosyadaki eski TR'nin de ÜSTÜNE yazılır (aşağıda)
+    trOtorite.push({ m: var_ || m, kanal });
+    if (var_) { if (kanal.length) var_.broadcasts.TR = kanal; else delete var_.broadcasts.TR; seTR++; continue; }
+    if (!kanal.length || MILLI_TR.has(cid)) continue;                 // milli maç: Türkçe adla ikinci kayıt açılmaz
     kayit({ sport: spor, cid, utc, ev, dep, broadcasts: { TR: kanal }, sources: ['sporekrani.com'] });
     seEk++;
   }
@@ -450,6 +478,34 @@ const onceki = temel.matches.length;
 ekle(taze);
 const kuyruk = oku(KUYRUK);
 if (kuyruk?.date === GUN) ekle(kuyruk.matches);
+
+// Eski kayıtlar: grup ekli FotMob adıyla "fm_<id>" kimliği almış milli turnuvalar (ör. fm_9806) doğru kimliğe/ada çekilir
+let kimlikDuz = 0;
+for (const m of temel.matches) {
+  if (!/^fm_\d+$/.test(m.competitionId || '')) continue;
+  const cid = ligAdla('INT', m.competition?.en);
+  if (!cid) continue;
+  const lb = ligBilgi(cid, m.competition.en);
+  Object.assign(m, { competitionId: cid, tier: lb.tier, competition: lb.names });
+  kimlikDuz++;
+}
+if (kimlikDuz) rapor.push(`turnuva kimliği düzeltildi: ${kimlikDuz} maç`);
+// Milli turnuvada dosyada kalmış FotMob TR'si (ör. hepsine "S Sport") — Türkiye'nin maçı dışında silinir; sporekrani aşağıda yazar
+for (const m of temel.matches) {
+  if (!MILLI_TR.has(m.competitionId) || !m.broadcasts?.TR) continue;
+  if ([m.home, m.away].some(t => /^(turkey|turkiye)$/.test(n(t)))) continue;
+  if (!(m.sources || []).includes('sporekrani.com')) delete m.broadcasts.TR;
+}
+// TR'de yerli kaynak (sporekrani) otorite: dosyadaki eski TR kanalının ÜSTÜNE yazılır; "Yayın Yok" ise TR silinir
+let trYaz = 0;
+for (const { m, kanal } of trOtorite) {
+  const t = temel.matches.find(x => x === m || ayni(x, m));
+  if (!t) continue;
+  if (kanal.length) t.broadcasts.TR = kanal; else delete t.broadcasts.TR;
+  if (MILLI_TR.has(t.competitionId) && !(t.sources || []).includes('sporekrani.com')) t.sources = [...(t.sources || []), 'sporekrani.com'];
+  trYaz++;
+}
+if (trOtorite.length) rapor.push(`sporekrani TR otoritesi: ${trYaz}/${trOtorite.length} kayda yazıldı`);
 
 // Taban hak tablosu (talimat §2.4): günlük kaynağı olmayan ülkeye turnuvanın sezonluk yayıncısı yazılır.
 // Yalnız BOŞ ülkeyi doldurur, günlük kaynağa dokunmaz; yalnız "dogrulandi" turnuvalar ("tahmin" olanlar değil).

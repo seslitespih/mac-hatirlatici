@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-13T01:54:08.000Z",
+ "generated_at": "2026-11-13T06:35:08.000Z",
  "date": "2026-11-13",
  "model": "user-provided",
  "stats": {
-  "total": 47,
-  "withChannel": 47,
+  "total": 54,
+  "withChannel": 54,
   "bySport": {
-   "football": 33,
+   "football": 40,
    "basketball": 14
   },
   "warnings": 0,
@@ -867,17 +867,17 @@
   {
    "id": "football-20261113-curaao-panama",
    "sport": "football",
-   "competitionId": "fm_9821",
+   "competitionId": "concacaf_nl",
    "tier": "regional",
    "competition": {
-    "tr": "CONCACAF Nations League A Championship Playoff",
-    "en": "CONCACAF Nations League A Championship Playoff",
-    "de": "CONCACAF Nations League A Championship Playoff",
-    "es": "CONCACAF Nations League A Championship Playoff",
-    "fr": "CONCACAF Nations League A Championship Playoff",
-    "it": "CONCACAF Nations League A Championship Playoff",
-    "pt": "CONCACAF Nations League A Championship Playoff",
-    "ar": "CONCACAF Nations League A Championship Playoff"
+    "tr": "CONCACAF Uluslar Ligi",
+    "en": "CONCACAF Nations League",
+    "de": "CONCACAF Nations League",
+    "es": "Liga de Naciones de la CONCACAF",
+    "fr": "Ligue des nations de la CONCACAF",
+    "it": "CONCACAF Nations League",
+    "pt": "Liga das Nações da CONCACAF",
+    "ar": "دوري أمم الكونكاكاف"
    },
    "home": "Curaao",
    "away": "Panama",
@@ -1524,6 +1524,323 @@
    ]
   },
   {
+   "id": "football-20261113-comoros-congo",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Comoros",
+   "away": "Congo",
+   "homeNames": {
+    "tr": "Komorlar",
+    "en": "Comoros",
+    "de": "Komoren",
+    "es": "Comoras",
+    "fr": "Comores",
+    "it": "Comore",
+    "pt": "Comores",
+    "ar": "جزر القمر"
+   },
+   "awayNames": {
+    "tr": "Kongo",
+    "en": "Congo",
+    "de": "Kongo",
+    "es": "Congo",
+    "fr": "Congo",
+    "it": "Congo",
+    "pt": "Congo",
+    "ar": "الكونغو"
+   },
+   "kickoffUtc": "2026-11-13T13:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports 2 (FR)"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "AU": [
+     "beIN Sports 3"
+    ],
+    "MA": [
+     "beIN Sports MENA 3"
+    ],
+    "SA": [
+     "beIN Sports MENA 3"
+    ],
+    "QA": [
+     "beIN Sports MENA 3"
+    ],
+    "AE": [
+     "beIN Sports MENA 3"
+    ],
+    "EG": [
+     "beIN Sports MENA 3"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3"
+    ],
+    "TN": [
+     "beIN Sports MENA 3"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3"
+    ],
+    "JO": [
+     "beIN Sports MENA 3"
+    ],
+    "OM": [
+     "beIN Sports MENA 3"
+    ],
+    "LY": [
+     "beIN Sports MENA 3"
+    ],
+    "KW": [
+     "beIN Sports MENA 3"
+    ],
+    "BH": [
+     "beIN Sports MENA 3"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "kooora"
+   ]
+  },
+  {
+   "id": "football-20261113-zambia-burundi",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Zambia",
+   "away": "Burundi",
+   "homeNames": {
+    "tr": "Zambiya",
+    "en": "Zambia",
+    "de": "Sambia",
+    "es": "Zambia",
+    "fr": "Zambie",
+    "it": "Zambia",
+    "pt": "Zâmbia",
+    "ar": "زامبيا"
+   },
+   "awayNames": {
+    "tr": "Burundi",
+    "en": "Burundi",
+    "de": "Burundi",
+    "es": "Burundi",
+    "fr": "Burundi",
+    "it": "Burundi",
+    "pt": "Burundi",
+    "ar": "بوروندي"
+   },
+   "kickoffUtc": "2026-11-13T13:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 5",
+     "beIN Sports (US)",
+     "beIN Sports en Español (US)",
+     "beIN Sports CONNECT (US)"
+    ],
+    "CA": [
+     "beIN Sport Canada",
+     "beIN Sport Canada Espanol"
+    ],
+    "AU": [
+     "beIN Sports 2"
+    ],
+    "MA": [
+     "beIN Sports MENA 2"
+    ],
+    "NG": [
+     "SuperSport 1 Africa"
+    ],
+    "GH": [
+     "DStv Now",
+     "SuperSport Kickoff",
+     "SuperSport Action Africa"
+    ],
+    "ZA": [
+     "SuperSport PSL"
+    ],
+    "SA": [
+     "beIN Sports MENA 2"
+    ],
+    "QA": [
+     "beIN Sports MENA 2"
+    ],
+    "AE": [
+     "beIN Sports MENA 2"
+    ],
+    "EG": [
+     "beIN Sports MENA 2"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2"
+    ],
+    "TN": [
+     "beIN Sports MENA 2"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2"
+    ],
+    "JO": [
+     "beIN Sports MENA 2"
+    ],
+    "OM": [
+     "beIN Sports MENA 2"
+    ],
+    "LY": [
+     "beIN Sports MENA 2"
+    ],
+    "KW": [
+     "beIN Sports MENA 2"
+    ],
+    "BH": [
+     "beIN Sports MENA 2"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "kooora"
+   ]
+  },
+  {
+   "id": "football-20261113-mozambique-ethiopia",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Mozambique",
+   "away": "Ethiopia",
+   "homeNames": {
+    "tr": "Mozambik",
+    "en": "Mozambique",
+    "de": "Mosambik",
+    "es": "Mozambique",
+    "fr": "Mozambique",
+    "it": "Mozambico",
+    "pt": "Moçambique",
+    "ar": "موزمبيق"
+   },
+   "awayNames": {
+    "tr": "Etiyopya",
+    "en": "Ethiopia",
+    "de": "Äthiopien",
+    "es": "Etiopía",
+    "fr": "Éthiopie",
+    "it": "Etiopia",
+    "pt": "Etiópia",
+    "ar": "إثيوبيا"
+   },
+   "kickoffUtc": "2026-11-13T13:00:00Z",
+   "broadcasts": {
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 4",
+     "beIN Sports XTRA (US)",
+     "beIN Sports Xtra (Canada)",
+     "beIN Sports CONNECT (US)"
+    ],
+    "MA": [
+     "beIN Sports MENA 1"
+    ],
+    "NG": [
+     "SuperSport MaXimo 1",
+     "SuperSport Kickoff"
+    ],
+    "GH": [
+     "SuperSport MaXimo 1",
+     "DStv Now",
+     "SuperSport 1 Africa"
+    ],
+    "ZA": [
+     "SuperSport MaXimo 1",
+     "Maximo 360",
+     "SuperSport Kickoff"
+    ],
+    "SA": [
+     "beIN Sports MENA 1"
+    ],
+    "QA": [
+     "beIN Sports MENA 1"
+    ],
+    "AE": [
+     "beIN Sports MENA 1"
+    ],
+    "EG": [
+     "beIN Sports MENA 1"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1"
+    ],
+    "TN": [
+     "beIN Sports MENA 1"
+    ],
+    "IQ": [
+     "beIN Sports MENA 1"
+    ],
+    "JO": [
+     "beIN Sports MENA 1"
+    ],
+    "OM": [
+     "beIN Sports MENA 1"
+    ],
+    "LY": [
+     "beIN Sports MENA 1"
+    ],
+    "KW": [
+     "beIN Sports MENA 1"
+    ],
+    "BH": [
+     "beIN Sports MENA 1"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "kooora"
+   ]
+  },
+  {
    "id": "football-20261113-saudi-arabia-south-korea",
    "sport": "football",
    "competitionId": "friendly",
@@ -1620,17 +1937,17 @@
   {
    "id": "football-20261113-south-africa-kenya",
    "sport": "football",
-   "competitionId": "fm_10608",
+   "competitionId": "afcon_qual",
    "tier": "regional",
    "competition": {
-    "tr": "Africa Cup of Nations Qualification",
-    "en": "Africa Cup of Nations Qualification",
-    "de": "Africa Cup of Nations Qualification",
-    "es": "Africa Cup of Nations Qualification",
-    "fr": "Africa Cup of Nations Qualification",
-    "it": "Africa Cup of Nations Qualification",
-    "pt": "Africa Cup of Nations Qualification",
-    "ar": "Africa Cup of Nations Qualification"
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
    },
    "home": "South Africa",
    "away": "Kenya",
@@ -1736,17 +2053,17 @@
   {
    "id": "football-20261113-tunisia-libya",
    "sport": "football",
-   "competitionId": "fm_10608",
+   "competitionId": "afcon_qual",
    "tier": "regional",
    "competition": {
-    "tr": "Africa Cup of Nations Qualification",
-    "en": "Africa Cup of Nations Qualification",
-    "de": "Africa Cup of Nations Qualification",
-    "es": "Africa Cup of Nations Qualification",
-    "fr": "Africa Cup of Nations Qualification",
-    "it": "Africa Cup of Nations Qualification",
-    "pt": "Africa Cup of Nations Qualification",
-    "ar": "Africa Cup of Nations Qualification"
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
    },
    "home": "Tunisia",
    "away": "Libya",
@@ -1836,17 +2153,17 @@
   {
    "id": "football-20261113-cape-verde-liberia",
    "sport": "football",
-   "competitionId": "fm_10608",
+   "competitionId": "afcon_qual",
    "tier": "regional",
    "competition": {
-    "tr": "Africa Cup of Nations Qualification",
-    "en": "Africa Cup of Nations Qualification",
-    "de": "Africa Cup of Nations Qualification",
-    "es": "Africa Cup of Nations Qualification",
-    "fr": "Africa Cup of Nations Qualification",
-    "it": "Africa Cup of Nations Qualification",
-    "pt": "Africa Cup of Nations Qualification",
-    "ar": "Africa Cup of Nations Qualification"
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
    },
    "home": "Cape Verde",
    "away": "Liberia",
@@ -1946,17 +2263,17 @@
   {
    "id": "football-20261113-nigeria-tanzania",
    "sport": "football",
-   "competitionId": "fm_10608",
+   "competitionId": "afcon_qual",
    "tier": "regional",
    "competition": {
-    "tr": "Africa Cup of Nations Qualification",
-    "en": "Africa Cup of Nations Qualification",
-    "de": "Africa Cup of Nations Qualification",
-    "es": "Africa Cup of Nations Qualification",
-    "fr": "Africa Cup of Nations Qualification",
-    "it": "Africa Cup of Nations Qualification",
-    "pt": "Africa Cup of Nations Qualification",
-    "ar": "Africa Cup of Nations Qualification"
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
    },
    "home": "Nigeria",
    "away": "Tanzania",
@@ -2062,6 +2379,170 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261113-gabon-lesotho",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Gabon",
+   "away": "Lesotho",
+   "homeNames": {
+    "tr": "Gabon",
+    "en": "Gabon",
+    "de": "Gabun",
+    "es": "Gabón",
+    "fr": "Gabon",
+    "it": "Gabon",
+    "pt": "Gabão",
+    "ar": "الغابون"
+   },
+   "awayNames": {
+    "tr": "Lesotho",
+    "en": "Lesotho",
+    "de": "Lesotho",
+    "es": "Lesoto",
+    "fr": "Lesotho",
+    "it": "Lesotho",
+    "pt": "Lesoto",
+    "ar": "ليسوتو"
+   },
+   "kickoffUtc": "2026-11-13T16:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 5",
+     "beIN Sports CONNECT (US)"
+    ],
+    "MA": [
+     "beIN Sports XTRA",
+     "beIN CONNECT",
+     "TOD"
+    ],
+    "NG": [
+     "SuperSport Football Plus Nigeria"
+    ],
+    "GH": [
+     "DStv Now",
+     "SuperSport Football Plus ROA"
+    ],
+    "ZA": [
+     "SuperSport 1 Africa"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "kooora"
+   ]
+  },
+  {
+   "id": "football-20261113-burkina-faso-mauritania",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Burkina Faso",
+   "away": "Mauritania",
+   "homeNames": {
+    "tr": "Burkina Faso",
+    "en": "Burkina Faso",
+    "de": "Burkina Faso",
+    "es": "Burkina Faso",
+    "fr": "Burkina Faso",
+    "it": "Burkina Faso",
+    "pt": "Burkina Faso",
+    "ar": "بوركينا فاسو"
+   },
+   "awayNames": {
+    "tr": "Moritanya",
+    "en": "Mauritania",
+    "de": "Mauretanien",
+    "es": "Mauritania",
+    "fr": "Mauritanie",
+    "it": "Mauritania",
+    "pt": "Mauritânia",
+    "ar": "موريتانيا"
+   },
+   "kickoffUtc": "2026-11-13T16:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 4",
+     "beIN Sports CONNECT (US)"
+    ],
+    "MA": [
+     "beIN Sports MENA 2"
+    ],
+    "SA": [
+     "beIN Sports MENA 2"
+    ],
+    "QA": [
+     "beIN Sports MENA 2"
+    ],
+    "AE": [
+     "beIN Sports MENA 2"
+    ],
+    "EG": [
+     "beIN Sports MENA 2"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2"
+    ],
+    "TN": [
+     "beIN Sports MENA 2"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2"
+    ],
+    "JO": [
+     "beIN Sports MENA 2"
+    ],
+    "OM": [
+     "beIN Sports MENA 2"
+    ],
+    "LY": [
+     "beIN Sports MENA 2"
+    ],
+    "KW": [
+     "beIN Sports MENA 2"
+    ],
+    "BH": [
+     "beIN Sports MENA 2"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "kooora"
    ]
   },
   {
@@ -2249,7 +2730,56 @@
     ]
    },
    "sources": [
-    "fotmob"
+    "fotmob",
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261113-js-saoura-usm-khenchela",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "JS Saoura",
+   "away": "USM Khenchela",
+   "homeNames": {
+    "tr": "JS Saoura",
+    "en": "JS Saoura",
+    "de": "JS Saoura",
+    "es": "JS Saoura",
+    "fr": "JS Saoura",
+    "it": "JS Saoura",
+    "pt": "JS Saoura",
+    "ar": "شبيبة الساورة"
+   },
+   "awayNames": {
+    "tr": "USM Khenchela",
+    "en": "USM Khenchela",
+    "de": "USM Khenchela",
+    "es": "USM Khenchela",
+    "fr": "USM Khenchela",
+    "it": "USM Khenchela",
+    "pt": "USM Khenchela",
+    "ar": "اتحاد خنشلة"
+   },
+   "kickoffUtc": "2026-11-13T17:00:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -2293,7 +2823,8 @@
    "broadcasts": {
     "TR": [
      "S Sport Plus",
-     "S Sport 2"
+     "S Sport",
+     "Idman TV"
     ]
    },
    "sources": [
@@ -2303,17 +2834,17 @@
   {
    "id": "football-20261113-egypt-malawi",
    "sport": "football",
-   "competitionId": "fm_10608",
+   "competitionId": "afcon_qual",
    "tier": "regional",
    "competition": {
-    "tr": "Africa Cup of Nations Qualification",
-    "en": "Africa Cup of Nations Qualification",
-    "de": "Africa Cup of Nations Qualification",
-    "es": "Africa Cup of Nations Qualification",
-    "fr": "Africa Cup of Nations Qualification",
-    "it": "Africa Cup of Nations Qualification",
-    "pt": "Africa Cup of Nations Qualification",
-    "ar": "Africa Cup of Nations Qualification"
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
    },
    "home": "Egypt",
    "away": "Malawi",
@@ -2418,6 +2949,121 @@
    ]
   },
   {
+   "id": "football-20261113-mali-rwanda",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Mali",
+   "away": "Rwanda",
+   "homeNames": {
+    "tr": "Mali",
+    "en": "Mali",
+    "de": "Mali",
+    "es": "Malí",
+    "fr": "Mali",
+    "it": "Mali",
+    "pt": "Mali",
+    "ar": "مالي"
+   },
+   "awayNames": {
+    "tr": "Ruanda",
+    "en": "Rwanda",
+    "de": "Ruanda",
+    "es": "Ruanda",
+    "fr": "Rwanda",
+    "it": "Ruanda",
+    "pt": "Ruanda",
+    "ar": "رواندا"
+   },
+   "kickoffUtc": "2026-11-13T19:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports MAX 5 (FR)"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 3",
+     "beIN Sports Xtra (Canada)",
+     "beIN Sports XTRA (US)",
+     "beIN Sports CONNECT (US)"
+    ],
+    "MA": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ],
+    "SA": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ],
+    "QA": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ],
+    "AE": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ],
+    "EG": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ],
+    "DZ": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ],
+    "TN": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ],
+    "IQ": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ],
+    "JO": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ],
+    "OM": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ],
+    "LY": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ],
+    "KW": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ],
+    "BH": [
+     "beIN Sports MENA 9",
+     "beIN Sports MAX 5"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "kooora"
+   ]
+  },
+  {
    "id": "basketball-20261113-panathinaikos-aktor-athens-barca-basket",
    "sport": "basketball",
    "competitionId": "euroleague",
@@ -2458,7 +3104,7 @@
    "broadcasts": {
     "TR": [
      "S Sport Plus",
-     "S Sport 2"
+     "Idman TV"
     ]
    },
    "sources": [
@@ -2588,17 +3234,17 @@
   {
    "id": "football-20261113-scotland-north-macedonia",
    "sport": "football",
-   "competitionId": "fm_9807",
-   "tier": "regional",
+   "competitionId": "uefa_nations",
+   "tier": "global",
    "competition": {
-    "tr": "UEFA Nations League B Grp. 1",
-    "en": "UEFA Nations League B Grp. 1",
-    "de": "UEFA Nations League B Grp. 1",
-    "es": "UEFA Nations League B Grp. 1",
-    "fr": "UEFA Nations League B Grp. 1",
-    "it": "UEFA Nations League B Grp. 1",
-    "pt": "UEFA Nations League B Grp. 1",
-    "ar": "UEFA Nations League B Grp. 1"
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
    },
    "home": "Scotland",
    "away": "North Macedonia",
@@ -2624,9 +3270,6 @@
    },
    "kickoffUtc": "2026-11-13T19:45:00Z",
    "broadcasts": {
-    "TR": [
-     "S Sport"
-    ],
     "FR": [
      "L'Équipe live foot",
      "L'Équipe live"
@@ -2760,26 +3403,30 @@
     ],
     "BH": [
      "beIN Sports MENA 5"
+    ],
+    "TR": [
+     "S Sport Plus"
     ]
    },
    "sources": [
-    "fotmob"
+    "fotmob",
+    "sporekrani.com"
    ]
   },
   {
    "id": "football-20261113-slovenia-switzerland",
    "sport": "football",
-   "competitionId": "fm_9807",
-   "tier": "regional",
+   "competitionId": "uefa_nations",
+   "tier": "global",
    "competition": {
-    "tr": "UEFA Nations League B Grp. 1",
-    "en": "UEFA Nations League B Grp. 1",
-    "de": "UEFA Nations League B Grp. 1",
-    "es": "UEFA Nations League B Grp. 1",
-    "fr": "UEFA Nations League B Grp. 1",
-    "it": "UEFA Nations League B Grp. 1",
-    "pt": "UEFA Nations League B Grp. 1",
-    "ar": "UEFA Nations League B Grp. 1"
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
    },
    "home": "Slovenia",
    "away": "Switzerland",
@@ -2805,9 +3452,6 @@
    },
    "kickoffUtc": "2026-11-13T19:45:00Z",
    "broadcasts": {
-    "TR": [
-     "S Sport"
-    ],
     "FR": [
      "L'Équipe live foot",
      "L'Équipe live"
@@ -2894,26 +3538,30 @@
     ],
     "BH": [
      "beIN Sports MENA 6"
+    ],
+    "TR": [
+     "A Para"
     ]
    },
    "sources": [
-    "fotmob"
+    "fotmob",
+    "sporekrani.com"
    ]
   },
   {
    "id": "football-20261113-netherlands-greece",
    "sport": "football",
-   "competitionId": "fm_9806",
-   "tier": "regional",
+   "competitionId": "uefa_nations",
+   "tier": "global",
    "competition": {
-    "tr": "UEFA Nations League A Grp. 2",
-    "en": "UEFA Nations League A Grp. 2",
-    "de": "UEFA Nations League A Grp. 2",
-    "es": "UEFA Nations League A Grp. 2",
-    "fr": "UEFA Nations League A Grp. 2",
-    "it": "UEFA Nations League A Grp. 2",
-    "pt": "UEFA Nations League A Grp. 2",
-    "ar": "UEFA Nations League A Grp. 2"
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
    },
    "home": "Netherlands",
    "away": "Greece",
@@ -2939,9 +3587,6 @@
    },
    "kickoffUtc": "2026-11-13T19:45:00Z",
    "broadcasts": {
-    "TR": [
-     "S Sport"
-    ],
     "FR": [
      "L'Équipe live foot",
      "L'Équipe live"
@@ -3088,26 +3733,30 @@
     ],
     "BH": [
      "beIN Sports MENA 4"
+    ],
+    "TR": [
+     "A Haber"
     ]
    },
    "sources": [
-    "fotmob"
+    "fotmob",
+    "sporekrani.com"
    ]
   },
   {
    "id": "football-20261113-serbia-germany",
    "sport": "football",
-   "competitionId": "fm_9806",
-   "tier": "regional",
+   "competitionId": "uefa_nations",
+   "tier": "global",
    "competition": {
-    "tr": "UEFA Nations League A Grp. 2",
-    "en": "UEFA Nations League A Grp. 2",
-    "de": "UEFA Nations League A Grp. 2",
-    "es": "UEFA Nations League A Grp. 2",
-    "fr": "UEFA Nations League A Grp. 2",
-    "it": "UEFA Nations League A Grp. 2",
-    "pt": "UEFA Nations League A Grp. 2",
-    "ar": "UEFA Nations League A Grp. 2"
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
    },
    "home": "Serbia",
    "away": "Germany",
@@ -3133,9 +3782,6 @@
    },
    "kickoffUtc": "2026-11-13T19:45:00Z",
    "broadcasts": {
-    "TR": [
-     "S Sport"
-    ],
     "FR": [
      "RTL Television (FR)",
      "L'Équipe live",
@@ -3298,10 +3944,14 @@
     ],
     "BH": [
      "beIN Sports MENA 3"
+    ],
+    "TR": [
+     "A Spor"
     ]
    },
    "sources": [
-    "fotmob"
+    "fotmob",
+    "sporekrani.com"
    ]
   },
   {
@@ -3343,9 +3993,6 @@
    },
    "kickoffUtc": "2026-11-13T19:45:00Z",
    "broadcasts": {
-    "TR": [
-     "S Sport"
-    ],
     "FR": [
      "L'Équipe live foot",
      "L'Équipe live"
@@ -3424,7 +4071,8 @@
     ]
    },
    "sources": [
-    "fotmob"
+    "fotmob",
+    "sporekrani.com"
    ]
   },
   {
@@ -3466,9 +4114,6 @@
    },
    "kickoffUtc": "2026-11-13T19:45:00Z",
    "broadcasts": {
-    "TR": [
-     "S Sport"
-    ],
     "FR": [
      "L'Équipe live"
     ],
@@ -3552,7 +4197,8 @@
     ]
    },
    "sources": [
-    "fotmob"
+    "fotmob",
+    "sporekrani.com"
    ]
   },
   {
@@ -3594,9 +4240,6 @@
    },
    "kickoffUtc": "2026-11-13T19:45:00Z",
    "broadcasts": {
-    "TR": [
-     "S Sport"
-    ],
     "FR": [
      "L'Équipe live foot",
      "L'Équipe live"
@@ -3714,10 +4357,14 @@
     ],
     "BH": [
      "beIN Sports MENA 7"
+    ],
+    "TR": [
+     "S Sport Plus"
     ]
    },
    "sources": [
-    "fotmob"
+    "fotmob",
+    "sporekrani.com"
    ]
   },
   {
@@ -3759,9 +4406,6 @@
    },
    "kickoffUtc": "2026-11-13T19:45:00Z",
    "broadcasts": {
-    "TR": [
-     "S Sport"
-    ],
     "FR": [
      "L'Équipe live"
     ],
@@ -3884,7 +4528,8 @@
     ]
    },
    "sources": [
-    "fotmob"
+    "fotmob",
+    "sporekrani.com"
    ]
   },
   {
@@ -3926,9 +4571,6 @@
    },
    "kickoffUtc": "2026-11-13T19:45:00Z",
    "broadcasts": {
-    "TR": [
-     "S Sport"
-    ],
     "FR": [
      "L'Équipe live"
     ],
@@ -4005,23 +4647,24 @@
     ]
    },
    "sources": [
-    "fotmob"
+    "fotmob",
+    "sporekrani.com"
    ]
   },
   {
    "id": "football-20261113-morocco-niger",
    "sport": "football",
-   "competitionId": "fm_10608",
+   "competitionId": "afcon_qual",
    "tier": "regional",
    "competition": {
-    "tr": "Africa Cup of Nations Qualification",
-    "en": "Africa Cup of Nations Qualification",
-    "de": "Africa Cup of Nations Qualification",
-    "es": "Africa Cup of Nations Qualification",
-    "fr": "Africa Cup of Nations Qualification",
-    "it": "Africa Cup of Nations Qualification",
-    "pt": "Africa Cup of Nations Qualification",
-    "ar": "Africa Cup of Nations Qualification"
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
    },
    "home": "Morocco",
    "away": "Niger",
@@ -4165,6 +4808,45 @@
     "US": [
      "ESPN Select",
      "ESPN Unlimited"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -6065,17 +6747,17 @@
   {
    "id": "football-20261114-guatemala-canada",
    "sport": "football",
-   "competitionId": "fm_9821",
+   "competitionId": "concacaf_nl",
    "tier": "regional",
    "competition": {
-    "tr": "CONCACAF Nations League A Championship Playoff",
-    "en": "CONCACAF Nations League A Championship Playoff",
-    "de": "CONCACAF Nations League A Championship Playoff",
-    "es": "CONCACAF Nations League A Championship Playoff",
-    "fr": "CONCACAF Nations League A Championship Playoff",
-    "it": "CONCACAF Nations League A Championship Playoff",
-    "pt": "CONCACAF Nations League A Championship Playoff",
-    "ar": "CONCACAF Nations League A Championship Playoff"
+    "tr": "CONCACAF Uluslar Ligi",
+    "en": "CONCACAF Nations League",
+    "de": "CONCACAF Nations League",
+    "es": "Liga de Naciones de la CONCACAF",
+    "fr": "Ligue des nations de la CONCACAF",
+    "it": "CONCACAF Nations League",
+    "pt": "Liga das Nações da CONCACAF",
+    "ar": "دوري أمم الكونكاكاف"
    },
    "home": "Guatemala",
    "away": "Canada",
