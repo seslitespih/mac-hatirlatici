@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-15T01:05:47.000Z",
+ "generated_at": "2026-11-15T11:40:56.000Z",
  "date": "2026-11-15",
  "model": "user-provided",
  "stats": {
-  "total": 55,
-  "withChannel": 55,
+  "total": 61,
+  "withChannel": 61,
   "bySport": {
-   "football": 28,
-   "basketball": 20,
+   "football": 33,
+   "basketball": 21,
    "volleyball": 7
   },
   "warnings": 0,
@@ -1835,6 +1835,103 @@
    ]
   },
   {
+   "id": "basketball-20261115-valencia-basket-leyma-coruna",
+   "sport": "basketball",
+   "competitionId": "acb",
+   "tier": "regional",
+   "competition": {
+    "tr": "İspanya Basketbol Ligi",
+    "en": "Spanish ACB League",
+    "de": "Spanische ACB-Liga",
+    "es": "Liga Endesa",
+    "fr": "Championnat d'Espagne de basket",
+    "it": "Lega spagnola di basket",
+    "pt": "Liga espanhola de basquetebol",
+    "ar": "الدوري الإسباني لكرة السلة"
+   },
+   "home": "Valencia Basket",
+   "away": "Leyma Coruna",
+   "homeNames": {
+    "tr": "Valencia Basket",
+    "en": "Valencia Basket",
+    "de": "Valencia Basket",
+    "es": "Valencia Basket",
+    "fr": "Valencia Basket",
+    "it": "Valencia Basket",
+    "pt": "Valencia Basket",
+    "ar": "فالنسيا باسكت"
+   },
+   "awayNames": {
+    "tr": "Leyma Coruna",
+    "en": "Leyma Coruña",
+    "de": "Leyma Coruña",
+    "es": "Leyma Coruña",
+    "fr": "Leyma Coruña",
+    "it": "Leyma Coruña",
+    "pt": "Leyma Coruña",
+    "ar": "Leyma Coruña"
+   },
+   "kickoffUtc": "2026-11-15T11:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Spor Smart",
+     "Smart Spor HD"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261115-ado-den-haag-de-graafschap",
+   "sport": "football",
+   "competitionId": "eredivisie",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
+   },
+   "home": "ADO Den Haag",
+   "away": "De Graafschap",
+   "homeNames": {
+    "tr": "ADO Den Haag",
+    "en": "ADO Den Haag",
+    "de": "ADO Den Haag",
+    "es": "ADO Den Haag",
+    "fr": "ADO Den Haag",
+    "it": "ADO Den Haag",
+    "pt": "ADO Den Haag",
+    "ar": "دين هاج"
+   },
+   "awayNames": {
+    "tr": "De Graafschap",
+    "en": "De Graafschap",
+    "de": "De Graafschap",
+    "es": "De Graafschap",
+    "fr": "De Graafschap",
+    "it": "De Graafschap",
+    "pt": "De Graafschap",
+    "ar": "De Graafschap"
+   },
+   "kickoffUtc": "2026-11-15T11:15:00Z",
+   "broadcasts": {
+    "NL": [
+     "ESPN"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "basketball-20261115-denizli-basket-cayirova-bld",
    "sport": "basketball",
    "competitionId": "bsl",
@@ -2178,6 +2275,45 @@
     "PY": [
      "ESPN",
      "Disney+ Premium"
+    ],
+    "NL": [
+     "Ziggo Sport 2"
+    ],
+    "SA": [
+     "beIN Sports MENA 2"
+    ],
+    "QA": [
+     "beIN Sports MENA 2"
+    ],
+    "AE": [
+     "beIN Sports MENA 2"
+    ],
+    "EG": [
+     "beIN Sports MENA 2"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2"
+    ],
+    "TN": [
+     "beIN Sports MENA 2"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2"
+    ],
+    "JO": [
+     "beIN Sports MENA 2"
+    ],
+    "OM": [
+     "beIN Sports MENA 2"
+    ],
+    "LY": [
+     "beIN Sports MENA 2"
+    ],
+    "KW": [
+     "beIN Sports MENA 2"
+    ],
+    "BH": [
+     "beIN Sports MENA 2"
     ]
    },
    "sources": [
@@ -2324,6 +2460,42 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 3"
+    ],
+    "QA": [
+     "beIN Sports MENA 3"
+    ],
+    "AE": [
+     "beIN Sports MENA 3"
+    ],
+    "EG": [
+     "beIN Sports MENA 3"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3"
+    ],
+    "TN": [
+     "beIN Sports MENA 3"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3"
+    ],
+    "JO": [
+     "beIN Sports MENA 3"
+    ],
+    "OM": [
+     "beIN Sports MENA 3"
+    ],
+    "LY": [
+     "beIN Sports MENA 3"
+    ],
+    "KW": [
+     "beIN Sports MENA 3"
+    ],
+    "BH": [
+     "beIN Sports MENA 3"
     ]
    },
    "sources": [
@@ -2637,6 +2809,202 @@
    ]
   },
   {
+   "id": "football-20261115-az-alkmaar-ajax",
+   "sport": "football",
+   "competitionId": "eredivisie",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
+   },
+   "home": "AZ Alkmaar",
+   "away": "Ajax",
+   "homeNames": {
+    "tr": "AZ Alkmaar",
+    "en": "AZ Alkmaar",
+    "de": "AZ Alkmaar",
+    "es": "AZ Alkmaar",
+    "fr": "AZ Alkmaar",
+    "it": "AZ Alkmaar",
+    "pt": "AZ Alkmaar",
+    "ar": "آيه زد ألكمار"
+   },
+   "awayNames": {
+    "tr": "Ajax",
+    "en": "Ajax",
+    "de": "Ajax Amsterdam",
+    "es": "Ajax",
+    "fr": "Ajax Amsterdam",
+    "it": "Ajax",
+    "pt": "Ajax",
+    "ar": "أياكس"
+   },
+   "kickoffUtc": "2026-11-15T15:45:00Z",
+   "broadcasts": {
+    "NL": [
+     "ESPN"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261115-fc-twente-psv",
+   "sport": "football",
+   "competitionId": "eredivisie",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
+   },
+   "home": "FC Twente",
+   "away": "PSV",
+   "homeNames": {
+    "tr": "FC Twente",
+    "en": "FC Twente",
+    "de": "FC Twente",
+    "es": "FC Twente",
+    "fr": "FC Twente",
+    "it": "FC Twente",
+    "pt": "FC Twente",
+    "ar": "تفينتي"
+   },
+   "awayNames": {
+    "tr": "PSV Eindhoven",
+    "en": "PSV Eindhoven",
+    "de": "PSV Eindhoven",
+    "es": "PSV Eindhoven",
+    "fr": "PSV Eindhoven",
+    "it": "PSV Eindhoven",
+    "pt": "PSV Eindhoven",
+    "ar": "آيندهوفن"
+   },
+   "kickoffUtc": "2026-11-15T15:45:00Z",
+   "broadcasts": {
+    "NL": [
+     "ESPN"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261115-feyenoord-heerenveen",
+   "sport": "football",
+   "competitionId": "eredivisie",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
+   },
+   "home": "Feyenoord",
+   "away": "Heerenveen",
+   "homeNames": {
+    "tr": "Feyenoord",
+    "en": "Feyenoord",
+    "de": "Feyenoord",
+    "es": "Feyenoord",
+    "fr": "Feyenoord",
+    "it": "Feyenoord",
+    "pt": "Feyenoord",
+    "ar": "فينورد روتردام"
+   },
+   "awayNames": {
+    "tr": "SC Heerenveen",
+    "en": "SC Heerenveen",
+    "de": "SC Heerenveen",
+    "es": "SC Heerenveen",
+    "fr": "SC Heerenveen",
+    "it": "SC Heerenveen",
+    "pt": "SC Heerenveen",
+    "ar": "هيرينفين"
+   },
+   "kickoffUtc": "2026-11-15T15:45:00Z",
+   "broadcasts": {
+    "NL": [
+     "ESPN"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261115-pec-zwolle-fc-utrecht",
+   "sport": "football",
+   "competitionId": "eredivisie",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
+   },
+   "home": "PEC Zwolle",
+   "away": "FC Utrecht",
+   "homeNames": {
+    "tr": "PEC Zwolle",
+    "en": "PEC Zwolle",
+    "de": "PEC Zwolle",
+    "es": "PEC Zwolle",
+    "fr": "PEC Zwolle",
+    "it": "PEC Zwolle",
+    "pt": "PEC Zwolle",
+    "ar": "زفولي"
+   },
+   "awayNames": {
+    "tr": "FC Utrecht",
+    "en": "FC Utrecht",
+    "de": "FC Utrecht",
+    "es": "FC Utrecht",
+    "fr": "FC Utrecht",
+    "it": "FC Utrecht",
+    "pt": "FC Utrecht",
+    "ar": "أوتريخت"
+   },
+   "kickoffUtc": "2026-11-15T15:45:00Z",
+   "broadcasts": {
+    "NL": [
+     "ESPN"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "volleyball-20261115-besiktas-voleybol-kadin-afyon-bld",
    "sport": "volleyball",
    "competitionId": "sultansliga",
@@ -2880,6 +3248,46 @@
     ],
     "TR": [
      "S Sport Plus"
+    ],
+    "NL": [
+     "Ziggo Sport",
+     "Ziggo Sport Kanaal 14"
+    ],
+    "SA": [
+     "beIN Sports MENA 2"
+    ],
+    "QA": [
+     "beIN Sports MENA 2"
+    ],
+    "AE": [
+     "beIN Sports MENA 2"
+    ],
+    "EG": [
+     "beIN Sports MENA 2"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2"
+    ],
+    "TN": [
+     "beIN Sports MENA 2"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2"
+    ],
+    "JO": [
+     "beIN Sports MENA 2"
+    ],
+    "OM": [
+     "beIN Sports MENA 2"
+    ],
+    "LY": [
+     "beIN Sports MENA 2"
+    ],
+    "KW": [
+     "beIN Sports MENA 2"
+    ],
+    "BH": [
+     "beIN Sports MENA 2"
     ]
    },
    "sources": [
@@ -3024,6 +3432,42 @@
     ],
     "TR": [
      "S Sport Plus"
+    ],
+    "SA": [
+     "beIN Sports MENA 3"
+    ],
+    "QA": [
+     "beIN Sports MENA 3"
+    ],
+    "AE": [
+     "beIN Sports MENA 3"
+    ],
+    "EG": [
+     "beIN Sports MENA 3"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3"
+    ],
+    "TN": [
+     "beIN Sports MENA 3"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3"
+    ],
+    "JO": [
+     "beIN Sports MENA 3"
+    ],
+    "OM": [
+     "beIN Sports MENA 3"
+    ],
+    "LY": [
+     "beIN Sports MENA 3"
+    ],
+    "KW": [
+     "beIN Sports MENA 3"
+    ],
+    "BH": [
+     "beIN Sports MENA 3"
     ]
    },
    "sources": [
@@ -3882,6 +4326,45 @@
     ],
     "TR": [
      "A Spor"
+    ],
+    "NL": [
+     "Ziggo Sport 3"
+    ],
+    "SA": [
+     "beIN Sports MENA 3"
+    ],
+    "QA": [
+     "beIN Sports MENA 3"
+    ],
+    "AE": [
+     "beIN Sports MENA 3"
+    ],
+    "EG": [
+     "beIN Sports MENA 3"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3"
+    ],
+    "TN": [
+     "beIN Sports MENA 3"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3"
+    ],
+    "JO": [
+     "beIN Sports MENA 3"
+    ],
+    "OM": [
+     "beIN Sports MENA 3"
+    ],
+    "LY": [
+     "beIN Sports MENA 3"
+    ],
+    "KW": [
+     "beIN Sports MENA 3"
+    ],
+    "BH": [
+     "beIN Sports MENA 3"
     ]
    },
    "sources": [
@@ -4026,6 +4509,45 @@
     ],
     "TR": [
      "ATV"
+    ],
+    "NL": [
+     "Ziggo Sport 5"
+    ],
+    "SA": [
+     "beIN Sports MENA 2"
+    ],
+    "QA": [
+     "beIN Sports MENA 2"
+    ],
+    "AE": [
+     "beIN Sports MENA 2"
+    ],
+    "EG": [
+     "beIN Sports MENA 2"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2"
+    ],
+    "TN": [
+     "beIN Sports MENA 2"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2"
+    ],
+    "JO": [
+     "beIN Sports MENA 2"
+    ],
+    "OM": [
+     "beIN Sports MENA 2"
+    ],
+    "LY": [
+     "beIN Sports MENA 2"
+    ],
+    "KW": [
+     "beIN Sports MENA 2"
+    ],
+    "BH": [
+     "beIN Sports MENA 2"
     ]
    },
    "sources": [
@@ -4170,6 +4692,42 @@
     ],
     "TR": [
      "A Para"
+    ],
+    "SA": [
+     "beIN Sports MENA 4"
+    ],
+    "QA": [
+     "beIN Sports MENA 4"
+    ],
+    "AE": [
+     "beIN Sports MENA 4"
+    ],
+    "EG": [
+     "beIN Sports MENA 4"
+    ],
+    "DZ": [
+     "beIN Sports MENA 4"
+    ],
+    "TN": [
+     "beIN Sports MENA 4"
+    ],
+    "IQ": [
+     "beIN Sports MENA 4"
+    ],
+    "JO": [
+     "beIN Sports MENA 4"
+    ],
+    "OM": [
+     "beIN Sports MENA 4"
+    ],
+    "LY": [
+     "beIN Sports MENA 4"
+    ],
+    "KW": [
+     "beIN Sports MENA 4"
+    ],
+    "BH": [
+     "beIN Sports MENA 4"
     ]
    },
    "sources": [
@@ -4339,6 +4897,45 @@
     ],
     "TR": [
      "A Haber"
+    ],
+    "NL": [
+     "Ziggo Sport 2"
+    ],
+    "SA": [
+     "beIN Sports MENA 1"
+    ],
+    "QA": [
+     "beIN Sports MENA 1"
+    ],
+    "AE": [
+     "beIN Sports MENA 1"
+    ],
+    "EG": [
+     "beIN Sports MENA 1"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1"
+    ],
+    "TN": [
+     "beIN Sports MENA 1"
+    ],
+    "IQ": [
+     "beIN Sports MENA 1"
+    ],
+    "JO": [
+     "beIN Sports MENA 1"
+    ],
+    "OM": [
+     "beIN Sports MENA 1"
+    ],
+    "LY": [
+     "beIN Sports MENA 1"
+    ],
+    "KW": [
+     "beIN Sports MENA 1"
+    ],
+    "BH": [
+     "beIN Sports MENA 1"
     ]
    },
    "sources": [
