@@ -91,7 +91,9 @@ const ligAdla = (cc, lig) => LIG_AD[`${cc}|${lig}`] || LIG_RE.find(([re]) => re.
 // Milli maçlarda FotMob'un TR rehberi yanlış: Uluslar Ligi'nin hepsine "S Sport" yazıyor, oysa 2026-27'de yayın ATV grubunda
 // (A Spor / A Haber / A Para / ATV), bir kısmı S Sport Plus'ta, çoğu "Yayın Yok" (sporekrani, 13 Kas 2026).
 // Bu turnuvalarda TR kanalını YALNIZ sporekrani yazar (maç günü); FotMob'un TR'si atılır.
-const MILLI_TR = new Set(['uefa_nations', 'wc_qual_uefa']);
+// Hazırlık maçı da aynı (16 Kas 2026: Andorra-Azerbaycan FotMob "S Sport", sporekrani "S Sport Plus / CBC Sport").
+// 'friendly' = FotMob "INT|Friendlies" = yalnız milli hazırlık maçları (kulüp hazırlık maçları ayrı lig).
+const MILLI_TR = new Set(['uefa_nations', 'wc_qual_uefa', 'friendly']);
 const TR_MILLI_TABAN = ['ATV'];   // Türkiye'nin kendi maçı, sporekrani okunamazsa (Türkiye-Belçika 12 Kas: ATV)
 // Cezayir milli maçı: beIN (kooora maç günü verir) + Cezayir devlet TV'si (Cezayir-Togo 14 Kas: beIN Sports 1 + Algerian TV, dzsport-live)
 const DZ_MILLI = ['ENTV'];
@@ -139,7 +141,8 @@ const ALIAS = { milan: 'AC Milan', acmilan: 'AC Milan', bayernmunchen: 'Bayern M
   bayerleverkusen: 'Leverkusen', vflwolfsburg: 'Wolfsburg', olympiquelyonnais: 'Lyon', olympiquedemarseille: 'Marseille',
   asmonaco: 'Monaco', losclille: 'Lille', ogcnice: 'Nice', internazionale: 'Inter', asroma: 'Roma', sslazio: 'Lazio',
   caykurrizespor: 'Rizespor', corendonalanyaspor: 'Alanyaspor', tumosankonyaspor: 'Konyaspor', athleticbilbao: 'Athletic Club',
-  realbetis: 'Betis', villarrealcf: 'Villarreal', valenciacf: 'Valencia', sevillafc: 'Sevilla', heartofmidlothian: 'Hearts' };
+  realbetis: 'Betis', villarrealcf: 'Villarreal', valenciacf: 'Valencia', sevillafc: 'Sevilla', heartofmidlothian: 'Hearts',
+  amedsportif: 'Amedspor', erzurumsporfk: 'Erzurumspor' };   // FotMob lig sayfası adları (16 Kas 2026)
 // Futbol takımıyla aynı adı taşıyan basketbol kulüpleri dal markasıyla yazılır (talimat §3 — yoksa futbol favorisine bildirim gider)
 const BASKET_AD = { besiktas: 'Beşiktaş GAIN', besiktasistanbul: 'Beşiktaş GAIN', galatasaray: 'Galatasaray MCT Technic',
   fenerbahce: 'Fenerbahçe Beko', fenerbahcebekoistanbul: 'Fenerbahçe Beko', realmadrid: 'Real Madrid Baloncesto',
@@ -207,6 +210,35 @@ for (let i = 0; i < ULKELER.length; i += 8) {
   }));
 }
 rapor.push(`FotMob: ${fmTamam}/${ULKELER.length} ülke rehberi, pencerede ${Object.keys(fm).length} maç`);
+
+// ── 1b) Lig fikstür sayfası — TV rehberi kanalı kesinleşmemiş maçı listelemiyor (Süper Lig 21–23 Kas: 9 maçtan 4'ü, 16 Kas 2026).
+// Eksik maç ligin sezonluk yayıncısıyla girer (broadcast-rights.json, yalnız "dogrulandi"); maç günü sporekrani kesin TR kanalını yazar.
+const LIG_FIKSTUR = { 71: 'super-lig' };
+let haklar0 = {};
+try { haklar0 = JSON.parse(fs.readFileSync(path.join(KOK, 'scripts', 'broadcast-rights.json'), 'utf8')).turnuvalar || {}; } catch {}
+for (const [lid, adr] of Object.entries(LIG_FIKSTUR)) {
+  const T = haklar0[LIG[lid]];
+  const taban = T?.durum === 'dogrulandi'
+    ? Object.fromEntries(Object.entries(T.ulkeler || {}).filter(([k, v]) => /^[A-Z]{2}$/.test(k) && Array.isArray(v) && v.length)) : {};
+  if (!Object.keys(taban).length) continue;
+  const nd = nextData(await al(`https://www.fotmob.com/en/leagues/${lid}/fixtures/${adr}`));
+  let ek = 0;
+  const gez = o => {
+    if (!o || typeof o !== 'object') return;
+    if (o.id && o.home?.name && o.away?.name && o.status?.utcTime) {
+      const t = Date.parse(o.status.utcTime);
+      if (t >= BAS && t < SON && !o.status.cancelled && !fm[o.id]
+        && !Object.values(fm).some(x => x.utc === o.status.utcTime && n(x.home) === n(o.home.name))) {
+        fm[o.id] = { utc: o.status.utcTime, home: o.home.name, away: o.away.name, lid: +lid, lig: T.ad || adr, cc: '', kanal: structuredClone(taban) };
+        ek++;
+      }
+      return;
+    }
+    for (const k in o) gez(o[k]);
+  };
+  gez(nd?.props?.pageProps);
+  rapor.push(`FotMob lig fikstürü ${LIG[lid]}: ${nd ? `${ek} eksik maç eklendi` : 'okunamadı'}`);
+}
 
 // ── 2) kooora (MENA) ─────────────────────────────────────────────────────────
 const KOO = 'https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D8%AF%D9%85/%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85';
@@ -394,6 +426,8 @@ const SE_LIG = [
   [/^Trendyol Süper Lig/i, 'superlig', 'football'], [/^Trendyol 1\. Lig/i, 'tff1', 'football'], [/Türkiye Kupas/i, 'turkiye_kupasi', 'football'],
   // milli ara (13 Kas 2026): Uluslar Ligi'nin TR kanalı yalnız buradan; "Yayın Yok" = TR'de kanal yok. Kadınlar/U21 ayrı ad taşır, eşleşmez.
   [/^UEFA Uluslar Ligi/i, 'uefa_nations', 'football'],
+  // sitede "Hazirlik Maçi" (16 Kas 2026); kulüp hazırlık maçı FotMob'daki milli kayıtla eşleşmez, MILLI_TR kuralıyla atlanır
+  [/^Haz[ıi]rl[ıi]k Ma[çc]/i, 'friendly', 'football'],
 ];
 // Türkçe ülke adı -> FotMob'daki İngilizce ad ("Sırbistan" -> "Serbia"); yoksa milli maç Türkçe adla İKİNCİ kayıt olurdu
 const TR_ULKE = {};
