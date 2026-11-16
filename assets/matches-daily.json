@@ -1,4181 +1,18 @@
 {
- "generated_at": "2026-11-16T19:59:52.000Z",
- "date": "2026-11-16",
+ "generated_at": "2026-11-16T23:37:37.000Z",
+ "date": "2026-11-17",
  "model": "user-provided",
  "stats": {
-  "total": 37,
-  "withChannel": 37,
+  "total": 68,
+  "withChannel": 68,
   "bySport": {
-   "basketball": 13,
-   "football": 24
+   "football": 39,
+   "basketball": 29
   },
   "warnings": 0,
   "searches": 0
  },
  "matches": [
-  {
-   "id": "basketball-20261115-celtics-mavericks",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA",
-    "en": "NBA",
-    "de": "NBA",
-    "es": "NBA",
-    "fr": "NBA",
-    "it": "NBA",
-    "pt": "NBA",
-    "ar": "دوري NBA"
-   },
-   "home": "Celtics",
-   "away": "Mavericks",
-   "homeNames": {
-    "tr": "Boston Celtics",
-    "en": "Boston Celtics",
-    "de": "Boston Celtics",
-    "es": "Boston Celtics",
-    "fr": "Boston Celtics",
-    "it": "Boston Celtics",
-    "pt": "Boston Celtics",
-    "ar": "بوسطن سيلتيكس"
-   },
-   "awayNames": {
-    "tr": "Dallas Mavericks",
-    "en": "Dallas Mavericks",
-    "de": "Dallas Mavericks",
-    "es": "Dallas Mavericks",
-    "fr": "Dallas Mavericks",
-    "it": "Dallas Mavericks",
-    "pt": "Dallas Mavericks",
-    "ar": "دالاس مافريكس"
-   },
-   "kickoffUtc": "2026-11-15T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "KFAA-TV",
-     "MavsTV",
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "basketball-20261115-raptors-knicks",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA",
-    "en": "NBA",
-    "de": "NBA",
-    "es": "NBA",
-    "fr": "NBA",
-    "it": "NBA",
-    "pt": "NBA",
-    "ar": "دوري NBA"
-   },
-   "home": "Raptors",
-   "away": "Knicks",
-   "homeNames": {
-    "tr": "Toronto Raptors",
-    "en": "Toronto Raptors",
-    "de": "Toronto Raptors",
-    "es": "Toronto Raptors",
-    "fr": "Toronto Raptors",
-    "it": "Toronto Raptors",
-    "pt": "Toronto Raptors",
-    "ar": "تورونتو رابتورز"
-   },
-   "awayNames": {
-    "tr": "New York Knicks",
-    "en": "New York Knicks",
-    "de": "New York Knicks",
-    "es": "New York Knicks",
-    "fr": "New York Knicks",
-    "it": "New York Knicks",
-    "pt": "New York Knicks",
-    "ar": "نيويورك نيكس"
-   },
-   "kickoffUtc": "2026-11-15T23:00:00Z",
-   "broadcasts": {
-    "US": [
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "basketball-20261116-wizards-rockets",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA",
-    "en": "NBA",
-    "de": "NBA",
-    "es": "NBA",
-    "fr": "NBA",
-    "it": "NBA",
-    "pt": "NBA",
-    "ar": "دوري NBA"
-   },
-   "home": "Wizards",
-   "away": "Rockets",
-   "homeNames": {
-    "tr": "Washington Wizards",
-    "en": "Washington Wizards",
-    "de": "Washington Wizards",
-    "es": "Washington Wizards",
-    "fr": "Washington Wizards",
-    "it": "Washington Wizards",
-    "pt": "Washington Wizards",
-    "ar": "واشنطن ويزاردز"
-   },
-   "awayNames": {
-    "tr": "Houston Rockets",
-    "en": "Houston Rockets",
-    "de": "Houston Rockets",
-    "es": "Houston Rockets",
-    "fr": "Houston Rockets",
-    "it": "Houston Rockets",
-    "pt": "Houston Rockets",
-    "ar": "هيوستن روكتس"
-   },
-   "kickoffUtc": "2026-11-16T00:00:00Z",
-   "broadcasts": {
-    "US": [
-     "MNMT",
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "basketball-20261116-bucks-hawks",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA",
-    "en": "NBA",
-    "de": "NBA",
-    "es": "NBA",
-    "fr": "NBA",
-    "it": "NBA",
-    "pt": "NBA",
-    "ar": "دوري NBA"
-   },
-   "home": "Bucks",
-   "away": "Hawks",
-   "homeNames": {
-    "tr": "Milwaukee Bucks",
-    "en": "Milwaukee Bucks",
-    "de": "Milwaukee Bucks",
-    "es": "Milwaukee Bucks",
-    "fr": "Milwaukee Bucks",
-    "it": "Milwaukee Bucks",
-    "pt": "Milwaukee Bucks",
-    "ar": "ميلووكي باكس"
-   },
-   "awayNames": {
-    "tr": "Atlanta Hawks",
-    "en": "Atlanta Hawks",
-    "de": "Atlanta Hawks",
-    "es": "Atlanta Hawks",
-    "fr": "Atlanta Hawks",
-    "it": "Atlanta Hawks",
-    "pt": "Atlanta Hawks",
-    "ar": "أتلانتا هوكس"
-   },
-   "kickoffUtc": "2026-11-16T01:00:00Z",
-   "broadcasts": {
-    "US": [
-     "MyMi",
-     "Bucks App",
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "basketball-20261116-kings-thunder",
-   "sport": "basketball",
-   "competitionId": "nba",
-   "tier": "global",
-   "competition": {
-    "tr": "NBA",
-    "en": "NBA",
-    "de": "NBA",
-    "es": "NBA",
-    "fr": "NBA",
-    "it": "NBA",
-    "pt": "NBA",
-    "ar": "دوري NBA"
-   },
-   "home": "Kings",
-   "away": "Thunder",
-   "homeNames": {
-    "tr": "Sacramento Kings",
-    "en": "Sacramento Kings",
-    "de": "Sacramento Kings",
-    "es": "Sacramento Kings",
-    "fr": "Sacramento Kings",
-    "it": "Sacramento Kings",
-    "pt": "Sacramento Kings",
-    "ar": "ساكرامنتو كينغز"
-   },
-   "awayNames": {
-    "tr": "Oklahoma City Thunder",
-    "en": "Oklahoma City Thunder",
-    "de": "Oklahoma City Thunder",
-    "es": "Oklahoma City Thunder",
-    "fr": "Oklahoma City Thunder",
-    "it": "Oklahoma City Thunder",
-    "pt": "Oklahoma City Thunder",
-    "ar": "أوكلاهوما سيتي ثاندر"
-   },
-   "kickoffUtc": "2026-11-16T02:00:00Z",
-   "broadcasts": {
-    "US": [
-     "KSBI",
-     "Thunder App",
-     "NBA League Pass"
-    ],
-    "TR": [
-     "S Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "GB": [
-     "Sky Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ES": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "PT": [
-     "Sport TV",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "FR": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DE": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "CH": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "IT": [
-     "Sky Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BE": [
-     "DAZN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NL": [
-     "ESPN",
-     "NBA League Pass"
-    ],
-    "HR": [
-     "Sport Klub",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NO": [
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CZ": [
-     "Nova Sport",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MX": [
-     "ESPN",
-     "Disney+",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AR": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CO": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CL": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PE": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "UY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "EC": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "PY": [
-     "ESPN",
-     "Prime Video",
-     "HBO Max",
-     "NBA League Pass"
-    ],
-    "CA": [
-     "TSN",
-     "Sportsnet",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "SA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "QA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AE": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "EG": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "MA": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "DZ": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "TN": [
-     "beIN Sports",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "JP": [
-     "Lemino",
-     "Prime Video",
-     "WOWOW"
-    ],
-    "KR": [
-     "Coupang Play",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "AU": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NZ": [
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "ZA": [
-     "SuperSport",
-     "ESPN",
-     "Prime Video",
-     "NBA League Pass"
-    ],
-    "NG": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "GH": [
-     "ESPN",
-     "Sporty TV",
-     "NBA League Pass"
-    ],
-    "SN": [
-     "Canal+ Sport",
-     "NBA League Pass"
-    ]
-   },
-   "sources": [
-    "espn"
-   ]
-  },
-  {
-   "id": "football-20261116-zimbabwe-equatorial-guinea",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Zimbabwe",
-   "away": "Equatorial Guinea",
-   "homeNames": {
-    "tr": "Zimbabve",
-    "en": "Zimbabwe",
-    "de": "Simbabwe",
-    "es": "Zimbabue",
-    "fr": "Zimbabwe",
-    "it": "Zimbabwe",
-    "pt": "Zimbábue",
-    "ar": "زيمبابوي"
-   },
-   "awayNames": {
-    "tr": "Ekvator Ginesi",
-    "en": "Equatorial Guinea",
-    "de": "Äquatorialguinea",
-    "es": "Guinea Ecuatorial",
-    "fr": "Guinée équatoriale",
-    "it": "Guinea Equatoriale",
-    "pt": "Guiné Equatorial",
-    "ar": "غينيا الاستوائية"
-   },
-   "kickoffUtc": "2026-11-16T13:00:00Z",
-   "broadcasts": {
-    "PT": [
-     "Fanatiz"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "US": [
-     "beIN Sports 3",
-     "beIN Sports XTRA (US)",
-     "beIN Sports CONNECT (US)",
-     "Fawesome (US)"
-    ],
-    "MA": [
-     "beIN Sports MENA 3"
-    ],
-    "NG": [
-     "SuperSport MaXimo 1"
-    ],
-    "ZA": [
-     "SuperSport MaXimo 1",
-     "Maximo 360"
-    ],
-    "GH": [
-     "SuperSport MaXimo 1",
-     "DStv Now"
-    ],
-    "SA": [
-     "beIN Sports MENA 3"
-    ],
-    "QA": [
-     "beIN Sports MENA 3"
-    ],
-    "AE": [
-     "beIN Sports MENA 3"
-    ],
-    "EG": [
-     "beIN Sports MENA 3"
-    ],
-    "DZ": [
-     "beIN Sports MENA 3"
-    ],
-    "TN": [
-     "beIN Sports MENA 3"
-    ],
-    "IQ": [
-     "beIN Sports MENA 3"
-    ],
-    "JO": [
-     "beIN Sports MENA 3"
-    ],
-    "OM": [
-     "beIN Sports MENA 3"
-    ],
-    "LY": [
-     "beIN Sports MENA 3"
-    ],
-    "KW": [
-     "beIN Sports MENA 3"
-    ],
-    "BH": [
-     "beIN Sports MENA 3"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora"
-   ]
-  },
-  {
-   "id": "football-20261116-namibia-cameroon",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Namibia",
-   "away": "Cameroon",
-   "homeNames": {
-    "tr": "Namibya",
-    "en": "Namibia",
-    "de": "Namibia",
-    "es": "Namibia",
-    "fr": "Namibie",
-    "it": "Namibia",
-    "pt": "Namíbia",
-    "ar": "ناميبيا"
-   },
-   "awayNames": {
-    "tr": "Kamerun",
-    "en": "Cameroon",
-    "de": "Kamerun",
-    "es": "Camerún",
-    "fr": "Cameroun",
-    "it": "Camerun",
-    "pt": "Camarões",
-    "ar": "الكاميرون"
-   },
-   "kickoffUtc": "2026-11-16T13:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "FR": [
-     "beIN Sports 2 (FR)"
-    ],
-    "PT": [
-     "Fanatiz"
-    ],
-    "CA": [
-     "beIN Sport Canada Espanol"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "AU": [
-     "beIN Sports 2"
-    ],
-    "US": [
-     "beIN Sports 4",
-     "beIN Sports en Español (US)",
-     "beIN Sports CONNECT (US)"
-    ],
-    "MA": [
-     "beIN Sports MENA 2"
-    ],
-    "ZA": [
-     "SuperSport Kickoff"
-    ],
-    "GH": [
-     "DStv Now",
-     "SuperSport 1 Africa"
-    ],
-    "SA": [
-     "beIN Sports MENA 2"
-    ],
-    "QA": [
-     "beIN Sports MENA 2"
-    ],
-    "AE": [
-     "beIN Sports MENA 2"
-    ],
-    "EG": [
-     "beIN Sports MENA 2"
-    ],
-    "DZ": [
-     "beIN Sports MENA 2"
-    ],
-    "TN": [
-     "beIN Sports MENA 2"
-    ],
-    "IQ": [
-     "beIN Sports MENA 2"
-    ],
-    "JO": [
-     "beIN Sports MENA 2"
-    ],
-    "OM": [
-     "beIN Sports MENA 2"
-    ],
-    "LY": [
-     "beIN Sports MENA 2"
-    ],
-    "KW": [
-     "beIN Sports MENA 2"
-    ],
-    "BH": [
-     "beIN Sports MENA 2"
-    ],
-    "NG": [
-     "SuperSport Kickoff"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora"
-   ]
-  },
-  {
-   "id": "football-20261116-sudan-senegal",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Sudan",
-   "away": "Senegal",
-   "homeNames": {
-    "tr": "Sudan",
-    "en": "Sudan",
-    "de": "Sudan",
-    "es": "Sudán",
-    "fr": "Soudan",
-    "it": "Sudan",
-    "pt": "Sudão",
-    "ar": "السودان"
-   },
-   "awayNames": {
-    "tr": "Senegal",
-    "en": "Senegal",
-    "de": "Senegal",
-    "es": "Senegal",
-    "fr": "Sénégal",
-    "it": "Senegal",
-    "pt": "Senegal",
-    "ar": "السنغال"
-   },
-   "kickoffUtc": "2026-11-16T13:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "FR": [
-     "beIN Sports 1 (FR)"
-    ],
-    "PT": [
-     "Fanatiz"
-    ],
-    "CA": [
-     "beIN Sport Canada"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "AU": [
-     "beIN Sports 3"
-    ],
-    "US": [
-     "beIN Sports 5",
-     "beIN Sports (US)",
-     "beIN Sports CONNECT (US)"
-    ],
-    "MA": [
-     "beIN Sports MENA 1"
-    ],
-    "SA": [
-     "beIN Sports MENA 1"
-    ],
-    "QA": [
-     "beIN Sports MENA 1"
-    ],
-    "AE": [
-     "beIN Sports MENA 1"
-    ],
-    "EG": [
-     "beIN Sports MENA 1"
-    ],
-    "DZ": [
-     "beIN Sports MENA 1"
-    ],
-    "TN": [
-     "beIN Sports MENA 1"
-    ],
-    "IQ": [
-     "beIN Sports MENA 1"
-    ],
-    "JO": [
-     "beIN Sports MENA 1"
-    ],
-    "OM": [
-     "beIN Sports MENA 1"
-    ],
-    "LY": [
-     "beIN Sports MENA 1"
-    ],
-    "KW": [
-     "beIN Sports MENA 1"
-    ],
-    "BH": [
-     "beIN Sports MENA 1"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora"
-   ]
-  },
-  {
-   "id": "football-20261116-faroe-islands-moldova",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Faroe Islands",
-   "away": "Moldova",
-   "homeNames": {
-    "tr": "Faroe Adaları",
-    "en": "Faroe Islands",
-    "de": "Färöer",
-    "es": "Islas Feroe",
-    "fr": "Îles Féroé",
-    "it": "Isole Fær Øer",
-    "pt": "Ilhas Faroé",
-    "ar": "جزر فارو"
-   },
-   "awayNames": {
-    "tr": "Moldova",
-    "en": "Moldova",
-    "de": "Moldau",
-    "es": "Moldavia",
-    "fr": "Moldavie",
-    "it": "Moldavia",
-    "pt": "Moldávia",
-    "ar": "مولدوفا"
-   },
-   "kickoffUtc": "2026-11-16T15:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "FR": [
-     "L'Équipe live",
-     "L'Équipe live foot"
-    ],
-    "PT": [
-     "Sport TV 4"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN App Gratis"
-    ],
-    "CZ": [
-     "Sport 2"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "AR": [
-     "Disney+ Premium"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "BR": [
-     "SporTV 2"
-    ],
-    "NO": [
-     "Viaplay NO",
-     "TV 2 Play (NO)",
-     "TV 2 Sport Premium"
-    ],
-    "MX": [
-     "SKY Sports"
-    ],
-    "KR": [
-     "SPOTV NOW"
-    ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
-    "US": [
-     "Fubo Sports",
-     "ViX",
-     "FOX Soccer Plus",
-     "Fox Sports online"
-    ],
-    "MA": [
-     "beIN Sports MENA 9"
-    ],
-    "GH": [
-     "DStv Now"
-    ],
-    "CL": [
-     "Disney+ Premium"
-    ],
-    "EC": [
-     "Disney+ Premium"
-    ],
-    "PE": [
-     "Disney+ Premium"
-    ],
-    "UY": [
-     "Disney+ Premium"
-    ],
-    "PY": [
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "beIN Sports MENA 9"
-    ],
-    "QA": [
-     "beIN Sports MENA 9"
-    ],
-    "AE": [
-     "beIN Sports MENA 9"
-    ],
-    "EG": [
-     "beIN Sports MENA 9"
-    ],
-    "DZ": [
-     "beIN Sports MENA 9"
-    ],
-    "TN": [
-     "beIN Sports MENA 9"
-    ],
-    "IQ": [
-     "beIN Sports MENA 9"
-    ],
-    "JO": [
-     "beIN Sports MENA 9"
-    ],
-    "OM": [
-     "beIN Sports MENA 9"
-    ],
-    "LY": [
-     "beIN Sports MENA 9"
-    ],
-    "KW": [
-     "beIN Sports MENA 9"
-    ],
-    "BH": [
-     "beIN Sports MENA 9"
-    ],
-    "TR": [
-     "CBC Sport"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora",
-    "sporekrani.com"
-   ]
-  },
-  {
-   "id": "football-20261116-kazakhstan-slovakia",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Kazakhstan",
-   "away": "Slovakia",
-   "homeNames": {
-    "tr": "Kazakistan",
-    "en": "Kazakhstan",
-    "de": "Kasachstan",
-    "es": "Kazajistán",
-    "fr": "Kazakhstan",
-    "it": "Kazakistan",
-    "pt": "Cazaquistão",
-    "ar": "كازاخستان"
-   },
-   "awayNames": {
-    "tr": "Slovakya",
-    "en": "Slovakia",
-    "de": "Slowakei",
-    "es": "Eslovaquia",
-    "fr": "Slovaquie",
-    "it": "Slovacchia",
-    "pt": "Eslováquia",
-    "ar": "سلوفاكيا"
-   },
-   "kickoffUtc": "2026-11-16T15:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "FR": [
-     "L'Équipe live",
-     "L'Équipe live foot"
-    ],
-    "PT": [
-     "Sport TV 3"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN App Gratis"
-    ],
-    "CZ": [
-     "Sport 1"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "AR": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "NL": [
-     "Ziggo Sport",
-     "Ziggo Sport 2",
-     "Ziggo Sport Kanaal 14"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "BR": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO"
-    ],
-    "MX": [
-     "SKY Sports"
-    ],
-    "KR": [
-     "SPOTV NOW"
-    ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "CO": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "US": [
-     "Fubo Sports",
-     "ViX",
-     "FOX Sports 2",
-     "FOX One"
-    ],
-    "MA": [
-     "beIN Sports MENA 5"
-    ],
-    "NG": [
-     "SuperSport MaXimo 1"
-    ],
-    "ZA": [
-     "SuperSport MaXimo 1",
-     "SuperSport Premier League"
-    ],
-    "GH": [
-     "SuperSport MaXimo 1",
-     "DStv Now"
-    ],
-    "CL": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "EC": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "PE": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "UY": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "PY": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "beIN Sports MENA 5"
-    ],
-    "QA": [
-     "beIN Sports MENA 5"
-    ],
-    "AE": [
-     "beIN Sports MENA 5"
-    ],
-    "EG": [
-     "beIN Sports MENA 5"
-    ],
-    "DZ": [
-     "beIN Sports MENA 5"
-    ],
-    "TN": [
-     "beIN Sports MENA 5"
-    ],
-    "IQ": [
-     "beIN Sports MENA 5"
-    ],
-    "JO": [
-     "beIN Sports MENA 5"
-    ],
-    "OM": [
-     "beIN Sports MENA 5"
-    ],
-    "LY": [
-     "beIN Sports MENA 5"
-    ],
-    "KW": [
-     "beIN Sports MENA 5"
-    ],
-    "BH": [
-     "beIN Sports MENA 5"
-    ],
-    "TR": [
-     "S Sport Plus"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora",
-    "sporekrani.com"
-   ]
-  },
-  {
-   "id": "football-20261116-somalia-ghana",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Somalia",
-   "away": "Ghana",
-   "homeNames": {
-    "tr": "Somali",
-    "en": "Somalia",
-    "de": "Somalia",
-    "es": "Somalia",
-    "fr": "Somalie",
-    "it": "Somalia",
-    "pt": "Somália",
-    "ar": "الصومال"
-   },
-   "awayNames": {
-    "tr": "Gana",
-    "en": "Ghana",
-    "de": "Ghana",
-    "es": "Ghana",
-    "fr": "Ghana",
-    "it": "Ghana",
-    "pt": "Gana",
-    "ar": "غانا"
-   },
-   "kickoffUtc": "2026-11-16T15:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "PT": [
-     "Fanatiz"
-    ],
-    "CA": [
-     "beIN Sport Canada"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "US": [
-     "beIN Sports 6",
-     "beIN Sports (US)",
-     "beIN Sports CONNECT (US)"
-    ],
-    "MA": [
-     "beIN Sports MENA 4"
-    ],
-    "ZA": [
-     "SuperSport PSL"
-    ],
-    "GH": [
-     "SuperSport Action Africa"
-    ],
-    "SA": [
-     "beIN Sports MENA 4"
-    ],
-    "QA": [
-     "beIN Sports MENA 4"
-    ],
-    "AE": [
-     "beIN Sports MENA 4"
-    ],
-    "EG": [
-     "beIN Sports MENA 4"
-    ],
-    "DZ": [
-     "beIN Sports MENA 4"
-    ],
-    "TN": [
-     "beIN Sports MENA 4"
-    ],
-    "IQ": [
-     "beIN Sports MENA 4"
-    ],
-    "JO": [
-     "beIN Sports MENA 4"
-    ],
-    "OM": [
-     "beIN Sports MENA 4"
-    ],
-    "LY": [
-     "beIN Sports MENA 4"
-    ],
-    "KW": [
-     "beIN Sports MENA 4"
-    ],
-    "BH": [
-     "beIN Sports MENA 4"
-    ],
-    "NG": [
-     "SuperSport 1 Africa"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora"
-   ]
-  },
-  {
-   "id": "football-20261116-eritrea-guinea",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Eritrea",
-   "away": "Guinea",
-   "homeNames": {
-    "tr": "Eritre",
-    "en": "Eritrea",
-    "de": "Eritrea",
-    "es": "Eritrea",
-    "fr": "Érythrée",
-    "it": "Eritrea",
-    "pt": "Eritreia",
-    "ar": "إريتريا"
-   },
-   "awayNames": {
-    "tr": "Gine",
-    "en": "Guinea",
-    "de": "Guinea",
-    "es": "Guinea",
-    "fr": "Guinée",
-    "it": "Guinea",
-    "pt": "Guiné",
-    "ar": "غينيا"
-   },
-   "kickoffUtc": "2026-11-16T16:00:00Z",
-   "broadcasts": {
-    "PT": [
-     "Fanatiz"
-    ],
-    "CA": [
-     "beIN Sport Canada Espanol"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "US": [
-     "beIN Sports 4",
-     "beIN Sports 7",
-     "beIN Sports en Español (US)",
-     "beIN Sports CONNECT (US)"
-    ],
-    "MA": [
-     "beIN Sports MENA 2"
-    ],
-    "SA": [
-     "beIN Sports MENA 2"
-    ],
-    "QA": [
-     "beIN Sports MENA 2"
-    ],
-    "AE": [
-     "beIN Sports MENA 2"
-    ],
-    "EG": [
-     "beIN Sports MENA 2"
-    ],
-    "DZ": [
-     "beIN Sports MENA 2"
-    ],
-    "TN": [
-     "beIN Sports MENA 2"
-    ],
-    "IQ": [
-     "beIN Sports MENA 2"
-    ],
-    "JO": [
-     "beIN Sports MENA 2"
-    ],
-    "OM": [
-     "beIN Sports MENA 2"
-    ],
-    "LY": [
-     "beIN Sports MENA 2"
-    ],
-    "KW": [
-     "beIN Sports MENA 2"
-    ],
-    "BH": [
-     "beIN Sports MENA 2"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora"
-   ]
-  },
-  {
-   "id": "football-20261116-central-african-republic-benin",
-   "sport": "football",
-   "competitionId": "afcon_qual",
-   "tier": "regional",
-   "competition": {
-    "tr": "Afrika Uluslar Kupası Elemeleri",
-    "en": "Africa Cup of Nations Qualifiers",
-    "de": "Afrika-Cup-Qualifikation",
-    "es": "Clasificación para la Copa Africana",
-    "fr": "Éliminatoires CAN",
-    "it": "Qualificazioni Coppa d'Africa",
-    "pt": "Eliminatórias da Copa Africana",
-    "ar": "تصفيات كأس أمم أفريقيا"
-   },
-   "home": "Central African Republic",
-   "away": "Benin",
-   "homeNames": {
-    "tr": "Orta Afrika Cumhuriyeti",
-    "en": "Central African Republic",
-    "de": "Zentralafrikanische Republik",
-    "es": "República Centroafricana",
-    "fr": "Centrafrique",
-    "it": "Repubblica Centrafricana",
-    "pt": "República Centro-Africana",
-    "ar": "جمهورية أفريقيا الوسطى"
-   },
-   "awayNames": {
-    "tr": "Benin",
-    "en": "Benin",
-    "de": "Benin",
-    "es": "Benín",
-    "fr": "Bénin",
-    "it": "Benin",
-    "pt": "Benim",
-    "ar": "بنين"
-   },
-   "kickoffUtc": "2026-11-16T16:00:00Z",
-   "broadcasts": {
-    "PT": [
-     "Fanatiz"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "US": [
-     "beIN Sports 3",
-     "beIN Sports XTRA (US)",
-     "beIN Sports CONNECT (US)",
-     "Fawesome (US)"
-    ],
-    "MA": [
-     "beIN Sports MENA 3"
-    ],
-    "SA": [
-     "beIN Sports MENA 3"
-    ],
-    "QA": [
-     "beIN Sports MENA 3"
-    ],
-    "AE": [
-     "beIN Sports MENA 3"
-    ],
-    "EG": [
-     "beIN Sports MENA 3"
-    ],
-    "DZ": [
-     "beIN Sports MENA 3"
-    ],
-    "TN": [
-     "beIN Sports MENA 3"
-    ],
-    "IQ": [
-     "beIN Sports MENA 3"
-    ],
-    "JO": [
-     "beIN Sports MENA 3"
-    ],
-    "OM": [
-     "beIN Sports MENA 3"
-    ],
-    "LY": [
-     "beIN Sports MENA 3"
-    ],
-    "KW": [
-     "beIN Sports MENA 3"
-    ],
-    "BH": [
-     "beIN Sports MENA 3"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora"
-   ]
-  },
-  {
-   "id": "football-20261116-lithuania-liechtenstein",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Lithuania",
-   "away": "Liechtenstein",
-   "homeNames": {
-    "tr": "Litvanya",
-    "en": "Lithuania",
-    "de": "Litauen",
-    "es": "Lituania",
-    "fr": "Lituanie",
-    "it": "Lituania",
-    "pt": "Lituânia",
-    "ar": "ليتوانيا"
-   },
-   "awayNames": {
-    "tr": "Lihtenştayn",
-    "en": "Liechtenstein",
-    "de": "Liechtenstein",
-    "es": "Liechtenstein",
-    "fr": "Liechtenstein",
-    "it": "Liechtenstein",
-    "pt": "Liechtenstein",
-    "ar": "ليختنشتاين"
-   },
-   "kickoffUtc": "2026-11-16T17:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "FR": [
-     "L'Équipe live",
-     "L'Équipe live foot"
-    ],
-    "PT": [
-     "Sport TV 6"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN App Gratis"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "AR": [
-     "Disney+ Premium"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "BR": [
-     "Disney+ Premium"
-    ],
-    "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO"
-    ],
-    "MX": [
-     "SKY Sports"
-    ],
-    "KR": [
-     "SPOTV NOW"
-    ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
-    "US": [
-     "FOX Soccer Plus",
-     "Fubo Sports",
-     "ViX",
-     "Fox Sports online"
-    ],
-    "MA": [
-     "beIN Sports MENA 7"
-    ],
-    "GH": [
-     "DStv Now"
-    ],
-    "CL": [
-     "Disney+ Premium"
-    ],
-    "EC": [
-     "Disney+ Premium"
-    ],
-    "PE": [
-     "Disney+ Premium"
-    ],
-    "UY": [
-     "Disney+ Premium"
-    ],
-    "PY": [
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "beIN Sports MENA 7"
-    ],
-    "QA": [
-     "beIN Sports MENA 7"
-    ],
-    "AE": [
-     "beIN Sports MENA 7"
-    ],
-    "EG": [
-     "beIN Sports MENA 7"
-    ],
-    "DZ": [
-     "beIN Sports MENA 7"
-    ],
-    "TN": [
-     "beIN Sports MENA 7"
-    ],
-    "IQ": [
-     "beIN Sports MENA 7"
-    ],
-    "JO": [
-     "beIN Sports MENA 7"
-    ],
-    "OM": [
-     "beIN Sports MENA 7"
-    ],
-    "LY": [
-     "beIN Sports MENA 7"
-    ],
-    "KW": [
-     "beIN Sports MENA 7"
-    ],
-    "BH": [
-     "beIN Sports MENA 7"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora",
-    "sporekrani.com"
-   ]
-  },
-  {
-   "id": "football-20261116-estonia-bulgaria",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Estonia",
-   "away": "Bulgaria",
-   "homeNames": {
-    "tr": "Estonya",
-    "en": "Estonia",
-    "de": "Estland",
-    "es": "Estonia",
-    "fr": "Estonie",
-    "it": "Estonia",
-    "pt": "Estónia",
-    "ar": "إستونيا"
-   },
-   "awayNames": {
-    "tr": "Bulgaristan",
-    "en": "Bulgaria",
-    "de": "Bulgarien",
-    "es": "Bulgaria",
-    "fr": "Bulgarie",
-    "it": "Bulgaria",
-    "pt": "Bulgária",
-    "ar": "بلغاريا"
-   },
-   "kickoffUtc": "2026-11-16T17:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "FR": [
-     "L'Équipe live"
-    ],
-    "PT": [
-     "Sport TV 2"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN App Gratis"
-    ],
-    "CZ": [
-     "Sport 2"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "AR": [
-     "Disney+ Premium"
-    ],
-    "NL": [
-     "Ziggo Sport Kanaal 14",
-     "Ziggo Sport",
-     "Ziggo Sport 3"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "BR": [
-     "SporTV 2"
-    ],
-    "NO": [
-     "Viaplay NO",
-     "TV 2 Play (NO)"
-    ],
-    "MX": [
-     "SKY Sports"
-    ],
-    "KR": [
-     "SPOTV NOW"
-    ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "AU": [
-     "beIN Sports 3"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
-    "US": [
-     "Fubo Sports",
-     "ViX",
-     "FOX Sports 2",
-     "FOX One"
-    ],
-    "MA": [
-     "beIN Sports MENA 8"
-    ],
-    "NG": [
-     "SuperSport GOtv LaLiga"
-    ],
-    "ZA": [
-     "SuperSport GOtv LaLiga",
-     "SuperSport Laliga"
-    ],
-    "GH": [
-     "DStv Now",
-     "SuperSport Laliga ROA",
-     "SuperSport GOtv LaLiga"
-    ],
-    "CL": [
-     "Disney+ Premium"
-    ],
-    "EC": [
-     "Disney+ Premium"
-    ],
-    "PE": [
-     "Disney+ Premium"
-    ],
-    "UY": [
-     "Disney+ Premium"
-    ],
-    "PY": [
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "beIN Sports MENA 8"
-    ],
-    "QA": [
-     "beIN Sports MENA 8"
-    ],
-    "AE": [
-     "beIN Sports MENA 8"
-    ],
-    "EG": [
-     "beIN Sports MENA 8"
-    ],
-    "DZ": [
-     "beIN Sports MENA 8"
-    ],
-    "TN": [
-     "beIN Sports MENA 8"
-    ],
-    "IQ": [
-     "beIN Sports MENA 8"
-    ],
-    "JO": [
-     "beIN Sports MENA 8"
-    ],
-    "OM": [
-     "beIN Sports MENA 8"
-    ],
-    "LY": [
-     "beIN Sports MENA 8"
-    ],
-    "KW": [
-     "beIN Sports MENA 8"
-    ],
-    "BH": [
-     "beIN Sports MENA 8"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora",
-    "sporekrani.com"
-   ]
-  },
-  {
-   "id": "football-20261116-iceland-luxembourg",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Iceland",
-   "away": "Luxembourg",
-   "homeNames": {
-    "tr": "İzlanda",
-    "en": "Iceland",
-    "de": "Island",
-    "es": "Islandia",
-    "fr": "Islande",
-    "it": "Islanda",
-    "pt": "Islândia",
-    "ar": "آيسلندا"
-   },
-   "awayNames": {
-    "tr": "Lüksemburg",
-    "en": "Luxembourg",
-    "de": "Luxemburg",
-    "es": "Luxemburgo",
-    "fr": "Luxembourg",
-    "it": "Lussemburgo",
-    "pt": "Luxemburgo",
-    "ar": "لوكسمبورغ"
-   },
-   "kickoffUtc": "2026-11-16T17:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "FR": [
-     "L'Équipe live"
-    ],
-    "PT": [
-     "Sport TV 1"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN App Gratis"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "AR": [
-     "ESPN 2",
-     "Disney+ Premium"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "BR": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO",
-     "TV 2 Sport 1"
-    ],
-    "MX": [
-     "SKY Sports"
-    ],
-    "KR": [
-     "SPOTV NOW"
-    ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "AU": [
-     "beIN Sports 2"
-    ],
-    "CO": [
-     "ESPN 2",
-     "Disney+ Premium"
-    ],
-    "US": [
-     "fubo Sports Network",
-     "ViX",
-     "Fubo Sports",
-     "Fawesome (US)"
-    ],
-    "MA": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ],
-    "NG": [
-     "SuperSport MaXimo 1"
-    ],
-    "ZA": [
-     "SuperSport MaXimo 1",
-     "SuperSport Premier League"
-    ],
-    "GH": [
-     "DStv Now",
-     "SuperSport MaXimo 1"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+ Premium"
-    ],
-    "EC": [
-     "ESPN 2",
-     "Disney+ Premium"
-    ],
-    "PE": [
-     "ESPN 2",
-     "Disney+ Premium"
-    ],
-    "UY": [
-     "ESPN 2",
-     "Disney+ Premium"
-    ],
-    "PY": [
-     "ESPN 2",
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ],
-    "QA": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ],
-    "AE": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ],
-    "EG": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ],
-    "DZ": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ],
-    "TN": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ],
-    "IQ": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ],
-    "JO": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ],
-    "OM": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ],
-    "LY": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ],
-    "KW": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ],
-    "BH": [
-     "beIN Sports MENA 6",
-     "TOD TV"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora",
-    "sporekrani.com"
-   ]
-  },
-  {
-   "id": "football-20261116-andorra-azerbaijan",
-   "sport": "football",
-   "competitionId": "friendly",
-   "tier": "global",
-   "competition": {
-    "tr": "Uluslararası Hazırlık Maçı",
-    "en": "International Friendly",
-    "de": "Freundschaftsspiel",
-    "es": "Amistoso Internacional",
-    "fr": "Match Amical International",
-    "it": "Amichevole Internazionale",
-    "pt": "Amistoso Internacional",
-    "ar": "مباراة ودية دولية"
-   },
-   "home": "Andorra",
-   "away": "Azerbaijan",
-   "homeNames": {
-    "tr": "Andorra",
-    "en": "Andorra",
-    "de": "Andorra",
-    "es": "Andorra",
-    "fr": "Andorre",
-    "it": "Andorra",
-    "pt": "Andorra",
-    "ar": "أندورا"
-   },
-   "awayNames": {
-    "tr": "Azerbaycan",
-    "en": "Azerbaijan",
-    "de": "Aserbaidschan",
-    "es": "Azerbaiyán",
-    "fr": "Azerbaïdjan",
-    "it": "Azerbaigian",
-    "pt": "Azerbaijão",
-    "ar": "أذربيجان"
-   },
-   "kickoffUtc": "2026-11-16T18:00:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "ES": [
-     "DAZN",
-     "DAZN App Gratis"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "AR": [
-     "Disney+ Premium"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "BR": [
-     "SporTV 3"
-    ],
-    "NO": [
-     "Viaplay NO",
-     "TV 2 Play (NO)"
-    ],
-    "KR": [
-     "SPOTV NOW"
-    ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
-    "US": [
-     "ViX"
-    ],
-    "MA": [
-     "beIN Sports MENA 9"
-    ],
-    "CL": [
-     "Disney+ Premium"
-    ],
-    "EC": [
-     "Disney+ Premium"
-    ],
-    "PE": [
-     "Disney+ Premium"
-    ],
-    "UY": [
-     "Disney+ Premium"
-    ],
-    "PY": [
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "beIN Sports MENA 9"
-    ],
-    "QA": [
-     "beIN Sports MENA 9"
-    ],
-    "AE": [
-     "beIN Sports MENA 9"
-    ],
-    "EG": [
-     "beIN Sports MENA 9"
-    ],
-    "DZ": [
-     "beIN Sports MENA 9"
-    ],
-    "TN": [
-     "beIN Sports MENA 9"
-    ],
-    "IQ": [
-     "beIN Sports MENA 9"
-    ],
-    "JO": [
-     "beIN Sports MENA 9"
-    ],
-    "OM": [
-     "beIN Sports MENA 9"
-    ],
-    "LY": [
-     "beIN Sports MENA 9"
-    ],
-    "KW": [
-     "beIN Sports MENA 9"
-    ],
-    "BH": [
-     "beIN Sports MENA 9"
-    ],
-    "TR": [
-     "S Sport Plus",
-     "CBC Sport"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora",
-    "sporekrani.com"
-   ]
-  },
-  {
-   "id": "football-20261116-cd-ut-cajamarca-los-chankas",
-   "sport": "football",
-   "competitionId": "liga1_pe",
-   "tier": "regional",
-   "competition": {
-    "tr": "Peru Liga 1",
-    "en": "Peruvian Liga 1",
-    "de": "Peruanische Liga 1",
-    "es": "Liga 1 de Perú",
-    "fr": "Liga 1 péruvienne",
-    "it": "Liga 1 peruviana",
-    "pt": "Liga 1 do Peru",
-    "ar": "الدوري البيروفي"
-   },
-   "home": "CD UT Cajamarca",
-   "away": "Los Chankas",
-   "homeNames": {
-    "tr": "CD UT Cajamarca",
-    "en": "CD UT Cajamarca",
-    "de": "CD UT Cajamarca",
-    "es": "CD UT Cajamarca",
-    "fr": "CD UT Cajamarca",
-    "it": "CD UT Cajamarca",
-    "pt": "CD UT Cajamarca",
-    "ar": "كاخاماركا"
-   },
-   "awayNames": {
-    "tr": "Los Chankas",
-    "en": "Los Chankas",
-    "de": "Los Chankas",
-    "es": "Los Chankas",
-    "fr": "Los Chankas",
-    "it": "Los Chankas",
-    "pt": "Los Chankas",
-    "ar": "لوس تشانكاس"
-   },
-   "kickoffUtc": "2026-11-16T18:00:00Z",
-   "broadcasts": {
-    "PT": [
-     "Fanatiz"
-    ],
-    "ES": [
-     "Fanatiz"
-    ],
-    "AT": [
-     "Fanatiz"
-    ],
-    "AR": [
-     "Fanatiz"
-    ],
-    "CH": [
-     "Fanatiz"
-    ],
-    "BR": [
-     "Fanatiz"
-    ],
-    "MX": [
-     "Fanatiz"
-    ],
-    "JP": [
-     "Fanatiz"
-    ],
-    "AU": [
-     "Fanatiz"
-    ],
-    "CO": [
-     "Fanatiz"
-    ],
-    "CL": [
-     "Fanatiz"
-    ],
-    "EC": [
-     "Fanatiz"
-    ],
-    "PE": [
-     "Fanatiz",
-     "L1 Max",
-     "L1 Play"
-    ],
-    "UY": [
-     "Fanatiz"
-    ],
-    "PY": [
-     "Fanatiz"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora"
-   ]
-  },
-  {
-   "id": "football-20261116-albacete-celta-fortuna",
-   "sport": "football",
-   "competitionId": "laliga2",
-   "tier": "regional",
-   "competition": {
-    "tr": "LaLiga Hypermotion",
-    "en": "LaLiga Hypermotion",
-    "de": "LaLiga Hypermotion",
-    "es": "LaLiga Hypermotion",
-    "fr": "LaLiga Hypermotion",
-    "it": "LaLiga Hypermotion",
-    "pt": "LaLiga Hypermotion",
-    "ar": "دوري الدرجة الثانية الإسباني"
-   },
-   "home": "Albacete",
-   "away": "Celta Fortuna",
-   "homeNames": {
-    "tr": "Albacete",
-    "en": "Albacete",
-    "de": "Albacete",
-    "es": "Albacete",
-    "fr": "Albacete",
-    "it": "Albacete",
-    "pt": "Albacete",
-    "ar": "Albacete"
-   },
-   "awayNames": {
-    "tr": "Celta Fortuna",
-    "en": "Celta Fortuna",
-    "de": "Celta Fortuna",
-    "es": "Celta Fortuna",
-    "fr": "Celta Fortuna",
-    "it": "Celta Fortuna",
-    "pt": "Celta Fortuna",
-    "ar": "Celta Fortuna"
-   },
-   "kickoffUtc": "2026-11-16T19:30:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "IT": [
-     "DAZN Italia"
-    ],
-    "PT": [
-     "DAZN 1"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "ES": [
-     "DAZN",
-     "LaLiga TV Bar",
-     "LALIGA TV Hypermotion"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "MX": [
-     "SKY Sports"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "US": [
-     "ESPN Select",
-     "ESPN Unlimited"
-    ]
-   },
-   "sources": [
-    "fotmob"
-   ]
-  },
-  {
-   "id": "football-20261116-north-macedonia-slovenia",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "North Macedonia",
-   "away": "Slovenia",
-   "homeNames": {
-    "tr": "Kuzey Makedonya",
-    "en": "North Macedonia",
-    "de": "Nordmazedonien",
-    "es": "Macedonia del Norte",
-    "fr": "Macédoine du Nord",
-    "it": "Macedonia del Nord",
-    "pt": "Macedónia do Norte",
-    "ar": "مقدونيا الشمالية"
-   },
-   "awayNames": {
-    "tr": "Slovenya",
-    "en": "Slovenia",
-    "de": "Slowenien",
-    "es": "Eslovenia",
-    "fr": "Slovénie",
-    "it": "Slovenia",
-    "pt": "Eslovénia",
-    "ar": "سلوفينيا"
-   },
-   "kickoffUtc": "2026-11-16T19:45:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "FR": [
-     "L'Équipe live",
-     "L'Équipe live foot"
-    ],
-    "PT": [
-     "Sport TV 4"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "AR": [
-     "Disney+ Premium"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "BR": [
-     "Disney+ Premium"
-    ],
-    "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO"
-    ],
-    "MX": [
-     "SKY Sports"
-    ],
-    "KR": [
-     "SPOTV NOW"
-    ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
-    "US": [
-     "ViX"
-    ],
-    "MA": [
-     "beIN Sports MENA 3"
-    ],
-    "NG": [
-     "SuperSport GOtv LaLiga"
-    ],
-    "ZA": [
-     "SuperSport GOtv LaLiga",
-     "SuperSport Laliga"
-    ],
-    "GH": [
-     "SuperSport Laliga ROA",
-     "DStv Now",
-     "SuperSport GOtv LaLiga"
-    ],
-    "CL": [
-     "Disney+ Premium"
-    ],
-    "EC": [
-     "Disney+ Premium"
-    ],
-    "PE": [
-     "Disney+ Premium"
-    ],
-    "UY": [
-     "Disney+ Premium"
-    ],
-    "PY": [
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "beIN Sports MENA 3"
-    ],
-    "QA": [
-     "beIN Sports MENA 3"
-    ],
-    "AE": [
-     "beIN Sports MENA 3"
-    ],
-    "EG": [
-     "beIN Sports MENA 3"
-    ],
-    "DZ": [
-     "beIN Sports MENA 3"
-    ],
-    "TN": [
-     "beIN Sports MENA 3"
-    ],
-    "IQ": [
-     "beIN Sports MENA 3"
-    ],
-    "JO": [
-     "beIN Sports MENA 3"
-    ],
-    "OM": [
-     "beIN Sports MENA 3"
-    ],
-    "LY": [
-     "beIN Sports MENA 3"
-    ],
-    "KW": [
-     "beIN Sports MENA 3"
-    ],
-    "BH": [
-     "beIN Sports MENA 3"
-    ],
-    "TR": [
-     "S Sport Plus"
-    ],
-    "HR": [
-     "MAXtv To Go"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora",
-    "sporekrani.com"
-   ]
-  },
-  {
-   "id": "football-20261116-switzerland-scotland",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Switzerland",
-   "away": "Scotland",
-   "homeNames": {
-    "tr": "İsviçre",
-    "en": "Switzerland",
-    "de": "Schweiz",
-    "es": "Suiza",
-    "fr": "Suisse",
-    "it": "Svizzera",
-    "pt": "Suíça",
-    "ar": "سويسرا"
-   },
-   "awayNames": {
-    "tr": "İskoçya",
-    "en": "Scotland",
-    "de": "Schottland",
-    "es": "Escocia",
-    "fr": "Écosse",
-    "it": "Scozia",
-    "pt": "Escócia",
-    "ar": "اسكتلندا"
-   },
-   "kickoffUtc": "2026-11-16T19:45:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "GB": [
-     "BBC iPlayer",
-     "BBC Scotland",
-     "BBC Two Northern Ireland",
-     "BBC Two"
-    ],
-    "FR": [
-     "L'Équipe live",
-     "L'Équipe live foot"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "NO": [
-     "Viaplay NO",
-     "TV 2 Play (NO)"
-    ],
-    "KR": [
-     "SPOTV NOW"
-    ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "US": [
-     "ViX"
-    ],
-    "MA": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "NG": [
-     "SuperSport GOtv Football",
-     "SuperSport Football"
-    ],
-    "ZA": [
-     "SuperSport Football",
-     "SuperSport GOtv Football"
-    ],
-    "GH": [
-     "SuperSport GOtv Football",
-     "DStv Now"
-    ],
-    "SA": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "QA": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "AE": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "EG": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "DZ": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "TN": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "IQ": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "JO": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "OM": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "LY": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "KW": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "BH": [
-     "beIN Sports MENA 2",
-     "TOD TV"
-    ],
-    "TR": [
-     "A Para"
-    ],
-    "HR": [
-     "MAXtv To Go"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora",
-    "sporekrani.com"
-   ]
-  },
-  {
-   "id": "football-20261116-germany-netherlands",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Germany",
-   "away": "Netherlands",
-   "homeNames": {
-    "tr": "Almanya",
-    "en": "Germany",
-    "de": "Deutschland",
-    "es": "Alemania",
-    "fr": "Allemagne",
-    "it": "Germania",
-    "pt": "Alemanha",
-    "ar": "ألمانيا"
-   },
-   "awayNames": {
-    "tr": "Hollanda",
-    "en": "Netherlands",
-    "de": "Niederlande",
-    "es": "Países Bajos",
-    "fr": "Pays-Bas",
-    "it": "Paesi Bassi",
-    "pt": "Países Baixos",
-    "ar": "هولندا"
-   },
-   "kickoffUtc": "2026-11-16T19:45:00Z",
-   "broadcasts": {
-    "DE": [
-     "ARD-Mediathek",
-     "Sportschau.de",
-     "Das Erste"
-    ],
-    "GB": [
-     "Prime Video PPV (UK)"
-    ],
-    "IT": [
-     "20 Mediaset"
-    ],
-    "FR": [
-     "la chaine L'Équipe"
-    ],
-    "PT": [
-     "Sport TV 1"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "ES": [
-     "DAZN",
-     "RTVE Play",
-     "LaLiga TV M2",
-     "Teledeporte"
-    ],
-    "CZ": [
-     "Sport 1"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "AR": [
-     "ESPN",
-     "Disney+ Premium"
-    ],
-    "NL": [
-     "NPO 3"
-    ],
-    "CH": [
-     "DAZN",
-     "L'Équipe TV",
-     "Das Erste",
-     "20 Mediaset"
-    ],
-    "BR": [
-     "ESPN",
-     "Disney+ Premium"
-    ],
-    "NO": [
-     "TV 2 Sport 1",
-     "TV 2 Play (NO)",
-     "Viaplay NO"
-    ],
-    "MX": [
-     "SKY Sports"
-    ],
-    "KR": [
-     "SPOTV NOW"
-    ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "AU": [
-     "beIN Sports 3"
-    ],
-    "CO": [
-     "ESPN",
-     "Disney+ Premium"
-    ],
-    "US": [
-     "Fubo Sports",
-     "ViX",
-     "FOX Sports 1",
-     "FOX One"
-    ],
-    "MA": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "NG": [
-     "SuperSport MaXimo 1",
-     "SuperSport Premier League Nigeria"
-    ],
-    "ZA": [
-     "SuperSport MaXimo 1",
-     "SuperSport Premier League Nigeria",
-     "SuperSport Premier League"
-    ],
-    "GH": [
-     "DStv Now",
-     "SuperSport MaXimo 1",
-     "SuperSport Premier League ROA"
-    ],
-    "CL": [
-     "ESPN",
-     "Disney+ Premium"
-    ],
-    "EC": [
-     "ESPN",
-     "Disney+ Premium"
-    ],
-    "PE": [
-     "ESPN",
-     "Disney+ Premium"
-    ],
-    "UY": [
-     "ESPN",
-     "Disney+ Premium"
-    ],
-    "PY": [
-     "ESPN",
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "QA": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "AE": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "EG": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "DZ": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "TN": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "IQ": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "JO": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "OM": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "LY": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "KW": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "BH": [
-     "beIN Sports MENA 1",
-     "TOD TV"
-    ],
-    "TR": [
-     "A Haber",
-     "CBC Sport"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora",
-    "sporekrani.com"
-   ]
-  },
-  {
-   "id": "football-20261116-greece-serbia",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Greece",
-   "away": "Serbia",
-   "homeNames": {
-    "tr": "Yunanistan",
-    "en": "Greece",
-    "de": "Griechenland",
-    "es": "Grecia",
-    "fr": "Grèce",
-    "it": "Grecia",
-    "pt": "Grécia",
-    "ar": "اليونان"
-   },
-   "awayNames": {
-    "tr": "Sırbistan",
-    "en": "Serbia",
-    "de": "Serbien",
-    "es": "Serbia",
-    "fr": "Serbie",
-    "it": "Serbia",
-    "pt": "Sérvia",
-    "ar": "صربيا"
-   },
-   "kickoffUtc": "2026-11-16T19:45:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "GB": [
-     "Prime Video PPV (UK)"
-    ],
-    "FR": [
-     "L'Équipe live",
-     "L'Équipe live foot"
-    ],
-    "PT": [
-     "Sport TV 2"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "CZ": [
-     "Sport 2"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "AR": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "NL": [
-     "Ziggo Sport",
-     "Ziggo Sport Kanaal 14"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "BR": [
-     "SporTV"
-    ],
-    "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO"
-    ],
-    "MX": [
-     "SKY Sports"
-    ],
-    "KR": [
-     "SPOTV NOW"
-    ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "AU": [
-     "beIN Sports 2"
-    ],
-    "CO": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "US": [
-     "Fubo Sports",
-     "ViX",
-     "FOX One",
-     "FOX Sports 2"
-    ],
-    "MA": [
-     "beIN Sports MENA 4"
-    ],
-    "ZA": [
-     "SuperSport Kickoff"
-    ],
-    "GH": [
-     "SuperSport 1 Africa"
-    ],
-    "CL": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "EC": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "PE": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "UY": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "PY": [
-     "ESPN 4",
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "beIN Sports MENA 4"
-    ],
-    "QA": [
-     "beIN Sports MENA 4"
-    ],
-    "AE": [
-     "beIN Sports MENA 4"
-    ],
-    "EG": [
-     "beIN Sports MENA 4"
-    ],
-    "DZ": [
-     "beIN Sports MENA 4"
-    ],
-    "TN": [
-     "beIN Sports MENA 4"
-    ],
-    "IQ": [
-     "beIN Sports MENA 4"
-    ],
-    "JO": [
-     "beIN Sports MENA 4"
-    ],
-    "OM": [
-     "beIN Sports MENA 4"
-    ],
-    "LY": [
-     "beIN Sports MENA 4"
-    ],
-    "KW": [
-     "beIN Sports MENA 4"
-    ],
-    "BH": [
-     "beIN Sports MENA 4"
-    ],
-    "TR": [
-     "A Spor"
-    ],
-    "NG": [
-     "SuperSport Kickoff"
-    ],
-    "HR": [
-     "MAXtv To Go"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora",
-    "sporekrani.com"
-   ]
-  },
-  {
-   "id": "football-20261116-gibraltar-malta",
-   "sport": "football",
-   "competitionId": "uefa_nations",
-   "tier": "global",
-   "competition": {
-    "tr": "UEFA Uluslar Ligi",
-    "en": "UEFA Nations League",
-    "de": "UEFA Nations League",
-    "es": "Liga de Naciones de la UEFA",
-    "fr": "Ligue des Nations UEFA",
-    "it": "UEFA Nations League",
-    "pt": "Liga das Nações da UEFA",
-    "ar": "دوري الأمم الأوروبية"
-   },
-   "home": "Gibraltar",
-   "away": "Malta",
-   "homeNames": {
-    "tr": "Cebelitarık",
-    "en": "Gibraltar",
-    "de": "Gibraltar",
-    "es": "Gibraltar",
-    "fr": "Gibraltar",
-    "it": "Gibilterra",
-    "pt": "Gibraltar",
-    "ar": "جبل طارق"
-   },
-   "awayNames": {
-    "tr": "Malta",
-    "en": "Malta",
-    "de": "Malta",
-    "es": "Malta",
-    "fr": "Malte",
-    "it": "Malta",
-    "pt": "Malta",
-    "ar": "مالطا"
-   },
-   "kickoffUtc": "2026-11-16T19:45:00Z",
-   "broadcasts": {
-    "DE": [
-     "DAZN Deutschland"
-    ],
-    "FR": [
-     "L'Équipe live"
-    ],
-    "PT": [
-     "Sport TV 6"
-    ],
-    "BE": [
-     "DAZN (BE)"
-    ],
-    "ES": [
-     "DAZN"
-    ],
-    "AT": [
-     "DAZN"
-    ],
-    "AR": [
-     "Disney+ Premium"
-    ],
-    "CH": [
-     "DAZN"
-    ],
-    "BR": [
-     "Disney+ Premium"
-    ],
-    "NO": [
-     "TV 2 Play (NO)",
-     "Viaplay NO"
-    ],
-    "MX": [
-     "SKY Sports"
-    ],
-    "KR": [
-     "SPOTV NOW"
-    ],
-    "CA": [
-     "DAZN Canada"
-    ],
-    "JP": [
-     "DAZN"
-    ],
-    "NZ": [
-     "beIN Sports Connect New Zealand"
-    ],
-    "CO": [
-     "Disney+ Premium"
-    ],
-    "US": [
-     "ViX"
-    ],
-    "MA": [
-     "beIN Sports MENA 5"
-    ],
-    "GH": [
-     "DStv Now"
-    ],
-    "CL": [
-     "Disney+ Premium"
-    ],
-    "EC": [
-     "Disney+ Premium"
-    ],
-    "PE": [
-     "Disney+ Premium"
-    ],
-    "UY": [
-     "Disney+ Premium"
-    ],
-    "PY": [
-     "Disney+ Premium"
-    ],
-    "SA": [
-     "beIN Sports MENA 5"
-    ],
-    "QA": [
-     "beIN Sports MENA 5"
-    ],
-    "AE": [
-     "beIN Sports MENA 5"
-    ],
-    "EG": [
-     "beIN Sports MENA 5"
-    ],
-    "DZ": [
-     "beIN Sports MENA 5"
-    ],
-    "TN": [
-     "beIN Sports MENA 5"
-    ],
-    "IQ": [
-     "beIN Sports MENA 5"
-    ],
-    "JO": [
-     "beIN Sports MENA 5"
-    ],
-    "OM": [
-     "beIN Sports MENA 5"
-    ],
-    "LY": [
-     "beIN Sports MENA 5"
-    ],
-    "KW": [
-     "beIN Sports MENA 5"
-    ],
-    "BH": [
-     "beIN Sports MENA 5"
-    ],
-    "HR": [
-     "MAXtv To Go"
-    ]
-   },
-   "sources": [
-    "fotmob",
-    "kooora",
-    "sporekrani.com"
-   ]
-  },
-  {
-   "id": "football-20261116-cusco-fc-asociacion-deportiva-tarma",
-   "sport": "football",
-   "competitionId": "liga1_pe",
-   "tier": "regional",
-   "competition": {
-    "tr": "Peru Liga 1",
-    "en": "Peruvian Liga 1",
-    "de": "Peruanische Liga 1",
-    "es": "Liga 1 de Perú",
-    "fr": "Liga 1 péruvienne",
-    "it": "Liga 1 peruviana",
-    "pt": "Liga 1 do Peru",
-    "ar": "الدوري البيروفي"
-   },
-   "home": "Cusco FC",
-   "away": "Asociacion Deportiva Tarma",
-   "homeNames": {
-    "tr": "Cusco FC",
-    "en": "Cusco FC",
-    "de": "Cusco FC",
-    "es": "Cusco FC",
-    "fr": "Cusco FC",
-    "it": "Cusco FC",
-    "pt": "Cusco FC",
-    "ar": "كوسكو"
-   },
-   "awayNames": {
-    "tr": "Asociación Deportiva Tarma",
-    "en": "Asociación Deportiva Tarma",
-    "de": "Asociación Deportiva Tarma",
-    "es": "Asociación Deportiva Tarma",
-    "fr": "Asociación Deportiva Tarma",
-    "it": "Asociación Deportiva Tarma",
-    "pt": "Asociación Deportiva Tarma",
-    "ar": "Asociación Deportiva Tarma"
-   },
-   "kickoffUtc": "2026-11-16T20:15:00Z",
-   "broadcasts": {
-    "PT": [
-     "Fanatiz"
-    ],
-    "ES": [
-     "Fanatiz"
-    ],
-    "AT": [
-     "Fanatiz"
-    ],
-    "AR": [
-     "Fanatiz"
-    ],
-    "CH": [
-     "Fanatiz"
-    ],
-    "BR": [
-     "Fanatiz"
-    ],
-    "MX": [
-     "Fanatiz"
-    ],
-    "JP": [
-     "Fanatiz"
-    ],
-    "AU": [
-     "Fanatiz"
-    ],
-    "CO": [
-     "Fanatiz"
-    ],
-    "CL": [
-     "Fanatiz"
-    ],
-    "EC": [
-     "Fanatiz"
-    ],
-    "PE": [
-     "Fanatiz",
-     "L1 Max",
-     "L1 Play"
-    ],
-    "UY": [
-     "Fanatiz"
-    ],
-    "PY": [
-     "Fanatiz"
-    ]
-   },
-   "sources": [
-    "fotmob"
-   ]
-  },
-  {
-   "id": "football-20261116-club-deportivo-moquegua-atletico-grau",
-   "sport": "football",
-   "competitionId": "liga1_pe",
-   "tier": "regional",
-   "competition": {
-    "tr": "Peru Liga 1",
-    "en": "Peruvian Liga 1",
-    "de": "Peruanische Liga 1",
-    "es": "Liga 1 de Perú",
-    "fr": "Liga 1 péruvienne",
-    "it": "Liga 1 peruviana",
-    "pt": "Liga 1 do Peru",
-    "ar": "الدوري البيروفي"
-   },
-   "home": "Club Deportivo Moquegua",
-   "away": "Atletico Grau",
-   "homeNames": {
-    "tr": "Club Deportivo Moquegua",
-    "en": "Club Deportivo Moquegua",
-    "de": "Club Deportivo Moquegua",
-    "es": "Club Deportivo Moquegua",
-    "fr": "Club Deportivo Moquegua",
-    "it": "Club Deportivo Moquegua",
-    "pt": "Club Deportivo Moquegua",
-    "ar": "Club Deportivo Moquegua"
-   },
-   "awayNames": {
-    "tr": "Atlético Grau",
-    "en": "Atlético Grau",
-    "de": "Atlético Grau",
-    "es": "Atlético Grau",
-    "fr": "Atlético Grau",
-    "it": "Atlético Grau",
-    "pt": "Atlético Grau",
-    "ar": "Atlético Grau"
-   },
-   "kickoffUtc": "2026-11-16T20:15:00Z",
-   "broadcasts": {
-    "PT": [
-     "Fanatiz"
-    ],
-    "ES": [
-     "Fanatiz"
-    ],
-    "AT": [
-     "Fanatiz"
-    ],
-    "AR": [
-     "Fanatiz"
-    ],
-    "CH": [
-     "Fanatiz"
-    ],
-    "BR": [
-     "Fanatiz"
-    ],
-    "MX": [
-     "Fanatiz"
-    ],
-    "JP": [
-     "Fanatiz"
-    ],
-    "AU": [
-     "Fanatiz"
-    ],
-    "CO": [
-     "Fanatiz"
-    ],
-    "CL": [
-     "Fanatiz"
-    ],
-    "EC": [
-     "Fanatiz"
-    ],
-    "PE": [
-     "Fanatiz",
-     "L1 Play",
-     "L1"
-    ],
-    "UY": [
-     "Fanatiz"
-    ],
-    "PY": [
-     "Fanatiz"
-    ]
-   },
-   "sources": [
-    "fotmob"
-   ]
-  },
   {
    "id": "football-20261116-montevideo-wanderers-juventud",
    "sport": "football",
@@ -4221,39 +58,31 @@
     "ES": [
      "Antel TV Internacional"
     ],
-    "AT": [
-     "Antel TV Internacional"
-    ],
-    "AR": [
+    "BR": [
      "Disney+ Premium",
      "Antel TV Internacional"
     ],
     "CH": [
      "Antel TV Internacional"
     ],
-    "BR": [
+    "AR": [
      "Disney+ Premium",
+     "Antel TV Internacional"
+    ],
+    "AT": [
+     "Antel TV Internacional"
+    ],
+    "JP": [
      "Antel TV Internacional"
     ],
     "MX": [
      "Disney+ Premium",
      "Antel TV Internacional"
     ],
-    "JP": [
-     "Antel TV Internacional"
-    ],
     "AU": [
      "Antel TV Internacional"
     ],
     "CO": [
-     "Disney+ Premium",
-     "Antel TV Internacional"
-    ],
-    "CL": [
-     "Disney+ Premium",
-     "Antel TV Internacional"
-    ],
-    "EC": [
      "Disney+ Premium",
      "Antel TV Internacional"
     ],
@@ -4265,6 +94,14 @@
      "Antel TV",
      "DSports Uruguay Premium",
      "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium",
+     "Antel TV Internacional"
+    ],
+    "CL": [
+     "Disney+ Premium",
+     "Antel TV Internacional"
     ],
     "PY": [
      "Disney+ Premium",
@@ -5575,24 +1412,18 @@
     "ES": [
      "CONCACAF YouTube"
     ],
-    "AT": [
-     "CONCACAF YouTube"
-    ],
-    "AR": [
+    "BR": [
+     "Canal GOAT",
      "CONCACAF YouTube"
     ],
     "CH": [
      "CONCACAF YouTube"
     ],
-    "BR": [
-     "Canal GOAT",
+    "AR": [
      "CONCACAF YouTube"
     ],
-    "CA": [
-     "TSN",
-     "OneSoccer",
-     "RDS 2",
-     "TSN+"
+    "AT": [
+     "CONCACAF YouTube"
     ],
     "JP": [
      "CONCACAF YouTube"
@@ -5600,25 +1431,31 @@
     "AU": [
      "CONCACAF YouTube"
     ],
+    "CA": [
+     "OneSoccer",
+     "TSN",
+     "RDS 2",
+     "RDS"
+    ],
     "CO": [
      "CONCACAF YouTube"
     ],
     "US": [
+     "ViX",
+     "TUDN (US)",
      "Fubo Sports",
-     "FOX Sports 1",
-     "FOX One",
-     "TUDN (US)"
-    ],
-    "CL": [
-     "CONCACAF YouTube"
-    ],
-    "EC": [
-     "CONCACAF YouTube"
+     "FOX Sports 1"
     ],
     "PE": [
      "CONCACAF YouTube"
     ],
     "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
      "CONCACAF YouTube"
     ],
     "PY": [
@@ -6175,8 +2012,8 @@
    "kickoffUtc": "2026-11-17T02:00:00Z",
    "broadcasts": {
     "US": [
-     "ESPN Unlimited",
-     "ESPN Select"
+     "ESPN Select",
+     "ESPN Unlimited"
     ]
    },
    "sources": [
@@ -6434,6 +2271,4536 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  {
+   "id": "football-20261117-singapore-brazil",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "global",
+   "competition": {
+    "tr": "Uluslararası Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match Amical International",
+    "it": "Amichevole Internazionale",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية دولية"
+   },
+   "home": "Singapore",
+   "away": "Brazil",
+   "homeNames": {
+    "tr": "Singapur",
+    "en": "Singapore",
+    "de": "Singapur",
+    "es": "Singapur",
+    "fr": "Singapour",
+    "it": "Singapore",
+    "pt": "Singapura",
+    "ar": "سنغافورة"
+   },
+   "awayNames": {
+    "tr": "Brezilya",
+    "en": "Brazil",
+    "de": "Brasilien",
+    "es": "Brasil",
+    "fr": "Brésil",
+    "it": "Brasile",
+    "pt": "Brasil",
+    "ar": "البرازيل"
+   },
+   "kickoffUtc": "2026-11-17T10:00:00Z",
+   "broadcasts": {
+    "BR": [
+     "SporTV",
+     "Rede Globo",
+     "Ge TV"
+    ],
+    "JP": [
+     "U-NEXT"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-lesotho-gabon",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Lesotho",
+   "away": "Gabon",
+   "homeNames": {
+    "tr": "Lesotho",
+    "en": "Lesotho",
+    "de": "Lesotho",
+    "es": "Lesoto",
+    "fr": "Lesotho",
+    "it": "Lesotho",
+    "pt": "Lesoto",
+    "ar": "ليسوتو"
+   },
+   "awayNames": {
+    "tr": "Gabon",
+    "en": "Gabon",
+    "de": "Gabun",
+    "es": "Gabón",
+    "fr": "Gabon",
+    "it": "Gabon",
+    "pt": "Gabão",
+    "ar": "الغابون"
+   },
+   "kickoffUtc": "2026-11-17T13:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 3",
+     "beIN Sports CONNECT (US)"
+    ],
+    "NG": [
+     "SuperSport Action Africa"
+    ],
+    "GH": [
+     "DStv Now"
+    ],
+    "MA": [
+     "beIN Sports XTRA"
+    ],
+    "ZA": [
+     "SuperSport PSL",
+     "SuperSport Kickoff"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-malawi-egypt",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Malawi",
+   "away": "Egypt",
+   "homeNames": {
+    "tr": "Malavi",
+    "en": "Malawi",
+    "de": "Malawi",
+    "es": "Malaui",
+    "fr": "Malawi",
+    "it": "Malawi",
+    "pt": "Malawi",
+    "ar": "مالاوي"
+   },
+   "awayNames": {
+    "tr": "Mısır",
+    "en": "Egypt",
+    "de": "Ägypten",
+    "es": "Egipto",
+    "fr": "Égypte",
+    "it": "Egitto",
+    "pt": "Egito",
+    "ar": "مصر"
+   },
+   "kickoffUtc": "2026-11-17T13:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports 1 (FR)"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "AU": [
+     "beIN Sports 3"
+    ],
+    "CA": [
+     "beIN Sport Canada Espanol"
+    ],
+    "US": [
+     "beIN Sports 7",
+     "beIN Sports en Español (US)",
+     "beIN Sports CONNECT (US)"
+    ],
+    "NG": [
+     "SuperSport GOtv Football"
+    ],
+    "GH": [
+     "SuperSport GOtv Football",
+     "DStv Now"
+    ],
+    "MA": [
+     "beIN Sports 1",
+     "beIN Sports France"
+    ],
+    "ZA": [
+     "SuperSport GOtv Football"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-south-sudan-angola",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "South Sudan",
+   "away": "Angola",
+   "homeNames": {
+    "tr": "Güney Sudan",
+    "en": "South Sudan",
+    "de": "Südsudan",
+    "es": "Sudán del Sur",
+    "fr": "Soudan du Sud",
+    "it": "Sudan del Sud",
+    "pt": "Sudão do Sul",
+    "ar": "جنوب السودان"
+   },
+   "awayNames": {
+    "tr": "Angola",
+    "en": "Angola",
+    "de": "Angola",
+    "es": "Angola",
+    "fr": "Angola",
+    "it": "Angola",
+    "pt": "Angola",
+    "ar": "أنغولا"
+   },
+   "kickoffUtc": "2026-11-17T13:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Sport TV 1",
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 4",
+     "beIN Sports CONNECT (US)"
+    ],
+    "NG": [
+     "SuperSport Football Plus Nigeria",
+     "SuperSport MaXimo 1"
+    ],
+    "GH": [
+     "DStv Now",
+     "SuperSport MaXimo 1",
+     "SuperSport Football Plus ROA"
+    ],
+    "MA": [
+     "beIN Sports 3"
+    ],
+    "ZA": [
+     "SuperSport MaXimo 1",
+     "Maximo 360",
+     "SuperSport Football Plus"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-burundi-zambia",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Burundi",
+   "away": "Zambia",
+   "homeNames": {
+    "tr": "Burundi",
+    "en": "Burundi",
+    "de": "Burundi",
+    "es": "Burundi",
+    "fr": "Burundi",
+    "it": "Burundi",
+    "pt": "Burundi",
+    "ar": "بوروندي"
+   },
+   "awayNames": {
+    "tr": "Zambiya",
+    "en": "Zambia",
+    "de": "Sambia",
+    "es": "Zambia",
+    "fr": "Zambie",
+    "it": "Zambia",
+    "pt": "Zâmbia",
+    "ar": "زامبيا"
+   },
+   "kickoffUtc": "2026-11-17T13:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 5",
+     "beIN Sports CONNECT (US)"
+    ],
+    "NG": [
+     "SuperSport 1 Africa"
+    ],
+    "GH": [
+     "SuperSport Action Africa",
+     "SuperSport Kickoff"
+    ],
+    "MA": [
+     "beIN Sports XTRA 2"
+    ],
+    "ZA": [
+     "SuperSport 1 Africa"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-tanzania-nigeria",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Tanzania",
+   "away": "Nigeria",
+   "homeNames": {
+    "tr": "Tanzanya",
+    "en": "Tanzania",
+    "de": "Tansania",
+    "es": "Tanzania",
+    "fr": "Tanzanie",
+    "it": "Tanzania",
+    "pt": "Tanzânia",
+    "ar": "تنزانيا"
+   },
+   "awayNames": {
+    "tr": "Nijerya",
+    "en": "Nigeria",
+    "de": "Nigeria",
+    "es": "Nigeria",
+    "fr": "Nigéria",
+    "it": "Nigeria",
+    "pt": "Nigéria",
+    "ar": "نيجيريا"
+   },
+   "kickoffUtc": "2026-11-17T13:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports MAX 4 (FR)"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "AU": [
+     "beIN Sports 2"
+    ],
+    "CA": [
+     "beIN Sport Canada"
+    ],
+    "US": [
+     "beIN Sports 8",
+     "beIN Sports (US)",
+     "beIN Sports CONNECT (US)"
+    ],
+    "NG": [
+     "SuperSport GOtv LaLiga",
+     "SuperSport Laliga Nigeria"
+    ],
+    "GH": [
+     "DStv Now",
+     "SuperSport Laliga ROA",
+     "SuperSport GOtv LaLiga"
+    ],
+    "MA": [
+     "beIN Sports 2"
+    ],
+    "ZA": [
+     "SuperSport GOtv LaLiga",
+     "SuperSport Laliga"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-ethiopia-mozambique",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Ethiopia",
+   "away": "Mozambique",
+   "homeNames": {
+    "tr": "Etiyopya",
+    "en": "Ethiopia",
+    "de": "Äthiopien",
+    "es": "Etiopía",
+    "fr": "Éthiopie",
+    "it": "Etiopia",
+    "pt": "Etiópia",
+    "ar": "إثيوبيا"
+   },
+   "awayNames": {
+    "tr": "Mozambik",
+    "en": "Mozambique",
+    "de": "Mosambik",
+    "es": "Mozambique",
+    "fr": "Mozambique",
+    "it": "Mozambico",
+    "pt": "Moçambique",
+    "ar": "موزمبيق"
+   },
+   "kickoffUtc": "2026-11-17T13:00:00Z",
+   "broadcasts": {
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 6",
+     "beIN Sports XTRA (US)",
+     "beIN Sports CONNECT (US)",
+     "Fawesome (US)"
+    ],
+    "NG": [
+     "SuperSport Kickoff"
+    ],
+    "GH": [
+     "SuperSport 1 Africa",
+     "DStv Now"
+    ],
+    "MA": [
+     "beIN Sports XTRA 3"
+    ],
+    "ZA": [
+     "SuperSport Action"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-japan-paraguay",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "global",
+   "competition": {
+    "tr": "Uluslararası Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match Amical International",
+    "it": "Amichevole Internazionale",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية دولية"
+   },
+   "home": "Japan",
+   "away": "Paraguay",
+   "homeNames": {
+    "tr": "Japonya",
+    "en": "Japan",
+    "de": "Japan",
+    "es": "Japón",
+    "fr": "Japon",
+    "it": "Giappone",
+    "pt": "Japão",
+    "ar": "اليابان"
+   },
+   "awayNames": {
+    "tr": "Paraguay",
+    "en": "Paraguay",
+    "de": "Paraguay",
+    "es": "Paraguay",
+    "fr": "Paraguay",
+    "it": "Paraguay",
+    "pt": "Paraguai",
+    "ar": "باراغواي"
+   },
+   "kickoffUtc": "2026-11-17T13:10:00Z",
+   "broadcasts": {
+    "JP": [
+     "NTV",
+     "TVer",
+     "U-NEXT"
+    ],
+    "PY": [
+     "Canal Trece",
+     "GEN",
+     "VS Sports YouTube",
+     "VS Sports"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-qatar-south-korea",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "global",
+   "competition": {
+    "tr": "Uluslararası Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match Amical International",
+    "it": "Amichevole Internazionale",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية دولية"
+   },
+   "home": "Qatar",
+   "away": "South Korea",
+   "homeNames": {
+    "tr": "Katar",
+    "en": "Qatar",
+    "de": "Katar",
+    "es": "Catar",
+    "fr": "Qatar",
+    "it": "Qatar",
+    "pt": "Catar",
+    "ar": "قطر"
+   },
+   "awayNames": {
+    "tr": "Güney Kore",
+    "en": "South Korea",
+    "de": "Südkorea",
+    "es": "Corea del Sur",
+    "fr": "Corée du Sud",
+    "it": "Corea del Sud",
+    "pt": "Coreia do Sul",
+    "ar": "كوريا الجنوبية"
+   },
+   "kickoffUtc": "2026-11-17T14:00:00Z",
+   "broadcasts": {
+    "KR": [
+     "Coupang Play"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-gambia-ivory-coast",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Gambia",
+   "away": "Ivory Coast",
+   "homeNames": {
+    "tr": "Gambiya",
+    "en": "Gambia",
+    "de": "Gambia",
+    "es": "Gambia",
+    "fr": "Gambie",
+    "it": "Gambia",
+    "pt": "Gâmbia",
+    "ar": "غامبيا"
+   },
+   "awayNames": {
+    "tr": "Fildişi Sahili",
+    "en": "Ivory Coast",
+    "de": "Elfenbeinküste",
+    "es": "Costa de Marfil",
+    "fr": "Côte d'Ivoire",
+    "it": "Costa d'Avorio",
+    "pt": "Costa do Marfim",
+    "ar": "ساحل العاج"
+   },
+   "kickoffUtc": "2026-11-17T16:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports MAX 4 (FR)"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "AU": [
+     "beIN Sports 3"
+    ],
+    "CA": [
+     "beIN Sport Canada"
+    ],
+    "US": [
+     "beIN Sports 7",
+     "beIN Sports (US)",
+     "beIN Sports CONNECT (US)"
+    ],
+    "MA": [
+     "beIN Sports 3"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-kenya-south-africa",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Kenya",
+   "away": "South Africa",
+   "homeNames": {
+    "tr": "Kenya",
+    "en": "Kenya",
+    "de": "Kenia",
+    "es": "Kenia",
+    "fr": "Kenya",
+    "it": "Kenya",
+    "pt": "Quênia",
+    "ar": "كينيا"
+   },
+   "awayNames": {
+    "tr": "Güney Afrika",
+    "en": "South Africa",
+    "de": "Südafrika",
+    "es": "Sudáfrica",
+    "fr": "Afrique du Sud",
+    "it": "Sudafrica",
+    "pt": "África do Sul",
+    "ar": "جنوب أفريقيا"
+   },
+   "kickoffUtc": "2026-11-17T16:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "CA": [
+     "beIN Sport Canada Espanol"
+    ],
+    "US": [
+     "beIN Sports 8",
+     "beIN Sports en Español (US)",
+     "beIN Sports CONNECT (US)"
+    ],
+    "NG": [
+     "SuperSport MaXimo 1",
+     "Supersport Grandstand ROA",
+     "SuperSport 1 Africa"
+    ],
+    "GH": [
+     "SuperSport Action Africa",
+     "DStv Now",
+     "SuperSport MaXimo 1",
+     "Supersport Grandstand ROA"
+    ],
+    "MA": [
+     "beIN Sports 4"
+    ],
+    "ZA": [
+     "Maximo 360",
+     "SuperSport PSL",
+     "Supersport Grandstand",
+     "SuperSport MaXimo 1"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-sierra-leone-dr-congo",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Sierra Leone",
+   "away": "DR Congo",
+   "homeNames": {
+    "tr": "Sierra Leone",
+    "en": "Sierra Leone",
+    "de": "Sierra Leone",
+    "es": "Sierra Leona",
+    "fr": "Sierra Leone",
+    "it": "Sierra Leone",
+    "pt": "Serra Leoa",
+    "ar": "سيراليون"
+   },
+   "awayNames": {
+    "tr": "Kongo DC",
+    "en": "DR Congo",
+    "de": "DR Kongo",
+    "es": "RD Congo",
+    "fr": "RD Congo",
+    "it": "RD Congo",
+    "pt": "RD Congo",
+    "ar": "الكونغو الديمقراطية"
+   },
+   "kickoffUtc": "2026-11-17T16:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports MAX 5 (FR)"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "MA": [
+     "beIN Sports XTRA"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-libya-tunisia",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Libya",
+   "away": "Tunisia",
+   "homeNames": {
+    "tr": "Libya",
+    "en": "Libya",
+    "de": "Libyen",
+    "es": "Libia",
+    "fr": "Libye",
+    "it": "Libia",
+    "pt": "Líbia",
+    "ar": "ليبيا"
+   },
+   "awayNames": {
+    "tr": "Tunus",
+    "en": "Tunisia",
+    "de": "Tunesien",
+    "es": "Túnez",
+    "fr": "Tunisie",
+    "it": "Tunisia",
+    "pt": "Tunísia",
+    "ar": "تونس"
+   },
+   "kickoffUtc": "2026-11-17T16:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports 2 (FR)"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 4",
+     "beIN Sports CONNECT (US)"
+    ],
+    "MA": [
+     "beIN Sports 2 France",
+     "beIN Sports 1"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-togo-algeria",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Togo",
+   "away": "Algeria",
+   "homeNames": {
+    "tr": "Togo",
+    "en": "Togo",
+    "de": "Togo",
+    "es": "Togo",
+    "fr": "Togo",
+    "it": "Togo",
+    "pt": "Togo",
+    "ar": "توغو"
+   },
+   "awayNames": {
+    "tr": "Cezayir",
+    "en": "Algeria",
+    "de": "Algerien",
+    "es": "Argelia",
+    "fr": "Algérie",
+    "it": "Algeria",
+    "pt": "Argélia",
+    "ar": "الجزائر"
+   },
+   "kickoffUtc": "2026-11-17T16:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports 1 (FR)"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "AU": [
+     "beIN Sports 2"
+    ],
+    "US": [
+     "beIN Sports 5",
+     "beIN Sports XTRA (US)",
+     "beIN Sports CONNECT (US)",
+     "Fawesome (US)"
+    ],
+    "MA": [
+     "beIN Sports 2",
+     "beIN Sports France"
+    ],
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-guinea-bissau-madagascar",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Guinea-Bissau",
+   "away": "Madagascar",
+   "homeNames": {
+    "tr": "Gine-Bissau",
+    "en": "Guinea-Bissau",
+    "de": "Guinea-Bissau",
+    "es": "Guinea-Bisáu",
+    "fr": "Guinée-Bissau",
+    "it": "Guinea-Bissau",
+    "pt": "Guiné-Bissau",
+    "ar": "غينيا بيساو"
+   },
+   "awayNames": {
+    "tr": "Madagaskar",
+    "en": "Madagascar",
+    "de": "Madagaskar",
+    "es": "Madagascar",
+    "fr": "Madagascar",
+    "it": "Madagascar",
+    "pt": "Madagáscar",
+    "ar": "مدغشقر"
+   },
+   "kickoffUtc": "2026-11-17T16:00:00Z",
+   "broadcasts": {
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 6",
+     "beIN Sports CONNECT (US)"
+    ],
+    "MA": [
+     "beIN Sports XTRA 2"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-jordan-australia",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "global",
+   "competition": {
+    "tr": "Uluslararası Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match Amical International",
+    "it": "Amichevole Internazionale",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية دولية"
+   },
+   "home": "Jordan",
+   "away": "Australia",
+   "homeNames": {
+    "tr": "Ürdün",
+    "en": "Jordan",
+    "de": "Jordanien",
+    "es": "Jordania",
+    "fr": "Jordanie",
+    "it": "Giordania",
+    "pt": "Jordânia",
+    "ar": "الأردن"
+   },
+   "awayNames": {
+    "tr": "Avustralya",
+    "en": "Australia",
+    "de": "Australien",
+    "es": "Australia",
+    "fr": "Australie",
+    "it": "Australia",
+    "pt": "Austrália",
+    "ar": "أستراليا"
+   },
+   "kickoffUtc": "2026-11-17T16:00:00Z",
+   "broadcasts": {
+    "AU": [
+     "Paramount+"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "basketball-20261117-dubai-basketball-anadolu-efes",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Dubai Basketball",
+   "away": "Anadolu Efes",
+   "homeNames": {
+    "tr": "Dubai Basketball",
+    "en": "Dubai Basketball",
+    "de": "Dubai Basketball",
+    "es": "Dubai Basketball",
+    "fr": "Dubai Basketball",
+    "it": "Dubai Basketball",
+    "pt": "Dubai Basketball",
+    "ar": "Dubai Basketball"
+   },
+   "awayNames": {
+    "tr": "Anadolu Efes",
+    "en": "Anadolu Efes",
+    "de": "Anadolu Efes",
+    "es": "Anadolu Efes",
+    "fr": "Anadolu Efes",
+    "it": "Anadolu Efes",
+    "pt": "Anadolu Efes",
+    "ar": "أناضولو إيفيس"
+   },
+   "kickoffUtc": "2026-11-17T16:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "basketball-20261117-turk-telekom-la-laguna-tenerife",
+   "sport": "basketball",
+   "competitionId": "eurocup",
+   "tier": "regional",
+   "competition": {
+    "tr": "EuroCup",
+    "en": "EuroCup",
+    "de": "EuroCup",
+    "es": "EuroCup",
+    "fr": "EuroCup",
+    "it": "EuroCup",
+    "pt": "EuroCup",
+    "ar": "كأس أوروبا لكرة السلة"
+   },
+   "home": "Turk Telekom",
+   "away": "La Laguna Tenerife",
+   "homeNames": {
+    "tr": "Türk Telekom",
+    "en": "Türk Telekom",
+    "de": "Türk Telekom",
+    "es": "Türk Telekom",
+    "fr": "Türk Telekom",
+    "it": "Türk Telekom",
+    "pt": "Türk Telekom",
+    "ar": "Türk Telekom"
+   },
+   "awayNames": {
+    "tr": "La Laguna Tenerife",
+    "en": "La Laguna Tenerife",
+    "de": "La Laguna Tenerife",
+    "es": "La Laguna Tenerife",
+    "fr": "La Laguna Tenerife",
+    "it": "La Laguna Tenerife",
+    "pt": "La Laguna Tenerife",
+    "ar": "لا لاغونا تينيريفي"
+   },
+   "kickoffUtc": "2026-11-17T16:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Euroleague TV"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "basketball-20261117-maccabi-rapyd-tel-aviv-olympiacos",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Maccabi Rapyd Tel Aviv",
+   "away": "Olympiacos",
+   "homeNames": {
+    "tr": "Maccabi Rapyd Tel Aviv",
+    "en": "Maccabi Rapyd Tel Aviv",
+    "de": "Maccabi Rapyd Tel Aviv",
+    "es": "Maccabi Rapyd Tel Aviv",
+    "fr": "Maccabi Rapyd Tel Aviv",
+    "it": "Maccabi Rapyd Tel Aviv",
+    "pt": "Maccabi Rapyd Tel Aviv",
+    "ar": "Maccabi Rapyd Tel Aviv"
+   },
+   "awayNames": {
+    "tr": "Olympiakos",
+    "en": "Olympiacos",
+    "de": "Olympiakos",
+    "es": "Olympiacos",
+    "fr": "Olympiakos",
+    "it": "Olympiakos",
+    "pt": "Olympiacos",
+    "ar": "أولمبياكوس"
+   },
+   "kickoffUtc": "2026-11-17T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "basketball-20261117-balkan-botevgrad-ratiopharm-ulm",
+   "sport": "basketball",
+   "competitionId": "eurocup",
+   "tier": "regional",
+   "competition": {
+    "tr": "EuroCup",
+    "en": "EuroCup",
+    "de": "EuroCup",
+    "es": "EuroCup",
+    "fr": "EuroCup",
+    "it": "EuroCup",
+    "pt": "EuroCup",
+    "ar": "كأس أوروبا لكرة السلة"
+   },
+   "home": "Balkan Botevgrad",
+   "away": "Ratiopharm Ulm",
+   "homeNames": {
+    "tr": "Balkan Botevgrad",
+    "en": "Balkan Botevgrad",
+    "de": "Balkan Botevgrad",
+    "es": "Balkan Botevgrad",
+    "fr": "Balkan Botevgrad",
+    "it": "Balkan Botevgrad",
+    "pt": "Balkan Botevgrad",
+    "ar": "بالكان بوتيفغراد"
+   },
+   "awayNames": {
+    "tr": "ratiopharm Ulm",
+    "en": "ratiopharm Ulm",
+    "de": "ratiopharm Ulm",
+    "es": "ratiopharm Ulm",
+    "fr": "ratiopharm Ulm",
+    "it": "ratiopharm Ulm",
+    "pt": "ratiopharm Ulm",
+    "ar": "راتيوفارم أولم"
+   },
+   "kickoffUtc": "2026-11-17T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Euroleague TV"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "basketball-20261117-bnei-herzliya-telekom-bonn",
+   "sport": "basketball",
+   "competitionId": "fiba_cl",
+   "tier": "regional",
+   "competition": {
+    "tr": "FIBA Şampiyonlar Ligi",
+    "en": "FIBA Basketball Champions League",
+    "de": "FIBA Champions League",
+    "es": "Liga de Campeones FIBA",
+    "fr": "Ligue des champions FIBA",
+    "it": "Basketball Champions League",
+    "pt": "Liga dos Campeões FIBA",
+    "ar": "دوري أبطال FIBA"
+   },
+   "home": "Bnei Herzliya",
+   "away": "Telekom Bonn",
+   "homeNames": {
+    "tr": "Bnei Herzliya",
+    "en": "Bnei Herzliya",
+    "de": "Bnei Herzliya",
+    "es": "Bnei Herzliya",
+    "fr": "Bnei Herzliya",
+    "it": "Bnei Herzliya",
+    "pt": "Bnei Herzliya",
+    "ar": "Bnei Herzliya"
+   },
+   "awayNames": {
+    "tr": "Telekom Bonn",
+    "en": "Telekom Bonn",
+    "de": "Telekom Bonn",
+    "es": "Telekom Bonn",
+    "fr": "Telekom Bonn",
+    "it": "Telekom Bonn",
+    "pt": "Telekom Bonn",
+    "ar": "Telekom Bonn"
+   },
+   "kickoffUtc": "2026-11-17T17:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "FIBA Şampiyonlar Ligi Youtube"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "basketball-20261117-fenerbahce-beko-asvel",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Fenerbahce Beko",
+   "away": "ASVEL",
+   "homeNames": {
+    "tr": "Fenerbahçe Beko",
+    "en": "Fenerbahce Beko",
+    "de": "Fenerbahçe Beko",
+    "es": "Fenerbahçe Beko",
+    "fr": "Fenerbahçe Beko",
+    "it": "Fenerbahçe Beko",
+    "pt": "Fenerbahçe Beko",
+    "ar": "فنربخشة بيكو"
+   },
+   "awayNames": {
+    "tr": "ASVEL",
+    "en": "ASVEL",
+    "de": "ASVEL",
+    "es": "ASVEL",
+    "fr": "ASVEL",
+    "it": "ASVEL",
+    "pt": "ASVEL",
+    "ar": "أسفيل"
+   },
+   "kickoffUtc": "2026-11-17T18:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "basketball-20261117-zalgiris-kaunas-bayern-basketball",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Zalgiris Kaunas",
+   "away": "Bayern Basketball",
+   "homeNames": {
+    "tr": "Žalgiris Kaunas",
+    "en": "Žalgiris Kaunas",
+    "de": "Žalgiris Kaunas",
+    "es": "Žalgiris Kaunas",
+    "fr": "Žalgiris Kaunas",
+    "it": "Žalgiris Kaunas",
+    "pt": "Žalgiris Kaunas",
+    "ar": "جالغيريس كاوناس"
+   },
+   "awayNames": {
+    "tr": "Bayern Basketball",
+    "en": "Bayern Basketball",
+    "de": "Bayern Basketball",
+    "es": "Bayern Basketball",
+    "fr": "Bayern Basketball",
+    "it": "Bayern Basketball",
+    "pt": "Bayern Basketball",
+    "ar": "Bayern Basketball"
+   },
+   "kickoffUtc": "2026-11-17T18:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "basketball-20261117-juventus-utena-reggiana",
+   "sport": "basketball",
+   "competitionId": "fiba_cl",
+   "tier": "regional",
+   "competition": {
+    "tr": "FIBA Şampiyonlar Ligi",
+    "en": "FIBA Basketball Champions League",
+    "de": "FIBA Champions League",
+    "es": "Liga de Campeones FIBA",
+    "fr": "Ligue des champions FIBA",
+    "it": "Basketball Champions League",
+    "pt": "Liga dos Campeões FIBA",
+    "ar": "دوري أبطال FIBA"
+   },
+   "home": "Juventus Utena",
+   "away": "Reggiana",
+   "homeNames": {
+    "tr": "Juventus Utena",
+    "en": "Juventus Utena",
+    "de": "Juventus Utena",
+    "es": "Juventus Utena",
+    "fr": "Juventus Utena",
+    "it": "Juventus Utena",
+    "pt": "Juventus Utena",
+    "ar": "Juventus Utena"
+   },
+   "awayNames": {
+    "tr": "Reggiana",
+    "en": "Reggiana",
+    "de": "Reggiana",
+    "es": "Reggiana",
+    "fr": "Reggiana",
+    "it": "Reggiana",
+    "pt": "Reggiana",
+    "ar": "Reggiana"
+   },
+   "kickoffUtc": "2026-11-17T18:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "FIBA Şampiyonlar Ligi Youtube"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261117-mauritania-burkina-faso",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Mauritania",
+   "away": "Burkina Faso",
+   "homeNames": {
+    "tr": "Moritanya",
+    "en": "Mauritania",
+    "de": "Mauretanien",
+    "es": "Mauritania",
+    "fr": "Mauritanie",
+    "it": "Mauritania",
+    "pt": "Mauritânia",
+    "ar": "موريتانيا"
+   },
+   "awayNames": {
+    "tr": "Burkina Faso",
+    "en": "Burkina Faso",
+    "de": "Burkina Faso",
+    "es": "Burkina Faso",
+    "fr": "Burkina Faso",
+    "it": "Burkina Faso",
+    "pt": "Burkina Faso",
+    "ar": "بوركينا فاسو"
+   },
+   "kickoffUtc": "2026-11-17T19:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 3",
+     "beIN Sports XTRA (US)",
+     "beIN Sports CONNECT (US)",
+     "Fawesome (US)"
+    ],
+    "MA": [
+     "beIN Sports 4"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-congo-comoros",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Congo",
+   "away": "Comoros",
+   "homeNames": {
+    "tr": "Kongo",
+    "en": "Congo",
+    "de": "Kongo",
+    "es": "Congo",
+    "fr": "Congo",
+    "it": "Congo",
+    "pt": "Congo",
+    "ar": "الكونغو"
+   },
+   "awayNames": {
+    "tr": "Komorlar",
+    "en": "Comoros",
+    "de": "Komoren",
+    "es": "Comoras",
+    "fr": "Comores",
+    "it": "Comore",
+    "pt": "Comores",
+    "ar": "جزر القمر"
+   },
+   "kickoffUtc": "2026-11-17T19:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports MAX 4 (FR)"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 4",
+     "beIN Sports CONNECT (US)"
+    ],
+    "MA": [
+     "beIN Sports XTRA 4"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-botswana-uganda",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Botswana",
+   "away": "Uganda",
+   "homeNames": {
+    "tr": "Botsvana",
+    "en": "Botswana",
+    "de": "Botswana",
+    "es": "Botsuana",
+    "fr": "Botswana",
+    "it": "Botswana",
+    "pt": "Botsuana",
+    "ar": "بوتسوانا"
+   },
+   "awayNames": {
+    "tr": "Uganda",
+    "en": "Uganda",
+    "de": "Uganda",
+    "es": "Uganda",
+    "fr": "Ouganda",
+    "it": "Uganda",
+    "pt": "Uganda",
+    "ar": "أوغندا"
+   },
+   "kickoffUtc": "2026-11-17T19:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Fanatiz"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 5",
+     "beIN Sports CONNECT (US)"
+    ],
+    "NG": [
+     "SuperSport 1 Africa"
+    ],
+    "GH": [
+     "SuperSport Action Africa",
+     "SuperSport Kickoff"
+    ],
+    "MA": [
+     "beIN Sports XTRA 5"
+    ],
+    "ZA": [
+     "SuperSport PSL"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-liberia-cape-verde",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Liberia",
+   "away": "Cape Verde",
+   "homeNames": {
+    "tr": "Liberya",
+    "en": "Liberia",
+    "de": "Liberia",
+    "es": "Liberia",
+    "fr": "Liberia",
+    "it": "Liberia",
+    "pt": "Libéria",
+    "ar": "ليبيريا"
+   },
+   "awayNames": {
+    "tr": "Yeşil Burun Adaları",
+    "en": "Cape Verde",
+    "de": "Kap Verde",
+    "es": "Cabo Verde",
+    "fr": "Cap-Vert",
+    "it": "Capo Verde",
+    "pt": "Cabo Verde",
+    "ar": "الرأس الأخضر"
+   },
+   "kickoffUtc": "2026-11-17T19:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Sport TV 6",
+     "Fanatiz"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "US": [
+     "beIN Sports 7",
+     "beIN Sports CONNECT (US)"
+    ],
+    "NG": [
+     "SuperSport Kickoff"
+    ],
+    "GH": [
+     "DStv Now",
+     "SuperSport 1 Africa"
+    ],
+    "MA": [
+     "beIN Sports XTRA 2"
+    ],
+    "ZA": [
+     "SuperSport Kickoff"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-rwanda-mali",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Rwanda",
+   "away": "Mali",
+   "homeNames": {
+    "tr": "Ruanda",
+    "en": "Rwanda",
+    "de": "Ruanda",
+    "es": "Ruanda",
+    "fr": "Rwanda",
+    "it": "Ruanda",
+    "pt": "Ruanda",
+    "ar": "رواندا"
+   },
+   "awayNames": {
+    "tr": "Mali",
+    "en": "Mali",
+    "de": "Mali",
+    "es": "Malí",
+    "fr": "Mali",
+    "it": "Mali",
+    "pt": "Mali",
+    "ar": "مالي"
+   },
+   "kickoffUtc": "2026-11-17T19:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports MAX 5 (FR)"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "CA": [
+     "beIN Sport Canada Espanol"
+    ],
+    "US": [
+     "beIN Sports 6",
+     "beIN Sports en Español (US)",
+     "beIN Sports CONNECT (US)"
+    ],
+    "MA": [
+     "beIN Sports XTRA"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "basketball-20261117-roma-basketball-bahcesehir-college-istanbul",
+   "sport": "basketball",
+   "competitionId": "eurocup",
+   "tier": "regional",
+   "competition": {
+    "tr": "EuroCup",
+    "en": "EuroCup",
+    "de": "EuroCup",
+    "es": "EuroCup",
+    "fr": "EuroCup",
+    "it": "EuroCup",
+    "pt": "EuroCup",
+    "ar": "كأس أوروبا لكرة السلة"
+   },
+   "home": "Roma Basketball",
+   "away": "Bahcesehir College Istanbul",
+   "homeNames": {
+    "tr": "Roma Basketball",
+    "en": "Roma Basketball",
+    "de": "Roma Basketball",
+    "es": "Roma Basketball",
+    "fr": "Roma Basketball",
+    "it": "Roma Basketball",
+    "pt": "Roma Basketball",
+    "ar": "روما لكرة السلة"
+   },
+   "awayNames": {
+    "tr": "Bahcesehir College Istanbul",
+    "en": "Bahcesehir College Istanbul",
+    "de": "Bahcesehir College Istanbul",
+    "es": "Bahcesehir College Istanbul",
+    "fr": "Bahcesehir College Istanbul",
+    "it": "Bahcesehir College Istanbul",
+    "pt": "Bahcesehir College Istanbul",
+    "ar": "Bahcesehir College Istanbul"
+   },
+   "kickoffUtc": "2026-11-17T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Euroleague TV"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "basketball-20261117-rostock-seawolves-hapoel-jerusalem",
+   "sport": "basketball",
+   "competitionId": "eurocup",
+   "tier": "regional",
+   "competition": {
+    "tr": "EuroCup",
+    "en": "EuroCup",
+    "de": "EuroCup",
+    "es": "EuroCup",
+    "fr": "EuroCup",
+    "it": "EuroCup",
+    "pt": "EuroCup",
+    "ar": "كأس أوروبا لكرة السلة"
+   },
+   "home": "Rostock Seawolves",
+   "away": "Hapoel Jerusalem",
+   "homeNames": {
+    "tr": "Rostock Seawolves",
+    "en": "Rostock Seawolves",
+    "de": "Rostock Seawolves",
+    "es": "Rostock Seawolves",
+    "fr": "Rostock Seawolves",
+    "it": "Rostock Seawolves",
+    "pt": "Rostock Seawolves",
+    "ar": "روستوك سيوولفز"
+   },
+   "awayNames": {
+    "tr": "Hapoel Jerusalem",
+    "en": "Hapoel Jerusalem",
+    "de": "Hapoel Jerusalem",
+    "es": "Hapoel Jerusalem",
+    "fr": "Hapoel Jerusalem",
+    "it": "Hapoel Jerusalem",
+    "pt": "Hapoel Jerusalem",
+    "ar": "هبوعيل القدس"
+   },
+   "kickoffUtc": "2026-11-17T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Euroleague TV"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "basketball-20261117-antwerp-giants-salon-vilpas",
+   "sport": "basketball",
+   "competitionId": "fiba_cl",
+   "tier": "regional",
+   "competition": {
+    "tr": "FIBA Şampiyonlar Ligi",
+    "en": "FIBA Basketball Champions League",
+    "de": "FIBA Champions League",
+    "es": "Liga de Campeones FIBA",
+    "fr": "Ligue des champions FIBA",
+    "it": "Basketball Champions League",
+    "pt": "Liga dos Campeões FIBA",
+    "ar": "دوري أبطال FIBA"
+   },
+   "home": "Antwerp Giants",
+   "away": "Salon Vilpas",
+   "homeNames": {
+    "tr": "Antwerp Giants",
+    "en": "Antwerp Giants",
+    "de": "Antwerp Giants",
+    "es": "Antwerp Giants",
+    "fr": "Antwerp Giants",
+    "it": "Antwerp Giants",
+    "pt": "Antwerp Giants",
+    "ar": "Antwerp Giants"
+   },
+   "awayNames": {
+    "tr": "Salon Vilpas",
+    "en": "Salon Vilpas",
+    "de": "Salon Vilpas",
+    "es": "Salon Vilpas",
+    "fr": "Salon Vilpas",
+    "it": "Salon Vilpas",
+    "pt": "Salon Vilpas",
+    "ar": "Salon Vilpas"
+   },
+   "kickoffUtc": "2026-11-17T19:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "FIBA Şampiyonlar Ligi Youtube"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "basketball-20261117-barca-basket-paris-basketball",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Barca Basket",
+   "away": "Paris Basketball",
+   "homeNames": {
+    "tr": "Barça Basket",
+    "en": "Barça Basket",
+    "de": "Barça Basket",
+    "es": "Barça Basket",
+    "fr": "Barça Basket",
+    "it": "Barça Basket",
+    "pt": "Barça Basket",
+    "ar": "برشلونة لكرة السلة"
+   },
+   "awayNames": {
+    "tr": "Paris Basketball",
+    "en": "Paris Basketball",
+    "de": "Paris Basketball",
+    "es": "Paris Basketball",
+    "fr": "Paris Basketball",
+    "it": "Paris Basketball",
+    "pt": "Paris Basketball",
+    "ar": "باريس باسكتبول"
+   },
+   "kickoffUtc": "2026-11-17T19:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "basketball-20261117-armani-olimpia-milan-crvena-zvezda-meridianbet-belgrade",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Armani Olimpia Milan",
+   "away": "Crvena Zvezda Meridianbet Belgrade",
+   "homeNames": {
+    "tr": "Armani Olimpia Milan",
+    "en": "Armani Olimpia Milan",
+    "de": "Armani Olimpia Milan",
+    "es": "Armani Olimpia Milan",
+    "fr": "Armani Olimpia Milan",
+    "it": "Armani Olimpia Milan",
+    "pt": "Armani Olimpia Milan",
+    "ar": "Armani Olimpia Milan"
+   },
+   "awayNames": {
+    "tr": "Crvena Zvezda Meridianbet Belgrade",
+    "en": "Crvena Zvezda Meridianbet Belgrade",
+    "de": "Crvena Zvezda Meridianbet Belgrade",
+    "es": "Crvena Zvezda Meridianbet Belgrade",
+    "fr": "Crvena Zvezda Meridianbet Belgrade",
+    "it": "Crvena Zvezda Meridianbet Belgrade",
+    "pt": "Crvena Zvezda Meridianbet Belgrade",
+    "ar": "Crvena Zvezda Meridianbet Belgrade"
+   },
+   "kickoffUtc": "2026-11-17T19:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "basketball-20261117-baskonia-hapoel-tel-aviv",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Baskonia",
+   "away": "Hapoel Tel Aviv",
+   "homeNames": {
+    "tr": "Baskonia",
+    "en": "Baskonia",
+    "de": "Baskonia",
+    "es": "Baskonia",
+    "fr": "Baskonia",
+    "it": "Baskonia",
+    "pt": "Baskonia",
+    "ar": "باسكونيا"
+   },
+   "awayNames": {
+    "tr": "Hapoel Tel Aviv",
+    "en": "Hapoel Tel Aviv",
+    "de": "Hapoel Tel Aviv",
+    "es": "Hapoel Tel Aviv",
+    "fr": "Hapoel Tel Aviv",
+    "it": "Hapoel Tel Aviv",
+    "pt": "Hapoel Tel Aviv",
+    "ar": "هبوعيل تل أبيب"
+   },
+   "kickoffUtc": "2026-11-17T19:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "basketball-20261117-london-lions-siauliai",
+   "sport": "basketball",
+   "competitionId": "eurocup",
+   "tier": "regional",
+   "competition": {
+    "tr": "EuroCup",
+    "en": "EuroCup",
+    "de": "EuroCup",
+    "es": "EuroCup",
+    "fr": "EuroCup",
+    "it": "EuroCup",
+    "pt": "EuroCup",
+    "ar": "كأس أوروبا لكرة السلة"
+   },
+   "home": "London Lions",
+   "away": "Siauliai",
+   "homeNames": {
+    "tr": "London Lions",
+    "en": "London Lions",
+    "de": "London Lions",
+    "es": "London Lions",
+    "fr": "London Lions",
+    "it": "London Lions",
+    "pt": "London Lions",
+    "ar": "لندن لايونز"
+   },
+   "awayNames": {
+    "tr": "Šiauliai",
+    "en": "Šiauliai",
+    "de": "Šiauliai",
+    "es": "Šiauliai",
+    "fr": "Šiauliai",
+    "it": "Šiauliai",
+    "pt": "Šiauliai",
+    "ar": "شياولياي"
+   },
+   "kickoffUtc": "2026-11-17T19:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Euroleague TV"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "basketball-20261117-joventut-badalona-porto",
+   "sport": "basketball",
+   "competitionId": "fiba_cl",
+   "tier": "regional",
+   "competition": {
+    "tr": "FIBA Şampiyonlar Ligi",
+    "en": "FIBA Basketball Champions League",
+    "de": "FIBA Champions League",
+    "es": "Liga de Campeones FIBA",
+    "fr": "Ligue des champions FIBA",
+    "it": "Basketball Champions League",
+    "pt": "Liga dos Campeões FIBA",
+    "ar": "دوري أبطال FIBA"
+   },
+   "home": "Joventut Badalona",
+   "away": "Porto",
+   "homeNames": {
+    "tr": "Joventut Badalona",
+    "en": "Joventut Badalona",
+    "de": "Joventut Badalona",
+    "es": "Joventut Badalona",
+    "fr": "Joventut Badalona",
+    "it": "Joventut Badalona",
+    "pt": "Joventut Badalona",
+    "ar": "Joventut Badalona"
+   },
+   "awayNames": {
+    "tr": "Porto",
+    "en": "Porto",
+    "de": "Porto",
+    "es": "Porto",
+    "fr": "Porto",
+    "it": "Porto",
+    "pt": "Porto",
+    "ar": "Porto"
+   },
+   "kickoffUtc": "2026-11-17T19:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "FIBA Şampiyonlar Ligi Youtube"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261117-hungary-northern-ireland",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Hungary",
+   "away": "Northern Ireland",
+   "homeNames": {
+    "tr": "Macaristan",
+    "en": "Hungary",
+    "de": "Ungarn",
+    "es": "Hungría",
+    "fr": "Hongrie",
+    "it": "Ungheria",
+    "pt": "Hungria",
+    "ar": "المجر"
+   },
+   "awayNames": {
+    "tr": "Kuzey İrlanda",
+    "en": "Northern Ireland",
+    "de": "Nordirland",
+    "es": "Irlanda del Norte",
+    "fr": "Irlande du Nord",
+    "it": "Irlanda del Nord",
+    "pt": "Irlanda do Norte",
+    "ar": "أيرلندا الشمالية"
+   },
+   "kickoffUtc": "2026-11-17T19:45:00Z",
+   "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "FR": [
+     "L'Équipe live",
+     "L'Équipe live foot"
+    ],
+    "PT": [
+     "Sport TV 7"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "GB": [
+     "BBC iPlayer",
+     "BBC Three",
+     "BBC One Northern Ireland",
+     "BBC Sport online"
+    ],
+    "BR": [
+     "SporTV 3"
+    ],
+    "CH": [
+     "DAZN"
+    ],
+    "AR": [
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "DAZN"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "TV 2 Play (NO)"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "MX": [
+     "SKY Sports"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "US": [
+     "ViX",
+     "FOX One",
+     "FOX Sports 2",
+     "Fubo Sports"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "NG": [
+     "SuperSport Action Africa"
+    ],
+    "GH": [
+     "DStv Now"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "MA": [
+     "beIN CONNECT"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "ZA": [
+     "SuperSport Action"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261117-ukraine-georgia",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Ukraine",
+   "away": "Georgia",
+   "homeNames": {
+    "tr": "Ukrayna",
+    "en": "Ukraine",
+    "de": "Ukraine",
+    "es": "Ucrania",
+    "fr": "Ukraine",
+    "it": "Ucraina",
+    "pt": "Ucrânia",
+    "ar": "أوكرانيا"
+   },
+   "awayNames": {
+    "tr": "Gürcistan",
+    "en": "Georgia",
+    "de": "Georgien",
+    "es": "Georgia",
+    "fr": "Géorgie",
+    "it": "Georgia",
+    "pt": "Geórgia",
+    "ar": "جورجيا"
+   },
+   "kickoffUtc": "2026-11-17T19:45:00Z",
+   "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "FR": [
+     "L'Équipe live",
+     "L'Équipe live foot"
+    ],
+    "PT": [
+     "Sport TV 4"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "GB": [
+     "Prime Video PPV (UK)"
+    ],
+    "BR": [
+     "ESPN Brasil YouTube",
+     "Disney+ Premium"
+    ],
+    "CH": [
+     "DAZN"
+    ],
+    "AR": [
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "DAZN"
+    ],
+    "NO": [
+     "TV 2 Play (NO)",
+     "Viaplay NO"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "MX": [
+     "SKY Sports"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "US": [
+     "ViX"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "NG": [
+     "SuperSport GOtv Football",
+     "SuperSport Football"
+    ],
+    "GH": [
+     "SuperSport GOtv Football",
+     "DStv Now",
+     "SuperSport Football"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "MA": [
+     "beIN CONNECT"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "ZA": [
+     "SuperSport GOtv Football",
+     "SuperSport Football"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261117-israel-austria",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Israel",
+   "away": "Austria",
+   "homeNames": {
+    "tr": "İsrail",
+    "en": "Israel",
+    "de": "Israel",
+    "es": "Israel",
+    "fr": "Israël",
+    "it": "Israele",
+    "pt": "Israel",
+    "ar": "إسرائيل"
+   },
+   "awayNames": {
+    "tr": "Avusturya",
+    "en": "Austria",
+    "de": "Österreich",
+    "es": "Austria",
+    "fr": "Autriche",
+    "it": "Austria",
+    "pt": "Áustria",
+    "ar": "النمسا"
+   },
+   "kickoffUtc": "2026-11-17T19:45:00Z",
+   "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "FR": [
+     "L'Équipe live"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "BR": [
+     "ESPN 4",
+     "Disney+ Premium"
+    ],
+    "CH": [
+     "DAZN",
+     "ORF 1"
+    ],
+    "AR": [
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "ORF 1",
+     "ORF ON App"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "TV 2 Play (NO)"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "MX": [
+     "SKY Sports"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "US": [
+     "Fubo Sports",
+     "fubo Sports Network",
+     "ViX",
+     "Fawesome (US)"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "MA": [
+     "beIN CONNECT"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261117-ireland-kosovo",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Ireland",
+   "away": "Kosovo",
+   "homeNames": {
+    "tr": "Ireland",
+    "en": "Ireland",
+    "de": "Ireland",
+    "es": "Ireland",
+    "fr": "Ireland",
+    "it": "Ireland",
+    "pt": "Ireland",
+    "ar": "Ireland"
+   },
+   "awayNames": {
+    "tr": "Kosova",
+    "en": "Kosovo",
+    "de": "Kosovo",
+    "es": "Kosovo",
+    "fr": "Kosovo",
+    "it": "Kosovo",
+    "pt": "Kosovo",
+    "ar": "كوسوفو"
+   },
+   "kickoffUtc": "2026-11-17T19:45:00Z",
+   "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "FR": [
+     "L'Équipe live"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "GB": [
+     "Prime Video PPV (UK)"
+    ],
+    "BR": [
+     "Disney+ Premium"
+    ],
+    "CH": [
+     "DAZN"
+    ],
+    "AR": [
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "DAZN"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "TV 2 Play (NO)"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "MX": [
+     "SKY Sports"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "US": [
+     "ViX"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "NG": [
+     "SuperSport Extra"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "MA": [
+     "beIN CONNECT"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "ZA": [
+     "SuperSport Extra"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ],
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261117-bosnia-and-herzegovina-romania",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Bosnia and Herzegovina",
+   "away": "Romania",
+   "homeNames": {
+    "tr": "Bosna Hersek",
+    "en": "Bosnia and Herzegovina",
+    "de": "Bosnien und Herzegowina",
+    "es": "Bosnia y Herzegovina",
+    "fr": "Bosnie-Herzégovine",
+    "it": "Bosnia ed Erzegovina",
+    "pt": "Bósnia e Herzegovina",
+    "ar": "البوسنة والهرسك"
+   },
+   "awayNames": {
+    "tr": "Romanya",
+    "en": "Romania",
+    "de": "Rumänien",
+    "es": "Rumanía",
+    "fr": "Roumanie",
+    "it": "Romania",
+    "pt": "Roménia",
+    "ar": "رومانيا"
+   },
+   "kickoffUtc": "2026-11-17T19:45:00Z",
+   "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "FR": [
+     "L'Équipe live"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "GB": [
+     "Prime Video PPV (UK)"
+    ],
+    "BR": [
+     "Disney+ Premium"
+    ],
+    "CH": [
+     "DAZN"
+    ],
+    "AR": [
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "DAZN"
+    ],
+    "NO": [
+     "Viaplay NO",
+     "TV 2 Play (NO)"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "MX": [
+     "SKY Sports"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CO": [
+     "Disney+ Premium"
+    ],
+    "US": [
+     "ViX"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "PE": [
+     "Disney+ Premium"
+    ],
+    "MA": [
+     "beIN CONNECT"
+    ],
+    "UY": [
+     "Disney+ Premium"
+    ],
+    "EC": [
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "Disney+ Premium"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261117-poland-sweden",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Poland",
+   "away": "Sweden",
+   "homeNames": {
+    "tr": "Polonya",
+    "en": "Poland",
+    "de": "Polen",
+    "es": "Polonia",
+    "fr": "Pologne",
+    "it": "Polonia",
+    "pt": "Polónia",
+    "ar": "بولندا"
+   },
+   "awayNames": {
+    "tr": "İsveç",
+    "en": "Sweden",
+    "de": "Schweden",
+    "es": "Suecia",
+    "fr": "Suède",
+    "it": "Svezia",
+    "pt": "Suécia",
+    "ar": "السويد"
+   },
+   "kickoffUtc": "2026-11-17T19:45:00Z",
+   "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "FR": [
+     "L'Équipe live"
+    ],
+    "PT": [
+     "Sport TV 3"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "GB": [
+     "Prime Video PPV (UK)"
+    ],
+    "BR": [
+     "SporTV 2"
+    ],
+    "CH": [
+     "DAZN"
+    ],
+    "AR": [
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "DAZN"
+    ],
+    "NO": [
+     "TV 2 Play (NO)",
+     "Viaplay NO",
+     "TV 2 Sport 1"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "MX": [
+     "SKY Sports"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CO": [
+     "ESPN 5",
+     "Disney+ Premium"
+    ],
+    "US": [
+     "ViX"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "NG": [
+     "SuperSport GOtv LaLiga",
+     "SuperSport Laliga Nigeria"
+    ],
+    "GH": [
+     "DStv Now",
+     "SuperSport Laliga ROA",
+     "SuperSport GOtv LaLiga"
+    ],
+    "PE": [
+     "ESPN 5",
+     "Disney+ Premium"
+    ],
+    "MA": [
+     "beIN CONNECT"
+    ],
+    "UY": [
+     "ESPN 5",
+     "Disney+ Premium"
+    ],
+    "ZA": [
+     "SuperSport GOtv LaLiga",
+     "SuperSport Laliga"
+    ],
+    "EC": [
+     "ESPN 5",
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "ESPN 5",
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "ESPN 5",
+     "Disney+ Premium"
+    ],
+    "TR": [
+     "A Para"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261117-denmark-norway",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Denmark",
+   "away": "Norway",
+   "homeNames": {
+    "tr": "Danimarka",
+    "en": "Denmark",
+    "de": "Dänemark",
+    "es": "Dinamarca",
+    "fr": "Danemark",
+    "it": "Danimarca",
+    "pt": "Dinamarca",
+    "ar": "الدنمارك"
+   },
+   "awayNames": {
+    "tr": "Norveç",
+    "en": "Norway",
+    "de": "Norwegen",
+    "es": "Noruega",
+    "fr": "Norvège",
+    "it": "Norvegia",
+    "pt": "Noruega",
+    "ar": "النرويج"
+   },
+   "kickoffUtc": "2026-11-17T19:45:00Z",
+   "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "IT": [
+     "Sky Sport Max (IT)",
+     "NOW TV (IT)",
+     "Cielo TV"
+    ],
+    "FR": [
+     "L'Équipe live",
+     "L'Équipe live foot"
+    ],
+    "PT": [
+     "Sport TV 2"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "GB": [
+     "Prime Video PPV (UK)"
+    ],
+    "HR": [
+     "MAXtv To Go"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+ Premium"
+    ],
+    "NL": [
+     "Ziggo Sport 2"
+    ],
+    "CH": [
+     "DAZN",
+     "Cielo"
+    ],
+    "AR": [
+     "ESPN 4",
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "DAZN"
+    ],
+    "CZ": [
+     "Sport 1"
+    ],
+    "NO": [
+     "TV 2 Play (NO)",
+     "TV 2 Direkte"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "MX": [
+     "SKY Sports"
+    ],
+    "AU": [
+     "beIN Sports 2"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CO": [
+     "ESPN 4",
+     "Disney+ Premium"
+    ],
+    "US": [
+     "FOX Sports 1",
+     "Fubo Sports",
+     "FOX One",
+     "ViX"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "NG": [
+     "SuperSport Football Plus Nigeria"
+    ],
+    "GH": [
+     "SuperSport Football Plus ROA",
+     "DStv Now"
+    ],
+    "PE": [
+     "ESPN 4",
+     "Disney+ Premium"
+    ],
+    "MA": [
+     "beIN CONNECT"
+    ],
+    "UY": [
+     "ESPN 4",
+     "Disney+ Premium"
+    ],
+    "ZA": [
+     "SuperSport Football Plus"
+    ],
+    "EC": [
+     "ESPN 4",
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "ESPN 4",
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "ESPN 4",
+     "Disney+ Premium"
+    ],
+    "TR": [
+     "A Haber"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261117-wales-portugal",
+   "sport": "football",
+   "competitionId": "uefa_nations",
+   "tier": "global",
+   "competition": {
+    "tr": "UEFA Uluslar Ligi",
+    "en": "UEFA Nations League",
+    "de": "UEFA Nations League",
+    "es": "Liga de Naciones de la UEFA",
+    "fr": "Ligue des Nations UEFA",
+    "it": "UEFA Nations League",
+    "pt": "Liga das Nações da UEFA",
+    "ar": "دوري الأمم الأوروبية"
+   },
+   "home": "Wales",
+   "away": "Portugal",
+   "homeNames": {
+    "tr": "Galler",
+    "en": "Wales",
+    "de": "Wales",
+    "es": "Gales",
+    "fr": "Pays de Galles",
+    "it": "Galles",
+    "pt": "País de Gales",
+    "ar": "ويلز"
+   },
+   "awayNames": {
+    "tr": "Portekiz",
+    "en": "Portugal",
+    "de": "Portugal",
+    "es": "Portugal",
+    "fr": "Portugal",
+    "it": "Portogallo",
+    "pt": "Portugal",
+    "ar": "البرتغال"
+   },
+   "kickoffUtc": "2026-11-17T19:45:00Z",
+   "broadcasts": {
+    "BE": [
+     "DAZN (BE)"
+    ],
+    "IT": [
+     "Sky Sport 251",
+     "NOW TV (IT)"
+    ],
+    "FR": [
+     "L'Équipe live",
+     "L'Équipe live foot"
+    ],
+    "PT": [
+     "Sport TV 1",
+     "RTP1"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "ES": [
+     "DAZN"
+    ],
+    "GB": [
+     "S4C",
+     "BBC iPlayer",
+     "BBC Two",
+     "BBC One Wales"
+    ],
+    "HR": [
+     "MAXtv To Go"
+    ],
+    "BR": [
+     "SporTV"
+    ],
+    "NL": [
+     "Ziggo Sport 3"
+    ],
+    "CH": [
+     "DAZN"
+    ],
+    "AR": [
+     "ESPN",
+     "Disney+ Premium"
+    ],
+    "AT": [
+     "DAZN"
+    ],
+    "CZ": [
+     "Sport 2"
+    ],
+    "NO": [
+     "TV 2 Play (NO)",
+     "Viaplay NO"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "JP": [
+     "DAZN"
+    ],
+    "MX": [
+     "SKY Sports"
+    ],
+    "AU": [
+     "beIN Sports 3"
+    ],
+    "CA": [
+     "DAZN Canada"
+    ],
+    "CO": [
+     "ESPN",
+     "Disney+ Premium"
+    ],
+    "US": [
+     "ViX"
+    ],
+    "KR": [
+     "SPOTV NOW"
+    ],
+    "NG": [
+     "SuperSport Premier League Nigeria",
+     "SuperSport MaXimo 1"
+    ],
+    "GH": [
+     "DStv Now",
+     "SuperSport MaXimo 1",
+     "SuperSport Premier League ROA"
+    ],
+    "PE": [
+     "ESPN",
+     "Disney+ Premium"
+    ],
+    "MA": [
+     "beIN CONNECT"
+    ],
+    "UY": [
+     "ESPN",
+     "Disney+ Premium"
+    ],
+    "ZA": [
+     "SuperSport MaXimo 1",
+     "SuperSport Premier League Nigeria",
+     "SuperSport Premier League"
+    ],
+    "EC": [
+     "ESPN",
+     "Disney+ Premium"
+    ],
+    "CL": [
+     "ESPN",
+     "Disney+ Premium"
+    ],
+    "PY": [
+     "ESPN",
+     "Disney+ Premium"
+    ],
+    "TR": [
+     "A Spor"
+    ]
+   },
+   "sources": [
+    "fotmob",
+    "sporekrani.com"
+   ]
+  },
+  {
+   "id": "basketball-20261117-partizan-valencia-basket",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Partizan",
+   "away": "Valencia Basket",
+   "homeNames": {
+    "tr": "Partizan",
+    "en": "Partizan",
+    "de": "Partizan",
+    "es": "Partizan",
+    "fr": "Partizan",
+    "it": "Partizan",
+    "pt": "Partizan",
+    "ar": "بارتيزان"
+   },
+   "awayNames": {
+    "tr": "Valencia Basket",
+    "en": "Valencia Basket",
+    "de": "Valencia Basket",
+    "es": "Valencia Basket",
+    "fr": "Valencia Basket",
+    "it": "Valencia Basket",
+    "pt": "Valencia Basket",
+    "ar": "فالنسيا باسكت"
+   },
+   "kickoffUtc": "2026-11-17T19:45:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "football-20261117-niger-morocco",
+   "sport": "football",
+   "competitionId": "afcon_qual",
+   "tier": "regional",
+   "competition": {
+    "tr": "Afrika Uluslar Kupası Elemeleri",
+    "en": "Africa Cup of Nations Qualifiers",
+    "de": "Afrika-Cup-Qualifikation",
+    "es": "Clasificación para la Copa Africana",
+    "fr": "Éliminatoires CAN",
+    "it": "Qualificazioni Coppa d'Africa",
+    "pt": "Eliminatórias da Copa Africana",
+    "ar": "تصفيات كأس أمم أفريقيا"
+   },
+   "home": "Niger",
+   "away": "Morocco",
+   "homeNames": {
+    "tr": "Nijer",
+    "en": "Niger",
+    "de": "Niger",
+    "es": "Níger",
+    "fr": "Niger",
+    "it": "Niger",
+    "pt": "Níger",
+    "ar": "النيجر"
+   },
+   "awayNames": {
+    "tr": "Fas",
+    "en": "Morocco",
+    "de": "Marokko",
+    "es": "Marruecos",
+    "fr": "Maroc",
+    "it": "Marocco",
+    "pt": "Marrocos",
+    "ar": "المغرب"
+   },
+   "kickoffUtc": "2026-11-17T20:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "beIN Sports 1 (FR)"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "DE": [
+     "DAZN Deutschland"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "CA": [
+     "beIN Sport Canada"
+    ],
+    "US": [
+     "beIN Sports 8",
+     "beIN Sports (US)",
+     "beIN Sports CONNECT (US)"
+    ],
+    "MA": [
+     "beIN Sports 1",
+     "beIN Sports France"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "basketball-20261117-virtus-bologna-panathinaikos-aktor-athens",
+   "sport": "basketball",
+   "competitionId": "euroleague",
+   "tier": "global",
+   "competition": {
+    "tr": "EuroLeague",
+    "en": "EuroLeague",
+    "de": "EuroLeague",
+    "es": "Euroliga",
+    "fr": "EuroLigue",
+    "it": "Eurolega",
+    "pt": "EuroLiga",
+    "ar": "الدوري الأوروبي لكرة السلة"
+   },
+   "home": "Virtus Bologna",
+   "away": "Panathinaikos AKTOR Athens",
+   "homeNames": {
+    "tr": "Virtus Bologna",
+    "en": "Virtus Bologna",
+    "de": "Virtus Bologna",
+    "es": "Virtus Bologna",
+    "fr": "Virtus Bologna",
+    "it": "Virtus Bologna",
+    "pt": "Virtus Bologna",
+    "ar": "فيرتوس بولونيا"
+   },
+   "awayNames": {
+    "tr": "Panathinaikos AKTOR Athens",
+    "en": "Panathinaikos AKTOR Athens",
+    "de": "Panathinaikos AKTOR Athens",
+    "es": "Panathinaikos AKTOR Athens",
+    "fr": "Panathinaikos AKTOR Athens",
+    "it": "Panathinaikos AKTOR Athens",
+    "pt": "Panathinaikos AKTOR Athens",
+    "ar": "Panathinaikos AKTOR Athens"
+   },
+   "kickoffUtc": "2026-11-17T20:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "S Sport Plus"
+    ]
+   },
+   "sources": [
+    "euroleague.net"
+   ]
+  },
+  {
+   "id": "football-20261117-argentina-costa-rica",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "global",
+   "competition": {
+    "tr": "Uluslararası Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match Amical International",
+    "it": "Amichevole Internazionale",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية دولية"
+   },
+   "home": "Argentina",
+   "away": "Costa Rica",
+   "homeNames": {
+    "tr": "Arjantin",
+    "en": "Argentina",
+    "de": "Argentinien",
+    "es": "Argentina",
+    "fr": "Argentine",
+    "it": "Argentina",
+    "pt": "Argentina",
+    "ar": "الأرجنتين"
+   },
+   "awayNames": {
+    "tr": "Kosta Rika",
+    "en": "Costa Rica",
+    "de": "Costa Rica",
+    "es": "Costa Rica",
+    "fr": "Costa Rica",
+    "it": "Costa Rica",
+    "pt": "Costa Rica",
+    "ar": "كوستاريكا"
+   },
+   "kickoffUtc": "2026-11-17T23:00:00Z",
+   "broadcasts": {
+    "FR": [
+     "L'Équipe live foot",
+     "L'Équipe live"
+    ],
+    "US": [
+     "ViX",
+     "TyC Sports Int. (US)"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-chile-colombia",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "global",
+   "competition": {
+    "tr": "Uluslararası Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match Amical International",
+    "it": "Amichevole Internazionale",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية دولية"
+   },
+   "home": "Chile",
+   "away": "Colombia",
+   "homeNames": {
+    "tr": "Şili",
+    "en": "Chile",
+    "de": "Chile",
+    "es": "Chile",
+    "fr": "Chili",
+    "it": "Cile",
+    "pt": "Chile",
+    "ar": "تشيلي"
+   },
+   "awayNames": {
+    "tr": "Kolombiya",
+    "en": "Colombia",
+    "de": "Kolumbien",
+    "es": "Colombia",
+    "fr": "Colombie",
+    "it": "Colombia",
+    "pt": "Colômbia",
+    "ar": "كولومبيا"
+   },
+   "kickoffUtc": "2026-11-17T23:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Canal RCN YouTube",
+     "Canal RCN App",
+     "RCN TV",
+     "Caracol TV"
+    ],
+    "US": [
+     "In Demand 1"
+    ],
+    "EC": [
+     "El Canal del Fútbol",
+     "ECDF App",
+     "ECDF Web",
+     "ECDF Partidos YouTube"
+    ],
+    "CL": [
+     "Mega",
+     "Mega 2",
+     "MegaGO"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-ecuador-bolivia",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "global",
+   "competition": {
+    "tr": "Uluslararası Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match Amical International",
+    "it": "Amichevole Internazionale",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية دولية"
+   },
+   "home": "Ecuador",
+   "away": "Bolivia",
+   "homeNames": {
+    "tr": "Ekvador",
+    "en": "Ecuador",
+    "de": "Ecuador",
+    "es": "Ecuador",
+    "fr": "Équateur",
+    "it": "Ecuador",
+    "pt": "Equador",
+    "ar": "الإكوادور"
+   },
+   "awayNames": {
+    "tr": "Bolivya",
+    "en": "Bolivia",
+    "de": "Bolivien",
+    "es": "Bolivia",
+    "fr": "Bolivie",
+    "it": "Bolivia",
+    "pt": "Bolívia",
+    "ar": "بوليفيا"
+   },
+   "kickoffUtc": "2026-11-17T23:30:00Z",
+   "broadcasts": {
+    "PT": [
+     "Fanatiz"
+    ],
+    "MX": [
+     "Nación Deportes 2"
+    ],
+    "EC": [
+     "Teleamazonas",
+     "TC Teleivisión"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261117-uruguay-dominican-republic",
+   "sport": "football",
+   "competitionId": "friendly",
+   "tier": "global",
+   "competition": {
+    "tr": "Uluslararası Hazırlık Maçı",
+    "en": "International Friendly",
+    "de": "Freundschaftsspiel",
+    "es": "Amistoso Internacional",
+    "fr": "Match Amical International",
+    "it": "Amichevole Internazionale",
+    "pt": "Amistoso Internacional",
+    "ar": "مباراة ودية دولية"
+   },
+   "home": "Uruguay",
+   "away": "Dominican Republic",
+   "homeNames": {
+    "tr": "Uruguay",
+    "en": "Uruguay",
+    "de": "Uruguay",
+    "es": "Uruguay",
+    "fr": "Uruguay",
+    "it": "Uruguay",
+    "pt": "Uruguai",
+    "ar": "الأوروغواي"
+   },
+   "awayNames": {
+    "tr": "Dominik Cumhuriyeti",
+    "en": "Dominican Republic",
+    "de": "Dominikanische Republik",
+    "es": "República Dominicana",
+    "fr": "République dominicaine",
+    "it": "Repubblica Dominicana",
+    "pt": "República Dominicana",
+    "ar": "جمهورية الدومينيكان"
+   },
+   "kickoffUtc": "2026-11-17T23:30:00Z",
+   "broadcasts": {
+    "UY": [
+     "Antel TV",
+     "TCC1 HD",
+     "AUF.TV",
+     "NS Eventos 1"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261118-usa-haiti",
+   "sport": "football",
+   "competitionId": "concacaf_nl",
+   "tier": "regional",
+   "competition": {
+    "tr": "CONCACAF Uluslar Ligi",
+    "en": "CONCACAF Nations League",
+    "de": "CONCACAF Nations League",
+    "es": "Liga de Naciones de la CONCACAF",
+    "fr": "Ligue des nations de la CONCACAF",
+    "it": "CONCACAF Nations League",
+    "pt": "Liga das Nações da CONCACAF",
+    "ar": "دوري أمم الكونكاكاف"
+   },
+   "home": "USA",
+   "away": "Haiti",
+   "homeNames": {
+    "tr": "ABD",
+    "en": "USA",
+    "de": "USA",
+    "es": "EE. UU.",
+    "fr": "États-Unis",
+    "it": "USA",
+    "pt": "EUA",
+    "ar": "الولايات المتحدة"
+   },
+   "awayNames": {
+    "tr": "Haiti",
+    "en": "Haiti",
+    "de": "Haiti",
+    "es": "Haití",
+    "fr": "Haïti",
+    "it": "Haiti",
+    "pt": "Haiti",
+    "ar": "هايتي"
+   },
+   "kickoffUtc": "2026-11-18T00:00:00Z",
+   "broadcasts": {
+    "PT": [
+     "Sport TV 1",
+     "CONCACAF YouTube"
+    ],
+    "ES": [
+     "CONCACAF YouTube"
+    ],
+    "BR": [
+     "Canal GOAT",
+     "CONCACAF YouTube"
+    ],
+    "CH": [
+     "CONCACAF YouTube"
+    ],
+    "AR": [
+     "CONCACAF YouTube"
+    ],
+    "AT": [
+     "CONCACAF YouTube"
+    ],
+    "JP": [
+     "CONCACAF YouTube"
+    ],
+    "AU": [
+     "CONCACAF YouTube"
+    ],
+    "CA": [
+     "OneSoccer"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "US": [
+     "ViX",
+     "truTV",
+     "TBS",
+     "Universo"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ]
+   },
+   "sources": [
+    "fotmob"
+   ]
+  },
+  {
+   "id": "basketball-20261118-raptors-knicks",
+   "sport": "basketball",
+   "competitionId": "nba",
+   "tier": "global",
+   "competition": {
+    "tr": "NBA",
+    "en": "NBA",
+    "de": "NBA",
+    "es": "NBA",
+    "fr": "NBA",
+    "it": "NBA",
+    "pt": "NBA",
+    "ar": "دوري NBA"
+   },
+   "home": "Raptors",
+   "away": "Knicks",
+   "homeNames": {
+    "tr": "Toronto Raptors",
+    "en": "Toronto Raptors",
+    "de": "Toronto Raptors",
+    "es": "Toronto Raptors",
+    "fr": "Toronto Raptors",
+    "it": "Toronto Raptors",
+    "pt": "Toronto Raptors",
+    "ar": "تورونتو رابتورز"
+   },
+   "awayNames": {
+    "tr": "New York Knicks",
+    "en": "New York Knicks",
+    "de": "New York Knicks",
+    "es": "New York Knicks",
+    "fr": "New York Knicks",
+    "it": "New York Knicks",
+    "pt": "New York Knicks",
+    "ar": "نيويورك نيكس"
+   },
+   "kickoffUtc": "2026-11-18T00:30:00Z",
+   "broadcasts": {
+    "US": [
+     "NBA League Pass"
+    ],
+    "TR": [
+     "S Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "GB": [
+     "Sky Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ES": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "PT": [
+     "Sport TV",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "FR": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DE": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "CH": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "IT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BE": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NL": [
+     "ESPN",
+     "NBA League Pass"
+    ],
+    "HR": [
+     "Sport Klub",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NO": [
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CZ": [
+     "Nova Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MX": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AR": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CO": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CL": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PE": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "UY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "EC": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CA": [
+     "TSN",
+     "Sportsnet",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "SA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "QA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AE": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "EG": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DZ": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "TN": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "JP": [
+     "Lemino",
+     "Prime Video",
+     "WOWOW"
+    ],
+    "KR": [
+     "Coupang Play",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AU": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NZ": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ZA": [
+     "SuperSport",
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NG": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "GH": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "SN": [
+     "Canal+ Sport",
+     "NBA League Pass"
+    ]
+   },
+   "sources": [
+    "espn"
+   ]
+  },
+  {
+   "id": "basketball-20261118-timberwolves-trail-blazers",
+   "sport": "basketball",
+   "competitionId": "nba",
+   "tier": "global",
+   "competition": {
+    "tr": "NBA",
+    "en": "NBA",
+    "de": "NBA",
+    "es": "NBA",
+    "fr": "NBA",
+    "it": "NBA",
+    "pt": "NBA",
+    "ar": "دوري NBA"
+   },
+   "home": "Timberwolves",
+   "away": "Trail Blazers",
+   "homeNames": {
+    "tr": "Minnesota Timberwolves",
+    "en": "Minnesota Timberwolves",
+    "de": "Minnesota Timberwolves",
+    "es": "Minnesota Timberwolves",
+    "fr": "Minnesota Timberwolves",
+    "it": "Minnesota Timberwolves",
+    "pt": "Minnesota Timberwolves",
+    "ar": "مينيسوتا تمبروولفز"
+   },
+   "awayNames": {
+    "tr": "Portland Trail Blazers",
+    "en": "Portland Trail Blazers",
+    "de": "Portland Trail Blazers",
+    "es": "Portland Trail Blazers",
+    "fr": "Portland Trail Blazers",
+    "it": "Portland Trail Blazers",
+    "pt": "Portland Trail Blazers",
+    "ar": "بورتلاند ترايل بليزرز"
+   },
+   "kickoffUtc": "2026-11-18T01:00:00Z",
+   "broadcasts": {
+    "US": [
+     "BlazerVision",
+     "DAZN MIN",
+     "NBA League Pass"
+    ],
+    "TR": [
+     "S Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "GB": [
+     "Sky Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ES": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "PT": [
+     "Sport TV",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "FR": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DE": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "CH": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "IT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BE": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NL": [
+     "ESPN",
+     "NBA League Pass"
+    ],
+    "HR": [
+     "Sport Klub",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NO": [
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CZ": [
+     "Nova Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MX": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AR": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CO": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CL": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PE": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "UY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "EC": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CA": [
+     "TSN",
+     "Sportsnet",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "SA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "QA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AE": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "EG": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DZ": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "TN": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "JP": [
+     "Lemino",
+     "Prime Video",
+     "WOWOW"
+    ],
+    "KR": [
+     "Coupang Play",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AU": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NZ": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ZA": [
+     "SuperSport",
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NG": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "GH": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "SN": [
+     "Canal+ Sport",
+     "NBA League Pass"
+    ]
+   },
+   "sources": [
+    "espn"
+   ]
+  },
+  {
+   "id": "basketball-20261118-spurs-pistons",
+   "sport": "basketball",
+   "competitionId": "nba",
+   "tier": "global",
+   "competition": {
+    "tr": "NBA",
+    "en": "NBA",
+    "de": "NBA",
+    "es": "NBA",
+    "fr": "NBA",
+    "it": "NBA",
+    "pt": "NBA",
+    "ar": "دوري NBA"
+   },
+   "home": "Spurs",
+   "away": "Pistons",
+   "homeNames": {
+    "tr": "San Antonio Spurs",
+    "en": "San Antonio Spurs",
+    "de": "San Antonio Spurs",
+    "es": "San Antonio Spurs",
+    "fr": "San Antonio Spurs",
+    "it": "San Antonio Spurs",
+    "pt": "San Antonio Spurs",
+    "ar": "سان أنتونيو سبيرز"
+   },
+   "awayNames": {
+    "tr": "Detroit Pistons",
+    "en": "Detroit Pistons",
+    "de": "Detroit Pistons",
+    "es": "Detroit Pistons",
+    "fr": "Detroit Pistons",
+    "it": "Detroit Pistons",
+    "pt": "Detroit Pistons",
+    "ar": "ديترويت بيستونز"
+   },
+   "kickoffUtc": "2026-11-18T01:00:00Z",
+   "broadcasts": {
+    "US": [
+     "NBC"
+    ],
+    "TR": [
+     "S Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "GB": [
+     "Sky Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ES": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "PT": [
+     "Sport TV",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "FR": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DE": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "CH": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "IT": [
+     "Sky Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BE": [
+     "DAZN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NL": [
+     "ESPN",
+     "NBA League Pass"
+    ],
+    "HR": [
+     "Sport Klub",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NO": [
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CZ": [
+     "Nova Sport",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "BR": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MX": [
+     "ESPN",
+     "Disney+",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AR": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CO": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CL": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PE": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "UY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "EC": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "PY": [
+     "ESPN",
+     "Prime Video",
+     "HBO Max",
+     "NBA League Pass"
+    ],
+    "CA": [
+     "TSN",
+     "Sportsnet",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "SA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "QA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AE": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "EG": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "MA": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "DZ": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "TN": [
+     "beIN Sports",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "JP": [
+     "Lemino",
+     "Prime Video",
+     "WOWOW"
+    ],
+    "KR": [
+     "Coupang Play",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "AU": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NZ": [
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "ZA": [
+     "SuperSport",
+     "ESPN",
+     "Prime Video",
+     "NBA League Pass"
+    ],
+    "NG": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "GH": [
+     "ESPN",
+     "Sporty TV",
+     "NBA League Pass"
+    ],
+    "SN": [
+     "Canal+ Sport",
+     "NBA League Pass"
+    ]
+   },
+   "sources": [
+    "espn"
+   ]
+  },
+  {
+   "id": "football-20261118-mexico-jamaica",
+   "sport": "football",
+   "competitionId": "concacaf_nl",
+   "tier": "regional",
+   "competition": {
+    "tr": "CONCACAF Uluslar Ligi",
+    "en": "CONCACAF Nations League",
+    "de": "CONCACAF Nations League",
+    "es": "Liga de Naciones de la CONCACAF",
+    "fr": "Ligue des nations de la CONCACAF",
+    "it": "CONCACAF Nations League",
+    "pt": "Liga das Nações da CONCACAF",
+    "ar": "دوري أمم الكونكاكاف"
+   },
+   "home": "Mexico",
+   "away": "Jamaica",
+   "homeNames": {
+    "tr": "Meksika",
+    "en": "Mexico",
+    "de": "Mexiko",
+    "es": "México",
+    "fr": "Mexique",
+    "it": "Messico",
+    "pt": "México",
+    "ar": "المكسيك"
+   },
+   "awayNames": {
+    "tr": "Jamaika",
+    "en": "Jamaica",
+    "de": "Jamaika",
+    "es": "Jamaica",
+    "fr": "Jamaïque",
+    "it": "Giamaica",
+    "pt": "Jamaica",
+    "ar": "جامايكا"
+   },
+   "kickoffUtc": "2026-11-18T02:30:00Z",
+   "broadcasts": {
+    "PT": [
+     "Sport TV 1",
+     "CONCACAF YouTube"
+    ],
+    "ES": [
+     "CONCACAF YouTube"
+    ],
+    "BR": [
+     "Canal GOAT",
+     "CONCACAF YouTube"
+    ],
+    "CH": [
+     "CONCACAF YouTube"
+    ],
+    "AR": [
+     "CONCACAF YouTube"
+    ],
+    "AT": [
+     "CONCACAF YouTube"
+    ],
+    "JP": [
+     "CONCACAF YouTube"
+    ],
+    "MX": [
+     "Canal 5",
+     "Azteca 7",
+     "Claro Sports",
+     "ViX Premium"
+    ],
+    "AU": [
+     "CONCACAF YouTube"
+    ],
+    "CA": [
+     "OneSoccer"
+    ],
+    "CO": [
+     "CONCACAF YouTube"
+    ],
+    "US": [
+     "FOX One",
+     "TUDN (US)",
+     "Univision",
+     "ViX"
+    ],
+    "PE": [
+     "CONCACAF YouTube"
+    ],
+    "UY": [
+     "CONCACAF YouTube"
+    ],
+    "EC": [
+     "CONCACAF YouTube"
+    ],
+    "CL": [
+     "CONCACAF YouTube"
+    ],
+    "PY": [
+     "CONCACAF YouTube"
+    ]
+   },
+   "sources": [
+    "fotmob"
    ]
   }
  ]
