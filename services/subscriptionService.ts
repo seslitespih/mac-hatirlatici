@@ -28,6 +28,11 @@ function getApiKey(): string {
   return extra?.rcApiKeyAndroid ?? process.env.REVENUECAT_ANDROID_KEY ?? '';
 }
 
+// ─── Android ücretsiz (16 Kas 2026) ─────────────────────────────────────────
+// Android'de uygulama tamamen ücretsiz: ödeme ekranı yok, RevenueCat başlatılmaz.
+// iOS'ta abonelik modeli aynen sürüyor.
+export const UCRETSIZ_PLATFORM = Platform.OS === 'android';
+
 // ─── Ürün ID'leri (RevenueCat + Store'da tanımlı) ────────────────────────────
 
 export const ENTITLEMENT_ID  = 'premium';
@@ -63,6 +68,7 @@ async function isInFreeTrial(): Promise<boolean> {
 // ─── Başlatma ─────────────────────────────────────────────────────────────────
 
 export function initPurchases(): void {
+  if (UCRETSIZ_PLATFORM) return;
   try {
     const key = getApiKey();
     if (!key) return;
@@ -84,6 +90,7 @@ export async function getCustomerInfo(): Promise<CustomerInfo> {
  * 30 günlük ücretsiz kullanım süresi içindeyse de true döner.
  */
 export async function isSubscribed(): Promise<boolean> {
+  if (UCRETSIZ_PLATFORM) return true;
   try {
     const info = await Purchases.getCustomerInfo();
     if (info.entitlements.active[ENTITLEMENT_ID] !== undefined) return true;
@@ -99,6 +106,7 @@ export async function isSubscribed(): Promise<boolean> {
  * true  → deneme bitti, abonelik yok → paywall göster
  */
 export async function needsPaywall(): Promise<boolean> {
+  if (UCRETSIZ_PLATFORM) return false;
   try {
     const info = await Purchases.getCustomerInfo();
     if (info.entitlements.active[ENTITLEMENT_ID] !== undefined) return false;

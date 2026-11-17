@@ -4,10 +4,12 @@ import { Ionicons } from '@expo/vector-icons';
 import { Platform } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useTheme } from '../../contexts/ThemeContext';
+import { useReviewPrompt } from '../../hooks/useReviewPrompt';
 
 export default function TabsLayout() {
   const { t } = useTranslation();
   const { colors } = useTheme();
+  useReviewPrompt();
   const insets = useSafeAreaInsets();
   const androidBottomPad = Math.max(insets.bottom, 10);
 

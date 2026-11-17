@@ -15,7 +15,10 @@ import { useCountry } from '../../contexts/CountryContext';
 import { SUPPORTED_COUNTRIES } from '../../constants/countryChannels';
 import { useTheme } from '../../contexts/ThemeContext';
 import PaywallScreen from '../../components/PaywallScreen';
+import { UCRETSIZ_PLATFORM } from '../../services/subscriptionService';
+import FeedbackModal from '../../components/FeedbackModal';
 import { NotifySport } from '../../services/storageService';
+import { openStorePage } from '../../services/reviewService';
 
 const SPOR_DALLARI: { id: NotifySport; emoji: string }[] = [
   { id: 'football',   emoji: '⚽' },
@@ -35,6 +38,7 @@ export default function SettingsScreen() {
   const [langModal,    setLangModal]    = useState(false);
   const [countryModal, setCountryModal] = useState(false);
   const [paywallModal, setPaywallModal] = useState(false);
+  const [feedbackModal, setFeedbackModal] = useState(false);
 
   const handleLang    = async (code: string) => {
     await changeLanguage(code);
@@ -158,17 +162,47 @@ export default function SettingsScreen() {
           </View>
         </Card>
 
-        {/* ── Premium ── */}
-        <Label text="PREMIUM" color={colors.textMuted} />
-        <TouchableOpacity
-          style={[s.premiumBtn, { backgroundColor: colors.accent }]}
-          onPress={() => setPaywallModal(true)}
-          activeOpacity={0.82}
-        >
-          <Ionicons name="star" size={18} color="#fff" />
-          <Text style={s.premiumTxt}>{t('settings.getPremium')}</Text>
-          <Ionicons name="chevron-forward" size={16} color="#fff" />
-        </TouchableOpacity>
+        {/* ── Premium (Android'de uygulama ücretsiz → gizli) ── */}
+        {!UCRETSIZ_PLATFORM && (
+          <>
+            <Label text="PREMIUM" color={colors.textMuted} />
+            <TouchableOpacity
+              style={[s.premiumBtn, { backgroundColor: colors.accent }]}
+              onPress={() => setPaywallModal(true)}
+              activeOpacity={0.82}
+            >
+              <Ionicons name="star" size={18} color="#fff" />
+              <Text style={s.premiumTxt}>{t('settings.getPremium')}</Text>
+              <Ionicons name="chevron-forward" size={16} color="#fff" />
+            </TouchableOpacity>
+          </>
+        )}
+
+        {/* ── Feedback / rating ── */}
+        <Label text={t('feedback.section')} color={colors.textMuted} />
+        <Card bg={colors.bg2} border={colors.border}>
+          <TouchableOpacity style={s.row} onPress={() => setFeedbackModal(true)} activeOpacity={0.75}>
+            <IconBox icon="chatbubble-ellipses-outline" color={colors.accent} />
+            <Col
+              label={t('feedback.title')}
+              sub={t('feedback.menuSub')}
+              textColor={colors.text}
+              subColor={colors.textSub}
+            />
+            <Ionicons name="chevron-forward" size={16} color={colors.textMuted} />
+          </TouchableOpacity>
+          <View style={[s.divider, { backgroundColor: colors.border }]} />
+          <TouchableOpacity style={s.row} onPress={openStorePage} activeOpacity={0.75}>
+            <IconBox icon="star-outline" color="#F5A623" />
+            <Col
+              label={t('feedback.rate')}
+              sub={t('feedback.rateSub')}
+              textColor={colors.text}
+              subColor={colors.textSub}
+            />
+            <Ionicons name="open-outline" size={16} color={colors.textMuted} />
+          </TouchableOpacity>
+        </Card>
 
         {/* ── About ── */}
         <Label text={t('settings.about')} color={colors.textMuted} />
@@ -196,6 +230,8 @@ export default function SettingsScreen() {
           <Ionicons name="close" size={20} color={colors.text} />
         </TouchableOpacity>
       </Modal>
+
+      <FeedbackModal visible={feedbackModal} onClose={() => setFeedbackModal(false)} />
 
       {/* Language Modal */}
       <BottomModal
@@ -352,6 +388,7 @@ const s = StyleSheet.create({
     width: 36, height: 36, borderRadius: 10,
     alignItems: 'center', justifyContent: 'center',
   },
+  divider:  { height: 1, marginLeft: 64 },
   rowLabel: { fontSize: 15, fontWeight: '600' },
   rowSub:   { fontSize: 12, marginTop: 2 },
 

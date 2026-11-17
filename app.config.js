@@ -42,7 +42,7 @@ module.exports = {
       hu: './locales/hu.json',
       sr: './locales/sr.json',
     },
-    version: '1.5.1',
+    version: '1.5.2',
     // Expo 52'de alan yoktu = eski mimari. Expo 54'te varsayilan yeni mimari; davranis
     // degismesin diye eski mimari sabit. (Expo 54 eski mimariyi destekleyen son SDK.)
     newArchEnabled: false,
@@ -74,6 +74,9 @@ module.exports = {
         'android.permission.POST_NOTIFICATIONS',
         'android.permission.SCHEDULE_EXACT_ALARM',
       ],
+      // 16 Kas 2026: Android'de uygulama ucretsiz → RevenueCat baslatilmiyor; faturalama
+      // izni manifestten cikarilir (Play'de "uygulama ici satin alma" etiketi kalksin).
+      blockedPermissions: ['com.android.vending.BILLING'],
       // 1.4.4: push bildirimleri icin FCM gerekli (Android'de uzaktan bildirimin tek kanali).
       // Uygulamaya Firebase KUTUPHANESI eklenmedi; expo-notifications zaten iceriyor, bu dosya
       // yalniz hangi projeye baglanacagini soyler. Firebase projesi: mac-hatirlatici-bildirim.

@@ -1,0 +1,19 @@
+name = "uygulama-geri-bildirim"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# Maç Hatırlatıcı + Vocal Tasbeeh "Öneri / sorun bildir" → ssaglamess@gmail.com
+# URL: https://uygulama-geri-bildirim.ssaglamess.workers.dev/gonder
+# Gönderen adres sportstvtoday.com (Email Routing açık); alıcı doğrulanmış adres olmak ZORUNDA.
+send_email = [
+  { name = "POSTA", destination_address = "ssaglamess@gmail.com" },
+]
+
+# Aynı IP'den dakikada en çok 5 mesaj (spam kalkanı)
+[[ratelimits]]
+name = "SINIR"
+namespace_id = "4101"
+
+  [ratelimits.simple]
+  limit = 5
+  period = 60
