@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-18T02:57:14.000Z",
+ "generated_at": "2026-11-18T12:30:57.000Z",
  "date": "2026-11-18",
  "model": "user-provided",
  "stats": {
-  "total": 44,
-  "withChannel": 44,
+  "total": 46,
+  "withChannel": 46,
   "bySport": {
-   "football": 13,
+   "football": 15,
    "basketball": 31
   },
   "warnings": 0,
@@ -1797,6 +1797,102 @@
    ]
   },
   {
+   "id": "football-20261118-cr-temouchent-js-el-biar",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "CR Temouchent",
+   "away": "JS El Biar",
+   "homeNames": {
+    "tr": "CR Temouchent",
+    "en": "CR Temouchent",
+    "de": "CR Temouchent",
+    "es": "CR Temouchent",
+    "fr": "CR Temouchent",
+    "it": "CR Temouchent",
+    "pt": "CR Temouchent",
+    "ar": "CR Temouchent"
+   },
+   "awayNames": {
+    "tr": "JS El Biar",
+    "en": "JS El Biar",
+    "de": "JS El Biar",
+    "es": "JS El Biar",
+    "fr": "JS El Biar",
+    "it": "JS El Biar",
+    "pt": "JS El Biar",
+    "ar": "JS El Biar"
+   },
+   "kickoffUtc": "2026-11-18T16:45:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261118-cs-constantine-es-ben-aknoun",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "CS Constantine",
+   "away": "ES Ben Aknoun",
+   "homeNames": {
+    "tr": "CS Constantine",
+    "en": "CS Constantine",
+    "de": "CS Constantine",
+    "es": "CS Constantine",
+    "fr": "CS Constantine",
+    "it": "CS Constantine",
+    "pt": "CS Constantine",
+    "ar": "شباب قسنطينة"
+   },
+   "awayNames": {
+    "tr": "ES Ben Aknoun",
+    "en": "ES Ben Aknoun",
+    "de": "ES Ben Aknoun",
+    "es": "ES Ben Aknoun",
+    "fr": "ES Ben Aknoun",
+    "it": "ES Ben Aknoun",
+    "pt": "ES Ben Aknoun",
+    "ar": "نجم بن عكنون"
+   },
+   "kickoffUtc": "2026-11-18T16:45:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "basketball-20261118-besiktas-gain-real-madrid-baloncesto",
    "sport": "basketball",
    "competitionId": "euroleague",
@@ -2660,6 +2756,33 @@
     ],
     "TR": [
      "Spor Smart 2"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "ES": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "AR": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "PY": [
+     "Fanatiz"
     ]
    },
    "sources": [
@@ -2719,6 +2842,42 @@
     ],
     "TR": [
      "Spor Smart 2"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "ES": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "AR": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "PY": [
+     "Fanatiz"
     ]
    },
    "sources": [
@@ -2903,6 +3062,27 @@
     ],
     "TR": [
      "Spor Smart 2"
+    ],
+    "AR": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "CL": [
+     "Fanatiz"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "PY": [
+     "Fanatiz"
     ]
    },
    "sources": [
@@ -4028,6 +4208,45 @@
     ],
     "TR": [
      "Spor Smart 2"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "ES": [
+     "Fanatiz"
+    ],
+    "CH": [
+     "Fanatiz"
+    ],
+    "AT": [
+     "Fanatiz"
+    ],
+    "AR": [
+     "Fanatiz"
+    ],
+    "AU": [
+     "Fanatiz"
+    ],
+    "JP": [
+     "Fanatiz"
+    ],
+    "MX": [
+     "Fanatiz"
+    ],
+    "CO": [
+     "Fanatiz"
+    ],
+    "EC": [
+     "Fanatiz"
+    ],
+    "CL": [
+     "Fanatiz"
+    ],
+    "UY": [
+     "Fanatiz"
+    ],
+    "PY": [
+     "Fanatiz"
     ]
    },
    "sources": [
