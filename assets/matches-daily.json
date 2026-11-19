@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-19T02:37:58.000Z",
+ "generated_at": "2026-11-19T12:21:04.000Z",
  "date": "2026-11-19",
  "model": "user-provided",
  "stats": {
-  "total": 37,
-  "withChannel": 37,
+  "total": 40,
+  "withChannel": 40,
   "bySport": {
-   "football": 14,
+   "football": 17,
    "basketball": 22,
    "motorsport": 1
   },
@@ -3657,10 +3657,109 @@
    "broadcasts": {
     "MA": [
      "beIN CONNECT"
+    ],
+    "QA": [
+     "ALKASS Five"
     ]
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261119-mb-rouissat-cr-belouizdad",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "MB Rouissat",
+   "away": "CR Belouizdad",
+   "homeNames": {
+    "tr": "MB Rouissat",
+    "en": "MB Rouissat",
+    "de": "MB Rouissat",
+    "es": "MB Rouissat",
+    "fr": "MB Rouissat",
+    "it": "MB Rouissat",
+    "pt": "MB Rouissat",
+    "ar": "مستقبل بلدية الرويسات"
+   },
+   "awayNames": {
+    "tr": "CR Belouizdad",
+    "en": "CR Belouizdad",
+    "de": "CR Belouizdad",
+    "es": "CR Belouizdad",
+    "fr": "CR Belouizdad",
+    "it": "CR Belouizdad",
+    "pt": "CR Belouizdad",
+    "ar": "شباب بلوزداد"
+   },
+   "kickoffUtc": "2026-11-19T16:45:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261119-mc-alger-olympique-akbou",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "MC Alger",
+   "away": "Olympique Akbou",
+   "homeNames": {
+    "tr": "MC Alger",
+    "en": "MC Alger",
+    "de": "MC Alger",
+    "es": "MC Alger",
+    "fr": "MC Alger",
+    "it": "MC Alger",
+    "pt": "MC Alger",
+    "ar": "مولودية الجزائر"
+   },
+   "awayNames": {
+    "tr": "Olympique Akbou",
+    "en": "Olympique Akbou",
+    "de": "Olympique Akbou",
+    "es": "Olympique Akbou",
+    "fr": "Olympique Akbou",
+    "it": "Olympique Akbou",
+    "pt": "Olympique Akbou",
+    "ar": "أولمبي أقبو"
+   },
+   "kickoffUtc": "2026-11-19T16:45:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -3804,6 +3903,54 @@
    },
    "sources": [
     "euroleague.net"
+   ]
+  },
+  {
+   "id": "football-20261119-js-kabylie-usm-alger",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "JS Kabylie",
+   "away": "USM Alger",
+   "homeNames": {
+    "tr": "JS Kabylie",
+    "en": "JS Kabylie",
+    "de": "JS Kabylie",
+    "es": "JS Kabylie",
+    "fr": "JS Kabylie",
+    "it": "JS Kabylie",
+    "pt": "JS Kabylie",
+    "ar": "شبيبة القبائل"
+   },
+   "awayNames": {
+    "tr": "USM Alger",
+    "en": "USM Alger",
+    "de": "USM Alger",
+    "es": "USM Alger",
+    "fr": "USM Alger",
+    "it": "USM Alger",
+    "pt": "USM Alger",
+    "ar": "اتحاد العاصمة"
+   },
+   "kickoffUtc": "2026-11-19T19:00:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
