@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-20T02:23:16.000Z",
+ "generated_at": "2026-11-20T12:22:06.000Z",
  "date": "2026-11-20",
  "model": "user-provided",
  "stats": {
-  "total": 58,
-  "withChannel": 58,
+  "total": 65,
+  "withChannel": 65,
   "bySport": {
-   "football": 38,
+   "football": 45,
    "motorsport": 5,
    "basketball": 15
   },
@@ -1749,6 +1749,58 @@
    ]
   },
   {
+   "id": "football-20261120-imisli-fk-zira",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Imisli FK",
+   "away": "Zira",
+   "homeNames": {
+    "tr": "Imisli FK",
+    "en": "Imisli FK",
+    "de": "Imisli FK",
+    "es": "Imisli FK",
+    "fr": "Imisli FK",
+    "it": "Imisli FK",
+    "pt": "Imisli FK",
+    "ar": "Imisli FK"
+   },
+   "awayNames": {
+    "tr": "Zira",
+    "en": "Zira",
+    "de": "Zira",
+    "es": "Zira",
+    "fr": "Zira",
+    "it": "Zira",
+    "pt": "Zira",
+    "ar": "زيره"
+   },
+   "kickoffUtc": "2026-11-20T10:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "motorsport-20261120-motogp-portekiz-gp-serbest-antrenman-1",
    "sport": "motorsport",
    "competitionId": "motogp",
@@ -1845,6 +1897,108 @@
    ]
   },
   {
+   "id": "football-20261120-sumqayit-sabah",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Sumqayit",
+   "away": "Sabah",
+   "homeNames": {
+    "tr": "Sumqayıt",
+    "en": "Sumqayit",
+    "de": "Sumqayit",
+    "es": "Sumqayit",
+    "fr": "Sumqayit",
+    "it": "Sumqayit",
+    "pt": "Sumqayit",
+    "ar": "سومقايت"
+   },
+   "awayNames": {
+    "tr": "Sabah",
+    "en": "Sabah FK",
+    "de": "Sabah FK",
+    "es": "Sabah FK",
+    "fr": "Sabah FK",
+    "it": "Sabah FK",
+    "pt": "Sabah FK",
+    "ar": "صباح"
+   },
+   "kickoffUtc": "2026-11-20T15:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261120-botosani-fc-voluntari",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "Botosani",
+   "away": "FC Voluntari",
+   "homeNames": {
+    "tr": "Botosani",
+    "en": "Botosani",
+    "de": "Botosani",
+    "es": "Botosani",
+    "fr": "Botosani",
+    "it": "Botosani",
+    "pt": "Botosani",
+    "ar": "بوتوساني"
+   },
+   "awayNames": {
+    "tr": "FC Voluntari",
+    "en": "FC Voluntari",
+    "de": "FC Voluntari",
+    "es": "FC Voluntari",
+    "fr": "FC Voluntari",
+    "it": "FC Voluntari",
+    "pt": "FC Voluntari",
+    "ar": "فولونتاري"
+   },
+   "kickoffUtc": "2026-11-20T15:30:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261120-shakhtar-donetsk-liviy-bereh",
    "sport": "football",
    "competitionId": "ukr_pl",
@@ -1890,6 +2044,102 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261120-aso-chlef-usm-khenchela",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "ASO Chlef",
+   "away": "USM Khenchela",
+   "homeNames": {
+    "tr": "ASO Chlef",
+    "en": "ASO Chlef",
+    "de": "ASO Chlef",
+    "es": "ASO Chlef",
+    "fr": "ASO Chlef",
+    "it": "ASO Chlef",
+    "pt": "ASO Chlef",
+    "ar": "أولمبي الشلف"
+   },
+   "awayNames": {
+    "tr": "USM Khenchela",
+    "en": "USM Khenchela",
+    "de": "USM Khenchela",
+    "es": "USM Khenchela",
+    "fr": "USM Khenchela",
+    "it": "USM Khenchela",
+    "pt": "USM Khenchela",
+    "ar": "اتحاد خنشلة"
+   },
+   "kickoffUtc": "2026-11-20T16:00:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261120-es-setif-us-biskra",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "ES Setif",
+   "away": "US Biskra",
+   "homeNames": {
+    "tr": "ES Setif",
+    "en": "ES Setif",
+    "de": "ES Setif",
+    "es": "ES Setif",
+    "fr": "ES Setif",
+    "it": "ES Setif",
+    "pt": "ES Setif",
+    "ar": "وفاق سطيف"
+   },
+   "awayNames": {
+    "tr": "US Biskra",
+    "en": "US Biskra",
+    "de": "US Biskra",
+    "es": "US Biskra",
+    "fr": "US Biskra",
+    "it": "US Biskra",
+    "pt": "US Biskra",
+    "ar": "اتحاد بسكرة"
+   },
+   "kickoffUtc": "2026-11-20T16:00:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -1982,6 +2232,45 @@
     "TR": [
      "TRT Spor",
      "beIN Sports 2"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "MA": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -2153,6 +2442,45 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -2263,6 +2591,45 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -2376,6 +2743,63 @@
     "SA": [
      "Thmanyah",
      "STC TV"
+    ],
+    "AR": [
+     "Somos FOX YouTube"
+    ],
+    "CO": [
+     "Somos FOX YouTube"
+    ],
+    "UY": [
+     "Somos FOX YouTube"
+    ],
+    "CL": [
+     "Somos FOX YouTube"
+    ],
+    "PE": [
+     "Somos FOX YouTube"
+    ],
+    "EC": [
+     "Somos FOX YouTube"
+    ],
+    "PY": [
+     "Somos FOX YouTube"
+    ],
+    "QA": [
+     "Thmanyah"
+    ],
+    "AE": [
+     "Thmanyah"
+    ],
+    "EG": [
+     "Thmanyah"
+    ],
+    "MA": [
+     "Thmanyah"
+    ],
+    "DZ": [
+     "Thmanyah"
+    ],
+    "TN": [
+     "Thmanyah"
+    ],
+    "IQ": [
+     "Thmanyah"
+    ],
+    "JO": [
+     "Thmanyah"
+    ],
+    "OM": [
+     "Thmanyah"
+    ],
+    "LY": [
+     "Thmanyah"
+    ],
+    "KW": [
+     "Thmanyah"
+    ],
+    "BH": [
+     "Thmanyah"
     ]
    },
    "sources": [
@@ -2480,6 +2904,56 @@
    ]
   },
   {
+   "id": "football-20261120-fcv-farul-constanta-universitatea-cluj",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "FCV Farul Constanta",
+   "away": "Universitatea Cluj",
+   "homeNames": {
+    "tr": "FCV Farul Constanta",
+    "en": "FCV Farul Constanta",
+    "de": "FCV Farul Constanta",
+    "es": "FCV Farul Constanta",
+    "fr": "FCV Farul Constanta",
+    "it": "FCV Farul Constanta",
+    "pt": "FCV Farul Constanta",
+    "ar": "إف سي فيتورول كونستانتا"
+   },
+   "awayNames": {
+    "tr": "Universitatea Cluj",
+    "en": "Universitatea Cluj",
+    "de": "Universitatea Cluj",
+    "es": "Universitatea Cluj",
+    "fr": "Universitatea Cluj",
+    "it": "Universitatea Cluj",
+    "pt": "Universitatea Cluj",
+    "ar": "يونيفيرسيتاتي كلوج"
+   },
+   "kickoffUtc": "2026-11-20T18:30:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261120-annecy-fc-clermont",
    "sport": "football",
    "competitionId": "ligue2",
@@ -2520,6 +2994,45 @@
    "broadcasts": {
     "FR": [
      "beIN Sports MAX 8 (FR)"
+    ],
+    "SA": [
+     "beIN Sports MAX 8"
+    ],
+    "QA": [
+     "beIN Sports MAX 8"
+    ],
+    "AE": [
+     "beIN Sports MAX 8"
+    ],
+    "EG": [
+     "beIN Sports MAX 8"
+    ],
+    "MA": [
+     "beIN Sports MAX 8"
+    ],
+    "DZ": [
+     "beIN Sports MAX 8"
+    ],
+    "TN": [
+     "beIN Sports MAX 8"
+    ],
+    "IQ": [
+     "beIN Sports MAX 8"
+    ],
+    "JO": [
+     "beIN Sports MAX 8"
+    ],
+    "OM": [
+     "beIN Sports MAX 8"
+    ],
+    "LY": [
+     "beIN Sports MAX 8"
+    ],
+    "KW": [
+     "beIN Sports MAX 8"
+    ],
+    "BH": [
+     "beIN Sports MAX 8"
     ]
    },
    "sources": [
@@ -2567,6 +3080,45 @@
    "broadcasts": {
     "FR": [
      "beIN Sports MAX 5 (FR)"
+    ],
+    "SA": [
+     "beIN Sports MAX 5"
+    ],
+    "QA": [
+     "beIN Sports MAX 5"
+    ],
+    "AE": [
+     "beIN Sports MAX 5"
+    ],
+    "EG": [
+     "beIN Sports MAX 5"
+    ],
+    "MA": [
+     "beIN Sports MAX 5"
+    ],
+    "DZ": [
+     "beIN Sports MAX 5"
+    ],
+    "TN": [
+     "beIN Sports MAX 5"
+    ],
+    "IQ": [
+     "beIN Sports MAX 5"
+    ],
+    "JO": [
+     "beIN Sports MAX 5"
+    ],
+    "OM": [
+     "beIN Sports MAX 5"
+    ],
+    "LY": [
+     "beIN Sports MAX 5"
+    ],
+    "KW": [
+     "beIN Sports MAX 5"
+    ],
+    "BH": [
+     "beIN Sports MAX 5"
     ]
    },
    "sources": [
@@ -2614,6 +3166,45 @@
    "broadcasts": {
     "FR": [
      "beIN Sports MAX 6 (FR)"
+    ],
+    "SA": [
+     "beIN Sports MAX 6"
+    ],
+    "QA": [
+     "beIN Sports MAX 6"
+    ],
+    "AE": [
+     "beIN Sports MAX 6"
+    ],
+    "EG": [
+     "beIN Sports MAX 6"
+    ],
+    "MA": [
+     "beIN Sports MAX 6"
+    ],
+    "DZ": [
+     "beIN Sports MAX 6"
+    ],
+    "TN": [
+     "beIN Sports MAX 6"
+    ],
+    "IQ": [
+     "beIN Sports MAX 6"
+    ],
+    "JO": [
+     "beIN Sports MAX 6"
+    ],
+    "OM": [
+     "beIN Sports MAX 6"
+    ],
+    "LY": [
+     "beIN Sports MAX 6"
+    ],
+    "KW": [
+     "beIN Sports MAX 6"
+    ],
+    "BH": [
+     "beIN Sports MAX 6"
     ]
    },
    "sources": [
@@ -2661,6 +3252,45 @@
    "broadcasts": {
     "FR": [
      "beIN Sports MAX 4 (FR)"
+    ],
+    "SA": [
+     "beIN Sports MAX 4"
+    ],
+    "QA": [
+     "beIN Sports MAX 4"
+    ],
+    "AE": [
+     "beIN Sports MAX 4"
+    ],
+    "EG": [
+     "beIN Sports MAX 4"
+    ],
+    "MA": [
+     "beIN Sports MAX 4"
+    ],
+    "DZ": [
+     "beIN Sports MAX 4"
+    ],
+    "TN": [
+     "beIN Sports MAX 4"
+    ],
+    "IQ": [
+     "beIN Sports MAX 4"
+    ],
+    "JO": [
+     "beIN Sports MAX 4"
+    ],
+    "OM": [
+     "beIN Sports MAX 4"
+    ],
+    "LY": [
+     "beIN Sports MAX 4"
+    ],
+    "KW": [
+     "beIN Sports MAX 4"
+    ],
+    "BH": [
+     "beIN Sports MAX 4"
     ]
    },
    "sources": [
@@ -2713,10 +3343,118 @@
      "beIN Sports 4",
      "TOD",
      "beIN CONNECT"
+    ],
+    "SA": [
+     "beIN Sports MENA 4",
+     "TOD TV",
+     "beIN Sports MAX 7"
+    ],
+    "QA": [
+     "beIN Sports MENA 4",
+     "TOD TV",
+     "beIN Sports MAX 7"
+    ],
+    "AE": [
+     "beIN Sports MENA 4",
+     "TOD TV",
+     "beIN Sports MAX 7"
+    ],
+    "EG": [
+     "beIN Sports MENA 4",
+     "TOD TV",
+     "beIN Sports MAX 7"
+    ],
+    "DZ": [
+     "beIN Sports MENA 4",
+     "TOD TV",
+     "beIN Sports MAX 7"
+    ],
+    "TN": [
+     "beIN Sports MENA 4",
+     "TOD TV",
+     "beIN Sports MAX 7"
+    ],
+    "IQ": [
+     "beIN Sports MENA 4",
+     "TOD TV",
+     "beIN Sports MAX 7"
+    ],
+    "JO": [
+     "beIN Sports MENA 4",
+     "TOD TV",
+     "beIN Sports MAX 7"
+    ],
+    "OM": [
+     "beIN Sports MENA 4",
+     "TOD TV",
+     "beIN Sports MAX 7"
+    ],
+    "LY": [
+     "beIN Sports MENA 4",
+     "TOD TV",
+     "beIN Sports MAX 7"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV",
+     "beIN Sports MAX 7"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV",
+     "beIN Sports MAX 7"
     ]
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261120-mc-oran-js-saoura",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "MC Oran",
+   "away": "JS Saoura",
+   "homeNames": {
+    "tr": "MC Oran",
+    "en": "MC Oran",
+    "de": "MC Oran",
+    "es": "MC Oran",
+    "fr": "MC Oran",
+    "it": "MC Oran",
+    "pt": "MC Oran",
+    "ar": "مولودية وهران"
+   },
+   "awayNames": {
+    "tr": "JS Saoura",
+    "en": "JS Saoura",
+    "de": "JS Saoura",
+    "es": "JS Saoura",
+    "fr": "JS Saoura",
+    "it": "JS Saoura",
+    "pt": "JS Saoura",
+    "ar": "شبيبة الساورة"
+   },
+   "kickoffUtc": "2026-11-20T19:00:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -2857,6 +3595,18 @@
      "DAZN",
      "LaLiga TV M2",
      "LALIGA TV Hypermotion"
+    ],
+    "MX": [
+     "SKY Sports"
+    ],
+    "ZA": [
+     "Sporty TV"
+    ],
+    "GH": [
+     "Sporty TV"
+    ],
+    "NG": [
+     "Sporty TV"
     ]
    },
    "sources": [
@@ -3651,6 +4401,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 3",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -3833,6 +4591,54 @@
      "beIN CONNECT",
      "TOD",
      "beIN Sports English"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4057,6 +4863,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4107,6 +4921,9 @@
     ],
     "PY": [
      "Tigo Sports"
+    ],
+    "PT": [
+     "Fanatiz"
     ]
    },
    "sources": [
@@ -4285,6 +5102,9 @@
     ],
     "PY": [
      "Tigo Sports"
+    ],
+    "PT": [
+     "Fanatiz"
     ]
    },
    "sources": [
