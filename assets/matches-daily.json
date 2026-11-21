@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-21T02:25:53.000Z",
+ "generated_at": "2026-11-21T11:55:30.000Z",
  "date": "2026-11-21",
  "model": "user-provided",
  "stats": {
-  "total": 164,
-  "withChannel": 164,
+  "total": 178,
+  "withChannel": 178,
   "bySport": {
-   "football": 131,
+   "football": 145,
    "basketball": 21,
    "motorsport": 5,
    "volleyball": 7
@@ -3288,6 +3288,58 @@
    ]
   },
   {
+   "id": "football-20261121-shamakhi-fk-turan-tovuz",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Shamakhi FK",
+   "away": "Turan Tovuz",
+   "homeNames": {
+    "tr": "Shamakhi FK",
+    "en": "Shamakhi FK",
+    "de": "Shamakhi FK",
+    "es": "Shamakhi FK",
+    "fr": "Shamakhi FK",
+    "it": "Shamakhi FK",
+    "pt": "Shamakhi FK",
+    "ar": "انتر باكو"
+   },
+   "awayNames": {
+    "tr": "Turan Tovuz",
+    "en": "Turan Tovuz",
+    "de": "Turan Tovuz",
+    "es": "Turan Tovuz",
+    "fr": "Turan Tovuz",
+    "it": "Turan Tovuz",
+    "pt": "Turan Tovuz",
+    "ar": "توران توفوز"
+   },
+   "kickoffUtc": "2026-11-21T10:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261121-fc-kolos-kovalivka-fc-kharkiv",
    "sport": "football",
    "competitionId": "ukr_pl",
@@ -3622,6 +3674,45 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -3841,10 +3932,111 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "MA": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
     ]
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261121-radnicki-nis-fk-zemun",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "Radnicki Nis",
+   "away": "FK Zemun",
+   "homeNames": {
+    "tr": "Radnicki Nis",
+    "en": "Radnicki Nis",
+    "de": "Radnicki Nis",
+    "es": "Radnicki Nis",
+    "fr": "Radnicki Nis",
+    "it": "Radnicki Nis",
+    "pt": "Radnicki Nis",
+    "ar": "رادنيكي إن."
+   },
+   "awayNames": {
+    "tr": "FK Zemun",
+    "en": "FK Zemun",
+    "de": "FK Zemun",
+    "es": "FK Zemun",
+    "fr": "FK Zemun",
+    "it": "FK Zemun",
+    "pt": "FK Zemun",
+    "ar": "إف ك زيمون"
+   },
+   "kickoffUtc": "2026-11-21T12:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -4070,6 +4262,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4199,6 +4399,42 @@
     "PY": [
      "ESPN 5",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 3"
+    ],
+    "QA": [
+     "beIN Sports MENA 3"
+    ],
+    "AE": [
+     "beIN Sports MENA 3"
+    ],
+    "EG": [
+     "beIN Sports MENA 3"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3"
+    ],
+    "TN": [
+     "beIN Sports MENA 3"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3"
+    ],
+    "JO": [
+     "beIN Sports MENA 3"
+    ],
+    "OM": [
+     "beIN Sports MENA 3"
+    ],
+    "LY": [
+     "beIN Sports MENA 3"
+    ],
+    "KW": [
+     "beIN Sports MENA 3"
+    ],
+    "BH": [
+     "beIN Sports MENA 3"
     ]
    },
    "sources": [
@@ -4460,6 +4696,55 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261121-puskas-fc-academy-mtk-budapest",
+   "sport": "football",
+   "competitionId": "hu_nb1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Macaristan NB I",
+    "en": "Hungarian NB I",
+    "de": "Ungarische NB I",
+    "es": "NB I de Hungría",
+    "fr": "NB I hongroise",
+    "it": "NB I ungherese",
+    "pt": "NB I da Hungria",
+    "ar": "الدوري المجري",
+    "hu": "NB I"
+   },
+   "home": "Puskas FC Academy",
+   "away": "MTK Budapest",
+   "homeNames": {
+    "tr": "Puskas FC Academy",
+    "en": "Puskas FC Academy",
+    "de": "Puskas FC Academy",
+    "es": "Puskas FC Academy",
+    "fr": "Puskas FC Academy",
+    "it": "Puskas FC Academy",
+    "pt": "Puskas FC Academy",
+    "ar": "بوشكاش"
+   },
+   "awayNames": {
+    "tr": "MTK Budapest",
+    "en": "MTK Budapest",
+    "de": "MTK Budapest",
+    "es": "MTK Budapest",
+    "fr": "MTK Budapest",
+    "it": "MTK Budapest",
+    "pt": "MTK Budapest",
+    "ar": "إم تي ك هنجاريا"
+   },
+   "kickoffUtc": "2026-11-21T12:30:00Z",
+   "broadcasts": {
+    "HU": [
+     "M4 Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -4804,6 +5089,12 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 9"
+    ],
+    "BH": [
+     "beIN Sports MENA 9"
     ]
    },
    "sources": [
@@ -5020,6 +5311,42 @@
     ],
     "DE": [
      "Digiturk Euro"
+    ],
+    "SA": [
+     "beIN Sports MENA 2"
+    ],
+    "QA": [
+     "beIN Sports MENA 2"
+    ],
+    "AE": [
+     "beIN Sports MENA 2"
+    ],
+    "EG": [
+     "beIN Sports MENA 2"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2"
+    ],
+    "TN": [
+     "beIN Sports MENA 2"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2"
+    ],
+    "JO": [
+     "beIN Sports MENA 2"
+    ],
+    "OM": [
+     "beIN Sports MENA 2"
+    ],
+    "LY": [
+     "beIN Sports MENA 2"
+    ],
+    "KW": [
+     "beIN Sports MENA 2"
+    ],
+    "BH": [
+     "beIN Sports MENA 2"
     ]
    },
    "sources": [
@@ -5354,6 +5681,157 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261121-shafa-fk-qabala",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Shafa",
+   "away": "FK Qabala",
+   "homeNames": {
+    "tr": "Shafa",
+    "en": "Shafa",
+    "de": "Shafa",
+    "es": "Shafa",
+    "fr": "Shafa",
+    "it": "Shafa",
+    "pt": "Shafa",
+    "ar": "شافا"
+   },
+   "awayNames": {
+    "tr": "FK Qabala",
+    "en": "FK Qabala",
+    "de": "FK Qabala",
+    "es": "FK Qabala",
+    "fr": "FK Qabala",
+    "it": "FK Qabala",
+    "pt": "FK Qabala",
+    "ar": "إف ك كابالا"
+   },
+   "kickoffUtc": "2026-11-21T13:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261121-csikszereda-miercurea-ciuc-corvinul-hunedoara",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "Csikszereda Miercurea Ciuc",
+   "away": "Corvinul Hunedoara",
+   "homeNames": {
+    "tr": "Csikszereda Miercurea Ciuc",
+    "en": "Csikszereda Miercurea Ciuc",
+    "de": "Csikszereda Miercurea Ciuc",
+    "es": "Csikszereda Miercurea Ciuc",
+    "fr": "Csikszereda Miercurea Ciuc",
+    "it": "Csikszereda Miercurea Ciuc",
+    "pt": "Csikszereda Miercurea Ciuc",
+    "ar": "فك كسيكسزيريدا ميركوريا كيك"
+   },
+   "awayNames": {
+    "tr": "Corvinul Hunedoara",
+    "en": "Corvinul Hunedoara",
+    "de": "Corvinul Hunedoara",
+    "es": "Corvinul Hunedoara",
+    "fr": "Corvinul Hunedoara",
+    "it": "Corvinul Hunedoara",
+    "pt": "Corvinul Hunedoara",
+    "ar": "كورفينول 1921 هونيدوارا"
+   },
+   "kickoffUtc": "2026-11-21T13:00:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261121-fk-crvena-zvezda-fk-radnik-surdulica",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "FK Crvena Zvezda",
+   "away": "FK Radnik Surdulica",
+   "homeNames": {
+    "tr": "FK Crvena Zvezda",
+    "en": "FK Crvena Zvezda",
+    "de": "FK Crvena Zvezda",
+    "es": "FK Crvena Zvezda",
+    "fr": "FK Crvena Zvezda",
+    "it": "FK Crvena Zvezda",
+    "pt": "FK Crvena Zvezda",
+    "ar": "النجم الأحمر بلجراد"
+   },
+   "awayNames": {
+    "tr": "FK Radnik Surdulica",
+    "en": "FK Radnik Surdulica",
+    "de": "FK Radnik Surdulica",
+    "es": "FK Radnik Surdulica",
+    "fr": "FK Radnik Surdulica",
+    "it": "FK Radnik Surdulica",
+    "pt": "FK Radnik Surdulica",
+    "ar": "رادنيك سوردوليتشا"
+   },
+   "kickoffUtc": "2026-11-21T13:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -6522,6 +7000,55 @@
    ]
   },
   {
+   "id": "football-20261121-mladost-lucani-zeleznicar-pancevo",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "Mladost Lucani",
+   "away": "Zeleznicar Pancevo",
+   "homeNames": {
+    "tr": "Mladost Lucani",
+    "en": "Mladost Lucani",
+    "de": "Mladost Lucani",
+    "es": "Mladost Lucani",
+    "fr": "Mladost Lucani",
+    "it": "Mladost Lucani",
+    "pt": "Mladost Lucani",
+    "ar": "ملادوست إل"
+   },
+   "awayNames": {
+    "tr": "Zeleznicar Pancevo",
+    "en": "Zeleznicar Pancevo",
+    "de": "Zeleznicar Pancevo",
+    "es": "Zeleznicar Pancevo",
+    "fr": "Zeleznicar Pancevo",
+    "it": "Zeleznicar Pancevo",
+    "pt": "Zeleznicar Pancevo",
+    "ar": "زليزنكار بانسيفو"
+   },
+   "kickoffUtc": "2026-11-21T14:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261121-leverkusen-paderborn",
    "sport": "football",
    "competitionId": "bundesliga",
@@ -6641,6 +7168,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
     ]
    },
    "sources": [
@@ -6791,6 +7366,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
     ]
    },
    "sources": [
@@ -6918,6 +7541,66 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 7",
+     "beIN Sports MAX 8"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 7",
+     "beIN Sports MAX 8"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 7",
+     "beIN Sports MAX 8"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 7",
+     "beIN Sports MAX 8"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 7",
+     "beIN Sports MAX 8"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 7",
+     "beIN Sports MAX 8"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 7",
+     "beIN Sports MAX 8"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 7",
+     "beIN Sports MAX 8"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 7",
+     "beIN Sports MAX 8"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 7",
+     "beIN Sports MAX 8"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 7",
+     "beIN Sports MAX 8"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 7",
+     "beIN Sports MAX 8"
     ]
    },
    "sources": [
@@ -7046,6 +7729,66 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 8",
+     "beIN Sports MAX 9"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 8",
+     "beIN Sports MAX 9"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 8",
+     "beIN Sports MAX 9"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 8",
+     "beIN Sports MAX 9"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 8",
+     "beIN Sports MAX 9"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 8",
+     "beIN Sports MAX 9"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 8",
+     "beIN Sports MAX 9"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 8",
+     "beIN Sports MAX 9"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 8",
+     "beIN Sports MAX 9"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 8",
+     "beIN Sports MAX 9"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 8",
+     "beIN Sports MAX 9"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 8",
+     "beIN Sports MAX 9"
     ]
    },
    "sources": [
@@ -7174,6 +7917,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
     ]
    },
    "sources": [
@@ -7472,6 +8263,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 5",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -7679,6 +8478,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -7905,6 +8712,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -8099,6 +8914,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 6",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -8308,6 +9131,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 3",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -8822,6 +9653,42 @@
     "PY": [
      "ESPN 7",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -9115,6 +9982,55 @@
    ]
   },
   {
+   "id": "football-20261121-ujpest-kisvarda",
+   "sport": "football",
+   "competitionId": "hu_nb1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Macaristan NB I",
+    "en": "Hungarian NB I",
+    "de": "Ungarische NB I",
+    "es": "NB I de Hungría",
+    "fr": "NB I hongroise",
+    "it": "NB I ungherese",
+    "pt": "NB I da Hungria",
+    "ar": "الدوري المجري",
+    "hu": "NB I"
+   },
+   "home": "Ujpest",
+   "away": "Kisvarda",
+   "homeNames": {
+    "tr": "Ujpest",
+    "en": "Ujpest",
+    "de": "Ujpest",
+    "es": "Ujpest",
+    "fr": "Ujpest",
+    "it": "Ujpest",
+    "pt": "Ujpest",
+    "ar": "أويبيست"
+   },
+   "awayNames": {
+    "tr": "Kisvarda",
+    "en": "Kisvarda",
+    "de": "Kisvarda",
+    "es": "Kisvarda",
+    "fr": "Kisvarda",
+    "it": "Kisvarda",
+    "pt": "Kisvarda",
+    "ar": "كيسفاردا"
+   },
+   "kickoffUtc": "2026-11-21T15:00:00Z",
+   "broadcasts": {
+    "HU": [
+     "M4 Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261121-rayo-vallecano-valencia",
    "sport": "football",
    "competitionId": "laliga",
@@ -9323,6 +10239,12 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 9"
+    ],
+    "BH": [
+     "beIN Sports MENA 9"
     ]
    },
    "sources": [
@@ -9429,6 +10351,56 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261121-cfr-cluj-otelul-galati",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "CFR Cluj",
+   "away": "Otelul Galati",
+   "homeNames": {
+    "tr": "CFR Cluj",
+    "en": "CFR Cluj",
+    "de": "CFR Cluj",
+    "es": "CFR Cluj",
+    "fr": "CFR Cluj",
+    "it": "CFR Cluj",
+    "pt": "CFR Cluj",
+    "ar": "سي إف آر كلوج"
+   },
+   "awayNames": {
+    "tr": "Otelul Galati",
+    "en": "Otelul Galati",
+    "de": "Otelul Galati",
+    "es": "Otelul Galati",
+    "fr": "Otelul Galati",
+    "it": "Otelul Galati",
+    "pt": "Otelul Galati",
+    "ar": "أوتيلول جالاتي"
+   },
+   "kickoffUtc": "2026-11-21T15:30:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -9627,6 +10599,42 @@
     ],
     "DE": [
      "Digiturk Euro"
+    ],
+    "SA": [
+     "beIN Sports MENA 7"
+    ],
+    "QA": [
+     "beIN Sports MENA 7"
+    ],
+    "AE": [
+     "beIN Sports MENA 7"
+    ],
+    "EG": [
+     "beIN Sports MENA 7"
+    ],
+    "DZ": [
+     "beIN Sports MENA 7"
+    ],
+    "TN": [
+     "beIN Sports MENA 7"
+    ],
+    "IQ": [
+     "beIN Sports MENA 7"
+    ],
+    "JO": [
+     "beIN Sports MENA 7"
+    ],
+    "OM": [
+     "beIN Sports MENA 7"
+    ],
+    "LY": [
+     "beIN Sports MENA 7"
+    ],
+    "KW": [
+     "beIN Sports MENA 7"
+    ],
+    "BH": [
+     "beIN Sports MENA 7"
     ]
    },
    "sources": [
@@ -9774,6 +10782,55 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261121-ofk-beograd-novi-pazar",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "OFK Beograd",
+   "away": "Novi Pazar",
+   "homeNames": {
+    "tr": "OFK Beograd",
+    "en": "OFK Beograd",
+    "de": "OFK Beograd",
+    "es": "OFK Beograd",
+    "fr": "OFK Beograd",
+    "it": "OFK Beograd",
+    "pt": "OFK Beograd",
+    "ar": "أو إف ك بلغراد"
+   },
+   "awayNames": {
+    "tr": "Novi Pazar",
+    "en": "Novi Pazar",
+    "de": "Novi Pazar",
+    "es": "Novi Pazar",
+    "fr": "Novi Pazar",
+    "it": "Novi Pazar",
+    "pt": "Novi Pazar",
+    "ar": "نوفي بازار"
+   },
+   "kickoffUtc": "2026-11-21T16:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -9968,6 +11025,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -10644,6 +11709,55 @@
    ]
   },
   {
+   "id": "football-20261121-vaalerenga-start",
+   "sport": "football",
+   "competitionId": "eliteserien",
+   "tier": "regional",
+   "competition": {
+    "tr": "Norveç Eliteserien",
+    "en": "Eliteserien",
+    "de": "Eliteserien",
+    "es": "Eliteserien",
+    "fr": "Eliteserien",
+    "it": "Eliteserien",
+    "pt": "Eliteserien",
+    "ar": "الدوري النرويجي",
+    "nb": "Eliteserien"
+   },
+   "home": "Vaalerenga",
+   "away": "Start",
+   "homeNames": {
+    "tr": "Vaalerenga",
+    "en": "Vaalerenga",
+    "de": "Vaalerenga",
+    "es": "Vaalerenga",
+    "fr": "Vaalerenga",
+    "it": "Vaalerenga",
+    "pt": "Vaalerenga",
+    "ar": "فاليرينجا"
+   },
+   "awayNames": {
+    "tr": "Start",
+    "en": "Start",
+    "de": "Start",
+    "es": "Start",
+    "fr": "Start",
+    "it": "Start",
+    "pt": "Start",
+    "ar": "ستارت"
+   },
+   "kickoffUtc": "2026-11-21T17:00:00Z",
+   "broadcasts": {
+    "NO": [
+     "TV 2 Play"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261121-genk-raal-la-louviere",
    "sport": "football",
    "competitionId": "belgian_pl",
@@ -10908,6 +12022,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -11134,6 +12256,12 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 3"
+    ],
+    "BH": [
+     "beIN Sports MENA 3"
     ]
    },
    "sources": [
@@ -11366,6 +12494,42 @@
     "PY": [
      "ESPN 2",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -11417,6 +12581,105 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261121-kalamata-aek-athens",
+   "sport": "football",
+   "competitionId": "greek_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Yunanistan Süper Ligi",
+    "en": "Greek Super League",
+    "de": "Griechische Super League",
+    "es": "Superliga de Grecia",
+    "fr": "Super League grecque",
+    "it": "Super League greca",
+    "pt": "Superliga Grega",
+    "ar": "الدوري اليوناني",
+    "el": "Super League Ελλάδας"
+   },
+   "home": "Kalamata",
+   "away": "AEK Athens",
+   "homeNames": {
+    "tr": "Kalamata",
+    "en": "Kalamata",
+    "de": "Kalamata",
+    "es": "Kalamata",
+    "fr": "Kalamata",
+    "it": "Kalamata",
+    "pt": "Kalamata",
+    "ar": "كالاماتا"
+   },
+   "awayNames": {
+    "tr": "AEK Athens",
+    "en": "AEK Athens",
+    "de": "AEK Athens",
+    "es": "AEK Athens",
+    "fr": "AEK Athens",
+    "it": "AEK Athens",
+    "pt": "AEK Athens",
+    "ar": "أيك أثينا"
+   },
+   "kickoffUtc": "2026-11-21T17:30:00Z",
+   "broadcasts": {
+    "GR": [
+     "Cosmote Sport",
+     "Nova Sports"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261121-ferencvaros-gyori-eto",
+   "sport": "football",
+   "competitionId": "hu_nb1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Macaristan NB I",
+    "en": "Hungarian NB I",
+    "de": "Ungarische NB I",
+    "es": "NB I de Hungría",
+    "fr": "NB I hongroise",
+    "it": "NB I ungherese",
+    "pt": "NB I da Hungria",
+    "ar": "الدوري المجري",
+    "hu": "NB I"
+   },
+   "home": "Ferencvaros",
+   "away": "Gyori ETO",
+   "homeNames": {
+    "tr": "Ferencváros",
+    "en": "Ferencváros",
+    "de": "Ferencváros",
+    "es": "Ferencváros",
+    "fr": "Ferencváros",
+    "it": "Ferencváros",
+    "pt": "Ferencváros",
+    "ar": "فيرينتسفاروشي"
+   },
+   "awayNames": {
+    "tr": "Gyori ETO",
+    "en": "Gyori ETO",
+    "de": "Gyori ETO",
+    "es": "Gyori ETO",
+    "fr": "Gyori ETO",
+    "it": "Gyori ETO",
+    "pt": "Gyori ETO",
+    "ar": "جيور"
+   },
+   "kickoffUtc": "2026-11-21T17:30:00Z",
+   "broadcasts": {
+    "HU": [
+     "M4 Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -12096,6 +13359,56 @@
    ]
   },
   {
+   "id": "football-20261121-dinamo-bucuresti-petrolul-ploiesti",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "Dinamo Bucuresti",
+   "away": "Petrolul Ploiesti",
+   "homeNames": {
+    "tr": "Dinamo Bucuresti",
+    "en": "Dinamo Bucuresti",
+    "de": "Dinamo Bucuresti",
+    "es": "Dinamo Bucuresti",
+    "fr": "Dinamo Bucuresti",
+    "it": "Dinamo Bucuresti",
+    "pt": "Dinamo Bucuresti",
+    "ar": "دينامو بوخارست"
+   },
+   "awayNames": {
+    "tr": "Petrolul Ploiesti",
+    "en": "Petrolul Ploiesti",
+    "de": "Petrolul Ploiesti",
+    "es": "Petrolul Ploiesti",
+    "fr": "Petrolul Ploiesti",
+    "it": "Petrolul Ploiesti",
+    "pt": "Petrolul Ploiesti",
+    "ar": "بترولول"
+   },
+   "kickoffUtc": "2026-11-21T18:30:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261121-reims-saint-etienne",
    "sport": "football",
    "competitionId": "ligue2",
@@ -12173,6 +13486,54 @@
      "beIN Sports 6",
      "beIN CONNECT",
      "TOD"
+    ],
+    "SA": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 6",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -12700,6 +14061,58 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "MA": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 7"
     ]
    },
    "sources": [
@@ -13067,6 +14480,12 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 3"
+    ],
+    "BH": [
+     "beIN Sports MENA 3"
     ]
    },
    "sources": [
@@ -13261,6 +14680,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -13435,6 +14862,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -13602,6 +15037,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 5",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -14098,6 +15541,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -14845,6 +16296,54 @@
     "PY": [
      "ESPN",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
