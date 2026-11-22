@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-22T01:24:27.000Z",
+ "generated_at": "2026-11-22T12:10:03.000Z",
  "date": "2026-11-22",
  "model": "user-provided",
  "stats": {
-  "total": 127,
-  "withChannel": 127,
+  "total": 150,
+  "withChannel": 150,
   "bySport": {
-   "football": 99,
-   "basketball": 21,
+   "football": 121,
+   "basketball": 22,
    "motorsport": 1,
    "volleyball": 6
   },
@@ -2519,6 +2519,58 @@
    ]
   },
   {
+   "id": "football-20261122-araz-pfk-fk-neftchi",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Araz PFK",
+   "away": "FK Neftchi",
+   "homeNames": {
+    "tr": "Araz PFK",
+    "en": "Araz PFK",
+    "de": "Araz PFK",
+    "es": "Araz PFK",
+    "fr": "Araz PFK",
+    "it": "Araz PFK",
+    "pt": "Araz PFK",
+    "ar": "اراز"
+   },
+   "awayNames": {
+    "tr": "FK Neftchi",
+    "en": "FK Neftchi",
+    "de": "FK Neftchi",
+    "es": "FK Neftchi",
+    "fr": "FK Neftchi",
+    "it": "FK Neftchi",
+    "pt": "FK Neftchi",
+    "ar": "إف ك نيفتكي"
+   },
+   "kickoffUtc": "2026-11-22T10:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261122-dynamo-kyiv-obolon-kyiv",
    "sport": "football",
    "competitionId": "ukr_pl",
@@ -2852,6 +2904,55 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261122-heerenveen-ado-den-haag",
+   "sport": "football",
+   "competitionId": "eredivisie",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
+   },
+   "home": "Heerenveen",
+   "away": "ADO Den Haag",
+   "homeNames": {
+    "tr": "SC Heerenveen",
+    "en": "SC Heerenveen",
+    "de": "SC Heerenveen",
+    "es": "SC Heerenveen",
+    "fr": "SC Heerenveen",
+    "it": "SC Heerenveen",
+    "pt": "SC Heerenveen",
+    "ar": "هيرينفين"
+   },
+   "awayNames": {
+    "tr": "ADO Den Haag",
+    "en": "ADO Den Haag",
+    "de": "ADO Den Haag",
+    "es": "ADO Den Haag",
+    "fr": "ADO Den Haag",
+    "it": "ADO Den Haag",
+    "pt": "ADO Den Haag",
+    "ar": "دين هاج"
+   },
+   "kickoffUtc": "2026-11-22T11:15:00Z",
+   "broadcasts": {
+    "NL": [
+     "ESPN"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -3211,6 +3312,54 @@
     "ZA": [
      "ESPN Africa",
      "SuperSport Extra"
+    ],
+    "SA": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 6",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -3262,6 +3411,55 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261122-fk-radnicki-1923-cukaricki",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "FK Radnicki 1923",
+   "away": "Cukaricki",
+   "homeNames": {
+    "tr": "FK Radnicki 1923",
+    "en": "FK Radnicki 1923",
+    "de": "FK Radnicki 1923",
+    "es": "FK Radnicki 1923",
+    "fr": "FK Radnicki 1923",
+    "it": "FK Radnicki 1923",
+    "pt": "FK Radnicki 1923",
+    "ar": "رادنيكي"
+   },
+   "awayNames": {
+    "tr": "Cukaricki",
+    "en": "Cukaricki",
+    "de": "Cukaricki",
+    "es": "Cukaricki",
+    "fr": "Cukaricki",
+    "it": "Cukaricki",
+    "pt": "Cukaricki",
+    "ar": "كوكاريكي"
+   },
+   "kickoffUtc": "2026-11-22T12:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -3425,6 +3623,58 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "MA": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 5"
     ]
    },
    "sources": [
@@ -3527,6 +3777,45 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -3628,6 +3917,45 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -3679,6 +4007,55 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261122-zalaegerszeg-vasas-budapest",
+   "sport": "football",
+   "competitionId": "hu_nb1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Macaristan NB I",
+    "en": "Hungarian NB I",
+    "de": "Ungarische NB I",
+    "es": "NB I de Hungría",
+    "fr": "NB I hongroise",
+    "it": "NB I ungherese",
+    "pt": "NB I da Hungria",
+    "ar": "الدوري المجري",
+    "hu": "NB I"
+   },
+   "home": "Zalaegerszeg",
+   "away": "Vasas Budapest",
+   "homeNames": {
+    "tr": "Zalaegerszeg",
+    "en": "Zalaegerszeg",
+    "de": "Zalaegerszeg",
+    "es": "Zalaegerszeg",
+    "fr": "Zalaegerszeg",
+    "it": "Zalaegerszeg",
+    "pt": "Zalaegerszeg",
+    "ar": "زالايجيرسزيج"
+   },
+   "awayNames": {
+    "tr": "Vasas Budapest",
+    "en": "Vasas Budapest",
+    "de": "Vasas Budapest",
+    "es": "Vasas Budapest",
+    "fr": "Vasas Budapest",
+    "it": "Vasas Budapest",
+    "pt": "Vasas Budapest",
+    "ar": "فاساس بودابست"
+   },
+   "kickoffUtc": "2026-11-22T12:30:00Z",
+   "broadcasts": {
+    "HU": [
+     "M4 Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -3952,6 +4329,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4160,6 +4545,54 @@
     ],
     "DE": [
      "Digiturk Euro"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4256,6 +4689,45 @@
     "TR": [
      "tabii Spor 6",
      "beIN Sports Max 2"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "MA": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4354,6 +4826,106 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261122-fc-kapaz-qarabag-fk",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "FC Kapaz",
+   "away": "Qarabag FK",
+   "homeNames": {
+    "tr": "FC Kapaz",
+    "en": "FC Kapaz",
+    "de": "FC Kapaz",
+    "es": "FC Kapaz",
+    "fr": "FC Kapaz",
+    "it": "FC Kapaz",
+    "pt": "FC Kapaz",
+    "ar": "جانيا"
+   },
+   "awayNames": {
+    "tr": "Qarabag FK",
+    "en": "Qarabag FK",
+    "de": "Qarabag FK",
+    "es": "Qarabag FK",
+    "fr": "Qarabag FK",
+    "it": "Qarabag FK",
+    "pt": "Qarabag FK",
+    "ar": "كاراباج"
+   },
+   "kickoffUtc": "2026-11-22T13:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261122-fc-zuerich-st-gallen",
+   "sport": "football",
+   "competitionId": "swiss_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "İsviçre Süper Ligi",
+    "en": "Swiss Super League",
+    "de": "Super League",
+    "es": "Superliga Suiza",
+    "fr": "Super League suisse",
+    "it": "Super League svizzera",
+    "pt": "Superliga Suíça",
+    "ar": "الدوري السويسري"
+   },
+   "home": "FC Zuerich",
+   "away": "St. Gallen",
+   "homeNames": {
+    "tr": "FC Zuerich",
+    "en": "FC Zuerich",
+    "de": "FC Zuerich",
+    "es": "FC Zuerich",
+    "fr": "FC Zuerich",
+    "it": "FC Zuerich",
+    "pt": "FC Zuerich",
+    "ar": "إف سي زيوريخ"
+   },
+   "awayNames": {
+    "tr": "St. Gallen",
+    "en": "St. Gallen",
+    "de": "St. Gallen",
+    "es": "St. Gallen",
+    "fr": "St. Gallen",
+    "it": "St. Gallen",
+    "pt": "St. Gallen",
+    "ar": "سانت جالين"
+   },
+   "kickoffUtc": "2026-11-22T13:00:00Z",
+   "broadcasts": {
+    "CH": [
+     "blue Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -4778,6 +5350,9 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "GH": [
+     "SuperSport Football"
     ]
    },
    "sources": [
@@ -5242,6 +5817,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 5",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -5430,6 +6013,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -5624,6 +6215,105 @@
    ]
   },
   {
+   "id": "football-20261122-levadiakos-atromitos",
+   "sport": "football",
+   "competitionId": "greek_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Yunanistan Süper Ligi",
+    "en": "Greek Super League",
+    "de": "Griechische Super League",
+    "es": "Superliga de Grecia",
+    "fr": "Super League grecque",
+    "it": "Super League greca",
+    "pt": "Superliga Grega",
+    "ar": "الدوري اليوناني",
+    "el": "Super League Ελλάδας"
+   },
+   "home": "Levadiakos",
+   "away": "Atromitos",
+   "homeNames": {
+    "tr": "Levadiakos",
+    "en": "Levadiakos",
+    "de": "Levadiakos",
+    "es": "Levadiakos",
+    "fr": "Levadiakos",
+    "it": "Levadiakos",
+    "pt": "Levadiakos",
+    "ar": "ليفادياكوس"
+   },
+   "awayNames": {
+    "tr": "Atromitos",
+    "en": "Atromitos",
+    "de": "Atromitos",
+    "es": "Atromitos",
+    "fr": "Atromitos",
+    "it": "Atromitos",
+    "pt": "Atromitos",
+    "ar": "أتروميتوس"
+   },
+   "kickoffUtc": "2026-11-22T14:00:00Z",
+   "broadcasts": {
+    "GR": [
+     "Cosmote Sport",
+     "Nova Sports"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261122-fk-imt-beograd-partizan-beograd",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "FK IMT Beograd",
+   "away": "Partizan Beograd",
+   "homeNames": {
+    "tr": "FK IMT Beograd",
+    "en": "FK IMT Beograd",
+    "de": "FK IMT Beograd",
+    "es": "FK IMT Beograd",
+    "fr": "FK IMT Beograd",
+    "it": "FK IMT Beograd",
+    "pt": "FK IMT Beograd",
+    "ar": "اي ايم تي نوفي بيوغراد"
+   },
+   "awayNames": {
+    "tr": "Partizan Beograd",
+    "en": "Partizan Beograd",
+    "de": "Partizan Beograd",
+    "es": "Partizan Beograd",
+    "fr": "Partizan Beograd",
+    "it": "Partizan Beograd",
+    "pt": "Partizan Beograd",
+    "ar": "بارتيزان بلغراد"
+   },
+   "kickoffUtc": "2026-11-22T14:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261122-augsburg-mainz",
    "sport": "football",
    "competitionId": "bundesliga",
@@ -5754,6 +6444,54 @@
     "PY": [
      "ESPN 5",
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 4"
     ]
    },
    "sources": [
@@ -5903,6 +6641,105 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261122-panetolikos-nfc-volos",
+   "sport": "football",
+   "competitionId": "greek_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Yunanistan Süper Ligi",
+    "en": "Greek Super League",
+    "de": "Griechische Super League",
+    "es": "Superliga de Grecia",
+    "fr": "Super League grecque",
+    "it": "Super League greca",
+    "pt": "Superliga Grega",
+    "ar": "الدوري اليوناني",
+    "el": "Super League Ελλάδας"
+   },
+   "home": "Panetolikos",
+   "away": "NFC Volos",
+   "homeNames": {
+    "tr": "Panetolikos",
+    "en": "Panetolikos",
+    "de": "Panetolikos",
+    "es": "Panetolikos",
+    "fr": "Panetolikos",
+    "it": "Panetolikos",
+    "pt": "Panetolikos",
+    "ar": "باناثينايكوس"
+   },
+   "awayNames": {
+    "tr": "NFC Volos",
+    "en": "NFC Volos",
+    "de": "NFC Volos",
+    "es": "NFC Volos",
+    "fr": "NFC Volos",
+    "it": "NFC Volos",
+    "pt": "NFC Volos",
+    "ar": "فولوس"
+   },
+   "kickoffUtc": "2026-11-22T15:00:00Z",
+   "broadcasts": {
+    "GR": [
+     "Cosmote Sport",
+     "Nova Sports"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261122-nyiregyhaza-spartacus-fc-debrecen",
+   "sport": "football",
+   "competitionId": "hu_nb1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Macaristan NB I",
+    "en": "Hungarian NB I",
+    "de": "Ungarische NB I",
+    "es": "NB I de Hungría",
+    "fr": "NB I hongroise",
+    "it": "NB I ungherese",
+    "pt": "NB I da Hungria",
+    "ar": "الدوري المجري",
+    "hu": "NB I"
+   },
+   "home": "Nyiregyhaza Spartacus FC",
+   "away": "Debrecen",
+   "homeNames": {
+    "tr": "Nyiregyhaza Spartacus FC",
+    "en": "Nyiregyhaza Spartacus FC",
+    "de": "Nyiregyhaza Spartacus FC",
+    "es": "Nyiregyhaza Spartacus FC",
+    "fr": "Nyiregyhaza Spartacus FC",
+    "it": "Nyiregyhaza Spartacus FC",
+    "pt": "Nyiregyhaza Spartacus FC",
+    "ar": "نايريجايهازا"
+   },
+   "awayNames": {
+    "tr": "Debrecen",
+    "en": "Debrecen",
+    "de": "Debrecen",
+    "es": "Debrecen",
+    "fr": "Debrecen",
+    "it": "Debrecen",
+    "pt": "Debrecen",
+    "ar": "ديبريتشين"
+   },
+   "kickoffUtc": "2026-11-22T15:00:00Z",
+   "broadcasts": {
+    "HU": [
+     "M4 Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -6109,6 +6946,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -6285,6 +7130,106 @@
    ]
   },
   {
+   "id": "football-20261122-panathinaikos-ofi-crete",
+   "sport": "football",
+   "competitionId": "greek_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Yunanistan Süper Ligi",
+    "en": "Greek Super League",
+    "de": "Griechische Super League",
+    "es": "Superliga de Grecia",
+    "fr": "Super League grecque",
+    "it": "Super League greca",
+    "pt": "Superliga Grega",
+    "ar": "الدوري اليوناني",
+    "el": "Super League Ελλάδας"
+   },
+   "home": "Panathinaikos",
+   "away": "OFI Crete",
+   "homeNames": {
+    "tr": "Panathinaikos",
+    "en": "Panathinaikos",
+    "de": "Panathinaikos",
+    "es": "Panathinaikos",
+    "fr": "Panathinaikos",
+    "it": "Panathinaikos",
+    "pt": "Panathinaikos",
+    "ar": "باناثينايكوس"
+   },
+   "awayNames": {
+    "tr": "OFI Crete",
+    "en": "OFI Crete",
+    "de": "OFI Crete",
+    "es": "OFI Crete",
+    "fr": "OFI Crete",
+    "it": "OFI Crete",
+    "pt": "OFI Crete",
+    "ar": "أو إف آي كريتي"
+   },
+   "kickoffUtc": "2026-11-22T15:30:00Z",
+   "broadcasts": {
+    "GR": [
+     "Cosmote Sport",
+     "Nova Sports"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261122-uta-arad-universitatea-craiova",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "UTA Arad",
+   "away": "Universitatea Craiova",
+   "homeNames": {
+    "tr": "UTA Arad",
+    "en": "UTA Arad",
+    "de": "UTA Arad",
+    "es": "UTA Arad",
+    "fr": "UTA Arad",
+    "it": "UTA Arad",
+    "pt": "UTA Arad",
+    "ar": "أوت آراد"
+   },
+   "awayNames": {
+    "tr": "Universitatea Craiova",
+    "en": "Universitatea Craiova",
+    "de": "Universitatea Craiova",
+    "es": "Universitatea Craiova",
+    "fr": "Universitatea Craiova",
+    "it": "Universitatea Craiova",
+    "pt": "Universitatea Craiova",
+    "ar": "يونيفيرسيتاتيا كرايوفا"
+   },
+   "kickoffUtc": "2026-11-22T15:30:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261122-go-ahead-eagles-fortuna-sittard",
    "sport": "football",
    "competitionId": "eredivisie",
@@ -6332,6 +7277,202 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261122-de-graafschap-ajax",
+   "sport": "football",
+   "competitionId": "eredivisie",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
+   },
+   "home": "De Graafschap",
+   "away": "Ajax",
+   "homeNames": {
+    "tr": "De Graafschap",
+    "en": "De Graafschap",
+    "de": "De Graafschap",
+    "es": "De Graafschap",
+    "fr": "De Graafschap",
+    "it": "De Graafschap",
+    "pt": "De Graafschap",
+    "ar": "De Graafschap"
+   },
+   "awayNames": {
+    "tr": "Ajax",
+    "en": "Ajax",
+    "de": "Ajax Amsterdam",
+    "es": "Ajax",
+    "fr": "Ajax Amsterdam",
+    "it": "Ajax",
+    "pt": "Ajax",
+    "ar": "أياكس"
+   },
+   "kickoffUtc": "2026-11-22T15:45:00Z",
+   "broadcasts": {
+    "NL": [
+     "ESPN"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261122-fc-utrecht-az-alkmaar",
+   "sport": "football",
+   "competitionId": "eredivisie",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
+   },
+   "home": "FC Utrecht",
+   "away": "AZ Alkmaar",
+   "homeNames": {
+    "tr": "FC Utrecht",
+    "en": "FC Utrecht",
+    "de": "FC Utrecht",
+    "es": "FC Utrecht",
+    "fr": "FC Utrecht",
+    "it": "FC Utrecht",
+    "pt": "FC Utrecht",
+    "ar": "أوتريخت"
+   },
+   "awayNames": {
+    "tr": "AZ Alkmaar",
+    "en": "AZ Alkmaar",
+    "de": "AZ Alkmaar",
+    "es": "AZ Alkmaar",
+    "fr": "AZ Alkmaar",
+    "it": "AZ Alkmaar",
+    "pt": "AZ Alkmaar",
+    "ar": "آيه زد ألكمار"
+   },
+   "kickoffUtc": "2026-11-22T15:45:00Z",
+   "broadcasts": {
+    "NL": [
+     "ESPN"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261122-feyenoord-fc-twente",
+   "sport": "football",
+   "competitionId": "eredivisie",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
+   },
+   "home": "Feyenoord",
+   "away": "FC Twente",
+   "homeNames": {
+    "tr": "Feyenoord",
+    "en": "Feyenoord",
+    "de": "Feyenoord",
+    "es": "Feyenoord",
+    "fr": "Feyenoord",
+    "it": "Feyenoord",
+    "pt": "Feyenoord",
+    "ar": "فينورد روتردام"
+   },
+   "awayNames": {
+    "tr": "FC Twente",
+    "en": "FC Twente",
+    "de": "FC Twente",
+    "es": "FC Twente",
+    "fr": "FC Twente",
+    "it": "FC Twente",
+    "pt": "FC Twente",
+    "ar": "تفينتي"
+   },
+   "kickoffUtc": "2026-11-22T15:45:00Z",
+   "broadcasts": {
+    "NL": [
+     "ESPN"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261122-psv-pec-zwolle",
+   "sport": "football",
+   "competitionId": "eredivisie",
+   "tier": "regional",
+   "competition": {
+    "tr": "Hollanda Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "es": "Eredivisie",
+    "fr": "Eredivisie",
+    "it": "Eredivisie",
+    "pt": "Eredivisie",
+    "ar": "الدوري الهولندي",
+    "nl": "Eredivisie"
+   },
+   "home": "PSV",
+   "away": "PEC Zwolle",
+   "homeNames": {
+    "tr": "PSV Eindhoven",
+    "en": "PSV Eindhoven",
+    "de": "PSV Eindhoven",
+    "es": "PSV Eindhoven",
+    "fr": "PSV Eindhoven",
+    "it": "PSV Eindhoven",
+    "pt": "PSV Eindhoven",
+    "ar": "آيندهوفن"
+   },
+   "awayNames": {
+    "tr": "PEC Zwolle",
+    "en": "PEC Zwolle",
+    "de": "PEC Zwolle",
+    "es": "PEC Zwolle",
+    "fr": "PEC Zwolle",
+    "it": "PEC Zwolle",
+    "pt": "PEC Zwolle",
+    "ar": "زفولي"
+   },
+   "kickoffUtc": "2026-11-22T15:45:00Z",
+   "broadcasts": {
+    "NL": [
+     "ESPN"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -6633,6 +7774,66 @@
     ],
     "DE": [
      "Digiturk Euro"
+    ],
+    "SA": [
+     "beIN Sports MENA 3",
+     "TOD TV",
+     "beIN Sports MAX 5"
+    ],
+    "QA": [
+     "beIN Sports MENA 3",
+     "TOD TV",
+     "beIN Sports MAX 5"
+    ],
+    "AE": [
+     "beIN Sports MENA 3",
+     "TOD TV",
+     "beIN Sports MAX 5"
+    ],
+    "EG": [
+     "beIN Sports MENA 3",
+     "TOD TV",
+     "beIN Sports MAX 5"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3",
+     "TOD TV",
+     "beIN Sports MAX 5"
+    ],
+    "TN": [
+     "beIN Sports MENA 3",
+     "TOD TV",
+     "beIN Sports MAX 5"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3",
+     "TOD TV",
+     "beIN Sports MAX 5"
+    ],
+    "JO": [
+     "beIN Sports MENA 3",
+     "TOD TV",
+     "beIN Sports MAX 5"
+    ],
+    "OM": [
+     "beIN Sports MENA 3",
+     "TOD TV",
+     "beIN Sports MAX 5"
+    ],
+    "LY": [
+     "beIN Sports MENA 3",
+     "TOD TV",
+     "beIN Sports MAX 5"
+    ],
+    "KW": [
+     "beIN Sports MENA 3",
+     "TOD TV",
+     "beIN Sports MAX 5"
+    ],
+    "BH": [
+     "beIN Sports MENA 3",
+     "TOD TV",
+     "beIN Sports MAX 5"
     ]
    },
    "sources": [
@@ -6780,6 +7981,55 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261122-macva-sabac-vojvodina",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "Macva Sabac",
+   "away": "Vojvodina",
+   "homeNames": {
+    "tr": "Macva Sabac",
+    "en": "Macva Sabac",
+    "de": "Macva Sabac",
+    "es": "Macva Sabac",
+    "fr": "Macva Sabac",
+    "it": "Macva Sabac",
+    "pt": "Macva Sabac",
+    "ar": "ماكفا"
+   },
+   "awayNames": {
+    "tr": "Vojvodina",
+    "en": "Vojvodina",
+    "de": "Vojvodina",
+    "es": "Vojvodina",
+    "fr": "Vojvodina",
+    "it": "Vojvodina",
+    "pt": "Vojvodina",
+    "ar": "فويفودينا"
+   },
+   "kickoffUtc": "2026-11-22T16:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -6949,6 +8199,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -7274,6 +8532,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -7458,6 +8724,54 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "QA": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "AE": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "EG": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "DZ": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "TN": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "IQ": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "JO": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "OM": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "LY": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "KW": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
+    ],
+    "BH": [
+     "MBC Shahid",
+     "beIN Sports MAX 6"
     ]
    },
    "sources": [
@@ -7710,6 +9024,9 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "GH": [
+     "SuperSport Football"
     ]
    },
    "sources": [
@@ -7812,6 +9129,103 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261122-olympiacos-iraklis",
+   "sport": "football",
+   "competitionId": "greek_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Yunanistan Süper Ligi",
+    "en": "Greek Super League",
+    "de": "Griechische Super League",
+    "es": "Superliga de Grecia",
+    "fr": "Super League grecque",
+    "it": "Super League greca",
+    "pt": "Superliga Grega",
+    "ar": "الدوري اليوناني",
+    "el": "Super League Ελλάδας"
+   },
+   "home": "Olympiacos",
+   "away": "Iraklis",
+   "homeNames": {
+    "tr": "Olympiacos",
+    "en": "Olympiacos",
+    "de": "Olympiacos",
+    "es": "Olympiacos",
+    "fr": "Olympiacos",
+    "it": "Olympiacos",
+    "pt": "Olympiacos",
+    "ar": "أولمبياكوس"
+   },
+   "awayNames": {
+    "tr": "Iraklis",
+    "en": "Iraklis",
+    "de": "Iraklis",
+    "es": "Iraklis",
+    "fr": "Iraklis",
+    "it": "Iraklis",
+    "pt": "Iraklis",
+    "ar": "إيراكليس"
+   },
+   "kickoffUtc": "2026-11-22T17:00:00Z",
+   "broadcasts": {
+    "GR": [
+     "Cosmote Sport",
+     "Nova Sports"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "basketball-20261122-iberostar-tenerife-barca-basket",
+   "sport": "basketball",
+   "competitionId": "acb",
+   "tier": "regional",
+   "competition": {
+    "tr": "İspanya Basketbol Ligi",
+    "en": "Spanish ACB League",
+    "de": "Spanische ACB-Liga",
+    "es": "Liga Endesa",
+    "fr": "Championnat d'Espagne de basket",
+    "it": "Lega spagnola di basket",
+    "pt": "Liga espanhola de basquetebol",
+    "ar": "الدوري الإسباني لكرة السلة"
+   },
+   "home": "Iberostar Tenerife",
+   "away": "Barca Basket",
+   "homeNames": {
+    "tr": "Iberostar Tenerife",
+    "en": "Iberostar Tenerife",
+    "de": "Iberostar Tenerife",
+    "es": "Iberostar Tenerife",
+    "fr": "Iberostar Tenerife",
+    "it": "Iberostar Tenerife",
+    "pt": "Iberostar Tenerife",
+    "ar": "Iberostar Tenerife"
+   },
+   "awayNames": {
+    "tr": "Barcelona",
+    "en": "Barça Basket",
+    "de": "Barça Basket",
+    "es": "Barça Basket",
+    "fr": "Barça Basket",
+    "it": "Barça Basket",
+    "pt": "Barça Basket",
+    "ar": "برشلونة لكرة السلة"
+   },
+   "kickoffUtc": "2026-11-22T17:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "D Smart Kanal 81"
+    ]
+   },
+   "sources": [
+    "sporekrani.com"
    ]
   },
   {
@@ -8069,6 +9483,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -8125,6 +9547,54 @@
     "MA": [
      "beIN Sports 5",
      "beIN CONNECT"
+    ],
+    "SA": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 5",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -8245,6 +9715,105 @@
    ]
   },
   {
+   "id": "football-20261122-paok-thessaloniki-fc-kifisia-fc",
+   "sport": "football",
+   "competitionId": "greek_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Yunanistan Süper Ligi",
+    "en": "Greek Super League",
+    "de": "Griechische Super League",
+    "es": "Superliga de Grecia",
+    "fr": "Super League grecque",
+    "it": "Super League greca",
+    "pt": "Superliga Grega",
+    "ar": "الدوري اليوناني",
+    "el": "Super League Ελλάδας"
+   },
+   "home": "PAOK Thessaloniki FC",
+   "away": "Kifisia FC",
+   "homeNames": {
+    "tr": "PAOK Thessaloniki FC",
+    "en": "PAOK Thessaloniki FC",
+    "de": "PAOK Thessaloniki FC",
+    "es": "PAOK Thessaloniki FC",
+    "fr": "PAOK Thessaloniki FC",
+    "it": "PAOK Thessaloniki FC",
+    "pt": "PAOK Thessaloniki FC",
+    "ar": "باوك سالونيكا"
+   },
+   "awayNames": {
+    "tr": "Kifisia FC",
+    "en": "Kifisia FC",
+    "de": "Kifisia FC",
+    "es": "Kifisia FC",
+    "fr": "Kifisia FC",
+    "it": "Kifisia FC",
+    "pt": "Kifisia FC",
+    "ar": "كيفيسيا"
+   },
+   "kickoffUtc": "2026-11-22T17:30:00Z",
+   "broadcasts": {
+    "GR": [
+     "Cosmote Sport",
+     "Nova Sports"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261122-kispest-honved-paksi-se",
+   "sport": "football",
+   "competitionId": "hu_nb1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Macaristan NB I",
+    "en": "Hungarian NB I",
+    "de": "Ungarische NB I",
+    "es": "NB I de Hungría",
+    "fr": "NB I hongroise",
+    "it": "NB I ungherese",
+    "pt": "NB I da Hungria",
+    "ar": "الدوري المجري",
+    "hu": "NB I"
+   },
+   "home": "Kispest Honved",
+   "away": "Paksi SE",
+   "homeNames": {
+    "tr": "Kispest Honved",
+    "en": "Kispest Honved",
+    "de": "Kispest Honved",
+    "es": "Kispest Honved",
+    "fr": "Kispest Honved",
+    "it": "Kispest Honved",
+    "pt": "Kispest Honved",
+    "ar": "بودابست هونفيد"
+   },
+   "awayNames": {
+    "tr": "Paksi SE",
+    "en": "Paksi SE",
+    "de": "Paksi SE",
+    "es": "Paksi SE",
+    "fr": "Paksi SE",
+    "it": "Paksi SE",
+    "pt": "Paksi SE",
+    "ar": "باكسي إس إي"
+   },
+   "kickoffUtc": "2026-11-22T17:30:00Z",
+   "broadcasts": {
+    "HU": [
+     "M4 Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "basketball-20261122-real-madrid-baloncesto-joventut-badalona",
    "sport": "basketball",
    "competitionId": "acb",
@@ -8284,8 +9853,8 @@
    "kickoffUtc": "2026-11-22T18:00:00Z",
    "broadcasts": {
     "TR": [
-     "Spor Smart",
-     "Smart Spor HD"
+     "Smart Spor 2",
+     "Spor Smart 2"
     ]
    },
    "sources": [
@@ -8389,6 +9958,105 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261122-sarpsborg-08-lillestroem",
+   "sport": "football",
+   "competitionId": "eliteserien",
+   "tier": "regional",
+   "competition": {
+    "tr": "Norveç Eliteserien",
+    "en": "Eliteserien",
+    "de": "Eliteserien",
+    "es": "Eliteserien",
+    "fr": "Eliteserien",
+    "it": "Eliteserien",
+    "pt": "Eliteserien",
+    "ar": "الدوري النرويجي",
+    "nb": "Eliteserien"
+   },
+   "home": "Sarpsborg 08",
+   "away": "Lillestroem",
+   "homeNames": {
+    "tr": "Sarpsborg 08",
+    "en": "Sarpsborg 08",
+    "de": "Sarpsborg 08",
+    "es": "Sarpsborg 08",
+    "fr": "Sarpsborg 08",
+    "it": "Sarpsborg 08",
+    "pt": "Sarpsborg 08",
+    "ar": "ساربسبورج 08"
+   },
+   "awayNames": {
+    "tr": "Lillestroem",
+    "en": "Lillestroem",
+    "de": "Lillestroem",
+    "es": "Lillestroem",
+    "fr": "Lillestroem",
+    "it": "Lillestroem",
+    "pt": "Lillestroem",
+    "ar": "ليلستروم"
+   },
+   "kickoffUtc": "2026-11-22T18:15:00Z",
+   "broadcasts": {
+    "NO": [
+     "TV 2 Play"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261122-fc-arges-pitesti-fc-fcsb",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "FC Arges Pitesti",
+   "away": "FC FCSB",
+   "homeNames": {
+    "tr": "FC Arges Pitesti",
+    "en": "FC Arges Pitesti",
+    "de": "FC Arges Pitesti",
+    "es": "FC Arges Pitesti",
+    "fr": "FC Arges Pitesti",
+    "it": "FC Arges Pitesti",
+    "pt": "FC Arges Pitesti",
+    "ar": "إف سي آجريس بيتيستي"
+   },
+   "awayNames": {
+    "tr": "FC FCSB",
+    "en": "FC FCSB",
+    "de": "FC FCSB",
+    "es": "FC FCSB",
+    "fr": "FC FCSB",
+    "it": "FC FCSB",
+    "pt": "FC FCSB",
+    "ar": "ستياوا بوخارست"
+   },
+   "kickoffUtc": "2026-11-22T18:30:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -8876,6 +10544,9 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "GH": [
+     "SuperSport Football"
     ]
    },
    "sources": [
@@ -9077,6 +10748,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -9289,6 +10968,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
