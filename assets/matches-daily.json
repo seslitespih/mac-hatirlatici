@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-23T01:48:16.000Z",
+ "generated_at": "2026-11-23T13:54:06.000Z",
  "date": "2026-11-23",
  "model": "user-provided",
  "stats": {
-  "total": 51,
-  "withChannel": 51,
+  "total": 58,
+  "withChannel": 58,
   "bySport": {
-   "football": 37,
+   "football": 44,
    "basketball": 14
   },
   "warnings": 0,
@@ -2426,10 +2426,208 @@
     "PY": [
      "ESPN 4",
      "Disney+ Premium"
+    ],
+    "PT": [
+     "Canal 11"
+    ],
+    "SA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 1",
+     "ALKASS Six",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261123-el-gouna-fc-zamalek-sc",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "El Gouna FC",
+   "away": "Zamalek SC",
+   "homeNames": {
+    "tr": "El Gouna FC",
+    "en": "El Gouna FC",
+    "de": "El Gouna FC",
+    "es": "El Gouna FC",
+    "fr": "El Gouna FC",
+    "it": "El Gouna FC",
+    "pt": "El Gouna FC",
+    "ar": "الجونة"
+   },
+   "awayNames": {
+    "tr": "Zamalek SC",
+    "en": "Zamalek SC",
+    "de": "Zamalek SC",
+    "es": "Zamalek SC",
+    "fr": "Zamalek SC",
+    "it": "Zamalek SC",
+    "pt": "Zamalek SC",
+    "ar": "الزمالك"
+   },
+   "kickoffUtc": "2026-11-23T15:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport Max"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261123-wadi-degla-fc-al-ittihad-alexandria",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "Wadi Degla FC",
+   "away": "Al Ittihad Alexandria",
+   "homeNames": {
+    "tr": "Wadi Degla FC",
+    "en": "Wadi Degla FC",
+    "de": "Wadi Degla FC",
+    "es": "Wadi Degla FC",
+    "fr": "Wadi Degla FC",
+    "it": "Wadi Degla FC",
+    "pt": "Wadi Degla FC",
+    "ar": "وادي دجلة"
+   },
+   "awayNames": {
+    "tr": "Al Ittihad Alexandria",
+    "en": "Al Ittihad Alexandria",
+    "de": "Al Ittihad Alexandria",
+    "es": "Al Ittihad Alexandria",
+    "fr": "Al Ittihad Alexandria",
+    "it": "Al Ittihad Alexandria",
+    "pt": "Al Ittihad Alexandria",
+    "ar": "الاتحاد"
+   },
+   "kickoffUtc": "2026-11-23T15:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport Plus"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261123-asteras-tripolis-aris-thessaloniki-fc",
+   "sport": "football",
+   "competitionId": "greek_sl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Yunanistan Süper Ligi",
+    "en": "Greek Super League",
+    "de": "Griechische Super League",
+    "es": "Superliga de Grecia",
+    "fr": "Super League grecque",
+    "it": "Super League greca",
+    "pt": "Superliga Grega",
+    "ar": "الدوري اليوناني",
+    "el": "Super League Ελλάδας"
+   },
+   "home": "Asteras Tripolis",
+   "away": "Aris Thessaloniki FC",
+   "homeNames": {
+    "tr": "Asteras Tripolis",
+    "en": "Asteras Tripolis",
+    "de": "Asteras Tripolis",
+    "es": "Asteras Tripolis",
+    "fr": "Asteras Tripolis",
+    "it": "Asteras Tripolis",
+    "pt": "Asteras Tripolis",
+    "ar": "أستيراس تريبوليس"
+   },
+   "awayNames": {
+    "tr": "Aris Thessaloniki FC",
+    "en": "Aris Thessaloniki FC",
+    "de": "Aris Thessaloniki FC",
+    "es": "Aris Thessaloniki FC",
+    "fr": "Aris Thessaloniki FC",
+    "it": "Aris Thessaloniki FC",
+    "pt": "Aris Thessaloniki FC",
+    "ar": "آريس ثيسالونيكي إف سي"
+   },
+   "kickoffUtc": "2026-11-23T15:00:00Z",
+   "broadcasts": {
+    "GR": [
+     "Cosmote Sport",
+     "Nova Sports"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -2484,6 +2682,55 @@
      "beIN Sports 2",
      "beIN CONNECT",
      "TOD"
+    ],
+    "SA": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 2",
+     "ALKASS Six",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -2543,6 +2790,58 @@
      "beIN CONNECT",
      "TOD",
      "beIN Sports English 2"
+    ],
+    "PT": [
+     "Canal 11"
+    ],
+    "SA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 1",
+     "ALKASS Five",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -2600,10 +2899,107 @@
     "MA": [
      "beIN Sports 3",
      "beIN Sports English"
+    ],
+    "SA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 3",
+     "ALKASS Seven",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 3",
+     "TOD TV"
     ]
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261123-es-ben-aknoun-usm-alger",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "ES Ben Aknoun",
+   "away": "USM Alger",
+   "homeNames": {
+    "tr": "ES Ben Aknoun",
+    "en": "ES Ben Aknoun",
+    "de": "ES Ben Aknoun",
+    "es": "ES Ben Aknoun",
+    "fr": "ES Ben Aknoun",
+    "it": "ES Ben Aknoun",
+    "pt": "ES Ben Aknoun",
+    "ar": "نجم بن عكنون"
+   },
+   "awayNames": {
+    "tr": "USM Alger",
+    "en": "USM Alger",
+    "de": "USM Alger",
+    "es": "USM Alger",
+    "fr": "USM Alger",
+    "it": "USM Alger",
+    "pt": "USM Alger",
+    "ar": "اتحاد العاصمة"
+   },
+   "kickoffUtc": "2026-11-23T16:45:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -2806,6 +3202,153 @@
    ]
   },
   {
+   "id": "football-20261123-js-kabylie-mc-alger",
+   "sport": "football",
+   "competitionId": "alg_l1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Cezayir Ligue 1",
+    "en": "Algerian Ligue 1",
+    "de": "Algerische Ligue 1",
+    "es": "Liga de Argelia",
+    "fr": "Ligue 1 Mobilis",
+    "it": "Ligue 1 algerina",
+    "pt": "Liga Argelina",
+    "ar": "الرابطة الجزائرية المحترفة الأولى"
+   },
+   "home": "JS Kabylie",
+   "away": "MC Alger",
+   "homeNames": {
+    "tr": "JS Kabylie",
+    "en": "JS Kabylie",
+    "de": "JS Kabylie",
+    "es": "JS Kabylie",
+    "fr": "JS Kabylie",
+    "it": "JS Kabylie",
+    "pt": "JS Kabylie",
+    "ar": "شبيبة القبائل"
+   },
+   "awayNames": {
+    "tr": "MC Alger",
+    "en": "MC Alger",
+    "de": "MC Alger",
+    "es": "MC Alger",
+    "fr": "MC Alger",
+    "it": "MC Alger",
+    "pt": "MC Alger",
+    "ar": "مولودية الجزائر"
+   },
+   "kickoffUtc": "2026-11-23T18:00:00Z",
+   "broadcasts": {
+    "DZ": [
+     "ENTV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261123-al-ahly-sc-pyramids-fc",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "Al Ahly SC",
+   "away": "Pyramids FC",
+   "homeNames": {
+    "tr": "Al Ahly SC",
+    "en": "Al Ahly SC",
+    "de": "Al Ahly SC",
+    "es": "Al Ahly SC",
+    "fr": "Al Ahly SC",
+    "it": "Al Ahly SC",
+    "pt": "Al Ahly SC",
+    "ar": "الأهلي"
+   },
+   "awayNames": {
+    "tr": "Pyramids FC",
+    "en": "Pyramids FC",
+    "de": "Pyramids FC",
+    "es": "Pyramids FC",
+    "fr": "Pyramids FC",
+    "it": "Pyramids FC",
+    "pt": "Pyramids FC",
+    "ar": "بيراميدز"
+   },
+   "kickoffUtc": "2026-11-23T18:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport",
+     "On Sport Max"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261123-sepsi-osk-rapid-bucuresti",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "Sepsi OSK",
+   "away": "Rapid Bucuresti",
+   "homeNames": {
+    "tr": "Sepsi OSK",
+    "en": "Sepsi OSK",
+    "de": "Sepsi OSK",
+    "es": "Sepsi OSK",
+    "fr": "Sepsi OSK",
+    "it": "Sepsi OSK",
+    "pt": "Sepsi OSK",
+    "ar": "سيبسي"
+   },
+   "awayNames": {
+    "tr": "Rapid Bucuresti",
+    "en": "Rapid Bucuresti",
+    "de": "Rapid Bucuresti",
+    "es": "Rapid Bucuresti",
+    "fr": "Rapid Bucuresti",
+    "it": "Rapid Bucuresti",
+    "pt": "Rapid Bucuresti",
+    "ar": "رابيد بوخارست"
+   },
+   "kickoffUtc": "2026-11-23T18:00:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261123-al-ittihad-pakhtakor-tashkent",
    "sport": "football",
    "competitionId": "afc_cl",
@@ -2861,6 +3404,55 @@
      "beIN Sports 3",
      "beIN CONNECT",
      "TOD"
+    ],
+    "SA": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 3",
+     "ALKASS Seven",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 3",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 3",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -2920,6 +3512,55 @@
      "beIN Sports English 2",
      "beIN CONNECT",
      "TOD"
+    ],
+    "SA": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 1",
+     "ALKASS Five",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -3010,6 +3651,54 @@
      "beIN Sports 5",
      "beIN CONNECT",
      "TOD"
+    ],
+    "SA": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "QA": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "AE": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "EG": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "DZ": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "TN": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "IQ": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "JO": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "OM": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "LY": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "KW": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 5",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -3639,6 +4328,14 @@
     "GT": [
      "FOX Sports",
      "TNT Sports"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -3859,6 +4556,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
