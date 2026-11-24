@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-24T05:21:38.000Z",
+ "generated_at": "2026-11-24T14:26:30.000Z",
  "date": "2026-11-24",
  "model": "user-provided",
  "stats": {
-  "total": 65,
-  "withChannel": 65,
+  "total": 69,
+  "withChannel": 69,
   "bySport": {
-   "football": 46,
+   "football": 50,
    "basketball": 18,
    "volleyball": 1
   },
@@ -3633,6 +3633,102 @@
    ]
   },
   {
+   "id": "football-20261124-smouha-sc-national-bank",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "Smouha SC",
+   "away": "National Bank",
+   "homeNames": {
+    "tr": "Smouha SC",
+    "en": "Smouha SC",
+    "de": "Smouha SC",
+    "es": "Smouha SC",
+    "fr": "Smouha SC",
+    "it": "Smouha SC",
+    "pt": "Smouha SC",
+    "ar": "سموحة"
+   },
+   "awayNames": {
+    "tr": "National Bank",
+    "en": "National Bank",
+    "de": "National Bank",
+    "es": "National Bank",
+    "fr": "National Bank",
+    "it": "National Bank",
+    "pt": "National Bank",
+    "ar": "البنك الأهلي"
+   },
+   "kickoffUtc": "2026-11-24T15:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport Max"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261124-zed-fc-abo-qir-semad",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "ZED FC",
+   "away": "Abo Qir Semad",
+   "homeNames": {
+    "tr": "ZED FC",
+    "en": "ZED FC",
+    "de": "ZED FC",
+    "es": "ZED FC",
+    "fr": "ZED FC",
+    "it": "ZED FC",
+    "pt": "ZED FC",
+    "ar": "زد"
+   },
+   "awayNames": {
+    "tr": "Abo Qir Semad",
+    "en": "Abo Qir Semad",
+    "de": "Abo Qir Semad",
+    "es": "Abo Qir Semad",
+    "fr": "Abo Qir Semad",
+    "it": "Abo Qir Semad",
+    "pt": "Abo Qir Semad",
+    "ar": "أبو قير للأسمدة"
+   },
+   "kickoffUtc": "2026-11-24T15:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport Plus"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261124-shabab-al-ahli-dubai-fc-al-qadsiah",
    "sport": "football",
    "competitionId": "afc_cl",
@@ -4026,6 +4122,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4402,6 +4506,102 @@
    },
    "sources": [
     "euroleague.net"
+   ]
+  },
+  {
+   "id": "football-20261124-al-masry-sc-asyut-petroleum",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "Al Masry SC",
+   "away": "Asyut Petroleum",
+   "homeNames": {
+    "tr": "Al Masry SC",
+    "en": "Al Masry SC",
+    "de": "Al Masry SC",
+    "es": "Al Masry SC",
+    "fr": "Al Masry SC",
+    "it": "Al Masry SC",
+    "pt": "Al Masry SC",
+    "ar": "المصري"
+   },
+   "awayNames": {
+    "tr": "Asyut Petroleum",
+    "en": "Asyut Petroleum",
+    "de": "Asyut Petroleum",
+    "es": "Asyut Petroleum",
+    "fr": "Asyut Petroleum",
+    "it": "Asyut Petroleum",
+    "pt": "Asyut Petroleum",
+    "ar": "بترول أسيوط"
+   },
+   "kickoffUtc": "2026-11-24T18:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261124-al-mokawloon-al-arab-olympic-el-qanah-fc",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "Al Mokawloon Al Arab",
+   "away": "Olympic El Qanah FC",
+   "homeNames": {
+    "tr": "Al Mokawloon Al Arab",
+    "en": "Al Mokawloon Al Arab",
+    "de": "Al Mokawloon Al Arab",
+    "es": "Al Mokawloon Al Arab",
+    "fr": "Al Mokawloon Al Arab",
+    "it": "Al Mokawloon Al Arab",
+    "pt": "Al Mokawloon Al Arab",
+    "ar": "المقاولون العرب"
+   },
+   "awayNames": {
+    "tr": "Olympic El Qanah FC",
+    "en": "Olympic El Qanah FC",
+    "de": "Olympic El Qanah FC",
+    "es": "Olympic El Qanah FC",
+    "fr": "Olympic El Qanah FC",
+    "it": "Olympic El Qanah FC",
+    "pt": "Olympic El Qanah FC",
+    "ar": "القناة"
+   },
+   "kickoffUtc": "2026-11-24T18:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport Max"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -6602,6 +6802,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
