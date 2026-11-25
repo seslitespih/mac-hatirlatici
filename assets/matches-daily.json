@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-25T04:17:04.000Z",
+ "generated_at": "2026-11-25T13:44:56.000Z",
  "date": "2026-11-25",
  "model": "user-provided",
  "stats": {
-  "total": 68,
-  "withChannel": 68,
+  "total": 72,
+  "withChannel": 72,
   "bySport": {
-   "football": 31,
+   "football": 35,
    "basketball": 37
   },
   "warnings": 0,
@@ -1191,6 +1191,103 @@
    ]
   },
   {
+   "id": "football-20261125-radnicki-nis-zeleznicar-pancevo",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "Radnicki Nis",
+   "away": "Zeleznicar Pancevo",
+   "homeNames": {
+    "tr": "Radnicki Nis",
+    "en": "Radnicki Nis",
+    "de": "Radnicki Nis",
+    "es": "Radnicki Nis",
+    "fr": "Radnicki Nis",
+    "it": "Radnicki Nis",
+    "pt": "Radnicki Nis",
+    "ar": "رادنيكي إن."
+   },
+   "awayNames": {
+    "tr": "Zeleznicar Pancevo",
+    "en": "Zeleznicar Pancevo",
+    "de": "Zeleznicar Pancevo",
+    "es": "Zeleznicar Pancevo",
+    "fr": "Zeleznicar Pancevo",
+    "it": "Zeleznicar Pancevo",
+    "pt": "Zeleznicar Pancevo",
+    "ar": "زليزنكار بانسيفو"
+   },
+   "kickoffUtc": "2026-11-25T12:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261125-tala-ea-el-gaish-modern-sport-fc",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "Tala'ea El Gaish",
+   "away": "Modern Sport FC",
+   "homeNames": {
+    "tr": "Tala'ea El Gaish",
+    "en": "Tala'ea El Gaish",
+    "de": "Tala'ea El Gaish",
+    "es": "Tala'ea El Gaish",
+    "fr": "Tala'ea El Gaish",
+    "it": "Tala'ea El Gaish",
+    "pt": "Tala'ea El Gaish",
+    "ar": "الجيش"
+   },
+   "awayNames": {
+    "tr": "Modern Sport FC",
+    "en": "Modern Sport FC",
+    "de": "Modern Sport FC",
+    "es": "Modern Sport FC",
+    "fr": "Modern Sport FC",
+    "it": "Modern Sport FC",
+    "pt": "Modern Sport FC",
+    "ar": "مودرن سبورت"
+   },
+   "kickoffUtc": "2026-11-25T15:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport Max"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261125-al-faisaly-al-rayyan",
    "sport": "football",
    "competitionId": "fm_9469",
@@ -1238,6 +1335,46 @@
     ],
     "MA": [
      "beIN Sports 2"
+    ],
+    "TR": [
+     "Spor Smart 2"
+    ],
+    "SA": [
+     "beIN Sports MENA 3"
+    ],
+    "QA": [
+     "beIN Sports MENA 3",
+     "ALKASS Five"
+    ],
+    "AE": [
+     "beIN Sports MENA 3"
+    ],
+    "EG": [
+     "beIN Sports MENA 3"
+    ],
+    "DZ": [
+     "beIN Sports MENA 3"
+    ],
+    "TN": [
+     "beIN Sports MENA 3"
+    ],
+    "IQ": [
+     "beIN Sports MENA 3"
+    ],
+    "JO": [
+     "beIN Sports MENA 3"
+    ],
+    "OM": [
+     "beIN Sports MENA 3"
+    ],
+    "LY": [
+     "beIN Sports MENA 3"
+    ],
+    "KW": [
+     "beIN Sports MENA 3"
+    ],
+    "BH": [
+     "beIN Sports MENA 3"
     ]
    },
    "sources": [
@@ -1521,7 +1658,7 @@
    "kickoffUtc": "2026-11-25T17:00:00Z",
    "broadcasts": {
     "TR": [
-     "EuroLeague Women Youtube"
+     "FB TV"
     ]
    },
    "sources": [
@@ -2063,6 +2200,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -2286,6 +2431,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -2486,6 +2639,102 @@
    ]
   },
   {
+   "id": "football-20261125-al-sharkeyah-enppi-ceramica-cleopatra",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "Al Sharkeyah-ENPPI",
+   "away": "Ceramica Cleopatra",
+   "homeNames": {
+    "tr": "Al Sharkeyah-ENPPI",
+    "en": "Al Sharkeyah-ENPPI",
+    "de": "Al Sharkeyah-ENPPI",
+    "es": "Al Sharkeyah-ENPPI",
+    "fr": "Al Sharkeyah-ENPPI",
+    "it": "Al Sharkeyah-ENPPI",
+    "pt": "Al Sharkeyah-ENPPI",
+    "ar": "الشرقية إنبي"
+   },
+   "awayNames": {
+    "tr": "Ceramica Cleopatra",
+    "en": "Ceramica Cleopatra",
+    "de": "Ceramica Cleopatra",
+    "es": "Ceramica Cleopatra",
+    "fr": "Ceramica Cleopatra",
+    "it": "Ceramica Cleopatra",
+    "pt": "Ceramica Cleopatra",
+    "ar": "سيراميكا كليوباترا"
+   },
+   "kickoffUtc": "2026-11-25T18:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport Max"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261125-ghazl-al-mahalla-petrojet-suez",
+   "sport": "football",
+   "competitionId": "egypt_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Mısır Premier Ligi",
+    "en": "Egyptian Premier League",
+    "de": "Ägyptische Premier League",
+    "es": "Liga Premier de Egipto",
+    "fr": "Championnat d'Égypte",
+    "it": "Premier League egiziana",
+    "pt": "Liga Premier do Egito",
+    "ar": "الدوري المصري الممتاز"
+   },
+   "home": "Ghazl Al Mahalla",
+   "away": "Petrojet-Suez",
+   "homeNames": {
+    "tr": "Ghazl Al Mahalla",
+    "en": "Ghazl Al Mahalla",
+    "de": "Ghazl Al Mahalla",
+    "es": "Ghazl Al Mahalla",
+    "fr": "Ghazl Al Mahalla",
+    "it": "Ghazl Al Mahalla",
+    "pt": "Ghazl Al Mahalla",
+    "ar": "غزل المحلة"
+   },
+   "awayNames": {
+    "tr": "Petrojet-Suez",
+    "en": "Petrojet-Suez",
+    "de": "Petrojet-Suez",
+    "es": "Petrojet-Suez",
+    "fr": "Petrojet-Suez",
+    "it": "Petrojet-Suez",
+    "pt": "Petrojet-Suez",
+    "ar": "السويس بتروجيت"
+   },
+   "kickoffUtc": "2026-11-25T18:00:00Z",
+   "broadcasts": {
+    "EG": [
+     "On Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261125-al-taawoun-al-nahda",
    "sport": "football",
    "competitionId": "fm_9469",
@@ -2533,6 +2782,46 @@
     ],
     "MA": [
      "beIN Sports 9"
+    ],
+    "TR": [
+     "Spor Smart 2"
+    ],
+    "SA": [
+     "beIN Sports MENA 9"
+    ],
+    "QA": [
+     "beIN Sports MENA 9",
+     "ALKASS Seven"
+    ],
+    "AE": [
+     "beIN Sports MENA 9"
+    ],
+    "EG": [
+     "beIN Sports MENA 9"
+    ],
+    "DZ": [
+     "beIN Sports MENA 9"
+    ],
+    "TN": [
+     "beIN Sports MENA 9"
+    ],
+    "IQ": [
+     "beIN Sports MENA 9"
+    ],
+    "JO": [
+     "beIN Sports MENA 9"
+    ],
+    "OM": [
+     "beIN Sports MENA 9"
+    ],
+    "LY": [
+     "beIN Sports MENA 9"
+    ],
+    "KW": [
+     "beIN Sports MENA 9"
+    ],
+    "BH": [
+     "beIN Sports MENA 9"
     ]
    },
    "sources": [
@@ -3659,6 +3948,42 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "SA": [
+     "beIN Sports MAX 4"
+    ],
+    "QA": [
+     "beIN Sports MAX 4"
+    ],
+    "AE": [
+     "beIN Sports MAX 4"
+    ],
+    "EG": [
+     "beIN Sports MAX 4"
+    ],
+    "DZ": [
+     "beIN Sports MAX 4"
+    ],
+    "TN": [
+     "beIN Sports MAX 4"
+    ],
+    "IQ": [
+     "beIN Sports MAX 4"
+    ],
+    "JO": [
+     "beIN Sports MAX 4"
+    ],
+    "OM": [
+     "beIN Sports MAX 4"
+    ],
+    "LY": [
+     "beIN Sports MAX 4"
+    ],
+    "KW": [
+     "beIN Sports MAX 4"
+    ],
+    "BH": [
+     "beIN Sports MAX 4"
     ]
    },
    "sources": [
@@ -3877,6 +4202,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 1",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 1",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4088,6 +4421,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 4",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 4",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4293,6 +4634,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 6",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 6",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4500,6 +4849,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 2",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 2",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -4710,6 +5067,12 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 3"
+    ],
+    "BH": [
+     "beIN Sports MENA 3"
     ]
    },
    "sources": [
@@ -4920,6 +5283,14 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 5",
+     "TOD TV"
+    ],
+    "BH": [
+     "beIN Sports MENA 5",
+     "TOD TV"
     ]
    },
    "sources": [
@@ -5122,6 +5493,12 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "KW": [
+     "beIN Sports MENA 8"
+    ],
+    "BH": [
+     "beIN Sports MENA 8"
     ]
    },
    "sources": [
@@ -5525,6 +5902,30 @@
      "Win Sports",
      "Win Fútbol +",
      "Win Play"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "ES": [
+     "RCN Nuestra Tele"
+    ],
+    "BR": [
+     "RCN Nuestra Tele"
+    ],
+    "AR": [
+     "RCN Nuestra Tele"
+    ],
+    "MX": [
+     "RCN Nuestra Tele"
+    ],
+    "PE": [
+     "RCN Nuestra Tele"
+    ],
+    "UY": [
+     "RCN Nuestra Tele"
+    ],
+    "CL": [
+     "RCN Nuestra Tele"
     ]
    },
    "sources": [
@@ -7066,6 +7467,30 @@
     "CO": [
      "Win Fútbol +",
      "Win Play"
+    ],
+    "PT": [
+     "Fanatiz"
+    ],
+    "ES": [
+     "RCN Nuestra Tele"
+    ],
+    "BR": [
+     "RCN Nuestra Tele"
+    ],
+    "AR": [
+     "RCN Nuestra Tele"
+    ],
+    "MX": [
+     "RCN Nuestra Tele"
+    ],
+    "PE": [
+     "RCN Nuestra Tele"
+    ],
+    "UY": [
+     "RCN Nuestra Tele"
+    ],
+    "CL": [
+     "RCN Nuestra Tele"
     ]
    },
    "sources": [
