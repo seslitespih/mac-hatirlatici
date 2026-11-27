@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-27T03:40:08.000Z",
+ "generated_at": "2026-11-27T13:21:18.000Z",
  "date": "2026-11-27",
  "model": "user-provided",
  "stats": {
-  "total": 55,
-  "withChannel": 55,
+  "total": 62,
+  "withChannel": 62,
   "bySport": {
-   "football": 40,
+   "football": 47,
    "motorsport": 4,
    "basketball": 11
   },
@@ -362,6 +362,58 @@
    },
    "sources": [
     "sporekrani.com"
+   ]
+  },
+  {
+   "id": "football-20261127-imisli-fk-shafa",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "Imisli FK",
+   "away": "Shafa",
+   "homeNames": {
+    "tr": "Imisli FK",
+    "en": "Imisli FK",
+    "de": "Imisli FK",
+    "es": "Imisli FK",
+    "fr": "Imisli FK",
+    "it": "Imisli FK",
+    "pt": "Imisli FK",
+    "ar": "Imisli FK"
+   },
+   "awayNames": {
+    "tr": "Shafa",
+    "en": "Shafa",
+    "de": "Shafa",
+    "es": "Shafa",
+    "fr": "Shafa",
+    "it": "Shafa",
+    "pt": "Shafa",
+    "ar": "شافا"
+   },
+   "kickoffUtc": "2026-11-27T10:30:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -786,11 +838,180 @@
     ],
     "FR": [
      "DAZN"
+    ],
+    "AR": [
+     "Somos FOX YouTube"
+    ],
+    "CO": [
+     "Somos FOX YouTube"
+    ],
+    "CL": [
+     "Somos FOX YouTube"
+    ],
+    "UY": [
+     "Somos FOX YouTube"
+    ],
+    "PE": [
+     "Somos FOX YouTube"
+    ],
+    "PY": [
+     "Somos FOX YouTube"
     ]
    },
    "sources": [
     "fotmob",
     "kooora"
+   ]
+  },
+  {
+   "id": "football-20261127-fk-neftchi-zira",
+   "sport": "football",
+   "competitionId": "aze_pl",
+   "tier": "regional",
+   "competition": {
+    "tr": "Azerbaycan Premyer Liqası",
+    "en": "Azerbaijan Premier League",
+    "de": "Aserbaidschanische Premier League",
+    "es": "Liga Premier de Azerbaiyán",
+    "fr": "Premier League azerbaïdjanaise",
+    "it": "Premier League azera",
+    "pt": "Primeira Liga do Azerbaijão",
+    "ar": "الدوري الأذربيجاني الممتاز"
+   },
+   "home": "FK Neftchi",
+   "away": "Zira",
+   "homeNames": {
+    "tr": "FK Neftchi",
+    "en": "FK Neftchi",
+    "de": "FK Neftchi",
+    "es": "FK Neftchi",
+    "fr": "FK Neftchi",
+    "it": "FK Neftchi",
+    "pt": "FK Neftchi",
+    "ar": "إف ك نيفتكي"
+   },
+   "awayNames": {
+    "tr": "Zira",
+    "en": "Zira",
+    "de": "Zira",
+    "es": "Zira",
+    "fr": "Zira",
+    "it": "Zira",
+    "pt": "Zira",
+    "ar": "زيره"
+   },
+   "kickoffUtc": "2026-11-27T15:00:00Z",
+   "broadcasts": {
+    "TR": [
+     "Idman TV"
+    ],
+    "AZ": [
+     "CBC Sport",
+     "Idman TV"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261127-universitatea-cluj-sepsi-osk",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "Universitatea Cluj",
+   "away": "Sepsi OSK",
+   "homeNames": {
+    "tr": "Universitatea Cluj",
+    "en": "Universitatea Cluj",
+    "de": "Universitatea Cluj",
+    "es": "Universitatea Cluj",
+    "fr": "Universitatea Cluj",
+    "it": "Universitatea Cluj",
+    "pt": "Universitatea Cluj",
+    "ar": "يونيفيرسيتاتي كلوج"
+   },
+   "awayNames": {
+    "tr": "Sepsi OSK",
+    "en": "Sepsi OSK",
+    "de": "Sepsi OSK",
+    "es": "Sepsi OSK",
+    "fr": "Sepsi OSK",
+    "it": "Sepsi OSK",
+    "pt": "Sepsi OSK",
+    "ar": "سيبسي"
+   },
+   "kickoffUtc": "2026-11-27T15:30:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261127-fk-imt-beograd-macva-sabac",
+   "sport": "football",
+   "competitionId": "rs_superliga",
+   "tier": "regional",
+   "competition": {
+    "tr": "Sırbistan SuperLiga",
+    "en": "Serbian SuperLiga",
+    "de": "Serbische SuperLiga",
+    "es": "SuperLiga de Serbia",
+    "fr": "SuperLiga serbe",
+    "it": "SuperLiga serba",
+    "pt": "SuperLiga Sérvia",
+    "ar": "الدوري الصربي",
+    "sr": "Superliga Srbije"
+   },
+   "home": "FK IMT Beograd",
+   "away": "Macva Sabac",
+   "homeNames": {
+    "tr": "FK IMT Beograd",
+    "en": "FK IMT Beograd",
+    "de": "FK IMT Beograd",
+    "es": "FK IMT Beograd",
+    "fr": "FK IMT Beograd",
+    "it": "FK IMT Beograd",
+    "pt": "FK IMT Beograd",
+    "ar": "اي ايم تي نوفي بيوغراد"
+   },
+   "awayNames": {
+    "tr": "Macva Sabac",
+    "en": "Macva Sabac",
+    "de": "Macva Sabac",
+    "es": "Macva Sabac",
+    "fr": "Macva Sabac",
+    "it": "Macva Sabac",
+    "pt": "Macva Sabac",
+    "ar": "ماكفا"
+   },
+   "kickoffUtc": "2026-11-27T16:00:00Z",
+   "broadcasts": {
+    "RS": [
+     "Arena Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -1021,6 +1242,9 @@
     ],
     "DE": [
      "Digiturk Euro"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
     ]
    },
    "sources": [
@@ -1124,7 +1348,46 @@
    "broadcasts": {
     "TR": [
      "TRT Türk",
-     "beIN Sports beIN Connect"
+     "beIN Sports Max 1"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "MA": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -1172,7 +1435,46 @@
    "broadcasts": {
     "TR": [
      "TRT Spor",
-     "beIN Sports beIN Connect"
+     "beIN Sports Max 2"
+    ],
+    "SA": [
+     "TOD TV"
+    ],
+    "QA": [
+     "TOD TV"
+    ],
+    "AE": [
+     "TOD TV"
+    ],
+    "EG": [
+     "TOD TV"
+    ],
+    "MA": [
+     "TOD TV"
+    ],
+    "DZ": [
+     "TOD TV"
+    ],
+    "TN": [
+     "TOD TV"
+    ],
+    "IQ": [
+     "TOD TV"
+    ],
+    "JO": [
+     "TOD TV"
+    ],
+    "OM": [
+     "TOD TV"
+    ],
+    "LY": [
+     "TOD TV"
+    ],
+    "KW": [
+     "TOD TV"
+    ],
+    "BH": [
+     "TOD TV"
     ]
    },
    "sources": [
@@ -1386,6 +1688,48 @@
     ],
     "PY": [
      "Disney+ Premium"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
+    ],
+    "SA": [
+     "MBC Shahid"
+    ],
+    "QA": [
+     "MBC Shahid"
+    ],
+    "AE": [
+     "MBC Shahid"
+    ],
+    "EG": [
+     "MBC Shahid"
+    ],
+    "MA": [
+     "MBC Shahid"
+    ],
+    "DZ": [
+     "MBC Shahid"
+    ],
+    "TN": [
+     "MBC Shahid"
+    ],
+    "IQ": [
+     "MBC Shahid"
+    ],
+    "JO": [
+     "MBC Shahid"
+    ],
+    "OM": [
+     "MBC Shahid"
+    ],
+    "LY": [
+     "MBC Shahid"
+    ],
+    "KW": [
+     "MBC Shahid"
+    ],
+    "BH": [
+     "MBC Shahid"
     ]
    },
    "sources": [
@@ -1628,6 +1972,42 @@
     ],
     "FR": [
      "DAZN"
+    ],
+    "ES": [
+     "OneFootball"
+    ],
+    "HR": [
+     "MAXtv To Go"
+    ],
+    "AR": [
+     "OneFootball",
+     "Somos FOX YouTube"
+    ],
+    "JP": [
+     "OneFootball"
+    ],
+    "CO": [
+     "OneFootball",
+     "Somos FOX YouTube"
+    ],
+    "CL": [
+     "OneFootball",
+     "Somos FOX YouTube"
+    ],
+    "UY": [
+     "OneFootball",
+     "Somos FOX YouTube"
+    ],
+    "PE": [
+     "OneFootball",
+     "Somos FOX YouTube"
+    ],
+    "EC": [
+     "OneFootball"
+    ],
+    "PY": [
+     "OneFootball",
+     "Somos FOX YouTube"
     ]
    },
    "sources": [
@@ -1684,6 +2064,54 @@
    ]
   },
   {
+   "id": "football-20261127-us-amal-tiznit-mat-tetouan",
+   "sport": "football",
+   "competitionId": "botola",
+   "tier": "regional",
+   "competition": {
+    "tr": "Fas Botola Pro",
+    "en": "Botola Pro",
+    "de": "Botola Pro",
+    "es": "Botola Pro",
+    "fr": "Botola Pro",
+    "it": "Botola Pro",
+    "pt": "Botola Pro",
+    "ar": "البطولة الاحترافية"
+   },
+   "home": "US Amal Tiznit",
+   "away": "MAT Tetouan",
+   "homeNames": {
+    "tr": "US Amal Tiznit",
+    "en": "US Amal Tiznit",
+    "de": "US Amal Tiznit",
+    "es": "US Amal Tiznit",
+    "fr": "US Amal Tiznit",
+    "it": "US Amal Tiznit",
+    "pt": "US Amal Tiznit",
+    "ar": "أمل تيزنيت"
+   },
+   "awayNames": {
+    "tr": "MAT Tetouan",
+    "en": "MAT Tetouan",
+    "de": "MAT Tetouan",
+    "es": "MAT Tetouan",
+    "fr": "MAT Tetouan",
+    "it": "MAT Tetouan",
+    "pt": "MAT Tetouan",
+    "ar": "المغرب التطواني"
+   },
+   "kickoffUtc": "2026-11-27T18:00:00Z",
+   "broadcasts": {
+    "MA": [
+     "SNRT Live"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
    "id": "football-20261127-grazer-ak-altach",
    "sport": "football",
    "competitionId": "aut_bundesliga",
@@ -1731,6 +2159,105 @@
    },
    "sources": [
     "fotmob"
+   ]
+  },
+  {
+   "id": "football-20261127-gyori-eto-debrecen",
+   "sport": "football",
+   "competitionId": "hu_nb1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Macaristan NB I",
+    "en": "Hungarian NB I",
+    "de": "Ungarische NB I",
+    "es": "NB I de Hungría",
+    "fr": "NB I hongroise",
+    "it": "NB I ungherese",
+    "pt": "NB I da Hungria",
+    "ar": "الدوري المجري",
+    "hu": "NB I"
+   },
+   "home": "Gyori ETO",
+   "away": "Debrecen",
+   "homeNames": {
+    "tr": "Gyori ETO",
+    "en": "Gyori ETO",
+    "de": "Gyori ETO",
+    "es": "Gyori ETO",
+    "fr": "Gyori ETO",
+    "it": "Gyori ETO",
+    "pt": "Gyori ETO",
+    "ar": "جيور"
+   },
+   "awayNames": {
+    "tr": "Debrecen",
+    "en": "Debrecen",
+    "de": "Debrecen",
+    "es": "Debrecen",
+    "fr": "Debrecen",
+    "it": "Debrecen",
+    "pt": "Debrecen",
+    "ar": "ديبريتشين"
+   },
+   "kickoffUtc": "2026-11-27T18:30:00Z",
+   "broadcasts": {
+    "HU": [
+     "M4 Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
+   ]
+  },
+  {
+   "id": "football-20261127-petrolul-ploiesti-fc-arges-pitesti",
+   "sport": "football",
+   "competitionId": "ro_liga1",
+   "tier": "regional",
+   "competition": {
+    "tr": "Romanya SuperLiga",
+    "en": "Romanian SuperLiga",
+    "de": "Rumänische SuperLiga",
+    "es": "SuperLiga de Rumanía",
+    "fr": "SuperLiga roumaine",
+    "it": "SuperLiga rumena",
+    "pt": "SuperLiga Romena",
+    "ar": "الدوري الروماني",
+    "ro": "SuperLiga"
+   },
+   "home": "Petrolul Ploiesti",
+   "away": "FC Arges Pitesti",
+   "homeNames": {
+    "tr": "Petrolul Ploiesti",
+    "en": "Petrolul Ploiesti",
+    "de": "Petrolul Ploiesti",
+    "es": "Petrolul Ploiesti",
+    "fr": "Petrolul Ploiesti",
+    "it": "Petrolul Ploiesti",
+    "pt": "Petrolul Ploiesti",
+    "ar": "بترولول"
+   },
+   "awayNames": {
+    "tr": "FC Arges Pitesti",
+    "en": "FC Arges Pitesti",
+    "de": "FC Arges Pitesti",
+    "es": "FC Arges Pitesti",
+    "fr": "FC Arges Pitesti",
+    "it": "FC Arges Pitesti",
+    "pt": "FC Arges Pitesti",
+    "ar": "إف سي آجريس بيتيستي"
+   },
+   "kickoffUtc": "2026-11-27T18:30:00Z",
+   "broadcasts": {
+    "RO": [
+     "Digi Sport",
+     "Prima Sport"
+    ]
+   },
+   "sources": [
+    "kooora",
+    "goal.com"
    ]
   },
   {
@@ -1951,6 +2478,9 @@
     ],
     "ZA": [
      "Sporty TV"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
     ]
    },
    "sources": [
@@ -2152,6 +2682,9 @@
     "BH": [
      "MBC Shahid",
      "beIN Sports MAX 4"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
     ]
    },
    "sources": [
@@ -2348,6 +2881,9 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
     ]
    },
    "sources": [
@@ -2543,6 +3079,9 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "AT": [
+     "DAZN"
     ]
    },
    "sources": [
@@ -3024,6 +3563,9 @@
     "BH": [
      "beIN Sports MENA 4",
      "TOD TV"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
     ]
    },
    "sources": [
@@ -3244,6 +3786,9 @@
     ],
     "ML": [
      "Canal+"
+    ],
+    "NZ": [
+     "beIN Sports Connect New Zealand"
     ]
    },
    "sources": [
@@ -3361,6 +3906,9 @@
     ],
     "PY": [
      "Tigo Sports"
+    ],
+    "PT": [
+     "Fanatiz"
     ]
    },
    "sources": [
@@ -3583,6 +4131,9 @@
     ],
     "PY": [
      "Tigo Sports"
+    ],
+    "PT": [
+     "Fanatiz"
     ]
    },
    "sources": [
